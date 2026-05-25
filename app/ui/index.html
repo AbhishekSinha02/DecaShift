@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f1117">
+  <title>DecaShift — 10X Goal Execution</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN 0 — User Registration
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-registration" class="screen active">
+    <div class="reg-wrap">
+
+      <div class="brand">
+        <div class="brand-logo">DS</div>
+        <h1 class="brand-name">DecaShift</h1>
+        <p class="brand-tagline">Answer. Track. Improve. Repeat.</p>
+      </div>
+
+      <div class="card reg-card">
+        <h2>Let's get you started</h2>
+        <p class="subtitle">Your details help track progress across sessions</p>
+
+        <form id="registration-form" novalidate autocomplete="on">
+
+          <div class="form-group">
+            <label for="reg-name">Full Name <span class="required">*</span></label>
+            <input
+              type="text"
+              id="reg-name"
+              name="name"
+              placeholder="Abhishek Sinha"
+              autocomplete="name"
+              required
+            >
+            <span class="field-error" id="err-name"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-email">Email Address <span class="required">*</span></label>
+            <input
+              type="email"
+              id="reg-email"
+              name="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+              required
+            >
+            <span class="field-error" id="err-email"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-mobile">Mobile Number <span class="required">*</span></label>
+            <div class="input-with-prefix">
+              <span class="input-prefix">+91</span>
+              <input
+                type="tel"
+                id="reg-mobile"
+                name="mobile"
+                placeholder="9876543210"
+                autocomplete="tel-national"
+                maxlength="10"
+                inputmode="numeric"
+                required
+              >
+            </div>
+            <span class="field-error" id="err-mobile"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-role">Role / Designation <span class="required">*</span></label>
+            <select id="reg-role" name="role" required>
+              <option value="">Select your role…</option>
+              <option value="software-engineer">Software Engineer</option>
+              <option value="devops-engineer">DevOps / Platform Engineer</option>
+              <option value="data-engineer">Data Engineer</option>
+              <option value="ml-engineer">ML / AI Engineer</option>
+              <option value="cloud-architect">Cloud Architect</option>
+              <option value="sre">Site Reliability Engineer</option>
+              <option value="product-manager">Product Manager</option>
+              <option value="student">Student</option>
+              <option value="other">Other</option>
+            </select>
+            <span class="field-error" id="err-role"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-company">
+              Company / Organization
+              <span class="optional">(optional)</span>
+            </label>
+            <input
+              type="text"
+              id="reg-company"
+              name="company"
+              placeholder="Your company or institute"
+              autocomplete="organization"
+            >
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" id="reg-submit">
+            <span class="btn-text">Get Started &rarr;</span>
+            <span class="btn-loader hidden">Saving profile&hellip;</span>
+          </button>
+
+          <p class="sync-note" id="sync-status">
+            Data is saved in your browser and optionally synced to Google Drive.
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN 1 — Home / Goal Select
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-home" class="screen">
+    <div class="home-wrap">
+
+      <div class="home-header">
+        <div>
+          <p class="home-sub">Good to see you</p>
+          <h1 class="home-title" id="user-greeting">Your Goals</h1>
+        </div>
+        <div class="user-chip">
+          <div class="user-avatar" id="user-avatar">?</div>
+          <span id="user-chip-name">—</span>
+        </div>
+      </div>
+
+      <div id="goals-list" class="goals-list">
+        <p class="text-muted">Loading goals&hellip;</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN 2 — Quiz
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-quiz" class="screen">
+    <div class="quiz-wrap">
+
+      <div class="quiz-header">
+        <span class="quiz-progress-text" id="quiz-progress-text">Question 1 of 10</span>
+        <div class="timer-badge" id="timer-display">00:00</div>
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" id="quiz-progress-fill" style="width:0%"></div>
+      </div>
+
+      <div class="question-card">
+        <p class="question-text" id="question-text">Loading&hellip;</p>
+      </div>
+
+      <div id="answer-list" class="answer-list"></div>
+
+      <div id="explanation-box" class="explanation-box hidden"></div>
+
+      <div class="quiz-actions">
+        <button
+          class="btn btn-primary"
+          id="submit-btn"
+          onclick="submitAnswer()"
+          disabled
+        >Submit Answer</button>
+        <button
+          class="btn btn-primary hidden"
+          id="next-btn"
+          onclick="nextQuestion()"
+        >Next &rarr;</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN 3 — Result Summary
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-result" class="screen">
+    <div class="result-wrap">
+
+      <div class="result-hero">
+        <p class="result-label">Session Complete</p>
+        <div class="result-score-big" id="result-score">— / —</div>
+        <div class="result-pct" id="result-pct">—%</div>
+        <div class="result-badge" id="result-badge">—</div>
+      </div>
+
+      <div class="card result-table-wrap">
+        <table class="result-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Question</th>
+              <th>Result</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody id="result-table-body"></tbody>
+        </table>
+      </div>
+
+      <div class="result-actions">
+        <button class="btn btn-primary" id="export-json-btn">Export JSON</button>
+        <button class="btn btn-primary" id="export-csv-btn">Export CSV</button>
+        <button class="btn btn-ghost"   id="restart-btn">Restart Goal</button>
+        <button class="btn btn-ghost"   id="back-home-btn">Back to Goals</button>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="storage.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

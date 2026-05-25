@@ -1,0 +1,152 @@
+[
+  {
+    "id": "q001",
+    "goalId": "azure-aks",
+    "question": "What is the purpose of Workload Identity in AKS?",
+    "options": [
+      "Assign managed identity to pods via OIDC federation",
+      "Store secrets directly in etcd",
+      "Enable RBAC on the cluster",
+      "Configure network policies for pods"
+    ],
+    "correctIndex": 0,
+    "explanation": "Workload Identity uses OIDC token federation to let pods assume Azure AD identities without storing credentials in the cluster.",
+    "difficulty": "medium",
+    "tags": ["identity", "security"]
+  },
+  {
+    "id": "q002",
+    "goalId": "azure-aks",
+    "question": "Which AKS networking mode supports Azure CNI with dynamic IP allocation?",
+    "options": [
+      "Kubenet",
+      "Azure CNI Overlay",
+      "Azure CNI with pod subnet delegation",
+      "Flannel"
+    ],
+    "correctIndex": 2,
+    "explanation": "Azure CNI with pod subnet delegation lets each pod get an IP from a dedicated subnet, enabling fine-grained network policy and direct pod routing.",
+    "difficulty": "hard",
+    "tags": ["networking"]
+  },
+  {
+    "id": "q003",
+    "goalId": "azure-aks",
+    "question": "What does the AKS cluster autoscaler do when a pod is Pending due to insufficient resources?",
+    "options": [
+      "Deletes existing pods to free resources",
+      "Scales up the number of nodes in the node pool",
+      "Increases the resource limits of the pending pod",
+      "Moves the pod to a different namespace"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cluster autoscaler watches for Pending pods and adds nodes to the node pool so the scheduler can place them.",
+    "difficulty": "easy",
+    "tags": ["scaling"]
+  },
+  {
+    "id": "q004",
+    "goalId": "azure-aks",
+    "question": "Which component in AKS is responsible for managing Azure Load Balancer rules for Kubernetes Services of type LoadBalancer?",
+    "options": [
+      "kube-proxy",
+      "CoreDNS",
+      "cloud-controller-manager",
+      "kubelet"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cloud-controller-manager interfaces with the Azure API to create and manage Load Balancer rules, public IPs, and related resources for LoadBalancer-type Services.",
+    "difficulty": "medium",
+    "tags": ["networking", "control-plane"]
+  },
+  {
+    "id": "q005",
+    "goalId": "azure-aks",
+    "question": "What is the recommended way to give an AKS pod access to an Azure Key Vault secret without storing credentials in the cluster?",
+    "options": [
+      "Mount the secret as an environment variable from a Kubernetes Secret",
+      "Use the Secrets Store CSI Driver with Workload Identity",
+      "Hardcode the service principal credentials in the pod spec",
+      "Use a DaemonSet to pull secrets on each node"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Secrets Store CSI Driver combined with Workload Identity lets pods mount Key Vault secrets without any credentials stored in the cluster.",
+    "difficulty": "medium",
+    "tags": ["security", "identity"]
+  },
+  {
+    "id": "q006",
+    "goalId": "mlops-interview",
+    "question": "What is the primary purpose of a Feature Store in an MLOps pipeline?",
+    "options": [
+      "To store trained model weights",
+      "To provide consistent, reusable feature computation for training and serving",
+      "To schedule model retraining jobs",
+      "To log model predictions in production"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Feature Store ensures the same feature logic runs at training time and serving time, eliminating training-serving skew.",
+    "difficulty": "medium",
+    "tags": ["feature-engineering", "architecture"]
+  },
+  {
+    "id": "q007",
+    "goalId": "mlops-interview",
+    "question": "Which metric would you monitor first to detect data drift in a production ML model?",
+    "options": [
+      "GPU utilization",
+      "Statistical distribution of input features over time",
+      "Number of API requests per minute",
+      "Model binary size"
+    ],
+    "correctIndex": 1,
+    "explanation": "Monitoring the statistical distribution of input features (e.g., PSI, KL divergence) detects data drift before it visibly degrades model performance.",
+    "difficulty": "medium",
+    "tags": ["monitoring", "drift"]
+  },
+  {
+    "id": "q008",
+    "goalId": "mlops-interview",
+    "question": "What does a Model Registry primarily store?",
+    "options": [
+      "Raw training datasets",
+      "Versioned model artifacts, metadata, and lineage",
+      "Feature definitions and transformations",
+      "CI/CD pipeline configurations"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Model Registry tracks versioned model artifacts along with metadata like metrics, parameters, and lineage so teams can audit, compare, and promote models.",
+    "difficulty": "easy",
+    "tags": ["model-registry"]
+  },
+  {
+    "id": "q009",
+    "goalId": "mlops-interview",
+    "question": "In a canary deployment for an ML model, what controls the traffic split between the old and new model?",
+    "options": [
+      "The feature store routing rules",
+      "A load balancer or service mesh weighted routing configuration",
+      "The model's accuracy threshold",
+      "The number of GPUs available"
+    ],
+    "correctIndex": 1,
+    "explanation": "Traffic splitting in a canary release is managed at the infrastructure layer — typically via a service mesh (Istio, Linkerd) or a load balancer with weighted routing.",
+    "difficulty": "medium",
+    "tags": ["deployment", "serving"]
+  },
+  {
+    "id": "q010",
+    "goalId": "mlops-interview",
+    "question": "What is the key difference between online and offline feature serving in a Feature Store?",
+    "options": [
+      "Offline serving uses GPUs; online serving uses CPUs",
+      "Online serving provides low-latency lookups for inference; offline serving provides batch data for training",
+      "Offline serving is encrypted; online serving is not",
+      "Online features are computed weekly; offline features are computed in real time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Online stores (e.g., Redis) serve features in milliseconds for real-time inference. Offline stores (e.g., S3, BigQuery) serve large historical datasets for model training.",
+    "difficulty": "medium",
+    "tags": ["feature-store", "serving"]
+  }
+]
