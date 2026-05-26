@@ -29,7 +29,8 @@ const state = {
   timerInterval: null,
   timerSeconds: 0,
   timerEnabled: localStorage.getItem('decashift_timer') !== 'off',
-  subjectFilter: 'all'
+  subjectFilter: 'all',
+  showArchivedGoals: false
 };
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
@@ -402,11 +403,15 @@ function _renderHome() {
     }
   }
 
-  const goals = state.subjectFilter === 'all'
+  const filteredGoals = state.subjectFilter === 'all'
     ? allGoals
     : allGoals.filter(g => g.subject === state.subjectFilter);
 
-  if (!goals.length) {
+  const archivedSet  = new Set(user.archivedGoals || []);
+  const goals        = filteredGoals.filter(g => !archivedSet.has(g.id));
+  const archivedGoals = filteredGoals.filter(g => archivedSet.has(g.id));
+
+  if (!goals.length && !archivedGoals.length) {
     const msg = !user.category
       ? '<p class="text-muted">Your profile is incomplete. <button class="link-btn" onclick="openEditProfile()">Complete your profile</button> to see your goals.</p>'
       : '<p class="text-muted">No goals found for your profile. More content coming soon!</p>';
@@ -414,13 +419,18 @@ function _renderHome() {
     return;
   }
 
-  list.innerHTML = goals.map(goal => {
+  const _cardHtml = (goal, isArchived) => {
     const count = state.questions.filter(q => q.goalId === goal.id).length;
     const last  = Storage.getLastSessionForGoal(goal.id);
     const score = last ? last.score + '/' + last.total : null;
-
+    const menuItems = isArchived
+      ? `<button class="goal-menu-item" onclick="_unarchiveGoal('${goal.id}')">↩ Unarchive</button>`
+      : `<button class="goal-menu-item" onclick="_archiveGoal('${goal.id}')">✓ Mark as done</button>
+         ${last ? `<button class="goal-menu-item" onclick="resetGoal('${goal.id}')">↺ Reset progress</button>` : ''}`;
     return `
-      <div class="goal-card">
+      <div class="goal-card${isArchived ? ' archived' : ''}" id="goal-card-${goal.id}">
+        <button class="goal-menu-btn" onclick="_toggleGoalMenu('${goal.id}', event)" title="Options">⋮</button>
+        <div class="goal-menu-dropdown" id="goal-menu-${goal.id}">${menuItems}</div>
         <div class="goal-info">
           <h3 class="goal-name">${_esc(goal.name)}</h3>
           <p class="goal-desc">${_esc(goal.description)}</p>
@@ -430,17 +440,78 @@ function _renderHome() {
           </div>
           <div class="goal-tags">${goal.tags.map(t => `<span class="tag">${_esc(t)}</span>`).join('')}</div>
         </div>
-        <div class="goal-actions">
+        ${!isArchived ? `<div class="goal-actions">
           <button class="btn btn-primary btn-sm" onclick="startGoal('${goal.id}')">${last ? 'Restart' : 'Start'}</button>
-          ${last ? `<button class="btn btn-ghost btn-sm" onclick="resetGoal('${goal.id}')">Reset</button>` : ''}
-        </div>
+        </div>` : ''}
       </div>`;
-  }).join('');
+  };
+
+  let html = goals.length
+    ? goals.map(g => _cardHtml(g, false)).join('')
+    : '<p class="text-muted" style="padding:8px 0">All goals marked as done. See completed below.</p>';
+
+  if (archivedGoals.length) {
+    const isOpen = state.showArchivedGoals;
+    html += `
+      <button class="archived-toggle" onclick="_toggleArchivedSection()">
+        ${isOpen ? '▲' : '▼'} Completed (${archivedGoals.length})
+      </button>
+      <div class="archived-section" style="display:${isOpen ? 'flex' : 'none'}">
+        ${archivedGoals.map(g => _cardHtml(g, true)).join('')}
+      </div>`;
+  }
+
+  list.innerHTML = html;
 }
 
 function resetGoal(goalId) {
+  _closeAllGoalMenus();
   if (!confirm('Clear all progress for this goal?')) return;
   Storage.clearSessionsForGoal(goalId);
+  _renderHome();
+}
+
+function _archiveGoal(goalId) {
+  _closeAllGoalMenus();
+  const user = state.user;
+  user.archivedGoals = [...new Set([...(user.archivedGoals || []), goalId])];
+  Storage.saveUser(user);
+  state.user = user;
+  const card = document.getElementById('goal-card-' + goalId);
+  if (card) {
+    card.style.transition = 'opacity 0.28s, transform 0.28s';
+    card.style.opacity    = '0';
+    card.style.transform  = 'scale(0.97)';
+    setTimeout(() => _renderHome(), 300);
+  } else {
+    _renderHome();
+  }
+}
+
+function _unarchiveGoal(goalId) {
+  _closeAllGoalMenus();
+  const user = state.user;
+  user.archivedGoals = (user.archivedGoals || []).filter(id => id !== goalId);
+  Storage.saveUser(user);
+  state.user = user;
+  _renderHome();
+}
+
+function _toggleGoalMenu(goalId, event) {
+  event.stopPropagation();
+  const menu = document.getElementById('goal-menu-' + goalId);
+  if (!menu) return;
+  const wasOpen = menu.classList.contains('open');
+  _closeAllGoalMenus();
+  if (!wasOpen) menu.classList.add('open');
+}
+
+function _closeAllGoalMenus() {
+  document.querySelectorAll('.goal-menu-dropdown.open').forEach(m => m.classList.remove('open'));
+}
+
+function _toggleArchivedSection() {
+  state.showArchivedGoals = !state.showArchivedGoals;
   _renderHome();
 }
 
@@ -652,6 +723,7 @@ function dismissWelcome() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('click', _closeAllGoalMenus);
 
 // ── Dev quick-fill (localhost only) — Ctrl+Shift+D pre-fills signup/signin ───
 

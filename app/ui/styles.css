@@ -561,6 +561,7 @@ select option { background: var(--surface-2); }
 .goals-list { display: flex; flex-direction: column; gap: 16px; }
 
 .goal-card {
+  position: relative;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -605,6 +606,87 @@ select option { background: var(--surface-2); }
   align-items: stretch;
   flex-shrink: 0;
 }
+
+/* Goal card overflow menu */
+.goal-menu-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s;
+  z-index: 1;
+}
+.goal-menu-btn:hover { background: var(--border); color: var(--text); }
+
+.goal-menu-dropdown {
+  display: none;
+  position: absolute;
+  top: 38px;
+  right: 10px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  min-width: 168px;
+  z-index: 50;
+  overflow: hidden;
+}
+.goal-menu-dropdown.open { display: block; }
+
+.goal-menu-item {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  text-align: left;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.12s;
+}
+.goal-menu-item:hover { background: var(--accent-dim); }
+
+/* Archived goals */
+.archived-toggle {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  color: var(--muted);
+  font-size: 12px;
+  font-family: var(--font-mono);
+  cursor: pointer;
+  margin-top: 8px;
+  transition: border-color 0.2s, color 0.2s;
+}
+.archived-toggle:hover { border-color: var(--accent); color: var(--accent); }
+
+.archived-section {
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.goal-card.archived {
+  opacity: 0.5;
+  border-style: dashed;
+}
+.goal-card.archived:hover { opacity: 0.72; transform: none; }
 
 /* ══════════════════════════════════════════════════════════════
    SCREEN 2 — Quiz
