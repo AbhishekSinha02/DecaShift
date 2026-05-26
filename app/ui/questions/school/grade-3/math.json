@@ -5,6 +5,7 @@
   "subject": "mathematics",
   "level": 1,
   "title": "Grade 3 Mathematics",
+  "description": "Multiplication, division, fractions, measurement, and place value",
   "questions": [
     {
       "id": "g3m-001",

@@ -5,6 +5,7 @@
   "subject": "mathematics",
   "level": 1,
   "title": "Grade 9 Mathematics",
+  "description": "Polynomials, coordinate geometry, triangles, and statistics",
   "questions": [
     {
       "id": "g9m-001",

@@ -5,6 +5,7 @@
   "subject": "mathematics",
   "level": 1,
   "title": "Grade 2 Mathematics",
+  "description": "Addition, subtraction, shapes, counting, and basic multiplication",
   "questions": [
     {
       "id": "g2m-001",

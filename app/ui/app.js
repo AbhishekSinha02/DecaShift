@@ -101,7 +101,7 @@ async function _loadQuestionsForUser(user) {
 
   results.filter(Boolean).forEach(file => {
     state.goals.push({
-      id: file.goalId, name: file.title || file.name, description: file.description,
+      id: file.goalId, name: file.title || file.name, description: file.description || '',
       category: file.category, grade: file.grade ?? null,
       subject: file.subject, level: file.level, tags: file.tags || []
     });

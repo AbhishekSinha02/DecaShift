@@ -5,6 +5,7 @@
   "subject": "mathematics",
   "level": 1,
   "title": "Grade 6 Mathematics",
+  "description": "Integers, fractions, basic algebra, ratio, and proportion",
   "questions": [
     {
       "id": "g6m-001",

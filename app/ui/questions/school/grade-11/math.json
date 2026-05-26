@@ -5,6 +5,7 @@
   "subject": "mathematics",
   "level": 1,
   "title": "Grade 11 Mathematics",
+  "description": "Functions, limits, trigonometry, and matrices",
   "questions": [
     {
       "id": "g11m-001",

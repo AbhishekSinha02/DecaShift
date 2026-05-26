@@ -5,6 +5,7 @@
   "subject": "mathematics",
   "level": 1,
   "title": "Grade 7 Mathematics",
+  "description": "Rational numbers, algebra, geometry, and data handling",
   "questions": [
     {
       "id": "g7m-001",
