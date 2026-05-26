@@ -53,7 +53,7 @@
 | [P2-T009](P2-T009-version-comparison-index-page.md) | Root index page listing all versions with links for side-by-side comparison | S | ✅ Done |
 | [P2-T010](P2-T010-local-dev-testing-setup.md) | Local dev testing setup — Live Server + Ctrl+Shift+D quick-fill | S | ✅ Done |
 | [P2-T011](P2-T011-manual-test-checklist.md) | Manual test checklist — all screens, auth flows, edge cases | S | Pending |
-| **[P2-T012](P2-T012-profile-edit-grade-change.md)** | **Profile edit — grade/role change without losing history** | **S** | **Pending** |
+| **[P2-T012](P2-T012-profile-edit-grade-change.md)** | **Profile edit — grade/role change without losing history** | **S** | **✅ Done** |
 | **[P2-T013](P2-T013-subscription-tier-design.md)** | **Subscription strategy — 15-day trial, soft lock, ₹199/month Pro** | **S** | **Pending** |
 | **[P2-T014](P2-T014-branding-logo-rename.md)** | **Branding — SVG logo, favicon, PWA icon, tagline** | **M** | **Pending** |
 | **[P2-T015](P2-T015-landing-page-improvements.md)** | **Landing page — real stats, screenshot, specific social proof, FAQ** | **M** | **Pending** |
@@ -77,11 +77,12 @@
 | **[P3-T010](P3-T010-per-user-session-folder-drive.md)** | **Per-user session folder in Drive — verified + future full user-root folder** | **S** | **✅ Already Implemented (Code.gs)** |
 | **[P3-T011](P3-T011-content-expansion-tracking.md)** | **Content expansion — 295 questions across 18 files, targets for 2 subjects/grade** | **S** | **🔄 In Progress (v3.2 adds 295q)** |
 | **[P3-T012](P3-T012-colorful-student-theme.md)** | **Colorful student theme (Grade 2–8) — 3rd theme option, warm/bright palette** | **M** | **Pending** |
-| **[P3-T013](P3-T013-regional-language-learning.md)** | **Regional language learning — Hindi, Marathi, Kannada, Tamil, Telugu, Malayalam** | **M** | **Pending** |
+| ~~[P3-T013](P3-T013-regional-language-learning.md)~~ | ~~Regional language learning (superseded by P3-T018)~~ | **M** | ❌ Superseded |
 | **[P3-T014](P3-T014-content-expansion-science-hindi-french-grade2-8.md)** | **Content expansion — Science, Hindi, French for grades 2–8 (22 new files, 264 questions)** | **M** | **✅ Done** |
 | **[P3-T015](P3-T015-personalized-questions-username-placeholder.md)** | **Personalized questions — {{userName}} placeholder replaced at render time** | **S** | **✅ Done** |
 | **[P3-T016](P3-T016-goal-archive-mark-as-done.md)** | **Goal archive — mark as done, hide from home, "Show completed (N)" toggle** | **S** | **✅ Done** |
 | **[P3-T017](P3-T017-weekly-question-sets.md)** | **Weekly question sets — date-gated, Mon–Sun, "This Week" card on home screen** | **M** | **✅ Done** |
+| **[P3-T018](P3-T018-regional-language-signup-profile.md)** | **Regional language — signup selection, settings, 120 questions (6 languages × 2 sets)** | **M** | **✅ Done** |
 | [P3-T004](P3-T004-avatar-profile-photo.md) | Avatar + profile photo upload | S | Pending |
 | [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
 | [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
@@ -180,6 +181,6 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 58 (1 cancelled) | P1: 13 | P2: 21 | P3: 17 | P4: 3 | P5: 6 | P6: 6*
+*Total tasks: 59 (1 cancelled, 1 superseded) | P1: 13 | P2: 21 | P3: 18 | P4: 3 | P5: 6 | P6: 6*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback*
 *New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*
