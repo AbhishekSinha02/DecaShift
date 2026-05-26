@@ -1,0 +1,181 @@
+{
+  "goalId": "regional-tamil-2",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-tamil",
+  "level": 2,
+  "title": "Tamil — Set 2",
+  "description": "Common phrases, nature, and question words",
+  "tags": [
+    "tamil",
+    "regional",
+    "phrases"
+  ],
+  "questions": [
+    {
+      "id": "tam2-001",
+      "question": "What does 'காலை வணக்கம்' (Kaalai Vanakkam) mean?",
+      "options": [
+        "Good night",
+        "Good afternoon",
+        "Good evening",
+        "Good morning"
+      ],
+      "correctIndex": 3,
+      "explanation": "'காலை வணக்கம்' = Good morning. 'காலை' = morning, 'வணக்கம்' = greetings.",
+      "difficulty": "easy",
+      "tags": [
+        "greetings",
+        "time"
+      ]
+    },
+    {
+      "id": "tam2-002",
+      "question": "What does 'சூரியன்' (Suryan) mean?",
+      "options": [
+        "Moon",
+        "Star",
+        "Planet",
+        "Sun"
+      ],
+      "correctIndex": 3,
+      "explanation": "'சூரியன்' means Sun in Tamil. The word is related to Sanskrit 'सूर्य'.",
+      "difficulty": "easy",
+      "tags": [
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "tam2-003",
+      "question": "What does 'மழை' (Mazhai) mean?",
+      "options": [
+        "Wind",
+        "Snow",
+        "Rain",
+        "Cloud"
+      ],
+      "correctIndex": 2,
+      "explanation": "'மழை' means rain in Tamil. Tamil Nadu's monsoon is called 'மழைக்காலம்'.",
+      "difficulty": "easy",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "tam2-004",
+      "question": "What does 'நண்பன்' (Nanban) mean?",
+      "options": [
+        "Enemy",
+        "Brother",
+        "Teacher",
+        "Friend"
+      ],
+      "correctIndex": 3,
+      "explanation": "'நண்பன்' means friend (male) in Tamil. 'நண்பி' is used for female friend.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "relationships"
+      ]
+    },
+    {
+      "id": "tam2-005",
+      "question": "How do you say 'two' in Tamil?",
+      "options": [
+        "ஒன்று",
+        "மூன்று",
+        "நான்கு",
+        "இரண்டு"
+      ],
+      "correctIndex": 3,
+      "explanation": "'இரண்டு' (Irandu) means two in Tamil.",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "tam2-006",
+      "question": "What does 'என் பெயர்' (En peyar) mean?",
+      "options": [
+        "My school",
+        "My home",
+        "My friend",
+        "My name"
+      ],
+      "correctIndex": 3,
+      "explanation": "'என் பெயர்' means 'my name'. Full sentence: 'என் பெயர் ___' = My name is ___.",
+      "difficulty": "easy",
+      "tags": [
+        "introductions"
+      ]
+    },
+    {
+      "id": "tam2-007",
+      "question": "What does 'நிலா' (Nila) mean?",
+      "options": [
+        "Sun",
+        "Star",
+        "Cloud",
+        "Moon"
+      ],
+      "correctIndex": 3,
+      "explanation": "'நிலா' means Moon in Tamil. It is also a popular Tamil name for girls.",
+      "difficulty": "easy",
+      "tags": [
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "tam2-008",
+      "question": "What does 'புத்தகம்' (Puthagam) mean?",
+      "options": [
+        "Pen",
+        "Bag",
+        "Desk",
+        "Book"
+      ],
+      "correctIndex": 3,
+      "explanation": "'புத்தகம்' means book in Tamil.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "school"
+      ]
+    },
+    {
+      "id": "tam2-009",
+      "question": "What does 'என்ன' (Enna) mean?",
+      "options": [
+        "When",
+        "Where",
+        "Who",
+        "What"
+      ],
+      "correctIndex": 3,
+      "explanation": "'என்ன' means What in Tamil. It is one of the most useful question words.",
+      "difficulty": "easy",
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tam2-010",
+      "question": "Tamil is one of the world's oldest languages. How many years old is it (approximately)?",
+      "options": [
+        "500 years",
+        "1000 years",
+        "Over 2000 years",
+        "100 years"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tamil is over 2,000 years old and is considered a classical language of India. It is one of the longest-surviving classical languages in the world.",
+      "difficulty": "easy",
+      "tags": [
+        "general-knowledge"
+      ]
+    }
+  ]
+}

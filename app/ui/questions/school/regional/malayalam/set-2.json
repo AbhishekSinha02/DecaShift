@@ -1,0 +1,179 @@
+{
+  "goalId": "regional-malayalam-2",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-malayalam",
+  "level": 2,
+  "title": "Malayalam — Set 2",
+  "description": "Common phrases, nature words, and question words",
+  "tags": [
+    "malayalam",
+    "regional",
+    "phrases"
+  ],
+  "questions": [
+    {
+      "id": "mal2-001",
+      "question": "What does 'പുസ്തകം' (Pusthakam) mean?",
+      "options": [
+        "Pen",
+        "Bag",
+        "Desk",
+        "Book"
+      ],
+      "correctIndex": 3,
+      "explanation": "'പുസ്തകം' means book in Malayalam. It comes from Sanskrit 'pustakam'.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "school"
+      ]
+    },
+    {
+      "id": "mal2-002",
+      "question": "What does 'സൂര്യൻ' (Suryan) mean?",
+      "options": [
+        "Moon",
+        "Star",
+        "Cloud",
+        "Sun"
+      ],
+      "correctIndex": 3,
+      "explanation": "'സൂര്യൻ' means Sun in Malayalam. Related to Sanskrit 'Surya'.",
+      "difficulty": "easy",
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "mal2-003",
+      "question": "What does 'മഴ' (Mazha) mean?",
+      "options": [
+        "Wind",
+        "Snow",
+        "Sunshine",
+        "Rain"
+      ],
+      "correctIndex": 3,
+      "explanation": "'മഴ' means rain in Malayalam. Kerala is famous for heavy monsoon rains.",
+      "difficulty": "easy",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "mal2-004",
+      "question": "What does 'കൂട്ടുകാരൻ' (Koottukaaran) mean?",
+      "options": [
+        "Enemy",
+        "Brother",
+        "Teacher",
+        "Friend"
+      ],
+      "correctIndex": 3,
+      "explanation": "'കൂട്ടുകാരൻ' means friend (male) in Malayalam. 'കൂട്ടുകാരി' for female friend.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "relationships"
+      ]
+    },
+    {
+      "id": "mal2-005",
+      "question": "How do you say 'two' in Malayalam?",
+      "options": [
+        "ഒന്ന്",
+        "മൂന്ന്",
+        "നാല്",
+        "രണ്ട്"
+      ],
+      "correctIndex": 3,
+      "explanation": "'രണ്ട്' (Randu) means two in Malayalam.",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "mal2-006",
+      "question": "What does 'മരം' (Maram) mean?",
+      "options": [
+        "River",
+        "Cloud",
+        "Mountain",
+        "Tree"
+      ],
+      "correctIndex": 3,
+      "explanation": "'മരം' means tree in Malayalam. 'മരങ്ങൾ' (Marangal) is the plural.",
+      "difficulty": "easy",
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "mal2-007",
+      "question": "What does 'രാത്രി' (Raathri) mean?",
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Night"
+      ],
+      "correctIndex": 3,
+      "explanation": "'രാത്രി' means night in Malayalam. 'രാവിലെ' = morning, 'വൈകുന്നേരം' = evening.",
+      "difficulty": "easy",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "mal2-008",
+      "question": "What does 'എന്ത്' (Enthu) mean?",
+      "options": [
+        "When",
+        "Where",
+        "Who",
+        "What"
+      ],
+      "correctIndex": 3,
+      "explanation": "'എന്ത്' means What in Malayalam. Example: 'നിന്റെ പേര് എന്ത്?' = What is your name?",
+      "difficulty": "easy",
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "mal2-009",
+      "question": "What does 'പാൽ' (Paal) mean?",
+      "options": [
+        "Water",
+        "Juice",
+        "Curd",
+        "Milk"
+      ],
+      "correctIndex": 3,
+      "explanation": "'പാൽ' means milk in Malayalam.",
+      "difficulty": "easy",
+      "tags": [
+        "food",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "mal2-010",
+      "question": "Malayalam is the official language of which Indian state?",
+      "options": [
+        "Tamil Nadu",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Kerala"
+      ],
+      "correctIndex": 3,
+      "explanation": "Malayalam is the official language of Kerala. It is also spoken in Lakshadweep and parts of Karnataka.",
+      "difficulty": "easy",
+      "tags": [
+        "general-knowledge"
+      ]
+    }
+  ]
+}

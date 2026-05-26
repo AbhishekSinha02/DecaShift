@@ -1,0 +1,181 @@
+{
+  "goalId": "regional-tamil-1",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-tamil",
+  "level": 1,
+  "title": "Tamil — Set 1",
+  "description": "Basic vocabulary: everyday Tamil words",
+  "tags": [
+    "tamil",
+    "regional",
+    "vocabulary"
+  ],
+  "questions": [
+    {
+      "id": "tam1-001",
+      "question": "What does 'வணக்கம்' (Vanakkam) mean?",
+      "options": [
+        "Goodbye",
+        "Thank you",
+        "Hello/Greetings",
+        "Good night"
+      ],
+      "correctIndex": 2,
+      "explanation": "'வணக்கம்' (Vanakkam) is the universal Tamil greeting meaning Hello or Greetings.",
+      "difficulty": "easy",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "tam1-002",
+      "question": "What does 'தண்ணீர்' (Thanneer) mean?",
+      "options": [
+        "Milk",
+        "Fire",
+        "Juice",
+        "Water"
+      ],
+      "correctIndex": 3,
+      "explanation": "'தண்ணீர்' means water in Tamil. It is one of the most essential Tamil words.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "basics"
+      ]
+    },
+    {
+      "id": "tam1-003",
+      "question": "What does 'அம்மா' (Amma) mean?",
+      "options": [
+        "Sister",
+        "Grandmother",
+        "Father",
+        "Mother"
+      ],
+      "correctIndex": 3,
+      "explanation": "'அம்மா' means Mother in Tamil. It is used lovingly across Tamil Nadu.",
+      "difficulty": "easy",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "tam1-004",
+      "question": "What does 'அப்பா' (Appa) mean?",
+      "options": [
+        "Uncle",
+        "Brother",
+        "Father",
+        "Grandfather"
+      ],
+      "correctIndex": 2,
+      "explanation": "'அப்பா' means Father in Tamil.",
+      "difficulty": "easy",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "tam1-005",
+      "question": "What does 'பள்ளி' (Palli) mean?",
+      "options": [
+        "Home",
+        "Hospital",
+        "Temple",
+        "School"
+      ],
+      "correctIndex": 3,
+      "explanation": "'பள்ளி' means school in Tamil. Children attend பள்ளி to study.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "tam1-006",
+      "question": "How do you say 'one' in Tamil?",
+      "options": [
+        "இரண்டு",
+        "மூன்று",
+        "நான்கு",
+        "ஒன்று"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ஒன்று' (Ondru) means one. Numbers: ஒன்று (1), இரண்டு (2), மூன்று (3).",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "tam1-007",
+      "question": "What does 'வீடு' (Veedu) mean?",
+      "options": [
+        "Road",
+        "Garden",
+        "House/Home",
+        "Market"
+      ],
+      "correctIndex": 2,
+      "explanation": "'வீடு' means house or home in Tamil.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "tam1-008",
+      "question": "What does 'நன்றி' (Nandri) mean?",
+      "options": [
+        "Sorry",
+        "Please",
+        "Hello",
+        "Thank you"
+      ],
+      "correctIndex": 3,
+      "explanation": "'நன்றி' means Thank you in Tamil. It is a polite expression of gratitude.",
+      "difficulty": "easy",
+      "tags": [
+        "phrases",
+        "politeness"
+      ]
+    },
+    {
+      "id": "tam1-009",
+      "question": "What does 'ஆம்' (Aam) mean?",
+      "options": [
+        "No",
+        "Maybe",
+        "Yes",
+        "Please"
+      ],
+      "correctIndex": 2,
+      "explanation": "'ஆம்' means Yes in Tamil. 'இல்லை' (Illai) means No.",
+      "difficulty": "easy",
+      "tags": [
+        "common-words"
+      ]
+    },
+    {
+      "id": "tam1-010",
+      "question": "What does 'மரம்' (Maram) mean?",
+      "options": [
+        "River",
+        "Cloud",
+        "Tree",
+        "Mountain"
+      ],
+      "correctIndex": 2,
+      "explanation": "'மரம்' means tree in Tamil. 'மரங்கள்' (Marangal) is the plural form.",
+      "difficulty": "easy",
+      "tags": [
+        "nature",
+        "vocabulary"
+      ]
+    }
+  ]
+}

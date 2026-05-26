@@ -189,6 +189,20 @@
               </select>
               <span class="field-error" id="err-course"></span>
             </div>
+
+            <div class="form-group">
+              <label for="reg-regional-lang">Regional Language Practice <span class="optional">(optional)</span></label>
+              <select id="reg-regional-lang" name="regionalLanguage">
+                <option value="">None — skip for now</option>
+                <option value="sanskrit">Sanskrit</option>
+                <option value="marathi">Marathi</option>
+                <option value="tamil">Tamil</option>
+                <option value="telugu">Telugu</option>
+                <option value="punjabi">Punjabi</option>
+                <option value="malayalam">Malayalam</option>
+              </select>
+              <span class="form-hint">Get dedicated practice sets for your chosen language</span>
+            </div>
           </div>
 
           <!-- Professional fields (shown for Professional path) -->
@@ -282,6 +296,7 @@
             <span id="user-chip-name">—</span>
           </div>
           <div class="user-menu hidden" id="user-menu">
+            <button class="user-menu-item" onclick="openSettings()">⚙ Settings</button>
             <button class="user-menu-item" onclick="signOut()">Sign Out</button>
           </div>
         </div>
@@ -314,6 +329,8 @@
       </div>
 
       <div id="weekly-section" class="weekly-section"></div>
+
+      <div id="regional-section"></div>
 
       <div id="subject-tabs" class="subject-tabs" style="display:none"></div>
 
@@ -395,6 +412,54 @@
 
     </div>
   </section>
+
+  <!-- Settings Modal -->
+  <div id="settings-modal" class="modal-overlay hidden" onclick="if(event.target===this)closeSettings()">
+    <div class="modal-box settings-modal-box">
+      <h2 class="modal-title">Settings</h2>
+
+      <div class="settings-section">
+        <h3 class="settings-section-title">Regional Language Practice</h3>
+        <p class="settings-section-desc">Practice vocabulary and phrases in your chosen language — shown as a separate section on your home screen.</p>
+        <div class="form-group">
+          <label for="settings-regional-lang">Language</label>
+          <select id="settings-regional-lang">
+            <option value="">None</option>
+            <option value="sanskrit">Sanskrit</option>
+            <option value="marathi">Marathi</option>
+            <option value="tamil">Tamil</option>
+            <option value="telugu">Telugu</option>
+            <option value="punjabi">Punjabi</option>
+            <option value="malayalam">Malayalam</option>
+          </select>
+        </div>
+        <button class="btn btn-primary btn-sm" onclick="saveRegionalLanguage()">Save Language</button>
+      </div>
+
+      <hr class="settings-divider">
+
+      <div class="settings-section">
+        <h3 class="settings-section-title">Change Password</h3>
+        <div class="form-group">
+          <label for="settings-current-pw">Current Password</label>
+          <input type="password" id="settings-current-pw" placeholder="Current password">
+        </div>
+        <div class="form-group">
+          <label for="settings-new-pw">New Password</label>
+          <input type="password" id="settings-new-pw" placeholder="New password (min 6 chars)">
+        </div>
+        <div class="form-group">
+          <label for="settings-confirm-pw">Confirm New Password</label>
+          <input type="password" id="settings-confirm-pw" placeholder="Repeat new password">
+        </div>
+        <span class="field-error" id="settings-pw-err"></span>
+        <span class="settings-pw-ok" id="settings-pw-ok"></span>
+        <button class="btn btn-primary btn-sm" onclick="saveNewPassword()">Update Password</button>
+      </div>
+
+      <button class="btn btn-ghost btn-full settings-close-btn" onclick="closeSettings()">Close</button>
+    </div>
+  </div>
 
   <!-- Welcome Modal — shown once on first login -->
   <div id="welcome-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissWelcome()">

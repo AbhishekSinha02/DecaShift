@@ -1,0 +1,179 @@
+{
+  "goalId": "regional-punjabi-2",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-punjabi",
+  "level": 2,
+  "title": "Punjabi — Set 2",
+  "description": "Common phrases, nature, and everyday words",
+  "tags": [
+    "punjabi",
+    "regional",
+    "phrases"
+  ],
+  "questions": [
+    {
+      "id": "pun2-001",
+      "question": "What does 'ਕਿਤਾਬ' (Kitab) mean?",
+      "options": [
+        "Pen",
+        "Bag",
+        "Desk",
+        "Book"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਕਿਤਾਬ' means book in Punjabi. It comes from the Urdu/Persian 'kitab'.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "school"
+      ]
+    },
+    {
+      "id": "pun2-002",
+      "question": "What does 'ਸੂਰਜ' (Suraj) mean?",
+      "options": [
+        "Moon",
+        "Star",
+        "Cloud",
+        "Sun"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਸੂਰਜ' means Sun in Punjabi. It is related to Sanskrit 'ਸੂਰ੍ਯ'.",
+      "difficulty": "easy",
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "pun2-003",
+      "question": "What does 'ਮੀਂਹ' (Meenh) mean?",
+      "options": [
+        "Wind",
+        "Snow",
+        "Sunshine",
+        "Rain"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਮੀਂਹ' means rain in Punjabi. Punjab (Land of Five Rivers) depends heavily on seasonal rain.",
+      "difficulty": "easy",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "pun2-004",
+      "question": "What does 'ਦੋਸਤ' (Dost) mean?",
+      "options": [
+        "Enemy",
+        "Brother",
+        "Teacher",
+        "Friend"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਦੋਸਤ' means friend in Punjabi. It comes from Persian 'dost' (friend).",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "relationships"
+      ]
+    },
+    {
+      "id": "pun2-005",
+      "question": "How do you say 'two' in Punjabi?",
+      "options": [
+        "ਇੱਕ",
+        "ਤਿੰਨ",
+        "ਚਾਰ",
+        "ਦੋ"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਦੋ' (Do) means two in Punjabi.",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "pun2-006",
+      "question": "What does 'ਦਰੱਖਤ' (Darrakht) mean?",
+      "options": [
+        "River",
+        "Cloud",
+        "Mountain",
+        "Tree"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਦਰੱਖਤ' means tree in Punjabi. It comes from Persian 'darakht'.",
+      "difficulty": "easy",
+      "tags": [
+        "nature"
+      ]
+    },
+    {
+      "id": "pun2-007",
+      "question": "What does 'ਰਾਤ' (Raat) mean?",
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Night"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਰਾਤ' means night in Punjabi. 'ਸਵੇਰ' = morning, 'ਸ਼ਾਮ' = evening.",
+      "difficulty": "easy",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "pun2-008",
+      "question": "What does 'ਕੀ' (Ki) mean in Punjabi?",
+      "options": [
+        "When",
+        "Where",
+        "Who",
+        "What"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਕੀ' means What in Punjabi. Example: ਤੇਰਾ ਨਾਮ ਕੀ ਹੈ? = What is your name?",
+      "difficulty": "easy",
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "pun2-009",
+      "question": "What does 'ਦੁੱਧ' (Dudh) mean?",
+      "options": [
+        "Water",
+        "Juice",
+        "Curd",
+        "Milk"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਦੁੱਧ' means milk in Punjabi. Punjab is known for its dairy farming.",
+      "difficulty": "easy",
+      "tags": [
+        "food",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "pun2-010",
+      "question": "Punjabi is written in which script?",
+      "options": [
+        "Devanagari",
+        "Roman",
+        "Gurmukhi",
+        "Persian"
+      ],
+      "correctIndex": 2,
+      "explanation": "Punjabi is written in Gurmukhi script in India. 'Gur' = Guru, 'mukhi' = from the mouth. The script was standardised by Guru Angad Dev Ji.",
+      "difficulty": "easy",
+      "tags": [
+        "general-knowledge"
+      ]
+    }
+  ]
+}

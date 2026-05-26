@@ -1,0 +1,183 @@
+{
+  "goalId": "regional-marathi-2",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-marathi",
+  "level": 2,
+  "title": "Marathi — Set 2",
+  "description": "Common phrases, colours, and nature words",
+  "tags": [
+    "marathi",
+    "regional",
+    "phrases"
+  ],
+  "questions": [
+    {
+      "id": "mar2-001",
+      "question": "What does 'आभारी आहे' (Abhaari ahe) mean?",
+      "options": [
+        "I am sorry",
+        "Good morning",
+        "Thank you / I am grateful",
+        "How are you"
+      ],
+      "correctIndex": 2,
+      "explanation": "'आभारी आहे' means 'I am grateful' or Thank you in Marathi. It expresses deep thanks.",
+      "difficulty": "easy",
+      "tags": [
+        "phrases",
+        "politeness"
+      ]
+    },
+    {
+      "id": "mar2-002",
+      "question": "What does 'दूध' (Dudh) mean?",
+      "options": [
+        "Water",
+        "Juice",
+        "Milk",
+        "Curd"
+      ],
+      "correctIndex": 2,
+      "explanation": "'दूध' means milk in Marathi. This word is the same in Hindi as well.",
+      "difficulty": "easy",
+      "tags": [
+        "food",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "mar2-003",
+      "question": "What does 'झाड' (Zhaad) mean?",
+      "options": [
+        "River",
+        "Cloud",
+        "Mountain",
+        "Tree"
+      ],
+      "correctIndex": 3,
+      "explanation": "'झाड' means tree in Marathi. 'झाडे' is the plural (trees).",
+      "difficulty": "easy",
+      "tags": [
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "mar2-004",
+      "question": "What does 'पाऊस' (Paus) mean?",
+      "options": [
+        "Wind",
+        "Rain",
+        "Snow",
+        "Storm"
+      ],
+      "correctIndex": 1,
+      "explanation": "'पाऊस' means rain in Marathi. Maharashtra has a strong monsoon season.",
+      "difficulty": "easy",
+      "tags": [
+        "weather",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "mar2-005",
+      "question": "How do you say 'two' in Marathi?",
+      "options": [
+        "एक",
+        "दोन",
+        "तीन",
+        "पाच"
+      ],
+      "correctIndex": 1,
+      "explanation": "'दोन' means two in Marathi.",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "mar2-006",
+      "question": "What does 'रात्र' (Raatra) mean?",
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Night"
+      ],
+      "correctIndex": 3,
+      "explanation": "'रात्र' means night in Marathi. 'सकाळ' is morning and 'संध्याकाळ' is evening.",
+      "difficulty": "easy",
+      "tags": [
+        "time",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "mar2-007",
+      "question": "What does 'मित्र' (Mitra) mean?",
+      "options": [
+        "Enemy",
+        "Brother",
+        "Friend",
+        "Teacher"
+      ],
+      "correctIndex": 2,
+      "explanation": "'मित्र' means friend in Marathi. It comes from Sanskrit 'मित्रम्'.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "relationships"
+      ]
+    },
+    {
+      "id": "mar2-008",
+      "question": "What does 'काय' (Kaay) mean?",
+      "options": [
+        "When",
+        "Where",
+        "Who",
+        "What"
+      ],
+      "correctIndex": 3,
+      "explanation": "'काय' means What in Marathi. Example: 'तुझं नाव काय?' = What is your name?",
+      "difficulty": "easy",
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "mar2-009",
+      "question": "What does 'दिवस' (Divas) mean?",
+      "options": [
+        "Night",
+        "Week",
+        "Month",
+        "Day"
+      ],
+      "correctIndex": 3,
+      "explanation": "'दिवस' means day in Marathi. 'आज दिवस चांगला आहे' = Today is a good day.",
+      "difficulty": "easy",
+      "tags": [
+        "time",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "mar2-010",
+      "question": "In which Indian state is Marathi the official language?",
+      "options": [
+        "Gujarat",
+        "Karnataka",
+        "Maharashtra",
+        "Goa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Marathi is the official language of Maharashtra. It is also spoken in parts of Goa, Karnataka, and Madhya Pradesh.",
+      "difficulty": "easy",
+      "tags": [
+        "general-knowledge"
+      ]
+    }
+  ]
+}

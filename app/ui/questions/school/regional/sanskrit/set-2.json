@@ -1,0 +1,180 @@
+{
+  "goalId": "regional-sanskrit-2",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-sanskrit",
+  "level": 2,
+  "title": "Sanskrit — Set 2",
+  "description": "Greetings, phrases, and common words",
+  "tags": [
+    "sanskrit",
+    "regional",
+    "phrases"
+  ],
+  "questions": [
+    {
+      "id": "san2-001",
+      "question": "What does 'धन्यवादः' (Dhanyavadah) mean?",
+      "options": [
+        "Sorry",
+        "Please",
+        "Welcome",
+        "Thank you"
+      ],
+      "correctIndex": 3,
+      "explanation": "'धन्यवादः' means Thank you. It comes from 'धन्य' (blessed) + 'वाद' (speech).",
+      "difficulty": "easy",
+      "tags": [
+        "phrases",
+        "politeness"
+      ]
+    },
+    {
+      "id": "san2-002",
+      "question": "What does 'आम्' (Aam) mean in Sanskrit?",
+      "options": [
+        "No",
+        "Maybe",
+        "Yes",
+        "Mango"
+      ],
+      "correctIndex": 2,
+      "explanation": "'आम्' means Yes in Sanskrit. (Note: the Sanskrit 'आम्' is unrelated to 'आम' meaning mango.)",
+      "difficulty": "easy",
+      "tags": [
+        "common-words"
+      ]
+    },
+    {
+      "id": "san2-003",
+      "question": "What does 'न' (Na) mean?",
+      "options": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Stop"
+      ],
+      "correctIndex": 1,
+      "explanation": "'न' is the Sanskrit word for No or not. It appears in words like 'नमस्ते' and prefixes like 'निः-'.",
+      "difficulty": "easy",
+      "tags": [
+        "common-words"
+      ]
+    },
+    {
+      "id": "san2-004",
+      "question": "What does 'गुरुः' (Guruh) mean?",
+      "options": [
+        "Student",
+        "Parent",
+        "Teacher",
+        "Principal"
+      ],
+      "correctIndex": 2,
+      "explanation": "'गुरुः' means teacher or master. The word 'guru' is now used globally for expert or mentor.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "people"
+      ]
+    },
+    {
+      "id": "san2-005",
+      "question": "How do you say 'two' in Sanskrit?",
+      "options": [
+        "एकम्",
+        "द्वे",
+        "त्रीणि",
+        "पञ्च"
+      ],
+      "correctIndex": 1,
+      "explanation": "'द्वे' means two in Sanskrit. Compare with English 'dual', 'double' — all from the same Indo-European root.",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "san2-006",
+      "question": "What does 'विद्यालयः' (Vidyalayah) mean?",
+      "options": [
+        "Library",
+        "Temple",
+        "Hospital",
+        "School"
+      ],
+      "correctIndex": 3,
+      "explanation": "'विद्या' (knowledge) + 'आलय' (place) = विद्यालयः = school, the place of knowledge.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "school"
+      ]
+    },
+    {
+      "id": "san2-007",
+      "question": "What does 'खादामि' (Khadami) mean?",
+      "options": [
+        "I sleep",
+        "I eat",
+        "I drink",
+        "I walk"
+      ],
+      "correctIndex": 1,
+      "explanation": "'खादामि' means 'I eat' in Sanskrit. The suffix '-ami' shows first person singular present tense.",
+      "difficulty": "easy",
+      "tags": [
+        "verbs"
+      ]
+    },
+    {
+      "id": "san2-008",
+      "question": "What does 'श्वः' (Shvah) mean?",
+      "options": [
+        "Yesterday",
+        "Today",
+        "Tomorrow",
+        "Now"
+      ],
+      "correctIndex": 2,
+      "explanation": "'श्वः' means tomorrow in Sanskrit. Interestingly, the word 'ह्यः' (Hyah) means yesterday.",
+      "difficulty": "easy",
+      "tags": [
+        "time",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "san2-009",
+      "question": "What language family does Sanskrit belong to?",
+      "options": [
+        "Dravidian",
+        "Sino-Tibetan",
+        "Indo-European",
+        "Austroasiatic"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sanskrit belongs to the Indo-European language family, making it related to Latin, Greek, and most European languages.",
+      "difficulty": "easy",
+      "tags": [
+        "general-knowledge"
+      ]
+    },
+    {
+      "id": "san2-010",
+      "question": "What does 'अहम्' (Aham) mean?",
+      "options": [
+        "You",
+        "He/She",
+        "We",
+        "I/Me"
+      ],
+      "correctIndex": 3,
+      "explanation": "'अहम्' means I or me. The English word 'ego' comes from the Latin 'ego', which is related to the Sanskrit 'अहम्'.",
+      "difficulty": "easy",
+      "tags": [
+        "pronouns"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "goalId": "regional-marathi-1",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-marathi",
+  "level": 1,
+  "title": "Marathi — Set 1",
+  "description": "Basic vocabulary: everyday Marathi words",
+  "tags": [
+    "marathi",
+    "regional",
+    "vocabulary"
+  ],
+  "questions": [
+    {
+      "id": "mar1-001",
+      "question": "What does 'पाणी' (Paani) mean in Marathi?",
+      "options": [
+        "Milk",
+        "Fire",
+        "Water",
+        "Food"
+      ],
+      "correctIndex": 2,
+      "explanation": "'पाणी' means water in Marathi. It is one of the most common everyday words.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "basics"
+      ]
+    },
+    {
+      "id": "mar1-002",
+      "question": "What does 'आई' (Aai) mean in Marathi?",
+      "options": [
+        "Sister",
+        "Father",
+        "Mother",
+        "Grandmother"
+      ],
+      "correctIndex": 2,
+      "explanation": "'आई' means Mother in Marathi. It is the most affectionate term for mother in Maharashtra.",
+      "difficulty": "easy",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "mar1-003",
+      "question": "What does 'बाबा' (Baba) mean in Marathi?",
+      "options": [
+        "Brother",
+        "Father",
+        "Uncle",
+        "Grandfather"
+      ],
+      "correctIndex": 1,
+      "explanation": "'बाबा' means Father in Marathi. It is widely used across Maharashtra.",
+      "difficulty": "easy",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "mar1-004",
+      "question": "What does 'शाळा' (Shaala) mean?",
+      "options": [
+        "Home",
+        "Hospital",
+        "School",
+        "Temple"
+      ],
+      "correctIndex": 2,
+      "explanation": "'शाळा' means school in Marathi. Children go to शाळा every day.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "mar1-005",
+      "question": "How do you say 'one' in Marathi?",
+      "options": [
+        "दोन",
+        "तीन",
+        "एक",
+        "चार"
+      ],
+      "correctIndex": 2,
+      "explanation": "'एक' means one in Marathi. Numbers: एक (1), दोन (2), तीन (3), चार (4), पाच (5).",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "mar1-006",
+      "question": "What does 'घर' (Ghar) mean in Marathi?",
+      "options": [
+        "Garden",
+        "School",
+        "Temple",
+        "Home"
+      ],
+      "correctIndex": 3,
+      "explanation": "'घर' means house/home in Marathi. This word is common across many Indian languages.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "mar1-007",
+      "question": "What does 'हो' (Ho) mean in Marathi?",
+      "options": [
+        "No",
+        "Maybe",
+        "Yes",
+        "Please"
+      ],
+      "correctIndex": 2,
+      "explanation": "'हो' means Yes in Marathi. The informal version is also used widely in conversation.",
+      "difficulty": "easy",
+      "tags": [
+        "common-words"
+      ]
+    },
+    {
+      "id": "mar1-008",
+      "question": "What does 'पुस्तक' (Pustak) mean?",
+      "options": [
+        "Pen",
+        "Bag",
+        "Book",
+        "Desk"
+      ],
+      "correctIndex": 2,
+      "explanation": "'पुस्तक' means book in Marathi (and Hindi). It comes from the Sanskrit 'पुस्तकम्'.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "school"
+      ]
+    },
+    {
+      "id": "mar1-009",
+      "question": "What does 'नमस्कार' (Namaskar) mean?",
+      "options": [
+        "Goodbye",
+        "Thank you",
+        "Hello/Greetings",
+        "Excuse me"
+      ],
+      "correctIndex": 2,
+      "explanation": "'नमस्कार' is the formal greeting in Marathi, equivalent to Hello or Greetings.",
+      "difficulty": "easy",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "mar1-010",
+      "question": "What does 'मी' (Mi) mean in Marathi?",
+      "options": [
+        "You",
+        "He",
+        "We",
+        "I/Me"
+      ],
+      "correctIndex": 3,
+      "explanation": "'मी' means I or Me in Marathi. Example: मी शाळेत जातो (I go to school).",
+      "difficulty": "easy",
+      "tags": [
+        "pronouns"
+      ]
+    }
+  ]
+}

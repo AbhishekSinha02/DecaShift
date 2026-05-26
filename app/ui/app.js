@@ -129,11 +129,19 @@ async function _fetchQuestionFile(filename) {
 function _filterManifest(manifest, user) {
   if (!manifest || !manifest.length) return [];
   const cat = user.category;
-  if (!cat) return []; // missing category → show nothing, prompt profile completion
+  if (!cat) return [];
   if (cat === 'school') {
     if (user.grade === 'college') return manifest.filter(e => e.category === 'college');
     const grade = parseInt(user.grade, 10);
-    return manifest.filter(e => e.category === 'school' && (e.grade === grade || e.grade === null));
+    const lang  = user.regionalLanguage || '';
+    return manifest.filter(e => {
+      if (e.category !== 'school') return false;
+      if (e.subject === 'weekly') return true;
+      if (e.subject && e.subject.startsWith('regional-')) {
+        return lang && e.subject === 'regional-' + lang;
+      }
+      return e.grade === grade || e.grade === null;
+    });
   }
   if (cat === 'college') return manifest.filter(e => e.category === 'college');
   return manifest.filter(e => e.category === 'professional');
@@ -204,7 +212,7 @@ async function _handleSignup(e) {
   if (password.length < 6)             { _showError('err-password', 'Password must be at least 6 characters'); valid = false; }
   if (password !== confirm)            { _showError('err-confirm',  'Passwords do not match'); valid = false; }
 
-  let grade = null, course = null, role = null, company = null;
+  let grade = null, course = null, role = null, company = null, regionalLanguage = null;
   if (category === 'school') {
     grade = document.getElementById('reg-grade').value;
     if (!grade) { _showError('err-grade', 'Select your grade'); valid = false; }
@@ -212,6 +220,8 @@ async function _handleSignup(e) {
       course = document.getElementById('reg-course').value;
       if (!course) { _showError('err-course', 'Select your course'); valid = false; }
     }
+    const langEl = document.getElementById('reg-regional-lang');
+    if (langEl && langEl.value) regionalLanguage = langEl.value;
   } else {
     role    = document.getElementById('reg-role').value;
     company = document.getElementById('reg-company').value.trim();
@@ -235,10 +245,11 @@ async function _handleSignup(e) {
   const user = {
     userId, name, email, mobile: '+91' + mobile,
     category,
-    grade:   grade   || null,
-    course:  course  || null,
-    role:    role    || null,
-    company: company || null,
+    grade:            grade            || null,
+    course:           course           || null,
+    role:             role             || null,
+    company:          company          || null,
+    regionalLanguage: regionalLanguage || null,
     registeredAt
   };
 
@@ -383,7 +394,10 @@ function _renderHome() {
   // ── Weekly challenge section ─────────────────────────────────────────────
   _renderWeeklySection();
 
-  const allGoals = state.goals.filter(g => g.subject !== 'weekly');
+  // ── Regional language section ────────────────────────────────────────────
+  _renderRegionalSection();
+
+  const allGoals = state.goals.filter(g => g.subject !== 'weekly' && !(g.subject && g.subject.startsWith('regional-')));
   const list     = document.getElementById('goals-list');
   if (!list) return;
 
@@ -598,6 +612,106 @@ function _fmtWeekDates(start, end) {
 function _togglePastChallenges() {
   state.showPastChallenges = !state.showPastChallenges;
   _renderHome();
+}
+
+// ── Regional Language Section ─────────────────────────────────────────────
+
+function _renderRegionalSection() {
+  const el = document.getElementById('regional-section');
+  if (!el) return;
+  const user = state.user;
+  const lang = user && user.regionalLanguage;
+  if (!lang) { el.innerHTML = ''; return; }
+
+  const langLabel = { sanskrit: 'Sanskrit', marathi: 'Marathi', tamil: 'Tamil',
+                      telugu: 'Telugu', punjabi: 'Punjabi', malayalam: 'Malayalam' };
+  const label = langLabel[lang] || lang.charAt(0).toUpperCase() + lang.slice(1);
+
+  const regionalGoals = state.goals.filter(g => g.subject === 'regional-' + lang);
+  if (!regionalGoals.length) { el.innerHTML = ''; return; }
+
+  const cards = regionalGoals.map(g => {
+    const count = state.questions.filter(q => q.goalId === g.id).length;
+    const last  = Storage.getLastSessionForGoal(g.id);
+    const score = last ? last.score + '/' + last.total : null;
+    const done  = last && last.accuracy >= 1;
+    return `
+      <div class="regional-card${done ? ' done' : ''}">
+        <div class="regional-card-body">
+          <h4 class="regional-card-title">${_esc(g.name)}${done ? ' ✅' : ''}</h4>
+          <p class="regional-card-meta">${count} question${count !== 1 ? 's' : ''}${score ? ' · Last: ' + score : ''}</p>
+        </div>
+        <button class="btn btn-primary btn-sm" onclick="startGoal('${g.id}')">${last ? 'Retry' : 'Start'}</button>
+      </div>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="regional-section-inner">
+      <div class="regional-section-header">
+        <span class="regional-badge">🗣 Regional Practice</span>
+        <span class="regional-lang-name">${label}</span>
+        <button class="link-btn regional-change-btn" onclick="openSettings()">Change</button>
+      </div>
+      <div class="regional-cards">${cards}</div>
+    </div>`;
+}
+
+// ── Settings Modal ────────────────────────────────────────────────────────
+
+function openSettings() {
+  document.getElementById('user-menu').classList.add('hidden');
+  const modal = document.getElementById('settings-modal');
+  if (!modal) return;
+  const user = state.user;
+  const langEl = document.getElementById('settings-regional-lang');
+  if (langEl) langEl.value = user.regionalLanguage || '';
+  modal.classList.remove('hidden');
+}
+
+function closeSettings() {
+  document.getElementById('settings-modal').classList.add('hidden');
+}
+
+async function saveRegionalLanguage() {
+  const langEl = document.getElementById('settings-regional-lang');
+  const lang   = langEl ? langEl.value : '';
+  const user   = state.user;
+  user.regionalLanguage = lang || null;
+  Storage.saveUser(user);
+  state.user = user;
+  sessionStorage.removeItem('ds_manifest_cache');
+  await _loadQuestionsForUser(user);
+  closeSettings();
+  _renderHome();
+}
+
+async function saveNewPassword() {
+  const current  = document.getElementById('settings-current-pw').value;
+  const newPw    = document.getElementById('settings-new-pw').value;
+  const confirm  = document.getElementById('settings-confirm-pw').value;
+  const errEl    = document.getElementById('settings-pw-err');
+  const okEl     = document.getElementById('settings-pw-ok');
+  if (errEl) errEl.textContent = '';
+  if (okEl)  okEl.textContent  = '';
+
+  if (!current)           { if (errEl) errEl.textContent = 'Enter your current password.'; return; }
+  if (newPw.length < 6)   { if (errEl) errEl.textContent = 'New password must be at least 6 characters.'; return; }
+  if (newPw !== confirm)  { if (errEl) errEl.textContent = 'Passwords do not match.'; return; }
+
+  const user        = state.user;
+  const account     = Storage.findAccount(user.email);
+  const currentHash = await Storage.hashPassword(current);
+  if (!account || currentHash !== account.passwordHash) {
+    if (errEl) errEl.textContent = 'Current password is incorrect.';
+    return;
+  }
+
+  const newHash = await Storage.hashPassword(newPw);
+  Storage.saveAccount(user.email, newHash, user.userId, user);
+  if (okEl) okEl.textContent = 'Password updated successfully.';
+  document.getElementById('settings-current-pw').value = '';
+  document.getElementById('settings-new-pw').value     = '';
+  document.getElementById('settings-confirm-pw').value = '';
 }
 
 function _setSubjectFilter(subject) {

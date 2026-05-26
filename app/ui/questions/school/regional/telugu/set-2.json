@@ -1,0 +1,181 @@
+{
+  "goalId": "regional-telugu-2",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-telugu",
+  "level": 2,
+  "title": "Telugu — Set 2",
+  "description": "Common phrases, nature words, and question words",
+  "tags": [
+    "telugu",
+    "regional",
+    "phrases"
+  ],
+  "questions": [
+    {
+      "id": "tel2-001",
+      "question": "What does 'పుస్తకం' (Pustakam) mean?",
+      "options": [
+        "Pen",
+        "Bag",
+        "Desk",
+        "Book"
+      ],
+      "correctIndex": 3,
+      "explanation": "'పుస్తకం' means book in Telugu. It comes from Sanskrit 'పుస్తకమ్'.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "school"
+      ]
+    },
+    {
+      "id": "tel2-002",
+      "question": "What does 'సూర్యుడు' (Suryudu) mean?",
+      "options": [
+        "Moon",
+        "Star",
+        "Cloud",
+        "Sun"
+      ],
+      "correctIndex": 3,
+      "explanation": "'సూర్యుడు' means Sun in Telugu. Related to Sanskrit 'సూర్యః'.",
+      "difficulty": "easy",
+      "tags": [
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "tel2-003",
+      "question": "What does 'వర్షం' (Varsham) mean?",
+      "options": [
+        "Wind",
+        "Snow",
+        "Sunshine",
+        "Rain"
+      ],
+      "correctIndex": 3,
+      "explanation": "'వర్షం' means rain in Telugu. 'వర్షాకాలం' = rainy season.",
+      "difficulty": "easy",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "tel2-004",
+      "question": "What does 'మిత్రుడు' (Mitrudu) mean?",
+      "options": [
+        "Enemy",
+        "Brother",
+        "Teacher",
+        "Friend"
+      ],
+      "correctIndex": 3,
+      "explanation": "'మిత్రుడు' means friend (male) in Telugu. 'మిత్రురాలు' for female friend.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "relationships"
+      ]
+    },
+    {
+      "id": "tel2-005",
+      "question": "How do you say 'two' in Telugu?",
+      "options": [
+        "ఒకటి",
+        "మూడు",
+        "నాలుగు",
+        "రెండు"
+      ],
+      "correctIndex": 3,
+      "explanation": "'రెండు' (Rendu) means two in Telugu.",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "tel2-006",
+      "question": "What does 'చెట్టు' (Chettu) mean?",
+      "options": [
+        "River",
+        "Cloud",
+        "Mountain",
+        "Tree"
+      ],
+      "correctIndex": 3,
+      "explanation": "'చెట్టు' means tree in Telugu. 'చెట్లు' is the plural (trees).",
+      "difficulty": "easy",
+      "tags": [
+        "nature",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "tel2-007",
+      "question": "What does 'రాత్రి' (Raathri) mean?",
+      "options": [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Night"
+      ],
+      "correctIndex": 3,
+      "explanation": "'రాత్రి' means night in Telugu. 'ఉదయం' = morning, 'సాయంత్రం' = evening.",
+      "difficulty": "easy",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "tel2-008",
+      "question": "What does 'ఏమిటి' (Emiti) mean?",
+      "options": [
+        "When",
+        "Where",
+        "Who",
+        "What"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ఏమిటి' means What in Telugu. It is a very common question word.",
+      "difficulty": "easy",
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tel2-009",
+      "question": "What does 'పాలు' (Paalu) mean?",
+      "options": [
+        "Water",
+        "Juice",
+        "Curd",
+        "Milk"
+      ],
+      "correctIndex": 3,
+      "explanation": "'పాలు' means milk in Telugu.",
+      "difficulty": "easy",
+      "tags": [
+        "food",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "tel2-010",
+      "question": "In which Indian states is Telugu widely spoken?",
+      "options": [
+        "Tamil Nadu & Kerala",
+        "Maharashtra & Goa",
+        "Andhra Pradesh & Telangana",
+        "Karnataka & Odisha"
+      ],
+      "correctIndex": 2,
+      "explanation": "Telugu is the official language of Andhra Pradesh and Telangana. It is one of India's classical languages.",
+      "difficulty": "easy",
+      "tags": [
+        "general-knowledge"
+      ]
+    }
+  ]
+}

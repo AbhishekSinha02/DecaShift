@@ -1,0 +1,180 @@
+{
+  "goalId": "regional-punjabi-1",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-punjabi",
+  "level": 1,
+  "title": "Punjabi — Set 1",
+  "description": "Basic vocabulary: everyday Punjabi words",
+  "tags": [
+    "punjabi",
+    "regional",
+    "vocabulary"
+  ],
+  "questions": [
+    {
+      "id": "pun1-001",
+      "question": "What does 'ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ' (Sat Sri Akal) mean?",
+      "options": [
+        "Goodbye",
+        "Thank you",
+        "Good night",
+        "Hello/Greetings (Sikh greeting)"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ' is the traditional Sikh greeting meaning 'God is the ultimate truth'. It is used as Hello and Goodbye.",
+      "difficulty": "easy",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "pun1-002",
+      "question": "What does 'ਪਾਣੀ' (Paani) mean in Punjabi?",
+      "options": [
+        "Milk",
+        "Food",
+        "Tea",
+        "Water"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਪਾਣੀ' means water in Punjabi. It is the same as the Hindi/Urdu word 'paani'.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "basics"
+      ]
+    },
+    {
+      "id": "pun1-003",
+      "question": "What does 'ਮਾਂ' (Maa) mean?",
+      "options": [
+        "Sister",
+        "Grandmother",
+        "Father",
+        "Mother"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਮਾਂ' means Mother in Punjabi. It is used with great affection.",
+      "difficulty": "easy",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "pun1-004",
+      "question": "What does 'ਬਾਪੂ' (Bapu) mean?",
+      "options": [
+        "Uncle",
+        "Brother",
+        "Grandfather",
+        "Father"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਬਾਪੂ' means Father in Punjabi. It is also used as a respectful term for an elder man.",
+      "difficulty": "easy",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "pun1-005",
+      "question": "How do you say 'one' in Punjabi?",
+      "options": [
+        "ਦੋ",
+        "ਤਿੰਨ",
+        "ਚਾਰ",
+        "ਇੱਕ"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਇੱਕ' (Ik) means one in Punjabi. Numbers: ਇੱਕ (1), ਦੋ (2), ਤਿੰਨ (3), ਚਾਰ (4), ਪੰਜ (5).",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "pun1-006",
+      "question": "What does 'ਘਰ' (Ghar) mean?",
+      "options": [
+        "School",
+        "Garden",
+        "Temple",
+        "House/Home"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਘਰ' means house or home in Punjabi. This word is found across many North Indian languages.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "pun1-007",
+      "question": "What does 'ਧੰਨਵਾਦ' (Dhannvad) mean?",
+      "options": [
+        "Sorry",
+        "Please",
+        "Welcome",
+        "Thank you"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਧੰਨਵਾਦ' means Thank you in Punjabi. It comes from 'ਧੰਨ' (blessed) + 'ਵਾਦ' (speech).",
+      "difficulty": "easy",
+      "tags": [
+        "phrases",
+        "politeness"
+      ]
+    },
+    {
+      "id": "pun1-008",
+      "question": "What does 'ਹਾਂ' (Haan) mean?",
+      "options": [
+        "No",
+        "Maybe",
+        "Please",
+        "Yes"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਹਾਂ' means Yes in Punjabi. 'ਨਹੀਂ' (Nahin) means No.",
+      "difficulty": "easy",
+      "tags": [
+        "common-words"
+      ]
+    },
+    {
+      "id": "pun1-009",
+      "question": "What does 'ਸਕੂਲ' (Skool) mean?",
+      "options": [
+        "Hospital",
+        "Market",
+        "Temple",
+        "School"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਸਕੂਲ' is the Punjabi word for school, borrowed from English 'school'.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "pun1-010",
+      "question": "What does 'ਮੈਂ' (Main) mean?",
+      "options": [
+        "You",
+        "He/She",
+        "We",
+        "I/Me"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ਮੈਂ' means I or Me in Punjabi. Example: ਮੈਂ ਸਕੂਲ ਜਾਂਦਾ ਹਾਂ = I go to school.",
+      "difficulty": "easy",
+      "tags": [
+        "pronouns"
+      ]
+    }
+  ]
+}

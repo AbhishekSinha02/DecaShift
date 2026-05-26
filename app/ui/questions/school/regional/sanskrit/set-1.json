@@ -1,0 +1,183 @@
+{
+  "goalId": "regional-sanskrit-1",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-sanskrit",
+  "level": 1,
+  "title": "Sanskrit — Set 1",
+  "description": "Basic vocabulary: everyday words in Sanskrit",
+  "tags": [
+    "sanskrit",
+    "regional",
+    "vocabulary"
+  ],
+  "questions": [
+    {
+      "id": "san1-001",
+      "question": "What does 'जलम्' (Jalam) mean in Sanskrit?",
+      "options": [
+        "Fire",
+        "Water",
+        "Air",
+        "Earth"
+      ],
+      "correctIndex": 1,
+      "explanation": "'जलम्' means water in Sanskrit. Water is one of the five elements (Panchabhutas).",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "elements"
+      ]
+    },
+    {
+      "id": "san1-002",
+      "question": "What does 'सूर्यः' (Suryah) mean?",
+      "options": [
+        "Moon",
+        "Star",
+        "Sun",
+        "Sky"
+      ],
+      "correctIndex": 2,
+      "explanation": "'सूर्यः' means Sun. Many Indian names (Surya, Suraj) come from this Sanskrit word.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "nature"
+      ]
+    },
+    {
+      "id": "san1-003",
+      "question": "How do you say 'one' in Sanskrit?",
+      "options": [
+        "द्वे",
+        "त्रीणि",
+        "एकम्",
+        "चत्वारि"
+      ],
+      "correctIndex": 2,
+      "explanation": "'एकम्' means one in Sanskrit. Numbers: एकम् (1), द्वे (2), त्रीणि (3), चत्वारि (4).",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "san1-004",
+      "question": "What does 'पुस्तकम्' (Pustakam) mean?",
+      "options": [
+        "Pen",
+        "School",
+        "Book",
+        "Teacher"
+      ],
+      "correctIndex": 2,
+      "explanation": "'पुस्तकम्' means book. The modern Hindi word 'पुस्तक' comes from this Sanskrit word.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "school"
+      ]
+    },
+    {
+      "id": "san1-005",
+      "question": "What does 'मित्रम्' (Mitram) mean?",
+      "options": [
+        "Enemy",
+        "Teacher",
+        "Sun",
+        "Friend"
+      ],
+      "correctIndex": 3,
+      "explanation": "'मित्रम्' means friend in Sanskrit. 'Mitra' also means the Sun (a deity) in Vedic literature.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "relationships"
+      ]
+    },
+    {
+      "id": "san1-006",
+      "question": "What does 'वनम्' (Vanam) mean?",
+      "options": [
+        "River",
+        "Mountain",
+        "Forest",
+        "Ocean"
+      ],
+      "correctIndex": 2,
+      "explanation": "'वनम्' means forest or wood. Many Indian place names with 'van/ban' come from this root.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "nature"
+      ]
+    },
+    {
+      "id": "san1-007",
+      "question": "What does 'चन्द्रः' (Chandrah) mean?",
+      "options": [
+        "Sun",
+        "Moon",
+        "Star",
+        "Planet"
+      ],
+      "correctIndex": 1,
+      "explanation": "'चन्द्रः' means Moon. The name 'Chandra' and the word 'chandelier' share this root.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "nature"
+      ]
+    },
+    {
+      "id": "san1-008",
+      "question": "Which letter does the Sanskrit alphabet (varnamala) begin with?",
+      "options": [
+        "क",
+        "अ",
+        "ग",
+        "ण"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sanskrit varnamala begins with the vowel 'अ' (a). Vowels (स्वर) come before consonants (व्यंजन).",
+      "difficulty": "easy",
+      "tags": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "san1-009",
+      "question": "What does 'गृहम्' (Griham) mean?",
+      "options": [
+        "School",
+        "Temple",
+        "House",
+        "Garden"
+      ],
+      "correctIndex": 2,
+      "explanation": "'गृहम्' means house or home. The word 'griha' is used in many Indian languages.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "san1-010",
+      "question": "What does 'नमः' (Namah) mean?",
+      "options": [
+        "Goodbye",
+        "Thank you",
+        "Salutation/Hello",
+        "How are you"
+      ],
+      "correctIndex": 2,
+      "explanation": "'नमः' means salutation or bow. 'नमस्ते' (Namaste) = नमः + ते, meaning 'I bow to you'.",
+      "difficulty": "easy",
+      "tags": [
+        "greetings"
+      ]
+    }
+  ]
+}

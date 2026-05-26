@@ -1,0 +1,180 @@
+{
+  "goalId": "regional-telugu-1",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-telugu",
+  "level": 1,
+  "title": "Telugu — Set 1",
+  "description": "Basic vocabulary: everyday Telugu words",
+  "tags": [
+    "telugu",
+    "regional",
+    "vocabulary"
+  ],
+  "questions": [
+    {
+      "id": "tel1-001",
+      "question": "What does 'నమస్కారం' (Namaskaram) mean?",
+      "options": [
+        "Goodbye",
+        "Thank you",
+        "How are you",
+        "Hello/Greetings"
+      ],
+      "correctIndex": 3,
+      "explanation": "'నమస్కారం' is the Telugu greeting meaning Hello or Greetings.",
+      "difficulty": "easy",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "tel1-002",
+      "question": "What does 'నీళ్ళు' (Neellu) mean?",
+      "options": [
+        "Milk",
+        "Food",
+        "Water",
+        "Tea"
+      ],
+      "correctIndex": 2,
+      "explanation": "'నీళ్ళు' means water in Telugu. It is one of the most basic Telugu words.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "basics"
+      ]
+    },
+    {
+      "id": "tel1-003",
+      "question": "What does 'అమ్మ' (Amma) mean?",
+      "options": [
+        "Sister",
+        "Father",
+        "Grandmother",
+        "Mother"
+      ],
+      "correctIndex": 3,
+      "explanation": "'అమ్మ' means Mother in Telugu. It is the most common and affectionate term.",
+      "difficulty": "easy",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "tel1-004",
+      "question": "What does 'నాన్న' (Nanna) mean?",
+      "options": [
+        "Uncle",
+        "Brother",
+        "Grandfather",
+        "Father"
+      ],
+      "correctIndex": 3,
+      "explanation": "'నాన్న' means Father in Telugu.",
+      "difficulty": "easy",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "tel1-005",
+      "question": "How do you say 'one' in Telugu?",
+      "options": [
+        "రెండు",
+        "మూడు",
+        "నాలుగు",
+        "ఒకటి"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ఒకటి' (Okati) means one. Numbers: ఒకటి (1), రెండు (2), మూడు (3), నాలుగు (4).",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "tel1-006",
+      "question": "What does 'పాఠశాల' (Pathasala) mean?",
+      "options": [
+        "Hospital",
+        "Temple",
+        "Market",
+        "School"
+      ],
+      "correctIndex": 3,
+      "explanation": "'పాఠశాల' means school in Telugu. 'పాఠం' = lesson, 'శాల' = hall/place.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "tel1-007",
+      "question": "What does 'ధన్యవాదాలు' (Dhanyavaadaalu) mean?",
+      "options": [
+        "Sorry",
+        "Please",
+        "Welcome",
+        "Thank you"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ధన్యవాదాలు' means Thank you in Telugu. It comes from Sanskrit 'ధన్యవాదః'.",
+      "difficulty": "easy",
+      "tags": [
+        "phrases",
+        "politeness"
+      ]
+    },
+    {
+      "id": "tel1-008",
+      "question": "What does 'అవును' (Avunu) mean?",
+      "options": [
+        "No",
+        "Maybe",
+        "Please",
+        "Yes"
+      ],
+      "correctIndex": 3,
+      "explanation": "'అవును' means Yes in Telugu. 'కాదు' (Kaadu) means No.",
+      "difficulty": "easy",
+      "tags": [
+        "common-words"
+      ]
+    },
+    {
+      "id": "tel1-009",
+      "question": "What does 'ఇల్లు' (Illu) mean?",
+      "options": [
+        "Road",
+        "School",
+        "Garden",
+        "House/Home"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ఇల్లు' means house or home in Telugu.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "tel1-010",
+      "question": "What does 'నేను' (Neenu) mean?",
+      "options": [
+        "You",
+        "He/She",
+        "We",
+        "I/Me"
+      ],
+      "correctIndex": 3,
+      "explanation": "'నేను' means I or Me in Telugu. Example: 'నేను చదువుతున్నాను' = I am studying.",
+      "difficulty": "easy",
+      "tags": [
+        "pronouns"
+      ]
+    }
+  ]
+}

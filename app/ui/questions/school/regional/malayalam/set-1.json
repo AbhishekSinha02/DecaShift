@@ -1,0 +1,180 @@
+{
+  "goalId": "regional-malayalam-1",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-malayalam",
+  "level": 1,
+  "title": "Malayalam — Set 1",
+  "description": "Basic vocabulary: everyday Malayalam words",
+  "tags": [
+    "malayalam",
+    "regional",
+    "vocabulary"
+  ],
+  "questions": [
+    {
+      "id": "mal1-001",
+      "question": "What does 'നമസ്കാരം' (Namaskaram) mean?",
+      "options": [
+        "Goodbye",
+        "Thank you",
+        "Good night",
+        "Hello/Greetings"
+      ],
+      "correctIndex": 3,
+      "explanation": "'നമസ്കാരം' is the standard Malayalam greeting meaning Hello or Greetings.",
+      "difficulty": "easy",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "mal1-002",
+      "question": "What does 'വെള്ളം' (Vellam) mean?",
+      "options": [
+        "Milk",
+        "Food",
+        "Tea",
+        "Water"
+      ],
+      "correctIndex": 3,
+      "explanation": "'വെള്ളം' means water in Malayalam.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "basics"
+      ]
+    },
+    {
+      "id": "mal1-003",
+      "question": "What does 'അമ്മ' (Amma) mean?",
+      "options": [
+        "Sister",
+        "Grandmother",
+        "Father",
+        "Mother"
+      ],
+      "correctIndex": 3,
+      "explanation": "'അമ്മ' means Mother in Malayalam. It is used lovingly across Kerala.",
+      "difficulty": "easy",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "mal1-004",
+      "question": "What does 'അച്ഛൻ' (Achan) mean?",
+      "options": [
+        "Uncle",
+        "Brother",
+        "Grandfather",
+        "Father"
+      ],
+      "correctIndex": 3,
+      "explanation": "'അച്ഛൻ' means Father in Malayalam.",
+      "difficulty": "easy",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "mal1-005",
+      "question": "How do you say 'one' in Malayalam?",
+      "options": [
+        "രണ്ട്",
+        "മൂന്ന്",
+        "നാല്",
+        "ഒന്ന്"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ഒന്ന്' (Onnu) means one. Numbers: ഒന്ന് (1), രണ്ട് (2), മൂന്ന് (3), നാല് (4).",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "mal1-006",
+      "question": "What does 'വീട്' (Veedu) mean?",
+      "options": [
+        "School",
+        "Garden",
+        "Temple",
+        "House/Home"
+      ],
+      "correctIndex": 3,
+      "explanation": "'വീട്' means house or home in Malayalam.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "mal1-007",
+      "question": "What does 'നന്ദി' (Nandi) mean?",
+      "options": [
+        "Sorry",
+        "Please",
+        "Hello",
+        "Thank you"
+      ],
+      "correctIndex": 3,
+      "explanation": "'നന്ദി' means Thank you in Malayalam. It expresses gratitude.",
+      "difficulty": "easy",
+      "tags": [
+        "phrases",
+        "politeness"
+      ]
+    },
+    {
+      "id": "mal1-008",
+      "question": "What does 'അതെ' (Athe) mean?",
+      "options": [
+        "No",
+        "Maybe",
+        "Please",
+        "Yes"
+      ],
+      "correctIndex": 3,
+      "explanation": "'അതെ' means Yes in Malayalam. 'ഇല്ല' (Illa) means No.",
+      "difficulty": "easy",
+      "tags": [
+        "common-words"
+      ]
+    },
+    {
+      "id": "mal1-009",
+      "question": "What does 'സ്കൂൾ' (School) mean?",
+      "options": [
+        "Hospital",
+        "Market",
+        "Temple",
+        "School"
+      ],
+      "correctIndex": 3,
+      "explanation": "'സ്കൂൾ' is the Malayalam word for school, borrowed from English.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "places"
+      ]
+    },
+    {
+      "id": "mal1-010",
+      "question": "What does 'ഞാൻ' (Njaan) mean?",
+      "options": [
+        "You",
+        "He/She",
+        "We",
+        "I/Me"
+      ],
+      "correctIndex": 3,
+      "explanation": "'ഞാൻ' means I or Me in Malayalam. Example: ഞാൻ സ്കൂളിൽ പോകുന്നു = I go to school.",
+      "difficulty": "easy",
+      "tags": [
+        "pronouns"
+      ]
+    }
+  ]
+}
