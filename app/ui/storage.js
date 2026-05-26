@@ -47,10 +47,10 @@ const Storage = (() => {
     return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('').slice(0, 16);
   }
 
-  function saveAccount(email, passwordHash, userId) {
+  function saveAccount(email, passwordHash, userId, userProfile = {}) {
     const accounts = loadAccounts();
     const idx = accounts.findIndex(a => a.email === email);
-    const record = { email, passwordHash, userId, createdAt: new Date().toISOString() };
+    const record = { email, passwordHash, userId, createdAt: new Date().toISOString(), ...userProfile };
     if (idx >= 0) accounts[idx] = record; else accounts.push(record);
     localStorage.setItem(KEYS.ACCOUNTS, JSON.stringify(accounts));
   }

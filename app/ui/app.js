@@ -187,7 +187,7 @@ async function _handleSignup(e) {
     registeredAt
   };
 
-  Storage.saveAccount(email, passwordHash, userId);
+  Storage.saveAccount(email, passwordHash, userId, user);
   Storage.saveUser(user);
   state.user = user;
 
@@ -256,7 +256,9 @@ async function _handleSignin(e) {
 
   let user = Storage.loadUser();
   if (!user || user.userId !== account.userId) {
-    user = { userId: account.userId, email, registeredAt: account.createdAt };
+    // Restore full profile from account record (includes category, grade, etc.)
+    const { passwordHash: _ph, ...userProfile } = account;
+    user = userProfile;
     Storage.saveUser(user);
   }
 
