@@ -44,13 +44,17 @@
 |---|---|---|---|
 | [P2-T001](P2-T001-json-driven-ui-dynamic-reflection.md) | JSON changes reflect on UI instantly — fully data-driven | S | ✅ Done (manifest-driven) |
 | [P2-T002](P2-T002-landing-page-success-stories.md) | Landing page with success stories — emotional hook before sign-up | M | ✅ Done |
-| [P2-T003](P2-T003-mobile-tab-responsive-redesign.md) | Mobile-first + tab-friendly full redesign | M | Pending |
-| [P2-T004](P2-T004-timer-toggle-on-off.md) | Timer on/off toggle — pressure-free practice option | S | Pending |
-| [P2-T005](P2-T005-dark-light-mode-toggle.md) | Dark / light mode with system preference detection | S | Pending |
-| [P2-T006](P2-T006-daily-free-unlimited-practice.md) | Daily free unlimited practice — no paywalls on core loop | S | Pending |
+| [P2-T003](P2-T003-mobile-tab-responsive-redesign.md) | Mobile-first + tab-friendly full redesign | M | 🔄 Partial (touch targets, responsive quiz header done) |
+| [P2-T004](P2-T004-timer-toggle-on-off.md) | Timer on/off toggle — pressure-free practice option | S | ✅ Done |
+| [P2-T005](P2-T005-dark-light-mode-toggle.md) | Dark / light mode with system preference detection | S | ✅ Done |
+| [P2-T006](P2-T006-daily-free-unlimited-practice.md) | Daily free unlimited practice — no paywalls on core loop | S | ✅ Done |
 | [P2-T007](P2-T007-git-version-tagging-strategy.md) | Git tag convention — every release recoverable by version number | S | ✅ Done |
 | [P2-T008](P2-T008-multi-version-deployment-github-pages.md) | Deploy v1/v2/latest simultaneously on GitHub Pages subdirectories | S | ✅ Done |
 | [P2-T009](P2-T009-version-comparison-index-page.md) | Root index page listing all versions with links for side-by-side comparison | S | ✅ Done |
+| [P2-T010](P2-T010-local-dev-testing-setup.md) | Local dev testing setup — Live Server + Ctrl+Shift+D quick-fill | S | ✅ Done |
+| [P2-T011](P2-T011-manual-test-checklist.md) | Manual test checklist — all screens, auth flows, edge cases | S | Pending |
+| **[P2-T012](P2-T012-profile-edit-grade-change.md)** | **Profile edit — grade/role change without losing history** | **S** | **Pending** |
+| **[P2-T013](P2-T013-subscription-tier-design.md)** | **Subscription tier design — Free / Pro / Max feature matrix** | **S** | **Pending** |
 
 ---
 
@@ -58,9 +62,9 @@
 
 | File | Goal | Complexity | Status |
 |---|---|---|---|
-| [P3-T001](P3-T001-daily-streak-tracking.md) | Daily streak tracking — core habit loop | S | Pending |
-| [P3-T002](P3-T002-streak-visualization-ui.md) | Streak visualization — flame, 7-day strip, milestone celebrations | S | Pending |
-| [P3-T003](P3-T003-progress-dashboard.md) | Progress dashboard — accuracy trends, time invested, goal breakdown | M | Pending |
+| [P3-T001](P3-T001-daily-streak-tracking.md) | Daily streak tracking — core habit loop | S | ✅ Done |
+| [P3-T002](P3-T002-streak-visualization-ui.md) | Streak visualization — flame, 7-day strip, milestone celebrations | S | ✅ Done (flame + count; 7-day strip pending) |
+| [P3-T003](P3-T003-progress-dashboard.md) | Progress dashboard — accuracy trends, time invested, goal breakdown | M | ✅ Done (inline on home; deep analytics pending) |
 | [P3-T004](P3-T004-avatar-profile-photo.md) | Avatar + profile photo upload | S | Pending |
 | [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
 | [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
@@ -82,6 +86,8 @@
 
 | File | Goal | Complexity | Status |
 |---|---|---|---|
+| **[P5-T004](P5-T004-feature-gate-system.md)** | **Feature gate system — `user.plan` checks for Free/Pro/Max** | **S** | **Pending** |
+| **[P5-T005](P5-T005-upgrade-prompt-ui.md)** | **Upgrade prompt UI — plan comparison screen with CTA** | **M** | **Pending** |
 | [P5-T001](P5-T001-stripe-integration-setup.md) | Stripe Checkout — paid plan upgrade flow | L | Pending |
 | [P5-T002](P5-T002-real-exam-mode-paid.md) | Real exam mode — countdown, no mid-feedback, review before submit | M | Pending |
 | [P5-T003](P5-T003-leaderboard-paid.md) | Leaderboard — weekly + all-time, exam sessions only | M | Pending |
@@ -105,12 +111,12 @@ P1-T001  (fix perf)          — standalone
 P1-T002  (sign-up)           → P1-T003, P1-T004, P1-T005, P1-T006
 P1-T003  (sign-in)           → P1-T004, P1-T005
 P1-T004  (session persist)   → P3-T001, P3-T003, P3-T005, P3-T006, P5-T001
-P1-T006  (categories)        → P1-T008
+P1-T006  (categories)        → P1-T008, P2-T012
 P1-T008  (question filter)   → P2-T001, P3-T007
 P1-T009  (Drive→Sheets)      — CANCELLED, superseded by P1-T011
 P1-T011  (individual files)  — standalone, replaces Apps Script internals only
-P1-T012  (Drive accounts)   — depends on P1-T011 (adds accounts/ subfolder to Drive)
-P1-T013  (questions folder) — depends on P1-T008 (refactors existing filter logic)
+P1-T012  (Drive accounts)    — depends on P1-T011 (adds accounts/ subfolder to Drive)
+P1-T013  (questions folder)  — depends on P1-T008 (refactors existing filter logic)
 P1-T010  (GitHub raw URLs)   — standalone, isolated to _loadData() in app.js
 
 P2-T001  (JSON-driven)       → P4-T002
@@ -119,12 +125,16 @@ P2-T006  (free practice)     → P6-T002
 P2-T007  (git tagging)       → P2-T008, P2-T009
 P2-T008  (multi-version)     → P2-T009
 P2-T008  (multi-version)     depends on P1-T010 (GitHub raw URLs enable branch switching)
+P2-T012  (profile edit)      depends on P1-T006 (categories — done)
+P2-T013  (tier design)       → P5-T004, P5-T005, P5-T001
 
 P3-T001  (streak)            → P3-T002, P3-T005
 P3-T007  (Q addition)        → P6-T001
 
 P4-T001  (admin)             → P6-T001, P5-T003
-P5-T001  (Stripe)            → P5-T002, P5-T003
+P5-T004  (feature gate)      depends on P2-T013 (tier design must be finalized)
+P5-T005  (upgrade UI)        depends on P5-T004, P2-T013
+P5-T001  (Stripe)            depends on P5-T004, P5-T005 → P5-T002, P5-T003
 P5-T002  (exam mode)         → P5-T003
 P5-T003  (leaderboard)       → P6-T003
 ```
@@ -138,5 +148,5 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 31 (1 cancelled) | P1: 13 (P1-T009 cancelled) | P2: 9 | P3: 8 | P4: 2 | P5: 3 | P6: 3*
-*All tasks are self-contained, independently deployable, and version-controlled in this folder.*
+*Total tasks: 35 (1 cancelled) | P1: 13 | P2: 13 | P3: 8 | P4: 2 | P5: 5 | P6: 3*
+*New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*
