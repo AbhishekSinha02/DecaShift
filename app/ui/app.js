@@ -126,7 +126,7 @@ async function _loadQuestionsForUser(user) {
 // Mirrors _filterManifest logic but works on loaded file content (used for auto-discovery path)
 function _fileMatchesUser(file, user) {
   const cat = user.category;
-  if (!cat) return true;
+  if (!cat) return false; // missing category → show nothing, prompt profile completion
   if (cat === 'school') {
     if (user.grade === 'college') return file.category === 'college';
     return file.category === 'school' && file.grade === parseInt(user.grade, 10);
@@ -152,7 +152,7 @@ async function _fetchQuestionFile(filename) {
 function _filterManifest(manifest, user) {
   if (!manifest || !manifest.length) return [];
   const cat = user.category;
-  if (!cat) return manifest;
+  if (!cat) return []; // missing category → show nothing, prompt profile completion
   if (cat === 'school') {
     if (user.grade === 'college') return manifest.filter(e => e.category === 'college');
     const grade = parseInt(user.grade, 10);
@@ -276,7 +276,7 @@ async function _handleSignup(e) {
   _renderHome();
 
   Storage.syncUserToRemote(user).catch(() => {});
-  Storage.syncAccountToDrive({ email, passwordHash, userId, name, category, grade, course, role, company, registeredAt }).catch(() => {});
+  Storage.syncAccountToDrive({ email, passwordHash, userId, name, category, grade, course, role, company, registeredAt, streak: Storage.loadStreak() }).catch(() => {});
 }
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -319,6 +319,8 @@ async function _handleSignin(e) {
     Storage.saveAccount(driveAccount.email, driveAccount.passwordHash, driveAccount.userId);
     const { passwordHash: _ph, emailHash: _eh, ...userProfile } = driveAccount;
     Storage.saveUser(userProfile);
+    // Restore streak from Drive account if present (BUG-002 fix)
+    if (userProfile.streak) Storage.saveStreak(userProfile.streak);
     account = { email: driveAccount.email, passwordHash: driveAccount.passwordHash, userId: driveAccount.userId };
   }
 
@@ -404,7 +406,10 @@ function _renderHome() {
   if (!list) return;
 
   if (!goals.length) {
-    list.innerHTML = '<p class="text-muted">No goals found for your profile. More content coming soon!</p>';
+    const msg = !user.category
+      ? '<p class="text-muted">Your profile is incomplete. <button class="link-btn" onclick="openEditProfile()">Complete your profile</button> to see your goals.</p>'
+      : '<p class="text-muted">No goals found for your profile. More content coming soon!</p>';
+    list.innerHTML = msg;
     return;
   }
 
@@ -574,7 +579,15 @@ function _showResult() {
   };
 
   Storage.saveSession(session);
-  Storage.updateStreak();
+  const updatedStreak = Storage.updateStreak();
+
+  // Resync account to Drive with updated streak so other devices see it (BUG-002 fix)
+  const acct = Storage.findAccount(state.user.email);
+  if (acct) {
+    Storage.syncAccountToDrive({
+      ...state.user, passwordHash: acct.passwordHash, streak: updatedStreak
+    }).catch(() => {});
+  }
 
   _showScreen('result');
 
