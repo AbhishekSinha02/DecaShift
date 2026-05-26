@@ -1,6 +1,6 @@
 # Refactor: Serve Static JSON Content from GitHub Raw URLs
 
-**Priority:** P1 | **Type:** Technical | **Complexity:** S | **Status:** Pending
+**Priority:** P1 | **Type:** Technical | **Complexity:** S | **Status:** Done ✅ (manifest + question files fetched from GitHub raw, local fallback)
 
 ## Goal
 Fetch `goals.json` and `questions.json` directly from GitHub's raw file URL instead of relative paths. This means content is always in sync with the repo — no manual upload, no Drive folder needed for read-only data.

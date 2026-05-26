@@ -20,81 +20,81 @@
 
 ## P1 — Foundation (Build First)
 
-| File | Goal | Complexity |
-|---|---|---|
-| [P1-T001](P1-T001-fix-profile-save-performance.md) | Fix slow "Saving Profile" — non-blocking sync | S |
-| [P1-T002](P1-T002-user-signup-email-password.md) | User sign-up with email + password (Firebase Auth) | M |
-| [P1-T003](P1-T003-user-signin-form.md) | User sign-in form + forgot password | S |
-| [P1-T004](P1-T004-session-persistence-auth.md) | Session persistence — stay logged in across browser restarts | M |
-| [P1-T005](P1-T005-user-signout.md) | Sign-out — clean state clear + Firebase signOut | S |
-| [P1-T006](P1-T006-user-category-selection.md) | User category: School (Grade 2–12) / College / Professional | S |
-| [P1-T007](P1-T007-auto-save-responses-remove-export.md) | Auto-save responses on submit — remove manual CSV/JSON export | S |
-| [P1-T008](P1-T008-category-level-question-filtering.md) | Filter questions by user category + difficulty level | M |
-| ~~[P1-T009](P1-T009-migrate-drive-to-google-sheets.md)~~ | ~~Replace Drive JSON files with Google Sheets rows~~ — **CANCELLED, superseded by P1-T011** | S |
-| [P1-T010](P1-T010-static-content-from-github-raw.md) | Fetch goals.json + questions.json from GitHub raw URLs | S |
-| [P1-T011](P1-T011-individual-drive-files-per-user-and-session.md) | One JSON file per user + one JSON file per session in Drive (no shared files) | S |
-| [P1-T012](P1-T012-drive-account-persistence-cross-device-login.md) | Save account to Drive on sign-up — login works on any device / incognito | S |
-| [P1-T013](P1-T013-multi-file-questions-folder-by-grade-subject-level.md) | Multi-file questions folder — auto-populate goals by grade/subject/level via manifest | M |
+| File | Goal | Complexity | Status |
+|---|---|---|---|
+| [P1-T001](P1-T001-fix-profile-save-performance.md) | Fix slow "Saving Profile" — non-blocking sync | S | ✅ Done |
+| [P1-T002](P1-T002-user-signup-email-password.md) | User sign-up with email + password | M | ✅ Done (localStorage auth) |
+| [P1-T003](P1-T003-user-signin-form.md) | User sign-in form | S | ✅ Done (localStorage auth) |
+| [P1-T004](P1-T004-session-persistence-auth.md) | Session persistence — stay logged in across browser restarts | M | ✅ Done (localStorage) |
+| [P1-T005](P1-T005-user-signout.md) | Sign-out — clean state clear | S | ✅ Done |
+| [P1-T006](P1-T006-user-category-selection.md) | User category: School (Grade 2–12) / College / Professional | S | ✅ Done |
+| [P1-T007](P1-T007-auto-save-responses-remove-export.md) | Auto-save responses on submit — remove manual CSV/JSON export | S | ✅ Done |
+| [P1-T008](P1-T008-category-level-question-filtering.md) | Filter questions by user category + difficulty level | M | ✅ Done |
+| ~~[P1-T009](P1-T009-migrate-drive-to-google-sheets.md)~~ | ~~Replace Drive JSON files with Google Sheets rows~~ | S | ❌ Cancelled |
+| [P1-T010](P1-T010-static-content-from-github-raw.md) | Fetch question files from GitHub raw URLs with local fallback | S | ✅ Done |
+| [P1-T011](P1-T011-individual-drive-files-per-user-and-session.md) | One JSON file per user + one JSON file per session in Drive | S | ✅ Done |
+| [P1-T012](P1-T012-drive-account-persistence-cross-device-login.md) | Save account to Drive — login works on any device / incognito | S | ✅ Done |
+| [P1-T013](P1-T013-multi-file-questions-folder-by-grade-subject-level.md) | Multi-file questions folder — auto-populate goals by grade/subject/level | M | ✅ Done |
 
 ---
 
 ## P2 — Core Experience (Before Public Launch)
 
-| File | Goal | Complexity |
-|---|---|---|
-| [P2-T001](P2-T001-json-driven-ui-dynamic-reflection.md) | JSON changes reflect on UI instantly — fully data-driven | S |
-| [P2-T002](P2-T002-landing-page-success-stories.md) | Landing page with success stories — emotional hook before sign-up | M |
-| [P2-T003](P2-T003-mobile-tab-responsive-redesign.md) | Mobile-first + tab-friendly full redesign | M |
-| [P2-T004](P2-T004-timer-toggle-on-off.md) | Timer on/off toggle — pressure-free practice option | S |
-| [P2-T005](P2-T005-dark-light-mode-toggle.md) | Dark / light mode with system preference detection | S |
-| [P2-T006](P2-T006-daily-free-unlimited-practice.md) | Daily free unlimited practice — no paywalls on core loop | S |
-| [P2-T007](P2-T007-git-version-tagging-strategy.md) | Git tag convention — every release recoverable by version number | S |
-| [P2-T008](P2-T008-multi-version-deployment-github-pages.md) | Deploy v1/v2/latest simultaneously on GitHub Pages subdirectories | S |
-| [P2-T009](P2-T009-version-comparison-index-page.md) | Root index page listing all versions with links for side-by-side comparison | S |
+| File | Goal | Complexity | Status |
+|---|---|---|---|
+| [P2-T001](P2-T001-json-driven-ui-dynamic-reflection.md) | JSON changes reflect on UI instantly — fully data-driven | S | ✅ Done (manifest-driven) |
+| [P2-T002](P2-T002-landing-page-success-stories.md) | Landing page with success stories — emotional hook before sign-up | M | ✅ Done |
+| [P2-T003](P2-T003-mobile-tab-responsive-redesign.md) | Mobile-first + tab-friendly full redesign | M | Pending |
+| [P2-T004](P2-T004-timer-toggle-on-off.md) | Timer on/off toggle — pressure-free practice option | S | Pending |
+| [P2-T005](P2-T005-dark-light-mode-toggle.md) | Dark / light mode with system preference detection | S | Pending |
+| [P2-T006](P2-T006-daily-free-unlimited-practice.md) | Daily free unlimited practice — no paywalls on core loop | S | Pending |
+| [P2-T007](P2-T007-git-version-tagging-strategy.md) | Git tag convention — every release recoverable by version number | S | ✅ Done |
+| [P2-T008](P2-T008-multi-version-deployment-github-pages.md) | Deploy v1/v2/latest simultaneously on GitHub Pages subdirectories | S | ✅ Done |
+| [P2-T009](P2-T009-version-comparison-index-page.md) | Root index page listing all versions with links for side-by-side comparison | S | ✅ Done |
 
 ---
 
 ## P3 — Engagement & Retention (First 4 Weeks)
 
-| File | Goal | Complexity |
-|---|---|---|
-| [P3-T001](P3-T001-daily-streak-tracking.md) | Daily streak tracking — core habit loop | S |
-| [P3-T002](P3-T002-streak-visualization-ui.md) | Streak visualization — flame, 7-day strip, milestone celebrations | S |
-| [P3-T003](P3-T003-progress-dashboard.md) | Progress dashboard — accuracy trends, time invested, goal breakdown | M |
-| [P3-T004](P3-T004-avatar-profile-photo.md) | Avatar + profile photo upload | S |
-| [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M |
-| [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S |
-| [P3-T007](P3-T007-efficient-question-addition.md) | Admin form + CSV bulk import for adding questions | M |
-| [P3-T008](P3-T008-offline-dnd-mode.md) | Offline mode (Service Worker) + DnD focus toggle | M |
+| File | Goal | Complexity | Status |
+|---|---|---|---|
+| [P3-T001](P3-T001-daily-streak-tracking.md) | Daily streak tracking — core habit loop | S | Pending |
+| [P3-T002](P3-T002-streak-visualization-ui.md) | Streak visualization — flame, 7-day strip, milestone celebrations | S | Pending |
+| [P3-T003](P3-T003-progress-dashboard.md) | Progress dashboard — accuracy trends, time invested, goal breakdown | M | Pending |
+| [P3-T004](P3-T004-avatar-profile-photo.md) | Avatar + profile photo upload | S | Pending |
+| [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
+| [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
+| [P3-T007](P3-T007-efficient-question-addition.md) | Admin form + CSV bulk import for adding questions | M | Pending |
+| [P3-T008](P3-T008-offline-dnd-mode.md) | Offline mode (Service Worker) + DnD focus toggle | M | Pending |
 
 ---
 
 ## P4 — Power Features (After 1,000 Users)
 
-| File | Goal | Complexity |
-|---|---|---|
-| [P4-T001](P4-T001-admin-dashboard-user-analytics.md) | Admin dashboard — users, sessions, daily actives, goal popularity | M |
-| [P4-T002](P4-T002-multi-language-support.md) | Multi-language UI + translated questions (English + Hindi first) | M |
+| File | Goal | Complexity | Status |
+|---|---|---|---|
+| [P4-T001](P4-T001-admin-dashboard-user-analytics.md) | Admin dashboard — users, sessions, daily actives, goal popularity | M | Pending |
+| [P4-T002](P4-T002-multi-language-support.md) | Multi-language UI + translated questions (English + Hindi first) | M | Pending |
 
 ---
 
 ## P5 — Monetization (After Retention Proven)
 
-| File | Goal | Complexity |
-|---|---|---|
-| [P5-T001](P5-T001-stripe-integration-setup.md) | Stripe Checkout — paid plan upgrade flow | L |
-| [P5-T002](P5-T002-real-exam-mode-paid.md) | Real exam mode — countdown, no mid-feedback, review before submit | M |
-| [P5-T003](P5-T003-leaderboard-paid.md) | Leaderboard — weekly + all-time, exam sessions only | M |
+| File | Goal | Complexity | Status |
+|---|---|---|---|
+| [P5-T001](P5-T001-stripe-integration-setup.md) | Stripe Checkout — paid plan upgrade flow | L | Pending |
+| [P5-T002](P5-T002-real-exam-mode-paid.md) | Real exam mode — countdown, no mid-feedback, review before submit | M | Pending |
+| [P5-T003](P5-T003-leaderboard-paid.md) | Leaderboard — weekly + all-time, exam sessions only | M | Pending |
 
 ---
 
 ## P6 — Ecosystem (After First Revenue)
 
-| File | Goal | Complexity |
-|---|---|---|
-| [P6-T001](P6-T001-teacher-collab-content.md) | Teacher content contribution + review queue | M |
-| [P6-T002](P6-T002-student-peer-collab.md) | Student challenge links + peer comparison | L |
-| [P6-T003](P6-T003-institute-partnership-portal.md) | Institute-branded portal + private question banks | L |
+| File | Goal | Complexity | Status |
+|---|---|---|---|
+| [P6-T001](P6-T001-teacher-collab-content.md) | Teacher content contribution + review queue | M | Pending |
+| [P6-T002](P6-T002-student-peer-collab.md) | Student challenge links + peer comparison | L | Pending |
+| [P6-T003](P6-T003-institute-partnership-portal.md) | Institute-branded portal + private question banks | L | Pending |
 
 ---
 

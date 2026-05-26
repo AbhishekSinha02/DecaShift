@@ -1,5 +1,16 @@
 // app.js — DecaShift v2
 
+const CONFIG = {
+  owner:         'AbhishekSinha02',
+  repo:          'DecaShift',
+  contentBranch: 'main',
+  rawBase:       'https://raw.githubusercontent.com'
+};
+
+function _rawUrl(path) {
+  return `${CONFIG.rawBase}/${CONFIG.owner}/${CONFIG.repo}/${CONFIG.contentBranch}/${path}`;
+}
+
 const state = {
   currentScreen: null,
   user: null,
@@ -36,19 +47,24 @@ async function init() {
 }
 
 async function _loadManifest() {
-  try {
-    const r = await fetch('questions/manifest.json');
-    state.manifest = await r.json();
-  } catch (err) {
-    console.error('[DecaShift] Failed to load manifest:', err);
-    state.manifest = [];
+  const urls = [
+    _rawUrl('app/ui/questions/manifest.json'),
+    'questions/manifest.json'           // local fallback (localhost / offline)
+  ];
+  for (const url of urls) {
+    try {
+      const r = await fetch(url);
+      if (r.ok) { state.manifest = await r.json(); return; }
+    } catch (_) {}
   }
+  console.error('[DecaShift] Failed to load manifest from all sources');
+  state.manifest = [];
 }
 
 async function _loadQuestionsForUser(user) {
   const entries = _filterManifest(state.manifest, user);
   const results = await Promise.all(
-    entries.map(e => fetch('questions/' + e.file).then(r => r.json()).catch(() => null))
+    entries.map(e => _fetchQuestionFile(e.file))
   );
 
   state.goals     = [];
@@ -69,6 +85,20 @@ async function _loadQuestionsForUser(user) {
       state.questions.push({ ...q, goalId: file.goalId });
     });
   });
+}
+
+async function _fetchQuestionFile(filename) {
+  const urls = [
+    _rawUrl('app/ui/questions/' + filename),
+    'questions/' + filename             // local fallback
+  ];
+  for (const url of urls) {
+    try {
+      const r = await fetch(url);
+      if (r.ok) return r.json();
+    } catch (_) {}
+  }
+  return null;
 }
 
 function _filterManifest(manifest, user) {
