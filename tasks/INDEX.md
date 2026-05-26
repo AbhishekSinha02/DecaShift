@@ -54,11 +54,12 @@
 | [P2-T010](P2-T010-local-dev-testing-setup.md) | Local dev testing setup — Live Server + Ctrl+Shift+D quick-fill | S | ✅ Done |
 | [P2-T011](P2-T011-manual-test-checklist.md) | Manual test checklist — all screens, auth flows, edge cases | S | Pending |
 | **[P2-T012](P2-T012-profile-edit-grade-change.md)** | **Profile edit — grade/role change without losing history** | **S** | **Pending** |
-| **[P2-T013](P2-T013-subscription-tier-design.md)** | **Subscription tier design — Free / Pro / Max feature matrix** | **S** | **Pending** |
+| **[P2-T013](P2-T013-subscription-tier-design.md)** | **Subscription strategy — 15-day trial, soft lock, ₹199/month Pro** | **S** | **Pending** |
 | **[P2-T014](P2-T014-branding-logo-rename.md)** | **Branding — SVG logo, favicon, PWA icon, tagline** | **M** | **Pending** |
 | **[P2-T015](P2-T015-landing-page-improvements.md)** | **Landing page — real stats, screenshot, specific social proof, FAQ** | **M** | **Pending** |
 | **[P2-T016](P2-T016-welcome-onboarding-flow.md)** | **Welcome onboarding — first-login modal, guided profile setup, empty states** | **M** | **Pending** |
 | **[P2-T017](P2-T017-profile-page-password-reset.md)** | **Profile page — account screen, change password, delete account** | **M** | **Pending** |
+| **[P2-T018](P2-T018-automated-testing-strategy.md)** | **Automated E2E tests — Playwright, GitHub Actions CI, all critical flows** | **M** | **Pending** |
 
 ---
 
@@ -135,7 +136,8 @@ P2-T007  (git tagging)       → P2-T008, P2-T009
 P2-T008  (multi-version)     → P2-T009
 P2-T008  (multi-version)     depends on P1-T010 (GitHub raw URLs enable branch switching)
 P2-T012  (profile edit)      depends on P1-T006 (categories — done)
-P2-T013  (tier design)       → P5-T004, P5-T005, P5-T001
+P2-T013  (subscription)      → P5-T004, P5-T005, P5-T001; trial gate is the feature gate
+P2-T018  (automated tests)   depends on P2-T013 (trial gate needed for trial.spec.js)
 
 P3-T001  (streak)            → P3-T002, P3-T005
 P3-T007  (Q addition)        → P6-T001
@@ -158,6 +160,6 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 45 (1 cancelled) | P1: 13 | P2: 17 | P3: 13 | P4: 2 | P5: 5 | P6: 3*
+*Total tasks: 46 (1 cancelled) | P1: 13 | P2: 18 | P3: 13 | P4: 2 | P5: 5 | P6: 3*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1)*
 *New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*
