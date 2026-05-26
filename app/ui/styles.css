@@ -607,6 +607,57 @@ select option { background: var(--surface-2); }
   flex-shrink: 0;
 }
 
+/* Weekly challenge section */
+.weekly-section { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
+
+.weekly-card {
+  background: linear-gradient(135deg, var(--surface) 0%, rgba(59, 130, 246, 0.07) 100%);
+  border: 1.5px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.weekly-card.past {
+  border-color: var(--border);
+  background: var(--surface);
+  opacity: 0.7;
+}
+.weekly-card.past:hover { opacity: 0.9; }
+
+.weekly-header { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
+
+.weekly-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.weekly-badge.new { background: var(--success); }
+
+.weekly-dates { font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
+
+.weekly-body { flex: 1; min-width: 0; }
+.weekly-title { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
+.weekly-desc  { font-size: 13px; color: var(--muted); margin: 0; }
+.weekly-score { display: block; font-size: 12px; color: var(--success); font-family: var(--font-mono); margin-top: 4px; }
+
+.weekly-action { flex-shrink: 0; }
+
+.past-challenges-section {
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
 /* Goal card overflow menu */
 .goal-menu-btn {
   position: absolute;

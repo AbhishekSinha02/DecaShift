@@ -30,7 +30,8 @@ const state = {
   timerSeconds: 0,
   timerEnabled: localStorage.getItem('decashift_timer') !== 'off',
   subjectFilter: 'all',
-  showArchivedGoals: false
+  showArchivedGoals: false,
+  showPastChallenges: false
 };
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
@@ -104,7 +105,8 @@ async function _loadQuestionsForUser(user) {
     state.goals.push({
       id: file.goalId, name: file.title || file.name, description: file.description || '',
       category: file.category, grade: file.grade ?? null,
-      subject: file.subject, level: file.level, tags: file.tags || []
+      subject: file.subject, level: file.level, tags: file.tags || [],
+      weekStart: file.weekStart || null, weekEnd: file.weekEnd || null
     });
     (file.questions || []).forEach(q => state.questions.push({ ...q, goalId: file.goalId }));
   });
@@ -131,7 +133,7 @@ function _filterManifest(manifest, user) {
   if (cat === 'school') {
     if (user.grade === 'college') return manifest.filter(e => e.category === 'college');
     const grade = parseInt(user.grade, 10);
-    return manifest.filter(e => e.category === 'school' && e.grade === grade);
+    return manifest.filter(e => e.category === 'school' && (e.grade === grade || e.grade === null));
   }
   if (cat === 'college') return manifest.filter(e => e.category === 'college');
   return manifest.filter(e => e.category === 'professional');
@@ -378,7 +380,10 @@ function _renderHome() {
   // Sync theme button state
   _updateThemeBtns(document.documentElement.dataset.theme || 'dark');
 
-  const allGoals = state.goals;
+  // ── Weekly challenge section ─────────────────────────────────────────────
+  _renderWeeklySection();
+
+  const allGoals = state.goals.filter(g => g.subject !== 'weekly');
   const list     = document.getElementById('goals-list');
   if (!list) return;
 
@@ -512,6 +517,86 @@ function _closeAllGoalMenus() {
 
 function _toggleArchivedSection() {
   state.showArchivedGoals = !state.showArchivedGoals;
+  _renderHome();
+}
+
+function _renderWeeklySection() {
+  const el = document.getElementById('weekly-section');
+  if (!el) return;
+
+  const weeklyGoals = state.goals.filter(g => g.subject === 'weekly');
+  if (!weeklyGoals.length) { el.innerHTML = ''; return; }
+
+  const today = new Date().toISOString().slice(0, 10);
+
+  const activeGoal = weeklyGoals.find(g => g.weekStart && today >= g.weekStart && today <= g.weekEnd);
+  const activeSess = activeGoal ? Storage.getLastSessionForGoal(activeGoal.id) : null;
+  const isPerfect  = activeSess && activeSess.accuracy >= 1;
+
+  // past = completed weeks + current week if 100%
+  const pastGoals = weeklyGoals
+    .filter(g => (g.weekEnd && today > g.weekEnd) || (activeGoal && g.id === activeGoal.id && isPerfect))
+    .sort((a, b) => b.weekStart.localeCompare(a.weekStart));
+
+  let html = '';
+
+  if (activeGoal && !isPerfect) {
+    const daysSince = Math.floor((new Date(today) - new Date(activeGoal.weekStart)) / 86400000);
+    const isNew  = daysSince <= 1;
+    const score  = activeSess ? activeSess.score + '/' + activeSess.total : null;
+    html += `
+      <div class="weekly-card">
+        <div class="weekly-body">
+          <div class="weekly-header">
+            <span class="weekly-badge${isNew ? ' new' : ''}">${isNew ? '✨ NEW · ' : ''}This Week</span>
+            <span class="weekly-dates">${_fmtWeekDates(activeGoal.weekStart, activeGoal.weekEnd)}</span>
+          </div>
+          <h3 class="weekly-title">${_esc(activeGoal.title)}</h3>
+          <p class="weekly-desc">${_esc(activeGoal.description)}</p>
+          ${score ? `<span class="weekly-score">Last: ${score}</span>` : ''}
+        </div>
+        <div class="weekly-action">
+          <button class="btn btn-primary btn-sm" onclick="startGoal('${activeGoal.id}')">${activeSess ? 'Retry' : 'Start'}</button>
+        </div>
+      </div>`;
+  }
+
+  if (pastGoals.length) {
+    const isOpen = state.showPastChallenges;
+    html += `
+      <button class="archived-toggle" onclick="_togglePastChallenges()">
+        ${isOpen ? '▲' : '▼'} Past Challenges (${pastGoals.length})
+      </button>
+      <div class="past-challenges-section" style="display:${isOpen ? 'flex' : 'none'}">
+        ${pastGoals.map(g => {
+          const s = Storage.getLastSessionForGoal(g.id);
+          const score = s ? s.score + '/' + s.total : null;
+          const perfect = s && s.accuracy >= 1;
+          return `
+            <div class="weekly-card past">
+              <div class="weekly-body">
+                <h3 class="weekly-title">${_esc(g.title)}${perfect ? ' ✅' : ''}</h3>
+                <p class="weekly-desc">${_fmtWeekDates(g.weekStart, g.weekEnd)}${score ? ' · Last: ' + score : ''}</p>
+              </div>
+              <div class="weekly-action">
+                <button class="btn btn-ghost btn-sm" onclick="startGoal('${g.id}')">Redo</button>
+              </div>
+            </div>`;
+        }).join('')}
+      </div>`;
+  }
+
+  el.innerHTML = html;
+}
+
+function _fmtWeekDates(start, end) {
+  const opt = { month: 'short', day: 'numeric' };
+  return new Date(start + 'T00:00:00').toLocaleDateString('en-IN', opt) + ' – ' +
+         new Date(end   + 'T00:00:00').toLocaleDateString('en-IN', opt);
+}
+
+function _togglePastChallenges() {
+  state.showPastChallenges = !state.showPastChallenges;
   _renderHome();
 }
 

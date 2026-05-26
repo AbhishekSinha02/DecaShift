@@ -1,0 +1,108 @@
+{
+  "goalId": "weekly-2026-W22",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "category": "school",
+  "grade": null,
+  "subject": "weekly",
+  "level": 1,
+  "title": "Weekly Challenge — May 26–30",
+  "description": "Grade 3–4 mix: Maths & Science · 5 questions",
+  "tags": [
+    "weekly",
+    "math",
+    "science"
+  ],
+  "questions": [
+    {
+      "id": "wk22-001",
+      "question": "What is 8 × 7?",
+      "options": [
+        "48",
+        "54",
+        "56",
+        "64"
+      ],
+      "correctIndex": 2,
+      "explanation": "8 × 7 = 56. The 8 times table: 8, 16, 24, 32, 40, 48, 56.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-4",
+        "math",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "wk22-002",
+      "question": "Which part of the plant absorbs water from the soil?",
+      "options": [
+        "Leaf",
+        "Stem",
+        "Root",
+        "Flower"
+      ],
+      "correctIndex": 2,
+      "explanation": "Roots grow underground and absorb water and minerals from the soil.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-3",
+        "science",
+        "plants"
+      ]
+    },
+    {
+      "id": "wk22-003",
+      "question": "What is 3/4 of 40?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "correctIndex": 2,
+      "explanation": "3/4 of 40 = (40 ÷ 4) × 3 = 10 × 3 = 30.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-4",
+        "math",
+        "fractions"
+      ]
+    },
+    {
+      "id": "wk22-004",
+      "question": "How many legs does an insect have?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correctIndex": 1,
+      "explanation": "All insects have exactly 6 legs. Spiders have 8 legs (they are arachnids, not insects).",
+      "difficulty": "easy",
+      "tags": [
+        "grade-3",
+        "science",
+        "animals"
+      ]
+    },
+    {
+      "id": "wk22-005",
+      "question": "What is the area of a rectangle 6 cm long and 4 cm wide?",
+      "options": [
+        "10 cm²",
+        "20 cm²",
+        "24 cm²",
+        "28 cm²"
+      ],
+      "correctIndex": 2,
+      "explanation": "Area = length × width = 6 × 4 = 24 cm².",
+      "difficulty": "easy",
+      "tags": [
+        "grade-4",
+        "math",
+        "area"
+      ]
+    }
+  ]
+}

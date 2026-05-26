@@ -1,0 +1,108 @@
+{
+  "goalId": "weekly-2026-W23",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "category": "school",
+  "grade": null,
+  "subject": "weekly",
+  "level": 1,
+  "title": "Weekly Challenge — Jun 1–7",
+  "description": "Grade 4–5 mix: Hindi & French · 5 questions",
+  "tags": [
+    "weekly",
+    "hindi",
+    "french"
+  ],
+  "questions": [
+    {
+      "id": "wk23-001",
+      "question": "'बड़ा' का विलोम शब्द क्या है?",
+      "options": [
+        "लंबा",
+        "मोटा",
+        "छोटा",
+        "गोल"
+      ],
+      "correctIndex": 2,
+      "explanation": "'बड़ा' (big) का विलोम 'छोटा' (small) है।",
+      "difficulty": "easy",
+      "tags": [
+        "grade-4",
+        "hindi",
+        "vilom"
+      ]
+    },
+    {
+      "id": "wk23-002",
+      "question": "What does 'bonjour' mean?",
+      "options": [
+        "Goodbye",
+        "Good evening",
+        "Hello",
+        "Thank you"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Bonjour' means Hello/Good day in French. It is used in the morning and afternoon.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-3",
+        "french",
+        "greetings"
+      ]
+    },
+    {
+      "id": "wk23-003",
+      "question": "'सूर्य' का पर्यायवाची शब्द क्या है?",
+      "options": [
+        "चंद्र",
+        "तारा",
+        "रवि",
+        "आकाश"
+      ],
+      "correctIndex": 2,
+      "explanation": "'सूर्य' के पर्यायवाची: रवि, भास्कर, दिनकर, आदित्य।",
+      "difficulty": "easy",
+      "tags": [
+        "grade-5",
+        "hindi",
+        "paryayvachi"
+      ]
+    },
+    {
+      "id": "wk23-004",
+      "question": "How do you say 'school' in French?",
+      "options": [
+        "maison",
+        "école",
+        "magasin",
+        "hôpital"
+      ],
+      "correctIndex": 1,
+      "explanation": "'École' means school in French. 'Maison' = house, 'hôpital' = hospital.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-5",
+        "french",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "wk23-005",
+      "question": "'पुस्तक' शब्द का बहुवचन है?",
+      "options": [
+        "पुस्तकें",
+        "पुस्तकों",
+        "पुस्तका",
+        "पुस्तकि"
+      ],
+      "correctIndex": 0,
+      "explanation": "'पुस्तक' (book) का बहुवचन 'पुस्तकें' (books) होता है।",
+      "difficulty": "easy",
+      "tags": [
+        "grade-5",
+        "hindi",
+        "vachan"
+      ]
+    }
+  ]
+}

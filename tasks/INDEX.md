@@ -81,7 +81,7 @@
 | **[P3-T014](P3-T014-content-expansion-science-hindi-french-grade2-8.md)** | **Content expansion — Science, Hindi, French for grades 2–8 (22 new files, 264 questions)** | **M** | **✅ Done** |
 | **[P3-T015](P3-T015-personalized-questions-username-placeholder.md)** | **Personalized questions — {{userName}} placeholder replaced at render time** | **S** | **✅ Done** |
 | **[P3-T016](P3-T016-goal-archive-mark-as-done.md)** | **Goal archive — mark as done, hide from home, "Show completed (N)" toggle** | **S** | **✅ Done** |
-| **[P3-T017](P3-T017-weekly-question-sets.md)** | **Weekly question sets — date-gated, Mon–Sun, "This Week" card on home screen** | **M** | **Pending** |
+| **[P3-T017](P3-T017-weekly-question-sets.md)** | **Weekly question sets — date-gated, Mon–Sun, "This Week" card on home screen** | **M** | **✅ Done** |
 | [P3-T004](P3-T004-avatar-profile-photo.md) | Avatar + profile photo upload | S | Pending |
 | [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
 | [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |

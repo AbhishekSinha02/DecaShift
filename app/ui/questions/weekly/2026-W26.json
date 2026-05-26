@@ -1,0 +1,108 @@
+{
+  "goalId": "weekly-2026-W26",
+  "weekStart": "2026-06-22",
+  "weekEnd": "2026-06-28",
+  "category": "school",
+  "grade": null,
+  "subject": "weekly",
+  "level": 1,
+  "title": "Weekly Challenge — Jun 22–28",
+  "description": "Grade 3–4 mix: Hindi & Science · 5 questions",
+  "tags": [
+    "weekly",
+    "hindi",
+    "science"
+  ],
+  "questions": [
+    {
+      "id": "wk26-001",
+      "question": "'रात' का विलोम शब्द क्या है?",
+      "options": [
+        "शाम",
+        "दोपहर",
+        "दिन",
+        "सुबह"
+      ],
+      "correctIndex": 2,
+      "explanation": "'रात' (night) का विलोम 'दिन' (day) है।",
+      "difficulty": "easy",
+      "tags": [
+        "grade-3",
+        "hindi",
+        "vilom"
+      ]
+    },
+    {
+      "id": "wk26-002",
+      "question": "What do plants need to make their own food?",
+      "options": [
+        "Only water",
+        "Only sunlight",
+        "Sunlight, water, and CO₂",
+        "Soil only"
+      ],
+      "correctIndex": 2,
+      "explanation": "Plants need sunlight, water, and carbon dioxide (CO₂) for photosynthesis. Chlorophyll in leaves captures the sunlight.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-3",
+        "science",
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "wk26-003",
+      "question": "'आकाश' का पर्यायवाची शब्द है?",
+      "options": [
+        "पृथ्वी",
+        "नभ",
+        "सागर",
+        "पर्वत"
+      ],
+      "correctIndex": 1,
+      "explanation": "'आकाश' के पर्यायवाची: नभ, गगन, अम्बर।",
+      "difficulty": "easy",
+      "tags": [
+        "grade-4",
+        "hindi",
+        "paryayvachi"
+      ]
+    },
+    {
+      "id": "wk26-004",
+      "question": "Which gas do we breathe in to stay alive?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "correctIndex": 2,
+      "explanation": "We inhale oxygen (O₂). Our body uses it to release energy from food in the process of respiration.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-4",
+        "science",
+        "respiration"
+      ]
+    },
+    {
+      "id": "wk26-005",
+      "question": "'खुश' का विलोम शब्द क्या है?",
+      "options": [
+        "प्रसन्न",
+        "दुखी",
+        "भावुक",
+        "शांत"
+      ],
+      "correctIndex": 1,
+      "explanation": "'खुश' (happy) का विलोम 'दुखी' (sad) है।",
+      "difficulty": "easy",
+      "tags": [
+        "grade-4",
+        "hindi",
+        "vilom"
+      ]
+    }
+  ]
+}
