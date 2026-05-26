@@ -663,13 +663,92 @@ function openSettings() {
   const modal = document.getElementById('settings-modal');
   if (!modal) return;
   const user = state.user;
+
+  // Pre-fill profile fields
+  const nameEl = document.getElementById('settings-name');
+  if (nameEl) nameEl.value = user.name || '';
+
+  const isSchool = user.category === 'school';
+  const isPro    = user.category === 'professional';
+  const schoolEl = document.getElementById('settings-school-fields');
+  const proEl    = document.getElementById('settings-pro-fields');
+  if (schoolEl) schoolEl.classList.toggle('hidden', !isSchool);
+  if (proEl)    proEl.classList.toggle('hidden',    !isPro);
+
+  if (isSchool) {
+    const gradeEl = document.getElementById('settings-grade');
+    if (gradeEl) gradeEl.value = user.grade || '';
+    const colGroup = document.getElementById('settings-college-group');
+    if (colGroup) colGroup.classList.toggle('hidden', user.grade !== 'college');
+    const courseEl = document.getElementById('settings-course');
+    if (courseEl) courseEl.value = user.course || '';
+  }
+  if (isPro) {
+    const roleEl    = document.getElementById('settings-role');
+    const companyEl = document.getElementById('settings-company');
+    if (roleEl)    roleEl.value    = user.role    || '';
+    if (companyEl) companyEl.value = user.company || '';
+  }
+
+  // Pre-fill regional language
   const langEl = document.getElementById('settings-regional-lang');
   if (langEl) langEl.value = user.regionalLanguage || '';
+
+  // Clear status messages
+  ['settings-profile-err', 'settings-profile-ok', 'settings-pw-err', 'settings-pw-ok'].forEach(id => {
+    const el = document.getElementById(id); if (el) el.textContent = '';
+  });
+
   modal.classList.remove('hidden');
 }
 
 function closeSettings() {
   document.getElementById('settings-modal').classList.add('hidden');
+}
+
+async function saveProfileEdit() {
+  const errEl = document.getElementById('settings-profile-err');
+  const okEl  = document.getElementById('settings-profile-ok');
+  if (errEl) errEl.textContent = '';
+  if (okEl)  okEl.textContent  = '';
+
+  const user = state.user;
+  const nameEl = document.getElementById('settings-name');
+  const newName = nameEl ? nameEl.value.trim() : '';
+  if (!newName) { if (errEl) errEl.textContent = 'Name cannot be empty.'; return; }
+
+  user.name = newName;
+
+  if (user.category === 'school') {
+    const gradeEl = document.getElementById('settings-grade');
+    const newGrade = gradeEl ? gradeEl.value : '';
+    if (!newGrade) { if (errEl) errEl.textContent = 'Select a grade.'; return; }
+    user.grade = newGrade;
+    if (newGrade === 'college') {
+      const courseEl = document.getElementById('settings-course');
+      user.course = courseEl ? courseEl.value : null;
+    } else {
+      user.course = null;
+    }
+  } else if (user.category === 'professional') {
+    const roleEl    = document.getElementById('settings-role');
+    const companyEl = document.getElementById('settings-company');
+    user.role    = roleEl    ? roleEl.value.trim()    : user.role;
+    user.company = companyEl ? companyEl.value.trim() : user.company;
+  }
+
+  Storage.saveUser(user);
+  state.user = user;
+
+  // Reload goals for new grade/role (clears manifest session cache so new grade fetches correctly)
+  sessionStorage.removeItem('ds_manifest_cache');
+  await _loadQuestionsForUser(user);
+  _renderHome();
+
+  if (okEl) okEl.textContent = 'Profile saved.';
+
+  // Sync to Drive silently
+  Storage.syncUserToRemote(user).catch(() => {});
 }
 
 async function saveRegionalLanguage() {

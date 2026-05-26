@@ -1,6 +1,6 @@
 # Feature: Profile Edit — Grade / Role Change
 
-**Priority:** P2 | **Type:** UX | **Complexity:** S | **Status:** Pending
+**Priority:** P2 | **Type:** UX | **Complexity:** S | **Status:** Done ✅
 
 ## Goal
 Let users change their grade or role after signup without losing session history.

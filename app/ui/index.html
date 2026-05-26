@@ -418,6 +418,77 @@
     <div class="modal-box settings-modal-box">
       <h2 class="modal-title">Settings</h2>
 
+      <!-- Profile section -->
+      <div class="settings-section">
+        <h3 class="settings-section-title">Profile</h3>
+
+        <div class="form-group">
+          <label for="settings-name">Display Name</label>
+          <input type="text" id="settings-name" placeholder="Your name" autocomplete="off">
+        </div>
+
+        <!-- School fields -->
+        <div id="settings-school-fields">
+          <div class="form-group">
+            <label for="settings-grade">Grade / Level</label>
+            <select id="settings-grade" onchange="document.getElementById('settings-college-group').classList.toggle('hidden', this.value !== 'college')">
+              <option value="2">Grade 2</option>
+              <option value="3">Grade 3</option>
+              <option value="4">Grade 4</option>
+              <option value="5">Grade 5</option>
+              <option value="6">Grade 6</option>
+              <option value="7">Grade 7</option>
+              <option value="8">Grade 8</option>
+              <option value="9">Grade 9</option>
+              <option value="10">Grade 10</option>
+              <option value="11">Grade 11</option>
+              <option value="12">Grade 12</option>
+              <option value="college">College / University</option>
+            </select>
+          </div>
+          <div class="form-group hidden" id="settings-college-group">
+            <label for="settings-course">Course / Stream</label>
+            <select id="settings-course">
+              <option value="">Select course…</option>
+              <option value="web-dev">Web Development</option>
+              <option value="dsa">Data Structures &amp; Algorithms</option>
+              <option value="data-science">Data Science</option>
+              <option value="electronics">Electronics &amp; Communication</option>
+              <option value="mechanical">Mechanical Engineering</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Professional fields -->
+        <div id="settings-pro-fields" class="hidden">
+          <div class="form-group">
+            <label for="settings-role">Role / Designation</label>
+            <select id="settings-role">
+              <option value="">Select your role…</option>
+              <option value="software-engineer">Software Engineer</option>
+              <option value="devops-engineer">DevOps / Platform Engineer</option>
+              <option value="data-engineer">Data Engineer</option>
+              <option value="ml-engineer">ML / AI Engineer</option>
+              <option value="cloud-architect">Cloud Architect</option>
+              <option value="sre">Site Reliability Engineer</option>
+              <option value="product-manager">Product Manager</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="settings-company">Company <span class="optional">(optional)</span></label>
+            <input type="text" id="settings-company" placeholder="Your company or organisation" autocomplete="off">
+          </div>
+        </div>
+
+        <span class="field-error" id="settings-profile-err"></span>
+        <span class="settings-pw-ok" id="settings-profile-ok"></span>
+        <button class="btn btn-primary btn-sm" onclick="saveProfileEdit()">Save Profile</button>
+      </div>
+
+      <hr class="settings-divider">
+
       <div class="settings-section">
         <h3 class="settings-section-title">Regional Language Practice</h3>
         <p class="settings-section-desc">Practice vocabulary and phrases in your chosen language — shown as a separate section on your home screen.</p>
