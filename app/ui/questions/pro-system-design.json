@@ -1,0 +1,222 @@
+{
+  "goalId": "pro-system-design",
+  "name": "System Design Interview Prep",
+  "subject": "system-design",
+  "category": "professional",
+  "grade": null,
+  "level": 1,
+  "description": "Scalability, databases, caching, load balancing, and distributed systems fundamentals",
+  "tags": ["system-design", "backend", "interviews", "professional"],
+  "questions": [
+    {
+      "id": "sd-001",
+      "question": "What is the purpose of a CDN (Content Delivery Network)?",
+      "options": [
+        "To process server-side logic closer to users",
+        "To cache and serve static assets from geographically distributed edge servers close to users",
+        "To balance database load across regions",
+        "To manage DNS records globally"
+      ],
+      "correctIndex": 1,
+      "explanation": "CDNs cache static content (images, JS, CSS) at edge nodes close to users, reducing latency and origin server load.",
+      "difficulty": "easy",
+      "tags": ["cdn", "caching"]
+    },
+    {
+      "id": "sd-002",
+      "question": "What is the CAP theorem?",
+      "options": [
+        "A distributed system can guarantee all of: Consistency, Availability, and Partition tolerance simultaneously",
+        "A distributed system can guarantee at most two of: Consistency, Availability, Partition tolerance",
+        "A distributed system must always choose Consistency over Availability",
+        "A system's capacity follows Consistency, Availability, and Performance tradeoffs"
+      ],
+      "correctIndex": 1,
+      "explanation": "CAP theorem: in a distributed system experiencing a network partition, you must choose between Consistency (all nodes see same data) or Availability (system always responds).",
+      "difficulty": "hard",
+      "tags": ["distributed-systems", "cap-theorem"]
+    },
+    {
+      "id": "sd-003",
+      "question": "What is horizontal sharding in databases?",
+      "options": [
+        "Splitting a table into separate columns across databases",
+        "Distributing rows of a table across multiple database servers by a shard key",
+        "Replicating data to read replicas",
+        "Creating separate schemas per user"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sharding splits table rows across database servers by a shard key (e.g., user_id % num_shards), enabling horizontal scaling.",
+      "difficulty": "medium",
+      "tags": ["databases", "sharding"]
+    },
+    {
+      "id": "sd-004",
+      "question": "What is the primary use case for a message queue (e.g., Kafka, RabbitMQ)?",
+      "options": [
+        "Storing relational data",
+        "Decoupling services, enabling async communication, and buffering spikes in traffic",
+        "Serving static content to clients",
+        "Caching database query results"
+      ],
+      "correctIndex": 1,
+      "explanation": "Message queues decouple producers from consumers, absorb traffic spikes, and enable reliable async processing without tight service coupling.",
+      "difficulty": "medium",
+      "tags": ["messaging", "async"]
+    },
+    {
+      "id": "sd-005",
+      "question": "What is the difference between SQL and NoSQL databases?",
+      "options": [
+        "SQL is for small data; NoSQL is for big data",
+        "SQL enforces a fixed schema with ACID transactions; NoSQL trades schema flexibility and horizontal scaling for weaker consistency guarantees",
+        "NoSQL cannot store structured data",
+        "SQL databases cannot scale at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "SQL: structured schema, ACID, strong consistency, vertical scaling. NoSQL: flexible schema, eventual consistency, horizontal scaling. Neither is universally better.",
+      "difficulty": "medium",
+      "tags": ["databases", "sql-vs-nosql"]
+    },
+    {
+      "id": "sd-006",
+      "question": "What is Redis most commonly used for in a web architecture?",
+      "options": [
+        "Primary relational database",
+        "In-memory caching, session storage, and pub/sub messaging",
+        "Full-text search engine",
+        "Blob storage for images"
+      ],
+      "correctIndex": 1,
+      "explanation": "Redis is an in-memory key-value store: ideal for caching (sub-millisecond reads), session storage, rate limiting, and pub/sub.",
+      "difficulty": "easy",
+      "tags": ["caching", "redis"]
+    },
+    {
+      "id": "sd-007",
+      "question": "What is a load balancer's primary function?",
+      "options": [
+        "Encrypts all incoming traffic",
+        "Distributes incoming requests across multiple server instances to ensure no single server is overwhelmed",
+        "Stores session data for logged-in users",
+        "Manages DNS resolution"
+      ],
+      "correctIndex": 1,
+      "explanation": "A load balancer routes requests to healthy backend servers using algorithms like round-robin, least-connections, or IP hash.",
+      "difficulty": "easy",
+      "tags": ["load-balancing"]
+    },
+    {
+      "id": "sd-008",
+      "question": "What is database read replication?",
+      "options": [
+        "Splitting a database's tables across servers",
+        "Creating read-only copies of the primary database to serve read traffic and reduce primary load",
+        "Backing up the database to a cold storage",
+        "Compressing database indices for faster reads"
+      ],
+      "correctIndex": 1,
+      "explanation": "Read replicas receive changes from the primary (via replication log) and serve read queries, offloading the primary and improving read scalability.",
+      "difficulty": "medium",
+      "tags": ["databases", "replication"]
+    },
+    {
+      "id": "sd-009",
+      "question": "What is an API Gateway responsible for in a microservices architecture?",
+      "options": [
+        "Stores API documentation",
+        "Acts as a single entry point for clients, handling routing, auth, rate limiting, and protocol translation",
+        "Manages database migrations",
+        "Provides service-to-service discovery"
+      ],
+      "correctIndex": 1,
+      "explanation": "An API Gateway is the front door: it routes requests to the right microservice, enforces auth/rate limiting, and abstracts backend complexity from clients.",
+      "difficulty": "medium",
+      "tags": ["microservices", "api-gateway"]
+    },
+    {
+      "id": "sd-010",
+      "question": "What does 'eventual consistency' mean in distributed systems?",
+      "options": [
+        "Data is always consistent across all nodes instantly",
+        "Given enough time with no new updates, all nodes will converge to the same data value",
+        "Consistency is sacrificed permanently for availability",
+        "Only two out of three nodes need to agree on a value"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eventual consistency: writes propagate asynchronously; nodes may temporarily disagree, but will converge to the same state if no new writes arrive.",
+      "difficulty": "medium",
+      "tags": ["distributed-systems", "consistency"]
+    },
+    {
+      "id": "sd-011",
+      "question": "What is the difference between latency and throughput?",
+      "options": [
+        "They are the same metric",
+        "Latency is the time to complete one request; throughput is the number of requests processed per unit time",
+        "Throughput measures data size; latency measures request count",
+        "Latency is a server metric; throughput is a client metric"
+      ],
+      "correctIndex": 1,
+      "explanation": "Latency: how long one request takes (e.g., 50ms). Throughput: how many requests are handled per second (e.g., 1000 RPS). Both are needed to characterize system performance.",
+      "difficulty": "easy",
+      "tags": ["performance"]
+    },
+    {
+      "id": "sd-012",
+      "question": "What is a circuit breaker pattern in microservices?",
+      "options": [
+        "A deployment pattern that cuts production traffic during updates",
+        "A resilience pattern that stops calling a failing service and returns fallback responses to prevent cascading failures",
+        "A security pattern that blocks suspicious requests",
+        "A pattern for breaking large services into smaller ones"
+      ],
+      "correctIndex": 1,
+      "explanation": "Circuit breaker: after N failures, 'open' the circuit (stop calling the service) and return a fallback. Prevents downstream failures from cascading.",
+      "difficulty": "hard",
+      "tags": ["resilience", "microservices"]
+    },
+    {
+      "id": "sd-013",
+      "question": "What is consistent hashing used for?",
+      "options": [
+        "Ensuring data integrity with cryptographic hashes",
+        "Distributing keys across cache/database nodes in a way that minimizes remapping when nodes are added or removed",
+        "Hashing passwords consistently across services",
+        "Balancing request load using hash values"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consistent hashing maps keys to a ring; adding/removing nodes only remaps a fraction of keys (vs. modulo hashing which remaps most keys).",
+      "difficulty": "hard",
+      "tags": ["caching", "distributed-systems"]
+    },
+    {
+      "id": "sd-014",
+      "question": "What is the role of a write-ahead log (WAL) in a database?",
+      "options": [
+        "Logs all user queries for analytics",
+        "Ensures durability by recording changes to a log before applying them, enabling crash recovery",
+        "Writes data to disk faster by batching operations",
+        "Provides a history of schema changes"
+      ],
+      "correctIndex": 1,
+      "explanation": "WAL writes intent before modifying data on disk. On crash recovery, the WAL is replayed to restore committed transactions and undo incomplete ones.",
+      "difficulty": "hard",
+      "tags": ["databases", "durability"]
+    },
+    {
+      "id": "sd-015",
+      "question": "What is the N+1 query problem in applications using an ORM?",
+      "options": [
+        "Running N+1 database instances for redundancy",
+        "Executing 1 query to fetch N parent records, then N separate queries to fetch each parent's related records",
+        "A query that returns N+1 more rows than expected",
+        "Joining N+1 tables in a single query"
+      ],
+      "correctIndex": 1,
+      "explanation": "N+1: fetch 100 users (1 query), then for each user fetch their orders (100 queries) = 101 queries. Fix with eager loading (JOIN or batch fetch).",
+      "difficulty": "medium",
+      "tags": ["databases", "orm", "performance"]
+    }
+  ]
+}

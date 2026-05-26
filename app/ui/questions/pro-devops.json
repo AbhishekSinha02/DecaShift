@@ -1,0 +1,222 @@
+{
+  "goalId": "pro-devops",
+  "name": "DevOps Interview Prep",
+  "subject": "devops",
+  "category": "professional",
+  "grade": null,
+  "level": 1,
+  "description": "CI/CD, Docker, Kubernetes, infrastructure as code, and SRE fundamentals",
+  "tags": ["devops", "docker", "cicd", "professional"],
+  "questions": [
+    {
+      "id": "devops-001",
+      "question": "What is the key difference between a Docker image and a Docker container?",
+      "options": [
+        "Images are running; containers are stopped",
+        "An image is a read-only template; a container is a running instance of an image",
+        "Containers are stored in a registry; images run on a host",
+        "There is no difference"
+      ],
+      "correctIndex": 1,
+      "explanation": "An image is a static, read-only blueprint. A container is a live, isolated process created from an image.",
+      "difficulty": "easy",
+      "tags": ["docker"]
+    },
+    {
+      "id": "devops-002",
+      "question": "What does 'Infrastructure as Code' (IaC) mean?",
+      "options": [
+        "Writing code that runs on infrastructure",
+        "Managing and provisioning infrastructure through machine-readable config files instead of manual processes",
+        "Building infrastructure components from scratch in code",
+        "Converting physical servers to virtual machines"
+      ],
+      "correctIndex": 1,
+      "explanation": "IaC (Terraform, Pulumi, AWS CloudFormation) describes infrastructure in version-controlled files, enabling repeatable, auditable provisioning.",
+      "difficulty": "easy",
+      "tags": ["iac", "terraform"]
+    },
+    {
+      "id": "devops-003",
+      "question": "What is the purpose of a CI/CD pipeline?",
+      "options": [
+        "Compiling code only",
+        "Automating build, test, and deployment steps so code changes reach production reliably and quickly",
+        "Monitoring production applications",
+        "Managing user authentication"
+      ],
+      "correctIndex": 1,
+      "explanation": "CI (Continuous Integration) automates build+test on every commit. CD (Continuous Delivery/Deployment) automates releasing to production.",
+      "difficulty": "easy",
+      "tags": ["cicd"]
+    },
+    {
+      "id": "devops-004",
+      "question": "What is the difference between horizontal and vertical scaling?",
+      "options": [
+        "Horizontal = add more resources to existing machine; Vertical = add more machines",
+        "Horizontal = add more machines; Vertical = add more resources to existing machine",
+        "Horizontal is for databases; Vertical is for web servers",
+        "They are the same thing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Horizontal scaling (scale out): add more servers. Vertical scaling (scale up): increase RAM/CPU on existing server.",
+      "difficulty": "easy",
+      "tags": ["scaling"]
+    },
+    {
+      "id": "devops-005",
+      "question": "What does a Kubernetes Deployment's 'replicas' field control?",
+      "options": [
+        "Number of containers per pod",
+        "Number of pod instances running at any time",
+        "Number of nodes in the cluster",
+        "Maximum CPU allowed per pod"
+      ],
+      "correctIndex": 1,
+      "explanation": "replicas: 3 means Kubernetes keeps 3 identical pod instances running. If one dies, it's automatically replaced.",
+      "difficulty": "easy",
+      "tags": ["kubernetes"]
+    },
+    {
+      "id": "devops-006",
+      "question": "What is the difference between blue-green and canary deployments?",
+      "options": [
+        "Blue-green uses two environments with full traffic switch; canary gradually shifts a percentage of traffic",
+        "Blue-green is for databases; canary is for web servers",
+        "Canary uses two environments; blue-green gradually shifts traffic",
+        "They are identical strategies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blue-green: two identical environments, instant full cutover. Canary: slowly increase traffic to new version while monitoring.",
+      "difficulty": "medium",
+      "tags": ["deployment-strategies"]
+    },
+    {
+      "id": "devops-007",
+      "question": "What does SLO (Service Level Objective) define?",
+      "options": [
+        "A legal commitment to customers",
+        "A target reliability goal (e.g., 99.9% uptime) for a service",
+        "The maximum number of requests per second",
+        "The on-call escalation policy"
+      ],
+      "correctIndex": 1,
+      "explanation": "SLO is the target value for an SLI (e.g., 99.9% availability). SLA is the contractual version with penalties for breach.",
+      "difficulty": "medium",
+      "tags": ["sre", "reliability"]
+    },
+    {
+      "id": "devops-008",
+      "question": "What is Terraform's 'plan' command used for?",
+      "options": [
+        "Applies infrastructure changes immediately",
+        "Shows what changes will be made without applying them",
+        "Initializes Terraform providers",
+        "Destroys all infrastructure"
+      ],
+      "correctIndex": 1,
+      "explanation": "terraform plan generates an execution plan showing what Terraform will create, modify, or destroy — without making any changes.",
+      "difficulty": "easy",
+      "tags": ["terraform", "iac"]
+    },
+    {
+      "id": "devops-009",
+      "question": "What is the main advantage of using a container orchestrator like Kubernetes?",
+      "options": [
+        "Containers run faster with orchestration",
+        "Automatically manages scheduling, scaling, healing, and networking of containers across a cluster",
+        "Provides a GUI for container management",
+        "Eliminates the need for Docker images"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kubernetes automates deployment, scaling, self-healing (restarts failed pods), and service discovery across many hosts.",
+      "difficulty": "easy",
+      "tags": ["kubernetes"]
+    },
+    {
+      "id": "devops-010",
+      "question": "What does 'git rebase' do compared to 'git merge'?",
+      "options": [
+        "Rebase merges branches; merge doesn't",
+        "Rebase replays commits on top of another branch for a linear history; merge creates a merge commit",
+        "They are identical",
+        "Rebase deletes branches; merge preserves them"
+      ],
+      "correctIndex": 1,
+      "explanation": "rebase moves/replays commits onto a new base, creating a cleaner linear history. merge preserves the branch topology with a merge commit.",
+      "difficulty": "medium",
+      "tags": ["git"]
+    },
+    {
+      "id": "devops-011",
+      "question": "What is an error budget in SRE?",
+      "options": [
+        "Budget allocated for fixing production bugs",
+        "The allowed amount of downtime/unreliability defined by (100% - SLO)",
+        "The maximum number of on-call incidents per month",
+        "The cost allowed for infrastructure errors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Error budget = 100% - SLO. A 99.9% SLO allows 0.1% downtime (~8.7 hours/year). Burning the budget fast slows new feature releases.",
+      "difficulty": "medium",
+      "tags": ["sre", "reliability"]
+    },
+    {
+      "id": "devops-012",
+      "question": "What does a Dockerfile's ENTRYPOINT instruction do?",
+      "options": [
+        "Specifies the base image",
+        "Sets the working directory inside the container",
+        "Defines the executable that runs when the container starts",
+        "Exposes a port on the container"
+      ],
+      "correctIndex": 2,
+      "explanation": "ENTRYPOINT sets the primary command that runs when the container starts. CMD provides default arguments to ENTRYPOINT.",
+      "difficulty": "medium",
+      "tags": ["docker"]
+    },
+    {
+      "id": "devops-013",
+      "question": "What is the main purpose of Prometheus in a DevOps stack?",
+      "options": [
+        "Log aggregation and search",
+        "Time-series metrics collection and alerting",
+        "Distributed tracing",
+        "Container image registry"
+      ],
+      "correctIndex": 1,
+      "explanation": "Prometheus scrapes metrics from endpoints, stores them as time-series, and triggers alerts via Alertmanager. Grafana visualizes the data.",
+      "difficulty": "easy",
+      "tags": ["monitoring", "prometheus"]
+    },
+    {
+      "id": "devops-014",
+      "question": "What is GitOps?",
+      "options": [
+        "Using Git for code review only",
+        "Using Git as the single source of truth for declarative infrastructure and application state",
+        "Running git commands in CI pipelines",
+        "Automating Git branch creation"
+      ],
+      "correctIndex": 1,
+      "explanation": "GitOps uses Git PRs as the operational mechanism — infrastructure changes are applied by reconciling the cluster state with the desired state in Git.",
+      "difficulty": "medium",
+      "tags": ["gitops", "deployment"]
+    },
+    {
+      "id": "devops-015",
+      "question": "What is a service mesh (e.g., Istio, Linkerd) responsible for?",
+      "options": [
+        "Managing Kubernetes node pools",
+        "Handling service-to-service communication — mTLS, retries, circuit breaking, observability",
+        "Providing persistent storage to services",
+        "Load balancing external traffic only"
+      ],
+      "correctIndex": 1,
+      "explanation": "A service mesh adds a sidecar proxy to each pod, handling cross-cutting concerns like mutual TLS, load balancing, retries, and distributed tracing.",
+      "difficulty": "hard",
+      "tags": ["service-mesh", "networking"]
+    }
+  ]
+}

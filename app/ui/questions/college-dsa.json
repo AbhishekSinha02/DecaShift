@@ -52,6 +52,166 @@
       "correctIndex": 1,
       "explanation": "In a BST: left subtree values < node value < right subtree values. This property enables O(log n) search.",
       "tags": ["trees", "bst"]
+    },
+    {
+      "id": "dsa-006",
+      "question": "What is the space complexity of Merge Sort?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+      "correctIndex": 2,
+      "explanation": "Merge Sort requires O(n) extra space for the auxiliary arrays used during the merge step.",
+      "difficulty": "medium",
+      "tags": ["sorting", "complexity"]
+    },
+    {
+      "id": "dsa-007",
+      "question": "What does a Hash Map use to store values?",
+      "options": ["Binary tree nodes", "Sequential array slots via a hash function", "Linked list nodes only", "A sorted array"],
+      "correctIndex": 1,
+      "explanation": "A hash map uses a hash function to compute an index into an array where the value is stored, giving O(1) average access.",
+      "difficulty": "medium",
+      "tags": ["hash-map"]
+    },
+    {
+      "id": "dsa-008",
+      "question": "What is the height of a balanced binary tree with n nodes?",
+      "options": ["O(n)", "O(n²)", "O(log n)", "O(1)"],
+      "correctIndex": 2,
+      "explanation": "A balanced binary tree has height O(log n). This is why balanced BSTs give O(log n) search/insert/delete.",
+      "difficulty": "medium",
+      "tags": ["trees", "complexity"]
+    },
+    {
+      "id": "dsa-009",
+      "question": "Which traversal visits nodes in Left-Root-Right order?",
+      "options": ["Pre-order", "In-order", "Post-order", "Level-order"],
+      "correctIndex": 1,
+      "explanation": "In-order traversal: Left → Root → Right. For a BST, this visits nodes in sorted (ascending) order.",
+      "difficulty": "easy",
+      "tags": ["trees", "traversal"]
+    },
+    {
+      "id": "dsa-010",
+      "question": "What is a Min-Heap property?",
+      "options": [
+        "Parent is always greater than children",
+        "Parent is always smaller than or equal to children",
+        "All leaves are at the same level",
+        "The root holds the maximum value"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a Min-Heap, every parent node is smaller than or equal to its children. The minimum element is always at the root.",
+      "difficulty": "medium",
+      "tags": ["heap"]
+    },
+    {
+      "id": "dsa-011",
+      "question": "What is the worst-case time complexity of Quick Sort?",
+      "options": ["O(n log n)", "O(n²)", "O(n)", "O(log n)"],
+      "correctIndex": 1,
+      "explanation": "Quick Sort's worst case is O(n²), which occurs when the pivot is always the smallest or largest element (e.g., sorted input with bad pivot).",
+      "difficulty": "medium",
+      "tags": ["sorting", "complexity"]
+    },
+    {
+      "id": "dsa-012",
+      "question": "What is a graph with no cycles called?",
+      "options": ["Weighted graph", "Directed graph", "Acyclic graph", "Complete graph"],
+      "correctIndex": 2,
+      "explanation": "A graph with no cycles is called an acyclic graph. A Directed Acyclic Graph (DAG) is used in task scheduling.",
+      "difficulty": "easy",
+      "tags": ["graphs"]
+    },
+    {
+      "id": "dsa-013",
+      "question": "Two-pointer technique is most efficient for which problem on a sorted array?",
+      "options": ["Finding maximum element", "Detecting duplicate elements", "Finding a pair that sums to a target", "Reversing the array"],
+      "correctIndex": 2,
+      "explanation": "Two pointers (one from each end) efficiently finds pairs summing to a target in O(n) time on a sorted array.",
+      "difficulty": "medium",
+      "tags": ["arrays", "two-pointer"]
+    },
+    {
+      "id": "dsa-014",
+      "question": "What does Dynamic Programming optimize by storing?",
+      "options": ["Space by reusing variables", "Time by caching results of subproblems (memoization)", "Code by reducing lines", "Memory by compressing data"],
+      "correctIndex": 1,
+      "explanation": "DP avoids redundant computation by storing (memoizing) results of overlapping subproblems.",
+      "difficulty": "medium",
+      "tags": ["dynamic-programming"]
+    },
+    {
+      "id": "dsa-015",
+      "question": "What is the time complexity of inserting into a sorted linked list at the correct position?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+      "correctIndex": 2,
+      "explanation": "You must traverse the list to find the correct position — up to n nodes — giving O(n) time.",
+      "difficulty": "medium",
+      "tags": ["linked-list", "complexity"]
+    },
+    {
+      "id": "dsa-016",
+      "question": "Dijkstra's algorithm cannot work correctly when:",
+      "options": ["The graph has cycles", "The graph has negative edge weights", "The graph is directed", "The graph is disconnected"],
+      "correctIndex": 1,
+      "explanation": "Dijkstra's greedy approach breaks with negative edge weights. Use Bellman-Ford for graphs with negative edges.",
+      "difficulty": "hard",
+      "tags": ["graphs", "shortest-path"]
+    },
+    {
+      "id": "dsa-017",
+      "question": "What is a deque?",
+      "options": [
+        "A tree with two children per node",
+        "A double-ended queue allowing insert/delete at both ends",
+        "A queue where priority determines order",
+        "A special type of hash map"
+      ],
+      "correctIndex": 1,
+      "explanation": "A deque (double-ended queue) supports O(1) insertion and deletion at both the front and back.",
+      "difficulty": "medium",
+      "tags": ["queue", "data-structures"]
+    },
+    {
+      "id": "dsa-018",
+      "question": "In Big O notation, what does O(1) mean?",
+      "options": [
+        "The algorithm runs in exactly 1 second",
+        "The algorithm's runtime is constant regardless of input size",
+        "The algorithm uses 1 unit of memory",
+        "The algorithm has one loop"
+      ],
+      "correctIndex": 1,
+      "explanation": "O(1) = constant time complexity. The operation takes the same time regardless of how large the input is.",
+      "difficulty": "easy",
+      "tags": ["complexity", "big-o"]
+    },
+    {
+      "id": "dsa-019",
+      "question": "What problem does a Union-Find (Disjoint Set Union) data structure efficiently solve?",
+      "options": [
+        "Finding the shortest path",
+        "Sorting elements",
+        "Detecting if two elements are in the same connected component",
+        "Finding the maximum subarray sum"
+      ],
+      "correctIndex": 2,
+      "explanation": "Union-Find supports near-O(1) union and find operations, efficiently detecting connected components and cycles.",
+      "difficulty": "hard",
+      "tags": ["graphs", "union-find"]
+    },
+    {
+      "id": "dsa-020",
+      "question": "What is the key difference between a stack implemented via array vs linked list?",
+      "options": [
+        "Array stack is O(log n); linked list is O(1)",
+        "Array stack has fixed capacity; linked list stack is dynamically sized",
+        "Array stack uses FIFO; linked list stack uses LIFO",
+        "Linked list cannot implement a stack"
+      ],
+      "correctIndex": 1,
+      "explanation": "Array-based stacks have a fixed maximum capacity (or need resizing). Linked-list stacks grow dynamically without a preset limit.",
+      "difficulty": "medium",
+      "tags": ["stack", "arrays", "linked-list"]
     }
   ]
 }

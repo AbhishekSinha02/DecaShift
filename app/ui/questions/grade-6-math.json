@@ -1,0 +1,145 @@
+{
+  "goalId": "grade-6-math",
+  "category": "school",
+  "grade": 6,
+  "subject": "mathematics",
+  "level": 1,
+  "title": "Grade 6 Mathematics",
+  "questions": [
+    {
+      "id": "g6m-001",
+      "question": "What is the value of -3 + (-5)?",
+      "options": ["-8", "-2", "2", "8"],
+      "correctIndex": 0,
+      "explanation": "-3 + (-5) = -8. Adding two negative numbers gives a more negative result.",
+      "difficulty": "easy",
+      "tags": ["integers", "negative-numbers"]
+    },
+    {
+      "id": "g6m-002",
+      "question": "If 5 pens cost ₹35, what is the cost of 8 pens?",
+      "options": ["₹48", "₹52", "₹56", "₹60"],
+      "correctIndex": 2,
+      "explanation": "Cost of 1 pen = 35 ÷ 5 = ₹7. Cost of 8 pens = 8 × 7 = ₹56.",
+      "difficulty": "easy",
+      "tags": ["ratio", "unitary-method", "word-problem"]
+    },
+    {
+      "id": "g6m-003",
+      "question": "What is 25% of 200?",
+      "options": ["25", "40", "50", "75"],
+      "correctIndex": 2,
+      "explanation": "25% of 200 = (25/100) × 200 = 0.25 × 200 = 50.",
+      "difficulty": "easy",
+      "tags": ["percentage"]
+    },
+    {
+      "id": "g6m-004",
+      "question": "Simplify the ratio 18:24.",
+      "options": ["2:3", "3:4", "4:6", "6:8"],
+      "correctIndex": 1,
+      "explanation": "HCF of 18 and 24 is 6. 18÷6 = 3, 24÷6 = 4. Simplified ratio = 3:4.",
+      "difficulty": "medium",
+      "tags": ["ratio", "simplification"]
+    },
+    {
+      "id": "g6m-005",
+      "question": "What is the area of a triangle with base 10 cm and height 6 cm?",
+      "options": ["30 cm²", "40 cm²", "60 cm²", "80 cm²"],
+      "correctIndex": 0,
+      "explanation": "Area of triangle = (1/2) × base × height = (1/2) × 10 × 6 = 30 cm².",
+      "difficulty": "medium",
+      "tags": ["geometry", "area"]
+    },
+    {
+      "id": "g6m-006",
+      "question": "What is the HCF of 12 and 18?",
+      "options": ["3", "4", "6", "9"],
+      "correctIndex": 2,
+      "explanation": "Factors of 12: 1,2,3,4,6,12. Factors of 18: 1,2,3,6,9,18. HCF = 6.",
+      "difficulty": "medium",
+      "tags": ["hcf", "factors"]
+    },
+    {
+      "id": "g6m-007",
+      "question": "Solve: x + 7 = 12. What is x?",
+      "options": ["4", "5", "6", "7"],
+      "correctIndex": 1,
+      "explanation": "x + 7 = 12 → x = 12 - 7 = 5.",
+      "difficulty": "easy",
+      "tags": ["algebra", "linear-equations"]
+    },
+    {
+      "id": "g6m-008",
+      "question": "Which of these is a negative integer?",
+      "options": ["0", "+4", "-7", "1/2"],
+      "correctIndex": 2,
+      "explanation": "-7 is a negative integer. Integers are whole numbers, and negative integers are less than zero.",
+      "difficulty": "easy",
+      "tags": ["integers"]
+    },
+    {
+      "id": "g6m-009",
+      "question": "A shopkeeper buys an item for ₹80 and sells it for ₹100. What is the profit percentage?",
+      "options": ["15%", "20%", "25%", "30%"],
+      "correctIndex": 2,
+      "explanation": "Profit = 100 - 80 = ₹20. Profit% = (20/80) × 100 = 25%.",
+      "difficulty": "medium",
+      "tags": ["profit-loss", "percentage"]
+    },
+    {
+      "id": "g6m-010",
+      "question": "What is the circumference of a circle with radius 7 cm? (Use π = 22/7)",
+      "options": ["22 cm", "44 cm", "66 cm", "154 cm"],
+      "correctIndex": 1,
+      "explanation": "Circumference = 2πr = 2 × (22/7) × 7 = 2 × 22 = 44 cm.",
+      "difficulty": "medium",
+      "tags": ["circle", "circumference"]
+    },
+    {
+      "id": "g6m-011",
+      "question": "What is the mean of: 4, 7, 13, 2, 4?",
+      "options": ["4", "5", "6", "7"],
+      "correctIndex": 2,
+      "explanation": "Mean = Sum ÷ Count = (4+7+13+2+4) ÷ 5 = 30 ÷ 5 = 6.",
+      "difficulty": "medium",
+      "tags": ["statistics", "mean"]
+    },
+    {
+      "id": "g6m-012",
+      "question": "What is (-6) × (-4)?",
+      "options": ["-24", "-10", "10", "24"],
+      "correctIndex": 3,
+      "explanation": "Negative × Negative = Positive. (-6) × (-4) = +24.",
+      "difficulty": "medium",
+      "tags": ["integers", "multiplication"]
+    },
+    {
+      "id": "g6m-013",
+      "question": "Express 0.07 as a fraction.",
+      "options": ["7/10", "7/100", "7/1000", "70/100"],
+      "correctIndex": 1,
+      "explanation": "0.07 has 7 in the hundredths place, so it equals 7/100.",
+      "difficulty": "medium",
+      "tags": ["decimals", "fractions"]
+    },
+    {
+      "id": "g6m-014",
+      "question": "A rectangle has perimeter 36 cm and length 10 cm. What is its width?",
+      "options": ["6 cm", "7 cm", "8 cm", "9 cm"],
+      "correctIndex": 2,
+      "explanation": "Perimeter = 2(l + w). 36 = 2(10 + w) → 18 = 10 + w → w = 8 cm.",
+      "difficulty": "medium",
+      "tags": ["geometry", "perimeter", "algebra"]
+    },
+    {
+      "id": "g6m-015",
+      "question": "Which of the following is NOT a factor of 36?",
+      "options": ["4", "6", "8", "9"],
+      "correctIndex": 2,
+      "explanation": "36 ÷ 8 = 4.5 (not a whole number), so 8 is NOT a factor of 36. Factors of 36: 1,2,3,4,6,9,12,18,36.",
+      "difficulty": "medium",
+      "tags": ["factors"]
+    }
+  ]
+}

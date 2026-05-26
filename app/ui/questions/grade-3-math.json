@@ -1,0 +1,145 @@
+{
+  "goalId": "grade-3-math",
+  "category": "school",
+  "grade": 3,
+  "subject": "mathematics",
+  "level": 1,
+  "title": "Grade 3 Mathematics",
+  "questions": [
+    {
+      "id": "g3m-001",
+      "question": "What is 6 × 7?",
+      "options": ["36", "42", "48", "54"],
+      "correctIndex": 1,
+      "explanation": "6 × 7 = 42. Six sevens: 7, 14, 21, 28, 35, 42.",
+      "difficulty": "easy",
+      "tags": ["multiplication", "tables"]
+    },
+    {
+      "id": "g3m-002",
+      "question": "What is 56 ÷ 8?",
+      "options": ["5", "6", "7", "8"],
+      "correctIndex": 2,
+      "explanation": "56 ÷ 8 = 7. Because 8 × 7 = 56.",
+      "difficulty": "easy",
+      "tags": ["division"]
+    },
+    {
+      "id": "g3m-003",
+      "question": "Which fraction is equivalent to one-half?",
+      "options": ["1/3", "2/4", "3/5", "4/6"],
+      "correctIndex": 1,
+      "explanation": "2/4 = 1/2 because both numerator and denominator are divided by 2.",
+      "difficulty": "medium",
+      "tags": ["fractions", "equivalent-fractions"]
+    },
+    {
+      "id": "g3m-004",
+      "question": "What is 125 + 237?",
+      "options": ["352", "362", "372", "382"],
+      "correctIndex": 1,
+      "explanation": "125 + 237: ones: 5+7=12, carry 1. Tens: 2+3+1=6. Hundreds: 1+2=3. Answer: 362.",
+      "difficulty": "medium",
+      "tags": ["addition", "carrying"]
+    },
+    {
+      "id": "g3m-005",
+      "question": "How many centimeters are in 1 meter?",
+      "options": ["10", "100", "1000", "10000"],
+      "correctIndex": 1,
+      "explanation": "1 meter = 100 centimeters. The prefix 'centi' means one-hundredth.",
+      "difficulty": "easy",
+      "tags": ["measurement", "conversion"]
+    },
+    {
+      "id": "g3m-006",
+      "question": "What is the perimeter of a square with side 5 cm?",
+      "options": ["10 cm", "15 cm", "20 cm", "25 cm"],
+      "correctIndex": 2,
+      "explanation": "Perimeter of a square = 4 × side = 4 × 5 = 20 cm.",
+      "difficulty": "medium",
+      "tags": ["geometry", "perimeter"]
+    },
+    {
+      "id": "g3m-007",
+      "question": "A bag has 24 marbles. If you share them equally among 4 friends, how many does each get?",
+      "options": ["4", "5", "6", "7"],
+      "correctIndex": 2,
+      "explanation": "24 ÷ 4 = 6. Each friend gets 6 marbles.",
+      "difficulty": "easy",
+      "tags": ["division", "word-problem"]
+    },
+    {
+      "id": "g3m-008",
+      "question": "Which of these is an ODD number?",
+      "options": ["42", "58", "73", "90"],
+      "correctIndex": 2,
+      "explanation": "73 is odd because it cannot be divided evenly by 2. Odd numbers end in 1, 3, 5, 7, or 9.",
+      "difficulty": "easy",
+      "tags": ["odd-even"]
+    },
+    {
+      "id": "g3m-009",
+      "question": "What is 300 - 145?",
+      "options": ["145", "155", "165", "175"],
+      "correctIndex": 1,
+      "explanation": "300 - 145 = 155. You can check: 145 + 155 = 300.",
+      "difficulty": "medium",
+      "tags": ["subtraction", "borrowing"]
+    },
+    {
+      "id": "g3m-010",
+      "question": "What time is '2 hours after 11:30'?",
+      "options": ["12:30", "1:00", "1:30", "2:30"],
+      "correctIndex": 2,
+      "explanation": "11:30 + 2 hours = 1:30 (PM). 11:30 → 12:30 is 1 hour → 1:30 is 2 hours.",
+      "difficulty": "medium",
+      "tags": ["time"]
+    },
+    {
+      "id": "g3m-011",
+      "question": "Which shape has no corners?",
+      "options": ["Square", "Triangle", "Rectangle", "Circle"],
+      "correctIndex": 3,
+      "explanation": "A circle has no corners (vertices) and no straight sides — it is a perfectly round shape.",
+      "difficulty": "easy",
+      "tags": ["shapes", "geometry"]
+    },
+    {
+      "id": "g3m-012",
+      "question": "What is 9 × 9?",
+      "options": ["72", "81", "90", "99"],
+      "correctIndex": 1,
+      "explanation": "9 × 9 = 81. A trick: 9 × 9 = (10-1) × 9 = 90 - 9 = 81.",
+      "difficulty": "easy",
+      "tags": ["multiplication", "tables"]
+    },
+    {
+      "id": "g3m-013",
+      "question": "If a pizza is cut into 8 equal slices and you eat 3 slices, what fraction did you eat?",
+      "options": ["1/3", "3/5", "3/8", "5/8"],
+      "correctIndex": 2,
+      "explanation": "You ate 3 slices out of 8 total, so the fraction is 3/8.",
+      "difficulty": "easy",
+      "tags": ["fractions", "word-problem"]
+    },
+    {
+      "id": "g3m-014",
+      "question": "What is the value of the digit 5 in 542?",
+      "options": ["5", "50", "500", "5000"],
+      "correctIndex": 2,
+      "explanation": "In 542, the digit 5 is in the hundreds place. Its value is 5 × 100 = 500.",
+      "difficulty": "medium",
+      "tags": ["place-value"]
+    },
+    {
+      "id": "g3m-015",
+      "question": "How many months are in a year?",
+      "options": ["10", "11", "12", "13"],
+      "correctIndex": 2,
+      "explanation": "There are 12 months in a year: January through December.",
+      "difficulty": "easy",
+      "tags": ["time", "calendar"]
+    }
+  ]
+}

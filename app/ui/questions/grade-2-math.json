@@ -1,0 +1,145 @@
+{
+  "goalId": "grade-2-math",
+  "category": "school",
+  "grade": 2,
+  "subject": "mathematics",
+  "level": 1,
+  "title": "Grade 2 Mathematics",
+  "questions": [
+    {
+      "id": "g2m-001",
+      "question": "What is 7 + 8?",
+      "options": ["13", "14", "15", "16"],
+      "correctIndex": 2,
+      "explanation": "7 + 8 = 15. Count on from 7: 8, 9, 10, 11, 12, 13, 14, 15.",
+      "difficulty": "easy",
+      "tags": ["addition"]
+    },
+    {
+      "id": "g2m-002",
+      "question": "What is 15 - 6?",
+      "options": ["7", "8", "9", "10"],
+      "correctIndex": 2,
+      "explanation": "15 - 6 = 9. Start at 15, count back 6 steps.",
+      "difficulty": "easy",
+      "tags": ["subtraction"]
+    },
+    {
+      "id": "g2m-003",
+      "question": "How many sides does a triangle have?",
+      "options": ["2", "3", "4", "5"],
+      "correctIndex": 1,
+      "explanation": "A triangle has exactly 3 sides and 3 corners (vertices).",
+      "difficulty": "easy",
+      "tags": ["shapes", "geometry"]
+    },
+    {
+      "id": "g2m-004",
+      "question": "Which number comes after 29?",
+      "options": ["28", "30", "31", "20"],
+      "correctIndex": 1,
+      "explanation": "29 + 1 = 30. When the ones digit reaches 9, the tens digit increases by 1.",
+      "difficulty": "easy",
+      "tags": ["counting", "number-sequence"]
+    },
+    {
+      "id": "g2m-005",
+      "question": "What is 4 × 2?",
+      "options": ["6", "8", "10", "12"],
+      "correctIndex": 1,
+      "explanation": "4 × 2 = 8. Four groups of two: 2, 4, 6, 8.",
+      "difficulty": "easy",
+      "tags": ["multiplication"]
+    },
+    {
+      "id": "g2m-006",
+      "question": "If you have 3 groups of 5 apples, how many apples do you have in total?",
+      "options": ["10", "12", "15", "18"],
+      "correctIndex": 2,
+      "explanation": "3 groups of 5 = 3 × 5 = 15 apples.",
+      "difficulty": "easy",
+      "tags": ["multiplication", "word-problem"]
+    },
+    {
+      "id": "g2m-007",
+      "question": "What is the value of the digit 3 in the number 35?",
+      "options": ["3", "5", "30", "35"],
+      "correctIndex": 2,
+      "explanation": "In 35, the digit 3 is in the tens place, so its value is 3 × 10 = 30.",
+      "difficulty": "medium",
+      "tags": ["place-value"]
+    },
+    {
+      "id": "g2m-008",
+      "question": "What shape has 4 equal sides and 4 right angles?",
+      "options": ["Rectangle", "Triangle", "Circle", "Square"],
+      "correctIndex": 3,
+      "explanation": "A square has 4 equal sides and 4 right angles (90° corners).",
+      "difficulty": "easy",
+      "tags": ["shapes", "geometry"]
+    },
+    {
+      "id": "g2m-009",
+      "question": "A clock shows 3:00. Where is the hour hand pointing?",
+      "options": ["12", "3", "6", "9"],
+      "correctIndex": 1,
+      "explanation": "At 3:00, the hour hand points to the 3 and the minute hand points to the 12.",
+      "difficulty": "easy",
+      "tags": ["time"]
+    },
+    {
+      "id": "g2m-010",
+      "question": "What is 50 + 30?",
+      "options": ["70", "80", "90", "100"],
+      "correctIndex": 1,
+      "explanation": "50 + 30 = 80. Add the tens: 5 tens + 3 tens = 8 tens = 80.",
+      "difficulty": "easy",
+      "tags": ["addition", "tens"]
+    },
+    {
+      "id": "g2m-011",
+      "question": "Which is the LONGEST unit?",
+      "options": ["Centimeter", "Millimeter", "Meter", "Kilometer"],
+      "correctIndex": 3,
+      "explanation": "1 kilometer = 1000 meters = 100,000 centimeters = 1,000,000 millimeters. Kilometer is the longest.",
+      "difficulty": "medium",
+      "tags": ["measurement", "length"]
+    },
+    {
+      "id": "g2m-012",
+      "question": "What is half of 10?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 2,
+      "explanation": "Half of 10 means dividing by 2. 10 ÷ 2 = 5.",
+      "difficulty": "easy",
+      "tags": ["fractions", "division"]
+    },
+    {
+      "id": "g2m-013",
+      "question": "Ravi has 12 candies and gives 4 to his friend. How many does Ravi have left?",
+      "options": ["6", "7", "8", "9"],
+      "correctIndex": 2,
+      "explanation": "12 - 4 = 8. Ravi has 8 candies left.",
+      "difficulty": "easy",
+      "tags": ["subtraction", "word-problem"]
+    },
+    {
+      "id": "g2m-014",
+      "question": "Which number is the greatest: 45, 54, 44, 55?",
+      "options": ["45", "54", "44", "55"],
+      "correctIndex": 3,
+      "explanation": "55 is the greatest. Compare tens first: 55 has 5 tens. Among numbers with 5 tens, 55 > 54.",
+      "difficulty": "easy",
+      "tags": ["comparison", "ordering"]
+    },
+    {
+      "id": "g2m-015",
+      "question": "How many days are in one week?",
+      "options": ["5", "6", "7", "8"],
+      "correctIndex": 2,
+      "explanation": "A week has 7 days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.",
+      "difficulty": "easy",
+      "tags": ["time", "calendar"]
+    }
+  ]
+}

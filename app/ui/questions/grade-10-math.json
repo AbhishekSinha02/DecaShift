@@ -47,6 +47,141 @@
       "correctIndex": 1,
       "explanation": "The sum of interior angles of any triangle is always 180°.",
       "tags": ["geometry"]
+    },
+    {
+      "id": "g10m-006",
+      "question": "What is the discriminant of 2x² - 4x + 2 = 0?",
+      "options": ["-16", "0", "8", "16"],
+      "correctIndex": 1,
+      "explanation": "Discriminant = b² - 4ac = (-4)² - 4(2)(2) = 16 - 16 = 0. Equal roots.",
+      "difficulty": "medium",
+      "tags": ["algebra", "quadratic", "discriminant"]
+    },
+    {
+      "id": "g10m-007",
+      "question": "What is tan(45°)?",
+      "options": ["0", "1/2", "1", "√3"],
+      "correctIndex": 2,
+      "explanation": "tan(45°) = sin(45°)/cos(45°) = (1/√2)/(1/√2) = 1.",
+      "difficulty": "easy",
+      "tags": ["trigonometry"]
+    },
+    {
+      "id": "g10m-008",
+      "question": "What is the midpoint of the segment joining (2, 4) and (6, 8)?",
+      "options": ["(3, 5)", "(4, 6)", "(5, 7)", "(8, 12)"],
+      "correctIndex": 1,
+      "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((2+6)/2, (4+8)/2) = (4, 6).",
+      "difficulty": "easy",
+      "tags": ["coordinate-geometry"]
+    },
+    {
+      "id": "g10m-009",
+      "question": "The Arithmetic Mean of 5, 10, 15, 20, 25 is:",
+      "options": ["12", "13", "15", "18"],
+      "correctIndex": 2,
+      "explanation": "Mean = Sum/Count = (5+10+15+20+25)/5 = 75/5 = 15.",
+      "difficulty": "easy",
+      "tags": ["statistics", "mean"]
+    },
+    {
+      "id": "g10m-010",
+      "question": "The tangent to a circle is _____ to the radius at the point of tangency.",
+      "options": ["Parallel", "Perpendicular", "Equal", "Bisecting"],
+      "correctIndex": 1,
+      "explanation": "The tangent to a circle is always perpendicular (at 90°) to the radius drawn to the point of tangency.",
+      "difficulty": "medium",
+      "tags": ["geometry", "circles"]
+    },
+    {
+      "id": "g10m-011",
+      "question": "Factorize: a² - 2ab + b²",
+      "options": ["(a - b)²", "(a + b)²", "(a - b)(a + b)", "(2a - b)²"],
+      "correctIndex": 0,
+      "explanation": "a² - 2ab + b² = (a - b)². This is the perfect square identity.",
+      "difficulty": "easy",
+      "tags": ["algebra", "factorization"]
+    },
+    {
+      "id": "g10m-012",
+      "question": "Two dice are rolled. What is the probability that the sum is 7?",
+      "options": ["1/6", "5/36", "6/36", "7/36"],
+      "correctIndex": 2,
+      "explanation": "Favorable outcomes: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) — 6 pairs. Total = 36. P = 6/36 = 1/6.",
+      "difficulty": "medium",
+      "tags": ["probability"]
+    },
+    {
+      "id": "g10m-013",
+      "question": "What is the area of a sector with radius 7 cm and angle 90°? (π = 22/7)",
+      "options": ["11 cm²", "22 cm²", "38.5 cm²", "77 cm²"],
+      "correctIndex": 2,
+      "explanation": "Area of sector = (θ/360) × πr² = (90/360) × (22/7) × 49 = (1/4) × 154 = 38.5 cm².",
+      "difficulty": "hard",
+      "tags": ["geometry", "circles"]
+    },
+    {
+      "id": "g10m-014",
+      "question": "In a right triangle with hypotenuse 13 and one side 5, what is the other side?",
+      "options": ["8", "10", "12", "15"],
+      "correctIndex": 2,
+      "explanation": "By Pythagoras: a² + b² = c². 5² + b² = 13². 25 + b² = 169 → b² = 144 → b = 12.",
+      "difficulty": "medium",
+      "tags": ["geometry", "pythagoras"]
+    },
+    {
+      "id": "g10m-015",
+      "question": "The sum of n terms of an AP with first term 2 and common difference 3 when n=5 is:",
+      "options": ["30", "35", "40", "45"],
+      "correctIndex": 2,
+      "explanation": "Sₙ = n/2 × (2a + (n-1)d) = 5/2 × (4 + 12) = 5/2 × 16 = 40.",
+      "difficulty": "hard",
+      "tags": ["sequences", "arithmetic-progression"]
+    },
+    {
+      "id": "g10m-016",
+      "question": "If cos θ = 4/5, what is sin θ? (assume acute angle)",
+      "options": ["3/5", "4/5", "5/4", "3/4"],
+      "correctIndex": 0,
+      "explanation": "sin²θ + cos²θ = 1 → sin²θ = 1 - 16/25 = 9/25 → sin θ = 3/5.",
+      "difficulty": "medium",
+      "tags": ["trigonometry"]
+    },
+    {
+      "id": "g10m-017",
+      "question": "What is the equation of a line with slope 3 passing through (0, 2)?",
+      "options": ["y = 2x + 3", "y = 3x + 2", "y = 3x - 2", "y = 2x - 3"],
+      "correctIndex": 1,
+      "explanation": "Slope-intercept form: y = mx + c. Slope m = 3, y-intercept c = 2. So y = 3x + 2.",
+      "difficulty": "easy",
+      "tags": ["coordinate-geometry", "lines"]
+    },
+    {
+      "id": "g10m-018",
+      "question": "A bag has 3 red and 2 blue marbles. If one is drawn randomly, P(red) = ?",
+      "options": ["1/5", "2/5", "3/5", "4/5"],
+      "correctIndex": 2,
+      "explanation": "Total marbles = 5. P(red) = 3/5.",
+      "difficulty": "easy",
+      "tags": ["probability"]
+    },
+    {
+      "id": "g10m-019",
+      "question": "What is the volume of a cylinder with radius 7 cm and height 10 cm? (π = 22/7)",
+      "options": ["1540 cm³", "1078 cm³", "880 cm³", "2200 cm³"],
+      "correctIndex": 0,
+      "explanation": "V = πr²h = (22/7) × 49 × 10 = 22 × 7 × 10 = 1540 cm³.",
+      "difficulty": "medium",
+      "tags": ["geometry", "volume"]
+    },
+    {
+      "id": "g10m-020",
+      "question": "If A and B are complementary angles and A = 35°, what is B?",
+      "options": ["45°", "55°", "65°", "145°"],
+      "correctIndex": 1,
+      "explanation": "Complementary angles sum to 90°. B = 90° - 35° = 55°.",
+      "difficulty": "easy",
+      "tags": ["geometry", "angles"]
     }
   ]
 }

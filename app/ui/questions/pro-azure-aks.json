@@ -47,6 +47,191 @@
       "correctIndex": 1,
       "explanation": "The Secrets Store CSI Driver combined with Workload Identity lets pods mount Key Vault secrets without any credentials in the cluster.",
       "tags": ["security", "identity"]
+    },
+    {
+      "id": "aks-006",
+      "question": "What is a Node Pool in AKS?",
+      "options": [
+        "A shared storage volume for pods",
+        "A group of VMs with the same configuration used as Kubernetes nodes",
+        "A pool of IP addresses assigned to pods",
+        "A load balancer backend pool"
+      ],
+      "correctIndex": 1,
+      "explanation": "A node pool is a group of VMs with identical configuration (VM size, OS, Kubernetes version) that form a subset of cluster nodes.",
+      "difficulty": "easy",
+      "tags": ["aks-basics"]
+    },
+    {
+      "id": "aks-007",
+      "question": "What Kubernetes resource limits CPU and memory consumption per pod?",
+      "options": ["LimitRange", "ResourceQuota", "resources.limits in pod spec", "HorizontalPodAutoscaler"],
+      "correctIndex": 2,
+      "explanation": "Setting resources.limits.cpu and resources.limits.memory in the container spec enforces per-pod CPU/memory caps.",
+      "difficulty": "medium",
+      "tags": ["resource-management"]
+    },
+    {
+      "id": "aks-008",
+      "question": "Which AKS feature allows pods to scale based on custom metrics from Azure Monitor?",
+      "options": ["Cluster Autoscaler", "KEDA (Kubernetes Event-driven Autoscaling)", "HPA with default metrics", "VPA (Vertical Pod Autoscaler)"],
+      "correctIndex": 1,
+      "explanation": "KEDA scales pods based on event-driven metrics from Azure Service Bus, Event Hubs, and Azure Monitor.",
+      "difficulty": "medium",
+      "tags": ["scaling", "keda"]
+    },
+    {
+      "id": "aks-009",
+      "question": "What is the difference between a Deployment and a StatefulSet in Kubernetes?",
+      "options": [
+        "Deployments are for Linux, StatefulSets for Windows",
+        "StatefulSets provide stable network identities and ordered deployment for stateful apps",
+        "Deployments scale; StatefulSets do not",
+        "There is no practical difference"
+      ],
+      "correctIndex": 1,
+      "explanation": "StatefulSets give each pod a stable hostname (pod-0, pod-1...) and persistent volume, needed for databases like Kafka, Cassandra.",
+      "difficulty": "medium",
+      "tags": ["kubernetes-fundamentals"]
+    },
+    {
+      "id": "aks-010",
+      "question": "What is Azure CNI Overlay networking in AKS?",
+      "options": [
+        "Routes traffic through Azure Front Door",
+        "Assigns pod IPs from a virtual overlay network, decoupled from the VNet address space",
+        "Wraps Kubenet with Azure-specific policies",
+        "Creates a dedicated VNet per cluster"
+      ],
+      "correctIndex": 1,
+      "explanation": "Azure CNI Overlay uses a separate overlay IP space for pods, reducing VNet IP consumption while keeping Azure CNI features.",
+      "difficulty": "hard",
+      "tags": ["networking"]
+    },
+    {
+      "id": "aks-011",
+      "question": "Which Kubernetes object stores sensitive data like passwords and API keys?",
+      "options": ["ConfigMap", "Secret", "PersistentVolume", "ServiceAccount"],
+      "correctIndex": 1,
+      "explanation": "Kubernetes Secrets store base64-encoded sensitive data. For production, integrate with Azure Key Vault via CSI driver.",
+      "difficulty": "easy",
+      "tags": ["security", "secrets"]
+    },
+    {
+      "id": "aks-012",
+      "question": "What is the purpose of a Kubernetes Ingress?",
+      "options": [
+        "Creates internal cluster DNS entries",
+        "Routes external HTTP/HTTPS traffic to services based on host/path rules",
+        "Exposes a service on each node's IP at a static port",
+        "Provides persistent storage to pods"
+      ],
+      "correctIndex": 1,
+      "explanation": "An Ingress manages external HTTP/HTTPS routing rules. An Ingress Controller (e.g., NGINX, Azure Application Gateway) enforces them.",
+      "difficulty": "medium",
+      "tags": ["networking", "ingress"]
+    },
+    {
+      "id": "aks-013",
+      "question": "What is a PodDisruptionBudget (PDB) used for?",
+      "options": [
+        "Limiting the CPU cost of pods",
+        "Ensuring a minimum number of pods remain available during voluntary disruptions",
+        "Preventing pods from being scheduled on specific nodes",
+        "Setting memory limits for the entire namespace"
+      ],
+      "correctIndex": 1,
+      "explanation": "PDBs ensure cluster operations (node drain, upgrades) don't take down too many pods at once, maintaining availability.",
+      "difficulty": "hard",
+      "tags": ["reliability", "availability"]
+    },
+    {
+      "id": "aks-014",
+      "question": "What does kubectl get pods -n kube-system show?",
+      "options": [
+        "User application pods",
+        "All pods across all namespaces",
+        "System-level pods like CoreDNS and kube-proxy",
+        "Pods with errors only"
+      ],
+      "correctIndex": 2,
+      "explanation": "The kube-system namespace contains system components: CoreDNS, kube-proxy, metrics-server, and Azure-specific add-ons.",
+      "difficulty": "easy",
+      "tags": ["kubectl", "operations"]
+    },
+    {
+      "id": "aks-015",
+      "question": "Which AKS add-on enables Azure Policy enforcement on the cluster?",
+      "options": ["Azure Monitor", "Open Service Mesh", "Azure Policy (via Gatekeeper)", "Defender for Containers"],
+      "correctIndex": 2,
+      "explanation": "The Azure Policy add-on uses OPA Gatekeeper to enforce policy constraints (e.g., require resource limits on all pods).",
+      "difficulty": "hard",
+      "tags": ["governance", "security"]
+    },
+    {
+      "id": "aks-016",
+      "question": "What triggers a rolling update in a Kubernetes Deployment?",
+      "options": [
+        "Any change to a ConfigMap",
+        "Changing the container image, env vars, or resource limits in the pod spec",
+        "Scaling the replica count",
+        "Changing the Service selector"
+      ],
+      "correctIndex": 1,
+      "explanation": "Changing the pod template (image, envs, resources) triggers a rolling update. Scaling only changes replicas, not the template.",
+      "difficulty": "medium",
+      "tags": ["deployments", "rolling-update"]
+    },
+    {
+      "id": "aks-017",
+      "question": "What is the role of CoreDNS in an AKS cluster?",
+      "options": [
+        "Manages SSL certificates",
+        "Provides cluster-internal DNS resolution for Services and Pods",
+        "Routes external traffic to pods",
+        "Monitors pod health"
+      ],
+      "correctIndex": 1,
+      "explanation": "CoreDNS resolves service names (my-svc.namespace.svc.cluster.local) to their cluster IPs, enabling pod-to-pod communication by name.",
+      "difficulty": "medium",
+      "tags": ["networking", "dns"]
+    },
+    {
+      "id": "aks-018",
+      "question": "What is the difference between a Readiness Probe and a Liveness Probe?",
+      "options": [
+        "Readiness removes pod from service traffic; Liveness restarts the pod",
+        "Liveness removes pod from service traffic; Readiness restarts the pod",
+        "Both do the same thing",
+        "Readiness is for startup; Liveness is for ongoing health"
+      ],
+      "correctIndex": 0,
+      "explanation": "Readiness failure → pod removed from Service endpoints (stops traffic). Liveness failure → pod restarted by kubelet.",
+      "difficulty": "medium",
+      "tags": ["probes", "reliability"]
+    },
+    {
+      "id": "aks-019",
+      "question": "What Azure service is used to store and manage container images for AKS?",
+      "options": ["Azure Blob Storage", "Azure Container Registry (ACR)", "Azure Artifacts", "Azure Files"],
+      "correctIndex": 1,
+      "explanation": "Azure Container Registry (ACR) stores and manages private Docker container images and Helm charts for AKS.",
+      "difficulty": "easy",
+      "tags": ["acr", "containers"]
+    },
+    {
+      "id": "aks-020",
+      "question": "What happens when you run 'kubectl drain <node>'?",
+      "options": [
+        "Deletes the node from the cluster",
+        "Evicts all pods from the node and marks it unschedulable for maintenance",
+        "Forces all pods to restart",
+        "Resets the node's Kubernetes version"
+      ],
+      "correctIndex": 1,
+      "explanation": "kubectl drain evicts pods (respecting PDBs) and marks the node as unschedulable (cordoned) for safe maintenance.",
+      "difficulty": "medium",
+      "tags": ["operations", "kubectl"]
     }
   ]
 }

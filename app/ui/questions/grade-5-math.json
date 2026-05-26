@@ -47,6 +47,141 @@
       "correctIndex": 2,
       "explanation": "Multiples of 4: 4,8,12... Multiples of 6: 6,12... First common multiple = 12.",
       "tags": ["lcm-hcf"]
+    },
+    {
+      "id": "g5m-006",
+      "question": "What is the perimeter of a square with side 7 cm?",
+      "options": ["21 cm", "28 cm", "35 cm", "49 cm"],
+      "correctIndex": 1,
+      "explanation": "Perimeter of a square = 4 × side = 4 × 7 = 28 cm.",
+      "difficulty": "easy",
+      "tags": ["geometry", "perimeter"]
+    },
+    {
+      "id": "g5m-007",
+      "question": "What is 3/5 of 40?",
+      "options": ["8", "15", "24", "30"],
+      "correctIndex": 2,
+      "explanation": "3/5 of 40 = (3 × 40) ÷ 5 = 120 ÷ 5 = 24.",
+      "difficulty": "medium",
+      "tags": ["fractions", "word-problem"]
+    },
+    {
+      "id": "g5m-008",
+      "question": "Which number is a multiple of both 3 and 5?",
+      "options": ["12", "20", "25", "30"],
+      "correctIndex": 3,
+      "explanation": "30 = 3 × 10 = 5 × 6. It is divisible by both 3 and 5.",
+      "difficulty": "easy",
+      "tags": ["multiples", "lcm-hcf"]
+    },
+    {
+      "id": "g5m-009",
+      "question": "What is the value of 2⁴ (2 to the power 4)?",
+      "options": ["6", "8", "16", "32"],
+      "correctIndex": 2,
+      "explanation": "2⁴ = 2 × 2 × 2 × 2 = 16.",
+      "difficulty": "easy",
+      "tags": ["exponents"]
+    },
+    {
+      "id": "g5m-010",
+      "question": "A bag has 4 red balls and 6 blue balls. What fraction of the balls are red?",
+      "options": ["2/5", "2/3", "4/6", "3/5"],
+      "correctIndex": 0,
+      "explanation": "Total balls = 4 + 6 = 10. Fraction red = 4/10 = 2/5.",
+      "difficulty": "medium",
+      "tags": ["fractions", "probability", "word-problem"]
+    },
+    {
+      "id": "g5m-011",
+      "question": "What is 0.5 + 0.35?",
+      "options": ["0.75", "0.80", "0.85", "0.90"],
+      "correctIndex": 2,
+      "explanation": "0.5 = 0.50. Then 0.50 + 0.35 = 0.85.",
+      "difficulty": "easy",
+      "tags": ["decimals", "addition"]
+    },
+    {
+      "id": "g5m-012",
+      "question": "How many minutes are in 2.5 hours?",
+      "options": ["120", "130", "140", "150"],
+      "correctIndex": 3,
+      "explanation": "1 hour = 60 minutes. 2.5 × 60 = 150 minutes.",
+      "difficulty": "easy",
+      "tags": ["time", "conversion"]
+    },
+    {
+      "id": "g5m-013",
+      "question": "A shirt costs ₹500 and is on 20% discount. What do you pay?",
+      "options": ["₹350", "₹380", "₹400", "₹420"],
+      "correctIndex": 2,
+      "explanation": "Discount = 20% of 500 = 100. Sale price = 500 - 100 = ₹400.",
+      "difficulty": "medium",
+      "tags": ["percentage", "discount", "word-problem"]
+    },
+    {
+      "id": "g5m-014",
+      "question": "What is the HCF of 12 and 18?",
+      "options": ["3", "4", "6", "9"],
+      "correctIndex": 2,
+      "explanation": "Factors of 12: 1,2,3,4,6,12. Factors of 18: 1,2,3,6,9,18. HCF = 6.",
+      "difficulty": "medium",
+      "tags": ["lcm-hcf"]
+    },
+    {
+      "id": "g5m-015",
+      "question": "What is the volume of a cube with side 3 cm?",
+      "options": ["9 cm³", "18 cm³", "27 cm³", "36 cm³"],
+      "correctIndex": 2,
+      "explanation": "Volume = side³ = 3³ = 3 × 3 × 3 = 27 cm³.",
+      "difficulty": "medium",
+      "tags": ["geometry", "volume"]
+    },
+    {
+      "id": "g5m-016",
+      "question": "What is 1000 ÷ 25?",
+      "options": ["30", "35", "40", "45"],
+      "correctIndex": 2,
+      "explanation": "1000 ÷ 25 = 40. (Or 25 × 40 = 1000.)",
+      "difficulty": "easy",
+      "tags": ["division"]
+    },
+    {
+      "id": "g5m-017",
+      "question": "In a class of 30 students, 40% are boys. How many boys are there?",
+      "options": ["10", "12", "14", "15"],
+      "correctIndex": 1,
+      "explanation": "40% of 30 = 0.40 × 30 = 12 boys.",
+      "difficulty": "medium",
+      "tags": ["percentage", "word-problem"]
+    },
+    {
+      "id": "g5m-018",
+      "question": "What is the next number in the pattern: 2, 6, 18, 54, ___?",
+      "options": ["72", "108", "162", "216"],
+      "correctIndex": 2,
+      "explanation": "Each term is multiplied by 3. 54 × 3 = 162.",
+      "difficulty": "medium",
+      "tags": ["patterns", "sequences"]
+    },
+    {
+      "id": "g5m-019",
+      "question": "A rectangle has area 48 cm² and length 8 cm. What is its width?",
+      "options": ["4 cm", "5 cm", "6 cm", "7 cm"],
+      "correctIndex": 2,
+      "explanation": "Area = length × width → 48 = 8 × w → w = 48 ÷ 8 = 6 cm.",
+      "difficulty": "medium",
+      "tags": ["geometry", "area"]
+    },
+    {
+      "id": "g5m-020",
+      "question": "Which of these numbers is divisible by 9?",
+      "options": ["47", "63", "71", "82"],
+      "correctIndex": 1,
+      "explanation": "A number is divisible by 9 if the sum of its digits is divisible by 9. 6+3=9, so 63 ÷ 9 = 7.",
+      "difficulty": "easy",
+      "tags": ["divisibility"]
     }
   ]
 }

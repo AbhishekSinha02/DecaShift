@@ -47,6 +47,156 @@
       "correctIndex": 2,
       "explanation": "In Python, functions are defined using the 'def' keyword: def my_function():",
       "tags": ["python"]
+    },
+    {
+      "id": "g12cs-006",
+      "question": "What will print(len('Hello')) output in Python?",
+      "options": ["4", "5", "6", "Hello"],
+      "correctIndex": 1,
+      "explanation": "len() counts characters. 'Hello' has 5 characters: H,e,l,l,o.",
+      "difficulty": "easy",
+      "tags": ["python", "strings"]
+    },
+    {
+      "id": "g12cs-007",
+      "question": "Which SQL command retrieves data from a table?",
+      "options": ["INSERT", "UPDATE", "SELECT", "DELETE"],
+      "correctIndex": 2,
+      "explanation": "SELECT is used to retrieve data from a database. Example: SELECT * FROM Students;",
+      "difficulty": "easy",
+      "tags": ["databases", "sql"]
+    },
+    {
+      "id": "g12cs-008",
+      "question": "What is the output of: print(2 ** 3) in Python?",
+      "options": ["5", "6", "8", "9"],
+      "correctIndex": 2,
+      "explanation": "** is the exponentiation operator in Python. 2 ** 3 = 2³ = 8.",
+      "difficulty": "easy",
+      "tags": ["python", "operators"]
+    },
+    {
+      "id": "g12cs-009",
+      "question": "Which data structure follows FIFO (First In First Out)?",
+      "options": ["Stack", "Queue", "Tree", "Graph"],
+      "correctIndex": 1,
+      "explanation": "A Queue follows FIFO — the first element added is the first to be removed. Like a ticket line.",
+      "difficulty": "easy",
+      "tags": ["data-structures"]
+    },
+    {
+      "id": "g12cs-010",
+      "question": "What is the correct way to create a list in Python?",
+      "options": ["list = (1, 2, 3)", "list = {1, 2, 3}", "list = [1, 2, 3]", "list = <1, 2, 3>"],
+      "correctIndex": 2,
+      "explanation": "Lists in Python use square brackets []. Parentheses () create tuples, curly braces {} create sets/dicts.",
+      "difficulty": "easy",
+      "tags": ["python", "data-structures"]
+    },
+    {
+      "id": "g12cs-011",
+      "question": "How is a comment written in Python?",
+      "options": ["// comment", "/* comment */", "# comment", "-- comment"],
+      "correctIndex": 2,
+      "explanation": "Python uses # for single-line comments. C/Java use //, and SQL uses --.",
+      "difficulty": "easy",
+      "tags": ["python", "syntax"]
+    },
+    {
+      "id": "g12cs-012",
+      "question": "What is the time complexity of Bubble Sort in the worst case?",
+      "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+      "correctIndex": 2,
+      "explanation": "Bubble Sort compares adjacent elements in nested loops, giving O(n²) worst-case time complexity.",
+      "difficulty": "medium",
+      "tags": ["algorithms", "sorting"]
+    },
+    {
+      "id": "g12cs-013",
+      "question": "In Python, what does 'break' do in a loop?",
+      "options": ["Skips current iteration", "Exits the entire loop", "Restarts the loop", "Pauses execution"],
+      "correctIndex": 1,
+      "explanation": "'break' exits the entire loop immediately. 'continue' skips the current iteration.",
+      "difficulty": "easy",
+      "tags": ["python", "control-flow"]
+    },
+    {
+      "id": "g12cs-014",
+      "question": "Which key-value store is available natively in Python?",
+      "options": ["Array", "List", "Dictionary", "Tuple"],
+      "correctIndex": 2,
+      "explanation": "Python dictionaries store key-value pairs: {'name': 'Alice', 'age': 25}. Access by key, not index.",
+      "difficulty": "easy",
+      "tags": ["python", "data-structures"]
+    },
+    {
+      "id": "g12cs-015",
+      "question": "What does 'NOT NULL' constraint mean in SQL?",
+      "options": ["Column must be unique", "Column cannot store text", "Column value cannot be empty/null", "Column is the primary key"],
+      "correctIndex": 2,
+      "explanation": "NOT NULL constraint ensures a column cannot have NULL (empty) values — every row must provide a value.",
+      "difficulty": "medium",
+      "tags": ["databases", "sql", "constraints"]
+    },
+    {
+      "id": "g12cs-016",
+      "question": "What is recursion in programming?",
+      "options": [
+        "Repeating code using a for loop",
+        "A function that calls itself",
+        "Running the same code twice",
+        "Copying data from one variable to another"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recursion is when a function calls itself. It needs a base case to stop, otherwise it runs infinitely.",
+      "difficulty": "medium",
+      "tags": ["algorithms", "recursion"]
+    },
+    {
+      "id": "g12cs-017",
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Machine Learning",
+        "Home Tool Markup Language",
+        "Hyper Transfer Media Logic"
+      ],
+      "correctIndex": 0,
+      "explanation": "HTML = HyperText Markup Language. It is the standard language for creating web pages.",
+      "difficulty": "easy",
+      "tags": ["web", "html"]
+    },
+    {
+      "id": "g12cs-018",
+      "question": "In Python, what does range(1, 5) produce?",
+      "options": ["[1, 2, 3, 4, 5]", "[1, 2, 3, 4]", "[0, 1, 2, 3, 4]", "[2, 3, 4]"],
+      "correctIndex": 1,
+      "explanation": "range(start, stop) generates numbers from start up to (but not including) stop. range(1,5) → 1,2,3,4.",
+      "difficulty": "easy",
+      "tags": ["python", "loops"]
+    },
+    {
+      "id": "g12cs-019",
+      "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+      "options": ["Bubble Sort", "BFS", "Dijkstra's Algorithm", "DFS"],
+      "correctIndex": 2,
+      "explanation": "Dijkstra's algorithm finds the shortest path from a source to all other nodes in a weighted graph.",
+      "difficulty": "hard",
+      "tags": ["algorithms", "graphs"]
+    },
+    {
+      "id": "g12cs-020",
+      "question": "What is the primary key in a database?",
+      "options": [
+        "A key used to encrypt data",
+        "A column that uniquely identifies each row",
+        "The first column in a table",
+        "The most frequently queried column"
+      ],
+      "correctIndex": 1,
+      "explanation": "A primary key uniquely identifies each record in a table. It must be unique and cannot be NULL.",
+      "difficulty": "medium",
+      "tags": ["databases", "sql"]
     }
   ]
 }

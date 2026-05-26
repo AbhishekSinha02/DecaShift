@@ -1,0 +1,145 @@
+{
+  "goalId": "grade-4-math",
+  "category": "school",
+  "grade": 4,
+  "subject": "mathematics",
+  "level": 1,
+  "title": "Grade 4 Mathematics",
+  "questions": [
+    {
+      "id": "g4m-001",
+      "question": "What is 324 × 3?",
+      "options": ["872", "962", "972", "982"],
+      "correctIndex": 2,
+      "explanation": "324 × 3: 4×3=12 (write 2, carry 1), 2×3+1=7, 3×3=9. Answer: 972.",
+      "difficulty": "medium",
+      "tags": ["multiplication"]
+    },
+    {
+      "id": "g4m-002",
+      "question": "What is 648 ÷ 4?",
+      "options": ["152", "162", "172", "182"],
+      "correctIndex": 1,
+      "explanation": "648 ÷ 4 = 162. Check: 162 × 4 = 648.",
+      "difficulty": "medium",
+      "tags": ["division"]
+    },
+    {
+      "id": "g4m-003",
+      "question": "Which is the correct decimal for three-tenths?",
+      "options": ["0.03", "0.3", "3.0", "30.0"],
+      "correctIndex": 1,
+      "explanation": "Three-tenths = 3/10 = 0.3. The tenths place is one digit to the right of the decimal point.",
+      "difficulty": "medium",
+      "tags": ["decimals"]
+    },
+    {
+      "id": "g4m-004",
+      "question": "What is the area of a rectangle 8 cm long and 5 cm wide?",
+      "options": ["13 cm²", "26 cm²", "40 cm²", "80 cm²"],
+      "correctIndex": 2,
+      "explanation": "Area = length × width = 8 × 5 = 40 cm².",
+      "difficulty": "medium",
+      "tags": ["geometry", "area"]
+    },
+    {
+      "id": "g4m-005",
+      "question": "Which fraction is greater: 3/4 or 2/3?",
+      "options": ["3/4", "2/3", "They are equal", "Cannot be compared"],
+      "correctIndex": 0,
+      "explanation": "3/4 = 0.75 and 2/3 ≈ 0.667. So 3/4 > 2/3.",
+      "difficulty": "medium",
+      "tags": ["fractions", "comparison"]
+    },
+    {
+      "id": "g4m-006",
+      "question": "What is the Roman numeral for 40?",
+      "options": ["XXXX", "XL", "LX", "IIII"],
+      "correctIndex": 1,
+      "explanation": "XL = 40 in Roman numerals. X (10) before L (50) means 50 - 10 = 40.",
+      "difficulty": "medium",
+      "tags": ["roman-numerals"]
+    },
+    {
+      "id": "g4m-007",
+      "question": "A train travels 240 km in 4 hours. What is its speed?",
+      "options": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
+      "correctIndex": 1,
+      "explanation": "Speed = Distance ÷ Time = 240 ÷ 4 = 60 km/h.",
+      "difficulty": "medium",
+      "tags": ["speed", "word-problem"]
+    },
+    {
+      "id": "g4m-008",
+      "question": "What is 1/4 + 2/4?",
+      "options": ["1/4", "2/4", "3/4", "3/8"],
+      "correctIndex": 2,
+      "explanation": "When denominators are the same, just add numerators: 1/4 + 2/4 = 3/4.",
+      "difficulty": "easy",
+      "tags": ["fractions", "addition"]
+    },
+    {
+      "id": "g4m-009",
+      "question": "Which of these numbers is a prime number?",
+      "options": ["15", "21", "23", "25"],
+      "correctIndex": 2,
+      "explanation": "23 is prime — it is only divisible by 1 and 23. 15=3×5, 21=3×7, 25=5×5.",
+      "difficulty": "medium",
+      "tags": ["prime-numbers"]
+    },
+    {
+      "id": "g4m-010",
+      "question": "What is 5,000 + 700 + 30 + 8 written as a number?",
+      "options": ["5,738", "5,073", "5,370", "5,730"],
+      "correctIndex": 0,
+      "explanation": "5,000 + 700 + 30 + 8 = 5,738. Each digit occupies its place value position.",
+      "difficulty": "easy",
+      "tags": ["place-value", "expanded-form"]
+    },
+    {
+      "id": "g4m-011",
+      "question": "How many grams are in 2 kilograms?",
+      "options": ["200 g", "2,000 g", "20,000 g", "200,000 g"],
+      "correctIndex": 1,
+      "explanation": "1 kilogram = 1,000 grams. So 2 kg = 2 × 1,000 = 2,000 grams.",
+      "difficulty": "easy",
+      "tags": ["measurement", "weight"]
+    },
+    {
+      "id": "g4m-012",
+      "question": "What is the LCM of 4 and 6?",
+      "options": ["8", "10", "12", "24"],
+      "correctIndex": 2,
+      "explanation": "Multiples of 4: 4, 8, 12, 16... Multiples of 6: 6, 12, 18... The LCM (Least Common Multiple) is 12.",
+      "difficulty": "medium",
+      "tags": ["lcm", "multiples"]
+    },
+    {
+      "id": "g4m-013",
+      "question": "An angle of 90 degrees is called a _____ angle.",
+      "options": ["Acute", "Obtuse", "Right", "Straight"],
+      "correctIndex": 2,
+      "explanation": "A right angle measures exactly 90°. It looks like the corner of a square.",
+      "difficulty": "easy",
+      "tags": ["angles", "geometry"]
+    },
+    {
+      "id": "g4m-014",
+      "question": "What is 6.5 + 2.3?",
+      "options": ["8.2", "8.8", "9.0", "9.2"],
+      "correctIndex": 1,
+      "explanation": "6.5 + 2.3: add tenths 5+3=8, add ones 6+2=8. Answer: 8.8.",
+      "difficulty": "easy",
+      "tags": ["decimals", "addition"]
+    },
+    {
+      "id": "g4m-015",
+      "question": "Which of these is a composite number?",
+      "options": ["11", "13", "17", "18"],
+      "correctIndex": 3,
+      "explanation": "18 is composite because it has factors other than 1 and itself: 18 = 2 × 9 = 3 × 6.",
+      "difficulty": "medium",
+      "tags": ["composite-numbers"]
+    }
+  ]
+}

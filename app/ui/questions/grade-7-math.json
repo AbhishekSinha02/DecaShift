@@ -1,0 +1,145 @@
+{
+  "goalId": "grade-7-math",
+  "category": "school",
+  "grade": 7,
+  "subject": "mathematics",
+  "level": 1,
+  "title": "Grade 7 Mathematics",
+  "questions": [
+    {
+      "id": "g7m-001",
+      "question": "Solve: 3x - 5 = 16. What is x?",
+      "options": ["5", "6", "7", "8"],
+      "correctIndex": 2,
+      "explanation": "3x - 5 = 16 → 3x = 21 → x = 7.",
+      "difficulty": "easy",
+      "tags": ["algebra", "linear-equations"]
+    },
+    {
+      "id": "g7m-002",
+      "question": "What is the sum of angles in a triangle?",
+      "options": ["90°", "120°", "180°", "360°"],
+      "correctIndex": 2,
+      "explanation": "The sum of interior angles of any triangle is always 180°.",
+      "difficulty": "easy",
+      "tags": ["geometry", "angles"]
+    },
+    {
+      "id": "g7m-003",
+      "question": "If the ratio of boys to girls in a class is 3:2 and there are 30 students total, how many girls are there?",
+      "options": ["10", "12", "15", "18"],
+      "correctIndex": 1,
+      "explanation": "Total parts = 3+2 = 5. Girls = (2/5) × 30 = 12.",
+      "difficulty": "medium",
+      "tags": ["ratio", "word-problem"]
+    },
+    {
+      "id": "g7m-004",
+      "question": "What is the simple interest on ₹1000 at 5% per annum for 2 years?",
+      "options": ["₹50", "₹75", "₹100", "₹150"],
+      "correctIndex": 2,
+      "explanation": "SI = (P × R × T) / 100 = (1000 × 5 × 2) / 100 = 10000/100 = ₹100.",
+      "difficulty": "medium",
+      "tags": ["simple-interest", "percentage"]
+    },
+    {
+      "id": "g7m-005",
+      "question": "What is the value of 2³ × 2²?",
+      "options": ["2⁵", "2⁶", "4⁵", "4⁶"],
+      "correctIndex": 0,
+      "explanation": "When multiplying powers with the same base, add the exponents: 2³ × 2² = 2^(3+2) = 2⁵.",
+      "difficulty": "medium",
+      "tags": ["exponents", "laws-of-exponents"]
+    },
+    {
+      "id": "g7m-006",
+      "question": "Find the median of: 3, 7, 2, 9, 5.",
+      "options": ["3", "5", "7", "9"],
+      "correctIndex": 1,
+      "explanation": "Arranged in order: 2, 3, 5, 7, 9. The median (middle value) is 5.",
+      "difficulty": "easy",
+      "tags": ["statistics", "median"]
+    },
+    {
+      "id": "g7m-007",
+      "question": "What is the volume of a cube with side 4 cm?",
+      "options": ["16 cm³", "48 cm³", "64 cm³", "96 cm³"],
+      "correctIndex": 2,
+      "explanation": "Volume of cube = side³ = 4³ = 4 × 4 × 4 = 64 cm³.",
+      "difficulty": "medium",
+      "tags": ["geometry", "volume"]
+    },
+    {
+      "id": "g7m-008",
+      "question": "Which algebraic expression represents 'twice a number decreased by 5'?",
+      "options": ["2x + 5", "2x - 5", "x/2 - 5", "5 - 2x"],
+      "correctIndex": 1,
+      "explanation": "'Twice a number' = 2x. 'Decreased by 5' means subtract 5. So: 2x - 5.",
+      "difficulty": "easy",
+      "tags": ["algebra", "expressions"]
+    },
+    {
+      "id": "g7m-009",
+      "question": "Two supplementary angles have one angle of 65°. What is the other angle?",
+      "options": ["25°", "95°", "115°", "125°"],
+      "correctIndex": 2,
+      "explanation": "Supplementary angles add up to 180°. 180° - 65° = 115°.",
+      "difficulty": "easy",
+      "tags": ["geometry", "angles"]
+    },
+    {
+      "id": "g7m-010",
+      "question": "Evaluate: 5 + 3 × (8 - 2) ÷ 2",
+      "options": ["21", "24", "14", "16"],
+      "correctIndex": 2,
+      "explanation": "BODMAS: brackets first (8-2)=6, then 3×6=18, then 18÷2=9, then 5+9=14.",
+      "difficulty": "medium",
+      "tags": ["bodmas", "order-of-operations"]
+    },
+    {
+      "id": "g7m-011",
+      "question": "A price decreased from ₹500 to ₹400. What is the percentage decrease?",
+      "options": ["15%", "20%", "25%", "30%"],
+      "correctIndex": 1,
+      "explanation": "Decrease = 500 - 400 = 100. % Decrease = (100/500) × 100 = 20%.",
+      "difficulty": "medium",
+      "tags": ["percentage", "decrease"]
+    },
+    {
+      "id": "g7m-012",
+      "question": "What is the LCM of 8 and 12?",
+      "options": ["16", "24", "36", "48"],
+      "correctIndex": 1,
+      "explanation": "Multiples of 8: 8, 16, 24... Multiples of 12: 12, 24... LCM = 24.",
+      "difficulty": "easy",
+      "tags": ["lcm"]
+    },
+    {
+      "id": "g7m-013",
+      "question": "Simplify: 3a + 2b - a + 5b",
+      "options": ["2a + 7b", "4a + 7b", "2a + 3b", "4a + 3b"],
+      "correctIndex": 0,
+      "explanation": "Collect like terms: (3a - a) + (2b + 5b) = 2a + 7b.",
+      "difficulty": "medium",
+      "tags": ["algebra", "simplification"]
+    },
+    {
+      "id": "g7m-014",
+      "question": "What type of triangle has all three sides equal?",
+      "options": ["Scalene", "Isosceles", "Equilateral", "Right-angled"],
+      "correctIndex": 2,
+      "explanation": "An equilateral triangle has all three sides equal and all three angles equal to 60°.",
+      "difficulty": "easy",
+      "tags": ["geometry", "triangles"]
+    },
+    {
+      "id": "g7m-015",
+      "question": "What is the mode of: 4, 2, 4, 7, 3, 4, 2?",
+      "options": ["2", "3", "4", "7"],
+      "correctIndex": 2,
+      "explanation": "Mode is the value that appears most often. 4 appears 3 times, more than any other number.",
+      "difficulty": "easy",
+      "tags": ["statistics", "mode"]
+    }
+  ]
+}

@@ -55,6 +55,10 @@
 | [P2-T011](P2-T011-manual-test-checklist.md) | Manual test checklist — all screens, auth flows, edge cases | S | Pending |
 | **[P2-T012](P2-T012-profile-edit-grade-change.md)** | **Profile edit — grade/role change without losing history** | **S** | **Pending** |
 | **[P2-T013](P2-T013-subscription-tier-design.md)** | **Subscription tier design — Free / Pro / Max feature matrix** | **S** | **Pending** |
+| **[P2-T014](P2-T014-branding-logo-rename.md)** | **Branding — SVG logo, favicon, PWA icon, tagline** | **M** | **Pending** |
+| **[P2-T015](P2-T015-landing-page-improvements.md)** | **Landing page — real stats, screenshot, specific social proof, FAQ** | **M** | **Pending** |
+| **[P2-T016](P2-T016-welcome-onboarding-flow.md)** | **Welcome onboarding — first-login modal, guided profile setup, empty states** | **M** | **Pending** |
+| **[P2-T017](P2-T017-profile-page-password-reset.md)** | **Profile page — account screen, change password, delete account** | **M** | **Pending** |
 
 ---
 
@@ -67,6 +71,7 @@
 | [P3-T003](P3-T003-progress-dashboard.md) | Progress dashboard — accuracy trends, time invested, goal breakdown | M | ✅ Done (inline on home; deep analytics pending) |
 | **[P3-T009](P3-T009-questions-folder-hierarchy-by-grade.md)** | **Questions folder hierarchy — subfolders per category/grade, recursive auto-discovery** | **M** | **Pending** |
 | **[P3-T010](P3-T010-per-user-session-folder-drive.md)** | **Per-user session folder in Drive — verified + future full user-root folder** | **S** | **✅ Already Implemented (Code.gs)** |
+| **[P3-T011](P3-T011-content-expansion-tracking.md)** | **Content expansion — 295 questions across 18 files, targets for 2 subjects/grade** | **S** | **🔄 In Progress (v3.2 adds 295q)** |
 | [P3-T004](P3-T004-avatar-profile-photo.md) | Avatar + profile photo upload | S | Pending |
 | [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
 | [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
@@ -150,6 +155,6 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 37 (1 cancelled) | P1: 13 | P2: 13 | P3: 10 | P4: 2 | P5: 5 | P6: 3*
+*Total tasks: 43 (1 cancelled) | P1: 13 | P2: 17 | P3: 11 | P4: 2 | P5: 5 | P6: 3*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1)*
 *New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*

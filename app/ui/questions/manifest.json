@@ -1,10 +1,20 @@
 [
-  { "file": "grade-5-math.json",    "category": "school",        "grade": 5,  "subject": "mathematics",        "level": 1 },
-  { "file": "grade-8-science.json", "category": "school",        "grade": 8,  "subject": "science",            "level": 1 },
-  { "file": "grade-10-math.json",   "category": "school",        "grade": 10, "subject": "mathematics",        "level": 1 },
-  { "file": "grade-12-cs.json",     "category": "school",        "grade": 12, "subject": "computer-science",   "level": 1 },
-  { "file": "college-web-dev.json", "category": "college",       "grade": null, "subject": "web-dev",          "level": 1 },
-  { "file": "college-dsa.json",     "category": "college",       "grade": null, "subject": "dsa",              "level": 1 },
-  { "file": "pro-azure-aks.json",   "category": "professional",  "grade": null, "subject": "cloud-kubernetes", "level": 1 },
-  { "file": "pro-mlops.json",       "category": "professional",  "grade": null, "subject": "mlops",            "level": 1 }
+  { "file": "grade-2-math.json",        "category": "school",        "grade": 2,  "subject": "mathematics",        "level": 1 },
+  { "file": "grade-3-math.json",        "category": "school",        "grade": 3,  "subject": "mathematics",        "level": 1 },
+  { "file": "grade-4-math.json",        "category": "school",        "grade": 4,  "subject": "mathematics",        "level": 1 },
+  { "file": "grade-5-math.json",        "category": "school",        "grade": 5,  "subject": "mathematics",        "level": 1 },
+  { "file": "grade-6-math.json",        "category": "school",        "grade": 6,  "subject": "mathematics",        "level": 1 },
+  { "file": "grade-7-math.json",        "category": "school",        "grade": 7,  "subject": "mathematics",        "level": 1 },
+  { "file": "grade-8-science.json",     "category": "school",        "grade": 8,  "subject": "science",            "level": 1 },
+  { "file": "grade-9-math.json",        "category": "school",        "grade": 9,  "subject": "mathematics",        "level": 1 },
+  { "file": "grade-10-math.json",       "category": "school",        "grade": 10, "subject": "mathematics",        "level": 1 },
+  { "file": "grade-11-math.json",       "category": "school",        "grade": 11, "subject": "mathematics",        "level": 1 },
+  { "file": "grade-12-cs.json",         "category": "school",        "grade": 12, "subject": "computer-science",   "level": 1 },
+  { "file": "college-web-dev.json",     "category": "college",       "grade": null, "subject": "web-dev",          "level": 1 },
+  { "file": "college-dsa.json",         "category": "college",       "grade": null, "subject": "dsa",              "level": 1 },
+  { "file": "pro-azure-aks.json",       "category": "professional",  "grade": null, "subject": "cloud-kubernetes", "level": 1 },
+  { "file": "pro-mlops.json",           "category": "professional",  "grade": null, "subject": "mlops",            "level": 1 },
+  { "file": "pro-devops.json",          "category": "professional",  "grade": null, "subject": "devops",           "level": 1 },
+  { "file": "pro-python.json",          "category": "professional",  "grade": null, "subject": "python",           "level": 1 },
+  { "file": "pro-system-design.json",   "category": "professional",  "grade": null, "subject": "system-design",    "level": 1 }
 ]

@@ -47,6 +47,206 @@
       "correctIndex": 2,
       "explanation": "array.push(item) adds one or more elements to the end of an array and returns the new length.",
       "tags": ["javascript"]
+    },
+    {
+      "id": "cwd-006",
+      "question": "What does 'async/await' solve in JavaScript?",
+      "options": [
+        "It makes JavaScript code run faster",
+        "It handles asynchronous operations in a synchronous-looking style",
+        "It enables multi-threading",
+        "It prevents memory leaks"
+      ],
+      "correctIndex": 1,
+      "explanation": "async/await is syntactic sugar over Promises, making async code look and feel like synchronous code.",
+      "difficulty": "medium",
+      "tags": ["javascript", "async"]
+    },
+    {
+      "id": "cwd-007",
+      "question": "What is the CSS Box Model composed of (from inside out)?",
+      "options": [
+        "Content → Padding → Border → Margin",
+        "Margin → Border → Padding → Content",
+        "Content → Border → Margin → Padding",
+        "Padding → Content → Margin → Border"
+      ],
+      "correctIndex": 0,
+      "explanation": "The CSS Box Model layers from inside out: Content → Padding → Border → Margin.",
+      "difficulty": "medium",
+      "tags": ["css", "box-model"]
+    },
+    {
+      "id": "cwd-008",
+      "question": "Which HTTP method is used to submit form data to create a new resource?",
+      "options": ["GET", "PUT", "POST", "DELETE"],
+      "correctIndex": 2,
+      "explanation": "POST sends data to create a new resource. GET retrieves data, PUT updates, DELETE removes.",
+      "difficulty": "easy",
+      "tags": ["http", "rest"]
+    },
+    {
+      "id": "cwd-009",
+      "question": "What does localStorage.setItem('key', 'value') do?",
+      "options": [
+        "Sends data to a server",
+        "Stores data in the browser that persists after tab close",
+        "Stores data only for the current session",
+        "Encrypts and stores data"
+      ],
+      "correctIndex": 1,
+      "explanation": "localStorage stores key-value data in the browser that persists across sessions. sessionStorage is cleared when the tab closes.",
+      "difficulty": "medium",
+      "tags": ["javascript", "storage"]
+    },
+    {
+      "id": "cwd-010",
+      "question": "What is the purpose of 'display: flex' in CSS?",
+      "options": [
+        "Makes elements float left",
+        "Hides elements",
+        "Enables one-dimensional layout with powerful alignment controls",
+        "Makes text flexible/fluid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flexbox enables flexible, one-directional (row or column) layouts with automatic distribution of space.",
+      "difficulty": "easy",
+      "tags": ["css", "flexbox", "layout"]
+    },
+    {
+      "id": "cwd-011",
+      "question": "What does JSON.parse() do?",
+      "options": [
+        "Converts a JavaScript object to a JSON string",
+        "Converts a JSON string to a JavaScript object",
+        "Validates JSON format",
+        "Minifies JSON data"
+      ],
+      "correctIndex": 1,
+      "explanation": "JSON.parse(str) converts a JSON string to a JavaScript object. JSON.stringify(obj) does the reverse.",
+      "difficulty": "easy",
+      "tags": ["javascript", "json"]
+    },
+    {
+      "id": "cwd-012",
+      "question": "Which HTML5 element is used to define the main navigation links?",
+      "options": ["<menu>", "<nav>", "<header>", "<links>"],
+      "correctIndex": 1,
+      "explanation": "<nav> is the semantic HTML5 element for navigation links. Using semantic elements improves accessibility and SEO.",
+      "difficulty": "easy",
+      "tags": ["html", "semantic"]
+    },
+    {
+      "id": "cwd-013",
+      "question": "What is event bubbling in JavaScript?",
+      "options": [
+        "Events fire only on the target element",
+        "Events propagate upward from child to parent elements",
+        "Events propagate downward from parent to child elements",
+        "Events are queued and fired in order"
+      ],
+      "correctIndex": 1,
+      "explanation": "Event bubbling: when an event fires on a child element, it propagates up through its ancestors. Use event.stopPropagation() to prevent it.",
+      "difficulty": "hard",
+      "tags": ["javascript", "dom", "events"]
+    },
+    {
+      "id": "cwd-014",
+      "question": "What does the CSS 'position: absolute' do?",
+      "options": [
+        "Positions element relative to the viewport",
+        "Positions element relative to its nearest positioned ancestor",
+        "Locks element to top-left of page",
+        "Removes element from DOM flow and centers it"
+      ],
+      "correctIndex": 1,
+      "explanation": "position: absolute removes the element from normal flow and positions it relative to its nearest non-static ancestor.",
+      "difficulty": "medium",
+      "tags": ["css", "positioning"]
+    },
+    {
+      "id": "cwd-015",
+      "question": "What is the difference between == and === in JavaScript?",
+      "options": [
+        "No difference, both check value only",
+        "=== checks value only; == checks value and type",
+        "== checks value only; === checks both value and type",
+        "=== is used for assignment; == is for comparison"
+      ],
+      "correctIndex": 2,
+      "explanation": "== does type coercion (1 == '1' is true). === strict equality checks both value AND type (1 === '1' is false).",
+      "difficulty": "medium",
+      "tags": ["javascript", "comparison"]
+    },
+    {
+      "id": "cwd-016",
+      "question": "What is a CSS media query used for?",
+      "options": [
+        "Embedding video files",
+        "Applying styles based on screen size or device type",
+        "Loading external stylesheets",
+        "Animating CSS transitions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Media queries (@media) apply different CSS rules based on conditions like screen width, enabling responsive design.",
+      "difficulty": "easy",
+      "tags": ["css", "responsive", "media-queries"]
+    },
+    {
+      "id": "cwd-017",
+      "question": "Which JavaScript method is used to select an element by its CSS class?",
+      "options": [
+        "document.getElementById()",
+        "document.querySelector()",
+        "document.getClass()",
+        "document.findElement()"
+      ],
+      "correctIndex": 1,
+      "explanation": "document.querySelector('.classname') returns the first matching element. document.querySelectorAll('.classname') returns all.",
+      "difficulty": "easy",
+      "tags": ["javascript", "dom"]
+    },
+    {
+      "id": "cwd-018",
+      "question": "What does 'semantic HTML' mean?",
+      "options": [
+        "HTML that only uses div and span",
+        "HTML that uses tags which convey meaning about their content",
+        "HTML with inline styles",
+        "HTML validated against a schema"
+      ],
+      "correctIndex": 1,
+      "explanation": "Semantic HTML uses meaningful tags like <article>, <section>, <nav>, <aside> that describe the content's purpose.",
+      "difficulty": "easy",
+      "tags": ["html", "semantic"]
+    },
+    {
+      "id": "cwd-019",
+      "question": "What is the fetch API used for in JavaScript?",
+      "options": [
+        "Fetching files from the local filesystem",
+        "Making HTTP requests to a server",
+        "Getting CSS values from elements",
+        "Loading images lazily"
+      ],
+      "correctIndex": 1,
+      "explanation": "fetch() makes HTTP requests and returns a Promise. It's the modern replacement for XMLHttpRequest.",
+      "difficulty": "medium",
+      "tags": ["javascript", "http", "fetch"]
+    },
+    {
+      "id": "cwd-020",
+      "question": "What does 'z-index' control in CSS?",
+      "options": [
+        "The zoom level of an element",
+        "The stacking order of overlapping elements",
+        "The number of child elements",
+        "The horizontal position of an element"
+      ],
+      "correctIndex": 1,
+      "explanation": "z-index controls the stacking order of positioned elements. Higher z-index = appears on top.",
+      "difficulty": "medium",
+      "tags": ["css", "positioning", "stacking"]
     }
   ]
 }

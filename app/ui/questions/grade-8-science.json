@@ -52,6 +52,141 @@
       "correctIndex": 2,
       "explanation": "Newton's First Law (Law of Inertia): An object remains at rest or in uniform motion unless an external force acts on it.",
       "tags": ["physics"]
+    },
+    {
+      "id": "g8s-006",
+      "question": "What is the chemical formula for table salt?",
+      "options": ["KCl", "NaOH", "NaCl", "CaCl₂"],
+      "correctIndex": 2,
+      "explanation": "Table salt is sodium chloride — NaCl. It is formed when sodium (Na) reacts with chlorine (Cl).",
+      "difficulty": "easy",
+      "tags": ["chemistry"]
+    },
+    {
+      "id": "g8s-007",
+      "question": "What is the process by which water changes from liquid to gas?",
+      "options": ["Condensation", "Evaporation", "Sublimation", "Precipitation"],
+      "correctIndex": 1,
+      "explanation": "Evaporation is the process where liquid water gains energy and changes into water vapor (gas).",
+      "difficulty": "easy",
+      "tags": ["physics", "states-of-matter"]
+    },
+    {
+      "id": "g8s-008",
+      "question": "What is the smallest unit of life?",
+      "options": ["Atom", "Molecule", "Cell", "Tissue"],
+      "correctIndex": 2,
+      "explanation": "The cell is the basic structural and functional unit of all living organisms.",
+      "difficulty": "easy",
+      "tags": ["biology", "cell"]
+    },
+    {
+      "id": "g8s-009",
+      "question": "What type of energy does a moving ball have?",
+      "options": ["Potential energy", "Chemical energy", "Kinetic energy", "Nuclear energy"],
+      "correctIndex": 2,
+      "explanation": "Kinetic energy is the energy of motion. Any moving object possesses kinetic energy: KE = ½mv².",
+      "difficulty": "easy",
+      "tags": ["physics", "energy"]
+    },
+    {
+      "id": "g8s-010",
+      "question": "What is the pH of pure water?",
+      "options": ["0", "5", "7", "14"],
+      "correctIndex": 2,
+      "explanation": "Pure water has a neutral pH of 7. Below 7 is acidic, above 7 is basic/alkaline.",
+      "difficulty": "easy",
+      "tags": ["chemistry", "acids-bases"]
+    },
+    {
+      "id": "g8s-011",
+      "question": "Which organ in the human body produces insulin?",
+      "options": ["Liver", "Kidney", "Pancreas", "Stomach"],
+      "correctIndex": 2,
+      "explanation": "The pancreas produces insulin, a hormone that regulates blood sugar (glucose) levels.",
+      "difficulty": "medium",
+      "tags": ["biology", "human-body"]
+    },
+    {
+      "id": "g8s-012",
+      "question": "What is the speed of light in a vacuum?",
+      "options": ["3 × 10⁶ m/s", "3 × 10⁸ m/s", "3 × 10¹⁰ m/s", "3 × 10³ m/s"],
+      "correctIndex": 1,
+      "explanation": "The speed of light in a vacuum is approximately 3 × 10⁸ m/s (300,000 km/s).",
+      "difficulty": "medium",
+      "tags": ["physics", "light"]
+    },
+    {
+      "id": "g8s-013",
+      "question": "What is the symbol for Gold on the periodic table?",
+      "options": ["Go", "Gd", "Au", "Ag"],
+      "correctIndex": 2,
+      "explanation": "Gold's symbol is Au, from the Latin word 'Aurum'. Silver's symbol Ag comes from 'Argentum'.",
+      "difficulty": "easy",
+      "tags": ["chemistry", "periodic-table"]
+    },
+    {
+      "id": "g8s-014",
+      "question": "In which organ does digestion of food primarily take place?",
+      "options": ["Mouth", "Stomach", "Small intestine", "Large intestine"],
+      "correctIndex": 2,
+      "explanation": "Most digestion and absorption of nutrients occurs in the small intestine, with help from the liver and pancreas.",
+      "difficulty": "medium",
+      "tags": ["biology", "digestion"]
+    },
+    {
+      "id": "g8s-015",
+      "question": "What happens to the volume of water when it freezes?",
+      "options": ["It decreases", "It stays the same", "It increases", "It disappears"],
+      "correctIndex": 2,
+      "explanation": "Water expands when it freezes — its volume increases by about 9%. This is why ice floats on water.",
+      "difficulty": "medium",
+      "tags": ["physics", "states-of-matter"]
+    },
+    {
+      "id": "g8s-016",
+      "question": "What is the function of the mitochondria in a cell?",
+      "options": ["Controls cell activities", "Produces proteins", "Produces energy (ATP)", "Stores genetic information"],
+      "correctIndex": 2,
+      "explanation": "Mitochondria are the 'powerhouse of the cell' — they produce ATP (energy) through cellular respiration.",
+      "difficulty": "medium",
+      "tags": ["biology", "cell"]
+    },
+    {
+      "id": "g8s-017",
+      "question": "Which of Newton's laws states: F = ma?",
+      "options": ["First law", "Second law", "Third law", "Law of Gravitation"],
+      "correctIndex": 1,
+      "explanation": "Newton's Second Law: Force = mass × acceleration (F = ma). Greater force produces greater acceleration.",
+      "difficulty": "easy",
+      "tags": ["physics", "newton-laws"]
+    },
+    {
+      "id": "g8s-018",
+      "question": "What type of rock is formed from cooled magma?",
+      "options": ["Sedimentary", "Metamorphic", "Igneous", "Limestone"],
+      "correctIndex": 2,
+      "explanation": "Igneous rocks form when magma (molten rock) cools and solidifies. Examples: granite, basalt.",
+      "difficulty": "easy",
+      "tags": ["geology"]
+    },
+    {
+      "id": "g8s-019",
+      "question": "An electric current flowing through a wire creates a:",
+      "options": ["Gravitational field", "Magnetic field", "Electric field only", "Sound wave"],
+      "correctIndex": 1,
+      "explanation": "A current-carrying wire generates a magnetic field around it — this is the basis of electromagnets.",
+      "difficulty": "medium",
+      "tags": ["physics", "electromagnetism"]
+    },
+    {
+      "id": "g8s-020",
+      "question": "What is the process called when a solid directly changes to gas without becoming liquid?",
+      "options": ["Evaporation", "Condensation", "Sublimation", "Melting"],
+      "correctIndex": 2,
+      "explanation": "Sublimation is when a solid converts directly to gas. Example: dry ice (CO₂) sublimates at room temperature.",
+      "difficulty": "medium",
+      "tags": ["chemistry", "states-of-matter"]
     }
   ]
 }

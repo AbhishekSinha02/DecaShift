@@ -1,0 +1,212 @@
+{
+  "goalId": "pro-python",
+  "name": "Python for Professionals",
+  "subject": "python",
+  "category": "professional",
+  "grade": null,
+  "level": 1,
+  "description": "Python advanced concepts, OOP, decorators, async, testing, and best practices",
+  "tags": ["python", "backend", "professional"],
+  "questions": [
+    {
+      "id": "pyp-001",
+      "question": "What is the purpose of Python's GIL (Global Interpreter Lock)?",
+      "options": [
+        "Prevents multiple threads from modifying the same Python object simultaneously",
+        "Locks files when Python reads them",
+        "Prevents memory leaks",
+        "Enforces Python 3 compatibility"
+      ],
+      "correctIndex": 0,
+      "explanation": "The GIL ensures only one thread executes Python bytecode at a time, preventing data corruption — but limiting true parallelism on CPU-bound work.",
+      "difficulty": "hard",
+      "tags": ["concurrency", "gil"]
+    },
+    {
+      "id": "pyp-002",
+      "question": "What does a Python decorator do?",
+      "options": [
+        "Adds visual styling to output",
+        "Wraps a function to add behavior before and/or after it runs",
+        "Documents a function automatically",
+        "Converts a class method to a static method"
+      ],
+      "correctIndex": 1,
+      "explanation": "A decorator is a higher-order function that takes a function, adds behavior, and returns a new function. Example: @timer, @cache, @login_required.",
+      "difficulty": "medium",
+      "tags": ["decorators", "functional"]
+    },
+    {
+      "id": "pyp-003",
+      "question": "What is the difference between a list and a tuple in Python?",
+      "options": [
+        "Lists store numbers; tuples store strings",
+        "Lists are mutable (changeable); tuples are immutable (cannot be changed)",
+        "Tuples are faster to create; lists are faster to access",
+        "Lists have a fixed size; tuples grow dynamically"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lists [] are mutable — elements can be added/changed/removed. Tuples () are immutable — once created, they cannot be modified.",
+      "difficulty": "easy",
+      "tags": ["data-structures"]
+    },
+    {
+      "id": "pyp-004",
+      "question": "What does 'yield' do in a Python function?",
+      "options": [
+        "Returns a value and terminates the function",
+        "Makes the function a generator, producing values lazily one at a time",
+        "Pauses the program for a specified time",
+        "Raises an exception"
+      ],
+      "correctIndex": 1,
+      "explanation": "yield turns a function into a generator. Each call to next() runs until the next yield, producing one value without loading all data into memory.",
+      "difficulty": "medium",
+      "tags": ["generators", "iterators"]
+    },
+    {
+      "id": "pyp-005",
+      "question": "What is the output of: [x**2 for x in range(4)]?",
+      "options": ["[1, 4, 9, 16]", "[0, 1, 4, 9]", "[0, 2, 4, 6]", "[1, 2, 3, 4]"],
+      "correctIndex": 1,
+      "explanation": "List comprehension: x² for x in [0,1,2,3] = [0, 1, 4, 9].",
+      "difficulty": "easy",
+      "tags": ["list-comprehension"]
+    },
+    {
+      "id": "pyp-006",
+      "question": "What is Python's 'asyncio' used for?",
+      "options": [
+        "Running Python on multiple CPU cores in parallel",
+        "Writing concurrent I/O-bound code using async/await syntax on a single thread",
+        "Automatically parallelizing for loops",
+        "Handling multi-process communication"
+      ],
+      "correctIndex": 1,
+      "explanation": "asyncio enables cooperative concurrency for I/O-bound tasks (network, file I/O) on a single event loop thread using async/await.",
+      "difficulty": "medium",
+      "tags": ["async", "asyncio"]
+    },
+    {
+      "id": "pyp-007",
+      "question": "What is the difference between deepcopy and shallow copy in Python?",
+      "options": [
+        "Shallow copy duplicates all nested objects; deep copy only duplicates the outer object",
+        "Deep copy duplicates all nested objects recursively; shallow copy copies only the outer structure with references",
+        "There is no functional difference",
+        "Shallow copy works on lists only; deep copy works on all types"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shallow copy: outer object is new, nested objects are still shared references. Deep copy: entire object tree is duplicated — no shared references.",
+      "difficulty": "medium",
+      "tags": ["memory", "copying"]
+    },
+    {
+      "id": "pyp-008",
+      "question": "What does the @staticmethod decorator do in Python?",
+      "options": [
+        "Makes the method run at import time",
+        "Defines a method that belongs to the class but doesn't receive self or cls as a first argument",
+        "Prevents the method from being overridden in subclasses",
+        "Caches the method's return value"
+      ],
+      "correctIndex": 1,
+      "explanation": "@staticmethod creates a function in the class namespace that doesn't receive the instance or class — it's essentially a plain function organized inside a class.",
+      "difficulty": "medium",
+      "tags": ["oop", "static-method"]
+    },
+    {
+      "id": "pyp-009",
+      "question": "What is a Python context manager (the 'with' statement) used for?",
+      "options": [
+        "Grouping statements into a block",
+        "Automatically handling setup and teardown (like closing files) using __enter__ and __exit__",
+        "Catching exceptions from a block of code",
+        "Limiting the scope of variables"
+      ],
+      "correctIndex": 1,
+      "explanation": "Context managers guarantee cleanup code runs (e.g., file.close(), lock.release()) even if exceptions occur. Implement via __enter__/__exit__ or @contextmanager.",
+      "difficulty": "medium",
+      "tags": ["context-manager"]
+    },
+    {
+      "id": "pyp-010",
+      "question": "What is the time complexity of dict.get(key) in Python?",
+      "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+      "correctIndex": 2,
+      "explanation": "Python dicts use hash tables. Average-case key lookup is O(1). Worst case (many hash collisions) is O(n), but rare in practice.",
+      "difficulty": "easy",
+      "tags": ["dict", "complexity"]
+    },
+    {
+      "id": "pyp-011",
+      "question": "What does *args and **kwargs allow in a Python function definition?",
+      "options": [
+        "Only keyword arguments",
+        "*args captures extra positional arguments as a tuple; **kwargs captures extra keyword arguments as a dict",
+        "*args and **kwargs both capture keyword arguments",
+        "They force the caller to provide all arguments"
+      ],
+      "correctIndex": 1,
+      "explanation": "def f(*args, **kwargs): *args = tuple of positional extras, **kwargs = dict of keyword extras. Enables flexible, variadic function signatures.",
+      "difficulty": "medium",
+      "tags": ["functions", "args-kwargs"]
+    },
+    {
+      "id": "pyp-012",
+      "question": "What is a Python dataclass (@dataclass) primarily used for?",
+      "options": [
+        "Auto-generating __init__, __repr__, and __eq__ for classes that mainly hold data",
+        "Creating classes that cannot be instantiated",
+        "Adding type annotations to existing classes",
+        "Making classes thread-safe"
+      ],
+      "correctIndex": 0,
+      "explanation": "@dataclass auto-generates boilerplate like __init__ and __repr__ based on type-annotated class attributes, reducing repetitive code.",
+      "difficulty": "medium",
+      "tags": ["oop", "dataclass"]
+    },
+    {
+      "id": "pyp-013",
+      "question": "What does 'enumerate()' return in Python?",
+      "options": [
+        "The length of an iterable",
+        "An iterator of (index, value) tuples",
+        "A sorted version of an iterable",
+        "A reversed iterator"
+      ],
+      "correctIndex": 1,
+      "explanation": "enumerate(iterable) returns (0, item0), (1, item1), ... — giving both index and value in a loop without range(len(...)).",
+      "difficulty": "easy",
+      "tags": ["builtins", "iteration"]
+    },
+    {
+      "id": "pyp-014",
+      "question": "What is the purpose of __slots__ in a Python class?",
+      "options": [
+        "Limits the number of instances that can be created",
+        "Restricts attributes to a fixed set, reducing memory usage per instance",
+        "Makes all attributes read-only",
+        "Enables pickling of the class"
+      ],
+      "correctIndex": 1,
+      "explanation": "__slots__ = ['x', 'y'] prevents dynamic attribute creation (__dict__), reducing per-instance memory — important at large scale.",
+      "difficulty": "hard",
+      "tags": ["oop", "memory"]
+    },
+    {
+      "id": "pyp-015",
+      "question": "In Python, what is a lambda function?",
+      "options": [
+        "A function that runs asynchronously",
+        "A small anonymous function defined with the lambda keyword",
+        "A function defined inside a class",
+        "A built-in function that maps values"
+      ],
+      "correctIndex": 1,
+      "explanation": "lambda x: x * 2 is a nameless inline function. Equivalent to def f(x): return x * 2. Useful for short callbacks and sorting keys.",
+      "difficulty": "easy",
+      "tags": ["functions", "lambda"]
+    }
+  ]
+}

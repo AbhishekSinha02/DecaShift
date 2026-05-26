@@ -47,6 +47,206 @@
       "correctIndex": 1,
       "explanation": "Online stores (Redis) serve features in milliseconds for inference. Offline stores (S3, BigQuery) serve historical data for training.",
       "tags": ["feature-store"]
+    },
+    {
+      "id": "mlops-006",
+      "question": "What is 'model decay' (also called concept drift)?",
+      "options": [
+        "The model file becomes corrupted over time",
+        "Model performance degrades because the real-world data distribution changed from training data",
+        "The model's inference speed slows after many requests",
+        "Memory leaks in the model serving container"
+      ],
+      "correctIndex": 1,
+      "explanation": "Concept drift: the statistical relationship between input features and the target label changes over time, degrading model accuracy.",
+      "difficulty": "medium",
+      "tags": ["monitoring", "drift"]
+    },
+    {
+      "id": "mlops-007",
+      "question": "What is the purpose of shadow deployment (shadow mode) for an ML model?",
+      "options": [
+        "Serving the new model to internal users only",
+        "Running the new model in parallel with production but discarding its predictions",
+        "Deploying the model to a backup cluster",
+        "Testing the model offline before any deployment"
+      ],
+      "correctIndex": 1,
+      "explanation": "In shadow mode, the new model processes all real traffic but its predictions are logged, not served. Allows comparison without user impact.",
+      "difficulty": "hard",
+      "tags": ["deployment", "testing"]
+    },
+    {
+      "id": "mlops-008",
+      "question": "Which tool is most commonly used for ML experiment tracking?",
+      "options": ["Jenkins", "MLflow", "Terraform", "Prometheus"],
+      "correctIndex": 1,
+      "explanation": "MLflow tracks experiments, parameters, metrics, and artifacts. Alternatives include Weights & Biases and Neptune.",
+      "difficulty": "easy",
+      "tags": ["tools", "experiment-tracking"]
+    },
+    {
+      "id": "mlops-009",
+      "question": "What is 'training-serving skew' in ML systems?",
+      "options": [
+        "The model trains faster than it serves",
+        "The features at serving time differ from the features used during training",
+        "Different hardware between training and serving",
+        "Version mismatch between Python and model library"
+      ],
+      "correctIndex": 1,
+      "explanation": "Training-serving skew: if feature preprocessing differs between training and inference, predictions degrade silently.",
+      "difficulty": "medium",
+      "tags": ["feature-engineering", "reliability"]
+    },
+    {
+      "id": "mlops-010",
+      "question": "What does 'model serving latency P99' measure?",
+      "options": [
+        "The average response time across all requests",
+        "The response time below which 99% of requests fall",
+        "The time to train the model from scratch",
+        "99% of the model's predictions being correct"
+      ],
+      "correctIndex": 1,
+      "explanation": "P99 latency is the 99th percentile — 99% of requests are faster than this. It captures tail latency, which matters for user experience.",
+      "difficulty": "medium",
+      "tags": ["monitoring", "latency"]
+    },
+    {
+      "id": "mlops-011",
+      "question": "What is Kubeflow's primary use case?",
+      "options": [
+        "Storing ML datasets in cloud storage",
+        "Orchestrating ML workflows on Kubernetes",
+        "Monitoring model drift in production",
+        "Hyperparameter tuning only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kubeflow is an ML toolkit for Kubernetes — it handles pipelines, training operators, model serving, and hyperparameter tuning.",
+      "difficulty": "medium",
+      "tags": ["tools", "orchestration"]
+    },
+    {
+      "id": "mlops-012",
+      "question": "What is A/B testing for ML models?",
+      "options": [
+        "Testing model A on CPU and model B on GPU",
+        "Splitting real traffic between two model versions and comparing their performance",
+        "Running two training jobs with different datasets",
+        "Comparing offline evaluation metrics of two models"
+      ],
+      "correctIndex": 1,
+      "explanation": "A/B testing routes a fraction of real traffic to each model version and measures production metrics (CTR, revenue, accuracy) to pick the winner.",
+      "difficulty": "easy",
+      "tags": ["deployment", "experimentation"]
+    },
+    {
+      "id": "mlops-013",
+      "question": "What is the role of a data validation step in an ML pipeline?",
+      "options": [
+        "Compresses training data for faster loading",
+        "Detects schema mismatches, outliers, and distribution anomalies before training",
+        "Converts data to model-readable binary format",
+        "Splits data into train/test sets"
+      ],
+      "correctIndex": 1,
+      "explanation": "Data validation (using tools like TFX or Great Expectations) catches data quality issues early, preventing silent model degradation.",
+      "difficulty": "medium",
+      "tags": ["data-validation", "pipeline"]
+    },
+    {
+      "id": "mlops-014",
+      "question": "What is model quantization?",
+      "options": [
+        "Measuring model performance with multiple metrics",
+        "Reducing model size by converting weights from float32 to int8 or float16",
+        "Adding more quantitative features to the model",
+        "Setting a quality threshold for model deployment"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quantization compresses model weights (float32→int8) to reduce inference latency and memory footprint with minimal accuracy loss.",
+      "difficulty": "hard",
+      "tags": ["model-optimization", "inference"]
+    },
+    {
+      "id": "mlops-015",
+      "question": "What does 'continuous training' (CT) mean in MLOps?",
+      "options": [
+        "Training the model 24/7 without stopping",
+        "Automatically retraining the model when new data arrives or drift is detected",
+        "Using continuous integration for training code",
+        "Training on a continuously growing dataset"
+      ],
+      "correctIndex": 1,
+      "explanation": "CT automatically triggers model retraining based on data freshness or performance degradation signals, keeping the model up-to-date.",
+      "difficulty": "medium",
+      "tags": ["ci-cd", "automation"]
+    },
+    {
+      "id": "mlops-016",
+      "question": "Which format is most common for serving ML models via REST API?",
+      "options": ["CSV", "Pickle", "ONNX or TensorFlow SavedModel", "Jupyter notebook"],
+      "correctIndex": 2,
+      "explanation": "ONNX (cross-framework) and TensorFlow SavedModel are production serving formats. Pickle is insecure and not portable.",
+      "difficulty": "medium",
+      "tags": ["model-serving", "formats"]
+    },
+    {
+      "id": "mlops-017",
+      "question": "What is the purpose of a feature pipeline vs a training pipeline in MLOps?",
+      "options": [
+        "They are the same pipeline",
+        "Feature pipelines compute and store features; training pipelines use those features to train models",
+        "Feature pipelines handle raw data only; training pipelines handle labels",
+        "Training pipelines run in batch; feature pipelines run only in real-time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Separating feature and training pipelines decouples feature freshness from training schedules, enabling feature reuse across multiple models.",
+      "difficulty": "hard",
+      "tags": ["architecture", "pipelines"]
+    },
+    {
+      "id": "mlops-018",
+      "question": "What does BentoML provide in an MLOps stack?",
+      "options": [
+        "Data labeling and annotation",
+        "A framework-agnostic way to package, serve, and deploy ML models",
+        "Distributed model training",
+        "Hyperparameter optimization"
+      ],
+      "correctIndex": 1,
+      "explanation": "BentoML packages ML models with their dependencies and APIs into portable 'bentos' that can be deployed to any cloud or container platform.",
+      "difficulty": "hard",
+      "tags": ["tools", "model-serving"]
+    },
+    {
+      "id": "mlops-019",
+      "question": "What is the 'Four Pillars' model evaluation framework for production ML?",
+      "options": [
+        "Accuracy, Speed, Cost, Simplicity",
+        "Data quality, Model quality, System reliability, Business impact",
+        "Training, Evaluation, Deployment, Monitoring",
+        "Bias, Variance, Overfitting, Underfitting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Production ML evaluation considers all four: data quality (garbage in), model quality (metrics), system reliability (uptime), and business impact (ROI).",
+      "difficulty": "hard",
+      "tags": ["evaluation", "strategy"]
+    },
+    {
+      "id": "mlops-020",
+      "question": "What does 'model lineage' track in a Model Registry?",
+      "options": [
+        "The ancestry of training data sources, code versions, and hyperparameters that produced the model",
+        "How many times a model has been called in production",
+        "The model's accuracy trend over time",
+        "The list of engineers who trained the model"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lineage tracks: which dataset, code version, and parameters produced a model version — enabling reproducibility and audit.",
+      "difficulty": "medium",
+      "tags": ["model-registry", "governance"]
     }
   ]
 }
