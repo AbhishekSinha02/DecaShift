@@ -1,0 +1,52 @@
+{
+  "goalId": "azure-aks",
+  "name": "Azure AKS",
+  "subject": "cloud-kubernetes",
+  "category": "professional",
+  "grade": null,
+  "level": 1,
+  "description": "Kubernetes on Azure — architecture, networking, workload identity",
+  "tags": ["azure", "cloud", "k8s"],
+  "questions": [
+    {
+      "id": "q001",
+      "question": "What is the purpose of Workload Identity in AKS?",
+      "options": ["Assign managed identity to pods via OIDC federation", "Store secrets in Azure Key Vault", "Enable RBAC on the cluster", "Configure network policies"],
+      "correctIndex": 0,
+      "explanation": "Workload Identity uses OIDC token federation to let pods assume Azure AD identities without storing credentials.",
+      "tags": ["identity", "security"]
+    },
+    {
+      "id": "q002",
+      "question": "Which AKS networking mode supports Azure CNI with dynamic IP allocation?",
+      "options": ["Kubenet", "Azure CNI Overlay", "Azure CNI with pod subnet delegation", "Flannel"],
+      "correctIndex": 2,
+      "explanation": "Azure CNI with pod subnet delegation lets each pod get an IP from a dedicated subnet.",
+      "tags": ["networking"]
+    },
+    {
+      "id": "q003",
+      "question": "What does the AKS cluster autoscaler do when a pod is Pending due to insufficient resources?",
+      "options": ["Deletes existing pods to free resources", "Scales up the number of nodes in the node pool", "Increases the resource limits of the pending pod", "Moves the pod to a different namespace"],
+      "correctIndex": 1,
+      "explanation": "The cluster autoscaler watches for Pending pods and adds nodes so the scheduler can place them.",
+      "tags": ["scaling"]
+    },
+    {
+      "id": "q004",
+      "question": "Which component manages Azure Load Balancer rules for Kubernetes Services of type LoadBalancer?",
+      "options": ["kube-proxy", "CoreDNS", "cloud-controller-manager", "kubelet"],
+      "correctIndex": 2,
+      "explanation": "The cloud-controller-manager interfaces with Azure API to create Load Balancer rules and public IPs.",
+      "tags": ["networking", "control-plane"]
+    },
+    {
+      "id": "q005",
+      "question": "What is the recommended way to give an AKS pod access to an Azure Key Vault secret without storing credentials?",
+      "options": ["Mount the secret as an environment variable", "Use the Secrets Store CSI Driver with Workload Identity", "Hardcode the service principal credentials in the pod spec", "Use a DaemonSet to pull secrets on each node"],
+      "correctIndex": 1,
+      "explanation": "The Secrets Store CSI Driver combined with Workload Identity lets pods mount Key Vault secrets without any credentials in the cluster.",
+      "tags": ["security", "identity"]
+    }
+  ]
+}

@@ -33,6 +33,8 @@
 | ~~[P1-T009](P1-T009-migrate-drive-to-google-sheets.md)~~ | ~~Replace Drive JSON files with Google Sheets rows~~ — **CANCELLED, superseded by P1-T011** | S |
 | [P1-T010](P1-T010-static-content-from-github-raw.md) | Fetch goals.json + questions.json from GitHub raw URLs | S |
 | [P1-T011](P1-T011-individual-drive-files-per-user-and-session.md) | One JSON file per user + one JSON file per session in Drive (no shared files) | S |
+| [P1-T012](P1-T012-drive-account-persistence-cross-device-login.md) | Save account to Drive on sign-up — login works on any device / incognito | S |
+| [P1-T013](P1-T013-multi-file-questions-folder-by-grade-subject-level.md) | Multi-file questions folder — auto-populate goals by grade/subject/level via manifest | M |
 
 ---
 
@@ -107,6 +109,8 @@ P1-T006  (categories)        → P1-T008
 P1-T008  (question filter)   → P2-T001, P3-T007
 P1-T009  (Drive→Sheets)      — CANCELLED, superseded by P1-T011
 P1-T011  (individual files)  — standalone, replaces Apps Script internals only
+P1-T012  (Drive accounts)   — depends on P1-T011 (adds accounts/ subfolder to Drive)
+P1-T013  (questions folder) — depends on P1-T008 (refactors existing filter logic)
 P1-T010  (GitHub raw URLs)   — standalone, isolated to _loadData() in app.js
 
 P2-T001  (JSON-driven)       → P4-T002
@@ -134,5 +138,5 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 29 (1 cancelled) | P1: 11 (P1-T009 cancelled) | P2: 9 | P3: 8 | P4: 2 | P5: 3 | P6: 3*
+*Total tasks: 31 (1 cancelled) | P1: 13 (P1-T009 cancelled) | P2: 9 | P3: 8 | P4: 2 | P5: 3 | P6: 3*
 *All tasks are self-contained, independently deployable, and version-controlled in this folder.*

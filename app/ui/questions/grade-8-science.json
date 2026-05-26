@@ -1,0 +1,57 @@
+{
+  "goalId": "grade-8-science",
+  "name": "Grade 8 — Science",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "description": "Physics, chemistry and biology fundamentals",
+  "tags": ["science", "grade-8", "school"],
+  "questions": [
+    {
+      "id": "g8s-001",
+      "question": "What is the SI unit of force?",
+      "options": ["Joule", "Watt", "Newton", "Pascal"],
+      "correctIndex": 2,
+      "explanation": "Force is measured in Newtons (N). 1 Newton = 1 kg·m/s².",
+      "tags": ["physics"]
+    },
+    {
+      "id": "g8s-002",
+      "question": "Which gas is released by plants during photosynthesis?",
+      "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+      "correctIndex": 2,
+      "explanation": "During photosynthesis, plants absorb CO₂ and sunlight to produce glucose and release Oxygen (O₂).",
+      "tags": ["biology"]
+    },
+    {
+      "id": "g8s-003",
+      "question": "What is the chemical formula of water?",
+      "options": ["HO", "H₂O", "H₂O₂", "HO₂"],
+      "correctIndex": 1,
+      "explanation": "Water is made of 2 hydrogen atoms and 1 oxygen atom: H₂O.",
+      "tags": ["chemistry"]
+    },
+    {
+      "id": "g8s-004",
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Venus", "Earth", "Mercury", "Mars"],
+      "correctIndex": 2,
+      "explanation": "Mercury is the first planet from the Sun and the smallest planet in the Solar System.",
+      "tags": ["space"]
+    },
+    {
+      "id": "g8s-005",
+      "question": "What does Newton's first law of motion state?",
+      "options": [
+        "Force equals mass times acceleration",
+        "Every action has an equal and opposite reaction",
+        "An object at rest stays at rest unless acted upon by a force",
+        "Energy cannot be created or destroyed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Newton's First Law (Law of Inertia): An object remains at rest or in uniform motion unless an external force acts on it.",
+      "tags": ["physics"]
+    }
+  ]
+}

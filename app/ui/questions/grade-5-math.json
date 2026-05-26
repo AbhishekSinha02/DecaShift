@@ -1,0 +1,52 @@
+{
+  "goalId": "grade-5-math",
+  "name": "Grade 5 — Mathematics",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "description": "Fractions, percentages, basic geometry and arithmetic",
+  "tags": ["math", "grade-5", "school"],
+  "questions": [
+    {
+      "id": "g5m-001",
+      "question": "What is 25% of 200?",
+      "options": ["25", "50", "75", "100"],
+      "correctIndex": 1,
+      "explanation": "25% means 25 out of 100. So 25/100 × 200 = 50.",
+      "tags": ["percentage"]
+    },
+    {
+      "id": "g5m-002",
+      "question": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+      "options": ["13 cm²", "26 cm²", "40 cm²", "80 cm²"],
+      "correctIndex": 2,
+      "explanation": "Area of a rectangle = length × width = 8 × 5 = 40 cm².",
+      "tags": ["geometry"]
+    },
+    {
+      "id": "g5m-003",
+      "question": "Which fraction is the largest?",
+      "options": ["1/2", "3/8", "2/5", "4/9"],
+      "correctIndex": 0,
+      "explanation": "Converting to decimals: 1/2=0.5, 3/8=0.375, 2/5=0.4, 4/9≈0.44. So 1/2 is largest.",
+      "tags": ["fractions"]
+    },
+    {
+      "id": "g5m-004",
+      "question": "A train travels 360 km in 4 hours. What is its average speed?",
+      "options": ["80 km/h", "90 km/h", "100 km/h", "120 km/h"],
+      "correctIndex": 1,
+      "explanation": "Speed = Distance ÷ Time = 360 ÷ 4 = 90 km/h.",
+      "tags": ["arithmetic"]
+    },
+    {
+      "id": "g5m-005",
+      "question": "What is the LCM of 4 and 6?",
+      "options": ["8", "10", "12", "24"],
+      "correctIndex": 2,
+      "explanation": "Multiples of 4: 4,8,12... Multiples of 6: 6,12... First common multiple = 12.",
+      "tags": ["lcm-hcf"]
+    }
+  ]
+}

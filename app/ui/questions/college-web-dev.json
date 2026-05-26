@@ -1,0 +1,52 @@
+{
+  "goalId": "college-web-dev",
+  "name": "Web Development Fundamentals",
+  "subject": "web-dev",
+  "category": "college",
+  "grade": null,
+  "level": 1,
+  "description": "HTML, CSS, JavaScript, DOM APIs and browser fundamentals",
+  "tags": ["web", "html", "javascript", "college"],
+  "questions": [
+    {
+      "id": "cwd-001",
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "options": ["<link>", "<a>", "<href>", "<url>"],
+      "correctIndex": 1,
+      "explanation": "The <a> (anchor) tag creates hyperlinks. The destination URL goes in the href attribute: <a href='url'>text</a>",
+      "tags": ["html"]
+    },
+    {
+      "id": "cwd-002",
+      "question": "Which CSS property controls the text colour?",
+      "options": ["font-color", "text-color", "color", "foreground"],
+      "correctIndex": 2,
+      "explanation": "The CSS 'color' property sets the text colour. Example: color: #ff0000;",
+      "tags": ["css"]
+    },
+    {
+      "id": "cwd-003",
+      "question": "What does the 'typeof' operator return for an array in JavaScript?",
+      "options": ["'array'", "'list'", "'object'", "'collection'"],
+      "correctIndex": 2,
+      "explanation": "In JavaScript, typeof [] returns 'object'. Use Array.isArray() to check specifically for arrays.",
+      "tags": ["javascript"]
+    },
+    {
+      "id": "cwd-004",
+      "question": "What is the correct way to select an element with id 'header' in CSS?",
+      "options": [".header", "*header", "#header", "header"],
+      "correctIndex": 2,
+      "explanation": "IDs are selected with '#' in CSS. Class selectors use '.'. So #header targets <div id='header'>.",
+      "tags": ["css"]
+    },
+    {
+      "id": "cwd-005",
+      "question": "Which method adds an element to the end of a JavaScript array?",
+      "options": ["append()", "add()", "push()", "insert()"],
+      "correctIndex": 2,
+      "explanation": "array.push(item) adds one or more elements to the end of an array and returns the new length.",
+      "tags": ["javascript"]
+    }
+  ]
+}

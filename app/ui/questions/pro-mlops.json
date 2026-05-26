@@ -1,0 +1,52 @@
+{
+  "goalId": "mlops-interview",
+  "name": "MLOps Interview Prep",
+  "subject": "mlops",
+  "category": "professional",
+  "grade": null,
+  "level": 1,
+  "description": "CI/CD for ML, model registries, feature stores, monitoring",
+  "tags": ["ml", "devops", "interviews"],
+  "questions": [
+    {
+      "id": "q006",
+      "question": "What is the primary purpose of a Feature Store in an MLOps pipeline?",
+      "options": ["To store trained model weights", "To provide consistent, reusable feature computation for training and serving", "To schedule model retraining jobs", "To log model predictions in production"],
+      "correctIndex": 1,
+      "explanation": "A Feature Store ensures the same feature logic runs at training time and serving time, eliminating training-serving skew.",
+      "tags": ["feature-engineering"]
+    },
+    {
+      "id": "q007",
+      "question": "Which metric would you monitor first to detect data drift in a production ML model?",
+      "options": ["GPU utilization", "Statistical distribution of input features over time", "Number of API requests per minute", "Model binary size"],
+      "correctIndex": 1,
+      "explanation": "Monitoring input feature distributions (PSI, KL divergence) detects data drift before it degrades model performance.",
+      "tags": ["monitoring"]
+    },
+    {
+      "id": "q008",
+      "question": "What does a Model Registry primarily store?",
+      "options": ["Raw training datasets", "Versioned model artifacts, metadata, and lineage", "Feature definitions and transformations", "CI/CD pipeline configurations"],
+      "correctIndex": 1,
+      "explanation": "A Model Registry tracks versioned model artifacts with metadata like metrics, parameters, and lineage.",
+      "tags": ["model-registry"]
+    },
+    {
+      "id": "q009",
+      "question": "In a canary deployment for an ML model, what controls the traffic split between old and new model?",
+      "options": ["Feature store routing rules", "A load balancer or service mesh weighted routing", "The model accuracy threshold", "Number of GPUs available"],
+      "correctIndex": 1,
+      "explanation": "Traffic splitting in canary release is managed at the infrastructure layer via a service mesh or load balancer.",
+      "tags": ["deployment"]
+    },
+    {
+      "id": "q010",
+      "question": "What is the key difference between online and offline feature serving in a Feature Store?",
+      "options": ["Offline serving uses GPUs; online uses CPUs", "Online serving provides low-latency lookups for inference; offline provides batch data for training", "Offline serving is encrypted; online is not", "Online features are computed weekly; offline features are computed in real time"],
+      "correctIndex": 1,
+      "explanation": "Online stores (Redis) serve features in milliseconds for inference. Offline stores (S3, BigQuery) serve historical data for training.",
+      "tags": ["feature-store"]
+    }
+  ]
+}

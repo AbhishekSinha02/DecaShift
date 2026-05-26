@@ -1,0 +1,52 @@
+{
+  "goalId": "grade-10-math",
+  "name": "Grade 10 — Mathematics",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 10,
+  "level": 1,
+  "description": "Algebra, trigonometry, coordinate geometry and statistics",
+  "tags": ["math", "grade-10", "school"],
+  "questions": [
+    {
+      "id": "g10m-001",
+      "question": "What are the roots of x² - 5x + 6 = 0?",
+      "options": ["x = 1, x = 6", "x = 2, x = 3", "x = -2, x = -3", "x = 3, x = 4"],
+      "correctIndex": 1,
+      "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3.",
+      "tags": ["algebra", "quadratic"]
+    },
+    {
+      "id": "g10m-002",
+      "question": "What is sin(30°)?",
+      "options": ["√3/2", "1/√2", "1/2", "√3"],
+      "correctIndex": 2,
+      "explanation": "sin(30°) = 1/2. This is a standard trigonometric value to memorise.",
+      "tags": ["trigonometry"]
+    },
+    {
+      "id": "g10m-003",
+      "question": "Find the distance between points (3, 4) and (0, 0).",
+      "options": ["5", "6", "7", "√7"],
+      "correctIndex": 0,
+      "explanation": "Distance = √((3-0)² + (4-0)²) = √(9+16) = √25 = 5.",
+      "tags": ["coordinate-geometry"]
+    },
+    {
+      "id": "g10m-004",
+      "question": "What is the probability of getting a head when a fair coin is tossed?",
+      "options": ["0", "1/4", "1/2", "1"],
+      "correctIndex": 2,
+      "explanation": "A fair coin has 2 equally likely outcomes (H or T). P(Head) = 1/2.",
+      "tags": ["probability"]
+    },
+    {
+      "id": "g10m-005",
+      "question": "What is the sum of interior angles of a triangle?",
+      "options": ["90°", "180°", "270°", "360°"],
+      "correctIndex": 1,
+      "explanation": "The sum of interior angles of any triangle is always 180°.",
+      "tags": ["geometry"]
+    }
+  ]
+}

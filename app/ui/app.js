@@ -3,7 +3,8 @@
 const state = {
   currentScreen: null,
   user: null,
-  pendingCategory: null,  // set when user clicks Student / Professional on landing
+  pendingCategory: null,
+  manifest: [],
   goals: [],
   questions: [],
   selectedGoal: null,
@@ -21,10 +22,11 @@ const state = {
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 
 async function init() {
-  await _loadData();
+  await _loadManifest();
   const user = Storage.loadUser();
   if (user) {
     state.user = user;
+    await _loadQuestionsForUser(user);
     _showScreen('home');
     _renderHome();
   } else {
@@ -33,14 +35,53 @@ async function init() {
   }
 }
 
-async function _loadData() {
+async function _loadManifest() {
   try {
-    const [gr, qr] = await Promise.all([fetch('goals.json'), fetch('questions.json')]);
-    state.goals     = await gr.json();
-    state.questions = await qr.json();
+    const r = await fetch('questions/manifest.json');
+    state.manifest = await r.json();
   } catch (err) {
-    console.error('[DecaShift] Failed to load data:', err);
+    console.error('[DecaShift] Failed to load manifest:', err);
+    state.manifest = [];
   }
+}
+
+async function _loadQuestionsForUser(user) {
+  const entries = _filterManifest(state.manifest, user);
+  const results = await Promise.all(
+    entries.map(e => fetch('questions/' + e.file).then(r => r.json()).catch(() => null))
+  );
+
+  state.goals     = [];
+  state.questions = [];
+
+  results.filter(Boolean).forEach(file => {
+    state.goals.push({
+      id:          file.goalId,
+      name:        file.name,
+      description: file.description,
+      category:    file.category,
+      grade:       file.grade ?? null,
+      subject:     file.subject,
+      level:       file.level,
+      tags:        file.tags || []
+    });
+    (file.questions || []).forEach(q => {
+      state.questions.push({ ...q, goalId: file.goalId });
+    });
+  });
+}
+
+function _filterManifest(manifest, user) {
+  if (!manifest || !manifest.length) return [];
+  const cat = user.category;
+  if (!cat) return manifest;
+  if (cat === 'school') {
+    if (user.grade === 'college') return manifest.filter(e => e.category === 'college');
+    const grade = parseInt(user.grade, 10);
+    return manifest.filter(e => e.category === 'school' && e.grade === grade);
+  }
+  if (cat === 'college') return manifest.filter(e => e.category === 'college');
+  return manifest.filter(e => e.category === 'professional');
 }
 
 function _showScreen(name) {
@@ -54,7 +95,7 @@ function _showScreen(name) {
 // ══════════════════════════════════════════════════════════════════════════════
 
 function _setupLanding() {
-  document.getElementById('btn-for-students').onclick     = () => _goToSignup('school');
+  document.getElementById('btn-for-students').onclick      = () => _goToSignup('school');
   document.getElementById('btn-for-professionals').onclick = () => _goToSignup('professional');
   document.getElementById('btn-go-signin').onclick         = () => { _showScreen('signin'); _setupSignin(); };
 }
@@ -70,13 +111,11 @@ function _goToSignup(category) {
 // ══════════════════════════════════════════════════════════════════════════════
 
 function _setupSignup(category) {
-  // Show / hide category-specific sections
   const schoolFields = document.getElementById('school-fields');
   const proFields    = document.getElementById('pro-fields');
   schoolFields.classList.toggle('hidden', category !== 'school');
   proFields.classList.toggle('hidden',    category !== 'professional');
 
-  // Grade picker → show college course group if 'college' selected
   const gradeEl = document.getElementById('reg-grade');
   if (gradeEl) {
     gradeEl.onchange = () => {
@@ -84,7 +123,6 @@ function _setupSignup(category) {
     };
   }
 
-  // Digits-only on mobile
   document.getElementById('reg-mobile').addEventListener('input', e => {
     e.target.value = e.target.value.replace(/\D/g, '').slice(0, 10);
   }, { once: true });
@@ -111,7 +149,6 @@ async function _handleSignup(e) {
   if (password.length < 6)             { _showError('err-password', 'Password must be at least 6 characters'); valid = false; }
   if (password !== confirm)            { _showError('err-confirm',  'Passwords do not match'); valid = false; }
 
-  // Category-specific validation
   let grade = null, course = null, role = null, company = null;
   if (category === 'school') {
     grade = document.getElementById('reg-grade').value;
@@ -128,7 +165,6 @@ async function _handleSignup(e) {
 
   if (!valid) return;
 
-  // Check email not already registered
   if (Storage.findAccount(email)) {
     _showError('err-email', 'This email is already registered. Sign in instead.');
     return;
@@ -137,30 +173,33 @@ async function _handleSignup(e) {
   const btn = document.getElementById('signup-btn');
   btn.disabled = true; btn.textContent = 'Creating account…';
 
-  const userId      = Storage.getOrCreateUserId();
+  const userId       = Storage.getOrCreateUserId();
   const passwordHash = await Storage.hashPassword(password);
+  const registeredAt = new Date().toISOString();
 
   const user = {
     userId, name, email, mobile: '+91' + mobile,
     category,
-    grade:    grade || null,
-    course:   course || null,
-    role:     role || null,
-    company:  company || null,
-    registeredAt: new Date().toISOString()
+    grade:   grade   || null,
+    course:  course  || null,
+    role:    role    || null,
+    company: company || null,
+    registeredAt
   };
 
   Storage.saveAccount(email, passwordHash, userId);
   Storage.saveUser(user);
   state.user = user;
 
-  btn.disabled = false; btn.textContent = 'Create Account →';
+  await _loadQuestionsForUser(user);
 
+  btn.disabled = false; btn.textContent = 'Create Account →';
   _showScreen('home');
   _renderHome();
 
-  // Silent background sync
+  // Silent background sync — user profile + account for cross-device login
   Storage.syncUserToRemote(user).catch(() => {});
+  Storage.syncAccountToDrive({ email, passwordHash, userId, name, category, grade, course, role, company, registeredAt }).catch(() => {});
 }
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -190,11 +229,22 @@ async function _handleSignin(e) {
   const btn = document.getElementById('signin-btn');
   btn.disabled = true; btn.textContent = 'Signing in…';
 
-  const account = Storage.findAccount(email);
+  let account = Storage.findAccount(email);
+
   if (!account) {
-    _showError('err-si-email', 'No account found. Sign up first.');
-    btn.disabled = false; btn.textContent = 'Sign In →';
-    return;
+    // Not in localStorage — try Drive (cross-device / incognito recovery)
+    btn.textContent = 'Checking account…';
+    const driveAccount = await Storage.fetchAccountFromDrive(email);
+    if (!driveAccount) {
+      _showError('err-si-email', 'No account found. Sign up first.');
+      btn.disabled = false; btn.textContent = 'Sign In →';
+      return;
+    }
+    // Restore account and full user profile to localStorage
+    Storage.saveAccount(driveAccount.email, driveAccount.passwordHash, driveAccount.userId);
+    const { passwordHash: _ph, emailHash: _eh, ...userProfile } = driveAccount;
+    Storage.saveUser(userProfile);
+    account = { email: driveAccount.email, passwordHash: driveAccount.passwordHash, userId: driveAccount.userId };
   }
 
   const hash = await Storage.hashPassword(password);
@@ -204,17 +254,15 @@ async function _handleSignin(e) {
     return;
   }
 
-  // Restore user profile
   let user = Storage.loadUser();
   if (!user || user.userId !== account.userId) {
-    // Profile not in localStorage — reconstruct minimal profile
     user = { userId: account.userId, email, registeredAt: account.createdAt };
     Storage.saveUser(user);
   }
 
   btn.disabled = false; btn.textContent = 'Sign In →';
-
   state.user = user;
+  await _loadQuestionsForUser(user);
   _showScreen('home');
   _renderHome();
 }
@@ -225,7 +273,9 @@ async function _handleSignin(e) {
 
 function signOut() {
   Storage.clearSession();
-  state.user = null;
+  state.user      = null;
+  state.goals     = [];
+  state.questions = [];
   _showScreen('landing');
   _setupLanding();
 }
@@ -247,10 +297,8 @@ function _renderHome() {
   const avatar = document.getElementById('user-avatar');
   if (avatar) avatar.textContent = firstName[0].toUpperCase();
 
-  // Filter goals by category
-  const goals = _goalsForUser(user);
-
-  const list = document.getElementById('goals-list');
+  const goals = state.goals; // already filtered for this user by _loadQuestionsForUser
+  const list  = document.getElementById('goals-list');
   if (!list) return;
 
   if (!goals.length) {
@@ -282,18 +330,6 @@ function _renderHome() {
   }).join('');
 }
 
-function _goalsForUser(user) {
-  const cat = user.category;
-  if (!cat) return state.goals;                                                 // no category — show all
-  if (cat === 'school') {
-    const grade = parseInt(user.grade, 10);
-    if (user.grade === 'college') return state.goals.filter(g => g.category === 'college');
-    return state.goals.filter(g => g.category === 'school' && g.grade === grade);
-  }
-  if (cat === 'college') return state.goals.filter(g => g.category === 'college');
-  return state.goals.filter(g => g.category === 'professional');
-}
-
 function resetGoal(goalId) {
   if (!confirm('Clear all progress for this goal?')) return;
   Storage.clearSessionsForGoal(goalId);
@@ -320,7 +356,7 @@ function _renderQuestion() {
   const q     = state.filteredQuestions[state.currentIndex];
   const total = state.filteredQuestions.length;
 
-  state.questionStart      = new Date().toISOString();
+  state.questionStart       = new Date().toISOString();
   state.selectedAnswerIndex = null;
 
   document.getElementById('quiz-progress-text').textContent = `Question ${state.currentIndex + 1} of ${total}`;
@@ -364,8 +400,8 @@ function submitAnswer() {
 
   document.querySelectorAll('.answer-card').forEach(card => {
     const i = parseInt(card.dataset.idx, 10);
-    if (i === q.correctIndex)          card.classList.add('correct');
-    else if (i === s && !ok)           card.classList.add('incorrect');
+    if (i === q.correctIndex)   card.classList.add('correct');
+    else if (i === s && !ok)    card.classList.add('incorrect');
     card.onclick = null;
   });
 

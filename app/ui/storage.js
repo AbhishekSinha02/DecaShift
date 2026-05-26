@@ -34,12 +34,17 @@ const Storage = (() => {
     localStorage.removeItem(KEYS.USER);
   }
 
-  // ── Auth accounts (email + passwordHash stored locally) ───────────────────
+  // ── Auth accounts ─────────────────────────────────────────────────────────
 
   async function hashPassword(password) {
     const data = new TextEncoder().encode(password + ':decashift-salt');
     const hash = await crypto.subtle.digest('SHA-256', data);
     return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+
+  async function _emailHash(email) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(email.toLowerCase().trim()));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('').slice(0, 16);
   }
 
   function saveAccount(email, passwordHash, userId) {
@@ -57,6 +62,29 @@ const Storage = (() => {
 
   function findAccount(email) {
     return loadAccounts().find(a => a.email === email.toLowerCase()) || null;
+  }
+
+  // Sync full account (including profile) to Drive so login works across devices
+  async function syncAccountToDrive(accountData) {
+    if (!APPS_SCRIPT_URL) return;
+    const eHash = await _emailHash(accountData.email);
+    fetch(APPS_SCRIPT_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/plain' },
+      body: JSON.stringify({ action: 'saveAccount', payload: { ...accountData, emailHash: eHash } })
+    }).catch(() => {});
+  }
+
+  // Fetch account from Drive when not in localStorage (incognito / new device)
+  async function fetchAccountFromDrive(email) {
+    if (!APPS_SCRIPT_URL) return null;
+    try {
+      const eHash = await _emailHash(email);
+      const r = await fetch(APPS_SCRIPT_URL + '?action=getAccount&emailHash=' + eHash);
+      const data = await r.json();
+      if (data.found) return data.account;
+    } catch (_) {}
+    return null;
   }
 
   // ── Remote sync — silent, fire-and-forget ─────────────────────────────────
@@ -122,6 +150,7 @@ const Storage = (() => {
   return {
     getOrCreateUserId, saveUser, loadUser, clearSession,
     hashPassword, saveAccount, findAccount,
+    syncAccountToDrive, fetchAccountFromDrive,
     syncUserToRemote,
     saveSession, loadSessions, getLastSessionForGoal, clearSessionsForGoal,
     exportAsJSON, exportAsCSV
