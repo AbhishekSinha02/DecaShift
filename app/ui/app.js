@@ -282,6 +282,7 @@ async function _handleSignup(e) {
   btn.disabled = false; btn.textContent = 'Create Account →';
   _showScreen('home');
   _renderHome();
+  _maybeShowWelcome();
 
   Storage.syncUserToRemote(user).catch(() => {});
   Storage.syncAccountToDrive({ email, passwordHash, userId, name, category, grade, course, role, company, registeredAt, streak: Storage.loadStreak() }).catch(() => {});
@@ -351,6 +352,7 @@ async function _handleSignin(e) {
   await _loadQuestionsForUser(user);
   _showScreen('home');
   _renderHome();
+  _maybeShowWelcome();
 }
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -588,6 +590,8 @@ function _showResult() {
 
   Storage.saveSession(session);
   const updatedStreak = Storage.updateStreak();
+  const banner = document.getElementById('first-session-banner');
+  if (banner) banner.classList.toggle('hidden', Storage.loadSessions().length !== 1);
 
   // Resync account to Drive with updated streak so other devices see it (BUG-002 fix)
   const acct = Storage.findAccount(state.user.email);
@@ -631,6 +635,19 @@ function _showError(id, msg) { const el = document.getElementById(id); if (el) e
 function _clearErrors()       { document.querySelectorAll('.field-error').forEach(el => el.textContent = ''); }
 function _validEmail(v)        { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
 function _esc(str)             { return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+// ── Onboarding ────────────────────────────────────────────────────────────────
+
+function _maybeShowWelcome() {
+  if (!localStorage.getItem('decashift_onboarded')) {
+    document.getElementById('welcome-modal').classList.remove('hidden');
+  }
+}
+
+function dismissWelcome() {
+  localStorage.setItem('decashift_onboarded', 'true');
+  document.getElementById('welcome-modal').classList.add('hidden');
+}
 
 document.addEventListener('DOMContentLoaded', init);
 

@@ -36,8 +36,15 @@
 
     <div class="land-hero">
       <p class="land-eyebrow">For students &amp; professionals</p>
-      <h1 class="land-headline">Build your future,<br>one answer at a time.</h1>
-      <p class="land-sub">Practice daily, track your growth, and discover how fast you can improve when every session counts.</p>
+      <h1 class="land-headline">Practice today.<br>Beat yesterday.</h1>
+      <p class="land-sub">10 questions per session. Instant feedback. Daily streaks. Watch your accuracy climb.</p>
+    </div>
+
+    <div class="land-features">
+      <div class="feat"><span class="feat-icon">📈</span><p class="feat-label">Track accuracy<br>over time</p></div>
+      <div class="feat"><span class="feat-icon">🔥</span><p class="feat-label">Build daily<br>streaks</p></div>
+      <div class="feat"><span class="feat-icon">⚡</span><p class="feat-label">10 questions<br>per session</p></div>
+      <div class="feat"><span class="feat-icon">🎯</span><p class="feat-label">Every grade<br>&amp; profession</p></div>
     </div>
 
     <div class="land-paths">
@@ -88,8 +95,8 @@
     </div>
 
     <div class="land-stats">
-      <div class="stat-item"><span class="stat-num">10K+</span><span class="stat-label">Questions answered daily</span></div>
-      <div class="stat-item"><span class="stat-num">500+</span><span class="stat-label">Learners active</span></div>
+      <div class="stat-item"><span class="stat-num">295+</span><span class="stat-label">Questions ready to practice</span></div>
+      <div class="stat-item"><span class="stat-num">11</span><span class="stat-label">Grades covered (2–12)</span></div>
       <div class="stat-item"><span class="stat-num">Free</span><span class="stat-label">No credit card needed</span></div>
     </div>
 
@@ -104,6 +111,7 @@
       <div class="brand">
         <img src="assets/icon.svg" class="brand-logo" alt="DecaShift">
         <h1 class="brand-name">DecaShift</h1>
+        <p class="brand-tagline">Practice Daily. Grow Fast.</p>
       </div>
 
       <div class="card auth-card">
@@ -225,6 +233,7 @@
       <div class="brand">
         <img src="assets/icon.svg" class="brand-logo" alt="DecaShift">
         <h1 class="brand-name">DecaShift</h1>
+        <p class="brand-tagline">Practice Daily. Grow Fast.</p>
       </div>
 
       <div class="card auth-card">
@@ -351,6 +360,14 @@
   <section id="screen-result" class="screen">
     <div class="result-wrap">
 
+      <div id="first-session-banner" class="first-session-banner hidden">
+        <span class="fsb-emoji">🎉</span>
+        <div class="fsb-body">
+          <strong>First session complete!</strong>
+          <span>Your streak starts now — come back tomorrow to keep it going.</span>
+        </div>
+      </div>
+
       <div class="result-hero">
         <p class="result-label">Session Complete</p>
         <div class="result-score-big" id="result-score">— / —</div>
@@ -374,6 +391,21 @@
 
     </div>
   </section>
+
+  <!-- Welcome Modal — shown once on first login -->
+  <div id="welcome-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissWelcome()">
+    <div class="modal-box">
+      <img src="assets/icon.svg" class="modal-logo" alt="DecaShift">
+      <h2 class="modal-title">Welcome to DecaShift!</h2>
+      <p class="modal-sub">Here's how it works:</p>
+      <ul class="modal-steps">
+        <li><span>✅</span> Pick a goal → answer questions → see your score</li>
+        <li><span>🔥</span> Come back daily to build your streak</li>
+        <li><span>📈</span> Watch your accuracy grow over time</li>
+      </ul>
+      <button class="btn btn-primary btn-full" onclick="dismissWelcome()">Let's Go! →</button>
+    </div>
+  </div>
 
   <script>
     function toggleUserMenu() {
