@@ -340,7 +340,7 @@ function signOut() {
 
 function _renderHome() {
   const user      = state.user;
-  const firstName = (user.name || user.email || 'there').split(' ')[0];
+  const firstName = _getFirstName(user);
 
   const el = document.getElementById('user-greeting');
   if (el) el.textContent = 'Hello, ' + firstName;
@@ -475,7 +475,7 @@ function _renderQuestion() {
   document.getElementById('quiz-progress-text').textContent = `Question ${state.currentIndex + 1} of ${total}`;
   document.getElementById('quiz-progress-fill').style.width = `${(state.currentIndex / total) * 100}%`;
 
-  const _firstName = ((state.user && state.user.name) ? state.user.name : (state.user && state.user.email) || 'there').split(' ')[0];
+  const _firstName = _getFirstName(state.user);
   const _personalise = str => str.replace(/\{\{userName\}\}/g, _firstName);
 
   document.getElementById('question-text').textContent = _personalise(q.question);
@@ -533,7 +533,7 @@ function submitAnswer() {
 
   if (q.explanation) {
     const box = document.getElementById('explanation-box');
-    const _fn2 = ((state.user && state.user.name) ? state.user.name : (state.user && state.user.email) || 'there').split(' ')[0];
+    const _fn2 = _getFirstName(state.user);
     box.textContent = q.explanation.replace(/\{\{userName\}\}/g, _fn2);
     box.classList.remove('hidden');
   }
@@ -636,6 +636,7 @@ function _showError(id, msg) { const el = document.getElementById(id); if (el) e
 function _clearErrors()       { document.querySelectorAll('.field-error').forEach(el => el.textContent = ''); }
 function _validEmail(v)        { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
 function _esc(str)             { return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function _getFirstName(user)   { if (!user) return 'there'; if (user.name) return user.name.split(' ')[0]; if (user.email) return user.email.split('@')[0]; return 'there'; }
 
 // ── Onboarding ────────────────────────────────────────────────────────────────
 

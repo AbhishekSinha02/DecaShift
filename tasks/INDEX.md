@@ -178,5 +178,5 @@ P5-T003  (leaderboard)       → P6-T003
 ---
 
 *Total tasks: 56 (1 cancelled) | P1: 13 | P2: 21 | P3: 15 | P4: 3 | P5: 6 | P6: 6*
-*Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1)*
+*Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback*
 *New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*
