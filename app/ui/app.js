@@ -71,30 +71,8 @@ function toggleTheme() {
 // ── Manifest + Question Loading ───────────────────────────────────────────────
 
 async function _loadManifest() {
-  // 1. GitHub Contents API — auto-discovers all JSON files, no manifest.json maintenance needed
-  const isLocalhost = location.hostname === 'localhost' || location.hostname === '127.0.0.1' || location.hostname === '';
-  if (!isLocalhost) {
-    // Session cache: one API call per browser session regardless of reloads (rate-limit guard)
-    const cached = sessionStorage.getItem('ds_manifest_cache');
-    if (cached) { state.manifest = JSON.parse(cached); return; }
-
-    try {
-      const apiUrl = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/app/ui/questions`;
-      const r = await fetch(apiUrl, { headers: { Accept: 'application/vnd.github.v3+json' } });
-      if (r.ok) {
-        const files = await r.json();
-        const discovered = files
-          .filter(f => f.type === 'file' && f.name.endsWith('.json') && f.name !== 'manifest.json')
-          .map(f => ({ file: f.name }));
-        if (discovered.length) {
-          sessionStorage.setItem('ds_manifest_cache', JSON.stringify(discovered));
-          state.manifest = discovered;
-          return;
-        }
-      }
-    } catch (_) {}
-  }
-  // 2. Fallback: static manifest.json (local dev + offline + API rate-limited)
+  const cached = sessionStorage.getItem('ds_manifest_cache');
+  if (cached) { state.manifest = JSON.parse(cached); return; }
   const urls = [
     _rawUrl('app/ui/questions/manifest.json'),
     'questions/manifest.json'
@@ -102,45 +80,32 @@ async function _loadManifest() {
   for (const url of urls) {
     try {
       const r = await fetch(url);
-      if (r.ok) { state.manifest = await r.json(); return; }
+      if (r.ok) {
+        state.manifest = await r.json();
+        sessionStorage.setItem('ds_manifest_cache', JSON.stringify(state.manifest));
+        return;
+      }
     } catch (_) {}
   }
-  console.error('[DecaShift] Failed to load manifest from all sources');
+  console.error('[DecaShift] Failed to load manifest');
   state.manifest = [];
 }
 
 async function _loadQuestionsForUser(user) {
-  // Auto-discovered entries only have { file } — no category metadata for pre-filtering.
-  // Manifest entries have category/grade for fast pre-filtering.
-  const isAutoDiscovered = state.manifest.length && !('category' in state.manifest[0]);
-  const entries = isAutoDiscovered ? state.manifest : _filterManifest(state.manifest, user);
-
+  const entries = _filterManifest(state.manifest, user);
   const results = await Promise.all(entries.map(e => _fetchQuestionFile(e.file)));
 
   state.goals     = [];
   state.questions = [];
 
   results.filter(Boolean).forEach(file => {
-    if (isAutoDiscovered && !_fileMatchesUser(file, user)) return;
     state.goals.push({
-      id: file.goalId, name: file.name, description: file.description,
+      id: file.goalId, name: file.title || file.name, description: file.description,
       category: file.category, grade: file.grade ?? null,
       subject: file.subject, level: file.level, tags: file.tags || []
     });
     (file.questions || []).forEach(q => state.questions.push({ ...q, goalId: file.goalId }));
   });
-}
-
-// Mirrors _filterManifest logic but works on loaded file content (used for auto-discovery path)
-function _fileMatchesUser(file, user) {
-  const cat = user.category;
-  if (!cat) return false; // missing category → show nothing, prompt profile completion
-  if (cat === 'school') {
-    if (user.grade === 'college') return file.category === 'college';
-    return file.category === 'school' && file.grade === parseInt(user.grade, 10);
-  }
-  if (cat === 'college') return file.category === 'college';
-  return file.category === 'professional';
 }
 
 async function _fetchQuestionFile(filename) {

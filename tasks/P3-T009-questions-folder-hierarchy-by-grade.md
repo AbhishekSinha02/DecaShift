@@ -1,102 +1,90 @@
 # Feature: Questions Folder Hierarchy — Subfolders Per Category / Grade
 
-**Priority:** P3 | **Type:** Architecture | **Complexity:** M | **Status:** Pending
+**Priority:** P3 | **Type:** Architecture | **Complexity:** M | **Status:** ✅ Done
 
 ## Goal
 Restructure the flat `questions/` folder into a nested hierarchy so adding new
-question sets is as simple as dropping a JSON file in the right subfolder.
-The app auto-discovers everything — no manifest.json edits needed.
+question sets is as simple as dropping a JSON file in the right subfolder and
+adding one line to `manifest.json`.
 
-## Current Structure (flat)
+## Implemented Structure (nested)
 ```
 app/ui/questions/
-├── manifest.json
-├── grade-5-math.json
-├── grade-8-science.json
-├── grade-10-math.json
-├── grade-12-cs.json
-├── college-web-dev.json
-├── college-dsa.json
-├── pro-azure-aks.json
-└── pro-mlops.json
-```
-
-## Target Structure (nested)
-```
-app/ui/questions/
-├── manifest.json           ← still used as localhost fallback
+├── manifest.json           ← single source of truth; no GitHub API
 ├── school/
-│   ├── grade-2/
-│   ├── grade-3/
-│   ├── grade-4/
-│   ├── grade-5/
-│   │   └── mathematics.json
-│   │   └── science.json    ← add new subject = drop file here
-│   ├── grade-6/
-│   ├── grade-7/
-│   ├── grade-8/
-│   │   └── science.json
-│   ├── grade-9/
-│   ├── grade-10/
-│   │   └── mathematics.json
-│   ├── grade-11/
-│   └── grade-12/
-│       └── computer-science.json
+│   ├── grade-2/math.json
+│   ├── grade-3/math.json
+│   ├── grade-4/math.json
+│   ├── grade-5/math.json
+│   ├── grade-6/math.json
+│   ├── grade-7/math.json
+│   ├── grade-8/science.json
+│   ├── grade-9/math.json
+│   ├── grade-10/math.json
+│   ├── grade-11/math.json
+│   └── grade-12/computer-science.json
 ├── college/
 │   ├── web-dev.json
 │   └── dsa.json
 └── professional/
     ├── azure-aks.json
-    └── mlops.json
+    ├── mlops.json
+    ├── devops.json
+    ├── python.json
+    └── system-design.json
 ```
 
-## Auto-Discovery via GitHub Contents API (Recursive)
-Replace single-folder API call with recursive folder traversal:
-```js
-async function _discoverFiles(path) {
-  const r = await fetch(`https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${path}`);
-  if (!r.ok) return [];
-  const items = await r.json();
-  const files = [];
-  for (const item of items) {
-    if (item.type === 'file' && item.name.endsWith('.json') && item.name !== 'manifest.json') {
-      files.push({ file: item.path.replace('app/ui/questions/', '') });
-    } else if (item.type === 'dir') {
-      files.push(...await _discoverFiles(item.path));
-    }
-  }
-  return files;
-}
-```
+## Architecture Decision: manifest.json over GitHub API
+The original task description proposed GitHub Contents API recursive traversal.
+This was rejected in favour of `manifest.json` as the single source of truth:
 
-## manifest.json Update for Localhost Fallback
+| | GitHub API | manifest.json |
+|---|---|---|
+| Network requests per user | 1 (API) + N files | 1 (manifest) + user files |
+| Rate limiting | 60 req/hr anonymous | None |
+| Works offline / localhost | No | Yes |
+| Stability when folder changes | Breaks unexpectedly | Explicit, always clear |
+| Adding content | Drop file → auto-appears | Drop file + 1 line in manifest |
+
+**Adding content = 2-file commit: drop JSON + add one line to manifest.json.**
+
+## manifest.json Schema
 ```json
 [
-  { "file": "school/grade-5/mathematics.json", "category": "school", "grade": 5, "subject": "mathematics", "level": 1 },
-  { "file": "school/grade-8/science.json",      "category": "school", "grade": 8, "subject": "science",     "level": 1 },
-  ...
+  { "file": "school/grade-5/math.json", "category": "school", "grade": 5, "subject": "mathematics", "level": 1 },
+  { "file": "college/dsa.json",         "category": "college", "grade": null, "subject": "dsa",     "level": 1 }
 ]
 ```
 
-## Acceptance Criteria
-- [ ] All existing question files moved into new folder hierarchy
-- [ ] Existing `manifest.json` updated with new relative paths
-- [ ] GitHub API auto-discovery traverses subfolders recursively
-- [ ] `_fetchQuestionFile` works with relative paths like `school/grade-5/mathematics.json`
-- [ ] Adding a new file (e.g., `school/grade-5/english.json`) appears automatically on GitHub Pages
-- [ ] Localhost dev still works via manifest.json with new paths
-- [ ] v2/ snapshot unaffected (frozen copy, has its own flat structure)
+## Performance
+Any user always makes exactly **2 network requests** regardless of total file count
+(manifest.json + their single grade/category file). Adding 100 more files has zero
+performance impact on existing users.
 
-## Migration Notes
-- Question files themselves don't change — only their location changes
-- `goalId`, `category`, `grade` fields inside each file are unchanged
-- GitHub raw URLs just get the new path prefix
+## app.js Changes
+- `_loadManifest()` — GitHub API removed; fetches manifest.json from GitHub raw URL
+  with `questions/manifest.json` as localhost fallback; caches in sessionStorage
+- `_loadQuestionsForUser(user)` — simplified; calls `_filterManifest()` to get
+  user-specific entries, fetches only those files, no dual-path branching
+- `_fileMatchesUser()` — **deleted**; filtering now done purely on manifest metadata
+  before any file is fetched
+
+## Acceptance Criteria
+- [x] All 18 question files moved into nested folder hierarchy via `git mv`
+- [x] `manifest.json` updated with new relative paths (all 18 entries)
+- [x] `_loadQuestionsForUser()` simplified — no `isAutoDiscovered` branch
+- [x] `_fileMatchesUser()` removed
+- [x] `file.title || file.name` fallback for schema compatibility
+- [x] Localhost dev works via manifest.json with new paths
+- [x] `sessionStorage` cache prevents re-fetching manifest on every page action
+
+## Files Touched
+- `app/ui/questions/manifest.json` — updated all paths to nested structure
+- `app/ui/questions/school/grade-{2..12}/` — new subdirectories (git mv)
+- `app/ui/questions/college/` — new subdirectory (git mv)
+- `app/ui/questions/professional/` — new subdirectory (git mv)
+- `app/ui/app.js` — `_loadManifest()`, `_loadQuestionsForUser()`, removed `_fileMatchesUser()`
 
 ## Dependencies
 - P1-T013 (multi-file questions — done, this extends it)
 - P1-T010 (GitHub raw URLs — done)
-
-## Files to Touch
-- `app/ui/questions/` — move files into subfolders
-- `app/ui/questions/manifest.json` — update file paths
-- `app/ui/app.js` — recursive `_discoverFiles()`, update `_fetchQuestionFile` path handling

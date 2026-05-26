@@ -69,7 +69,7 @@
 | [P3-T001](P3-T001-daily-streak-tracking.md) | Daily streak tracking — core habit loop | S | ✅ Done |
 | [P3-T002](P3-T002-streak-visualization-ui.md) | Streak visualization — flame, 7-day strip, milestone celebrations | S | ✅ Done (flame + count; 7-day strip pending) |
 | [P3-T003](P3-T003-progress-dashboard.md) | Progress dashboard — accuracy trends, time invested, goal breakdown | M | ✅ Done (inline on home; deep analytics pending) |
-| **[P3-T009](P3-T009-questions-folder-hierarchy-by-grade.md)** | **Questions folder hierarchy — subfolders per category/grade, recursive auto-discovery** | **M** | **Pending** |
+| [P3-T009](P3-T009-questions-folder-hierarchy-by-grade.md) | Questions folder hierarchy — nested category/grade, manifest-only discovery | M | ✅ Done |
 | **[P3-T010](P3-T010-per-user-session-folder-drive.md)** | **Per-user session folder in Drive — verified + future full user-root folder** | **S** | **✅ Already Implemented (Code.gs)** |
 | **[P3-T011](P3-T011-content-expansion-tracking.md)** | **Content expansion — 295 questions across 18 files, targets for 2 subjects/grade** | **S** | **🔄 In Progress (v3.2 adds 295q)** |
 | **[P3-T012](P3-T012-colorful-student-theme.md)** | **Colorful student theme (Grade 2–8) — 3rd theme option, warm/bright palette** | **M** | **Pending** |
