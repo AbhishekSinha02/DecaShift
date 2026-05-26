@@ -510,3 +510,28 @@ function _validEmail(v)        { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
 function _esc(str)             { return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
 document.addEventListener('DOMContentLoaded', init);
+
+// ── Dev quick-fill (localhost only) — Ctrl+Shift+D pre-fills signup/signin ───
+
+if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+  document.addEventListener('keydown', e => {
+    if (e.ctrlKey && e.shiftKey && e.key === 'D') _devFill();
+  });
+}
+
+function _devFill() {
+  const g = id => document.getElementById(id);
+  if (state.currentScreen === 'signup') {
+    if (g('reg-name'))     g('reg-name').value     = 'Test User';
+    if (g('reg-email'))    g('reg-email').value     = 'test@test.com';
+    if (g('reg-mobile'))   g('reg-mobile').value    = '9876543210';
+    if (g('reg-password')) g('reg-password').value  = 'test123';
+    if (g('reg-confirm'))  g('reg-confirm').value   = 'test123';
+    if (g('reg-grade'))  { g('reg-grade').value = '6'; g('reg-grade').dispatchEvent(new Event('change')); }
+    if (g('reg-role'))     g('reg-role').value      = 'software-engineer';
+  }
+  if (state.currentScreen === 'signin') {
+    if (g('si-email'))    g('si-email').value    = 'test@test.com';
+    if (g('si-password')) g('si-password').value = 'test123';
+  }
+}
