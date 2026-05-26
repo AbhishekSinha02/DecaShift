@@ -30,6 +30,8 @@
 | [P1-T006](P1-T006-user-category-selection.md) | User category: School (Grade 2–12) / College / Professional | S |
 | [P1-T007](P1-T007-auto-save-responses-remove-export.md) | Auto-save responses on submit — remove manual CSV/JSON export | S |
 | [P1-T008](P1-T008-category-level-question-filtering.md) | Filter questions by user category + difficulty level | M |
+| [P1-T009](P1-T009-migrate-drive-to-google-sheets.md) | Replace Drive JSON files with Google Sheets rows for user data | S |
+| [P1-T010](P1-T010-static-content-from-github-raw.md) | Fetch goals.json + questions.json from GitHub raw URLs | S |
 
 ---
 
@@ -43,6 +45,9 @@
 | [P2-T004](P2-T004-timer-toggle-on-off.md) | Timer on/off toggle — pressure-free practice option | S |
 | [P2-T005](P2-T005-dark-light-mode-toggle.md) | Dark / light mode with system preference detection | S |
 | [P2-T006](P2-T006-daily-free-unlimited-practice.md) | Daily free unlimited practice — no paywalls on core loop | S |
+| [P2-T007](P2-T007-git-version-tagging-strategy.md) | Git tag convention — every release recoverable by version number | S |
+| [P2-T008](P2-T008-multi-version-deployment-github-pages.md) | Deploy v1/v2/latest simultaneously on GitHub Pages subdirectories | S |
+| [P2-T009](P2-T009-version-comparison-index-page.md) | Root index page listing all versions with links for side-by-side comparison | S |
 
 ---
 
@@ -99,10 +104,15 @@ P1-T003  (sign-in)           → P1-T004, P1-T005
 P1-T004  (session persist)   → P3-T001, P3-T003, P3-T005, P3-T006, P5-T001
 P1-T006  (categories)        → P1-T008
 P1-T008  (question filter)   → P2-T001, P3-T007
+P1-T009  (Drive→Sheets)      — standalone, replaces Apps Script internals only
+P1-T010  (GitHub raw URLs)   — standalone, isolated to _loadData() in app.js
 
 P2-T001  (JSON-driven)       → P4-T002
 P2-T002  (landing page)      → P1-T002 (CTA links to sign-up)
 P2-T006  (free practice)     → P6-T002
+P2-T007  (git tagging)       → P2-T008, P2-T009
+P2-T008  (multi-version)     → P2-T009
+P2-T008  (multi-version)     depends on P1-T010 (GitHub raw URLs enable branch switching)
 
 P3-T001  (streak)            → P3-T002, P3-T005
 P3-T007  (Q addition)        → P6-T001
@@ -122,5 +132,5 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 23 | P1: 8 | P2: 6 | P3: 8 | P4: 2 | P5: 3 | P6: 3*
+*Total tasks: 28 | P1: 10 | P2: 9 | P3: 8 | P4: 2 | P5: 3 | P6: 3*
 *All tasks are self-contained, independently deployable, and version-controlled in this folder.*
