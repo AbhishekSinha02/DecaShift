@@ -92,40 +92,34 @@ async function _handleRegSubmit(e) {
     registeredAt: new Date().toISOString()
   };
 
-  _setRegLoading(true);
+  // Save locally and navigate immediately — no waiting for network
   Storage.saveUser(user);
   state.user = user;
-
-  const syncResult = await Storage.syncUserToRemote(user);
-  _setSyncNote(syncResult);
-
-  _setRegLoading(false);
 
   await _loadData();
   _showScreen('home');
   _renderHome();
+
+  // Sync to remote in background — result shown as a toast, never blocks UI
+  Storage.syncUserToRemote(user).then(_showToast);
 }
 
-function _setRegLoading(on) {
-  const btn    = document.getElementById('reg-submit');
-  btn.disabled = on;
-  btn.querySelector('.btn-text').classList.toggle('hidden', on);
-  btn.querySelector('.btn-loader').classList.toggle('hidden', !on);
-}
+function _showToast(syncResult) {
+  const msg = syncResult.success
+    ? 'Profile synced to storage'
+    : 'Profile saved locally';
 
-function _setSyncNote(result) {
-  const el = document.getElementById('sync-status');
-  if (!el) return;
-  if (result.reason === 'no_endpoint') {
-    el.textContent = 'Saved locally. Connect Google Drive to sync remotely.';
-    el.className = 'sync-note';
-  } else if (result.success) {
-    el.textContent = 'Synced to Google Drive successfully.';
-    el.className = 'sync-note success';
-  } else {
-    el.textContent = 'Saved locally (remote sync unavailable).';
-    el.className = 'sync-note';
-  }
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.textContent = msg;
+  document.body.appendChild(toast);
+
+  // Trigger animation then remove
+  requestAnimationFrame(() => toast.classList.add('toast--visible'));
+  setTimeout(() => {
+    toast.classList.remove('toast--visible');
+    toast.addEventListener('transitionend', () => toast.remove(), { once: true });
+  }, 3000);
 }
 
 // ══════════════════════════════════════════════════════════════════════════════
