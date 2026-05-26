@@ -60,6 +60,8 @@
 | **[P2-T016](P2-T016-welcome-onboarding-flow.md)** | **Welcome onboarding — first-login modal, guided profile setup, empty states** | **M** | **Pending** |
 | **[P2-T017](P2-T017-profile-page-password-reset.md)** | **Profile page — account screen, change password, delete account** | **M** | **Pending** |
 | **[P2-T018](P2-T018-automated-testing-strategy.md)** | **Automated E2E tests — Playwright, GitHub Actions CI, all critical flows** | **M** | **Pending** |
+| **[P2-T019](P2-T019-subscription-prelaunch-readiness.md)** | **Subscription pre-launch readiness — content depth gate, landing page honesty, differentiation story** | **M** | **Pending** |
+| **[P2-T020](P2-T020-content-operations-bulk-import.md)** | **Content operations — in-app admin panel + CSV bulk import for non-developer content growth** | **M** | **Pending** |
 
 ---
 
@@ -89,6 +91,7 @@
 |---|---|---|---|
 | [P4-T001](P4-T001-admin-dashboard-user-analytics.md) | Admin dashboard — users, sessions, daily actives, goal popularity | M | Pending |
 | [P4-T002](P4-T002-multi-language-support.md) | Multi-language UI + translated questions (English + Hindi first) | M | Pending |
+| **[P4-T003](P4-T003-go-to-market-strategy.md)** | **Go-to-market strategy — target segment, first 100 users plan, success metrics** | **S** | **Pending** |
 
 ---
 
@@ -101,6 +104,7 @@
 | [P5-T001](P5-T001-stripe-integration-setup.md) | Stripe Checkout — paid plan upgrade flow | L | Pending |
 | [P5-T002](P5-T002-real-exam-mode-paid.md) | Real exam mode — countdown, no mid-feedback, review before submit | M | Pending |
 | [P5-T003](P5-T003-leaderboard-paid.md) | Leaderboard — weekly + all-time, exam sessions only | M | Pending |
+| **[P5-T006](P5-T006-global-payment-gateway.md)** | **Global payment gateway — Stripe + Razorpay, multi-currency, international markets** | **M** | **Pending** |
 
 ---
 
@@ -111,6 +115,9 @@
 | [P6-T001](P6-T001-teacher-collab-content.md) | Teacher content contribution + review queue | M | Pending |
 | [P6-T002](P6-T002-student-peer-collab.md) | Student challenge links + peer comparison | L | Pending |
 | [P6-T003](P6-T003-institute-partnership-portal.md) | Institute-branded portal + private question banks | L | Pending |
+| **[P6-T004](P6-T004-app-internationalization-i18n.md)** | **App & landing page i18n — Hindi, Arabic, French, German, Spanish UI translation + RTL** | **L** | **Pending** |
+| **[P6-T005](P6-T005-international-language-learning.md)** | **International language learning — French, German, Arabic, Spanish, Japanese, Mandarin** | **M** | **Pending** |
+| **[P6-T006](P6-T006-localized-curriculum-content.md)** | **Localized curriculum — math/science in Arabic, French, German, Spanish for local school markets** | **L** | **Pending** |
 
 ---
 
@@ -138,6 +145,13 @@ P2-T008  (multi-version)     depends on P1-T010 (GitHub raw URLs enable branch s
 P2-T012  (profile edit)      depends on P1-T006 (categories — done)
 P2-T013  (subscription)      → P5-T004, P5-T005, P5-T001; trial gate is the feature gate
 P2-T018  (automated tests)   depends on P2-T013 (trial gate needed for trial.spec.js)
+P2-T019  (sub readiness)     depends on P3-T011 (50q/file content) + P2-T013; blocks P5-T005
+P2-T020  (content ops)       elevates P3-T007; needed before P3-T011 can scale
+P4-T003  (GTM strategy)      informs P2-T015 landing page copy + P6-T004 language priorities
+P5-T006  (global payments)   depends on P5-T001 (Stripe Phase 1); adds Razorpay + multi-currency
+P6-T004  (i18n)              depends on P4-T003 (which markets); → P6-T005, P6-T006
+P6-T005  (intl languages)    depends on P3-T013 (regional lang arch); extends same pattern
+P6-T006  (localized content) depends on P6-T004 (UI in local lang first)
 
 P3-T001  (streak)            → P3-T002, P3-T005
 P3-T007  (Q addition)        → P6-T001
@@ -160,6 +174,6 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 46 (1 cancelled) | P1: 13 | P2: 18 | P3: 13 | P4: 2 | P5: 5 | P6: 3*
+*Total tasks: 53 (1 cancelled) | P1: 13 | P2: 20 | P3: 13 | P4: 3 | P5: 6 | P6: 6*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1)*
 *New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*
