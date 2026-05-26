@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-2-science",
+  "name": "Grade 2 — Science",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "description": "Plants, animals, senses, and our world",
+  "tags": ["science", "grade-2", "school"],
+  "questions": [
+    {
+      "id": "g2s-001",
+      "question": "What do plants need to make their own food?",
+      "options": ["Sunlight, water, and air", "Only water", "Only sunlight", "Soil and darkness"],
+      "correctIndex": 0,
+      "explanation": "Plants need sunlight, water, and carbon dioxide (air) to make food through photosynthesis.",
+      "difficulty": "easy",
+      "tags": ["plants"]
+    },
+    {
+      "id": "g2s-002",
+      "question": "Which part of a plant soaks up water from the soil?",
+      "options": ["Leaves", "Flowers", "Roots", "Stem"],
+      "correctIndex": 2,
+      "explanation": "Roots anchor the plant and absorb water and minerals from the soil.",
+      "difficulty": "easy",
+      "tags": ["plants"]
+    },
+    {
+      "id": "g2s-003",
+      "question": "{{userName}} touches a hot cup and quickly pulls away. Which sense helped?",
+      "options": ["Sight", "Smell", "Hearing", "Touch"],
+      "correctIndex": 3,
+      "explanation": "The sense of touch (skin) detects heat and pain, helping {{userName}} react quickly.",
+      "difficulty": "easy",
+      "tags": ["senses", "personalized"]
+    },
+    {
+      "id": "g2s-004",
+      "question": "How many sense organs does a human body have?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 2,
+      "explanation": "Humans have 5 sense organs: eyes (sight), ears (hearing), nose (smell), tongue (taste), and skin (touch).",
+      "difficulty": "easy",
+      "tags": ["senses"]
+    },
+    {
+      "id": "g2s-005",
+      "question": "What do caterpillars turn into?",
+      "options": ["Frogs", "Butterflies", "Birds", "Fish"],
+      "correctIndex": 1,
+      "explanation": "A caterpillar forms a chrysalis and transforms (metamorphosis) into a butterfly.",
+      "difficulty": "easy",
+      "tags": ["animals", "life-cycle"]
+    },
+    {
+      "id": "g2s-006",
+      "question": "Which animal gives us milk?",
+      "options": ["Dog", "Parrot", "Cow", "Cat"],
+      "correctIndex": 2,
+      "explanation": "Cows are domestic animals that give us milk. Buffalo and goats also give milk.",
+      "difficulty": "easy",
+      "tags": ["animals", "farm"]
+    },
+    {
+      "id": "g2s-007",
+      "question": "What gives us light and warmth during the day?",
+      "options": ["Moon", "Stars", "Sun", "Clouds"],
+      "correctIndex": 2,
+      "explanation": "The Sun is a star that provides light and heat energy to Earth.",
+      "difficulty": "easy",
+      "tags": ["sky", "energy"]
+    },
+    {
+      "id": "g2s-008",
+      "question": "{{userName}} plants a seed in wet soil and puts it near a window. What two things will help it grow?",
+      "options": ["Darkness and cold", "Water and sunlight", "Ice and shade", "Sand and wind"],
+      "correctIndex": 1,
+      "explanation": "Seeds need water to germinate and sunlight to grow into a healthy plant.",
+      "difficulty": "easy",
+      "tags": ["plants", "personalized"]
+    },
+    {
+      "id": "g2s-009",
+      "question": "Animals that eat only plants are called?",
+      "options": ["Carnivores", "Omnivores", "Herbivores", "Predators"],
+      "correctIndex": 2,
+      "explanation": "Herbivores eat only plants. Examples: cow, deer, rabbit.",
+      "difficulty": "easy",
+      "tags": ["animals", "diet"]
+    },
+    {
+      "id": "g2s-010",
+      "question": "What season has the most rain?",
+      "options": ["Winter", "Summer", "Monsoon", "Spring"],
+      "correctIndex": 2,
+      "explanation": "Monsoon (rainy season) brings heavy rainfall. In India, monsoon occurs from June to September.",
+      "difficulty": "easy",
+      "tags": ["weather", "seasons"]
+    },
+    {
+      "id": "g2s-011",
+      "question": "Which of these is a living thing?",
+      "options": ["Rock", "Chair", "Tree", "Book"],
+      "correctIndex": 2,
+      "explanation": "A tree is a living organism — it grows, breathes, and reproduces. Rocks, chairs, and books are non-living.",
+      "difficulty": "easy",
+      "tags": ["living-nonliving"]
+    },
+    {
+      "id": "g2s-012",
+      "question": "We breathe in which gas to stay alive?",
+      "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+      "correctIndex": 2,
+      "explanation": "Humans breathe in oxygen (O₂) and breathe out carbon dioxide (CO₂).",
+      "difficulty": "easy",
+      "tags": ["body", "air"]
+    }
+  ]
+}

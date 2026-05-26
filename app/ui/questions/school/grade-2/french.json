@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-2-french",
+  "name": "Grade 2 — French",
+  "subject": "french",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "description": "Greetings, numbers 1–20, and basic colours",
+  "tags": ["french", "grade-2", "school"],
+  "questions": [
+    {
+      "id": "g2f-001",
+      "question": "How do you say 'Hello' in French?",
+      "options": ["Au revoir", "Merci", "Bonjour", "Oui"],
+      "correctIndex": 2,
+      "explanation": "'Bonjour' means Hello or Good day in French. It is used as a daytime greeting.",
+      "difficulty": "easy",
+      "tags": ["greetings"]
+    },
+    {
+      "id": "g2f-002",
+      "question": "How do you say 'Goodbye' in French?",
+      "options": ["Bonjour", "Au revoir", "S'il vous plaît", "Non"],
+      "correctIndex": 1,
+      "explanation": "'Au revoir' means Goodbye in French. 'Au' means to/at and 'revoir' means see again.",
+      "difficulty": "easy",
+      "tags": ["greetings"]
+    },
+    {
+      "id": "g2f-003",
+      "question": "{{userName}} says 'Merci' to the teacher. What does 'Merci' mean?",
+      "options": ["Sorry", "Please", "Thank you", "Excuse me"],
+      "correctIndex": 2,
+      "explanation": "'Merci' means Thank you in French. It is one of the most important polite words.",
+      "difficulty": "easy",
+      "tags": ["greetings", "personalized"]
+    },
+    {
+      "id": "g2f-004",
+      "question": "What is the French word for 'yes'?",
+      "options": ["Non", "Oui", "Peut-être", "Bien"],
+      "correctIndex": 1,
+      "explanation": "'Oui' means yes in French. 'Non' means no.",
+      "difficulty": "easy",
+      "tags": ["basics"]
+    },
+    {
+      "id": "g2f-005",
+      "question": "Count in French: un, deux, trois, ___",
+      "options": ["cinq", "quatre", "sept", "six"],
+      "correctIndex": 1,
+      "explanation": "French numbers: un (1), deux (2), trois (3), quatre (4), cinq (5)...",
+      "difficulty": "easy",
+      "tags": ["numbers"]
+    },
+    {
+      "id": "g2f-006",
+      "question": "What colour is 'rouge' in English?",
+      "options": ["Blue", "Green", "Yellow", "Red"],
+      "correctIndex": 3,
+      "explanation": "'Rouge' means red in French. Remember: rouge like rouge lipstick!",
+      "difficulty": "easy",
+      "tags": ["colours"]
+    },
+    {
+      "id": "g2f-007",
+      "question": "What colour is 'bleu' in English?",
+      "options": ["Blue", "Black", "Brown", "Purple"],
+      "correctIndex": 0,
+      "explanation": "'Bleu' means blue in French. The sky is bleu!",
+      "difficulty": "easy",
+      "tags": ["colours"]
+    },
+    {
+      "id": "g2f-008",
+      "question": "{{userName}} counts: cinq, six, sept, ___. What comes next?",
+      "options": ["neuf", "dix", "huit", "onze"],
+      "correctIndex": 2,
+      "explanation": "French numbers 5–8: cinq (5), six (6), sept (7), huit (8).",
+      "difficulty": "easy",
+      "tags": ["numbers", "personalized"]
+    },
+    {
+      "id": "g2f-009",
+      "question": "What is the French word for 'dog'?",
+      "options": ["le chat", "le chien", "le lapin", "le poisson"],
+      "correctIndex": 1,
+      "explanation": "'Le chien' means the dog in French. 'Le chat' means the cat.",
+      "difficulty": "easy",
+      "tags": ["animals", "vocabulary"]
+    },
+    {
+      "id": "g2f-010",
+      "question": "How do you say 'Good night' in French?",
+      "options": ["Bonjour", "Bonsoir", "Bonne nuit", "Salut"],
+      "correctIndex": 2,
+      "explanation": "'Bonne nuit' means Good night. 'Bonsoir' means Good evening.",
+      "difficulty": "easy",
+      "tags": ["greetings"]
+    },
+    {
+      "id": "g2f-011",
+      "question": "What colour is 'vert' in English?",
+      "options": ["Yellow", "Orange", "Green", "Purple"],
+      "correctIndex": 2,
+      "explanation": "'Vert' means green in French. Think of 'verdant' — lush green!",
+      "difficulty": "easy",
+      "tags": ["colours"]
+    },
+    {
+      "id": "g2f-012",
+      "question": "How many is 'dix' in French?",
+      "options": ["6", "8", "10", "12"],
+      "correctIndex": 2,
+      "explanation": "'Dix' means ten (10) in French. Numbers: huit (8), neuf (9), dix (10).",
+      "difficulty": "easy",
+      "tags": ["numbers"]
+    }
+  ]
+}

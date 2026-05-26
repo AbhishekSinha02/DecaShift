@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-3-science",
+  "name": "Grade 3 — Science",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "description": "Water cycle, food chains, rocks, and plants",
+  "tags": ["science", "grade-3", "school"],
+  "questions": [
+    {
+      "id": "g3s-001",
+      "question": "Which part of a plant makes food using sunlight?",
+      "options": ["Root", "Stem", "Leaf", "Flower"],
+      "correctIndex": 2,
+      "explanation": "Leaves contain chlorophyll which captures sunlight to make food through photosynthesis.",
+      "difficulty": "easy",
+      "tags": ["plants", "photosynthesis"]
+    },
+    {
+      "id": "g3s-002",
+      "question": "What are clouds made of?",
+      "options": ["Smoke", "Tiny water droplets", "Cotton", "Dust"],
+      "correctIndex": 1,
+      "explanation": "Clouds are made of tiny water droplets or ice crystals floating in the sky.",
+      "difficulty": "easy",
+      "tags": ["water-cycle", "weather"]
+    },
+    {
+      "id": "g3s-003",
+      "question": "{{userName}} boils water and sees steam rising. This is an example of?",
+      "options": ["Condensation", "Freezing", "Evaporation", "Melting"],
+      "correctIndex": 2,
+      "explanation": "When water is heated, it changes from liquid to gas (steam). This is called evaporation.",
+      "difficulty": "easy",
+      "tags": ["water-cycle", "personalized"]
+    },
+    {
+      "id": "g3s-004",
+      "question": "In the water cycle, water vapor cools and forms clouds. This is called?",
+      "options": ["Evaporation", "Condensation", "Precipitation", "Runoff"],
+      "correctIndex": 1,
+      "explanation": "Condensation is when water vapor cools and turns back into liquid water droplets, forming clouds.",
+      "difficulty": "medium",
+      "tags": ["water-cycle"]
+    },
+    {
+      "id": "g3s-005",
+      "question": "Rocks formed from cooled lava are called?",
+      "options": ["Sedimentary rocks", "Igneous rocks", "Metamorphic rocks", "Chalk rocks"],
+      "correctIndex": 1,
+      "explanation": "Igneous rocks form when lava or magma cools and hardens. Examples: basalt, granite.",
+      "difficulty": "medium",
+      "tags": ["rocks"]
+    },
+    {
+      "id": "g3s-006",
+      "question": "Which organ pumps blood through the human body?",
+      "options": ["Lungs", "Brain", "Kidney", "Heart"],
+      "correctIndex": 3,
+      "explanation": "The heart is a muscular organ that pumps blood through blood vessels to all parts of the body.",
+      "difficulty": "easy",
+      "tags": ["human-body"]
+    },
+    {
+      "id": "g3s-007",
+      "question": "A simple food chain is: grass → rabbit → fox. What is the grass called?",
+      "options": ["Consumer", "Predator", "Producer", "Decomposer"],
+      "correctIndex": 2,
+      "explanation": "Grass makes its own food using sunlight, so it is called a producer. Animals are consumers.",
+      "difficulty": "medium",
+      "tags": ["food-chain"]
+    },
+    {
+      "id": "g3s-008",
+      "question": "{{userName}} leaves ice cubes on the table in summer. What happens to them?",
+      "options": ["They evaporate", "They melt into water", "They freeze harder", "Nothing happens"],
+      "correctIndex": 1,
+      "explanation": "Ice (solid) melts into water (liquid) when temperature rises above 0°C. This is a change of state.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "personalized"]
+    },
+    {
+      "id": "g3s-009",
+      "question": "What do we call the thin layer of air surrounding the Earth?",
+      "options": ["Hydrosphere", "Lithosphere", "Atmosphere", "Biosphere"],
+      "correctIndex": 2,
+      "explanation": "The atmosphere is the layer of gases (mostly nitrogen and oxygen) that surrounds the Earth.",
+      "difficulty": "medium",
+      "tags": ["earth", "air"]
+    },
+    {
+      "id": "g3s-010",
+      "question": "How do bats navigate in the dark?",
+      "options": ["Using their eyes", "Using echolocation", "Using smell", "Using touch"],
+      "correctIndex": 1,
+      "explanation": "Bats send out sound waves and listen to the echoes to detect objects — this is called echolocation.",
+      "difficulty": "medium",
+      "tags": ["animals", "adaptations"]
+    },
+    {
+      "id": "g3s-011",
+      "question": "Animals that eat both plants and other animals are called?",
+      "options": ["Herbivores", "Carnivores", "Omnivores", "Predators"],
+      "correctIndex": 2,
+      "explanation": "Omnivores eat both plants and animals. Examples: humans, bears, crows.",
+      "difficulty": "easy",
+      "tags": ["animals", "diet"]
+    },
+    {
+      "id": "g3s-012",
+      "question": "What is the main source of energy for all life on Earth?",
+      "options": ["Moon", "Wind", "The Sun", "Water"],
+      "correctIndex": 2,
+      "explanation": "The Sun provides light and heat energy. Plants capture solar energy through photosynthesis, starting all food chains.",
+      "difficulty": "easy",
+      "tags": ["energy", "sun"]
+    }
+  ]
+}

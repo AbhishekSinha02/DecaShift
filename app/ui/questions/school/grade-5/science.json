@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-5-science",
+  "name": "Grade 5 — Science",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "description": "Solar system, human body systems, and ecosystems",
+  "tags": ["science", "grade-5", "school"],
+  "questions": [
+    {
+      "id": "g5s-001",
+      "question": "How many planets are in our solar system?",
+      "options": ["7", "8", "9", "10"],
+      "correctIndex": 1,
+      "explanation": "There are 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Pluto was reclassified as a dwarf planet in 2006.",
+      "difficulty": "easy",
+      "tags": ["solar-system", "planets"]
+    },
+    {
+      "id": "g5s-002",
+      "question": "Which is the largest planet in our solar system?",
+      "options": ["Saturn", "Earth", "Neptune", "Jupiter"],
+      "correctIndex": 3,
+      "explanation": "Jupiter is the largest planet. It is so large that all other planets could fit inside it.",
+      "difficulty": "easy",
+      "tags": ["solar-system", "planets"]
+    },
+    {
+      "id": "g5s-003",
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Venus", "Earth", "Mercury", "Mars"],
+      "correctIndex": 2,
+      "explanation": "Mercury is the closest planet to the Sun. It has extreme temperatures — very hot in the day, very cold at night.",
+      "difficulty": "easy",
+      "tags": ["solar-system", "planets"]
+    },
+    {
+      "id": "g5s-004",
+      "question": "How long does it take Earth to orbit the Sun once?",
+      "options": ["24 hours", "28 days", "365.25 days", "100 days"],
+      "correctIndex": 2,
+      "explanation": "Earth takes approximately 365.25 days (1 year) to orbit the Sun. The extra 0.25 days is why we have a leap year every 4 years.",
+      "difficulty": "easy",
+      "tags": ["solar-system", "earth"]
+    },
+    {
+      "id": "g5s-005",
+      "question": "{{userName}} eats a mango. Which body system breaks it down?",
+      "options": ["Nervous system", "Circulatory system", "Digestive system", "Respiratory system"],
+      "correctIndex": 2,
+      "explanation": "The digestive system breaks down food into nutrients. It includes the mouth, stomach, small intestine, and large intestine.",
+      "difficulty": "easy",
+      "tags": ["human-body", "personalized"]
+    },
+    {
+      "id": "g5s-006",
+      "question": "What body system pumps blood through arteries and veins?",
+      "options": ["Digestive system", "Circulatory system", "Skeletal system", "Muscular system"],
+      "correctIndex": 1,
+      "explanation": "The circulatory system (heart + blood vessels) pumps blood to deliver oxygen and nutrients to all cells.",
+      "difficulty": "easy",
+      "tags": ["human-body", "circulatory"]
+    },
+    {
+      "id": "g5s-007",
+      "question": "Which organ filters waste from the blood?",
+      "options": ["Lungs", "Liver", "Kidneys", "Stomach"],
+      "correctIndex": 2,
+      "explanation": "The kidneys filter waste products from the blood to produce urine. Two kidneys, each about the size of a fist.",
+      "difficulty": "easy",
+      "tags": ["human-body", "excretory"]
+    },
+    {
+      "id": "g5s-008",
+      "question": "What is a food web?",
+      "options": ["A spider's web made of food", "A single chain of who eats whom", "Overlapping food chains in an ecosystem", "A list of endangered animals"],
+      "correctIndex": 2,
+      "explanation": "A food web shows the complex feeding relationships among organisms in an ecosystem — many interconnected food chains.",
+      "difficulty": "medium",
+      "tags": ["ecosystems", "food-chain"]
+    },
+    {
+      "id": "g5s-009",
+      "question": "{{userName}}'s class observes the Moon every night for a month. What pattern do they notice?",
+      "options": ["The Moon changes colour", "The Moon's shape (phases) changes", "The Moon gets bigger each night", "The Moon disappears some nights"],
+      "correctIndex": 1,
+      "explanation": "The Moon goes through phases (new moon, crescent, quarter, gibbous, full moon) over 29.5 days as we see different portions lit by the Sun.",
+      "difficulty": "easy",
+      "tags": ["moon", "solar-system", "personalized"]
+    },
+    {
+      "id": "g5s-010",
+      "question": "What type of energy does a stretched rubber band have?",
+      "options": ["Kinetic energy", "Chemical energy", "Thermal energy", "Potential (elastic) energy"],
+      "correctIndex": 3,
+      "explanation": "A stretched rubber band has stored elastic potential energy. When released, it converts to kinetic energy.",
+      "difficulty": "medium",
+      "tags": ["energy", "types"]
+    },
+    {
+      "id": "g5s-011",
+      "question": "What is the path a planet travels around the Sun called?",
+      "options": ["Axis", "Orbit", "Rotation", "Revolution"],
+      "correctIndex": 1,
+      "explanation": "An orbit is the curved path an object takes around a star or planet. Earth's orbit around the Sun is slightly elliptical.",
+      "difficulty": "easy",
+      "tags": ["solar-system", "vocabulary"]
+    },
+    {
+      "id": "g5s-012",
+      "question": "Which type of ecosystem is a coral reef?",
+      "options": ["Desert ecosystem", "Forest ecosystem", "Marine (ocean) ecosystem", "Freshwater ecosystem"],
+      "correctIndex": 2,
+      "explanation": "Coral reefs are marine ecosystems found in warm, shallow ocean waters. They are among the most biodiverse ecosystems on Earth.",
+      "difficulty": "medium",
+      "tags": ["ecosystems"]
+    }
+  ]
+}

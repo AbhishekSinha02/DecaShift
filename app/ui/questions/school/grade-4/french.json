@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-4-french",
+  "name": "Grade 4 — French",
+  "subject": "french",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "description": "Body parts, avoir, and être",
+  "tags": ["french", "grade-4", "school"],
+  "questions": [
+    {
+      "id": "g4f-001",
+      "question": "Which French verb means 'to have'?",
+      "options": ["être", "faire", "avoir", "aller"],
+      "correctIndex": 2,
+      "explanation": "'Avoir' means to have. Key conjugation: j'ai (I have), tu as (you have), il/elle a (he/she has).",
+      "difficulty": "easy",
+      "tags": ["avoir", "verbs"]
+    },
+    {
+      "id": "g4f-002",
+      "question": "Which French verb means 'to be'?",
+      "options": ["avoir", "venir", "être", "savoir"],
+      "correctIndex": 2,
+      "explanation": "'Être' means to be. Key conjugation: je suis (I am), tu es (you are), il/elle est (he/she is).",
+      "difficulty": "easy",
+      "tags": ["etre", "verbs"]
+    },
+    {
+      "id": "g4f-003",
+      "question": "'Je suis' means?",
+      "options": ["I have", "I am", "I go", "I want"],
+      "correctIndex": 1,
+      "explanation": "'Je suis' = I am. 'Suis' is the first-person singular of 'être' (to be).",
+      "difficulty": "easy",
+      "tags": ["etre", "basics"]
+    },
+    {
+      "id": "g4f-004",
+      "question": "'Il a' means?",
+      "options": ["He is", "He goes", "He has", "He likes"],
+      "correctIndex": 2,
+      "explanation": "'Il a' = He has. 'A' is the third-person singular of 'avoir' (to have).",
+      "difficulty": "easy",
+      "tags": ["avoir", "basics"]
+    },
+    {
+      "id": "g4f-005",
+      "question": "What is the French word for 'hand'?",
+      "options": ["le pied", "la tête", "la main", "le bras"],
+      "correctIndex": 2,
+      "explanation": "'La main' means hand. Other body parts: le bras (arm), le pied (foot), la tête (head).",
+      "difficulty": "easy",
+      "tags": ["body-parts", "vocabulary"]
+    },
+    {
+      "id": "g4f-006",
+      "question": "{{userName}} says 'J'ai faim.' What does this mean?",
+      "options": ["I am tired.", "I am happy.", "I am hungry.", "I am cold."],
+      "correctIndex": 2,
+      "explanation": "'J'ai faim' literally means 'I have hunger' but translates as 'I am hungry.' French uses 'avoir' for hunger.",
+      "difficulty": "easy",
+      "tags": ["avoir", "expressions", "personalized"]
+    },
+    {
+      "id": "g4f-007",
+      "question": "How do you say 'My name is...' in French?",
+      "options": ["J'ai...", "Je suis...", "Je m'appelle...", "Mon nom est..."],
+      "correctIndex": 2,
+      "explanation": "'Je m'appelle...' means My name is... It literally means 'I call myself...' (reflexive verb).",
+      "difficulty": "easy",
+      "tags": ["introductions", "vocabulary"]
+    },
+    {
+      "id": "g4f-008",
+      "question": "'Nous sommes' means?",
+      "options": ["We have", "We are", "We go", "We eat"],
+      "correctIndex": 1,
+      "explanation": "'Nous sommes' = We are. 'Sommes' is the first-person plural of 'être'.",
+      "difficulty": "easy",
+      "tags": ["etre", "grammar"]
+    },
+    {
+      "id": "g4f-009",
+      "question": "What is the plural of 'le livre' (the book)?",
+      "options": ["la livre", "les livres", "un livre", "des livre"],
+      "correctIndex": 1,
+      "explanation": "The plural of 'le livre' is 'les livres'. 'Les' is the plural definite article for all genders.",
+      "difficulty": "easy",
+      "tags": ["articles", "plurals"]
+    },
+    {
+      "id": "g4f-010",
+      "question": "{{userName}} says 'Tu es mon ami.' What does this mean?",
+      "options": ["You have my friend.", "You are my friend.", "You like my friend.", "You see my friend."],
+      "correctIndex": 1,
+      "explanation": "'Tu es' = You are. 'Mon ami' = my friend. So the sentence means 'You are my friend.'",
+      "difficulty": "easy",
+      "tags": ["etre", "expressions", "personalized"]
+    },
+    {
+      "id": "g4f-011",
+      "question": "What is the French word for 'eye'?",
+      "options": ["la bouche", "l'oreille", "l'œil", "le nez"],
+      "correctIndex": 2,
+      "explanation": "'L'œil' means eye. Plural: les yeux. Other body parts: la bouche (mouth), l'oreille (ear), le nez (nose).",
+      "difficulty": "easy",
+      "tags": ["body-parts", "vocabulary"]
+    },
+    {
+      "id": "g4f-012",
+      "question": "'Elle a les cheveux noirs.' What does 'cheveux' mean?",
+      "options": ["Eyes", "Hands", "Hair", "Legs"],
+      "correctIndex": 2,
+      "explanation": "'Les cheveux' means hair. The sentence means 'She has black hair.' 'Cheveux' is always plural.",
+      "difficulty": "medium",
+      "tags": ["body-parts", "vocabulary"]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-3-hindi",
+  "name": "Grade 3 — Hindi",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "description": "लिंग, वचन, और विलोम शब्द",
+  "tags": ["hindi", "grade-3", "school"],
+  "questions": [
+    {
+      "id": "g3h-001",
+      "question": "'राजा' शब्द का स्त्रीलिंग क्या है?",
+      "options": ["राजी", "रानी", "राजिन", "राज"],
+      "correctIndex": 1,
+      "explanation": "'राजा' पुल्लिंग है और इसका स्त्रीलिंग 'रानी' है।",
+      "difficulty": "easy",
+      "tags": ["ling", "grammar"]
+    },
+    {
+      "id": "g3h-002",
+      "question": "'लड़का' शब्द का बहुवचन क्या है?",
+      "options": ["लड़की", "लड़कों", "लड़के", "लड़कियाँ"],
+      "correctIndex": 2,
+      "explanation": "'लड़का' का बहुवचन 'लड़के' होता है। एकवचन → बहुवचन: लड़का → लड़के।",
+      "difficulty": "easy",
+      "tags": ["vachan", "grammar"]
+    },
+    {
+      "id": "g3h-003",
+      "question": "'सुंदर' शब्द का विलोम (antonym) क्या है?",
+      "options": ["खूबसूरत", "प्यारा", "कुरूप", "साफ"],
+      "correctIndex": 2,
+      "explanation": "'सुंदर' का विलोम 'कुरूप' या 'असुंदर' है। विलोम = opposite meaning।",
+      "difficulty": "easy",
+      "tags": ["vilom", "vocabulary"]
+    },
+    {
+      "id": "g3h-004",
+      "question": "'मोर' शब्द का स्त्रीलिंग क्या है?",
+      "options": ["मोरा", "मोरी", "मोरनी", "मोरें"],
+      "correctIndex": 2,
+      "explanation": "मोर (peacock) का स्त्रीलिंग मोरनी (peahen) है।",
+      "difficulty": "easy",
+      "tags": ["ling", "grammar"]
+    },
+    {
+      "id": "g3h-005",
+      "question": "'ठंडा' का विलोम शब्द क्या है?",
+      "options": ["नरम", "गरम", "ठोस", "पतला"],
+      "correctIndex": 1,
+      "explanation": "'ठंडा' का विलोम 'गरम' है। ठंडा = cold, गरम = hot।",
+      "difficulty": "easy",
+      "tags": ["vilom", "vocabulary"]
+    },
+    {
+      "id": "g3h-006",
+      "question": "'पत्ता' शब्द का बहुवचन क्या है?",
+      "options": ["पत्ती", "पत्तियाँ", "पत्ते", "पत्तों"],
+      "correctIndex": 2,
+      "explanation": "'पत्ता' का बहुवचन 'पत्ते' है। पत्ता (एक पत्ती) → पत्ते (many leaves)।",
+      "difficulty": "easy",
+      "tags": ["vachan", "grammar"]
+    },
+    {
+      "id": "g3h-007",
+      "question": "{{userName}} बाज़ार गया। 'बाज़ार' शब्द कौन सा लिंग है?",
+      "options": ["स्त्रीलिंग", "पुल्लिंग", "उभयलिंग", "नपुंसकलिंग"],
+      "correctIndex": 1,
+      "explanation": "'बाज़ार' पुल्लिंग है। हम कहते हैं 'बड़ा बाज़ार' न कि 'बड़ी बाज़ार'।",
+      "difficulty": "medium",
+      "tags": ["ling", "grammar", "personalized"]
+    },
+    {
+      "id": "g3h-008",
+      "question": "'बड़ा' शब्द का विलोम क्या है?",
+      "options": ["लंबा", "भारी", "छोटा", "मोटा"],
+      "correctIndex": 2,
+      "explanation": "'बड़ा' का विलोम 'छोटा' है। बड़ा = big/large, छोटा = small।",
+      "difficulty": "easy",
+      "tags": ["vilom", "vocabulary"]
+    },
+    {
+      "id": "g3h-009",
+      "question": "'शेर' का स्त्रीलिंग क्या है?",
+      "options": ["शेरा", "शेरी", "शेरनी", "शेरें"],
+      "correctIndex": 2,
+      "explanation": "शेर (lion) का स्त्रीलिंग शेरनी (lioness) है।",
+      "difficulty": "easy",
+      "tags": ["ling", "animals"]
+    },
+    {
+      "id": "g3h-010",
+      "question": "'पुस्तक' शब्द का बहुवचन क्या है?",
+      "options": ["पुस्तकें", "पुस्तकों", "पुस्तकी", "पुस्तका"],
+      "correctIndex": 0,
+      "explanation": "'पुस्तक' स्त्रीलिंग है। इसका बहुवचन 'पुस्तकें' होता है।",
+      "difficulty": "easy",
+      "tags": ["vachan", "grammar"]
+    },
+    {
+      "id": "g3h-011",
+      "question": "{{userName}} ने एक सुंदर चित्र बनाया। 'सुंदर' का पर्यायवाची शब्द क्या है?",
+      "options": ["कुरूप", "खूबसूरत", "सादा", "धुंधला"],
+      "correctIndex": 1,
+      "explanation": "'सुंदर' का पर्यायवाची (synonym) 'खूबसूरत' है। दोनों का अर्थ beautiful है।",
+      "difficulty": "easy",
+      "tags": ["paryayvachi", "vocabulary", "personalized"]
+    },
+    {
+      "id": "g3h-012",
+      "question": "'दिन' का विलोम शब्द क्या है?",
+      "options": ["सुबह", "शाम", "रात", "दोपहर"],
+      "correctIndex": 2,
+      "explanation": "'दिन' का विलोम 'रात' है। दिन = day, रात = night।",
+      "difficulty": "easy",
+      "tags": ["vilom", "vocabulary"]
+    }
+  ]
+}

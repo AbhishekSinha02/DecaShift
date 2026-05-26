@@ -28,7 +28,8 @@ const state = {
   selectedAnswerIndex: null,
   timerInterval: null,
   timerSeconds: 0,
-  timerEnabled: localStorage.getItem('decashift_timer') !== 'off'
+  timerEnabled: localStorage.getItem('decashift_timer') !== 'off',
+  subjectFilter: 'all'
 };
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
@@ -376,9 +377,34 @@ function _renderHome() {
   // Sync theme button state
   _updateThemeBtns(document.documentElement.dataset.theme || 'dark');
 
-  const goals = state.goals;
-  const list  = document.getElementById('goals-list');
+  const allGoals = state.goals;
+  const list     = document.getElementById('goals-list');
   if (!list) return;
+
+  // Subject tabs — only for school users who have multiple subjects
+  const tabsEl = document.getElementById('subject-tabs');
+  if (tabsEl) {
+    const isSchool = state.user && state.user.category === 'school';
+    const subjects = isSchool ? [...new Set(allGoals.map(g => g.subject))] : [];
+    if (subjects.length > 1) {
+      const subjectLabels = {
+        'mathematics': 'Math', 'science': 'Science', 'hindi': 'Hindi',
+        'french': 'French', 'computer-science': 'CS', 'web-dev': 'Web Dev', 'dsa': 'DSA'
+      };
+      tabsEl.style.display = 'flex';
+      tabsEl.innerHTML = ['all', ...subjects].map(s => {
+        const label  = s === 'all' ? 'All' : (subjectLabels[s] || s.charAt(0).toUpperCase() + s.slice(1));
+        const active = state.subjectFilter === s ? ' active' : '';
+        return `<button class="subject-tab${active}" data-subject="${s}" onclick="_setSubjectFilter('${s}')">${label}</button>`;
+      }).join('');
+    } else {
+      tabsEl.style.display = 'none';
+    }
+  }
+
+  const goals = state.subjectFilter === 'all'
+    ? allGoals
+    : allGoals.filter(g => g.subject === state.subjectFilter);
 
   if (!goals.length) {
     const msg = !user.category
@@ -418,6 +444,11 @@ function resetGoal(goalId) {
   _renderHome();
 }
 
+function _setSubjectFilter(subject) {
+  state.subjectFilter = subject;
+  _renderHome();
+}
+
 // ══════════════════════════════════════════════════════════════════════════════
 // SCREEN: Quiz
 // ══════════════════════════════════════════════════════════════════════════════
@@ -443,12 +474,16 @@ function _renderQuestion() {
 
   document.getElementById('quiz-progress-text').textContent = `Question ${state.currentIndex + 1} of ${total}`;
   document.getElementById('quiz-progress-fill').style.width = `${(state.currentIndex / total) * 100}%`;
-  document.getElementById('question-text').textContent = q.question;
+
+  const _firstName = ((state.user && state.user.name) ? state.user.name : (state.user && state.user.email) || 'there').split(' ')[0];
+  const _personalise = str => str.replace(/\{\{userName\}\}/g, _firstName);
+
+  document.getElementById('question-text').textContent = _personalise(q.question);
 
   document.getElementById('answer-list').innerHTML = q.options.map((opt, i) => `
     <div class="answer-card" data-idx="${i}" onclick="_selectAnswer(${i})">
       <span class="answer-label">${String.fromCharCode(65 + i)}</span>
-      <span class="answer-text">${_esc(opt)}</span>
+      <span class="answer-text">${_esc(_personalise(opt))}</span>
     </div>`).join('');
 
   document.getElementById('explanation-box').classList.add('hidden');
@@ -498,7 +533,8 @@ function submitAnswer() {
 
   if (q.explanation) {
     const box = document.getElementById('explanation-box');
-    box.textContent = q.explanation;
+    const _fn2 = ((state.user && state.user.name) ? state.user.name : (state.user && state.user.email) || 'there').split(' ')[0];
+    box.textContent = q.explanation.replace(/\{\{userName\}\}/g, _fn2);
     box.classList.remove('hidden');
   }
 

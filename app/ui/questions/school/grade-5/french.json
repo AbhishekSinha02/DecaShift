@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-5-french",
+  "name": "Grade 5 — French",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "description": "Food, adjectives, and present tense verbs",
+  "tags": ["french", "grade-5", "school"],
+  "questions": [
+    {
+      "id": "g5f-001",
+      "question": "How do you say 'I eat' in French?",
+      "options": ["Je bois", "Je mange", "Je lis", "Je parle"],
+      "correctIndex": 1,
+      "explanation": "'Je mange' = I eat. 'Manger' is a regular -er verb. Other conjugations: tu manges, il/elle mange.",
+      "difficulty": "easy",
+      "tags": ["verbs", "food"]
+    },
+    {
+      "id": "g5f-002",
+      "question": "What is the French word for 'bread'?",
+      "options": ["le beurre", "le lait", "le pain", "le fromage"],
+      "correctIndex": 2,
+      "explanation": "'Le pain' means bread. French bread (baguette) is famous worldwide!",
+      "difficulty": "easy",
+      "tags": ["food", "vocabulary"]
+    },
+    {
+      "id": "g5f-003",
+      "question": "{{userName}} orders in a café: 'Un café, s'il vous plaît.' What does 's'il vous plaît' mean?",
+      "options": ["Thank you", "Excuse me", "Please", "Goodbye"],
+      "correctIndex": 2,
+      "explanation": "'S'il vous plaît' means please (formal). The informal version is 's'il te plaît'.",
+      "difficulty": "easy",
+      "tags": ["expressions", "personalized"]
+    },
+    {
+      "id": "g5f-004",
+      "question": "The adjective 'beau' (beautiful, masculine) becomes ___ in feminine form.",
+      "options": ["beau", "beaux", "belle", "bel"],
+      "correctIndex": 2,
+      "explanation": "Adjectives agree with noun gender. Beau (masc.) → belle (fem.). Example: un beau jardin / une belle fille.",
+      "difficulty": "medium",
+      "tags": ["adjectives", "grammar"]
+    },
+    {
+      "id": "g5f-005",
+      "question": "How do you say 'I like chocolate' in French?",
+      "options": ["Je veux le chocolat", "J'aime le chocolat", "Je mange le chocolat", "Je prends le chocolat"],
+      "correctIndex": 1,
+      "explanation": "'J'aime' = I like/love. 'Aimer' + infinitive = to like doing something. J'aime le chocolat = I like chocolate.",
+      "difficulty": "easy",
+      "tags": ["verbs", "vocabulary"]
+    },
+    {
+      "id": "g5f-006",
+      "question": "What is the French word for 'water'?",
+      "options": ["le jus", "le lait", "le vin", "l'eau"],
+      "correctIndex": 3,
+      "explanation": "'L'eau' means water (feminine). Remember the l' contraction before words starting with vowels.",
+      "difficulty": "easy",
+      "tags": ["food", "vocabulary"]
+    },
+    {
+      "id": "g5f-007",
+      "question": "'Petit' (small, masculine) becomes ___ in the feminine form.",
+      "options": ["petita", "petite", "petits", "pette"],
+      "correctIndex": 1,
+      "explanation": "Most adjectives add -e for feminine: petit → petite. The final -t is now pronounced in 'petite'.",
+      "difficulty": "easy",
+      "tags": ["adjectives", "grammar"]
+    },
+    {
+      "id": "g5f-008",
+      "question": "How do you conjugate 'parler' (to speak) for 'tu'?",
+      "options": ["tu parle", "tu parles", "tu parlé", "tu parler"],
+      "correctIndex": 1,
+      "explanation": "Regular -er verbs: tu form adds -es. So 'parler' → tu parles. Je parle, tu parles, il/elle parle.",
+      "difficulty": "medium",
+      "tags": ["verbs", "grammar"]
+    },
+    {
+      "id": "g5f-009",
+      "question": "{{userName}} says 'Je porte un chapeau rouge.' What is a 'chapeau'?",
+      "options": ["Coat", "Shoes", "Hat", "Scarf"],
+      "correctIndex": 2,
+      "explanation": "'Le chapeau' means hat. 'Je porte' = I am wearing. 'Rouge' = red. The sentence means 'I am wearing a red hat.'",
+      "difficulty": "easy",
+      "tags": ["clothing", "vocabulary", "personalized"]
+    },
+    {
+      "id": "g5f-010",
+      "question": "What is the French word for 'milk'?",
+      "options": ["le pain", "le beurre", "le lait", "le sel"],
+      "correctIndex": 2,
+      "explanation": "'Le lait' means milk. Other dairy words: le fromage (cheese), le beurre (butter).",
+      "difficulty": "easy",
+      "tags": ["food", "vocabulary"]
+    },
+    {
+      "id": "g5f-011",
+      "question": "In French, 'grand' means?",
+      "options": ["Small", "Old", "Big / Tall", "Fast"],
+      "correctIndex": 2,
+      "explanation": "'Grand' means big or tall. Feminine form: grande. Example: un grand homme / une grande fille.",
+      "difficulty": "easy",
+      "tags": ["adjectives", "vocabulary"]
+    },
+    {
+      "id": "g5f-012",
+      "question": "How do you say 'What time is it?' in French?",
+      "options": ["Quel âge as-tu?", "Quelle heure est-il?", "Comment tu t'appelles?", "Où est la gare?"],
+      "correctIndex": 1,
+      "explanation": "'Quelle heure est-il?' = What time is it? 'Quelle heure' = which hour, 'est-il' = is it.",
+      "difficulty": "medium",
+      "tags": ["time", "questions"]
+    }
+  ]
+}

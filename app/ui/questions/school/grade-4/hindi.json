@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-4-hindi",
+  "name": "Grade 4 — Hindi",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "description": "कारक, क्रिया, विलोम, और पर्यायवाची",
+  "tags": ["hindi", "grade-4", "school"],
+  "questions": [
+    {
+      "id": "g4h-001",
+      "question": "'ने', 'को', 'से', 'के लिए' — ये क्या कहलाते हैं?",
+      "options": ["सर्वनाम", "कारक चिह्न (विभक्ति)", "विशेषण", "क्रिया-विशेषण"],
+      "correctIndex": 1,
+      "explanation": "ये परसर्ग या कारक चिह्न हैं। ये संज्ञा/सर्वनाम का क्रिया से संबंध बताते हैं।",
+      "difficulty": "medium",
+      "tags": ["karak", "grammar"]
+    },
+    {
+      "id": "g4h-002",
+      "question": "नीचे में से कौन सा शब्द संज्ञा (noun) है?",
+      "options": ["सुंदर", "चलना", "नदी", "वहाँ"],
+      "correctIndex": 2,
+      "explanation": "'नदी' एक संज्ञा है (किसी स्थान/वस्तु का नाम)। 'सुंदर' विशेषण, 'चलना' क्रिया, 'वहाँ' क्रियाविशेषण है।",
+      "difficulty": "easy",
+      "tags": ["sangya", "parts-of-speech"]
+    },
+    {
+      "id": "g4h-003",
+      "question": "'पानी' का पर्यायवाची शब्द क्या है?",
+      "options": ["आग", "जल", "वायु", "मिट्टी"],
+      "correctIndex": 1,
+      "explanation": "'पानी' का पर्यायवाची 'जल' है। अन्य पर्यायवाची: नीर, वारि, तोय।",
+      "difficulty": "easy",
+      "tags": ["paryayvachi", "vocabulary"]
+    },
+    {
+      "id": "g4h-004",
+      "question": "'आना' क्रिया का विलोम क्या है?",
+      "options": ["रुकना", "जाना", "खाना", "सोना"],
+      "correctIndex": 1,
+      "explanation": "'आना' का विलोम 'जाना' है। आना = to come, जाना = to go।",
+      "difficulty": "easy",
+      "tags": ["vilom", "vocabulary"]
+    },
+    {
+      "id": "g4h-005",
+      "question": "'खुश' का विलोम शब्द क्या है?",
+      "options": ["प्रसन्न", "हँसमुख", "दुखी", "शांत"],
+      "correctIndex": 2,
+      "explanation": "'खुश' का विलोम 'दुखी' या 'उदास' है। खुश = happy, दुखी = sad।",
+      "difficulty": "easy",
+      "tags": ["vilom", "vocabulary"]
+    },
+    {
+      "id": "g4h-006",
+      "question": "{{userName}} ने किताब पढ़ी। इस वाक्य में 'किताब' क्या है?",
+      "options": ["कर्ता", "कर्म", "क्रिया", "विशेषण"],
+      "correctIndex": 1,
+      "explanation": "वाक्य में 'किताब' कर्म (object) है — वह काम जो {{userName}} ने किया।",
+      "difficulty": "medium",
+      "tags": ["karak", "grammar", "personalized"]
+    },
+    {
+      "id": "g4h-007",
+      "question": "'प्रतिदिन' शब्द में कौन सा उपसर्ग है?",
+      "options": ["प्र", "प्रति", "ति", "दिन"],
+      "correctIndex": 1,
+      "explanation": "'प्रतिदिन' में उपसर्ग 'प्रति' है, जिसका अर्थ 'हर' या 'each' है। प्रति + दिन = हर दिन।",
+      "difficulty": "medium",
+      "tags": ["upsarg", "grammar"]
+    },
+    {
+      "id": "g4h-008",
+      "question": "'बच्चा' का बहुवचन क्या है?",
+      "options": ["बच्चों", "बच्ची", "बच्चे", "बच्चियाँ"],
+      "correctIndex": 2,
+      "explanation": "'बच्चा' का बहुवचन 'बच्चे' है। बच्चा (one child) → बच्चे (children)।",
+      "difficulty": "easy",
+      "tags": ["vachan", "grammar"]
+    },
+    {
+      "id": "g4h-009",
+      "question": "'आकाश' का पर्यायवाची शब्द क्या है?",
+      "options": ["धरती", "গগन", "सागर", "पर्वत"],
+      "correctIndex": 1,
+      "explanation": "'आकाश' के पर्यायवाची: গগন, अंबर, नभ, व्योम, आसमान।",
+      "difficulty": "easy",
+      "tags": ["paryayvachi", "vocabulary"]
+    },
+    {
+      "id": "g4h-010",
+      "question": "'चलना' क्रिया का भूतकाल (past tense) क्या है?",
+      "options": ["चलेगा", "चल रहा है", "चला", "चलता है"],
+      "correctIndex": 2,
+      "explanation": "'चलना' क्रिया का भूतकाल 'चला' (masculine) या 'चली' (feminine) है।",
+      "difficulty": "easy",
+      "tags": ["kaal", "kriya"]
+    },
+    {
+      "id": "g4h-011",
+      "question": "{{userName}} रोज पढ़ता है। 'रोज' के बदले एक शब्द क्या होगा?",
+      "options": ["कभी-कभी", "कल", "प्रतिदिन", "अभी"],
+      "correctIndex": 2,
+      "explanation": "'रोज' = every day, और 'प्रतिदिन' भी every day का अर्थ देता है। दोनों synonyms हैं।",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "personalized"]
+    },
+    {
+      "id": "g4h-012",
+      "question": "'सूर्य' शब्द का पर्यायवाची क्या है?",
+      "options": ["चाँद", "रवि", "तारा", "बादल"],
+      "correctIndex": 1,
+      "explanation": "'सूर्य' के पर्यायवाची: रवि, दिनकर, भानु, सूरज, आदित्य।",
+      "difficulty": "easy",
+      "tags": ["paryayvachi", "vocabulary"]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-3-french",
+  "name": "Grade 3 — French",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "description": "Animals, family, and days of the week",
+  "tags": ["french", "grade-3", "school"],
+  "questions": [
+    {
+      "id": "g3f-001",
+      "question": "What is the French word for 'mother'?",
+      "options": ["le père", "la sœur", "la mère", "le frère"],
+      "correctIndex": 2,
+      "explanation": "'La mère' means mother in French. 'Le père' means father.",
+      "difficulty": "easy",
+      "tags": ["family", "vocabulary"]
+    },
+    {
+      "id": "g3f-002",
+      "question": "What is 'lundi' in English?",
+      "options": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+      "correctIndex": 1,
+      "explanation": "'Lundi' means Monday in French. The days: lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche.",
+      "difficulty": "easy",
+      "tags": ["days-of-week"]
+    },
+    {
+      "id": "g3f-003",
+      "question": "What is the French word for 'horse'?",
+      "options": ["le lion", "le cheval", "le lapin", "le mouton"],
+      "correctIndex": 1,
+      "explanation": "'Le cheval' means horse in French. The plural is 'les chevaux'.",
+      "difficulty": "easy",
+      "tags": ["animals", "vocabulary"]
+    },
+    {
+      "id": "g3f-004",
+      "question": "{{userName}} says 'J'ai un chien.' What does this mean?",
+      "options": ["I want a dog.", "I am a dog.", "I have a dog.", "I see a dog."],
+      "correctIndex": 2,
+      "explanation": "'J'ai' = I have, 'un chien' = a dog. So 'J'ai un chien' means 'I have a dog.'",
+      "difficulty": "easy",
+      "tags": ["avoir", "personalized"]
+    },
+    {
+      "id": "g3f-005",
+      "question": "What is 'mercredi' in English?",
+      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "correctIndex": 2,
+      "explanation": "'Mercredi' means Wednesday. Remember: mercredi = Mercury's day!",
+      "difficulty": "easy",
+      "tags": ["days-of-week"]
+    },
+    {
+      "id": "g3f-006",
+      "question": "How do you say 'sister' in French?",
+      "options": ["le frère", "la mère", "la sœur", "le père"],
+      "correctIndex": 2,
+      "explanation": "'La sœur' means sister. 'Le frère' means brother.",
+      "difficulty": "easy",
+      "tags": ["family", "vocabulary"]
+    },
+    {
+      "id": "g3f-007",
+      "question": "What is the French word for 'bird'?",
+      "options": ["le poisson", "l'oiseau", "le chat", "le serpent"],
+      "correctIndex": 1,
+      "explanation": "'L'oiseau' means bird. Note the contraction: l' is used before words starting with a vowel.",
+      "difficulty": "easy",
+      "tags": ["animals", "vocabulary"]
+    },
+    {
+      "id": "g3f-008",
+      "question": "The article 'le' is used before which type of noun?",
+      "options": ["Plural nouns", "Feminine singular nouns", "Masculine singular nouns", "All nouns"],
+      "correctIndex": 2,
+      "explanation": "'Le' is the definite article for masculine singular nouns. 'La' is for feminine, 'les' for plural.",
+      "difficulty": "medium",
+      "tags": ["articles", "grammar"]
+    },
+    {
+      "id": "g3f-009",
+      "question": "{{userName}} reads: 'La pomme est rouge.' What does 'pomme' mean?",
+      "options": ["Orange", "Grape", "Apple", "Pear"],
+      "correctIndex": 2,
+      "explanation": "'La pomme' means the apple. 'La pomme est rouge' means 'The apple is red.'",
+      "difficulty": "easy",
+      "tags": ["food", "vocabulary", "personalized"]
+    },
+    {
+      "id": "g3f-010",
+      "question": "What is 'vendredi' in English?",
+      "options": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "correctIndex": 1,
+      "explanation": "'Vendredi' means Friday. Named after Venus (the planet). Vendredi = Venus's day.",
+      "difficulty": "easy",
+      "tags": ["days-of-week"]
+    },
+    {
+      "id": "g3f-011",
+      "question": "What is the French word for 'rabbit'?",
+      "options": ["le chien", "le chat", "le lapin", "le cochon"],
+      "correctIndex": 2,
+      "explanation": "'Le lapin' means rabbit in French.",
+      "difficulty": "easy",
+      "tags": ["animals", "vocabulary"]
+    },
+    {
+      "id": "g3f-012",
+      "question": "How do you say 'I am happy' in French?",
+      "options": ["Je suis triste", "Je suis content(e)", "J'ai faim", "Je suis fatigué(e)"],
+      "correctIndex": 1,
+      "explanation": "'Je suis content(e)' means I am happy. 'Je suis' = I am. 'Contente' is the feminine form.",
+      "difficulty": "easy",
+      "tags": ["etre", "feelings"]
+    }
+  ]
+}

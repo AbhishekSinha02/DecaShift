@@ -1,0 +1,125 @@
+{
+  "goalId": "grade-7-french",
+  "name": "Grade 7 — French",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "description": "Passé composé, negation, and imparfait",
+  "tags": ["french", "grade-7", "school"],
+  "questions": [
+    {
+      "id": "g7f-001",
+      "question": "In passé composé, 'manger' (to eat) for 'je' becomes?",
+      "options": ["je mangeais", "j'ai mangé", "je mange", "j'avais mangé"],
+      "correctIndex": 1,
+      "explanation": "Passé composé = avoir/être + past participle. For 'manger': j'ai mangé (I ate / I have eaten).",
+      "difficulty": "medium",
+      "tags": ["passe-compose", "past-tense"]
+    },
+    {
+      "id": "g7f-002",
+      "question": "The auxiliary verb used with 'partir' (to leave) in passé composé is?",
+      "options": ["avoir", "être", "aller", "venir"],
+      "correctIndex": 1,
+      "explanation": "'Partir' uses être as auxiliary. Verbs of movement (aller, venir, partir, arriver...) use être. Je suis parti(e).",
+      "difficulty": "medium",
+      "tags": ["passe-compose", "etre", "grammar"]
+    },
+    {
+      "id": "g7f-003",
+      "question": "{{userName}} writes: 'Nous sommes allés au parc.' Why is 'allés' not 'allé'?",
+      "options": [
+        "It is a spelling mistake",
+        "'Aller' is irregular",
+        "'Aller' uses être and the past participle agrees with the subject (masc. plural)",
+        "The -s is always added in passé composé"
+      ],
+      "correctIndex": 2,
+      "explanation": "With être, the past participle agrees in gender/number with the subject. 'Nous' (masc. plural) → allés (add -s).",
+      "difficulty": "hard",
+      "tags": ["passe-compose", "agreement", "personalized"]
+    },
+    {
+      "id": "g7f-004",
+      "question": "{{userName}} hears: 'Hier, j'ai vu un film.' What does 'hier' mean?",
+      "options": ["Tomorrow", "Today", "Yesterday", "Last week"],
+      "correctIndex": 2,
+      "explanation": "'Hier' means yesterday. Other time expressions: aujourd'hui (today), demain (tomorrow).",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "time", "personalized"]
+    },
+    {
+      "id": "g7f-005",
+      "question": "'Tu ne viens pas?' means?",
+      "options": ["Are you coming?", "You came?", "Are you not coming?", "You don't want to come?"],
+      "correctIndex": 2,
+      "explanation": "'Ne...pas' around the verb = negation. 'Tu ne viens pas' = You are not coming.",
+      "difficulty": "easy",
+      "tags": ["negation", "grammar"]
+    },
+    {
+      "id": "g7f-006",
+      "question": "The past participle of 'être' is?",
+      "options": ["allé", "eu", "fait", "été"],
+      "correctIndex": 3,
+      "explanation": "The past participle of 'être' (to be) is 'été'. Example: J'ai été malade = I was sick / I have been sick.",
+      "difficulty": "medium",
+      "tags": ["passe-compose", "etre"]
+    },
+    {
+      "id": "g7f-007",
+      "question": "How do you say 'I have not done it' in French?",
+      "options": ["Je n'ai pas le fait", "Je n'ai pas fait", "Je ne faisais pas", "Je n'ai rien"],
+      "correctIndex": 1,
+      "explanation": "Passé composé negation: je + ne + auxiliary + pas + past participle. Je n'ai pas fait = I have not done.",
+      "difficulty": "medium",
+      "tags": ["negation", "passe-compose"]
+    },
+    {
+      "id": "g7f-008",
+      "question": "'Il y a' means?",
+      "options": ["He goes there", "There is / There are", "He has gone", "Yesterday"],
+      "correctIndex": 1,
+      "explanation": "'Il y a' = there is / there are. Also used with time: 'il y a deux jours' = two days ago.",
+      "difficulty": "easy",
+      "tags": ["expressions", "vocabulary"]
+    },
+    {
+      "id": "g7f-009",
+      "question": "What is the imparfait ending for 'je' in '-er' verbs?",
+      "options": ["-ais", "-ait", "-ions", "-iez"],
+      "correctIndex": 0,
+      "explanation": "Imparfait endings: je -ais, tu -ais, il/elle -ait, nous -ions, vous -iez, ils -aient. Je parlais = I was speaking / I used to speak.",
+      "difficulty": "medium",
+      "tags": ["imparfait", "grammar"]
+    },
+    {
+      "id": "g7f-010",
+      "question": "The present participle of 'parler' is?",
+      "options": ["parlé", "parlant", "parle", "parlons"],
+      "correctIndex": 1,
+      "explanation": "Present participle is formed by dropping -ons from 'nous' form and adding -ant. Parlons → parlant.",
+      "difficulty": "medium",
+      "tags": ["participle", "grammar"]
+    },
+    {
+      "id": "g7f-011",
+      "question": "'Depuis quand?' means?",
+      "options": ["How long ago?", "Since when? / For how long?", "When did it start?", "Since yesterday?"],
+      "correctIndex": 1,
+      "explanation": "'Depuis quand?' = Since when? / How long? Often used with present tense: 'Depuis quand habites-tu ici?' (How long have you lived here?)",
+      "difficulty": "medium",
+      "tags": ["expressions", "time"]
+    },
+    {
+      "id": "g7f-012",
+      "question": "Which auxiliary verb does 'tomber' (to fall) use in passé composé?",
+      "options": ["avoir", "faire", "être", "aller"],
+      "correctIndex": 2,
+      "explanation": "'Tomber' uses être. Many verbs of motion and state change use être: aller, venir, partir, arriver, naître, mourir, tomber, etc.",
+      "difficulty": "medium",
+      "tags": ["passe-compose", "etre"]
+    }
+  ]
+}

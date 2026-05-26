@@ -1,0 +1,135 @@
+{
+  "goalId": "grade-7-science",
+  "name": "Grade 7 — Science",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "description": "Chemical reactions, DNA, waves, and electricity",
+  "tags": ["science", "grade-7", "school"],
+  "questions": [
+    {
+      "id": "g7s-001",
+      "question": "What is a chemical reaction?",
+      "options": [
+        "Mixing two liquids together",
+        "A process that transforms substances into new ones with different properties",
+        "Changing the shape of a material",
+        "Heating a substance until it melts"
+      ],
+      "correctIndex": 1,
+      "explanation": "A chemical reaction involves breaking and forming chemical bonds to create new substances with different properties.",
+      "difficulty": "medium",
+      "tags": ["chemistry", "reactions"]
+    },
+    {
+      "id": "g7s-002",
+      "question": "What type of change is burning paper?",
+      "options": ["Physical change", "Chemical change", "Nuclear change", "Reversible change"],
+      "correctIndex": 1,
+      "explanation": "Burning is a chemical change (combustion) — new substances (ash, CO₂, water) are formed. It cannot be reversed.",
+      "difficulty": "easy",
+      "tags": ["chemistry", "changes"]
+    },
+    {
+      "id": "g7s-003",
+      "question": "DNA stands for?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Dinitrogen Amino Acid",
+        "Dynamic Nucleic Arrangement",
+        "Dual Nitrogen Adenine"
+      ],
+      "correctIndex": 0,
+      "explanation": "DNA (Deoxyribonucleic Acid) is the molecule that carries genetic information in living organisms.",
+      "difficulty": "easy",
+      "tags": ["biology", "genetics"]
+    },
+    {
+      "id": "g7s-004",
+      "question": "The law of conservation of mass states that during a chemical reaction?",
+      "options": [
+        "Mass is created from energy",
+        "Mass is destroyed",
+        "Total mass of reactants equals total mass of products",
+        "Heavier substances react faster"
+      ],
+      "correctIndex": 2,
+      "explanation": "Antoine Lavoisier's law: matter cannot be created or destroyed in a chemical reaction — only rearranged.",
+      "difficulty": "medium",
+      "tags": ["chemistry", "conservation"]
+    },
+    {
+      "id": "g7s-005",
+      "question": "{{userName}} speaks into a can connected by a string to a friend's can. Sound travels through the string as a?",
+      "options": ["Electromagnetic wave", "Light wave", "Mechanical wave", "Radio wave"],
+      "correctIndex": 2,
+      "explanation": "Sound is a mechanical wave — it requires a medium (solid, liquid, or gas) to travel. It cannot travel through a vacuum.",
+      "difficulty": "medium",
+      "tags": ["waves", "sound", "personalized"]
+    },
+    {
+      "id": "g7s-006",
+      "question": "What is the unit of electric current?",
+      "options": ["Volt (V)", "Watt (W)", "Ohm (Ω)", "Ampere (A)"],
+      "correctIndex": 3,
+      "explanation": "Electric current is measured in Amperes (A). Voltage (V), resistance (Ω), and power (W) are related but different units.",
+      "difficulty": "easy",
+      "tags": ["electricity", "units"]
+    },
+    {
+      "id": "g7s-007",
+      "question": "What does a resistor do in an electric circuit?",
+      "options": ["Increases current", "Stores energy", "Resists / limits the flow of current", "Generates electricity"],
+      "correctIndex": 2,
+      "explanation": "A resistor opposes current flow. Resistance is measured in Ohms (Ω). By Ohm's Law: V = IR.",
+      "difficulty": "medium",
+      "tags": ["electricity", "circuits"]
+    },
+    {
+      "id": "g7s-008",
+      "question": "Acids have a pH?",
+      "options": ["Greater than 7", "Equal to 7", "Less than 7", "Equal to 14"],
+      "correctIndex": 2,
+      "explanation": "pH scale: 0–6 = acidic, 7 = neutral, 8–14 = basic (alkaline). Lemon juice (pH≈2) is acidic; bleach (pH≈13) is basic.",
+      "difficulty": "medium",
+      "tags": ["chemistry", "acids-bases"]
+    },
+    {
+      "id": "g7s-009",
+      "question": "{{userName}} mixes vinegar and baking soda. Bubbles form. This is a?",
+      "options": ["Physical change", "Mixture", "Chemical reaction", "Evaporation"],
+      "correctIndex": 2,
+      "explanation": "Vinegar (acetic acid) + baking soda (sodium bicarbonate) → CO₂ bubbles + water + sodium acetate. New substances form = chemical reaction.",
+      "difficulty": "easy",
+      "tags": ["chemistry", "reactions", "personalized"]
+    },
+    {
+      "id": "g7s-010",
+      "question": "Traits passed from parents to their offspring are called?",
+      "options": ["Acquired traits", "Inherited traits", "Mutated traits", "Learned traits"],
+      "correctIndex": 1,
+      "explanation": "Inherited traits are determined by genes. Examples: eye colour, blood type, height tendency. Acquired traits (like a scar) are not inherited.",
+      "difficulty": "easy",
+      "tags": ["genetics", "heredity"]
+    },
+    {
+      "id": "g7s-011",
+      "question": "Which type of cell division produces gametes (egg and sperm cells)?",
+      "options": ["Mitosis", "Meiosis", "Binary fission", "Budding"],
+      "correctIndex": 1,
+      "explanation": "Meiosis produces gametes with half the chromosome number. Mitosis produces identical cells for growth and repair.",
+      "difficulty": "medium",
+      "tags": ["biology", "cell-division"]
+    },
+    {
+      "id": "g7s-012",
+      "question": "In Ohm's Law, if voltage doubles and resistance stays the same, current will?",
+      "options": ["Stay the same", "Halve", "Double", "Quadruple"],
+      "correctIndex": 2,
+      "explanation": "Ohm's Law: I = V/R. If V doubles and R is constant, I (current) doubles proportionally.",
+      "difficulty": "medium",
+      "tags": ["electricity", "ohms-law"]
+    }
+  ]
+}

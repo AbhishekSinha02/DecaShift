@@ -1,0 +1,125 @@
+{
+  "goalId": "grade-6-science",
+  "name": "Grade 6 — Science",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "description": "Cells, photosynthesis, Newton's laws, and atoms",
+  "tags": ["science", "grade-6", "school"],
+  "questions": [
+    {
+      "id": "g6s-001",
+      "question": "What is the basic structural and functional unit of life?",
+      "options": ["Organ", "Tissue", "Cell", "Molecule"],
+      "correctIndex": 2,
+      "explanation": "The cell is the basic unit of all living organisms. Robert Hooke first observed cells in 1665 using a microscope.",
+      "difficulty": "easy",
+      "tags": ["cells", "biology"]
+    },
+    {
+      "id": "g6s-002",
+      "question": "What is the chemical equation for photosynthesis?",
+      "options": [
+        "O₂ + glucose → CO₂ + H₂O + energy",
+        "CO₂ + H₂O + light → glucose + O₂",
+        "H₂ + O₂ → H₂O",
+        "glucose → CO₂ + H₂O"
+      ],
+      "correctIndex": 1,
+      "explanation": "Photosynthesis: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ (glucose) + 6O₂. Plants absorb CO₂ and release O₂.",
+      "difficulty": "medium",
+      "tags": ["photosynthesis", "plants"]
+    },
+    {
+      "id": "g6s-003",
+      "question": "Newton's first law is also known as the law of?",
+      "options": ["Motion", "Gravity", "Inertia", "Acceleration"],
+      "correctIndex": 2,
+      "explanation": "Newton's first law (law of inertia): an object at rest stays at rest, and an object in motion stays in motion unless acted upon by a force.",
+      "difficulty": "medium",
+      "tags": ["physics", "newton", "forces"]
+    },
+    {
+      "id": "g6s-004",
+      "question": "{{userName}} pushes a book off a table. The force acting on it as it falls is?",
+      "options": ["Friction", "Magnetism", "Gravity", "Tension"],
+      "correctIndex": 2,
+      "explanation": "Gravity pulls objects toward Earth's center. The book accelerates downward at 9.8 m/s² due to gravitational force.",
+      "difficulty": "easy",
+      "tags": ["forces", "gravity", "personalized"]
+    },
+    {
+      "id": "g6s-005",
+      "question": "What is an atom?",
+      "options": ["The largest unit of matter", "The smallest unit of an element that retains its properties", "A type of molecule", "A charged particle"],
+      "correctIndex": 1,
+      "explanation": "An atom is the smallest unit of an element that retains its chemical properties. Atoms contain protons, neutrons, and electrons.",
+      "difficulty": "medium",
+      "tags": ["chemistry", "atoms"]
+    },
+    {
+      "id": "g6s-006",
+      "question": "In which part of the cell is DNA stored?",
+      "options": ["Cell membrane", "Cytoplasm", "Mitochondria", "Nucleus"],
+      "correctIndex": 3,
+      "explanation": "DNA is stored in the nucleus (the 'control centre' of the cell). The nucleus also controls cell activities.",
+      "difficulty": "medium",
+      "tags": ["cells", "biology"]
+    },
+    {
+      "id": "g6s-007",
+      "question": "Organisms that make their own food using sunlight are called?",
+      "options": ["Consumers", "Decomposers", "Autotrophs (Producers)", "Heterotrophs"],
+      "correctIndex": 2,
+      "explanation": "Autotrophs (producers) make their own food through photosynthesis. Plants, algae, and some bacteria are autotrophs.",
+      "difficulty": "medium",
+      "tags": ["ecosystems", "biology"]
+    },
+    {
+      "id": "g6s-008",
+      "question": "{{userName}} notices the sky appears blue on a clear day. This is due to?",
+      "options": ["Reflection by the sea", "Scattering of light by air molecules", "Blue clouds", "The Sun appearing blue"],
+      "correctIndex": 1,
+      "explanation": "Blue light scatters more than other colours when sunlight hits air molecules (Rayleigh scattering), making the sky appear blue.",
+      "difficulty": "medium",
+      "tags": ["light", "optics", "personalized"]
+    },
+    {
+      "id": "g6s-009",
+      "question": "What is the difference between speed and velocity?",
+      "options": ["They are the same thing", "Speed has direction; velocity does not", "Velocity has direction; speed does not", "Velocity is always faster"],
+      "correctIndex": 2,
+      "explanation": "Speed is a scalar (magnitude only). Velocity is a vector (magnitude + direction). E.g., 60 km/h is speed; 60 km/h north is velocity.",
+      "difficulty": "medium",
+      "tags": ["physics", "motion"]
+    },
+    {
+      "id": "g6s-010",
+      "question": "What green pigment in plants captures sunlight for photosynthesis?",
+      "options": ["Melanin", "Haemoglobin", "Chlorophyll", "Carotenoid"],
+      "correctIndex": 2,
+      "explanation": "Chlorophyll is the green pigment in plant cells that captures light energy for photosynthesis. It is found in chloroplasts.",
+      "difficulty": "easy",
+      "tags": ["plants", "photosynthesis"]
+    },
+    {
+      "id": "g6s-011",
+      "question": "Newton's second law states that Force = ?",
+      "options": ["mass × distance", "mass × acceleration", "mass × velocity", "mass × gravity"],
+      "correctIndex": 1,
+      "explanation": "Newton's second law: F = ma. Force equals mass times acceleration. Measured in Newtons (N).",
+      "difficulty": "medium",
+      "tags": ["physics", "newton", "forces"]
+    },
+    {
+      "id": "g6s-012",
+      "question": "What type of cell does NOT have a nucleus?",
+      "options": ["Plant cell", "Animal cell", "Prokaryotic cell (bacteria)", "Fungal cell"],
+      "correctIndex": 2,
+      "explanation": "Prokaryotic cells (like bacteria) lack a membrane-bound nucleus. Eukaryotic cells (plants, animals, fungi) have a nucleus.",
+      "difficulty": "medium",
+      "tags": ["cells", "biology"]
+    }
+  ]
+}

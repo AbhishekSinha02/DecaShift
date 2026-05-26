@@ -62,6 +62,7 @@
 | **[P2-T018](P2-T018-automated-testing-strategy.md)** | **Automated E2E tests — Playwright, GitHub Actions CI, all critical flows** | **M** | **Pending** |
 | **[P2-T019](P2-T019-subscription-prelaunch-readiness.md)** | **Subscription pre-launch readiness — content depth gate, landing page honesty, differentiation story** | **M** | **Pending** |
 | **[P2-T020](P2-T020-content-operations-bulk-import.md)** | **Content operations — in-app admin panel + CSV bulk import for non-developer content growth** | **M** | **Pending** |
+| **[P2-T021](P2-T021-subject-tab-filter-ui.md)** | **Subject tab filter — Math / Science / Hindi / French tabs on home screen** | **S** | **✅ Done** |
 
 ---
 
@@ -77,6 +78,8 @@
 | **[P3-T011](P3-T011-content-expansion-tracking.md)** | **Content expansion — 295 questions across 18 files, targets for 2 subjects/grade** | **S** | **🔄 In Progress (v3.2 adds 295q)** |
 | **[P3-T012](P3-T012-colorful-student-theme.md)** | **Colorful student theme (Grade 2–8) — 3rd theme option, warm/bright palette** | **M** | **Pending** |
 | **[P3-T013](P3-T013-regional-language-learning.md)** | **Regional language learning — Hindi, Marathi, Kannada, Tamil, Telugu, Malayalam** | **M** | **Pending** |
+| **[P3-T014](P3-T014-content-expansion-science-hindi-french-grade2-8.md)** | **Content expansion — Science, Hindi, French for grades 2–8 (22 new files, 264 questions)** | **M** | **✅ Done** |
+| **[P3-T015](P3-T015-personalized-questions-username-placeholder.md)** | **Personalized questions — {{userName}} placeholder replaced at render time** | **S** | **✅ Done** |
 | [P3-T004](P3-T004-avatar-profile-photo.md) | Avatar + profile photo upload | S | Pending |
 | [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
 | [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
@@ -174,6 +177,6 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 53 (1 cancelled) | P1: 13 | P2: 20 | P3: 13 | P4: 3 | P5: 6 | P6: 6*
+*Total tasks: 56 (1 cancelled) | P1: 13 | P2: 21 | P3: 15 | P4: 3 | P5: 6 | P6: 6*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1)*
 *New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*

@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-4-science",
+  "name": "Grade 4 — Science",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "description": "States of matter, magnets, simple machines, and habitats",
+  "tags": ["science", "grade-4", "school"],
+  "questions": [
+    {
+      "id": "g4s-001",
+      "question": "What are the three states of matter?",
+      "options": ["Hot, cold, warm", "Solid, liquid, gas", "Hard, soft, fluid", "Wood, water, air"],
+      "correctIndex": 1,
+      "explanation": "Matter exists in three main states: solid (fixed shape), liquid (flows), and gas (fills any container).",
+      "difficulty": "easy",
+      "tags": ["states-of-matter"]
+    },
+    {
+      "id": "g4s-002",
+      "question": "A magnet attracts which of these materials?",
+      "options": ["Wood", "Plastic", "Iron", "Glass"],
+      "correctIndex": 2,
+      "explanation": "Magnets attract ferromagnetic materials: iron, steel, nickel, cobalt. Wood, plastic, and glass are non-magnetic.",
+      "difficulty": "easy",
+      "tags": ["magnets"]
+    },
+    {
+      "id": "g4s-003",
+      "question": "{{userName}} uses a ramp to push a heavy box into a truck. The ramp is a type of?",
+      "options": ["Lever", "Pulley", "Wheel and axle", "Inclined plane"],
+      "correctIndex": 3,
+      "explanation": "A ramp (inclined plane) reduces the force needed to move heavy objects by spreading the work over a longer distance.",
+      "difficulty": "easy",
+      "tags": ["simple-machines", "personalized"]
+    },
+    {
+      "id": "g4s-004",
+      "question": "What causes day and night on Earth?",
+      "options": ["Earth revolving around the Sun", "The Moon blocking the Sun", "Earth rotating on its axis", "Clouds covering the Sun"],
+      "correctIndex": 2,
+      "explanation": "Earth rotates (spins) on its axis once every 24 hours, causing day (facing the Sun) and night (facing away).",
+      "difficulty": "easy",
+      "tags": ["earth", "day-night"]
+    },
+    {
+      "id": "g4s-005",
+      "question": "What is the process by which plants make their own food?",
+      "options": ["Respiration", "Digestion", "Photosynthesis", "Germination"],
+      "correctIndex": 2,
+      "explanation": "Photosynthesis: plants use sunlight + water + CO₂ → glucose (food) + oxygen.",
+      "difficulty": "easy",
+      "tags": ["plants", "photosynthesis"]
+    },
+    {
+      "id": "g4s-006",
+      "question": "Animals that are active at night are called?",
+      "options": ["Diurnal", "Nocturnal", "Herbivores", "Aquatic"],
+      "correctIndex": 1,
+      "explanation": "Nocturnal animals are active at night. Examples: owl, bat, fox. Diurnal animals are active during the day.",
+      "difficulty": "medium",
+      "tags": ["animals", "adaptations"]
+    },
+    {
+      "id": "g4s-007",
+      "question": "A lever has three parts: effort, load, and ___",
+      "options": ["Handle", "Base", "Fulcrum", "Spring"],
+      "correctIndex": 2,
+      "explanation": "A lever consists of a rigid bar resting on a pivot point called the fulcrum. The load is what you lift; effort is force applied.",
+      "difficulty": "medium",
+      "tags": ["simple-machines", "lever"]
+    },
+    {
+      "id": "g4s-008",
+      "question": "{{userName}} observes that a plant near a window leans toward the light. This is called?",
+      "options": ["Geotropism", "Hydrotropism", "Phototropism", "Thigmotropism"],
+      "correctIndex": 2,
+      "explanation": "Phototropism is the growth of a plant towards a light source. 'Photo' = light, 'tropism' = turning.",
+      "difficulty": "medium",
+      "tags": ["plants", "tropism", "personalized"]
+    },
+    {
+      "id": "g4s-009",
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Quartz"],
+      "correctIndex": 2,
+      "explanation": "Diamond is the hardest natural mineral (10 on the Mohs scale). It is a form of carbon.",
+      "difficulty": "easy",
+      "tags": ["minerals", "rocks"]
+    },
+    {
+      "id": "g4s-010",
+      "question": "Energy from the Sun that reaches Earth is called?",
+      "options": ["Nuclear energy", "Solar energy", "Wind energy", "Tidal energy"],
+      "correctIndex": 1,
+      "explanation": "Solar energy is the radiant energy from the Sun. It is the primary source of energy on Earth.",
+      "difficulty": "easy",
+      "tags": ["energy", "sun"]
+    },
+    {
+      "id": "g4s-011",
+      "question": "What does the function of the large intestine include?",
+      "options": ["Breaking down proteins", "Making bile", "Absorbing water from undigested food", "Pumping blood"],
+      "correctIndex": 2,
+      "explanation": "The large intestine absorbs water from undigested food, forming solid waste. The small intestine absorbs nutrients.",
+      "difficulty": "medium",
+      "tags": ["human-body", "digestion"]
+    },
+    {
+      "id": "g4s-012",
+      "question": "Which of these is a renewable source of energy?",
+      "options": ["Coal", "Petroleum", "Solar energy", "Natural gas"],
+      "correctIndex": 2,
+      "explanation": "Solar energy is renewable — it will not run out. Coal, petroleum, and natural gas are non-renewable fossil fuels.",
+      "difficulty": "medium",
+      "tags": ["energy", "environment"]
+    }
+  ]
+}

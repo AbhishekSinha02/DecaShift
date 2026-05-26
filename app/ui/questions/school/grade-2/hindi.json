@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-2-hindi",
+  "name": "Grade 2 — Hindi",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "description": "स्वर, व्यंजन, और सरल शब्द",
+  "tags": ["hindi", "grade-2", "school"],
+  "questions": [
+    {
+      "id": "g2h-001",
+      "question": "हिंदी वर्णमाला में कितने स्वर होते हैं?",
+      "options": ["9", "11", "13", "15"],
+      "correctIndex": 1,
+      "explanation": "हिंदी में 11 स्वर होते हैं: अ, आ, इ, ई, उ, ऊ, ए, ऐ, ओ, औ, ऋ।",
+      "difficulty": "easy",
+      "tags": ["swar", "varnmala"]
+    },
+    {
+      "id": "g2h-002",
+      "question": "'क' वर्ण किस श्रेणी में आता है?",
+      "options": ["स्वर", "व्यंजन", "अनुस्वार", "विसर्ग"],
+      "correctIndex": 1,
+      "explanation": "'क' एक व्यंजन है। व्यंजन वे वर्ण हैं जो स्वर की सहायता से बोले जाते हैं।",
+      "difficulty": "easy",
+      "tags": ["vyanjan", "varnmala"]
+    },
+    {
+      "id": "g2h-003",
+      "question": "नीचे दिए शब्दों में से कौन सा फल है?",
+      "options": ["गाय", "सेब", "कुर्सी", "पुस्तक"],
+      "correctIndex": 1,
+      "explanation": "सेब एक फल है। गाय एक जानवर है, कुर्सी और पुस्तक वस्तुएँ हैं।",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "fruits"]
+    },
+    {
+      "id": "g2h-004",
+      "question": "'आम' शब्द में कितने अक्षर हैं?",
+      "options": ["1", "2", "3", "4"],
+      "correctIndex": 1,
+      "explanation": "'आम' में दो अक्षर हैं: 'आ' और 'म'।",
+      "difficulty": "easy",
+      "tags": ["akshara", "counting"]
+    },
+    {
+      "id": "g2h-005",
+      "question": "{{userName}} स्कूल जाता है। 'स्कूल' को शुद्ध हिंदी में क्या कहते हैं?",
+      "options": ["बाज़ार", "विद्यालय", "अस्पताल", "पुस्तकालय"],
+      "correctIndex": 1,
+      "explanation": "स्कूल को हिंदी में 'विद्यालय' कहते हैं। विद्या = ज्ञान, आलय = घर।",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "personalized"]
+    },
+    {
+      "id": "g2h-006",
+      "question": "नीचे में से कौन सा रंग है?",
+      "options": ["गाय", "लाल", "कुत्ता", "मेज"],
+      "correctIndex": 1,
+      "explanation": "लाल एक रंग है। गाय और कुत्ता जानवर हैं, मेज एक वस्तु है।",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "colours"]
+    },
+    {
+      "id": "g2h-007",
+      "question": "'अ' के बाद कौन सा स्वर आता है?",
+      "options": ["इ", "उ", "आ", "ए"],
+      "correctIndex": 2,
+      "explanation": "हिंदी वर्णमाला में स्वरों का क्रम: अ, आ, इ, ई... है। 'अ' के बाद 'आ' आता है।",
+      "difficulty": "easy",
+      "tags": ["swar", "varnmala"]
+    },
+    {
+      "id": "g2h-008",
+      "question": "'हाथी' को अंग्रेजी में क्या कहते हैं?",
+      "options": ["Lion", "Tiger", "Elephant", "Horse"],
+      "correctIndex": 2,
+      "explanation": "हाथी को अंग्रेजी में Elephant कहते हैं। यह एक बड़ा जानवर है।",
+      "difficulty": "easy",
+      "tags": ["animals", "vocabulary"]
+    },
+    {
+      "id": "g2h-009",
+      "question": "'माँ' शब्द में कौन सी मात्रा है?",
+      "options": ["इ की मात्रा", "आ की मात्रा", "उ की मात्रा", "ए की मात्रा"],
+      "correctIndex": 1,
+      "explanation": "'माँ' में 'आ' की मात्रा (ा) है। 'म' + 'ा' = 'मा', ऊपर चंद्रबिंदु (ँ) अनुनासिक है।",
+      "difficulty": "easy",
+      "tags": ["matra", "grammar"]
+    },
+    {
+      "id": "g2h-010",
+      "question": "{{userName}} के पास 5 आम हैं। 'आम' को अंग्रेजी में क्या कहते हैं?",
+      "options": ["Apple", "Mango", "Banana", "Orange"],
+      "correctIndex": 1,
+      "explanation": "आम को अंग्रेजी में Mango कहते हैं। यह एक मीठा फल है।",
+      "difficulty": "easy",
+      "tags": ["fruits", "vocabulary", "personalized"]
+    },
+    {
+      "id": "g2h-011",
+      "question": "'सूरज' और 'सूर्य' — इनका क्या अर्थ है?",
+      "options": ["चाँद", "तारा", "सूरज / Sun", "पानी"],
+      "correctIndex": 2,
+      "explanation": "'सूरज' और 'सूर्य' दोनों शब्दों का अर्थ Sun (सूर्य) है। 'सूरज' हिंदी में और 'सूर्य' संस्कृत से आया है।",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "synonyms"]
+    },
+    {
+      "id": "g2h-012",
+      "question": "नीचे में से कौन सा जानवर है?",
+      "options": ["आम", "नदी", "शेर", "किताब"],
+      "correctIndex": 2,
+      "explanation": "शेर एक जानवर है। आम फल है, नदी प्रकृति है, किताब वस्तु है।",
+      "difficulty": "easy",
+      "tags": ["animals", "vocabulary"]
+    }
+  ]
+}

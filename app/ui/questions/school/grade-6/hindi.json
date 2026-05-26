@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-6-hindi",
+  "name": "Grade 6 — Hindi",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "description": "पर्यायवाची, संधि, और रस",
+  "tags": ["hindi", "grade-6", "school"],
+  "questions": [
+    {
+      "id": "g6h-001",
+      "question": "'सूर्य' का पर्यायवाची शब्द क्या है?",
+      "options": ["चाँद", "रवि", "तारा", "बादल"],
+      "correctIndex": 1,
+      "explanation": "'सूर्य' के पर्यायवाची: रवि, दिनकर, भानु, सूरज, आदित्य, दिनेश।",
+      "difficulty": "easy",
+      "tags": ["paryayvachi", "vocabulary"]
+    },
+    {
+      "id": "g6h-002",
+      "question": "'अ + अ = ?' संधि के अनुसार क्या होगा?",
+      "options": ["अ", "इ", "आ", "ए"],
+      "correctIndex": 2,
+      "explanation": "दीर्घ संधि: अ/आ + अ/आ = आ। उदाहरण: राम + अयन = रामायण।",
+      "difficulty": "medium",
+      "tags": ["sandhi", "grammar"]
+    },
+    {
+      "id": "g6h-003",
+      "question": "'विद्या + आलय' की संधि क्या होगी?",
+      "options": ["विद्यालाय", "विद्यालय", "विद्यालोय", "विद्यालाय"],
+      "correctIndex": 1,
+      "explanation": "विद्या (आ) + आलय (आ) = विद्यालय। आ + आ = आ (दीर्घ संधि)।",
+      "difficulty": "medium",
+      "tags": ["sandhi", "grammar"]
+    },
+    {
+      "id": "g6h-004",
+      "question": "'श्रृंगार रस' का स्थायी भाव क्या है?",
+      "options": ["क्रोध", "उत्साह", "रति (प्रेम)", "शोक"],
+      "correctIndex": 2,
+      "explanation": "श्रृंगार रस का स्थायी भाव 'रति' (प्रेम) है। यह प्रेम और सौंदर्य का रस है।",
+      "difficulty": "medium",
+      "tags": ["ras", "kavya"]
+    },
+    {
+      "id": "g6h-005",
+      "question": "'रामायण' के रचयिता कौन हैं?",
+      "options": ["तुलसीदास", "वाल्मीकि", "वेद व्यास", "कालिदास"],
+      "correctIndex": 1,
+      "explanation": "संस्कृत 'रामायण' के रचयिता महर्षि वाल्मीकि हैं। 'रामचरितमानस' तुलसीदास ने लिखी।",
+      "difficulty": "easy",
+      "tags": ["literature", "history"]
+    },
+    {
+      "id": "g6h-006",
+      "question": "'अनुशासन' शब्द में उपसर्ग क्या है?",
+      "options": ["अन", "अनु", "शासन", "अनुशास"],
+      "correctIndex": 1,
+      "explanation": "'अनु' उपसर्ग है जिसका अर्थ 'पीछे' या 'according to' है। अनु + शासन = अनुशासन (discipline)।",
+      "difficulty": "medium",
+      "tags": ["upsarg", "grammar"]
+    },
+    {
+      "id": "g6h-007",
+      "question": "{{userName}} ने एक कविता लिखी। कविता में 'तुकबंदी' को क्या कहते हैं?",
+      "options": ["अलंकार", "रस", "तुक / Rhyme", "छंद"],
+      "correctIndex": 2,
+      "explanation": "कविता में जब दो या अधिक पंक्तियों का अंत एक जैसे शब्द या ध्वनि से हो — उसे तुक (Rhyme) कहते हैं।",
+      "difficulty": "easy",
+      "tags": ["kavya", "personalized"]
+    },
+    {
+      "id": "g6h-008",
+      "question": "'पानी' का तत्सम रूप क्या है?",
+      "options": ["पय", "जल", "वारि", "नीर"],
+      "correctIndex": 1,
+      "explanation": "तत्सम शब्द संस्कृत से हिंदी में आए बिना बदले हुए शब्द हैं। 'पानी' का तत्सम 'जल' है।",
+      "difficulty": "medium",
+      "tags": ["tatsam", "vocabulary"]
+    },
+    {
+      "id": "g6h-009",
+      "question": "'महाभारत' के रचयिता कौन हैं?",
+      "options": ["वाल्मीकि", "तुलसीदास", "वेद व्यास", "कालिदास"],
+      "correctIndex": 2,
+      "explanation": "महर्षि वेद व्यास ने महाभारत लिखा। यह दुनिया का सबसे लंबा महाकाव्य है।",
+      "difficulty": "easy",
+      "tags": ["literature", "history"]
+    },
+    {
+      "id": "g6h-010",
+      "question": "'दुख' में 'ई' प्रत्यय लगाने से क्या बनेगा?",
+      "options": ["दुखन", "दुखी", "दुखता", "दुखाई"],
+      "correctIndex": 1,
+      "explanation": "दुख + ई = दुखी। प्रत्यय शब्द के अंत में जुड़ता है और नए शब्द बनाता है।",
+      "difficulty": "easy",
+      "tags": ["pratyay", "grammar"]
+    },
+    {
+      "id": "g6h-011",
+      "question": "{{userName}} ने 'माता-पिता' पढ़ा। इसमें कौन सा समास है?",
+      "options": ["तत्पुरुष", "द्विगु", "द्वंद्व", "बहुव्रीहि"],
+      "correctIndex": 2,
+      "explanation": "'माता-पिता' = माता और पिता — दो बराबर महत्व के शब्द जुड़े हैं। यह द्वंद्व समास है।",
+      "difficulty": "medium",
+      "tags": ["samas", "grammar", "personalized"]
+    },
+    {
+      "id": "g6h-012",
+      "question": "हिंदी वर्णमाला में अनुनासिक स्वरों के ऊपर कौन सा चिह्न लगाया जाता है?",
+      "options": ["अनुस्वार (·)", "विसर्ग (:)", "चंद्रबिंदु (ँ)", "हलंत (्)"],
+      "correctIndex": 2,
+      "explanation": "अनुनासिक ध्वनि के लिए चंद्रबिंदु (ँ) का प्रयोग होता है। जैसे: आँख, साँस, चाँद।",
+      "difficulty": "medium",
+      "tags": ["grammar", "varnmala"]
+    }
+  ]
+}

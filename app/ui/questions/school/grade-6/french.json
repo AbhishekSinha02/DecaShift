@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-6-french",
+  "name": "Grade 6 — French",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "description": "Articles, present tense verbs, and everyday vocabulary",
+  "tags": ["french", "grade-6", "school"],
+  "questions": [
+    {
+      "id": "g6f-001",
+      "question": "What is the definite article for a feminine singular noun in French?",
+      "options": ["le", "les", "la", "un"],
+      "correctIndex": 2,
+      "explanation": "'La' is the feminine singular definite article. 'Le' = masculine, 'la' = feminine, 'les' = plural.",
+      "difficulty": "easy",
+      "tags": ["articles", "grammar"]
+    },
+    {
+      "id": "g6f-002",
+      "question": "'Les' is the article for which type of noun?",
+      "options": ["Masculine singular", "Feminine singular", "Any plural noun", "Nouns beginning with vowels"],
+      "correctIndex": 2,
+      "explanation": "'Les' is the definite article for all plural nouns, regardless of gender. Example: les livres (the books).",
+      "difficulty": "easy",
+      "tags": ["articles", "grammar"]
+    },
+    {
+      "id": "g6f-003",
+      "question": "Conjugate 'aller' (to go) for 'je'.",
+      "options": ["je alle", "j'ais", "je vais", "j'allé"],
+      "correctIndex": 2,
+      "explanation": "'Aller' is irregular. Conjugation: je vais, tu vas, il/elle va, nous allons, vous allez, ils vont.",
+      "difficulty": "medium",
+      "tags": ["verbs", "aller", "grammar"]
+    },
+    {
+      "id": "g6f-004",
+      "question": "{{userName}} reads: 'Je ne mange pas de viande.' What does 'ne...pas' indicate?",
+      "options": ["A question", "Negation (not)", "Future tense", "Surprise"],
+      "correctIndex": 1,
+      "explanation": "'Ne...pas' is the standard French negation. It goes around the conjugated verb: Je ne mange pas = I do not eat.",
+      "difficulty": "medium",
+      "tags": ["negation", "grammar", "personalized"]
+    },
+    {
+      "id": "g6f-005",
+      "question": "What is the French word for 'school'?",
+      "options": ["la bibliothèque", "l'école", "le bureau", "la salle"],
+      "correctIndex": 1,
+      "explanation": "'L'école' means school. Note the elision: l' is used before vowel sounds.",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "school"]
+    },
+    {
+      "id": "g6f-006",
+      "question": "'Qu'est-ce que c'est?' means?",
+      "options": ["Who is it?", "Where is it?", "What is it?", "When is it?"],
+      "correctIndex": 2,
+      "explanation": "'Qu'est-ce que c'est?' = What is it? This is a common conversational question.",
+      "difficulty": "easy",
+      "tags": ["questions", "vocabulary"]
+    },
+    {
+      "id": "g6f-007",
+      "question": "Conjugate 'finir' (to finish) for 'nous'.",
+      "options": ["nous finons", "nous finissons", "nous finéons", "nous finissez"],
+      "correctIndex": 1,
+      "explanation": "Regular -ir verbs add -issons for 'nous': finir → nous finissons. Other forms: je finis, tu finis, il finit.",
+      "difficulty": "medium",
+      "tags": ["verbs", "grammar"]
+    },
+    {
+      "id": "g6f-008",
+      "question": "{{userName}} asks a classmate: 'Où est la bibliothèque?' What does 'bibliothèque' mean?",
+      "options": ["Cafeteria", "Gymnasium", "Library", "Classroom"],
+      "correctIndex": 2,
+      "explanation": "'La bibliothèque' = library. 'Où est...?' = Where is...? So the sentence means 'Where is the library?'",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "places", "personalized"]
+    },
+    {
+      "id": "g6f-009",
+      "question": "What is the feminine form of the adjective 'beau' (beautiful/handsome)?",
+      "options": ["beaux", "beau", "bel", "belle"],
+      "correctIndex": 3,
+      "explanation": "Beau (masc.) → belle (fem.) → beaux (masc. plural) → belles (fem. plural). Example: un beau livre / une belle photo.",
+      "difficulty": "medium",
+      "tags": ["adjectives", "grammar"]
+    },
+    {
+      "id": "g6f-010",
+      "question": "How do you say 'How are you?' informally in French?",
+      "options": ["Comment allez-vous?", "Comment tu vas? / Ça va?", "Avez-vous bien dormi?", "Tu vas comment?"],
+      "correctIndex": 1,
+      "explanation": "'Ça va?' or 'Comment tu vas?' is informal. 'Comment allez-vous?' is formal (vous form).",
+      "difficulty": "easy",
+      "tags": ["greetings", "expressions"]
+    },
+    {
+      "id": "g6f-011",
+      "question": "'Du' is a contraction of?",
+      "options": ["de + la", "de + le", "des + le", "de + les"],
+      "correctIndex": 1,
+      "explanation": "'Du' = de + le (contracted for masculine nouns). 'De la' stays for feminine. Example: Je mange du pain. Je mange de la salade.",
+      "difficulty": "medium",
+      "tags": ["articles", "grammar"]
+    },
+    {
+      "id": "g6f-012",
+      "question": "What is the French word for 'friend' (masculine)?",
+      "options": ["la sœur", "le frère", "l'ami", "le cousin"],
+      "correctIndex": 2,
+      "explanation": "'L'ami' = (male) friend. Feminine: l'amie. Plural: les amis (friends).",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "relationships"]
+    }
+  ]
+}

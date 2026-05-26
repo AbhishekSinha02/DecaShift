@@ -1,0 +1,120 @@
+{
+  "goalId": "grade-8-french",
+  "name": "Grade 8 — French",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "description": "Futur simple, comparatives, and object pronouns",
+  "tags": ["french", "grade-8", "school"],
+  "questions": [
+    {
+      "id": "g8f-001",
+      "question": "Conjugate 'partir' (to leave) in futur simple for 'je'.",
+      "options": ["je pars", "je partais", "je partirai", "j'ai parti"],
+      "correctIndex": 2,
+      "explanation": "Futur simple = infinitive (keep the -r) + endings (-ai, -as, -a, -ons, -ez, -ont). Partir → je partirai.",
+      "difficulty": "medium",
+      "tags": ["futur-simple", "grammar"]
+    },
+    {
+      "id": "g8f-002",
+      "question": "'Plus grand que' is an example of?",
+      "options": ["Superlative", "Comparative (more... than)", "Negation", "Past tense"],
+      "correctIndex": 1,
+      "explanation": "'Plus...que' = more...than (comparative). 'Le plus grand' = the biggest (superlative).",
+      "difficulty": "easy",
+      "tags": ["comparatives", "grammar"]
+    },
+    {
+      "id": "g8f-003",
+      "question": "'Le plus grand' expresses?",
+      "options": ["Comparative", "Superlative (the biggest)", "Future", "Negation"],
+      "correctIndex": 1,
+      "explanation": "Superlative uses le/la/les + plus/moins + adjective. 'Le plus grand' = the biggest/tallest.",
+      "difficulty": "easy",
+      "tags": ["superlative", "grammar"]
+    },
+    {
+      "id": "g8f-004",
+      "question": "{{userName}} hears: 'Je te le donnerai demain.' What does 'demain' mean?",
+      "options": ["Yesterday", "Today", "Tomorrow", "Next week"],
+      "correctIndex": 2,
+      "explanation": "'Demain' = tomorrow. The sentence means 'I will give it to you tomorrow.' (futur simple: donnerai)",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "time", "personalized"]
+    },
+    {
+      "id": "g8f-005",
+      "question": "In 'Je l'ai vu', what does 'l'' replace?",
+      "options": ["A subject", "A direct object (him/her/it)", "An indirect object", "An adverb"],
+      "correctIndex": 1,
+      "explanation": "'L'' is a direct object pronoun (le/la → l' before vowel). 'Je l'ai vu' = I saw him/her/it.",
+      "difficulty": "medium",
+      "tags": ["pronouns", "grammar"]
+    },
+    {
+      "id": "g8f-006",
+      "question": "What are 'me, te, le, la, les, lui, leur' called in French grammar?",
+      "options": ["Subject pronouns", "Reflexive pronouns", "Object pronouns", "Relative pronouns"],
+      "correctIndex": 2,
+      "explanation": "These are object pronouns. Direct objects: me, te, le, la, les. Indirect objects: me, te, lui, leur.",
+      "difficulty": "medium",
+      "tags": ["pronouns", "grammar"]
+    },
+    {
+      "id": "g8f-007",
+      "question": "{{userName}} says: 'Je viendrai si j'ai le temps.' What tense is 'viendrai'?",
+      "options": ["Présent", "Imparfait", "Passé composé", "Futur simple"],
+      "correctIndex": 3,
+      "explanation": "'Viendrai' is futur simple of 'venir' (to come). Je viendrai = I will come. Irregular stem: viend-.",
+      "difficulty": "medium",
+      "tags": ["futur-simple", "grammar", "personalized"]
+    },
+    {
+      "id": "g8f-008",
+      "question": "'Le mien' means?",
+      "options": ["The mine (feminine)", "Mine (masculine)", "My friend", "The best"],
+      "correctIndex": 1,
+      "explanation": "Possessive pronouns replace noun + possessive adjective. 'Le mien' = mine (masculine). La mienne = mine (feminine).",
+      "difficulty": "medium",
+      "tags": ["pronouns", "grammar"]
+    },
+    {
+      "id": "g8f-009",
+      "question": "How do you say 'I would like to travel' in French?",
+      "options": ["Je veux voyager", "Je voudrais voyager", "J'aimerais voyager", "Je vais voyager"],
+      "correctIndex": 1,
+      "explanation": "'Je voudrais' (conditional of vouloir) = I would like. It is more polite than 'je veux' (I want).",
+      "difficulty": "medium",
+      "tags": ["conditionnel", "expressions"]
+    },
+    {
+      "id": "g8f-010",
+      "question": "How do you express 'the tallest girl' in French?",
+      "options": ["la fille plus grande", "la fille la plus grande", "la plus grande fille", "la fille très grande"],
+      "correctIndex": 1,
+      "explanation": "Superlative after noun: la fille la plus grande. Note: definite article (la) is repeated before 'plus'.",
+      "difficulty": "hard",
+      "tags": ["superlative", "grammar"]
+    },
+    {
+      "id": "g8f-011",
+      "question": "'Moins grand que' is an example of?",
+      "options": ["Superiority comparative", "Equality comparative", "Inferiority comparative (less...than)", "Superlative"],
+      "correctIndex": 2,
+      "explanation": "'Moins...que' = less...than (inferiority comparative). 'Aussi...que' = as...as (equality). 'Plus...que' = more...than.",
+      "difficulty": "medium",
+      "tags": ["comparatives", "grammar"]
+    },
+    {
+      "id": "g8f-012",
+      "question": "What mood does 'bien que' (although) require in French?",
+      "options": ["Indicatif", "Subjonctif", "Conditionnel", "Impératif"],
+      "correctIndex": 1,
+      "explanation": "Certain conjunctions (bien que, pour que, afin que, quoique) require the subjunctive (subjonctif). E.g., 'Bien qu'il soit fatigué...'",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "grammar"]
+    }
+  ]
+}
