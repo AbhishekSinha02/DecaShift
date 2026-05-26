@@ -1,6 +1,6 @@
 # Fix: Profile Save Performance (Slow Saving Feedback)
 
-**Priority:** P1 | **Type:** Technical | **Complexity:** S | **Status:** Pending
+**Priority:** P1 | **Type:** Technical | **Complexity:** S | **Status:** Done ✅ (v1.1)
 
 ## Goal
 Make the registration "Saving profile…" state feel instant — save to localStorage first, then sync to Drive in the background without blocking the UI transition.

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DecaShift — Version Comparison</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0f1117; color: #f1f5f9; font-family: 'Syne', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 16px; gap: 32px; }
+    .logo { display: flex; align-items: center; gap: 12px; }
+    .logo-box { width: 48px; height: 48px; background: #3b82f6; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 18px; }
+    h1 { font-size: 28px; font-weight: 800; }
+    p  { color: #64748b; font-size: 14px; margin-top: 4px; }
+    .versions { display: flex; flex-direction: column; gap: 12px; width: 100%; max-width: 560px; }
+    .v-card {
+      background: #1a1d27; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px;
+      padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    }
+    .v-info { flex: 1; }
+    .v-num   { font-family: 'DM Mono', monospace; font-size: 13px; color: #64748b; margin-bottom: 4px; }
+    .v-desc  { font-size: 14px; font-weight: 600; }
+    .badge   { font-family: 'DM Mono', monospace; font-size: 11px; padding: 3px 10px; border-radius: 20px; margin-top: 6px; display: inline-block; }
+    .badge-stable { background: rgba(34,197,94,0.1); color: #22c55e; }
+    .badge-latest { background: rgba(59,130,246,0.15); color: #3b82f6; }
+    .btn-open { background: #3b82f6; color: #fff; border: none; border-radius: 8px; padding: 10px 20px; font-family: 'Syne', sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; text-decoration: none; white-space: nowrap; }
+    .btn-open:hover { background: #2563eb; }
+    footer { color: #64748b; font-family: 'DM Mono', monospace; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <div class="logo-box">DS</div>
+    <div>
+      <h1>DecaShift</h1>
+      <p>Version comparison — open side by side</p>
+    </div>
+  </div>
+  <div class="versions" id="version-list">Loading…</div>
+  <footer>Open two tabs to compare versions simultaneously</footer>
+
+  <script>
+    fetch('versions.json')
+      .then(r => r.json())
+      .then(versions => {
+        document.getElementById('version-list').innerHTML = versions.map(v => `
+          <div class="v-card">
+            <div class="v-info">
+              <div class="v-num">${v.version} &mdash; ${v.date}</div>
+              <div class="v-desc">${v.description}</div>
+              <span class="badge badge-${v.status}">${v.status}</span>
+            </div>
+            <a class="btn-open" href="${v.path}" target="_blank">Open →</a>
+          </div>`).join('');
+      })
+      .catch(() => {
+        document.getElementById('version-list').textContent = 'Could not load versions.json';
+      });
+  </script>
+</body>
+</html>

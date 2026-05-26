@@ -1,6 +1,6 @@
 # Setup: Git Version Tagging Strategy for Deployable Versions
 
-**Priority:** P2 | **Type:** Technical | **Complexity:** S | **Status:** Pending
+**Priority:** P2 | **Type:** Technical | **Complexity:** S | **Status:** Done ✅ (v1.0, v1.1 tagged)
 
 ## Goal
 Establish a clear convention for tagging releases so any version can be retrieved, deployed, or compared at any time. Every significant app state is a named, recoverable point.

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "azure-aks",
+    "name": "Azure AKS",
+    "description": "Kubernetes on Azure — architecture, networking, workload identity",
+    "tags": ["azure", "cloud", "k8s"],
+    "createdAt": "2024-01-01"
+  },
+  {
+    "id": "mlops-interview",
+    "name": "MLOps Interview Prep",
+    "description": "CI/CD for ML, model registries, feature stores, monitoring",
+    "tags": ["ml", "devops", "interviews"],
+    "createdAt": "2024-01-01"
+  }
+]

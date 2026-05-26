@@ -1,6 +1,6 @@
 # Refactor: One File Per User + One File Per Session in Google Drive
 
-**Priority:** P1 | **Type:** Technical | **Complexity:** S | **Status:** Pending
+**Priority:** P1 | **Type:** Technical | **Complexity:** S | **Status:** Done ✅ (v2.0)
 
 ## Supersedes
 P1-T009 (migrate to Google Sheets) — **cancel that task**. This approach stays with Drive files but fixes the shared-file problem. Do P1-T011 instead of P1-T009.

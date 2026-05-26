@@ -1,16 +1,16 @@
-// storage.js — localStorage-first, Google Drive sync via Apps Script
+// storage.js — DecaShift v2 — localStorage-first, silent remote sync
 
 const Storage = (() => {
-  // Set APPS_SCRIPT_URL after deploying google-apps-script/Code.gs as a Web App
   const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxrMOKGCQ3WyZ1SkHOUSUyb8xYy6iYCYSzjLH3r2rVkoQii6UrNYRuPaA0shSukRkj0SA/exec';
 
   const KEYS = {
     USER:     'decashift_user',
     USER_ID:  'decashift_user_id',
-    SESSIONS: 'decashift_sessions'
+    SESSIONS: 'decashift_sessions',
+    ACCOUNTS: 'decashift_accounts'
   };
 
-  // ── User ──────────────────────────────────────────────────────────────────
+  // ── User identity ─────────────────────────────────────────────────────────
 
   function getOrCreateUserId() {
     let id = localStorage.getItem(KEYS.USER_ID);
@@ -30,20 +30,46 @@ const Storage = (() => {
     return raw ? JSON.parse(raw) : null;
   }
 
-  async function syncUserToRemote(user) {
-    if (!APPS_SCRIPT_URL) return { success: false, reason: 'no_endpoint' };
-    try {
-      const res = await fetch(APPS_SCRIPT_URL, {
-        method: 'POST',
-        // text/plain avoids CORS preflight while still carrying JSON body
-        headers: { 'Content-Type': 'text/plain' },
-        body: JSON.stringify({ action: 'saveUser', payload: user })
-      });
-      return await res.json();
-    } catch (err) {
-      console.warn('[DecaShift] Remote user sync failed — localStorage only:', err.message);
-      return { success: false, reason: 'fetch_failed' };
-    }
+  function clearSession() {
+    localStorage.removeItem(KEYS.USER);
+  }
+
+  // ── Auth accounts (email + passwordHash stored locally) ───────────────────
+
+  async function hashPassword(password) {
+    const data = new TextEncoder().encode(password + ':decashift-salt');
+    const hash = await crypto.subtle.digest('SHA-256', data);
+    return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+
+  function saveAccount(email, passwordHash, userId) {
+    const accounts = loadAccounts();
+    const idx = accounts.findIndex(a => a.email === email);
+    const record = { email, passwordHash, userId, createdAt: new Date().toISOString() };
+    if (idx >= 0) accounts[idx] = record; else accounts.push(record);
+    localStorage.setItem(KEYS.ACCOUNTS, JSON.stringify(accounts));
+  }
+
+  function loadAccounts() {
+    const raw = localStorage.getItem(KEYS.ACCOUNTS);
+    return raw ? JSON.parse(raw) : [];
+  }
+
+  function findAccount(email) {
+    return loadAccounts().find(a => a.email === email.toLowerCase()) || null;
+  }
+
+  // ── Remote sync — silent, fire-and-forget ─────────────────────────────────
+
+  function syncUserToRemote(user) {
+    if (!APPS_SCRIPT_URL) return Promise.resolve({ success: false });
+    return fetch(APPS_SCRIPT_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/plain' },
+      body: JSON.stringify({ action: 'saveUser', payload: user })
+    })
+    .then(r => r.json())
+    .catch(() => ({ success: false }));
   }
 
   // ── Sessions ──────────────────────────────────────────────────────────────
@@ -58,7 +84,7 @@ const Storage = (() => {
         method: 'POST',
         headers: { 'Content-Type': 'text/plain' },
         body: JSON.stringify({ action: 'saveSession', payload: session })
-      }).catch(err => console.warn('[DecaShift] Session sync failed:', err.message));
+      }).catch(() => {});
     }
   }
 
@@ -73,50 +99,31 @@ const Storage = (() => {
   }
 
   function clearSessionsForGoal(goalId) {
-    const remaining = loadSessions().filter(s => s.goalId !== goalId);
-    localStorage.setItem(KEYS.SESSIONS, JSON.stringify(remaining));
+    localStorage.setItem(KEYS.SESSIONS, JSON.stringify(loadSessions().filter(s => s.goalId !== goalId)));
   }
 
   // ── Export ────────────────────────────────────────────────────────────────
 
   function exportAsJSON(sessions) {
-    _downloadBlob(
-      new Blob([JSON.stringify(sessions, null, 2)], { type: 'application/json' }),
-      `decashift-sessions-${Date.now()}.json`
-    );
+    _dl(new Blob([JSON.stringify(sessions, null, 2)], { type: 'application/json' }), `decashift-${Date.now()}.json`);
   }
 
   function exportAsCSV(sessions) {
-    const headers = ['sessionId','userId','goalId','sessionStart','sessionEnd',
-                     'totalDurationSeconds','score','total','accuracy'];
-    const rows = sessions.map(s =>
-      headers.map(h => `"${String(s[h] ?? '').replace(/"/g, '""')}"`).join(',')
-    );
-    _downloadBlob(
-      new Blob([[headers.join(','), ...rows].join('\n')], { type: 'text/csv' }),
-      `decashift-sessions-${Date.now()}.csv`
-    );
+    const h = ['sessionId','userId','goalId','score','total','accuracy'];
+    const rows = sessions.map(s => h.map(k => `"${String(s[k]??'').replace(/"/g,'""')}"`).join(','));
+    _dl(new Blob([[h.join(','),...rows].join('\n')], { type: 'text/csv' }), `decashift-${Date.now()}.csv`);
   }
 
-  function _downloadBlob(blob, filename) {
-    const url = URL.createObjectURL(blob);
-    const a = Object.assign(document.createElement('a'), { href: url, download: filename });
-    a.click();
-    URL.revokeObjectURL(url);
+  function _dl(blob, name) {
+    const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: name });
+    a.click(); URL.revokeObjectURL(a.href);
   }
-
-  // ── Public API ─────────────────────────────────────────────────────────────
 
   return {
-    getOrCreateUserId,
-    saveUser,
-    loadUser,
+    getOrCreateUserId, saveUser, loadUser, clearSession,
+    hashPassword, saveAccount, findAccount,
     syncUserToRemote,
-    saveSession,
-    loadSessions,
-    getLastSessionForGoal,
-    clearSessionsForGoal,
-    exportAsJSON,
-    exportAsCSV
+    saveSession, loadSessions, getLastSessionForGoal, clearSessionsForGoal,
+    exportAsJSON, exportAsCSV
   };
 })();

@@ -1,12 +1,22 @@
 // ============================================================
-// DecaShift — Google Apps Script Web App
+// DecaShift — Google Apps Script Web App  (v2)
 // ============================================================
 // SETUP:
-//  1. Open script.google.com → New Project → paste this file
+//  1. script.google.com → New Project → paste this file
 //  2. Deploy → New Deployment → Web App
 //     Execute as: Me  |  Who has access: Anyone
 //  3. Copy the Web App URL
-//  4. Paste it into APPS_SCRIPT_URL in app/ui/storage.js
+//  4. Paste into APPS_SCRIPT_URL in app/ui/storage.js
+//
+// Drive folder structure created automatically:
+//   <FOLDER_ID>/
+//   ├── users/
+//   │   └── user_{userId}.json        ← one file per user
+//   ├── sessions/
+//   │   └── {userId}/
+//   │       └── sess_{sessionId}.json ← one file per session
+//   └── logs/
+//       └── log_{timestamp}.json      ← one file per event
 // ============================================================
 
 const FOLDER_ID = '1EENu6cQzED2mjSdWCuXRLYYQ_BBxbPTp';
@@ -14,68 +24,71 @@ const FOLDER_ID = '1EENu6cQzED2mjSdWCuXRLYYQ_BBxbPTp';
 // ── Entry Points ──────────────────────────────────────────────────────────────
 
 function doGet() {
-  return _json({ status: 'DecaShift API running', version: '1.0' });
+  return _json({ status: 'DecaShift API running', version: '2.0' });
 }
 
 function doPost(e) {
   try {
-    const body = JSON.parse(e.postData.contents);
+    const body   = JSON.parse(e.postData.contents);
     const action = body.action;
-    const data = body.payload;
+    const data   = body.payload;
 
     if (action === 'saveUser')    return _json(saveUser(data));
     if (action === 'saveSession') return _json(saveSession(data));
 
     return _json({ success: false, error: 'Unknown action: ' + action });
   } catch (err) {
+    _writeLog({ event: 'error', error: err.message, timestamp: new Date().toISOString() });
     return _json({ success: false, error: err.message });
   }
 }
 
-// ── User Storage ─────────────────────────────────────────────────────────────
+// ── User — one file per user ──────────────────────────────────────────────────
 
 function saveUser(user) {
   const usersFolder = _subFolder(_rootFolder(), 'users');
-  const users = _readJSON(usersFolder, 'users.json', []);
+  const filename    = 'user_' + user.userId + '.json';
+  const content     = JSON.stringify(user, null, 2);
 
-  const idx = users.findIndex(u => u.email === user.email);
-  const isNew = idx < 0;
-
-  if (isNew) {
-    user.savedAt = new Date().toISOString();
-    users.push(user);
-    _appendCSV(usersFolder, 'users.csv',
-      ['userId','name','email','mobile','role','company','registeredAt','savedAt'],
-      user
-    );
+  const iter = usersFolder.getFilesByName(filename);
+  if (iter.hasNext()) {
+    iter.next().setContent(content);           // update existing user file
   } else {
-    users[idx] = Object.assign({}, users[idx], user, { updatedAt: new Date().toISOString() });
+    usersFolder.createFile(filename, content, MimeType.PLAIN_TEXT);
   }
 
-  _writeJSON(usersFolder, 'users.json', users);
-  return { success: true, action: isNew ? 'created' : 'updated' };
-}
-
-// ── Session Storage ───────────────────────────────────────────────────────────
-
-function saveSession(session) {
-  const sessionsFolder = _subFolder(_rootFolder(), 'sessions');
-  const sessions = _readJSON(sessionsFolder, 'sessions.json', []);
-
-  session.savedAt = new Date().toISOString();
-  sessions.push(session);
-  _writeJSON(sessionsFolder, 'sessions.json', sessions);
-
-  _appendCSV(sessionsFolder, 'sessions.csv',
-    ['sessionId','userId','goalId','sessionStart','sessionEnd',
-     'totalDurationSeconds','score','total','accuracy','savedAt'],
-    session
-  );
-
+  _writeLog({ event: 'user_saved', userId: user.userId });
   return { success: true };
 }
 
-// ── Drive Helpers ─────────────────────────────────────────────────────────────
+// ── Session — one file per session, write-once ────────────────────────────────
+
+function saveSession(session) {
+  const root           = _rootFolder();
+  const sessionsFolder = _subFolder(root, 'sessions');
+  const userFolder     = _subFolder(sessionsFolder, session.userId);
+  const filename       = 'sess_' + session.sessionId + '.json';
+
+  userFolder.createFile(filename, JSON.stringify(session, null, 2), MimeType.PLAIN_TEXT);
+
+  _writeLog({ event: 'session_saved', sessionId: session.sessionId, userId: session.userId, score: session.score + '/' + session.total });
+  return { success: true };
+}
+
+// ── Logs — one file per event, silent ────────────────────────────────────────
+
+function _writeLog(data) {
+  try {
+    const logsFolder = _subFolder(_rootFolder(), 'logs');
+    const ts         = new Date().toISOString().replace(/[:.]/g, '-');
+    const content    = JSON.stringify({ ...data, timestamp: new Date().toISOString() }, null, 2);
+    logsFolder.createFile('log_' + ts + '.json', content, MimeType.PLAIN_TEXT);
+  } catch (_) {
+    // never let log writing break the main response
+  }
+}
+
+// ── Drive helpers ─────────────────────────────────────────────────────────────
 
 function _rootFolder() {
   return DriveApp.getFolderById(FOLDER_ID);
@@ -84,41 +97,6 @@ function _rootFolder() {
 function _subFolder(parent, name) {
   const iter = parent.getFoldersByName(name);
   return iter.hasNext() ? iter.next() : parent.createFolder(name);
-}
-
-function _readJSON(folder, filename, fallback) {
-  const iter = folder.getFilesByName(filename);
-  if (!iter.hasNext()) return fallback;
-  try { return JSON.parse(iter.next().getBlob().getDataAsString()); }
-  catch (_) { return fallback; }
-}
-
-function _writeJSON(folder, filename, data) {
-  const content = JSON.stringify(data, null, 2);
-  const iter = folder.getFilesByName(filename);
-  if (iter.hasNext()) iter.next().setContent(content);
-  else folder.createFile(filename, content, MimeType.PLAIN_TEXT);
-}
-
-function _appendCSV(folder, filename, headers, record) {
-  const iter = folder.getFilesByName(filename);
-  let csv = '';
-  let file = null;
-
-  if (iter.hasNext()) {
-    file = iter.next();
-    csv = file.getBlob().getDataAsString();
-  } else {
-    csv = headers.join(',') + '\n';
-  }
-
-  const row = headers
-    .map(h => '"' + String(record[h] !== undefined ? record[h] : '').replace(/"/g, '""') + '"')
-    .join(',');
-  csv += row + '\n';
-
-  if (file) file.setContent(csv);
-  else folder.createFile(filename, csv, MimeType.PLAIN_TEXT);
 }
 
 function _json(data) {

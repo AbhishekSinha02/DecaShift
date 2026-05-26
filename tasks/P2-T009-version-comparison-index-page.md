@@ -1,6 +1,6 @@
 # Feature: Version Comparison Index Page
 
-**Priority:** P2 | **Type:** Functional | **Complexity:** S | **Status:** Pending
+**Priority:** P2 | **Type:** Functional | **Complexity:** S | **Status:** Done ✅ (root index.html + versions.json)
 
 ## Goal
 A simple root-level page that lists all deployed versions with links, descriptions, and what changed — so you can open any version instantly without remembering URLs.

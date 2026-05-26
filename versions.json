@@ -1,0 +1,16 @@
+[
+  {
+    "version": "v1.1",
+    "path": "./v1/",
+    "date": "2025-05-25",
+    "description": "Registration screen, quiz engine, Drive sync, perf fix",
+    "status": "stable"
+  },
+  {
+    "version": "v2.0",
+    "path": "./app/ui/",
+    "date": "2025-05-25",
+    "description": "Landing page, sign up / sign in / sign out, student + professional paths, grade-based questions, silent Drive sync, individual user files",
+    "status": "latest"
+  }
+]

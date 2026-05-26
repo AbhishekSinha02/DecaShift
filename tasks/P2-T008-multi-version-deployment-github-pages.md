@@ -1,6 +1,6 @@
 # Setup: Multi-Version Deployment via GitHub Pages Subdirectories
 
-**Priority:** P2 | **Type:** Technical | **Complexity:** S | **Status:** Pending
+**Priority:** P2 | **Type:** Technical | **Complexity:** S | **Status:** Done ✅ (v1/ folder created, app/ui/ = latest)
 
 ## Goal
 Deploy 2–3 versions of the app simultaneously so you can open them side by side in the browser and compare behavior, UI, or data schema — without any extra hosting cost.

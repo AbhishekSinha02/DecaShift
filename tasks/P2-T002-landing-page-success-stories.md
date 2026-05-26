@@ -1,6 +1,6 @@
 # Feature: Landing Page with Success Stories
 
-**Priority:** P2 | **Type:** Functional + Technical | **Complexity:** M | **Status:** Pending
+**Priority:** P2 | **Type:** Functional + Technical | **Complexity:** M | **Status:** Done ✅ (v2.0 — hero, student/pro paths, 3 success stories, stats bar)
 
 ## Goal
 First-time visitors land on an emotionally engaging page that shows real transformation stories before they sign up. Build trust and motivation before any commitment.
