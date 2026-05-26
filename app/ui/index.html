@@ -23,7 +23,10 @@
         <div class="brand-logo-sm">DS</div>
         <span class="brand-name-sm">DecaShift</span>
       </div>
-      <button class="btn btn-ghost btn-sm" id="btn-go-signin">Sign In</button>
+      <div class="land-nav-right">
+        <button class="btn btn-ghost btn-sm theme-toggle-btn" onclick="toggleTheme()">☀️</button>
+        <button class="btn btn-ghost btn-sm" id="btn-go-signin">Sign In</button>
+      </div>
     </nav>
 
     <div class="land-hero">
@@ -259,12 +262,39 @@
           <h1 class="home-title" id="user-greeting">Your Goals</h1>
         </div>
         <div class="home-header-right">
+          <button class="btn btn-ghost btn-sm theme-toggle-btn" onclick="toggleTheme()">☀️</button>
           <div class="user-chip" onclick="toggleUserMenu()" style="cursor:pointer">
             <div class="user-avatar" id="user-avatar">?</div>
             <span id="user-chip-name">—</span>
           </div>
           <div class="user-menu hidden" id="user-menu">
             <button class="user-menu-item" onclick="signOut()">Sign Out</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dashboard: streak + progress stats -->
+      <div class="home-dashboard">
+        <div class="streak-row">
+          <div class="streak-main">
+            <span class="streak-flame">🔥</span>
+            <span class="streak-count" id="streak-count">0</span>
+            <span class="streak-label">day streak</span>
+          </div>
+          <div class="streak-best">Best: <strong id="streak-best">0</strong> days</div>
+        </div>
+        <div class="stats-row">
+          <div class="stat-mini">
+            <span class="stat-mini-val" id="stat-sessions">0</span>
+            <span class="stat-mini-key">Sessions</span>
+          </div>
+          <div class="stat-mini">
+            <span class="stat-mini-val" id="stat-accuracy">—</span>
+            <span class="stat-mini-key">Avg Accuracy</span>
+          </div>
+          <div class="stat-mini">
+            <span class="stat-mini-val" id="stat-time">0m</span>
+            <span class="stat-mini-key">Practiced</span>
           </div>
         </div>
       </div>
@@ -284,7 +314,10 @@
 
       <div class="quiz-header">
         <span class="quiz-progress-text" id="quiz-progress-text">Question 1 of 10</span>
-        <div class="timer-badge" id="timer-display">00:00</div>
+        <div class="quiz-header-right">
+          <button class="btn btn-ghost btn-xs timer-toggle-btn" id="timer-toggle-btn" onclick="toggleTimer()">Timer ON</button>
+          <div class="timer-badge" id="timer-display">00:00</div>
+        </div>
       </div>
 
       <div class="progress-track">

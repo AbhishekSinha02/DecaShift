@@ -1,4 +1,4 @@
-// storage.js — DecaShift v2 — localStorage-first, silent remote sync
+// storage.js — DecaShift v3 — localStorage-first, silent remote sync
 
 const Storage = (() => {
   const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxrMOKGCQ3WyZ1SkHOUSUyb8xYy6iYCYSzjLH3r2rVkoQii6UrNYRuPaA0shSukRkj0SA/exec';
@@ -7,7 +7,10 @@ const Storage = (() => {
     USER:     'decashift_user',
     USER_ID:  'decashift_user_id',
     SESSIONS: 'decashift_sessions',
-    ACCOUNTS: 'decashift_accounts'
+    ACCOUNTS: 'decashift_accounts',
+    STREAK:   'decashift_streak',
+    THEME:    'decashift_theme',
+    TIMER:    'decashift_timer'
   };
 
   // ── User identity ─────────────────────────────────────────────────────────
@@ -64,7 +67,6 @@ const Storage = (() => {
     return loadAccounts().find(a => a.email === email.toLowerCase()) || null;
   }
 
-  // Sync full account (including profile) to Drive so login works across devices
   async function syncAccountToDrive(accountData) {
     if (!APPS_SCRIPT_URL) return;
     const eHash = await _emailHash(accountData.email);
@@ -75,7 +77,6 @@ const Storage = (() => {
     }).catch(() => {});
   }
 
-  // Fetch account from Drive when not in localStorage (incognito / new device)
   async function fetchAccountFromDrive(email) {
     if (!APPS_SCRIPT_URL) return null;
     try {
@@ -130,6 +131,29 @@ const Storage = (() => {
     localStorage.setItem(KEYS.SESSIONS, JSON.stringify(loadSessions().filter(s => s.goalId !== goalId)));
   }
 
+  // ── Streak ────────────────────────────────────────────────────────────────
+
+  function loadStreak() {
+    const raw = localStorage.getItem(KEYS.STREAK);
+    return raw ? JSON.parse(raw) : { current: 0, best: 0, lastDate: null };
+  }
+
+  function saveStreak(streak) {
+    localStorage.setItem(KEYS.STREAK, JSON.stringify(streak));
+  }
+
+  function updateStreak() {
+    const today = new Date().toISOString().slice(0, 10);
+    const streak = loadStreak();
+    if (streak.lastDate === today) return streak;
+    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    streak.current = streak.lastDate === yesterday ? streak.current + 1 : 1;
+    streak.best = Math.max(streak.best, streak.current);
+    streak.lastDate = today;
+    saveStreak(streak);
+    return streak;
+  }
+
   // ── Export ────────────────────────────────────────────────────────────────
 
   function exportAsJSON(sessions) {
@@ -153,6 +177,7 @@ const Storage = (() => {
     syncAccountToDrive, fetchAccountFromDrive,
     syncUserToRemote,
     saveSession, loadSessions, getLastSessionForGoal, clearSessionsForGoal,
+    loadStreak, saveStreak, updateStreak,
     exportAsJSON, exportAsCSV
   };
 })();

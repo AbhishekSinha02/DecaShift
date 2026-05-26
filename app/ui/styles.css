@@ -787,3 +787,153 @@ select option { background: var(--surface-2); }
   .result-score-big { font-size: 48px; }
   .result-actions   { flex-direction: column; }
 }
+
+/* ══════════════════════════════════════════════════════════════
+   LIGHT MODE
+   ══════════════════════════════════════════════════════════════ */
+
+[data-theme="light"] {
+  --bg:         #f8fafc;
+  --surface:    #ffffff;
+  --surface-2:  #f1f5f9;
+  --text:       #0f172a;
+  --muted:      #64748b;
+  --border:     rgba(0, 0, 0, 0.10);
+  --accent-dim: rgba(59, 130, 246, 0.08);
+}
+
+[data-theme="light"] input,
+[data-theme="light"] select,
+[data-theme="light"] textarea {
+  background: var(--surface);
+  color: var(--text);
+}
+
+[data-theme="light"] select option { background: var(--surface); color: var(--text); }
+
+/* ══════════════════════════════════════════════════════════════
+   THEME TOGGLE + LANDING NAV
+   ══════════════════════════════════════════════════════════════ */
+
+.land-nav-right { display: flex; align-items: center; gap: 8px; }
+
+.theme-toggle-btn { font-size: 16px; padding: 7px 10px; line-height: 1; }
+
+/* ══════════════════════════════════════════════════════════════
+   TIMER TOGGLE IN QUIZ
+   ══════════════════════════════════════════════════════════════ */
+
+.btn-xs { font-size: 11px; padding: 5px 10px; border-radius: 6px; min-height: unset; }
+
+.quiz-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timer-toggle-btn.active {
+  background: var(--accent-dim);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   HOME DASHBOARD — streak + progress stats
+   ══════════════════════════════════════════════════════════════ */
+
+.home-dashboard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  margin-bottom: 24px;
+}
+
+.streak-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.streak-main { display: flex; align-items: center; gap: 8px; }
+
+.streak-flame { font-size: 26px; line-height: 1; }
+
+.streak-count {
+  font-family: var(--font-mono);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--warning);
+  line-height: 1;
+}
+
+.streak-label { font-size: 13px; color: var(--muted); }
+
+.streak-best {
+  font-size: 12px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+}
+.streak-best strong { color: var(--text); }
+
+.stats-row {
+  display: flex;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+
+.stat-mini {
+  flex: 1;
+  text-align: center;
+  padding: 0 8px;
+  border-right: 1px solid var(--border);
+}
+.stat-mini:last-child { border-right: none; }
+
+.stat-mini-val {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.stat-mini-key {
+  display: block;
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: var(--font-mono);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   RESULT BADGE COLORS
+   ══════════════════════════════════════════════════════════════ */
+
+.badge-excellent  { border-color: var(--success); color: var(--success); }
+.badge-good       { border-color: var(--warning); color: var(--warning); }
+.badge-needs-work { border-color: var(--error);   color: var(--error); }
+
+/* ══════════════════════════════════════════════════════════════
+   MOBILE — improved touch targets + layout
+   ══════════════════════════════════════════════════════════════ */
+
+@media (max-width: 640px) {
+  .btn { min-height: 44px; }
+  .answer-card { min-height: 52px; }
+  .quiz-header-right { flex-direction: column-reverse; align-items: flex-end; gap: 6px; }
+  .stat-mini-val { font-size: 18px; }
+  .streak-count  { font-size: 26px; }
+  .home-header-right { gap: 6px; }
+}
+
+@media (max-width: 480px) {
+  .home-dashboard { padding: 14px 16px; }
+  .streak-count  { font-size: 22px; }
+  .streak-flame  { font-size: 22px; }
+  .stat-mini-val { font-size: 16px; }
+}

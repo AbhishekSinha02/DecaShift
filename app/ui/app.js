@@ -1,4 +1,4 @@
-// app.js — DecaShift v2
+// app.js — DecaShift v3
 
 const CONFIG = {
   owner:         'AbhishekSinha02',
@@ -27,12 +27,14 @@ const state = {
   questionStart: null,
   selectedAnswerIndex: null,
   timerInterval: null,
-  timerSeconds: 0
+  timerSeconds: 0,
+  timerEnabled: localStorage.getItem('decashift_timer') !== 'off'
 };
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 
 async function init() {
+  _initTheme();
   await _loadManifest();
   const user = Storage.loadUser();
   if (user) {
@@ -46,10 +48,48 @@ async function init() {
   }
 }
 
+function _initTheme() {
+  const theme = localStorage.getItem('decashift_theme') || 'dark';
+  document.documentElement.dataset.theme = theme;
+  _updateThemeBtns(theme);
+}
+
+function _updateThemeBtns(theme) {
+  document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
+    btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    btn.title = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+  });
+}
+
+function toggleTheme() {
+  const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = next;
+  localStorage.setItem('decashift_theme', next);
+  _updateThemeBtns(next);
+}
+
+// ── Manifest + Question Loading ───────────────────────────────────────────────
+
 async function _loadManifest() {
+  // 1. GitHub Contents API — auto-discovers all JSON files, no manifest.json maintenance needed
+  const isLocalhost = location.hostname === 'localhost' || location.hostname === '127.0.0.1' || location.hostname === '';
+  if (!isLocalhost) {
+    try {
+      const apiUrl = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/app/ui/questions`;
+      const r = await fetch(apiUrl, { headers: { Accept: 'application/vnd.github.v3+json' } });
+      if (r.ok) {
+        const files = await r.json();
+        const discovered = files
+          .filter(f => f.type === 'file' && f.name.endsWith('.json') && f.name !== 'manifest.json')
+          .map(f => ({ file: f.name }));
+        if (discovered.length) { state.manifest = discovered; return; }
+      }
+    } catch (_) {}
+  }
+  // 2. Fallback: static manifest.json (local dev + offline + API rate-limited)
   const urls = [
     _rawUrl('app/ui/questions/manifest.json'),
-    'questions/manifest.json'           // local fallback (localhost / offline)
+    'questions/manifest.json'
   ];
   for (const url of urls) {
     try {
@@ -62,35 +102,43 @@ async function _loadManifest() {
 }
 
 async function _loadQuestionsForUser(user) {
-  const entries = _filterManifest(state.manifest, user);
-  const results = await Promise.all(
-    entries.map(e => _fetchQuestionFile(e.file))
-  );
+  // Auto-discovered entries only have { file } — no category metadata for pre-filtering.
+  // Manifest entries have category/grade for fast pre-filtering.
+  const isAutoDiscovered = state.manifest.length && !('category' in state.manifest[0]);
+  const entries = isAutoDiscovered ? state.manifest : _filterManifest(state.manifest, user);
+
+  const results = await Promise.all(entries.map(e => _fetchQuestionFile(e.file)));
 
   state.goals     = [];
   state.questions = [];
 
   results.filter(Boolean).forEach(file => {
+    if (isAutoDiscovered && !_fileMatchesUser(file, user)) return;
     state.goals.push({
-      id:          file.goalId,
-      name:        file.name,
-      description: file.description,
-      category:    file.category,
-      grade:       file.grade ?? null,
-      subject:     file.subject,
-      level:       file.level,
-      tags:        file.tags || []
+      id: file.goalId, name: file.name, description: file.description,
+      category: file.category, grade: file.grade ?? null,
+      subject: file.subject, level: file.level, tags: file.tags || []
     });
-    (file.questions || []).forEach(q => {
-      state.questions.push({ ...q, goalId: file.goalId });
-    });
+    (file.questions || []).forEach(q => state.questions.push({ ...q, goalId: file.goalId }));
   });
+}
+
+// Mirrors _filterManifest logic but works on loaded file content (used for auto-discovery path)
+function _fileMatchesUser(file, user) {
+  const cat = user.category;
+  if (!cat) return true;
+  if (cat === 'school') {
+    if (user.grade === 'college') return file.category === 'college';
+    return file.category === 'school' && file.grade === parseInt(user.grade, 10);
+  }
+  if (cat === 'college') return file.category === 'college';
+  return file.category === 'professional';
 }
 
 async function _fetchQuestionFile(filename) {
   const urls = [
     _rawUrl('app/ui/questions/' + filename),
-    'questions/' + filename             // local fallback
+    'questions/' + filename
   ];
   for (const url of urls) {
     try {
@@ -227,7 +275,6 @@ async function _handleSignup(e) {
   _showScreen('home');
   _renderHome();
 
-  // Silent background sync — user profile + account for cross-device login
   Storage.syncUserToRemote(user).catch(() => {});
   Storage.syncAccountToDrive({ email, passwordHash, userId, name, category, grade, course, role, company, registeredAt }).catch(() => {});
 }
@@ -262,7 +309,6 @@ async function _handleSignin(e) {
   let account = Storage.findAccount(email);
 
   if (!account) {
-    // Not in localStorage — try Drive (cross-device / incognito recovery)
     btn.textContent = 'Checking account…';
     const driveAccount = await Storage.fetchAccountFromDrive(email);
     if (!driveAccount) {
@@ -270,7 +316,6 @@ async function _handleSignin(e) {
       btn.disabled = false; btn.textContent = 'Sign In →';
       return;
     }
-    // Restore account and full user profile to localStorage
     Storage.saveAccount(driveAccount.email, driveAccount.passwordHash, driveAccount.userId);
     const { passwordHash: _ph, emailHash: _eh, ...userProfile } = driveAccount;
     Storage.saveUser(userProfile);
@@ -286,7 +331,6 @@ async function _handleSignin(e) {
 
   let user = Storage.loadUser();
   if (!user || user.userId !== account.userId) {
-    // Restore full profile from account record (includes category, grade, etc.)
     const { passwordHash: _ph, ...userProfile } = account;
     user = userProfile;
     Storage.saveUser(user);
@@ -329,7 +373,33 @@ function _renderHome() {
   const avatar = document.getElementById('user-avatar');
   if (avatar) avatar.textContent = firstName[0].toUpperCase();
 
-  const goals = state.goals; // already filtered for this user by _loadQuestionsForUser
+  // Streak
+  const streak = Storage.loadStreak();
+  const elStreakCount = document.getElementById('streak-count');
+  const elStreakBest  = document.getElementById('streak-best');
+  if (elStreakCount) elStreakCount.textContent = streak.current;
+  if (elStreakBest)  elStreakBest.textContent  = streak.best;
+
+  // Progress stats
+  const sessions  = Storage.loadSessions().filter(s => s.userId === user.userId);
+  const elSess    = document.getElementById('stat-sessions');
+  const elAcc     = document.getElementById('stat-accuracy');
+  const elTime    = document.getElementById('stat-time');
+  if (elSess) elSess.textContent = sessions.length;
+  if (elAcc) {
+    elAcc.textContent = sessions.length
+      ? Math.round(sessions.reduce((s, r) => s + (r.accuracy || 0), 0) / sessions.length * 100) + '%'
+      : '—';
+  }
+  if (elTime) {
+    const totalSec = sessions.reduce((s, r) => s + (r.totalDurationSeconds || 0), 0);
+    elTime.textContent = totalSec < 60 ? totalSec + 's' : Math.round(totalSec / 60) + 'm';
+  }
+
+  // Sync theme button state
+  _updateThemeBtns(document.documentElement.dataset.theme || 'dark');
+
+  const goals = state.goals;
   const list  = document.getElementById('goals-list');
   if (!list) return;
 
@@ -406,6 +476,15 @@ function _renderQuestion() {
   document.getElementById('submit-btn').classList.remove('hidden');
   document.getElementById('next-btn').classList.add('hidden');
 
+  // Timer display state
+  const timerBadge = document.getElementById('timer-display');
+  const timerBtn   = document.getElementById('timer-toggle-btn');
+  if (timerBadge) timerBadge.classList.toggle('hidden', !state.timerEnabled);
+  if (timerBtn) {
+    timerBtn.textContent = state.timerEnabled ? 'Timer ON' : 'Timer OFF';
+    timerBtn.classList.toggle('active', state.timerEnabled);
+  }
+
   _startTimer();
 }
 
@@ -452,15 +531,28 @@ function nextQuestion() {
   state.currentIndex >= state.filteredQuestions.length ? _showResult() : _renderQuestion();
 }
 
-function _startTimer() {
-  clearInterval(state.timerInterval);
-  state.timerSeconds = 0; _updateTimer();
-  state.timerInterval = setInterval(() => { state.timerSeconds++; _updateTimer(); }, 1000);
+function toggleTimer() {
+  state.timerEnabled = !state.timerEnabled;
+  localStorage.setItem('decashift_timer', state.timerEnabled ? 'on' : 'off');
+  const timerBadge = document.getElementById('timer-display');
+  const timerBtn   = document.getElementById('timer-toggle-btn');
+  if (timerBadge) timerBadge.classList.toggle('hidden', !state.timerEnabled);
+  if (timerBtn) {
+    timerBtn.textContent = state.timerEnabled ? 'Timer ON' : 'Timer OFF';
+    timerBtn.classList.toggle('active', state.timerEnabled);
+  }
 }
 
-function _stopTimer()  { clearInterval(state.timerInterval); state.timerInterval = null; }
+function _startTimer() {
+  clearInterval(state.timerInterval);
+  state.timerSeconds = 0;
+  _updateTimerDisplay();
+  state.timerInterval = setInterval(() => { state.timerSeconds++; _updateTimerDisplay(); }, 1000);
+}
 
-function _updateTimer() {
+function _stopTimer() { clearInterval(state.timerInterval); state.timerInterval = null; }
+
+function _updateTimerDisplay() {
   const el = document.getElementById('timer-display');
   if (el) el.textContent = String(Math.floor(state.timerSeconds / 60)).padStart(2, '0') + ':' + String(state.timerSeconds % 60).padStart(2, '0');
 }
@@ -482,11 +574,21 @@ function _showResult() {
   };
 
   Storage.saveSession(session);
+  Storage.updateStreak();
+
   _showScreen('result');
 
   document.getElementById('result-score').textContent = correct + ' / ' + total;
   document.getElementById('result-pct').textContent   = pct + '%';
-  document.getElementById('result-badge').textContent = pct >= 80 ? 'Excellent' : pct >= 60 ? 'Good' : 'Needs Work';
+
+  const badge = document.getElementById('result-badge');
+  if (pct >= 80) {
+    badge.textContent = 'Excellent'; badge.className = 'result-badge badge-excellent';
+  } else if (pct >= 60) {
+    badge.textContent = 'Good'; badge.className = 'result-badge badge-good';
+  } else {
+    badge.textContent = 'Needs Work'; badge.className = 'result-badge badge-needs-work';
+  }
 
   document.getElementById('result-table-body').innerHTML = state.filteredQuestions.map((q, i) => {
     const r = state.responses[i];
