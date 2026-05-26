@@ -1,0 +1,57 @@
+{
+  "goalId": "college-dsa",
+  "name": "Data Structures & Algorithms",
+  "subject": "dsa",
+  "category": "college",
+  "grade": null,
+  "level": 1,
+  "description": "Arrays, linked lists, trees, graphs, sorting and searching",
+  "tags": ["dsa", "algorithms", "college"],
+  "questions": [
+    {
+      "id": "dsa-001",
+      "question": "What is the time complexity of accessing an element in an array by index?",
+      "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+      "correctIndex": 2,
+      "explanation": "Array access by index is O(1) — constant time — because the memory address is calculated directly.",
+      "tags": ["arrays"]
+    },
+    {
+      "id": "dsa-002",
+      "question": "Which sorting algorithm has the best average-case time complexity?",
+      "options": ["Bubble Sort — O(n²)", "Merge Sort — O(n log n)", "Selection Sort — O(n²)", "Insertion Sort — O(n²)"],
+      "correctIndex": 1,
+      "explanation": "Merge Sort has O(n log n) average and worst-case complexity, making it one of the most efficient general-purpose sorting algorithms.",
+      "tags": ["sorting"]
+    },
+    {
+      "id": "dsa-003",
+      "question": "In a singly linked list, which operation is O(1)?",
+      "options": ["Search by value", "Access by index", "Insert at head", "Delete from tail"],
+      "correctIndex": 2,
+      "explanation": "Inserting at the head of a singly linked list is O(1) — just update the head pointer. All other options require traversal.",
+      "tags": ["linked-list"]
+    },
+    {
+      "id": "dsa-004",
+      "question": "Which data structure is best for implementing a breadth-first search (BFS)?",
+      "options": ["Stack", "Queue", "Heap", "Array"],
+      "correctIndex": 1,
+      "explanation": "BFS uses a Queue (FIFO) to explore nodes level by level. DFS uses a Stack (or recursion).",
+      "tags": ["graphs", "bfs"]
+    },
+    {
+      "id": "dsa-005",
+      "question": "What is a Binary Search Tree (BST) property?",
+      "options": [
+        "Left child > parent > right child",
+        "Left child < parent < right child",
+        "All nodes are equal",
+        "Parent is always the largest node"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a BST: left subtree values < node value < right subtree values. This property enables O(log n) search.",
+      "tags": ["trees", "bst"]
+    }
+  ]
+}

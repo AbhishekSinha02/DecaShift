@@ -7,10 +7,17 @@
     "status": "stable"
   },
   {
-    "version": "v2.0",
+    "version": "v2.1",
+    "path": "./v2/",
+    "date": "2026-05-26",
+    "description": "Landing page, auth, student/pro paths, grade questions, Drive individual files, GitHub raw URLs, cross-device login, BUG-001 fix",
+    "status": "stable"
+  },
+  {
+    "version": "v3-dev",
     "path": "./app/ui/",
-    "date": "2025-05-25",
-    "description": "Landing page, sign up / sign in / sign out, student + professional paths, grade-based questions, silent Drive sync, individual user files",
+    "date": "2026-05-26",
+    "description": "Active development — mobile redesign, streaks, timer toggle, progress dashboard",
     "status": "latest"
   }
 ]

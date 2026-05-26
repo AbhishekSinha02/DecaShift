@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f1117">
+  <title>DecaShift — Build Your Future, One Answer at a Time</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('decashift_theme') || 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: Landing
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-landing" class="screen active">
+
+    <nav class="land-nav">
+      <div class="brand-inline">
+        <div class="brand-logo-sm">DS</div>
+        <span class="brand-name-sm">DecaShift</span>
+      </div>
+      <button class="btn btn-ghost btn-sm" id="btn-go-signin">Sign In</button>
+    </nav>
+
+    <div class="land-hero">
+      <p class="land-eyebrow">For students &amp; professionals</p>
+      <h1 class="land-headline">Build your future,<br>one answer at a time.</h1>
+      <p class="land-sub">Practice daily, track your growth, and discover how fast you can improve when every session counts.</p>
+    </div>
+
+    <div class="land-paths">
+      <button class="path-card path-student" id="btn-for-students">
+        <div class="path-icon">🎓</div>
+        <h2 class="path-title">I'm a Student</h2>
+        <p class="path-desc">Grade 2–12 and college courses. Build strong foundations with topic-wise practice.</p>
+        <span class="path-cta">Get Started →</span>
+      </button>
+
+      <button class="path-card path-professional" id="btn-for-professionals">
+        <div class="path-icon">💼</div>
+        <h2 class="path-title">I'm a Professional</h2>
+        <p class="path-desc">Cloud, DevOps, ML and more. Sharpen your skills and ace your next interview.</p>
+        <span class="path-cta">Get Started →</span>
+      </button>
+    </div>
+
+    <div class="land-stories">
+      <h2 class="stories-heading">Real transformations</h2>
+      <div class="stories-grid">
+
+        <div class="story-card">
+          <div class="story-avatar">R</div>
+          <div class="story-body">
+            <p class="story-quote">"I went from 40% to 92% in Maths in just 3 weeks. DecaShift made me consistent."</p>
+            <p class="story-author">Rahul, Grade 10 — Delhi</p>
+          </div>
+        </div>
+
+        <div class="story-card">
+          <div class="story-avatar">P</div>
+          <div class="story-body">
+            <p class="story-quote">"Cracked my Azure certification after 30 days of daily practice. The streak kept me going."</p>
+            <p class="story-author">Priya, DevOps Engineer — Bangalore</p>
+          </div>
+        </div>
+
+        <div class="story-card">
+          <div class="story-avatar">A</div>
+          <div class="story-body">
+            <p class="story-quote">"DSA daily practice on DecaShift got me through Amazon's coding round. It works."</p>
+            <p class="story-author">Arjun, Final Year CS — Pune</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="land-stats">
+      <div class="stat-item"><span class="stat-num">10K+</span><span class="stat-label">Questions answered daily</span></div>
+      <div class="stat-item"><span class="stat-num">500+</span><span class="stat-label">Learners active</span></div>
+      <div class="stat-item"><span class="stat-num">Free</span><span class="stat-label">No credit card needed</span></div>
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: Sign Up
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-signup" class="screen">
+    <div class="auth-wrap">
+
+      <div class="brand">
+        <div class="brand-logo">DS</div>
+        <h1 class="brand-name">DecaShift</h1>
+      </div>
+
+      <div class="card auth-card">
+        <h2>Create your account</h2>
+        <p class="subtitle">Free forever. No credit card required.</p>
+
+        <form id="signup-form" novalidate autocomplete="on">
+
+          <div class="form-group">
+            <label for="reg-name">Full Name <span class="required">*</span></label>
+            <input type="text" id="reg-name" name="name" placeholder="Enter your name" autocomplete="name" required>
+            <span class="field-error" id="err-name"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-email">Email Address <span class="required">*</span></label>
+            <input type="email" id="reg-email" name="email" placeholder="you@example.com" autocomplete="email" required>
+            <span class="field-error" id="err-email"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-mobile">Mobile Number <span class="required">*</span></label>
+            <div class="input-with-prefix">
+              <span class="input-prefix">+91</span>
+              <input type="tel" id="reg-mobile" name="mobile" placeholder="9876543210" autocomplete="tel-national" maxlength="10" inputmode="numeric" required>
+            </div>
+            <span class="field-error" id="err-mobile"></span>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="reg-password">Password <span class="required">*</span></label>
+              <input type="password" id="reg-password" name="password" placeholder="Min 6 characters" autocomplete="new-password" required>
+              <span class="field-error" id="err-password"></span>
+            </div>
+            <div class="form-group">
+              <label for="reg-confirm">Confirm Password <span class="required">*</span></label>
+              <input type="password" id="reg-confirm" name="confirm" placeholder="Repeat password" autocomplete="new-password" required>
+              <span class="field-error" id="err-confirm"></span>
+            </div>
+          </div>
+
+          <!-- School fields (shown for Student path) -->
+          <div id="school-fields" class="hidden">
+            <div class="form-group">
+              <label for="reg-grade">Grade / Level <span class="required">*</span></label>
+              <select id="reg-grade" name="grade">
+                <option value="">Select grade…</option>
+                <option value="2">Grade 2</option>
+                <option value="3">Grade 3</option>
+                <option value="4">Grade 4</option>
+                <option value="5">Grade 5</option>
+                <option value="6">Grade 6</option>
+                <option value="7">Grade 7</option>
+                <option value="8">Grade 8</option>
+                <option value="9">Grade 9</option>
+                <option value="10">Grade 10</option>
+                <option value="11">Grade 11</option>
+                <option value="12">Grade 12</option>
+                <option value="college">College / University</option>
+              </select>
+              <span class="field-error" id="err-grade"></span>
+            </div>
+
+            <div class="form-group hidden" id="college-course-group">
+              <label for="reg-course">Course / Stream <span class="required">*</span></label>
+              <select id="reg-course" name="course">
+                <option value="">Select course…</option>
+                <option value="web-dev">Web Development</option>
+                <option value="dsa">Data Structures &amp; Algorithms</option>
+                <option value="data-science">Data Science</option>
+                <option value="electronics">Electronics &amp; Communication</option>
+                <option value="mechanical">Mechanical Engineering</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="field-error" id="err-course"></span>
+            </div>
+          </div>
+
+          <!-- Professional fields (shown for Professional path) -->
+          <div id="pro-fields" class="hidden">
+            <div class="form-group">
+              <label for="reg-role">Role / Designation <span class="required">*</span></label>
+              <select id="reg-role" name="role">
+                <option value="">Select your role…</option>
+                <option value="software-engineer">Software Engineer</option>
+                <option value="devops-engineer">DevOps / Platform Engineer</option>
+                <option value="data-engineer">Data Engineer</option>
+                <option value="ml-engineer">ML / AI Engineer</option>
+                <option value="cloud-architect">Cloud Architect</option>
+                <option value="sre">Site Reliability Engineer</option>
+                <option value="product-manager">Product Manager</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="field-error" id="err-role"></span>
+            </div>
+            <div class="form-group">
+              <label for="reg-company">Company <span class="optional">(optional)</span></label>
+              <input type="text" id="reg-company" name="company" placeholder="Your company or organisation" autocomplete="organization">
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" id="signup-btn">Create Account →</button>
+
+          <p class="auth-switch">Already have an account? <button type="button" class="link-btn" id="btn-to-signin">Sign in</button></p>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: Sign In
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-signin" class="screen">
+    <div class="auth-wrap">
+
+      <div class="brand">
+        <div class="brand-logo">DS</div>
+        <h1 class="brand-name">DecaShift</h1>
+      </div>
+
+      <div class="card auth-card">
+        <h2>Welcome back</h2>
+        <p class="subtitle">Sign in to continue your learning streak</p>
+
+        <form id="signin-form" novalidate autocomplete="on">
+
+          <div class="form-group">
+            <label for="si-email">Email Address</label>
+            <input type="email" id="si-email" name="email" placeholder="you@example.com" autocomplete="email" required>
+            <span class="field-error" id="err-si-email"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="si-password">Password</label>
+            <input type="password" id="si-password" name="password" placeholder="Your password" autocomplete="current-password" required>
+            <span class="field-error" id="err-si-password"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" id="signin-btn">Sign In →</button>
+
+          <p class="auth-switch">New here? <button type="button" class="link-btn" id="btn-to-signup">Create a free account</button></p>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: Home / Goal Select
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-home" class="screen">
+    <div class="home-wrap">
+
+      <div class="home-header">
+        <div>
+          <p class="home-sub">Ready to grow today?</p>
+          <h1 class="home-title" id="user-greeting">Your Goals</h1>
+        </div>
+        <div class="home-header-right">
+          <div class="user-chip" onclick="toggleUserMenu()" style="cursor:pointer">
+            <div class="user-avatar" id="user-avatar">?</div>
+            <span id="user-chip-name">—</span>
+          </div>
+          <div class="user-menu hidden" id="user-menu">
+            <button class="user-menu-item" onclick="signOut()">Sign Out</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="goals-list" class="goals-list">
+        <p class="text-muted">Loading goals…</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: Quiz
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-quiz" class="screen">
+    <div class="quiz-wrap">
+
+      <div class="quiz-header">
+        <span class="quiz-progress-text" id="quiz-progress-text">Question 1 of 10</span>
+        <div class="timer-badge" id="timer-display">00:00</div>
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" id="quiz-progress-fill" style="width:0%"></div>
+      </div>
+
+      <div class="question-card">
+        <p class="question-text" id="question-text">Loading…</p>
+      </div>
+
+      <div id="answer-list" class="answer-list"></div>
+
+      <div id="explanation-box" class="explanation-box hidden"></div>
+
+      <div class="quiz-actions">
+        <button class="btn btn-primary" id="submit-btn" onclick="submitAnswer()" disabled>Submit Answer</button>
+        <button class="btn btn-primary hidden" id="next-btn" onclick="nextQuestion()">Next →</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: Result
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-result" class="screen">
+    <div class="result-wrap">
+
+      <div class="result-hero">
+        <p class="result-label">Session Complete</p>
+        <div class="result-score-big" id="result-score">— / —</div>
+        <div class="result-pct" id="result-pct">—%</div>
+        <div class="result-badge" id="result-badge">—</div>
+      </div>
+
+      <div class="card result-table-wrap">
+        <table class="result-table">
+          <thead>
+            <tr><th>#</th><th>Question</th><th>Result</th><th>Time</th></tr>
+          </thead>
+          <tbody id="result-table-body"></tbody>
+        </table>
+      </div>
+
+      <div class="result-actions">
+        <button class="btn btn-primary" id="restart-btn">Restart Goal</button>
+        <button class="btn btn-ghost"   id="back-home-btn">Back to Goals</button>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    function toggleUserMenu() {
+      document.getElementById('user-menu').classList.toggle('hidden');
+    }
+    document.addEventListener('click', e => {
+      if (!e.target.closest('.user-chip') && !e.target.closest('.user-menu')) {
+        const m = document.getElementById('user-menu');
+        if (m) m.classList.add('hidden');
+      }
+    });
+  </script>
+  <script src="storage.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

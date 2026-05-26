@@ -1,0 +1,52 @@
+{
+  "goalId": "grade-12-cs",
+  "name": "Grade 12 — Computer Science",
+  "subject": "computer-science",
+  "category": "school",
+  "grade": 12,
+  "level": 1,
+  "description": "Python programming, algorithms, data structures, databases",
+  "tags": ["cs", "python", "grade-12", "school"],
+  "questions": [
+    {
+      "id": "g12cs-001",
+      "question": "What is the output of: print(type(3.14)) in Python?",
+      "options": ["<class 'int'>", "<class 'str'>", "<class 'float'>", "<class 'double'>"],
+      "correctIndex": 2,
+      "explanation": "3.14 is a floating-point number in Python, so type(3.14) returns <class 'float'>.",
+      "tags": ["python"]
+    },
+    {
+      "id": "g12cs-002",
+      "question": "Which data structure follows LIFO (Last In First Out)?",
+      "options": ["Queue", "Array", "Stack", "Linked List"],
+      "correctIndex": 2,
+      "explanation": "A Stack follows LIFO — the last element pushed is the first to be popped. Think of a pile of plates.",
+      "tags": ["data-structures"]
+    },
+    {
+      "id": "g12cs-003",
+      "question": "What does SQL stand for?",
+      "options": ["Structured Query Language", "Simple Query Logic", "Sequential Query Language", "Structured Question Language"],
+      "correctIndex": 0,
+      "explanation": "SQL = Structured Query Language. It is used to manage and query relational databases.",
+      "tags": ["databases"]
+    },
+    {
+      "id": "g12cs-004",
+      "question": "What is the time complexity of Binary Search?",
+      "options": ["O(n)", "O(n²)", "O(log n)", "O(1)"],
+      "correctIndex": 2,
+      "explanation": "Binary Search halves the search space each step, giving O(log n) time complexity.",
+      "tags": ["algorithms"]
+    },
+    {
+      "id": "g12cs-005",
+      "question": "Which Python keyword is used to define a function?",
+      "options": ["func", "define", "def", "function"],
+      "correctIndex": 2,
+      "explanation": "In Python, functions are defined using the 'def' keyword: def my_function():",
+      "tags": ["python"]
+    }
+  ]
+}
