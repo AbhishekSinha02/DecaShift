@@ -74,6 +74,10 @@ async function _loadManifest() {
   // 1. GitHub Contents API — auto-discovers all JSON files, no manifest.json maintenance needed
   const isLocalhost = location.hostname === 'localhost' || location.hostname === '127.0.0.1' || location.hostname === '';
   if (!isLocalhost) {
+    // Session cache: one API call per browser session regardless of reloads (rate-limit guard)
+    const cached = sessionStorage.getItem('ds_manifest_cache');
+    if (cached) { state.manifest = JSON.parse(cached); return; }
+
     try {
       const apiUrl = `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/contents/app/ui/questions`;
       const r = await fetch(apiUrl, { headers: { Accept: 'application/vnd.github.v3+json' } });
@@ -82,7 +86,11 @@ async function _loadManifest() {
         const discovered = files
           .filter(f => f.type === 'file' && f.name.endsWith('.json') && f.name !== 'manifest.json')
           .map(f => ({ file: f.name }));
-        if (discovered.length) { state.manifest = discovered; return; }
+        if (discovered.length) {
+          sessionStorage.setItem('ds_manifest_cache', JSON.stringify(discovered));
+          state.manifest = discovered;
+          return;
+        }
       }
     } catch (_) {}
   }
