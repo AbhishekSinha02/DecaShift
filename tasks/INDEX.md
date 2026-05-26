@@ -83,6 +83,8 @@
 | **[P3-T016](P3-T016-goal-archive-mark-as-done.md)** | **Goal archive — mark as done, hide from home, "Show completed (N)" toggle** | **S** | **✅ Done** |
 | **[P3-T017](P3-T017-weekly-question-sets.md)** | **Weekly question sets — date-gated, Mon–Sun, "This Week" card on home screen** | **M** | **✅ Done** |
 | **[P3-T018](P3-T018-regional-language-signup-profile.md)** | **Regional language — signup selection, settings, 120 questions (6 languages × 2 sets)** | **M** | **✅ Done** |
+| **[P3-T019](P3-T019-content-calendar-weekly-rotation.md)** | **Content calendar — weekly question rotation, seen-first filter, Set 2 for grades 7–12** | **M** | **Pending** |
+| **[P3-T020](P3-T020-international-language-learning-priority.md)** | **International language learning — French, German, Spanish, Japanese, Mandarin, Arabic (elevated from P6)** | **M** | **Pending** |
 | [P3-T004](P3-T004-avatar-profile-photo.md) | Avatar + profile photo upload | S | Pending |
 | [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
 | [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
@@ -98,6 +100,8 @@
 | [P4-T001](P4-T001-admin-dashboard-user-analytics.md) | Admin dashboard — users, sessions, daily actives, goal popularity | M | Pending |
 | [P4-T002](P4-T002-multi-language-support.md) | Multi-language UI + translated questions (English + Hindi first) | M | Pending |
 | **[P4-T003](P4-T003-go-to-market-strategy.md)** | **Go-to-market strategy — target segment, first 100 users plan, success metrics** | **S** | **Pending** |
+| **[P4-T004](P4-T004-professional-micro-habit-trackers.md)** | **Professional micro-habit trackers — Health, Finance, Wellness, Learning daily check-ins** | **L** | **Pending** |
+| **[P4-T005](P4-T005-multilanguage-ui-landing-signup.md)** | **Multi-language UI — landing page + signup in Hindi, Marathi, Tamil** | **L** | **Pending** |
 
 ---
 
@@ -161,6 +165,10 @@ P6-T006  (localized content) depends on P6-T004 (UI in local lang first)
 
 P3-T001  (streak)            → P3-T002, P3-T005
 P3-T016  (goal archive)      depends on P2-T021 (subject tabs — done); archive state hides goals within each tab filter too
+P3-T019  (content calendar)  depends on P3-T017 (weekly sets — done); extends rotation pattern
+P3-T020  (intl languages)    depends on P3-T018 (regional lang arch — done); reuses same folder + filter pattern; supersedes P6-T005 in priority
+P4-T004  (habit trackers)    standalone; builds on P3-T001 (streak pattern); surfaces in P2-T017 (profile page)
+P4-T005  (multi-lang UI)     standalone; supersedes P6-T004 in priority; informs P4-T003 (GTM — which markets)
 P3-T007  (Q addition)        → P6-T001
 P3-T013  (regional lang)     depends on P3-T009 (nested folders — done); → P2-T012 (profile edit adds change-language option)
 
@@ -181,6 +189,6 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 59 (1 cancelled, 1 superseded) | P1: 13 | P2: 21 | P3: 18 | P4: 3 | P5: 6 | P6: 6*
+*Total tasks: 63 (1 cancelled, 1 superseded) | P1: 13 | P2: 21 | P3: 20 | P4: 5 | P5: 6 | P6: 6*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback*
 *New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*
