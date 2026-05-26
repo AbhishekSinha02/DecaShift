@@ -1,0 +1,91 @@
+{
+  "goalId": "grade-3-french-2",
+  "category": "school",
+  "grade": 3,
+  "subject": "french",
+  "level": 2,
+  "title": "Grade 3 French — Set 2",
+  "description": "Colours, animals, numbers, and basic phrases",
+  "questions": [
+    {
+      "id": "g3f2-001",
+      "question": "What colour is 'bleu'?",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Yellow"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Bleu' means blue in French.",
+      "difficulty": "easy",
+      "tags": [
+        "colours"
+      ]
+    },
+    {
+      "id": "g3f2-002",
+      "question": "What does 'bonsoir' mean?",
+      "options": [
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Goodnight"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Bonsoir' is used in the evening and means 'Good evening'.",
+      "difficulty": "easy",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "g3f2-003",
+      "question": "How do you say 'two' in French?",
+      "options": [
+        "un",
+        "deux",
+        "trois",
+        "quatre"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Deux' means two. Numbers: un=1, deux=2, trois=3, quatre=4.",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "g3f2-004",
+      "question": "What is 'cheval' in English?",
+      "options": [
+        "Dog",
+        "Cat",
+        "Horse",
+        "Bird"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Cheval' means horse in French.",
+      "difficulty": "easy",
+      "tags": [
+        "animals"
+      ]
+    },
+    {
+      "id": "g3f2-005",
+      "question": "What does 's'il vous plaît' mean?",
+      "options": [
+        "Thank you",
+        "Sorry",
+        "Please",
+        "Goodbye"
+      ],
+      "correctIndex": 2,
+      "explanation": "'S'il vous plaît' means 'please' in French.",
+      "difficulty": "easy",
+      "tags": [
+        "phrases"
+      ]
+    }
+  ]
+}

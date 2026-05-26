@@ -1,0 +1,93 @@
+{
+  "goalId": "grade-5-math-2",
+  "category": "school",
+  "grade": 5,
+  "subject": "mathematics",
+  "level": 2,
+  "title": "Grade 5 Mathematics — Set 2",
+  "description": "Decimals, percentages, area, and fractions practice",
+  "questions": [
+    {
+      "id": "g5m2-001",
+      "question": "What is 0.5 + 0.3?",
+      "options": [
+        "0.7",
+        "0.8",
+        "0.9",
+        "1.0"
+      ],
+      "correctIndex": 1,
+      "explanation": "0.5 + 0.3 = 0.8. Add the tenths: 5 + 3 = 8.",
+      "difficulty": "easy",
+      "tags": [
+        "decimals"
+      ]
+    },
+    {
+      "id": "g5m2-002",
+      "question": "What is 25% of 80?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "correctIndex": 1,
+      "explanation": "25% = 1/4. So 80 ÷ 4 = 20.",
+      "difficulty": "easy",
+      "tags": [
+        "percentage"
+      ]
+    },
+    {
+      "id": "g5m2-003",
+      "question": "What is the area of a square with side 6 cm?",
+      "options": [
+        "12 cm²",
+        "24 cm²",
+        "36 cm²",
+        "48 cm²"
+      ],
+      "correctIndex": 2,
+      "explanation": "Area of square = side × side = 6 × 6 = 36 cm².",
+      "difficulty": "easy",
+      "tags": [
+        "area",
+        "geometry"
+      ]
+    },
+    {
+      "id": "g5m2-004",
+      "question": "Simplify the fraction 6/8.",
+      "options": [
+        "2/3",
+        "3/4",
+        "4/5",
+        "5/6"
+      ],
+      "correctIndex": 1,
+      "explanation": "Divide both by 2: 6 ÷ 2 = 3, 8 ÷ 2 = 4. So 6/8 = 3/4.",
+      "difficulty": "easy",
+      "tags": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "g5m2-005",
+      "question": "A train travels 60 km per hour. How far in 3 hours?",
+      "options": [
+        "120 km",
+        "150 km",
+        "180 km",
+        "200 km"
+      ],
+      "correctIndex": 2,
+      "explanation": "Distance = speed × time = 60 × 3 = 180 km.",
+      "difficulty": "easy",
+      "tags": [
+        "speed-distance",
+        "word-problem"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "goalId": "grade-4-science-2",
+  "category": "school",
+  "grade": 4,
+  "subject": "science",
+  "level": 2,
+  "title": "Grade 4 Science — Set 2",
+  "description": "States of matter, solar system, food chains, and the body",
+  "questions": [
+    {
+      "id": "g4s2-001",
+      "question": "Which state of matter has a definite shape and volume?",
+      "options": [
+        "Gas",
+        "Liquid",
+        "Solid",
+        "Vapour"
+      ],
+      "correctIndex": 2,
+      "explanation": "Solids have both a definite shape and a definite volume. Liquids have a definite volume but take the shape of their container.",
+      "difficulty": "easy",
+      "tags": [
+        "states-of-matter"
+      ]
+    },
+    {
+      "id": "g4s2-002",
+      "question": "How many planets are in our Solar System?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 1,
+      "explanation": "There are 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Pluto is now classified as a dwarf planet.",
+      "difficulty": "easy",
+      "tags": [
+        "solar-system"
+      ]
+    },
+    {
+      "id": "g4s2-003",
+      "question": "Which gas do we breathe in to stay alive?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "correctIndex": 2,
+      "explanation": "We breathe in oxygen (O₂). Our cells use oxygen to release energy from food.",
+      "difficulty": "easy",
+      "tags": [
+        "respiration",
+        "gases"
+      ]
+    },
+    {
+      "id": "g4s2-004",
+      "question": "What is the main source of energy for all life on Earth?",
+      "options": [
+        "Moon",
+        "Wind",
+        "Sun",
+        "Water"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Sun is the primary source of energy. Plants use sunlight to make food, and animals eat plants.",
+      "difficulty": "easy",
+      "tags": [
+        "energy",
+        "solar"
+      ]
+    },
+    {
+      "id": "g4s2-005",
+      "question": "What is the process by which plants make their own food?",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Digestion",
+        "Excretion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Photosynthesis: plants use sunlight, water, and CO₂ to make glucose and release oxygen.",
+      "difficulty": "easy",
+      "tags": [
+        "photosynthesis",
+        "plants"
+      ]
+    }
+  ]
+}

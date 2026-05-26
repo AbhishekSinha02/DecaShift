@@ -1,0 +1,95 @@
+{
+  "goalId": "grade-6-science-2",
+  "category": "school",
+  "grade": 6,
+  "subject": "science",
+  "level": 2,
+  "title": "Grade 6 Science — Set 2",
+  "description": "Cells, photosynthesis, gravity, and the human body",
+  "questions": [
+    {
+      "id": "g6s2-001",
+      "question": "What is called the 'powerhouse of the cell'?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Ribosome",
+        "Cell wall"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mitochondria produce energy (ATP) for the cell through cellular respiration — hence the \"powerhouse\".",
+      "difficulty": "easy",
+      "tags": [
+        "cells",
+        "biology"
+      ]
+    },
+    {
+      "id": "g6s2-002",
+      "question": "Which gas is released by plants during photosynthesis?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Plants release oxygen as a by-product of photosynthesis. They absorb CO₂ and water to make glucose.",
+      "difficulty": "easy",
+      "tags": [
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "g6s2-003",
+      "question": "What force pulls objects toward the Earth?",
+      "options": [
+        "Friction",
+        "Gravity",
+        "Magnetism",
+        "Tension"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gravity is the force of attraction between masses. Earth's gravity pulls everything toward its centre.",
+      "difficulty": "easy",
+      "tags": [
+        "forces",
+        "gravity"
+      ]
+    },
+    {
+      "id": "g6s2-004",
+      "question": "Which type of nutrition do plants follow?",
+      "options": [
+        "Heterotrophic",
+        "Autotrophic",
+        "Parasitic",
+        "Saprotrophic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plants are autotrophs — they make their own food using sunlight (photosynthesis).",
+      "difficulty": "easy",
+      "tags": [
+        "nutrition",
+        "plants"
+      ]
+    },
+    {
+      "id": "g6s2-005",
+      "question": "How many bones are in the adult human body?",
+      "options": [
+        "106",
+        "206",
+        "306",
+        "406"
+      ],
+      "correctIndex": 1,
+      "explanation": "An adult human has 206 bones. Babies are born with about 270 bones; many fuse together as we grow.",
+      "difficulty": "easy",
+      "tags": [
+        "human-body",
+        "skeleton"
+      ]
+    }
+  ]
+}

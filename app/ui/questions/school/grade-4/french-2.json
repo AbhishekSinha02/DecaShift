@@ -1,0 +1,93 @@
+{
+  "goalId": "grade-4-french-2",
+  "category": "school",
+  "grade": 4,
+  "subject": "french",
+  "level": 2,
+  "title": "Grade 4 French — Set 2",
+  "description": "Greetings, numbers, animals, and everyday words",
+  "questions": [
+    {
+      "id": "g4f2-001",
+      "question": "How do you say 'dog' in French?",
+      "options": [
+        "chat",
+        "cheval",
+        "chien",
+        "cochon"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Chien' means dog. 'Chat' = cat, 'cheval' = horse, 'cochon' = pig.",
+      "difficulty": "easy",
+      "tags": [
+        "animals"
+      ]
+    },
+    {
+      "id": "g4f2-002",
+      "question": "What does 'au revoir' mean?",
+      "options": [
+        "Hello",
+        "Good morning",
+        "Goodbye",
+        "How are you"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Au revoir' means goodbye in French. 'Bonjour' is hello.",
+      "difficulty": "easy",
+      "tags": [
+        "greetings"
+      ]
+    },
+    {
+      "id": "g4f2-003",
+      "question": "Which number is 'cinq' in French?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Cinq' means five. quatre=4, cinq=5, six=6.",
+      "difficulty": "easy",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "g4f2-004",
+      "question": "What is 'apple' in French?",
+      "options": [
+        "orange",
+        "pomme",
+        "banane",
+        "poire"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Pomme' means apple. 'Poire' = pear, 'banane' = banana.",
+      "difficulty": "easy",
+      "tags": [
+        "food",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "g4f2-005",
+      "question": "How do you say 'I am' in French?",
+      "options": [
+        "tu es",
+        "il est",
+        "je suis",
+        "nous sommes"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Je suis' means 'I am'. Je = I, tu = you, il = he, nous = we.",
+      "difficulty": "easy",
+      "tags": [
+        "verbs",
+        "pronouns"
+      ]
+    }
+  ]
+}

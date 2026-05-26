@@ -1,0 +1,93 @@
+{
+  "goalId": "grade-5-hindi-2",
+  "category": "school",
+  "grade": 5,
+  "subject": "hindi",
+  "level": 2,
+  "title": "Grade 5 Hindi — Set 2",
+  "description": "पर्यायवाची, विलोम, संज्ञा और बहुवचन",
+  "questions": [
+    {
+      "id": "g5h2-001",
+      "question": "'सूर्य' का पर्यायवाची शब्द क्या है?",
+      "options": [
+        "चंद्र",
+        "तारा",
+        "रवि",
+        "आकाश"
+      ],
+      "correctIndex": 2,
+      "explanation": "'सूर्य' के पर्यायवाची: रवि, भास्कर, दिनकर, आदित्य।",
+      "difficulty": "easy",
+      "tags": [
+        "paryayvachi"
+      ]
+    },
+    {
+      "id": "g5h2-002",
+      "question": "'जल्दी' का विलोम शब्द क्या है?",
+      "options": [
+        "तेज",
+        "धीरे",
+        "बाद",
+        "शीघ्र"
+      ],
+      "correctIndex": 1,
+      "explanation": "'जल्दी' (quickly/fast) का विलोम 'धीरे' (slowly) है।",
+      "difficulty": "easy",
+      "tags": [
+        "vilom"
+      ]
+    },
+    {
+      "id": "g5h2-003",
+      "question": "'जो पढ़ा-लिखा न हो' उसे क्या कहते हैं?",
+      "options": [
+        "विद्वान",
+        "साक्षर",
+        "निरक्षर",
+        "शिक्षित"
+      ],
+      "correctIndex": 2,
+      "explanation": "'निरक्षर' वह व्यक्ति है जो पढ़-लिख नहीं सकता (illiterate)।",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "g5h2-004",
+      "question": "'पुस्तक' शब्द का बहुवचन है?",
+      "options": [
+        "पुस्तकें",
+        "पुस्तकों",
+        "पुस्तका",
+        "पुस्तकि"
+      ],
+      "correctIndex": 0,
+      "explanation": "'पुस्तक' (book) का बहुवचन 'पुस्तकें' (books) होता है।",
+      "difficulty": "easy",
+      "tags": [
+        "vachan",
+        "grammar"
+      ]
+    },
+    {
+      "id": "g5h2-005",
+      "question": "वाक्य में 'संज्ञा' क्या होती है?",
+      "options": [
+        "कार्य",
+        "नाम",
+        "विशेषण",
+        "क्रिया-विशेषण"
+      ],
+      "correctIndex": 1,
+      "explanation": "संज्ञा वह शब्द है जो किसी व्यक्ति, वस्तु, स्थान या भाव का नाम बताता है।",
+      "difficulty": "easy",
+      "tags": [
+        "sangya",
+        "grammar"
+      ]
+    }
+  ]
+}

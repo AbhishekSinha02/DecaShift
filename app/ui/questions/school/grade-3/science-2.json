@@ -1,0 +1,91 @@
+{
+  "goalId": "grade-3-science-2",
+  "category": "school",
+  "grade": 3,
+  "subject": "science",
+  "level": 2,
+  "title": "Grade 3 Science — Set 2",
+  "description": "Animals, plants, weather, and our body",
+  "questions": [
+    {
+      "id": "g3s2-001",
+      "question": "Which part of the plant grows underground?",
+      "options": [
+        "Leaf",
+        "Stem",
+        "Root",
+        "Flower"
+      ],
+      "correctIndex": 2,
+      "explanation": "Roots grow underground. They absorb water and minerals and anchor the plant.",
+      "difficulty": "easy",
+      "tags": [
+        "plants"
+      ]
+    },
+    {
+      "id": "g3s2-002",
+      "question": "What do caterpillars grow into?",
+      "options": [
+        "Frogs",
+        "Butterflies",
+        "Beetles",
+        "Ants"
+      ],
+      "correctIndex": 1,
+      "explanation": "Caterpillars go through metamorphosis and become butterflies (or moths).",
+      "difficulty": "easy",
+      "tags": [
+        "life-cycles"
+      ]
+    },
+    {
+      "id": "g3s2-003",
+      "question": "Which season comes after Summer?",
+      "options": [
+        "Spring",
+        "Winter",
+        "Monsoon",
+        "Autumn"
+      ],
+      "correctIndex": 3,
+      "explanation": "The order is: Spring → Summer → Autumn → Winter.",
+      "difficulty": "easy",
+      "tags": [
+        "seasons"
+      ]
+    },
+    {
+      "id": "g3s2-004",
+      "question": "Which sense organ do we use for seeing?",
+      "options": [
+        "Ear",
+        "Nose",
+        "Eye",
+        "Tongue"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eyes detect light and send signals to the brain so we can see.",
+      "difficulty": "easy",
+      "tags": [
+        "sense-organs"
+      ]
+    },
+    {
+      "id": "g3s2-005",
+      "question": "Which animal gives us milk?",
+      "options": [
+        "Dog",
+        "Hen",
+        "Cow",
+        "Parrot"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cows are the most common source of milk. Buffalo and goats also give milk.",
+      "difficulty": "easy",
+      "tags": [
+        "animals"
+      ]
+    }
+  ]
+}

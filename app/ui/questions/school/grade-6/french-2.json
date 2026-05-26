@@ -1,0 +1,95 @@
+{
+  "goalId": "grade-6-french-2",
+  "category": "school",
+  "grade": 6,
+  "subject": "french",
+  "level": 2,
+  "title": "Grade 6 French — Set 2",
+  "description": "Verbs, articles, questions, and everyday expressions",
+  "questions": [
+    {
+      "id": "g6f2-001",
+      "question": "What does 'j\\'aime' mean?",
+      "options": [
+        "I hate",
+        "I love/like",
+        "I want",
+        "I have"
+      ],
+      "correctIndex": 1,
+      "explanation": "'J'aime' means 'I like' or 'I love'. It comes from the verb 'aimer' (to like/love).",
+      "difficulty": "easy",
+      "tags": [
+        "verbs",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "g6f2-002",
+      "question": "How do you say 'the book' (masculine) in French?",
+      "options": [
+        "la livre",
+        "le livre",
+        "un livre",
+        "des livres"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Le' is the masculine definite article. 'Le livre' = the book. 'La' is feminine.",
+      "difficulty": "easy",
+      "tags": [
+        "articles",
+        "grammar"
+      ]
+    },
+    {
+      "id": "g6f2-003",
+      "question": "Which verb means 'to eat' in French?",
+      "options": [
+        "boire",
+        "parler",
+        "manger",
+        "aller"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Manger' means to eat. 'Boire' = to drink, 'parler' = to speak, 'aller' = to go.",
+      "difficulty": "easy",
+      "tags": [
+        "verbs"
+      ]
+    },
+    {
+      "id": "g6f2-004",
+      "question": "What does 'Comment t\\'appelles-tu?' mean?",
+      "options": [
+        "How are you?",
+        "What is your name?",
+        "Where do you live?",
+        "How old are you?"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Comment t'appelles-tu?' literally means 'What do you call yourself?' = What is your name?",
+      "difficulty": "easy",
+      "tags": [
+        "questions",
+        "introductions"
+      ]
+    },
+    {
+      "id": "g6f2-005",
+      "question": "How many days are in 'une semaine' (a week)?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Une semaine' means one week = 7 days. The 7 days: lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche.",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "time"
+      ]
+    }
+  ]
+}

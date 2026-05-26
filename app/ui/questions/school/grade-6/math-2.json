@@ -1,0 +1,93 @@
+{
+  "goalId": "grade-6-math-2",
+  "category": "school",
+  "grade": 6,
+  "subject": "mathematics",
+  "level": 2,
+  "title": "Grade 6 Mathematics — Set 2",
+  "description": "Integers, ratios, simple algebra, and percentages",
+  "questions": [
+    {
+      "id": "g6m2-001",
+      "question": "What is (-5) + 3?",
+      "options": [
+        "-8",
+        "-3",
+        "-2",
+        "2"
+      ],
+      "correctIndex": 2,
+      "explanation": "(-5) + 3: start at -5, move 3 steps right on the number line → -2.",
+      "difficulty": "easy",
+      "tags": [
+        "integers"
+      ]
+    },
+    {
+      "id": "g6m2-002",
+      "question": "What is the ratio of 15 to 20 in simplest form?",
+      "options": [
+        "1:2",
+        "2:3",
+        "3:4",
+        "4:5"
+      ],
+      "correctIndex": 2,
+      "explanation": "HCF of 15 and 20 is 5. 15÷5 = 3, 20÷5 = 4. So ratio = 3:4.",
+      "difficulty": "easy",
+      "tags": [
+        "ratio"
+      ]
+    },
+    {
+      "id": "g6m2-003",
+      "question": "If x + 5 = 12, what is x?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 2,
+      "explanation": "x + 5 = 12 → x = 12 - 5 = 7.",
+      "difficulty": "easy",
+      "tags": [
+        "algebra",
+        "linear-equations"
+      ]
+    },
+    {
+      "id": "g6m2-004",
+      "question": "What is 15% of 200?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "correctIndex": 2,
+      "explanation": "15% of 200 = (15/100) × 200 = 30.",
+      "difficulty": "easy",
+      "tags": [
+        "percentage"
+      ]
+    },
+    {
+      "id": "g6m2-005",
+      "question": "What is the perimeter of a square with side 9 cm?",
+      "options": [
+        "18 cm",
+        "27 cm",
+        "36 cm",
+        "45 cm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Perimeter = 4 × side = 4 × 9 = 36 cm.",
+      "difficulty": "easy",
+      "tags": [
+        "perimeter",
+        "geometry"
+      ]
+    }
+  ]
+}

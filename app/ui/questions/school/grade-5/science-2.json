@@ -1,0 +1,95 @@
+{
+  "goalId": "grade-5-science-2",
+  "category": "school",
+  "grade": 5,
+  "subject": "science",
+  "level": 2,
+  "title": "Grade 5 Science — Set 2",
+  "description": "Solar system, body systems, cells, and water cycle",
+  "questions": [
+    {
+      "id": "g5s2-001",
+      "question": "Which planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mercury",
+        "Mars"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mercury is the closest planet to the Sun. The order from Sun: Mercury, Venus, Earth, Mars...",
+      "difficulty": "easy",
+      "tags": [
+        "solar-system"
+      ]
+    },
+    {
+      "id": "g5s2-002",
+      "question": "What is the main function of the heart?",
+      "options": [
+        "Digest food",
+        "Pump blood",
+        "Filter air",
+        "Store energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "The heart is a pump that circulates blood throughout the body, delivering oxygen and nutrients.",
+      "difficulty": "easy",
+      "tags": [
+        "body-systems",
+        "heart"
+      ]
+    },
+    {
+      "id": "g5s2-003",
+      "question": "At what temperature does water boil?",
+      "options": [
+        "80°C",
+        "90°C",
+        "100°C",
+        "110°C"
+      ],
+      "correctIndex": 2,
+      "explanation": "Water boils at 100°C (212°F) at sea level. Above this temperature it becomes steam.",
+      "difficulty": "easy",
+      "tags": [
+        "states-of-matter",
+        "temperature"
+      ]
+    },
+    {
+      "id": "g5s2-004",
+      "question": "Which part of the plant carries out photosynthesis?",
+      "options": [
+        "Root",
+        "Stem",
+        "Leaf",
+        "Flower"
+      ],
+      "correctIndex": 2,
+      "explanation": "Leaves contain chlorophyll and carry out photosynthesis to make food for the plant.",
+      "difficulty": "easy",
+      "tags": [
+        "photosynthesis",
+        "plants"
+      ]
+    },
+    {
+      "id": "g5s2-005",
+      "question": "What is the basic unit of life?",
+      "options": [
+        "Atom",
+        "Molecule",
+        "Cell",
+        "Tissue"
+      ],
+      "correctIndex": 2,
+      "explanation": "The cell is the basic structural and functional unit of all living organisms.",
+      "difficulty": "easy",
+      "tags": [
+        "cells",
+        "biology"
+      ]
+    }
+  ]
+}

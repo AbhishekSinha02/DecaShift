@@ -1,0 +1,94 @@
+{
+  "goalId": "grade-6-hindi-2",
+  "category": "school",
+  "grade": 6,
+  "subject": "hindi",
+  "level": 2,
+  "title": "Grade 6 Hindi — Set 2",
+  "description": "विलोम, पर्यायवाची, बहुवचन और संज्ञा",
+  "questions": [
+    {
+      "id": "g6h2-001",
+      "question": "'अंधकार' का विलोम शब्द क्या है?",
+      "options": [
+        "रोशनी",
+        "प्रकाश",
+        "अँधेरा",
+        "काला"
+      ],
+      "correctIndex": 1,
+      "explanation": "'अंधकार' (darkness) का विलोम 'प्रकाश' (light) है।",
+      "difficulty": "easy",
+      "tags": [
+        "vilom"
+      ]
+    },
+    {
+      "id": "g6h2-002",
+      "question": "'पृथ्वी' का पर्यायवाची शब्द है?",
+      "options": [
+        "नभ",
+        "धरती",
+        "सागर",
+        "पवन"
+      ],
+      "correctIndex": 1,
+      "explanation": "'पृथ्वी' के पर्यायवाची: धरती, भूमि, वसुंधरा, धरा।",
+      "difficulty": "easy",
+      "tags": [
+        "paryayvachi"
+      ]
+    },
+    {
+      "id": "g6h2-003",
+      "question": "'राम स्कूल जाता है' — इस वाक्य में क्रिया कौन सी है?",
+      "options": [
+        "राम",
+        "स्कूल",
+        "जाता",
+        "है"
+      ],
+      "correctIndex": 2,
+      "explanation": "'जाता' क्रिया (verb) है — यह कार्य (action) बताती है।",
+      "difficulty": "easy",
+      "tags": [
+        "kriya",
+        "grammar"
+      ]
+    },
+    {
+      "id": "g6h2-004",
+      "question": "'विद्यार्थी' शब्द का अर्थ है?",
+      "options": [
+        "विद्या देने वाला",
+        "विद्या लेने वाला",
+        "विद्या बेचने वाला",
+        "विद्या न लेने वाला"
+      ],
+      "correctIndex": 1,
+      "explanation": "'विद्या + अर्थी' — जो विद्या का इच्छुक हो, अर्थात छात्र/student।",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary",
+        "sandhi"
+      ]
+    },
+    {
+      "id": "g6h2-005",
+      "question": "'नदी' शब्द का बहुवचन क्या है?",
+      "options": [
+        "नदियाँ",
+        "नदिया",
+        "नदियों",
+        "नदी"
+      ],
+      "correctIndex": 0,
+      "explanation": "'नदी' (river) का बहुवचन 'नदियाँ' (rivers) होता है।",
+      "difficulty": "easy",
+      "tags": [
+        "vachan",
+        "grammar"
+      ]
+    }
+  ]
+}

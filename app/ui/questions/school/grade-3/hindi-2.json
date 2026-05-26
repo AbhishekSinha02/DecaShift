@@ -1,0 +1,92 @@
+{
+  "goalId": "grade-3-hindi-2",
+  "category": "school",
+  "grade": 3,
+  "subject": "hindi",
+  "level": 2,
+  "title": "Grade 3 Hindi — Set 2",
+  "description": "शब्द-भंडार, विलोम और सरल व्याकरण",
+  "questions": [
+    {
+      "id": "g3h2-001",
+      "question": "'रात' का विलोम शब्द क्या है?",
+      "options": [
+        "शाम",
+        "दोपहर",
+        "दिन",
+        "सुबह"
+      ],
+      "correctIndex": 2,
+      "explanation": "'रात' (night) का विलोम 'दिन' (day) है।",
+      "difficulty": "easy",
+      "tags": [
+        "vilom"
+      ]
+    },
+    {
+      "id": "g3h2-002",
+      "question": "'पानी' का पर्यायवाची शब्द है?",
+      "options": [
+        "आग",
+        "जल",
+        "मिट्टी",
+        "हवा"
+      ],
+      "correctIndex": 1,
+      "explanation": "'पानी' के पर्यायवाची: जल, नीर, वारि।",
+      "difficulty": "easy",
+      "tags": [
+        "paryayvachi"
+      ]
+    },
+    {
+      "id": "g3h2-003",
+      "question": "इनमें से फल कौन सा है?",
+      "options": [
+        "गुलाब",
+        "नदी",
+        "आम",
+        "पहाड़"
+      ],
+      "correctIndex": 2,
+      "explanation": "'आम' एक फल है। गुलाब फूल है, नदी और पहाड़ प्रकृति के भाग हैं।",
+      "difficulty": "easy",
+      "tags": [
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "g3h2-004",
+      "question": "'क' के बाद वर्णमाला में कौन सा अक्षर आता है?",
+      "options": [
+        "ग",
+        "ख",
+        "च",
+        "ज"
+      ],
+      "correctIndex": 1,
+      "explanation": "हिंदी वर्णमाला में व्यंजनों का क्रम: क, ख, ग, घ... — 'क' के बाद 'ख' आता है।",
+      "difficulty": "easy",
+      "tags": [
+        "varnamala"
+      ]
+    },
+    {
+      "id": "g3h2-005",
+      "question": "'बिल्ली' का बहुवचन क्या है?",
+      "options": [
+        "बिल्लियाँ",
+        "बिल्ली",
+        "बिल्लियों",
+        "बिल्लीयाँ"
+      ],
+      "correctIndex": 0,
+      "explanation": "'बिल्ली' का बहुवचन 'बिल्लियाँ' होता है।",
+      "difficulty": "easy",
+      "tags": [
+        "vachan",
+        "grammar"
+      ]
+    }
+  ]
+}

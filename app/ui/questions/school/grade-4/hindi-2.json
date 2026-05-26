@@ -1,0 +1,92 @@
+{
+  "goalId": "grade-4-hindi-2",
+  "category": "school",
+  "grade": 4,
+  "subject": "hindi",
+  "level": 2,
+  "title": "Grade 4 Hindi — Set 2",
+  "description": "विलोम, पर्यायवाची और सरल व्याकरण",
+  "questions": [
+    {
+      "id": "g4h2-001",
+      "question": "'खुश' का विलोम शब्द क्या है?",
+      "options": [
+        "प्रसन्न",
+        "दुखी",
+        "भावुक",
+        "शांत"
+      ],
+      "correctIndex": 1,
+      "explanation": "'खुश' (happy) का विलोम 'दुखी' (sad) है।",
+      "difficulty": "easy",
+      "tags": [
+        "vilom"
+      ]
+    },
+    {
+      "id": "g4h2-002",
+      "question": "'आकाश' का पर्यायवाची शब्द है?",
+      "options": [
+        "पृथ्वी",
+        "नभ",
+        "सागर",
+        "पर्वत"
+      ],
+      "correctIndex": 1,
+      "explanation": "'आकाश' के पर्यायवाची: नभ, गगन, अम्बर, व्योम।",
+      "difficulty": "easy",
+      "tags": [
+        "paryayvachi"
+      ]
+    },
+    {
+      "id": "g4h2-003",
+      "question": "'बड़ा' का विलोम शब्द क्या है?",
+      "options": [
+        "लंबा",
+        "मोटा",
+        "छोटा",
+        "गोल"
+      ],
+      "correctIndex": 2,
+      "explanation": "'बड़ा' (big) का विलोम 'छोटा' (small) है।",
+      "difficulty": "easy",
+      "tags": [
+        "vilom"
+      ]
+    },
+    {
+      "id": "g4h2-004",
+      "question": "इनमें से कौन सा शब्द संज्ञा है?",
+      "options": [
+        "दौड़ना",
+        "सुंदर",
+        "लड़की",
+        "धीरे"
+      ],
+      "correctIndex": 2,
+      "explanation": "'लड़की' संज्ञा (noun) है — यह एक व्यक्ति का नाम है। 'दौड़ना' क्रिया और 'सुंदर' विशेषण है।",
+      "difficulty": "easy",
+      "tags": [
+        "sangya",
+        "grammar"
+      ]
+    },
+    {
+      "id": "g4h2-005",
+      "question": "'सूरज' दिन में कहाँ दिखता है?",
+      "options": [
+        "पूर्व में उगता है",
+        "पश्चिम में उगता है",
+        "उत्तर में उगता है",
+        "दक्षिण में उगता है"
+      ],
+      "correctIndex": 0,
+      "explanation": "सूरज पूर्व (East) से उगता है और पश्चिम (West) में अस्त होता है।",
+      "difficulty": "easy",
+      "tags": [
+        "general-knowledge"
+      ]
+    }
+  ]
+}

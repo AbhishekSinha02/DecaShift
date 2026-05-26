@@ -1,0 +1,93 @@
+{
+  "goalId": "grade-4-math-2",
+  "category": "school",
+  "grade": 4,
+  "subject": "mathematics",
+  "level": 2,
+  "title": "Grade 4 Mathematics — Set 2",
+  "description": "More practice on multiplication, area, fractions, and geometry",
+  "questions": [
+    {
+      "id": "g4m2-001",
+      "question": "What is 7 × 8?",
+      "options": [
+        "48",
+        "54",
+        "56",
+        "64"
+      ],
+      "correctIndex": 2,
+      "explanation": "7 × 8 = 56. Remember the 7 times table: 7, 14, 21, 28, 35, 42, 49, 56.",
+      "difficulty": "easy",
+      "tags": [
+        "multiplication"
+      ]
+    },
+    {
+      "id": "g4m2-002",
+      "question": "What is the area of a rectangle 5 cm long and 3 cm wide?",
+      "options": [
+        "8 cm²",
+        "15 cm²",
+        "16 cm²",
+        "30 cm²"
+      ],
+      "correctIndex": 1,
+      "explanation": "Area = length × width = 5 × 3 = 15 cm².",
+      "difficulty": "easy",
+      "tags": [
+        "area",
+        "geometry"
+      ]
+    },
+    {
+      "id": "g4m2-003",
+      "question": "What is 3/4 of 20?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "correctIndex": 2,
+      "explanation": "3/4 of 20 = (20 ÷ 4) × 3 = 5 × 3 = 15.",
+      "difficulty": "easy",
+      "tags": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "g4m2-004",
+      "question": "How many sides does a triangle have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 1,
+      "explanation": "A triangle has exactly 3 sides and 3 angles. Its interior angles add up to 180°.",
+      "difficulty": "easy",
+      "tags": [
+        "geometry",
+        "shapes"
+      ]
+    },
+    {
+      "id": "g4m2-005",
+      "question": "What is 144 ÷ 12?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2,
+      "explanation": "144 ÷ 12 = 12, because 12 × 12 = 144.",
+      "difficulty": "easy",
+      "tags": [
+        "division"
+      ]
+    }
+  ]
+}

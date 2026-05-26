@@ -1,0 +1,93 @@
+{
+  "goalId": "grade-5-french-2",
+  "category": "school",
+  "grade": 5,
+  "subject": "french",
+  "level": 2,
+  "title": "Grade 5 French — Set 2",
+  "description": "Introductions, days of the week, school, and weather",
+  "questions": [
+    {
+      "id": "g5f2-001",
+      "question": "What does 'je m'appelle' mean?",
+      "options": [
+        "I like",
+        "My name is",
+        "I live in",
+        "I have"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Je m'appelle' literally means 'I call myself' — used to say your name.",
+      "difficulty": "easy",
+      "tags": [
+        "introductions"
+      ]
+    },
+    {
+      "id": "g5f2-002",
+      "question": "How do you say 'school' in French?",
+      "options": [
+        "maison",
+        "école",
+        "magasin",
+        "hôpital"
+      ],
+      "correctIndex": 1,
+      "explanation": "'École' means school. 'Maison' = house, 'hôpital' = hospital.",
+      "difficulty": "easy",
+      "tags": [
+        "school",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "g5f2-003",
+      "question": "What does 'lundi' mean?",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Lundi' means Monday. The French days: lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche.",
+      "difficulty": "easy",
+      "tags": [
+        "days-of-week"
+      ]
+    },
+    {
+      "id": "g5f2-004",
+      "question": "How do you say 'I speak French'?",
+      "options": [
+        "je parle français",
+        "tu parles français",
+        "il parle français",
+        "nous parlons français"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Je parle français' = I speak French. Je = I, parle = speak (first person present).",
+      "difficulty": "easy",
+      "tags": [
+        "verbs",
+        "speaking"
+      ]
+    },
+    {
+      "id": "g5f2-005",
+      "question": "What does 'il fait beau' mean?",
+      "options": [
+        "It is raining",
+        "It is cold",
+        "It is nice/sunny",
+        "It is cloudy"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Il fait beau' means the weather is nice/sunny. 'Il pleut' = it rains, 'il fait froid' = it is cold.",
+      "difficulty": "easy",
+      "tags": [
+        "weather"
+      ]
+    }
+  ]
+}

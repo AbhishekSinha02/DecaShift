@@ -1,0 +1,91 @@
+{
+  "goalId": "grade-3-math-2",
+  "category": "school",
+  "grade": 3,
+  "subject": "mathematics",
+  "level": 2,
+  "title": "Grade 3 Mathematics — Set 2",
+  "description": "More practice on multiplication, shapes, time, and measurement",
+  "questions": [
+    {
+      "id": "g3m2-001",
+      "question": "What is 6 × 4?",
+      "options": [
+        "20",
+        "22",
+        "24",
+        "26"
+      ],
+      "correctIndex": 2,
+      "explanation": "6 × 4 = 24. Count by 6s: 6, 12, 18, 24.",
+      "difficulty": "easy",
+      "tags": [
+        "multiplication"
+      ]
+    },
+    {
+      "id": "g3m2-002",
+      "question": "A clock shows 3:00. Which number does the hour hand point to?",
+      "options": [
+        "12",
+        "3",
+        "6",
+        "9"
+      ],
+      "correctIndex": 1,
+      "explanation": "At 3:00 the hour hand points to 3 and the minute hand points to 12.",
+      "difficulty": "easy",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "g3m2-003",
+      "question": "How many sides does a pentagon have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1,
+      "explanation": "A pentagon has 5 sides. \"Penta\" means five in Greek.",
+      "difficulty": "easy",
+      "tags": [
+        "shapes"
+      ]
+    },
+    {
+      "id": "g3m2-004",
+      "question": "What is 30 ÷ 5?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2,
+      "explanation": "30 ÷ 5 = 6, because 5 × 6 = 30.",
+      "difficulty": "easy",
+      "tags": [
+        "division"
+      ]
+    },
+    {
+      "id": "g3m2-005",
+      "question": "Which is the smallest number: 312, 231, 321, 213?",
+      "options": [
+        "312",
+        "231",
+        "321",
+        "213"
+      ],
+      "correctIndex": 3,
+      "explanation": "213 < 231 < 312 < 321. Compare the tens digit when hundreds are equal.",
+      "difficulty": "easy",
+      "tags": [
+        "number-sense"
+      ]
+    }
+  ]
+}
