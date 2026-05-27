@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-french-w21-tue",
+  "title": "Grade 3 French — Tue, May 19",
+  "description": "Body Parts (Les Parties du Corps) — Last Week Day 2",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "tue",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["french", "grade-3", "weekly", "body-parts"],
+  "questions": [
+    { "id": "g3f-w21-tue-001", "question": "What is 'la tête' in English?", "options": ["Hand", "Foot", "Head", "Face"], "correctIndex": 2, "explanation": "'La tête' = the head.", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-002", "question": "What are 'les yeux' in English?", "options": ["Ears", "Nose", "Eyes", "Mouth"], "correctIndex": 2, "explanation": "'Les yeux' = the eyes (plural of 'l'œil'). 'J'ai deux yeux' = I have two eyes.", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-003", "question": "How do you say 'nose' in French?", "options": ["La bouche", "Le nez", "Les oreilles", "Les cheveux"], "correctIndex": 1, "explanation": "'Le nez' = the nose.", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-004", "question": "What is 'la bouche' in English?", "options": ["Ear", "Mouth", "Nose", "Eye"], "correctIndex": 1, "explanation": "'La bouche' = the mouth.", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-005", "question": "What are 'les oreilles' in English?", "options": ["Eyes", "Hands", "Ears", "Teeth"], "correctIndex": 2, "explanation": "'Les oreilles' = the ears.", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-006", "question": "How do you say 'arm' in French?", "options": ["La jambe", "Le pied", "Le bras", "La main"], "correctIndex": 2, "explanation": "'Le bras' = arm.", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-007", "question": "What is 'la main' in English?", "options": ["Foot", "Leg", "Hand", "Finger"], "correctIndex": 2, "explanation": "'La main' = hand.", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-008", "question": "What is 'le pied' in English?", "options": ["Arm", "Leg", "Knee", "Foot"], "correctIndex": 3, "explanation": "'Le pied' = foot. Plural: 'les pieds'.", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-009", "question": "How do you say 'leg' in French?", "options": ["Le bras", "La jambe", "Le genou", "Le dos"], "correctIndex": 1, "explanation": "'La jambe' = leg.", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-010", "question": "What are 'les dents' in English?", "options": ["Lips", "Fingers", "Teeth", "Nails"], "correctIndex": 2, "explanation": "'Les dents' = teeth.", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-011", "question": "How do you say 'I have brown hair' in French?", "options": ["J'ai les cheveux bruns", "J'ai le cheveux bruns", "J'ai les cheveux brunne", "Ma cheveux est brune"], "correctIndex": 0, "explanation": "'J'ai les cheveux bruns' = I have brown hair. 'Cheveux' (hair) is masculine plural.", "tags": ["body-parts", "colours"] },
+    { "id": "g3f-w21-tue-012", "question": "What is 'le ventre' in English?", "options": ["Back", "Chest", "Stomach / tummy", "Neck"], "correctIndex": 2, "explanation": "'Le ventre' = stomach / tummy (informal).", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-013", "question": "How do you say 'My head hurts' in French?", "options": ["J'ai mal à la jambe", "J'ai mal à la tête", "J'ai mal au ventre", "J'ai mal au bras"], "correctIndex": 1, "explanation": "'J'ai mal à la tête' = My head hurts (literally 'I have pain at the head').", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-014", "question": "What is 'le dos' in English?", "options": ["Chest", "Stomach", "Back", "Shoulder"], "correctIndex": 2, "explanation": "'Le dos' = back (the back of the body).", "tags": ["body-parts"] },
+    { "id": "g3f-w21-tue-015", "question": "How do you say 'I have blue eyes' in French?", "options": ["J'ai les yeux bleus", "J'ai les œil bleu", "J'ai des yeux bleues", "J'ai les yeux bleue"], "correctIndex": 0, "explanation": "'J'ai les yeux bleus' = I have blue eyes. 'Yeux' (eyes) is masculine plural → 'bleus'.", "tags": ["body-parts", "colours"] }
+  ]
+}

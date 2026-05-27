@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w22-fri",
+  "title": "Grade 5 Science — Fri, May 29",
+  "description": "Digestive System — Day 5 of 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "fri",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "human-body"],
+  "questions": [
+    { "id": "g5s-w22-fri-001", "question": "Where does digestion of food begin?", "options": ["Stomach", "Small intestine", "Mouth", "Large intestine"], "correctIndex": 2, "explanation": "Digestion begins in the mouth — teeth mechanically break food and saliva starts chemical digestion.", "tags": ["digestion"] },
+    { "id": "g5s-w22-fri-002", "question": "What does saliva contain that begins starch digestion?", "options": ["Pepsin", "Amylase", "Lipase", "Trypsin"], "correctIndex": 1, "explanation": "Saliva contains amylase (salivary amylase) which breaks down starch into simpler sugars.", "tags": ["digestion", "enzymes"] },
+    { "id": "g5s-w22-fri-003", "question": "What is the correct order of the digestive system?", "options": ["Mouth → stomach → small intestine → large intestine", "Mouth → small intestine → stomach → large intestine", "Mouth → oesophagus → large intestine → stomach", "Stomach → mouth → small intestine → large intestine"], "correctIndex": 0, "explanation": "Food travels: Mouth → Oesophagus → Stomach → Small intestine → Large intestine → Rectum.", "tags": ["digestion"] },
+    { "id": "g5s-w22-fri-004", "question": "The stomach produces acid to:", "options": ["Absorb nutrients", "Kill bacteria and help digest protein", "Store water", "Produce bile"], "correctIndex": 1, "explanation": "Stomach acid (HCl) kills bacteria in food and helps pepsin digest proteins.", "tags": ["digestion", "stomach"] },
+    { "id": "g5s-w22-fri-005", "question": "Where is most absorption of nutrients into the blood?", "options": ["Mouth", "Stomach", "Small intestine", "Large intestine"], "correctIndex": 2, "explanation": "The small intestine is where most nutrients are absorbed into the bloodstream through tiny villi.", "tags": ["digestion", "absorption"] },
+    { "id": "g5s-w22-fri-006", "question": "What is the role of the large intestine?", "options": ["Digest proteins", "Produce bile", "Absorb water and form faeces", "Break down fats"], "correctIndex": 2, "explanation": "The large intestine absorbs water from undigested food and compacts it into faeces.", "tags": ["digestion"] },
+    { "id": "g5s-w22-fri-007", "question": "Bile is produced by:", "options": ["Stomach", "Pancreas", "Liver", "Small intestine"], "correctIndex": 2, "explanation": "Bile is produced by the liver and stored in the gall bladder. It helps digest fats.", "tags": ["digestion", "liver"] },
+    { "id": "g5s-w22-fri-008", "question": "Which enzyme in the stomach digests proteins?", "options": ["Amylase", "Lipase", "Pepsin", "Trypsin"], "correctIndex": 2, "explanation": "Pepsin in the stomach breaks down proteins into smaller peptides.", "tags": ["digestion", "enzymes"] },
+    { "id": "g5s-w22-fri-009", "question": "The food pipe (oesophagus) moves food by a wave-like motion called:", "options": ["Digestion", "Absorption", "Peristalsis", "Osmosis"], "correctIndex": 2, "explanation": "Peristalsis is the wave-like muscular contractions that push food down the oesophagus.", "tags": ["digestion"] },
+    { "id": "g5s-w22-fri-010", "question": "What does the pancreas secrete?", "options": ["Bile", "Blood", "Digestive enzymes (amylase, lipase, trypsin)", "Saliva"], "correctIndex": 2, "explanation": "The pancreas secretes enzymes that digest carbohydrates, fats, and proteins in the small intestine.", "tags": ["digestion", "pancreas"] },
+    { "id": "g5s-w22-fri-011", "question": "Which nutrient provides the most energy?", "options": ["Protein", "Vitamins", "Carbohydrates", "Minerals"], "correctIndex": 2, "explanation": "Carbohydrates are the body's primary energy source.", "tags": ["nutrition"] },
+    { "id": "g5s-w22-fri-012", "question": "Dietary fibre helps:", "options": ["Build muscles", "Provide energy", "Prevent constipation", "Build bones"], "correctIndex": 2, "explanation": "Dietary fibre aids smooth movement of food through the intestines and prevents constipation.", "tags": ["nutrition", "digestion"] },
+    { "id": "g5s-w22-fri-013", "question": "Which organ stores bile?", "options": ["Liver", "Pancreas", "Gall bladder", "Spleen"], "correctIndex": 2, "explanation": "Bile is produced in the liver and stored in the gall bladder until needed for fat digestion.", "tags": ["digestion"] },
+    { "id": "g5s-w22-fri-014", "question": "Digestion is both mechanical (physical) and chemical. Which is a chemical digestion process?", "options": ["Chewing food", "Swallowing", "Enzymes breaking down starch", "Peristalsis"], "correctIndex": 2, "explanation": "Chemical digestion involves enzymes changing the chemical structure of food molecules.", "tags": ["digestion"] },
+    { "id": "g5s-w22-fri-015", "question": "Why is water important for digestion?", "options": ["It is digested for energy", "It dissolves nutrients and helps move food through the system", "It produces bile", "It replaces enzymes"], "correctIndex": 1, "explanation": "Water dissolves nutrients so they can be absorbed, and helps move food smoothly through the digestive system.", "tags": ["nutrition", "digestion"] }
+  ]
+}

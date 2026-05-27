@@ -63,6 +63,7 @@
 | **[P2-T019](P2-T019-subscription-prelaunch-readiness.md)** | **Subscription pre-launch readiness — content depth gate, landing page honesty, differentiation story** | **M** | **Pending** |
 | **[P2-T020](P2-T020-content-operations-bulk-import.md)** | **Content operations — in-app admin panel + CSV bulk import for non-developer content growth** | **M** | **Pending** |
 | **[P2-T021](P2-T021-subject-tab-filter-ui.md)** | **Subject tab filter — Math / Science / Hindi / French tabs on home screen** | **S** | **✅ Done** |
+| **[P2-T022](P2-T022-remove-regional-language-from-signup.md)** | **Remove regional language from signup — move to profile settings, keeps app internationally neutral** | **S** | **Pending** |
 
 ---
 
@@ -85,6 +86,8 @@
 | **[P3-T018](P3-T018-regional-language-signup-profile.md)** | **Regional language — signup selection, settings, 120 questions (6 languages × 2 sets)** | **M** | **✅ Done** |
 | **[P3-T019](P3-T019-content-calendar-weekly-rotation.md)** | **Content calendar — weekly question rotation, seen-first filter, Set 2 for grades 7–12** | **M** | **Pending** |
 | **[P3-T020](P3-T020-international-language-learning-priority.md)** | **International language learning — French, German, Spanish, Japanese, Mandarin, Arabic (elevated from P6)** | **M** | **Pending** |
+| **[P3-T021](P3-T021-curriculum-topic-progression-plan.md)** | **Curriculum topic progression — structured topic sequence per grade/subject, not random day-by-day** | **M** | **Pending** |
+| **[P3-T022](P3-T022-question-reuse-spaced-practice.md)** | **Question reuse & spaced practice — track mastery per question, surface weak topics for retry sessions** | **M** | **Pending** |
 | [P3-T004](P3-T004-avatar-profile-photo.md) | Avatar + profile photo upload | S | Pending |
 | [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
 | [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
@@ -189,6 +192,6 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 63 (1 cancelled, 1 superseded) | P1: 13 | P2: 21 | P3: 20 | P4: 5 | P5: 6 | P6: 6*
-*Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback*
+*Total tasks: 66 (1 cancelled, 1 superseded) | P1: 13 | P2: 22 | P3: 22 | P4: 5 | P5: 6 | P6: 6*
+*Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback | BUG-005 (fixed) — weekly questions moved from `questions/weekly/` into grade+subject folders as day-files; manifest-driven loading; 80 files generated for Grades 3 + 5 as test baseline*
 *New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*

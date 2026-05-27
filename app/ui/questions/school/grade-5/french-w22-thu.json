@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-french-w22-thu",
+  "title": "Grade 5 French — Thu, May 28",
+  "description": "School & Days of the Week (L'École et les Jours de la Semaine) — Day 4 of 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "thu",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["french", "grade-5", "weekly", "school"],
+  "questions": [
+    { "id": "g5f-w22-thu-001", "question": "What is the French word for 'school'?", "options": ["Bibliothèque", "École", "Gymnase", "Cantine"], "correctIndex": 1, "explanation": "'École' = school. Bibliothèque = library, Gymnase = gymnasium, Cantine = school canteen/cafeteria.", "tags": ["school"] },
+    { "id": "g5f-w22-thu-002", "question": "How do you say 'Monday' in French?", "options": ["Mardi", "Mercredi", "Lundi", "Dimanche"], "correctIndex": 2, "explanation": "'Lundi' = Monday. Days: Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche.", "tags": ["days"] },
+    { "id": "g5f-w22-thu-003", "question": "What day is 'Vendredi'?", "options": ["Thursday", "Friday", "Saturday", "Wednesday"], "correctIndex": 1, "explanation": "'Vendredi' = Friday. The days in order: Lundi(Mon), Mardi(Tue), Mercredi(Wed), Jeudi(Thu), Vendredi(Fri), Samedi(Sat), Dimanche(Sun).", "tags": ["days"] },
+    { "id": "g5f-w22-thu-004", "question": "How do you say 'teacher' (female) in French?", "options": ["Professeur", "Maîtresse", "Directeur", "Élève"], "correctIndex": 1, "explanation": "'Maîtresse' = female teacher (primary school). 'Professeur' = teacher/professor (secondary+). 'Élève' = student.", "tags": ["school"] },
+    { "id": "g5f-w22-thu-005", "question": "What does 'la récréation' mean?", "options": ["Homework", "Exam", "Break/Recess time", "Lesson"], "correctIndex": 2, "explanation": "'La récréation' = break time / recess at school. Often shortened to 'la récré' in speech.", "tags": ["school"] },
+    { "id": "g5f-w22-thu-006", "question": "What is 'Wednesday' in French?", "options": ["Jeudi", "Vendredi", "Mardi", "Mercredi"], "correctIndex": 3, "explanation": "'Mercredi' = Wednesday. Note: In France, children traditionally had Wednesday afternoons off school.", "tags": ["days"] },
+    { "id": "g5f-w22-thu-007", "question": "How do you say 'I go to school' in French?", "options": ["Je vais à l'école", "Je suis à l'école", "J'aime l'école", "Je travaille à l'école"], "correctIndex": 0, "explanation": "'Je vais à l'école' = 'I go to school'. 'Aller' (to go) + 'à l'école' (to school).", "tags": ["school"] },
+    { "id": "g5f-w22-thu-008", "question": "What is the French word for 'homework'?", "options": ["Leçon", "Devoir", "Cahier", "Stylo"], "correctIndex": 1, "explanation": "'Les devoirs' = homework. Leçon = lesson, Cahier = notebook, Stylo = pen.", "tags": ["school"] },
+    { "id": "g5f-w22-thu-009", "question": "In French, days of the week are written:", "options": ["With capital letters", "Without capital letters", "With capital only on Monday", "Always with 'le' before them"], "correctIndex": 1, "explanation": "In French, days of the week are NOT capitalized: lundi, mardi, mercredi... (unlike English).", "tags": ["days", "grammar"] },
+    { "id": "g5f-w22-thu-010", "question": "What does 'le week-end' mean in French?", "options": ["The weekday", "The holiday", "The weekend", "The school week"], "correctIndex": 2, "explanation": "'Le week-end' = the weekend (Saturday and Sunday). French borrows this term from English.", "tags": ["days"] },
+    { "id": "g5f-w22-thu-011", "question": "How do you say 'I like mathematics' in French?", "options": ["Je mange les mathématiques", "J'aime les mathématiques", "Je fais les mathématiques", "J'étudie les mathématiques"], "correctIndex": 1, "explanation": "'J'aime les mathématiques' = 'I like mathematics'. 'Aimer' = to like/love.", "tags": ["school", "subjects"] },
+    { "id": "g5f-w22-thu-012", "question": "What is 'Saturday' in French?", "options": ["Vendredi", "Dimanche", "Samedi", "Jeudi"], "correctIndex": 2, "explanation": "'Samedi' = Saturday. Dimanche = Sunday, Vendredi = Friday, Jeudi = Thursday.", "tags": ["days"] },
+    { "id": "g5f-w22-thu-013", "question": "How do you say 'pen' in French?", "options": ["Crayon", "Cahier", "Stylo", "Livre"], "correctIndex": 2, "explanation": "'Stylo' = pen (ballpoint pen). Crayon = pencil, Cahier = notebook, Livre = book.", "tags": ["school", "stationery"] },
+    { "id": "g5f-w22-thu-014", "question": "What does 'Qu'est-ce que tu aimes comme matière?' mean?", "options": ["What time do you go to school?", "What is your favourite subject?", "Do you have homework today?", "When is the break?"], "correctIndex": 1, "explanation": "'Qu'est-ce que tu aimes comme matière?' = 'What subject do you like?' / 'What is your favourite subject?'", "tags": ["school"] },
+    { "id": "g5f-w22-thu-015", "question": "How do you say 'Today is Tuesday' in French?", "options": ["Aujourd'hui est lundi", "Aujourd'hui est mardi", "Maintenant est mardi", "Ce jour est mardi"], "correctIndex": 1, "explanation": "'Aujourd'hui est mardi' = 'Today is Tuesday'. 'Aujourd'hui' = today, 'mardi' = Tuesday.", "tags": ["days"] }
+  ]
+}

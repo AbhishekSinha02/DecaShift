@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-french-w21-fri",
+  "title": "Grade 3 French — Fri, May 22",
+  "description": "Weather & Simple Sentences (Le Temps et les Phrases Simples) — Last Week Day 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "fri",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["french", "grade-3", "weekly", "weather"],
+  "questions": [
+    { "id": "g3f-w21-fri-001", "question": "How do you say 'It is sunny' in French?", "options": ["Il fait froid", "Il fait chaud", "Il fait beau / Il y a du soleil", "Il pleut"], "correctIndex": 2, "explanation": "'Il fait beau' or 'Il y a du soleil' = It is sunny.", "tags": ["weather"] },
+    { "id": "g3f-w21-fri-002", "question": "How do you say 'It is raining' in French?", "options": ["Il neige", "Il pleut", "Il fait froid", "Il y a du vent"], "correctIndex": 1, "explanation": "'Il pleut' = It is raining.", "tags": ["weather"] },
+    { "id": "g3f-w21-fri-003", "question": "How do you say 'It is snowing' in French?", "options": ["Il pleut", "Il fait froid", "Il neige", "Il fait mauvais"], "correctIndex": 2, "explanation": "'Il neige' = It is snowing.", "tags": ["weather"] },
+    { "id": "g3f-w21-fri-004", "question": "What does 'Il fait chaud' mean?", "options": ["It is cold", "It is hot", "It is windy", "It is cloudy"], "correctIndex": 1, "explanation": "'Il fait chaud' = It is hot.", "tags": ["weather"] },
+    { "id": "g3f-w21-fri-005", "question": "What does 'Il fait froid' mean?", "options": ["It is hot", "It is sunny", "It is cold", "It is foggy"], "correctIndex": 2, "explanation": "'Il fait froid' = It is cold.", "tags": ["weather"] },
+    { "id": "g3f-w21-fri-006", "question": "What does 'Il y a du vent' mean?", "options": ["It is cloudy", "It is foggy", "It is windy", "It is stormy"], "correctIndex": 2, "explanation": "'Il y a du vent' = It is windy (literally 'there is some wind').", "tags": ["weather"] },
+    { "id": "g3f-w21-fri-007", "question": "In French, simple sentences follow the order:", "options": ["Verb + Subject + Object", "Subject + Verb + Object", "Object + Subject + Verb", "No fixed order"], "correctIndex": 1, "explanation": "French sentences usually follow Subject + Verb + Object (SVO), like English: 'Je mange une pomme' (I eat an apple).", "tags": ["grammar"] },
+    { "id": "g3f-w21-fri-008", "question": "What does 'Je joue' mean?", "options": ["I eat", "I sleep", "I play", "I run"], "correctIndex": 2, "explanation": "'Je joue' = I play. From the verb 'jouer' (to play).", "tags": ["verbs"] },
+    { "id": "g3f-w21-fri-009", "question": "What does 'Il mange une pizza' mean?", "options": ["She plays pizza", "He eats a pizza", "I eat a pizza", "We eat pizza"], "correctIndex": 1, "explanation": "'Il mange une pizza' = He eats a pizza. 'Il' = he, 'mange' = eats, 'une pizza' = a pizza.", "tags": ["sentences"] },
+    { "id": "g3f-w21-fri-010", "question": "How do you make a sentence negative in French?", "options": ["Add 'non' at the start", "Add 'ne...pas' around the verb", "Remove the subject", "Add 'pas' at the end only"], "correctIndex": 1, "explanation": "Negation: ne + verb + pas. 'Je mange' → 'Je ne mange pas' (I don't eat).", "tags": ["grammar"] },
+    { "id": "g3f-w21-fri-011", "question": "What does 'Elle chante' mean?", "options": ["He sings", "She sings", "I sing", "They sing"], "correctIndex": 1, "explanation": "'Elle chante' = She sings. 'Elle' = she, 'chanter' = to sing.", "tags": ["sentences"] },
+    { "id": "g3f-w21-fri-012", "question": "How do you say 'We play football' in French?", "options": ["Je joue au football", "Nous jouons au football", "Il joue au football", "Vous jouez au football"], "correctIndex": 1, "explanation": "'Nous jouons au football' = We play football. 'Nous' = we.", "tags": ["sentences"] },
+    { "id": "g3f-w21-fri-013", "question": "What does 'Quel temps fait-il?' mean?", "options": ["What time is it?", "What day is it?", "What is the weather like?", "What do you like?"], "correctIndex": 2, "explanation": "'Quel temps fait-il?' = What is the weather like?", "tags": ["weather"] },
+    { "id": "g3f-w21-fri-014", "question": "Describe rainy weather: complete the sentence 'Aujourd'hui, ___.'", "options": ["Il fait beau", "Il fait chaud", "Il pleut", "Il fait beau et chaud"], "correctIndex": 2, "explanation": "'Aujourd'hui, il pleut' = Today, it is raining.", "tags": ["weather"] },
+    { "id": "g3f-w21-fri-015", "question": "What does 'J'aime le printemps' mean?", "options": ["I like summer", "I like winter", "I like spring", "I like autumn"], "correctIndex": 2, "explanation": "'J'aime le printemps' = I like spring. 'Le printemps' = spring.", "tags": ["weather", "seasons"] }
+  ]
+}

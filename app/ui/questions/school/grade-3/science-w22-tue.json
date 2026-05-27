@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w22-tue",
+  "title": "Grade 3 Science — Tue, May 26",
+  "description": "Animals — Types and Habitats — Day 2 of 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "tue",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "animals"],
+  "questions": [
+    { "id": "g3s-w22-tue-001", "question": "Animals that feed their babies with milk are called:", "options": ["Reptiles", "Amphibians", "Mammals", "Birds"], "correctIndex": 2, "explanation": "Mammals give birth to live young and feed them with milk. Examples: cows, dogs, whales, humans.", "tags": ["animals", "mammals"] },
+    { "id": "g3s-w22-tue-002", "question": "Which animal lays eggs AND lives both in water and on land?", "options": ["Dog", "Eagle", "Frog", "Snake"], "correctIndex": 2, "explanation": "Frogs are amphibians — they can live both in water and on land. They lay eggs in water.", "tags": ["animals", "amphibians"] },
+    { "id": "g3s-w22-tue-003", "question": "What is an animal's natural home called?", "options": ["Zoo", "Habitat", "Cage", "Farm"], "correctIndex": 1, "explanation": "A habitat is the natural place where an animal lives — like a forest, pond, desert, or ocean.", "tags": ["animals", "habitat"] },
+    { "id": "g3s-w22-tue-004", "question": "Which of these is a cold-blooded animal?", "options": ["Dog", "Cat", "Lizard", "Cow"], "correctIndex": 2, "explanation": "Lizards are reptiles — cold-blooded animals that cannot control their own body temperature.", "tags": ["animals", "reptiles"] },
+    { "id": "g3s-w22-tue-005", "question": "Animals that eat only meat are called:", "options": ["Herbivores", "Omnivores", "Carnivores", "Decomposers"], "correctIndex": 2, "explanation": "Carnivores eat only meat. Examples: lions, tigers, wolves.", "tags": ["animals", "diet"] },
+    { "id": "g3s-w22-tue-006", "question": "Which animal lives in a desert habitat?", "options": ["Polar bear", "Dolphin", "Camel", "Penguin"], "correctIndex": 2, "explanation": "Camels are adapted to hot, dry deserts — they can go long periods without water.", "tags": ["animals", "habitat"] },
+    { "id": "g3s-w22-tue-007", "question": "Fish breathe through:", "options": ["Lungs", "Skin", "Gills", "Nostrils"], "correctIndex": 2, "explanation": "Fish breathe through gills — gills absorb dissolved oxygen from water.", "tags": ["animals", "fish"] },
+    { "id": "g3s-w22-tue-008", "question": "Which group of animals has feathers?", "options": ["Mammals", "Reptiles", "Birds", "Amphibians"], "correctIndex": 2, "explanation": "Birds have feathers. All birds have feathers and lay eggs, but not all birds can fly.", "tags": ["animals", "birds"] },
+    { "id": "g3s-w22-tue-009", "question": "An animal that eats both plants and animals is called:", "options": ["Herbivore", "Carnivore", "Omnivore", "Decomposer"], "correctIndex": 2, "explanation": "Omnivores eat both plants and animals. Examples: bears, humans, pigs.", "tags": ["animals", "diet"] },
+    { "id": "g3s-w22-tue-010", "question": "Which adaptation helps a polar bear survive in the cold Arctic?", "options": ["Thin skin", "Thick white fur and fat layer", "Small ears", "Webbed feet"], "correctIndex": 1, "explanation": "Polar bears have thick white fur for camouflage and warmth, and a layer of fat for insulation in cold Arctic temperatures.", "tags": ["animals", "adaptation"] },
+    { "id": "g3s-w22-tue-011", "question": "What is migration?", "options": ["Animals sleeping in winter", "Animals moving to a different place seasonally", "Animals changing colour", "Animals building nests"], "correctIndex": 1, "explanation": "Migration is when animals move from one place to another (usually seasonal) for food, breeding, or better climate.", "tags": ["animals", "behaviour"] },
+    { "id": "g3s-w22-tue-012", "question": "Which of these animals hibernates in winter?", "options": ["Elephant", "Bear", "Eagle", "Fish"], "correctIndex": 1, "explanation": "Bears hibernate in winter — their body temperature drops and they sleep for months to conserve energy.", "tags": ["animals", "behaviour"] },
+    { "id": "g3s-w22-tue-013", "question": "Insects have how many legs?", "options": ["4", "6", "8", "10"], "correctIndex": 1, "explanation": "Insects have 6 legs — this is one of the defining features of insects. Example: ant, bee, butterfly.", "tags": ["animals", "insects"] },
+    { "id": "g3s-w22-tue-014", "question": "What do you call the hard outer shell of a crab?", "options": ["Skin", "Shell", "Exoskeleton", "Scales"], "correctIndex": 2, "explanation": "Crabs, insects, and spiders have an exoskeleton — a hard outer shell that protects them (instead of bones).", "tags": ["animals"] },
+    { "id": "g3s-w22-tue-015", "question": "Which habitat would you find a camel, a scorpion, and a lizard?", "options": ["Rainforest", "Arctic", "Ocean", "Desert"], "correctIndex": 3, "explanation": "Camels, scorpions, and lizards are all desert animals — adapted to hot, dry, sandy environments.", "tags": ["animals", "habitat"] }
+  ]
+}

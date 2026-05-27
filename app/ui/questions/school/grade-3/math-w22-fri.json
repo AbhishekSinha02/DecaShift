@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w22-fri",
+  "title": "Grade 3 Maths — Fri, May 29",
+  "description": "Word Problems — Mixed Operations — Day 5 of 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "fri",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["maths", "grade-3", "weekly", "word-problems"],
+  "questions": [
+    { "id": "g3m-w22-fri-001", "question": "Riya has 35 coloured pencils. She gives 8 to her sister. How many does she have left?", "options": ["25", "27", "28", "30"], "correctIndex": 1, "explanation": "35 − 8 = 27. Subtraction tells us how many are left.", "tags": ["word-problems", "subtraction"] },
+    { "id": "g3m-w22-fri-002", "question": "A shop sells 6 cakes every hour. How many cakes are sold in 8 hours?", "options": ["42", "46", "48", "56"], "correctIndex": 2, "explanation": "6 × 8 = 48 cakes.", "tags": ["word-problems", "multiplication"] },
+    { "id": "g3m-w22-fri-003", "question": "There are 54 children divided equally into 9 teams. How many children per team?", "options": ["5", "6", "7", "8"], "correctIndex": 1, "explanation": "54 ÷ 9 = 6 children per team.", "tags": ["word-problems", "division"] },
+    { "id": "g3m-w22-fri-004", "question": "Arun had ₹72. He spent ₹45 on a book. How much money does he have left?", "options": ["₹25", "₹27", "₹28", "₹30"], "correctIndex": 1, "explanation": "72 − 45 = 27. He has ₹27 left.", "tags": ["word-problems", "subtraction"] },
+    { "id": "g3m-w22-fri-005", "question": "There are 7 shelves in a library. Each shelf has 9 books. How many books are there?", "options": ["54", "60", "63", "72"], "correctIndex": 2, "explanation": "7 × 9 = 63 books.", "tags": ["word-problems", "multiplication"] },
+    { "id": "g3m-w22-fri-006", "question": "Priya baked 48 cookies. She wants to share them equally among 6 friends. How many cookies does each friend get?", "options": ["6", "7", "8", "9"], "correctIndex": 2, "explanation": "48 ÷ 6 = 8 cookies per friend.", "tags": ["word-problems", "division"] },
+    { "id": "g3m-w22-fri-007", "question": "A school has 3 classes. Each class has 28 students. How many students are there in the school?", "options": ["74", "80", "84", "90"], "correctIndex": 2, "explanation": "3 × 28 = 84 students.", "tags": ["word-problems", "multiplication"] },
+    { "id": "g3m-w22-fri-008", "question": "A train travels 120 km in the morning and 85 km in the afternoon. How far does it travel in total?", "options": ["195 km", "200 km", "205 km", "210 km"], "correctIndex": 2, "explanation": "120 + 85 = 205 km.", "tags": ["word-problems", "addition"] },
+    { "id": "g3m-w22-fri-009", "question": "Ravi has 4 bags of marbles with 12 marbles in each bag. He gives away 15 marbles. How many does he have?", "options": ["28", "29", "30", "33"], "correctIndex": 3, "explanation": "4 × 12 = 48 marbles. 48 − 15 = 33 marbles left.", "tags": ["word-problems", "multi-step"] },
+    { "id": "g3m-w22-fri-010", "question": "A garden has 6 rows of flowers. Each row has 7 red flowers and 3 yellow flowers. How many flowers in total?", "options": ["55", "56", "58", "60"], "correctIndex": 3, "explanation": "Each row has 7+3=10 flowers. 6 × 10 = 60 flowers in total.", "tags": ["word-problems", "multi-step"] },
+    { "id": "g3m-w22-fri-011", "question": "Meena reads 8 pages every day. How many pages does she read in a week (7 days)?", "options": ["48", "54", "56", "64"], "correctIndex": 2, "explanation": "8 × 7 = 56 pages.", "tags": ["word-problems", "multiplication"] },
+    { "id": "g3m-w22-fri-012", "question": "Which operation tells you how many equal groups can be made?", "options": ["Addition", "Subtraction", "Multiplication", "Division"], "correctIndex": 3, "explanation": "Division splits a total into equal groups. Example: 24 ÷ 4 = 6 (how many groups of 4 in 24?).", "tags": ["word-problems", "division"] },
+    { "id": "g3m-w22-fri-013", "question": "A farmer has 5 rows of corn plants with 14 plants in each row. How many plants are there?", "options": ["60", "65", "70", "75"], "correctIndex": 2, "explanation": "5 × 14 = 70 plants.", "tags": ["word-problems", "multiplication"] },
+    { "id": "g3m-w22-fri-014", "question": "Sam had 96 stickers. He shared them equally with 3 friends (each person including himself gets the same). How many does each person get?", "options": ["24", "28", "30", "32"], "correctIndex": 0, "explanation": "96 ÷ 4 = 24 (Sam + 3 friends = 4 people).", "tags": ["word-problems", "division"] },
+    { "id": "g3m-w22-fri-015", "question": "Which word in a problem tells you to USE multiplication?", "options": ["Total, sum", "Less than, fewer", "Each, per, times, groups of", "Left, remaining"], "correctIndex": 2, "explanation": "Words like 'each', 'per', 'times', 'groups of', and 'rows of' are clues for multiplication.", "tags": ["word-problems"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-french-w22-wed",
+  "title": "Grade 5 French — Wed, May 27",
+  "description": "Family & Home (La Famille et la Maison) — Day 3 of 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "wed",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["french", "grade-5", "weekly", "family"],
+  "questions": [
+    { "id": "g5f-w22-wed-001", "question": "What is the French word for 'mother'?", "options": ["Père", "Frère", "Mère", "Sœur"], "correctIndex": 2, "explanation": "'Mère' = mother. Père = father, Frère = brother, Sœur = sister.", "tags": ["family"] },
+    { "id": "g5f-w22-wed-002", "question": "How do you say 'grandmother' in French?", "options": ["Grand-père", "Oncle", "Grand-mère", "Tante"], "correctIndex": 2, "explanation": "'Grand-mère' = grandmother. Grand-père = grandfather, Oncle = uncle, Tante = aunt.", "tags": ["family"] },
+    { "id": "g5f-w22-wed-003", "question": "What does 'J'ai un frère et une sœur' mean?", "options": ["I have a mother and a father", "I have a brother and a sister", "I have an uncle and an aunt", "I have a son and a daughter"], "correctIndex": 1, "explanation": "'J'ai un frère et une sœur' = 'I have a brother and a sister'. Frère = brother, sœur = sister.", "tags": ["family"] },
+    { "id": "g5f-w22-wed-004", "question": "What is the French word for 'house'?", "options": ["Appartement", "Maison", "École", "Magasin"], "correctIndex": 1, "explanation": "'Maison' = house. Appartement = apartment, École = school, Magasin = shop/store.", "tags": ["home"] },
+    { "id": "g5f-w22-wed-005", "question": "How do you say 'bedroom' in French?", "options": ["Cuisine", "Salon", "Chambre", "Salle de bains"], "correctIndex": 2, "explanation": "'Chambre' (or 'chambre à coucher') = bedroom. Cuisine = kitchen, Salon = living room, Salle de bains = bathroom.", "tags": ["home"] },
+    { "id": "g5f-w22-wed-006", "question": "What does 'la cuisine' refer to?", "options": ["Living room", "Bedroom", "Kitchen", "Garden"], "correctIndex": 2, "explanation": "'La cuisine' = the kitchen. It also means 'cooking/cuisine' — the room where cooking happens.", "tags": ["home"] },
+    { "id": "g5f-w22-wed-007", "question": "How do you say 'I live in a house' in French?", "options": ["Je travaille dans une maison", "J'habite dans une maison", "Je mange dans une maison", "Je dors dans une maison"], "correctIndex": 1, "explanation": "'J'habite dans une maison' = 'I live in a house'. 'Habiter' means 'to live/reside'.", "tags": ["home"] },
+    { "id": "g5f-w22-wed-008", "question": "What is the French word for 'cousin' (male)?", "options": ["Neveu", "Cousin", "Frère", "Oncle"], "correctIndex": 1, "explanation": "'Cousin' = male cousin. 'Cousine' = female cousin. Neveu = nephew, Oncle = uncle.", "tags": ["family"] },
+    { "id": "g5f-w22-wed-009", "question": "'Le salon' in a house refers to:", "options": ["Kitchen", "Living room", "Bathroom", "Garden"], "correctIndex": 1, "explanation": "'Le salon' = the living room. It's where the family typically spends time together.", "tags": ["home"] },
+    { "id": "g5f-w22-wed-010", "question": "How do you say 'My family is big' in French?", "options": ["Ma famille est petite", "Mon famille est grand", "Ma famille est grande", "Ma famille sont grands"], "correctIndex": 2, "explanation": "'Ma famille est grande' = 'My family is big'. 'Famille' is feminine, so 'grande' (not grand).", "tags": ["family", "grammar"] },
+    { "id": "g5f-w22-wed-011", "question": "What does 'les parents' mean?", "options": ["The grandparents", "The parents", "The relatives", "The siblings"], "correctIndex": 1, "explanation": "'Les parents' = the parents (in common use). Note: it can also mean 'relatives' in a broader sense.", "tags": ["family"] },
+    { "id": "g5f-w22-wed-012", "question": "What is the French word for 'garden'?", "options": ["Garage", "Grenier", "Jardin", "Couloir"], "correctIndex": 2, "explanation": "'Jardin' = garden. Garage = garage, Grenier = attic, Couloir = corridor/hallway.", "tags": ["home"] },
+    { "id": "g5f-w22-wed-013", "question": "How do you say 'I have two sisters' in French?", "options": ["J'ai deux frères", "J'ai deux sœurs", "J'ai deux cousines", "J'ai deux mères"], "correctIndex": 1, "explanation": "'J'ai deux sœurs' = 'I have two sisters'. 'Sœur' (sister) → 'sœurs' (sisters).", "tags": ["family"] },
+    { "id": "g5f-w22-wed-014", "question": "'La salle de bains' is:", "options": ["The bedroom", "The kitchen", "The bathroom", "The living room"], "correctIndex": 2, "explanation": "'La salle de bains' = the bathroom (literally 'the bath room'). In French homes, the toilet may be separate.", "tags": ["home"] },
+    { "id": "g5f-w22-wed-015", "question": "What does 'Où habites-tu?' mean?", "options": ["What is your name?", "How old are you?", "Where do you live?", "Do you have siblings?"], "correctIndex": 2, "explanation": "'Où habites-tu?' = 'Where do you live?' (informal). 'Où' = where, 'habiter' = to live.", "tags": ["home", "introductions"] }
+  ]
+}

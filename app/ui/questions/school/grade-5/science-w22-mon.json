@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w22-mon",
+  "title": "Grade 5 Science — Mon, May 25",
+  "description": "Light & Shadow — Day 1 of 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "mon",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "light"],
+  "questions": [
+    { "id": "g5s-w22-mon-001", "question": "What is the speed of light in vacuum?", "options": ["3 × 10⁵ km/s", "3 × 10⁶ km/s", "3 × 10⁸ m/s", "3 × 10⁴ m/s"], "correctIndex": 2, "explanation": "Light travels at approximately 3 × 10⁸ metres per second in vacuum.", "tags": ["light"] },
+    { "id": "g5s-w22-mon-002", "question": "Which of the following is a luminous object?", "options": ["Moon", "Mirror", "Sun", "Glass"], "correctIndex": 2, "explanation": "The Sun produces its own light — it is luminous. Moon and mirror only reflect light.", "tags": ["light", "luminous"] },
+    { "id": "g5s-w22-mon-003", "question": "A shadow is formed when an object:", "options": ["Reflects light", "Absorbs all light", "Blocks light from passing through", "Emits light"], "correctIndex": 2, "explanation": "Shadows form when opaque objects block light from reaching a surface.", "tags": ["shadow"] },
+    { "id": "g5s-w22-mon-004", "question": "Which material allows all light to pass through?", "options": ["Wood", "Frosted glass", "Clear glass", "Cardboard"], "correctIndex": 2, "explanation": "Clear (transparent) glass allows all light to pass through.", "tags": ["light", "materials"] },
+    { "id": "g5s-w22-mon-005", "question": "When a light ray hits a mirror, it:", "options": ["Gets absorbed", "Passes through", "Gets reflected", "Disappears"], "correctIndex": 2, "explanation": "Mirrors are highly reflective surfaces — light bounces back (reflection).", "tags": ["reflection"] },
+    { "id": "g5s-w22-mon-006", "question": "What happens to a shadow when the light source moves closer to the object?", "options": ["Shadow gets smaller", "Shadow gets larger", "Shadow disappears", "Shadow stays the same"], "correctIndex": 1, "explanation": "Moving the light source closer makes the shadow larger.", "tags": ["shadow"] },
+    { "id": "g5s-w22-mon-007", "question": "Translucent materials:", "options": ["Block all light", "Allow all light through clearly", "Allow some light but scatter it", "Emit their own light"], "correctIndex": 2, "explanation": "Translucent materials (like frosted glass, oiled paper) allow light through but scatter it so you cannot see clearly.", "tags": ["light", "materials"] },
+    { "id": "g5s-w22-mon-008", "question": "What is the bending of light when it passes from one medium to another called?", "options": ["Reflection", "Refraction", "Diffraction", "Absorption"], "correctIndex": 1, "explanation": "Refraction is the bending of light as it passes from one medium (e.g., air) to another (e.g., water).", "tags": ["refraction"] },
+    { "id": "g5s-w22-mon-009", "question": "A pencil placed in a glass of water appears bent. This is because of:", "options": ["Reflection", "Refraction", "Absorption", "Diffusion"], "correctIndex": 1, "explanation": "Light changes speed and direction when moving from water to air, causing refraction — making the pencil appear bent.", "tags": ["refraction"] },
+    { "id": "g5s-w22-mon-010", "question": "Which colour of visible light has the longest wavelength?", "options": ["Violet", "Blue", "Green", "Red"], "correctIndex": 3, "explanation": "Red light has the longest wavelength in the visible spectrum.", "tags": ["light", "spectrum"] },
+    { "id": "g5s-w22-mon-011", "question": "A solar eclipse occurs when:", "options": ["Earth is between Sun and Moon", "Moon is between Sun and Earth", "Sun is between Earth and Moon", "Moon goes behind Earth"], "correctIndex": 1, "explanation": "A solar eclipse occurs when the Moon comes between the Sun and Earth, blocking sunlight.", "tags": ["eclipse", "shadow"] },
+    { "id": "g5s-w22-mon-012", "question": "What device uses mirrors and lenses to see distant objects?", "options": ["Microscope", "Stethoscope", "Telescope", "Barometer"], "correctIndex": 2, "explanation": "Telescopes use combinations of mirrors and lenses to magnify distant objects.", "tags": ["light", "instruments"] },
+    { "id": "g5s-w22-mon-013", "question": "Light travels in:", "options": ["Curved lines", "Zig-zag lines", "Straight lines", "Circular paths"], "correctIndex": 2, "explanation": "Light travels in straight lines — this is why we get sharp shadows.", "tags": ["light"] },
+    { "id": "g5s-w22-mon-014", "question": "What happens when white light passes through a prism?", "options": ["It disappears", "It splits into seven colours", "It turns black", "It becomes brighter"], "correctIndex": 1, "explanation": "A prism disperses white light into seven colours: VIBGYOR (Violet, Indigo, Blue, Green, Yellow, Orange, Red).", "tags": ["light", "spectrum"] },
+    { "id": "g5s-w22-mon-015", "question": "Night vision in cats is possible because:", "options": ["Cats emit their own light", "Cat eyes reflect more light", "Cats have more rod cells that work well in low light", "Cats use echolocation"], "correctIndex": 2, "explanation": "Cats have many more rod cells (light-sensitive) in their eyes, allowing them to see in dim light.", "tags": ["light", "biology"] }
+  ]
+}

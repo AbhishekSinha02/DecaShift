@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w22-thu",
+  "title": "Grade 5 Science — Thu, May 28",
+  "description": "Plant Reproduction — Day 4 of 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "thu",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "plants"],
+  "questions": [
+    { "id": "g5s-w22-thu-001", "question": "Which part of a flower becomes the fruit?", "options": ["Petal", "Sepal", "Ovary", "Stamen"], "correctIndex": 2, "explanation": "After fertilisation, the ovary develops into the fruit, and ovules become seeds.", "tags": ["plants", "reproduction"] },
+    { "id": "g5s-w22-thu-002", "question": "What is pollination?", "options": ["Growth of roots", "Transfer of pollen from anther to stigma", "Germination of seeds", "Absorption of water"], "correctIndex": 1, "explanation": "Pollination is the transfer of pollen grains from the anther (male part) to the stigma (female part).", "tags": ["pollination"] },
+    { "id": "g5s-w22-thu-003", "question": "Bees help in pollination by:", "options": ["Eating seeds", "Carrying pollen while collecting nectar", "Watering plants", "Making soil fertile"], "correctIndex": 1, "explanation": "When bees collect nectar, pollen sticks to their bodies and is transferred to other flowers.", "tags": ["pollination"] },
+    { "id": "g5s-w22-thu-004", "question": "What are the male reproductive parts of a flower called?", "options": ["Pistil", "Stamen", "Sepal", "Petal"], "correctIndex": 1, "explanation": "Stamen is the male part of the flower, consisting of anther (produces pollen) and filament.", "tags": ["plants", "anatomy"] },
+    { "id": "g5s-w22-thu-005", "question": "Which type of germination is shown by beans?", "options": ["Hypogeal", "Epigeal", "Aerial", "Water germination"], "correctIndex": 1, "explanation": "Beans show epigeal germination — the seed leaves (cotyledons) come above the ground.", "tags": ["germination"] },
+    { "id": "g5s-w22-thu-006", "question": "Wind-pollinated flowers usually have:", "options": ["Large, colourful petals", "Sweet nectar", "Light, smooth pollen in large quantities", "Sticky pollen"], "correctIndex": 2, "explanation": "Wind-pollinated flowers produce large quantities of light, smooth pollen that can be carried by wind.", "tags": ["pollination"] },
+    { "id": "g5s-w22-thu-007", "question": "Seeds are dispersed by wind because they are:", "options": ["Heavy and round", "Sticky", "Light and have wing-like structures", "Very large"], "correctIndex": 2, "explanation": "Wind-dispersed seeds (like maple, dandelion) are light and have wing-like or feathery structures.", "tags": ["seed-dispersal"] },
+    { "id": "g5s-w22-thu-008", "question": "Which part of a seed stores food for the developing plant?", "options": ["Seed coat", "Cotyledon", "Plumule", "Radicle"], "correctIndex": 1, "explanation": "Cotyledons (seed leaves) store food that nourishes the seedling until it can photosynthesise.", "tags": ["seeds"] },
+    { "id": "g5s-w22-thu-009", "question": "Vegetative reproduction in plants means:", "options": ["Reproduction using seeds", "New plants grow from roots, stems or leaves", "Reproduction using pollen", "Reproduction in water only"], "correctIndex": 1, "explanation": "Vegetative reproduction produces new plants from non-reproductive parts (roots, stems, leaves, tubers).", "tags": ["reproduction", "vegetative"] },
+    { "id": "g5s-w22-thu-010", "question": "Which of these reproduces from a stem cutting?", "options": ["Rice", "Wheat", "Rose", "Mango"], "correctIndex": 2, "explanation": "Roses are commonly propagated from stem cuttings placed in soil.", "tags": ["reproduction", "vegetative"] },
+    { "id": "g5s-w22-thu-011", "question": "What are the three conditions needed for seed germination?", "options": ["Light, heat, air", "Water, warmth, air (oxygen)", "Soil, light, water", "Fertiliser, water, light"], "correctIndex": 1, "explanation": "Seeds need water, warmth (suitable temperature), and air (oxygen) to germinate.", "tags": ["germination"] },
+    { "id": "g5s-w22-thu-012", "question": "A coconut floats on water to reach new land. This is an example of:", "options": ["Wind dispersal", "Animal dispersal", "Water dispersal", "Self dispersal"], "correctIndex": 2, "explanation": "Coconuts have fibrous husks that help them float — they are dispersed by water.", "tags": ["seed-dispersal"] },
+    { "id": "g5s-w22-thu-013", "question": "The female reproductive part of a flower is called:", "options": ["Stamen", "Petal", "Pistil", "Sepal"], "correctIndex": 2, "explanation": "The pistil is the female reproductive part, consisting of stigma, style, and ovary.", "tags": ["plants", "anatomy"] },
+    { "id": "g5s-w22-thu-014", "question": "When a pollen grain reaches the stigma, it grows a:", "options": ["New flower", "Pollen tube down the style", "Root", "New leaf"], "correctIndex": 1, "explanation": "A pollen grain grows a pollen tube through the style to reach the ovule for fertilisation.", "tags": ["fertilisation"] },
+    { "id": "g5s-w22-thu-015", "question": "Potato reproduces vegetatively through its:", "options": ["Seeds", "Flowers", "Tubers (eyes)", "Leaves"], "correctIndex": 2, "explanation": "Potatoes reproduce through tubers — the 'eyes' of the potato are buds that grow into new plants.", "tags": ["reproduction", "vegetative"] }
+  ]
+}

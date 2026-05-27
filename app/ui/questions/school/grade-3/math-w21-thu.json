@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w21-thu",
+  "title": "Grade 3 Maths — Thu, May 21",
+  "description": "Telling Time — Hours and Minutes — Last Week Day 4",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "thu",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["maths", "grade-3", "weekly", "time"],
+  "questions": [
+    { "id": "g3m-w21-thu-001", "question": "The minute hand points to 12. The hour hand points to 4. What time is it?", "options": ["12:04", "4:00", "4:12", "12:40"], "correctIndex": 1, "explanation": "When the minute hand is at 12, it is exactly on the hour. Hour hand at 4 = 4:00.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-002", "question": "How many minutes are in one hour?", "options": ["30", "50", "60", "100"], "correctIndex": 2, "explanation": "There are 60 minutes in one hour. The minute hand goes all the way around in 60 minutes.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-003", "question": "The minute hand points to 6. The hour hand points to 3. What time is it?", "options": ["3:06", "6:30", "3:30", "6:03"], "correctIndex": 2, "explanation": "Minute hand at 6 = 30 minutes. Hour hand between 3 and 4, closer to 3. Time = 3:30.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-004", "question": "What time is 15 minutes after 2:00?", "options": ["2:05", "2:10", "2:15", "2:20"], "correctIndex": 2, "explanation": "2:00 + 15 minutes = 2:15.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-005", "question": "How many hours are in a day?", "options": ["12", "20", "24", "36"], "correctIndex": 2, "explanation": "There are 24 hours in a day — 12 AM hours and 12 PM hours.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-006", "question": "School starts at 8:30 AM and ends at 3:00 PM. How long is the school day?", "options": ["5 hours 30 minutes", "6 hours", "6 hours 30 minutes", "7 hours"], "correctIndex": 2, "explanation": "8:30 AM to 3:00 PM: from 8:30 to 9:00 = 30 min; 9:00 to 3:00 = 6 hours. Total = 6 hours 30 minutes.", "tags": ["time", "duration"] },
+    { "id": "g3m-w21-thu-007", "question": "The minute hand points to 3. How many minutes is that?", "options": ["3", "10", "15", "20"], "correctIndex": 2, "explanation": "Each number on the clock face = 5 minutes. Minute hand at 3 = 3 × 5 = 15 minutes.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-008", "question": "What time is 30 minutes before 7:00?", "options": ["6:30", "7:30", "6:00", "6:15"], "correctIndex": 0, "explanation": "30 minutes before 7:00 = 6:30.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-009", "question": "Which clock shows 'quarter past 5'?", "options": ["5:05", "5:15", "5:25", "5:30"], "correctIndex": 1, "explanation": "Quarter past 5 = 5:15. A quarter of an hour = 15 minutes.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-010", "question": "Raju started walking at 10:15 and finished at 10:45. How long did he walk?", "options": ["15 minutes", "20 minutes", "30 minutes", "45 minutes"], "correctIndex": 2, "explanation": "10:15 to 10:45 = 30 minutes.", "tags": ["time", "duration"] },
+    { "id": "g3m-w21-thu-011", "question": "What does AM stand for?", "options": ["After Midnight", "Ante Meridiem (before noon)", "All Morning", "After Morning"], "correctIndex": 1, "explanation": "AM = Ante Meridiem (Latin: before noon). Times from midnight (12:00) to noon (12:00) are AM.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-012", "question": "The movie starts at 5:45 PM and lasts 1 hour 30 minutes. When does it end?", "options": ["6:45 PM", "7:00 PM", "7:15 PM", "7:30 PM"], "correctIndex": 2, "explanation": "5:45 PM + 1 hour = 6:45 PM; 6:45 PM + 30 minutes = 7:15 PM.", "tags": ["time", "duration"] },
+    { "id": "g3m-w21-thu-013", "question": "Half past 9 is the same as:", "options": ["9:15", "9:30", "9:45", "9:50"], "correctIndex": 1, "explanation": "Half past 9 = 9:30. Half an hour = 30 minutes.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-014", "question": "How many minutes are in half an hour?", "options": ["15", "20", "25", "30"], "correctIndex": 3, "explanation": "Half an hour = 30 minutes. One hour = 60 minutes; 60 ÷ 2 = 30.", "tags": ["time"] },
+    { "id": "g3m-w21-thu-015", "question": "Lunch is at 12:30. Recess ends at 11:45. How long until lunch?", "options": ["30 minutes", "45 minutes", "1 hour", "1 hour 15 minutes"], "correctIndex": 1, "explanation": "11:45 to 12:00 = 15 minutes; 12:00 to 12:30 = 30 minutes. Total = 45 minutes.", "tags": ["time", "duration"] }
+  ]
+}

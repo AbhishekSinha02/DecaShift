@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w21-wed",
+  "title": "Grade 5 Math — Wed, May 20",
+  "description": "Measurement & Conversion — Last Week Day 3",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "wed",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["math", "grade-5", "weekly", "measurement"],
+  "questions": [
+    { "id": "g5m-w21-wed-001", "question": "How many metres in 3.5 km?", "options": ["350 m", "3500 m", "35000 m", "3050 m"], "correctIndex": 1, "explanation": "1 km = 1000 m. 3.5 × 1000 = 3500 m.", "tags": ["measurement", "length"] },
+    { "id": "g5m-w21-wed-002", "question": "Convert 2500 g to kg.", "options": ["0.25 kg", "2.5 kg", "25 kg", "250 kg"], "correctIndex": 1, "explanation": "1 kg = 1000 g. 2500 ÷ 1000 = 2.5 kg.", "tags": ["measurement", "mass"] },
+    { "id": "g5m-w21-wed-003", "question": "How many cm in 1.8 m?", "options": ["18 cm", "108 cm", "180 cm", "1800 cm"], "correctIndex": 2, "explanation": "1 m = 100 cm. 1.8 × 100 = 180 cm.", "tags": ["measurement", "length"] },
+    { "id": "g5m-w21-wed-004", "question": "A jug holds 3.5 litres. How many ml is that?", "options": ["350 ml", "3050 ml", "3500 ml", "35000 ml"], "correctIndex": 2, "explanation": "1 litre = 1000 ml. 3.5 × 1000 = 3500 ml.", "tags": ["measurement", "volume"] },
+    { "id": "g5m-w21-wed-005", "question": "Which is the heaviest?", "options": ["500 g", "0.6 kg", "450 g", "0.55 kg"], "correctIndex": 1, "explanation": "0.6 kg = 600 g. 600 > 550 > 500 > 450. Heaviest is 0.6 kg.", "tags": ["measurement", "comparison"] },
+    { "id": "g5m-w21-wed-006", "question": "A rope is 4 m 35 cm long. Express this in cm.", "options": ["435 cm", "4035 cm", "403.5 cm", "43.5 cm"], "correctIndex": 0, "explanation": "4 m = 400 cm. Total = 400 + 35 = 435 cm.", "tags": ["measurement", "length"] },
+    { "id": "g5m-w21-wed-007", "question": "How many ml in 2.25 litres?", "options": ["225 ml", "2025 ml", "2250 ml", "22500 ml"], "correctIndex": 2, "explanation": "2.25 × 1000 = 2250 ml.", "tags": ["measurement", "volume"] },
+    { "id": "g5m-w21-wed-008", "question": "A box weighs 1 kg 750 g. How many grams is that?", "options": ["175 g", "1075 g", "1750 g", "10750 g"], "correctIndex": 2, "explanation": "1 kg = 1000 g. Total = 1000 + 750 = 1750 g.", "tags": ["measurement", "mass"] },
+    { "id": "g5m-w21-wed-009", "question": "Which is the longest distance?", "options": ["1.5 km", "1600 m", "1450 m", "1.4 km"], "correctIndex": 1, "explanation": "1.5 km=1500 m, 1600 m, 1450 m, 1.4 km=1400 m. Longest is 1600 m.", "tags": ["measurement", "comparison"] },
+    { "id": "g5m-w21-wed-010", "question": "3 kg 250 g − 1 kg 800 g = ?", "options": ["1 kg 350 g", "1 kg 450 g", "2 kg 50 g", "1 kg 550 g"], "correctIndex": 1, "explanation": "3250 g − 1800 g = 1450 g = 1 kg 450 g.", "tags": ["measurement", "subtraction"] },
+    { "id": "g5m-w21-wed-011", "question": "1 litre 400 ml + 2 litres 750 ml = ?", "options": ["3 litres 150 ml", "3 litres 950 ml", "4 litres 150 ml", "4 litres 950 ml"], "correctIndex": 2, "explanation": "1400 ml + 2750 ml = 4150 ml = 4 litres 150 ml.", "tags": ["measurement", "addition"] },
+    { "id": "g5m-w21-wed-012", "question": "A classroom is 8 m 50 cm long. In cm, this is:", "options": ["850 cm", "8050 cm", "805 cm", "85 cm"], "correctIndex": 0, "explanation": "8 m = 800 cm. 800 + 50 = 850 cm.", "tags": ["measurement", "length"] },
+    { "id": "g5m-w21-wed-013", "question": "How many 250 ml cups can be filled from 3 litres of juice?", "options": ["8", "10", "12", "14"], "correctIndex": 2, "explanation": "3 litres = 3000 ml. 3000 ÷ 250 = 12 cups.", "tags": ["measurement", "word-problem"] },
+    { "id": "g5m-w21-wed-014", "question": "A pencil is 14 cm long. How many pencils placed end-to-end equal 1.4 m?", "options": ["5", "8", "10", "14"], "correctIndex": 2, "explanation": "1.4 m = 140 cm. 140 ÷ 14 = 10 pencils.", "tags": ["measurement", "word-problem"] },
+    { "id": "g5m-w21-wed-015", "question": "What is 0.5 km + 300 m in metres?", "options": ["350 m", "500 m", "800 m", "850 m"], "correctIndex": 2, "explanation": "0.5 km = 500 m. 500 + 300 = 800 m.", "tags": ["measurement", "conversion"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w21-wed",
+  "title": "Grade 3 Science — Wed, May 20",
+  "description": "Air and Water — Properties and Importance — Last Week Day 3",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "wed",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["science", "grade-3", "weekly", "air-water"],
+  "questions": [
+    { "id": "g3s-w21-wed-001", "question": "What gas in air do we need to breathe?", "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"], "correctIndex": 2, "explanation": "Oxygen (about 21% of air) is essential for breathing. Our cells need oxygen to release energy.", "tags": ["air"] },
+    { "id": "g3s-w21-wed-002", "question": "Which gas makes up most of the air (about 78%)?", "options": ["Oxygen", "Carbon dioxide", "Hydrogen", "Nitrogen"], "correctIndex": 3, "explanation": "Nitrogen makes up about 78% of air. Oxygen is about 21%. The rest is argon, carbon dioxide, and other gases.", "tags": ["air"] },
+    { "id": "g3s-w21-wed-003", "question": "Air has weight. TRUE or FALSE?", "options": ["True", "False", "Only hot air has weight", "Only cold air has weight"], "correctIndex": 0, "explanation": "TRUE. Air has mass and weight — this creates air pressure. The atmosphere pushes down on us with about 1 kg per cm².", "tags": ["air"] },
+    { "id": "g3s-w21-wed-004", "question": "What does moving air (wind) cause?", "options": ["Rain only", "Thunder", "Kites to fly, waves in water, windmills to spin", "Plants to stop growing"], "correctIndex": 2, "explanation": "Moving air (wind) creates energy — it can fly kites, create ocean waves, and spin wind turbines to generate electricity.", "tags": ["air", "wind"] },
+    { "id": "g3s-w21-wed-005", "question": "Water is essential for life because:", "options": ["It tastes good", "All living things need it for survival", "It is the only liquid", "Only humans need it"], "correctIndex": 1, "explanation": "All living things — plants, animals, fungi, bacteria — need water to survive. Life as we know it cannot exist without water.", "tags": ["water"] },
+    { "id": "g3s-w21-wed-006", "question": "What are the three forms of water found in nature?", "options": ["Hot, warm, cold", "Ice, liquid water, water vapour (steam)", "Rain, river, ocean", "Salty, fresh, frozen"], "correctIndex": 1, "explanation": "Water exists as ice (solid), liquid water, and water vapour (gas) — all found naturally on Earth.", "tags": ["water"] },
+    { "id": "g3s-w21-wed-007", "question": "What is the main source of fresh water on Earth?", "options": ["Ocean", "Glaciers and ice caps, rivers and lakes", "Rain clouds only", "Deep underground always"], "correctIndex": 1, "explanation": "Most fresh water is locked in glaciers and ice caps. Rivers, lakes, and groundwater supply most of what we use daily.", "tags": ["water"] },
+    { "id": "g3s-w21-wed-008", "question": "Air pollution is caused by:", "options": ["Planting trees", "Smoke from factories and vehicles releasing harmful gases", "Using solar energy", "Drinking clean water"], "correctIndex": 1, "explanation": "Air pollution comes from burning fuels in factories and vehicles, releasing harmful gases like carbon monoxide and sulphur dioxide.", "tags": ["air", "pollution"] },
+    { "id": "g3s-w21-wed-009", "question": "Water at 100°C:", "options": ["Freezes", "Evaporates slowly", "Boils (turns to steam)", "Stays liquid forever"], "correctIndex": 2, "explanation": "Water boils at 100°C (at sea level) and rapidly turns to water vapour (steam).", "tags": ["water"] },
+    { "id": "g3s-w21-wed-010", "question": "Which property of air makes it useful for tyres and balloons?", "options": ["Air has a colour", "Air can be compressed (squeezed into a small space)", "Air is wet", "Air is always cold"], "correctIndex": 1, "explanation": "Air can be compressed — we pump compressed air into tyres, footballs, and balloons, where it pushes outward.", "tags": ["air"] },
+    { "id": "g3s-w21-wed-011", "question": "How can we reduce water pollution?", "options": ["Dump rubbish into rivers", "Use less water", "Avoid throwing chemicals and rubbish into water sources", "Build more factories near rivers"], "correctIndex": 2, "explanation": "We reduce water pollution by not dumping chemicals or rubbish into rivers and oceans, and by treating wastewater.", "tags": ["water", "pollution"] },
+    { "id": "g3s-w21-wed-012", "question": "What do fish need that is dissolved in water?", "options": ["Carbon dioxide", "Nitrogen", "Dissolved oxygen", "Hydrogen gas"], "correctIndex": 2, "explanation": "Fish breathe dissolved oxygen through their gills — they don't breathe air like us but need oxygen dissolved in water.", "tags": ["water", "animals"] },
+    { "id": "g3s-w21-wed-013", "question": "Where does most of the clean drinking water come from?", "options": ["The ocean", "Rivers, lakes, and underground wells", "Clouds directly", "The moon"], "correctIndex": 1, "explanation": "Our drinking water mostly comes from rivers, lakes, and underground sources (wells/aquifers), which is then treated to make it safe.", "tags": ["water"] },
+    { "id": "g3s-w21-wed-014", "question": "What is acid rain?", "options": ["Normal rainfall", "Volcanic eruptions causing rain", "Rain made acidic by air pollution (SO₂, NO₂)", "Rain that falls in winter only"], "correctIndex": 2, "explanation": "Acid rain forms when sulphur dioxide and nitrogen oxides from burning fuels mix with water in clouds, making the rain acidic. It harms plants and buildings.", "tags": ["air", "pollution"] },
+    { "id": "g3s-w21-wed-015", "question": "What simple step can save water at home?", "options": ["Take very long showers", "Leave taps running while brushing teeth", "Turn off the tap while brushing teeth", "Fill up the bath every day"], "correctIndex": 2, "explanation": "Turning off the tap while brushing saves about 6 litres of water per minute — a simple habit that makes a big difference.", "tags": ["water", "conservation"] }
+  ]
+}

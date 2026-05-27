@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w22-fri",
+  "title": "Grade 3 Science — Fri, May 29",
+  "description": "Our Environment — Caring for Nature — Day 5 of 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "fri",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "environment"],
+  "questions": [
+    { "id": "g3s-w22-fri-001", "question": "What does the word 'environment' mean?", "options": ["Only the sky above us", "Everything around us — air, water, land, plants, animals", "Only wild animals", "Only soil and rocks"], "correctIndex": 1, "explanation": "The environment includes all living and non-living things around us — air, water, land, plants, animals, and people.", "tags": ["environment"] },
+    { "id": "g3s-w22-fri-002", "question": "What are the three R's for helping the environment?", "options": ["Read, Rest, Run", "Reduce, Reuse, Recycle", "Remove, Restore, Replace", "Rain, River, Rock"], "correctIndex": 1, "explanation": "The 3 R's are: Reduce (use less), Reuse (use again), Recycle (make into something new).", "tags": ["environment"] },
+    { "id": "g3s-w22-fri-003", "question": "Which of these is pollution?", "options": ["Planting trees", "Throwing rubbish in a river", "Using solar energy", "Saving water"], "correctIndex": 1, "explanation": "Throwing rubbish in a river is pollution — it harms the water, fish, and all living things that depend on it.", "tags": ["environment", "pollution"] },
+    { "id": "g3s-w22-fri-004", "question": "Why is it important to save water?", "options": ["Water is not important", "Fresh water is limited and needed by all living things", "Water never runs out", "Saving water is only for cities"], "correctIndex": 1, "explanation": "Only a small amount of Earth's water is fresh water, and all living things need it. Saving water helps ensure enough for everyone.", "tags": ["environment", "water"] },
+    { "id": "g3s-w22-fri-005", "question": "What is deforestation?", "options": ["Planting new forests", "Cutting down forests", "Taking care of trees", "Studying trees"], "correctIndex": 1, "explanation": "Deforestation means cutting down forests, which destroys habitats, reduces oxygen, and increases flooding.", "tags": ["environment"] },
+    { "id": "g3s-w22-fri-006", "question": "Which of these actions HELPS the environment?", "options": ["Burning rubbish", "Driving everywhere", "Using a bicycle instead of a car", "Leaving taps running"], "correctIndex": 2, "explanation": "Cycling instead of driving reduces air pollution and carbon emissions — it helps protect the environment.", "tags": ["environment"] },
+    { "id": "g3s-w22-fri-007", "question": "What do we call living things that have died out completely?", "options": ["Endangered", "Extinct", "Hibernating", "Migrating"], "correctIndex": 1, "explanation": "Extinct means a species has completely died out and no more exist — like the dodo bird.", "tags": ["environment"] },
+    { "id": "g3s-w22-fri-008", "question": "Why should we switch off lights when we leave a room?", "options": ["Lights last longer in the dark", "To save electricity (energy)", "Lights make rooms hotter", "No reason"], "correctIndex": 1, "explanation": "Switching off lights saves electricity. Most electricity is made by burning fossil fuels, which pollutes the air.", "tags": ["environment", "energy"] },
+    { "id": "g3s-w22-fri-009", "question": "Which material takes the LONGEST to break down in the environment?", "options": ["Paper", "Food scraps", "Plastic", "Leaves"], "correctIndex": 2, "explanation": "Plastic takes hundreds of years to break down — it pollutes land and oceans and harms animals.", "tags": ["environment", "pollution"] },
+    { "id": "g3s-w22-fri-010", "question": "What is composting?", "options": ["Burning rubbish", "Turning food scraps and plant waste into natural fertiliser", "Throwing rubbish into rivers", "Recycling plastic"], "correctIndex": 1, "explanation": "Composting turns food scraps and garden waste into rich compost that helps plants grow — it reduces landfill waste.", "tags": ["environment"] },
+    { "id": "g3s-w22-fri-011", "question": "Noise pollution is caused by:", "options": ["Soft music", "Very loud sounds that disturb people and animals", "The sound of rain", "Birds singing"], "correctIndex": 1, "explanation": "Noise pollution comes from very loud, unpleasant sounds — like traffic, machines, or construction — that disturbs people and wildlife.", "tags": ["environment", "pollution"] },
+    { "id": "g3s-w22-fri-012", "question": "What is the main cause of global warming?", "options": ["Too many trees", "More rainfall", "Greenhouse gases (like CO₂) trapping heat in the atmosphere", "Larger animals"], "correctIndex": 2, "explanation": "Global warming is caused by too much CO₂ and other greenhouse gases in the atmosphere, mainly from burning fossil fuels.", "tags": ["environment", "climate"] },
+    { "id": "g3s-w22-fri-013", "question": "Which is a renewable (never runs out) source of energy?", "options": ["Coal", "Petrol", "Solar energy (from the sun)", "Natural gas"], "correctIndex": 2, "explanation": "Solar energy from the sun is renewable — it will not run out. Coal, petrol, and gas are fossil fuels that will run out.", "tags": ["environment", "energy"] },
+    { "id": "g3s-w22-fri-014", "question": "An endangered species is:", "options": ["A species with too many animals", "A species at risk of becoming extinct", "A species that is harmful", "A species that lives in cities"], "correctIndex": 1, "explanation": "Endangered species are at risk of extinction if we don't protect them. Examples: snow leopard, tiger, blue whale.", "tags": ["environment"] },
+    { "id": "g3s-w22-fri-015", "question": "What is the best thing a child can do to help the environment every day?", "options": ["Use single-use plastic", "Waste food", "Save electricity, water, and reduce waste", "Leave taps running"], "correctIndex": 2, "explanation": "Simple daily actions — saving water, turning off lights, reducing waste, planting trees — all help protect our environment.", "tags": ["environment"] }
+  ]
+}

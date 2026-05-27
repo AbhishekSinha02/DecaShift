@@ -31,7 +31,7 @@ const state = {
   timerEnabled: localStorage.getItem('decashift_timer') !== 'off',
   subjectFilter: 'all',
   showArchivedGoals: false,
-  showPastChallenges: false
+  showLastWeekSection: false
 };
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
@@ -106,6 +106,7 @@ async function _loadQuestionsForUser(user) {
       id: file.goalId, name: file.title || file.name, description: file.description || '',
       category: file.category, grade: file.grade ?? null,
       subject: file.subject, level: file.level, tags: file.tags || [],
+      weekNum: file.weekNum || null, weekDay: file.weekDay || null,
       weekStart: file.weekStart || null, weekEnd: file.weekEnd || null
     });
     (file.questions || []).forEach(q => state.questions.push({ ...q, goalId: file.goalId }));
@@ -136,7 +137,6 @@ function _filterManifest(manifest, user) {
     const lang  = user.regionalLanguage || '';
     return manifest.filter(e => {
       if (e.category !== 'school') return false;
-      if (e.subject === 'weekly') return true;
       if (e.subject && e.subject.startsWith('regional-')) {
         return lang && e.subject === 'regional-' + lang;
       }
@@ -391,51 +391,129 @@ function _renderHome() {
   // Sync theme button state
   _updateThemeBtns(document.documentElement.dataset.theme || 'dark');
 
-  // ── Weekly challenge section ─────────────────────────────────────────────
-  _renderWeeklySection();
+  const currentWeek  = _getISOWeek(new Date());
+  const regularGoals = state.goals.filter(g => !g.weekNum && !(g.subject && g.subject.startsWith('regional-')));
+  const weeklyGoals  = state.goals.filter(g => g.weekNum);
+  const regionalLang = user.regionalLanguage;
+  const regionalGoals = regionalLang
+    ? state.goals.filter(g => g.subject === 'regional-' + regionalLang)
+    : [];
 
-  // ── Regional language section ────────────────────────────────────────────
-  _renderRegionalSection();
-
-  const allGoals = state.goals.filter(g => g.subject !== 'weekly' && !(g.subject && g.subject.startsWith('regional-')));
-  const list     = document.getElementById('goals-list');
+  const list = document.getElementById('goals-list');
   if (!list) return;
 
-  // Subject tabs — only for school users who have multiple subjects
-  const tabsEl = document.getElementById('subject-tabs');
+  // ── Subject tabs ─────────────────────────────────────────────────────────
+  const tabsEl   = document.getElementById('subject-tabs');
+  const isSchool = user.category === 'school';
   if (tabsEl) {
-    const isSchool = state.user && state.user.category === 'school';
-    const subjects = isSchool ? [...new Set(allGoals.map(g => g.subject))] : [];
-    if (subjects.length > 1) {
-      const subjectLabels = {
-        'mathematics': 'Math', 'science': 'Science', 'hindi': 'Hindi',
-        'french': 'French', 'computer-science': 'CS', 'web-dev': 'Web Dev', 'dsa': 'DSA'
-      };
+    const subjects = isSchool ? [...new Set(regularGoals.map(g => g.subject))] : [];
+    const hasRegionalTab = isSchool && regionalGoals.length > 0;
+    const subjectLabels = {
+      'mathematics': 'Math', 'science': 'Science', 'hindi': 'Hindi',
+      'french': 'French', 'computer-science': 'CS', 'web-dev': 'Web Dev', 'dsa': 'DSA'
+    };
+    const langLabel = { sanskrit: 'Sanskrit', marathi: 'Marathi', tamil: 'Tamil',
+                        telugu: 'Telugu', punjabi: 'Punjabi', malayalam: 'Malayalam' };
+    const allTabs = subjects.length > 0
+      ? ['all', ...subjects, ...(hasRegionalTab ? [regionalLang] : [])]
+      : [];
+
+    if (allTabs.length > 1) {
       tabsEl.style.display = 'flex';
-      tabsEl.innerHTML = ['all', ...subjects].map(s => {
-        const label  = s === 'all' ? 'All' : (subjectLabels[s] || s.charAt(0).toUpperCase() + s.slice(1));
+      tabsEl.innerHTML = allTabs.map(s => {
+        const isRegTab = hasRegionalTab && s === regionalLang;
+        const label    = s === 'all' ? 'All'
+          : isRegTab ? (langLabel[s] || _cap(s))
+          : (subjectLabels[s] || _cap(s));
         const active = state.subjectFilter === s ? ' active' : '';
-        return `<button class="subject-tab${active}" data-subject="${s}" onclick="_setSubjectFilter('${s}')">${label}</button>`;
+        return `<button class="subject-tab${active}${isRegTab ? ' regional-tab' : ''}" data-subject="${s}" onclick="_setSubjectFilter('${s}')">${label}</button>`;
       }).join('');
     } else {
       tabsEl.style.display = 'none';
     }
   }
 
-  const filteredGoals = state.subjectFilter === 'all'
-    ? allGoals
-    : allGoals.filter(g => g.subject === state.subjectFilter);
+  // ── Determine which goals to show for this tab ───────────────────────────
+  const isRegionalTab = isSchool && regionalLang && state.subjectFilter === regionalLang;
 
-  const archivedSet  = new Set(user.archivedGoals || []);
-  const goals        = filteredGoals.filter(g => !archivedSet.has(g.id));
-  const archivedGoals = filteredGoals.filter(g => archivedSet.has(g.id));
+  if (isRegionalTab) {
+    // Regional language tab — show only regional goals
+    const cards = regionalGoals.map(g => {
+      const count = state.questions.filter(q => q.goalId === g.id).length;
+      const last  = Storage.getLastSessionForGoal(g.id);
+      const score = last ? last.score + '/' + last.total : null;
+      const done  = last && last.accuracy >= 1;
+      return `
+        <div class="goal-card${done ? ' archived' : ''}" id="goal-card-${g.id}">
+          <div class="goal-info">
+            <h3 class="goal-name">${_esc(g.name)}${done ? ' ✅' : ''}</h3>
+            <p class="goal-desc">${_esc(g.description)}</p>
+            <div class="goal-meta">
+              <span>${count} question${count !== 1 ? 's' : ''}</span>
+              ${score ? `<span class="goal-last-score">Last: ${score}</span>` : ''}
+            </div>
+          </div>
+          <div class="goal-actions">
+            <button class="btn btn-primary btn-sm" onclick="startGoal('${g.id}')">${last ? 'Retry' : 'Start'}</button>
+          </div>
+        </div>`;
+    }).join('');
+    list.innerHTML = cards || '<p class="text-muted">No content found for this language.</p>';
+    return;
+  }
 
-  if (!goals.length && !archivedGoals.length) {
+  // ── Filter regular + weekly goals for current subject tab ─────────────────
+  const subFiltered = state.subjectFilter === 'all'
+    ? regularGoals
+    : regularGoals.filter(g => g.subject === state.subjectFilter);
+
+  const weeklyFiltered = state.subjectFilter === 'all'
+    ? weeklyGoals
+    : weeklyGoals.filter(g => g.subject === state.subjectFilter);
+
+  const thisWeekGoals = weeklyFiltered
+    .filter(g => g.weekNum === currentWeek)
+    .sort((a, b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
+
+  const lastWeekGoals = weeklyFiltered
+    .filter(g => g.weekNum === currentWeek - 1)
+    .sort((a, b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
+
+  const archivedSet   = new Set(user.archivedGoals || []);
+  const activeGoals   = subFiltered.filter(g => !archivedSet.has(g.id));
+  const archivedGoals = subFiltered.filter(g =>  archivedSet.has(g.id));
+
+  if (!thisWeekGoals.length && !lastWeekGoals.length && !activeGoals.length && !archivedGoals.length) {
     const msg = !user.category
       ? '<p class="text-muted">Your profile is incomplete. <button class="link-btn" onclick="openEditProfile()">Complete your profile</button> to see your goals.</p>'
       : '<p class="text-muted">No goals found for your profile. More content coming soon!</p>';
     list.innerHTML = msg;
     return;
+  }
+
+  // ── This Week day-cards ───────────────────────────────────────────────────
+  let html = '';
+
+  if (thisWeekGoals.length) {
+    html += `<div class="week-section-header"><span class="week-badge active-week">This Week</span></div>`;
+    html += `<div class="day-cards-grid">${thisWeekGoals.map(_dayCardHtml).join('')}</div>`;
+  }
+
+  // ── Last Week collapsible ─────────────────────────────────────────────────
+  if (lastWeekGoals.length) {
+    const isOpen = state.showLastWeekSection;
+    html += `
+      <button class="archived-toggle" onclick="_toggleLastWeekSection()">
+        ${isOpen ? '▲' : '▼'} Last Week (${lastWeekGoals.length})
+      </button>
+      <div class="day-cards-grid last-week-section" style="display:${isOpen ? 'flex' : 'none'}">
+        ${lastWeekGoals.map(g => _dayCardHtml(g, true)).join('')}
+      </div>`;
+  }
+
+  // ── Regular practice goals ────────────────────────────────────────────────
+  if (thisWeekGoals.length || lastWeekGoals.length) {
+    html += `<div class="week-section-header practice-header"><span class="week-badge practice-badge">Practice Sets</span></div>`;
   }
 
   const _cardHtml = (goal, isArchived) => {
@@ -465,9 +543,9 @@ function _renderHome() {
       </div>`;
   };
 
-  let html = goals.length
-    ? goals.map(g => _cardHtml(g, false)).join('')
-    : '<p class="text-muted" style="padding:8px 0">All goals marked as done. See completed below.</p>';
+  html += activeGoals.length
+    ? activeGoals.map(g => _cardHtml(g, false)).join('')
+    : (subFiltered.length > 0 ? '<p class="text-muted" style="padding:8px 0">All sets marked as done.</p>' : '');
 
   if (archivedGoals.length) {
     const isOpen = state.showArchivedGoals;
@@ -534,126 +612,45 @@ function _toggleArchivedSection() {
   _renderHome();
 }
 
-function _renderWeeklySection() {
-  const el = document.getElementById('weekly-section');
-  if (!el) return;
+// ── Weekly day-card helpers ───────────────────────────────────────────────
 
-  const weeklyGoals = state.goals.filter(g => g.subject === 'weekly');
-  if (!weeklyGoals.length) { el.innerHTML = ''; return; }
+const _DAY_ORDER = { mon: 0, tue: 1, wed: 2, thu: 3, fri: 4 };
+const _DAY_LABEL = { mon: 'Mon', tue: 'Tue', wed: 'Wed', thu: 'Thu', fri: 'Fri' };
 
-  const today = new Date().toISOString().slice(0, 10);
+function _dayOrder(day) { return _DAY_ORDER[day] ?? 99; }
 
-  const activeGoal = weeklyGoals.find(g => g.weekStart && today >= g.weekStart && today <= g.weekEnd);
-  const activeSess = activeGoal ? Storage.getLastSessionForGoal(activeGoal.id) : null;
-  const isPerfect  = activeSess && activeSess.accuracy >= 1;
+function _cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
-  // past = completed weeks + current week if 100%
-  const pastGoals = weeklyGoals
-    .filter(g => (g.weekEnd && today > g.weekEnd) || (activeGoal && g.id === activeGoal.id && isPerfect))
-    .sort((a, b) => b.weekStart.localeCompare(a.weekStart));
-
-  let html = '';
-
-  if (activeGoal && !isPerfect) {
-    const daysSince = Math.floor((new Date(today) - new Date(activeGoal.weekStart)) / 86400000);
-    const isNew  = daysSince <= 1;
-    const score  = activeSess ? activeSess.score + '/' + activeSess.total : null;
-    html += `
-      <div class="weekly-card">
-        <div class="weekly-body">
-          <div class="weekly-header">
-            <span class="weekly-badge${isNew ? ' new' : ''}">${isNew ? '✨ NEW · ' : ''}This Week</span>
-            <span class="weekly-dates">${_fmtWeekDates(activeGoal.weekStart, activeGoal.weekEnd)}</span>
-          </div>
-          <h3 class="weekly-title">${_esc(activeGoal.title)}</h3>
-          <p class="weekly-desc">${_esc(activeGoal.description)}</p>
-          ${score ? `<span class="weekly-score">Last: ${score}</span>` : ''}
-        </div>
-        <div class="weekly-action">
-          <button class="btn btn-primary btn-sm" onclick="startGoal('${activeGoal.id}')">${activeSess ? 'Retry' : 'Start'}</button>
-        </div>
-      </div>`;
-  }
-
-  if (pastGoals.length) {
-    const isOpen = state.showPastChallenges;
-    html += `
-      <button class="archived-toggle" onclick="_togglePastChallenges()">
-        ${isOpen ? '▲' : '▼'} Past Challenges (${pastGoals.length})
-      </button>
-      <div class="past-challenges-section" style="display:${isOpen ? 'flex' : 'none'}">
-        ${pastGoals.map(g => {
-          const s = Storage.getLastSessionForGoal(g.id);
-          const score = s ? s.score + '/' + s.total : null;
-          const perfect = s && s.accuracy >= 1;
-          return `
-            <div class="weekly-card past">
-              <div class="weekly-body">
-                <h3 class="weekly-title">${_esc(g.title)}${perfect ? ' ✅' : ''}</h3>
-                <p class="weekly-desc">${_fmtWeekDates(g.weekStart, g.weekEnd)}${score ? ' · Last: ' + score : ''}</p>
-              </div>
-              <div class="weekly-action">
-                <button class="btn btn-ghost btn-sm" onclick="startGoal('${g.id}')">Redo</button>
-              </div>
-            </div>`;
-        }).join('')}
-      </div>`;
-  }
-
-  el.innerHTML = html;
+function _getISOWeek(date) {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  const dayNum = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
 }
 
-function _fmtWeekDates(start, end) {
-  const opt = { month: 'short', day: 'numeric' };
-  return new Date(start + 'T00:00:00').toLocaleDateString('en-IN', opt) + ' – ' +
-         new Date(end   + 'T00:00:00').toLocaleDateString('en-IN', opt);
-}
-
-function _togglePastChallenges() {
-  state.showPastChallenges = !state.showPastChallenges;
-  _renderHome();
-}
-
-// ── Regional Language Section ─────────────────────────────────────────────
-
-function _renderRegionalSection() {
-  const el = document.getElementById('regional-section');
-  if (!el) return;
-  const user = state.user;
-  const lang = user && user.regionalLanguage;
-  if (!lang) { el.innerHTML = ''; return; }
-
-  const langLabel = { sanskrit: 'Sanskrit', marathi: 'Marathi', tamil: 'Tamil',
-                      telugu: 'Telugu', punjabi: 'Punjabi', malayalam: 'Malayalam' };
-  const label = langLabel[lang] || lang.charAt(0).toUpperCase() + lang.slice(1);
-
-  const regionalGoals = state.goals.filter(g => g.subject === 'regional-' + lang);
-  if (!regionalGoals.length) { el.innerHTML = ''; return; }
-
-  const cards = regionalGoals.map(g => {
-    const count = state.questions.filter(q => q.goalId === g.id).length;
-    const last  = Storage.getLastSessionForGoal(g.id);
-    const score = last ? last.score + '/' + last.total : null;
-    const done  = last && last.accuracy >= 1;
-    return `
-      <div class="regional-card${done ? ' done' : ''}">
-        <div class="regional-card-body">
-          <h4 class="regional-card-title">${_esc(g.name)}${done ? ' ✅' : ''}</h4>
-          <p class="regional-card-meta">${count} question${count !== 1 ? 's' : ''}${score ? ' · Last: ' + score : ''}</p>
-        </div>
-        <button class="btn btn-primary btn-sm" onclick="startGoal('${g.id}')">${last ? 'Retry' : 'Start'}</button>
-      </div>`;
-  }).join('');
-
-  el.innerHTML = `
-    <div class="regional-section-inner">
-      <div class="regional-section-header">
-        <span class="regional-badge">🗣 Regional Practice</span>
-        <span class="regional-lang-name">${label}</span>
-        <button class="link-btn regional-change-btn" onclick="openSettings()">Change</button>
+function _dayCardHtml(goal, isPast) {
+  const count    = state.questions.filter(q => q.goalId === goal.id).length;
+  const last     = Storage.getLastSessionForGoal(goal.id);
+  const score    = last ? last.score + '/' + last.total : null;
+  const done     = last && last.accuracy >= 1;
+  const dayNum   = (_DAY_ORDER[goal.weekDay] ?? 0) + 1;
+  const dayLabel = _DAY_LABEL[goal.weekDay] || goal.weekDay;
+  return `
+    <div class="day-card${done ? ' done' : ''}${isPast ? ' past' : ''}">
+      <div class="day-card-meta">Day ${dayNum} · ${dayLabel}</div>
+      <div class="day-card-title">${_esc(goal.name)}</div>
+      <div class="day-card-desc">${_esc(goal.description)}</div>
+      <div class="day-card-footer">
+        <span class="day-card-count">${count} Q${score ? ' · ' + score : ''}</span>
+        <button class="btn btn-primary btn-sm" onclick="startGoal('${goal.id}')">${done ? 'Redo' : last ? 'Continue' : 'Start'}</button>
       </div>
-      <div class="regional-cards">${cards}</div>
     </div>`;
+}
+
+function _toggleLastWeekSection() {
+  state.showLastWeekSection = !state.showLastWeekSection;
+  _renderHome();
 }
 
 // ── Settings Modal ────────────────────────────────────────────────────────

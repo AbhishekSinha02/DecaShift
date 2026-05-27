@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-french-w22-fri",
+  "title": "Grade 5 French — Fri, May 29",
+  "description": "Food & Meals (La Nourriture et les Repas) — Day 5 of 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "fri",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["french", "grade-5", "weekly", "food"],
+  "questions": [
+    { "id": "g5f-w22-fri-001", "question": "What is the French word for 'bread'?", "options": ["Fromage", "Pain", "Beurre", "Lait"], "correctIndex": 1, "explanation": "'Pain' = bread. Fromage = cheese, Beurre = butter, Lait = milk.", "tags": ["food"] },
+    { "id": "g5f-w22-fri-002", "question": "How do you say 'I am hungry' in French?", "options": ["J'ai soif", "Je suis faim", "J'ai faim", "J'ai chaud"], "correctIndex": 2, "explanation": "'J'ai faim' = 'I am hungry' (literally 'I have hunger'). French uses 'avoir' (to have) for hunger and thirst.", "tags": ["expressions"] },
+    { "id": "g5f-w22-fri-003", "question": "What does 'Je voudrais un café' mean?", "options": ["I like coffee", "I would like a coffee", "I drink coffee", "I have a coffee"], "correctIndex": 1, "explanation": "'Je voudrais' = 'I would like' (polite form of wanting). Used when ordering food or making requests.", "tags": ["food", "expressions"] },
+    { "id": "g5f-w22-fri-004", "question": "What is the French word for 'water'?", "options": ["Vin", "Jus", "Eau", "Lait"], "correctIndex": 2, "explanation": "'Eau' = water. Vin = wine, Jus = juice, Lait = milk. 'Une bouteille d'eau' = a bottle of water.", "tags": ["food", "drinks"] },
+    { "id": "g5f-w22-fri-005", "question": "What is 'le petit-déjeuner'?", "options": ["Lunch", "Dinner", "Snack", "Breakfast"], "correctIndex": 3, "explanation": "'Le petit-déjeuner' = breakfast (literally 'the little lunch'). Le déjeuner = lunch, Le dîner = dinner.", "tags": ["meals"] },
+    { "id": "g5f-w22-fri-006", "question": "How do you say 'I like apples' in French?", "options": ["J'aime les oranges", "J'aime les pommes", "Je mange les pommes", "J'ai les pommes"], "correctIndex": 1, "explanation": "'J'aime les pommes' = 'I like apples'. 'Pomme' = apple. Note the definite article 'les' with likes/dislikes.", "tags": ["food"] },
+    { "id": "g5f-w22-fri-007", "question": "What is the French word for 'cheese'?", "options": ["Pain", "Beurre", "Fromage", "Crème"], "correctIndex": 2, "explanation": "'Fromage' = cheese. France is famous for over 400 types of cheese!", "tags": ["food"] },
+    { "id": "g5f-w22-fri-008", "question": "'J'ai soif' means:", "options": ["I am hungry", "I am thirsty", "I am tired", "I am full"], "correctIndex": 1, "explanation": "'J'ai soif' = 'I am thirsty' (literally 'I have thirst'). French uses 'avoir' for soif (thirst).", "tags": ["expressions"] },
+    { "id": "g5f-w22-fri-009", "question": "How do you say 'lunch' in French?", "options": ["Petit-déjeuner", "Dîner", "Déjeuner", "Goûter"], "correctIndex": 2, "explanation": "'Le déjeuner' = lunch (midday meal). Le goûter = afternoon snack (children's 4pm snack in France).", "tags": ["meals"] },
+    { "id": "g5f-w22-fri-010", "question": "What does 'Bon appétit!' mean?", "options": ["Have a good day!", "Enjoy your meal!", "Thank you!", "Cheers!"], "correctIndex": 1, "explanation": "'Bon appétit!' = 'Enjoy your meal!' — said before eating. This French expression is used worldwide.", "tags": ["expressions", "culture"] },
+    { "id": "g5f-w22-fri-011", "question": "What is the French word for 'vegetables'?", "options": ["Fruits", "Légumes", "Viandes", "Céréales"], "correctIndex": 1, "explanation": "'Légumes' = vegetables. Fruits = fruits, Viandes = meats, Céréales = cereals/grains.", "tags": ["food"] },
+    { "id": "g5f-w22-fri-012", "question": "How do you order food politely in a restaurant?", "options": ["Je veux le steak", "Donne-moi le steak", "Je voudrais le steak, s'il vous plaît", "Le steak!"], "correctIndex": 2, "explanation": "'Je voudrais le steak, s'il vous plaît' = 'I would like the steak, please' — the polite way to order.", "tags": ["expressions"] },
+    { "id": "g5f-w22-fri-013", "question": "What does 'sucré' mean?", "options": ["Salty", "Bitter", "Sweet", "Sour"], "correctIndex": 2, "explanation": "'Sucré' = sweet. 'Salé' = salty, 'Amer' = bitter, 'Acide/Aigre' = sour.", "tags": ["food", "adjectives"] },
+    { "id": "g5f-w22-fri-014", "question": "What is 'le dîner' in French?", "options": ["Breakfast", "Lunch", "Dinner/Supper", "Snack"], "correctIndex": 2, "explanation": "'Le dîner' = dinner (evening meal). In France, dinner is typically eaten around 7–8 PM.", "tags": ["meals"] },
+    { "id": "g5f-w22-fri-015", "question": "How do you say 'I don't like spinach' in French?", "options": ["J'aime les épinards", "Je n'aime pas les épinards", "Je mange les épinards", "J'ai les épinards"], "correctIndex": 1, "explanation": "'Je n'aime pas les épinards' = 'I don't like spinach'. Negation: ne...pas around the verb. 'Épinards' = spinach.", "tags": ["food", "negation"] }
+  ]
+}

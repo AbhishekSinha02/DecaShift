@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-french-w22-tue",
+  "title": "Grade 5 French — Tue, May 26",
+  "description": "Numbers & Colours (Nombres et Couleurs) — Day 2 of 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "tue",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["french", "grade-5", "weekly", "numbers"],
+  "questions": [
+    { "id": "g5f-w22-tue-001", "question": "What is the French word for 'seven'?", "options": ["Six", "Sept", "Huit", "Neuf"], "correctIndex": 1, "explanation": "'Sept' = 7. French numbers: un(1), deux(2), trois(3), quatre(4), cinq(5), six(6), sept(7), huit(8), neuf(9), dix(10).", "tags": ["numbers"] },
+    { "id": "g5f-w22-tue-002", "question": "How do you say '15' in French?", "options": ["Quatorze", "Quinze", "Seize", "Dix-sept"], "correctIndex": 1, "explanation": "'Quinze' = 15. Quatorze = 14, Seize = 16, Dix-sept = 17.", "tags": ["numbers"] },
+    { "id": "g5f-w22-tue-003", "question": "What is '20' in French?", "options": ["Dix", "Quinze", "Vingt", "Trente"], "correctIndex": 2, "explanation": "'Vingt' = 20. Dix = 10, Quinze = 15, Trente = 30.", "tags": ["numbers"] },
+    { "id": "g5f-w22-tue-004", "question": "How do you say 'red' in French?", "options": ["Bleu", "Vert", "Rouge", "Jaune"], "correctIndex": 2, "explanation": "'Rouge' = red. Bleu = blue, Vert = green, Jaune = yellow.", "tags": ["colours"] },
+    { "id": "g5f-w22-tue-005", "question": "What colour is 'bleu'?", "options": ["Green", "Yellow", "Blue", "Black"], "correctIndex": 2, "explanation": "'Bleu' = blue. The sky (le ciel) is 'bleu'.", "tags": ["colours"] },
+    { "id": "g5f-w22-tue-006", "question": "How do you say 'white' in French?", "options": ["Noir", "Blanc", "Gris", "Rose"], "correctIndex": 1, "explanation": "'Blanc' (masc.) / 'Blanche' (fem.) = white. Noir = black, Gris = grey, Rose = pink.", "tags": ["colours"] },
+    { "id": "g5f-w22-tue-007", "question": "What is '70' in French?", "options": ["Soixante", "Soixante-dix", "Quatre-vingts", "Quatre-vingt-dix"], "correctIndex": 1, "explanation": "French counting: 70 = 'Soixante-dix' (literally 60+10). 80 = 'Quatre-vingts' (4×20). 90 = 'Quatre-vingt-dix' (4×20+10).", "tags": ["numbers"] },
+    { "id": "g5f-w22-tue-008", "question": "The colour of grass is 'vert'. What does 'vert' mean?", "options": ["Yellow", "Brown", "Green", "Orange"], "correctIndex": 2, "explanation": "'Vert' = green. L'herbe (grass) est verte (feminine form).", "tags": ["colours"] },
+    { "id": "g5f-w22-tue-009", "question": "How do you say '100' in French?", "options": ["Mille", "Cent", "Cinquante", "Dix"], "correctIndex": 1, "explanation": "'Cent' = 100. Mille = 1000, Cinquante = 50, Dix = 10.", "tags": ["numbers"] },
+    { "id": "g5f-w22-tue-010", "question": "In French, adjectives like colours usually come ___ the noun:", "options": ["Before", "After", "Either position", "At the start of the sentence"], "correctIndex": 1, "explanation": "Most French adjectives, including colours, come AFTER the noun: 'un chat noir' (a black cat), 'une robe rouge' (a red dress).", "tags": ["grammar", "colours"] },
+    { "id": "g5f-w22-tue-011", "question": "What is '80' in French?", "options": ["Soixante-dix", "Quatre-vingts", "Quatre-vingt-dix", "Huitante"], "correctIndex": 1, "explanation": "'Quatre-vingts' = 80 (literally 4×20). This unique counting system is used in France.", "tags": ["numbers"] },
+    { "id": "g5f-w22-tue-012", "question": "How do you say 'a yellow flower' in French?", "options": ["Une jaune fleur", "Un fleur jaune", "Une fleur jaune", "Une fleur jauner"], "correctIndex": 2, "explanation": "'Une fleur jaune' — 'fleur' (flower) is feminine, so 'une'. Colour adjective 'jaune' comes AFTER the noun.", "tags": ["colours", "grammar"] },
+    { "id": "g5f-w22-tue-013", "question": "What does 'violet' mean in French?", "options": ["Green", "Blue", "Purple/Violet", "Pink"], "correctIndex": 2, "explanation": "'Violet' = purple / violet. Rose = pink, Bleu = blue, Vert = green.", "tags": ["colours"] },
+    { "id": "g5f-w22-tue-014", "question": "How do you say 'fifty' in French?", "options": ["Quarante", "Cinquante", "Soixante", "Trente"], "correctIndex": 1, "explanation": "'Cinquante' = 50. Quarante = 40, Soixante = 60, Trente = 30.", "tags": ["numbers"] },
+    { "id": "g5f-w22-tue-015", "question": "What is the French word for 'orange' (the colour)?", "options": ["Rouge", "Jaune", "Orange", "Roux"], "correctIndex": 2, "explanation": "'Orange' in French is also 'orange' — it is an invariable adjective (doesn't change for gender/number).", "tags": ["colours"] }
+  ]
+}

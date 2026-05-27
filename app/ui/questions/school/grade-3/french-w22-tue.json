@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-french-w22-tue",
+  "title": "Grade 3 French — Tue, May 26",
+  "description": "Numbers 1–20 (Les Nombres 1–20) — Day 2 of 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "tue",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["french", "grade-3", "weekly", "numbers"],
+  "questions": [
+    { "id": "g3f-w22-tue-001", "question": "What is 'trois' in English?", "options": ["1", "2", "3", "4"], "correctIndex": 2, "explanation": "'Trois' = 3. Numbers 1–5: un, deux, trois, quatre, cinq.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-002", "question": "What is 'sept' in English?", "options": ["5", "6", "7", "8"], "correctIndex": 2, "explanation": "'Sept' = 7. Numbers 6–10: six, sept, huit, neuf, dix.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-003", "question": "How do you say '10' in French?", "options": ["Neuf", "Dix", "Onze", "Douze"], "correctIndex": 1, "explanation": "'Dix' = 10.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-004", "question": "What is 'quinze' in English?", "options": ["11", "13", "15", "17"], "correctIndex": 2, "explanation": "'Quinze' = 15. Numbers 11–15: onze, douze, treize, quatorze, quinze.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-005", "question": "How do you say '20' in French?", "options": ["Dix-sept", "Dix-huit", "Dix-neuf", "Vingt"], "correctIndex": 3, "explanation": "'Vingt' = 20.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-006", "question": "What is 'huit' in English?", "options": ["6", "7", "8", "9"], "correctIndex": 2, "explanation": "'Huit' = 8.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-007", "question": "What is '16' in French?", "options": ["Quinze", "Seize", "Dix-sept", "Dix-huit"], "correctIndex": 1, "explanation": "'Seize' = 16.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-008", "question": "What is 'douze' in English?", "options": ["10", "11", "12", "13"], "correctIndex": 2, "explanation": "'Douze' = 12.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-009", "question": "How do you say '4' in French?", "options": ["Deux", "Trois", "Quatre", "Cinq"], "correctIndex": 2, "explanation": "'Quatre' = 4.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-010", "question": "What is '19' in French?", "options": ["Dix-huit", "Dix-neuf", "Vingt", "Seize"], "correctIndex": 1, "explanation": "'Dix-neuf' = 19. (10+9)", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-011", "question": "What is 'onze' in English?", "options": ["10", "11", "12", "13"], "correctIndex": 1, "explanation": "'Onze' = 11.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-012", "question": "Which number comes BETWEEN 'treize' and 'quinze'?", "options": ["Douze", "Onze", "Quatorze", "Seize"], "correctIndex": 2, "explanation": "'Quatorze' (14) comes between treize (13) and quinze (15).", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-013", "question": "How do you say '17' in French?", "options": ["Seize", "Dix-sept", "Dix-huit", "Dix-neuf"], "correctIndex": 1, "explanation": "'Dix-sept' = 17 (literally 'ten-seven' = 10+7).", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-014", "question": "What is 'deux' in English?", "options": ["1", "2", "3", "4"], "correctIndex": 1, "explanation": "'Deux' = 2.", "tags": ["numbers"] },
+    { "id": "g3f-w22-tue-015", "question": "Counting in French: Dix, onze, _____, treize. What goes in the blank?", "options": ["Quatorze", "Quinze", "Douze", "Seize"], "correctIndex": 2, "explanation": "10, 11, 12, 13: dix, onze, douze, treize. The missing number is 'douze' (12).", "tags": ["numbers"] }
+  ]
+}

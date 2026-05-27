@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w22-thu",
+  "title": "Grade 5 Math — Thu, May 28",
+  "description": "Area & Perimeter — Day 4 of 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "thu",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "geometry"],
+  "questions": [
+    { "id": "g5m-w22-thu-001", "question": "What is the area of a rectangle with length 9 cm and width 4 cm?", "options": ["26 cm²", "36 cm²", "40 cm²", "45 cm²"], "correctIndex": 1, "explanation": "Area = length × width = 9 × 4 = 36 cm².", "tags": ["area", "rectangle"] },
+    { "id": "g5m-w22-thu-002", "question": "What is the perimeter of a square with side 6 cm?", "options": ["18 cm", "24 cm", "30 cm", "36 cm"], "correctIndex": 1, "explanation": "Perimeter = 4 × side = 4 × 6 = 24 cm.", "tags": ["perimeter", "square"] },
+    { "id": "g5m-w22-thu-003", "question": "A rectangle has perimeter 30 cm and length 10 cm. What is its width?", "options": ["4 cm", "5 cm", "6 cm", "8 cm"], "correctIndex": 1, "explanation": "P = 2(l+w) → 30 = 2(10+w) → 15 = 10+w → w = 5 cm.", "tags": ["perimeter", "word-problem"] },
+    { "id": "g5m-w22-thu-004", "question": "What is the area of a triangle with base 8 cm and height 6 cm?", "options": ["14 cm²", "24 cm²", "30 cm²", "48 cm²"], "correctIndex": 1, "explanation": "Area of triangle = ½ × base × height = ½ × 8 × 6 = 24 cm².", "tags": ["area", "triangle"] },
+    { "id": "g5m-w22-thu-005", "question": "Which shape has all four sides equal and all angles 90°?", "options": ["Rectangle", "Rhombus", "Square", "Parallelogram"], "correctIndex": 2, "explanation": "A square has all 4 equal sides AND all right angles.", "tags": ["geometry", "shapes"] },
+    { "id": "g5m-w22-thu-006", "question": "A room is 5 m long and 4 m wide. How much carpet is needed to cover it fully?", "options": ["18 m²", "20 m²", "22 m²", "25 m²"], "correctIndex": 1, "explanation": "Area = 5 × 4 = 20 m².", "tags": ["area", "word-problem"] },
+    { "id": "g5m-w22-thu-007", "question": "What is the perimeter of a triangle with sides 5 cm, 7 cm, and 9 cm?", "options": ["18 cm", "20 cm", "21 cm", "23 cm"], "correctIndex": 2, "explanation": "Perimeter = sum of all sides = 5 + 7 + 9 = 21 cm.", "tags": ["perimeter", "triangle"] },
+    { "id": "g5m-w22-thu-008", "question": "A square has area 64 cm². What is the length of its side?", "options": ["6 cm", "7 cm", "8 cm", "9 cm"], "correctIndex": 2, "explanation": "Side = √64 = 8 cm.", "tags": ["area", "square"] },
+    { "id": "g5m-w22-thu-009", "question": "What is the area of a square with perimeter 20 cm?", "options": ["16 cm²", "20 cm²", "25 cm²", "30 cm²"], "correctIndex": 2, "explanation": "Side = 20÷4 = 5 cm. Area = 5² = 25 cm².", "tags": ["area", "square"] },
+    { "id": "g5m-w22-thu-010", "question": "A garden 10 m × 8 m is to be fenced. How much fencing is needed?", "options": ["36 m", "38 m", "40 m", "80 m"], "correctIndex": 0, "explanation": "Perimeter = 2 × (10 + 8) = 2 × 18 = 36 m.", "tags": ["perimeter", "word-problem"] },
+    { "id": "g5m-w22-thu-011", "question": "What is the formula for the area of a rectangle?", "options": ["length + width", "2 × (length + width)", "length × width", "length × width × height"], "correctIndex": 2, "explanation": "Area of rectangle = length × width.", "tags": ["area", "formula"] },
+    { "id": "g5m-w22-thu-012", "question": "If a rectangle's length is doubled and width is halved, what happens to the area?", "options": ["Doubles", "Halves", "Stays the same", "Quadruples"], "correctIndex": 2, "explanation": "New area = 2l × w/2 = lw = original area. Area stays the same.", "tags": ["area", "reasoning"] },
+    { "id": "g5m-w22-thu-013", "question": "A path 1 m wide is built around a 6 m × 4 m garden. What is the outer area?", "options": ["32 m²", "48 m²", "56 m²", "64 m²"], "correctIndex": 1, "explanation": "Outer dimensions = (6+2) × (4+2) = 8 × 6 = 48 m².", "tags": ["area", "word-problem"] },
+    { "id": "g5m-w22-thu-014", "question": "What is the perimeter of a regular hexagon with side 5 cm?", "options": ["25 cm", "30 cm", "35 cm", "40 cm"], "correctIndex": 1, "explanation": "Hexagon has 6 sides. Perimeter = 6 × 5 = 30 cm.", "tags": ["perimeter", "hexagon"] },
+    { "id": "g5m-w22-thu-015", "question": "A rectangle has area 48 cm². If the length is 8 cm, what is the width?", "options": ["4 cm", "5 cm", "6 cm", "7 cm"], "correctIndex": 2, "explanation": "Width = Area ÷ Length = 48 ÷ 8 = 6 cm.", "tags": ["area", "rectangle"] }
+  ]
+}

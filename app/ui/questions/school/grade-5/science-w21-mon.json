@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w21-mon",
+  "title": "Grade 5 Science — Mon, May 18",
+  "description": "Living Things & Cells — Last Week Day 1",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "mon",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["science", "grade-5", "weekly", "cells"],
+  "questions": [
+    { "id": "g5s-w21-mon-001", "question": "What is the basic unit of life?", "options": ["Tissue", "Organ", "Cell", "Organism"], "correctIndex": 2, "explanation": "The cell is the basic structural and functional unit of all living things.", "tags": ["cells"] },
+    { "id": "g5s-w21-mon-002", "question": "Who discovered the cell?", "options": ["Darwin", "Newton", "Robert Hooke", "Louis Pasteur"], "correctIndex": 2, "explanation": "Robert Hooke discovered the cell in 1665 while examining cork under a microscope.", "tags": ["cells", "history"] },
+    { "id": "g5s-w21-mon-003", "question": "Which cell organelle controls the cell's activities?", "options": ["Cell wall", "Nucleus", "Vacuole", "Mitochondria"], "correctIndex": 1, "explanation": "The nucleus is the 'control centre' of the cell — it contains DNA and directs cell activities.", "tags": ["cells"] },
+    { "id": "g5s-w21-mon-004", "question": "Which is present in plant cells but NOT in animal cells?", "options": ["Nucleus", "Cell membrane", "Cell wall", "Mitochondria"], "correctIndex": 2, "explanation": "Plant cells have a rigid cell wall made of cellulose. Animal cells do not have a cell wall.", "tags": ["cells", "plant-animal"] },
+    { "id": "g5s-w21-mon-005", "question": "What does the mitochondria do?", "options": ["Stores water", "Controls the cell", "Produces energy (ATP)", "Makes proteins"], "correctIndex": 2, "explanation": "Mitochondria are called the 'powerhouse of the cell' because they produce energy through respiration.", "tags": ["cells", "organelles"] },
+    { "id": "g5s-w21-mon-006", "question": "Unicellular organisms consist of:", "options": ["Many cells", "One cell", "No cells", "Two cells"], "correctIndex": 1, "explanation": "Unicellular means single-celled. Examples: Amoeba, paramecium, bacteria.", "tags": ["organisms"] },
+    { "id": "g5s-w21-mon-007", "question": "Which is an example of a unicellular organism?", "options": ["Frog", "Mushroom", "Amoeba", "Earthworm"], "correctIndex": 2, "explanation": "Amoeba is a unicellular organism — its entire body is a single cell.", "tags": ["organisms"] },
+    { "id": "g5s-w21-mon-008", "question": "The green pigment in plant cells that helps in photosynthesis is:", "options": ["Haemoglobin", "Chlorophyll", "Melanin", "Keratin"], "correctIndex": 1, "explanation": "Chlorophyll in chloroplasts absorbs sunlight for photosynthesis.", "tags": ["cells", "plants"] },
+    { "id": "g5s-w21-mon-009", "question": "Which of these is NOT a characteristic of living things?", "options": ["Growth", "Reproduction", "Respiration", "Rusting"], "correctIndex": 3, "explanation": "Rusting is a chemical reaction in non-living iron. Living things grow, reproduce, and respire.", "tags": ["living-things"] },
+    { "id": "g5s-w21-mon-010", "question": "Blood cells are produced in:", "options": ["Liver", "Bone marrow", "Heart", "Spleen"], "correctIndex": 1, "explanation": "Red blood cells, white blood cells, and platelets are produced in bone marrow.", "tags": ["cells", "blood"] },
+    { "id": "g5s-w21-mon-011", "question": "Which part of the cell controls what enters and exits?", "options": ["Cell wall", "Vacuole", "Nucleus", "Cell membrane"], "correctIndex": 3, "explanation": "The cell membrane is selectively permeable — it controls which substances enter and exit the cell.", "tags": ["cells"] },
+    { "id": "g5s-w21-mon-012", "question": "A group of similar cells performing the same function is called a:", "options": ["Organ", "Organism", "Tissue", "System"], "correctIndex": 2, "explanation": "Tissue is a group of similar cells working together. Multiple tissues form organs.", "tags": ["cells", "organisation"] },
+    { "id": "g5s-w21-mon-013", "question": "The nerve cell is also called:", "options": ["Neuron", "Nephron", "Neon", "Neutron"], "correctIndex": 0, "explanation": "Nerve cells are called neurons. They transmit electrical signals in the nervous system.", "tags": ["cells", "nervous-system"] },
+    { "id": "g5s-w21-mon-014", "question": "Which organism reproduces by binary fission?", "options": ["Dog", "Mango tree", "Bacteria", "Butterfly"], "correctIndex": 2, "explanation": "Bacteria reproduce asexually by binary fission — one cell splits into two identical cells.", "tags": ["reproduction", "bacteria"] },
+    { "id": "g5s-w21-mon-015", "question": "Chloroplasts are found in plant cells because plants:", "options": ["Need to move", "Perform photosynthesis", "Have cell walls", "Are multicellular"], "correctIndex": 1, "explanation": "Chloroplasts contain chlorophyll needed for photosynthesis — making food from sunlight.", "tags": ["cells", "photosynthesis"] }
+  ]
+}

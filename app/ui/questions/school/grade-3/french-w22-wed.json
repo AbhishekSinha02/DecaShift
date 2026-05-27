@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-french-w22-wed",
+  "title": "Grade 3 French — Wed, May 27",
+  "description": "Colours & Shapes (Les Couleurs et les Formes) — Day 3 of 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "wed",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["french", "grade-3", "weekly", "colours"],
+  "questions": [
+    { "id": "g3f-w22-wed-001", "question": "What colour is 'rouge'?", "options": ["Blue", "Green", "Red", "Yellow"], "correctIndex": 2, "explanation": "'Rouge' = red.", "tags": ["colours"] },
+    { "id": "g3f-w22-wed-002", "question": "What colour is 'bleu'?", "options": ["Red", "Blue", "Green", "Yellow"], "correctIndex": 1, "explanation": "'Bleu' = blue.", "tags": ["colours"] },
+    { "id": "g3f-w22-wed-003", "question": "How do you say 'yellow' in French?", "options": ["Jaune", "Vert", "Noir", "Blanc"], "correctIndex": 0, "explanation": "'Jaune' = yellow.", "tags": ["colours"] },
+    { "id": "g3f-w22-wed-004", "question": "What colour is 'vert'?", "options": ["Purple", "Orange", "Pink", "Green"], "correctIndex": 3, "explanation": "'Vert' = green.", "tags": ["colours"] },
+    { "id": "g3f-w22-wed-005", "question": "How do you say 'black' in French?", "options": ["Blanc", "Gris", "Noir", "Marron"], "correctIndex": 2, "explanation": "'Noir' = black. 'Blanc' = white, 'Gris' = grey, 'Marron' = brown.", "tags": ["colours"] },
+    { "id": "g3f-w22-wed-006", "question": "What colour is 'rose'?", "options": ["Red", "Orange", "Pink", "Purple"], "correctIndex": 2, "explanation": "'Rose' = pink.", "tags": ["colours"] },
+    { "id": "g3f-w22-wed-007", "question": "How do you say 'white' in French?", "options": ["Noir", "Gris", "Blanc", "Bleu"], "correctIndex": 2, "explanation": "'Blanc' (masc.) / 'Blanche' (fem.) = white.", "tags": ["colours"] },
+    { "id": "g3f-w22-wed-008", "question": "What is 'un cercle' in English?", "options": ["A square", "A triangle", "A circle", "A rectangle"], "correctIndex": 2, "explanation": "'Un cercle' = a circle.", "tags": ["shapes"] },
+    { "id": "g3f-w22-wed-009", "question": "What is 'un triangle' in English?", "options": ["A circle", "A triangle", "A square", "A rectangle"], "correctIndex": 1, "explanation": "'Un triangle' = a triangle. (Same word in English and French!)", "tags": ["shapes"] },
+    { "id": "g3f-w22-wed-010", "question": "How do you say 'square' in French?", "options": ["Un cercle", "Un triangle", "Un carré", "Un rectangle"], "correctIndex": 2, "explanation": "'Un carré' = a square.", "tags": ["shapes"] },
+    { "id": "g3f-w22-wed-011", "question": "The sky is blue. How do you say 'the blue sky' in French?", "options": ["Le bleu ciel", "Le ciel bleu", "Bleu le ciel", "Le ciel bleue"], "correctIndex": 1, "explanation": "'Le ciel bleu' = the blue sky. Colour adjectives come AFTER the noun in French.", "tags": ["colours", "grammar"] },
+    { "id": "g3f-w22-wed-012", "question": "What colour is 'marron'?", "options": ["Orange", "Brown", "Purple", "Grey"], "correctIndex": 1, "explanation": "'Marron' = brown.", "tags": ["colours"] },
+    { "id": "g3f-w22-wed-013", "question": "What is 'un rectangle' in English?", "options": ["A circle", "A square", "A rectangle", "A triangle"], "correctIndex": 2, "explanation": "'Un rectangle' = a rectangle.", "tags": ["shapes"] },
+    { "id": "g3f-w22-wed-014", "question": "How do you say 'a red apple' in French?", "options": ["Une rouge pomme", "Un pomme rouge", "Une pomme rouge", "Une pomme rouges"], "correctIndex": 2, "explanation": "'Une pomme rouge' = a red apple. 'Pomme' is feminine (une), colour comes after.", "tags": ["colours", "grammar"] },
+    { "id": "g3f-w22-wed-015", "question": "What colour is 'orange'?", "options": ["Red", "Yellow", "Orange", "Pink"], "correctIndex": 2, "explanation": "'Orange' = orange. It is the same word in French and English!", "tags": ["colours"] }
+  ]
+}

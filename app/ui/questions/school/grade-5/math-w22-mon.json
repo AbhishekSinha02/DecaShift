@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w22-mon",
+  "title": "Grade 5 Math — Mon, May 25",
+  "description": "Fractions & Decimals — Day 1 of 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "mon",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "fractions", "decimals"],
+  "questions": [
+    { "id": "g5m-w22-mon-001", "question": "What is 3/4 expressed as a decimal?", "options": ["0.25", "0.50", "0.75", "0.80"], "correctIndex": 2, "explanation": "3 ÷ 4 = 0.75. Divide numerator by denominator.", "tags": ["fractions", "decimals"] },
+    { "id": "g5m-w22-mon-002", "question": "Which fraction is equivalent to 0.6?", "options": ["3/4", "3/5", "2/3", "5/6"], "correctIndex": 1, "explanation": "0.6 = 6/10 = 3/5 (simplify by dividing both by 2).", "tags": ["decimals", "fractions"] },
+    { "id": "g5m-w22-mon-003", "question": "What is 1/2 + 1/4?", "options": ["1/6", "2/6", "3/4", "1/3"], "correctIndex": 2, "explanation": "Convert to same denominator: 2/4 + 1/4 = 3/4.", "tags": ["fractions", "addition"] },
+    { "id": "g5m-w22-mon-004", "question": "Arrange in ascending order: 0.5, 0.25, 0.75, 0.1", "options": ["0.5, 0.25, 0.75, 0.1", "0.1, 0.25, 0.5, 0.75", "0.75, 0.5, 0.25, 0.1", "0.25, 0.1, 0.5, 0.75"], "correctIndex": 1, "explanation": "Ascending means smallest to largest: 0.1 < 0.25 < 0.5 < 0.75.", "tags": ["decimals", "ordering"] },
+    { "id": "g5m-w22-mon-005", "question": "What is 5/10 in its simplest form?", "options": ["5/10", "1/5", "2/5", "1/2"], "correctIndex": 3, "explanation": "Divide both 5 and 10 by their HCF (5): 5÷5 / 10÷5 = 1/2.", "tags": ["fractions", "simplification"] },
+    { "id": "g5m-w22-mon-006", "question": "What is 2.5 + 1.75?", "options": ["3.25", "4.00", "4.25", "3.75"], "correctIndex": 2, "explanation": "2.5 + 1.75 = 4.25. Line up decimal points and add.", "tags": ["decimals", "addition"] },
+    { "id": "g5m-w22-mon-007", "question": "Which is greater: 7/8 or 5/6?", "options": ["7/8", "5/6", "Both are equal", "Cannot be compared"], "correctIndex": 0, "explanation": "7/8 = 0.875, 5/6 ≈ 0.833. So 7/8 is greater.", "tags": ["fractions", "comparison"] },
+    { "id": "g5m-w22-mon-008", "question": "What is 3/5 × 10?", "options": ["2", "4", "6", "8"], "correctIndex": 2, "explanation": "3/5 × 10 = 30/5 = 6.", "tags": ["fractions", "multiplication"] },
+    { "id": "g5m-w22-mon-009", "question": "What is 0.9 − 0.35?", "options": ["0.45", "0.55", "0.65", "1.25"], "correctIndex": 1, "explanation": "0.90 − 0.35 = 0.55. Align decimals and subtract.", "tags": ["decimals", "subtraction"] },
+    { "id": "g5m-w22-mon-010", "question": "A pizza is cut into 8 equal slices. Ram eats 3 slices. What fraction is left?", "options": ["3/8", "5/8", "1/2", "2/8"], "correctIndex": 1, "explanation": "8 − 3 = 5 slices left. Fraction = 5/8.", "tags": ["fractions", "word-problem"] },
+    { "id": "g5m-w22-mon-011", "question": "Convert 7/4 to a mixed number.", "options": ["1¾", "2¼", "1½", "3¼"], "correctIndex": 0, "explanation": "7 ÷ 4 = 1 remainder 3. So 7/4 = 1¾.", "tags": ["fractions", "mixed-numbers"] },
+    { "id": "g5m-w22-mon-012", "question": "What is 0.4 × 5?", "options": ["0.9", "1.5", "2.0", "2.5"], "correctIndex": 2, "explanation": "0.4 × 5 = 2.0. Or 4 × 5 = 20, then place decimal → 2.0.", "tags": ["decimals", "multiplication"] },
+    { "id": "g5m-w22-mon-013", "question": "Which fraction is equal to 4/12?", "options": ["1/4", "1/3", "2/5", "3/8"], "correctIndex": 1, "explanation": "Divide both by HCF 4: 4÷4 / 12÷4 = 1/3.", "tags": ["fractions", "equivalent"] },
+    { "id": "g5m-w22-mon-014", "question": "Sita had ₹20.50. She spent ₹8.75. How much is left?", "options": ["₹10.75", "₹11.25", "₹11.75", "₹12.25"], "correctIndex": 2, "explanation": "₹20.50 − ₹8.75 = ₹11.75.", "tags": ["decimals", "word-problem"] },
+    { "id": "g5m-w22-mon-015", "question": "What is 2/3 of 18?", "options": ["6", "8", "10", "12"], "correctIndex": 3, "explanation": "2/3 × 18 = (2 × 18) ÷ 3 = 36 ÷ 3 = 12.", "tags": ["fractions", "word-problem"] }
+  ]
+}

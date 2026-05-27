@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w21-fri",
+  "title": "Grade 3 Science — Fri, May 22",
+  "description": "Light and Sound — Basics — Last Week Day 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "fri",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["science", "grade-3", "weekly", "light-sound"],
+  "questions": [
+    { "id": "g3s-w21-fri-001", "question": "What is the main source of light on Earth?", "options": ["The moon", "Stars", "The sun", "Lamps"], "correctIndex": 2, "explanation": "The sun is Earth's main natural source of light and energy. Without sunlight, life on Earth would not exist.", "tags": ["light"] },
+    { "id": "g3s-w21-fri-002", "question": "Light travels in:", "options": ["Curved lines", "Zigzag paths", "Straight lines", "Circles"], "correctIndex": 2, "explanation": "Light travels in straight lines — this is why shadows are formed and why you can't see around corners.", "tags": ["light"] },
+    { "id": "g3s-w21-fri-003", "question": "A shadow is formed when:", "options": ["Light passes through an object", "An object blocks light", "Light bends around an object", "An object emits light"], "correctIndex": 1, "explanation": "A shadow forms when an opaque object blocks light, preventing it from reaching the area behind the object.", "tags": ["light", "shadow"] },
+    { "id": "g3s-w21-fri-004", "question": "Transparent objects:", "options": ["Block all light", "Let some light through but you can't see clearly through them", "Let all light through so you can see clearly through them", "Reflect all light"], "correctIndex": 2, "explanation": "Transparent objects (like glass) allow light to pass through clearly — you can see through them.", "tags": ["light"] },
+    { "id": "g3s-w21-fri-005", "question": "What happens when light hits a mirror?", "options": ["Light is absorbed", "Light passes through", "Light is reflected (bounces back)", "Light bends sideways"], "correctIndex": 2, "explanation": "Mirrors have a smooth, shiny surface that reflects light — this is why we can see our reflection in a mirror.", "tags": ["light", "reflection"] },
+    { "id": "g3s-w21-fri-006", "question": "Sound is produced by:", "options": ["Light", "Heat", "Vibrations", "Air pressure only"], "correctIndex": 2, "explanation": "Sound is produced when objects vibrate. These vibrations travel through air (or other materials) to reach our ears.", "tags": ["sound"] },
+    { "id": "g3s-w21-fri-007", "question": "Can sound travel in outer space (vacuum)?", "options": ["Yes, very loudly", "Yes, slowly", "No, sound needs a medium (matter) to travel through", "Yes, faster than on Earth"], "correctIndex": 2, "explanation": "Sound cannot travel in a vacuum (empty space). It needs matter — like air, water, or solid — to travel through.", "tags": ["sound"] },
+    { "id": "g3s-w21-fri-008", "question": "What is an echo?", "options": ["A very loud sound", "Sound absorbed by walls", "A reflection of sound", "Sound that travels slowly"], "correctIndex": 2, "explanation": "An echo is when sound bounces off a hard surface and returns to the listener. You hear echoes in caves and valleys.", "tags": ["sound"] },
+    { "id": "g3s-w21-fri-009", "question": "Which travels faster — light or sound?", "options": ["Sound", "They travel at the same speed", "Light", "Depends on the weather"], "correctIndex": 2, "explanation": "Light travels much faster than sound — light reaches us almost instantly; sound travels about 340 m/s. That's why we see lightning before hearing thunder.", "tags": ["light", "sound"] },
+    { "id": "g3s-w21-fri-010", "question": "Materials that do NOT let light pass through are called:", "options": ["Transparent", "Translucent", "Opaque", "Reflective"], "correctIndex": 2, "explanation": "Opaque materials block all light — like wood, metal, and stone. They form clear, sharp shadows.", "tags": ["light"] },
+    { "id": "g3s-w21-fri-011", "question": "When a guitar string is plucked, it makes sound by:", "options": ["Emitting light", "Vibrating back and forth", "Absorbing air", "Moving water"], "correctIndex": 1, "explanation": "Plucking a guitar string makes it vibrate — these vibrations travel through air as sound waves to our ears.", "tags": ["sound"] },
+    { "id": "g3s-w21-fri-012", "question": "Why do we see the colours of a rainbow?", "options": ["Clouds change colour", "White light from the sun splits into 7 colours when passing through raindrops", "The sky is painted", "Only sunsets are colourful"], "correctIndex": 1, "explanation": "White light is made of 7 colours. When it passes through water droplets (like a prism), it splits into red, orange, yellow, green, blue, indigo, violet (ROYGBIV).", "tags": ["light"] },
+    { "id": "g3s-w21-fri-013", "question": "A louder sound has:", "options": ["Lower frequency", "Greater amplitude (larger vibrations)", "Smaller vibrations", "Slower vibrations"], "correctIndex": 1, "explanation": "Loudness (volume) depends on amplitude — larger vibrations = louder sound. Measured in decibels (dB).", "tags": ["sound"] },
+    { "id": "g3s-w21-fri-014", "question": "Which of these is a source of ARTIFICIAL light?", "options": ["The sun", "The moon", "Lightning", "A light bulb"], "correctIndex": 3, "explanation": "A light bulb is artificial (man-made) light. The sun, moon (reflected), and lightning are natural sources.", "tags": ["light"] },
+    { "id": "g3s-w21-fri-015", "question": "How do we protect our ears from loud noise?", "options": ["Turn up the volume more", "Wear ear defenders/earplugs", "Stay near loud sounds always", "Loud sounds are never harmful"], "correctIndex": 1, "explanation": "Very loud sounds can damage hearing. Ear defenders (ear muffs) or earplugs protect the ears from loud noise.", "tags": ["sound", "safety"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w22-thu",
+  "title": "Grade 3 Science — Thu, May 28",
+  "description": "Weather and Seasons — Day 4 of 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "thu",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "weather"],
+  "questions": [
+    { "id": "g3s-w22-thu-001", "question": "What is weather?", "options": ["The temperature at night", "Conditions in the atmosphere at a particular place and time", "What the sky looks like at noon", "The season of the year"], "correctIndex": 1, "explanation": "Weather describes the conditions in the atmosphere — including temperature, rainfall, wind, clouds, and sunshine.", "tags": ["weather"] },
+    { "id": "g3s-w22-thu-002", "question": "How many seasons are there in a year?", "options": ["2", "3", "4", "6"], "correctIndex": 2, "explanation": "There are 4 seasons: Spring, Summer, Autumn (Fall), and Winter.", "tags": ["seasons"] },
+    { "id": "g3s-w22-thu-003", "question": "Which instrument measures temperature?", "options": ["Barometer", "Thermometer", "Anemometer", "Rain gauge"], "correctIndex": 1, "explanation": "A thermometer measures temperature in degrees Celsius (°C) or Fahrenheit (°F).", "tags": ["weather", "instruments"] },
+    { "id": "g3s-w22-thu-004", "question": "Rain comes from:", "options": ["The sun", "Clouds", "Wind", "Mountains"], "correctIndex": 1, "explanation": "Rain falls from clouds. Clouds are made of tiny water droplets; when they get heavy enough, they fall as rain.", "tags": ["weather"] },
+    { "id": "g3s-w22-thu-005", "question": "Which season is the HOTTEST?", "options": ["Spring", "Summer", "Autumn", "Winter"], "correctIndex": 1, "explanation": "Summer is the hottest season — the sun is highest in the sky and days are longest.", "tags": ["seasons"] },
+    { "id": "g3s-w22-thu-006", "question": "What do we call frozen raindrops that fall in summer storms?", "options": ["Snow", "Hail", "Sleet", "Frost"], "correctIndex": 1, "explanation": "Hail is ice that forms inside storm clouds and falls as small balls of ice during heavy storms.", "tags": ["weather"] },
+    { "id": "g3s-w22-thu-007", "question": "What instrument measures wind speed?", "options": ["Thermometer", "Rain gauge", "Barometer", "Anemometer"], "correctIndex": 3, "explanation": "An anemometer measures wind speed. It has cups that spin in the wind.", "tags": ["weather", "instruments"] },
+    { "id": "g3s-w22-thu-008", "question": "In which season do most trees lose their leaves?", "options": ["Spring", "Summer", "Autumn", "Winter"], "correctIndex": 2, "explanation": "Deciduous trees lose their leaves in autumn, before winter. The leaves change colour first (red, orange, yellow).", "tags": ["seasons"] },
+    { "id": "g3s-w22-thu-009", "question": "What is a rainbow?", "options": ["Light reflected by rain drops, forming an arc of colours", "A coloured cloud", "Sunlight alone", "Reflection in the sea"], "correctIndex": 0, "explanation": "A rainbow forms when sunlight passes through raindrops, which act as prisms and split light into 7 colours (ROYGBIV).", "tags": ["weather"] },
+    { "id": "g3s-w22-thu-010", "question": "Which clouds bring heavy rain?", "options": ["Cirrus (wispy, high clouds)", "Cumulus (puffy white clouds)", "Cumulonimbus (storm clouds)", "Stratus (flat, grey layer)"], "correctIndex": 2, "explanation": "Cumulonimbus clouds are tall, dark storm clouds that bring heavy rain, thunder, and lightning.", "tags": ["weather", "clouds"] },
+    { "id": "g3s-w22-thu-011", "question": "What is fog?", "options": ["Heavy rain near the ground", "Cloud that forms near the ground", "Frozen rain", "Strong wind with dust"], "correctIndex": 1, "explanation": "Fog is a type of low cloud that forms near the ground, reducing visibility.", "tags": ["weather"] },
+    { "id": "g3s-w22-thu-012", "question": "In the NORTHERN hemisphere, which months are summer?", "options": ["December, January, February", "March, April, May", "June, July, August", "September, October, November"], "correctIndex": 2, "explanation": "In the Northern Hemisphere, summer is June, July, and August — when the north tilts towards the sun.", "tags": ["seasons"] },
+    { "id": "g3s-w22-thu-013", "question": "Thunder and lightning happen during:", "options": ["A gentle shower", "A thunderstorm", "Fog", "Snow"], "correctIndex": 1, "explanation": "Thunder and lightning happen during thunderstorms. Lightning is electricity; thunder is the sound it makes.", "tags": ["weather"] },
+    { "id": "g3s-w22-thu-014", "question": "What is climate?", "options": ["Today's weather", "The average weather of a place over many years", "The temperature right now", "The current wind direction"], "correctIndex": 1, "explanation": "Climate is the average weather pattern of a place over a long period (usually 30+ years). It's different from day-to-day weather.", "tags": ["weather"] },
+    { "id": "g3s-w22-thu-015", "question": "What is a wind vane used for?", "options": ["Measuring rainfall", "Measuring temperature", "Showing wind direction", "Measuring air pressure"], "correctIndex": 2, "explanation": "A wind vane (weather vane) shows which direction the wind is coming FROM.", "tags": ["weather", "instruments"] }
+  ]
+}

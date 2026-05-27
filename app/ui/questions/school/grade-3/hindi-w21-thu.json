@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-hindi-w21-thu",
+  "title": "Grade 3 Hindi — Thu, May 21",
+  "description": "शरीर के अंग और स्वास्थ्य (Body Parts & Health) — Last Week Day 4",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "thu",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["hindi", "grade-3", "weekly", "body-parts"],
+  "questions": [
+    { "id": "g3h-w21-thu-001", "question": "'Hand' को हिंदी में क्या कहते हैं?", "options": ["पैर", "हाथ", "कान", "नाक"], "correctIndex": 1, "explanation": "'Hand' = हाथ।", "tags": ["body-parts"] },
+    { "id": "g3h-w21-thu-002", "question": "'आँख' का अंग्रेज़ी नाम है:", "options": ["Ear", "Nose", "Eye", "Mouth"], "correctIndex": 2, "explanation": "'आँख' = Eye।", "tags": ["body-parts"] },
+    { "id": "g3h-w21-thu-003", "question": "हम किससे सुनते हैं?", "options": ["आँख से", "नाक से", "कान से", "मुँह से"], "correctIndex": 2, "explanation": "हम 'कान' (ears) से सुनते हैं।", "tags": ["body-parts", "senses"] },
+    { "id": "g3h-w21-thu-004", "question": "'Nose' को हिंदी में क्या कहते हैं?", "options": ["मुँह", "नाक", "कान", "गला"], "correctIndex": 1, "explanation": "'Nose' = नाक।", "tags": ["body-parts"] },
+    { "id": "g3h-w21-thu-005", "question": "हम किससे देखते हैं?", "options": ["नाक से", "कान से", "आँख से", "पैर से"], "correctIndex": 2, "explanation": "हम 'आँख' (eyes) से देखते हैं।", "tags": ["body-parts", "senses"] },
+    { "id": "g3h-w21-thu-006", "question": "'दाँत' का अंग्रेज़ी नाम है:", "options": ["Tongue", "Teeth", "Lips", "Chin"], "correctIndex": 1, "explanation": "'दाँत' = Teeth।", "tags": ["body-parts"] },
+    { "id": "g3h-w21-thu-007", "question": "हम किससे सूँघते हैं?", "options": ["आँख से", "नाक से", "कान से", "हाथ से"], "correctIndex": 1, "explanation": "हम 'नाक' (nose) से सूँघते (smell) हैं।", "tags": ["body-parts", "senses"] },
+    { "id": "g3h-w21-thu-008", "question": "'Finger' को हिंदी में क्या कहते हैं?", "options": ["अँगूठा", "उँगली", "नाखून", "हथेली"], "correctIndex": 1, "explanation": "'Finger' = उँगली।", "tags": ["body-parts"] },
+    { "id": "g3h-w21-thu-009", "question": "स्वस्थ रहने के लिए रोज़ क्या करना चाहिए?", "options": ["केवल टीवी देखना", "व्यायाम करना और पौष्टिक भोजन खाना", "हमेशा बाहर रहना", "देर से उठना"], "correctIndex": 1, "explanation": "स्वस्थ रहने के लिए नियमित व्यायाम (exercise) और पौष्टिक भोजन (nutritious food) ज़रूरी है।", "tags": ["health"] },
+    { "id": "g3h-w21-thu-010", "question": "'पेट' का अंग्रेज़ी नाम है:", "options": ["Chest", "Back", "Stomach", "Leg"], "correctIndex": 2, "explanation": "'पेट' = Stomach।", "tags": ["body-parts"] },
+    { "id": "g3h-w21-thu-011", "question": "खाने से पहले हमें क्या करना चाहिए?", "options": ["हाथ धोने चाहिए", "दौड़ना चाहिए", "सोना चाहिए", "खेलना चाहिए"], "correctIndex": 0, "explanation": "खाने से पहले हाथ ज़रूर धोने चाहिए — इससे कीटाणु (germs) दूर रहते हैं।", "tags": ["health"] },
+    { "id": "g3h-w21-thu-012", "question": "'Knee' को हिंदी में क्या कहते हैं?", "options": ["कोहनी", "घुटना", "टखना", "पिंडली"], "correctIndex": 1, "explanation": "'Knee' = घुटना।", "tags": ["body-parts"] },
+    { "id": "g3h-w21-thu-013", "question": "दाँत साफ रखने के लिए क्या करना चाहिए?", "options": ["केवल रात को ब्रश करना", "सुबह और रात को ब्रश करना", "महीने में एक बार ब्रश करना", "मीठा खाते रहना"], "correctIndex": 1, "explanation": "दाँत स्वस्थ रखने के लिए सुबह और रात को ब्रश करना चाहिए।", "tags": ["health"] },
+    { "id": "g3h-w21-thu-014", "question": "'Shoulder' को हिंदी में कहते हैं:", "options": ["कमर", "कंधा", "पीठ", "छाती"], "correctIndex": 1, "explanation": "'Shoulder' = कंधा।", "tags": ["body-parts"] },
+    { "id": "g3h-w21-thu-015", "question": "हमारे शरीर की हड्डियाँ किससे मज़बूत होती हैं?", "options": ["चीनी से", "नमक से", "कैल्शियम से (दूध, पनीर)", "तेल से"], "correctIndex": 2, "explanation": "हड्डियाँ कैल्शियम से मज़बूत होती हैं — दूध, पनीर, दही में कैल्शियम होता है।", "tags": ["health"] }
+  ]
+}

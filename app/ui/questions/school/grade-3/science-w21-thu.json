@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w21-thu",
+  "title": "Grade 3 Science — Thu, May 21",
+  "description": "Soil and Rocks — Last Week Day 4",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "thu",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["science", "grade-3", "weekly", "soil-rocks"],
+  "questions": [
+    { "id": "g3s-w21-thu-001", "question": "What is soil made of?", "options": ["Only sand", "Only water", "Tiny rock particles, dead plants, animals, air and water", "Only clay"], "correctIndex": 2, "explanation": "Soil is a mixture of tiny rock particles, organic matter (dead plants/animals), air, and water.", "tags": ["soil"] },
+    { "id": "g3s-w21-thu-002", "question": "Why is soil important for plants?", "options": ["Plants don't need soil", "Soil provides water, minerals, and anchor for plants' roots", "Soil only holds water", "Plants make their own soil"], "correctIndex": 1, "explanation": "Soil anchors plant roots, provides water and minerals that plants need to grow.", "tags": ["soil", "plants"] },
+    { "id": "g3s-w21-thu-003", "question": "Which type of soil is best for growing plants?", "options": ["Sandy soil (very dry)", "Clay soil (very hard)", "Loamy soil (mix of sand, silt, clay with nutrients)", "Gravel soil"], "correctIndex": 2, "explanation": "Loamy soil is ideal for plants — it holds moisture and nutrients well but also allows water to drain (not waterlogged).", "tags": ["soil"] },
+    { "id": "g3s-w21-thu-004", "question": "Rocks are made of:", "options": ["Soil and sand only", "Minerals (natural substances)", "Only metals", "Water and ice"], "correctIndex": 1, "explanation": "Rocks are solid mixtures of minerals — naturally occurring substances like quartz, feldspar, and mica.", "tags": ["rocks"] },
+    { "id": "g3s-w21-thu-005", "question": "Which type of rock forms when lava cools?", "options": ["Sedimentary", "Metamorphic", "Igneous", "Limestone"], "correctIndex": 2, "explanation": "Igneous rocks form when molten lava or magma cools and hardens. Examples: granite, basalt.", "tags": ["rocks"] },
+    { "id": "g3s-w21-thu-006", "question": "Fossils are found in which type of rock?", "options": ["Igneous", "Metamorphic", "Sedimentary", "All rock types"], "correctIndex": 2, "explanation": "Fossils form in sedimentary rock, where plants and animals are buried in layers of sediment that harden over millions of years.", "tags": ["rocks", "fossils"] },
+    { "id": "g3s-w21-thu-007", "question": "What is erosion?", "options": ["Building new rocks", "The wearing away and movement of rock and soil by wind, water, or ice", "The formation of fossils", "Soil becoming richer"], "correctIndex": 1, "explanation": "Erosion is when rock and soil are worn away and carried by wind, water, ice, or gravity.", "tags": ["soil", "rocks"] },
+    { "id": "g3s-w21-thu-008", "question": "Which of these is a ROCK (not a mineral)?", "options": ["Diamond", "Gold", "Granite", "Quartz"], "correctIndex": 2, "explanation": "Granite is a rock made of minerals (quartz, feldspar, mica). Diamond, gold, and quartz are minerals.", "tags": ["rocks"] },
+    { "id": "g3s-w21-thu-009", "question": "How long do rocks take to form?", "options": ["A few days", "A few weeks", "A few years", "Thousands to millions of years"], "correctIndex": 3, "explanation": "Rock formation is a very slow process — it takes thousands to millions of years for different types to form.", "tags": ["rocks"] },
+    { "id": "g3s-w21-thu-010", "question": "What are earthworms good for in soil?", "options": ["They damage plant roots", "They mix and aerate soil, improving its quality", "They only eat soil", "They are not useful"], "correctIndex": 1, "explanation": "Earthworms burrow through soil, aerating it and mixing organic matter — making soil richer and better for plants.", "tags": ["soil"] },
+    { "id": "g3s-w21-thu-011", "question": "What is the top layer of soil called?", "options": ["Bedrock", "Subsoil", "Topsoil", "Sediment"], "correctIndex": 2, "explanation": "Topsoil is the uppermost layer — it is richest in nutrients and organic matter, where most plants grow.", "tags": ["soil"] },
+    { "id": "g3s-w21-thu-012", "question": "Sandy soil drains water very quickly. This means:", "options": ["Plants grow best in it", "Plants may not get enough water in sandy soil", "Sandy soil holds minerals better", "Sandy soil is the best for all plants"], "correctIndex": 1, "explanation": "Sandy soil drains too fast — it doesn't hold water or nutrients well, so plants may dry out quickly.", "tags": ["soil"] },
+    { "id": "g3s-w21-thu-013", "question": "Metamorphic rocks are formed by:", "options": ["Cooling lava", "Layers of sediment", "Existing rocks being changed by extreme heat and pressure", "Rock dissolving in water"], "correctIndex": 2, "explanation": "Metamorphic rocks form when existing rocks are changed (metamorphosed) by extreme heat and pressure deep underground.", "tags": ["rocks"] },
+    { "id": "g3s-w21-thu-014", "question": "What is a mineral?", "options": ["A type of rock", "A natural, non-living substance with a specific chemical composition", "Soil mixed with water", "A layer of the earth"], "correctIndex": 1, "explanation": "Minerals are natural, inorganic (non-living) substances with a specific crystal structure and chemical formula. Examples: salt, quartz, gold.", "tags": ["rocks"] },
+    { "id": "g3s-w21-thu-015", "question": "Humus in soil is:", "options": ["Sand particles", "Broken-down organic matter from dead plants and animals", "Water absorbed by soil", "Clay particles"], "correctIndex": 1, "explanation": "Humus is the dark, rich organic material in soil made from decomposed plants and animals — it makes soil very fertile.", "tags": ["soil"] }
+  ]
+}

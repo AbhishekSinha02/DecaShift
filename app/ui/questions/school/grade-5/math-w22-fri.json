@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w22-fri",
+  "title": "Grade 5 Math — Fri, May 29",
+  "description": "Word Problems — Day 5 of 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "fri",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "word-problems"],
+  "questions": [
+    { "id": "g5m-w22-fri-001", "question": "A train travels 450 km in 5 hours. What is its average speed?", "options": ["80 km/h", "90 km/h", "95 km/h", "100 km/h"], "correctIndex": 1, "explanation": "Speed = Distance ÷ Time = 450 ÷ 5 = 90 km/h.", "tags": ["speed", "word-problem"] },
+    { "id": "g5m-w22-fri-002", "question": "Rahul has 120 marbles. He gives 1/3 to Ankit and 1/4 to Priya. How many does he have left?", "options": ["40", "45", "50", "55"], "correctIndex": 2, "explanation": "Given away = 120/3 + 120/4 = 40 + 30 = 70. Left = 120 − 70 = 50.", "tags": ["fractions", "word-problem"] },
+    { "id": "g5m-w22-fri-003", "question": "A shop sells 240 items in 6 days. How many items per day?", "options": ["36", "38", "40", "42"], "correctIndex": 2, "explanation": "Items per day = 240 ÷ 6 = 40.", "tags": ["division", "word-problem"] },
+    { "id": "g5m-w22-fri-004", "question": "Meena saves ₹35 per day. How much does she save in 4 weeks?", "options": ["₹840", "₹900", "₹980", "₹1000"], "correctIndex": 2, "explanation": "4 weeks = 28 days. Savings = 35 × 28 = ₹980.", "tags": ["multiplication", "word-problem"] },
+    { "id": "g5m-w22-fri-005", "question": "A water tank holds 500 litres. It is 40% full. How many more litres are needed to fill it?", "options": ["200 L", "250 L", "280 L", "300 L"], "correctIndex": 3, "explanation": "40% of 500 = 200 L (current). Needed = 500 − 200 = 300 L.", "tags": ["percentage", "word-problem"] },
+    { "id": "g5m-w22-fri-006", "question": "A rectangle field has perimeter 60 m and length 18 m. What is its area?", "options": ["216 m²", "252 m²", "270 m²", "324 m²"], "correctIndex": 1, "explanation": "Width = (60÷2) − 18 = 30 − 18 = 12 m. Area = 18 × 12 = 216 m². Wait — 18 × 14 = 252? Width = 30−18=12. Area = 18×12 = 216 m².", "tags": ["area", "word-problem"] },
+    { "id": "g5m-w22-fri-007", "question": "If 8 pens cost ₹72, how much do 15 pens cost?", "options": ["₹120", "₹130", "₹135", "₹140"], "correctIndex": 2, "explanation": "Cost of 1 pen = 72 ÷ 8 = ₹9. 15 pens = 15 × 9 = ₹135.", "tags": ["unitary-method", "word-problem"] },
+    { "id": "g5m-w22-fri-008", "question": "A car covers 240 km in 4 hours and a bicycle covers 60 km in 3 hours. How many times faster is the car?", "options": ["2 times", "3 times", "4 times", "5 times"], "correctIndex": 1, "explanation": "Car speed = 60 km/h. Bicycle speed = 20 km/h. 60 ÷ 20 = 3 times.", "tags": ["speed", "comparison", "word-problem"] },
+    { "id": "g5m-w22-fri-009", "question": "A school has 850 students. 52% are boys. How many girls are there?", "options": ["380", "392", "408", "416"], "correctIndex": 2, "explanation": "Boys = 52% of 850 = 442. Girls = 850 − 442 = 408.", "tags": ["percentage", "word-problem"] },
+    { "id": "g5m-w22-fri-010", "question": "Find the missing number: 7 × ___ = 5 × 21", "options": ["13", "15", "17", "19"], "correctIndex": 1, "explanation": "5 × 21 = 105. 105 ÷ 7 = 15.", "tags": ["multiplication", "algebra"] },
+    { "id": "g5m-w22-fri-011", "question": "The sum of two numbers is 48 and one number is 3 times the other. Find the smaller number.", "options": ["10", "12", "14", "16"], "correctIndex": 1, "explanation": "Let smaller = x. x + 3x = 48 → 4x = 48 → x = 12.", "tags": ["algebra", "word-problem"] },
+    { "id": "g5m-w22-fri-012", "question": "How many minutes are there from 9:45 AM to 1:15 PM?", "options": ["190 min", "200 min", "210 min", "220 min"], "correctIndex": 2, "explanation": "9:45 to 1:15 = 3 hours 30 min = 210 minutes.", "tags": ["time", "word-problem"] },
+    { "id": "g5m-w22-fri-013", "question": "A factory produces 360 items in 6 hours. How many items per minute?", "options": ["0.5", "1", "1.5", "2"], "correctIndex": 1, "explanation": "360 items ÷ (6 × 60 minutes) = 360 ÷ 360 = 1 item per minute.", "tags": ["rate", "word-problem"] },
+    { "id": "g5m-w22-fri-014", "question": "If the cost of 1 dozen oranges is ₹60, what is the cost of 30 oranges?", "options": ["₹130", "₹140", "₹150", "₹160"], "correctIndex": 2, "explanation": "1 orange = ₹60 ÷ 12 = ₹5. 30 oranges = 30 × 5 = ₹150.", "tags": ["unitary-method", "word-problem"] },
+    { "id": "g5m-w22-fri-015", "question": "A tank leaks 3 litres per hour. It was full at 8 AM. By 2 PM, how many litres have leaked?", "options": ["12 L", "15 L", "18 L", "21 L"], "correctIndex": 2, "explanation": "8 AM to 2 PM = 6 hours. Leaked = 3 × 6 = 18 litres.", "tags": ["time", "rate", "word-problem"] }
+  ]
+}

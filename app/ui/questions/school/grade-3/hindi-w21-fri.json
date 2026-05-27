@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-hindi-w21-fri",
+  "title": "Grade 3 Hindi — Fri, May 22",
+  "description": "प्रकृति और पर्यावरण (Nature & Environment) — Last Week Day 5",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "fri",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["hindi", "grade-3", "weekly", "nature"],
+  "questions": [
+    { "id": "g3h-w21-fri-001", "question": "'पेड़' हमें क्या देते हैं?", "options": ["पत्थर", "ऑक्सीजन, फल, और छाया", "केवल पत्ते", "केवल लकड़ी"], "correctIndex": 1, "explanation": "पेड़ हमें ऑक्सीजन, फल, छाया, और लकड़ी देते हैं। पेड़ पर्यावरण के मित्र हैं।", "tags": ["nature"] },
+    { "id": "g3h-w21-fri-002", "question": "'नदी' का अंग्रेज़ी नाम है:", "options": ["Lake", "Ocean", "River", "Pond"], "correctIndex": 2, "explanation": "'नदी' = River।", "tags": ["nature", "vocabulary"] },
+    { "id": "g3h-w21-fri-003", "question": "पर्यावरण को बचाने के लिए हमें क्या करना चाहिए?", "options": ["अधिक कूड़ा फेंकना", "पेड़ काटना", "पेड़ लगाना और पानी बचाना", "बिजली बर्बाद करना"], "correctIndex": 2, "explanation": "पर्यावरण बचाने के लिए पेड़ लगाएँ, पानी बचाएँ, और कूड़ा सही जगह डालें।", "tags": ["environment"] },
+    { "id": "g3h-w21-fri-004", "question": "'पहाड़' को अंग्रेज़ी में कहते हैं:", "options": ["Valley", "Mountain", "Desert", "Forest"], "correctIndex": 1, "explanation": "'पहाड़' = Mountain।", "tags": ["nature", "vocabulary"] },
+    { "id": "g3h-w21-fri-005", "question": "वर्षा ऋतु में क्या होता है?", "options": ["बर्फ पड़ती है", "गर्मी बढ़ती है", "बारिश होती है", "पत्ते झड़ते हैं"], "correctIndex": 2, "explanation": "वर्षा ऋतु (monsoon season) में बारिश होती है। भारत में यह जून–सितंबर तक होती है।", "tags": ["nature", "seasons"] },
+    { "id": "g3h-w21-fri-006", "question": "'समुद्र' का अंग्रेज़ी नाम है:", "options": ["River", "Lake", "Ocean/Sea", "Pond"], "correctIndex": 2, "explanation": "'समुद्र' = Ocean / Sea।", "tags": ["nature", "vocabulary"] },
+    { "id": "g3h-w21-fri-007", "question": "कौन सी ऋतु (season) में ठंड होती है?", "options": ["ग्रीष्म ऋतु", "वर्षा ऋतु", "शीत ऋतु", "बसंत ऋतु"], "correctIndex": 2, "explanation": "'शीत ऋतु' (winter season) में ठंड होती है।", "tags": ["nature", "seasons"] },
+    { "id": "g3h-w21-fri-008", "question": "'जंगल' को अंग्रेज़ी में कहते हैं:", "options": ["Garden", "Park", "Forest", "Farm"], "correctIndex": 2, "explanation": "'जंगल' = Forest।", "tags": ["nature", "vocabulary"] },
+    { "id": "g3h-w21-fri-009", "question": "भारत में 'राष्ट्रीय फूल' (National Flower) है:", "options": ["गुलाब", "कमल", "सूरजमुखी", "चमेली"], "correctIndex": 1, "explanation": "भारत का राष्ट्रीय फूल 'कमल' (Lotus) है।", "tags": ["nature", "general-knowledge"] },
+    { "id": "g3h-w21-fri-010", "question": "'सूरज' को अंग्रेज़ी में कहते हैं:", "options": ["Moon", "Star", "Sun", "Sky"], "correctIndex": 2, "explanation": "'सूरज' = Sun।", "tags": ["nature", "vocabulary"] },
+    { "id": "g3h-w21-fri-011", "question": "प्रदूषण किससे होता है?", "options": ["पेड़ लगाने से", "नदी में कूड़ा फेंकने और धुआँ फैलाने से", "साफ पानी पीने से", "पैदल चलने से"], "correctIndex": 1, "explanation": "नदियों में कूड़ा फेंकने और वाहनों/कारखानों से धुआँ निकलने से प्रदूषण (pollution) होता है।", "tags": ["environment"] },
+    { "id": "g3h-w21-fri-012", "question": "भारत का 'राष्ट्रीय पक्षी' (National Bird) है:", "options": ["कोयल", "तोता", "मोर", "बाज़"], "correctIndex": 2, "explanation": "भारत का राष्ट्रीय पक्षी 'मोर' (Peacock) है।", "tags": ["nature", "general-knowledge"] },
+    { "id": "g3h-w21-fri-013", "question": "कौन सी ऋतु में फूल खिलते हैं और पेड़ हरे-भरे होते हैं?", "options": ["शीत ऋतु", "ग्रीष्म ऋतु", "बसंत ऋतु", "वर्षा ऋतु"], "correctIndex": 2, "explanation": "'बसंत ऋतु' (spring) में फूल खिलते हैं, चारों ओर हरियाली होती है।", "tags": ["nature", "seasons"] },
+    { "id": "g3h-w21-fri-014", "question": "'बादल' को अंग्रेज़ी में कहते हैं:", "options": ["Rain", "Wind", "Cloud", "Sky"], "correctIndex": 2, "explanation": "'बादल' = Cloud।", "tags": ["nature", "vocabulary"] },
+    { "id": "g3h-w21-fri-015", "question": "हमें पेड़ क्यों लगाने चाहिए?", "options": ["सिर्फ सुंदरता के लिए", "ऑक्सीजन देते हैं, प्रदूषण कम करते हैं, और जीवों को घर देते हैं", "केवल फल के लिए", "केवल छाया के लिए"], "correctIndex": 1, "explanation": "पेड़ ऑक्सीजन देते हैं, कार्बन डाइऑक्साइड सोखते हैं, प्रदूषण कम करते हैं, और पक्षियों को घर देते हैं।", "tags": ["environment"] }
+  ]
+}

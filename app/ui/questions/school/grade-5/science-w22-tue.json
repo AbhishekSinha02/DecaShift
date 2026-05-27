@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w22-tue",
+  "title": "Grade 5 Science — Tue, May 26",
+  "description": "Sound & Vibration — Day 2 of 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "tue",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "sound"],
+  "questions": [
+    { "id": "g5s-w22-tue-001", "question": "Sound is produced by:", "options": ["Heat", "Vibration", "Light", "Gravity"], "correctIndex": 1, "explanation": "Sound is produced when an object vibrates — the vibrations travel through a medium as sound waves.", "tags": ["sound"] },
+    { "id": "g5s-w22-tue-002", "question": "Sound travels fastest through:", "options": ["Vacuum", "Air", "Water", "Steel"], "correctIndex": 3, "explanation": "Sound travels fastest through solids (like steel) because particles are closely packed.", "tags": ["sound", "medium"] },
+    { "id": "g5s-w22-tue-003", "question": "What is the unit of loudness of sound?", "options": ["Hertz", "Decibel", "Newton", "Pascal"], "correctIndex": 1, "explanation": "Sound loudness is measured in decibels (dB).", "tags": ["sound", "units"] },
+    { "id": "g5s-w22-tue-004", "question": "Can sound travel in vacuum?", "options": ["Yes, easily", "Yes, but slowly", "No, sound needs a medium", "Only if very loud"], "correctIndex": 2, "explanation": "Sound needs a medium (solid, liquid, or gas) to travel. It cannot travel through vacuum.", "tags": ["sound"] },
+    { "id": "g5s-w22-tue-005", "question": "What is pitch of sound?", "options": ["Loudness of sound", "Speed of sound", "Highness or lowness of sound", "Echo of sound"], "correctIndex": 2, "explanation": "Pitch refers to how high or low a sound is, related to the frequency of vibration.", "tags": ["sound", "pitch"] },
+    { "id": "g5s-w22-tue-006", "question": "A high-pitched sound has:", "options": ["Low frequency", "High frequency", "Low amplitude", "High wavelength"], "correctIndex": 1, "explanation": "High-pitched sounds vibrate at high frequencies (many vibrations per second).", "tags": ["sound", "frequency"] },
+    { "id": "g5s-w22-tue-007", "question": "What is an echo?", "options": ["Original sound", "Reflection of sound", "Absorption of sound", "Amplification of sound"], "correctIndex": 1, "explanation": "An echo is a reflection of sound that reaches the listener after bouncing off a surface.", "tags": ["sound", "echo"] },
+    { "id": "g5s-w22-tue-008", "question": "What frequency range can humans hear?", "options": ["0–100 Hz", "20–20,000 Hz", "100–5,000 Hz", "50,000–100,000 Hz"], "correctIndex": 1, "explanation": "Humans can hear sounds in the range 20 Hz to 20,000 Hz.", "tags": ["sound", "hearing"] },
+    { "id": "g5s-w22-tue-009", "question": "Sounds above 20,000 Hz are called:", "options": ["Infrasound", "Ultrasound", "Supersound", "Megasound"], "correctIndex": 1, "explanation": "Sounds above 20,000 Hz are called ultrasound. Bats use ultrasound for navigation.", "tags": ["sound", "ultrasound"] },
+    { "id": "g5s-w22-tue-010", "question": "Why do we hear our voice differently when recorded?", "options": ["Recording changes the frequency", "We normally hear our voice through bones + air, recording is air only", "Microphones add extra sounds", "Our voice changes when we speak aloud"], "correctIndex": 1, "explanation": "We hear our voice through both bone conduction and air. Recordings only capture the air-conducted sound.", "tags": ["sound"] },
+    { "id": "g5s-w22-tue-011", "question": "A guitar string vibrates 440 times per second. Its frequency is:", "options": ["440 Hz", "440 dB", "440 m/s", "440 kHz"], "correctIndex": 0, "explanation": "Frequency is measured in Hertz (Hz). 440 vibrations per second = 440 Hz.", "tags": ["sound", "frequency"] },
+    { "id": "g5s-w22-tue-012", "question": "Which material absorbs sound best?", "options": ["Marble floor", "Glass window", "Foam padding", "Concrete wall"], "correctIndex": 2, "explanation": "Soft materials like foam absorb sound. Hard surfaces reflect it (causing echoes).", "tags": ["sound", "absorption"] },
+    { "id": "g5s-w22-tue-013", "question": "Loud sounds above 85 dB can cause:", "options": ["Better hearing", "Hearing damage", "Faster communication", "Better concentration"], "correctIndex": 1, "explanation": "Prolonged exposure to sounds above 85 dB can cause permanent hearing damage.", "tags": ["sound", "health"] },
+    { "id": "g5s-w22-tue-014", "question": "A stethoscope allows doctors to:", "options": ["See inside the body", "Amplify sounds from the heart/lungs", "Measure temperature", "Check eyesight"], "correctIndex": 1, "explanation": "A stethoscope conducts and amplifies body sounds (heartbeat, breathing) to the doctor's ears.", "tags": ["sound", "instruments"] },
+    { "id": "g5s-w22-tue-015", "question": "Thunder is heard after lightning because:", "options": ["Light is faster than sound", "Sound is faster than light", "Thunder takes time to form", "Light blocks sound"], "correctIndex": 0, "explanation": "Light travels at 3×10⁸ m/s while sound travels at ~340 m/s in air. Light reaches us almost instantly; sound takes time.", "tags": ["sound", "light"] }
+  ]
+}

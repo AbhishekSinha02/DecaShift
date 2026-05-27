@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w22-wed",
+  "title": "Grade 3 Maths — Wed, May 27",
+  "description": "Division Basics — Day 3 of 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "wed",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["maths", "grade-3", "weekly", "division"],
+  "questions": [
+    { "id": "g3m-w22-wed-001", "question": "What is 12 ÷ 3?", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "12 ÷ 3 = 4. Division splits into equal groups: 12 shared equally among 3 = 4 each.", "tags": ["division"] },
+    { "id": "g3m-w22-wed-002", "question": "What is 20 ÷ 4?", "options": ["4", "5", "6", "8"], "correctIndex": 1, "explanation": "20 ÷ 4 = 5. Think: 4 × ? = 20 → 4 × 5 = 20.", "tags": ["division"] },
+    { "id": "g3m-w22-wed-003", "question": "What is 30 ÷ 5?", "options": ["5", "6", "7", "8"], "correctIndex": 1, "explanation": "30 ÷ 5 = 6. The 5 times table: 5 × 6 = 30.", "tags": ["division"] },
+    { "id": "g3m-w22-wed-004", "question": "18 sweets shared equally among 3 children. How many each?", "options": ["5", "6", "7", "9"], "correctIndex": 1, "explanation": "18 ÷ 3 = 6. Each child gets 6 sweets.", "tags": ["division", "word-problems"] },
+    { "id": "g3m-w22-wed-005", "question": "What is 24 ÷ 6?", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "24 ÷ 6 = 4. Think: 6 × 4 = 24.", "tags": ["division"] },
+    { "id": "g3m-w22-wed-006", "question": "Division is the opposite of:", "options": ["Addition", "Subtraction", "Multiplication", "Fractions"], "correctIndex": 2, "explanation": "Division is the inverse of multiplication. If 3 × 5 = 15, then 15 ÷ 3 = 5 and 15 ÷ 5 = 3.", "tags": ["division"] },
+    { "id": "g3m-w22-wed-007", "question": "What is 32 ÷ 8?", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "32 ÷ 8 = 4. Think: 8 × 4 = 32.", "tags": ["division"] },
+    { "id": "g3m-w22-wed-008", "question": "36 pencils are put in boxes of 9. How many boxes are needed?", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "36 ÷ 9 = 4. Four boxes are needed.", "tags": ["division", "word-problems"] },
+    { "id": "g3m-w22-wed-009", "question": "What is 15 ÷ 3?", "options": ["4", "5", "6", "7"], "correctIndex": 1, "explanation": "15 ÷ 3 = 5. Think: 3 × 5 = 15.", "tags": ["division"] },
+    { "id": "g3m-w22-wed-010", "question": "What is 42 ÷ 7?", "options": ["5", "6", "7", "8"], "correctIndex": 1, "explanation": "42 ÷ 7 = 6. Think: 7 × 6 = 42.", "tags": ["division"] },
+    { "id": "g3m-w22-wed-011", "question": "Which fact BELONGS to the same fact family as 4 × 6 = 24?", "options": ["24 ÷ 5 = ?", "24 ÷ 6 = 4", "24 ÷ 3 = 8", "4 + 6 = 10"], "correctIndex": 1, "explanation": "24 ÷ 6 = 4 is in the same fact family as 4 × 6 = 24 and 6 × 4 = 24.", "tags": ["division", "fact-families"] },
+    { "id": "g3m-w22-wed-012", "question": "What is 0 ÷ 5?", "options": ["5", "1", "0", "Cannot be done"], "correctIndex": 2, "explanation": "0 ÷ 5 = 0. Zero divided by any number (except 0) is always 0.", "tags": ["division"] },
+    { "id": "g3m-w22-wed-013", "question": "What is 45 ÷ 9?", "options": ["4", "5", "6", "7"], "correctIndex": 1, "explanation": "45 ÷ 9 = 5. Think: 9 × 5 = 45.", "tags": ["division"] },
+    { "id": "g3m-w22-wed-014", "question": "A farmer has 28 eggs and puts them equally into 4 baskets. How many eggs per basket?", "options": ["5", "6", "7", "8"], "correctIndex": 2, "explanation": "28 ÷ 4 = 7. Seven eggs per basket.", "tags": ["division", "word-problems"] },
+    { "id": "g3m-w22-wed-015", "question": "What is 56 ÷ 8?", "options": ["6", "7", "8", "9"], "correctIndex": 1, "explanation": "56 ÷ 8 = 7. Think: 8 × 7 = 56.", "tags": ["division"] }
+  ]
+}

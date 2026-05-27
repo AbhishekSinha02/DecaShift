@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w22-wed",
+  "title": "Grade 3 Science — Wed, May 27",
+  "description": "States of Matter — Solid, Liquid, Gas — Day 3 of 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "wed",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "matter"],
+  "questions": [
+    { "id": "g3s-w22-wed-001", "question": "What are the three states of matter?", "options": ["Hot, warm, cold", "Solid, liquid, gas", "Wood, water, air", "Heavy, light, medium"], "correctIndex": 1, "explanation": "Everything around us exists in one of three states: solid, liquid, or gas.", "tags": ["matter"] },
+    { "id": "g3s-w22-wed-002", "question": "Which state of matter has a fixed shape?", "options": ["Gas", "Liquid", "Solid", "All states"], "correctIndex": 2, "explanation": "Solids have a fixed, definite shape. They don't change shape unless force is applied. Example: stone, ice.", "tags": ["matter", "solid"] },
+    { "id": "g3s-w22-wed-003", "question": "Water is a liquid. What happens when water is heated?", "options": ["It becomes ice", "It becomes a gas (water vapour)", "It becomes heavier", "Nothing changes"], "correctIndex": 1, "explanation": "When water is heated to 100°C, it turns into water vapour (steam) — changing from liquid to gas.", "tags": ["matter", "liquid"] },
+    { "id": "g3s-w22-wed-004", "question": "Which of these is a GAS?", "options": ["Stone", "Milk", "Air", "Ice"], "correctIndex": 2, "explanation": "Air is a gas — it has no fixed shape or size and fills any container.", "tags": ["matter", "gas"] },
+    { "id": "g3s-w22-wed-005", "question": "What happens to water when it freezes?", "options": ["It becomes a gas", "It becomes a solid (ice)", "It disappears", "It becomes heavier"], "correctIndex": 1, "explanation": "Water freezes at 0°C and becomes ice (solid). Liquid to solid change is called freezing.", "tags": ["matter", "solid"] },
+    { "id": "g3s-w22-wed-006", "question": "Liquids:", "options": ["Have a fixed shape", "Take the shape of their container", "Have no volume", "Cannot be poured"], "correctIndex": 1, "explanation": "Liquids take the shape of whatever container they're in, but their volume stays the same.", "tags": ["matter", "liquid"] },
+    { "id": "g3s-w22-wed-007", "question": "What do we call the change from liquid to solid?", "options": ["Melting", "Evaporation", "Freezing", "Condensation"], "correctIndex": 2, "explanation": "Freezing is when a liquid changes to a solid by losing heat. Water freezes to form ice.", "tags": ["matter"] },
+    { "id": "g3s-w22-wed-008", "question": "What do we call the change from solid to liquid?", "options": ["Evaporation", "Melting", "Freezing", "Boiling"], "correctIndex": 1, "explanation": "Melting is when a solid absorbs heat and changes to a liquid. Ice melts to become water.", "tags": ["matter"] },
+    { "id": "g3s-w22-wed-009", "question": "Can gases be compressed (squeezed into a smaller space)?", "options": ["No, never", "Yes, gases can be compressed", "Only liquids can be compressed", "Only solids can be compressed"], "correctIndex": 1, "explanation": "Gases can be compressed — the particles are far apart. This is why we can pump air into tyres.", "tags": ["matter", "gas"] },
+    { "id": "g3s-w22-wed-010", "question": "Which of these is a SOLID?", "options": ["Juice", "Steam", "Wood", "Oxygen"], "correctIndex": 2, "explanation": "Wood is a solid — it has a fixed shape and size.", "tags": ["matter", "solid"] },
+    { "id": "g3s-w22-wed-011", "question": "Ice cream left outside on a hot day will:", "options": ["Stay solid", "Melt into a liquid", "Evaporate", "Freeze harder"], "correctIndex": 1, "explanation": "Heat causes ice cream (solid) to melt and become a liquid — this is a change of state (solid → liquid).", "tags": ["matter"] },
+    { "id": "g3s-w22-wed-012", "question": "What is evaporation?", "options": ["Liquid changing to solid", "Solid changing to gas", "Liquid changing to gas (slowly, at the surface)", "Gas changing to liquid"], "correctIndex": 2, "explanation": "Evaporation is when a liquid slowly changes to gas at its surface. Puddles dry up by evaporation.", "tags": ["matter"] },
+    { "id": "g3s-w22-wed-013", "question": "Which property is TRUE of all gases?", "options": ["They have a fixed shape", "They are always invisible", "They fill the entire space of their container", "They cannot move"], "correctIndex": 2, "explanation": "Gases have no fixed shape or volume — they spread out to fill any container completely.", "tags": ["matter", "gas"] },
+    { "id": "g3s-w22-wed-014", "question": "What is condensation?", "options": ["Gas turning to solid", "Gas turning to liquid", "Liquid turning to gas", "Solid turning to liquid"], "correctIndex": 1, "explanation": "Condensation is when gas (water vapour) cools and becomes liquid. Water droplets on a cold glass are condensation.", "tags": ["matter"] },
+    { "id": "g3s-w22-wed-015", "question": "Which state of matter do particles move MOST in?", "options": ["Solid", "Liquid", "Gas", "All move the same"], "correctIndex": 2, "explanation": "Gas particles move the fastest and are furthest apart. Solid particles vibrate in place but don't move freely.", "tags": ["matter"] }
+  ]
+}

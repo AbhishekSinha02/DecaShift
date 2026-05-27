@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-french-w22-mon",
+  "title": "Grade 3 French — Mon, May 25",
+  "description": "Greetings & Classroom (Salutations et la Classe) — Day 1 of 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "mon",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["french", "grade-3", "weekly", "greetings"],
+  "questions": [
+    { "id": "g3f-w22-mon-001", "question": "How do you say 'Hello' in French?", "options": ["Au revoir", "Merci", "Bonjour", "S'il vous plaît"], "correctIndex": 2, "explanation": "'Bonjour' = Hello / Good morning.", "tags": ["greetings"] },
+    { "id": "g3f-w22-mon-002", "question": "How do you say 'Goodbye' in French?", "options": ["Bonjour", "Au revoir", "Merci", "Oui"], "correctIndex": 1, "explanation": "'Au revoir' = Goodbye.", "tags": ["greetings"] },
+    { "id": "g3f-w22-mon-003", "question": "How do you say 'Thank you' in French?", "options": ["Oui", "Non", "Merci", "Pardon"], "correctIndex": 2, "explanation": "'Merci' = Thank you.", "tags": ["greetings"] },
+    { "id": "g3f-w22-mon-004", "question": "How do you say 'Yes' and 'No' in French?", "options": ["Oui and Non", "Si and No", "Ja and Nein", "Sí and No"], "correctIndex": 0, "explanation": "'Oui' = Yes, 'Non' = No in French.", "tags": ["greetings"] },
+    { "id": "g3f-w22-mon-005", "question": "What does 'S'il vous plaît' mean?", "options": ["Thank you", "Please", "Excuse me", "You're welcome"], "correctIndex": 1, "explanation": "'S'il vous plaît' = Please (formal). Informal: 's'il te plaît'.", "tags": ["greetings"] },
+    { "id": "g3f-w22-mon-006", "question": "What is 'un stylo' in English?", "options": ["A pencil", "A book", "A pen", "A ruler"], "correctIndex": 2, "explanation": "'Un stylo' = a pen.", "tags": ["classroom"] },
+    { "id": "g3f-w22-mon-007", "question": "What is 'un livre' in English?", "options": ["A bag", "A book", "A table", "A chair"], "correctIndex": 1, "explanation": "'Un livre' = a book.", "tags": ["classroom"] },
+    { "id": "g3f-w22-mon-008", "question": "What is 'un crayon' in English?", "options": ["A pen", "A ruler", "An eraser", "A pencil"], "correctIndex": 3, "explanation": "'Un crayon' = a pencil.", "tags": ["classroom"] },
+    { "id": "g3f-w22-mon-009", "question": "What is 'un tableau' in a classroom?", "options": ["A desk", "A blackboard / whiteboard", "A window", "A door"], "correctIndex": 1, "explanation": "'Un tableau' = a board (blackboard or whiteboard) in the classroom.", "tags": ["classroom"] },
+    { "id": "g3f-w22-mon-010", "question": "How do you say 'the teacher' (male) in French?", "options": ["L'élève", "La maîtresse", "Le maître / le professeur", "La directrice"], "correctIndex": 2, "explanation": "'Le maître' or 'le professeur' = male teacher.", "tags": ["classroom"] },
+    { "id": "g3f-w22-mon-011", "question": "What does 'la salle de classe' mean?", "options": ["The school", "The classroom", "The library", "The playground"], "correctIndex": 1, "explanation": "'La salle de classe' = the classroom.", "tags": ["classroom"] },
+    { "id": "g3h-w22-mon-012", "question": "What does 'Asseyez-vous!' mean?", "options": ["Stand up!", "Come here!", "Sit down!", "Be quiet!"], "correctIndex": 2, "explanation": "'Asseyez-vous!' = Sit down! (formal/plural). Teachers use this often.", "tags": ["classroom"] },
+    { "id": "g3f-w22-mon-013", "question": "How do you say 'I don't understand' in French?", "options": ["Je comprends", "Je ne comprends pas", "Je parle français", "Je sais"], "correctIndex": 1, "explanation": "'Je ne comprends pas' = I don't understand.", "tags": ["classroom"] },
+    { "id": "g3f-w22-mon-014", "question": "What is 'une gomme'?", "options": ["A pen", "A ruler", "An eraser", "A glue stick"], "correctIndex": 2, "explanation": "'Une gomme' = an eraser.", "tags": ["classroom"] },
+    { "id": "g3f-w22-mon-015", "question": "How do you say 'How are you?' (informal) in French?", "options": ["Comment vous appelez-vous?", "Ça va?", "Où habites-tu?", "Quel âge as-tu?"], "correctIndex": 1, "explanation": "'Ça va?' = How are you? (informal). Answer: 'Ça va bien!' (Fine!).", "tags": ["greetings"] }
+  ]
+}

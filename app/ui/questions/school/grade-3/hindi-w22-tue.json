@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-hindi-w22-tue",
+  "title": "Grade 3 Hindi — Tue, May 26",
+  "description": "संज्ञा और वचन (Nouns & Number) — Day 2 of 5",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "tue",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["hindi", "grade-3", "weekly", "grammar"],
+  "questions": [
+    { "id": "g3h-w22-tue-001", "question": "संज्ञा क्या है?", "options": ["काम का नाम", "व्यक्ति, वस्तु, स्थान का नाम", "गुण का नाम", "क्रिया का नाम"], "correctIndex": 1, "explanation": "संज्ञा किसी व्यक्ति, वस्तु, स्थान, या भाव के नाम को कहते हैं।", "tags": ["nouns"] },
+    { "id": "g3h-w22-tue-002", "question": "निम्नलिखित में से संज्ञा कौन सी है?", "options": ["सुंदर", "दौड़ना", "किताब", "वह"], "correctIndex": 2, "explanation": "'किताब' एक संज्ञा है — यह एक वस्तु का नाम है।", "tags": ["nouns"] },
+    { "id": "g3h-w22-tue-003", "question": "'लड़की' का बहुवचन (plural) क्या है?", "options": ["लड़का", "लड़कियाँ", "लड़कियों", "लड़केयाँ"], "correctIndex": 1, "explanation": "'लड़की' का बहुवचन 'लड़कियाँ' है।", "tags": ["vachan"] },
+    { "id": "g3h-w22-tue-004", "question": "एकवचन (singular) शब्द कौन सा है?", "options": ["बच्चे", "पेड़", "पक्षी (पक्षी = plural also)", "फूल (can be singular)"], "correctIndex": 3, "explanation": "'फूल' एकवचन है। 'बच्चे' और 'पेड़' में बहुवचन का बोध हो सकता है।", "tags": ["vachan"] },
+    { "id": "g3h-w22-tue-005", "question": "'पुस्तक' का बहुवचन है:", "options": ["पुस्तकें", "पुस्तकों", "पुस्तकाएँ", "पुस्तकेयाँ"], "correctIndex": 0, "explanation": "'पुस्तक' का बहुवचन 'पुस्तकें' है।", "tags": ["vachan"] },
+    { "id": "g3h-w22-tue-006", "question": "'गाय' का बहुवचन है:", "options": ["गायें", "गाया", "गायें", "गाविन"], "correctIndex": 0, "explanation": "'गाय' का बहुवचन 'गायें' है।", "tags": ["vachan"] },
+    { "id": "g3h-w22-tue-007", "question": "वाक्य में संज्ञा पहचानिए: 'राम खेलता है।'", "options": ["खेलता", "है", "राम", "खेलता है"], "correctIndex": 2, "explanation": "'राम' एक व्यक्तिवाचक संज्ञा (proper noun) है।", "tags": ["nouns"] },
+    { "id": "g3h-w22-tue-008", "question": "'बच्चा' का बहुवचन है:", "options": ["बच्चे", "बच्चों", "बच्चेयाँ", "बच्चाएँ"], "correctIndex": 0, "explanation": "'बच्चा' का बहुवचन 'बच्चे' है।", "tags": ["vachan"] },
+    { "id": "g3h-w22-tue-009", "question": "निम्नलिखित में से कौन सा शब्द व्यक्तिवाचक संज्ञा है?", "options": ["शहर", "लड़का", "गंगा", "पहाड़"], "correctIndex": 2, "explanation": "'गंगा' व्यक्तिवाचक संज्ञा है — यह एक विशेष नदी का नाम है।", "tags": ["nouns"] },
+    { "id": "g3h-w22-tue-010", "question": "'कुत्ता' का बहुवचन है:", "options": ["कुत्ते", "कुत्तियाँ", "कुत्तों", "कुत्तेयाँ"], "correctIndex": 0, "explanation": "'कुत्ता' का बहुवचन 'कुत्ते' है।", "tags": ["vachan"] },
+    { "id": "g3h-w22-tue-011", "question": "जातिवाचक संज्ञा का उदाहरण है:", "options": ["राम", "दिल्ली", "गंगा", "फूल"], "correctIndex": 3, "explanation": "'फूल' जातिवाचक संज्ञा है — यह सभी फूलों की जाति (class) का नाम है।", "tags": ["nouns"] },
+    { "id": "g3h-w22-tue-012", "question": "'माला' का बहुवचन है:", "options": ["मालाएँ", "मालें", "मालियाँ", "माला"], "correctIndex": 0, "explanation": "'माला' का बहुवचन 'मालाएँ' है।", "tags": ["vachan"] },
+    { "id": "g3h-w22-tue-013", "question": "कौन सा शब्द एकवचन और बहुवचन दोनों में एक जैसा रहता है?", "options": ["किताब", "फल", "लड़की", "गाय"], "correctIndex": 1, "explanation": "'फल' एकवचन और बहुवचन में समान रहता है — एक फल, दो फल।", "tags": ["vachan"] },
+    { "id": "g3h-w22-tue-014", "question": "भाववाचक संज्ञा का उदाहरण है:", "options": ["पेड़", "बच्चा", "खुशी", "शहर"], "correctIndex": 2, "explanation": "'खुशी' भाववाचक संज्ञा है — यह एक भाव (feeling) का नाम है।", "tags": ["nouns"] },
+    { "id": "g3h-w22-tue-015", "question": "'मेज़' का बहुवचन है:", "options": ["मेज़ें", "मेज़ियाँ", "मेजें", "मेजाएँ"], "correctIndex": 2, "explanation": "'मेज़' का बहुवचन 'मेजें' है।", "tags": ["vachan"] }
+  ]
+}

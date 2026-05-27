@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-hindi-w22-wed",
+  "title": "Grade 3 Hindi — Wed, May 27",
+  "description": "लिंग — पुल्लिंग और स्त्रीलिंग (Gender) — Day 3 of 5",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "wed",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["hindi", "grade-3", "weekly", "grammar"],
+  "questions": [
+    { "id": "g3h-w22-wed-001", "question": "'राजा' का स्त्रीलिंग (feminine) क्या है?", "options": ["राज", "रानी", "राजी", "राजकुमार"], "correctIndex": 1, "explanation": "'राजा' का स्त्रीलिंग 'रानी' है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-002", "question": "'शेर' का स्त्रीलिंग है:", "options": ["शेरनी", "शेरा", "शेरनिन", "शेरिन"], "correctIndex": 0, "explanation": "'शेर' का स्त्रीलिंग 'शेरनी' है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-003", "question": "निम्नलिखित में से पुल्लिंग (masculine) शब्द कौन सा है?", "options": ["लड़की", "गाय", "लड़का", "माँ"], "correctIndex": 2, "explanation": "'लड़का' पुल्लिंग शब्द है। लड़की, गाय, माँ स्त्रीलिंग हैं।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-004", "question": "'माँ' का पुल्लिंग (masculine) क्या है?", "options": ["बाप", "पिता", "नाना", "भाई"], "correctIndex": 1, "explanation": "'माँ' का पुल्लिंग 'पिता' है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-005", "question": "'बेटा' का स्त्रीलिंग है:", "options": ["बेटे", "बेटी", "बेटिन", "बेटाइन"], "correctIndex": 1, "explanation": "'बेटा' का स्त्रीलिंग 'बेटी' है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-006", "question": "'घोड़ा' का स्त्रीलिंग है:", "options": ["घोड़ी", "घोड़े", "घोड़ियाँ", "घोड़िन"], "correctIndex": 0, "explanation": "'घोड़ा' का स्त्रीलिंग 'घोड़ी' है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-007", "question": "निम्नलिखित में से स्त्रीलिंग (feminine) शब्द कौन सा है?", "options": ["पेड़", "पत्ता", "पत्ती", "पहाड़"], "correctIndex": 2, "explanation": "'पत्ती' स्त्रीलिंग शब्द है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-008", "question": "'कवि' का स्त्रीलिंग है:", "options": ["कविता", "कवियत्री", "कवित्री", "कवयित्री"], "correctIndex": 3, "explanation": "'कवि' का स्त्रीलिंग 'कवयित्री' है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-009", "question": "'नेता' का स्त्रीलिंग है:", "options": ["नेती", "नेतायिन", "नेत्री", "नेतानी"], "correctIndex": 2, "explanation": "'नेता' का स्त्रीलिंग 'नेत्री' है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-010", "question": "'भाई' का स्त्रीलिंग है:", "options": ["भाभी", "बहन", "भैया", "भाईन"], "correctIndex": 1, "explanation": "'भाई' का स्त्रीलिंग 'बहन' है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-011", "question": "वाक्य में सही लिंग पहचानिए: 'सोनिया एक ___ लड़की है।'", "options": ["अच्छा", "अच्छी", "अच्छे", "अच्छें"], "correctIndex": 1, "explanation": "'लड़की' स्त्रीलिंग है, इसलिए 'अच्छी' का प्रयोग होगा।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-012", "question": "'मोर' का स्त्रीलिंग है:", "options": ["मोरी", "मोरनी", "मोरिन", "मोरियाँ"], "correctIndex": 1, "explanation": "'मोर' (peacock) का स्त्रीलिंग 'मोरनी' (peahen) है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-013", "question": "'बाघ' का स्त्रीलिंग है:", "options": ["बाघिन", "बाघनी", "बाघी", "बाघिया"], "correctIndex": 0, "explanation": "'बाघ' (tiger) का स्त्रीलिंग 'बाघिन' (tigress) है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-014", "question": "पुल्लिंग के साथ कौन सा शब्द प्रयोग होता है?", "options": ["'सुंदर' only", "दोनों में 'सुंदर' — but विशेषण बदल सकता है", "'वह लड़का सुंदर है' vs 'वह लड़की सुंदर है'", "N/A"], "correctIndex": 2, "explanation": "पुल्लिंग में 'सुंदर' और 'अच्छा', स्त्रीलिंग में 'सुंदर' और 'अच्छी' — विशेषण लिंग के अनुसार बदलता है।", "tags": ["gender"] },
+    { "id": "g3h-w22-wed-015", "question": "'दादा' का स्त्रीलिंग है:", "options": ["दादी", "नानी", "चाची", "मामी"], "correctIndex": 0, "explanation": "'दादा' (paternal grandfather) का स्त्रीलिंग 'दादी' (paternal grandmother) है।", "tags": ["gender"] }
+  ]
+}

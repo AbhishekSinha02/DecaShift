@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-french-w22-fri",
+  "title": "Grade 3 French — Fri, May 29",
+  "description": "Family Members (La Famille) — Day 5 of 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "fri",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["french", "grade-3", "weekly", "family"],
+  "questions": [
+    { "id": "g3f-w22-fri-001", "question": "What is 'la mère' in English?", "options": ["Father", "Sister", "Mother", "Brother"], "correctIndex": 2, "explanation": "'La mère' = the mother.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-002", "question": "What is 'le père' in English?", "options": ["Father", "Brother", "Uncle", "Grandfather"], "correctIndex": 0, "explanation": "'Le père' = the father.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-003", "question": "How do you say 'brother' in French?", "options": ["Sœur", "Frère", "Père", "Oncle"], "correctIndex": 1, "explanation": "'Le frère' = brother. 'La sœur' = sister.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-004", "question": "What is 'la sœur' in English?", "options": ["Mother", "Sister", "Aunt", "Grandmother"], "correctIndex": 1, "explanation": "'La sœur' = sister.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-005", "question": "How do you say 'grandfather' in French?", "options": ["Grand-mère", "Grand-père", "Oncle", "Cousin"], "correctIndex": 1, "explanation": "'Le grand-père' = grandfather. 'La grand-mère' = grandmother.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-006", "question": "What is 'la grand-mère' in English?", "options": ["Mother", "Aunt", "Grandmother", "Sister"], "correctIndex": 2, "explanation": "'La grand-mère' = grandmother.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-007", "question": "How do you say 'I have a sister' in French?", "options": ["J'ai un frère", "J'ai une sœur", "J'ai une mère", "J'ai un père"], "correctIndex": 1, "explanation": "'J'ai une sœur' = I have a sister. 'Sœur' is feminine = 'une'.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-008", "question": "What is 'l'oncle' in English?", "options": ["Brother", "Cousin", "Uncle", "Grandfather"], "correctIndex": 2, "explanation": "'L'oncle' = uncle. 'La tante' = aunt.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-009", "question": "How do you say 'My family' in French?", "options": ["Mon famille", "Ma famille", "Les famille", "Ma familles"], "correctIndex": 1, "explanation": "'Ma famille' = My family. 'Famille' is feminine, so 'ma' (not 'mon').", "tags": ["family"] },
+    { "id": "g3f-w22-fri-010", "question": "What is 'le cousin' in English?", "options": ["Brother", "Uncle", "Male cousin", "Friend"], "correctIndex": 2, "explanation": "'Le cousin' = male cousin. 'La cousine' = female cousin.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-011", "question": "How do you say 'I have two brothers' in French?", "options": ["J'ai deux sœurs", "J'ai deux cousins", "J'ai deux frères", "J'ai deux pères"], "correctIndex": 2, "explanation": "'J'ai deux frères' = I have two brothers.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-012", "question": "What does 'les parents' mean?", "options": ["The children", "The parents", "The grandparents", "The cousins"], "correctIndex": 1, "explanation": "'Les parents' = the parents.", "tags": ["family"] },
+    { "id": "g3f-w22-fri-013", "question": "How do you say 'My mother is kind' in French?", "options": ["Mon père est gentil", "Ma mère est gentille", "Ma mère est gentil", "Mon mère est gentille"], "correctIndex": 1, "explanation": "'Ma mère est gentille' = My mother is kind. 'Mère' is feminine → 'ma' and 'gentille' (feminine form).", "tags": ["family"] },
+    { "id": "g3f-w22-fri-014", "question": "What is 'un bébé' in English?", "options": ["A child", "A baby", "A boy", "A girl"], "correctIndex": 1, "explanation": "'Un bébé' = a baby.", "tags": ["family", "vocabulary"] },
+    { "id": "g3f-w22-fri-015", "question": "How do you say 'big family' in French?", "options": ["Grande famille", "Grand famille", "Famille grande", "Families grandes"], "correctIndex": 0, "explanation": "'Grande famille' = big family. 'Grand' is a BAGS adjective — it comes BEFORE the noun and becomes 'grande' (feminine).", "tags": ["family", "adjectives"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-hindi-w21-mon",
+  "title": "Grade 3 Hindi — Mon, May 18",
+  "description": "शब्द भंडार — फल, सब्ज़ियाँ (Vocabulary — Fruits & Vegetables) — Last Week Day 1",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "mon",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["hindi", "grade-3", "weekly", "vocabulary"],
+  "questions": [
+    { "id": "g3h-w21-mon-001", "question": "'आम' को अंग्रेज़ी में क्या कहते हैं?", "options": ["Apple", "Mango", "Banana", "Orange"], "correctIndex": 1, "explanation": "'आम' = Mango। आम को फलों का राजा कहा जाता है।", "tags": ["vocabulary", "fruits"] },
+    { "id": "g3h-w21-mon-002", "question": "'Banana' को हिंदी में क्या कहते हैं?", "options": ["आम", "अंगूर", "केला", "सेब"], "correctIndex": 2, "explanation": "'Banana' = केला। केला पोटेशियम से भरपूर फल है।", "tags": ["vocabulary", "fruits"] },
+    { "id": "g3h-w21-mon-003", "question": "निम्नलिखित में से सब्ज़ी कौन सी है?", "options": ["आम", "केला", "टमाटर", "सेब"], "correctIndex": 2, "explanation": "'टमाटर' (tomato) एक सब्ज़ी है। आम, केला, सेब फल हैं।", "tags": ["vocabulary", "vegetables"] },
+    { "id": "g3h-w21-mon-004", "question": "'गाजर' को अंग्रेज़ी में क्या कहते हैं?", "options": ["Onion", "Potato", "Carrot", "Pea"], "correctIndex": 2, "explanation": "'गाजर' = Carrot। गाजर विटामिन ए से भरपूर होती है।", "tags": ["vocabulary", "vegetables"] },
+    { "id": "g3h-w21-mon-005", "question": "'अंगूर' क्या है?", "options": ["सब्ज़ी", "अनाज", "फल", "मसाला"], "correctIndex": 2, "explanation": "'अंगूर' (grapes) एक फल है। अंगूर से किशमिश बनती है।", "tags": ["vocabulary", "fruits"] },
+    { "id": "g3h-w21-mon-006", "question": "निम्नलिखित में से कौन सा फल नहीं है?", "options": ["अमरूद", "नाशपाती", "पालक", "पपीता"], "correctIndex": 2, "explanation": "'पालक' (spinach) एक सब्ज़ी है, फल नहीं।", "tags": ["vocabulary"] },
+    { "id": "g3h-w21-mon-007", "question": "'आलू' को अंग्रेज़ी में कहते हैं:", "options": ["Tomato", "Potato", "Onion", "Garlic"], "correctIndex": 1, "explanation": "'आलू' = Potato। आलू जमीन के नीचे उगता है।", "tags": ["vocabulary", "vegetables"] },
+    { "id": "g3h-w21-mon-008", "question": "किस फल में 'न' से शुरू होने वाले दो शब्द हैं?", "options": ["आम", "नारियल और नारंगी", "केला", "अनानास"], "correctIndex": 1, "explanation": "नारियल (coconut) और नारंगी (orange) — दोनों 'न' से शुरू होते हैं।", "tags": ["vocabulary", "fruits"] },
+    { "id": "g3h-w21-mon-009", "question": "'प्याज़' का अंग्रेज़ी नाम है:", "options": ["Garlic", "Ginger", "Onion", "Pea"], "correctIndex": 2, "explanation": "'प्याज़' = Onion। प्याज़ काटते समय आँखों में पानी आता है।", "tags": ["vocabulary", "vegetables"] },
+    { "id": "g3h-w21-mon-010", "question": "निम्नलिखित में से 'हरी सब्ज़ी' कौन सी है?", "options": ["आलू", "गाजर", "पालक", "प्याज़"], "correctIndex": 2, "explanation": "'पालक' (spinach) एक हरी सब्ज़ी है — यह लौह (iron) से भरपूर होती है।", "tags": ["vocabulary", "vegetables"] },
+    { "id": "g3h-w21-mon-011", "question": "'Watermelon' को हिंदी में क्या कहते हैं?", "options": ["खरबूज़", "तरबूज़", "खीरा", "लौकी"], "correctIndex": 1, "explanation": "'Watermelon' = तरबूज़। तरबूज़ गर्मियों में बहुत ताज़ा फल है।", "tags": ["vocabulary", "fruits"] },
+    { "id": "g3h-w21-mon-012", "question": "निम्नलिखित में से कौन सा फल-सब्ज़ी जोड़ा सही है?", "options": ["सेब — सब्ज़ी", "आलू — फल", "केला — फल", "गाजर — फल"], "correctIndex": 2, "explanation": "'केला' एक फल है — यह सही जोड़ा है।", "tags": ["vocabulary"] },
+    { "id": "g3h-w21-mon-013", "question": "'Guava' को हिंदी में कहते हैं:", "options": ["आम", "अमरूद", "अनानास", "अंगूर"], "correctIndex": 1, "explanation": "'Guava' = अमरूद। अमरूद विटामिन सी से भरपूर फल है।", "tags": ["vocabulary", "fruits"] },
+    { "id": "g3h-w21-mon-014", "question": "कौन सी सब्ज़ी ज़मीन के नीचे उगती है?", "options": ["टमाटर", "पालक", "बैंगन", "आलू"], "correctIndex": 3, "explanation": "आलू (potato) ज़मीन के नीचे उगता है — यह एक कंद (tuber) है।", "tags": ["vocabulary", "vegetables"] },
+    { "id": "g3h-w21-mon-015", "question": "'Pineapple' को हिंदी में कहते हैं:", "options": ["पपीता", "अनानास", "अमरूद", "नाशपाती"], "correctIndex": 1, "explanation": "'Pineapple' = अनानास। अनानास एक खट्टा-मीठा उष्णकटिबंधीय फल है।", "tags": ["vocabulary", "fruits"] }
+  ]
+}

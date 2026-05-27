@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-french-w21-wed",
+  "title": "Grade 5 French — Wed, May 20",
+  "description": "Months & Seasons (Les Mois et les Saisons) — Last Week Day 3",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "wed",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["french", "grade-5", "weekly", "calendar"],
+  "questions": [
+    { "id": "g5f-w21-wed-001", "question": "How do you say 'January' in French?", "options": ["Juin", "Janvier", "Juillet", "Juin"], "correctIndex": 1, "explanation": "'Janvier' = January. French months are not capitalised: janvier, février, mars...", "tags": ["months"] },
+    { "id": "g5f-w21-wed-002", "question": "What is 'March' in French?", "options": ["Mai", "Mars", "Juin", "Avril"], "correctIndex": 1, "explanation": "'Mars' = March. Note: This is also the name of the planet Mars in French!", "tags": ["months"] },
+    { "id": "g5f-w21-wed-003", "question": "In which month is Christmas (Noël) celebrated?", "options": ["Novembre", "Octobre", "Décembre", "Janvier"], "correctIndex": 2, "explanation": "'Décembre' = December. 'Noël' (Christmas) is celebrated on December 25th — le 25 décembre.", "tags": ["months", "culture"] },
+    { "id": "g5f-w21-wed-004", "question": "What is the French word for 'spring'?", "options": ["Été", "Automne", "Hiver", "Printemps"], "correctIndex": 3, "explanation": "'Le printemps' = spring. Été = summer, Automne = autumn/fall, Hiver = winter.", "tags": ["seasons"] },
+    { "id": "g5f-w21-wed-005", "question": "Which season is 'l'hiver'?", "options": ["Spring", "Summer", "Autumn", "Winter"], "correctIndex": 3, "explanation": "'L'hiver' = winter. It is the coldest season — en hiver (in winter).", "tags": ["seasons"] },
+    { "id": "g5f-w21-wed-006", "question": "How do you say 'In summer, it is hot' in French?", "options": ["En hiver, il fait chaud", "En été, il fait froid", "En été, il fait chaud", "Au printemps, il fait chaud"], "correctIndex": 2, "explanation": "'En été, il fait chaud' = 'In summer, it is hot'. 'Il fait chaud' = it is hot (weather expression).", "tags": ["seasons", "weather"] },
+    { "id": "g5f-w21-wed-007", "question": "How do you say 'My birthday is in May' in French?", "options": ["Mon anniversaire est en mars", "Mon anniversaire est en mai", "Mon anniversaire a en mai", "Mon anniversaire suis en mai"], "correctIndex": 1, "explanation": "'Mon anniversaire est en mai' = 'My birthday is in May'. 'En' is used before months.", "tags": ["months"] },
+    { "id": "g5f-w21-wed-008", "question": "Which French month corresponds to September?", "options": ["Septembre", "Octobre", "Août", "Novembre"], "correctIndex": 0, "explanation": "'Septembre' = September. The months July–December: juillet, août, septembre, octobre, novembre, décembre.", "tags": ["months"] },
+    { "id": "g5f-w21-wed-009", "question": "What is 'l'automne'?", "options": ["Spring", "Summer", "Autumn/Fall", "Winter"], "correctIndex": 2, "explanation": "'L'automne' = autumn/fall. It is the season of falling leaves — en automne (in autumn).", "tags": ["seasons"] },
+    { "id": "g5f-w21-wed-010", "question": "In French, months are written:", "options": ["With capital letters (like in English)", "Without capital letters", "Only with capital letters at start of sentence", "Always abbreviated"], "correctIndex": 1, "explanation": "In French, months are NOT capitalised: janvier, février, mars... (unlike English: January, February, March).", "tags": ["months", "grammar"] },
+    { "id": "g5f-w21-wed-011", "question": "How do you ask 'What is the date today?' in French?", "options": ["Quelle heure est-il?", "Quelle est la date aujourd'hui?", "Quel jour est-il?", "Combien de mois?"], "correctIndex": 1, "explanation": "'Quelle est la date aujourd'hui?' = 'What is the date today?' Another form: 'On est le combien aujourd'hui?'", "tags": ["calendar"] },
+    { "id": "g5f-w21-wed-012", "question": "Which preposition is used before months in French? (e.g., 'in May')", "options": ["Au", "Dans", "En", "À"], "correctIndex": 2, "explanation": "'En' is used before months: en janvier (in January), en mai (in May), en décembre (in December).", "tags": ["months", "grammar"] },
+    { "id": "g5f-w21-wed-013", "question": "How do you say 'the 14th of July' (Bastille Day) in French?", "options": ["Le quatorze juillet", "Le quatorze de juillet", "Quatorze juillet", "Au quatorze juillet"], "correctIndex": 0, "explanation": "'Le quatorze juillet' = 14th July (Bastille Day — French National Day). Dates: le + number + month.", "tags": ["calendar", "culture"] },
+    { "id": "g5f-w21-wed-014", "question": "What weather expression means 'It is snowing'?", "options": ["Il fait chaud", "Il pleut", "Il neige", "Il fait froid"], "correctIndex": 2, "explanation": "'Il neige' = It is snowing. Il pleut = It is raining, Il fait chaud = It is hot, Il fait froid = It is cold.", "tags": ["weather", "seasons"] },
+    { "id": "g5f-w21-wed-015", "question": "Which months belong to 'l'été' (summer) in France?", "options": ["Décembre, janvier, février", "Mars, avril, mai", "Juin, juillet, août", "Septembre, octobre, novembre"], "correctIndex": 2, "explanation": "Summer (l'été) in France: juin (June), juillet (July), août (August). School summer holidays are in July–August.", "tags": ["seasons", "months"] }
+  ]
+}

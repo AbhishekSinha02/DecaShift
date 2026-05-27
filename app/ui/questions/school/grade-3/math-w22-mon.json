@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w22-mon",
+  "title": "Grade 3 Maths — Mon, May 25",
+  "description": "Multiplication Tables 2–5 — Day 1 of 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "mon",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["maths", "grade-3", "weekly", "multiplication"],
+  "questions": [
+    { "id": "g3m-w22-mon-001", "question": "What is 3 × 4?", "options": ["10", "11", "12", "13"], "correctIndex": 2, "explanation": "3 × 4 = 12. Think of it as 3 groups of 4: 4 + 4 + 4 = 12.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-002", "question": "What is 5 × 5?", "options": ["20", "25", "30", "15"], "correctIndex": 1, "explanation": "5 × 5 = 25. The 5 times table ends in 0 or 5.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-003", "question": "What is 2 × 8?", "options": ["14", "15", "16", "18"], "correctIndex": 2, "explanation": "2 × 8 = 16. The 2 times table is always even numbers: 2, 4, 6, 8, 10, 12, 14, 16.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-004", "question": "What is 4 × 7?", "options": ["24", "26", "28", "30"], "correctIndex": 2, "explanation": "4 × 7 = 28. Count by 4s: 4, 8, 12, 16, 20, 24, 28.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-005", "question": "What is 3 × 9?", "options": ["25", "27", "29", "21"], "correctIndex": 1, "explanation": "3 × 9 = 27. The 3 times table: 3, 6, 9, 12, 15, 18, 21, 24, 27.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-006", "question": "What is 5 × 8?", "options": ["35", "40", "45", "30"], "correctIndex": 1, "explanation": "5 × 8 = 40. The 5 times table: 5, 10, 15, 20, 25, 30, 35, 40.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-007", "question": "What is 2 × 9?", "options": ["16", "17", "18", "19"], "correctIndex": 2, "explanation": "2 × 9 = 18. Doubling: 9 + 9 = 18.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-008", "question": "Which number completes: 4 × ___ = 20?", "options": ["4", "5", "6", "7"], "correctIndex": 1, "explanation": "4 × 5 = 20. The 4 times table: 4, 8, 12, 16, 20.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-009", "question": "A box has 3 rows of apples with 6 apples in each row. How many apples are there?", "options": ["15", "18", "20", "24"], "correctIndex": 1, "explanation": "3 × 6 = 18 apples. Multiplication helps count equal groups quickly.", "tags": ["multiplication", "word-problems"] },
+    { "id": "g3m-w22-mon-010", "question": "What is 5 × 3?", "options": ["13", "14", "15", "16"], "correctIndex": 2, "explanation": "5 × 3 = 15. Multiplication is commutative: 5 × 3 = 3 × 5 = 15.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-011", "question": "What is 4 × 4?", "options": ["12", "14", "16", "18"], "correctIndex": 2, "explanation": "4 × 4 = 16. Square numbers: 1, 4, 9, 16, 25...", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-012", "question": "There are 2 bags with 7 marbles each. How many marbles in total?", "options": ["12", "14", "16", "9"], "correctIndex": 1, "explanation": "2 × 7 = 14. Two bags of 7 marbles each = 14 marbles.", "tags": ["multiplication", "word-problems"] },
+    { "id": "g3m-w22-mon-013", "question": "What is 3 × 7?", "options": ["18", "19", "21", "24"], "correctIndex": 2, "explanation": "3 × 7 = 21. Count by 3s: 3, 6, 9, 12, 15, 18, 21.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-014", "question": "Which is the SAME as 4 × 6?", "options": ["4 + 6", "4 + 4 + 4 + 4 + 4 + 4", "6 + 6 + 6 + 6", "Both B and C"], "correctIndex": 3, "explanation": "4 × 6 = 24. This can be shown as 4+4+4+4+4+4 (six 4s) or 6+6+6+6 (four 6s) — both equal 24.", "tags": ["multiplication"] },
+    { "id": "g3m-w22-mon-015", "question": "What is 5 × 9?", "options": ["40", "43", "44", "45"], "correctIndex": 3, "explanation": "5 × 9 = 45. The 5 times table ends in 0 or 5 — so 5 × 9 ends in 5.", "tags": ["multiplication"] }
+  ]
+}

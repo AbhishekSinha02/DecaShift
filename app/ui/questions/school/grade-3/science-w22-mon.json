@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w22-mon",
+  "title": "Grade 3 Science — Mon, May 25",
+  "description": "Plants — Parts and Functions — Day 1 of 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "mon",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "plants"],
+  "questions": [
+    { "id": "g3s-w22-mon-001", "question": "Which part of the plant soaks up water from the soil?", "options": ["Leaves", "Flower", "Roots", "Stem"], "correctIndex": 2, "explanation": "Roots absorb water and minerals from the soil and anchor the plant firmly.", "tags": ["plants"] },
+    { "id": "g3s-w22-mon-002", "question": "What do leaves make for the plant?", "options": ["Water", "Food (sugar) using sunlight", "Seeds", "Roots"], "correctIndex": 1, "explanation": "Leaves make food for the plant through photosynthesis, using sunlight, water, and carbon dioxide.", "tags": ["plants", "photosynthesis"] },
+    { "id": "g3s-w22-mon-003", "question": "What is the main job of the stem?", "options": ["Make seeds", "Absorb sunlight", "Carry water and food between roots and leaves", "Produce flowers"], "correctIndex": 2, "explanation": "The stem supports the plant and carries water (from roots) and food (from leaves) to all parts.", "tags": ["plants"] },
+    { "id": "g3s-w22-mon-004", "question": "Plants make their own food using:", "options": ["Water only", "Sunlight, water, and carbon dioxide (CO₂)", "Sunlight and soil", "Air and water only"], "correctIndex": 1, "explanation": "Plants make food (glucose) using sunlight, water from roots, and carbon dioxide from air — this process is called photosynthesis.", "tags": ["photosynthesis"] },
+    { "id": "g3s-w22-mon-005", "question": "What do we call the coloured part of a flower?", "options": ["Sepal", "Petal", "Stamen", "Pistil"], "correctIndex": 1, "explanation": "Petals are the colourful parts of a flower that attract insects for pollination.", "tags": ["plants", "flowers"] },
+    { "id": "g3s-w22-mon-006", "question": "Which gas do plants release into the air during the day?", "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"], "correctIndex": 2, "explanation": "During photosynthesis, plants release oxygen into the air — which is the oxygen we breathe!", "tags": ["photosynthesis"] },
+    { "id": "g3s-w22-mon-007", "question": "Seeds grow inside:", "options": ["Leaves", "Roots", "Stem", "Fruits"], "correctIndex": 3, "explanation": "After pollination, the flower's ovary develops into a fruit which contains seeds.", "tags": ["plants", "seeds"] },
+    { "id": "g3s-w22-mon-008", "question": "What type of plant has no seeds and reproduces through spores?", "options": ["Rose", "Fern", "Mango", "Wheat"], "correctIndex": 1, "explanation": "Ferns are non-flowering plants that reproduce through spores, not seeds.", "tags": ["plants"] },
+    { "id": "g3s-w22-mon-009", "question": "Which part of the plant makes new plants through seeds?", "options": ["Roots", "Stem", "Flower", "Leaves"], "correctIndex": 2, "explanation": "Flowers are the reproductive part of the plant. They produce seeds after pollination.", "tags": ["plants", "flowers"] },
+    { "id": "g3s-w22-mon-010", "question": "A cactus stores water in its:", "options": ["Leaves", "Roots", "Stem", "Flowers"], "correctIndex": 2, "explanation": "A cactus stores water in its thick, fleshy stem — this helps it survive in dry deserts.", "tags": ["plants", "adaptation"] },
+    { "id": "g3s-w22-mon-011", "question": "What do you call plants that lose their leaves in autumn?", "options": ["Evergreen", "Deciduous", "Coniferous", "Tropical"], "correctIndex": 1, "explanation": "Deciduous plants shed their leaves in autumn and winter. Examples: oak, maple.", "tags": ["plants"] },
+    { "id": "g3s-w22-mon-012", "question": "Why do plants need sunlight?", "options": ["To keep warm", "To make water", "To make food through photosynthesis", "To breathe"], "correctIndex": 2, "explanation": "Sunlight provides the energy plants need to make food (glucose) through photosynthesis.", "tags": ["photosynthesis"] },
+    { "id": "g3s-w22-mon-013", "question": "What is germination?", "options": ["Flower opening", "Seed sprouting and beginning to grow", "Leaf falling", "Fruit ripening"], "correctIndex": 1, "explanation": "Germination is when a seed starts to sprout and grow into a new plant, given warmth, water, and air.", "tags": ["plants", "seeds"] },
+    { "id": "g3s-w22-mon-014", "question": "Which of these is NOT a plant?", "options": ["Mushroom", "Fern", "Moss", "Pine tree"], "correctIndex": 0, "explanation": "Mushrooms are fungi, not plants. They don't have roots, leaves, or make food through photosynthesis.", "tags": ["plants"] },
+    { "id": "g3s-w22-mon-015", "question": "What are the green things inside a leaf that help make food?", "options": ["Stomata", "Chloroplasts (containing chlorophyll)", "Cells", "Xylem"], "correctIndex": 1, "explanation": "Chloroplasts contain chlorophyll — the green pigment that captures sunlight for photosynthesis.", "tags": ["plants", "photosynthesis"] }
+  ]
+}

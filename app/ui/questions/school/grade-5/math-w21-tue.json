@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w21-tue",
+  "title": "Grade 5 Math — Tue, May 19",
+  "description": "Number Patterns — Last Week Day 2",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "tue",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["math", "grade-5", "weekly", "patterns"],
+  "questions": [
+    { "id": "g5m-w21-tue-001", "question": "What is the next number: 3, 6, 12, 24, ___?", "options": ["36", "42", "48", "56"], "correctIndex": 2, "explanation": "Each number is doubled. 24 × 2 = 48.", "tags": ["patterns"] },
+    { "id": "g5m-w21-tue-002", "question": "What is the 10th term of: 5, 10, 15, 20, ...?", "options": ["45", "50", "55", "60"], "correctIndex": 1, "explanation": "This is an arithmetic sequence with common difference 5. 10th term = 5 × 10 = 50.", "tags": ["patterns", "sequence"] },
+    { "id": "g5m-w21-tue-003", "question": "Find the missing number: 2, 5, 10, 17, ___, 37", "options": ["24", "25", "26", "27"], "correctIndex": 2, "explanation": "Differences: 3, 5, 7, ?, 11. Next difference = 9. 17 + 9 = 26.", "tags": ["patterns"] },
+    { "id": "g5m-w21-tue-004", "question": "What type of sequence is 100, 50, 25, 12.5?", "options": ["Arithmetic", "Geometric", "Fibonacci", "Prime"], "correctIndex": 1, "explanation": "Each term is divided by 2 (multiplied by 1/2). This is a geometric sequence.", "tags": ["sequence", "geometric"] },
+    { "id": "g5m-w21-tue-005", "question": "Which number completes the pattern: 1, 4, 9, 16, ___?", "options": ["20", "24", "25", "36"], "correctIndex": 2, "explanation": "These are perfect squares: 1², 2², 3², 4², 5² = 25.", "tags": ["patterns", "squares"] },
+    { "id": "g5m-w21-tue-006", "question": "What is the sum of the first 5 odd numbers?", "options": ["20", "25", "30", "35"], "correctIndex": 1, "explanation": "1 + 3 + 5 + 7 + 9 = 25. The sum of first n odd numbers = n².", "tags": ["patterns", "odd-numbers"] },
+    { "id": "g5m-w21-tue-007", "question": "In the sequence 2, 3, 5, 8, 13, 21, ___, what is the missing term?", "options": ["28", "30", "34", "36"], "correctIndex": 2, "explanation": "Each term = sum of two previous. 13 + 21 = 34.", "tags": ["fibonacci", "patterns"] },
+    { "id": "g5m-w21-tue-008", "question": "What are the next two terms: 1, 2, 4, 8, 16, ___, ___?", "options": ["24, 32", "28, 36", "32, 64", "30, 60"], "correctIndex": 2, "explanation": "Each term doubles. 16 × 2 = 32, 32 × 2 = 64.", "tags": ["patterns", "geometric"] },
+    { "id": "g5m-w21-tue-009", "question": "Find the rule: 100, 90, 81, 73, 66, ...", "options": ["Subtract 9 each time", "Subtract decreasing amounts", "Divide by 2", "Subtract 10"], "correctIndex": 1, "explanation": "Differences: −10, −9, −8, −7... decreasing by 1 each time.", "tags": ["patterns", "arithmetic"] },
+    { "id": "g5m-w21-tue-010", "question": "What is the 8th term of the sequence 4, 7, 10, 13, ...?", "options": ["25", "27", "29", "31"], "correctIndex": 0, "explanation": "Common difference = 3. 8th term = 4 + 7×3 = 4 + 21 = 25.", "tags": ["sequence", "arithmetic"] },
+    { "id": "g5m-w21-tue-011", "question": "Which is a prime number?", "options": ["51", "57", "59", "63"], "correctIndex": 2, "explanation": "59 is only divisible by 1 and 59. 51=3×17, 57=3×19, 63=9×7.", "tags": ["prime-numbers"] },
+    { "id": "g5m-w21-tue-012", "question": "What pattern does 1, 1, 2, 3, 5, 8, 13 follow?", "options": ["Squares pattern", "Fibonacci pattern", "Prime numbers", "Powers of 2"], "correctIndex": 1, "explanation": "Each number is the sum of the two before it — the Fibonacci sequence.", "tags": ["fibonacci"] },
+    { "id": "g5m-w21-tue-013", "question": "What comes next: 81, 27, 9, 3, ___?", "options": ["0", "1", "2", "6"], "correctIndex": 1, "explanation": "Each term is divided by 3. 3 ÷ 3 = 1.", "tags": ["patterns", "geometric"] },
+    { "id": "g5m-w21-tue-014", "question": "The rule for a pattern is: multiply by 3 then subtract 1. Starting from 2, what is the 3rd term?", "options": ["14", "15", "16", "17"], "correctIndex": 3, "explanation": "Term 1 = 2. Term 2 = 2×3−1 = 5. Term 3 = 5×3−1 = 14. Wait: 5×3=15, 15−1=14. Answer: 14.", "tags": ["patterns", "rule"] },
+    { "id": "g5m-w21-tue-015", "question": "Which number is both a square number and a triangular number?", "options": ["16", "25", "36", "49"], "correctIndex": 2, "explanation": "36 = 6² (square) and 1+2+3+4+5+6+7+8 = 36 (triangular). So 36 is both.", "tags": ["patterns", "special-numbers"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w21-fri",
+  "title": "Grade 5 Science — Fri, May 22",
+  "description": "Earth: Layers, Earthquakes & Volcanoes — Last Week Day 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "fri",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["science", "grade-5", "weekly", "earth"],
+  "questions": [
+    { "id": "g5s-w21-fri-001", "question": "The outermost layer of the Earth is called:", "options": ["Mantle", "Core", "Crust", "Magma"], "correctIndex": 2, "explanation": "The crust is Earth's outermost layer. It includes continents and ocean floors.", "tags": ["earth"] },
+    { "id": "g5s-w21-fri-002", "question": "The correct order of Earth's layers from outside to inside is:", "options": ["Core → Mantle → Crust", "Crust → Core → Mantle", "Crust → Mantle → Core", "Mantle → Crust → Core"], "correctIndex": 2, "explanation": "From outside to inside: Crust → Mantle → Outer Core → Inner Core.", "tags": ["earth"] },
+    { "id": "g5s-w21-fri-003", "question": "What is magma?", "options": ["Solid rock at Earth's surface", "Molten rock beneath Earth's surface", "Water underground", "Frozen rock at poles"], "correctIndex": 1, "explanation": "Magma is molten (liquid) rock found beneath the Earth's surface in the mantle and crust.", "tags": ["volcanoes"] },
+    { "id": "g5s-w21-fri-004", "question": "When magma reaches Earth's surface through a volcano, it is called:", "options": ["Magma", "Lava", "Ash", "Steam"], "correctIndex": 1, "explanation": "Magma is called lava once it flows out onto Earth's surface through a volcanic eruption.", "tags": ["volcanoes"] },
+    { "id": "g5s-w21-fri-005", "question": "Earthquakes are caused by:", "options": ["Heavy rainfall", "Movement of tectonic plates", "Strong winds", "Lightning strikes"], "correctIndex": 1, "explanation": "Earthquakes occur when tectonic plates move, collide, or slide past each other along fault lines.", "tags": ["earthquakes"] },
+    { "id": "g5s-w21-fri-006", "question": "The instrument used to measure earthquakes is a:", "options": ["Barometer", "Thermometer", "Seismograph", "Anemometer"], "correctIndex": 2, "explanation": "A seismograph detects and records seismic waves from earthquakes.", "tags": ["earthquakes", "instruments"] },
+    { "id": "g5s-w21-fri-007", "question": "The Richter scale measures:", "options": ["Depth of earthquakes", "Magnitude (strength) of earthquakes", "Speed of seismic waves", "Number of aftershocks"], "correctIndex": 1, "explanation": "The Richter scale measures the magnitude (energy released) of earthquakes.", "tags": ["earthquakes"] },
+    { "id": "g5s-w21-fri-008", "question": "The point on Earth's surface directly above the earthquake's origin is called the:", "options": ["Epicentre", "Hypocentre", "Fault line", "Focus"], "correctIndex": 0, "explanation": "The epicentre is the point on the surface above the focus (hypocentre) where the earthquake originates.", "tags": ["earthquakes"] },
+    { "id": "g5s-w21-fri-009", "question": "Which type of rock is formed from cooled lava?", "options": ["Sedimentary", "Metamorphic", "Igneous", "Fossil rock"], "correctIndex": 2, "explanation": "Igneous rocks form when lava or magma cools and solidifies. Example: granite, basalt.", "tags": ["rocks"] },
+    { "id": "g5s-w21-fri-010", "question": "Sedimentary rocks are formed by:", "options": ["Volcanic eruptions", "Layers of sediment compressing over time", "Extreme heat and pressure", "Melting of other rocks"], "correctIndex": 1, "explanation": "Sedimentary rocks form when layers of sediment (sand, mud, shells) accumulate and get compressed.", "tags": ["rocks"] },
+    { "id": "g5s-w21-fri-011", "question": "Fossils are found in which type of rock?", "options": ["Igneous", "Metamorphic", "Sedimentary", "All types"], "correctIndex": 2, "explanation": "Fossils are found in sedimentary rocks because organisms become buried in sediment layers.", "tags": ["rocks", "fossils"] },
+    { "id": "g5s-w21-fri-012", "question": "The Earth's inner core is mostly made of:", "options": ["Rock", "Water", "Iron and nickel", "Carbon"], "correctIndex": 2, "explanation": "Earth's inner core is a solid ball mainly made of iron and nickel at very high temperature and pressure.", "tags": ["earth"] },
+    { "id": "g5s-w21-fri-013", "question": "A tsunami is caused by:", "options": ["Heavy rainfall", "Earthquake under the ocean", "Strong ocean winds", "A meteorite strike only"], "correctIndex": 1, "explanation": "Most tsunamis are caused by underwater earthquakes that displace a large volume of ocean water.", "tags": ["earthquakes"] },
+    { "id": "g5s-w21-fri-014", "question": "The 'Ring of Fire' is known for:", "options": ["Desert fires", "Many volcanoes and earthquakes along the Pacific Ocean", "Highest temperatures on Earth", "Ancient fire ceremonies"], "correctIndex": 1, "explanation": "The Ring of Fire is a region around the Pacific Ocean with many volcanoes and frequent earthquakes.", "tags": ["earth", "volcanoes"] },
+    { "id": "g5s-w21-fri-015", "question": "What should you do during an earthquake?", "options": ["Run outside immediately", "Stand near windows", "Drop, cover, and hold under a sturdy table", "Use the elevator quickly"], "correctIndex": 2, "explanation": "Drop to the ground, take cover under a sturdy desk/table, and hold on — this protects from falling objects.", "tags": ["earthquakes", "safety"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w21-wed",
+  "title": "Grade 5 Science — Wed, May 20",
+  "description": "Water Cycle — Last Week Day 3",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "wed",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["science", "grade-5", "weekly", "water-cycle"],
+  "questions": [
+    { "id": "g5s-w21-wed-001", "question": "The water cycle is also known as:", "options": ["Carbon cycle", "Nitrogen cycle", "Hydrological cycle", "Oxygen cycle"], "correctIndex": 2, "explanation": "The water cycle is scientifically called the hydrological cycle.", "tags": ["water-cycle"] },
+    { "id": "g5s-w21-wed-002", "question": "Evaporation of water occurs due to:", "options": ["Cooling", "Heat from the sun", "Wind only", "Gravity"], "correctIndex": 1, "explanation": "Heat from the sun causes water to evaporate — change from liquid to water vapour.", "tags": ["evaporation"] },
+    { "id": "g5s-w21-wed-003", "question": "When water vapour cools and forms tiny droplets in the atmosphere, this is:", "options": ["Evaporation", "Precipitation", "Condensation", "Transpiration"], "correctIndex": 2, "explanation": "Condensation occurs when water vapour cools and forms liquid droplets, creating clouds.", "tags": ["condensation"] },
+    { "id": "g5s-w21-wed-004", "question": "Which is NOT a form of precipitation?", "options": ["Rain", "Snow", "Hail", "Fog"], "correctIndex": 3, "explanation": "Precipitation means water falling from clouds: rain, snow, hail, sleet. Fog is suspended droplets, not precipitation.", "tags": ["precipitation"] },
+    { "id": "g5s-w21-wed-005", "question": "Plants release water vapour through their leaves in a process called:", "options": ["Evaporation", "Transpiration", "Condensation", "Precipitation"], "correctIndex": 1, "explanation": "Transpiration is the process by which plants release water vapour through small pores (stomata) on leaves.", "tags": ["transpiration"] },
+    { "id": "g5s-w21-wed-006", "question": "What is groundwater?", "options": ["Water in rivers", "Water stored underground in rock layers", "Water in clouds", "Water in oceans"], "correctIndex": 1, "explanation": "Groundwater is water stored in pores and cracks in rock layers (aquifers) beneath the ground.", "tags": ["water-cycle"] },
+    { "id": "g5s-w21-wed-007", "question": "The correct order of the water cycle is:", "options": ["Condensation → Evaporation → Precipitation", "Evaporation → Condensation → Precipitation", "Precipitation → Condensation → Evaporation", "Transpiration → Precipitation → Condensation"], "correctIndex": 1, "explanation": "Water evaporates → forms clouds (condensation) → falls as precipitation → cycle repeats.", "tags": ["water-cycle"] },
+    { "id": "g5s-w21-wed-008", "question": "Why don't oceans dry up despite constant evaporation?", "options": ["Oceans make their own water", "Rain replenishes the water lost", "Salt prevents evaporation", "Ocean water cannot evaporate"], "correctIndex": 1, "explanation": "Precipitation (rain) returns water to oceans, rivers, and land, balancing evaporation.", "tags": ["water-cycle"] },
+    { "id": "g5s-w21-wed-009", "question": "What percentage of Earth's water is fresh water?", "options": ["3%", "10%", "30%", "50%"], "correctIndex": 0, "explanation": "Only about 3% of Earth's water is fresh water; the rest is salt water in oceans.", "tags": ["water"] },
+    { "id": "g5s-w21-wed-010", "question": "Glaciers are:", "options": ["Clouds at high altitude", "Large masses of slow-moving ice", "Underground rivers", "Frozen lakes"], "correctIndex": 1, "explanation": "Glaciers are large bodies of ice that slowly move under gravity — they store about 2% of Earth's fresh water.", "tags": ["water"] },
+    { "id": "g5s-w21-wed-011", "question": "Water conservation means:", "options": ["Using as much water as possible", "Protecting and using water carefully", "Making water saltier", "Sending water to space"], "correctIndex": 1, "explanation": "Water conservation involves protecting water from waste, pollution, and overuse.", "tags": ["environment"] },
+    { "id": "g5s-w21-wed-012", "question": "Acid rain is caused by:", "options": ["Normal rainfall", "Pollution (SO₂, NO₂) mixing with rain", "Too much evaporation", "Condensation of sea water"], "correctIndex": 1, "explanation": "Acid rain forms when pollutants (sulphur dioxide, nitrogen oxides) mix with water in clouds.", "tags": ["environment", "water"] },
+    { "id": "g5s-w21-wed-013", "question": "Which human activity wastes the most fresh water?", "options": ["Drinking", "Cooking", "Irrigation without water-saving methods", "Washing hands"], "correctIndex": 2, "explanation": "Agriculture/irrigation uses about 70% of all fresh water — inefficient methods waste vast amounts.", "tags": ["water", "environment"] },
+    { "id": "g5s-w21-wed-014", "question": "Rainwater harvesting means:", "options": ["Collecting rainwater for reuse", "Measuring rainfall", "Pumping groundwater", "Sending rain to cities"], "correctIndex": 0, "explanation": "Rainwater harvesting involves collecting and storing rainwater for later use — it conserves water.", "tags": ["water-conservation"] },
+    { "id": "g5s-w21-wed-015", "question": "Which of the following helps recharge groundwater?", "options": ["Paving all land surfaces", "Cutting down trees", "Allowing rain to soak into soil", "Building dams on rivers"], "correctIndex": 2, "explanation": "When rainwater soaks into soil (percolation), it recharges groundwater aquifers.", "tags": ["groundwater"] }
+  ]
+}

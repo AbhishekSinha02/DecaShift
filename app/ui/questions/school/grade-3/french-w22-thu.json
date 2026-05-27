@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-french-w22-thu",
+  "title": "Grade 3 French — Thu, May 28",
+  "description": "Animals (Les Animaux) — Day 4 of 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "thu",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["french", "grade-3", "weekly", "animals"],
+  "questions": [
+    { "id": "g3f-w22-thu-001", "question": "What is 'un chat' in English?", "options": ["A dog", "A cat", "A bird", "A rabbit"], "correctIndex": 1, "explanation": "'Un chat' = a cat.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-002", "question": "What is 'un chien' in English?", "options": ["A cat", "A fish", "A dog", "A horse"], "correctIndex": 2, "explanation": "'Un chien' = a dog.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-003", "question": "How do you say 'a rabbit' in French?", "options": ["Un cheval", "Un lapin", "Un oiseau", "Un poisson"], "correctIndex": 1, "explanation": "'Un lapin' = a rabbit.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-004", "question": "What is 'un oiseau' in English?", "options": ["A fish", "An insect", "A bird", "A snake"], "correctIndex": 2, "explanation": "'Un oiseau' = a bird.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-005", "question": "What is 'un cheval' in English?", "options": ["A cow", "A sheep", "A pig", "A horse"], "correctIndex": 3, "explanation": "'Un cheval' = a horse.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-006", "question": "How do you say 'a fish' in French?", "options": ["Un poisson", "Un lapin", "Un chat", "Un chien"], "correctIndex": 0, "explanation": "'Un poisson' = a fish.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-007", "question": "What is 'une vache' in English?", "options": ["A sheep", "A cow", "A pig", "A goat"], "correctIndex": 1, "explanation": "'Une vache' = a cow. 'Vache' is feminine, hence 'une'.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-008", "question": "How do you say 'I have a dog' in French?", "options": ["Je suis un chien", "J'ai un chien", "J'ai une chien", "Je veux un chien"], "correctIndex": 1, "explanation": "'J'ai un chien' = I have a dog. 'Avoir' = to have; 'chien' is masculine = 'un'.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-009", "question": "What is 'un mouton' in English?", "options": ["A goat", "A pig", "A sheep", "A rabbit"], "correctIndex": 2, "explanation": "'Un mouton' = a sheep.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-010", "question": "How do you say 'The dog is big' in French?", "options": ["Le chien est grand", "La chien est grande", "Le chien est grande", "Un chien grand"], "correctIndex": 0, "explanation": "'Le chien est grand' = The dog is big. 'Chien' is masculine → 'le' and 'grand'.", "tags": ["animals", "adjectives"] },
+    { "id": "g3f-w22-thu-011", "question": "What is 'un serpent' in English?", "options": ["A lizard", "A frog", "A snake", "A turtle"], "correctIndex": 2, "explanation": "'Un serpent' = a snake.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-012", "question": "How do you say 'I like animals' in French?", "options": ["Je mange les animaux", "J'aime les animaux", "J'ai les animaux", "Je vois les animaux"], "correctIndex": 1, "explanation": "'J'aime les animaux' = I like animals. 'Aimer' = to like/love.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-013", "question": "What is 'une grenouille' in English?", "options": ["A bee", "A butterfly", "A frog", "A spider"], "correctIndex": 2, "explanation": "'Une grenouille' = a frog.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-014", "question": "What is the French word for 'elephant'?", "options": ["Un lion", "Un tigre", "Un éléphant", "Un singe"], "correctIndex": 2, "explanation": "'Un éléphant' = an elephant. Many animals have similar names in French and English.", "tags": ["animals"] },
+    { "id": "g3f-w22-thu-015", "question": "How do you say 'My cat is white' in French?", "options": ["Mon chat est blanc", "Ma chat est blanc", "Mon chat est blanche", "Mon chien est blanc"], "correctIndex": 0, "explanation": "'Mon chat est blanc' = My cat is white. 'Chat' is masculine → 'mon' (not 'ma') and 'blanc' (not 'blanche').", "tags": ["animals", "colours"] }
+  ]
+}

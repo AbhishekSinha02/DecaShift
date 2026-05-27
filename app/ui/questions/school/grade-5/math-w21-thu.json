@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w21-thu",
+  "title": "Grade 5 Math — Thu, May 21",
+  "description": "Time & Calendar — Last Week Day 4",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "thu",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["math", "grade-5", "weekly", "time"],
+  "questions": [
+    { "id": "g5m-w21-thu-001", "question": "How many minutes are in 2¼ hours?", "options": ["120", "130", "135", "140"], "correctIndex": 2, "explanation": "2¼ hours = 2 hours 15 min = 120 + 15 = 135 minutes.", "tags": ["time"] },
+    { "id": "g5m-w21-thu-002", "question": "What is 3:45 PM in 24-hour clock format?", "options": ["1345", "1445", "1545", "1645"], "correctIndex": 2, "explanation": "3:45 PM = 12 + 3 = 15 hours. So 15:45 = 1545.", "tags": ["time", "24-hour"] },
+    { "id": "g5m-w21-thu-003", "question": "A movie starts at 7:20 PM and runs for 2 hours 40 minutes. When does it end?", "options": ["9:50 PM", "10:00 PM", "10:20 PM", "10:40 PM"], "correctIndex": 1, "explanation": "7:20 + 2h 40min = 7:20 + 2:40 = 10:00 PM.", "tags": ["time", "word-problem"] },
+    { "id": "g5m-w21-thu-004", "question": "How many days in 3 weeks and 4 days?", "options": ["21", "24", "25", "28"], "correctIndex": 2, "explanation": "3 weeks = 21 days. 21 + 4 = 25 days.", "tags": ["time", "calendar"] },
+    { "id": "g5m-w21-thu-005", "question": "How many seconds in 1 hour?", "options": ["360", "600", "3600", "36000"], "correctIndex": 2, "explanation": "1 hour = 60 minutes. 1 minute = 60 seconds. 60 × 60 = 3600 seconds.", "tags": ["time"] },
+    { "id": "g5m-w21-thu-006", "question": "A train departs at 08:15 and arrives at 12:45. How long is the journey?", "options": ["3 h 30 min", "4 h 15 min", "4 h 30 min", "5 h 15 min"], "correctIndex": 2, "explanation": "12:45 − 08:15 = 4 hours 30 minutes.", "tags": ["time", "elapsed-time"] },
+    { "id": "g5m-w21-thu-007", "question": "Which year is a leap year?", "options": ["2100", "1900", "2000", "2050"], "correctIndex": 2, "explanation": "2000 is divisible by 400, so it is a leap year. 1900 and 2100 are divisible by 100 but not 400.", "tags": ["calendar", "leap-year"] },
+    { "id": "g5m-w21-thu-008", "question": "If today is Wednesday, what day was it 10 days ago?", "options": ["Sunday", "Monday", "Saturday", "Friday"], "correctIndex": 0, "explanation": "10 days ago = 10 ÷ 7 = 1 week + 3 days back. Wednesday − 3 days = Sunday.", "tags": ["calendar", "reasoning"] },
+    { "id": "g5m-w21-thu-009", "question": "A project takes 6 weeks. How many days is that?", "options": ["36", "40", "42", "48"], "correctIndex": 2, "explanation": "6 weeks × 7 days = 42 days.", "tags": ["calendar"] },
+    { "id": "g5m-w21-thu-010", "question": "In 2024 (leap year), how many days are in February?", "options": ["27", "28", "29", "30"], "correctIndex": 2, "explanation": "February has 29 days in a leap year.", "tags": ["calendar", "leap-year"] },
+    { "id": "g5m-w21-thu-011", "question": "What is 2350 hours in 12-hour format?", "options": ["11:50 PM", "11:50 AM", "12:50 PM", "12:50 AM"], "correctIndex": 0, "explanation": "2350 = 23:50 = 11:50 PM.", "tags": ["time", "12-hour"] },
+    { "id": "g5m-w21-thu-012", "question": "How many months have 31 days?", "options": ["5", "6", "7", "8"], "correctIndex": 2, "explanation": "Jan, Mar, May, Jul, Aug, Oct, Dec — 7 months have 31 days.", "tags": ["calendar"] },
+    { "id": "g5m-w21-thu-013", "question": "A library opens at 9:00 AM and closes at 8:30 PM. For how many hours is it open?", "options": ["10.5 h", "11 h", "11.5 h", "12 h"], "correctIndex": 2, "explanation": "9:00 AM to 8:30 PM = 11 hours 30 min = 11.5 hours.", "tags": ["time", "word-problem"] },
+    { "id": "g5m-w21-thu-014", "question": "How many weeks are there in a year?", "options": ["48", "50", "52", "54"], "correctIndex": 2, "explanation": "365 ÷ 7 = 52 weeks and 1 day.", "tags": ["calendar"] },
+    { "id": "g5m-w21-thu-015", "question": "If school starts on 1st April and ends on 30th September, how many months is that?", "options": ["4", "5", "6", "7"], "correctIndex": 2, "explanation": "April, May, June, July, August, September = 6 months.", "tags": ["calendar", "word-problem"] }
+  ]
+}

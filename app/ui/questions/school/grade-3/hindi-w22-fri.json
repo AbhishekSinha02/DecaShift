@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-hindi-w22-fri",
+  "title": "Grade 3 Hindi — Fri, May 29",
+  "description": "सरल वाक्य और क्रिया (Simple Sentences & Verbs) — Day 5 of 5",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "fri",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["hindi", "grade-3", "weekly", "sentences"],
+  "questions": [
+    { "id": "g3h-w22-fri-001", "question": "वाक्य में क्रिया (verb) पहचानिए: 'राम दौड़ता है।'", "options": ["राम", "दौड़ता है", "दौड़ता", "है"], "correctIndex": 1, "explanation": "'दौड़ता है' इस वाक्य की क्रिया है — यह राम का काम (दौड़ना) बता रही है।", "tags": ["verbs", "sentences"] },
+    { "id": "g3h-w22-fri-002", "question": "सरल वाक्य में होता है:", "options": ["बहुत सारी क्रियाएँ", "एक उद्देश्य और एक विधेय", "कोई क्रिया नहीं", "दो वाक्य मिलकर"], "correctIndex": 1, "explanation": "सरल वाक्य में एक कर्ता (subject) और एक क्रिया (verb) होती है। जैसे: 'मीना गाती है।'", "tags": ["sentences"] },
+    { "id": "g3h-w22-fri-003", "question": "वाक्य पूरा करें: 'वह ___ खाता है।' (rice)", "options": ["चावल", "पानी", "हवा", "आसमान"], "correctIndex": 0, "explanation": "'वह चावल खाता है।' — 'चावल' (rice) एक संज्ञा है।", "tags": ["sentences", "vocabulary"] },
+    { "id": "g3h-w22-fri-004", "question": "निम्नलिखित में से सही वाक्य कौन सा है?", "options": ["खाना वह खाता है।", "वह खाना खाता है।", "वह है खाना खाता।", "खाता है वह खाना।"], "correctIndex": 1, "explanation": "हिंदी में सामान्यतः वाक्य की संरचना: Subject + Object + Verb। 'वह खाना खाता है।' सही है।", "tags": ["sentences"] },
+    { "id": "g3h-w22-fri-005", "question": "'बच्चे खेल रहे हैं' — इसमें क्रिया है:", "options": ["बच्चे", "खेल रहे हैं", "खेल", "रहे"], "correctIndex": 1, "explanation": "'खेल रहे हैं' इस वाक्य की क्रिया है — यह वर्तमान काल में जारी काम को बताती है।", "tags": ["verbs"] },
+    { "id": "g3h-w22-fri-006", "question": "प्रश्नवाचक वाक्य बनाइए 'वह स्कूल जाता है' से:", "options": ["वह स्कूल जाता था।", "क्या वह स्कूल जाता है?", "वह स्कूल नहीं जाता।", "वह स्कूल जाएगा।"], "correctIndex": 1, "explanation": "प्रश्नवाचक वाक्य में 'क्या' शुरू में आता है: 'क्या वह स्कूल जाता है?'", "tags": ["sentences"] },
+    { "id": "g3h-w22-fri-007", "question": "'सीता गाना गाती है।' — 'सीता' वाक्य में क्या है?", "options": ["क्रिया", "विशेषण", "कर्ता (subject)", "कर्म (object)"], "correctIndex": 2, "explanation": "'सीता' इस वाक्य का कर्ता (subject) है — वह काम करने वाली है।", "tags": ["sentences"] },
+    { "id": "g3h-w22-fri-008", "question": "निम्नलिखित में से सही क्रिया चुनकर वाक्य पूरा करें: 'बिल्ली दूध _____।'", "options": ["खाती है", "पीती है", "पढ़ती है", "दौड़ती है"], "correctIndex": 1, "explanation": "'बिल्ली दूध पीती है।' — बिल्ली दूध पीने का काम करती है।", "tags": ["verbs", "sentences"] },
+    { "id": "g3h-w22-fri-009", "question": "निम्नलिखित में से नकारात्मक वाक्य (negative sentence) कौन सा है?", "options": ["वह स्कूल जाता है।", "क्या वह स्कूल जाता है?", "वह स्कूल नहीं जाता।", "वह स्कूल जाएगा।"], "correctIndex": 2, "explanation": "'नहीं' शब्द वाला वाक्य नकारात्मक है: 'वह स्कूल नहीं जाता।'", "tags": ["sentences"] },
+    { "id": "g3h-w22-fri-010", "question": "वाक्य में कर्म (object) पहचानिए: 'रोहन ने किताब पढ़ी।'", "options": ["रोहन", "ने", "किताब", "पढ़ी"], "correctIndex": 2, "explanation": "'किताब' इस वाक्य का कर्म (object) है — वह चीज़ जिस पर क्रिया होती है।", "tags": ["sentences"] },
+    { "id": "g3h-w22-fri-011", "question": "वाक्य पूरा करें: 'सूरज ___ में उगता है।'", "options": ["पश्चिम", "उत्तर", "पूर्व", "दक्षिण"], "correctIndex": 2, "explanation": "'सूरज पूर्व में उगता है।' — सूर्य हमेशा पूर्व दिशा में उगता है।", "tags": ["sentences", "general-knowledge"] },
+    { "id": "g3h-w22-fri-012", "question": "'हाथी बहुत बड़ा होता है।' — इस वाक्य में विशेषण है:", "options": ["हाथी", "बड़ा", "होता", "बहुत बड़ा"], "correctIndex": 1, "explanation": "'बड़ा' विशेषण है — यह हाथी के आकार की विशेषता बता रहा है।", "tags": ["adjectives", "sentences"] },
+    { "id": "g3h-w22-fri-013", "question": "आज्ञावाचक वाक्य (imperative sentence) का उदाहरण है:", "options": ["राम आया।", "क्या राम आया?", "राम नहीं आया।", "यहाँ आओ।"], "correctIndex": 3, "explanation": "'यहाँ आओ।' एक आज्ञावाचक वाक्य है — इसमें आदेश या अनुरोध है।", "tags": ["sentences"] },
+    { "id": "g3h-w22-fri-014", "question": "वाक्य की सबसे छोटी इकाई है:", "options": ["वाक्य", "शब्द", "अक्षर", "मात्रा"], "correctIndex": 1, "explanation": "शब्द वाक्य की सबसे छोटी सार्थक इकाई है। शब्द मिलकर वाक्य बनाते हैं।", "tags": ["sentences"] },
+    { "id": "g3h-w22-fri-015", "question": "रिक्त स्थान भरिए: 'वह रोज़ सुबह ___ उठता है।' (early)", "options": ["देर से", "जल्दी", "धीरे", "शाम को"], "correctIndex": 1, "explanation": "'वह रोज़ सुबह जल्दी उठता है।' — 'जल्दी' (early) सही विकल्प है।", "tags": ["sentences", "vocabulary"] }
+  ]
+}

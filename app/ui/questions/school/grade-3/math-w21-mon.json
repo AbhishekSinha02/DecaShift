@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w21-mon",
+  "title": "Grade 3 Maths — Mon, May 18",
+  "description": "Place Value — Hundreds, Tens, Ones — Last Week Day 1",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "mon",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["maths", "grade-3", "weekly", "place-value"],
+  "questions": [
+    { "id": "g3m-w21-mon-001", "question": "What is the value of the digit 5 in the number 352?", "options": ["5", "50", "500", "5000"], "correctIndex": 1, "explanation": "In 352, the digit 5 is in the tens place, so its value is 5 × 10 = 50.", "tags": ["place-value"] },
+    { "id": "g3m-w21-mon-002", "question": "What is the digit in the hundreds place of 476?", "options": ["4", "7", "6", "47"], "correctIndex": 0, "explanation": "In 476: 4 is in the hundreds, 7 is in the tens, 6 is in the ones.", "tags": ["place-value"] },
+    { "id": "g3m-w21-mon-003", "question": "Which number has 3 hundreds, 5 tens, and 8 ones?", "options": ["358", "538", "835", "385"], "correctIndex": 0, "explanation": "3 hundreds + 5 tens + 8 ones = 300 + 50 + 8 = 358.", "tags": ["place-value"] },
+    { "id": "g3m-w21-mon-004", "question": "What is 200 + 40 + 7?", "options": ["207", "240", "247", "274"], "correctIndex": 2, "explanation": "200 + 40 + 7 = 247. This is expanded form to standard form.", "tags": ["place-value"] },
+    { "id": "g3m-w21-mon-005", "question": "What is the expanded form of 563?", "options": ["5 + 6 + 3", "500 + 60 + 3", "500 + 6 + 3", "56 + 3"], "correctIndex": 1, "explanation": "563 = 500 + 60 + 3. This shows the value of each digit.", "tags": ["place-value"] },
+    { "id": "g3m-w21-mon-006", "question": "Which number is GREATEST?", "options": ["459", "495", "549", "594"], "correctIndex": 3, "explanation": "594 is greatest — start by comparing hundreds: 5 > 4. Then 594 > 549 (compare tens: 9 > 4).", "tags": ["place-value", "comparing"] },
+    { "id": "g3m-w21-mon-007", "question": "How many tens are there in 230?", "options": ["2", "20", "23", "3"], "correctIndex": 2, "explanation": "230 = 23 tens (230 ÷ 10 = 23). There are 23 groups of 10 in 230.", "tags": ["place-value"] },
+    { "id": "g3m-w21-mon-008", "question": "What is 10 more than 385?", "options": ["386", "395", "395", "485"], "correctIndex": 1, "explanation": "10 more than 385 = 385 + 10 = 395. Only the tens digit changes.", "tags": ["place-value"] },
+    { "id": "g3m-w21-mon-009", "question": "Round 357 to the nearest hundred.", "options": ["300", "360", "400", "350"], "correctIndex": 2, "explanation": "357: the hundreds digit is 3, the tens digit is 5. Since 5 ≥ 5, round UP to 400.", "tags": ["place-value", "rounding"] },
+    { "id": "g3m-w21-mon-010", "question": "Write 900 + 4 as a number.", "options": ["94", "904", "940", "9004"], "correctIndex": 1, "explanation": "900 + 4 = 904. The 0 in the tens place is a placeholder.", "tags": ["place-value"] },
+    { "id": "g3m-w21-mon-011", "question": "Which symbol makes this true? 461 ___ 416", "options": ["<", ">", "=", "≤"], "correctIndex": 1, "explanation": "461 > 416. Compare tens: 6 tens > 1 ten. So 461 is greater.", "tags": ["place-value", "comparing"] },
+    { "id": "g3m-w21-mon-012", "question": "What is 100 less than 750?", "options": ["740", "660", "650", "600"], "correctIndex": 2, "explanation": "750 − 100 = 650. Only the hundreds digit changes.", "tags": ["place-value"] },
+    { "id": "g3m-w21-mon-013", "question": "How many hundreds are in 700?", "options": ["7", "70", "700", "0"], "correctIndex": 0, "explanation": "700 = 7 hundreds. 700 ÷ 100 = 7.", "tags": ["place-value"] },
+    { "id": "g3m-w21-mon-014", "question": "Which of these numbers is the smallest?", "options": ["312", "321", "213", "231"], "correctIndex": 2, "explanation": "213 is smallest — compare hundreds: 2 < 3. So 213 < 312 < 321 < 231.", "tags": ["place-value", "comparing"] },
+    { "id": "g3m-w21-mon-015", "question": "Round 245 to the nearest 10.", "options": ["240", "250", "200", "300"], "correctIndex": 1, "explanation": "245: ones digit is 5. Since 5 ≥ 5, round UP the tens: 245 → 250.", "tags": ["place-value", "rounding"] }
+  ]
+}

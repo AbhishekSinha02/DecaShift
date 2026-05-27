@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w21-fri",
+  "title": "Grade 3 Maths — Fri, May 22",
+  "description": "Shapes — 2D and 3D — Last Week Day 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "fri",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["maths", "grade-3", "weekly", "shapes"],
+  "questions": [
+    { "id": "g3m-w21-fri-001", "question": "How many sides does a triangle have?", "options": ["2", "3", "4", "5"], "correctIndex": 1, "explanation": "A triangle has 3 sides and 3 angles. 'Tri' means three.", "tags": ["2D-shapes"] },
+    { "id": "g3m-w21-fri-002", "question": "A square has:", "options": ["3 equal sides", "4 equal sides and 4 right angles", "4 sides, no equal sides", "5 sides"], "correctIndex": 1, "explanation": "A square has 4 equal sides and 4 right angles (90° each).", "tags": ["2D-shapes"] },
+    { "id": "g3m-w21-fri-003", "question": "What is the name of a shape with 6 sides?", "options": ["Pentagon", "Hexagon", "Octagon", "Heptagon"], "correctIndex": 1, "explanation": "A hexagon has 6 sides. 'Hex' means six. A honeycomb cell is a hexagon.", "tags": ["2D-shapes"] },
+    { "id": "g3m-w21-fri-004", "question": "What is the difference between a square and a rectangle?", "options": ["A rectangle has 3 sides", "A square has all 4 sides equal; a rectangle has opposite sides equal", "They are identical", "A rectangle has no right angles"], "correctIndex": 1, "explanation": "A square has all 4 sides equal. A rectangle has 2 pairs of equal sides (opposite sides equal), but adjacent sides may differ.", "tags": ["2D-shapes"] },
+    { "id": "g3m-w21-fri-005", "question": "How many faces does a cube have?", "options": ["4", "5", "6", "8"], "correctIndex": 2, "explanation": "A cube has 6 faces — all are squares. Think of a dice!", "tags": ["3D-shapes"] },
+    { "id": "g3m-w21-fri-006", "question": "Which 3D shape has a circular base and comes to a point?", "options": ["Cylinder", "Sphere", "Cone", "Pyramid"], "correctIndex": 2, "explanation": "A cone has a circular base and comes to a point (apex) at the top. Example: ice cream cone.", "tags": ["3D-shapes"] },
+    { "id": "g3m-w21-fri-007", "question": "How many corners (vertices) does a triangle have?", "options": ["2", "3", "4", "5"], "correctIndex": 1, "explanation": "A triangle has 3 vertices (corners). Each vertex is where two sides meet.", "tags": ["2D-shapes"] },
+    { "id": "g3m-w21-fri-008", "question": "A sphere is:", "options": ["A flat circle", "A 3D shape with all points equal distance from the centre (like a ball)", "A 3D shape with 6 flat faces", "A cone without a point"], "correctIndex": 1, "explanation": "A sphere is a perfectly round 3D shape — like a ball or the Earth. All surface points are equal distance from the centre.", "tags": ["3D-shapes"] },
+    { "id": "g3m-w21-fri-009", "question": "What shape is the face of a cylinder?", "options": ["Square", "Triangle", "Circle", "Hexagon"], "correctIndex": 2, "explanation": "A cylinder has 2 circular faces (top and bottom) and 1 curved surface.", "tags": ["3D-shapes"] },
+    { "id": "g3m-w21-fri-010", "question": "How many sides does an octagon have?", "options": ["6", "7", "8", "9"], "correctIndex": 2, "explanation": "An octagon has 8 sides. 'Octo' means eight — like an octopus with 8 arms.", "tags": ["2D-shapes"] },
+    { "id": "g3m-w21-fri-011", "question": "Which real-world object is shaped like a cuboid (rectangular prism)?", "options": ["Football", "Ice cream cone", "Brick", "Plate"], "correctIndex": 2, "explanation": "A brick is shaped like a cuboid — it has 6 rectangular faces.", "tags": ["3D-shapes"] },
+    { "id": "g3m-w21-fri-012", "question": "What is a line of symmetry?", "options": ["A line that divides a shape into two different parts", "A line that divides a shape into two mirror-image halves", "Any line inside a shape", "The longest side of a shape"], "correctIndex": 1, "explanation": "A line of symmetry divides a shape into two identical halves that are mirror images of each other.", "tags": ["symmetry"] },
+    { "id": "g3m-w21-fri-013", "question": "How many lines of symmetry does a square have?", "options": ["1", "2", "4", "8"], "correctIndex": 2, "explanation": "A square has 4 lines of symmetry — 2 through opposite sides, 2 through opposite corners (diagonals).", "tags": ["symmetry"] },
+    { "id": "g3m-w21-fri-014", "question": "Which of these is a 2D shape?", "options": ["Sphere", "Cone", "Pyramid", "Pentagon"], "correctIndex": 3, "explanation": "A pentagon is a 2D (flat) shape with 5 sides. Sphere, cone, and pyramid are all 3D shapes.", "tags": ["2D-shapes", "3D-shapes"] },
+    { "id": "g3m-w21-fri-015", "question": "A cuboid has:", "options": ["6 square faces", "6 rectangular faces (or 4 rectangular and 2 square)", "4 triangular faces and 1 square", "8 faces"], "correctIndex": 1, "explanation": "A cuboid (rectangular box) has 6 faces — all rectangles (some may be squares). It has 8 vertices and 12 edges.", "tags": ["3D-shapes"] }
+  ]
+}

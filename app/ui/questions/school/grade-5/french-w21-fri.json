@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-french-w21-fri",
+  "title": "Grade 5 French — Fri, May 22",
+  "description": "Telling Time & Daily Routine (L'Heure et la Routine) — Last Week Day 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "fri",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["french", "grade-5", "weekly", "time"],
+  "questions": [
+    { "id": "g5f-w21-fri-001", "question": "How do you ask 'What time is it?' in French?", "options": ["Quelle est la date?", "Quelle heure est-il?", "Quel jour sommes-nous?", "À quelle heure?"], "correctIndex": 1, "explanation": "'Quelle heure est-il?' = 'What time is it?' You answer: 'Il est...' (It is...)", "tags": ["time"] },
+    { "id": "g5f-w21-fri-002", "question": "How do you say 'It is 3 o'clock' in French?", "options": ["Il est troisième heure", "Il est trois heures", "C'est trois heures", "Il a trois heures"], "correctIndex": 1, "explanation": "'Il est trois heures' = 'It is 3 o'clock'. Always 'Il est' + number + 'heure(s)'.", "tags": ["time"] },
+    { "id": "g5f-w21-fri-003", "question": "How do you say 'half past four' (4:30) in French?", "options": ["Il est quatre heures quart", "Il est quatre heures et demie", "Il est quatre heures et demi", "Il est demi quatre heures"], "correctIndex": 1, "explanation": "'Il est quatre heures et demie' = 4:30. 'Et demie' = and a half (feminine because 'heure' is feminine).", "tags": ["time"] },
+    { "id": "g5f-w21-fri-004", "question": "What does 'Il est midi' mean?", "options": ["It is midnight", "It is noon/midday", "It is 11 o'clock", "It is 1 o'clock"], "correctIndex": 1, "explanation": "'Il est midi' = 'It is noon/midday' (12:00 PM). 'Il est minuit' = midnight (12:00 AM).", "tags": ["time"] },
+    { "id": "g5f-w21-fri-005", "question": "How do you say 'quarter past 2' (2:15) in French?", "options": ["Il est deux heures moins le quart", "Il est deux heures et quart", "Il est deux heures quart", "Il est quart après deux heures"], "correctIndex": 1, "explanation": "'Il est deux heures et quart' = 2:15. 'Et quart' = and a quarter.", "tags": ["time"] },
+    { "id": "g5f-w21-fri-006", "question": "How do you say '10 to 5' (4:50) in French?", "options": ["Il est cinq heures moins dix", "Il est quatre heures cinquante", "Both are correct", "Il est dix avant cinq"], "correctIndex": 2, "explanation": "Both 'Il est cinq heures moins dix' (5 o'clock minus 10) and 'Il est quatre heures cinquante' (4:50) are correct.", "tags": ["time"] },
+    { "id": "g5f-w21-fri-007", "question": "What does 'Je me lève' mean?", "options": ["I go to bed", "I eat breakfast", "I wake up/I get up", "I get dressed"], "correctIndex": 2, "explanation": "'Je me lève' = 'I get up'. It is a reflexive verb (se lever). 'Je me couche' = I go to bed.", "tags": ["daily-routine", "verbs"] },
+    { "id": "g5f-w21-fri-008", "question": "What is a 'verbe pronominal' (reflexive verb)?", "options": ["A verb with no subject", "A verb where the subject and object are the same person (e.g., I wash myself)", "A verb used only in formal contexts", "A verb without an object"], "correctIndex": 1, "explanation": "Reflexive verbs describe actions done to oneself: se lever (to get up), se laver (to wash oneself), se coucher (to go to bed).", "tags": ["verbs", "grammar"] },
+    { "id": "g5f-w21-fri-009", "question": "How do you say 'I brush my teeth' in French?", "options": ["Je brosse mes dents", "Je me brosse les dents", "Je lave mes dents", "Je nettoie mes dents"], "correctIndex": 1, "explanation": "'Je me brosse les dents' = 'I brush my teeth'. Reflexive verb: 'se brosser les dents'.", "tags": ["daily-routine"] },
+    { "id": "g5f-w21-fri-010", "question": "What does 'Je prends le petit-déjeuner à sept heures' mean?", "options": ["I eat lunch at 7 o'clock", "I have breakfast at 7 o'clock", "I go to school at 7 o'clock", "I wake up at 7 o'clock"], "correctIndex": 1, "explanation": "'Je prends le petit-déjeuner à sept heures' = 'I have breakfast at 7 o'clock'. 'Petit-déjeuner' = breakfast.", "tags": ["daily-routine", "time"] },
+    { "id": "g5f-w21-fri-011", "question": "How do you say 'I go to bed at 9 PM' in French?", "options": ["Je me lève à neuf heures du soir", "Je me couche à neuf heures du soir", "Je dors à neuf heures", "Je m'endors à neuf heures du soir"], "correctIndex": 1, "explanation": "'Je me couche à neuf heures du soir' = 'I go to bed at 9 PM'. 'Du soir' = in the evening/PM.", "tags": ["daily-routine", "time"] },
+    { "id": "g5f-w21-fri-012", "question": "What does 'du matin' mean when telling time?", "options": ["In the afternoon", "At night", "In the morning/AM", "At noon"], "correctIndex": 2, "explanation": "'Du matin' = in the morning (AM). 'Du soir' = in the evening (PM). 'De l'après-midi' = in the afternoon.", "tags": ["time"] },
+    { "id": "g5f-w21-fri-013", "question": "How do you say 'I get dressed' in French?", "options": ["Je me couche", "Je me lève", "Je m'habille", "Je me lave"], "correctIndex": 2, "explanation": "'Je m'habille' = 'I get dressed'. From 's'habiller' (to get dressed). 'Je me lave' = I wash myself.", "tags": ["daily-routine"] },
+    { "id": "g5f-w21-fri-014", "question": "What does 'le soir' mean?", "options": ["The morning", "The afternoon", "The evening/night", "Midnight"], "correctIndex": 2, "explanation": "'Le soir' = the evening. 'Le matin' = morning, 'L'après-midi' = afternoon, 'La nuit' = the night.", "tags": ["time"] },
+    { "id": "g5f-w21-fri-015", "question": "Which sentence correctly describes a daily routine?", "options": ["Je me lève à sept heures, puis je me couche", "Je me couche à sept heures du matin, puis je prends le déjeuner", "Je me lève à sept heures du matin, puis je prends le petit-déjeuner", "Je me lève le soir et je me couche le matin"], "correctIndex": 2, "explanation": "'Je me lève à sept heures du matin, puis je prends le petit-déjeuner' = I get up at 7 AM, then I have breakfast — a logical daily routine.", "tags": ["daily-routine"] }
+  ]
+}

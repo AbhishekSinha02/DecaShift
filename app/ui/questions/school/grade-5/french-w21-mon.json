@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-french-w21-mon",
+  "title": "Grade 5 French — Mon, May 18",
+  "description": "Articles & Gender (Les Articles et le Genre) — Last Week Day 1",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "mon",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["french", "grade-5", "weekly", "grammar"],
+  "questions": [
+    { "id": "g5f-w21-mon-001", "question": "In French, every noun has a:", "options": ["Size", "Gender (masculine or feminine)", "Nationality", "Colour"], "correctIndex": 1, "explanation": "Every French noun is either masculine (le/un) or feminine (la/une). Unlike English, there is no neutral gender.", "tags": ["gender", "grammar"] },
+    { "id": "g5f-w21-mon-002", "question": "What is the definite article for a masculine singular noun?", "options": ["La", "Les", "Le", "Un"], "correctIndex": 2, "explanation": "'Le' is the definite article (the) for masculine singular nouns. Example: le garçon (the boy), le livre (the book).", "tags": ["articles"] },
+    { "id": "g5f-w21-mon-003", "question": "What is the definite article for a feminine singular noun?", "options": ["Le", "Les", "Un", "La"], "correctIndex": 3, "explanation": "'La' is the definite article (the) for feminine singular nouns. Example: la fille (the girl), la table (the table).", "tags": ["articles"] },
+    { "id": "g5f-w21-mon-004", "question": "What article is used for plural nouns (both masculine and feminine)?", "options": ["Le", "La", "Les", "Des"], "correctIndex": 2, "explanation": "'Les' = the (plural). It is used for ALL plural nouns regardless of gender: les garçons, les filles.", "tags": ["articles"] },
+    { "id": "g5f-w21-mon-005", "question": "What is the indefinite article for a masculine singular noun?", "options": ["Une", "Des", "Un", "Le"], "correctIndex": 2, "explanation": "'Un' = a/an (masculine singular). Example: un garçon (a boy), un livre (a book).", "tags": ["articles"] },
+    { "id": "g5f-w21-mon-006", "question": "What article replaces 'le' or 'la' before a vowel or silent 'h'?", "options": ["Les", "L'", "Un", "Des"], "correctIndex": 1, "explanation": "Before vowels or silent 'h', le/la become 'l'' (elision): l'école (the school), l'ami (the friend).", "tags": ["articles", "grammar"] },
+    { "id": "g5f-w21-mon-007", "question": "Which article means 'some' in French (plural)?", "options": ["Un", "Une", "Le", "Des"], "correctIndex": 3, "explanation": "'Des' = some (plural indefinite article): des livres (some books), des pommes (some apples).", "tags": ["articles"] },
+    { "id": "g5f-w21-mon-008", "question": "'Le soleil' — what gender is 'soleil' (sun)?", "options": ["Feminine", "Masculine", "Neutral", "Depends on context"], "correctIndex": 1, "explanation": "'Le soleil' — 'le' tells us 'soleil' (sun) is masculine. La lune (the moon) is feminine.", "tags": ["gender"] },
+    { "id": "g5f-w21-mon-009", "question": "Which of these nouns is feminine?", "options": ["Le chat (cat)", "Le chien (dog)", "La maison (house)", "Le garçon (boy)"], "correctIndex": 2, "explanation": "'La maison' (house) is feminine — 'la' indicates feminine gender.", "tags": ["gender"] },
+    { "id": "g5f-w21-mon-010", "question": "How do you make most French nouns feminine from the masculine form?", "options": ["Remove the last letter", "Add -e to the masculine form", "Add -s", "Change the article only"], "correctIndex": 1, "explanation": "Most French nouns add '-e' to form the feminine: ami → amie, étudiant → étudiante.", "tags": ["gender", "grammar"] },
+    { "id": "g5f-w21-mon-011", "question": "What is the correct article for 'école' (school)?", "options": ["Le", "La", "L'", "Les"], "correctIndex": 2, "explanation": "'L'école' — since 'école' starts with a vowel, 'la' becomes 'l'' (elision). École is feminine.", "tags": ["articles"] },
+    { "id": "g5f-w21-mon-012", "question": "Choose the correct article: '___ enfant' (the child)", "options": ["Le / La (depends on child's gender)", "L' (because enfant starts with vowel)", "Les", "Un"], "correctIndex": 1, "explanation": "'L'enfant' — because 'enfant' starts with a vowel, elision occurs. 'Enfant' can be masc. or fem.", "tags": ["articles"] },
+    { "id": "g5f-w21-mon-013", "question": "'Des livres' contains which type of article?", "options": ["Definite article", "Indefinite article (plural)", "Partitive article", "Possessive article"], "correctIndex": 1, "explanation": "'Des' is the plural indefinite article (some/any). 'Des livres' = some books.", "tags": ["articles"] },
+    { "id": "g5f-w21-mon-014", "question": "Which sentence is correct?", "options": ["Je mange le pain (I eat bread/the bread)", "Je mange un pain (I eat a bread)", "Je mange des pain (I eat some bread)", "Je mange la pain"], "correctIndex": 0, "explanation": "'Je mange le pain' is correct — 'pain' is masculine. 'Je mange du pain' (partitive) also works for 'some bread'.", "tags": ["articles", "grammar"] },
+    { "id": "g5f-w21-mon-015", "question": "Why is gender important in French?", "options": ["Only for animals", "Because articles, adjectives, and agreement all depend on a noun's gender", "Only for people", "It's not important"], "correctIndex": 1, "explanation": "Gender affects articles (le/la), adjective agreement (grand/grande), and other parts of the sentence. It is fundamental to French grammar.", "tags": ["gender", "grammar"] }
+  ]
+}

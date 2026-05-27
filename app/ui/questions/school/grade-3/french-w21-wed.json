@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-french-w21-wed",
+  "title": "Grade 3 French — Wed, May 20",
+  "description": "Food & Drinks (La Nourriture et les Boissons) — Last Week Day 3",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "wed",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["french", "grade-3", "weekly", "food"],
+  "questions": [
+    { "id": "g3f-w21-wed-001", "question": "What is 'le pain' in English?", "options": ["Milk", "Bread", "Butter", "Cake"], "correctIndex": 1, "explanation": "'Le pain' = bread.", "tags": ["food"] },
+    { "id": "g3f-w21-wed-002", "question": "What is 'le lait' in English?", "options": ["Water", "Juice", "Milk", "Tea"], "correctIndex": 2, "explanation": "'Le lait' = milk.", "tags": ["food", "drinks"] },
+    { "id": "g3f-w21-wed-003", "question": "How do you say 'water' in French?", "options": ["Le lait", "Le jus", "L'eau", "La limonade"], "correctIndex": 2, "explanation": "'L'eau' = water.", "tags": ["drinks"] },
+    { "id": "g3f-w21-wed-004", "question": "What is 'une pomme' in English?", "options": ["An orange", "A grape", "An apple", "A banana"], "correctIndex": 2, "explanation": "'Une pomme' = an apple.", "tags": ["food", "fruit"] },
+    { "id": "g3f-w21-wed-005", "question": "What is 'le fromage' in English?", "options": ["Butter", "Cheese", "Cream", "Milk"], "correctIndex": 1, "explanation": "'Le fromage' = cheese.", "tags": ["food"] },
+    { "id": "g3f-w21-wed-006", "question": "How do you say 'I am hungry' in French?", "options": ["J'ai soif", "J'ai faim", "J'ai chaud", "J'ai froid"], "correctIndex": 1, "explanation": "'J'ai faim' = I am hungry (literally 'I have hunger').", "tags": ["food", "expressions"] },
+    { "id": "g3f-w21-wed-007", "question": "What is 'le jus d'orange' in English?", "options": ["Orange cake", "Orange juice", "Orange ice cream", "Orange yoghurt"], "correctIndex": 1, "explanation": "'Le jus d'orange' = orange juice.", "tags": ["drinks"] },
+    { "id": "g3f-w21-wed-008", "question": "How do you say 'banana' in French?", "options": ["Une pomme", "Une orange", "Une banane", "Une fraise"], "correctIndex": 2, "explanation": "'Une banane' = a banana.", "tags": ["food", "fruit"] },
+    { "id": "g3f-w21-wed-009", "question": "What is 'une carotte' in English?", "options": ["A potato", "A pea", "An onion", "A carrot"], "correctIndex": 3, "explanation": "'Une carotte' = a carrot.", "tags": ["food", "vegetables"] },
+    { "id": "g3f-w21-wed-010", "question": "How do you say 'I like chocolate' in French?", "options": ["Je mange le chocolat", "J'aime le chocolat", "J'ai le chocolat", "Je veux le chocolat"], "correctIndex": 1, "explanation": "'J'aime le chocolat' = I like chocolate.", "tags": ["food"] },
+    { "id": "g3f-w21-wed-011", "question": "What is 'une fraise' in English?", "options": ["A raspberry", "A blueberry", "A strawberry", "A cherry"], "correctIndex": 2, "explanation": "'Une fraise' = a strawberry.", "tags": ["food", "fruit"] },
+    { "id": "g3f-w21-wed-012", "question": "How do you say 'I am thirsty' in French?", "options": ["J'ai faim", "J'ai soif", "J'ai chaud", "Je mange"], "correctIndex": 1, "explanation": "'J'ai soif' = I am thirsty (literally 'I have thirst').", "tags": ["drinks", "expressions"] },
+    { "id": "g3f-w21-wed-013", "question": "What is 'le gâteau' in English?", "options": ["Bread", "Biscuit", "Cake", "Cookie"], "correctIndex": 2, "explanation": "'Le gâteau' = cake.", "tags": ["food"] },
+    { "id": "g3f-w21-wed-014", "question": "How do you say 'I don't like spinach' in French?", "options": ["J'aime les épinards", "Je ne mange pas les épinards", "Je n'aime pas les épinards", "Je veux les épinards"], "correctIndex": 2, "explanation": "'Je n'aime pas les épinards' = I don't like spinach. 'Ne...pas' = not.", "tags": ["food"] },
+    { "id": "g3f-w21-wed-015", "question": "What is 'le beurre' in English?", "options": ["Milk", "Cheese", "Cream", "Butter"], "correctIndex": 3, "explanation": "'Le beurre' = butter.", "tags": ["food"] }
+  ]
+}

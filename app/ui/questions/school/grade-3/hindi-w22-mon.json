@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-hindi-w22-mon",
+  "title": "Grade 3 Hindi — Mon, May 25",
+  "description": "स्वर और व्यंजन (Vowels & Consonants) — Day 1 of 5",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "mon",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["hindi", "grade-3", "weekly", "alphabet"],
+  "questions": [
+    { "id": "g3h-w22-mon-001", "question": "हिंदी में स्वर कितने होते हैं? (How many vowels are there in Hindi?)", "options": ["9", "11", "13", "15"], "correctIndex": 1, "explanation": "हिंदी में 11 स्वर होते हैं: अ, आ, इ, ई, उ, ऊ, ऋ, ए, ऐ, ओ, औ।", "tags": ["alphabet"] },
+    { "id": "g3h-w22-mon-002", "question": "'अ' से शुरू होने वाला शब्द बताइए:", "options": ["बिल्ली", "अनार", "मछली", "गाय"], "correctIndex": 1, "explanation": "'अनार' 'अ' से शुरू होता है। अनार एक फल है।", "tags": ["alphabet"] },
+    { "id": "g3h-w22-mon-003", "question": "निम्नलिखित में से स्वर कौन सा है?", "options": ["क", "ख", "आ", "ग"], "correctIndex": 2, "explanation": "'आ' एक स्वर है। 'क', 'ख', 'ग' व्यंजन हैं।", "tags": ["alphabet"] },
+    { "id": "g3h-w22-mon-004", "question": "'क' + 'आ' की मात्रा = ?", "options": ["कि", "की", "का", "कु"], "correctIndex": 2, "explanation": "'क' + 'आ' की मात्रा (ा) = 'का'। जैसे: काम, काज।", "tags": ["matras"] },
+    { "id": "g3h-w22-mon-005", "question": "निम्नलिखित में से व्यंजन कौन सा है?", "options": ["अ", "इ", "ग", "ओ"], "correctIndex": 2, "explanation": "'ग' एक व्यंजन है। व्यंजन स्वर की मदद से बोले जाते हैं।", "tags": ["alphabet"] },
+    { "id": "g3h-w22-mon-006", "question": "'प' + 'इ' की मात्रा = ?", "options": ["पा", "पि", "पी", "पे"], "correctIndex": 1, "explanation": "'प' + 'इ' की मात्रा (ि) = 'पि'। जैसे: पिता, पिंजरा।", "tags": ["matras"] },
+    { "id": "g3h-w22-mon-007", "question": "किस शब्द में 'ई' की मात्रा है?", "options": ["पत्ता", "नील", "बीज", "गाय"], "correctIndex": 2, "explanation": "'बीज' में 'ई' की मात्रा (ी) है — बी = ब + ई।", "tags": ["matras"] },
+    { "id": "g3h-w22-mon-008", "question": "'म' + 'उ' की मात्रा = ?", "options": ["मा", "मि", "मु", "मे"], "correctIndex": 2, "explanation": "'म' + 'उ' की मात्रा (ु) = 'मु'। जैसे: मुँह, मुर्गी।", "tags": ["matras"] },
+    { "id": "g3h-w22-mon-009", "question": "निम्नलिखित में से कौन सा शब्द 'ऊ' की मात्रा वाला है?", "options": ["फूल", "फल", "फिल्म", "फैसला"], "correctIndex": 0, "explanation": "'फूल' में 'ऊ' की मात्रा (ू) है — फू = फ + ऊ।", "tags": ["matras"] },
+    { "id": "g3h-w22-mon-010", "question": "वर्णमाला में 'ग' के बाद कौन सा अक्षर आता है?", "options": ["क", "ख", "घ", "च"], "correctIndex": 2, "explanation": "हिंदी वर्णमाला में 'क, ख, ग, घ, ङ' क्रम है। 'ग' के बाद 'घ' आता है।", "tags": ["alphabet"] },
+    { "id": "g3h-w22-mon-011", "question": "किस शब्द में 'ए' की मात्रा है?", "options": ["आम", "केला", "अंगूर", "संतरा"], "correctIndex": 1, "explanation": "'केला' में 'ए' की मात्रा (े) है — के = क + ए।", "tags": ["matras"] },
+    { "id": "g3h-w22-mon-012", "question": "'ल' + 'ओ' की मात्रा = ?", "options": ["ला", "लि", "लो", "ले"], "correctIndex": 2, "explanation": "'ल' + 'ओ' की मात्रा (ो) = 'लो'। जैसे: लोग, लोटा।", "tags": ["matras"] },
+    { "id": "g3h-w22-mon-013", "question": "निम्नलिखित में से कौन सा शब्द सही है?", "options": ["किताब", "कीताब", "कितब", "किताप"], "correctIndex": 0, "explanation": "'किताब' सही शब्द है — इसमें 'इ' की मात्रा है।", "tags": ["spelling"] },
+    { "id": "g3h-w22-mon-014", "question": "'अनुस्वार' (ं) का प्रयोग किस शब्द में है?", "options": ["आम", "केला", "संगीत", "पानी"], "correctIndex": 2, "explanation": "'संगीत' में अनुस्वार (ं) है — यह नाक से निकलने वाली ध्वनि दर्शाता है।", "tags": ["alphabet"] },
+    { "id": "g3h-w22-mon-015", "question": "हिंदी में 'क' वर्ग के व्यंजन हैं:", "options": ["क, ख, ग, घ, ङ", "च, छ, ज, झ, ञ", "प, फ, ब, भ, म", "त, थ, द, ध, न"], "correctIndex": 0, "explanation": "क वर्ग: क, ख, ग, घ, ङ — ये कंठ (throat) से बोले जाते हैं।", "tags": ["alphabet"] }
+  ]
+}

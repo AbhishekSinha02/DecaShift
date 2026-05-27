@@ -7,13 +7,27 @@ Track content coverage across all grades and professional topics, define minimum
 question targets, and build the process for continuously adding high-quality
 questions without developer involvement.
 
-## Current State (after v3.2 content expansion)
+## Current State (after v3.5 — 2026-05-26)
+
+### Weekly file format (new architecture — BUG-005 fix)
+Each subject per grade = 10 files (5 active W22 + 5 archived W21) × 15q each = 150q per subject
+
+| Grade | Math | Science | Hindi | French | Total weekly Q |
+|---|---|---|---|---|---|
+| Grade 3 | ✅ 10 files (150q) | ✅ 10 files (150q) | ✅ 10 files (150q) | ✅ 10 files (150q) | **600q** |
+| Grade 5 | ✅ 10 files (150q) | ✅ 10 files (150q) | ✅ 10 files (150q) | ✅ 10 files (150q) | **600q** |
+| Grade 2 | ❌ not yet | ❌ not yet | — | — | 0 |
+| Grade 4 | ❌ not yet | ❌ not yet | ❌ not yet | ❌ not yet | 0 |
+| Grade 6 | ❌ not yet | ❌ not yet | ❌ not yet | ❌ not yet | 0 |
+| Grade 7 | ❌ not yet | ❌ not yet | — | — | 0 |
+| Grade 8 | ❌ not yet | ❌ not yet | — | — | 0 |
+| **Weekly subtotal** | | | | | **1,200q** |
+
+### Legacy flat files (old format — still active for untouched grades)
 | File | Questions | Grade/Category |
 |---|---|---|
 | grade-2-math.json | 15 | Grade 2 |
-| grade-3-math.json | 15 | Grade 3 |
 | grade-4-math.json | 15 | Grade 4 |
-| grade-5-math.json | 20 | Grade 5 |
 | grade-6-math.json | 15 | Grade 6 |
 | grade-7-math.json | 15 | Grade 7 |
 | grade-8-science.json | 20 | Grade 8 |
@@ -28,7 +42,11 @@ questions without developer involvement.
 | pro-devops.json | 15 | Professional |
 | pro-python.json | 15 | Professional |
 | pro-system-design.json | 15 | Professional |
-| **TOTAL** | **295** | 11 grades + 2 college + 5 pro |
+| **Legacy subtotal** | **275** | |
+
+**GRAND TOTAL: ~1,475 questions** (1,200 weekly + 275 legacy)
+
+> ⚠️ Do NOT generate more weekly files until P3-T021 (curriculum map) is defined. Topics must follow a structured learning sequence, not be chosen ad-hoc. Test Grades 3+5 in the browser first.
 
 ## Minimum Coverage Targets
 

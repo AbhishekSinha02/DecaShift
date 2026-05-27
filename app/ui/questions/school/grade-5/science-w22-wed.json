@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w22-wed",
+  "title": "Grade 5 Science — Wed, May 27",
+  "description": "Force & Motion — Day 3 of 5",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "wed",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "force"],
+  "questions": [
+    { "id": "g5s-w22-wed-001", "question": "A force is a:", "options": ["Type of energy", "Push or pull on an object", "Form of light", "Type of matter"], "correctIndex": 1, "explanation": "A force is a push or pull that can change an object's shape, speed, or direction.", "tags": ["force"] },
+    { "id": "g5s-w22-wed-002", "question": "What type of force acts between a magnet and iron?", "options": ["Gravitational", "Frictional", "Magnetic", "Electrostatic"], "correctIndex": 2, "explanation": "Magnets attract iron through magnetic force — a non-contact force.", "tags": ["force", "magnetic"] },
+    { "id": "g5s-w22-wed-003", "question": "Friction always acts:", "options": ["In the direction of motion", "Opposite to the direction of motion", "Perpendicular to motion", "Upward"], "correctIndex": 1, "explanation": "Friction opposes motion — it acts in the opposite direction to movement.", "tags": ["force", "friction"] },
+    { "id": "g5s-w22-wed-004", "question": "Why does a ball eventually stop rolling on a flat surface?", "options": ["Gravity", "Air resistance and friction", "Magnetic force", "It runs out of energy"], "correctIndex": 1, "explanation": "Friction from the ground and air resistance slow the ball until it stops.", "tags": ["force", "friction"] },
+    { "id": "g5s-w22-wed-005", "question": "Which surface has the most friction?", "options": ["Ice rink", "Oiled metal", "Concrete road", "Glass surface"], "correctIndex": 2, "explanation": "Rough surfaces like concrete have more friction than smooth surfaces.", "tags": ["friction"] },
+    { "id": "g5s-w22-wed-006", "question": "Gravitational force on the moon is about 1/6 of Earth's. If you weigh 60 kg on Earth, your weight on the moon is:", "options": ["6 kg", "10 kg", "12 kg", "360 kg"], "correctIndex": 1, "explanation": "60 ÷ 6 = 10 kg weight on moon (note: mass stays 60 kg but weight/force changes).", "tags": ["gravity", "word-problem"] },
+    { "id": "g5s-w22-wed-007", "question": "What happens to the speed of a falling object (ignoring air resistance)?", "options": ["Stays constant", "Decreases", "Increases", "Becomes zero"], "correctIndex": 2, "explanation": "Gravity continuously accelerates a falling object — its speed increases.", "tags": ["gravity", "motion"] },
+    { "id": "g5s-w22-wed-008", "question": "Lubricants like oil are used to:", "options": ["Increase friction", "Reduce friction", "Stop objects from moving", "Increase gravity"], "correctIndex": 1, "explanation": "Lubricants reduce friction between moving parts, making machines work smoothly.", "tags": ["friction"] },
+    { "id": "g5s-w22-wed-009", "question": "Which of these is a contact force?", "options": ["Magnetic force", "Gravitational force", "Friction", "Electrostatic force"], "correctIndex": 2, "explanation": "Friction requires physical contact between surfaces. Gravity and magnetism are non-contact forces.", "tags": ["force", "types"] },
+    { "id": "g5s-w22-wed-010", "question": "A heavier object dropped from the same height as a lighter object (ignoring air resistance) will:", "options": ["Fall faster", "Fall slower", "Fall at the same speed", "Not fall at all"], "correctIndex": 2, "explanation": "In absence of air resistance, all objects fall at the same rate (Galileo's discovery).", "tags": ["gravity"] },
+    { "id": "g5s-w22-wed-011", "question": "What force keeps planets in orbit around the sun?", "options": ["Magnetic force", "Friction", "Gravitational force", "Electrostatic force"], "correctIndex": 2, "explanation": "Gravity between the Sun and planets keeps them in orbit.", "tags": ["gravity", "space"] },
+    { "id": "g5s-w22-wed-012", "question": "Streamlined shapes help vehicles reduce:", "options": ["Gravity", "Friction with road", "Air resistance", "Magnetic force"], "correctIndex": 2, "explanation": "Streamlined shapes reduce air resistance, allowing faster and more efficient movement.", "tags": ["force", "air-resistance"] },
+    { "id": "g5s-w22-wed-013", "question": "Which tool measures force?", "options": ["Thermometer", "Barometer", "Spring balance", "Ruler"], "correctIndex": 2, "explanation": "A spring balance (Newton metre) measures force in Newtons.", "tags": ["force", "measurement"] },
+    { "id": "g5s-w22-wed-014", "question": "The SI unit of force is:", "options": ["Kilogram", "Joule", "Newton", "Pascal"], "correctIndex": 2, "explanation": "Force is measured in Newtons (N), named after Isaac Newton.", "tags": ["force", "units"] },
+    { "id": "g5s-w22-wed-015", "question": "When you kick a ball, which Newton's law explains that the ball moves forward?", "options": ["1st law (inertia)", "2nd law (F=ma)", "3rd law (action-reaction)", "Law of gravity"], "correctIndex": 1, "explanation": "Newton's 2nd law: Force = mass × acceleration. The force of your kick accelerates the ball.", "tags": ["force", "newton-laws"] }
+  ]
+}

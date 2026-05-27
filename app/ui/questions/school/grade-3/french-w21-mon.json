@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-french-w21-mon",
+  "title": "Grade 3 French — Mon, May 18",
+  "description": "The Alphabet & Phonics (L'Alphabet et la Phonétique) — Last Week Day 1",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "mon",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["french", "grade-3", "weekly", "alphabet"],
+  "questions": [
+    { "id": "g3f-w21-mon-001", "question": "How many letters are in the French alphabet?", "options": ["24", "25", "26", "28"], "correctIndex": 2, "explanation": "The French alphabet has 26 letters — the same as English, but with accented vowels added.", "tags": ["alphabet"] },
+    { "id": "g3f-w21-mon-002", "question": "Which accented letter is special to French?", "options": ["ä", "ö", "é", "ü"], "correctIndex": 2, "explanation": "'é' (e with acute accent) is very common in French, as in 'école' (school) and 'été' (summer).", "tags": ["alphabet"] },
+    { "id": "g3f-w21-mon-003", "question": "How is the letter 'e' pronounced at the end of a French word?", "options": ["Like 'ee'", "Loudly like 'ay'", "It is silent (not pronounced)", "Like 'eh'"], "correctIndex": 2, "explanation": "In French, a final 'e' (without accent) is usually silent. Example: 'rouge' = /rooj/, not /roo-jeh/.", "tags": ["phonics"] },
+    { "id": "g3f-w21-mon-004", "question": "In French, how do you pronounce 'ch'?", "options": ["Like 'ch' in 'chair'", "Like 'sh' in 'shoe'", "Like 'k'", "Like 'j'"], "correctIndex": 1, "explanation": "In French, 'ch' is pronounced like 'sh' in English. Example: 'chat' (cat) = /sha/.", "tags": ["phonics"] },
+    { "id": "g3f-w21-mon-005", "question": "What accent is on 'è'?", "options": ["Acute accent (é)", "Grave accent (è)", "Circumflex (ê)", "Cedilla (ç)"], "correctIndex": 1, "explanation": "'è' has a grave accent — it's pronounced like 'eh' as in 'bed'.", "tags": ["alphabet"] },
+    { "id": "g3f-w21-mon-006", "question": "The cedilla (ç) changes the sound of 'c' to:", "options": ["Hard 'k' sound", "Soft 's' sound", "'sh' sound", "'ch' sound"], "correctIndex": 1, "explanation": "'Ç' (c with cedilla) is pronounced like 's'. Example: 'français' (French) = /frahn-say/.", "tags": ["phonics"] },
+    { "id": "g3f-w21-mon-007", "question": "In French, the letters 'ou' together make the sound:", "options": ["Like English 'oo' (moon)", "Like English 'oh'", "Like English 'ow'", "Like English 'uh'"], "correctIndex": 0, "explanation": "'Ou' in French makes the 'oo' sound (like moon). Example: 'vous' = /voo/, 'rouge' = /rooj/.", "tags": ["phonics"] },
+    { "id": "g3f-w21-mon-008", "question": "In French, 'eau' is pronounced as:", "options": ["'Ee-ah-oo'", "'Oh' (like English 'go')", "'Aw'", "'Ay'"], "correctIndex": 1, "explanation": "'Eau' is pronounced like 'oh'. Example: 'beau' (beautiful) = /boh/, 'eau' (water) = /oh/.", "tags": ["phonics"] },
+    { "id": "g3f-w21-mon-009", "question": "The French letter 'j' is pronounced like:", "options": ["'y' in yes", "'j' in jump", "'zh' (like the 's' in measure)", "'sh' in shoe"], "correctIndex": 2, "explanation": "French 'j' is like the 's' in 'measure' or 'treasure'. Example: 'je' = /zhuh/.", "tags": ["phonics"] },
+    { "id": "g3f-w21-mon-010", "question": "The letters 'ai' in French are pronounced like:", "options": ["'Ay' as in 'day'", "'Ah-ee'", "'I' as in 'ice'", "'Aw'"], "correctIndex": 0, "explanation": "'Ai' in French sounds like 'ay'. Example: 'j'ai' (I have) = /zhay/, 'vrai' (true) = /vray/.", "tags": ["phonics"] },
+    { "id": "g3f-w21-mon-011", "question": "Which word uses the circumflex accent (^)?", "options": ["Café", "Maïs", "Être", "Français"], "correctIndex": 2, "explanation": "'Être' (to be) uses a circumflex on the 'ê'. The circumflex often shows where a historical 's' was dropped.", "tags": ["alphabet"] },
+    { "id": "g3f-w21-mon-012", "question": "In French, a final consonant is usually:", "options": ["Always pronounced", "Often silent", "Always doubled", "Never written"], "correctIndex": 1, "explanation": "In French, final consonants are often silent. Example: 'Paris' = /pah-ree/ (the 's' is silent).", "tags": ["phonics"] },
+    { "id": "g3f-w21-mon-013", "question": "The French word for 'school' is 'école'. How is the first sound pronounced?", "options": ["'Ee-cole'", "'Eh-cole'", "'Ay-cole'", "'Oo-cole'"], "correctIndex": 1, "explanation": "'École' = /ay-kohl/. The 'é' (acute accent) sounds like 'ay'.", "tags": ["phonics", "vocabulary"] },
+    { "id": "g3f-w21-mon-014", "question": "What does a tréma (ë, ï) do in French?", "options": ["Makes the letter silent", "Shows the vowel is pronounced separately from the one before it", "Changes 'c' to 's'", "Makes the vowel longer"], "correctIndex": 1, "explanation": "A tréma (two dots) means the vowel is pronounced separately. Example: 'Noël' = /no-EL/, not 'noel'.", "tags": ["alphabet"] },
+    { "id": "g3f-w21-mon-015", "question": "Liaison in French means:", "options": ["Saying a silent consonant when the next word starts with a vowel", "Skipping a letter", "Adding an accent", "Repeating a word"], "correctIndex": 0, "explanation": "Liaison connects words: the silent final consonant of one word is pronounced before a vowel. 'Les amis' = /lay-za-mee/ (the 's' in 'les' is spoken).", "tags": ["phonics"] }
+  ]
+}

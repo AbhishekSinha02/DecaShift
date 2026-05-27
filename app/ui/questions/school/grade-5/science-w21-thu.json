@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w21-thu",
+  "title": "Grade 5 Science — Thu, May 21",
+  "description": "Conductors & Insulators — Last Week Day 4",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "thu",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["science", "grade-5", "weekly", "electricity"],
+  "questions": [
+    { "id": "g5s-w21-thu-001", "question": "Materials that allow electricity to flow through them are called:", "options": ["Insulators", "Conductors", "Semiconductors", "Resistors"], "correctIndex": 1, "explanation": "Conductors allow electricity to flow easily. Most metals are good conductors.", "tags": ["electricity", "conductors"] },
+    { "id": "g5s-w21-thu-002", "question": "Which material is the best conductor of electricity?", "options": ["Plastic", "Wood", "Silver", "Rubber"], "correctIndex": 2, "explanation": "Silver is the best conductor of electricity, though copper is more commonly used.", "tags": ["conductors"] },
+    { "id": "g5s-w21-thu-003", "question": "Insulators are used in electrical wires to:", "options": ["Increase current flow", "Prevent electric shock", "Increase resistance", "Connect circuits"], "correctIndex": 1, "explanation": "Insulating material (rubber/plastic) around wires prevents electrical shock and short circuits.", "tags": ["insulators"] },
+    { "id": "g5s-w21-thu-004", "question": "Which of these is an insulator?", "options": ["Iron", "Copper", "Aluminium", "Wood"], "correctIndex": 3, "explanation": "Wood is a poor conductor of electricity — it is an insulator.", "tags": ["insulators"] },
+    { "id": "g5s-w21-thu-005", "question": "A complete path for electricity to flow is called a:", "options": ["Switch", "Circuit", "Battery", "Bulb"], "correctIndex": 1, "explanation": "An electric circuit is a closed loop through which electric current flows.", "tags": ["circuits"] },
+    { "id": "g5s-w21-thu-006", "question": "What happens in an open circuit?", "options": ["More current flows", "No current flows", "Bulb glows brighter", "Battery explodes"], "correctIndex": 1, "explanation": "In an open circuit, the path is broken — no current flows and the bulb does not glow.", "tags": ["circuits"] },
+    { "id": "g5s-w21-thu-007", "question": "Which device is used to make or break a circuit?", "options": ["Bulb", "Battery", "Switch", "Wire"], "correctIndex": 2, "explanation": "A switch controls the circuit — open switch breaks the circuit, closed switch completes it.", "tags": ["circuits"] },
+    { "id": "g5s-w21-thu-008", "question": "Why do birds sitting on power lines not get electrocuted?", "options": ["Birds are conductors", "Current flows only through one wire, birds don't complete a circuit to ground", "Power lines carry no current", "Birds are insulated by feathers"], "correctIndex": 1, "explanation": "Birds on a single wire don't complete a circuit between two points of different potential, so no current flows through them.", "tags": ["electricity"] },
+    { "id": "g5s-w21-thu-009", "question": "Graphite (pencil lead) is:", "options": ["A pure insulator", "A conductor of electricity", "Not related to electricity", "A semiconductor only"], "correctIndex": 1, "explanation": "Graphite is an unusual non-metal that conducts electricity due to its structure.", "tags": ["conductors"] },
+    { "id": "g5s-w21-thu-010", "question": "In a torch, what converts electrical energy to light energy?", "options": ["Battery", "Switch", "Bulb", "Wire"], "correctIndex": 2, "explanation": "The bulb (filament) converts electrical energy to light (and heat) energy.", "tags": ["electricity", "energy"] },
+    { "id": "g5s-w21-thu-011", "question": "When metals are heated, they become:", "options": ["Better insulators", "Better conductors", "Neither better nor worse", "Semiconductors"], "correctIndex": 1, "explanation": "Generally, metals conduct electricity better at lower temperatures. However, metals remain conductors when heated.", "tags": ["conductors"] },
+    { "id": "g5s-w21-thu-012", "question": "Which is NOT safe to do during a thunderstorm?", "options": ["Stay indoors", "Stand under a tall tree", "Avoid touching metal objects", "Move away from open water"], "correctIndex": 1, "explanation": "Tall trees attract lightning. Standing under one during a storm is very dangerous.", "tags": ["electricity", "safety"] },
+    { "id": "g5s-w21-thu-013", "question": "A fuse in an electric circuit:", "options": ["Increases current", "Stores electricity", "Protects the circuit by melting when current is too high", "Makes circuits permanent"], "correctIndex": 2, "explanation": "A fuse has a thin wire that melts and breaks the circuit when current exceeds a safe level.", "tags": ["circuits", "safety"] },
+    { "id": "g5s-w21-thu-014", "question": "Water conducts electricity because of:", "options": ["Hydrogen atoms", "Dissolved salts and minerals (ions)", "Oxygen molecules", "Its transparent nature"], "correctIndex": 1, "explanation": "Pure water is a poor conductor; tap/sea water conducts because of dissolved mineral ions.", "tags": ["electricity"] },
+    { "id": "g5s-w21-thu-015", "question": "Which material would make the best insulator for electrical cables?", "options": ["Copper", "Aluminium", "PVC plastic", "Iron"], "correctIndex": 2, "explanation": "PVC (plastic) is an excellent electrical insulator — it covers copper wires to make safe cables.", "tags": ["insulators"] }
+  ]
+}

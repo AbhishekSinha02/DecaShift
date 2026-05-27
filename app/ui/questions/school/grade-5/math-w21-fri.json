@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w21-fri",
+  "title": "Grade 5 Math — Fri, May 22",
+  "description": "Algebra Intro — Last Week Day 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "fri",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["math", "grade-5", "weekly", "algebra"],
+  "questions": [
+    { "id": "g5m-w21-fri-001", "question": "If n + 7 = 15, what is n?", "options": ["6", "7", "8", "9"], "correctIndex": 2, "explanation": "n = 15 − 7 = 8.", "tags": ["algebra"] },
+    { "id": "g5m-w21-fri-002", "question": "If 3x = 21, what is x?", "options": ["5", "6", "7", "8"], "correctIndex": 2, "explanation": "x = 21 ÷ 3 = 7.", "tags": ["algebra"] },
+    { "id": "g5m-w21-fri-003", "question": "What is the value of 2a + 3b when a=4 and b=2?", "options": ["12", "14", "16", "18"], "correctIndex": 1, "explanation": "2(4) + 3(2) = 8 + 6 = 14.", "tags": ["algebra", "substitution"] },
+    { "id": "g5m-w21-fri-004", "question": "If p − 9 = 13, what is p?", "options": ["4", "18", "21", "22"], "correctIndex": 3, "explanation": "p = 13 + 9 = 22.", "tags": ["algebra"] },
+    { "id": "g5m-w21-fri-005", "question": "Which expression means 'add 5 to y and multiply by 3'?", "options": ["5y + 3", "3(y + 5)", "3y + 5", "(3 + 5)y"], "correctIndex": 1, "explanation": "'y + 5' then '× 3' = 3(y + 5).", "tags": ["algebra", "expressions"] },
+    { "id": "g5m-w21-fri-006", "question": "If 4m − 3 = 17, what is m?", "options": ["3", "4", "5", "6"], "correctIndex": 2, "explanation": "4m = 17 + 3 = 20. m = 20 ÷ 4 = 5.", "tags": ["algebra"] },
+    { "id": "g5m-w21-fri-007", "question": "Simplify: 3x + 2x − x", "options": ["3x", "4x", "5x", "6x"], "correctIndex": 1, "explanation": "3x + 2x − x = (3 + 2 − 1)x = 4x.", "tags": ["algebra", "simplification"] },
+    { "id": "g5m-w21-fri-008", "question": "A number increased by 12 equals 30. What is the number?", "options": ["15", "16", "17", "18"], "correctIndex": 3, "explanation": "n + 12 = 30 → n = 18.", "tags": ["algebra", "word-problem"] },
+    { "id": "g5m-w21-fri-009", "question": "If 5 × y = 45, what is y?", "options": ["7", "8", "9", "10"], "correctIndex": 2, "explanation": "y = 45 ÷ 5 = 9.", "tags": ["algebra"] },
+    { "id": "g5m-w21-fri-010", "question": "Which of the following is an algebraic expression?", "options": ["3 + 4 = 7", "x + 5", "12 ÷ 4", "8 − 3 = 5"], "correctIndex": 1, "explanation": "x + 5 contains a variable (x), making it an algebraic expression.", "tags": ["algebra", "terminology"] },
+    { "id": "g5m-w21-fri-011", "question": "Meena is x years old. Her brother is 3 times her age minus 4. How old is her brother?", "options": ["3x + 4", "3x − 4", "x/3 − 4", "3(x − 4)"], "correctIndex": 1, "explanation": "'3 times x' = 3x. 'Minus 4' = 3x − 4.", "tags": ["algebra", "word-problem"] },
+    { "id": "g5m-w21-fri-012", "question": "If 2n + 4 = 18, what is n?", "options": ["5", "6", "7", "8"], "correctIndex": 2, "explanation": "2n = 18 − 4 = 14. n = 7.", "tags": ["algebra"] },
+    { "id": "g5m-w21-fri-013", "question": "What is the value of 10 − x when x = 3?", "options": ["5", "6", "7", "8"], "correctIndex": 2, "explanation": "10 − 3 = 7.", "tags": ["algebra", "substitution"] },
+    { "id": "g5m-w21-fri-014", "question": "Which is the correct formula for perimeter (P) of a rectangle with length l and width w?", "options": ["P = l × w", "P = 2l + w", "P = l + w", "P = 2(l + w)"], "correctIndex": 3, "explanation": "Perimeter = 2 × (length + width) = 2(l + w).", "tags": ["algebra", "formula"] },
+    { "id": "g5m-w21-fri-015", "question": "Raju has q rupees. After buying a pencil for ₹3, he has ₹17. Which equation shows this?", "options": ["q + 3 = 17", "q − 3 = 17", "3q = 17", "q/3 = 17"], "correctIndex": 1, "explanation": "q (initial) − 3 (spent) = 17 (remaining). So q − 3 = 17.", "tags": ["algebra", "word-problem"] }
+  ]
+}

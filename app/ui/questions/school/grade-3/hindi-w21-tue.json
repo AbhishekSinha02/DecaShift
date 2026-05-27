@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-hindi-w21-tue",
+  "title": "Grade 3 Hindi — Tue, May 19",
+  "description": "विलोम और पर्यायवाची (Antonyms & Synonyms) — Last Week Day 2",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "tue",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["hindi", "grade-3", "weekly", "vocabulary"],
+  "questions": [
+    { "id": "g3h-w21-tue-001", "question": "'दिन' का विलोम (opposite) है:", "options": ["सुबह", "शाम", "रात", "दोपहर"], "correctIndex": 2, "explanation": "'दिन' का विलोम 'रात' है।", "tags": ["antonyms"] },
+    { "id": "g3h-w21-tue-002", "question": "'बड़ा' का विलोम है:", "options": ["मोटा", "लंबा", "छोटा", "ऊँचा"], "correctIndex": 2, "explanation": "'बड़ा' का विलोम 'छोटा' है।", "tags": ["antonyms"] },
+    { "id": "g3h-w21-tue-003", "question": "'ठंडा' का विलोम है:", "options": ["गर्म", "ठंडक", "सर्दी", "ठंडाई"], "correctIndex": 0, "explanation": "'ठंडा' का विलोम 'गर्म' है।", "tags": ["antonyms"] },
+    { "id": "g3h-w21-tue-004", "question": "'खुशी' का विलोम है:", "options": ["आनंद", "हँसी", "दुख", "प्रसन्नता"], "correctIndex": 2, "explanation": "'खुशी' का विलोम 'दुख' है।", "tags": ["antonyms"] },
+    { "id": "g3h-w21-tue-005", "question": "'आना' का विलोम है:", "options": ["आना", "जाना", "रुकना", "चलना"], "correctIndex": 1, "explanation": "'आना' का विलोम 'जाना' है।", "tags": ["antonyms"] },
+    { "id": "g3h-w21-tue-006", "question": "'जल' का पर्यायवाची (synonym) है:", "options": ["थल", "अग्नि", "पानी", "वायु"], "correctIndex": 2, "explanation": "'जल' का पर्यायवाची 'पानी' है। दोनों का अर्थ water है।", "tags": ["synonyms"] },
+    { "id": "g3h-w21-tue-007", "question": "'सूर्य' का पर्यायवाची है:", "options": ["चंद्रमा", "तारा", "रवि", "बादल"], "correctIndex": 2, "explanation": "'सूर्य' का पर्यायवाची 'रवि' है। दोनों का अर्थ sun है।", "tags": ["synonyms"] },
+    { "id": "g3h-w21-tue-008", "question": "'अच्छा' का विलोम है:", "options": ["बुरा", "सुंदर", "भला", "शुभ"], "correctIndex": 0, "explanation": "'अच्छा' का विलोम 'बुरा' है।", "tags": ["antonyms"] },
+    { "id": "g3h-w21-tue-009", "question": "'घर' का पर्यायवाची है:", "options": ["बाहर", "मकान", "रास्ता", "शहर"], "correctIndex": 1, "explanation": "'घर' का पर्यायवाची 'मकान' है — दोनों का अर्थ house है।", "tags": ["synonyms"] },
+    { "id": "g3h-w21-tue-010", "question": "'ऊपर' का विलोम है:", "options": ["नीचे", "पास", "दूर", "अंदर"], "correctIndex": 0, "explanation": "'ऊपर' का विलोम 'नीचे' है।", "tags": ["antonyms"] },
+    { "id": "g3h-w21-tue-011", "question": "'वृक्ष' का पर्यायवाची है:", "options": ["फूल", "पेड़", "पत्ता", "जड़"], "correctIndex": 1, "explanation": "'वृक्ष' का पर्यायवाची 'पेड़' है — दोनों का अर्थ tree है।", "tags": ["synonyms"] },
+    { "id": "g3h-w21-tue-012", "question": "'सच' का विलोम है:", "options": ["सही", "सत्य", "झूठ", "ईमान"], "correctIndex": 2, "explanation": "'सच' का विलोम 'झूठ' है।", "tags": ["antonyms"] },
+    { "id": "g3h-w21-tue-013", "question": "'राजा' का पर्यायवाची है:", "options": ["रानी", "नरेश", "मंत्री", "सेवक"], "correctIndex": 1, "explanation": "'राजा' का पर्यायवाची 'नरेश' है — दोनों का अर्थ king है।", "tags": ["synonyms"] },
+    { "id": "g3h-w21-tue-014", "question": "'मीठा' का विलोम है:", "options": ["खट्टा", "कड़वा", "नमकीन", "तीखा"], "correctIndex": 1, "explanation": "'मीठा' का विलोम 'कड़वा' (bitter) है।", "tags": ["antonyms"] },
+    { "id": "g3h-w21-tue-015", "question": "'पुस्तक' का पर्यायवाची है:", "options": ["पाठशाला", "किताब", "कलम", "कागज़"], "correctIndex": 1, "explanation": "'पुस्तक' का पर्यायवाची 'किताब' है — दोनों का अर्थ book है।", "tags": ["synonyms"] }
+  ]
+}

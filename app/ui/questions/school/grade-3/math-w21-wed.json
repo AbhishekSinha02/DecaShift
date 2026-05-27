@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w21-wed",
+  "title": "Grade 3 Maths — Wed, May 20",
+  "description": "Subtraction with Borrowing — Last Week Day 3",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "wed",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["maths", "grade-3", "weekly", "subtraction"],
+  "questions": [
+    { "id": "g3m-w21-wed-001", "question": "What is 52 − 27?", "options": ["23", "25", "27", "29"], "correctIndex": 1, "explanation": "52 − 27: borrow from tens. 12−7=5, 4−2=2. Answer: 25.", "tags": ["subtraction"] },
+    { "id": "g3m-w21-wed-002", "question": "What is 200 − 63?", "options": ["127", "137", "147", "157"], "correctIndex": 1, "explanation": "200 − 63: borrow twice. 200−63=137.", "tags": ["subtraction"] },
+    { "id": "g3m-w21-wed-003", "question": "A box had 435 chocolates. 178 were eaten. How many remain?", "options": ["247", "257", "267", "277"], "correctIndex": 1, "explanation": "435 − 178: ones: borrow, 15−8=7. Tens: borrow, 12−7=5+... = 257.", "tags": ["subtraction", "word-problems"] },
+    { "id": "g3m-w21-wed-004", "question": "What is 300 − 148?", "options": ["142", "152", "162", "172"], "correctIndex": 1, "explanation": "300 − 148 = 152.", "tags": ["subtraction"] },
+    { "id": "g3m-w21-wed-005", "question": "What is 764 − 389?", "options": ["365", "375", "385", "395"], "correctIndex": 1, "explanation": "764 − 389 = 375. ones: borrow, 14−9=5. Tens: borrow, 15−8=7. Hundreds: 6−3=3. Answer: 375.", "tags": ["subtraction"] },
+    { "id": "g3m-w21-wed-006", "question": "The library had 521 books. 247 were borrowed. How many are left?", "options": ["264", "274", "284", "294"], "correctIndex": 1, "explanation": "521 − 247 = 274.", "tags": ["subtraction", "word-problems"] },
+    { "id": "g3m-w21-wed-007", "question": "What is 500 − 237?", "options": ["253", "263", "273", "283"], "correctIndex": 1, "explanation": "500 − 237 = 263.", "tags": ["subtraction"] },
+    { "id": "g3m-w21-wed-008", "question": "Which is the CORRECT way to check 83 − 46 = 37?", "options": ["46 + 83", "37 + 46 = 83", "83 + 37", "46 − 37"], "correctIndex": 1, "explanation": "Add the answer back to the subtracted number: 37 + 46 = 83. If it matches the starting number, the subtraction is correct.", "tags": ["subtraction"] },
+    { "id": "g3m-w21-wed-009", "question": "What is 631 − 284?", "options": ["337", "347", "357", "367"], "correctIndex": 1, "explanation": "631 − 284 = 347.", "tags": ["subtraction"] },
+    { "id": "g3m-w21-wed-010", "question": "Estimate: 587 − 312 is closest to:", "options": ["200", "250", "275", "300"], "correctIndex": 3, "explanation": "Round to hundreds: 600 − 300 = 300. Estimate is 300.", "tags": ["subtraction", "estimation"] },
+    { "id": "g3m-w21-wed-011", "question": "What is 1000 − 450?", "options": ["450", "540", "550", "650"], "correctIndex": 2, "explanation": "1000 − 450 = 550.", "tags": ["subtraction"] },
+    { "id": "g3m-w21-wed-012", "question": "Priya scored 473 in a game. Her friend scored 285. How many more points did Priya score?", "options": ["178", "188", "198", "208"], "correctIndex": 1, "explanation": "473 − 285 = 188. Priya scored 188 more points.", "tags": ["subtraction", "word-problems"] },
+    { "id": "g3m-w21-wed-013", "question": "What is 702 − 358?", "options": ["334", "344", "354", "364"], "correctIndex": 1, "explanation": "702 − 358 = 344.", "tags": ["subtraction"] },
+    { "id": "g3m-w21-wed-014", "question": "Which two numbers have a difference of 200?", "options": ["350 and 250", "450 and 200", "600 and 400", "Both A and C"], "correctIndex": 3, "explanation": "350−250=100 ✗. 450−200=250 ✗. 600−400=200 ✓. So answer C (and A is wrong). Only C: 600−400=200.", "tags": ["subtraction"] },
+    { "id": "g3m-w21-wed-015", "question": "A bag of rice weighed 850 g. 375 g was used for cooking. How much rice is left?", "options": ["465 g", "475 g", "485 g", "495 g"], "correctIndex": 1, "explanation": "850 − 375 = 475 g of rice remaining.", "tags": ["subtraction", "word-problems"] }
+  ]
+}

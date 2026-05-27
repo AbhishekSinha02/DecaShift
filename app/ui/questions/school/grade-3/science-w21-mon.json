@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w21-mon",
+  "title": "Grade 3 Science — Mon, May 18",
+  "description": "Human Body — Organs and Senses — Last Week Day 1",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "mon",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["science", "grade-3", "weekly", "human-body"],
+  "questions": [
+    { "id": "g3s-w21-mon-001", "question": "Which organ pumps blood around the body?", "options": ["Brain", "Lungs", "Heart", "Kidney"], "correctIndex": 2, "explanation": "The heart is a muscular organ that pumps blood through blood vessels to all parts of the body.", "tags": ["human-body"] },
+    { "id": "g3s-w21-mon-002", "question": "How many senses does the human body have?", "options": ["3", "4", "5", "6"], "correctIndex": 2, "explanation": "The 5 senses are: sight, hearing, smell, taste, and touch.", "tags": ["human-body", "senses"] },
+    { "id": "g3s-w21-mon-003", "question": "Which body part do we use to smell?", "options": ["Eyes", "Ears", "Nose", "Skin"], "correctIndex": 2, "explanation": "The nose contains smell receptors (olfactory cells) that detect scents in the air.", "tags": ["senses"] },
+    { "id": "g3s-w21-mon-004", "question": "The brain is protected by the:", "options": ["Ribcage", "Skull", "Spine", "Skin"], "correctIndex": 1, "explanation": "The skull (cranium) is the hard bone case that protects the brain from injury.", "tags": ["human-body"] },
+    { "id": "g3s-w21-mon-005", "question": "What is the job of the lungs?", "options": ["Pump blood", "Digest food", "Take in oxygen and release carbon dioxide", "Control muscles"], "correctIndex": 2, "explanation": "Lungs are used for breathing — they take in oxygen from air and release carbon dioxide as a waste gas.", "tags": ["human-body"] },
+    { "id": "g3s-w21-mon-006", "question": "Which organ controls everything the body does?", "options": ["Heart", "Stomach", "Brain", "Liver"], "correctIndex": 2, "explanation": "The brain is the control centre of the body — it controls movement, thought, memory, and all body functions.", "tags": ["human-body"] },
+    { "id": "g3s-w21-mon-007", "question": "Bones in the body form the:", "options": ["Muscular system", "Nervous system", "Skeleton", "Digestive system"], "correctIndex": 2, "explanation": "All bones in the body together form the skeleton. The skeleton supports the body and protects organs.", "tags": ["human-body", "skeleton"] },
+    { "id": "g3s-w21-mon-008", "question": "How many bones are in the adult human body?", "options": ["106", "206", "306", "406"], "correctIndex": 1, "explanation": "An adult human body has 206 bones. Babies are born with about 270 — some fuse together as we grow.", "tags": ["human-body", "skeleton"] },
+    { "id": "g3s-w21-mon-009", "question": "Which body part do we use for the sense of taste?", "options": ["Eyes", "Ears", "Tongue", "Nose"], "correctIndex": 2, "explanation": "The tongue has taste buds that detect sweet, salty, sour, bitter, and savoury (umami) tastes.", "tags": ["senses"] },
+    { "id": "g3s-w21-mon-010", "question": "What does the stomach do?", "options": ["Pumps blood", "Breaks down food with acids and enzymes", "Controls the brain", "Filters blood"], "correctIndex": 1, "explanation": "The stomach digests food using gastric acids and enzymes, breaking it into smaller pieces.", "tags": ["human-body", "digestion"] },
+    { "id": "g3s-w21-mon-011", "question": "Which sense helps us hear sounds?", "options": ["Sight", "Smell", "Hearing (ears)", "Touch"], "correctIndex": 2, "explanation": "The ears collect sound waves and send signals to the brain. The inner ear converts vibrations to nerve signals.", "tags": ["senses"] },
+    { "id": "g3s-w21-mon-012", "question": "Muscles help the body to:", "options": ["See", "Hear", "Move", "Taste"], "correctIndex": 2, "explanation": "Muscles contract and relax to create movement in the body — from walking to blinking.", "tags": ["human-body"] },
+    { "id": "g3s-w21-mon-013", "question": "Which organ filters waste from the blood and makes urine?", "options": ["Stomach", "Liver", "Kidney", "Lung"], "correctIndex": 2, "explanation": "The kidneys filter waste products from blood and produce urine, which is stored in the bladder.", "tags": ["human-body"] },
+    { "id": "g3s-w21-mon-014", "question": "What is the largest organ of the human body?", "options": ["Liver", "Brain", "Heart", "Skin"], "correctIndex": 3, "explanation": "The skin is the largest organ — it covers and protects the entire body, regulates temperature, and gives us the sense of touch.", "tags": ["human-body"] },
+    { "id": "g3s-w21-mon-015", "question": "How can we keep our bones strong?", "options": ["Avoid all movement", "Eat calcium-rich foods (milk, cheese) and exercise", "Stay indoors always", "Eat only sweets"], "correctIndex": 1, "explanation": "Calcium (from milk, cheese, leafy greens) and weight-bearing exercise (walking, jumping) help keep bones strong.", "tags": ["human-body", "health"] }
+  ]
+}

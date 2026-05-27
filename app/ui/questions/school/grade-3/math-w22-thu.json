@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w22-thu",
+  "title": "Grade 3 Maths — Thu, May 28",
+  "description": "Fractions — Half, Quarter, Third — Day 4 of 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "thu",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["maths", "grade-3", "weekly", "fractions"],
+  "questions": [
+    { "id": "g3m-w22-thu-001", "question": "What fraction is 'one half'?", "options": ["1/3", "1/2", "2/3", "1/4"], "correctIndex": 1, "explanation": "One half = 1/2. When something is split into 2 equal parts, each part is one half.", "tags": ["fractions"] },
+    { "id": "g3m-w22-thu-002", "question": "A pizza is cut into 4 equal pieces. You eat 1 piece. What fraction did you eat?", "options": ["1/2", "2/4", "1/4", "3/4"], "correctIndex": 2, "explanation": "1 piece out of 4 = 1/4 (one quarter).", "tags": ["fractions", "word-problems"] },
+    { "id": "g3m-w22-thu-003", "question": "In the fraction 3/4, what does the '4' represent?", "options": ["Number of parts taken", "Total equal parts (denominator)", "Size of each part", "Number of pieces left"], "correctIndex": 1, "explanation": "The bottom number (denominator) shows how many equal parts the whole is divided into.", "tags": ["fractions"] },
+    { "id": "g3m-w22-thu-004", "question": "Which fraction is the largest?", "options": ["1/4", "1/2", "1/3", "1/8"], "correctIndex": 1, "explanation": "1/2 is the largest. When the top number (numerator) is the same, SMALLER denominator = LARGER fraction.", "tags": ["fractions", "comparing"] },
+    { "id": "g3m-w22-thu-005", "question": "What is half of 12?", "options": ["4", "5", "6", "7"], "correctIndex": 2, "explanation": "Half of 12 = 12 ÷ 2 = 6.", "tags": ["fractions"] },
+    { "id": "g3m-w22-thu-006", "question": "What is a quarter of 20?", "options": ["4", "5", "6", "8"], "correctIndex": 1, "explanation": "A quarter of 20 = 20 ÷ 4 = 5.", "tags": ["fractions"] },
+    { "id": "g3m-w22-thu-007", "question": "If you colour 2 out of 3 equal parts of a shape, what fraction is coloured?", "options": ["1/3", "2/3", "3/2", "2/2"], "correctIndex": 1, "explanation": "2 parts coloured out of 3 total = 2/3.", "tags": ["fractions"] },
+    { "id": "g3m-w22-thu-008", "question": "Which two fractions are EQUAL?", "options": ["1/2 and 1/4", "2/4 and 1/2", "3/4 and 1/3", "2/3 and 3/4"], "correctIndex": 1, "explanation": "2/4 = 1/2. Both represent exactly half of something. They are equivalent fractions.", "tags": ["fractions", "equivalent"] },
+    { "id": "g3m-w22-thu-009", "question": "A ribbon is 12 cm long. One third is red. How many cm is red?", "options": ["3 cm", "4 cm", "5 cm", "6 cm"], "correctIndex": 1, "explanation": "One third of 12 = 12 ÷ 3 = 4 cm.", "tags": ["fractions", "word-problems"] },
+    { "id": "g3m-w22-thu-010", "question": "How many quarters make a whole?", "options": ["2", "3", "4", "5"], "correctIndex": 2, "explanation": "4 quarters = 1 whole. 1/4 + 1/4 + 1/4 + 1/4 = 4/4 = 1.", "tags": ["fractions"] },
+    { "id": "g3m-w22-thu-011", "question": "What fraction of the week is Saturday and Sunday?", "options": ["2/5", "2/7", "2/6", "1/3"], "correctIndex": 1, "explanation": "A week has 7 days. Saturday + Sunday = 2 days. 2 out of 7 = 2/7.", "tags": ["fractions", "word-problems"] },
+    { "id": "g3m-w22-thu-012", "question": "Which fraction is the SMALLEST?", "options": ["3/4", "1/2", "2/3", "1/4"], "correctIndex": 3, "explanation": "1/4 is the smallest. Larger denominator with numerator 1 = smaller fraction.", "tags": ["fractions", "comparing"] },
+    { "id": "g3m-w22-thu-013", "question": "Amara has 8 stickers. She gives half to her friend. How many does she keep?", "options": ["2", "3", "4", "5"], "correctIndex": 2, "explanation": "Half of 8 = 8 ÷ 2 = 4. Amara keeps 4 stickers.", "tags": ["fractions", "word-problems"] },
+    { "id": "g3m-w22-thu-014", "question": "What do you call the top number of a fraction?", "options": ["Denominator", "Divisor", "Numerator", "Quotient"], "correctIndex": 2, "explanation": "The top number is the numerator — it shows how many parts are taken.", "tags": ["fractions"] },
+    { "id": "g3m-w22-thu-015", "question": "3/4 of 16 = ?", "options": ["8", "10", "12", "14"], "correctIndex": 2, "explanation": "3/4 of 16: First find 1/4 = 16 ÷ 4 = 4. Then 3 × 4 = 12.", "tags": ["fractions"] }
+  ]
+}

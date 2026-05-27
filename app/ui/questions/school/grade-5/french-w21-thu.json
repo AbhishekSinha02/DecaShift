@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-french-w21-thu",
+  "title": "Grade 5 French — Thu, May 21",
+  "description": "Animals & Describing (Les Animaux et la Description) — Last Week Day 4",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "thu",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["french", "grade-5", "weekly", "animals"],
+  "questions": [
+    { "id": "g5f-w21-thu-001", "question": "What is the French word for 'dog'?", "options": ["Chat", "Cheval", "Chien", "Lapin"], "correctIndex": 2, "explanation": "'Chien' (masc.) / 'Chienne' (fem.) = dog. Chat = cat, Cheval = horse, Lapin = rabbit.", "tags": ["animals"] },
+    { "id": "g5f-w21-thu-002", "question": "How do you say 'cat' in French?", "options": ["Chien", "Chat", "Vache", "Cochon"], "correctIndex": 1, "explanation": "'Chat' (masc.) / 'Chatte' (fem.) = cat. Chien = dog, Vache = cow, Cochon = pig.", "tags": ["animals"] },
+    { "id": "g5f-w21-thu-003", "question": "What is 'un oiseau'?", "options": ["A fish", "A bird", "An insect", "A reptile"], "correctIndex": 1, "explanation": "'Un oiseau' = a bird. Plural: 'des oiseaux'. The 'x' plural is common in French (eau → eaux).", "tags": ["animals"] },
+    { "id": "g5f-w21-thu-004", "question": "How do you describe a big dog in French?", "options": ["Un grand chien", "Un chien grand", "Un chien grande", "Un grande chien"], "correctIndex": 0, "explanation": "'Un grand chien' = a big dog. 'Grand' is one of the few adjectives that comes BEFORE the noun (BAGS rule).", "tags": ["animals", "adjectives"] },
+    { "id": "g5f-w21-thu-005", "question": "What is the French word for 'horse'?", "options": ["Vache", "Mouton", "Cheval", "Cochon"], "correctIndex": 2, "explanation": "'Cheval' = horse (masc.). Plural: 'chevaux'. Vache = cow, Mouton = sheep, Cochon = pig.", "tags": ["animals"] },
+    { "id": "g5f-w21-thu-006", "question": "How do you say 'The cat is black and white' in French?", "options": ["Le chat est noir et blanc", "La chat est noir et blanc", "Le chat sont noirs et blancs", "Le chat est noire et blanche"], "correctIndex": 0, "explanation": "'Le chat est noir et blanc' = The cat is black and white. 'Chat' is masculine so 'noir' and 'blanc' stay masculine.", "tags": ["animals", "colours"] },
+    { "id": "g5f-w21-thu-007", "question": "What does 'petit' mean?", "options": ["Big", "Fast", "Small/Little", "Tall"], "correctIndex": 2, "explanation": "'Petit' (masc.) / 'Petite' (fem.) = small/little. Opposite: 'grand/grande' = big/tall.", "tags": ["adjectives"] },
+    { "id": "g5f-w21-thu-008", "question": "What is 'une vache'?", "options": ["A horse", "A pig", "A cow", "A sheep"], "correctIndex": 2, "explanation": "'Une vache' = a cow. Vache is feminine, hence 'une'. Mouton (sheep), Cochon (pig), Cheval (horse).", "tags": ["animals"] },
+    { "id": "g5f-w21-thu-009", "question": "How do you say 'I have a rabbit' in French?", "options": ["Je suis un lapin", "J'ai un lapin", "J'ai une lapine", "Je veux un lapin"], "correctIndex": 1, "explanation": "'J'ai un lapin' = I have a rabbit. 'Lapin' is masculine, so 'un'.", "tags": ["animals"] },
+    { "id": "g5f-w21-thu-010", "question": "The adjective BAGS rule says some adjectives come BEFORE the noun. BAGS stands for:", "options": ["Big, Adjective, Good, Small", "Beauty, Age, Goodness/Badness, Size", "Blue, Animal, General, Specific", "Basic, Action, Gender, Shape"], "correctIndex": 1, "explanation": "BAGS: Beauty (beau/belle), Age (jeune/vieux), Goodness/Badness (bon/mauvais), Size (grand/petit). These come before the noun.", "tags": ["adjectives", "grammar"] },
+    { "id": "g5f-w21-thu-011", "question": "How do you describe 'a fast horse' in French?", "options": ["Un rapide cheval", "Un cheval rapide", "Un cheval rapidement", "Un cheval rapides"], "correctIndex": 1, "explanation": "'Un cheval rapide' = a fast horse. 'Rapide' is not a BAGS adjective, so it comes AFTER the noun.", "tags": ["animals", "adjectives"] },
+    { "id": "g5f-w21-thu-012", "question": "What is the French word for 'fish' (the animal)?", "options": ["Oiseau", "Grenouille", "Poisson", "Serpent"], "correctIndex": 2, "explanation": "'Poisson' = fish. Oiseau = bird, Grenouille = frog, Serpent = snake.", "tags": ["animals"] },
+    { "id": "g5f-w21-thu-013", "question": "How do you say 'My dog is very cute' in French?", "options": ["Mon chien est très mignon", "Ma chien est très mignon", "Mon chien sont très mignons", "Mon chien est très mignonne"], "correctIndex": 0, "explanation": "'Mon chien est très mignon' = My dog is very cute. 'Chien' is masculine, so 'mignon' (not mignonne).", "tags": ["animals", "adjectives"] },
+    { "id": "g5f-w21-thu-014", "question": "What does 'fort' mean as an adjective?", "options": ["Fast", "Weak", "Strong", "Pretty"], "correctIndex": 2, "explanation": "'Fort' (masc.) / 'Forte' (fem.) = strong. Opposite: 'faible' = weak.", "tags": ["adjectives"] },
+    { "id": "g5f-w21-thu-015", "question": "How do you say 'There is a bird in the tree' in French?", "options": ["Il a un oiseau dans l'arbre", "Il est un oiseau dans l'arbre", "Il y a un oiseau dans l'arbre", "C'est un oiseau dans l'arbre"], "correctIndex": 2, "explanation": "'Il y a' = 'there is/there are'. 'Il y a un oiseau dans l'arbre' = There is a bird in the tree.", "tags": ["animals", "grammar"] }
+  ]
+}

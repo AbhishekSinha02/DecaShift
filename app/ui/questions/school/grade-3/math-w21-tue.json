@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w21-tue",
+  "title": "Grade 3 Maths — Tue, May 19",
+  "description": "Addition with Carrying — Last Week Day 2",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "tue",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["maths", "grade-3", "weekly", "addition"],
+  "questions": [
+    { "id": "g3m-w21-tue-001", "question": "What is 47 + 36?", "options": ["73", "83", "84", "93"], "correctIndex": 1, "explanation": "47 + 36: ones: 7+6=13, write 3 carry 1. Tens: 4+3+1=8. Answer: 83.", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-002", "question": "What is 156 + 237?", "options": ["383", "393", "403", "413"], "correctIndex": 1, "explanation": "156 + 237: ones: 6+7=13, write 3 carry 1. Tens: 5+3+1=9. Hundreds: 1+2=3. Answer: 393.", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-003", "question": "What is 68 + 75?", "options": ["133", "143", "134", "144"], "correctIndex": 1, "explanation": "68 + 75: ones: 8+5=13, write 3 carry 1. Tens: 6+7+1=14. Answer: 143.", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-004", "question": "A shop sold 264 books on Monday and 178 books on Tuesday. How many books were sold altogether?", "options": ["432", "440", "442", "452"], "correctIndex": 2, "explanation": "264 + 178: ones: 4+8=12, carry 1. Tens: 6+7+1=14, carry 1. Hundreds: 2+1+1=4. Answer: 442.", "tags": ["addition", "word-problems"] },
+    { "id": "g3m-w21-tue-005", "question": "What is 399 + 1?", "options": ["390", "400", "410", "490"], "correctIndex": 1, "explanation": "399 + 1 = 400. Carrying through all places: 9+1=10, carry; 9+1=10, carry; 3+1=4. Answer: 400.", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-006", "question": "What is 425 + 368?", "options": ["783", "793", "793", "803"], "correctIndex": 1, "explanation": "425 + 368: ones: 5+8=13, carry 1. Tens: 2+6+1=9. Hundreds: 4+3=7. Answer: 793.", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-007", "question": "Which number should be added to 243 to make 500?", "options": ["247", "257", "263", "267"], "correctIndex": 1, "explanation": "500 − 243 = 257. So 243 + 257 = 500.", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-008", "question": "What is 489 + 236?", "options": ["715", "725", "714", "716"], "correctIndex": 0, "explanation": "489 + 236: ones: 9+6=15, carry 1. Tens: 8+3+1=12, carry 1. Hundreds: 4+2+1=7. Answer: 715.", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-009", "question": "Ananya walked 345 steps in the morning and 487 steps in the evening. How many steps did she walk?", "options": ["822", "832", "832", "842"], "correctIndex": 1, "explanation": "345 + 487: ones: 5+7=12, carry 1. Tens: 4+8+1=13, carry 1. Hundreds: 3+4+1=8. Answer: 832.", "tags": ["addition", "word-problems"] },
+    { "id": "g3m-w21-tue-010", "question": "What is 536 + 275?", "options": ["801", "811", "811", "821"], "correctIndex": 1, "explanation": "536 + 275: ones: 6+5=11, carry 1. Tens: 3+7+1=11, carry 1. Hundreds: 5+2+1=8. Answer: 811.", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-011", "question": "Which addition gives the answer 600?", "options": ["350 + 260", "285 + 315", "417 + 183", "Both B and C"], "correctIndex": 3, "explanation": "285+315=600 ✓ and 417+183=600 ✓. Both give 600. (350+260=610 ✗)", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-012", "question": "What is 175 + 175?", "options": ["340", "345", "350", "355"], "correctIndex": 2, "explanation": "175 + 175 = 350. Double 175: 100+100=200, 70+70=140, 5+5=10. 200+140+10=350.", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-013", "question": "Estimate: 389 + 412 is closest to:", "options": ["700", "800", "900", "600"], "correctIndex": 1, "explanation": "Round to hundreds: 400 + 400 = 800. Estimate is 800.", "tags": ["addition", "estimation"] },
+    { "id": "g3m-w21-tue-014", "question": "What is 647 + 253?", "options": ["890", "900", "910", "920"], "correctIndex": 1, "explanation": "647 + 253 = 900. ones: 7+3=10, carry 1. Tens: 4+5+1=10, carry 1. Hundreds: 6+2+1=9. Answer: 900.", "tags": ["addition"] },
+    { "id": "g3m-w21-tue-015", "question": "A school library has 234 story books and 379 science books. How many books are there?", "options": ["603", "613", "613", "623"], "correctIndex": 1, "explanation": "234 + 379: ones: 4+9=13, carry 1. Tens: 3+7+1=11, carry 1. Hundreds: 2+3+1=6. Answer: 613.", "tags": ["addition", "word-problems"] }
+  ]
+}

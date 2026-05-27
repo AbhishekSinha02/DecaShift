@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w22-wed",
+  "title": "Grade 5 Math — Wed, May 27",
+  "description": "LCM & HCF — Day 3 of 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "wed",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "lcm", "hcf"],
+  "questions": [
+    { "id": "g5m-w22-wed-001", "question": "What is the HCF of 12 and 18?", "options": ["3", "4", "6", "9"], "correctIndex": 2, "explanation": "Factors of 12: 1,2,3,4,6,12. Factors of 18: 1,2,3,6,9,18. HCF = 6.", "tags": ["hcf"] },
+    { "id": "g5m-w22-wed-002", "question": "What is the LCM of 4 and 6?", "options": ["8", "10", "12", "24"], "correctIndex": 2, "explanation": "Multiples of 4: 4,8,12... Multiples of 6: 6,12... LCM = 12.", "tags": ["lcm"] },
+    { "id": "g5m-w22-wed-003", "question": "What is the HCF of 24 and 36?", "options": ["6", "8", "12", "18"], "correctIndex": 2, "explanation": "Factors of 24: 1,2,3,4,6,8,12,24. Factors of 36: 1,2,3,4,6,9,12,18,36. HCF = 12.", "tags": ["hcf"] },
+    { "id": "g5m-w22-wed-004", "question": "What is the LCM of 3, 4, and 6?", "options": ["6", "8", "12", "24"], "correctIndex": 2, "explanation": "LCM of 3 and 4 is 12. LCM of 12 and 6 is 12.", "tags": ["lcm"] },
+    { "id": "g5m-w22-wed-005", "question": "Two bells ring every 6 and 8 minutes. After how many minutes will they ring together?", "options": ["12", "18", "24", "48"], "correctIndex": 2, "explanation": "LCM of 6 and 8 = 24 minutes.", "tags": ["lcm", "word-problem"] },
+    { "id": "g5m-w22-wed-006", "question": "The HCF of two numbers is 4 and their LCM is 48. If one number is 12, find the other.", "options": ["12", "16", "20", "24"], "correctIndex": 1, "explanation": "Product of numbers = HCF × LCM = 4 × 48 = 192. Other number = 192 ÷ 12 = 16.", "tags": ["hcf", "lcm"] },
+    { "id": "g5m-w22-wed-007", "question": "What is the HCF of 15 and 25?", "options": ["3", "5", "10", "15"], "correctIndex": 1, "explanation": "Factors of 15: 1,3,5,15. Factors of 25: 1,5,25. HCF = 5.", "tags": ["hcf"] },
+    { "id": "g5m-w22-wed-008", "question": "Which is true about HCF?", "options": ["HCF is always larger than LCM", "HCF is a multiple of LCM", "HCF always divides both numbers evenly", "HCF equals LCM when numbers are prime"], "correctIndex": 2, "explanation": "By definition, HCF is the largest number that divides both numbers without a remainder.", "tags": ["hcf"] },
+    { "id": "g5m-w22-wed-009", "question": "What is the LCM of 5 and 7?", "options": ["12", "25", "35", "70"], "correctIndex": 2, "explanation": "5 and 7 are co-prime (HCF=1). LCM = 5 × 7 = 35.", "tags": ["lcm"] },
+    { "id": "g5m-w22-wed-010", "question": "Find the HCF of 48 and 60.", "options": ["6", "8", "12", "24"], "correctIndex": 2, "explanation": "Prime factors: 48 = 2⁴×3, 60 = 2²×3×5. HCF = 2²×3 = 12.", "tags": ["hcf"] },
+    { "id": "g5m-w22-wed-011", "question": "What is the LCM of 8 and 12?", "options": ["16", "24", "36", "48"], "correctIndex": 1, "explanation": "8 = 2³, 12 = 2²×3. LCM = 2³×3 = 24.", "tags": ["lcm"] },
+    { "id": "g5m-w22-wed-012", "question": "Three friends meet every 2, 3, and 4 days. How often do all three meet together?", "options": ["6 days", "8 days", "12 days", "24 days"], "correctIndex": 2, "explanation": "LCM of 2, 3, and 4 = 12 days.", "tags": ["lcm", "word-problem"] },
+    { "id": "g5m-w22-wed-013", "question": "What is the HCF of 7 and 14?", "options": ["1", "3", "7", "14"], "correctIndex": 2, "explanation": "14 = 2 × 7. 7 is a factor of 14, so HCF = 7.", "tags": ["hcf"] },
+    { "id": "g5m-w22-wed-014", "question": "If HCF of two numbers is 1, they are called:", "options": ["Prime numbers", "Co-prime numbers", "Even numbers", "Composite numbers"], "correctIndex": 1, "explanation": "Two numbers with HCF = 1 are called co-prime or relatively prime.", "tags": ["hcf", "terminology"] },
+    { "id": "g5m-w22-wed-015", "question": "What is the LCM of 9 and 15?", "options": ["3", "27", "45", "90"], "correctIndex": 2, "explanation": "9 = 3², 15 = 3×5. LCM = 3²×5 = 45.", "tags": ["lcm"] }
+  ]
+}

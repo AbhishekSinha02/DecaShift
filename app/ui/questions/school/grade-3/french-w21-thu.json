@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-french-w21-thu",
+  "title": "Grade 3 French — Thu, May 21",
+  "description": "Days & Months (Les Jours et les Mois) — Last Week Day 4",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "thu",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["french", "grade-3", "weekly", "calendar"],
+  "questions": [
+    { "id": "g3f-w21-thu-001", "question": "What is 'lundi' in English?", "options": ["Sunday", "Monday", "Tuesday", "Wednesday"], "correctIndex": 1, "explanation": "'Lundi' = Monday.", "tags": ["days"] },
+    { "id": "g3f-w21-thu-002", "question": "What is 'mardi' in English?", "options": ["Monday", "Tuesday", "Wednesday", "Thursday"], "correctIndex": 1, "explanation": "'Mardi' = Tuesday.", "tags": ["days"] },
+    { "id": "g3f-w21-thu-003", "question": "How do you say 'Saturday' in French?", "options": ["Vendredi", "Dimanche", "Samedi", "Jeudi"], "correctIndex": 2, "explanation": "'Samedi' = Saturday.", "tags": ["days"] },
+    { "id": "g3f-w21-thu-004", "question": "What is 'dimanche' in English?", "options": ["Saturday", "Sunday", "Friday", "Monday"], "correctIndex": 1, "explanation": "'Dimanche' = Sunday.", "tags": ["days"] },
+    { "id": "g3f-w21-thu-005", "question": "What day comes AFTER mercredi (Wednesday)?", "options": ["Mardi", "Vendredi", "Jeudi", "Samedi"], "correctIndex": 2, "explanation": "After mercredi (Wednesday) comes jeudi (Thursday).", "tags": ["days"] },
+    { "id": "g3f-w21-thu-006", "question": "How do you say 'January' in French?", "options": ["Juin", "Janvier", "Juillet", "Juin"], "correctIndex": 1, "explanation": "'Janvier' = January.", "tags": ["months"] },
+    { "id": "g3f-w21-thu-007", "question": "What is 'avril' in English?", "options": ["March", "April", "May", "June"], "correctIndex": 1, "explanation": "'Avril' = April.", "tags": ["months"] },
+    { "id": "g3f-w21-thu-008", "question": "How do you say 'December' in French?", "options": ["Novembre", "Décembre", "Octobre", "Septembre"], "correctIndex": 1, "explanation": "'Décembre' = December.", "tags": ["months"] },
+    { "id": "g3f-w21-thu-009", "question": "What month is 'août'?", "options": ["June", "July", "August", "September"], "correctIndex": 2, "explanation": "'Août' = August.", "tags": ["months"] },
+    { "id": "g3f-w21-thu-010", "question": "In French, are months capitalised?", "options": ["Yes, always", "No, months are lowercase", "Only the first month of the year", "Only January and July"], "correctIndex": 1, "explanation": "In French, months are NOT capitalised: janvier, février, mars... (unlike English).", "tags": ["months", "grammar"] },
+    { "id": "g3f-w21-thu-011", "question": "How do you say 'Today is Wednesday' in French?", "options": ["Aujourd'hui est jeudi", "Aujourd'hui est mercredi", "Aujourd'hui est lundi", "Maintenant est mercredi"], "correctIndex": 1, "explanation": "'Aujourd'hui est mercredi' = Today is Wednesday. 'Aujourd'hui' = today.", "tags": ["days"] },
+    { "id": "g3f-w21-thu-012", "question": "What is 'mai' in English?", "options": ["March", "April", "May", "June"], "correctIndex": 2, "explanation": "'Mai' = May.", "tags": ["months"] },
+    { "id": "g3f-w21-thu-013", "question": "How many days are in a week? Say it in French:", "options": ["Sept jours", "Six jours", "Cinq jours", "Huit jours"], "correctIndex": 0, "explanation": "'Sept jours' = seven days. A week has 7 days.", "tags": ["days"] },
+    { "id": "g3f-w21-thu-014", "question": "What month is 'mars' in French?", "options": ["January", "February", "March", "May"], "correctIndex": 2, "explanation": "'Mars' = March.", "tags": ["months"] },
+    { "id": "g3f-w21-thu-015", "question": "How do you say 'My birthday is in June' in French?", "options": ["Mon anniversaire est en mai", "Mon anniversaire est en juin", "Mon anniversaire a en juin", "Mon anniversaire suis en juin"], "correctIndex": 1, "explanation": "'Mon anniversaire est en juin' = My birthday is in June.", "tags": ["months"] }
+  ]
+}

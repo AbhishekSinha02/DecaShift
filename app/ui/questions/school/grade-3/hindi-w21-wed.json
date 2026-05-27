@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-hindi-w21-wed",
+  "title": "Grade 3 Hindi — Wed, May 20",
+  "description": "कविता और गिनती (Poem & Numbers in Hindi) — Last Week Day 3",
+  "subject": "hindi",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "wed",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["hindi", "grade-3", "weekly", "numbers"],
+  "questions": [
+    { "id": "g3h-w21-wed-001", "question": "हिंदी में '5' को क्या कहते हैं?", "options": ["चार", "पाँच", "छह", "सात"], "correctIndex": 1, "explanation": "'5' = पाँच। हिंदी गिनती: एक, दो, तीन, चार, पाँच।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-002", "question": "हिंदी में '10' को क्या कहते हैं?", "options": ["आठ", "नौ", "दस", "ग्यारह"], "correctIndex": 2, "explanation": "'10' = दस।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-003", "question": "हिंदी में '15' को क्या कहते हैं?", "options": ["तेरह", "चौदह", "पंद्रह", "सोलह"], "correctIndex": 2, "explanation": "'15' = पंद्रह।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-004", "question": "हिंदी में '20' को क्या कहते हैं?", "options": ["अठारह", "उन्नीस", "बीस", "इक्कीस"], "correctIndex": 2, "explanation": "'20' = बीस।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-005", "question": "'सोलह' किस संख्या का हिंदी रूप है?", "options": ["14", "15", "16", "17"], "correctIndex": 2, "explanation": "'सोलह' = 16।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-006", "question": "'इक्कीस' किस संख्या को कहते हैं?", "options": ["19", "20", "21", "22"], "correctIndex": 2, "explanation": "'इक्कीस' = 21।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-007", "question": "हिंदी में '25' को क्या कहते हैं?", "options": ["बाईस", "तेईस", "चौबीस", "पच्चीस"], "correctIndex": 3, "explanation": "'25' = पच्चीस।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-008", "question": "हिंदी में '30' को क्या कहते हैं?", "options": ["अठाईस", "उनतीस", "तीस", "इकतीस"], "correctIndex": 2, "explanation": "'30' = तीस।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-009", "question": "कविता में तुकबंदी (rhyme) का क्या अर्थ है?", "options": ["लंबी कविता", "पंक्तियों के अंत में समान ध्वनि", "केवल अर्थपूर्ण शब्द", "बिना लय के पाठ"], "correctIndex": 1, "explanation": "तुकबंदी में पंक्तियों के अंत में एक जैसी ध्वनि आती है जो कविता को सुरीला बनाती है।", "tags": ["poetry"] },
+    { "id": "g3h-w21-wed-010", "question": "हिंदी में '50' को क्या कहते हैं?", "options": ["चालीस", "पैंतालीस", "पचास", "पचपन"], "correctIndex": 2, "explanation": "'50' = पचास।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-011", "question": "'बत्तीस' किस संख्या का हिंदी रूप है?", "options": ["30", "31", "32", "33"], "correctIndex": 2, "explanation": "'बत्तीस' = 32।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-012", "question": "हिंदी में '100' को क्या कहते हैं?", "options": ["पचास", "सत्तर", "अस्सी", "सौ"], "correctIndex": 3, "explanation": "'100' = सौ। हिंदी में 100 को 'एक सौ' या 'सौ' कहते हैं।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-013", "question": "कविता पढ़ते समय हमें क्या ध्यान रखना चाहिए?", "options": ["जल्दी-जल्दी पढ़ना", "लय और भाव के साथ पढ़ना", "आवाज़ बिल्कुल न निकालना", "केवल पहली पंक्ति पढ़ना"], "correctIndex": 1, "explanation": "कविता को लय और भाव (expression) के साथ पढ़ना चाहिए — इससे कविता का असली सौंदर्य निखरता है।", "tags": ["poetry"] },
+    { "id": "g3h-w21-wed-014", "question": "'पैंतालीस' किस संख्या को कहते हैं?", "options": ["43", "44", "45", "46"], "correctIndex": 2, "explanation": "'पैंतालीस' = 45।", "tags": ["numbers"] },
+    { "id": "g3h-w21-wed-015", "question": "हिंदी में '1000' को क्या कहते हैं?", "options": ["सौ", "पाँच सौ", "हज़ार", "लाख"], "correctIndex": 2, "explanation": "'1000' = एक हज़ार। 100 = सौ, 1000 = हज़ार, 100000 = लाख।", "tags": ["numbers"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-french-w21-tue",
+  "title": "Grade 5 French — Tue, May 19",
+  "description": "Verbs: être & avoir (To Be & To Have) — Last Week Day 2",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "tue",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["french", "grade-5", "weekly", "verbs"],
+  "questions": [
+    { "id": "g5f-w21-tue-001", "question": "What does the verb 'être' mean in English?", "options": ["To have", "To do", "To be", "To go"], "correctIndex": 2, "explanation": "'Être' = to be. It is one of the two most important verbs in French, used to describe state, identity, and origin.", "tags": ["verbs", "être"] },
+    { "id": "g5f-w21-tue-002", "question": "What is 'je suis' in English?", "options": ["I have", "I do", "I am", "I go"], "correctIndex": 2, "explanation": "'Je suis' = 'I am'. This is the first person singular of 'être'.", "tags": ["être"] },
+    { "id": "g5f-w21-tue-003", "question": "How do you say 'She is happy' in French?", "options": ["Elle est heureuse", "Elle a heureuse", "Elle est heureux", "Elle suis heureuse"], "correctIndex": 0, "explanation": "'Elle est heureuse' = 'She is happy'. 'Elle' = she, 'est' = is (être), 'heureuse' = happy (feminine).", "tags": ["être"] },
+    { "id": "g5f-w21-tue-004", "question": "What does the verb 'avoir' mean?", "options": ["To be", "To have", "To see", "To want"], "correctIndex": 1, "explanation": "'Avoir' = to have. It is used for possessions, age, feelings like hunger/thirst, and as auxiliary verb.", "tags": ["verbs", "avoir"] },
+    { "id": "g5f-w21-tue-005", "question": "What is 'nous avons' in English?", "options": ["We are", "You have", "We have", "They have"], "correctIndex": 2, "explanation": "'Nous avons' = 'We have'. 'Nous' = we, 'avons' = have (1st person plural of avoir).", "tags": ["avoir"] },
+    { "id": "g5f-w21-tue-006", "question": "Complete: 'Tu ___ un crayon.' (You have a pencil)", "options": ["Es", "Ai", "As", "Avons"], "correctIndex": 2, "explanation": "'Tu as un crayon' = 'You have a pencil'. The 2nd person singular of 'avoir' is 'as'.", "tags": ["avoir"] },
+    { "id": "g5f-w21-tue-007", "question": "What is the 'il/elle' form of 'être'?", "options": ["Suis", "Es", "Sommes", "Est"], "correctIndex": 3, "explanation": "'Il/Elle est' = 'He/She is'. Conjugation: je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont.", "tags": ["être"] },
+    { "id": "g5f-w21-tue-008", "question": "How do you say 'They have a dog' (ils) in French?", "options": ["Ils sont un chien", "Ils avons un chien", "Ils ont un chien", "Ils as un chien"], "correctIndex": 2, "explanation": "'Ils ont un chien' = 'They have a dog'. 'Ont' is the 3rd person plural of 'avoir'.", "tags": ["avoir"] },
+    { "id": "g5f-w21-tue-009", "question": "'Vous êtes' means:", "options": ["You (singular) are", "You (plural/formal) are", "They are", "We are"], "correctIndex": 1, "explanation": "'Vous êtes' = 'You are' (plural or formal singular). 'Vous' is used for plural 'you' or polite singular.", "tags": ["être"] },
+    { "id": "g5f-w21-tue-010", "question": "Which sentence uses 'avoir' correctly for age?", "options": ["Je suis douze ans", "J'ai douze ans", "J'es douze ans", "Je suis d'avoir douze ans"], "correctIndex": 1, "explanation": "'J'ai douze ans' = 'I am twelve years old'. French uses 'avoir' (to have) for age, not 'être' (to be).", "tags": ["avoir", "age"] },
+    { "id": "g5f-w21-tue-011", "question": "Complete: 'Ils ___ français.' (They are French)", "options": ["Ont", "Sommes", "Sont", "Avez"], "correctIndex": 2, "explanation": "'Ils sont français' = 'They are French'. 'Sont' is 3rd person plural of 'être'.", "tags": ["être"] },
+    { "id": "g5f-w21-tue-012", "question": "The complete conjugation of 'avoir' in present tense includes:", "options": ["Ai, as, a, avons, avez, ont", "Suis, es, est, sommes, êtes, sont", "Ai, es, a, avons, êtes, ont", "Vais, vas, va, allons, allez, vont"], "correctIndex": 0, "explanation": "Avoir present tense: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.", "tags": ["avoir"] },
+    { "id": "g5f-w21-tue-013", "question": "How do you say 'We are students' in French?", "options": ["Nous avons des élèves", "Nous sommes élèves", "Nous sommes des élèves", "Nous êtes des élèves"], "correctIndex": 2, "explanation": "'Nous sommes des élèves' = 'We are students'. 'Sommes' = 1st person plural of 'être'.", "tags": ["être"] },
+    { "id": "g5f-w21-tue-014", "question": "'Avoir faim' and 'avoir soif' use 'avoir' because:", "options": ["They are actions", "French treats hunger and thirst as things you 'have', not states you 'are'", "Only 'être' is correct here", "Both verbs work"], "correctIndex": 1, "explanation": "French expresses hunger and thirst with 'avoir': j'ai faim (I'm hungry), j'ai soif (I'm thirsty) — literally 'I have hunger/thirst'.", "tags": ["avoir", "expressions"] },
+    { "id": "g5f-w21-tue-015", "question": "Which sentence is INCORRECT?", "options": ["Je suis grande (I am tall - fem.)", "Tu as une sœur (You have a sister)", "Elle est faim (She is hungry)", "Nous sommes amis (We are friends)"], "correctIndex": 2, "explanation": "'Elle est faim' is WRONG. The correct form is 'Elle a faim' (She is hungry) — hunger uses 'avoir', not 'être'.", "tags": ["être", "avoir"] }
+  ]
+}

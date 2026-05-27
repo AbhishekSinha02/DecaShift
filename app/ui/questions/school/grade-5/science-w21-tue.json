@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w21-tue",
+  "title": "Grade 5 Science — Tue, May 19",
+  "description": "Food Web & Ecosystem — Last Week Day 2",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "tue",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["science", "grade-5", "weekly", "ecosystem"],
+  "questions": [
+    { "id": "g5s-w21-tue-001", "question": "A food chain starts with:", "options": ["Herbivore", "Carnivore", "Producer (green plant)", "Decomposer"], "correctIndex": 2, "explanation": "All food chains start with producers (green plants) that make their own food via photosynthesis.", "tags": ["food-chain"] },
+    { "id": "g5s-w21-tue-002", "question": "Which correctly shows a food chain?", "options": ["Fox → Rabbit → Grass", "Grass → Rabbit → Fox", "Rabbit → Fox → Grass", "Fox → Grass → Rabbit"], "correctIndex": 1, "explanation": "Energy flows from producer to consumer: Grass → Rabbit → Fox.", "tags": ["food-chain"] },
+    { "id": "g5s-w21-tue-003", "question": "Animals that eat only plants are called:", "options": ["Carnivores", "Omnivores", "Herbivores", "Decomposers"], "correctIndex": 2, "explanation": "Herbivores eat only plant material. Examples: cow, deer, rabbit.", "tags": ["ecosystem"] },
+    { "id": "g5s-w21-tue-004", "question": "Decomposers are important because they:", "options": ["Hunt other animals", "Make food from sunlight", "Break down dead organisms and return nutrients to soil", "Are eaten by producers"], "correctIndex": 2, "explanation": "Decomposers (fungi, bacteria) break down dead matter and recycle nutrients back into the ecosystem.", "tags": ["decomposers"] },
+    { "id": "g5s-w21-tue-005", "question": "What happens if all producers in an ecosystem disappear?", "options": ["Herbivores increase", "All consumers eventually die", "Carnivores take over", "Decomposers increase"], "correctIndex": 1, "explanation": "Without producers, herbivores starve, then carnivores have no prey — the entire food chain collapses.", "tags": ["food-chain", "ecosystem"] },
+    { "id": "g5s-w21-tue-006", "question": "A food web is different from a food chain because:", "options": ["It has only one path", "It shows many interconnected food chains", "It includes only producers", "It shows only carnivores"], "correctIndex": 1, "explanation": "A food web shows multiple interconnected food chains — it's more realistic than a single chain.", "tags": ["food-web"] },
+    { "id": "g5s-w21-tue-007", "question": "Which is a second-order consumer in: Grass → Grasshopper → Frog → Snake?", "options": ["Grass", "Grasshopper", "Frog", "Snake"], "correctIndex": 2, "explanation": "Frog eats grasshopper (first consumer). Frog is the second-order consumer.", "tags": ["food-chain"] },
+    { "id": "g5s-w21-tue-008", "question": "The relationship between a lion and zebra is:", "options": ["Mutualism", "Predation", "Parasitism", "Commensalism"], "correctIndex": 1, "explanation": "The lion (predator) hunts and eats the zebra (prey) — this is predation.", "tags": ["ecosystem"] },
+    { "id": "g5s-w21-tue-009", "question": "Sunlight → Grass → Deer → Tiger. How many trophic levels are there?", "options": ["2", "3", "4", "5"], "correctIndex": 1, "explanation": "Grass (Level 1), Deer (Level 2), Tiger (Level 3) = 3 trophic levels.", "tags": ["food-chain", "trophic-levels"] },
+    { "id": "g5s-w21-tue-010", "question": "Mushrooms growing on a dead log are examples of:", "options": ["Producers", "Herbivores", "Carnivores", "Decomposers"], "correctIndex": 3, "explanation": "Mushrooms (fungi) are decomposers — they break down dead organic matter.", "tags": ["decomposers"] },
+    { "id": "g5s-w21-tue-011", "question": "What is meant by 'biodiversity'?", "options": ["One species living alone", "Variety of living organisms in an area", "Only plant diversity", "Water in an ecosystem"], "correctIndex": 1, "explanation": "Biodiversity refers to the variety of all living organisms — plants, animals, fungi, microbes — in an area.", "tags": ["ecosystem"] },
+    { "id": "g5s-w21-tue-012", "question": "Which human activity MOST damages ecosystems?", "options": ["Planting trees", "Deforestation", "Recycling waste", "Using solar energy"], "correctIndex": 1, "explanation": "Deforestation destroys habitats, reduces biodiversity, and disrupts food chains.", "tags": ["environment"] },
+    { "id": "g5s-w21-tue-013", "question": "Bears eat both plants and animals. They are:", "options": ["Herbivores", "Carnivores", "Omnivores", "Decomposers"], "correctIndex": 2, "explanation": "Omnivores eat both plants and animals. Bears eat berries, fish, and other animals.", "tags": ["ecosystem"] },
+    { "id": "g5s-w21-tue-014", "question": "Energy from the sun is captured by plants through:", "options": ["Respiration", "Photosynthesis", "Transpiration", "Germination"], "correctIndex": 1, "explanation": "Plants capture solar energy through photosynthesis, converting CO₂ and water into glucose.", "tags": ["photosynthesis"] },
+    { "id": "g5s-w21-tue-015", "question": "What does 'endangered species' mean?", "options": ["A species that is very common", "A species at risk of extinction", "A species that eats others", "A species that is invasive"], "correctIndex": 1, "explanation": "An endangered species is at high risk of becoming extinct if its situation does not improve.", "tags": ["environment"] }
+  ]
+}

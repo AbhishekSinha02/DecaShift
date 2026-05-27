@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-french-w22-mon",
+  "title": "Grade 5 French — Mon, May 25",
+  "description": "Greetings & Introductions (Salutations et Présentations) — Day 1 of 5",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": "mon",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "status": "active",
+  "tags": ["french", "grade-5", "weekly", "greetings"],
+  "questions": [
+    { "id": "g5f-w22-mon-001", "question": "How do you say 'Good morning' in French?", "options": ["Bonsoir", "Bonjour", "Bonne nuit", "Salut"], "correctIndex": 1, "explanation": "'Bonjour' means 'Good morning' or 'Hello' (used during the day). 'Bonsoir' is 'Good evening'.", "tags": ["greetings"] },
+    { "id": "g5f-w22-mon-002", "question": "How do you say 'My name is Ana' in French?", "options": ["Tu t'appelles Ana", "Il s'appelle Ana", "Je m'appelle Ana", "Nous nous appelons Ana"], "correctIndex": 2, "explanation": "'Je m'appelle Ana' = 'My name is Ana'. 'Je m'appelle' literally means 'I call myself'.", "tags": ["introductions"] },
+    { "id": "g5f-w22-mon-003", "question": "What does 'Comment t'appelles-tu?' mean?", "options": ["How old are you?", "Where are you from?", "What is your name?", "How are you?"], "correctIndex": 2, "explanation": "'Comment t'appelles-tu?' = 'What is your name?' (informal). Formal version: 'Comment vous appelez-vous?'", "tags": ["introductions"] },
+    { "id": "g5f-w22-mon-004", "question": "How do you say 'I am 10 years old' in French?", "options": ["J'ai dix ans", "Je suis dix ans", "J'ai dix années", "Je fais dix ans"], "correctIndex": 0, "explanation": "In French, use 'avoir' (to have) for age: 'J'ai dix ans' = 'I have ten years' = 'I am ten years old'.", "tags": ["age"] },
+    { "id": "g5f-w22-mon-005", "question": "What does 'Au revoir' mean?", "options": ["Hello", "Good morning", "Goodbye", "Good night"], "correctIndex": 2, "explanation": "'Au revoir' = 'Goodbye'. It literally means 'Until we see each other again'.", "tags": ["greetings"] },
+    { "id": "g5f-w22-mon-006", "question": "'Comment ça va?' is best translated as:", "options": ["What is your name?", "Where do you live?", "How are you?", "What time is it?"], "correctIndex": 2, "explanation": "'Comment ça va?' = 'How are you?' (informal). You can answer: 'Ça va bien' (I'm fine).", "tags": ["greetings"] },
+    { "id": "g5f-w22-mon-007", "question": "What is the French for 'Thank you'?", "options": ["S'il vous plaît", "Merci", "De rien", "Pardon"], "correctIndex": 1, "explanation": "'Merci' = 'Thank you'. 'De rien' = 'You're welcome'. 'S'il vous plaît' = 'Please'.", "tags": ["polite-expressions"] },
+    { "id": "g5f-w22-mon-008", "question": "How do you say 'I am from India' in French?", "options": ["Je suis de l'Inde", "J'habite l'Inde", "Je viens d'Inde", "Je suis Inde"], "correctIndex": 2, "explanation": "'Je viens d'Inde' = 'I come from India'. 'Venir de' is used to express where you are from.", "tags": ["introductions"] },
+    { "id": "g5f-w22-mon-009", "question": "What does 'Enchanté(e)' mean?", "options": ["I'm sorry", "Nice to meet you", "Goodbye", "Please"], "correctIndex": 1, "explanation": "'Enchanté' (for males) / 'Enchantée' (for females) = 'Nice to meet you' / 'Pleased to meet you'.", "tags": ["introductions"] },
+    { "id": "g5f-w22-mon-010", "question": "'S'il te plaît' vs 'S'il vous plaît' — what is the difference?", "options": ["No difference", "S'il te plaît is formal, S'il vous plaît is informal", "S'il te plaît is informal (to a friend), S'il vous plaît is formal (to an adult/stranger)", "They mean different things"], "correctIndex": 2, "explanation": "'S'il te plaît' is informal 'please' (used with friends, family). 'S'il vous plaît' is formal 'please' (adults, strangers).", "tags": ["polite-expressions"] },
+    { "id": "g5f-w22-mon-011", "question": "How do you say 'Good night' in French?", "options": ["Bonjour", "Bonsoir", "Bonne nuit", "Au revoir"], "correctIndex": 2, "explanation": "'Bonne nuit' = 'Good night' (said when going to bed). 'Bonsoir' = 'Good evening' (greeting in the evening).", "tags": ["greetings"] },
+    { "id": "g5f-w22-mon-012", "question": "What is the French word for 'friend'?", "options": ["Famille", "Ami / Amie", "École", "Voisin"], "correctIndex": 1, "explanation": "'Ami' (masculine) / 'Amie' (feminine) = 'friend'. Plural: 'amis' (friends).", "tags": ["vocabulary"] },
+    { "id": "g5f-w22-mon-013", "question": "How do you ask 'Where do you live?' in French?", "options": ["Où tu travailles?", "Où tu habites?", "Comment tu t'appelles?", "Quel âge as-tu?"], "correctIndex": 1, "explanation": "'Où tu habites?' = 'Where do you live?' (informal). 'Habiter' means 'to live/reside'.", "tags": ["introductions"] },
+    { "id": "g5f-w22-mon-014", "question": "What does 'Excusez-moi' mean?", "options": ["Thank you", "You're welcome", "Excuse me / I'm sorry", "Goodbye"], "correctIndex": 2, "explanation": "'Excusez-moi' = 'Excuse me' or 'I'm sorry' (formal). Informal: 'Excuse-moi'.", "tags": ["polite-expressions"] },
+    { "id": "g5f-w22-mon-015", "question": "Which greeting would you use at 8 PM?", "options": ["Bonjour", "Bonne nuit", "Bonsoir", "Salut (only acceptable answer)"], "correctIndex": 2, "explanation": "'Bonsoir' is used as an evening greeting (from about 6 PM onwards). 'Bonjour' is for daytime.", "tags": ["greetings"] }
+  ]
+}

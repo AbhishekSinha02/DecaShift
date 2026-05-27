@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w21-tue",
+  "title": "Grade 3 Science — Tue, May 19",
+  "description": "Food and Nutrition — Last Week Day 2",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "tue",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["science", "grade-3", "weekly", "food"],
+  "questions": [
+    { "id": "g3s-w21-tue-001", "question": "Why do living things need food?", "options": ["To sleep well", "For energy and to grow, repair, and stay healthy", "Only for taste", "Food is not really needed"], "correctIndex": 1, "explanation": "Food provides energy for daily activities and contains nutrients needed for growth, repair, and staying healthy.", "tags": ["food", "nutrition"] },
+    { "id": "g3s-w21-tue-002", "question": "Which nutrient gives us the MOST energy?", "options": ["Vitamins", "Minerals", "Carbohydrates", "Fibre"], "correctIndex": 2, "explanation": "Carbohydrates are the body's main energy source — found in rice, bread, pasta, potatoes.", "tags": ["nutrition"] },
+    { "id": "g3s-w21-tue-003", "question": "Which food group helps build and repair muscles?", "options": ["Carbohydrates", "Proteins", "Fats", "Vitamins"], "correctIndex": 1, "explanation": "Proteins are building blocks for muscles, organs, and cells. Found in meat, fish, eggs, beans, nuts.", "tags": ["nutrition"] },
+    { "id": "g3s-w21-tue-004", "question": "Why do we need vitamins?", "options": ["For main energy", "For building bones only", "To keep the body working well and prevent disease", "Vitamins are not needed"], "correctIndex": 2, "explanation": "Vitamins help the body function properly and protect against diseases. Different vitamins have different roles.", "tags": ["nutrition"] },
+    { "id": "g3s-w21-tue-005", "question": "Vitamin C is found mainly in:", "options": ["Meat", "Dairy products", "Fruits like oranges and lemons", "Rice and bread"], "correctIndex": 2, "explanation": "Vitamin C is in citrus fruits, strawberries, and vegetables. It helps the immune system and wound healing.", "tags": ["nutrition", "vitamins"] },
+    { "id": "g3s-w21-tue-006", "question": "What is a balanced diet?", "options": ["Eating only vegetables", "Eating different types of food in the right amounts for good health", "Eating only proteins", "Skipping meals regularly"], "correctIndex": 1, "explanation": "A balanced diet includes the right amounts of all food groups — carbohydrates, proteins, fats, vitamins, minerals, and water.", "tags": ["nutrition"] },
+    { "id": "g3s-w21-tue-007", "question": "Calcium is important for:", "options": ["Energy", "Strong bones and teeth", "Good eyesight", "Digestion"], "correctIndex": 1, "explanation": "Calcium builds and maintains strong bones and teeth. Found in milk, cheese, yoghurt, and leafy greens.", "tags": ["nutrition", "minerals"] },
+    { "id": "g3s-w21-tue-008", "question": "Why should we drink plenty of water every day?", "options": ["Water has no use", "Water keeps the body hydrated, helps digestion, and removes waste", "Only to quench thirst", "Water is only needed in summer"], "correctIndex": 1, "explanation": "Water is essential for life — it keeps cells hydrated, aids digestion, regulates temperature, and removes waste.", "tags": ["nutrition"] },
+    { "id": "g3s-w21-tue-009", "question": "Which food is NOT a good source of protein?", "options": ["Eggs", "Chicken", "White rice", "Lentils"], "correctIndex": 2, "explanation": "White rice is mainly a carbohydrate — not high in protein. Eggs, chicken, and lentils are good protein sources.", "tags": ["nutrition"] },
+    { "id": "g3s-w21-tue-010", "question": "Fibre in food helps:", "options": ["Build muscles", "Give instant energy", "Keep the digestive system healthy", "Improve eyesight"], "correctIndex": 2, "explanation": "Fibre helps food move through the digestive system and prevents constipation. Found in fruits, vegetables, and wholegrain foods.", "tags": ["nutrition"] },
+    { "id": "g3s-w21-tue-011", "question": "Too much sugar in our diet can lead to:", "options": ["Stronger bones", "Better eyesight", "Tooth decay and increased risk of obesity and diabetes", "More energy always"], "correctIndex": 2, "explanation": "Excessive sugar causes tooth decay (cavities) and can lead to obesity and type 2 diabetes.", "tags": ["nutrition", "health"] },
+    { "id": "g3s-w21-tue-012", "question": "Iron is an important mineral that helps:", "options": ["Strong bones", "Good vision", "Red blood cells carry oxygen", "Digestion"], "correctIndex": 2, "explanation": "Iron is needed to make haemoglobin in red blood cells, which carries oxygen around the body.", "tags": ["nutrition", "minerals"] },
+    { "id": "g3s-w21-tue-013", "question": "Which of these is a healthy snack?", "options": ["Packet of crisps", "Chocolate bar", "Apple and nuts", "Fizzy drink with biscuits"], "correctIndex": 2, "explanation": "An apple (vitamins, fibre) and nuts (protein, healthy fats) are nutritious snacks. Crisps, chocolate, and fizzy drinks are high in sugar, salt, or unhealthy fats.", "tags": ["nutrition", "health"] },
+    { "id": "g3s-w21-tue-014", "question": "Digestion begins in the:", "options": ["Stomach", "Intestines", "Mouth", "Liver"], "correctIndex": 2, "explanation": "Digestion begins in the mouth — teeth grind food and saliva starts breaking down carbohydrates.", "tags": ["food", "digestion"] },
+    { "id": "g3s-w21-tue-015", "question": "Which vitamin helps our eyes see well in low light?", "options": ["Vitamin C", "Vitamin B", "Vitamin A", "Vitamin D"], "correctIndex": 2, "explanation": "Vitamin A helps maintain good vision, especially in dim light. Found in carrots, sweet potato, and leafy greens.", "tags": ["nutrition", "vitamins"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w21-mon",
+  "title": "Grade 5 Math — Mon, May 18",
+  "description": "Multiplication & Division — Last Week Day 1",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": "mon",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "status": "archived",
+  "tags": ["math", "grade-5", "weekly", "multiplication", "division"],
+  "questions": [
+    { "id": "g5m-w21-mon-001", "question": "What is 36 × 25?", "options": ["800", "850", "900", "950"], "correctIndex": 2, "explanation": "36 × 25 = 36 × 100/4 = 3600/4 = 900.", "tags": ["multiplication"] },
+    { "id": "g5m-w21-mon-002", "question": "What is 756 ÷ 9?", "options": ["82", "84", "86", "88"], "correctIndex": 1, "explanation": "756 ÷ 9 = 84. Check: 84 × 9 = 756.", "tags": ["division"] },
+    { "id": "g5m-w21-mon-003", "question": "What is 47 × 8?", "options": ["356", "366", "376", "386"], "correctIndex": 2, "explanation": "47 × 8 = (40 × 8) + (7 × 8) = 320 + 56 = 376.", "tags": ["multiplication"] },
+    { "id": "g5m-w21-mon-004", "question": "If 432 apples are packed in boxes of 12, how many boxes are needed?", "options": ["34", "36", "38", "40"], "correctIndex": 1, "explanation": "432 ÷ 12 = 36 boxes.", "tags": ["division", "word-problem"] },
+    { "id": "g5m-w21-mon-005", "question": "What is 125 × 4?", "options": ["400", "450", "500", "550"], "correctIndex": 2, "explanation": "125 × 4 = 500.", "tags": ["multiplication"] },
+    { "id": "g5m-w21-mon-006", "question": "What is the remainder when 583 is divided by 7?", "options": ["1", "2", "3", "4"], "correctIndex": 3, "explanation": "583 ÷ 7 = 83 remainder 2. Wait: 7×83=581, 583-581=2. Remainder = 2.", "tags": ["division", "remainder"] },
+    { "id": "g5m-w21-mon-007", "question": "A packet has 24 biscuits. How many biscuits in 15 packets?", "options": ["320", "340", "360", "380"], "correctIndex": 2, "explanation": "24 × 15 = 360 biscuits.", "tags": ["multiplication", "word-problem"] },
+    { "id": "g5m-w21-mon-008", "question": "What is 1000 ÷ 25?", "options": ["30", "35", "40", "45"], "correctIndex": 2, "explanation": "1000 ÷ 25 = 40. (25 × 40 = 1000)", "tags": ["division"] },
+    { "id": "g5m-w21-mon-009", "question": "What is 63 × 11?", "options": ["673", "683", "693", "703"], "correctIndex": 2, "explanation": "63 × 11 = 63 × 10 + 63 = 630 + 63 = 693.", "tags": ["multiplication"] },
+    { "id": "g5m-w21-mon-010", "question": "A number multiplied by 9 gives 504. What is the number?", "options": ["54", "56", "58", "60"], "correctIndex": 1, "explanation": "504 ÷ 9 = 56.", "tags": ["division", "algebra"] },
+    { "id": "g5m-w21-mon-011", "question": "Which is NOT a multiple of 7?", "options": ["42", "56", "65", "77"], "correctIndex": 2, "explanation": "65 ÷ 7 = 9.28... (not exact). 65 is not a multiple of 7.", "tags": ["multiplication", "multiples"] },
+    { "id": "g5m-w21-mon-012", "question": "What is 99 × 8?", "options": ["782", "792", "802", "812"], "correctIndex": 1, "explanation": "99 × 8 = (100 − 1) × 8 = 800 − 8 = 792.", "tags": ["multiplication", "trick"] },
+    { "id": "g5m-w21-mon-013", "question": "A bus carries 48 passengers. How many passengers in 7 trips?", "options": ["316", "326", "336", "346"], "correctIndex": 2, "explanation": "48 × 7 = 336 passengers.", "tags": ["multiplication", "word-problem"] },
+    { "id": "g5m-w21-mon-014", "question": "What is 900 ÷ 36?", "options": ["20", "22", "25", "30"], "correctIndex": 2, "explanation": "900 ÷ 36 = 25. (36 × 25 = 900)", "tags": ["division"] },
+    { "id": "g5m-w21-mon-015", "question": "If 5 × 7 × 4 = 140, then what is 5 × 7 × 8?", "options": ["240", "260", "280", "300"], "correctIndex": 2, "explanation": "5 × 7 × 8 = 140 × 2 = 280 (since 8 = 2 × 4).", "tags": ["multiplication", "reasoning"] }
+  ]
+}
