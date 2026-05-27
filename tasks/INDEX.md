@@ -55,7 +55,7 @@
 | [P2-T011](P2-T011-manual-test-checklist.md) | Manual test checklist — all screens, auth flows, edge cases | S | Pending |
 | **[P2-T012](P2-T012-profile-edit-grade-change.md)** | **Profile edit — grade/role change without losing history** | **S** | **✅ Done** |
 | **[P2-T013](P2-T013-subscription-tier-design.md)** | **Subscription strategy — 15-day trial, soft lock, ₹199/month Pro** | **S** | **Pending** |
-| **[P2-T014](P2-T014-branding-logo-rename.md)** | **Branding — SVG logo, favicon, PWA icon, tagline** | **M** | **Pending** |
+| **[P2-T014](P2-T014-branding-logo-rename.md)** | **Branding — progression arc logo, "See yourself grow" tagline, favicon, OG image (derived from avatar SVG)** | **M** | **Pending** |
 | **[P2-T015](P2-T015-landing-page-improvements.md)** | **Landing page — real stats, screenshot, specific social proof, FAQ** | **M** | **Pending** |
 | **[P2-T016](P2-T016-welcome-onboarding-flow.md)** | **Welcome onboarding — first-login modal, guided profile setup, empty states** | **M** | **Pending** |
 | **[P2-T017](P2-T017-profile-page-password-reset.md)** | **Profile page — account screen, change password, delete account** | **M** | **Pending** |
@@ -64,6 +64,11 @@
 | **[P2-T020](P2-T020-content-operations-bulk-import.md)** | **Content operations — in-app admin panel + CSV bulk import for non-developer content growth** | **M** | **Pending** |
 | **[P2-T021](P2-T021-subject-tab-filter-ui.md)** | **Subject tab filter — Math / Science / Hindi / French tabs on home screen** | **S** | **✅ Done** |
 | **[P2-T022](P2-T022-remove-regional-language-from-signup.md)** | **Remove regional language from signup — move to profile settings, keeps app internationally neutral** | **S** | **Pending** |
+| **[P2-T023](P2-T023-cross-page-ui-consistency-kid-theme.md)** | **Cross-page UI consistency + auto kid-friendly theme — warm palette default for school Grade 2–8** | **M** | **Pending** |
+| **[P2-T024](P2-T024-session-management-confidence-audit.md)** | **Session management confidence audit — Drive sync, localStorage fallback, cross-device integrity** | **M** | **Pending** |
+| **[P2-T025](P2-T025-backup-and-disaster-recovery.md)** | **Backup and disaster recovery — daily Drive snapshots, user data export, recovery playbook** | **M** | **Pending** |
+| **[P2-T026](P2-T026-subscription-plan-tamper-protection.md)** | **Subscription plan tamper protection — signed HMAC token, Drive as source of truth, Pro content proxied via Apps Script** | **M** | **Pending** |
+| **[P2-T027](P2-T027-concept-builder-atom-to-synthesis.md)** | **Concept Builder — atom-to-synthesis engine, concept-tagged bank, smart weekly selection, concept map UI** | **L** | **Pending** |
 
 ---
 
@@ -88,7 +93,15 @@
 | **[P3-T020](P3-T020-international-language-learning-priority.md)** | **International language learning — French, German, Spanish, Japanese, Mandarin, Arabic (elevated from P6)** | **M** | **Pending** |
 | **[P3-T021](P3-T021-curriculum-topic-progression-plan.md)** | **Curriculum topic progression — structured topic sequence per grade/subject, not random day-by-day** | **M** | **Pending** |
 | **[P3-T022](P3-T022-question-reuse-spaced-practice.md)** | **Question reuse & spaced practice — track mastery per question, surface weak topics for retry sessions** | **M** | **Pending** |
-| [P3-T004](P3-T004-avatar-profile-photo.md) | Avatar + profile photo upload | S | Pending |
+| **[P3-T023](P3-T023-question-content-growth-strategy.md)** | **Question content growth strategy — coverage matrix, quality rubric, freshness policy, velocity targets** | **M** | **Pending** |
+| **[P3-T024](P3-T024-ai-question-generation-pipeline.md)** | **AI question generation pipeline — prompt template, format validator, review UI, 30-min workflow** | **M** | **Pending** |
+| **[P3-T025](P3-T025-question-file-architecture-at-scale.md)** | **Question file architecture at scale — lazy loading, manifest split by grade, archive strategy** | **M** | **Pending** |
+| **[P3-T026](P3-T026-topic-tag-filter-ui.md)** | **Topic tag filter UI — Pro feature; topic pills for subscribers, clean "Upgrade" CTA for free users** | **M** | **Pending** |
+| **[P3-T027](P3-T027-tag-quality-and-canonicalization.md)** | **Tag quality & canonicalization — canonical tag vocab, audit script, backfill Grade 3+5 files** | **S** | **Pending** |
+| **[P3-T028](P3-T028-free-pro-weekly-set-gating.md)** | **Free vs Pro weekly set gating — Sets 1–2 free, Sets 3–5 locked with clean Pro badge (no grey-out)** | **S** | **Pending** |
+| **[P3-T029](P3-T029-weekly-progressive-test-subscribers.md)** | **Weekly progressive test (Pro) — 2 easy + 2 medium + 1 hard arc → Weekly Exam, no mid-feedback** | **M** | **Pending** |
+| **[P3-T030](P3-T030-offline-first-question-prefetch.md)** | **Offline-first question prefetch — IndexedDB bulk cache, event-driven invalidation, ~85% fewer network calls** | **M** | **Pending** |
+| **[P3-T004](P3-T004-avatar-growth-system.md)** | **Avatar growth system — 6-stage character arc (fearful→confident), Journey Replay animation, subject badges** | **L** | **Pending** |
 | [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
 | [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
 | [P3-T007](P3-T007-efficient-question-addition.md) | Admin form + CSV bulk import for adding questions | M | Pending |
@@ -105,6 +118,9 @@
 | **[P4-T003](P4-T003-go-to-market-strategy.md)** | **Go-to-market strategy — target segment, first 100 users plan, success metrics** | **S** | **Pending** |
 | **[P4-T004](P4-T004-professional-micro-habit-trackers.md)** | **Professional micro-habit trackers — Health, Finance, Wellness, Learning daily check-ins** | **L** | **Pending** |
 | **[P4-T005](P4-T005-multilanguage-ui-landing-signup.md)** | **Multi-language UI — landing page + signup in Hindi, Marathi, Tamil** | **L** | **Pending** |
+| **[P4-T006](P4-T006-admin-portal-standalone-app.md)** | **Admin portal — dedicated standalone web app: users, content, sessions, health dashboard** | **L** | **Pending** |
+| **[P4-T007](P4-T007-admin-question-pattern-config.md)** | **Admin question pattern config — weekly difficulty ramp per grade, exam mix, slot labels via JSON** | **S** | **Pending** |
+| **[P4-T008](P4-T008-product-split-three-apps.md)** | **Product split — DecaShift Students / Pro / Exam as 3 focused apps on one shared platform (mitigates F3)** | **L** | **Pending** |
 
 ---
 
@@ -175,7 +191,24 @@ P4-T005  (multi-lang UI)     standalone; supersedes P6-T004 in priority; informs
 P3-T007  (Q addition)        → P6-T001
 P3-T013  (regional lang)     depends on P3-T009 (nested folders — done); → P2-T012 (profile edit adds change-language option)
 
-P4-T001  (admin)             → P6-T001, P5-T003
+P2-T014  (branding)          depends on P3-T004 (avatar SVG first; logo derived from it); parallel with P2-T023
+P2-T023  (kid theme)         depends on P2-T005 (dark/light toggle); extends P3-T012 (student theme); parallel with P2-T014 (branding)
+P2-T024  (session audit)     depends on P1-T011, P1-T012, P1-T004 (all done); feeds P2-T025
+P2-T025  (backup)            depends on P2-T024 (session audit first); feeds P4-T006 (admin health panel)
+P2-T026  (tamper protection) must ship before P5-T001 (Stripe); informs P3-T028 + P3-T029 + P3-T026 (all reuse _verifyPlan)
+P2-T027  (concept builder)   must be designed before content scales past Grade 5; feeds P3-T023 (catalogue) + P3-T024 (gen prompts) + P3-T029 (exam arc) + P3-T004 (avatar mastery events)
+P3-T023  (content strategy)  feeds P3-T024 (generation pipeline) + P3-T019 (content calendar) + P3-T021 (progression)
+P3-T024  (AI gen pipeline)   depends on P3-T023 (strategy spec); review UI lives in P4-T006 (admin portal)
+P3-T025  (file architecture) depends on P1-T013 (multi-file — done); feeds P3-T019 (calendar)
+P3-T026  (topic filter UI)   Pro feature; blocked by P3-T027 (tag quality) + P3-T028 (plan-check pattern)
+P3-T027  (tag quality)       depends on P3-T023 (strategy); unblocks P3-T026
+P3-T028  (set gating)        first subscription UX to ship; stubs P5-T004; unblocks P3-T026 + P3-T029
+P3-T030  (offline prefetch)  companion to P3-T008 (SW safety net); depends on P3-T028 (plan tier drives what to prefetch)
+P3-T029  (weekly exam)       depends on P3-T028 (gating + difficultyRank in place); feeds P4-T007
+P4-T007  (pattern config)    depends on P3-T028 + P3-T029 (features exist); lives inside P4-T006
+P4-T006  (admin portal)      extends P4-T001 (absorbs it); depends on P2-T024, P2-T025, P3-T024, P2-T020
+
+P4-T001  (admin)             → P6-T001, P5-T003 (basic metrics; superseded in scope by P4-T006)
 P5-T004  (feature gate)      depends on P2-T013 (tier design must be finalized)
 P5-T005  (upgrade UI)        depends on P5-T004, P2-T013
 P5-T001  (Stripe)            depends on P5-T004, P5-T005 → P5-T002, P5-T003
@@ -192,6 +225,6 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 66 (1 cancelled, 1 superseded) | P1: 13 | P2: 22 | P3: 22 | P4: 5 | P5: 6 | P6: 6*
+*Total tasks: 83 (1 cancelled, 1 superseded) | P1: 13 | P2: 27 | P3: 30 | P4: 8 | P5: 6 | P6: 6*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback | BUG-005 (fixed) — weekly questions moved from `questions/weekly/` into grade+subject folders as day-files; manifest-driven loading; 80 files generated for Grades 3 + 5 as test baseline*
 *New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*

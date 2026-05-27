@@ -4,6 +4,32 @@
 
 ---
 
+## 🎯 North Star Goal (Read Before Doing Anything)
+
+**5,000 users onboarded by end of August 2026. (~3 months from 2026-05-27)**
+
+**Strategy:** Flood the market at the lowest possible price. ₹79/month Pro.
+Solopreneur + near-zero infra cost (static site + Cloudflare R2 + Upstash) = margins
+competitors with payroll cannot match. Three products, one engine:
+1. **DecaShift Students** — Grade 2–12 (this app, launch first)
+2. **DecaShift Pro** — Professionals, upskilling + interview prep (fork after Students stable)
+3. **DecaShift Exam** — UPSC / JEE / NEET / CAT aspirants (fork after Pro stable)
+
+**The decision filter — before every task ask:**
+- Does this move toward 5K users by August 2026?
+- Does it fix content depth (F1 — the only Critical failure)?
+- Does it create a shareable moment (something a parent sends to another parent)?
+- Does it work on a ₹8,000 Android phone on 4G?
+
+**The bottleneck is content, not code.**
+Fix F1 (50+ questions per grade) before any marketing. Word of mouth is the only
+growth channel. Word of mouth comes from the Concept Builder — parents who see their
+child solve a hard problem they built atom by atom will tell every parent they know.
+
+---
+
+---
+
 ## 🎯 What Is This App?
 
 **DecaShift** is a frontend-only quiz and goal-tracking PWA where users:
@@ -284,6 +310,61 @@ When asking an AI to build this app:
 3. **Test after each file** — open index.html in browser after adding each piece
 4. **For questions.json** — give AI your specific topic (e.g., "Azure MLOps interview questions") and it will generate 10 questions in the required schema
 5. **For remote sync** — only set up Google Apps Script endpoint after MVP works locally
+
+---
+
+## ♻️ Rebuild Reference (Fresh Session or New Project)
+
+### Code Surface (~2,750 lines total — no questions, no external deps)
+
+| File | ~Lines | Contents |
+|---|---|---|
+| `app/ui/index.html` | 400 | 3 screen sections, all modals, font links |
+| `app/ui/app.js` | 1,200 | State object, all screen renderers, quiz engine, auth |
+| `app/ui/styles.css` | 700 | CSS vars, mobile-first layout, all component styles |
+| `app/ui/storage.js` | 300 | localStorage, Drive sync, export functions |
+| `sw.js` + `manifest.webmanifest` | 150 | Service Worker, PWA manifest |
+
+### Rebuild Session Estimate
+
+| Scope | Sessions |
+|---|---|
+| Pure code only (no content, no external deps) | **1–2** |
+| Launch-ready (all P2 tasks complete) | **~10** |
+| Full 82-task vision | **25–35** |
+
+**Session 1:** Shell + auth + quiz engine + all 3 screens functional  
+**Session 2:** Styles polished + weekly sets + streaks + storage + edge cases  
+No third session needed if focused.
+
+### What to Hand a Fresh Session
+
+1. This file (`CLAUDE.md`) — architecture, schemas, function signatures, CSS vars
+2. `tasks/INDEX.md` — full task list with status
+3. The specific task `.md` files for that session's scope
+4. `memory/project_decashift_setup.md` — Drive folder ID, Apps Script URL, file naming
+
+### Strategic Decisions Locked (as of 2026-05-27)
+
+| Decision | Detail |
+|---|---|
+| Brand | Progression arc logo; tagline "See yourself grow." No animal mascot |
+| Avatar | 6-stage growth system — user sees themselves growing (P3-T004) |
+| Journey Replay | 6–10 sec inline animation of full growth arc from profile screen |
+| Learning engine | Atom → Foundation → Relationship → Application → Synthesis (P2-T027) |
+| Question bank | Reusable, concept-tagged source; smart weekly selection, never random |
+| Subscription gate | HMAC signed token; Plan stored in Drive, not localStorage (P2-T026) |
+| Offline | IndexedDB prefetch on login; re-fetch only on week/grade/plan change (P3-T030) |
+| Subject tabs | Math first, All last; auto-applies Math for school users on first render |
+| Weekly sets | Free: Sets 1–2 | Pro: Sets 3–5 + Exam (2 easy → 2 medium → 1 hard) |
+
+### The Bottleneck Is Never Code
+
+Content work (concept-tagged question bank, avatar SVG design, concept catalogues per
+grade) runs in parallel and cannot be generated in a session. Plan for:
+- 150–700 questions per subject per grade (see task file for grade breakdown)
+- Avatar SVG: 1 designer, 5-stage layered illustration
+- Concept catalogues: curriculum expertise per grade/subject
 
 ---
 

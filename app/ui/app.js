@@ -406,7 +406,10 @@ function _renderHome() {
   const tabsEl   = document.getElementById('subject-tabs');
   const isSchool = user.category === 'school';
   if (tabsEl) {
-    const subjects = isSchool ? [...new Set(regularGoals.map(g => g.subject))] : [];
+    const rawSubjects = isSchool ? [...new Set(regularGoals.map(g => g.subject))] : [];
+    const subjects = rawSubjects.slice().sort((a, b) =>
+      a === 'mathematics' ? -1 : b === 'mathematics' ? 1 : 0
+    );
     const hasRegionalTab = isSchool && regionalGoals.length > 0;
     const subjectLabels = {
       'mathematics': 'Math', 'science': 'Science', 'hindi': 'Hindi',
@@ -415,8 +418,11 @@ function _renderHome() {
     const langLabel = { sanskrit: 'Sanskrit', marathi: 'Marathi', tamil: 'Tamil',
                         telugu: 'Telugu', punjabi: 'Punjabi', malayalam: 'Malayalam' };
     const allTabs = subjects.length > 0
-      ? ['all', ...subjects, ...(hasRegionalTab ? [regionalLang] : [])]
+      ? [...subjects, ...(hasRegionalTab ? [regionalLang] : []), 'all']
       : [];
+    if (state.subjectFilter === 'all' && subjects.includes('mathematics')) {
+      state.subjectFilter = 'mathematics';
+    }
 
     if (allTabs.length > 1) {
       tabsEl.style.display = 'flex';
