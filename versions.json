@@ -14,10 +14,17 @@
     "status": "stable"
   },
   {
-    "version": "v3-dev",
+    "version": "v3.7",
+    "path": "./v3/",
+    "date": "2026-05-27",
+    "description": "Stable — weekly question sets, avatar design system, Donnibo mascot, Grades 2–8 full content (6,000+ questions)",
+    "status": "stable"
+  },
+  {
+    "version": "v4-dev",
     "path": "./app/ui/",
-    "date": "2026-05-26",
-    "description": "Active development — mobile redesign, streaks, timer toggle, progress dashboard",
+    "date": "2026-05-27",
+    "description": "Active development — landing page UI upgrade, kid theme, branding, onboarding improvements",
     "status": "latest"
   }
 ]

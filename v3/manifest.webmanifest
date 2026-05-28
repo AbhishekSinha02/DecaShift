@@ -1,0 +1,17 @@
+{
+  "name": "DecaShift",
+  "short_name": "DecaShift",
+  "description": "Daily quizzes for students and professionals. Track accuracy, build streaks, and grow faster.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f1117",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

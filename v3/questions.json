@@ -1,0 +1,332 @@
+[
+  {
+    "id": "g5m-001", "goalId": "grade-5-math", "category": "school", "grade": 5, "subject": "mathematics", "level": "beginner",
+    "question": "What is 25% of 200?",
+    "options": ["25", "50", "75", "100"],
+    "correctIndex": 1,
+    "explanation": "25% means 25 out of 100. So 25/100 × 200 = 50.",
+    "tags": ["percentage"]
+  },
+  {
+    "id": "g5m-002", "goalId": "grade-5-math", "category": "school", "grade": 5, "subject": "mathematics", "level": "beginner",
+    "question": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+    "options": ["13 cm²", "26 cm²", "40 cm²", "80 cm²"],
+    "correctIndex": 2,
+    "explanation": "Area of a rectangle = length × width = 8 × 5 = 40 cm².",
+    "tags": ["geometry"]
+  },
+  {
+    "id": "g5m-003", "goalId": "grade-5-math", "category": "school", "grade": 5, "subject": "mathematics", "level": "beginner",
+    "question": "Which fraction is the largest?",
+    "options": ["1/2", "3/8", "2/5", "4/9"],
+    "correctIndex": 0,
+    "explanation": "Converting to decimals: 1/2=0.5, 3/8=0.375, 2/5=0.4, 4/9≈0.44. So 1/2 is largest.",
+    "tags": ["fractions"]
+  },
+  {
+    "id": "g5m-004", "goalId": "grade-5-math", "category": "school", "grade": 5, "subject": "mathematics", "level": "beginner",
+    "question": "A train travels 360 km in 4 hours. What is its average speed?",
+    "options": ["80 km/h", "90 km/h", "100 km/h", "120 km/h"],
+    "correctIndex": 1,
+    "explanation": "Speed = Distance ÷ Time = 360 ÷ 4 = 90 km/h.",
+    "tags": ["arithmetic"]
+  },
+  {
+    "id": "g5m-005", "goalId": "grade-5-math", "category": "school", "grade": 5, "subject": "mathematics", "level": "beginner",
+    "question": "What is the LCM of 4 and 6?",
+    "options": ["8", "10", "12", "24"],
+    "correctIndex": 2,
+    "explanation": "Multiples of 4: 4,8,12... Multiples of 6: 6,12... First common multiple = 12.",
+    "tags": ["lcm-hcf"]
+  },
+  {
+    "id": "g8s-001", "goalId": "grade-8-science", "category": "school", "grade": 8, "subject": "science", "level": "beginner",
+    "question": "What is the SI unit of force?",
+    "options": ["Joule", "Watt", "Newton", "Pascal"],
+    "correctIndex": 2,
+    "explanation": "Force is measured in Newtons (N). 1 Newton = 1 kg·m/s².",
+    "tags": ["physics"]
+  },
+  {
+    "id": "g8s-002", "goalId": "grade-8-science", "category": "school", "grade": 8, "subject": "science", "level": "beginner",
+    "question": "Which gas is released by plants during photosynthesis?",
+    "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+    "correctIndex": 2,
+    "explanation": "During photosynthesis, plants absorb CO₂ and sunlight to produce glucose and release Oxygen (O₂).",
+    "tags": ["biology"]
+  },
+  {
+    "id": "g8s-003", "goalId": "grade-8-science", "category": "school", "grade": 8, "subject": "science", "level": "beginner",
+    "question": "What is the chemical formula of water?",
+    "options": ["HO", "H₂O", "H₂O₂", "HO₂"],
+    "correctIndex": 1,
+    "explanation": "Water is made of 2 hydrogen atoms and 1 oxygen atom: H₂O.",
+    "tags": ["chemistry"]
+  },
+  {
+    "id": "g8s-004", "goalId": "grade-8-science", "category": "school", "grade": 8, "subject": "science", "level": "beginner",
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Venus", "Earth", "Mercury", "Mars"],
+    "correctIndex": 2,
+    "explanation": "Mercury is the first planet from the Sun and the smallest planet in the Solar System.",
+    "tags": ["space"]
+  },
+  {
+    "id": "g8s-005", "goalId": "grade-8-science", "category": "school", "grade": 8, "subject": "science", "level": "beginner",
+    "question": "What does Newton's first law of motion state?",
+    "options": [
+      "Force equals mass times acceleration",
+      "Every action has an equal and opposite reaction",
+      "An object at rest stays at rest unless acted upon by a force",
+      "Energy cannot be created or destroyed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Newton's First Law (Law of Inertia): An object remains at rest or in uniform motion unless an external force acts on it.",
+    "tags": ["physics"]
+  },
+  {
+    "id": "g10m-001", "goalId": "grade-10-math", "category": "school", "grade": 10, "subject": "mathematics", "level": "intermediate",
+    "question": "What are the roots of x² - 5x + 6 = 0?",
+    "options": ["x = 1, x = 6", "x = 2, x = 3", "x = -2, x = -3", "x = 3, x = 4"],
+    "correctIndex": 1,
+    "explanation": "Factoring: (x-2)(x-3) = 0, so x = 2 or x = 3.",
+    "tags": ["algebra", "quadratic"]
+  },
+  {
+    "id": "g10m-002", "goalId": "grade-10-math", "category": "school", "grade": 10, "subject": "mathematics", "level": "intermediate",
+    "question": "What is sin(30°)?",
+    "options": ["√3/2", "1/√2", "1/2", "√3"],
+    "correctIndex": 2,
+    "explanation": "sin(30°) = 1/2. This is a standard trigonometric value to memorise.",
+    "tags": ["trigonometry"]
+  },
+  {
+    "id": "g10m-003", "goalId": "grade-10-math", "category": "school", "grade": 10, "subject": "mathematics", "level": "intermediate",
+    "question": "Find the distance between points (3, 4) and (0, 0).",
+    "options": ["5", "6", "7", "√7"],
+    "correctIndex": 0,
+    "explanation": "Distance = √((3-0)² + (4-0)²) = √(9+16) = √25 = 5.",
+    "tags": ["coordinate-geometry"]
+  },
+  {
+    "id": "g10m-004", "goalId": "grade-10-math", "category": "school", "grade": 10, "subject": "mathematics", "level": "intermediate",
+    "question": "What is the probability of getting a head when a fair coin is tossed?",
+    "options": ["0", "1/4", "1/2", "1"],
+    "correctIndex": 2,
+    "explanation": "A fair coin has 2 equally likely outcomes (H or T). P(Head) = 1/2.",
+    "tags": ["probability"]
+  },
+  {
+    "id": "g10m-005", "goalId": "grade-10-math", "category": "school", "grade": 10, "subject": "mathematics", "level": "intermediate",
+    "question": "What is the sum of interior angles of a triangle?",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correctIndex": 1,
+    "explanation": "The sum of interior angles of any triangle is always 180°.",
+    "tags": ["geometry"]
+  },
+  {
+    "id": "g12cs-001", "goalId": "grade-12-cs", "category": "school", "grade": 12, "subject": "computer-science", "level": "intermediate",
+    "question": "What is the output of: print(type(3.14)) in Python?",
+    "options": ["<class 'int'>", "<class 'str'>", "<class 'float'>", "<class 'double'>"],
+    "correctIndex": 2,
+    "explanation": "3.14 is a floating-point number in Python, so type(3.14) returns <class 'float'>.",
+    "tags": ["python"]
+  },
+  {
+    "id": "g12cs-002", "goalId": "grade-12-cs", "category": "school", "grade": 12, "subject": "computer-science", "level": "intermediate",
+    "question": "Which data structure follows LIFO (Last In First Out)?",
+    "options": ["Queue", "Array", "Stack", "Linked List"],
+    "correctIndex": 2,
+    "explanation": "A Stack follows LIFO — the last element pushed is the first to be popped. Think of a pile of plates.",
+    "tags": ["data-structures"]
+  },
+  {
+    "id": "g12cs-003", "goalId": "grade-12-cs", "category": "school", "grade": 12, "subject": "computer-science", "level": "intermediate",
+    "question": "What does SQL stand for?",
+    "options": ["Structured Query Language", "Simple Query Logic", "Sequential Query Language", "Structured Question Language"],
+    "correctIndex": 0,
+    "explanation": "SQL = Structured Query Language. It is used to manage and query relational databases.",
+    "tags": ["databases"]
+  },
+  {
+    "id": "g12cs-004", "goalId": "grade-12-cs", "category": "school", "grade": 12, "subject": "computer-science", "level": "intermediate",
+    "question": "What is the time complexity of Binary Search?",
+    "options": ["O(n)", "O(n²)", "O(log n)", "O(1)"],
+    "correctIndex": 2,
+    "explanation": "Binary Search halves the search space each step, giving O(log n) time complexity.",
+    "tags": ["algorithms"]
+  },
+  {
+    "id": "g12cs-005", "goalId": "grade-12-cs", "category": "school", "grade": 12, "subject": "computer-science", "level": "intermediate",
+    "question": "Which Python keyword is used to define a function?",
+    "options": ["func", "define", "def", "function"],
+    "correctIndex": 2,
+    "explanation": "In Python, functions are defined using the 'def' keyword: def my_function():",
+    "tags": ["python"]
+  },
+  {
+    "id": "cwd-001", "goalId": "college-web-dev", "category": "college", "course": "web-dev", "level": "beginner",
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": ["<link>", "<a>", "<href>", "<url>"],
+    "correctIndex": 1,
+    "explanation": "The <a> (anchor) tag creates hyperlinks. The destination URL goes in the href attribute: <a href='url'>text</a>",
+    "tags": ["html"]
+  },
+  {
+    "id": "cwd-002", "goalId": "college-web-dev", "category": "college", "course": "web-dev", "level": "beginner",
+    "question": "Which CSS property controls the text colour?",
+    "options": ["font-color", "text-color", "color", "foreground"],
+    "correctIndex": 2,
+    "explanation": "The CSS 'color' property sets the text colour. Example: color: #ff0000;",
+    "tags": ["css"]
+  },
+  {
+    "id": "cwd-003", "goalId": "college-web-dev", "category": "college", "course": "web-dev", "level": "beginner",
+    "question": "What does the 'typeof' operator return for an array in JavaScript?",
+    "options": ["'array'", "'list'", "'object'", "'collection'"],
+    "correctIndex": 2,
+    "explanation": "In JavaScript, typeof [] returns 'object'. Use Array.isArray() to check specifically for arrays.",
+    "tags": ["javascript"]
+  },
+  {
+    "id": "cwd-004", "goalId": "college-web-dev", "category": "college", "course": "web-dev", "level": "beginner",
+    "question": "What is the correct way to select an element with id 'header' in CSS?",
+    "options": [".header", "*header", "#header", "header"],
+    "correctIndex": 2,
+    "explanation": "IDs are selected with '#' in CSS. Class selectors use '.'. So #header targets <div id='header'>.",
+    "tags": ["css"]
+  },
+  {
+    "id": "cwd-005", "goalId": "college-web-dev", "category": "college", "course": "web-dev", "level": "beginner",
+    "question": "Which method adds an element to the end of a JavaScript array?",
+    "options": ["append()", "add()", "push()", "insert()"],
+    "correctIndex": 2,
+    "explanation": "array.push(item) adds one or more elements to the end of an array and returns the new length.",
+    "tags": ["javascript"]
+  },
+  {
+    "id": "dsa-001", "goalId": "college-dsa", "category": "college", "course": "dsa", "level": "beginner",
+    "question": "What is the time complexity of accessing an element in an array by index?",
+    "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+    "correctIndex": 2,
+    "explanation": "Array access by index is O(1) — constant time — because the memory address is calculated directly.",
+    "tags": ["arrays"]
+  },
+  {
+    "id": "dsa-002", "goalId": "college-dsa", "category": "college", "course": "dsa", "level": "beginner",
+    "question": "Which sorting algorithm has the best average-case time complexity?",
+    "options": ["Bubble Sort — O(n²)", "Merge Sort — O(n log n)", "Selection Sort — O(n²)", "Insertion Sort — O(n²)"],
+    "correctIndex": 1,
+    "explanation": "Merge Sort has O(n log n) average and worst-case complexity, making it one of the most efficient general-purpose sorting algorithms.",
+    "tags": ["sorting"]
+  },
+  {
+    "id": "dsa-003", "goalId": "college-dsa", "category": "college", "course": "dsa", "level": "beginner",
+    "question": "In a singly linked list, which operation is O(1)?",
+    "options": ["Search by value", "Access by index", "Insert at head", "Delete from tail"],
+    "correctIndex": 2,
+    "explanation": "Inserting at the head of a singly linked list is O(1) — just update the head pointer. All other options require traversal.",
+    "tags": ["linked-list"]
+  },
+  {
+    "id": "dsa-004", "goalId": "college-dsa", "category": "college", "course": "dsa", "level": "beginner",
+    "question": "Which data structure is best for implementing a breadth-first search (BFS)?",
+    "options": ["Stack", "Queue", "Heap", "Array"],
+    "correctIndex": 1,
+    "explanation": "BFS uses a Queue (FIFO) to explore nodes level by level. DFS uses a Stack (or recursion).",
+    "tags": ["graphs", "bfs"]
+  },
+  {
+    "id": "dsa-005", "goalId": "college-dsa", "category": "college", "course": "dsa", "level": "beginner",
+    "question": "What is a Binary Search Tree (BST) property?",
+    "options": [
+      "Left child > parent > right child",
+      "Left child < parent < right child",
+      "All nodes are equal",
+      "Parent is always the largest node"
+    ],
+    "correctIndex": 1,
+    "explanation": "In a BST: left subtree values < node value < right subtree values. This property enables O(log n) search.",
+    "tags": ["trees", "bst"]
+  },
+  {
+    "id": "q001", "goalId": "azure-aks", "category": "professional",
+    "question": "What is the purpose of Workload Identity in AKS?",
+    "options": ["Assign managed identity to pods via OIDC federation", "Store secrets in Azure Key Vault", "Enable RBAC on the cluster", "Configure network policies"],
+    "correctIndex": 0,
+    "explanation": "Workload Identity uses OIDC token federation to let pods assume Azure AD identities without storing credentials.",
+    "difficulty": "medium", "tags": ["identity", "security"]
+  },
+  {
+    "id": "q002", "goalId": "azure-aks", "category": "professional",
+    "question": "Which AKS networking mode supports Azure CNI with dynamic IP allocation?",
+    "options": ["Kubenet", "Azure CNI Overlay", "Azure CNI with pod subnet delegation", "Flannel"],
+    "correctIndex": 2,
+    "explanation": "Azure CNI with pod subnet delegation lets each pod get an IP from a dedicated subnet.",
+    "difficulty": "hard", "tags": ["networking"]
+  },
+  {
+    "id": "q003", "goalId": "azure-aks", "category": "professional",
+    "question": "What does the AKS cluster autoscaler do when a pod is Pending due to insufficient resources?",
+    "options": ["Deletes existing pods to free resources", "Scales up the number of nodes in the node pool", "Increases the resource limits of the pending pod", "Moves the pod to a different namespace"],
+    "correctIndex": 1,
+    "explanation": "The cluster autoscaler watches for Pending pods and adds nodes so the scheduler can place them.",
+    "difficulty": "easy", "tags": ["scaling"]
+  },
+  {
+    "id": "q004", "goalId": "azure-aks", "category": "professional",
+    "question": "Which component manages Azure Load Balancer rules for Kubernetes Services of type LoadBalancer?",
+    "options": ["kube-proxy", "CoreDNS", "cloud-controller-manager", "kubelet"],
+    "correctIndex": 2,
+    "explanation": "The cloud-controller-manager interfaces with Azure API to create Load Balancer rules and public IPs.",
+    "difficulty": "medium", "tags": ["networking", "control-plane"]
+  },
+  {
+    "id": "q005", "goalId": "azure-aks", "category": "professional",
+    "question": "What is the recommended way to give an AKS pod access to an Azure Key Vault secret without storing credentials?",
+    "options": ["Mount the secret as an environment variable", "Use the Secrets Store CSI Driver with Workload Identity", "Hardcode the service principal credentials in the pod spec", "Use a DaemonSet to pull secrets on each node"],
+    "correctIndex": 1,
+    "explanation": "The Secrets Store CSI Driver combined with Workload Identity lets pods mount Key Vault secrets without any credentials in the cluster.",
+    "difficulty": "medium", "tags": ["security", "identity"]
+  },
+  {
+    "id": "q006", "goalId": "mlops-interview", "category": "professional",
+    "question": "What is the primary purpose of a Feature Store in an MLOps pipeline?",
+    "options": ["To store trained model weights", "To provide consistent, reusable feature computation for training and serving", "To schedule model retraining jobs", "To log model predictions in production"],
+    "correctIndex": 1,
+    "explanation": "A Feature Store ensures the same feature logic runs at training time and serving time, eliminating training-serving skew.",
+    "difficulty": "medium", "tags": ["feature-engineering"]
+  },
+  {
+    "id": "q007", "goalId": "mlops-interview", "category": "professional",
+    "question": "Which metric would you monitor first to detect data drift in a production ML model?",
+    "options": ["GPU utilization", "Statistical distribution of input features over time", "Number of API requests per minute", "Model binary size"],
+    "correctIndex": 1,
+    "explanation": "Monitoring input feature distributions (PSI, KL divergence) detects data drift before it degrades model performance.",
+    "difficulty": "medium", "tags": ["monitoring"]
+  },
+  {
+    "id": "q008", "goalId": "mlops-interview", "category": "professional",
+    "question": "What does a Model Registry primarily store?",
+    "options": ["Raw training datasets", "Versioned model artifacts, metadata, and lineage", "Feature definitions and transformations", "CI/CD pipeline configurations"],
+    "correctIndex": 1,
+    "explanation": "A Model Registry tracks versioned model artifacts with metadata like metrics, parameters, and lineage.",
+    "difficulty": "easy", "tags": ["model-registry"]
+  },
+  {
+    "id": "q009", "goalId": "mlops-interview", "category": "professional",
+    "question": "In a canary deployment for an ML model, what controls the traffic split between old and new model?",
+    "options": ["Feature store routing rules", "A load balancer or service mesh weighted routing", "The model accuracy threshold", "Number of GPUs available"],
+    "correctIndex": 1,
+    "explanation": "Traffic splitting in canary release is managed at the infrastructure layer via a service mesh or load balancer.",
+    "difficulty": "medium", "tags": ["deployment"]
+  },
+  {
+    "id": "q010", "goalId": "mlops-interview", "category": "professional",
+    "question": "What is the key difference between online and offline feature serving in a Feature Store?",
+    "options": ["Offline serving uses GPUs; online uses CPUs", "Online serving provides low-latency lookups for inference; offline provides batch data for training", "Offline serving is encrypted; online is not", "Online features are computed weekly; offline features are computed in real time"],
+    "correctIndex": 1,
+    "explanation": "Online stores (Redis) serve features in milliseconds for inference. Offline stores (S3, BigQuery) serve historical data for training.",
+    "difficulty": "medium", "tags": ["feature-store"]
+  }
+]

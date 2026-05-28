@@ -1,0 +1,76 @@
+[
+  {
+    "id": "grade-5-math",
+    "name": "Grade 5 — Mathematics",
+    "description": "Fractions, percentages, basic geometry and arithmetic",
+    "category": "school",
+    "grade": 5,
+    "subject": "mathematics",
+    "tags": ["math", "grade-5", "school"],
+    "createdAt": "2025-05-25"
+  },
+  {
+    "id": "grade-8-science",
+    "name": "Grade 8 — Science",
+    "description": "Physics, chemistry and biology fundamentals",
+    "category": "school",
+    "grade": 8,
+    "subject": "science",
+    "tags": ["science", "grade-8", "school"],
+    "createdAt": "2025-05-25"
+  },
+  {
+    "id": "grade-10-math",
+    "name": "Grade 10 — Mathematics",
+    "description": "Algebra, trigonometry, coordinate geometry and statistics",
+    "category": "school",
+    "grade": 10,
+    "subject": "mathematics",
+    "tags": ["math", "grade-10", "school"],
+    "createdAt": "2025-05-25"
+  },
+  {
+    "id": "grade-12-cs",
+    "name": "Grade 12 — Computer Science",
+    "description": "Python programming, algorithms, data structures, databases",
+    "category": "school",
+    "grade": 12,
+    "subject": "computer-science",
+    "tags": ["cs", "python", "grade-12", "school"],
+    "createdAt": "2025-05-25"
+  },
+  {
+    "id": "college-web-dev",
+    "name": "Web Development Fundamentals",
+    "description": "HTML, CSS, JavaScript, DOM APIs and browser fundamentals",
+    "category": "college",
+    "course": "web-dev",
+    "tags": ["web", "html", "javascript", "college"],
+    "createdAt": "2025-05-25"
+  },
+  {
+    "id": "college-dsa",
+    "name": "Data Structures & Algorithms",
+    "description": "Arrays, linked lists, trees, graphs, sorting and searching",
+    "category": "college",
+    "course": "dsa",
+    "tags": ["dsa", "algorithms", "college"],
+    "createdAt": "2025-05-25"
+  },
+  {
+    "id": "azure-aks",
+    "name": "Azure AKS",
+    "description": "Kubernetes on Azure — architecture, networking, workload identity",
+    "category": "professional",
+    "tags": ["azure", "cloud", "k8s"],
+    "createdAt": "2024-01-01"
+  },
+  {
+    "id": "mlops-interview",
+    "name": "MLOps Interview Prep",
+    "description": "CI/CD for ML, model registries, feature stores, monitoring",
+    "category": "professional",
+    "tags": ["ml", "devops", "interviews"],
+    "createdAt": "2024-01-01"
+  }
+]

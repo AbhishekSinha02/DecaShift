@@ -81,7 +81,7 @@
 | [P3-T003](P3-T003-progress-dashboard.md) | Progress dashboard — accuracy trends, time invested, goal breakdown | M | ✅ Done (inline on home; deep analytics pending) |
 | [P3-T009](P3-T009-questions-folder-hierarchy-by-grade.md) | Questions folder hierarchy — nested category/grade, manifest-only discovery | M | ✅ Done |
 | **[P3-T010](P3-T010-per-user-session-folder-drive.md)** | **Per-user session folder in Drive — verified + future full user-root folder** | **S** | **✅ Already Implemented (Code.gs)** |
-| **[P3-T011](P3-T011-content-expansion-tracking.md)** | **Content expansion — 295 questions across 18 files, targets for 2 subjects/grade** | **S** | **🔄 In Progress (v3.2 adds 295q)** |
+| **[P3-T011](P3-T011-content-expansion-tracking.md)** | **Content expansion — 6,000+ questions, Grades 2–8 full W21+W22 weekly sets (all 4 subjects)** | **S** | **✅ Done** |
 | **[P3-T012](P3-T012-colorful-student-theme.md)** | **Colorful student theme (Grade 2–8) — 3rd theme option, warm/bright palette** | **M** | **Pending** |
 | ~~[P3-T013](P3-T013-regional-language-learning.md)~~ | ~~Regional language learning (superseded by P3-T018)~~ | **M** | ❌ Superseded |
 | **[P3-T014](P3-T014-content-expansion-science-hindi-french-grade2-8.md)** | **Content expansion — Science, Hindi, French for grades 2–8 (22 new files, 264 questions)** | **M** | **✅ Done** |
@@ -227,4 +227,6 @@ P5-T003  (leaderboard)       → P6-T003
 
 *Total tasks: 83 (1 cancelled, 1 superseded) | P1: 13 | P2: 27 | P3: 30 | P4: 8 | P5: 6 | P6: 6*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback | BUG-005 (fixed) — weekly questions moved from `questions/weekly/` into grade+subject folders as day-files; manifest-driven loading; 80 files generated for Grades 3 + 5 as test baseline*
+*Content milestone (2026-05-27): Grades 2–8 all have W21+W22 weekly sets across 4 subjects each (Math, Science, Hindi, French). 280 weekly files × 15q = 4,200q weekly content. Total ~6,000q across all grades + regional + professional. Grade 8 manifest level fixed (was 1, corrected to 2).*
+*v3.7 snapshot created (2026-05-27) — 13 Donnibo avatar SVGs (6 stages + 7 expressions) + mascot brief committed to design/. App/ui/ enters v4-dev (landing page upgrade).*
 *New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*
