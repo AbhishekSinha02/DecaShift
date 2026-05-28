@@ -1,9 +1,10 @@
 # Session: TBD — app.js File Splitting Restructure (P2-T037)
 
-**Scheduled:** After 2026-05-28 18:30 session (Flash Drill implementation)
+**Priority:** 1
 **Type:** Code / Architecture
 **Est. Duration:** 1.5–2 hours
-**Trigger:** "start the session" (when this is the next pending session in INDEX)
+**Task:** P2-T037
+**Trigger:** "start the session" (Priority 1 in pending queue)
 **Depends on:** P2-T031 Flash Drill implementation must be committed first
 
 ---
