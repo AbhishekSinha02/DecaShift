@@ -1,0 +1,198 @@
+{
+  "goalId": "grade12-physics",
+  "title": "Grade 12 Physics — Electric Charges & Fields and Electrostatic Potential",
+  "description": "Electric Charges and Fields and Electrostatic Potential and Capacitance practice questions",
+  "category": "school",
+  "grade": 12,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_12_electric-charges_001",
+      "goalId": "grade12-physics",
+      "question": "Coulomb's law states that the force between two point charges is:",
+      "options": [
+        "Proportional to the product of charges and inversely proportional to the distance",
+        "Proportional to the product of charges and inversely proportional to the square of the distance",
+        "Inversely proportional to both charges",
+        "Proportional to the square of the distance"
+      ],
+      "correctIndex": 1,
+      "explanation": "F = kq₁q₂/r². The force is proportional to the product of charges and inversely proportional to the square of the distance. This is Coulomb's law.",
+      "difficulty": "easy",
+      "tags": ["electric-charges", "coulombs-law"]
+    },
+    {
+      "id": "q_physics_12_electric-charges_002",
+      "goalId": "grade12-physics",
+      "question": "The SI unit of electric field intensity is:",
+      "options": ["Volt", "Newton", "N/C (or V/m)", "Coulomb"],
+      "correctIndex": 2,
+      "explanation": "Electric field E = F/q. Units = Newton/Coulomb = N/C. Since 1 V = 1 J/C and 1 J = 1 N·m, N/C = V/m.",
+      "difficulty": "easy",
+      "tags": ["electric-charges", "electric-field", "SI-units"]
+    },
+    {
+      "id": "q_physics_12_electric-charges_003",
+      "goalId": "grade12-physics",
+      "question": "The total charge enclosed by a closed surface is related to the electric flux through Gauss's law as:",
+      "options": ["Φ = q/ε₀", "Φ = qε₀", "Φ = ε₀/q", "Φ = q²/ε₀"],
+      "correctIndex": 0,
+      "explanation": "Gauss's law: Φ = q_enc/ε₀. The total electric flux through any closed surface equals the net charge enclosed divided by the permittivity of free space ε₀.",
+      "difficulty": "medium",
+      "tags": ["electric-charges", "gauss-law"]
+    },
+    {
+      "id": "q_physics_12_electric-charges_004",
+      "goalId": "grade12-physics",
+      "question": "Electric field lines always:",
+      "options": [
+        "Form closed loops",
+        "Start on positive charges and end on negative charges",
+        "Run parallel to each other",
+        "Are always perpendicular to each other"
+      ],
+      "correctIndex": 1,
+      "explanation": "Electric field lines start on (originate from) positive charges and end on (terminate at) negative charges. They never cross, and their density indicates field strength.",
+      "difficulty": "easy",
+      "tags": ["electric-charges", "electric-field-lines"]
+    },
+    {
+      "id": "q_physics_12_electric-charges_005",
+      "goalId": "grade12-physics",
+      "question": "The electric field inside a uniformly charged hollow metallic sphere is:",
+      "options": ["Maximum at centre", "Uniform throughout", "Zero", "Increases towards the surface"],
+      "correctIndex": 2,
+      "explanation": "By Gauss's law, inside a hollow conductor, the enclosed charge is zero. Therefore, E = 0 inside a closed metallic shell.",
+      "difficulty": "medium",
+      "tags": ["electric-charges", "gauss-law", "conductor"]
+    },
+    {
+      "id": "q_physics_12_electric-charges_006",
+      "goalId": "grade12-physics",
+      "question": "Quantisation of charge means that:",
+      "options": [
+        "Charge can take any continuous value",
+        "Charge is always a multiple of the elementary charge e (1.6 × 10⁻¹⁹ C)",
+        "Charge decreases with temperature",
+        "Charge is the same as mass"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charge is quantised: q = ne, where n is an integer and e = 1.6 × 10⁻¹⁹ C is the elementary charge. Fractional charges of quarks exist inside protons but are not observed freely.",
+      "difficulty": "medium",
+      "tags": ["electric-charges", "quantisation-of-charge"]
+    },
+    {
+      "id": "q_physics_12_electric-charges_007",
+      "goalId": "grade12-physics",
+      "question": "Electric potential V at a point is defined as:",
+      "options": [
+        "Work done per unit charge to move a test charge from infinity to that point",
+        "Force per unit charge",
+        "Energy stored in the field",
+        "Charge per unit area"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electric potential V = W/q₀. It is the work done (by an external agent) per unit positive test charge in bringing it from infinity to the given point, without acceleration.",
+      "difficulty": "medium",
+      "tags": ["electrostatic-potential", "definition"]
+    },
+    {
+      "id": "q_physics_12_electric-charges_008",
+      "goalId": "grade12-physics",
+      "question": "The capacitance of a parallel plate capacitor with plate area A, separation d, and dielectric constant K is:",
+      "options": ["ε₀A/d", "ε₀Ad", "Kε₀A/d", "ε₀A/(Kd)"],
+      "correctIndex": 2,
+      "explanation": "C = Kε₀A/d. Without dielectric (K=1): C = ε₀A/d. The dielectric increases capacitance by factor K.",
+      "difficulty": "hard",
+      "tags": ["electrostatic-potential", "capacitance", "dielectric"]
+    },
+    {
+      "id": "q_physics_12_electric-potential_001",
+      "goalId": "grade12-physics",
+      "question": "Equipotential surfaces are always:",
+      "options": [
+        "Parallel to the electric field",
+        "Perpendicular to the electric field",
+        "Spherical in shape",
+        "Planar only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Equipotential surfaces are perpendicular to electric field lines. No work is done in moving a charge along an equipotential surface since ΔV = 0.",
+      "difficulty": "easy",
+      "tags": ["electrostatic-potential", "equipotential-surfaces"]
+    },
+    {
+      "id": "q_physics_12_electric-potential_002",
+      "goalId": "grade12-physics",
+      "question": "The energy stored in a capacitor of capacitance C charged to voltage V is:",
+      "options": ["CV", "CV²", "½CV²", "2CV²"],
+      "correctIndex": 2,
+      "explanation": "Energy stored U = ½CV². This can also be written as Q²/(2C) = QV/2.",
+      "difficulty": "medium",
+      "tags": ["electrostatic-potential", "capacitor-energy"]
+    },
+    {
+      "id": "q_physics_12_electric-potential_003",
+      "goalId": "grade12-physics",
+      "question": "When capacitors are connected in series, the equivalent capacitance is:",
+      "options": [
+        "C₁ + C₂",
+        "C₁C₂/(C₁+C₂)",
+        "C₁ − C₂",
+        "(C₁+C₂)/2"
+      ],
+      "correctIndex": 1,
+      "explanation": "For two capacitors in series: 1/C = 1/C₁ + 1/C₂ → C = C₁C₂/(C₁+C₂). Series reduces capacitance; parallel increases it.",
+      "difficulty": "medium",
+      "tags": ["electrostatic-potential", "capacitors-series"]
+    },
+    {
+      "id": "q_physics_12_electric-potential_004",
+      "goalId": "grade12-physics",
+      "question": "The SI unit of electric potential is:",
+      "options": ["Joule", "Newton", "Volt", "Farad"],
+      "correctIndex": 2,
+      "explanation": "Electric potential is measured in Volts (V). 1 Volt = 1 Joule/Coulomb (J/C). The Farad is the unit of capacitance.",
+      "difficulty": "easy",
+      "tags": ["electrostatic-potential", "volt", "SI-units"]
+    },
+    {
+      "id": "q_physics_12_electric-potential_005",
+      "goalId": "grade12-physics",
+      "question": "The relation between electric field E and potential V is:",
+      "options": ["E = V/d only in parallel plates", "E = −dV/dx", "E = dV/dx", "V = E × q"],
+      "correctIndex": 1,
+      "explanation": "E = −dV/dx (negative gradient of potential). The minus sign means E points from high potential to low potential (in the direction of decreasing V).",
+      "difficulty": "hard",
+      "tags": ["electrostatic-potential", "field-potential-relation"]
+    },
+    {
+      "id": "q_physics_12_electric-potential_006",
+      "goalId": "grade12-physics",
+      "question": "Dielectric strength refers to:",
+      "options": [
+        "Capacitance of the dielectric",
+        "Maximum electric field a dielectric can withstand without breaking down",
+        "Dielectric constant",
+        "Permittivity of free space"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dielectric strength is the maximum electric field (in V/m) that an insulating material can withstand without electrical breakdown (sparking through it).",
+      "difficulty": "hard",
+      "tags": ["electrostatic-potential", "dielectric-strength"]
+    },
+    {
+      "id": "q_physics_12_electric-potential_007",
+      "goalId": "grade12-physics",
+      "question": "Two capacitors of 4 μF and 6 μF are connected in parallel. The equivalent capacitance is:",
+      "options": ["2.4 μF", "10 μF", "5 μF", "24 μF"],
+      "correctIndex": 1,
+      "explanation": "Capacitors in parallel: C = C₁ + C₂ = 4 + 6 = 10 μF. Parallel connection always increases capacitance.",
+      "difficulty": "medium",
+      "tags": ["electrostatic-potential", "capacitors-parallel", "calculation"]
+    }
+  ]
+}

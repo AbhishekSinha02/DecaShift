@@ -1,0 +1,178 @@
+{
+  "goalId": "grade12-mathematics",
+  "title": "Grade 12 Mathematics — Integrals & Applications of Integrals",
+  "description": "Integrals and Applications of Integrals practice questions",
+  "category": "school",
+  "grade": 12,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_12_integrals_001",
+      "goalId": "grade12-mathematics",
+      "question": "∫xⁿ dx =",
+      "options": ["xⁿ⁺¹ + C", "xⁿ⁺¹/(n+1) + C", "nxⁿ⁻¹ + C", "xⁿ/n + C"],
+      "correctIndex": 1,
+      "explanation": "∫xⁿ dx = xⁿ⁺¹/(n+1) + C for n ≠ −1. This is the power rule of integration (reverse of the differentiation power rule).",
+      "difficulty": "easy",
+      "tags": ["integrals", "power-rule", "indefinite"]
+    },
+    {
+      "id": "q_mathematics_12_integrals_002",
+      "goalId": "grade12-mathematics",
+      "question": "∫cos x dx =",
+      "options": ["−sin x + C", "sin x + C", "−cos x + C", "tan x + C"],
+      "correctIndex": 1,
+      "explanation": "∫cos x dx = sin x + C. Since d/dx(sin x) = cos x, the integral reverses this.",
+      "difficulty": "easy",
+      "tags": ["integrals", "trigonometric", "indefinite"]
+    },
+    {
+      "id": "q_mathematics_12_integrals_003",
+      "goalId": "grade12-mathematics",
+      "question": "∫eˣ dx =",
+      "options": ["eˣ/x + C", "xeˣ + C", "eˣ + C", "eˣ⁺¹ + C"],
+      "correctIndex": 2,
+      "explanation": "∫eˣ dx = eˣ + C. The exponential function eˣ is its own derivative and its own integral.",
+      "difficulty": "easy",
+      "tags": ["integrals", "exponential", "indefinite"]
+    },
+    {
+      "id": "q_mathematics_12_integrals_004",
+      "goalId": "grade12-mathematics",
+      "question": "The definite integral ∫₀¹ x² dx evaluates to:",
+      "options": ["1", "1/2", "1/3", "1/4"],
+      "correctIndex": 2,
+      "explanation": "∫₀¹ x² dx = [x³/3]₀¹ = 1/3 − 0 = 1/3.",
+      "difficulty": "medium",
+      "tags": ["integrals", "definite", "calculation"]
+    },
+    {
+      "id": "q_mathematics_12_integrals_005",
+      "goalId": "grade12-mathematics",
+      "question": "The method of integration by substitution uses the substitution u = g(x) to convert:",
+      "options": [
+        "∫f(g(x))g'(x)dx into ∫f(u)du",
+        "∫f(x)dx into ∫f(u)du",
+        "∫f(u)du into ∫f(g(x))dx",
+        "Product of two functions into a simpler form"
+      ],
+      "correctIndex": 0,
+      "explanation": "In substitution: u = g(x), du = g'(x)dx. So ∫f(g(x))g'(x)dx = ∫f(u)du, which may be easier to evaluate.",
+      "difficulty": "medium",
+      "tags": ["integrals", "substitution-method"]
+    },
+    {
+      "id": "q_mathematics_12_integrals_006",
+      "goalId": "grade12-mathematics",
+      "question": "The formula for integration by parts is:",
+      "options": [
+        "∫uv dx = u∫v dx − ∫(du/dx × ∫v dx)dx",
+        "∫uv dx = (∫u dx)(∫v dx)",
+        "∫uv dx = u'v' + C",
+        "∫uv dx = ∫u dx + ∫v dx"
+      ],
+      "correctIndex": 0,
+      "explanation": "Integration by parts (ILATE rule): ∫uv dx = u∫v dx − ∫[(du/dx)(∫v dx)]dx. Choose u using ILATE: Inverse trig, Logarithm, Algebraic, Trigonometric, Exponential.",
+      "difficulty": "medium",
+      "tags": ["integrals", "integration-by-parts"]
+    },
+    {
+      "id": "q_mathematics_12_integrals_007",
+      "goalId": "grade12-mathematics",
+      "question": "∫₀^π sin x dx =",
+      "options": ["0", "1", "2", "π"],
+      "correctIndex": 2,
+      "explanation": "∫₀^π sin x dx = [−cos x]₀^π = −cos π − (−cos 0) = −(−1) − (−1) = 1 + 1 = 2.",
+      "difficulty": "medium",
+      "tags": ["integrals", "definite", "trigonometric"]
+    },
+    {
+      "id": "q_mathematics_12_integrals_008",
+      "goalId": "grade12-mathematics",
+      "question": "The Fundamental Theorem of Calculus states that if F'(x) = f(x), then ∫ₐᵇ f(x) dx =",
+      "options": ["F'(b) − F'(a)", "F(b) − F(a)", "F(a) − F(b)", "F(a) + F(b)"],
+      "correctIndex": 1,
+      "explanation": "Fundamental Theorem of Calculus: ∫ₐᵇ f(x) dx = F(b) − F(a), where F is an antiderivative of f. This connects differentiation and integration.",
+      "difficulty": "hard",
+      "tags": ["integrals", "fundamental-theorem"]
+    },
+    {
+      "id": "q_mathematics_12_applications-integrals_001",
+      "goalId": "grade12-mathematics",
+      "question": "The area under the curve y = f(x) between x = a and x = b is given by:",
+      "options": ["∫ₐᵇ f'(x) dx", "∫ₐᵇ f(x) dx", "f(b) − f(a)", "f(a) + f(b)"],
+      "correctIndex": 1,
+      "explanation": "Area = ∫ₐᵇ f(x) dx (for f(x) ≥ 0 on [a, b]). The definite integral gives the signed area between the curve and the x-axis.",
+      "difficulty": "easy",
+      "tags": ["applications-of-integrals", "area-under-curve"]
+    },
+    {
+      "id": "q_mathematics_12_applications-integrals_002",
+      "goalId": "grade12-mathematics",
+      "question": "The area of the region bounded by y = x², x = 0, x = 2, and the x-axis is:",
+      "options": ["2", "4/3", "8/3", "4"],
+      "correctIndex": 2,
+      "explanation": "Area = ∫₀² x² dx = [x³/3]₀² = 8/3 − 0 = 8/3.",
+      "difficulty": "medium",
+      "tags": ["applications-of-integrals", "area", "calculation"]
+    },
+    {
+      "id": "q_mathematics_12_applications-integrals_003",
+      "goalId": "grade12-mathematics",
+      "question": "The area between two curves y = f(x) and y = g(x) (with f(x) ≥ g(x)) from a to b is:",
+      "options": [
+        "∫ₐᵇ f(x) dx",
+        "∫ₐᵇ [f(x) + g(x)] dx",
+        "∫ₐᵇ [f(x) − g(x)] dx",
+        "∫ₐᵇ f(x) dx × ∫ₐᵇ g(x) dx"
+      ],
+      "correctIndex": 2,
+      "explanation": "Area between two curves = ∫ₐᵇ [upper − lower] dx = ∫ₐᵇ [f(x) − g(x)] dx when f(x) ≥ g(x) on [a, b].",
+      "difficulty": "medium",
+      "tags": ["applications-of-integrals", "area-between-curves"]
+    },
+    {
+      "id": "q_mathematics_12_applications-integrals_004",
+      "goalId": "grade12-mathematics",
+      "question": "The area of the circle x² + y² = r² using integration is:",
+      "options": ["πr", "2πr", "πr²", "4πr²/3"],
+      "correctIndex": 2,
+      "explanation": "By integrating the upper half y = √(r²−x²) from −r to r and doubling: Area = 4∫₀ʳ √(r²−x²) dx = πr².",
+      "difficulty": "hard",
+      "tags": ["applications-of-integrals", "area-of-circle"]
+    },
+    {
+      "id": "q_mathematics_12_applications-integrals_005",
+      "goalId": "grade12-mathematics",
+      "question": "∫₁² (3x² + 2x) dx =",
+      "options": ["6", "10", "12", "14"],
+      "correctIndex": 1,
+      "explanation": "∫₁²(3x²+2x)dx = [x³+x²]₁² = (8+4)−(1+1) = 12−2 = 10.",
+      "difficulty": "medium",
+      "tags": ["integrals", "definite", "polynomial"]
+    },
+    {
+      "id": "q_mathematics_12_applications-integrals_006",
+      "goalId": "grade12-mathematics",
+      "question": "∫(1/x)dx =",
+      "options": ["x⁰ + C", "ln|x| + C", "1/x² + C", "eˣ + C"],
+      "correctIndex": 1,
+      "explanation": "∫(1/x)dx = ln|x| + C. This is the special case of the power rule that doesn't apply for n = −1.",
+      "difficulty": "easy",
+      "tags": ["integrals", "logarithm", "indefinite"]
+    },
+    {
+      "id": "q_mathematics_12_applications-integrals_007",
+      "goalId": "grade12-mathematics",
+      "question": "The area enclosed by the ellipse x²/a² + y²/b² = 1 is:",
+      "options": ["πab", "2πab", "πa²b", "π(a+b)"],
+      "correctIndex": 0,
+      "explanation": "The area of an ellipse with semi-major axis a and semi-minor axis b is πab. When a = b = r, this gives πr² (area of a circle).",
+      "difficulty": "hard",
+      "tags": ["applications-of-integrals", "area-of-ellipse"]
+    }
+  ]
+}

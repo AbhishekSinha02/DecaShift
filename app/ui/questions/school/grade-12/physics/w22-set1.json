@@ -1,0 +1,188 @@
+{
+  "goalId": "grade12-physics",
+  "title": "Grade 12 Physics — Current Electricity & Moving Charges and Magnetism",
+  "description": "Current Electricity and Moving Charges and Magnetism practice questions",
+  "category": "school",
+  "grade": 12,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_12_current-electricity_001",
+      "goalId": "grade12-physics",
+      "question": "Electric current is defined as:",
+      "options": [
+        "Charge × time",
+        "Rate of flow of charge (charge per unit time)",
+        "Potential difference / resistance",
+        "Energy per unit charge"
+      ],
+      "correctIndex": 1,
+      "explanation": "Current I = Q/t (charge per unit time). The SI unit is the Ampere (A), where 1 A = 1 C/s.",
+      "difficulty": "easy",
+      "tags": ["current-electricity", "current", "definition"]
+    },
+    {
+      "id": "q_physics_12_current-electricity_002",
+      "goalId": "grade12-physics",
+      "question": "Resistivity of a material:",
+      "options": [
+        "Depends only on its length",
+        "Depends only on its cross-sectional area",
+        "Is a property of the material independent of its dimensions",
+        "Increases with increasing area"
+      ],
+      "correctIndex": 2,
+      "explanation": "Resistivity (ρ) is an intrinsic property of a material — it depends on the material's nature and temperature, not on its shape or size. R = ρL/A.",
+      "difficulty": "easy",
+      "tags": ["current-electricity", "resistivity"]
+    },
+    {
+      "id": "q_physics_12_current-electricity_003",
+      "goalId": "grade12-physics",
+      "question": "Kirchhoff's current law (KCL) states that:",
+      "options": [
+        "The sum of currents in a loop is zero",
+        "The algebraic sum of currents at any junction is zero",
+        "Current is always the same in series circuits",
+        "Voltage across each branch is equal"
+      ],
+      "correctIndex": 1,
+      "explanation": "KCL (junction rule): the algebraic sum of currents meeting at a junction is zero: ΣI = 0. This is based on conservation of charge.",
+      "difficulty": "medium",
+      "tags": ["current-electricity", "kirchhoffs-law", "KCL"]
+    },
+    {
+      "id": "q_physics_12_current-electricity_004",
+      "goalId": "grade12-physics",
+      "question": "The Wheatstone bridge is balanced when:",
+      "options": ["P/Q = R/S", "P + Q = R + S", "P × Q = R × S", "P/R = Q/S"],
+      "correctIndex": 0,
+      "explanation": "Wheatstone bridge is balanced (no current through galvanometer) when P/Q = R/S. This allows precise measurement of an unknown resistance.",
+      "difficulty": "medium",
+      "tags": ["current-electricity", "wheatstone-bridge"]
+    },
+    {
+      "id": "q_physics_12_current-electricity_005",
+      "goalId": "grade12-physics",
+      "question": "The EMF of a cell is the potential difference when:",
+      "options": [
+        "Current flows through external circuit",
+        "No current flows (open circuit)",
+        "Internal resistance is zero",
+        "Two cells are connected in series"
+      ],
+      "correctIndex": 1,
+      "explanation": "EMF is the potential difference between the terminals of a cell when no current flows (open circuit). When current flows, terminal voltage = EMF − Ir, where r is internal resistance.",
+      "difficulty": "medium",
+      "tags": ["current-electricity", "EMF", "internal-resistance"]
+    },
+    {
+      "id": "q_physics_12_current-electricity_006",
+      "goalId": "grade12-physics",
+      "question": "Temperature coefficient of resistivity for most metals is:",
+      "options": ["Negative (resistance decreases with temperature)", "Zero", "Positive (resistance increases with temperature)", "Equal to 1 at all temperatures"],
+      "correctIndex": 2,
+      "explanation": "For most metals (conductors), resistivity increases with temperature (positive temperature coefficient). For semiconductors, resistivity decreases with temperature.",
+      "difficulty": "hard",
+      "tags": ["current-electricity", "temperature-coefficient", "resistivity"]
+    },
+    {
+      "id": "q_physics_12_current-electricity_007",
+      "goalId": "grade12-physics",
+      "question": "A cell of EMF 2 V and internal resistance 0.5 Ω is connected to a 1.5 Ω resistor. The terminal voltage is:",
+      "options": ["2 V", "1.5 V", "1 V", "0.5 V"],
+      "correctIndex": 1,
+      "explanation": "I = E/(R+r) = 2/(1.5+0.5) = 1 A. Terminal voltage = E − Ir = 2 − 1×0.5 = 1.5 V.",
+      "difficulty": "hard",
+      "tags": ["current-electricity", "terminal-voltage", "calculation"]
+    },
+    {
+      "id": "q_physics_12_current-electricity_008",
+      "goalId": "grade12-physics",
+      "question": "Drift velocity of electrons in a conductor is:",
+      "options": ["Equal to the speed of light", "Very small (mm/s range)", "Same as random thermal velocity", "Always zero"],
+      "correctIndex": 1,
+      "explanation": "Drift velocity is the average velocity of electrons due to the applied electric field — very small (typically 10⁻³ to 10⁻⁴ m/s). The signal travels fast because the field propagates at near light speed.",
+      "difficulty": "easy",
+      "tags": ["current-electricity", "drift-velocity"]
+    },
+    {
+      "id": "q_physics_12_magnetism_001",
+      "goalId": "grade12-physics",
+      "question": "The magnetic force on a charge q moving with velocity v in field B is:",
+      "options": ["F = qE", "F = qvB sin θ", "F = qvB cos θ", "F = q/vB"],
+      "correctIndex": 1,
+      "explanation": "Lorentz magnetic force: F = q(v × B) = qvB sin θ, where θ is the angle between v and B. If v is parallel to B, force is zero.",
+      "difficulty": "easy",
+      "tags": ["moving-charges-magnetism", "lorentz-force"]
+    },
+    {
+      "id": "q_physics_12_magnetism_002",
+      "goalId": "grade12-physics",
+      "question": "The magnetic field at the centre of a circular current loop of radius R carrying current I is:",
+      "options": ["B = μ₀I/2R", "B = μ₀IR/2", "B = μ₀I/R", "B = μ₀/2IR"],
+      "correctIndex": 0,
+      "explanation": "By Biot-Savart law, the magnetic field at the centre of a circular loop: B = μ₀I/(2R).",
+      "difficulty": "medium",
+      "tags": ["moving-charges-magnetism", "biot-savart", "circular-loop"]
+    },
+    {
+      "id": "q_physics_12_magnetism_003",
+      "goalId": "grade12-physics",
+      "question": "Ampere's circuital law relates the line integral of B to:",
+      "options": ["Electric flux", "The total current enclosed by the loop", "Electric field", "Charge enclosed"],
+      "correctIndex": 1,
+      "explanation": "Ampere's law: ∮B·dl = μ₀I_enc. The line integral of B around a closed loop equals μ₀ times the total current enclosed by the loop.",
+      "difficulty": "medium",
+      "tags": ["moving-charges-magnetism", "amperes-law"]
+    },
+    {
+      "id": "q_physics_12_magnetism_004",
+      "goalId": "grade12-physics",
+      "question": "A proton and an electron moving with the same velocity enter a uniform magnetic field perpendicular to it. The radius of the proton's circular path compared to the electron's is:",
+      "options": ["Smaller", "Equal", "Larger", "The paths are not circular"],
+      "correctIndex": 2,
+      "explanation": "r = mv/(qB). Both have same charge magnitude and velocity. Since mass of proton >> mass of electron, radius of proton's path >> radius of electron's path.",
+      "difficulty": "hard",
+      "tags": ["moving-charges-magnetism", "circular-motion", "radius"]
+    },
+    {
+      "id": "q_physics_12_magnetism_005",
+      "goalId": "grade12-physics",
+      "question": "A current-carrying conductor placed in a magnetic field experiences force by:",
+      "options": ["Coulomb's law", "Faraday's law", "The Ampere force law (F = BIL sin θ)", "Lenz's law"],
+      "correctIndex": 2,
+      "explanation": "F = BIL sin θ, where B is the magnetic field, I is the current, L is the length of conductor, and θ is the angle between L and B. This is the Ampere force.",
+      "difficulty": "easy",
+      "tags": ["moving-charges-magnetism", "force-on-conductor"]
+    },
+    {
+      "id": "q_physics_12_magnetism_006",
+      "goalId": "grade12-physics",
+      "question": "In a galvanometer, the current sensitivity can be increased by:",
+      "options": [
+        "Increasing the number of turns in the coil",
+        "Decreasing the magnetic field",
+        "Increasing the spring constant",
+        "Increasing the area of the coil decreases sensitivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Current sensitivity of galvanometer = NBA/k, where N = turns, B = field, A = area, k = spring constant. Increasing N, B, or A increases sensitivity; increasing k decreases it.",
+      "difficulty": "hard",
+      "tags": ["moving-charges-magnetism", "galvanometer", "sensitivity"]
+    },
+    {
+      "id": "q_physics_12_magnetism_007",
+      "goalId": "grade12-physics",
+      "question": "The SI unit of magnetic field B is:",
+      "options": ["Gauss", "Oersted", "Tesla", "Weber"],
+      "correctIndex": 2,
+      "explanation": "The SI unit of magnetic field (magnetic flux density) B is the Tesla (T). 1 T = 1 N/(A·m). The Gauss is the CGS unit (1 T = 10⁴ Gauss).",
+      "difficulty": "easy",
+      "tags": ["moving-charges-magnetism", "tesla", "SI-units"]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "goalId": "grade12-mathematics",
+  "title": "Grade 12 Mathematics — Continuity & Differentiability & Applications of Derivatives",
+  "description": "Continuity and Differentiability and Applications of Derivatives practice questions",
+  "category": "school",
+  "grade": 12,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_12_continuity_001",
+      "goalId": "grade12-mathematics",
+      "question": "A function f(x) is continuous at x = a if:",
+      "options": [
+        "f(a) is defined",
+        "lim(x→a) f(x) exists",
+        "lim(x→a) f(x) = f(a)",
+        "f'(a) exists"
+      ],
+      "correctIndex": 2,
+      "explanation": "f is continuous at x = a if: (1) f(a) is defined, (2) lim(x→a) f(x) exists, and (3) the limit equals f(a). All three conditions must hold.",
+      "difficulty": "easy",
+      "tags": ["continuity", "definition"]
+    },
+    {
+      "id": "q_mathematics_12_continuity_002",
+      "goalId": "grade12-mathematics",
+      "question": "If f(x) = x² then f'(x) =",
+      "options": ["x", "2x", "2x²", "x/2"],
+      "correctIndex": 1,
+      "explanation": "Using the power rule: d/dx(xⁿ) = nxⁿ⁻¹. So d/dx(x²) = 2x.",
+      "difficulty": "easy",
+      "tags": ["differentiability", "power-rule"]
+    },
+    {
+      "id": "q_mathematics_12_continuity_003",
+      "goalId": "grade12-mathematics",
+      "question": "The derivative of sin x is:",
+      "options": ["−sin x", "cos x", "−cos x", "tan x"],
+      "correctIndex": 1,
+      "explanation": "d/dx(sin x) = cos x. This is a standard derivative that must be memorised.",
+      "difficulty": "easy",
+      "tags": ["differentiability", "trigonometric-derivatives"]
+    },
+    {
+      "id": "q_mathematics_12_continuity_004",
+      "goalId": "grade12-mathematics",
+      "question": "The chain rule states that if y = f(g(x)), then dy/dx =",
+      "options": ["f'(x) + g'(x)", "f'(g(x)) × g'(x)", "f(g'(x))", "f'(x) × g'(x)"],
+      "correctIndex": 1,
+      "explanation": "Chain rule: dy/dx = f'(g(x)) · g'(x). Differentiate the outer function (keeping the inner function unchanged) then multiply by the derivative of the inner function.",
+      "difficulty": "medium",
+      "tags": ["differentiability", "chain-rule"]
+    },
+    {
+      "id": "q_mathematics_12_continuity_005",
+      "goalId": "grade12-mathematics",
+      "question": "The second derivative d²y/dx² is used to determine:",
+      "options": ["Slope of tangent", "Rate of change of slope (concavity)", "Whether a function is continuous", "The maximum value directly"],
+      "correctIndex": 1,
+      "explanation": "The second derivative measures how the slope (first derivative) is changing — i.e., concavity. f'' > 0 means concave up; f'' < 0 means concave down.",
+      "difficulty": "medium",
+      "tags": ["differentiability", "second-derivative", "concavity"]
+    },
+    {
+      "id": "q_mathematics_12_continuity_006",
+      "goalId": "grade12-mathematics",
+      "question": "At a local maximum point x = c, the necessary condition is:",
+      "options": ["f'(c) > 0", "f'(c) < 0", "f'(c) = 0", "f''(c) = 0"],
+      "correctIndex": 2,
+      "explanation": "At any local extremum (max or min), the derivative f'(c) = 0 (the tangent is horizontal). This is the necessary condition. The sufficient condition uses the sign of f''(c).",
+      "difficulty": "medium",
+      "tags": ["applications-of-derivatives", "maxima-minima"]
+    },
+    {
+      "id": "q_mathematics_12_continuity_007",
+      "goalId": "grade12-mathematics",
+      "question": "Rolle's theorem requires: f is continuous on [a, b], differentiable on (a, b), and f(a) = f(b). The conclusion is:",
+      "options": [
+        "f is constant on [a, b]",
+        "There exists c ∈ (a, b) such that f'(c) = 0",
+        "f has a maximum at c = (a+b)/2",
+        "f' > 0 on (a, b)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rolle's Theorem: under the given conditions, there exists at least one c in (a, b) where f'(c) = 0 (the tangent is horizontal).",
+      "difficulty": "hard",
+      "tags": ["differentiability", "rolles-theorem"]
+    },
+    {
+      "id": "q_mathematics_12_continuity_008",
+      "goalId": "grade12-mathematics",
+      "question": "If f(x) = eˣ then f'(x) =",
+      "options": ["xeˣ⁻¹", "eˣ", "eˣ/x", "1/eˣ"],
+      "correctIndex": 1,
+      "explanation": "d/dx(eˣ) = eˣ. The exponential function is its own derivative — a unique property.",
+      "difficulty": "easy",
+      "tags": ["differentiability", "exponential-derivative"]
+    },
+    {
+      "id": "q_mathematics_12_applications_001",
+      "goalId": "grade12-mathematics",
+      "question": "The equation of the tangent to y = x² at x = 2 is:",
+      "options": ["y = 4x − 4", "y = 2x + 4", "y = 4x + 4", "y = x + 2"],
+      "correctIndex": 0,
+      "explanation": "At x=2: y=4, slope=f'(2)=4. Tangent: y−4=4(x−2) → y=4x−4.",
+      "difficulty": "medium",
+      "tags": ["applications-of-derivatives", "tangent", "equation"]
+    },
+    {
+      "id": "q_mathematics_12_applications_002",
+      "goalId": "grade12-mathematics",
+      "question": "A function is increasing on an interval if:",
+      "options": ["f'(x) < 0 on that interval", "f'(x) = 0 on that interval", "f'(x) > 0 on that interval", "f''(x) > 0 on that interval"],
+      "correctIndex": 2,
+      "explanation": "A function f is increasing on an interval if f'(x) > 0 for all x in that interval (the function goes up as x increases).",
+      "difficulty": "medium",
+      "tags": ["applications-of-derivatives", "increasing-decreasing"]
+    },
+    {
+      "id": "q_mathematics_12_applications_003",
+      "goalId": "grade12-mathematics",
+      "question": "The second derivative test says that x = c is a local minimum if:",
+      "options": ["f'(c) = 0 and f''(c) > 0", "f'(c) = 0 and f''(c) < 0", "f'(c) = 0 and f''(c) = 0", "f'(c) > 0"],
+      "correctIndex": 0,
+      "explanation": "Second derivative test: if f'(c) = 0 and f''(c) > 0, then x = c is a local minimum. If f''(c) < 0, it is a local maximum. If f''(c) = 0, the test is inconclusive.",
+      "difficulty": "hard",
+      "tags": ["applications-of-derivatives", "second-derivative-test", "minima"]
+    },
+    {
+      "id": "q_mathematics_12_applications_004",
+      "goalId": "grade12-mathematics",
+      "question": "The rate of change of area of a circle with respect to its radius r is:",
+      "options": ["πr", "2πr", "πr²", "4πr"],
+      "correctIndex": 1,
+      "explanation": "Area A = πr². dA/dr = 2πr. This is the rate of change of area with respect to radius — which is the circumference.",
+      "difficulty": "hard",
+      "tags": ["applications-of-derivatives", "rate-of-change", "circle"]
+    },
+    {
+      "id": "q_mathematics_12_applications_005",
+      "goalId": "grade12-mathematics",
+      "question": "The maximum value of f(x) = −x² + 4x + 3 is:",
+      "options": ["3", "4", "7", "11"],
+      "correctIndex": 2,
+      "explanation": "f'(x) = −2x + 4 = 0 → x = 2. f(2) = −4 + 8 + 3 = 7. f''(x) = −2 < 0 confirms it is a maximum.",
+      "difficulty": "medium",
+      "tags": ["applications-of-derivatives", "maxima", "calculation"]
+    },
+    {
+      "id": "q_mathematics_12_applications_006",
+      "goalId": "grade12-mathematics",
+      "question": "Mean Value Theorem guarantees, for f continuous on [a,b] and differentiable on (a,b), that:",
+      "options": [
+        "f has a zero in (a, b)",
+        "There exists c ∈ (a,b) where f'(c) = [f(b)−f(a)]/(b−a)",
+        "f is constant on [a,b]",
+        "f has both max and min in (a,b)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mean Value Theorem (MVT): there exists c ∈ (a, b) such that f'(c) = [f(b) − f(a)]/(b − a). The instantaneous rate of change equals the average rate of change at some point.",
+      "difficulty": "hard",
+      "tags": ["applications-of-derivatives", "mean-value-theorem"]
+    },
+    {
+      "id": "q_mathematics_12_applications_007",
+      "goalId": "grade12-mathematics",
+      "question": "The function f(x) = x³ − 3x has a local minimum at:",
+      "options": ["x = 0", "x = 1", "x = −1", "x = 3"],
+      "correctIndex": 1,
+      "explanation": "f'(x) = 3x² − 3 = 0 → x = ±1. f''(x) = 6x. f''(1) = 6 > 0 → local minimum at x = 1. f''(−1) = −6 < 0 → local maximum at x = −1.",
+      "difficulty": "medium",
+      "tags": ["applications-of-derivatives", "local-minimum", "calculation"]
+    }
+  ]
+}

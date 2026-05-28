@@ -1,0 +1,218 @@
+{
+  "goalId": "grade12-chemistry",
+  "title": "Grade 12 Chemistry — Electrochemistry & Chemical Kinetics",
+  "description": "Electrochemistry and Chemical Kinetics practice questions",
+  "category": "school",
+  "grade": 12,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_12_electrochemistry_001",
+      "goalId": "grade12-chemistry",
+      "question": "In an electrochemical cell, oxidation occurs at the:",
+      "options": ["Cathode", "Anode", "Salt bridge", "Electrolyte"],
+      "correctIndex": 1,
+      "explanation": "Oxidation (loss of electrons) occurs at the anode. Reduction (gain of electrons) occurs at the cathode. Memory tip: AN OX (anode = oxidation), RED CAT (reduction = cathode).",
+      "difficulty": "easy",
+      "tags": ["electrochemistry", "anode", "oxidation"]
+    },
+    {
+      "id": "q_chemistry_12_electrochemistry_002",
+      "goalId": "grade12-chemistry",
+      "question": "The standard electrode potential E° is measured with respect to:",
+      "options": ["Copper electrode", "Platinum electrode", "Standard hydrogen electrode (SHE)", "Zinc electrode"],
+      "correctIndex": 2,
+      "explanation": "All standard electrode potentials are measured relative to the Standard Hydrogen Electrode (SHE), which is assigned E° = 0.00 V.",
+      "difficulty": "easy",
+      "tags": ["electrochemistry", "standard-electrode-potential", "SHE"]
+    },
+    {
+      "id": "q_chemistry_12_electrochemistry_003",
+      "goalId": "grade12-chemistry",
+      "question": "The Nernst equation for a cell reaction is used to calculate:",
+      "options": [
+        "Standard cell potential only",
+        "Cell potential under non-standard conditions",
+        "Equilibrium constant only",
+        "Rate of reaction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nernst equation: E_cell = E°_cell − (RT/nF)ln Q. It relates cell potential to standard potential and the reaction quotient Q under non-standard conditions.",
+      "difficulty": "medium",
+      "tags": ["electrochemistry", "nernst-equation"]
+    },
+    {
+      "id": "q_chemistry_12_electrochemistry_004",
+      "goalId": "grade12-chemistry",
+      "question": "According to Faraday's first law of electrolysis, the mass deposited is:",
+      "options": [
+        "Inversely proportional to the quantity of charge",
+        "Directly proportional to the quantity of electricity passed",
+        "Independent of time",
+        "Proportional to the square of current"
+      ],
+      "correctIndex": 1,
+      "explanation": "Faraday's first law: m = ZQ = ZIt, where Z = electrochemical equivalent, I = current, t = time. The mass deposited is directly proportional to the quantity of charge (Q = It).",
+      "difficulty": "medium",
+      "tags": ["electrochemistry", "faradays-laws", "electrolysis"]
+    },
+    {
+      "id": "q_chemistry_12_electrochemistry_005",
+      "goalId": "grade12-chemistry",
+      "question": "The EMF of a Daniell cell (Zn-Cu) at standard conditions, given E°(Cu/Cu²⁺) = +0.34 V and E°(Zn/Zn²⁺) = −0.76 V, is:",
+      "options": ["0.42 V", "1.10 V", "0.76 V", "0.34 V"],
+      "correctIndex": 1,
+      "explanation": "E°_cell = E°_cathode − E°_anode = 0.34 − (−0.76) = 1.10 V. In Daniell cell, Cu²⁺ is reduced (cathode) and Zn is oxidised (anode).",
+      "difficulty": "medium",
+      "tags": ["electrochemistry", "daniell-cell", "EMF-calculation"]
+    },
+    {
+      "id": "q_chemistry_12_electrochemistry_006",
+      "goalId": "grade12-chemistry",
+      "question": "The molar conductance of a strong electrolyte decreases as concentration increases because:",
+      "options": [
+        "Ion-ion interactions increase, reducing ionic mobility",
+        "Number of ions decreases",
+        "Temperature increases",
+        "The electrolyte becomes non-electrolyte"
+      ],
+      "correctIndex": 0,
+      "explanation": "At higher concentrations, interionic interactions (attraction and repulsion between ions) increase, hindering movement. This reduces ionic mobility and hence molar conductance.",
+      "difficulty": "hard",
+      "tags": ["electrochemistry", "molar-conductance", "strong-electrolyte"]
+    },
+    {
+      "id": "q_chemistry_12_electrochemistry_007",
+      "goalId": "grade12-chemistry",
+      "question": "Kohlrausch's law states that the limiting molar conductivity Λ°m of an electrolyte equals:",
+      "options": [
+        "The sum of ionic conductivities of cation and anion at infinite dilution",
+        "The product of ionic conductivities",
+        "The ratio of cation to anion conductivity",
+        "A constant independent of ionic species"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kohlrausch's law: Λ°m = ν₊λ°₊ + ν₋λ°₋. At infinite dilution, ions move independently; the molar conductivity is the sum of individual ionic conductivities (multiplied by their stoichiometry).",
+      "difficulty": "hard",
+      "tags": ["electrochemistry", "kohlrauschs-law", "ionic-conductivity"]
+    },
+    {
+      "id": "q_chemistry_12_electrochemistry_008",
+      "goalId": "grade12-chemistry",
+      "question": "The function of a salt bridge in a galvanic cell is to:",
+      "options": [
+        "Increase the EMF of the cell",
+        "Allow electron flow between electrodes",
+        "Maintain electrical neutrality by allowing ion migration",
+        "Provide a metallic contact"
+      ],
+      "correctIndex": 2,
+      "explanation": "The salt bridge allows migration of ions between the two half-cells, maintaining electrical neutrality (preventing charge buildup). It completes the circuit without direct mixing of solutions.",
+      "difficulty": "medium",
+      "tags": ["electrochemistry", "salt-bridge", "galvanic-cell"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_001",
+      "goalId": "grade12-chemistry",
+      "question": "The rate of a reaction depends on:",
+      "options": [
+        "Concentration of reactants (and temperature)",
+        "Only temperature",
+        "Only catalyst presence",
+        "Volume of the reaction vessel only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rate of a reaction depends on the concentration of reactants, temperature, and presence of a catalyst. Rate = k[A]^m[B]^n (rate law).",
+      "difficulty": "easy",
+      "tags": ["chemical-kinetics", "rate-of-reaction"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_002",
+      "goalId": "grade12-chemistry",
+      "question": "For a first-order reaction, the half-life (t₁/₂) is:",
+      "options": ["Proportional to initial concentration", "0.693/k", "k/0.693", "Independent of k"],
+      "correctIndex": 1,
+      "explanation": "For a first-order reaction: t₁/₂ = 0.693/k = ln2/k. The half-life is constant and independent of the initial concentration — unique to first-order reactions.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "first-order", "half-life"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_003",
+      "goalId": "grade12-chemistry",
+      "question": "The Arrhenius equation k = Ae^(−Ea/RT) shows that the rate constant k increases when:",
+      "options": [
+        "Activation energy Ea increases",
+        "Temperature T decreases",
+        "Temperature T increases",
+        "Pre-exponential factor A decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "In the Arrhenius equation, increasing T makes the exponent (−Ea/RT) less negative, increasing e^(−Ea/RT), and hence increasing k. Higher temperature → faster reaction.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "arrhenius-equation", "activation-energy"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_004",
+      "goalId": "grade12-chemistry",
+      "question": "The order of reaction with respect to a reactant is determined by:",
+      "options": [
+        "The stoichiometric coefficient in the balanced equation",
+        "Experiments — by measuring how rate changes with concentration",
+        "The molecular mass of the reactant",
+        "The activation energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "The order of reaction is an experimental quantity determined by measuring rates at different concentrations. It may or may not equal the stoichiometric coefficient.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "order-of-reaction"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_005",
+      "goalId": "grade12-chemistry",
+      "question": "A catalyst increases the rate of a reaction by:",
+      "options": [
+        "Increasing the activation energy",
+        "Providing an alternative pathway with lower activation energy",
+        "Increasing the concentration of reactants",
+        "Changing the equilibrium constant"
+      ],
+      "correctIndex": 1,
+      "explanation": "A catalyst works by providing an alternative reaction pathway with a lower activation energy (Ea). This allows more molecules to cross the energy barrier, increasing the reaction rate.",
+      "difficulty": "easy",
+      "tags": ["chemical-kinetics", "catalyst", "activation-energy"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_006",
+      "goalId": "grade12-chemistry",
+      "question": "For a zero-order reaction, the rate is:",
+      "options": [
+        "Proportional to the square of concentration",
+        "Proportional to concentration",
+        "Independent of concentration",
+        "Inversely proportional to concentration"
+      ],
+      "correctIndex": 2,
+      "explanation": "For a zero-order reaction, rate = k[A]⁰ = k. The rate is constant and independent of the concentration of the reactant.",
+      "difficulty": "hard",
+      "tags": ["chemical-kinetics", "zero-order", "rate"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_007",
+      "goalId": "grade12-chemistry",
+      "question": "The molecularity of a reaction is:",
+      "options": [
+        "Same as the order of the reaction",
+        "The number of molecules participating in the elementary step",
+        "Determined by experiments",
+        "Can be fractional"
+      ],
+      "correctIndex": 1,
+      "explanation": "Molecularity is the number of molecules (or ions/atoms) that collide in a single elementary step. It is always a whole number (1, 2, or 3). Order is experimentally determined and can be fractional.",
+      "difficulty": "hard",
+      "tags": ["chemical-kinetics", "molecularity"]
+    }
+  ]
+}

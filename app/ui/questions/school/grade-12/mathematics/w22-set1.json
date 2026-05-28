@@ -1,0 +1,178 @@
+{
+  "goalId": "grade12-mathematics",
+  "title": "Grade 12 Mathematics — Matrices & Determinants",
+  "description": "Matrices and Determinants practice questions",
+  "category": "school",
+  "grade": 12,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_12_matrices_001",
+      "goalId": "grade12-mathematics",
+      "question": "A matrix with equal number of rows and columns is called a:",
+      "options": ["Row matrix", "Column matrix", "Square matrix", "Rectangular matrix"],
+      "correctIndex": 2,
+      "explanation": "A square matrix has the same number of rows and columns (n × n). Examples: 2×2, 3×3 matrices.",
+      "difficulty": "easy",
+      "tags": ["matrices", "types"]
+    },
+    {
+      "id": "q_mathematics_12_matrices_002",
+      "goalId": "grade12-mathematics",
+      "question": "If A is a 2×3 matrix and B is a 3×2 matrix, then AB is a matrix of order:",
+      "options": ["2×2", "3×3", "2×3", "3×2"],
+      "correctIndex": 0,
+      "explanation": "For matrix multiplication AB, if A is m×n and B is n×p, then AB is m×p. Here A is 2×3, B is 3×2, so AB is 2×2.",
+      "difficulty": "easy",
+      "tags": ["matrices", "matrix-multiplication", "order"]
+    },
+    {
+      "id": "q_mathematics_12_matrices_003",
+      "goalId": "grade12-mathematics",
+      "question": "The transpose of a matrix A is obtained by:",
+      "options": [
+        "Multiplying all elements by −1",
+        "Interchanging rows and columns",
+        "Making all diagonal elements 1",
+        "Adding identity matrix to A"
+      ],
+      "correctIndex": 1,
+      "explanation": "The transpose A^T of a matrix A is obtained by interchanging its rows and columns. If A is m×n, then A^T is n×m.",
+      "difficulty": "easy",
+      "tags": ["matrices", "transpose"]
+    },
+    {
+      "id": "q_mathematics_12_matrices_004",
+      "goalId": "grade12-mathematics",
+      "question": "A symmetric matrix satisfies:",
+      "options": ["A = −A^T", "A = A^T", "A × A^T = I", "A^T = A⁻¹"],
+      "correctIndex": 1,
+      "explanation": "A matrix A is symmetric if A = A^T (it equals its own transpose). In a symmetric matrix, aᵢⱼ = aⱼᵢ for all i, j.",
+      "difficulty": "medium",
+      "tags": ["matrices", "symmetric-matrix"]
+    },
+    {
+      "id": "q_mathematics_12_matrices_005",
+      "goalId": "grade12-mathematics",
+      "question": "If A = [[1, 2], [3, 4]], then det(A) =",
+      "options": ["−2", "2", "10", "−10"],
+      "correctIndex": 0,
+      "explanation": "det(A) = 1×4 − 2×3 = 4 − 6 = −2.",
+      "difficulty": "medium",
+      "tags": ["determinants", "calculation", "2x2"]
+    },
+    {
+      "id": "q_mathematics_12_matrices_006",
+      "goalId": "grade12-mathematics",
+      "question": "Matrix multiplication is generally:",
+      "options": ["Commutative (AB = BA)", "Not commutative (AB ≠ BA)", "Always zero", "Equal to the determinant"],
+      "correctIndex": 1,
+      "explanation": "Matrix multiplication is not commutative in general: AB ≠ BA. It is, however, associative: A(BC) = (AB)C.",
+      "difficulty": "easy",
+      "tags": ["matrices", "matrix-multiplication", "commutativity"]
+    },
+    {
+      "id": "q_mathematics_12_matrices_007",
+      "goalId": "grade12-mathematics",
+      "question": "If det(A) = 0, the matrix A is called:",
+      "options": ["Identity matrix", "Singular matrix", "Non-singular matrix", "Skew-symmetric"],
+      "correctIndex": 1,
+      "explanation": "A matrix with determinant = 0 is called singular. A singular matrix has no inverse.",
+      "difficulty": "medium",
+      "tags": ["determinants", "singular-matrix"]
+    },
+    {
+      "id": "q_mathematics_12_matrices_008",
+      "goalId": "grade12-mathematics",
+      "question": "The identity matrix I has the property that for any square matrix A:",
+      "options": ["AI = 0", "AI = A", "AI = A^T", "AI = det(A)"],
+      "correctIndex": 1,
+      "explanation": "The identity matrix I satisfies AI = IA = A. It acts as the multiplicative identity for matrices, analogous to 1 in ordinary multiplication.",
+      "difficulty": "easy",
+      "tags": ["matrices", "identity-matrix"]
+    },
+    {
+      "id": "q_mathematics_12_determinants_001",
+      "goalId": "grade12-mathematics",
+      "question": "The area of a triangle with vertices (x₁,y₁), (x₂,y₂), (x₃,y₃) using determinants is:",
+      "options": [
+        "½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|",
+        "|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|",
+        "x₁y₂ − x₂y₁",
+        "½(x₁ + x₂ + x₃)(y₁ + y₂ + y₃)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Area = ½|det| where the determinant uses the coordinates. This equals ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|.",
+      "difficulty": "medium",
+      "tags": ["determinants", "area-of-triangle"]
+    },
+    {
+      "id": "q_mathematics_12_determinants_002",
+      "goalId": "grade12-mathematics",
+      "question": "If any two rows (or columns) of a determinant are identical, its value is:",
+      "options": ["1", "2", "0", "−1"],
+      "correctIndex": 2,
+      "explanation": "A property of determinants: if any two rows (or columns) are identical, the value of the determinant is 0.",
+      "difficulty": "medium",
+      "tags": ["determinants", "properties"]
+    },
+    {
+      "id": "q_mathematics_12_determinants_003",
+      "goalId": "grade12-mathematics",
+      "question": "The cofactor Cᵢⱼ of element aᵢⱼ in a matrix is:",
+      "options": [
+        "The minor Mᵢⱼ only",
+        "(−1)^(i+j) × Mᵢⱼ",
+        "(i+j) × Mᵢⱼ",
+        "The determinant of the entire matrix"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cofactor Cᵢⱼ = (−1)^(i+j) × Mᵢⱼ, where Mᵢⱼ is the minor (determinant of the submatrix after removing row i and column j).",
+      "difficulty": "hard",
+      "tags": ["determinants", "cofactor", "minor"]
+    },
+    {
+      "id": "q_mathematics_12_determinants_004",
+      "goalId": "grade12-mathematics",
+      "question": "The system of equations AX = B has a unique solution when:",
+      "options": ["det(A) = 0", "det(A) ≠ 0", "B = 0", "A = B"],
+      "correctIndex": 1,
+      "explanation": "By Cramer's rule and the inverse method: AX = B has a unique solution X = A⁻¹B when det(A) ≠ 0 (A is non-singular).",
+      "difficulty": "hard",
+      "tags": ["determinants", "system-of-equations", "cramers-rule"]
+    },
+    {
+      "id": "q_mathematics_12_determinants_005",
+      "goalId": "grade12-mathematics",
+      "question": "If A is a 3×3 matrix and det(A) = 5, then det(3A) =",
+      "options": ["15", "45", "135", "5"],
+      "correctIndex": 2,
+      "explanation": "det(kA) = k^n × det(A) where n is the order of the matrix. det(3A) = 3³ × 5 = 27 × 5 = 135.",
+      "difficulty": "hard",
+      "tags": ["determinants", "scalar-multiplication", "property"]
+    },
+    {
+      "id": "q_mathematics_12_determinants_006",
+      "goalId": "grade12-mathematics",
+      "question": "Interchanging two rows of a determinant:",
+      "options": ["Doubles its value", "Makes it zero", "Changes its sign", "Has no effect"],
+      "correctIndex": 2,
+      "explanation": "Exchanging any two rows (or columns) of a determinant changes the sign of the determinant (multiplies it by −1).",
+      "difficulty": "medium",
+      "tags": ["determinants", "properties", "row-interchange"]
+    },
+    {
+      "id": "q_mathematics_12_determinants_007",
+      "goalId": "grade12-mathematics",
+      "question": "The inverse of a non-singular matrix A is given by:",
+      "options": ["A/det(A)", "adj(A)/det(A)", "det(A)/adj(A)", "1/A"],
+      "correctIndex": 1,
+      "explanation": "A⁻¹ = adj(A)/det(A), where adj(A) is the adjugate (transpose of cofactor matrix). This only exists when det(A) ≠ 0.",
+      "difficulty": "medium",
+      "tags": ["matrices", "inverse-matrix", "adjugate"]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "goalId": "grade12-chemistry",
+  "title": "Grade 12 Chemistry — Solid State & Solutions",
+  "description": "Solid State and Solutions practice questions",
+  "category": "school",
+  "grade": 12,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_12_solid-state_001",
+      "goalId": "grade12-chemistry",
+      "question": "Crystalline solids have:",
+      "options": [
+        "Irregular arrangement of particles and no definite melting point",
+        "Regular, ordered arrangement of particles and a definite melting point",
+        "Only short-range order",
+        "No pattern in particle arrangement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Crystalline solids have a regular, three-dimensional periodic arrangement of particles (atoms/ions/molecules) and have a sharp, definite melting point. Amorphous solids lack this order.",
+      "difficulty": "easy",
+      "tags": ["solid-state", "crystalline", "properties"]
+    },
+    {
+      "id": "q_chemistry_12_solid-state_002",
+      "goalId": "grade12-chemistry",
+      "question": "NaCl has which type of unit cell?",
+      "options": ["Simple cubic", "Body-centred cubic (BCC)", "Face-centred cubic (FCC)", "Hexagonal close-packing"],
+      "correctIndex": 2,
+      "explanation": "NaCl has a face-centred cubic (FCC) structure. Cl⁻ ions form an FCC lattice and Na⁺ ions occupy the octahedral voids. Each ion is surrounded by 6 ions of the opposite type.",
+      "difficulty": "medium",
+      "tags": ["solid-state", "NaCl", "unit-cell", "FCC"]
+    },
+    {
+      "id": "q_chemistry_12_solid-state_003",
+      "goalId": "grade12-chemistry",
+      "question": "The number of atoms in a body-centred cubic (BCC) unit cell is:",
+      "options": ["1", "2", "4", "8"],
+      "correctIndex": 1,
+      "explanation": "BCC unit cell: 8 corner atoms × 1/8 = 1, plus 1 body-centre atom × 1 = 1. Total = 2 atoms per unit cell.",
+      "difficulty": "medium",
+      "tags": ["solid-state", "BCC", "atoms-per-unit-cell"]
+    },
+    {
+      "id": "q_chemistry_12_solid-state_004",
+      "goalId": "grade12-chemistry",
+      "question": "A Frenkel defect in ionic crystals results from:",
+      "options": [
+        "Missing anions from lattice sites",
+        "Smaller ions occupying interstitial positions, leaving vacancies",
+        "Foreign impurities in the lattice",
+        "Both anions and cations missing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frenkel defect: smaller ions (usually cations) are displaced from their lattice sites and occupy interstitial positions. The overall charge neutrality is maintained.",
+      "difficulty": "medium",
+      "tags": ["solid-state", "frenkel-defect", "point-defects"]
+    },
+    {
+      "id": "q_chemistry_12_solid-state_005",
+      "goalId": "grade12-chemistry",
+      "question": "The packing efficiency of a simple cubic (SC) unit cell is approximately:",
+      "options": ["52.4%", "68%", "74%", "100%"],
+      "correctIndex": 0,
+      "explanation": "Packing efficiency of SC = (volume of atoms/volume of unit cell) × 100 = (1 × 4πr³/3)/(2r)³ × 100 ≈ 52.4%.",
+      "difficulty": "hard",
+      "tags": ["solid-state", "packing-efficiency", "simple-cubic"]
+    },
+    {
+      "id": "q_chemistry_12_solid-state_006",
+      "goalId": "grade12-chemistry",
+      "question": "Which of the following is an example of a network (covalent) solid?",
+      "options": ["NaCl", "Ice", "Diamond", "Iron"],
+      "correctIndex": 2,
+      "explanation": "Diamond is a network solid where each carbon atom is covalently bonded to four others in a tetrahedral arrangement, forming a giant 3D network. This gives it extreme hardness.",
+      "difficulty": "easy",
+      "tags": ["solid-state", "network-solid", "diamond"]
+    },
+    {
+      "id": "q_chemistry_12_solid-state_007",
+      "goalId": "grade12-chemistry",
+      "question": "Conductors, semiconductors, and insulators differ in:",
+      "options": [
+        "The type of atoms they contain",
+        "The energy gap (band gap) between valence band and conduction band",
+        "Their state of matter",
+        "The number of protons"
+      ],
+      "correctIndex": 1,
+      "explanation": "The band theory explains: conductors (zero gap or overlap), semiconductors (small gap ~1 eV), insulators (large gap ~5–10 eV). The band gap determines electrical conductivity.",
+      "difficulty": "hard",
+      "tags": ["solid-state", "band-theory", "semiconductors"]
+    },
+    {
+      "id": "q_chemistry_12_solid-state_008",
+      "goalId": "grade12-chemistry",
+      "question": "In an FCC unit cell, the number of atoms is:",
+      "options": ["1", "2", "4", "6"],
+      "correctIndex": 2,
+      "explanation": "FCC unit cell: 8 corners × 1/8 = 1, plus 6 faces × 1/2 = 3. Total = 4 atoms per unit cell.",
+      "difficulty": "medium",
+      "tags": ["solid-state", "FCC", "atoms-per-unit-cell"]
+    },
+    {
+      "id": "q_chemistry_12_solutions_001",
+      "goalId": "grade12-chemistry",
+      "question": "Molarity is defined as:",
+      "options": [
+        "Moles of solute per kg of solvent",
+        "Moles of solute per litre of solution",
+        "Mass of solute per kg of solvent",
+        "Moles of solute per moles of solution"
+      ],
+      "correctIndex": 1,
+      "explanation": "Molarity (M) = moles of solute / volume of solution in litres. It is temperature-dependent since volume changes with temperature.",
+      "difficulty": "easy",
+      "tags": ["solutions", "molarity", "concentration"]
+    },
+    {
+      "id": "q_chemistry_12_solutions_002",
+      "goalId": "grade12-chemistry",
+      "question": "Henry's law states that the solubility of a gas in a liquid is:",
+      "options": [
+        "Inversely proportional to temperature",
+        "Directly proportional to the partial pressure of the gas above the liquid",
+        "Independent of pressure",
+        "Directly proportional to the volume of the liquid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Henry's law: p = K_H × x, where p is partial pressure of gas, x is its mole fraction in solution, and K_H is Henry's law constant. Solubility increases with pressure.",
+      "difficulty": "medium",
+      "tags": ["solutions", "henrys-law", "gas-solubility"]
+    },
+    {
+      "id": "q_chemistry_12_solutions_003",
+      "goalId": "grade12-chemistry",
+      "question": "The colligative properties of a solution depend on:",
+      "options": [
+        "The nature of the solute",
+        "The colour of the solution",
+        "The number of solute particles only (not their nature)",
+        "The volume of the solvent only"
+      ],
+      "correctIndex": 2,
+      "explanation": "Colligative properties (vapour pressure lowering, boiling point elevation, freezing point depression, osmotic pressure) depend only on the number of solute particles, not their identity.",
+      "difficulty": "medium",
+      "tags": ["solutions", "colligative-properties"]
+    },
+    {
+      "id": "q_chemistry_12_solutions_004",
+      "goalId": "grade12-chemistry",
+      "question": "Adding a non-volatile solute to a solvent causes the boiling point to:",
+      "options": ["Decrease", "Remain the same", "Increase", "First increase then decrease"],
+      "correctIndex": 2,
+      "explanation": "Elevation of boiling point (ΔTb = Kb × m). A non-volatile solute lowers the vapour pressure of the solvent, requiring a higher temperature to reach atmospheric pressure — so boiling point increases.",
+      "difficulty": "medium",
+      "tags": ["solutions", "boiling-point-elevation", "colligative"]
+    },
+    {
+      "id": "q_chemistry_12_solutions_005",
+      "goalId": "grade12-chemistry",
+      "question": "Osmotic pressure π of a solution is given by (van't Hoff equation):",
+      "options": ["π = nRT/V", "π = nRT", "π = RT/V", "π = nV/RT"],
+      "correctIndex": 0,
+      "explanation": "Osmotic pressure π = nRT/V = CRT, where C = molarity, R = gas constant, T = temperature in Kelvin. This resembles the ideal gas equation.",
+      "difficulty": "hard",
+      "tags": ["solutions", "osmotic-pressure", "van-t-hoff"]
+    },
+    {
+      "id": "q_chemistry_12_solutions_006",
+      "goalId": "grade12-chemistry",
+      "question": "Raoult's law for a solution of volatile components states that:",
+      "options": [
+        "Total vapour pressure = p₁° × x₁ + p₂° × x₂",
+        "Total vapour pressure = p₁° + p₂°",
+        "Total vapour pressure = x₁/p₁° + x₂/p₂°",
+        "Total vapour pressure = p₁° − p₂°"
+      ],
+      "correctIndex": 0,
+      "explanation": "Raoult's law: p_total = p₁°x₁ + p₂°x₂. The total vapour pressure is the sum of partial pressures, each equal to the pure component's vapour pressure times its mole fraction.",
+      "difficulty": "hard",
+      "tags": ["solutions", "raoults-law", "vapour-pressure"]
+    },
+    {
+      "id": "q_chemistry_12_solutions_007",
+      "goalId": "grade12-chemistry",
+      "question": "Molality (m) is preferred over molarity (M) for colligative property calculations because:",
+      "options": [
+        "Molality is easier to calculate",
+        "Molality doesn't change with temperature (uses mass of solvent, not volume)",
+        "Molarity is always larger than molality",
+        "Molality accounts for solute volume"
+      ],
+      "correctIndex": 1,
+      "explanation": "Molality = moles of solute / kg of solvent. Since mass doesn't change with temperature (unlike volume), molality is temperature-independent and more reliable for colligative property equations.",
+      "difficulty": "hard",
+      "tags": ["solutions", "molality", "temperature-independence"]
+    }
+  ]
+}

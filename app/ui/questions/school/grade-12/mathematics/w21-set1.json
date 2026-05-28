@@ -1,0 +1,188 @@
+{
+  "goalId": "grade12-mathematics",
+  "title": "Grade 12 Mathematics — Relations and Functions & Inverse Trigonometry",
+  "description": "Relations and Functions and Inverse Trigonometric Functions practice questions",
+  "category": "school",
+  "grade": 12,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_12_relations_001",
+      "goalId": "grade12-mathematics",
+      "question": "A relation R on set A is said to be reflexive if:",
+      "options": [
+        "(a, b) ∈ R implies (b, a) ∈ R",
+        "(a, a) ∈ R for all a ∈ A",
+        "(a, b) ∈ R and (b, c) ∈ R implies (a, c) ∈ R",
+        "(a, b) ∈ R implies (a, b) ∉ R"
+      ],
+      "correctIndex": 1,
+      "explanation": "A relation R on A is reflexive if every element is related to itself: (a, a) ∈ R for all a ∈ A.",
+      "difficulty": "easy",
+      "tags": ["relations-functions", "reflexive", "types-of-relations"]
+    },
+    {
+      "id": "q_mathematics_12_relations_002",
+      "goalId": "grade12-mathematics",
+      "question": "A function f: A → B is one-one (injective) if:",
+      "options": [
+        "Every element of B has a preimage in A",
+        "f(x₁) = f(x₂) implies x₁ = x₂",
+        "f is defined for all elements of A",
+        "f maps every element of A to the same element in B"
+      ],
+      "correctIndex": 1,
+      "explanation": "A function is one-one (injective) if distinct inputs give distinct outputs: f(x₁) = f(x₂) ⟹ x₁ = x₂. No two different elements map to the same element.",
+      "difficulty": "easy",
+      "tags": ["relations-functions", "injective", "one-one"]
+    },
+    {
+      "id": "q_mathematics_12_relations_003",
+      "goalId": "grade12-mathematics",
+      "question": "A function f: A → B is onto (surjective) if:",
+      "options": [
+        "Distinct elements of A have distinct images in B",
+        "For every b ∈ B, there exists at least one a ∈ A such that f(a) = b",
+        "The domain and codomain are the same set",
+        "f is one-one"
+      ],
+      "correctIndex": 1,
+      "explanation": "A function is onto (surjective) if every element in the codomain B is the image of at least one element in the domain A. Range = Codomain.",
+      "difficulty": "easy",
+      "tags": ["relations-functions", "surjective", "onto"]
+    },
+    {
+      "id": "q_mathematics_12_relations_004",
+      "goalId": "grade12-mathematics",
+      "question": "The equivalence relation on Z defined by R = {(a, b) : 2 divides (a − b)} is:",
+      "options": [
+        "Only reflexive",
+        "Reflexive and symmetric but not transitive",
+        "Reflexive, symmetric, and transitive (equivalence)",
+        "Only transitive"
+      ],
+      "correctIndex": 2,
+      "explanation": "R is reflexive (a−a=0, divisible by 2), symmetric (if 2|(a−b) then 2|(b−a)), and transitive (if 2|(a−b) and 2|(b−c) then 2|(a−c)). So it is an equivalence relation.",
+      "difficulty": "medium",
+      "tags": ["relations-functions", "equivalence-relation"]
+    },
+    {
+      "id": "q_mathematics_12_relations_005",
+      "goalId": "grade12-mathematics",
+      "question": "The number of bijective functions from a set A with n elements to a set B with n elements is:",
+      "options": ["n", "n²", "2ⁿ", "n!"],
+      "correctIndex": 3,
+      "explanation": "The first element can map to n choices, second to (n−1), and so on. Total bijective functions = n × (n−1) × ... × 1 = n! (n factorial).",
+      "difficulty": "medium",
+      "tags": ["relations-functions", "bijective", "counting"]
+    },
+    {
+      "id": "q_mathematics_12_relations_006",
+      "goalId": "grade12-mathematics",
+      "question": "If f(x) = x² and g(x) = 2x + 1, then fog(x) =",
+      "options": ["2x² + 1", "(2x + 1)²", "4x² + 1", "2x² + 2x + 1"],
+      "correctIndex": 1,
+      "explanation": "fog(x) = f(g(x)) = f(2x + 1) = (2x + 1)². The composition applies f after g.",
+      "difficulty": "medium",
+      "tags": ["relations-functions", "composition-of-functions"]
+    },
+    {
+      "id": "q_mathematics_12_relations_007",
+      "goalId": "grade12-mathematics",
+      "question": "The inverse of the function f(x) = 2x + 3 is:",
+      "options": ["f⁻¹(x) = (x − 3)/2", "f⁻¹(x) = 2x − 3", "f⁻¹(x) = (x + 3)/2", "f⁻¹(x) = 1/(2x+3)"],
+      "correctIndex": 0,
+      "explanation": "Let y = 2x + 3. Solve for x: x = (y − 3)/2. So f⁻¹(x) = (x − 3)/2.",
+      "difficulty": "medium",
+      "tags": ["relations-functions", "inverse-function"]
+    },
+    {
+      "id": "q_mathematics_12_relations_008",
+      "goalId": "grade12-mathematics",
+      "question": "A relation R on set A is transitive if:",
+      "options": [
+        "(a, a) ∈ R for all a",
+        "(a, b) ∈ R ⟹ (b, a) ∈ R",
+        "(a, b) ∈ R and (b, c) ∈ R ⟹ (a, c) ∈ R",
+        "(a, b) ∈ R ⟹ a = b"
+      ],
+      "correctIndex": 2,
+      "explanation": "Transitivity: if (a, b) ∈ R and (b, c) ∈ R, then (a, c) must also be in R. Example: 'is an ancestor of' is transitive.",
+      "difficulty": "easy",
+      "tags": ["relations-functions", "transitive", "types-of-relations"]
+    },
+    {
+      "id": "q_mathematics_12_inverse-trig_001",
+      "goalId": "grade12-mathematics",
+      "question": "The principal value of sin⁻¹(1/2) is:",
+      "options": ["π/6", "π/3", "π/4", "5π/6"],
+      "correctIndex": 0,
+      "explanation": "sin⁻¹ has range [−π/2, π/2]. sin(π/6) = 1/2, and π/6 is in [−π/2, π/2]. So sin⁻¹(1/2) = π/6.",
+      "difficulty": "easy",
+      "tags": ["inverse-trig", "principal-value", "sin-inverse"]
+    },
+    {
+      "id": "q_mathematics_12_inverse-trig_002",
+      "goalId": "grade12-mathematics",
+      "question": "The domain of cos⁻¹(x) is:",
+      "options": ["(−1, 1)", "[−1, 1]", "[0, π]", "[−π/2, π/2]"],
+      "correctIndex": 1,
+      "explanation": "cos⁻¹(x) is defined for x ∈ [−1, 1], since cosine values lie in [−1, 1]. The range of cos⁻¹ is [0, π].",
+      "difficulty": "easy",
+      "tags": ["inverse-trig", "domain", "cos-inverse"]
+    },
+    {
+      "id": "q_mathematics_12_inverse-trig_003",
+      "goalId": "grade12-mathematics",
+      "question": "The value of tan⁻¹(1) + tan⁻¹(−1) is:",
+      "options": ["0", "π/2", "π", "−π/2"],
+      "correctIndex": 0,
+      "explanation": "tan⁻¹(1) = π/4 and tan⁻¹(−1) = −π/4. Sum = π/4 + (−π/4) = 0.",
+      "difficulty": "medium",
+      "tags": ["inverse-trig", "calculation", "tan-inverse"]
+    },
+    {
+      "id": "q_mathematics_12_inverse-trig_004",
+      "goalId": "grade12-mathematics",
+      "question": "sin(sin⁻¹(x)) = x is valid for x in:",
+      "options": ["All real numbers", "[−1, 1]", "[−π/2, π/2]", "[0, π]"],
+      "correctIndex": 1,
+      "explanation": "sin(sin⁻¹(x)) = x is valid only for x ∈ [−1, 1], which is the domain of sin⁻¹. Outside this range, sin⁻¹(x) is not defined.",
+      "difficulty": "medium",
+      "tags": ["inverse-trig", "identity"]
+    },
+    {
+      "id": "q_mathematics_12_inverse-trig_005",
+      "goalId": "grade12-mathematics",
+      "question": "The value of cos⁻¹(cos(7π/6)) is:",
+      "options": ["7π/6", "5π/6", "π/6", "π/3"],
+      "correctIndex": 1,
+      "explanation": "cos⁻¹(cos θ) = θ only if θ ∈ [0, π]. Since 7π/6 ∉ [0, π], find an equivalent angle: cos(7π/6) = cos(2π − 5π/6) = cos(5π/6) (since cos is even about π: cos(7π/6) = −√3/2 = cos(5π/6)). So cos⁻¹(cos(7π/6)) = 5π/6.",
+      "difficulty": "hard",
+      "tags": ["inverse-trig", "principal-value", "cos-inverse"]
+    },
+    {
+      "id": "q_mathematics_12_inverse-trig_006",
+      "goalId": "grade12-mathematics",
+      "question": "tan⁻¹(x) + tan⁻¹(y) = tan⁻¹((x+y)/(1−xy)) is valid when:",
+      "options": ["Always", "When xy > 1", "When xy < 1", "When x = y"],
+      "correctIndex": 2,
+      "explanation": "The formula tan⁻¹(x) + tan⁻¹(y) = tan⁻¹((x+y)/(1−xy)) holds when xy < 1. When xy > 1, a correction of ±π is needed.",
+      "difficulty": "hard",
+      "tags": ["inverse-trig", "addition-formula"]
+    },
+    {
+      "id": "q_mathematics_12_inverse-trig_007",
+      "goalId": "grade12-mathematics",
+      "question": "The range of sin⁻¹(x) is:",
+      "options": ["[0, π]", "[−π, π]", "[−π/2, π/2]", "[0, 2π]"],
+      "correctIndex": 2,
+      "explanation": "sin⁻¹(x) has range [−π/2, π/2] (the principal value branch). cos⁻¹(x) has range [0, π].",
+      "difficulty": "easy",
+      "tags": ["inverse-trig", "range", "sin-inverse"]
+    }
+  ]
+}
