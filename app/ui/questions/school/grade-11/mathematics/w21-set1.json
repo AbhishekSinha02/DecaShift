@@ -1,0 +1,168 @@
+{
+  "goalId": "grade11-mathematics",
+  "title": "Grade 11 Mathematics — Sets & Relations and Functions",
+  "description": "Sets and Relations and Functions practice questions",
+  "category": "school",
+  "grade": 11,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_11_sets_001",
+      "goalId": "grade11-mathematics",
+      "question": "A set containing no elements is called:",
+      "options": ["Universal set", "Singleton set", "Empty set (null set)", "Infinite set"],
+      "correctIndex": 2,
+      "explanation": "An empty set (or null set) has no elements, denoted by {} or ∅. Example: the set of natural numbers less than 0.",
+      "difficulty": "easy",
+      "tags": ["sets", "empty-set", "types"]
+    },
+    {
+      "id": "q_mathematics_11_sets_002",
+      "goalId": "grade11-mathematics",
+      "question": "If A = {1, 2, 3} and B = {2, 3, 4, 5}, then A ∪ B =",
+      "options": ["{2, 3}", "{1, 2, 3, 4, 5}", "{1, 4, 5}", "{2}"],
+      "correctIndex": 1,
+      "explanation": "Union A ∪ B contains all elements in A or B or both: {1, 2, 3, 4, 5}.",
+      "difficulty": "easy",
+      "tags": ["sets", "union"]
+    },
+    {
+      "id": "q_mathematics_11_sets_003",
+      "goalId": "grade11-mathematics",
+      "question": "If A = {1, 2, 3} and B = {2, 3, 4, 5}, then A ∩ B =",
+      "options": ["{1}", "{2, 3}", "{4, 5}", "{1, 2, 3, 4, 5}"],
+      "correctIndex": 1,
+      "explanation": "Intersection A ∩ B contains only elements common to both A and B: {2, 3}.",
+      "difficulty": "easy",
+      "tags": ["sets", "intersection"]
+    },
+    {
+      "id": "q_mathematics_11_sets_004",
+      "goalId": "grade11-mathematics",
+      "question": "The number of subsets of a set with n elements is:",
+      "options": ["n", "2n", "n²", "2ⁿ"],
+      "correctIndex": 3,
+      "explanation": "A set with n elements has 2ⁿ subsets. For example, A = {1,2} has 2² = 4 subsets: {}, {1}, {2}, {1,2}.",
+      "difficulty": "easy",
+      "tags": ["sets", "subsets", "counting"]
+    },
+    {
+      "id": "q_mathematics_11_sets_005",
+      "goalId": "grade11-mathematics",
+      "question": "If n(A) = 20, n(B) = 30, n(A ∪ B) = 40, then n(A ∩ B) =",
+      "options": ["5", "10", "15", "50"],
+      "correctIndex": 1,
+      "explanation": "n(A ∪ B) = n(A) + n(B) − n(A ∩ B) → 40 = 20 + 30 − n(A ∩ B) → n(A ∩ B) = 10.",
+      "difficulty": "medium",
+      "tags": ["sets", "set-formula", "counting"]
+    },
+    {
+      "id": "q_mathematics_11_sets_006",
+      "goalId": "grade11-mathematics",
+      "question": "The complement of a set A (with respect to universal set U) is:",
+      "options": ["A ∪ U", "A ∩ U", "U − A (all elements in U but not in A)", "A − U"],
+      "correctIndex": 2,
+      "explanation": "The complement A' or Aᶜ = U − A, the set of all elements in the universal set U that are not in A.",
+      "difficulty": "medium",
+      "tags": ["sets", "complement"]
+    },
+    {
+      "id": "q_mathematics_11_sets_007",
+      "goalId": "grade11-mathematics",
+      "question": "De Morgan's law states that (A ∪ B)' =",
+      "options": ["A' ∪ B'", "A ∩ B", "A' ∩ B'", "A ∪ B"],
+      "correctIndex": 2,
+      "explanation": "De Morgan's law: (A ∪ B)' = A' ∩ B', and (A ∩ B)' = A' ∪ B'. The complement of a union is the intersection of complements.",
+      "difficulty": "medium",
+      "tags": ["sets", "de-morgans-law"]
+    },
+    {
+      "id": "q_mathematics_11_sets_008",
+      "goalId": "grade11-mathematics",
+      "question": "In a survey of 100 students, 40 study Maths (M), 50 study Science (S), and 20 study both. How many study neither?",
+      "options": ["10", "20", "30", "40"],
+      "correctIndex": 2,
+      "explanation": "n(M ∪ S) = 40 + 50 − 20 = 70. Students studying at least one = 70. Neither = 100 − 70 = 30.",
+      "difficulty": "hard",
+      "tags": ["sets", "venn-diagram", "word-problem"]
+    },
+    {
+      "id": "q_mathematics_11_relations_001",
+      "goalId": "grade11-mathematics",
+      "question": "A relation from set A to set B is a subset of:",
+      "options": ["A × A", "B × B", "A × B", "B × A"],
+      "correctIndex": 2,
+      "explanation": "A relation from A to B is a subset of the Cartesian product A × B, which contains all ordered pairs (a, b) where a ∈ A and b ∈ B.",
+      "difficulty": "easy",
+      "tags": ["relations", "cartesian-product"]
+    },
+    {
+      "id": "q_mathematics_11_relations_002",
+      "goalId": "grade11-mathematics",
+      "question": "The number of relations from a set with 2 elements to a set with 3 elements is:",
+      "options": ["6", "8", "64", "2⁶"],
+      "correctIndex": 2,
+      "explanation": "A × B has 2 × 3 = 6 elements. The number of subsets of A × B = 2⁶ = 64. Each subset is a valid relation.",
+      "difficulty": "medium",
+      "tags": ["relations", "counting"]
+    },
+    {
+      "id": "q_mathematics_11_relations_003",
+      "goalId": "grade11-mathematics",
+      "question": "The domain of the function f(x) = 1/(x − 2) is:",
+      "options": ["All real numbers", "x ≠ 2", "x > 2", "x < 2"],
+      "correctIndex": 1,
+      "explanation": "f(x) is undefined when the denominator is zero: x − 2 = 0 → x = 2. Domain = all real numbers except 2: R − {2}.",
+      "difficulty": "medium",
+      "tags": ["functions", "domain"]
+    },
+    {
+      "id": "q_mathematics_11_relations_004",
+      "goalId": "grade11-mathematics",
+      "question": "Which of the following is NOT a function?",
+      "options": [
+        "{(1,2), (2,3), (3,4)}",
+        "{(1,2), (2,2), (3,2)}",
+        "{(1,2), (1,3), (2,4)}",
+        "{(1,1), (2,2), (3,3)}"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a function, each element of the domain maps to exactly one element. {(1,2),(1,3),(2,4)} maps 1 to both 2 and 3 — this is not a function.",
+      "difficulty": "medium",
+      "tags": ["functions", "definition"]
+    },
+    {
+      "id": "q_mathematics_11_relations_005",
+      "goalId": "grade11-mathematics",
+      "question": "The range of f(x) = x² for x ∈ R is:",
+      "options": ["R (all real numbers)", "[0, ∞)", "(−∞, 0]", "(0, ∞)"],
+      "correctIndex": 1,
+      "explanation": "x² ≥ 0 for all real x, and x² = 0 when x = 0. So the range is [0, ∞) — all non-negative real numbers.",
+      "difficulty": "hard",
+      "tags": ["functions", "range", "quadratic"]
+    },
+    {
+      "id": "q_mathematics_11_relations_006",
+      "goalId": "grade11-mathematics",
+      "question": "An identity function maps every element to:",
+      "options": ["1", "0", "Itself", "Its square"],
+      "correctIndex": 2,
+      "explanation": "The identity function I(x) = x maps every element to itself. Its graph is the line y = x.",
+      "difficulty": "easy",
+      "tags": ["functions", "identity-function"]
+    },
+    {
+      "id": "q_mathematics_11_relations_007",
+      "goalId": "grade11-mathematics",
+      "question": "If A has 3 elements and B has 4 elements, the maximum number of elements in A × B is:",
+      "options": ["7", "12", "16", "81"],
+      "correctIndex": 1,
+      "explanation": "n(A × B) = n(A) × n(B) = 3 × 4 = 12. The Cartesian product has all possible ordered pairs.",
+      "difficulty": "easy",
+      "tags": ["relations", "cartesian-product", "counting"]
+    }
+  ]
+}

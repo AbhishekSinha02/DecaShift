@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-mathematics",
+  "title": "Grade 11 Mathematics — Permutations & Combinations and Binomial Theorem",
+  "description": "Permutations and Combinations and Binomial Theorem practice questions",
+  "category": "school",
+  "grade": 11,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_11_permutations_001",
+      "goalId": "grade11-mathematics",
+      "question": "5! (5 factorial) =",
+      "options": ["25", "100", "120", "5"],
+      "correctIndex": 2,
+      "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120.",
+      "difficulty": "easy",
+      "tags": ["permutations", "factorial"]
+    },
+    {
+      "id": "q_mathematics_11_permutations_002",
+      "goalId": "grade11-mathematics",
+      "question": "The number of ways to arrange 3 letters from the word ABC (all distinct) is:",
+      "options": ["3", "6", "9", "27"],
+      "correctIndex": 1,
+      "explanation": "P(3,3) = 3! = 6 arrangements. The 6 arrangements of ABC are: ABC, ACB, BAC, BCA, CAB, CBA.",
+      "difficulty": "easy",
+      "tags": ["permutations", "P(n,r)"]
+    },
+    {
+      "id": "q_mathematics_11_permutations_003",
+      "goalId": "grade11-mathematics",
+      "question": "ⁿPᵣ (permutation formula) =",
+      "options": ["n! / r!", "n! / (n−r)!", "n! / (r!(n−r)!)", "r! / n!"],
+      "correctIndex": 1,
+      "explanation": "ⁿPᵣ = n!/(n−r)!. The number of ways to arrange r items from n distinct items.",
+      "difficulty": "easy",
+      "tags": ["permutations", "formula"]
+    },
+    {
+      "id": "q_mathematics_11_permutations_004",
+      "goalId": "grade11-mathematics",
+      "question": "ⁿCᵣ (combination formula) =",
+      "options": ["n! / (n−r)!", "n! / r!", "n! / (r!(n−r)!)", "r! × (n−r)! / n!"],
+      "correctIndex": 2,
+      "explanation": "ⁿCᵣ = n! / (r!(n−r)!). The number of ways to choose r items from n distinct items without regard to order.",
+      "difficulty": "easy",
+      "tags": ["combinations", "formula"]
+    },
+    {
+      "id": "q_mathematics_11_permutations_005",
+      "goalId": "grade11-mathematics",
+      "question": "In how many ways can 5 students be arranged in a row?",
+      "options": ["5", "25", "120", "60"],
+      "correctIndex": 2,
+      "explanation": "Arrangements of 5 distinct objects = 5! = 120.",
+      "difficulty": "medium",
+      "tags": ["permutations", "linear-arrangement"]
+    },
+    {
+      "id": "q_mathematics_11_permutations_006",
+      "goalId": "grade11-mathematics",
+      "question": "A committee of 3 is to be chosen from 6 people. The number of ways is:",
+      "options": ["18", "20", "60", "120"],
+      "correctIndex": 1,
+      "explanation": "⁶C₃ = 6!/(3!×3!) = (6×5×4)/(3×2×1) = 20.",
+      "difficulty": "medium",
+      "tags": ["combinations", "committee-selection"]
+    },
+    {
+      "id": "q_mathematics_11_permutations_007",
+      "goalId": "grade11-mathematics",
+      "question": "The number of ways to arrange the letters of MISS (with repeated letters) is:",
+      "options": ["24", "12", "6", "4"],
+      "correctIndex": 1,
+      "explanation": "MISS has 4 letters with S repeated twice: 4!/2! = 24/2 = 12.",
+      "difficulty": "medium",
+      "tags": ["permutations", "repeated-elements"]
+    },
+    {
+      "id": "q_mathematics_11_permutations_008",
+      "goalId": "grade11-mathematics",
+      "question": "A team of 2 boys and 2 girls is to be selected from 4 boys and 3 girls. The number of ways is:",
+      "options": ["12", "18", "24", "36"],
+      "correctIndex": 1,
+      "explanation": "Select 2 boys from 4: ⁴C₂ = 6. Select 2 girls from 3: ³C₂ = 3. Total = 6 × 3 = 18.",
+      "difficulty": "hard",
+      "tags": ["combinations", "mixed-selection"]
+    },
+    {
+      "id": "q_mathematics_11_binomial_001",
+      "goalId": "grade11-mathematics",
+      "question": "The binomial theorem states that (a + b)ⁿ = Σ ⁿCᵣ aⁿ⁻ʳ bʳ, where r ranges from:",
+      "options": ["1 to n", "0 to n−1", "0 to n", "1 to n−1"],
+      "correctIndex": 2,
+      "explanation": "In the binomial expansion of (a + b)ⁿ, r goes from 0 to n, giving (n + 1) terms total.",
+      "difficulty": "easy",
+      "tags": ["binomial-theorem", "expansion"]
+    },
+    {
+      "id": "q_mathematics_11_binomial_002",
+      "goalId": "grade11-mathematics",
+      "question": "The expansion of (1 + x)² is:",
+      "options": ["1 + x²", "1 + 2x + x²", "1 + x + x²", "2 + 2x"],
+      "correctIndex": 1,
+      "explanation": "(1 + x)² = ²C₀(1) + ²C₁x + ²C₂x² = 1 + 2x + x².",
+      "difficulty": "easy",
+      "tags": ["binomial-theorem", "expansion", "calculation"]
+    },
+    {
+      "id": "q_mathematics_11_binomial_003",
+      "goalId": "grade11-mathematics",
+      "question": "The number of terms in the expansion of (a + b)⁷ is:",
+      "options": ["6", "7", "8", "14"],
+      "correctIndex": 2,
+      "explanation": "The expansion of (a + b)ⁿ has (n + 1) terms. For n = 7: number of terms = 8.",
+      "difficulty": "medium",
+      "tags": ["binomial-theorem", "number-of-terms"]
+    },
+    {
+      "id": "q_mathematics_11_binomial_004",
+      "goalId": "grade11-mathematics",
+      "question": "The general term (rth term) in the expansion of (a + b)ⁿ is:",
+      "options": ["Tᵣ = ⁿCᵣ aⁿ⁻ʳ bʳ", "Tᵣ₊₁ = ⁿCᵣ aⁿ⁻ʳ bʳ", "Tᵣ = ⁿCᵣ₋₁ aⁿ⁻ʳ bʳ", "Tᵣ = ⁿCᵣ aʳ bⁿ⁻ʳ"],
+      "correctIndex": 1,
+      "explanation": "The (r+1)th term Tᵣ₊₁ = ⁿCᵣ aⁿ⁻ʳ bʳ. Note it is Tᵣ₊₁ (one more than r), so for r = 0, we get the 1st term.",
+      "difficulty": "medium",
+      "tags": ["binomial-theorem", "general-term"]
+    },
+    {
+      "id": "q_mathematics_11_binomial_005",
+      "goalId": "grade11-mathematics",
+      "question": "The middle term in the expansion of (x + y)⁴ is:",
+      "options": ["T₂", "T₃", "T₄", "T₅"],
+      "correctIndex": 1,
+      "explanation": "For n = 4 (even), the middle term is T(n/2 + 1) = T₃. T₃ = ⁴C₂ x² y² = 6x²y².",
+      "difficulty": "medium",
+      "tags": ["binomial-theorem", "middle-term"]
+    },
+    {
+      "id": "q_mathematics_11_binomial_006",
+      "goalId": "grade11-mathematics",
+      "question": "The coefficient of x³ in the expansion of (1 + x)⁵ is:",
+      "options": ["5", "10", "15", "20"],
+      "correctIndex": 1,
+      "explanation": "T₄ = ⁵C₃ × 1² × x³ = 10x³. The coefficient of x³ is ⁵C₃ = 5!/(3!2!) = 10.",
+      "difficulty": "hard",
+      "tags": ["binomial-theorem", "coefficient", "calculation"]
+    },
+    {
+      "id": "q_mathematics_11_binomial_007",
+      "goalId": "grade11-mathematics",
+      "question": "Using the binomial theorem, the value of (1.01)³ approximately equals (use first 3 terms):",
+      "options": ["1.0303", "1.030301", "1.03", "1.0301"],
+      "correctIndex": 1,
+      "explanation": "(1 + 0.01)³ ≈ 1 + 3(0.01) + 3(0.01)² + (0.01)³ = 1 + 0.03 + 0.0003 + 0.000001 ≈ 1.030301.",
+      "difficulty": "hard",
+      "tags": ["binomial-theorem", "approximation"]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "goalId": "grade11-physics",
+  "title": "Grade 11 Physics — Laws of Motion & Work, Energy and Power",
+  "description": "Laws of Motion and Work Energy and Power practice questions",
+  "category": "school",
+  "grade": 11,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_11_laws-motion_001",
+      "goalId": "grade11-physics",
+      "question": "A body of mass 5 kg is acted on by a force of 20 N. The acceleration produced is:",
+      "options": ["4 m/s²", "100 m/s²", "25 m/s²", "0.25 m/s²"],
+      "correctIndex": 0,
+      "explanation": "F = ma → a = F/m = 20/5 = 4 m/s².",
+      "difficulty": "easy",
+      "tags": ["laws-of-motion", "newtons-second-law", "calculation"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_002",
+      "goalId": "grade11-physics",
+      "question": "A passenger in a suddenly braking car is thrown forward due to:",
+      "options": ["Friction", "Gravity", "Inertia of motion", "Normal force"],
+      "correctIndex": 2,
+      "explanation": "When the car brakes, the passenger's body continues moving forward (inertia of motion) while the car decelerates. This is Newton's first law in action.",
+      "difficulty": "easy",
+      "tags": ["laws-of-motion", "inertia", "first-law"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_003",
+      "goalId": "grade11-physics",
+      "question": "The coefficient of static friction is generally:",
+      "options": [
+        "Equal to kinetic friction",
+        "Greater than kinetic friction",
+        "Less than kinetic friction",
+        "Zero"
+      ],
+      "correctIndex": 1,
+      "explanation": "Static friction (maximum) ≥ kinetic friction. It takes more force to start an object moving than to keep it moving. So μₛ > μₖ typically.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "friction", "static-kinetic"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_004",
+      "goalId": "grade11-physics",
+      "question": "A 10 kg block is on a frictionless surface. If a 50 N force is applied, the block's acceleration is:",
+      "options": ["500 m/s²", "10 m/s²", "5 m/s²", "0.2 m/s²"],
+      "correctIndex": 2,
+      "explanation": "a = F/m = 50/10 = 5 m/s².",
+      "difficulty": "easy",
+      "tags": ["laws-of-motion", "newtons-second-law"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_005",
+      "goalId": "grade11-physics",
+      "question": "The force required to keep an object of mass m moving in a circle of radius r at speed v is:",
+      "options": ["mv/r", "mv²/r", "mr/v", "mv²r"],
+      "correctIndex": 1,
+      "explanation": "Centripetal force = mv²/r. It is always directed toward the centre of the circle.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "circular-motion", "centripetal-force"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_006",
+      "goalId": "grade11-physics",
+      "question": "When a horse pulls a cart, by Newton's third law, the cart pulls the horse with equal and opposite force. Why does the cart still move?",
+      "options": [
+        "The horse's force is larger",
+        "The forces act on different objects; the net force on the cart (from horse minus friction) is non-zero",
+        "The third law doesn't apply here",
+        "The cart has no inertia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Action-reaction forces act on different objects. For the cart: horse pulls it forward, ground friction acts backward. If the forward pull exceeds friction, the net force on the cart is forward, and it accelerates.",
+      "difficulty": "hard",
+      "tags": ["laws-of-motion", "newtons-third-law", "real-application"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_007",
+      "goalId": "grade11-physics",
+      "question": "The maximum safe speed of a vehicle on a banked circular road of radius r, banking angle θ, is:",
+      "options": ["√(rg tan θ)", "rg tan θ", "√(rg sin θ)", "rg/tan θ"],
+      "correctIndex": 0,
+      "explanation": "On a banked road without friction: v_max = √(rg tan θ). Banking allows vehicles to take turns at higher speeds without relying on friction.",
+      "difficulty": "hard",
+      "tags": ["laws-of-motion", "banked-road", "circular-motion"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_008",
+      "goalId": "grade11-physics",
+      "question": "Impulse equals:",
+      "options": ["Force × distance", "Force × time = change in momentum", "Mass × velocity", "Mass × acceleration"],
+      "correctIndex": 1,
+      "explanation": "Impulse J = F × t = Δp (change in momentum). This is an application of Newton's second law: F = dp/dt → F×dt = dp.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "impulse", "momentum"]
+    },
+    {
+      "id": "q_physics_11_work-energy_001",
+      "goalId": "grade11-physics",
+      "question": "Work done W when force F is applied at angle θ to displacement d is:",
+      "options": ["F × d", "F × d × sin θ", "F × d × cos θ", "F / d"],
+      "correctIndex": 2,
+      "explanation": "W = F·d cos θ, where θ is the angle between force and displacement. If θ = 0° (force along displacement), W = Fd. If θ = 90°, W = 0.",
+      "difficulty": "easy",
+      "tags": ["work-energy", "work-formula"]
+    },
+    {
+      "id": "q_physics_11_work-energy_002",
+      "goalId": "grade11-physics",
+      "question": "The kinetic energy of a body of mass m moving at velocity v is:",
+      "options": ["mv", "mv²", "½mv", "½mv²"],
+      "correctIndex": 3,
+      "explanation": "KE = ½mv². This is derived from the work-energy theorem: W = ΔKE.",
+      "difficulty": "easy",
+      "tags": ["work-energy", "kinetic-energy", "formula"]
+    },
+    {
+      "id": "q_physics_11_work-energy_003",
+      "goalId": "grade11-physics",
+      "question": "The work-energy theorem states:",
+      "options": [
+        "Work done = potential energy gained",
+        "Work done by net force = change in kinetic energy",
+        "Kinetic energy = potential energy",
+        "Work done is always positive"
+      ],
+      "correctIndex": 1,
+      "explanation": "Work-energy theorem: W_net = ΔKE. The net work done by all forces on an object equals the change in its kinetic energy.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "work-energy-theorem"]
+    },
+    {
+      "id": "q_physics_11_work-energy_004",
+      "goalId": "grade11-physics",
+      "question": "Power is defined as:",
+      "options": ["Energy × time", "Work × time", "Rate of doing work (work per unit time)", "Force × velocity only"],
+      "correctIndex": 2,
+      "explanation": "Power P = W/t = rate of doing work. SI unit is Watt (W = J/s). Also P = F·v (force × velocity) for constant force.",
+      "difficulty": "easy",
+      "tags": ["work-energy", "power", "definition"]
+    },
+    {
+      "id": "q_physics_11_work-energy_005",
+      "goalId": "grade11-physics",
+      "question": "Conservation of mechanical energy states that in the absence of non-conservative forces:",
+      "options": ["KE is conserved", "PE is conserved", "KE + PE remains constant", "Total energy is zero"],
+      "correctIndex": 2,
+      "explanation": "In the absence of friction and other non-conservative forces, the total mechanical energy (KE + PE) of a system remains constant.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "conservation-of-energy"]
+    },
+    {
+      "id": "q_physics_11_work-energy_006",
+      "goalId": "grade11-physics",
+      "question": "An elastic collision conserves:",
+      "options": ["Only kinetic energy", "Only momentum", "Both kinetic energy and momentum", "Neither kinetic energy nor momentum"],
+      "correctIndex": 2,
+      "explanation": "Elastic collision: both kinetic energy and momentum are conserved. In an inelastic collision, only momentum is conserved; kinetic energy is partially lost.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "elastic-collision", "conservation"]
+    },
+    {
+      "id": "q_physics_11_work-energy_007",
+      "goalId": "grade11-physics",
+      "question": "A spring with spring constant k is compressed by x. The potential energy stored is:",
+      "options": ["kx", "kx²", "½kx²", "2kx²"],
+      "correctIndex": 2,
+      "explanation": "Elastic potential energy = ½kx², where k is spring constant and x is the compression/extension from natural length.",
+      "difficulty": "hard",
+      "tags": ["work-energy", "spring-energy", "potential-energy"]
+    }
+  ]
+}

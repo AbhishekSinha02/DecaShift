@@ -1,0 +1,193 @@
+{
+  "goalId": "grade11-chemistry",
+  "title": "Grade 11 Chemistry — Basic Concepts of Chemistry & Structure of Atom",
+  "description": "Some Basic Concepts of Chemistry and Structure of Atom practice questions",
+  "category": "school",
+  "grade": 11,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_11_basic-concepts_001",
+      "goalId": "grade11-chemistry",
+      "question": "The molar mass of H₂SO₄ (sulphuric acid) is:",
+      "options": ["49 g/mol", "96 g/mol", "98 g/mol", "100 g/mol"],
+      "correctIndex": 2,
+      "explanation": "H₂SO₄: 2(1) + 32 + 4(16) = 2 + 32 + 64 = 98 g/mol.",
+      "difficulty": "easy",
+      "tags": ["basic-concepts", "molar-mass", "calculation"]
+    },
+    {
+      "id": "q_chemistry_11_basic-concepts_002",
+      "goalId": "grade11-chemistry",
+      "question": "Avogadro's number (6.022 × 10²³) represents:",
+      "options": [
+        "Number of atoms in 1 gram of any element",
+        "Number of particles in 1 mole of substance",
+        "Number of grams in 1 mole",
+        "Molecular weight in grams"
+      ],
+      "correctIndex": 1,
+      "explanation": "Avogadro's number N_A = 6.022 × 10²³ is the number of elementary entities (atoms, molecules, ions) in 1 mole of any substance.",
+      "difficulty": "easy",
+      "tags": ["basic-concepts", "avogadros-number", "mole"]
+    },
+    {
+      "id": "q_chemistry_11_basic-concepts_003",
+      "goalId": "grade11-chemistry",
+      "question": "In the reaction N₂ + 3H₂ → 2NH₃, the ratio of moles of H₂ consumed to NH₃ produced is:",
+      "options": ["1:1", "3:2", "2:3", "1:2"],
+      "correctIndex": 1,
+      "explanation": "From stoichiometry: 3 moles H₂ produce 2 moles NH₃. Ratio H₂:NH₃ = 3:2.",
+      "difficulty": "medium",
+      "tags": ["basic-concepts", "stoichiometry", "mole-ratio"]
+    },
+    {
+      "id": "q_chemistry_11_basic-concepts_004",
+      "goalId": "grade11-chemistry",
+      "question": "The number of moles in 44 g of CO₂ (molar mass = 44 g/mol) is:",
+      "options": ["0.5 mol", "1 mol", "2 mol", "44 mol"],
+      "correctIndex": 1,
+      "explanation": "Moles = mass/molar mass = 44/44 = 1 mol.",
+      "difficulty": "easy",
+      "tags": ["basic-concepts", "mole-calculation"]
+    },
+    {
+      "id": "q_chemistry_11_basic-concepts_005",
+      "goalId": "grade11-chemistry",
+      "question": "The percentage composition of oxygen in H₂O (molar mass = 18 g/mol) is:",
+      "options": ["11.1%", "33.3%", "66.7%", "88.9%"],
+      "correctIndex": 3,
+      "explanation": "Mass of O in H₂O = 16 g. % O = (16/18) × 100 = 88.9%.",
+      "difficulty": "medium",
+      "tags": ["basic-concepts", "percentage-composition"]
+    },
+    {
+      "id": "q_chemistry_11_basic-concepts_006",
+      "goalId": "grade11-chemistry",
+      "question": "In a chemical reaction, the limiting reagent is:",
+      "options": [
+        "The reactant present in excess",
+        "The reactant that is completely consumed and limits the product formed",
+        "The product of the reaction",
+        "The catalyst"
+      ],
+      "correctIndex": 1,
+      "explanation": "The limiting reagent is completely consumed first, determining the maximum amount of product that can be formed. The other reactants are present in excess.",
+      "difficulty": "medium",
+      "tags": ["basic-concepts", "limiting-reagent"]
+    },
+    {
+      "id": "q_chemistry_11_basic-concepts_007",
+      "goalId": "grade11-chemistry",
+      "question": "The empirical formula of a compound represents:",
+      "options": [
+        "The actual number of atoms in one molecule",
+        "The simplest whole number ratio of atoms",
+        "The structure of the molecule",
+        "The molar mass of the compound"
+      ],
+      "correctIndex": 1,
+      "explanation": "The empirical formula gives the simplest whole-number ratio of atoms. Example: H₂O₂ (hydrogen peroxide) has molecular formula H₂O₂ but empirical formula HO.",
+      "difficulty": "medium",
+      "tags": ["basic-concepts", "empirical-formula"]
+    },
+    {
+      "id": "q_chemistry_11_basic-concepts_008",
+      "goalId": "grade11-chemistry",
+      "question": "One mole of an ideal gas at STP (0°C, 1 atm) occupies a volume of:",
+      "options": ["22.4 mL", "2.24 L", "22.4 L", "224 L"],
+      "correctIndex": 2,
+      "explanation": "At STP (0°C and 1 atm), 1 mole of any ideal gas occupies 22.4 litres (molar volume). This is a standard reference used in stoichiometric calculations.",
+      "difficulty": "easy",
+      "tags": ["basic-concepts", "molar-volume", "STP"]
+    },
+    {
+      "id": "q_chemistry_11_structure-atom_001",
+      "goalId": "grade11-chemistry",
+      "question": "Bohr's model of the atom was successful in explaining the spectrum of:",
+      "options": ["All atoms", "Hydrogen and hydrogen-like ions only", "Nitrogen", "Carbon"],
+      "correctIndex": 1,
+      "explanation": "Bohr's model successfully explained the line spectrum of hydrogen and hydrogen-like ions (He⁺, Li²⁺ etc. — one electron species) but failed for multi-electron atoms.",
+      "difficulty": "medium",
+      "tags": ["structure-atom", "bohrs-model", "hydrogen-spectrum"]
+    },
+    {
+      "id": "q_chemistry_11_structure-atom_002",
+      "goalId": "grade11-chemistry",
+      "question": "The Heisenberg Uncertainty Principle states that:",
+      "options": [
+        "Position and momentum of a particle can be determined simultaneously with infinite precision",
+        "It is impossible to determine position and momentum of a particle simultaneously with infinite precision",
+        "Electrons travel in fixed orbits",
+        "Energy is always quantised"
+      ],
+      "correctIndex": 1,
+      "explanation": "Δx × Δp ≥ h/(4π). The more precisely we know position, the less precisely we know momentum, and vice versa. This led to the quantum mechanical model.",
+      "difficulty": "medium",
+      "tags": ["structure-atom", "heisenberg-uncertainty-principle"]
+    },
+    {
+      "id": "q_chemistry_11_structure-atom_003",
+      "goalId": "grade11-chemistry",
+      "question": "The quantum numbers for the 2p subshell are:",
+      "options": ["n=1, l=1", "n=2, l=0", "n=2, l=1", "n=2, l=2"],
+      "correctIndex": 2,
+      "explanation": "For 2p: principal quantum number n=2, azimuthal quantum number l=1 (p subshell: l=1). For s: l=0, p: l=1, d: l=2, f: l=3.",
+      "difficulty": "medium",
+      "tags": ["structure-atom", "quantum-numbers", "subshells"]
+    },
+    {
+      "id": "q_chemistry_11_structure-atom_004",
+      "goalId": "grade11-chemistry",
+      "question": "According to Aufbau principle, electrons are filled in orbitals in order of:",
+      "options": [
+        "Decreasing energy",
+        "Increasing energy",
+        "Random order",
+        "Decreasing atomic number"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aufbau (building up) principle: electrons fill orbitals in order of increasing energy. Order: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p... (n+l rule).",
+      "difficulty": "easy",
+      "tags": ["structure-atom", "aufbau-principle", "electronic-configuration"]
+    },
+    {
+      "id": "q_chemistry_11_structure-atom_005",
+      "goalId": "grade11-chemistry",
+      "question": "The electronic configuration of Sodium (Na, atomic number 11) is:",
+      "options": ["1s²2s²2p⁶3s¹", "1s²2s²2p⁵3s²", "1s²2s²2p⁶3s²", "1s²2s²2p⁴3s³"],
+      "correctIndex": 0,
+      "explanation": "Na has 11 electrons: 1s²2s²2p⁶3s¹ = 2+2+6+1 = 11. The single electron in 3s makes Na very reactive.",
+      "difficulty": "medium",
+      "tags": ["structure-atom", "electronic-configuration", "sodium"]
+    },
+    {
+      "id": "q_chemistry_11_structure-atom_006",
+      "goalId": "grade11-chemistry",
+      "question": "Hund's rule of maximum multiplicity states that:",
+      "options": [
+        "Electrons pair up in orbitals of the same energy before filling the next subshell",
+        "Electrons occupy orbitals of the same subshell singly before pairing up",
+        "No two electrons can have all four quantum numbers the same",
+        "Electrons fill in order of increasing energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hund's rule: orbitals of the same subshell (same energy) are filled with one electron each first, all with parallel spins, before any pairing occurs.",
+      "difficulty": "hard",
+      "tags": ["structure-atom", "hunds-rule"]
+    },
+    {
+      "id": "q_chemistry_11_structure-atom_007",
+      "goalId": "grade11-chemistry",
+      "question": "The maximum number of electrons that can be accommodated in the d subshell is:",
+      "options": ["2", "6", "10", "14"],
+      "correctIndex": 2,
+      "explanation": "The d subshell has 5 orbitals (l=2, m = −2, −1, 0, 1, 2). Each orbital holds 2 electrons: 5 × 2 = 10 electrons maximum.",
+      "difficulty": "medium",
+      "tags": ["structure-atom", "d-subshell", "electrons"]
+    }
+  ]
+}

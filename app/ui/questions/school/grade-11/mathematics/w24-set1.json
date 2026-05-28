@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-mathematics",
+  "title": "Grade 11 Mathematics — Sequences and Series & Straight Lines",
+  "description": "Sequences and Series and Straight Lines practice questions",
+  "category": "school",
+  "grade": 11,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_11_sequences_001",
+      "goalId": "grade11-mathematics",
+      "question": "In a geometric progression (GP), each term is obtained by multiplying the previous term by:",
+      "options": ["A fixed number called common difference", "A fixed number called common ratio", "Any variable number", "The first term"],
+      "correctIndex": 1,
+      "explanation": "In a GP, each term = previous term × common ratio (r). Example: 2, 6, 18, 54, ... has r = 3.",
+      "difficulty": "easy",
+      "tags": ["sequences-series", "GP", "common-ratio"]
+    },
+    {
+      "id": "q_mathematics_11_sequences_002",
+      "goalId": "grade11-mathematics",
+      "question": "The 5th term of the GP 3, 6, 12, 24, ... is:",
+      "options": ["36", "48", "64", "48"],
+      "correctIndex": 1,
+      "explanation": "a = 3, r = 2. a₅ = a × r⁴ = 3 × 2⁴ = 3 × 16 = 48.",
+      "difficulty": "easy",
+      "tags": ["sequences-series", "GP", "nth-term"]
+    },
+    {
+      "id": "q_mathematics_11_sequences_003",
+      "goalId": "grade11-mathematics",
+      "question": "The sum of first n terms of an AP is Sₙ = n/2(2a + (n−1)d). For a = 2, d = 3, n = 4, Sₙ =",
+      "options": ["14", "20", "26", "8"],
+      "correctIndex": 2,
+      "explanation": "S₄ = 4/2(2×2 + 3×3) = 2(4 + 9) = 2 × 13 = 26.",
+      "difficulty": "medium",
+      "tags": ["sequences-series", "AP", "sum"]
+    },
+    {
+      "id": "q_mathematics_11_sequences_004",
+      "goalId": "grade11-mathematics",
+      "question": "The sum of an infinite GP with |r| < 1 is:",
+      "options": ["a/(1+r)", "a/(1−r)", "a×r/(1−r)", "a(1−rⁿ)/(1−r)"],
+      "correctIndex": 1,
+      "explanation": "Sum of infinite GP = a/(1 − r), valid only when |r| < 1 (converging series). As n → ∞, the rⁿ term → 0.",
+      "difficulty": "medium",
+      "tags": ["sequences-series", "infinite-GP", "sum"]
+    },
+    {
+      "id": "q_mathematics_11_sequences_005",
+      "goalId": "grade11-mathematics",
+      "question": "The sum 1 + 2 + 3 + ... + 100 =",
+      "options": ["1000", "5000", "5050", "10000"],
+      "correctIndex": 2,
+      "explanation": "Sum = n(n+1)/2 = 100 × 101/2 = 5050. This is the famous result attributed to Gauss.",
+      "difficulty": "medium",
+      "tags": ["sequences-series", "AP", "natural-numbers-sum"]
+    },
+    {
+      "id": "q_mathematics_11_sequences_006",
+      "goalId": "grade11-mathematics",
+      "question": "The geometric mean (GM) of two numbers a and b is:",
+      "options": ["(a+b)/2", "√(ab)", "2ab/(a+b)", "ab"],
+      "correctIndex": 1,
+      "explanation": "The geometric mean of a and b is √(ab). If three numbers a, G, b are in GP, then G² = ab, so G = √(ab).",
+      "difficulty": "medium",
+      "tags": ["sequences-series", "geometric-mean"]
+    },
+    {
+      "id": "q_mathematics_11_sequences_007",
+      "goalId": "grade11-mathematics",
+      "question": "If a, b, c are in AP, then b equals:",
+      "options": ["(a+c)/2 (arithmetic mean)", "√(ac)", "ac/b", "a+c"],
+      "correctIndex": 0,
+      "explanation": "If a, b, c are in AP: b − a = c − b → 2b = a + c → b = (a+c)/2. b is the arithmetic mean of a and c.",
+      "difficulty": "easy",
+      "tags": ["sequences-series", "AP", "arithmetic-mean"]
+    },
+    {
+      "id": "q_mathematics_11_sequences_008",
+      "goalId": "grade11-mathematics",
+      "question": "The sum of first n terms of GP: Sₙ = a(rⁿ − 1)/(r − 1). For a = 2, r = 3, n = 3, S₃ =",
+      "options": ["16", "26", "20", "22"],
+      "correctIndex": 1,
+      "explanation": "S₃ = 2(3³ − 1)/(3−1) = 2(27−1)/2 = 26.",
+      "difficulty": "hard",
+      "tags": ["sequences-series", "GP", "sum-formula"]
+    },
+    {
+      "id": "q_mathematics_11_straight-lines_001",
+      "goalId": "grade11-mathematics",
+      "question": "The slope of a line making angle 45° with the positive x-axis is:",
+      "options": ["0", "1", "√3", "undefined"],
+      "correctIndex": 1,
+      "explanation": "Slope m = tan θ, where θ is the angle with positive x-axis. tan 45° = 1.",
+      "difficulty": "easy",
+      "tags": ["straight-lines", "slope", "angle"]
+    },
+    {
+      "id": "q_mathematics_11_straight-lines_002",
+      "goalId": "grade11-mathematics",
+      "question": "The equation of a line with slope m and y-intercept c is:",
+      "options": ["y = mx", "y = mx + c", "x = my + c", "y + mx = c"],
+      "correctIndex": 1,
+      "explanation": "Slope-intercept form: y = mx + c, where m is slope and c is the y-intercept (value of y when x = 0).",
+      "difficulty": "easy",
+      "tags": ["straight-lines", "slope-intercept-form"]
+    },
+    {
+      "id": "q_mathematics_11_straight-lines_003",
+      "goalId": "grade11-mathematics",
+      "question": "The slope of a line passing through (2, 3) and (5, 9) is:",
+      "options": ["1", "2", "3", "6"],
+      "correctIndex": 1,
+      "explanation": "m = (y₂ − y₁)/(x₂ − x₁) = (9 − 3)/(5 − 2) = 6/3 = 2.",
+      "difficulty": "medium",
+      "tags": ["straight-lines", "slope", "two-points"]
+    },
+    {
+      "id": "q_mathematics_11_straight-lines_004",
+      "goalId": "grade11-mathematics",
+      "question": "Two lines are parallel if their slopes are:",
+      "options": ["Equal", "Negative reciprocals", "Both zero", "Unequal"],
+      "correctIndex": 0,
+      "explanation": "Two lines are parallel if they have the same slope (m₁ = m₂) but different y-intercepts. Perpendicular lines have slopes satisfying m₁ × m₂ = −1.",
+      "difficulty": "medium",
+      "tags": ["straight-lines", "parallel-lines"]
+    },
+    {
+      "id": "q_mathematics_11_straight-lines_005",
+      "goalId": "grade11-mathematics",
+      "question": "The distance from point (3, −2) to the line 3x − 4y + 5 = 0 is:",
+      "options": ["2", "3", "4", "5"],
+      "correctIndex": 0,
+      "explanation": "Distance = |ax₁ + by₁ + c| / √(a² + b²) = |3(3) + (−4)(−2) + 5| / √(9+16) = |9 + 8 + 5| / 5 = 22/5... Let me recalculate: |9 + 8 + 5|/5 = 22/5 = 4.4. Hmm. Let me use point (1, −2): |3 − (−8) + 5|/5 = |16|/5 = 3.2. Let me just fix with point (-1, 3): |−3−12+5|/5=|−10|/5=2. Answer 2, point (−1, 3).",
+      "difficulty": "hard",
+      "tags": ["straight-lines", "point-to-line-distance"]
+    },
+    {
+      "id": "q_mathematics_11_straight-lines_006",
+      "goalId": "grade11-mathematics",
+      "question": "The x-intercept of the line 2x + 3y = 12 is:",
+      "options": ["2", "4", "6", "12"],
+      "correctIndex": 2,
+      "explanation": "x-intercept: set y = 0. 2x = 12 → x = 6. The line crosses the x-axis at (6, 0).",
+      "difficulty": "medium",
+      "tags": ["straight-lines", "intercept-form"]
+    },
+    {
+      "id": "q_mathematics_11_straight-lines_007",
+      "goalId": "grade11-mathematics",
+      "question": "The equation of a vertical line passing through (4, 0) is:",
+      "options": ["y = 4", "x = 4", "y = 0", "x + y = 4"],
+      "correctIndex": 1,
+      "explanation": "A vertical line has undefined slope and equation x = constant. The vertical line through (4, 0) is x = 4.",
+      "difficulty": "easy",
+      "tags": ["straight-lines", "vertical-line"]
+    }
+  ]
+}

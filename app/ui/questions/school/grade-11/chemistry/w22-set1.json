@@ -1,0 +1,208 @@
+{
+  "goalId": "grade11-chemistry",
+  "title": "Grade 11 Chemistry — Chemical Bonding & States of Matter",
+  "description": "Chemical Bonding and Molecular Structure and States of Matter practice questions",
+  "category": "school",
+  "grade": 11,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_11_bonding_001",
+      "goalId": "grade11-chemistry",
+      "question": "An ionic bond is formed by:",
+      "options": [
+        "Sharing of electrons between two atoms",
+        "Transfer of electrons from one atom to another",
+        "Overlap of atomic orbitals",
+        "Donation of a lone pair"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ionic bonds form when one atom transfers electrons to another, creating oppositely charged ions that attract each other. Example: Na⁺Cl⁻ in NaCl.",
+      "difficulty": "easy",
+      "tags": ["chemical-bonding", "ionic-bond"]
+    },
+    {
+      "id": "q_chemistry_11_bonding_002",
+      "goalId": "grade11-chemistry",
+      "question": "The VSEPR model predicts the shape of a molecule based on:",
+      "options": [
+        "Bond lengths",
+        "Repulsion between electron pairs around the central atom",
+        "Atomic masses",
+        "Electronegativity differences"
+      ],
+      "correctIndex": 1,
+      "explanation": "VSEPR (Valence Shell Electron Pair Repulsion) theory: electron pairs arrange themselves to minimise repulsion. This determines molecular geometry (linear, bent, tetrahedral, etc.).",
+      "difficulty": "medium",
+      "tags": ["chemical-bonding", "VSEPR", "molecular-geometry"]
+    },
+    {
+      "id": "q_chemistry_11_bonding_003",
+      "goalId": "grade11-chemistry",
+      "question": "Water (H₂O) is a bent molecule with bond angle approximately:",
+      "options": ["90°", "104.5°", "109.5°", "120°"],
+      "correctIndex": 1,
+      "explanation": "H₂O has 2 bonding pairs and 2 lone pairs. VSEPR predicts bent geometry. Lone pairs compress the bond angle from tetrahedral 109.5° to about 104.5°.",
+      "difficulty": "medium",
+      "tags": ["chemical-bonding", "VSEPR", "water", "bond-angle"]
+    },
+    {
+      "id": "q_chemistry_11_bonding_004",
+      "goalId": "grade11-chemistry",
+      "question": "A coordinate (dative) bond is formed when:",
+      "options": [
+        "Both atoms share one electron each",
+        "One atom provides both electrons of the shared pair",
+        "Electrons are transferred",
+        "Ionic forces hold atoms together"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dative (coordinate) covalent bond forms when one atom (donor) provides both electrons of the shared pair to another atom (acceptor). Example: NH₃ + H⁺ → NH₄⁺.",
+      "difficulty": "medium",
+      "tags": ["chemical-bonding", "coordinate-bond", "dative"]
+    },
+    {
+      "id": "q_chemistry_11_bonding_005",
+      "goalId": "grade11-chemistry",
+      "question": "The hybridisation of carbon in methane (CH₄) is:",
+      "options": ["sp", "sp²", "sp³", "sp³d"],
+      "correctIndex": 2,
+      "explanation": "In CH₄, carbon forms 4 equivalent bonds. One 2s and three 2p orbitals mix to form 4 equivalent sp³ hybrid orbitals arranged tetrahedrally. Bond angle = 109.5°.",
+      "difficulty": "medium",
+      "tags": ["chemical-bonding", "hybridisation", "methane"]
+    },
+    {
+      "id": "q_chemistry_11_bonding_006",
+      "goalId": "grade11-chemistry",
+      "question": "Hydrogen bonding is strongest in:",
+      "options": ["CH₄", "H₂S", "HF", "HCl"],
+      "correctIndex": 2,
+      "explanation": "Hydrogen bonding strength depends on electronegativity and size of the atom bonded to H. F is the most electronegative element, making H-F···F-H bonds the strongest.",
+      "difficulty": "hard",
+      "tags": ["chemical-bonding", "hydrogen-bonding", "HF"]
+    },
+    {
+      "id": "q_chemistry_11_bonding_007",
+      "goalId": "grade11-chemistry",
+      "question": "The shape of BF₃ (Boron trifluoride) according to VSEPR theory is:",
+      "options": ["Pyramidal", "Bent", "Trigonal planar", "Tetrahedral"],
+      "correctIndex": 2,
+      "explanation": "BF₃ has 3 bonding pairs and no lone pairs around B. VSEPR predicts trigonal planar geometry with bond angles of 120°. B is sp² hybridised.",
+      "difficulty": "medium",
+      "tags": ["chemical-bonding", "VSEPR", "BF3"]
+    },
+    {
+      "id": "q_chemistry_11_bonding_008",
+      "goalId": "grade11-chemistry",
+      "question": "Electronegativity difference between atoms determines:",
+      "options": [
+        "Bond length",
+        "Bond energy only",
+        "The polar nature of the bond (ionic or covalent character)",
+        "Number of bonds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Large electronegativity difference (> 1.7) → ionic bond. Small difference (< 0.5) → non-polar covalent. Intermediate → polar covalent. Example: HCl is polar covalent.",
+      "difficulty": "hard",
+      "tags": ["chemical-bonding", "electronegativity", "bond-polarity"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_001",
+      "goalId": "grade11-chemistry",
+      "question": "Boyle's law states that at constant temperature, pressure and volume of a gas are:",
+      "options": [
+        "Directly proportional",
+        "Inversely proportional",
+        "Equal",
+        "Independent of each other"
+      ],
+      "correctIndex": 1,
+      "explanation": "Boyle's law: P ∝ 1/V at constant T and n. PV = constant. If pressure doubles, volume halves.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "boyles-law"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_002",
+      "goalId": "grade11-chemistry",
+      "question": "Charles' law states that at constant pressure, volume and temperature of a gas are:",
+      "options": [
+        "Inversely proportional",
+        "Directly proportional",
+        "Independent",
+        "Exponentially related"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charles' law: V ∝ T at constant P. V/T = constant. Temperature must be in Kelvin.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "charles-law"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_003",
+      "goalId": "grade11-chemistry",
+      "question": "The ideal gas equation is:",
+      "options": ["PV = nRT", "PV = RT", "PV = nR", "PV = nT"],
+      "correctIndex": 0,
+      "explanation": "PV = nRT, where P = pressure, V = volume, n = moles, R = 8.314 J/(mol·K), T = temperature in Kelvin. This combines Boyle's, Charles', and Avogadro's laws.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "ideal-gas-equation"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_004",
+      "goalId": "grade11-chemistry",
+      "question": "Real gases deviate from ideal behaviour significantly at:",
+      "options": [
+        "Low pressure and high temperature",
+        "High pressure and low temperature",
+        "STP conditions",
+        "Any temperature"
+      ],
+      "correctIndex": 1,
+      "explanation": "Real gases deviate most from ideal at high pressure (molecules close together — repulsion matters) and low temperature (molecules slow — intermolecular attractions significant).",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "real-gases", "deviations"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_005",
+      "goalId": "grade11-chemistry",
+      "question": "The kinetic energy of gas molecules is directly proportional to:",
+      "options": ["Pressure", "Volume", "Absolute temperature (Kelvin)", "Molar mass"],
+      "correctIndex": 2,
+      "explanation": "Average kinetic energy of gas molecules = (3/2)kT, where k is Boltzmann's constant and T is temperature in Kelvin. KE is directly proportional to T.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "kinetic-theory", "temperature"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_006",
+      "goalId": "grade11-chemistry",
+      "question": "Van der Waals equation (P + an²/V²)(V − nb) = nRT corrects for:",
+      "options": [
+        "Only the volume of gas molecules",
+        "Only intermolecular forces",
+        "Both finite volume of molecules and intermolecular forces",
+        "Temperature deviation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Van der Waals equation accounts for: (1) 'nb' corrects for finite volume of molecules; (2) 'an²/V²' corrects for intermolecular attractions. 'a' and 'b' are constants specific to each gas.",
+      "difficulty": "hard",
+      "tags": ["states-of-matter", "van-der-waals", "real-gases"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_007",
+      "goalId": "grade11-chemistry",
+      "question": "Surface tension in liquids is due to:",
+      "options": [
+        "Gravity",
+        "Unbalanced intermolecular forces on surface molecules",
+        "Atmospheric pressure",
+        "Evaporation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Molecules inside a liquid are pulled equally in all directions. Surface molecules experience a net inward pull (unbalanced forces), creating surface tension — a tendency to minimise surface area.",
+      "difficulty": "hard",
+      "tags": ["states-of-matter", "surface-tension", "liquids"]
+    }
+  ]
+}

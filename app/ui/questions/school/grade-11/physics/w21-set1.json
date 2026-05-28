@@ -1,0 +1,183 @@
+{
+  "goalId": "grade11-physics",
+  "title": "Grade 11 Physics — Units and Measurements & Motion in a Straight Line",
+  "description": "Units and Measurements and Motion in a Straight Line practice questions",
+  "category": "school",
+  "grade": 11,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_11_units_001",
+      "goalId": "grade11-physics",
+      "question": "The SI base unit of mass is:",
+      "options": ["Gram", "Pound", "Kilogram", "Tonne"],
+      "correctIndex": 2,
+      "explanation": "The kilogram (kg) is the SI base unit of mass. The seven SI base units are metre, kilogram, second, ampere, kelvin, mole, and candela.",
+      "difficulty": "easy",
+      "tags": ["units-measurements", "SI-units", "mass"]
+    },
+    {
+      "id": "q_physics_11_units_002",
+      "goalId": "grade11-physics",
+      "question": "The dimension of velocity is:",
+      "options": ["[M L T⁻²]", "[L T⁻¹]", "[M L T⁻¹]", "[L² T⁻¹]"],
+      "correctIndex": 1,
+      "explanation": "Velocity = displacement/time = [L]/[T] = [LT⁻¹]. No mass dimension.",
+      "difficulty": "easy",
+      "tags": ["units-measurements", "dimensions", "velocity"]
+    },
+    {
+      "id": "q_physics_11_units_003",
+      "goalId": "grade11-physics",
+      "question": "The dimension of force is:",
+      "options": ["[MLT⁻²]", "[ML²T⁻²]", "[MLT⁻¹]", "[ML⁻¹T⁻²]"],
+      "correctIndex": 0,
+      "explanation": "F = ma. Dimensions: [M][LT⁻²] = [MLT⁻²]. The unit of force is the Newton = kg·m/s².",
+      "difficulty": "easy",
+      "tags": ["units-measurements", "dimensions", "force"]
+    },
+    {
+      "id": "q_physics_11_units_004",
+      "goalId": "grade11-physics",
+      "question": "Significant figures in 0.00420 are:",
+      "options": ["6", "5", "3", "2"],
+      "correctIndex": 2,
+      "explanation": "Leading zeros are not significant. 0.00420 has 3 significant figures: 4, 2, and the trailing 0 after 2 (which is significant as it follows a non-zero digit after the decimal).",
+      "difficulty": "medium",
+      "tags": ["units-measurements", "significant-figures"]
+    },
+    {
+      "id": "q_physics_11_units_005",
+      "goalId": "grade11-physics",
+      "question": "Which of the following pairs has the same dimensional formula?",
+      "options": ["Pressure and Stress", "Force and Impulse", "Work and Power", "Torque and Angular momentum"],
+      "correctIndex": 0,
+      "explanation": "Pressure = Force/Area = [MLT⁻²]/[L²] = [ML⁻¹T⁻²]. Stress = Force/Area = [ML⁻¹T⁻²]. They have the same dimensions.",
+      "difficulty": "medium",
+      "tags": ["units-measurements", "dimensional-analysis"]
+    },
+    {
+      "id": "q_physics_11_units_006",
+      "goalId": "grade11-physics",
+      "question": "The principle of homogeneity of dimensions states that:",
+      "options": [
+        "All terms in a physical equation must have the same unit",
+        "All terms in a valid physical equation must have the same dimensions",
+        "Dimensions can be added or subtracted",
+        "Physical quantities are dimensionless"
+      ],
+      "correctIndex": 1,
+      "explanation": "The principle of homogeneity: in any valid physical equation, every term must have the same dimensional formula. This is used to check equations and derive new ones.",
+      "difficulty": "medium",
+      "tags": ["units-measurements", "dimensional-analysis", "homogeneity"]
+    },
+    {
+      "id": "q_physics_11_units_007",
+      "goalId": "grade11-physics",
+      "question": "Least count of a measuring instrument determines its:",
+      "options": ["Range", "Accuracy", "Precision", "Sensitivity"],
+      "correctIndex": 2,
+      "explanation": "The least count is the smallest value that can be measured directly. A smaller least count means higher precision (finer measurements).",
+      "difficulty": "hard",
+      "tags": ["units-measurements", "least-count", "precision"]
+    },
+    {
+      "id": "q_physics_11_units_008",
+      "goalId": "grade11-physics",
+      "question": "Dimensional analysis can be used to:",
+      "options": [
+        "Find numerical coefficients",
+        "Check dimensional consistency of equations",
+        "Determine physical laws",
+        "Both A and C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dimensional analysis checks if an equation is dimensionally consistent. It cannot determine dimensionless constants (like 2π in time period of a pendulum T = 2π√(L/g)).",
+      "difficulty": "medium",
+      "tags": ["units-measurements", "dimensional-analysis", "limitations"]
+    },
+    {
+      "id": "q_physics_11_motion_001",
+      "goalId": "grade11-physics",
+      "question": "Average acceleration is defined as:",
+      "options": [
+        "Total distance / total time",
+        "Change in velocity / time taken",
+        "Rate of change of distance",
+        "Displacement / time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Average acceleration = Δv/Δt = (v₂ − v₁)/(t₂ − t₁). It is a vector quantity with SI unit m/s².",
+      "difficulty": "easy",
+      "tags": ["motion-straight-line", "acceleration", "definition"]
+    },
+    {
+      "id": "q_physics_11_motion_002",
+      "goalId": "grade11-physics",
+      "question": "For uniform motion, the velocity-time (v-t) graph is:",
+      "options": ["A parabola", "A vertical line", "A horizontal straight line", "A curve"],
+      "correctIndex": 2,
+      "explanation": "Uniform motion means constant velocity (acceleration = 0). On a v-t graph, this appears as a horizontal straight line (constant v).",
+      "difficulty": "easy",
+      "tags": ["motion-straight-line", "v-t-graph", "uniform-motion"]
+    },
+    {
+      "id": "q_physics_11_motion_003",
+      "goalId": "grade11-physics",
+      "question": "A body is dropped from rest. After 2 seconds (g = 10 m/s²), its velocity is:",
+      "options": ["5 m/s", "10 m/s", "20 m/s", "40 m/s"],
+      "correctIndex": 2,
+      "explanation": "v = u + gt = 0 + 10 × 2 = 20 m/s.",
+      "difficulty": "easy",
+      "tags": ["motion-straight-line", "free-fall", "equations-of-motion"]
+    },
+    {
+      "id": "q_physics_11_motion_004",
+      "goalId": "grade11-physics",
+      "question": "The distance covered by a body starting from rest with uniform acceleration a in time t is:",
+      "options": ["at", "½at", "½at²", "at²"],
+      "correctIndex": 2,
+      "explanation": "s = ut + ½at². With u = 0: s = ½at². This is the second equation of motion for uniform acceleration.",
+      "difficulty": "medium",
+      "tags": ["motion-straight-line", "equations-of-motion"]
+    },
+    {
+      "id": "q_physics_11_motion_005",
+      "goalId": "grade11-physics",
+      "question": "A body thrown vertically upward reaches maximum height when:",
+      "options": ["Its speed is maximum", "Its velocity becomes zero", "Its acceleration is zero", "Kinetic energy is maximum"],
+      "correctIndex": 1,
+      "explanation": "At the highest point, the velocity (upward component) becomes zero momentarily before the body starts falling back. Acceleration due to gravity (g = 10 m/s² downward) is always present.",
+      "difficulty": "medium",
+      "tags": ["motion-straight-line", "vertical-motion", "maximum-height"]
+    },
+    {
+      "id": "q_physics_11_motion_006",
+      "goalId": "grade11-physics",
+      "question": "The third equation of motion v² = u² + 2as is derived by:",
+      "options": [
+        "Adding first and second equations",
+        "Eliminating time t between the first two equations",
+        "Differentiating v = u + at",
+        "Integrating acceleration"
+      ],
+      "correctIndex": 1,
+      "explanation": "From v = u + at → t = (v−u)/a. Substituting into s = ut + ½at² and simplifying gives v² = u² + 2as.",
+      "difficulty": "hard",
+      "tags": ["motion-straight-line", "equations-of-motion", "derivation"]
+    },
+    {
+      "id": "q_physics_11_motion_007",
+      "goalId": "grade11-physics",
+      "question": "Relative velocity of object A with respect to B is:",
+      "options": ["vₐ + v_B", "vₐ − v_B", "v_B − vₐ", "|vₐ| − |v_B|"],
+      "correctIndex": 1,
+      "explanation": "Relative velocity of A with respect to B = vₐ − v_B. If both move in the same direction, relative velocity is the difference; if opposite, it is the sum.",
+      "difficulty": "hard",
+      "tags": ["motion-straight-line", "relative-velocity"]
+    }
+  ]
+}
