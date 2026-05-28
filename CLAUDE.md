@@ -313,6 +313,44 @@ When asking an AI to build this app:
 
 ---
 
+## 🔒 Code Stability Rules (Non-Negotiable)
+
+**The app must be in a working, browser-testable state after every single commit.
+Context limit exhaustion must never leave code broken — not even locally.**
+
+### Atomic unit discipline
+- Every code change is broken into the smallest independently working piece
+- Each piece is committed before the next begins
+- A session ending mid-task leaves the app at the last commit — which always works
+
+### Feature flag pattern for large changes
+New features that span multiple steps are hidden until complete:
+```js
+const FEATURES = { conceptBuilder: localStorage.getItem('ds_beta') === 'true' };
+if (FEATURES.conceptBuilder) { /* new code — invisible until flag set */ }
+```
+Old code runs unaffected. New code is dormant. App never breaks mid-feature.
+
+### Commit rules
+1. Commit after every atomic working step — not after every session
+2. Never leave app.js / styles.css / index.html edited but untested
+3. Every commit message confirms "app works at this point"
+4. If context is running long: finish current atomic unit → commit → note handoff state
+
+### Never
+- Edit a calling function before the function it calls exists
+- Change a schema field without updating every renderer that reads it in the same commit
+- Leave stub functions, thrown errors, or half-wired event handlers committed
+- Start a new task before the previous commit is stable
+
+### Safe handoff note (when context is long)
+> **Safe handoff:** Last commit `abc1234` is stable. `_renderHome()` complete.
+> Next: `_selectQuestionsForSet()` — not yet started, no dependencies broken.
+
+This note survives context compression so the next session starts clean.
+
+---
+
 ## ♻️ Rebuild Reference (Fresh Session or New Project)
 
 ### Code Surface (~2,750 lines total — no questions, no external deps)
