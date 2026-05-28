@@ -26,6 +26,14 @@ When user says **"start the session"**:
 
 ---
 
+## Unscheduled — Ready to Run (No Date Yet)
+
+| Session File | Type | Focus | Depends On | Status |
+|---|---|---|---|---|
+| [PENDING-app-js-restructure.md](PENDING-app-js-restructure.md) | Code | Split app.js into 6 focused modules (P2-T037) | P2-T031 Flash Drill done | 🔵 Ready after 18:30 session |
+
+---
+
 ## Completed Sessions
 
 | Date | Time | What Was Done | Commit |

@@ -78,6 +78,7 @@
 | **[P2-T034](P2-T034-grade-9-12-content-sprint.md)** | **Grade 9–12 content sprint — 800+ questions across 4 grades × 4 subjects; highest-intent users currently underserved; prerequisite before marketing to older students** | **M** | **Pending** |
 | **[P2-T035](P2-T035-content-generation-session-protocol.md)** | **Content generation session protocol — dedicated sessions (no code) for bulk question generation; Sonnet 4.6 writes files directly; 300–500q per 2-hour session; zero additional cost** | **S** | **Pending** |
 | **[P2-T036](P2-T036-curriculum-calendar-config-admin-view.md)** | **Curriculum calendar config + admin view — annual topic plan JSON per grade/subject/week, admin HTML showing coverage gaps, copy-to-clipboard generation commands; merges P3-T021 + P4-T007** | **M** | **Pending** |
+| **[P2-T037](P2-T037-app-js-file-splitting-restructure.md)** | **app.js file splitting — split into 6 focused modules (core/auth/home/quiz/drill/settings); no framework, no bundler; do after P2-T031 Flash Drill ships; session plan in sessions/PENDING-app-js-restructure.md** | **M** | **Pending** |
 
 ---
 
@@ -253,7 +254,7 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 98 (1 cancelled, 1 superseded) | P1: 13 | P2: 36 | P3: 35 | P4: 9 | P5: 6 | P6: 6*
+*Total tasks: 99 (1 cancelled, 1 superseded) | P1: 13 | P2: 37 | P3: 35 | P4: 9 | P5: 6 | P6: 6*
 *Content Velocity Problem (2026-05-28): P2-T034 (Grade 9-12 sprint) + P2-T035 (generation script) + P2-T036 (curriculum calendar) together permanently resolve the content bottleneck. P2-T035 breaks the Claude Code session dependency for content generation. Google Drive OAuth and Payment/Subscription discussions deferred.*
 *Donnibo Daily Loop (2026-05-28): Four-pillar architecture — LIVE (P3-T033 Planner) · LEARN (P2-T031/032 Drills + GK) · REFLECT (P3-T034 Journal) · GROW (P3-T035 Goals). Together these transform Donnibo from a quiz app into the complete daily companion for school children. No Indian EdTech competitor has all four pillars.*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback | BUG-005 (fixed) — weekly questions moved from `questions/weekly/` into grade+subject folders as day-files; manifest-driven loading; 80 files generated for Grades 3 + 5 as test baseline*
