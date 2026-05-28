@@ -22,7 +22,7 @@ When user says **"start the session"**:
 | Date | Time IST | File | Type | Focus | Status |
 |---|---|---|---|---|---|
 | 2026-05-28 | 13:30 | [2026-05-28-1330-questions-grade9-12.md](2026-05-28-1330-questions-grade9-12.md) | Content | Grade 9–12 questions — 45 files, ~675q | ✅ Done |
-| 2026-05-28 | 18:30 | [2026-05-28-1830-flash-drill-implementation.md](2026-05-28-1830-flash-drill-implementation.md) | Code | P2-T031 Flash Drill implementation | 🟡 Planned |
+| 2026-05-28 | 18:30 | [2026-05-28-1830-flash-drill-implementation.md](2026-05-28-1830-flash-drill-implementation.md) | Code | P2-T031 Flash Drill implementation | ✅ Done |
 
 ---
 
@@ -64,6 +64,7 @@ change its `#` to 1, change Restructure to 2. That's it. Commit + push.
 |---|---|---|---|
 | 2026-05-28 | 09:00–13:00 | Strategy, 8 tasks, P2-T030 themes, marketing folder, content velocity plan, session system | `a5fc65f` |
 | 2026-05-28 | 13:30–16:00 | 45 content files — Grade 9–12 Math/Science/Physics/Chemistry/English/Social Science + GK bank + Formula banks | `e68765b` |
+| 2026-05-28 | 18:30–21:00 | P2-T031 Flash Drill Mode — Tables, Squares, Cubes, Formulas, GK (5 drills, timer, PB, share card) | `f59c60e` |
 
 ---
 
