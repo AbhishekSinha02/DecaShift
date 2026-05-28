@@ -69,6 +69,7 @@
 | **[P2-T025](P2-T025-backup-and-disaster-recovery.md)** | **Backup and disaster recovery — daily Drive snapshots, user data export, recovery playbook** | **M** | **Pending** |
 | **[P2-T026](P2-T026-subscription-plan-tamper-protection.md)** | **Subscription plan tamper protection — signed HMAC token, Drive as source of truth, Pro content proxied via Apps Script** | **M** | **Pending** |
 | **[P2-T027](P2-T027-concept-builder-atom-to-synthesis.md)** | **Concept Builder — atom-to-synthesis engine, concept-tagged bank, smart weekly selection, concept map UI** | **L** | **Pending** |
+| **[P2-T028](P2-T028-local-indie-developer-brand-voice.md)** | **Local indie developer brand voice — developer story card, WhatsApp support, city-dynamic "Made for [City] students" footer + hero, tone guide** | **S** | **Pending** |
 
 ---
 
@@ -209,7 +210,8 @@ P3-T030  (offline prefetch)  companion to P3-T008 (SW safety net); depends on P3
 P3-T029  (weekly exam)       depends on P3-T028 (gating + difficultyRank in place); feeds P4-T007
 P4-T007  (pattern config)    depends on P3-T028 + P3-T029 (features exist); lives inside P4-T006
 P4-T006  (admin portal)      extends P4-T001 (absorbs it); depends on P2-T024, P2-T025, P3-T024, P2-T020
-P3-T031  (city + weather)    standalone; prerequisite for P4-T009; companion to P2-T015 (landing page)
+P2-T028  (local brand voice)  ships with P2-T015 (landing page); city-dynamic elements depend on P3-T031; static parts ship independently
+P3-T031  (city + weather)    standalone; prerequisite for P4-T009 + P2-T028 city-dynamic elements; companion to P2-T015 (landing page)
 P4-T009  (hyperlocal ads)    depends on P3-T031 (city detection — required); P2-T013 (plan check); Phase 3 self-serve lives in P4-T006
 
 P4-T001  (admin)             → P6-T001, P5-T003 (basic metrics; superseded in scope by P4-T006)
@@ -229,7 +231,7 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 85 (1 cancelled, 1 superseded) | P1: 13 | P2: 27 | P3: 31 | P4: 9 | P5: 6 | P6: 6*
+*Total tasks: 86 (1 cancelled, 1 superseded) | P1: 13 | P2: 28 | P3: 31 | P4: 9 | P5: 6 | P6: 6*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback | BUG-005 (fixed) — weekly questions moved from `questions/weekly/` into grade+subject folders as day-files; manifest-driven loading; 80 files generated for Grades 3 + 5 as test baseline*
 *Content milestone (2026-05-27): Grades 2–8 all have W21+W22 weekly sets across 4 subjects each (Math, Science, Hindi, French). 280 weekly files × 15q = 4,200q weekly content. Total ~6,000q across all grades + regional + professional. Grade 8 manifest level fixed (was 1, corrected to 2).*
 *v3.7 snapshot created (2026-05-27) — 13 Donnibo avatar SVGs (6 stages + 7 expressions) + mascot brief committed to design/. App/ui/ enters v4-dev (landing page upgrade).*
