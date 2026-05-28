@@ -678,9 +678,10 @@ function _dayCardHtml(goal, isPast) {
   const done     = last && last.accuracy >= 1;
   const dayNum   = (_DAY_ORDER[goal.weekDay] ?? 0) + 1;
   const dayLabel = _DAY_LABEL[goal.weekDay] || goal.weekDay;
+  const metaLabel = goal.weekDay ? `Day ${dayNum} · ${dayLabel}` : `Week ${goal.weekNum}`;
   return `
     <div class="day-card${done ? ' done' : ''}${isPast ? ' past' : ''}">
-      <div class="day-card-meta">Day ${dayNum} · ${dayLabel}</div>
+      <div class="day-card-meta">${metaLabel}</div>
       <div class="day-card-title">${_esc(goal.name)}</div>
       <div class="day-card-desc">${_esc(goal.description)}</div>
       <div class="day-card-footer">
