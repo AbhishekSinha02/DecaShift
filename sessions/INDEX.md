@@ -65,7 +65,7 @@ change its `#` to 1, change Restructure to 2. That's it. Commit + push.
 | 2026-05-28 | 21:30      | BUG-006 Fix A — streak + grade sync to Drive after every quiz and drill session | `4bffe4e` |
 | 2026-05-29 | —          | P2-T037 — app.js split into 6 modules (240/188/320/179/338/132 lines) | `2243807` |
 | 2026-05-29 | —          | P2-T032 — Daily GK capsule: GK tab, reflective mode, Today in India fact card | `21f22e7` |
-| 2026-05-29 | —          | P2-T030 — Settings restructure: 5-tile menu + sub-screens + BUG-009 grade fix | pending |
+| 2026-05-29 | —          | P2-T030 — Settings restructure: 5-tile menu + sub-screens + BUG-009 grade fix | `4d97889` |
 
 ---
 
