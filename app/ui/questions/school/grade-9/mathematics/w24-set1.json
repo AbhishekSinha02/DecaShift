@@ -1,0 +1,193 @@
+{
+  "goalId": "grade9-mathematics",
+  "title": "Grade 9 Mathematics — Quadrilaterals & Areas of Parallelograms",
+  "description": "Quadrilaterals and Areas of Parallelograms and Triangles practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_9_quadrilaterals_001",
+      "goalId": "grade9-mathematics",
+      "question": "The sum of all interior angles of a quadrilateral is:",
+      "options": ["180°", "270°", "360°", "540°"],
+      "correctIndex": 2,
+      "explanation": "A quadrilateral can be divided into two triangles, each with angle sum 180°. So total = 2 × 180° = 360°.",
+      "difficulty": "easy",
+      "tags": ["quadrilaterals", "angle-sum"]
+    },
+    {
+      "id": "q_mathematics_9_quadrilaterals_002",
+      "goalId": "grade9-mathematics",
+      "question": "In a parallelogram, opposite angles are:",
+      "options": ["Supplementary", "Complementary", "Equal", "Perpendicular"],
+      "correctIndex": 2,
+      "explanation": "In a parallelogram, opposite angles are equal (e.g., ∠A = ∠C and ∠B = ∠D). Adjacent angles are supplementary (add to 180°).",
+      "difficulty": "easy",
+      "tags": ["quadrilaterals", "parallelogram", "properties"]
+    },
+    {
+      "id": "q_mathematics_9_quadrilaterals_003",
+      "goalId": "grade9-mathematics",
+      "question": "The diagonals of a rhombus:",
+      "options": [
+        "Are equal in length",
+        "Bisect each other at 90°",
+        "Do not bisect each other",
+        "Are parallel"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a rhombus, the diagonals bisect each other at right angles (perpendicular bisectors). They may not be equal in length (that would make it a square).",
+      "difficulty": "easy",
+      "tags": ["quadrilaterals", "rhombus", "diagonals"]
+    },
+    {
+      "id": "q_mathematics_9_quadrilaterals_004",
+      "goalId": "grade9-mathematics",
+      "question": "In parallelogram ABCD, ∠A = 70°. Then ∠B =",
+      "options": ["70°", "110°", "140°", "360°"],
+      "correctIndex": 1,
+      "explanation": "In a parallelogram, adjacent angles are supplementary: ∠A + ∠B = 180°. So ∠B = 180° − 70° = 110°.",
+      "difficulty": "medium",
+      "tags": ["quadrilaterals", "parallelogram", "angles"]
+    },
+    {
+      "id": "q_mathematics_9_quadrilaterals_005",
+      "goalId": "grade9-mathematics",
+      "question": "The midpoint theorem states that the line segment joining midpoints of two sides of a triangle is:",
+      "options": [
+        "Equal to the third side",
+        "Parallel to the third side and half its length",
+        "Perpendicular to the third side",
+        "Twice the third side"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Midpoint Theorem: the segment connecting the midpoints of two sides of a triangle is parallel to the third side and exactly half its length.",
+      "difficulty": "medium",
+      "tags": ["quadrilaterals", "midpoint-theorem"]
+    },
+    {
+      "id": "q_mathematics_9_quadrilaterals_006",
+      "goalId": "grade9-mathematics",
+      "question": "In a rectangle, the diagonals are:",
+      "options": [
+        "Unequal and bisect each other at 90°",
+        "Equal and bisect each other",
+        "Equal but do not bisect",
+        "Perpendicular but not equal"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a rectangle, the diagonals are equal in length and bisect each other. (They are not perpendicular unless it is a square.)",
+      "difficulty": "medium",
+      "tags": ["quadrilaterals", "rectangle", "diagonals"]
+    },
+    {
+      "id": "q_mathematics_9_quadrilaterals_007",
+      "goalId": "grade9-mathematics",
+      "question": "ABCD is a parallelogram with AB = 10 cm and BC = 6 cm. Its perimeter is:",
+      "options": ["16 cm", "32 cm", "60 cm", "20 cm"],
+      "correctIndex": 1,
+      "explanation": "In a parallelogram, opposite sides are equal: AB = CD = 10 cm and BC = DA = 6 cm. Perimeter = 2(AB + BC) = 2(10 + 6) = 32 cm.",
+      "difficulty": "medium",
+      "tags": ["quadrilaterals", "parallelogram", "perimeter"]
+    },
+    {
+      "id": "q_mathematics_9_quadrilaterals_008",
+      "goalId": "grade9-mathematics",
+      "question": "Three angles of a quadrilateral are 70°, 80°, and 110°. The fourth angle is:",
+      "options": ["90°", "95°", "100°", "110°"],
+      "correctIndex": 2,
+      "explanation": "Sum of all angles = 360°. Fourth angle = 360° − 70° − 80° − 110° = 100°.",
+      "difficulty": "hard",
+      "tags": ["quadrilaterals", "angle-sum", "calculation"]
+    },
+    {
+      "id": "q_mathematics_9_areas_001",
+      "goalId": "grade9-mathematics",
+      "question": "Parallelograms on the same base and between the same parallel lines have:",
+      "options": ["Equal perimeters", "Equal areas", "Equal diagonals", "Equal heights only"],
+      "correctIndex": 1,
+      "explanation": "This is an important theorem: parallelograms on the same base (or equal bases) between the same pair of parallel lines are equal in area.",
+      "difficulty": "easy",
+      "tags": ["areas-parallelograms", "theorem"]
+    },
+    {
+      "id": "q_mathematics_9_areas_002",
+      "goalId": "grade9-mathematics",
+      "question": "The area of a parallelogram with base 8 cm and height 5 cm is:",
+      "options": ["13 cm²", "40 cm²", "20 cm²", "80 cm²"],
+      "correctIndex": 1,
+      "explanation": "Area of parallelogram = base × height = 8 × 5 = 40 cm².",
+      "difficulty": "easy",
+      "tags": ["areas-parallelograms", "calculation", "formula"]
+    },
+    {
+      "id": "q_mathematics_9_areas_003",
+      "goalId": "grade9-mathematics",
+      "question": "A triangle and a parallelogram have the same base and are between the same parallels. The area of the triangle is:",
+      "options": [
+        "Equal to the parallelogram",
+        "Double the parallelogram",
+        "Half the parallelogram",
+        "One-fourth the parallelogram"
+      ],
+      "correctIndex": 2,
+      "explanation": "A triangle on the same base and between the same parallels as a parallelogram has half the area of that parallelogram.",
+      "difficulty": "medium",
+      "tags": ["areas-parallelograms", "triangle-area", "theorem"]
+    },
+    {
+      "id": "q_mathematics_9_areas_004",
+      "goalId": "grade9-mathematics",
+      "question": "The area of a triangle with base 12 cm and height 9 cm is:",
+      "options": ["54 cm²", "108 cm²", "21 cm²", "36 cm²"],
+      "correctIndex": 0,
+      "explanation": "Area of triangle = ½ × base × height = ½ × 12 × 9 = 54 cm².",
+      "difficulty": "medium",
+      "tags": ["areas-parallelograms", "triangle-area", "calculation"]
+    },
+    {
+      "id": "q_mathematics_9_areas_005",
+      "goalId": "grade9-mathematics",
+      "question": "The median of a triangle divides it into two triangles of:",
+      "options": [
+        "Unequal areas",
+        "Equal areas",
+        "Areas in ratio 1:2",
+        "Areas in ratio 2:3"
+      ],
+      "correctIndex": 1,
+      "explanation": "A median divides a triangle into two triangles with the same base length (two halves of the side bisected) and the same height. Hence, both have equal areas.",
+      "difficulty": "medium",
+      "tags": ["areas-parallelograms", "median", "triangle-area"]
+    },
+    {
+      "id": "q_mathematics_9_areas_006",
+      "goalId": "grade9-mathematics",
+      "question": "If a parallelogram and a rectangle are on the same base and between the same parallels, then they have:",
+      "options": [
+        "Different areas",
+        "Equal areas",
+        "Rectangle has larger area",
+        "Parallelogram has larger area"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both have the same base and height (distance between parallels), so area = base × height for both. They have equal areas.",
+      "difficulty": "hard",
+      "tags": ["areas-parallelograms", "parallelogram", "rectangle"]
+    },
+    {
+      "id": "q_mathematics_9_areas_007",
+      "goalId": "grade9-mathematics",
+      "question": "In △ABC, D is the midpoint of BC. If the area of △ABC = 48 cm², then the area of △ABD =",
+      "options": ["12 cm²", "24 cm²", "48 cm²", "96 cm²"],
+      "correctIndex": 1,
+      "explanation": "AD is the median of △ABC. The median divides a triangle into two equal areas. So area of △ABD = ½ × 48 = 24 cm².",
+      "difficulty": "hard",
+      "tags": ["areas-parallelograms", "median", "calculation"]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "goalId": "grade9-science",
+  "title": "Grade 9 Science — Is Matter Pure? & Atoms and Molecules",
+  "description": "Is Matter Around Us Pure? and Atoms and Molecules practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_9_matter-pure_001",
+      "goalId": "grade9-science",
+      "question": "A pure substance contains:",
+      "options": [
+        "Two or more elements only",
+        "Only one type of particle (atoms or molecules)",
+        "A mixture of compounds",
+        "Elements and compounds together"
+      ],
+      "correctIndex": 1,
+      "explanation": "A pure substance has a fixed composition and contains only one type of particle (element: one type of atom; compound: one type of molecule). It cannot be separated by physical methods.",
+      "difficulty": "easy",
+      "tags": ["is-matter-pure", "pure-substance"]
+    },
+    {
+      "id": "q_science_9_matter-pure_002",
+      "goalId": "grade9-science",
+      "question": "An alloy like brass (copper and zinc) is a:",
+      "options": ["Compound", "Element", "Homogeneous mixture", "Heterogeneous mixture"],
+      "correctIndex": 2,
+      "explanation": "Alloys are solutions of metals. Brass is a uniform (homogeneous) mixture of copper and zinc that cannot be separated by physical means. It has uniform composition throughout.",
+      "difficulty": "easy",
+      "tags": ["is-matter-pure", "alloys", "homogeneous-mixture"]
+    },
+    {
+      "id": "q_science_9_matter-pure_003",
+      "goalId": "grade9-science",
+      "question": "The method used to separate a mixture of two miscible liquids with close boiling points is:",
+      "options": ["Distillation", "Filtration", "Fractional distillation", "Evaporation"],
+      "correctIndex": 2,
+      "explanation": "Fractional distillation is used when two miscible liquids have boiling points close together (less than 25°C apart). Regular distillation cannot separate them efficiently.",
+      "difficulty": "easy",
+      "tags": ["is-matter-pure", "separation-methods", "fractional-distillation"]
+    },
+    {
+      "id": "q_science_9_matter-pure_004",
+      "goalId": "grade9-science",
+      "question": "Colloids differ from true solutions in that:",
+      "options": [
+        "Colloid particles are larger and can scatter light (Tyndall effect)",
+        "Colloid particles are smaller than in true solutions",
+        "Colloids cannot be filtered",
+        "Colloids have a fixed composition"
+      ],
+      "correctIndex": 0,
+      "explanation": "Colloid particles (1–1000 nm) are larger than solute particles in true solutions. They scatter light (Tyndall effect) and can be separated by centrifugation but not simple filtration.",
+      "difficulty": "medium",
+      "tags": ["is-matter-pure", "colloids", "tyndall-effect"]
+    },
+    {
+      "id": "q_science_9_matter-pure_005",
+      "goalId": "grade9-science",
+      "question": "The Tyndall effect is the scattering of light by:",
+      "options": ["True solutions", "Pure compounds", "Colloidal particles", "Crystalline solids"],
+      "correctIndex": 2,
+      "explanation": "The Tyndall effect occurs when colloidal particles scatter a beam of light, making the path of light visible. True solutions do not show this because their particles are too small.",
+      "difficulty": "medium",
+      "tags": ["is-matter-pure", "tyndall-effect", "colloids"]
+    },
+    {
+      "id": "q_science_9_matter-pure_006",
+      "goalId": "grade9-science",
+      "question": "Water is a compound and not a mixture because:",
+      "options": [
+        "It contains hydrogen and oxygen in any ratio",
+        "Hydrogen and oxygen are combined in a fixed ratio (2:1) and cannot be separated by physical means",
+        "It can be separated by evaporation",
+        "It contains only one element"
+      ],
+      "correctIndex": 1,
+      "explanation": "In water (H₂O), hydrogen and oxygen are chemically combined in a fixed mass ratio of 1:8. The properties of water differ completely from its constituent elements.",
+      "difficulty": "medium",
+      "tags": ["is-matter-pure", "compound", "water"]
+    },
+    {
+      "id": "q_science_9_matter-pure_007",
+      "goalId": "grade9-science",
+      "question": "Which of the following is a heterogeneous mixture?",
+      "options": ["Salt solution", "Sugar solution", "Air", "Sand and water"],
+      "correctIndex": 3,
+      "explanation": "Sand and water have non-uniform composition — sand particles are visibly separate from water. Salt solution, sugar solution, and air are homogeneous mixtures with uniform composition.",
+      "difficulty": "easy",
+      "tags": ["is-matter-pure", "heterogeneous-mixture"]
+    },
+    {
+      "id": "q_science_9_matter-pure_008",
+      "goalId": "grade9-science",
+      "question": "Chromatography is used to separate:",
+      "options": [
+        "Immiscible liquids",
+        "Dissolved components in a mixture based on different rates of movement",
+        "Magnetic materials from non-magnetic",
+        "Heavy and light liquids"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chromatography separates components dissolved in a solvent (mobile phase) based on how they move through a stationary phase. Components with stronger affinity for the stationary phase move more slowly.",
+      "difficulty": "hard",
+      "tags": ["is-matter-pure", "chromatography", "separation"]
+    },
+    {
+      "id": "q_science_9_atoms_001",
+      "goalId": "grade9-science",
+      "question": "Dalton's atomic theory states that atoms of the same element are:",
+      "options": [
+        "Different in mass but same in shape",
+        "Identical in mass and chemical properties",
+        "Always found in pairs",
+        "Divisible into smaller particles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dalton's atomic theory (1808): atoms of the same element are identical in mass and chemical properties. Atoms of different elements differ in mass and properties.",
+      "difficulty": "easy",
+      "tags": ["atoms-molecules", "daltons-theory"]
+    },
+    {
+      "id": "q_science_9_atoms_002",
+      "goalId": "grade9-science",
+      "question": "The molecular formula of water tells us that one molecule of water contains:",
+      "options": [
+        "1 hydrogen atom and 2 oxygen atoms",
+        "2 hydrogen atoms and 1 oxygen atom",
+        "2 hydrogen atoms and 2 oxygen atoms",
+        "1 hydrogen atom and 1 oxygen atom"
+      ],
+      "correctIndex": 1,
+      "explanation": "H₂O has 2 hydrogen atoms (subscript 2) and 1 oxygen atom. The subscript gives the number of atoms of each element in one molecule.",
+      "difficulty": "easy",
+      "tags": ["atoms-molecules", "molecular-formula", "water"]
+    },
+    {
+      "id": "q_science_9_atoms_003",
+      "goalId": "grade9-science",
+      "question": "The law of conservation of mass states that:",
+      "options": [
+        "Mass can be created in chemical reactions",
+        "Total mass of reactants equals total mass of products in a chemical reaction",
+        "Mass increases during combustion",
+        "Mass and energy are interchangeable"
+      ],
+      "correctIndex": 1,
+      "explanation": "Law of Conservation of Mass (Lavoisier): in a chemical reaction, the total mass of reactants equals the total mass of products. Mass is neither created nor destroyed.",
+      "difficulty": "medium",
+      "tags": ["atoms-molecules", "law-of-conservation-of-mass"]
+    },
+    {
+      "id": "q_science_9_atoms_004",
+      "goalId": "grade9-science",
+      "question": "The molar mass of water (H₂O) is approximately:",
+      "options": ["10 g/mol", "16 g/mol", "18 g/mol", "20 g/mol"],
+      "correctIndex": 2,
+      "explanation": "Molar mass of H₂O = 2(1) + 16 = 18 g/mol. Hydrogen has atomic mass 1 g/mol and oxygen has 16 g/mol.",
+      "difficulty": "medium",
+      "tags": ["atoms-molecules", "molar-mass", "calculation"]
+    },
+    {
+      "id": "q_science_9_atoms_005",
+      "goalId": "grade9-science",
+      "question": "One mole of any substance contains:",
+      "options": ["6.022 × 10²³ particles", "6.022 × 10²⁰ particles", "6.022 × 10²⁶ particles", "6.022 × 10¹⁶ particles"],
+      "correctIndex": 0,
+      "explanation": "One mole = 6.022 × 10²³ particles (Avogadro's number). This applies to atoms, molecules, ions — any specified particle.",
+      "difficulty": "medium",
+      "tags": ["atoms-molecules", "avogadros-number", "mole"]
+    },
+    {
+      "id": "q_science_9_atoms_006",
+      "goalId": "grade9-science",
+      "question": "The chemical formula of calcium carbonate is:",
+      "options": ["CaCO", "CaCO₂", "CaCO₃", "Ca₂CO₃"],
+      "correctIndex": 2,
+      "explanation": "Calcium (Ca²⁺) and carbonate (CO₃²⁻) combine in 1:1 ratio to form CaCO₃ — calcium carbonate (marble, limestone, chalk).",
+      "difficulty": "easy",
+      "tags": ["atoms-molecules", "chemical-formula", "calcium-carbonate"]
+    },
+    {
+      "id": "q_science_9_atoms_007",
+      "goalId": "grade9-science",
+      "question": "The number of moles in 36 g of water (molar mass = 18 g/mol) is:",
+      "options": ["0.5 mol", "1 mol", "2 mol", "18 mol"],
+      "correctIndex": 2,
+      "explanation": "Number of moles = mass / molar mass = 36 / 18 = 2 mol.",
+      "difficulty": "hard",
+      "tags": ["atoms-molecules", "mole-calculation"]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "goalId": "grade9-mathematics",
+  "title": "Grade 9 Mathematics — Number Systems & Polynomials",
+  "description": "Number Systems and Polynomials practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_9_number-systems_001",
+      "goalId": "grade9-mathematics",
+      "question": "Which of the following is a rational number?",
+      "options": ["√2", "√3", "√4", "√5"],
+      "correctIndex": 2,
+      "explanation": "√4 = 2, which can be expressed as 2/1 (a ratio of two integers). √2, √3, and √5 are irrational numbers.",
+      "difficulty": "easy",
+      "tags": ["number-systems", "rational-numbers"]
+    },
+    {
+      "id": "q_mathematics_9_number-systems_002",
+      "goalId": "grade9-mathematics",
+      "question": "Every integer is a:",
+      "options": ["Natural number", "Whole number", "Rational number", "Irrational number"],
+      "correctIndex": 2,
+      "explanation": "Every integer n can be written as n/1, which satisfies the definition of a rational number (p/q, q ≠ 0). Not every integer is natural or whole (e.g., negative integers).",
+      "difficulty": "easy",
+      "tags": ["number-systems", "integers", "rational-numbers"]
+    },
+    {
+      "id": "q_mathematics_9_number-systems_003",
+      "goalId": "grade9-mathematics",
+      "question": "The decimal expansion of a rational number is:",
+      "options": [
+        "Always terminating",
+        "Always non-terminating",
+        "Either terminating or non-terminating repeating",
+        "Always non-terminating non-repeating"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rational numbers have decimal expansions that either terminate (e.g., 0.25) or repeat in a pattern (e.g., 1/3 = 0.333...). Non-terminating non-repeating decimals are irrational.",
+      "difficulty": "easy",
+      "tags": ["number-systems", "decimal-expansion", "rational-numbers"]
+    },
+    {
+      "id": "q_mathematics_9_number-systems_004",
+      "goalId": "grade9-mathematics",
+      "question": "The value of (√5 + √3)(√5 − √3) is:",
+      "options": ["√2", "2", "8", "2√15"],
+      "correctIndex": 1,
+      "explanation": "Using the identity (a + b)(a − b) = a² − b²: (√5)² − (√3)² = 5 − 3 = 2.",
+      "difficulty": "easy",
+      "tags": ["number-systems", "surds", "rationalisation"]
+    },
+    {
+      "id": "q_mathematics_9_number-systems_005",
+      "goalId": "grade9-mathematics",
+      "question": "The rationalising factor of 1/(√3 + √2) is:",
+      "options": ["√3 + √2", "√3 − √2", "√3 × √2", "1/(√3 − √2)"],
+      "correctIndex": 1,
+      "explanation": "To rationalise 1/(√3 + √2), multiply by (√3 − √2)/(√3 − √2). The denominator becomes (√3)² − (√2)² = 3 − 2 = 1.",
+      "difficulty": "medium",
+      "tags": ["number-systems", "rationalisation", "surds"]
+    },
+    {
+      "id": "q_mathematics_9_number-systems_006",
+      "goalId": "grade9-mathematics",
+      "question": "The value of 2^(1/3) × 2^(1/6) is:",
+      "options": ["2^(1/18)", "2^(1/2)", "2^(1/3)", "2^(2/3)"],
+      "correctIndex": 1,
+      "explanation": "When multiplying powers with the same base, add the exponents: 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2. So the answer is 2^(1/2) = √2.",
+      "difficulty": "medium",
+      "tags": ["number-systems", "exponents", "laws-of-exponents"]
+    },
+    {
+      "id": "q_mathematics_9_number-systems_007",
+      "goalId": "grade9-mathematics",
+      "question": "How many irrational numbers lie between √2 and √3?",
+      "options": ["0", "1", "2", "Infinitely many"],
+      "correctIndex": 3,
+      "explanation": "Between any two distinct real numbers, there are infinitely many real numbers — including infinitely many irrational numbers. Between √2 ≈ 1.414 and √3 ≈ 1.732 there are countless irrationals.",
+      "difficulty": "medium",
+      "tags": ["number-systems", "irrational-numbers", "density"]
+    },
+    {
+      "id": "q_mathematics_9_number-systems_008",
+      "goalId": "grade9-mathematics",
+      "question": "Which of the following is the simplest form of (√45 − 3√20 + 4√5)?",
+      "options": ["−√5", "0", "√5", "3√5"],
+      "correctIndex": 2,
+      "explanation": "√45 = 3√5, 3√20 = 3×2√5 = 6√5. So 3√5 − 6√5 + 4√5 = (3 − 6 + 4)√5 = 1√5 = √5.",
+      "difficulty": "hard",
+      "tags": ["number-systems", "surds", "simplification"]
+    },
+    {
+      "id": "q_mathematics_9_polynomials_001",
+      "goalId": "grade9-mathematics",
+      "question": "A polynomial of degree 1 is called:",
+      "options": ["Constant", "Linear", "Quadratic", "Cubic"],
+      "correctIndex": 1,
+      "explanation": "A polynomial of degree 1 (highest power = 1) is a linear polynomial, e.g., 2x + 3.",
+      "difficulty": "easy",
+      "tags": ["polynomials", "degree", "types"]
+    },
+    {
+      "id": "q_mathematics_9_polynomials_002",
+      "goalId": "grade9-mathematics",
+      "question": "The zero of the polynomial p(x) = 2x + 6 is:",
+      "options": ["3", "−3", "6", "−6"],
+      "correctIndex": 1,
+      "explanation": "Set p(x) = 0: 2x + 6 = 0 → x = −3. The zero is where the polynomial equals zero.",
+      "difficulty": "easy",
+      "tags": ["polynomials", "zeros", "linear"]
+    },
+    {
+      "id": "q_mathematics_9_polynomials_003",
+      "goalId": "grade9-mathematics",
+      "question": "Using the remainder theorem, the remainder when p(x) = x³ − 3x² + x + 1 is divided by (x − 1) is:",
+      "options": ["0", "1", "2", "−1"],
+      "correctIndex": 0,
+      "explanation": "By the remainder theorem, remainder = p(1) = 1 − 3 + 1 + 1 = 0. Since remainder = 0, (x − 1) is a factor of p(x).",
+      "difficulty": "medium",
+      "tags": ["polynomials", "remainder-theorem"]
+    },
+    {
+      "id": "q_mathematics_9_polynomials_004",
+      "goalId": "grade9-mathematics",
+      "question": "The factorisation of x² + 5x + 6 is:",
+      "options": ["(x + 1)(x + 6)", "(x + 2)(x + 3)", "(x − 2)(x − 3)", "(x + 6)(x − 1)"],
+      "correctIndex": 1,
+      "explanation": "We need two numbers that multiply to 6 and add to 5: 2 and 3. So x² + 5x + 6 = (x + 2)(x + 3).",
+      "difficulty": "medium",
+      "tags": ["polynomials", "factorisation", "quadratic"]
+    },
+    {
+      "id": "q_mathematics_9_polynomials_005",
+      "goalId": "grade9-mathematics",
+      "question": "Using the identity, the value of (101)² is:",
+      "options": ["10101", "10201", "10001", "10021"],
+      "correctIndex": 1,
+      "explanation": "101² = (100 + 1)² = 100² + 2×100×1 + 1² = 10000 + 200 + 1 = 10201.",
+      "difficulty": "medium",
+      "tags": ["polynomials", "algebraic-identities", "calculation"]
+    },
+    {
+      "id": "q_mathematics_9_polynomials_006",
+      "goalId": "grade9-mathematics",
+      "question": "If p(x) = x² − 4 and x = 2, then p(2) =",
+      "options": ["0", "2", "4", "8"],
+      "correctIndex": 0,
+      "explanation": "p(2) = 2² − 4 = 4 − 4 = 0. Since p(2) = 0, x = 2 is a zero of the polynomial and (x − 2) is a factor.",
+      "difficulty": "easy",
+      "tags": ["polynomials", "evaluation", "zeros"]
+    },
+    {
+      "id": "q_mathematics_9_polynomials_007",
+      "goalId": "grade9-mathematics",
+      "question": "Factorise using factor theorem: x³ − 6x² + 11x − 6 given that x = 1 is a root.",
+      "options": ["(x−1)(x−2)(x−3)", "(x−1)(x+2)(x+3)", "(x+1)(x−2)(x−3)", "(x−1)(x−2)(x+3)"],
+      "correctIndex": 0,
+      "explanation": "Since x=1 is a root, (x−1) is a factor. Dividing: x³−6x²+11x−6 = (x−1)(x²−5x+6) = (x−1)(x−2)(x−3).",
+      "difficulty": "hard",
+      "tags": ["polynomials", "factor-theorem", "cubic"]
+    }
+  ]
+}

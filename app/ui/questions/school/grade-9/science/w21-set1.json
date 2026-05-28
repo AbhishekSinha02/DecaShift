@@ -1,0 +1,183 @@
+{
+  "goalId": "grade9-science",
+  "title": "Grade 9 Science — Motion & Force and Laws of Motion",
+  "description": "Motion and Force and Laws of Motion practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_9_motion_001",
+      "goalId": "grade9-science",
+      "question": "A body is said to be in motion when:",
+      "options": [
+        "It is at rest with respect to all objects",
+        "Its position changes with respect to a reference point over time",
+        "It is acted upon by a force",
+        "Its velocity is constant"
+      ],
+      "correctIndex": 1,
+      "explanation": "Motion is the change in position of an object with respect to a reference point (observer) over time. Rest and motion are relative concepts.",
+      "difficulty": "easy",
+      "tags": ["motion", "definition", "reference-point"]
+    },
+    {
+      "id": "q_science_9_motion_002",
+      "goalId": "grade9-science",
+      "question": "The SI unit of speed is:",
+      "options": ["km/h", "cm/s", "m/s", "m/min"],
+      "correctIndex": 2,
+      "explanation": "The SI (International System) unit of speed is metres per second (m/s). While km/h is commonly used, m/s is the standard scientific unit.",
+      "difficulty": "easy",
+      "tags": ["motion", "speed", "SI-units"]
+    },
+    {
+      "id": "q_science_9_motion_003",
+      "goalId": "grade9-science",
+      "question": "A car travels 60 km in 2 hours. Its average speed is:",
+      "options": ["30 km/h", "60 km/h", "90 km/h", "120 km/h"],
+      "correctIndex": 0,
+      "explanation": "Average speed = Total distance / Total time = 60 km / 2 h = 30 km/h.",
+      "difficulty": "easy",
+      "tags": ["motion", "average-speed", "calculation"]
+    },
+    {
+      "id": "q_science_9_motion_004",
+      "goalId": "grade9-science",
+      "question": "The slope of a velocity-time graph gives:",
+      "options": ["Distance", "Displacement", "Speed", "Acceleration"],
+      "correctIndex": 3,
+      "explanation": "Slope = change in velocity / change in time = acceleration. On a v-t graph, the slope represents acceleration.",
+      "difficulty": "easy",
+      "tags": ["motion", "velocity-time-graph", "acceleration"]
+    },
+    {
+      "id": "q_science_9_motion_005",
+      "goalId": "grade9-science",
+      "question": "A ball is thrown vertically upward with velocity 20 m/s (g = 10 m/s²). The time taken to reach the highest point is:",
+      "options": ["1 s", "2 s", "4 s", "10 s"],
+      "correctIndex": 1,
+      "explanation": "At the highest point, final velocity v = 0. Using v = u + at: 0 = 20 + (−10)t → t = 2 s.",
+      "difficulty": "medium",
+      "tags": ["motion", "equations-of-motion", "projectile"]
+    },
+    {
+      "id": "q_science_9_motion_006",
+      "goalId": "grade9-science",
+      "question": "The area under a velocity-time graph gives:",
+      "options": ["Acceleration", "Speed", "Displacement", "Force"],
+      "correctIndex": 2,
+      "explanation": "Area under a v-t graph = velocity × time = displacement. This gives the total displacement covered during the time interval.",
+      "difficulty": "medium",
+      "tags": ["motion", "velocity-time-graph", "displacement"]
+    },
+    {
+      "id": "q_science_9_motion_007",
+      "goalId": "grade9-science",
+      "question": "A car starts from rest and accelerates uniformly at 2 m/s². Its velocity after 5 seconds is:",
+      "options": ["5 m/s", "7 m/s", "10 m/s", "25 m/s"],
+      "correctIndex": 2,
+      "explanation": "v = u + at = 0 + 2 × 5 = 10 m/s.",
+      "difficulty": "medium",
+      "tags": ["motion", "equations-of-motion", "uniform-acceleration"]
+    },
+    {
+      "id": "q_science_9_motion_008",
+      "goalId": "grade9-science",
+      "question": "A body moves in a circular path at constant speed. Its motion is called:",
+      "options": [
+        "Uniform linear motion",
+        "Non-uniform motion",
+        "Uniform circular motion",
+        "Simple harmonic motion"
+      ],
+      "correctIndex": 2,
+      "explanation": "Uniform circular motion: constant speed but continuously changing direction. Since direction changes, velocity changes — so there IS acceleration (centripetal), even though speed is constant.",
+      "difficulty": "hard",
+      "tags": ["motion", "uniform-circular-motion"]
+    },
+    {
+      "id": "q_science_9_force_001",
+      "goalId": "grade9-science",
+      "question": "Newton's first law of motion is also called the law of:",
+      "options": ["Acceleration", "Inertia", "Action-Reaction", "Conservation of momentum"],
+      "correctIndex": 1,
+      "explanation": "Newton's first law states that a body continues in its state of rest or uniform motion unless acted upon by an external force. This property is called inertia.",
+      "difficulty": "easy",
+      "tags": ["force-laws-of-motion", "newtons-first-law", "inertia"]
+    },
+    {
+      "id": "q_science_9_force_002",
+      "goalId": "grade9-science",
+      "question": "The SI unit of force is:",
+      "options": ["Joule", "Newton", "Watt", "Pascal"],
+      "correctIndex": 1,
+      "explanation": "The SI unit of force is the Newton (N). 1 N = 1 kg·m/s². It is named after Sir Isaac Newton.",
+      "difficulty": "easy",
+      "tags": ["force-laws-of-motion", "force", "SI-units"]
+    },
+    {
+      "id": "q_science_9_force_003",
+      "goalId": "grade9-science",
+      "question": "According to Newton's second law, force F = ma. If mass is doubled and acceleration is halved, the force becomes:",
+      "options": ["Same", "Double", "Half", "Four times"],
+      "correctIndex": 0,
+      "explanation": "F = ma. New force = (2m)(a/2) = ma = F. The force remains the same.",
+      "difficulty": "medium",
+      "tags": ["force-laws-of-motion", "newtons-second-law", "calculation"]
+    },
+    {
+      "id": "q_science_9_force_004",
+      "goalId": "grade9-science",
+      "question": "Newton's third law states: 'For every action, there is an equal and opposite ___.'",
+      "options": ["Force", "Reaction", "Acceleration", "Momentum"],
+      "correctIndex": 1,
+      "explanation": "Newton's third law: For every action (force), there is an equal and opposite reaction. Both forces act on different objects simultaneously.",
+      "difficulty": "easy",
+      "tags": ["force-laws-of-motion", "newtons-third-law"]
+    },
+    {
+      "id": "q_science_9_force_005",
+      "goalId": "grade9-science",
+      "question": "A rocket moves forward because:",
+      "options": [
+        "Air pushes it forward",
+        "Exhaust gases push the rocket forward",
+        "By Newton's third law, exhaust gases expelled backward push the rocket forward",
+        "Newton's first law keeps it moving"
+      ],
+      "correctIndex": 2,
+      "explanation": "By Newton's third law, when the rocket expels gases backward (action), the gases exert an equal and opposite forward force on the rocket (reaction). This propels the rocket.",
+      "difficulty": "medium",
+      "tags": ["force-laws-of-motion", "newtons-third-law", "rocket"]
+    },
+    {
+      "id": "q_science_9_force_006",
+      "goalId": "grade9-science",
+      "question": "The momentum of a body of mass 5 kg moving at 10 m/s is:",
+      "options": ["2 kg·m/s", "0.5 kg·m/s", "50 kg·m/s", "15 kg·m/s"],
+      "correctIndex": 2,
+      "explanation": "Momentum p = mass × velocity = 5 kg × 10 m/s = 50 kg·m/s.",
+      "difficulty": "medium",
+      "tags": ["force-laws-of-motion", "momentum", "calculation"]
+    },
+    {
+      "id": "q_science_9_force_007",
+      "goalId": "grade9-science",
+      "question": "The law of conservation of momentum states that the total momentum of a system remains constant if:",
+      "options": [
+        "All forces are balanced",
+        "No external force acts on the system",
+        "Objects move in the same direction",
+        "All objects have the same mass"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conservation of momentum: in the absence of an external force, the total momentum of a system remains constant. Internal forces within the system don't change total momentum.",
+      "difficulty": "hard",
+      "tags": ["force-laws-of-motion", "conservation-of-momentum"]
+    }
+  ]
+}

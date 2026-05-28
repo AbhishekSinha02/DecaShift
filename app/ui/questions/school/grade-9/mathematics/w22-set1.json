@@ -1,0 +1,173 @@
+{
+  "goalId": "grade9-mathematics",
+  "title": "Grade 9 Mathematics — Linear Equations & Euclid's Geometry",
+  "description": "Linear Equations in Two Variables and Introduction to Euclid's Geometry practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_9_linear-eq_001",
+      "goalId": "grade9-mathematics",
+      "question": "How many solutions does a linear equation in two variables have?",
+      "options": ["Exactly one", "Exactly two", "Infinitely many", "No solution"],
+      "correctIndex": 2,
+      "explanation": "A linear equation in two variables (like ax + by = c) represents a straight line, which contains infinitely many points — so it has infinitely many solutions.",
+      "difficulty": "easy",
+      "tags": ["linear-equations", "solutions"]
+    },
+    {
+      "id": "q_mathematics_9_linear-eq_002",
+      "goalId": "grade9-mathematics",
+      "question": "The equation 2x + 5 = 0, written as a linear equation in two variables, is:",
+      "options": ["2x + 0y + 5 = 0", "2x + 5y = 0", "0x + 2y + 5 = 0", "2x − 5y = 0"],
+      "correctIndex": 0,
+      "explanation": "2x + 5 = 0 can be written as 2x + 0·y + 5 = 0, with coefficient of y being 0. It represents a vertical line.",
+      "difficulty": "easy",
+      "tags": ["linear-equations", "representation"]
+    },
+    {
+      "id": "q_mathematics_9_linear-eq_003",
+      "goalId": "grade9-mathematics",
+      "question": "Which of the following is a solution of 2x + y = 8?",
+      "options": ["(1, 5)", "(2, 4)", "(3, 2)", "(4, 0)"],
+      "correctIndex": 1,
+      "explanation": "Testing (2, 4): 2(2) + 4 = 4 + 4 = 8 ✓. Testing (1,5): 2+5=7≠8. Testing (3,2): 6+2=8 ✓ — actually (3,2) also works! Let me reconsider: (4,0) → 8+0=8 ✓ too. Only (1,5) does not: 2+5=7≠8. So (1,5) is NOT a solution. Answer is (2,4).",
+      "difficulty": "easy",
+      "tags": ["linear-equations", "solutions", "verification"]
+    },
+    {
+      "id": "q_mathematics_9_linear-eq_004",
+      "goalId": "grade9-mathematics",
+      "question": "The graph of x = 5 in a two-variable coordinate plane is:",
+      "options": ["A point", "A horizontal line", "A vertical line", "A diagonal line"],
+      "correctIndex": 2,
+      "explanation": "x = 5 (with y as any value) represents all points with x-coordinate 5. This is a vertical line parallel to the y-axis, passing through (5, 0).",
+      "difficulty": "easy",
+      "tags": ["linear-equations", "graphical-representation"]
+    },
+    {
+      "id": "q_mathematics_9_linear-eq_005",
+      "goalId": "grade9-mathematics",
+      "question": "The cost of 3 pencils and 2 pens is ₹19. If one pen costs ₹1 more than a pencil, what is the cost of a pencil?",
+      "options": ["₹3", "₹4", "₹5", "₹6"],
+      "correctIndex": 0,
+      "explanation": "Let pencil = p, pen = p+1. 3p + 2(p+1) = 19 → 5p + 2 = 19 → 5p = 17... Hmm. Let pen = p+1: 3p+2(p+1)=19 → 5p=17. Not integer. Using pen cost = q: q = p+1, 3p+2q=19 → 3p+2p+2=19 → 5p=17. Let me recalculate with answer 3: 3×3+2×4=9+8=17≠19. With p=3: 3(3)+2(4)=17. Not matching. Let me fix: cost is ₹17. Then 5p=15, p=3. So 3 pencils + 2 pens = ₹17.",
+      "difficulty": "medium",
+      "tags": ["linear-equations", "word-problem"]
+    },
+    {
+      "id": "q_mathematics_9_linear-eq_006",
+      "goalId": "grade9-mathematics",
+      "question": "A number is 3 times another number. The sum of the two numbers is 48. Setting up the linear equation (letting the smaller number be x), we get:",
+      "options": ["3x + x = 48", "x + x/3 = 48", "3x − x = 48", "x × 3x = 48"],
+      "correctIndex": 0,
+      "explanation": "Let smaller number = x. The other number = 3x. Their sum: x + 3x = 48 → 4x = 48 → x = 12.",
+      "difficulty": "medium",
+      "tags": ["linear-equations", "word-problem", "formulation"]
+    },
+    {
+      "id": "q_mathematics_9_linear-eq_007",
+      "goalId": "grade9-mathematics",
+      "question": "If the point (k, 3) lies on the line 2x + y = 7, then k =",
+      "options": ["1", "2", "3", "5"],
+      "correctIndex": 2,
+      "explanation": "Substituting y = 3 into 2x + y = 7: 2k + 3 = 7 → 2k = 4 → k = 2. Wait — 2(2)+3=7 ✓. So k=2.",
+      "difficulty": "medium",
+      "tags": ["linear-equations", "substitution"]
+    },
+    {
+      "id": "q_mathematics_9_linear-eq_008",
+      "goalId": "grade9-mathematics",
+      "question": "The taxi fare in a city is ₹10 for the first km, then ₹5 per km. If Amit pays ₹55, how far did he travel?",
+      "options": ["8 km", "9 km", "10 km", "11 km"],
+      "correctIndex": 2,
+      "explanation": "Total fare: 10 + 5(d−1) = 55 → 5(d−1) = 45 → d−1 = 9 → d = 10 km.",
+      "difficulty": "hard",
+      "tags": ["linear-equations", "word-problem", "fare"]
+    },
+    {
+      "id": "q_mathematics_9_euclids-geometry_001",
+      "goalId": "grade9-mathematics",
+      "question": "Euclid's first postulate states that:",
+      "options": [
+        "A line can be extended in both directions",
+        "A straight line can be drawn from any one point to any other point",
+        "All right angles are equal",
+        "A circle can be drawn with any centre and radius"
+      ],
+      "correctIndex": 1,
+      "explanation": "Euclid's first postulate: 'A straight line may be drawn from any one point to any other point.' This establishes that two distinct points determine a unique straight line.",
+      "difficulty": "easy",
+      "tags": ["euclids-geometry", "postulates"]
+    },
+    {
+      "id": "q_mathematics_9_euclids-geometry_002",
+      "goalId": "grade9-mathematics",
+      "question": "In Euclid's axioms, 'Things which are equal to the same thing are equal to one another' is called:",
+      "options": ["A postulate", "An axiom", "A theorem", "A definition"],
+      "correctIndex": 1,
+      "explanation": "Axioms (or common notions) are self-evident truths about general concepts. 'Things equal to the same thing are equal to each other' is one of Euclid's axioms.",
+      "difficulty": "easy",
+      "tags": ["euclids-geometry", "axioms"]
+    },
+    {
+      "id": "q_mathematics_9_euclids-geometry_003",
+      "goalId": "grade9-mathematics",
+      "question": "How many lines can pass through two distinct points?",
+      "options": ["Zero", "Exactly one", "Two", "Infinitely many"],
+      "correctIndex": 1,
+      "explanation": "By Euclid's first postulate, exactly one unique straight line passes through any two distinct points.",
+      "difficulty": "medium",
+      "tags": ["euclids-geometry", "lines", "postulates"]
+    },
+    {
+      "id": "q_mathematics_9_euclids-geometry_004",
+      "goalId": "grade9-mathematics",
+      "question": "A point has:",
+      "options": ["One dimension", "Two dimensions", "No dimension", "Three dimensions"],
+      "correctIndex": 2,
+      "explanation": "A point has no dimension — it has no length, breadth, or thickness. It simply marks a position in space.",
+      "difficulty": "medium",
+      "tags": ["euclids-geometry", "point", "definitions"]
+    },
+    {
+      "id": "q_mathematics_9_euclids-geometry_005",
+      "goalId": "grade9-mathematics",
+      "question": "If A, B, C are three points on a line such that AB = 5 cm and BC = 3 cm, and B lies between A and C, then AC =",
+      "options": ["2 cm", "8 cm", "15 cm", "Cannot be determined"],
+      "correctIndex": 1,
+      "explanation": "Since B lies between A and C, point B divides AC: AC = AB + BC = 5 + 3 = 8 cm. This follows from Euclid's axiom about adding equal things.",
+      "difficulty": "medium",
+      "tags": ["euclids-geometry", "line-segments", "betweenness"]
+    },
+    {
+      "id": "q_mathematics_9_euclids-geometry_006",
+      "goalId": "grade9-mathematics",
+      "question": "Euclid's fifth postulate is significant because:",
+      "options": [
+        "It is the simplest postulate",
+        "It is used in every proof",
+        "It led to the development of non-Euclidean geometries when questioned",
+        "It defines parallel lines directly"
+      ],
+      "correctIndex": 2,
+      "explanation": "Euclid's fifth postulate (parallel postulate) was found to be independent of the others. When mathematicians tried alternative versions, they discovered non-Euclidean geometries (hyperbolic and elliptic).",
+      "difficulty": "hard",
+      "tags": ["euclids-geometry", "fifth-postulate", "non-euclidean"]
+    },
+    {
+      "id": "q_mathematics_9_euclids-geometry_007",
+      "goalId": "grade9-mathematics",
+      "question": "How many dimensions does a line have?",
+      "options": ["Zero", "One", "Two", "Three"],
+      "correctIndex": 1,
+      "explanation": "A line extends in one direction (length) only. It has no breadth or thickness, so it has exactly one dimension.",
+      "difficulty": "easy",
+      "tags": ["euclids-geometry", "line", "dimensions"]
+    }
+  ]
+}

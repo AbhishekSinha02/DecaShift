@@ -1,0 +1,168 @@
+{
+  "goalId": "grade9-mathematics",
+  "title": "Grade 9 Mathematics — Lines and Angles & Triangles",
+  "description": "Lines and Angles and Triangles practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_9_lines-angles_001",
+      "goalId": "grade9-mathematics",
+      "question": "If two lines intersect, the vertically opposite angles are:",
+      "options": ["Supplementary", "Complementary", "Equal", "Unequal"],
+      "correctIndex": 2,
+      "explanation": "When two lines intersect, the vertically opposite angles (across the vertex) are always equal. This is a fundamental theorem in geometry.",
+      "difficulty": "easy",
+      "tags": ["lines-angles", "vertically-opposite-angles"]
+    },
+    {
+      "id": "q_mathematics_9_lines-angles_002",
+      "goalId": "grade9-mathematics",
+      "question": "The sum of angles on a straight line is:",
+      "options": ["90°", "180°", "270°", "360°"],
+      "correctIndex": 1,
+      "explanation": "Angles on a straight line are called linear pairs. They always add up to 180° (supplementary angles).",
+      "difficulty": "easy",
+      "tags": ["lines-angles", "linear-pair", "supplementary"]
+    },
+    {
+      "id": "q_mathematics_9_lines-angles_003",
+      "goalId": "grade9-mathematics",
+      "question": "If a transversal cuts two parallel lines, alternate interior angles are:",
+      "options": ["Supplementary", "Complementary", "Equal", "Double of each other"],
+      "correctIndex": 2,
+      "explanation": "When a transversal cuts parallel lines, alternate interior angles (Z-angles) are equal. This is the alternate interior angles theorem.",
+      "difficulty": "easy",
+      "tags": ["lines-angles", "parallel-lines", "alternate-angles"]
+    },
+    {
+      "id": "q_mathematics_9_lines-angles_004",
+      "goalId": "grade9-mathematics",
+      "question": "Co-interior angles (same-side interior angles) formed by a transversal cutting two parallel lines are:",
+      "options": ["Equal", "Complementary", "Supplementary", "Alternate angles"],
+      "correctIndex": 2,
+      "explanation": "Co-interior angles (also called consecutive interior angles) formed by a transversal cutting two parallel lines are supplementary — they add up to 180°.",
+      "difficulty": "easy",
+      "tags": ["lines-angles", "parallel-lines", "co-interior-angles"]
+    },
+    {
+      "id": "q_mathematics_9_lines-angles_005",
+      "goalId": "grade9-mathematics",
+      "question": "In the figure, two parallel lines are cut by a transversal. If one co-interior angle is 65°, the other is:",
+      "options": ["65°", "115°", "125°", "25°"],
+      "correctIndex": 1,
+      "explanation": "Co-interior angles sum to 180°. So the other angle = 180° − 65° = 115°.",
+      "difficulty": "medium",
+      "tags": ["lines-angles", "co-interior-angles", "calculation"]
+    },
+    {
+      "id": "q_mathematics_9_lines-angles_006",
+      "goalId": "grade9-mathematics",
+      "question": "The complement of an angle of 37° is:",
+      "options": ["53°", "143°", "63°", "47°"],
+      "correctIndex": 0,
+      "explanation": "Complementary angles sum to 90°. So complement = 90° − 37° = 53°.",
+      "difficulty": "medium",
+      "tags": ["lines-angles", "complementary-angles"]
+    },
+    {
+      "id": "q_mathematics_9_lines-angles_007",
+      "goalId": "grade9-mathematics",
+      "question": "Two lines AB and CD intersect at point O. If ∠AOC = 4x° and ∠BOD = (3x + 20)°, then x =",
+      "options": ["10°", "20°", "30°", "40°"],
+      "correctIndex": 1,
+      "explanation": "Vertically opposite angles ∠AOC = ∠BOD. So 4x = 3x + 20 → x = 20.",
+      "difficulty": "medium",
+      "tags": ["lines-angles", "vertically-opposite-angles", "algebra"]
+    },
+    {
+      "id": "q_mathematics_9_lines-angles_008",
+      "goalId": "grade9-mathematics",
+      "question": "If one angle of a linear pair is twice the other, the angles are:",
+      "options": ["45° and 135°", "60° and 120°", "50° and 130°", "30° and 150°"],
+      "correctIndex": 1,
+      "explanation": "Let angles be x and 2x. x + 2x = 180° → 3x = 180° → x = 60°. Angles are 60° and 120°.",
+      "difficulty": "hard",
+      "tags": ["lines-angles", "linear-pair", "algebra"]
+    },
+    {
+      "id": "q_mathematics_9_triangles_001",
+      "goalId": "grade9-mathematics",
+      "question": "The sum of angles of a triangle is:",
+      "options": ["90°", "180°", "270°", "360°"],
+      "correctIndex": 1,
+      "explanation": "The angle sum property of triangles: the sum of all three interior angles of any triangle is always 180°.",
+      "difficulty": "easy",
+      "tags": ["triangles", "angle-sum-property"]
+    },
+    {
+      "id": "q_mathematics_9_triangles_002",
+      "goalId": "grade9-mathematics",
+      "question": "Two triangles are congruent if two sides and the included angle of one triangle are equal to those of another. This is the:",
+      "options": ["SSS congruence rule", "ASA congruence rule", "SAS congruence rule", "RHS congruence rule"],
+      "correctIndex": 2,
+      "explanation": "SAS (Side-Angle-Side) congruence: if two sides and the angle between them (included angle) of one triangle equal the corresponding parts of another, the triangles are congruent.",
+      "difficulty": "easy",
+      "tags": ["triangles", "congruence", "SAS"]
+    },
+    {
+      "id": "q_mathematics_9_triangles_003",
+      "goalId": "grade9-mathematics",
+      "question": "In △ABC, ∠A = 50° and ∠B = 70°. Then ∠C =",
+      "options": ["50°", "60°", "70°", "80°"],
+      "correctIndex": 1,
+      "explanation": "Angle sum property: ∠A + ∠B + ∠C = 180°. So ∠C = 180° − 50° − 70° = 60°.",
+      "difficulty": "medium",
+      "tags": ["triangles", "angle-sum-property"]
+    },
+    {
+      "id": "q_mathematics_9_triangles_004",
+      "goalId": "grade9-mathematics",
+      "question": "An exterior angle of a triangle equals:",
+      "options": [
+        "The sum of all three interior angles",
+        "The sum of the two non-adjacent interior angles",
+        "The supplement of the adjacent interior angle",
+        "Half the sum of the interior angles"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Exterior Angle Theorem: an exterior angle of a triangle equals the sum of the two remote (non-adjacent) interior angles.",
+      "difficulty": "medium",
+      "tags": ["triangles", "exterior-angle-theorem"]
+    },
+    {
+      "id": "q_mathematics_9_triangles_005",
+      "goalId": "grade9-mathematics",
+      "question": "In △PQR, PQ = PR. Then:",
+      "options": ["∠Q > ∠R", "∠Q < ∠R", "∠Q = ∠R", "∠P = ∠Q"],
+      "correctIndex": 2,
+      "explanation": "In an isosceles triangle, the angles opposite to equal sides are equal. Since PQ = PR, the angles opposite to them (∠R and ∠Q respectively) are equal: ∠Q = ∠R.",
+      "difficulty": "medium",
+      "tags": ["triangles", "isosceles-triangle"]
+    },
+    {
+      "id": "q_mathematics_9_triangles_006",
+      "goalId": "grade9-mathematics",
+      "question": "In a right triangle, the side opposite the right angle is called the:",
+      "options": ["Base", "Altitude", "Hypotenuse", "Median"],
+      "correctIndex": 2,
+      "explanation": "The side opposite the 90° angle in a right triangle is the hypotenuse — it is always the longest side of the right triangle.",
+      "difficulty": "easy",
+      "tags": ["triangles", "right-triangle", "hypotenuse"]
+    },
+    {
+      "id": "q_mathematics_9_triangles_007",
+      "goalId": "grade9-mathematics",
+      "question": "If the exterior angle of a triangle is 110° and one of the non-adjacent interior angles is 60°, the other non-adjacent interior angle is:",
+      "options": ["50°", "60°", "70°", "110°"],
+      "correctIndex": 0,
+      "explanation": "By the exterior angle theorem: exterior angle = sum of two non-adjacent interior angles. So 110° = 60° + other angle → other angle = 50°.",
+      "difficulty": "hard",
+      "tags": ["triangles", "exterior-angle-theorem", "calculation"]
+    }
+  ]
+}

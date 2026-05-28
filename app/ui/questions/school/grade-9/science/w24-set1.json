@@ -1,0 +1,178 @@
+{
+  "goalId": "grade9-science",
+  "title": "Grade 9 Science — Structure of Atom & Cell",
+  "description": "Structure of the Atom and Cell — Fundamental Unit of Life practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_9_structure-atom_001",
+      "goalId": "grade9-science",
+      "question": "The nucleus of an atom contains:",
+      "options": ["Only electrons", "Only protons", "Protons and neutrons", "Protons and electrons"],
+      "correctIndex": 2,
+      "explanation": "The nucleus contains protons (positively charged) and neutrons (no charge). Electrons are found in orbits (shells) around the nucleus.",
+      "difficulty": "easy",
+      "tags": ["structure-atom", "nucleus", "subatomic-particles"]
+    },
+    {
+      "id": "q_science_9_structure-atom_002",
+      "goalId": "grade9-science",
+      "question": "The atomic number of an element is equal to the number of:",
+      "options": ["Neutrons", "Protons", "Electrons + Protons", "Neutrons + Protons"],
+      "correctIndex": 1,
+      "explanation": "Atomic number (Z) = number of protons in the nucleus. For a neutral atom, it also equals the number of electrons.",
+      "difficulty": "easy",
+      "tags": ["structure-atom", "atomic-number", "protons"]
+    },
+    {
+      "id": "q_science_9_structure-atom_003",
+      "goalId": "grade9-science",
+      "question": "In Bohr's model of the atom, electrons can only be in orbits with:",
+      "options": [
+        "Any amount of energy",
+        "Discrete (fixed) energy levels",
+        "Increasing energy as they get closer to nucleus",
+        "No energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bohr's atomic model proposed that electrons exist only in fixed, discrete orbits (shells) around the nucleus. Each orbit has a specific energy level.",
+      "difficulty": "easy",
+      "tags": ["structure-atom", "bohrs-model", "energy-levels"]
+    },
+    {
+      "id": "q_science_9_structure-atom_004",
+      "goalId": "grade9-science",
+      "question": "The maximum number of electrons in the third shell (M shell) of an atom is:",
+      "options": ["2", "8", "18", "32"],
+      "correctIndex": 2,
+      "explanation": "Maximum electrons in any shell n = 2n². For n = 3 (M shell): 2 × 3² = 18. For n=1: 2, n=2: 8.",
+      "difficulty": "medium",
+      "tags": ["structure-atom", "electron-configuration", "shells"]
+    },
+    {
+      "id": "q_science_9_structure-atom_005",
+      "goalId": "grade9-science",
+      "question": "Isotopes of an element have the same number of protons but different numbers of:",
+      "options": ["Electrons", "Protons", "Neutrons", "Shells"],
+      "correctIndex": 2,
+      "explanation": "Isotopes are atoms of the same element with the same atomic number (same protons) but different mass numbers due to different numbers of neutrons. Example: ¹²C and ¹⁴C.",
+      "difficulty": "medium",
+      "tags": ["structure-atom", "isotopes"]
+    },
+    {
+      "id": "q_science_9_structure-atom_006",
+      "goalId": "grade9-science",
+      "question": "The atomic mass of an element is approximately equal to:",
+      "options": [
+        "Number of electrons",
+        "Number of protons",
+        "Number of protons + number of neutrons",
+        "Number of neutrons − number of protons"
+      ],
+      "correctIndex": 2,
+      "explanation": "Atomic mass (mass number) = protons + neutrons. Electrons have negligible mass. For example, carbon-12 has 6 protons + 6 neutrons = mass number 12.",
+      "difficulty": "medium",
+      "tags": ["structure-atom", "atomic-mass", "mass-number"]
+    },
+    {
+      "id": "q_science_9_structure-atom_007",
+      "goalId": "grade9-science",
+      "question": "The valency of an element with 7 electrons in the outermost shell is:",
+      "options": ["1", "2", "7", "3"],
+      "correctIndex": 0,
+      "explanation": "Valency = 8 − (outermost electrons) if outermost electrons > 4. 8 − 7 = 1. This element (like chlorine) gains 1 electron to complete its octet.",
+      "difficulty": "hard",
+      "tags": ["structure-atom", "valency", "octet-rule"]
+    },
+    {
+      "id": "q_science_9_structure-atom_008",
+      "goalId": "grade9-science",
+      "question": "Which scientist proposed the nuclear model of the atom based on the gold foil experiment?",
+      "options": ["J.J. Thomson", "Niels Bohr", "Ernest Rutherford", "John Dalton"],
+      "correctIndex": 2,
+      "explanation": "Rutherford's gold foil (alpha particle scattering) experiment (1911) showed that most of an atom is empty space with a tiny, dense, positively charged nucleus.",
+      "difficulty": "easy",
+      "tags": ["structure-atom", "rutherford", "nuclear-model"]
+    },
+    {
+      "id": "q_science_9_cell_001",
+      "goalId": "grade9-science",
+      "question": "The basic structural and functional unit of life is:",
+      "options": ["Tissue", "Organ", "Cell", "Organism"],
+      "correctIndex": 2,
+      "explanation": "The cell is the basic unit of life. All living things are made of one or more cells, and all life processes occur within cells.",
+      "difficulty": "easy",
+      "tags": ["cell", "fundamental-unit-of-life"]
+    },
+    {
+      "id": "q_science_9_cell_002",
+      "goalId": "grade9-science",
+      "question": "The powerhouse of the cell is the:",
+      "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi apparatus"],
+      "correctIndex": 2,
+      "explanation": "Mitochondria are called the powerhouse of the cell because they produce ATP (adenosine triphosphate) through cellular respiration, providing energy for cellular activities.",
+      "difficulty": "easy",
+      "tags": ["cell", "mitochondria", "organelles"]
+    },
+    {
+      "id": "q_science_9_cell_003",
+      "goalId": "grade9-science",
+      "question": "Plant cells have a cell wall made of:",
+      "options": ["Chitin", "Protein", "Cellulose", "Lipids"],
+      "correctIndex": 2,
+      "explanation": "Plant cell walls are made of cellulose, a rigid polysaccharide. The cell wall provides structural support and maintains cell shape. Animal cells do not have cell walls.",
+      "difficulty": "medium",
+      "tags": ["cell", "cell-wall", "plant-cell"]
+    },
+    {
+      "id": "q_science_9_cell_004",
+      "goalId": "grade9-science",
+      "question": "Which organelle controls all activities of the cell and contains genetic material?",
+      "options": ["Ribosome", "Nucleus", "Vacuole", "Chloroplast"],
+      "correctIndex": 1,
+      "explanation": "The nucleus controls all cell activities and contains DNA (genetic material). It is the control centre of the cell, enclosed by the nuclear envelope.",
+      "difficulty": "easy",
+      "tags": ["cell", "nucleus", "organelles"]
+    },
+    {
+      "id": "q_science_9_cell_005",
+      "goalId": "grade9-science",
+      "question": "Prokaryotic cells differ from eukaryotic cells in that they:",
+      "options": [
+        "Have a defined nucleus with a nuclear membrane",
+        "Have membrane-bound organelles",
+        "Lack a true membrane-bound nucleus",
+        "Are always larger"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prokaryotic cells (bacteria, blue-green algae) have no membrane-bound nucleus — their genetic material floats freely in the cytoplasm. Eukaryotic cells have a well-defined nucleus.",
+      "difficulty": "medium",
+      "tags": ["cell", "prokaryotic", "eukaryotic"]
+    },
+    {
+      "id": "q_science_9_cell_006",
+      "goalId": "grade9-science",
+      "question": "Chloroplasts are found in plant cells and are responsible for:",
+      "options": ["Cellular respiration", "Protein synthesis", "Photosynthesis", "Cell division"],
+      "correctIndex": 2,
+      "explanation": "Chloroplasts contain chlorophyll and are the sites of photosynthesis — converting light energy, water, and CO₂ into glucose and oxygen.",
+      "difficulty": "medium",
+      "tags": ["cell", "chloroplast", "photosynthesis"]
+    },
+    {
+      "id": "q_science_9_cell_007",
+      "goalId": "grade9-science",
+      "question": "The process by which a cell takes in large particles or droplets by engulfing them with its membrane is called:",
+      "options": ["Osmosis", "Diffusion", "Endocytosis", "Exocytosis"],
+      "correctIndex": 2,
+      "explanation": "Endocytosis is the process by which cells engulf large particles (phagocytosis) or fluid (pinocytosis) by wrapping the plasma membrane around them to form a vesicle inside the cell.",
+      "difficulty": "hard",
+      "tags": ["cell", "endocytosis", "cell-transport"]
+    }
+  ]
+}

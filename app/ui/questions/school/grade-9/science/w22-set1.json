@@ -1,0 +1,193 @@
+{
+  "goalId": "grade9-science",
+  "title": "Grade 9 Science — Gravitation & Matter in Our Surroundings",
+  "description": "Gravitation and Matter in Our Surroundings practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_9_gravitation_001",
+      "goalId": "grade9-science",
+      "question": "The value of acceleration due to gravity (g) on the surface of the Earth is approximately:",
+      "options": ["6.67 × 10⁻¹¹ m/s²", "9.8 m/s²", "10 m/s²", "Both B and C (9.8 or 10 m/s²)"],
+      "correctIndex": 3,
+      "explanation": "g ≈ 9.8 m/s² is the precise value. In calculations, g = 10 m/s² is commonly used for simplicity. 6.67 × 10⁻¹¹ is the universal gravitational constant G, not g.",
+      "difficulty": "easy",
+      "tags": ["gravitation", "acceleration-due-to-gravity"]
+    },
+    {
+      "id": "q_science_9_gravitation_002",
+      "goalId": "grade9-science",
+      "question": "The weight of an object on the Moon compared to Earth is:",
+      "options": ["Same", "6 times more", "1/6th", "Zero"],
+      "correctIndex": 2,
+      "explanation": "The acceleration due to gravity on the Moon is about 1/6th of Earth's g. Weight = mg, so weight on Moon = (1/6) × weight on Earth.",
+      "difficulty": "easy",
+      "tags": ["gravitation", "weight", "moon"]
+    },
+    {
+      "id": "q_science_9_gravitation_003",
+      "goalId": "grade9-science",
+      "question": "The weight of a 10 kg object on Earth (g = 10 m/s²) is:",
+      "options": ["10 N", "100 N", "0.1 N", "1000 N"],
+      "correctIndex": 1,
+      "explanation": "Weight W = mg = 10 kg × 10 m/s² = 100 N. Weight is a force and is measured in Newtons.",
+      "difficulty": "easy",
+      "tags": ["gravitation", "weight", "calculation"]
+    },
+    {
+      "id": "q_science_9_gravitation_004",
+      "goalId": "grade9-science",
+      "question": "According to the universal law of gravitation, force between two masses is:",
+      "options": [
+        "Proportional to the sum of masses",
+        "Inversely proportional to the product of masses",
+        "Proportional to the product of masses and inversely proportional to the square of distance",
+        "Independent of distance"
+      ],
+      "correctIndex": 2,
+      "explanation": "F = Gm₁m₂/r². Force is directly proportional to the product of the two masses (m₁m₂) and inversely proportional to the square of the distance (r²) between them.",
+      "difficulty": "medium",
+      "tags": ["gravitation", "universal-law", "newtons-law"]
+    },
+    {
+      "id": "q_science_9_gravitation_005",
+      "goalId": "grade9-science",
+      "question": "Kepler's second law (law of areas) states that a planet sweeps equal areas in equal times. This implies that a planet moves:",
+      "options": [
+        "Fastest when farthest from the Sun",
+        "At constant speed throughout its orbit",
+        "Fastest when closest to the Sun",
+        "In a perfect circular orbit"
+      ],
+      "correctIndex": 2,
+      "explanation": "To sweep equal areas in equal times, a planet must move faster when closer to the Sun (where the radius is short) and slower when farther away.",
+      "difficulty": "medium",
+      "tags": ["gravitation", "keplers-laws", "orbital-motion"]
+    },
+    {
+      "id": "q_science_9_gravitation_006",
+      "goalId": "grade9-science",
+      "question": "Archimedes' principle states that when an object is immersed in a fluid, it experiences a buoyant force equal to:",
+      "options": [
+        "The weight of the object",
+        "The weight of the fluid displaced",
+        "The volume of the object",
+        "The density of the fluid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Archimedes' principle: the buoyant force (upthrust) on an object equals the weight of fluid displaced by the object. This explains why objects float or sink.",
+      "difficulty": "medium",
+      "tags": ["gravitation", "archimedes-principle", "buoyancy"]
+    },
+    {
+      "id": "q_science_9_gravitation_007",
+      "goalId": "grade9-science",
+      "question": "An object thrown horizontally from a height falls under gravity. Its horizontal velocity:",
+      "options": [
+        "Increases with time",
+        "Decreases with time",
+        "Remains constant",
+        "Becomes zero at the highest point"
+      ],
+      "correctIndex": 2,
+      "explanation": "In projectile motion, gravity acts only vertically. The horizontal velocity has no horizontal force acting on it (ignoring air resistance), so it remains constant throughout.",
+      "difficulty": "hard",
+      "tags": ["gravitation", "projectile-motion", "horizontal-velocity"]
+    },
+    {
+      "id": "q_science_9_gravitation_008",
+      "goalId": "grade9-science",
+      "question": "The mass of an object at the centre of the Earth will be:",
+      "options": ["Zero", "Less than on the surface", "Same as on the surface", "More than on the surface"],
+      "correctIndex": 2,
+      "explanation": "Mass is an intrinsic property of matter — it does not change with location. Weight (= mg) changes because g changes, but mass remains constant everywhere.",
+      "difficulty": "hard",
+      "tags": ["gravitation", "mass-vs-weight"]
+    },
+    {
+      "id": "q_science_9_matter_001",
+      "goalId": "grade9-science",
+      "question": "The state of matter with a definite shape and definite volume is:",
+      "options": ["Gas", "Liquid", "Solid", "Plasma"],
+      "correctIndex": 2,
+      "explanation": "Solids have a fixed shape and fixed volume because their particles are tightly packed and held in fixed positions by strong intermolecular forces.",
+      "difficulty": "easy",
+      "tags": ["matter-surroundings", "states-of-matter", "solids"]
+    },
+    {
+      "id": "q_science_9_matter_002",
+      "goalId": "grade9-science",
+      "question": "The process by which a solid converts directly to a gas (without passing through the liquid state) is called:",
+      "options": ["Evaporation", "Condensation", "Sublimation", "Vaporisation"],
+      "correctIndex": 2,
+      "explanation": "Sublimation is the direct conversion of a solid to a gas. Examples: dry ice (CO₂), camphor, iodine, and naphthalene (mothballs) undergo sublimation.",
+      "difficulty": "easy",
+      "tags": ["matter-surroundings", "sublimation", "change-of-state"]
+    },
+    {
+      "id": "q_science_9_matter_003",
+      "goalId": "grade9-science",
+      "question": "Evaporation causes cooling because:",
+      "options": [
+        "Water evaporates slowly",
+        "High-energy particles escape, taking heat energy with them and cooling the surface",
+        "Evaporation absorbs cold from the surroundings",
+        "It requires light energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "During evaporation, the most energetic molecules escape from the liquid surface. This loss of high-energy particles lowers the average kinetic energy of the remaining liquid, causing cooling.",
+      "difficulty": "medium",
+      "tags": ["matter-surroundings", "evaporation", "cooling"]
+    },
+    {
+      "id": "q_science_9_matter_004",
+      "goalId": "grade9-science",
+      "question": "The boiling point of water at standard atmospheric pressure is:",
+      "options": ["0°C", "37°C", "100°C", "212°F (same as 100°C)"],
+      "correctIndex": 2,
+      "explanation": "Water boils at 100°C (373 K) at standard atmospheric pressure (1 atm). This is when the vapour pressure of water equals atmospheric pressure.",
+      "difficulty": "easy",
+      "tags": ["matter-surroundings", "boiling-point", "water"]
+    },
+    {
+      "id": "q_science_9_matter_005",
+      "goalId": "grade9-science",
+      "question": "Gases exert pressure on the walls of the container because:",
+      "options": [
+        "Gas particles are heavy",
+        "Gas particles collide with the walls continuously",
+        "Gas has low density",
+        "Gas particles attract each other"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gas particles move rapidly and randomly in all directions. They continuously collide with the walls of the container, and these collisions exert force on the walls — this is gas pressure.",
+      "difficulty": "medium",
+      "tags": ["matter-surroundings", "gas-pressure", "kinetic-theory"]
+    },
+    {
+      "id": "q_science_9_matter_006",
+      "goalId": "grade9-science",
+      "question": "The SI unit of temperature is:",
+      "options": ["Celsius", "Fahrenheit", "Kelvin", "Rankine"],
+      "correctIndex": 2,
+      "explanation": "The SI unit of temperature is Kelvin (K). The Kelvin scale starts at absolute zero (0 K = −273.15°C). Celsius is widely used but is not the SI unit.",
+      "difficulty": "medium",
+      "tags": ["matter-surroundings", "temperature", "SI-units"]
+    },
+    {
+      "id": "q_science_9_matter_007",
+      "goalId": "grade9-science",
+      "question": "At high altitude (mountain tops), water boils at a temperature:",
+      "options": ["Above 100°C", "Below 100°C", "Exactly 100°C", "Cannot boil"],
+      "correctIndex": 1,
+      "explanation": "At high altitudes, atmospheric pressure is lower. Water boils when vapour pressure equals atmospheric pressure. At lower pressure, this occurs at a lower temperature — below 100°C.",
+      "difficulty": "hard",
+      "tags": ["matter-surroundings", "boiling-point", "pressure"]
+    }
+  ]
+}
