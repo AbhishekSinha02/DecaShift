@@ -440,14 +440,16 @@ function _renderHome() {
   const tabsEl   = document.getElementById('subject-tabs');
   const isSchool = user.category === 'school';
   if (tabsEl) {
-    const rawSubjects = isSchool ? [...new Set(regularGoals.map(g => g.subject))] : [];
+    const rawSubjects = isSchool ? [...new Set([...regularGoals, ...weeklyGoals].map(g => g.subject))] : [];
     const subjects = rawSubjects.slice().sort((a, b) =>
       a === 'mathematics' ? -1 : b === 'mathematics' ? 1 : 0
     );
     const hasRegionalTab = isSchool && regionalGoals.length > 0;
     const subjectLabels = {
       'mathematics': 'Math', 'science': 'Science', 'hindi': 'Hindi',
-      'french': 'French', 'computer-science': 'CS', 'web-dev': 'Web Dev', 'dsa': 'DSA'
+      'french': 'French', 'computer-science': 'CS', 'web-dev': 'Web Dev', 'dsa': 'DSA',
+      'physics': 'Physics', 'chemistry': 'Chemistry', 'biology': 'Biology',
+      'english': 'English', 'social-science': 'Soc. Sci.'
     };
     const langLabel = { sanskrit: 'Sanskrit', marathi: 'Marathi', tamil: 'Tamil',
                         telugu: 'Telugu', punjabi: 'Punjabi', malayalam: 'Malayalam' };
