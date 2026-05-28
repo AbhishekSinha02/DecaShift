@@ -610,6 +610,19 @@
   </div>
 
   <!-- Welcome Modal — shown once on first login -->
+  <!-- Today in India Fact Modal (shown after Daily GK completion) -->
+  <div id="gk-fact-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissGKFact()">
+    <div class="modal-box gk-fact-box">
+      <div class="gk-fact-flag">🇮🇳</div>
+      <div class="gk-fact-label" id="gk-fact-category">India</div>
+      <p class="gk-fact-text" id="gk-fact-text"></p>
+      <div class="gk-fact-actions">
+        <button class="btn btn-primary" onclick="_shareGKFact()">Share this fact</button>
+        <button class="btn btn-ghost"   onclick="dismissGKFact()">Continue →</button>
+      </div>
+    </div>
+  </div>
+
   <div id="welcome-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissWelcome()">
     <div class="modal-box">
       <img src="assets/icon.svg" class="modal-logo" alt="DecaShift">
@@ -642,5 +655,6 @@
   <script src="app-quiz.js"></script>
   <script src="app-drill.js"></script>
   <script src="app-settings.js"></script>
+  <script src="app-gk.js"></script>
 </body>
 </html>

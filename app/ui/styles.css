@@ -1533,3 +1533,149 @@ select option { background: var(--surface-2); }
   .streak-flame  { font-size: 22px; }
   .stat-mini-val { font-size: 16px; }
 }
+
+/* ══════════════════════════════════════════════════════════════
+   GK TAB — subject-tab green accent
+   ══════════════════════════════════════════════════════════════ */
+
+.subject-tab.gk-tab {
+  border-color: rgba(34, 197, 94, 0.4);
+  color: var(--success);
+}
+.subject-tab.gk-tab.active {
+  background: rgba(34, 197, 94, 0.18);
+  border-color: var(--success);
+  color: #bbf7d0;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   GK DAILY CARD
+   ══════════════════════════════════════════════════════════════ */
+
+.gk-daily-card,
+.gk-affairs-card {
+  background: var(--surface);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 12px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.gk-daily-card:hover {
+  border-color: rgba(34, 197, 94, 0.5);
+  transform: translateY(-1px);
+}
+.gk-daily-card.gk-done {
+  border-color: var(--success);
+  background: rgba(34, 197, 94, 0.06);
+}
+.gk-affairs-card {
+  border-color: var(--border);
+}
+.gk-coming-soon {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.gk-card-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.gk-card-icon {
+  font-size: 28px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.gk-card-meta {
+  flex: 1;
+}
+.gk-card-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  font-family: var(--font-head);
+}
+.gk-card-date {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.gk-done-badge {
+  font-size: 12px;
+  color: var(--success);
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 20px;
+  padding: 2px 8px;
+  white-space: nowrap;
+  align-self: center;
+}
+.gk-coming-badge {
+  font-size: 11px;
+  color: var(--muted);
+  background: rgba(100, 116, 139, 0.15);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2px 8px;
+  white-space: nowrap;
+  align-self: center;
+}
+.gk-card-topic {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.gk-card-topic strong {
+  color: var(--text);
+}
+.gk-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.gk-card-count {
+  font-size: 12px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   TODAY IN INDIA FACT MODAL
+   ══════════════════════════════════════════════════════════════ */
+
+.gk-fact-box {
+  text-align: center;
+  max-width: 420px;
+}
+.gk-fact-flag {
+  font-size: 44px;
+  margin-bottom: 8px;
+}
+.gk-fact-label {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--success);
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  border-radius: 20px;
+  padding: 3px 10px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.gk-fact-text {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text);
+  margin-bottom: 24px;
+}
+.gk-fact-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

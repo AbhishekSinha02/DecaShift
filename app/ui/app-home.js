@@ -79,12 +79,12 @@ function _renderHome() {
       'mathematics': 'Math', 'science': 'Science', 'hindi': 'Hindi',
       'french': 'French', 'computer-science': 'CS', 'web-dev': 'Web Dev', 'dsa': 'DSA',
       'physics': 'Physics', 'chemistry': 'Chemistry', 'biology': 'Biology',
-      'english': 'English', 'social-science': 'Soc. Sci.'
+      'english': 'English', 'social-science': 'Soc. Sci.', 'gk': '🌍 GK'
     };
     const langLabel = { sanskrit: 'Sanskrit', marathi: 'Marathi', tamil: 'Tamil',
                         telugu: 'Telugu', punjabi: 'Punjabi', malayalam: 'Malayalam' };
     const allTabs = subjects.length > 0
-      ? [...subjects, ...(hasRegionalTab ? [regionalLang] : []), 'all']
+      ? [...subjects, ...(isSchool ? ['gk'] : []), ...(hasRegionalTab ? [regionalLang] : []), 'all']
       : [];
     if (state.subjectFilter === 'all' && subjects.includes('mathematics')) {
       state.subjectFilter = 'mathematics';
@@ -97,11 +97,18 @@ function _renderHome() {
           : isRegTab ? (langLabel[s] || _cap(s))
           : (subjectLabels[s] || _cap(s));
         const active = state.subjectFilter === s ? ' active' : '';
-        return `<button class="subject-tab${active}${isRegTab ? ' regional-tab' : ''}" data-subject="${s}" onclick="_setSubjectFilter('${s}')">${label}</button>`;
+        const extraClass = isRegTab ? ' regional-tab' : s === 'gk' ? ' gk-tab' : '';
+        return `<button class="subject-tab${active}${extraClass}" data-subject="${s}" onclick="_setSubjectFilter('${s}')">${label}</button>`;
       }).join('');
     } else {
       tabsEl.style.display = 'none';
     }
+  }
+
+  // ── GK tab ───────────────────────────────────────────────────────────────
+  if (state.subjectFilter === 'gk') {
+    _renderGKTab(list);
+    return;
   }
 
   // ── Regional language tab ─────────────────────────────────────────────────

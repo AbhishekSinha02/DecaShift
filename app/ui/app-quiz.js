@@ -139,6 +139,11 @@ function _showResult() {
 
   Storage.saveSession(session);
   const updatedStreak = Storage.updateStreak();
+
+  if (state.selectedGoal.id === 'daily-gk') {
+    _markDailyGKDone();
+    _loadTodayFact().then(fact => { if (fact) setTimeout(() => _showTodayFactModal(fact), 1200); });
+  }
   const banner = document.getElementById('first-session-banner');
   if (banner) banner.classList.toggle('hidden', Storage.loadSessions().length !== 1);
 
@@ -174,6 +179,13 @@ function _showResult() {
     </tr>`;
   }).join('');
 
-  document.getElementById('restart-btn').onclick   = () => startGoal(state.selectedGoal.id);
-  document.getElementById('back-home-btn').onclick = () => { _showScreen('home'); _renderHome(); };
+  document.getElementById('restart-btn').onclick = () => {
+    if (state.selectedGoal.id === 'daily-gk') _startDailyGK();
+    else startGoal(state.selectedGoal.id);
+  };
+  document.getElementById('back-home-btn').onclick = () => {
+    if (state.selectedGoal.id === 'daily-gk') state.subjectFilter = 'gk';
+    _showScreen('home');
+    _renderHome();
+  };
 }
