@@ -101,6 +101,7 @@
 | **[P3-T028](P3-T028-free-pro-weekly-set-gating.md)** | **Free vs Pro weekly set gating — Sets 1–2 free, Sets 3–5 locked with clean Pro badge (no grey-out)** | **S** | **Pending** |
 | **[P3-T029](P3-T029-weekly-progressive-test-subscribers.md)** | **Weekly progressive test (Pro) — 2 easy + 2 medium + 1 hard arc → Weekly Exam, no mid-feedback** | **M** | **Pending** |
 | **[P3-T030](P3-T030-offline-first-question-prefetch.md)** | **Offline-first question prefetch — IndexedDB bulk cache, event-driven invalidation, ~85% fewer network calls** | **M** | **Pending** |
+| **[P3-T031](P3-T031-city-weather-localization.md)** | **Hyperlocal context — silent IP geolocation, city + weather widget on landing + home screen, contextual practice nudge** | **S** | **Pending** |
 | **[P3-T004](P3-T004-avatar-growth-system.md)** | **Avatar growth system — 6-stage character arc (fearful→confident), Journey Replay animation, subject badges** | **L** | **Pending** |
 | [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
 | [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
@@ -121,6 +122,7 @@
 | **[P4-T006](P4-T006-admin-portal-standalone-app.md)** | **Admin portal — dedicated standalone web app: users, content, sessions, health dashboard** | **L** | **Pending** |
 | **[P4-T007](P4-T007-admin-question-pattern-config.md)** | **Admin question pattern config — weekly difficulty ramp per grade, exam mix, slot labels via JSON** | **S** | **Pending** |
 | **[P4-T008](P4-T008-product-split-three-apps.md)** | **Product split — DecaShift Students / Pro / Exam as 3 focused apps on one shared platform (mitigates F3)** | **L** | **Pending** |
+| **[P4-T009](P4-T009-hyperlocal-ad-network.md)** | **Hyperlocal ad network — city-targeted coaching center sponsorships, JSON-driven, Pro tier = ad-free, B2B revenue before subscription scale** | **M** | **Pending** |
 
 ---
 
@@ -207,6 +209,8 @@ P3-T030  (offline prefetch)  companion to P3-T008 (SW safety net); depends on P3
 P3-T029  (weekly exam)       depends on P3-T028 (gating + difficultyRank in place); feeds P4-T007
 P4-T007  (pattern config)    depends on P3-T028 + P3-T029 (features exist); lives inside P4-T006
 P4-T006  (admin portal)      extends P4-T001 (absorbs it); depends on P2-T024, P2-T025, P3-T024, P2-T020
+P3-T031  (city + weather)    standalone; prerequisite for P4-T009; companion to P2-T015 (landing page)
+P4-T009  (hyperlocal ads)    depends on P3-T031 (city detection — required); P2-T013 (plan check); Phase 3 self-serve lives in P4-T006
 
 P4-T001  (admin)             → P6-T001, P5-T003 (basic metrics; superseded in scope by P4-T006)
 P5-T004  (feature gate)      depends on P2-T013 (tier design must be finalized)
@@ -225,7 +229,7 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 83 (1 cancelled, 1 superseded) | P1: 13 | P2: 27 | P3: 30 | P4: 8 | P5: 6 | P6: 6*
+*Total tasks: 85 (1 cancelled, 1 superseded) | P1: 13 | P2: 27 | P3: 31 | P4: 9 | P5: 6 | P6: 6*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback | BUG-005 (fixed) — weekly questions moved from `questions/weekly/` into grade+subject folders as day-files; manifest-driven loading; 80 files generated for Grades 3 + 5 as test baseline*
 *Content milestone (2026-05-27): Grades 2–8 all have W21+W22 weekly sets across 4 subjects each (Math, Science, Hindi, French). 280 weekly files × 15q = 4,200q weekly content. Total ~6,000q across all grades + regional + professional. Grade 8 manifest level fixed (was 1, corrected to 2).*
 *v3.7 snapshot created (2026-05-27) — 13 Donnibo avatar SVGs (6 stages + 7 expressions) + mascot brief committed to design/. App/ui/ enters v4-dev (landing page upgrade).*
