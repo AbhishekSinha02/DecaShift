@@ -1,6 +1,6 @@
 # Feature: app.js File Splitting — JS Module Restructure
 
-**Priority:** P2 | **Type:** Code Architecture | **Complexity:** M | **Status:** Pending
+**Priority:** P2 | **Type:** Code Architecture | **Complexity:** M | **Status:** ✅ Done — 2026-05-29 · commit 2243807
 **Do After:** P2-T031 (Flash Drill) session — app.js will be ~1,300 lines by then.
 **Trigger:** Schedule this when app.js approaches 2,000 lines OR after 6:30 PM session on 2026-05-28.
 

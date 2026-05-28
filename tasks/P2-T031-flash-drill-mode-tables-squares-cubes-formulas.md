@@ -1,6 +1,6 @@
 # Feature: Flash-Drill Mode — Tables, Squares, Cubes, Formulas, GK
 
-**Priority:** P2 | **Type:** Core Learning / Retention | **Complexity:** M | **Status:** Pending
+**Priority:** P2 | **Type:** Core Learning / Retention | **Complexity:** M | **Status:** ✅ Done — 2026-05-28 · commit f59c60e
 
 > A parent's top complaint to every school teacher: "My child doesn't know their
 > multiplication tables. They count on fingers for 7×8. They forgot the square of 13

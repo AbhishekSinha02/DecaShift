@@ -1,6 +1,6 @@
 # Feature: Daily GK Capsule + Current Affairs Monthly Pack
 
-**Priority:** P2 | **Type:** Content / Retention | **Complexity:** S | **Status:** Pending
+**Priority:** P2 | **Type:** Content / Retention | **Complexity:** S | **Status:** ✅ Done (MVP) — 2026-05-29 · commit 21f22e7 · Current Affairs pack deferred post-launch
 
 > Note: GK inside Flash Drills (P2-T031) covers speed-based 5-question daily GK.
 > This task handles the deeper GK ecosystem: current affairs packs, topic catalogue,
