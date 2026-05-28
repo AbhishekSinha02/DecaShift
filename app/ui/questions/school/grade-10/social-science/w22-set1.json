@@ -1,0 +1,198 @@
+{
+  "goalId": "grade10-social-science",
+  "title": "Grade 10 Social Science — Resources and Development & Forest and Wildlife",
+  "description": "Resources and Development and Forest and Wildlife Resources practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social-science_10_resources_001",
+      "goalId": "grade10-social-science",
+      "question": "Which type of resource is formed over a very long geological time (coal, petroleum)?",
+      "options": ["Renewable resource", "Non-renewable resource", "Human-made resource", "Biotic resource"],
+      "correctIndex": 1,
+      "explanation": "Non-renewable resources (fossil fuels, minerals) took millions of years to form and cannot be regenerated on a human timescale. Once depleted, they are gone.",
+      "difficulty": "easy",
+      "tags": ["resources-development", "non-renewable", "fossil-fuels"]
+    },
+    {
+      "id": "q_social-science_10_resources_002",
+      "goalId": "grade10-social-science",
+      "question": "Sustainable development means:",
+      "options": [
+        "Maximum resource extraction for economic growth",
+        "Fulfilling present needs without compromising future generations' ability to meet their needs",
+        "Preserving all resources without using them",
+        "Industrial development at any cost"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sustainable development (Brundtland Commission, 1987): 'development that meets the needs of the present without compromising the ability of future generations to meet their own needs.'",
+      "difficulty": "easy",
+      "tags": ["resources-development", "sustainable-development"]
+    },
+    {
+      "id": "q_social-science_10_resources_003",
+      "goalId": "grade10-social-science",
+      "question": "Land degradation in India is mainly caused by:",
+      "options": [
+        "Urbanisation only",
+        "Over-irrigation leading to waterlogging and soil salinisation, deforestation",
+        "Earthquakes",
+        "Monsoon rains"
+      ],
+      "correctIndex": 1,
+      "explanation": "Land degradation is caused by: over-irrigation (waterlogging, salinity), mining, overgrazing, deforestation, faulty cultivation. Punjab and Haryana face salinity due to excessive irrigation.",
+      "difficulty": "medium",
+      "tags": ["resources-development", "land-degradation"]
+    },
+    {
+      "id": "q_social-science_10_resources_004",
+      "goalId": "grade10-social-science",
+      "question": "Black soil (regur) is ideal for growing:",
+      "options": ["Wheat and rice", "Cotton", "Tea and coffee", "Rubber"],
+      "correctIndex": 1,
+      "explanation": "Black soil (Regur/Deccan trap soil) is rich in calcium, potassium, and magnesium but low in nitrogen. It has high water-holding capacity, making it ideal for cotton cultivation.",
+      "difficulty": "medium",
+      "tags": ["resources-development", "black-soil", "cotton"]
+    },
+    {
+      "id": "q_social-science_10_resources_005",
+      "goalId": "grade10-social-science",
+      "question": "The term 'resource planning' in India requires:",
+      "options": [
+        "Identifying all resources and deciding how to use them equitably",
+        "Only economic planning",
+        "Only agricultural planning",
+        "Using resources for immediate profits"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resource planning in India involves: (1) identifying resources region by region, (2) preparing a planning structure with technology, institutions, and skills, (3) matching plans with national development plans.",
+      "difficulty": "medium",
+      "tags": ["resources-development", "resource-planning"]
+    },
+    {
+      "id": "q_social-science_10_resources_006",
+      "goalId": "grade10-social-science",
+      "question": "Laterite soil in India is typically found in:",
+      "options": [
+        "Punjab plains",
+        "Deccan Plateau",
+        "Kerala, Karnataka, and Tamil Nadu hill regions",
+        "Gangetic plains"
+      ],
+      "correctIndex": 2,
+      "explanation": "Laterite soil forms in high temperature and heavy rainfall areas. It is found in Kerala, Karnataka, Tamil Nadu, and Meghalaya hills. It is acidic and leached of nutrients, suitable for tea and cashew.",
+      "difficulty": "hard",
+      "tags": ["resources-development", "laterite-soil"]
+    },
+    {
+      "id": "q_social-science_10_resources_007",
+      "goalId": "grade10-social-science",
+      "question": "The most widely spread soil in India, covering 43% of total land, is:",
+      "options": ["Black soil", "Red soil", "Alluvial soil", "Forest soil"],
+      "correctIndex": 2,
+      "explanation": "Alluvial soil, deposited by rivers, covers 43% of India's land area. It is the most fertile soil and is found in the northern plains, river valleys, and coastal plains.",
+      "difficulty": "medium",
+      "tags": ["resources-development", "alluvial-soil"]
+    },
+    {
+      "id": "q_social-science_10_resources_008",
+      "goalId": "grade10-social-science",
+      "question": "Rooftop rainwater harvesting is significant because it:",
+      "options": [
+        "Purifies groundwater automatically",
+        "Helps recharge groundwater and provides water in water-scarce regions",
+        "Reduces floods only",
+        "Is only practiced in Rajasthan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rainwater harvesting collects and stores rainwater for future use. Rooftop harvesting recharges groundwater. It is practised extensively in Rajasthan (khadins, tankas) and now promoted nationwide.",
+      "difficulty": "hard",
+      "tags": ["resources-development", "rainwater-harvesting"]
+    },
+    {
+      "id": "q_social-science_10_forest-wildlife_001",
+      "goalId": "grade10-social-science",
+      "question": "The Indian Wildlife Protection Act was enacted in:",
+      "options": ["1956", "1972", "1988", "2000"],
+      "correctIndex": 1,
+      "explanation": "The Wildlife (Protection) Act was enacted in 1972. It provided a framework for conservation of wildlife and their habitats, banning hunting of many species.",
+      "difficulty": "easy",
+      "tags": ["forest-wildlife", "wildlife-protection-act", "1972"]
+    },
+    {
+      "id": "q_social-science_10_forest-wildlife_002",
+      "goalId": "grade10-social-science",
+      "question": "Deforestation in India is a concern primarily because:",
+      "options": [
+        "Forests have no economic value",
+        "It leads to soil erosion, loss of biodiversity, climate change, and reduced rainfall",
+        "Forests attract floods",
+        "Animals are not important"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deforestation causes soil erosion (roots hold soil), loss of biodiversity (habitat destruction), disruption of water cycle (reduced rainfall), and contributes to climate change (CO₂ release).",
+      "difficulty": "easy",
+      "tags": ["forest-wildlife", "deforestation", "consequences"]
+    },
+    {
+      "id": "q_social-science_10_forest-wildlife_003",
+      "goalId": "grade10-social-science",
+      "question": "Project Tiger was launched in India in:",
+      "options": ["1965", "1973", "1985", "1992"],
+      "correctIndex": 1,
+      "explanation": "Project Tiger was launched in 1973 by the Indian government to conserve the dwindling tiger population. India now has the largest number of tigers in the world.",
+      "difficulty": "medium",
+      "tags": ["forest-wildlife", "project-tiger", "1973"]
+    },
+    {
+      "id": "q_social-science_10_forest-wildlife_004",
+      "goalId": "grade10-social-science",
+      "question": "The Chipko Movement in India was related to:",
+      "options": ["Water conservation", "Protecting forests — people hugged trees to prevent felling", "Soil conservation", "Wildlife protection"],
+      "correctIndex": 1,
+      "explanation": "The Chipko Movement started in the 1970s in Uttarakhand (then Uttar Pradesh). Villagers, especially women, hugged trees to prevent commercial felling, becoming a landmark environmental movement.",
+      "difficulty": "medium",
+      "tags": ["forest-wildlife", "chipko-movement", "conservation"]
+    },
+    {
+      "id": "q_social-science_10_forest-wildlife_005",
+      "goalId": "grade10-social-science",
+      "question": "Biosphere reserves in India are established to:",
+      "options": [
+        "Create tourist attractions",
+        "Conserve biodiversity and promote sustainable use of natural resources",
+        "Establish military zones",
+        "Facilitate mining activities"
+      ],
+      "correctIndex": 1,
+      "explanation": "Biosphere reserves conserve biodiversity in all its forms (plants, animals, microorganisms, habitats). They also allow human settlement and sustainable use in buffer zones. India has 18 biosphere reserves.",
+      "difficulty": "medium",
+      "tags": ["forest-wildlife", "biosphere-reserves", "biodiversity"]
+    },
+    {
+      "id": "q_social-science_10_forest-wildlife_006",
+      "goalId": "grade10-social-science",
+      "question": "The one-horned rhinoceros in India is found primarily in:",
+      "options": ["Jim Corbett (Uttarakhand)", "Kaziranga (Assam)", "Gir (Gujarat)", "Sundarbans (West Bengal)"],
+      "correctIndex": 1,
+      "explanation": "Kaziranga National Park in Assam hosts about 2/3 of the world's Indian one-horned rhinoceros population. It is a UNESCO World Heritage Site.",
+      "difficulty": "hard",
+      "tags": ["forest-wildlife", "rhinoceros", "kaziranga"]
+    },
+    {
+      "id": "q_social-science_10_forest-wildlife_007",
+      "goalId": "grade10-social-science",
+      "question": "The Asiatic Lion is found only in which Indian national park?",
+      "options": ["Jim Corbett", "Kaziranga", "Ranthambore", "Gir Forest"],
+      "correctIndex": 3,
+      "explanation": "The Gir Forest National Park in Gujarat is the only place in the world where Asiatic lions (Panthera leo persica) live in the wild. Conservation efforts have increased their population.",
+      "difficulty": "medium",
+      "tags": ["forest-wildlife", "asiatic-lion", "gir"]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "goalId": "grade10-social-science",
+  "title": "Grade 10 Social Science — Nationalism in Europe & Nationalism in India",
+  "description": "Nationalism in Europe and Nationalism in India practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social-science_10_nationalism-europe_001",
+      "goalId": "grade10-social-science",
+      "question": "The concept of 'nation-state' was a key idea promoted by:",
+      "options": ["Industrial Revolution", "French Revolution", "Russian Revolution", "American Civil War"],
+      "correctIndex": 1,
+      "explanation": "The French Revolution of 1789 promoted the idea that sovereignty belongs to the people, not the king — a key idea behind the nation-state concept.",
+      "difficulty": "easy",
+      "tags": ["nationalism-europe", "french-revolution", "nation-state"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-europe_002",
+      "goalId": "grade10-social-science",
+      "question": "The unification of Italy was largely achieved through the efforts of:",
+      "options": ["Bismarck", "Garibaldi and Mazzini", "Napoleon", "Metternich"],
+      "correctIndex": 1,
+      "explanation": "Italian unification (Risorgimento) was driven by Giuseppe Mazzini (ideological inspiration), Count Cavour (political strategy), and Giuseppe Garibaldi (military campaigns). Italy unified in 1861.",
+      "difficulty": "medium",
+      "tags": ["nationalism-europe", "italy", "unification"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-europe_003",
+      "goalId": "grade10-social-science",
+      "question": "The German empire was proclaimed in:",
+      "options": ["1848", "1861", "1871", "1914"],
+      "correctIndex": 2,
+      "explanation": "The German Empire was proclaimed in January 1871 at Versailles after Prussia's victory in the Franco-Prussian War. Otto von Bismarck unified the German states.",
+      "difficulty": "medium",
+      "tags": ["nationalism-europe", "germany", "bismarck", "1871"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-europe_004",
+      "goalId": "grade10-social-science",
+      "question": "The 1848 revolutions in Europe were called the 'Spring of Nations' because:",
+      "options": [
+        "They happened in spring season",
+        "Multiple European nations rose in revolution demanding independence and constitutions",
+        "They resulted in new nations being formed",
+        "They were inspired by Russian spring"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 1848, revolutions erupted across France, Austria, Germany, and Italy simultaneously. People demanded constitutional rights, national independence, and liberal reforms — hence called the Spring of Nations.",
+      "difficulty": "hard",
+      "tags": ["nationalism-europe", "1848-revolutions"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-europe_005",
+      "goalId": "grade10-social-science",
+      "question": "The Congress of Vienna (1815) was convened to:",
+      "options": [
+        "Support nationalist movements",
+        "Restore conservative monarchies and pre-Napoleon order in Europe",
+        "Promote democracy across Europe",
+        "Form the League of Nations"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Congress of Vienna (1815) was hosted by Prince Metternich to restore the conservative order and redraw Europe's map after Napoleon's defeat, suppressing liberal and nationalist movements.",
+      "difficulty": "medium",
+      "tags": ["nationalism-europe", "congress-of-vienna", "metternich"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-europe_006",
+      "goalId": "grade10-social-science",
+      "question": "Which artist's painting 'Germania' symbolised German nationalism?",
+      "options": ["Garibaldi", "Philip Veit", "Frédéric Sorrieu", "Bismarck"],
+      "correctIndex": 1,
+      "explanation": "Philip Veit's 'Germania' depicted a female allegory of the German nation as a symbol of German national unity and pride — a common Romantic nationalist imagery.",
+      "difficulty": "hard",
+      "tags": ["nationalism-europe", "Germania", "allegory"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-europe_007",
+      "goalId": "grade10-social-science",
+      "question": "Zollverein (1834) was a:",
+      "options": [
+        "Military alliance of German states",
+        "Customs union that removed trade barriers between German states",
+        "Political party in Germany",
+        "Treaty against France"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zollverein was a customs union of German states initiated by Prussia in 1834 that abolished tariffs between member states. It created economic unity that preceded political unification.",
+      "difficulty": "hard",
+      "tags": ["nationalism-europe", "zollverein", "economic-unity"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-europe_008",
+      "goalId": "grade10-social-science",
+      "question": "The Balkan region was called 'the powder keg of Europe' because:",
+      "options": [
+        "It had vast gunpowder reserves",
+        "Competing nationalisms and great power rivalries created extreme political tension",
+        "It was very cold",
+        "Its people were very aggressive"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Balkans were fragmented with Slavic nationalism, Ottoman decline, and rival interests of Austria-Hungary and Russia. This explosive combination ultimately triggered World War I in 1914.",
+      "difficulty": "medium",
+      "tags": ["nationalism-europe", "balkans", "powder-keg"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-india_001",
+      "goalId": "grade10-social-science",
+      "question": "The Non-Cooperation Movement was launched by Mahatma Gandhi in:",
+      "options": ["1905", "1915", "1920", "1930"],
+      "correctIndex": 2,
+      "explanation": "The Non-Cooperation Movement was launched in 1920 in response to the Rowlatt Act (1919) and the Jallianwala Bagh massacre. It called for boycott of British goods, institutions, and titles.",
+      "difficulty": "easy",
+      "tags": ["nationalism-india", "non-cooperation", "gandhi"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-india_002",
+      "goalId": "grade10-social-science",
+      "question": "The Dandi March (Salt March) was undertaken in:",
+      "options": ["1920", "1929", "1930", "1942"],
+      "correctIndex": 2,
+      "explanation": "Gandhi led the Salt March from Sabarmati Ashram to Dandi (Gujarat) in March-April 1930 to protest the British salt tax. This began the Civil Disobedience Movement.",
+      "difficulty": "easy",
+      "tags": ["nationalism-india", "dandi-march", "salt-march", "1930"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-india_003",
+      "goalId": "grade10-social-science",
+      "question": "The Rowlatt Act (1919) was opposed because:",
+      "options": [
+        "It increased taxes",
+        "It allowed detention without trial and repressed civil liberties",
+        "It banned the Congress party",
+        "It divided Bengal"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Rowlatt Act allowed the British to imprison anyone suspected of revolutionary activity without trial. Gandhi called it 'Black Act' and organized peaceful hartals (strikes) against it.",
+      "difficulty": "medium",
+      "tags": ["nationalism-india", "rowlatt-act", "1919"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-india_004",
+      "goalId": "grade10-social-science",
+      "question": "The Quit India Movement was launched in:",
+      "options": ["1939", "1940", "1942", "1945"],
+      "correctIndex": 2,
+      "explanation": "Gandhi launched the Quit India Movement ('Do or Die') in August 1942, demanding immediate British withdrawal from India. The slogan was 'Karenge ya marenge' — Do or Die.",
+      "difficulty": "medium",
+      "tags": ["nationalism-india", "quit-india", "1942"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-india_005",
+      "goalId": "grade10-social-science",
+      "question": "The partition of Bengal (1905) was undertaken by:",
+      "options": ["Lord Canning", "Lord Curzon", "Lord Mountbatten", "Lord Dalhousie"],
+      "correctIndex": 1,
+      "explanation": "Lord Curzon partitioned Bengal in 1905 into Hindu-majority West Bengal and Muslim-majority East Bengal. It was opposed by Indian nationalists who saw it as a divide-and-rule strategy.",
+      "difficulty": "medium",
+      "tags": ["nationalism-india", "partition-of-bengal", "curzon"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-india_006",
+      "goalId": "grade10-social-science",
+      "question": "The Jallianwala Bagh massacre occurred on:",
+      "options": ["13 April 1919", "13 March 1919", "13 April 1920", "1 March 1919"],
+      "correctIndex": 0,
+      "explanation": "On 13 April 1919 (Baisakhi Day), General Dyer ordered troops to fire on a peaceful unarmed gathering at Jallianwala Bagh, Amritsar, killing hundreds. This shocked the nation.",
+      "difficulty": "easy",
+      "tags": ["nationalism-india", "jallianwala-bagh", "1919"]
+    },
+    {
+      "id": "q_social-science_10_nationalism-india_007",
+      "goalId": "grade10-social-science",
+      "question": "The Indian National Congress was founded in:",
+      "options": ["1857", "1875", "1885", "1905"],
+      "correctIndex": 2,
+      "explanation": "The Indian National Congress (INC) was founded in 1885 by A.O. Hume, with Womesh Chandra Bonnerjee as its first president, in Bombay.",
+      "difficulty": "easy",
+      "tags": ["nationalism-india", "INC", "1885"]
+    }
+  ]
+}

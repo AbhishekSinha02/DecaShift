@@ -1,0 +1,15 @@
+{
+  "grade": 7,
+  "formulas": [
+    { "id": "f7_001", "name": "Algebraic Identity (a+b)²", "formula": "(a + b)² = a² + 2ab + b²", "example": "(3 + 4)² = 9 + 24 + 16 = 49 ✓", "category": "algebra", "question": "(a + b)² = ?", "options": ["a² + b²", "a² − 2ab + b²", "a² + 2ab + b²", "2(a + b)"], "correctIndex": 2 },
+    { "id": "f7_002", "name": "Algebraic Identity (a−b)²", "formula": "(a − b)² = a² − 2ab + b²", "example": "(5 − 3)² = 25 − 30 + 9 = 4 ✓", "category": "algebra", "question": "(a − b)² = ?", "options": ["a² + 2ab + b²", "a² − 2ab + b²", "a² − b²", "(a + b)(a − b)"], "correctIndex": 1 },
+    { "id": "f7_003", "name": "Algebraic Identity (a+b)(a−b)", "formula": "(a + b)(a − b) = a² − b²", "example": "(7 + 3)(7 − 3) = 49 − 9 = 40", "category": "algebra", "question": "(a + b)(a − b) = ?", "options": ["a² + b²", "a² − b²", "2a²", "(a − b)²"], "correctIndex": 1 },
+    { "id": "f7_004", "name": "Area of a Parallelogram", "formula": "A = base × height", "example": "b = 8 cm, h = 5 cm → A = 40 cm²", "category": "geometry", "question": "Area of a parallelogram = base × ?", "options": ["side", "length", "height", "width"], "correctIndex": 2 },
+    { "id": "f7_005", "name": "Surface Area of a Cube", "formula": "SA = 6a²", "example": "a = 4 cm → SA = 6 × 16 = 96 cm²", "category": "mensuration", "question": "Total surface area of a cube with side a?", "options": ["a³", "4a²", "6a²", "12a"], "correctIndex": 2 },
+    { "id": "f7_006", "name": "Volume of a Cube", "formula": "V = a³", "example": "a = 3 cm → V = 27 cm³", "category": "mensuration", "question": "Volume of a cube with side a?", "options": ["a²", "a³", "3a", "6a²"], "correctIndex": 1 },
+    { "id": "f7_007", "name": "Simple Interest", "formula": "SI = (P × R × T) / 100", "example": "P=2000, R=8%, T=3 → SI = ₹480", "category": "arithmetic", "question": "SI for P=₹2000, R=8%, T=3 years?", "options": ["₹240", "₹360", "₹480", "₹560"], "correctIndex": 2 },
+    { "id": "f7_008", "name": "Pythagoras Theorem", "formula": "In a right triangle: c² = a² + b² (c is hypotenuse)", "example": "a=3, b=4 → c² = 9+16=25 → c=5", "category": "geometry", "question": "In right △ with legs 3 and 4, hypotenuse = ?", "options": ["7", "5", "6", "√7"], "correctIndex": 1 },
+    { "id": "f7_009", "name": "Compound Interest Formula", "formula": "A = P(1 + R/100)ⁿ; CI = A − P", "example": "P=1000, R=10%, n=2 → A=1210, CI=₹210", "category": "arithmetic", "question": "Amount after compound interest: A = P × ?", "options": ["(1 + R/100)ⁿ", "(1 − R/100)ⁿ", "(1 + R)ⁿ", "P + RT/100"], "correctIndex": 0 },
+    { "id": "f7_010", "name": "Percentage Change", "formula": "% Change = (Change / Original) × 100", "example": "Price rose from ₹200 to ₹250 → Change = 50 → % increase = 25%", "category": "arithmetic", "question": "% increase from 200 to 250?", "options": ["20%", "25%", "30%", "50%"], "correctIndex": 1 }
+  ]
+}

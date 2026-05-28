@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-english",
+  "title": "Grade 10 English — Subject-Verb Agreement & Prepositions",
+  "description": "Subject-Verb Agreement and Prepositions and Conjunctions practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_10_sva_001",
+      "goalId": "grade10-english",
+      "question": "Choose the correct form: Neither he nor his friends ___ coming to the party.",
+      "options": ["is", "are", "was", "were"],
+      "correctIndex": 1,
+      "explanation": "With 'neither...nor', the verb agrees with the nearest subject. 'his friends' (plural) is closer to the verb, so 'are' is correct.",
+      "difficulty": "medium",
+      "tags": ["subject-verb-agreement", "neither-nor"]
+    },
+    {
+      "id": "q_english_10_sva_002",
+      "goalId": "grade10-english",
+      "question": "'The jury ___ reached its verdict.' Choose the correct verb.",
+      "options": ["have", "has", "are", "were"],
+      "correctIndex": 1,
+      "explanation": "Collective nouns (jury, committee, team) take singular verbs when acting as a unit. 'The jury has' is correct.",
+      "difficulty": "easy",
+      "tags": ["subject-verb-agreement", "collective-nouns"]
+    },
+    {
+      "id": "q_english_10_sva_003",
+      "goalId": "grade10-english",
+      "question": "Choose the correct form: Five hundred rupees ___ a lot of money for a child.",
+      "options": ["are", "were", "is", "have"],
+      "correctIndex": 2,
+      "explanation": "When an amount of money, weight, or time is treated as a single entity, it takes a singular verb. 'Five hundred rupees is' (the sum as a whole).",
+      "difficulty": "medium",
+      "tags": ["subject-verb-agreement", "amounts"]
+    },
+    {
+      "id": "q_english_10_sva_004",
+      "goalId": "grade10-english",
+      "question": "'Each of the students ___ submitted the assignment.' Choose the correct verb.",
+      "options": ["have", "has", "are", "were"],
+      "correctIndex": 1,
+      "explanation": "Indefinite pronouns like 'each', 'every', 'either', 'neither' take singular verbs. 'Each has' is correct.",
+      "difficulty": "medium",
+      "tags": ["subject-verb-agreement", "each-every"]
+    },
+    {
+      "id": "q_english_10_sva_005",
+      "goalId": "grade10-english",
+      "question": "Subject-verb agreement rule: when the subject is compound (A and B), the verb is usually:",
+      "options": ["Singular", "Plural", "Same as the last subject", "Depends on context"],
+      "correctIndex": 1,
+      "explanation": "When two subjects are joined by 'and', the compound subject is plural and takes a plural verb. Example: 'Ram and Shyam are friends.'",
+      "difficulty": "easy",
+      "tags": ["subject-verb-agreement", "compound-subject"]
+    },
+    {
+      "id": "q_english_10_sva_006",
+      "goalId": "grade10-english",
+      "question": "'The news ___ good.' Which is correct?",
+      "options": ["are", "is", "were", "have been"],
+      "correctIndex": 1,
+      "explanation": "Some nouns ending in -s are singular: news, mathematics, physics, economics. 'The news is' is correct.",
+      "difficulty": "hard",
+      "tags": ["subject-verb-agreement", "singular-plural-nouns"]
+    },
+    {
+      "id": "q_english_10_sva_007",
+      "goalId": "grade10-english",
+      "question": "Choose the correct preposition: She has been waiting ___ two hours.",
+      "options": ["since", "for", "from", "by"],
+      "correctIndex": 1,
+      "explanation": "'For' is used with a duration (two hours, three days, a week). 'Since' is used with a point in time (since morning, since 2020).",
+      "difficulty": "easy",
+      "tags": ["prepositions", "for-since"]
+    },
+    {
+      "id": "q_english_10_sva_008",
+      "goalId": "grade10-english",
+      "question": "Choose the correct preposition: The cat is sitting ___ the table.",
+      "options": ["in", "at", "on", "by"],
+      "correctIndex": 2,
+      "explanation": "'On' indicates position on a surface. 'In' = inside an enclosed space. 'At' = at a specific point. 'The cat is on the table' means sitting on top of it.",
+      "difficulty": "easy",
+      "tags": ["prepositions", "on-in-at"]
+    },
+    {
+      "id": "q_english_10_prepositions_001",
+      "goalId": "grade10-english",
+      "question": "Choose the correct preposition: She arrived ___ Monday morning.",
+      "options": ["in", "on", "at", "by"],
+      "correctIndex": 1,
+      "explanation": "Time prepositions: 'at' for specific times (at 8 o'clock), 'on' for days and dates (on Monday, on 14th July), 'in' for months/years/seasons (in January, in 2024).",
+      "difficulty": "medium",
+      "tags": ["prepositions", "time", "on"]
+    },
+    {
+      "id": "q_english_10_prepositions_002",
+      "goalId": "grade10-english",
+      "question": "Choose the conjunction: She studied hard ___ she wanted to pass.",
+      "options": ["although", "because", "unless", "however"],
+      "correctIndex": 1,
+      "explanation": "'Because' introduces a reason. 'She studied hard because she wanted to pass' — cause-effect relationship. 'Although' shows contrast.",
+      "difficulty": "easy",
+      "tags": ["conjunctions", "because", "reason"]
+    },
+    {
+      "id": "q_english_10_prepositions_003",
+      "goalId": "grade10-english",
+      "question": "Choose the correct conjunction: He tried hard ___ he failed.",
+      "options": ["because", "so", "yet", "for"],
+      "correctIndex": 2,
+      "explanation": "'Yet' (coordinating conjunction) shows contrast or unexpected result: 'He tried hard yet he failed.' Similar to 'but'.",
+      "difficulty": "medium",
+      "tags": ["conjunctions", "yet", "contrast"]
+    },
+    {
+      "id": "q_english_10_prepositions_004",
+      "goalId": "grade10-english",
+      "question": "The phrase 'in spite of' is followed by:",
+      "options": ["A verb (V-ing)", "A noun/noun phrase", "A clause with subject+verb", "An adjective"],
+      "correctIndex": 1,
+      "explanation": "'In spite of' and 'despite' are prepositions — they must be followed by a noun, pronoun, or gerund (V-ing noun). Example: 'In spite of the rain, they played.'",
+      "difficulty": "medium",
+      "tags": ["prepositions", "in-spite-of", "despite"]
+    },
+    {
+      "id": "q_english_10_prepositions_005",
+      "goalId": "grade10-english",
+      "question": "'___ all his efforts, he did not succeed.' Choose the correct phrase.",
+      "options": ["In spite of", "Although", "Because of", "Therefore"],
+      "correctIndex": 0,
+      "explanation": "'In spite of' (preposition) + noun phrase expresses contrast. 'Despite' works similarly. 'Although' is used before a clause (subject + verb).",
+      "difficulty": "medium",
+      "tags": ["prepositions", "in-spite-of", "contrast"]
+    },
+    {
+      "id": "q_english_10_prepositions_006",
+      "goalId": "grade10-english",
+      "question": "A correlative conjunction works in pairs. Which is a correct pair?",
+      "options": ["either...or", "both...unless", "neither...but", "not only...also"],
+      "correctIndex": 0,
+      "explanation": "Correlative conjunctions come in pairs: either...or, neither...nor, both...and, not only...but also, whether...or. 'Either...or' is the correct pair.",
+      "difficulty": "hard",
+      "tags": ["conjunctions", "correlative", "either-or"]
+    },
+    {
+      "id": "q_english_10_prepositions_007",
+      "goalId": "grade10-english",
+      "question": "Choose the correct preposition: The book was written ___ Charles Dickens.",
+      "options": ["from", "for", "by", "with"],
+      "correctIndex": 2,
+      "explanation": "'By' is used in passive constructions to indicate the agent (the doer). 'Written by Charles Dickens' identifies the author.",
+      "difficulty": "easy",
+      "tags": ["prepositions", "by", "passive-voice"]
+    }
+  ]
+}

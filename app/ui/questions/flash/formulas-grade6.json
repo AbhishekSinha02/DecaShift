@@ -1,0 +1,15 @@
+{
+  "grade": 6,
+  "formulas": [
+    { "id": "f6_001", "name": "Area of a Triangle", "formula": "A = ½ × base × height", "example": "b = 8, h = 5 → A = 20 cm²", "category": "geometry", "question": "Formula for area of a triangle?", "options": ["b × h", "½ × b × h", "2 × b × h", "b + h"], "correctIndex": 1 },
+    { "id": "f6_002", "name": "Circumference of a Circle", "formula": "C = 2πr (or πd)", "example": "r = 7 cm → C = 2 × 22/7 × 7 = 44 cm", "category": "geometry", "question": "Circumference of a circle with radius r?", "options": ["πr²", "2πr", "πr", "4πr"], "correctIndex": 1 },
+    { "id": "f6_003", "name": "Area of a Circle", "formula": "A = πr²", "example": "r = 7 cm → A = 22/7 × 49 = 154 cm²", "category": "geometry", "question": "Area of a circle with radius r?", "options": ["2πr", "πr", "πr²", "2πr²"], "correctIndex": 2 },
+    { "id": "f6_004", "name": "Ratio", "formula": "Ratio of a to b = a : b = a/b", "example": "20 boys to 30 girls = 20:30 = 2:3", "category": "arithmetic", "question": "Ratio of 20 to 30 in simplest form?", "options": ["20:30", "2:3", "3:2", "1:2"], "correctIndex": 1 },
+    { "id": "f6_005", "name": "Percentage Formula", "formula": "Percentage = (Part/Whole) × 100", "example": "25 out of 50 = 50%", "category": "arithmetic", "question": "25 out of 50 as a percentage?", "options": ["25%", "40%", "50%", "75%"], "correctIndex": 2 },
+    { "id": "f6_006", "name": "Speed Formula", "formula": "Speed = Distance / Time", "example": "Distance = 120 km, Time = 2 h → Speed = 60 km/h", "category": "arithmetic", "question": "Speed formula?", "options": ["Distance × Time", "Distance / Time", "Time / Distance", "Distance + Time"], "correctIndex": 1 },
+    { "id": "f6_007", "name": "Profit", "formula": "Profit = Selling Price − Cost Price", "example": "SP = ₹150, CP = ₹100 → Profit = ₹50", "category": "arithmetic", "question": "Profit formula?", "options": ["SP + CP", "SP − CP", "CP − SP", "SP × CP"], "correctIndex": 1 },
+    { "id": "f6_008", "name": "Profit Percentage", "formula": "Profit % = (Profit / CP) × 100", "example": "Profit = ₹50, CP = ₹100 → Profit% = 50%", "category": "arithmetic", "question": "Profit % = ?", "options": ["(Loss / SP) × 100", "(Profit / CP) × 100", "(Profit / SP) × 100", "Profit × 100"], "correctIndex": 1 },
+    { "id": "f6_009", "name": "Algebraic Expression — Like Terms", "formula": "Only like terms (same variable and power) can be added/subtracted", "example": "3x + 5x = 8x; but 3x + 5y cannot be simplified", "category": "algebra", "question": "3x + 5x = ?", "options": ["8x²", "8x", "15x", "8"], "correctIndex": 1 },
+    { "id": "f6_010", "name": "Distance Formula", "formula": "Distance = Speed × Time", "example": "Speed = 60 km/h, Time = 3 h → Distance = 180 km", "category": "arithmetic", "question": "Distance = Speed × ?", "options": ["Acceleration", "Force", "Time", "Mass"], "correctIndex": 2 }
+  ]
+}

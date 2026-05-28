@@ -1,0 +1,173 @@
+{
+  "goalId": "grade10-english",
+  "title": "Grade 10 English — Modals & Determiners and Clauses",
+  "description": "Modals and Determiners and Clauses practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_10_modals_001",
+      "goalId": "grade10-english",
+      "question": "Choose the correct modal: You ___ see a doctor if you're feeling unwell.",
+      "options": ["might", "should", "would", "shall"],
+      "correctIndex": 1,
+      "explanation": "'Should' expresses advice or recommendation. 'You should see a doctor' gives a strong suggestion.",
+      "difficulty": "easy",
+      "tags": ["modals", "advice"]
+    },
+    {
+      "id": "q_english_10_modals_002",
+      "goalId": "grade10-english",
+      "question": "'You must not smoke here.' This modal expresses:",
+      "options": ["Permission", "Ability", "Prohibition", "Suggestion"],
+      "correctIndex": 2,
+      "explanation": "'Must not' expresses strong prohibition (something is not allowed). Example: 'You must not enter without permission.'",
+      "difficulty": "easy",
+      "tags": ["modals", "prohibition", "must-not"]
+    },
+    {
+      "id": "q_english_10_modals_003",
+      "goalId": "grade10-english",
+      "question": "Which modal expresses possibility or probability in the future?",
+      "options": ["Must", "Will", "May/Might", "Should"],
+      "correctIndex": 2,
+      "explanation": "'May' (stronger possibility) and 'might' (weaker possibility) express that something is possible. 'It may rain today' = there is a possibility of rain.",
+      "difficulty": "medium",
+      "tags": ["modals", "possibility", "may-might"]
+    },
+    {
+      "id": "q_english_10_modals_004",
+      "goalId": "grade10-english",
+      "question": "Fill in: When I was young, I ___ climb trees easily. (past ability)",
+      "options": ["can", "could", "may", "will"],
+      "correctIndex": 1,
+      "explanation": "'Could' is used for past ability. 'I could climb trees' means I had the ability to do so in the past. 'Can' is for present ability.",
+      "difficulty": "medium",
+      "tags": ["modals", "past-ability", "could"]
+    },
+    {
+      "id": "q_english_10_modals_005",
+      "goalId": "grade10-english",
+      "question": "Choose the correct determiner: I have ___ money left.",
+      "options": ["few", "a few", "little", "a little"],
+      "correctIndex": 3,
+      "explanation": "'Little/a little' is used with uncountable nouns (money). 'Few/a few' is used with countable nouns. 'A little' (positive) = some; 'little' (negative) = hardly any.",
+      "difficulty": "medium",
+      "tags": ["determiners", "little-few"]
+    },
+    {
+      "id": "q_english_10_modals_006",
+      "goalId": "grade10-english",
+      "question": "'___ student passed the exam.' Which determiner is correct for a specific student?",
+      "options": ["Some", "A", "The", "Every"],
+      "correctIndex": 2,
+      "explanation": "'The' is the definite article, used when referring to a specific or already known person/thing. 'The student' refers to a particular student.",
+      "difficulty": "easy",
+      "tags": ["determiners", "definite-article", "the"]
+    },
+    {
+      "id": "q_english_10_modals_007",
+      "goalId": "grade10-english",
+      "question": "The modal 'would' is used to express:",
+      "options": ["Present ability", "Habitual past actions", "Current prohibition", "Future certainty"],
+      "correctIndex": 1,
+      "explanation": "'Would' is used for habitual/repeated actions in the past: 'When I was young, I would go to the park every Sunday.' It can also express polite requests and hypothetical situations.",
+      "difficulty": "hard",
+      "tags": ["modals", "would", "past-habits"]
+    },
+    {
+      "id": "q_english_10_modals_008",
+      "goalId": "grade10-english",
+      "question": "'___ sugar do you take in your tea?' — Which interrogative determiner fits?",
+      "options": ["How many", "How much", "What", "Which"],
+      "correctIndex": 1,
+      "explanation": "'How much' is used with uncountable nouns (sugar, water, money). 'How many' is for countable nouns (apples, students).",
+      "difficulty": "medium",
+      "tags": ["determiners", "how-much-how-many"]
+    },
+    {
+      "id": "q_english_10_clauses_001",
+      "goalId": "grade10-english",
+      "question": "A noun clause acts as a:",
+      "options": ["Verb", "Noun (subject or object) in a sentence", "Adjective", "Adverb"],
+      "correctIndex": 1,
+      "explanation": "A noun clause functions as a noun — it can be the subject, object, or complement. Example: 'What she said is true.' ('What she said' is the subject.)",
+      "difficulty": "easy",
+      "tags": ["clauses", "noun-clause"]
+    },
+    {
+      "id": "q_english_10_clauses_002",
+      "goalId": "grade10-english",
+      "question": "Identify the adjective clause: 'The boy who won the race is my friend.'",
+      "options": ["The boy", "who won the race", "is my friend", "my friend"],
+      "correctIndex": 1,
+      "explanation": "'who won the race' is an adjective (relative) clause modifying 'the boy'. It begins with the relative pronoun 'who' and describes which boy.",
+      "difficulty": "medium",
+      "tags": ["clauses", "adjective-clause", "relative-clause"]
+    },
+    {
+      "id": "q_english_10_clauses_003",
+      "goalId": "grade10-english",
+      "question": "An adverb clause of condition usually begins with:",
+      "options": ["who/which/that", "if/unless/provided that", "because/since/as", "when/while/after"],
+      "correctIndex": 1,
+      "explanation": "Adverb clauses of condition begin with subordinating conjunctions: if, unless, provided that, in case. Example: 'Unless you study, you will not pass.'",
+      "difficulty": "medium",
+      "tags": ["clauses", "adverb-clause", "condition"]
+    },
+    {
+      "id": "q_english_10_clauses_004",
+      "goalId": "grade10-english",
+      "question": "Identify the type of clause: 'I will call you when I arrive.'",
+      "options": ["Noun clause", "Adjective clause", "Adverb clause of time", "Main clause"],
+      "correctIndex": 2,
+      "explanation": "'When I arrive' is an adverb clause of time, modifying the verb 'will call'. 'When' is the subordinating conjunction.",
+      "difficulty": "medium",
+      "tags": ["clauses", "adverb-clause", "time"]
+    },
+    {
+      "id": "q_english_10_clauses_005",
+      "goalId": "grade10-english",
+      "question": "Which sentence contains a relative clause?",
+      "options": [
+        "He works hard so he succeeds.",
+        "The book that I borrowed was excellent.",
+        "If it rains, we will stay home.",
+        "I know he is coming."
+      ],
+      "correctIndex": 1,
+      "explanation": "'that I borrowed' is a relative (adjective) clause modifying 'The book'. Relative clauses begin with relative pronouns: who, which, that, whom, whose.",
+      "difficulty": "hard",
+      "tags": ["clauses", "relative-clause", "adjective-clause"]
+    },
+    {
+      "id": "q_english_10_clauses_006",
+      "goalId": "grade10-english",
+      "question": "A main (independent) clause:",
+      "options": [
+        "Cannot stand alone as a sentence",
+        "Begins with a subordinating conjunction",
+        "Can stand alone as a complete sentence",
+        "Only modifies verbs"
+      ],
+      "correctIndex": 2,
+      "explanation": "A main (independent) clause has a subject and predicate and can stand alone as a complete sentence. A subordinate clause cannot stand alone — it depends on the main clause.",
+      "difficulty": "easy",
+      "tags": ["clauses", "main-clause", "independent-clause"]
+    },
+    {
+      "id": "q_english_10_clauses_007",
+      "goalId": "grade10-english",
+      "question": "Identify the noun clause: 'I believe that honesty is the best policy.'",
+      "options": ["I believe", "that honesty is the best policy", "the best policy", "honesty"],
+      "correctIndex": 1,
+      "explanation": "'that honesty is the best policy' is a noun clause functioning as the object of 'believe'. It answers the question 'what do I believe?'",
+      "difficulty": "hard",
+      "tags": ["clauses", "noun-clause", "object"]
+    }
+  ]
+}

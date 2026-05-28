@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-social-science",
+  "title": "Grade 9 Social Science — India: Size and Location & Physical Features",
+  "description": "India — Size and Location and Physical Features of India practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social-science_9_india-location_001",
+      "goalId": "grade9-social-science",
+      "question": "India is located in which hemisphere?",
+      "options": ["Southern hemisphere only", "Northern and Eastern hemisphere", "Western hemisphere", "Northern and Western hemisphere"],
+      "correctIndex": 1,
+      "explanation": "India lies entirely in the Northern hemisphere (between 8°4'N and 37°6'N latitude) and Eastern hemisphere (between 68°7'E and 97°25'E longitude).",
+      "difficulty": "easy",
+      "tags": ["india-location", "hemisphere", "geography"]
+    },
+    {
+      "id": "q_social-science_9_india-location_002",
+      "goalId": "grade9-social-science",
+      "question": "The Standard Meridian of India is:",
+      "options": ["68°7'E", "82°30'E", "90°E", "97°25'E"],
+      "correctIndex": 1,
+      "explanation": "India's Standard Meridian is 82°30'E, which passes through Allahabad (Prayagraj), Mirzapur. Indian Standard Time (IST) is based on this meridian — 5 hours 30 minutes ahead of GMT.",
+      "difficulty": "easy",
+      "tags": ["india-location", "standard-meridian", "IST"]
+    },
+    {
+      "id": "q_social-science_9_india-location_003",
+      "goalId": "grade9-social-science",
+      "question": "The total area of India is approximately:",
+      "options": ["2.4 million sq km", "3.28 million sq km", "5 million sq km", "1.5 million sq km"],
+      "correctIndex": 1,
+      "explanation": "India has a total area of about 3.28 million sq km, making it the 7th largest country in the world. It accounts for about 2.4% of the world's total geographical area.",
+      "difficulty": "easy",
+      "tags": ["india-location", "area", "size"]
+    },
+    {
+      "id": "q_social-science_9_india-location_004",
+      "goalId": "grade9-social-science",
+      "question": "The Tropic of Cancer passes through how many states of India?",
+      "options": ["6", "8", "9", "12"],
+      "correctIndex": 1,
+      "explanation": "The Tropic of Cancer (23°30'N) passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
+      "difficulty": "medium",
+      "tags": ["india-location", "tropic-of-cancer", "states"]
+    },
+    {
+      "id": "q_social-science_9_india-location_005",
+      "goalId": "grade9-social-science",
+      "question": "India's land boundary length is approximately:",
+      "options": ["4,500 km", "7,516 km", "15,200 km", "22,000 km"],
+      "correctIndex": 1,
+      "explanation": "India has a land boundary of about 15,200 km (some sources say 15,106 km) and a coastline of about 7,516 km. India shares land borders with 7 countries.",
+      "difficulty": "medium",
+      "tags": ["india-location", "land-boundary"]
+    },
+    {
+      "id": "q_social-science_9_india-location_006",
+      "goalId": "grade9-social-science",
+      "question": "The island group Lakshadweep is located in the:",
+      "options": ["Bay of Bengal", "Arabian Sea", "Indian Ocean", "Gulf of Mannar"],
+      "correctIndex": 1,
+      "explanation": "Lakshadweep Islands (formerly Laccadive, Minicoy, and Aminidivi islands) are located in the Arabian Sea to the southwest of the Indian mainland.",
+      "difficulty": "medium",
+      "tags": ["india-location", "lakshadweep", "islands"]
+    },
+    {
+      "id": "q_social-science_9_india-location_007",
+      "goalId": "grade9-social-science",
+      "question": "Which country is India's largest neighbour by area?",
+      "options": ["Pakistan", "Bangladesh", "China", "Nepal"],
+      "correctIndex": 2,
+      "explanation": "China is India's largest neighbour by area (9.6 million sq km). India shares its longest border with Bangladesh (~4,156 km) but China is larger by area.",
+      "difficulty": "easy",
+      "tags": ["india-location", "neighbours", "china"]
+    },
+    {
+      "id": "q_social-science_9_india-location_008",
+      "goalId": "grade9-social-science",
+      "question": "The southernmost point of mainland India is:",
+      "options": ["Indira Point", "Kanyakumari", "Rameswaram", "Thiruvananthapuram"],
+      "correctIndex": 1,
+      "explanation": "Kanyakumari (formerly Cape Comorin) is the southernmost point of the Indian mainland at the tip of Tamil Nadu, where three seas meet. Indira Point in the Andaman Islands is the southernmost tip of India overall.",
+      "difficulty": "medium",
+      "tags": ["india-location", "kanyakumari", "southernmost"]
+    },
+    {
+      "id": "q_social-science_9_physical-features_001",
+      "goalId": "grade9-social-science",
+      "question": "The Himalayas are an example of:",
+      "options": ["Old fold mountains", "Young fold mountains", "Block mountains", "Volcanic mountains"],
+      "correctIndex": 1,
+      "explanation": "The Himalayas are young fold mountains formed by the collision of the Indian and Eurasian tectonic plates. They are still rising and are geologically active.",
+      "difficulty": "easy",
+      "tags": ["physical-features", "himalayas", "mountain-types"]
+    },
+    {
+      "id": "q_social-science_9_physical-features_002",
+      "goalId": "grade9-social-science",
+      "question": "The highest peak in India is:",
+      "options": ["Nanda Devi", "K2", "Kangchenjunga", "Mount Everest"],
+      "correctIndex": 2,
+      "explanation": "Kangchenjunga (8,586 m) on the India-Nepal border is the highest peak entirely in India. K2 is in Pakistan-controlled Kashmir. Mount Everest is in Nepal/Tibet.",
+      "difficulty": "medium",
+      "tags": ["physical-features", "kangchenjunga", "peaks"]
+    },
+    {
+      "id": "q_social-science_9_physical-features_003",
+      "goalId": "grade9-social-science",
+      "question": "The Northern Plains of India are formed by the alluvial deposits of:",
+      "options": ["The Deccan rivers", "The Himalayan rivers (Indus, Ganga, Brahmaputra systems)", "The Western Ghats rivers", "The Vindhya rivers"],
+      "correctIndex": 1,
+      "explanation": "The Northern Plains were formed over millions of years by sediment deposited by three main river systems: Indus, Ganga, and Brahmaputra, draining the Himalayas.",
+      "difficulty": "medium",
+      "tags": ["physical-features", "northern-plains", "alluvial-deposits"]
+    },
+    {
+      "id": "q_social-science_9_physical-features_004",
+      "goalId": "grade9-social-science",
+      "question": "The Western Ghats (Sahyadri) run along the western coast of India for approximately:",
+      "options": ["500 km", "1,000 km", "1,600 km", "2,500 km"],
+      "correctIndex": 2,
+      "explanation": "The Western Ghats stretch for about 1,600 km from the Tapti river in the north to Kanyakumari in the south, acting as a watershed for peninsular India.",
+      "difficulty": "hard",
+      "tags": ["physical-features", "western-ghats", "length"]
+    },
+    {
+      "id": "q_social-science_9_physical-features_005",
+      "goalId": "grade9-social-science",
+      "question": "The Thar Desert is located in which Indian state?",
+      "options": ["Gujarat", "Rajasthan", "Punjab", "Haryana"],
+      "correctIndex": 1,
+      "explanation": "The Thar (Great Indian Desert) is located primarily in Rajasthan, extending into parts of Gujarat, Punjab, and Haryana. It is one of the world's most densely populated deserts.",
+      "difficulty": "easy",
+      "tags": ["physical-features", "thar-desert", "rajasthan"]
+    },
+    {
+      "id": "q_social-science_9_physical-features_006",
+      "goalId": "grade9-social-science",
+      "question": "The Deccan Plateau is characterised by:",
+      "options": ["Young alluvial soil", "Old crystalline rocks with black cotton soil in parts", "Permafrost", "Dense tropical forests only"],
+      "correctIndex": 1,
+      "explanation": "The Deccan Plateau consists of old crystalline rocks (part of the Indian plate). Much of it is covered with black cotton soil (regur), especially in Maharashtra and Karnataka, ideal for cotton cultivation.",
+      "difficulty": "medium",
+      "tags": ["physical-features", "deccan-plateau", "black-cotton-soil"]
+    },
+    {
+      "id": "q_social-science_9_physical-features_007",
+      "goalId": "grade9-social-science",
+      "question": "The Sundarbans delta is formed by which rivers?",
+      "options": ["Krishna and Godavari", "Ganga and Brahmaputra", "Mahanadi and Damodar", "Kaveri and Tungabhadra"],
+      "correctIndex": 1,
+      "explanation": "The Sundarbans mangrove delta is formed by the Ganga and Brahmaputra rivers. It is the world's largest delta, shared between India (West Bengal) and Bangladesh.",
+      "difficulty": "hard",
+      "tags": ["physical-features", "sundarbans", "delta"]
+    }
+  ]
+}

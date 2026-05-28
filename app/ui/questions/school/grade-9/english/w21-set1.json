@@ -1,0 +1,173 @@
+{
+  "goalId": "grade9-english",
+  "title": "Grade 9 English — Tenses & Active and Passive Voice",
+  "description": "Tenses and Active and Passive Voice grammar practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_9_tenses_001",
+      "goalId": "grade9-english",
+      "question": "Choose the correct form: She ___ to school every day.",
+      "options": ["go", "goes", "going", "gone"],
+      "correctIndex": 1,
+      "explanation": "Simple present tense for third person singular (she/he/it) requires adding -s or -es to the verb. 'She goes' is correct.",
+      "difficulty": "easy",
+      "tags": ["tenses", "simple-present", "third-person-singular"]
+    },
+    {
+      "id": "q_english_9_tenses_002",
+      "goalId": "grade9-english",
+      "question": "Which sentence is in the past continuous tense?",
+      "options": ["She ate her lunch.", "She was eating her lunch.", "She has eaten her lunch.", "She eats her lunch."],
+      "correctIndex": 1,
+      "explanation": "Past continuous = was/were + V-ing. 'She was eating' describes an action in progress at a past time.",
+      "difficulty": "easy",
+      "tags": ["tenses", "past-continuous"]
+    },
+    {
+      "id": "q_english_9_tenses_003",
+      "goalId": "grade9-english",
+      "question": "The present perfect tense is used for:",
+      "options": [
+        "Actions happening right now",
+        "Actions completed at a specific past time",
+        "Past actions with a connection to the present",
+        "Future actions"
+      ],
+      "correctIndex": 2,
+      "explanation": "Present perfect (have/has + past participle) connects past actions to the present. Example: 'I have finished my homework' (just completed, affects now).",
+      "difficulty": "easy",
+      "tags": ["tenses", "present-perfect"]
+    },
+    {
+      "id": "q_english_9_tenses_004",
+      "goalId": "grade9-english",
+      "question": "Fill in: By the time she arrived, we ___ waiting for an hour.",
+      "options": ["have been", "were", "had been", "has been"],
+      "correctIndex": 2,
+      "explanation": "Past perfect continuous (had been + V-ing) is used for an action that was ongoing over a period before another past event.",
+      "difficulty": "medium",
+      "tags": ["tenses", "past-perfect-continuous"]
+    },
+    {
+      "id": "q_english_9_tenses_005",
+      "goalId": "grade9-english",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "I am knowing him for ten years.",
+        "I have known him for ten years.",
+        "I know him since ten years.",
+        "I knew him for ten years ago."
+      ],
+      "correctIndex": 1,
+      "explanation": "State verbs like 'know' use present perfect (have known) with 'for' to indicate duration continuing to the present. 'For' is used with a duration; 'since' is used with a point in time.",
+      "difficulty": "medium",
+      "tags": ["tenses", "present-perfect", "state-verbs"]
+    },
+    {
+      "id": "q_english_9_tenses_006",
+      "goalId": "grade9-english",
+      "question": "'He will have completed the project by Monday.' What tense is this?",
+      "options": ["Simple future", "Future continuous", "Future perfect", "Present perfect"],
+      "correctIndex": 2,
+      "explanation": "Future perfect (will have + past participle) describes an action that will be completed before a specific future time.",
+      "difficulty": "medium",
+      "tags": ["tenses", "future-perfect"]
+    },
+    {
+      "id": "q_english_9_tenses_007",
+      "goalId": "grade9-english",
+      "question": "Identify the tense: 'The sun rises in the east.'",
+      "options": ["Simple past", "Present continuous", "Simple present (universal truth)", "Future simple"],
+      "correctIndex": 2,
+      "explanation": "Simple present tense is used for universal truths, habits, and facts that are always true. 'The sun rises in the east' is a universal truth.",
+      "difficulty": "easy",
+      "tags": ["tenses", "simple-present", "universal-truth"]
+    },
+    {
+      "id": "q_english_9_tenses_008",
+      "goalId": "grade9-english",
+      "question": "Which of the following uses the simple past correctly?",
+      "options": ["Yesterday, she is writing a letter.", "Yesterday, she wrote a letter.", "Yesterday, she has written a letter.", "Yesterday, she writes a letter."],
+      "correctIndex": 1,
+      "explanation": "Simple past tense is used for completed actions at a specific past time. 'Yesterday' signals past time, and 'wrote' is the simple past form of 'write'.",
+      "difficulty": "hard",
+      "tags": ["tenses", "simple-past"]
+    },
+    {
+      "id": "q_english_9_voice_001",
+      "goalId": "grade9-english",
+      "question": "Convert to passive: 'The boy kicks the ball.'",
+      "options": ["The ball is kicked by the boy.", "The ball was kicked by the boy.", "The ball kicks the boy.", "The ball is being kicked the boy."],
+      "correctIndex": 0,
+      "explanation": "Active: Subject + V + Object. Passive: Object + is/are + past participle + by + Subject. 'The boy kicks the ball' → 'The ball is kicked by the boy.'",
+      "difficulty": "easy",
+      "tags": ["active-passive-voice", "simple-present"]
+    },
+    {
+      "id": "q_english_9_voice_002",
+      "goalId": "grade9-english",
+      "question": "Identify: 'The letter was written by Priya.' This is in:",
+      "options": ["Active voice", "Passive voice", "Direct speech", "Indirect speech"],
+      "correctIndex": 1,
+      "explanation": "In passive voice, the subject receives the action. 'The letter' (subject) receives the action of being written. The doer 'Priya' follows 'by'.",
+      "difficulty": "easy",
+      "tags": ["active-passive-voice", "identification"]
+    },
+    {
+      "id": "q_english_9_voice_003",
+      "goalId": "grade9-english",
+      "question": "Convert to active: 'The match was won by India.'",
+      "options": ["India wins the match.", "India won the match.", "India is winning the match.", "The match wins India."],
+      "correctIndex": 1,
+      "explanation": "Passive 'was won' (past tense) → Active 'won'. Subject of passive 'by India' becomes subject of active. 'India won the match.'",
+      "difficulty": "medium",
+      "tags": ["active-passive-voice", "passive-to-active"]
+    },
+    {
+      "id": "q_english_9_voice_004",
+      "goalId": "grade9-english",
+      "question": "Which sentence is correctly in passive voice using past continuous?",
+      "options": ["The cake was being baked by her.", "The cake is being baked by her.", "The cake had been baked by her.", "The cake will be baked by her."],
+      "correctIndex": 0,
+      "explanation": "Past continuous passive = was/were + being + past participle. 'was being baked' is past continuous passive.",
+      "difficulty": "medium",
+      "tags": ["active-passive-voice", "past-continuous"]
+    },
+    {
+      "id": "q_english_9_voice_005",
+      "goalId": "grade9-english",
+      "question": "Convert to passive: 'They are building a new school.'",
+      "options": ["A new school is built by them.", "A new school was being built.", "A new school is being built by them.", "A new school has been built by them."],
+      "correctIndex": 2,
+      "explanation": "Present continuous active → passive: Subject + am/is/are + being + V₃ + by + Object. 'is being built by them' is correct.",
+      "difficulty": "medium",
+      "tags": ["active-passive-voice", "present-continuous"]
+    },
+    {
+      "id": "q_english_9_voice_006",
+      "goalId": "grade9-english",
+      "question": "Convert to passive: 'Mother has cooked dinner.'",
+      "options": ["Dinner has been cooked by mother.", "Dinner was cooked by mother.", "Dinner is cooked by mother.", "Dinner is being cooked by mother."],
+      "correctIndex": 0,
+      "explanation": "Present perfect active (have/has + V₃) → Passive: have/has been + V₃. 'has been cooked by mother' is correct.",
+      "difficulty": "hard",
+      "tags": ["active-passive-voice", "present-perfect"]
+    },
+    {
+      "id": "q_english_9_voice_007",
+      "goalId": "grade9-english",
+      "question": "Which verb form is used in passive voice construction?",
+      "options": ["Present participle (V-ing)", "Past participle (V₃)", "Infinitive (to + V)", "Base form (V₁)"],
+      "correctIndex": 1,
+      "explanation": "Passive voice always uses the past participle (V₃/3rd form). Pattern: to be + past participle. Example: is written, was eaten, will be done.",
+      "difficulty": "hard",
+      "tags": ["active-passive-voice", "past-participle"]
+    }
+  ]
+}

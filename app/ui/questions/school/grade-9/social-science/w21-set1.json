@@ -1,0 +1,193 @@
+{
+  "goalId": "grade9-social-science",
+  "title": "Grade 9 Social Science — French Revolution & Russian Revolution",
+  "description": "French Revolution and Russian Revolution and Socialism practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social-science_9_french-rev_001",
+      "goalId": "grade9-social-science",
+      "question": "The French Revolution began in the year:",
+      "options": ["1776", "1789", "1799", "1804"],
+      "correctIndex": 1,
+      "explanation": "The French Revolution began in 1789 with the storming of the Bastille on July 14, 1789. This date is still celebrated as Bastille Day in France.",
+      "difficulty": "easy",
+      "tags": ["french-revolution", "dates", "history"]
+    },
+    {
+      "id": "q_social-science_9_french-rev_002",
+      "goalId": "grade9-social-science",
+      "question": "The slogan of the French Revolution was:",
+      "options": ["Peace, Land, Bread", "Liberty, Equality, Fraternity", "One Nation, One Leader", "Workers of the world unite"],
+      "correctIndex": 1,
+      "explanation": "Liberté, Égalité, Fraternité (Liberty, Equality, Fraternity) was the motto of the French Revolution and remains the national motto of France today.",
+      "difficulty": "easy",
+      "tags": ["french-revolution", "slogan", "motto"]
+    },
+    {
+      "id": "q_social-science_9_french-rev_003",
+      "goalId": "grade9-social-science",
+      "question": "The Estates-General in France was a representation of which social groups?",
+      "options": ["Army and nobility", "Church, nobility, and common people (clergy, nobles, Third Estate)", "Merchants and peasants", "King and parliament"],
+      "correctIndex": 1,
+      "explanation": "The Estates-General had three estates: First Estate (clergy), Second Estate (nobility), Third Estate (everyone else — peasants, bourgeoisie). The Third Estate had 97% of the population but little power.",
+      "difficulty": "medium",
+      "tags": ["french-revolution", "estates-general", "social-structure"]
+    },
+    {
+      "id": "q_social-science_9_french-rev_004",
+      "goalId": "grade9-social-science",
+      "question": "The Declaration of the Rights of Man and Citizen (1789) was influenced by ideas of:",
+      "options": ["Karl Marx", "Enlightenment thinkers like Rousseau and Voltaire", "Napoleon Bonaparte", "Louis XVI"],
+      "correctIndex": 1,
+      "explanation": "The Declaration of Rights of Man and Citizen was influenced by Enlightenment ideas — natural rights, equality, liberty — promoted by philosophers like Rousseau, Voltaire, and Montesquieu.",
+      "difficulty": "medium",
+      "tags": ["french-revolution", "declaration-of-rights", "enlightenment"]
+    },
+    {
+      "id": "q_social-science_9_french-rev_005",
+      "goalId": "grade9-social-science",
+      "question": "The 'Reign of Terror' in France (1793-94) was led by:",
+      "options": ["Louis XVI", "Napoleon Bonaparte", "Maximilien Robespierre", "Marie Antoinette"],
+      "correctIndex": 2,
+      "explanation": "Maximilien Robespierre headed the Committee of Public Safety during the Reign of Terror. About 16,000 people were guillotined, including Robespierre himself in July 1794.",
+      "difficulty": "medium",
+      "tags": ["french-revolution", "reign-of-terror", "robespierre"]
+    },
+    {
+      "id": "q_social-science_9_french-rev_006",
+      "goalId": "grade9-social-science",
+      "question": "Napoleon Bonaparte rose to power in France after:",
+      "options": ["The monarchy was restored", "The Revolution weakened and created political instability", "Britain invaded France", "A successful war against Prussia"],
+      "correctIndex": 1,
+      "explanation": "Napoleon exploited the political instability following the Revolution and the Directory's failures. He seized power in the coup of 18 Brumaire (1799) and became First Consul.",
+      "difficulty": "hard",
+      "tags": ["french-revolution", "napoleon", "aftermath"]
+    },
+    {
+      "id": "q_social-science_9_french-rev_007",
+      "goalId": "grade9-social-science",
+      "question": "The storming of the Bastille was significant because:",
+      "options": [
+        "It released many important political prisoners",
+        "It symbolised the fall of royal authority and tyranny",
+        "It was won by British soldiers",
+        "It ended the monarchy immediately"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Bastille was a royal fortress and prison that symbolised royal tyranny. Its storming on July 14, 1789, symbolised the fall of despotic rule, even though few prisoners were actually inside.",
+      "difficulty": "medium",
+      "tags": ["french-revolution", "bastille", "symbolism"]
+    },
+    {
+      "id": "q_social-science_9_french-rev_008",
+      "goalId": "grade9-social-science",
+      "question": "Which of the following was NOT a cause of the French Revolution?",
+      "options": [
+        "Heavy taxes on the poor and Third Estate",
+        "Lavish lifestyle of the royal court",
+        "Britain's industrial prosperity inspiring France",
+        "Ideas of liberty and equality from Enlightenment philosophers"
+      ],
+      "correctIndex": 2,
+      "explanation": "The causes of the French Revolution were financial crisis, social inequality, royal extravagance, and Enlightenment ideas. Britain's prosperity was not a direct cause.",
+      "difficulty": "hard",
+      "tags": ["french-revolution", "causes"]
+    },
+    {
+      "id": "q_social-science_9_russian-rev_001",
+      "goalId": "grade9-social-science",
+      "question": "The Russian Revolution took place in the year:",
+      "options": ["1905", "1914", "1917", "1922"],
+      "correctIndex": 2,
+      "explanation": "The Russian Revolution occurred in 1917. The February Revolution overthrew Tsar Nicholas II, and the October Revolution brought the Bolsheviks to power under Lenin.",
+      "difficulty": "easy",
+      "tags": ["russian-revolution", "date"]
+    },
+    {
+      "id": "q_social-science_9_russian-rev_002",
+      "goalId": "grade9-social-science",
+      "question": "The leader of the Bolshevik party who led the October Revolution was:",
+      "options": ["Karl Marx", "Stalin", "Vladimir Lenin", "Leon Trotsky"],
+      "correctIndex": 2,
+      "explanation": "Vladimir Ilyich Lenin led the Bolsheviks in the October Revolution of 1917. He had returned from exile in April 1917 and guided the party to overthrow the Provisional Government.",
+      "difficulty": "easy",
+      "tags": ["russian-revolution", "Lenin", "bolsheviks"]
+    },
+    {
+      "id": "q_social-science_9_russian-rev_003",
+      "goalId": "grade9-social-science",
+      "question": "Karl Marx's ideology believed that history is driven by:",
+      "options": [
+        "Great leaders and their decisions",
+        "Class struggle between the bourgeoisie (owners) and proletariat (workers)",
+        "Religious influences",
+        "Natural forces"
+      ],
+      "correctIndex": 1,
+      "explanation": "Marx's theory of historical materialism: all history is a history of class struggle. The bourgeoisie (capitalist class) exploit the proletariat (working class), eventually leading to revolution.",
+      "difficulty": "medium",
+      "tags": ["russian-revolution", "marxism", "class-struggle"]
+    },
+    {
+      "id": "q_social-science_9_russian-rev_004",
+      "goalId": "grade9-social-science",
+      "question": "The Soviets in Russia were:",
+      "options": [
+        "Tsarist government councils",
+        "Workers' and soldiers' councils (representative bodies)",
+        "Military generals",
+        "Foreign advisors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Soviets were elected councils of workers, soldiers, and peasants that emerged during the 1905 and 1917 revolutions. The Bolsheviks rallied support with the slogan 'All power to the Soviets.'",
+      "difficulty": "medium",
+      "tags": ["russian-revolution", "soviets", "workers-councils"]
+    },
+    {
+      "id": "q_social-science_9_russian-rev_005",
+      "goalId": "grade9-social-science",
+      "question": "The New Economic Policy (NEP) introduced by Lenin in 1921 allowed:",
+      "options": [
+        "Complete nationalisation of all industries",
+        "Limited private enterprise to rebuild the economy after war and famine",
+        "Foreign companies to take over Russian industries",
+        "Peasants to be removed from land"
+      ],
+      "correctIndex": 1,
+      "explanation": "The NEP was a pragmatic step back — it allowed limited private trade and agriculture to recover the economy after the chaos of WWI, revolution, and Civil War.",
+      "difficulty": "hard",
+      "tags": ["russian-revolution", "NEP", "Lenin"]
+    },
+    {
+      "id": "q_social-science_9_russian-rev_006",
+      "goalId": "grade9-social-science",
+      "question": "The event known as 'Bloody Sunday' (1905) refers to:",
+      "options": [
+        "The execution of the Tsar",
+        "Tsarist troops firing on peaceful protesters in St. Petersburg",
+        "The start of World War I",
+        "Napoleon's invasion of Russia"
+      ],
+      "correctIndex": 1,
+      "explanation": "On January 22, 1905, Tsarist troops fired on peaceful workers marching to petition Tsar Nicholas II. The massacre killed hundreds and sparked the 1905 Revolution.",
+      "difficulty": "medium",
+      "tags": ["russian-revolution", "bloody-sunday", "1905"]
+    },
+    {
+      "id": "q_social-science_9_russian-rev_007",
+      "goalId": "grade9-social-science",
+      "question": "The USSR (Union of Soviet Socialist Republics) was officially formed in:",
+      "options": ["1917", "1919", "1922", "1924"],
+      "correctIndex": 2,
+      "explanation": "The USSR was formally established on December 30, 1922, as a federation of Soviet republics — Russia, Ukraine, Belorussia, and the Transcaucasus.",
+      "difficulty": "hard",
+      "tags": ["russian-revolution", "USSR", "formation"]
+    }
+  ]
+}

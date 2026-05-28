@@ -1,0 +1,203 @@
+{
+  "goalId": "grade9-english",
+  "title": "Grade 9 English — Direct & Indirect Speech and Vocabulary",
+  "description": "Direct and Indirect Speech and Vocabulary practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_9_reported-speech_001",
+      "goalId": "grade9-english",
+      "question": "Change to indirect speech: Ram said, 'I am happy.'",
+      "options": [
+        "Ram said that he is happy.",
+        "Ram said that he was happy.",
+        "Ram says that he was happy.",
+        "Ram told that I am happy."
+      ],
+      "correctIndex": 1,
+      "explanation": "In indirect speech (past reporting verb 'said'), present tense shifts to past: 'am' → 'was'. Pronoun 'I' shifts to 'he'. Use 'that' as conjunction.",
+      "difficulty": "easy",
+      "tags": ["reported-speech", "indirect-speech", "tense-shift"]
+    },
+    {
+      "id": "q_english_9_reported-speech_002",
+      "goalId": "grade9-english",
+      "question": "Change to indirect speech: She said, 'I will come tomorrow.'",
+      "options": [
+        "She said that she would come the next day.",
+        "She said that she will come tomorrow.",
+        "She says that she would come tomorrow.",
+        "She told that she will come the next day."
+      ],
+      "correctIndex": 0,
+      "explanation": "In indirect speech: 'will' → 'would'; 'tomorrow' → 'the next day'. Also 'I' → 'she'. Use 'said that'.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "indirect-speech", "will-would"]
+    },
+    {
+      "id": "q_english_9_reported-speech_003",
+      "goalId": "grade9-english",
+      "question": "Which tense change is correct in indirect speech?",
+      "options": [
+        "Simple present → Simple future",
+        "Simple present → Simple past",
+        "Past perfect → Simple past",
+        "Will → Shall"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tense backshift in indirect speech: Simple present (am/is/are) → Simple past (was/were). All tenses shift one step back in time.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "tense-backshift"]
+    },
+    {
+      "id": "q_english_9_reported-speech_004",
+      "goalId": "grade9-english",
+      "question": "Change to direct speech: He asked me if I liked music.",
+      "options": [
+        "He said, 'Do you like music?'",
+        "He said, 'I liked music?'",
+        "He asked, 'Do I like music?'",
+        "He asked, 'You like music.'"
+      ],
+      "correctIndex": 0,
+      "explanation": "Indirect question with 'if' → Direct speech with yes/no question. 'if I liked' → 'Do you like?' (past → present, 'I' becomes 'you').",
+      "difficulty": "hard",
+      "tags": ["reported-speech", "direct-speech", "questions"]
+    },
+    {
+      "id": "q_english_9_reported-speech_005",
+      "goalId": "grade9-english",
+      "question": "When reporting commands/requests, we use:",
+      "options": ["Said + that", "Told + that", "Asked/Told + to + infinitive", "Said + if"],
+      "correctIndex": 2,
+      "explanation": "Commands and requests in indirect speech: told/asked + object + to + infinitive. Example: 'Come here' → He told me to come there.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "commands-requests", "infinitive"]
+    },
+    {
+      "id": "q_english_9_reported-speech_006",
+      "goalId": "grade9-english",
+      "question": "Change to indirect speech: The teacher said, 'The Earth revolves around the Sun.'",
+      "options": [
+        "The teacher said that the Earth revolved around the Sun.",
+        "The teacher said that the Earth revolves around the Sun.",
+        "The teacher told that the Earth revolves around the Sun.",
+        "The teacher said that the Earth will revolve around the Sun."
+      ],
+      "correctIndex": 1,
+      "explanation": "Universal truths and scientific facts do NOT undergo tense change in indirect speech. 'revolves' remains in present tense.",
+      "difficulty": "hard",
+      "tags": ["reported-speech", "universal-truth", "no-tense-change"]
+    },
+    {
+      "id": "q_english_9_reported-speech_007",
+      "goalId": "grade9-english",
+      "question": "In indirect speech, 'this' changes to:",
+      "options": ["That", "Those", "These", "Here"],
+      "correctIndex": 0,
+      "explanation": "Time and place expressions change in indirect speech: this → that, these → those, here → there, now → then, today → that day.",
+      "difficulty": "easy",
+      "tags": ["reported-speech", "pronoun-changes"]
+    },
+    {
+      "id": "q_english_9_reported-speech_008",
+      "goalId": "grade9-english",
+      "question": "Change to indirect speech: He said to me, 'Please help me.'",
+      "options": [
+        "He said to me to please help him.",
+        "He requested me to help him.",
+        "He told me that please help him.",
+        "He asked me that help him."
+      ],
+      "correctIndex": 1,
+      "explanation": "Polite requests with 'please' use 'requested'. 'He requested me to help him.' — note 'me' stays as object, 'me' in the original becomes 'him'.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "requests", "requested"]
+    },
+    {
+      "id": "q_english_9_vocabulary_001",
+      "goalId": "grade9-english",
+      "question": "The synonym of 'magnanimous' is:",
+      "options": ["Petty", "Generous", "Angry", "Quiet"],
+      "correctIndex": 1,
+      "explanation": "Magnanimous means generously forgiving or big-hearted. Synonym: generous, benevolent, noble. Antonym: petty, mean.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "synonyms"]
+    },
+    {
+      "id": "q_english_9_vocabulary_002",
+      "goalId": "grade9-english",
+      "question": "The antonym of 'diligent' is:",
+      "options": ["Hardworking", "Careful", "Lazy", "Intelligent"],
+      "correctIndex": 2,
+      "explanation": "Diligent means showing steady effort and care. Its antonym is lazy (indolent, idle).",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "antonyms"]
+    },
+    {
+      "id": "q_english_9_vocabulary_003",
+      "goalId": "grade9-english",
+      "question": "Choose the correct meaning of the idiom 'break the ice':",
+      "options": [
+        "To physically break something",
+        "To start a conversation in a social situation",
+        "To spoil someone's plans",
+        "To win a competition"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Break the ice' means to do or say something to relieve tension and start a conversation or interaction, especially among strangers.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "idioms"]
+    },
+    {
+      "id": "q_english_9_vocabulary_004",
+      "goalId": "grade9-english",
+      "question": "The word 'ambiguous' means:",
+      "options": ["Clear and definite", "Open to more than one interpretation", "Very ambitious", "Boring and dull"],
+      "correctIndex": 1,
+      "explanation": "Ambiguous: having more than one possible meaning; unclear. Example: 'I saw the man with binoculars' — who has the binoculars?",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "word-meaning"]
+    },
+    {
+      "id": "q_english_9_vocabulary_005",
+      "goalId": "grade9-english",
+      "question": "Choose the correct spelling:",
+      "options": ["Occassion", "Occasion", "Ocassion", "Occation"],
+      "correctIndex": 1,
+      "explanation": "'Occasion' is the correct spelling. Common error: double-c and single-s (occ-as-ion).",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "spelling"]
+    },
+    {
+      "id": "q_english_9_vocabulary_006",
+      "goalId": "grade9-english",
+      "question": "The prefix 'mis-' in 'misunderstand' means:",
+      "options": ["Again", "Not/wrongly", "Before", "After"],
+      "correctIndex": 1,
+      "explanation": "The prefix 'mis-' means wrongly or badly. Misunderstand = understand wrongly. Other examples: mislead, misbehave, misconduct.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "prefixes"]
+    },
+    {
+      "id": "q_english_9_vocabulary_007",
+      "goalId": "grade9-english",
+      "question": "What is the meaning of the idiom 'a blessing in disguise'?",
+      "options": [
+        "A hidden enemy",
+        "Something that seems bad but turns out to be good",
+        "A religious ceremony",
+        "A person wearing a disguise"
+      ],
+      "correctIndex": 1,
+      "explanation": "'A blessing in disguise' means an apparent misfortune that eventually has a good outcome. Example: Missing the bus was a blessing in disguise — I met my old friend at the stop.",
+      "difficulty": "hard",
+      "tags": ["vocabulary", "idioms"]
+    }
+  ]
+}
