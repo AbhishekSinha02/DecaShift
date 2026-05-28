@@ -1,0 +1,198 @@
+{
+  "goalId": "grade10-science",
+  "title": "Grade 10 Science — Light & Heredity and Evolution",
+  "description": "Light — Reflection and Refraction and Heredity and Evolution practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_10_light_001",
+      "goalId": "grade10-science",
+      "question": "The image formed in a plane mirror is:",
+      "options": [
+        "Real and inverted",
+        "Virtual and erect",
+        "Real and erect",
+        "Virtual and inverted"
+      ],
+      "correctIndex": 1,
+      "explanation": "A plane mirror always forms a virtual (cannot be projected on a screen), erect image at the same distance behind the mirror as the object is in front.",
+      "difficulty": "easy",
+      "tags": ["light", "reflection", "plane-mirror"]
+    },
+    {
+      "id": "q_science_10_light_002",
+      "goalId": "grade10-science",
+      "question": "A concave mirror is used in torches and car headlights because it:",
+      "options": [
+        "Forms a diminished image",
+        "Diverges light rays",
+        "Converges parallel rays to the focus",
+        "Always forms virtual images"
+      ],
+      "correctIndex": 2,
+      "explanation": "When a light source is placed at the focus of a concave mirror, the reflected rays become parallel — producing a strong, parallel beam of light ideal for torches.",
+      "difficulty": "easy",
+      "tags": ["light", "concave-mirror", "reflection"]
+    },
+    {
+      "id": "q_science_10_light_003",
+      "goalId": "grade10-science",
+      "question": "If the speed of light in glass is 2 × 10⁸ m/s, the refractive index of glass is:",
+      "options": ["1.0", "1.5", "2.0", "0.67"],
+      "correctIndex": 1,
+      "explanation": "n = speed of light in vacuum / speed of light in medium = (3 × 10⁸) / (2 × 10⁸) = 1.5.",
+      "difficulty": "easy",
+      "tags": ["light", "refraction", "refractive-index"]
+    },
+    {
+      "id": "q_science_10_light_004",
+      "goalId": "grade10-science",
+      "question": "A concave lens always forms an image that is:",
+      "options": [
+        "Real, inverted, and magnified",
+        "Real, inverted, and diminished",
+        "Virtual, erect, and diminished",
+        "Virtual, erect, and magnified"
+      ],
+      "correctIndex": 2,
+      "explanation": "A concave (diverging) lens always forms a virtual, erect, and diminished image regardless of the position of the object.",
+      "difficulty": "easy",
+      "tags": ["light", "refraction", "concave-lens"]
+    },
+    {
+      "id": "q_science_10_light_005",
+      "goalId": "grade10-science",
+      "question": "An object is placed 20 cm from a concave mirror of focal length 10 cm. The image distance is:",
+      "options": ["−20 cm", "−15 cm", "+20 cm", "10 cm"],
+      "correctIndex": 0,
+      "explanation": "Using mirror formula with sign convention (distances measured from pole, real distances negative for concave): 1/v + 1/u = 1/f. u = −20, f = −10. 1/v = 1/(−10) − 1/(−20) = −1/10 + 1/20 = −1/20. v = −20 cm.",
+      "difficulty": "medium",
+      "tags": ["light", "mirror-formula", "concave-mirror"]
+    },
+    {
+      "id": "q_science_10_light_006",
+      "goalId": "grade10-science",
+      "question": "The power of a convex lens with focal length 50 cm is:",
+      "options": ["+0.5 D", "+2 D", "−2 D", "+50 D"],
+      "correctIndex": 1,
+      "explanation": "P = 1/f (in metres) = 1/0.5 = +2 D. Convex lenses have positive power because they converge light.",
+      "difficulty": "medium",
+      "tags": ["light", "lens-power", "dioptre"]
+    },
+    {
+      "id": "q_science_10_light_007",
+      "goalId": "grade10-science",
+      "question": "When a ray of light goes from a denser medium to a rarer medium at an angle greater than the critical angle, the phenomenon is called:",
+      "options": ["Regular reflection", "Refraction", "Total internal reflection", "Diffraction"],
+      "correctIndex": 2,
+      "explanation": "Total internal reflection occurs when light travels from a denser to a rarer medium and the angle of incidence exceeds the critical angle. No refraction occurs — all light is reflected back.",
+      "difficulty": "medium",
+      "tags": ["light", "total-internal-reflection", "critical-angle"]
+    },
+    {
+      "id": "q_science_10_light_008",
+      "goalId": "grade10-science",
+      "question": "The dispersion of white light in a glass prism occurs because different colours of light have different:",
+      "options": ["Frequencies in vacuum", "Speeds in vacuum", "Refractive indices in glass", "Wavelengths in vacuum"],
+      "correctIndex": 2,
+      "explanation": "Different colours have different wavelengths, and each wavelength has a slightly different refractive index in glass. Violet light bends most, red least — causing dispersion into a spectrum.",
+      "difficulty": "hard",
+      "tags": ["light", "dispersion", "prism", "refractive-index"]
+    },
+    {
+      "id": "q_science_10_heredity_001",
+      "goalId": "grade10-science",
+      "question": "The scientific study of heredity and variation is called:",
+      "options": ["Ecology", "Genetics", "Taxonomy", "Morphology"],
+      "correctIndex": 1,
+      "explanation": "Genetics is the branch of biology that deals with heredity (how traits pass from parents to offspring) and variation (differences between individuals).",
+      "difficulty": "easy",
+      "tags": ["heredity-evolution", "genetics"]
+    },
+    {
+      "id": "q_science_10_heredity_002",
+      "goalId": "grade10-science",
+      "question": "DNA stands for:",
+      "options": [
+        "Deoxyribonucleic acid",
+        "Diribonucleic acid",
+        "Deoxyribose nucleotide acid",
+        "Dioxy nucleic acid"
+      ],
+      "correctIndex": 0,
+      "explanation": "DNA — Deoxyribonucleic acid — is the molecule that carries genetic information. It is present in the nucleus of cells and is the basis of heredity.",
+      "difficulty": "easy",
+      "tags": ["heredity-evolution", "DNA"]
+    },
+    {
+      "id": "q_science_10_heredity_003",
+      "goalId": "grade10-science",
+      "question": "Mendel's Law of Segregation states that:",
+      "options": [
+        "Genes assort independently during gamete formation",
+        "Two alleles of a gene separate during gamete formation so each gamete has one allele",
+        "Dominant traits always suppress recessive traits",
+        "Traits blend in offspring"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Law of Segregation: each organism carries two alleles for every trait, and these alleles separate during gamete (sex cell) formation so each gamete receives exactly one allele.",
+      "difficulty": "medium",
+      "tags": ["heredity-evolution", "mendel", "segregation"]
+    },
+    {
+      "id": "q_science_10_heredity_004",
+      "goalId": "grade10-science",
+      "question": "When two tall pea plants of genotype Tt are crossed, the probability of getting tall offspring is:",
+      "options": ["1/4", "1/2", "3/4", "1"],
+      "correctIndex": 2,
+      "explanation": "Tt × Tt gives TT, Tt, Tt, tt in ratio 3:1. Three out of four offspring (TT and Tt) will be tall (T is dominant). So probability = 3/4 = 75%.",
+      "difficulty": "medium",
+      "tags": ["heredity-evolution", "mendel", "monohybrid-cross", "probability"]
+    },
+    {
+      "id": "q_science_10_heredity_005",
+      "goalId": "grade10-science",
+      "question": "Homologous organs (like the forelimbs of a bat and a whale) suggest:",
+      "options": [
+        "Similar function but different origin",
+        "Different function but common ancestry",
+        "Identical DNA sequences",
+        "Convergent evolution"
+      ],
+      "correctIndex": 1,
+      "explanation": "Homologous organs have the same fundamental structure but serve different functions, indicating divergent evolution from a common ancestor. This is evidence for shared evolutionary history.",
+      "difficulty": "medium",
+      "tags": ["heredity-evolution", "homologous-organs", "divergent-evolution"]
+    },
+    {
+      "id": "q_science_10_heredity_006",
+      "goalId": "grade10-science",
+      "question": "The theory of natural selection (survival of the fittest) was proposed by:",
+      "options": ["Gregor Mendel", "Lamarck", "Charles Darwin", "Hugo de Vries"],
+      "correctIndex": 2,
+      "explanation": "Charles Darwin proposed the theory of natural selection in 'On the Origin of Species' (1859). Organisms best adapted to their environment survive and reproduce more successfully.",
+      "difficulty": "hard",
+      "tags": ["heredity-evolution", "darwin", "natural-selection"]
+    },
+    {
+      "id": "q_science_10_heredity_007",
+      "goalId": "grade10-science",
+      "question": "Vestigial organs in humans (such as the coccyx) serve as evidence of:",
+      "options": [
+        "Special creation of humans",
+        "Human ancestors were different animals",
+        "Evolution from ancestors who used these organs",
+        "Genetic mutations"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vestigial organs are remnants of structures that were functional in ancestors but are now reduced or non-functional. They provide strong evidence for evolution and a shared ancestral past.",
+      "difficulty": "hard",
+      "tags": ["heredity-evolution", "vestigial-organs", "evolution"]
+    }
+  ]
+}

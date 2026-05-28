@@ -1,0 +1,173 @@
+{
+  "goalId": "grade10-science",
+  "title": "Grade 10 Science — Electricity & Magnetic Effects of Current",
+  "description": "Electricity and Magnetic Effects of Electric Current practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_10_electricity_001",
+      "goalId": "grade10-science",
+      "question": "The SI unit of electric charge is:",
+      "options": ["Ampere", "Volt", "Coulomb", "Ohm"],
+      "correctIndex": 2,
+      "explanation": "Electric charge is measured in Coulombs (C). One coulomb is the charge carried by 6.24 × 10¹⁸ electrons. Ampere is the unit of current, not charge.",
+      "difficulty": "easy",
+      "tags": ["electricity", "charge", "SI-units"]
+    },
+    {
+      "id": "q_science_10_electricity_002",
+      "goalId": "grade10-science",
+      "question": "Applying Ohm's law: if voltage across a resistor is 12 V and resistance is 4 Ω, the current flowing through it is:",
+      "options": ["1 A", "2 A", "3 A", "48 A"],
+      "correctIndex": 2,
+      "explanation": "I = V/R = 12/4 = 3 A. Ohm's law states V = IR, so current I = V ÷ R.",
+      "difficulty": "easy",
+      "tags": ["electricity", "ohms-law", "current"]
+    },
+    {
+      "id": "q_science_10_electricity_003",
+      "goalId": "grade10-science",
+      "question": "When two resistors are connected in series, the total resistance is:",
+      "options": ["Less than either resistor", "Equal to the smaller resistor", "R₁ + R₂", "R₁ × R₂ / (R₁ + R₂)"],
+      "correctIndex": 2,
+      "explanation": "In a series connection, resistors are added directly. Total resistance Rs = R₁ + R₂. The equivalent resistance is always greater than the largest individual resistance.",
+      "difficulty": "easy",
+      "tags": ["electricity", "series-circuit", "resistance"]
+    },
+    {
+      "id": "q_science_10_electricity_004",
+      "goalId": "grade10-science",
+      "question": "The component used to vary the resistance in a circuit is called a:",
+      "options": ["Capacitor", "Inductor", "Rheostat", "Diode"],
+      "correctIndex": 2,
+      "explanation": "A rheostat (variable resistor) is used to continuously vary the resistance in a circuit, thereby controlling the current flow.",
+      "difficulty": "easy",
+      "tags": ["electricity", "rheostat", "variable-resistance"]
+    },
+    {
+      "id": "q_science_10_electricity_005",
+      "goalId": "grade10-science",
+      "question": "Two resistors of 3 Ω and 6 Ω are connected in parallel. Their equivalent resistance is:",
+      "options": ["9 Ω", "4 Ω", "2 Ω", "0.5 Ω"],
+      "correctIndex": 2,
+      "explanation": "1/Rp = 1/R₁ + 1/R₂ = 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2. So Rp = 2 Ω.",
+      "difficulty": "medium",
+      "tags": ["electricity", "parallel-circuit", "resistance"]
+    },
+    {
+      "id": "q_science_10_electricity_006",
+      "goalId": "grade10-science",
+      "question": "The power dissipated in a circuit with voltage 220 V and current 5 A is:",
+      "options": ["44 W", "225 W", "1100 W", "215 W"],
+      "correctIndex": 2,
+      "explanation": "P = V × I = 220 × 5 = 1100 W. This is the electrical power consumed by the device.",
+      "difficulty": "medium",
+      "tags": ["electricity", "power", "calculation"]
+    },
+    {
+      "id": "q_science_10_electricity_007",
+      "goalId": "grade10-science",
+      "question": "The commercial unit of electrical energy used in households is:",
+      "options": ["Watt", "Joule", "Kilowatt-hour (kWh)", "Calorie"],
+      "correctIndex": 2,
+      "explanation": "1 kWh is the energy consumed when a device of 1000 W runs for 1 hour. This unit is used for electricity bills. 1 kWh = 3.6 × 10⁶ J.",
+      "difficulty": "medium",
+      "tags": ["electricity", "energy", "kWh"]
+    },
+    {
+      "id": "q_science_10_electricity_008",
+      "goalId": "grade10-science",
+      "question": "A 100 W bulb is used for 2 hours and a 60 W bulb is used for 4 hours. Which consumes more electrical energy?",
+      "options": ["100 W bulb", "60 W bulb", "Both consume equal energy", "Cannot be determined"],
+      "correctIndex": 1,
+      "explanation": "Energy = Power × Time. 100 W × 2 h = 200 Wh. 60 W × 4 h = 240 Wh. The 60 W bulb consumes 240 Wh > 200 Wh.",
+      "difficulty": "hard",
+      "tags": ["electricity", "energy", "calculation", "comparison"]
+    },
+    {
+      "id": "q_science_10_magnetic-effects_001",
+      "goalId": "grade10-science",
+      "question": "A device that converts mechanical energy into electrical energy is called a:",
+      "options": ["Motor", "Transformer", "Generator", "Battery"],
+      "correctIndex": 2,
+      "explanation": "An electric generator (dynamo) converts mechanical energy into electrical energy through electromagnetic induction. A motor does the opposite.",
+      "difficulty": "easy",
+      "tags": ["magnetic-effects", "generator", "energy-conversion"]
+    },
+    {
+      "id": "q_science_10_magnetic-effects_002",
+      "goalId": "grade10-science",
+      "question": "The magnetic field inside a long solenoid carrying current is:",
+      "options": ["Zero at all points", "Stronger near the ends", "Uniform throughout", "Varies randomly"],
+      "correctIndex": 2,
+      "explanation": "Inside a long solenoid, the magnetic field is uniform (constant in magnitude and direction) along the axis. This makes solenoids useful for creating uniform magnetic fields.",
+      "difficulty": "easy",
+      "tags": ["magnetic-effects", "solenoid", "magnetic-field"]
+    },
+    {
+      "id": "q_science_10_magnetic-effects_003",
+      "goalId": "grade10-science",
+      "question": "If the direction of current in a conductor placed in a magnetic field is reversed, the force on it will:",
+      "options": ["Remain the same", "Become zero", "Reverse direction", "Double in magnitude"],
+      "correctIndex": 2,
+      "explanation": "By Fleming's Left Hand Rule, force F = BIL. If I (current) reverses, the force F reverses direction. Reversing the magnetic field would also reverse the force.",
+      "difficulty": "medium",
+      "tags": ["magnetic-effects", "force", "current-direction"]
+    },
+    {
+      "id": "q_science_10_magnetic-effects_004",
+      "goalId": "grade10-science",
+      "question": "Fleming's Left Hand Rule is used to determine the direction of:",
+      "options": [
+        "Induced current in a generator",
+        "Force on a current-carrying conductor in a magnetic field",
+        "Magnetic field around a straight conductor",
+        "Induced EMF"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fleming's Left Hand Rule (for Motors): thumb = motion (force), index = field, middle finger = current. It gives the direction of force on a current-carrying conductor in a magnetic field.",
+      "difficulty": "medium",
+      "tags": ["magnetic-effects", "flemings-left-hand-rule", "force"]
+    },
+    {
+      "id": "q_science_10_magnetic-effects_005",
+      "goalId": "grade10-science",
+      "question": "A DC electric motor converts:",
+      "options": ["Electrical energy to sound energy", "Electrical energy to mechanical energy", "Mechanical energy to electrical energy", "Chemical energy to electrical energy"],
+      "correctIndex": 1,
+      "explanation": "An electric motor uses the magnetic force on a current-carrying conductor to rotate a coil, converting electrical energy into mechanical (kinetic) energy.",
+      "difficulty": "medium",
+      "tags": ["magnetic-effects", "electric-motor", "energy-conversion"]
+    },
+    {
+      "id": "q_science_10_magnetic-effects_006",
+      "goalId": "grade10-science",
+      "question": "A transformer has 200 turns in the primary coil and 400 turns in the secondary. If primary voltage is 100 V, the secondary voltage is:",
+      "options": ["50 V", "100 V", "200 V", "400 V"],
+      "correctIndex": 2,
+      "explanation": "Vs/Vp = Ns/Np → Vs = (400/200) × 100 = 200 V. This is a step-up transformer as Ns > Np.",
+      "difficulty": "hard",
+      "tags": ["magnetic-effects", "transformer", "step-up"]
+    },
+    {
+      "id": "q_science_10_magnetic-effects_007",
+      "goalId": "grade10-science",
+      "question": "AC is preferred over DC for long-distance power transmission because:",
+      "options": [
+        "AC is cheaper to generate",
+        "AC voltage can be stepped up using transformers, reducing energy losses",
+        "AC does not cause heating of wires",
+        "AC travels faster than DC"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transformers work only on AC. By stepping up voltage (and reducing current), power loss P = I²R in transmission lines is greatly reduced. DC cannot be easily transformed.",
+      "difficulty": "hard",
+      "tags": ["magnetic-effects", "AC-DC", "transformer", "transmission"]
+    }
+  ]
+}

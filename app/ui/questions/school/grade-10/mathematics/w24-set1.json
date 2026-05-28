@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-mathematics",
+  "title": "Grade 10 Mathematics — Coordinate Geometry & Introduction to Trigonometry",
+  "description": "Coordinate Geometry and Introduction to Trigonometry practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_10_coord-geo_001",
+      "goalId": "grade10-mathematics",
+      "question": "The distance between the origin (0, 0) and the point A(3, 4) is:",
+      "options": ["3", "4", "5", "7"],
+      "correctIndex": 2,
+      "explanation": "Distance = √(3² + 4²) = √(9 + 16) = √25 = 5.",
+      "difficulty": "easy",
+      "tags": ["coordinate-geometry", "distance-formula"]
+    },
+    {
+      "id": "q_mathematics_10_coord-geo_002",
+      "goalId": "grade10-mathematics",
+      "question": "The midpoint of the segment joining (4, −6) and (−2, 4) is:",
+      "options": ["(2, −2)", "(1, −1)", "(3, −3)", "(0, 0)"],
+      "correctIndex": 1,
+      "explanation": "Midpoint = ((4+(−2))/2, (−6+4)/2) = (2/2, −2/2) = (1, −1).",
+      "difficulty": "easy",
+      "tags": ["coordinate-geometry", "midpoint-formula"]
+    },
+    {
+      "id": "q_mathematics_10_coord-geo_003",
+      "goalId": "grade10-mathematics",
+      "question": "The distance between points (2, 3) and (5, 7) is:",
+      "options": ["3", "4", "5", "√7"],
+      "correctIndex": 2,
+      "explanation": "Distance = √((5−2)² + (7−3)²) = √(9 + 16) = √25 = 5.",
+      "difficulty": "easy",
+      "tags": ["coordinate-geometry", "distance-formula"]
+    },
+    {
+      "id": "q_mathematics_10_coord-geo_004",
+      "goalId": "grade10-mathematics",
+      "question": "The point that divides segment joining (2, 4) and (6, 8) in ratio 1:1 is:",
+      "options": ["(4, 6)", "(3, 5)", "(5, 7)", "(4, 4)"],
+      "correctIndex": 0,
+      "explanation": "A 1:1 division is simply the midpoint: ((2+6)/2, (4+8)/2) = (4, 6).",
+      "difficulty": "easy",
+      "tags": ["coordinate-geometry", "section-formula", "midpoint"]
+    },
+    {
+      "id": "q_mathematics_10_coord-geo_005",
+      "goalId": "grade10-mathematics",
+      "question": "If the distance between (k, 0) and (0, 3) is 5, then k =",
+      "options": ["2", "3", "±4", "±5"],
+      "correctIndex": 2,
+      "explanation": "k² + 9 = 25 → k² = 16 → k = ±4.",
+      "difficulty": "medium",
+      "tags": ["coordinate-geometry", "distance-formula"]
+    },
+    {
+      "id": "q_mathematics_10_coord-geo_006",
+      "goalId": "grade10-mathematics",
+      "question": "The area of the triangle with vertices (0, 0), (4, 0), and (0, 3) is:",
+      "options": ["3 sq units", "6 sq units", "12 sq units", "7 sq units"],
+      "correctIndex": 1,
+      "explanation": "Area = ½ × base × height = ½ × 4 × 3 = 6 sq units. (The two sides along the axes are the base and height.)",
+      "difficulty": "medium",
+      "tags": ["coordinate-geometry", "area-of-triangle"]
+    },
+    {
+      "id": "q_mathematics_10_coord-geo_007",
+      "goalId": "grade10-mathematics",
+      "question": "The point dividing the segment from (−3, 5) to (4, −9) in the ratio 2:5 is:",
+      "options": ["(−1, 1)", "(0, 2)", "(1, −1)", "(−2, 3)"],
+      "correctIndex": 0,
+      "explanation": "x = (2×4 + 5×(−3))/(2+5) = (8−15)/7 = −1. y = (2×(−9) + 5×5)/(7) = (−18+25)/7 = 1. Point: (−1, 1).",
+      "difficulty": "medium",
+      "tags": ["coordinate-geometry", "section-formula"]
+    },
+    {
+      "id": "q_mathematics_10_coord-geo_008",
+      "goalId": "grade10-mathematics",
+      "question": "The centroid of a triangle has coordinates (1, 2). Two vertices are (1, 3) and (0, 4). The third vertex is:",
+      "options": ["(2, −1)", "(3, 1)", "(0, 0)", "(1, 1)"],
+      "correctIndex": 0,
+      "explanation": "Centroid = ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3). So x₃ = 3×1 − 1 − 0 = 2; y₃ = 3×2 − 3 − 4 = −1. Vertex: (2, −1).",
+      "difficulty": "hard",
+      "tags": ["coordinate-geometry", "centroid"]
+    },
+    {
+      "id": "q_mathematics_10_trigonometry_001",
+      "goalId": "grade10-mathematics",
+      "question": "The value of sin 30° is:",
+      "options": ["1", "√3/2", "1/2", "1/√2"],
+      "correctIndex": 2,
+      "explanation": "sin 30° = 1/2. This is a standard trigonometric ratio to memorise.",
+      "difficulty": "easy",
+      "tags": ["trigonometry", "standard-ratios"]
+    },
+    {
+      "id": "q_mathematics_10_trigonometry_002",
+      "goalId": "grade10-mathematics",
+      "question": "The value of tan 45° is:",
+      "options": ["0", "1", "√3", "1/√2"],
+      "correctIndex": 1,
+      "explanation": "tan 45° = sin 45°/cos 45° = (1/√2)/(1/√2) = 1.",
+      "difficulty": "easy",
+      "tags": ["trigonometry", "standard-ratios"]
+    },
+    {
+      "id": "q_mathematics_10_trigonometry_003",
+      "goalId": "grade10-mathematics",
+      "question": "In right △ABC, ∠B = 90°, AB = 5 cm, BC = 12 cm, AC = 13 cm. The value of sin A is:",
+      "options": ["5/13", "12/13", "5/12", "13/12"],
+      "correctIndex": 1,
+      "explanation": "sin A = opposite/hypotenuse = BC/AC = 12/13.",
+      "difficulty": "medium",
+      "tags": ["trigonometry", "right-triangle", "basic-ratios"]
+    },
+    {
+      "id": "q_mathematics_10_trigonometry_004",
+      "goalId": "grade10-mathematics",
+      "question": "If sin θ = 3/5, then cos θ =",
+      "options": ["4/5", "3/4", "5/4", "5/3"],
+      "correctIndex": 0,
+      "explanation": "Using sin²θ + cos²θ = 1: cos²θ = 1 − 9/25 = 16/25 → cos θ = 4/5.",
+      "difficulty": "medium",
+      "tags": ["trigonometry", "pythagorean-identity"]
+    },
+    {
+      "id": "q_mathematics_10_trigonometry_005",
+      "goalId": "grade10-mathematics",
+      "question": "If 2 cos θ = √3, then the value of θ is:",
+      "options": ["45°", "30°", "60°", "90°"],
+      "correctIndex": 1,
+      "explanation": "cos θ = √3/2. cos 30° = √3/2, so θ = 30°.",
+      "difficulty": "medium",
+      "tags": ["trigonometry", "standard-ratios"]
+    },
+    {
+      "id": "q_mathematics_10_trigonometry_006",
+      "goalId": "grade10-mathematics",
+      "question": "If sin θ − cos θ = 0, then the value of θ is:",
+      "options": ["0°", "30°", "45°", "60°"],
+      "correctIndex": 2,
+      "explanation": "sin θ = cos θ → tan θ = 1 → θ = 45°.",
+      "difficulty": "hard",
+      "tags": ["trigonometry", "identity", "angle"]
+    },
+    {
+      "id": "q_mathematics_10_trigonometry_007",
+      "goalId": "grade10-mathematics",
+      "question": "The value of (sin²63° + sin²27°) / (cos²17° + cos²73°) is:",
+      "options": ["0", "1/2", "1", "2"],
+      "correctIndex": 2,
+      "explanation": "sin 63° = cos 27°, so sin²63° + sin²27° = cos²27° + sin²27° = 1. Similarly cos²17° + cos²73° = cos²17° + sin²17° = 1. Ratio = 1/1 = 1.",
+      "difficulty": "hard",
+      "tags": ["trigonometry", "complementary-angles", "identity"]
+    }
+  ]
+}

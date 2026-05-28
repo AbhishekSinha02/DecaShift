@@ -1,0 +1,168 @@
+{
+  "goalId": "grade10-science",
+  "title": "Grade 10 Science — Metals and Non-metals & Life Processes",
+  "description": "Metals and Non-metals and Life Processes practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_10_metals_001",
+      "goalId": "grade10-science",
+      "question": "Which metal is liquid at room temperature?",
+      "options": ["Iron", "Mercury", "Sodium", "Aluminium"],
+      "correctIndex": 1,
+      "explanation": "Mercury (Hg) has a very low melting point of −38.83°C, making it the only metal that exists as a liquid at room temperature.",
+      "difficulty": "easy",
+      "tags": ["metals-non-metals", "physical-properties"]
+    },
+    {
+      "id": "q_science_10_metals_002",
+      "goalId": "grade10-science",
+      "question": "Which of the following is a non-metal that is a good conductor of electricity?",
+      "options": ["Sulphur", "Phosphorus", "Graphite", "Bromine"],
+      "correctIndex": 2,
+      "explanation": "Graphite (an allotrope of carbon, a non-metal) is a good conductor of electricity because its structure has free electrons that can move between layers.",
+      "difficulty": "easy",
+      "tags": ["metals-non-metals", "graphite", "conductivity"]
+    },
+    {
+      "id": "q_science_10_metals_003",
+      "goalId": "grade10-science",
+      "question": "Metals are generally:",
+      "options": ["Brittle and non-lustrous", "Good conductors of heat and electricity", "Non-malleable and non-ductile", "Electronegative elements"],
+      "correctIndex": 1,
+      "explanation": "Metals are characterised by being good conductors of heat and electricity, having metallic lustre, and being malleable and ductile.",
+      "difficulty": "easy",
+      "tags": ["metals-non-metals", "physical-properties"]
+    },
+    {
+      "id": "q_science_10_metals_004",
+      "goalId": "grade10-science",
+      "question": "The ore of aluminium is:",
+      "options": ["Haematite", "Bauxite", "Malachite", "Magnetite"],
+      "correctIndex": 1,
+      "explanation": "Bauxite (Al₂O₃·2H₂O) is the principal ore of aluminium. Haematite is an iron ore, malachite contains copper, and magnetite is another iron ore.",
+      "difficulty": "easy",
+      "tags": ["metals-non-metals", "ores", "aluminium"]
+    },
+    {
+      "id": "q_science_10_metals_005",
+      "goalId": "grade10-science",
+      "question": "When sodium is exposed to air, it tarnishes quickly. The compound primarily formed is:",
+      "options": ["NaO", "Na₂O₂", "Na₂O", "NaOH"],
+      "correctIndex": 2,
+      "explanation": "Sodium reacts with oxygen in air to form sodium oxide (Na₂O) primarily, though Na₂O₂ can also form. This is why sodium is stored in kerosene.",
+      "difficulty": "medium",
+      "tags": ["metals-non-metals", "sodium", "oxidation"]
+    },
+    {
+      "id": "q_science_10_metals_006",
+      "goalId": "grade10-science",
+      "question": "Which metal does not react with dilute acids but dissolves in aqua regia?",
+      "options": ["Copper", "Iron", "Zinc", "Gold"],
+      "correctIndex": 3,
+      "explanation": "Gold is below hydrogen in the activity series and does not react with dilute acids. However, aqua regia (3 parts HCl + 1 part HNO₃) dissolves gold.",
+      "difficulty": "medium",
+      "tags": ["metals-non-metals", "gold", "aqua-regia", "reactivity-series"]
+    },
+    {
+      "id": "q_science_10_metals_007",
+      "goalId": "grade10-science",
+      "question": "Thermite reaction: 2Al + Fe₂O₃ → Al₂O₃ + 2Fe. What does this demonstrate?",
+      "options": [
+        "Iron is more reactive than aluminium",
+        "Aluminium is more reactive than iron",
+        "Both metals are equally reactive",
+        "Iron displaces aluminium"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aluminium displaces iron from its oxide because aluminium is more reactive. This is an example of a highly exothermic displacement reaction used in welding railway tracks.",
+      "difficulty": "medium",
+      "tags": ["metals-non-metals", "thermite", "reactivity-series"]
+    },
+    {
+      "id": "q_science_10_metals_008",
+      "goalId": "grade10-science",
+      "question": "The process of depositing a layer of a desired metal on another metal using electricity is called:",
+      "options": ["Smelting", "Roasting", "Electroplating", "Galvanisation"],
+      "correctIndex": 2,
+      "explanation": "Electroplating uses electricity to coat one metal with a thin layer of another metal. It is used to prevent corrosion and improve appearance.",
+      "difficulty": "hard",
+      "tags": ["metals-non-metals", "electroplating"]
+    },
+    {
+      "id": "q_science_10_life-processes_001",
+      "goalId": "grade10-science",
+      "question": "The process by which plants manufacture food from sunlight, water, and CO₂ is called:",
+      "options": ["Respiration", "Transpiration", "Photosynthesis", "Fermentation"],
+      "correctIndex": 2,
+      "explanation": "Photosynthesis is the process by which chlorophyll-containing plants use sunlight, water, and CO₂ to produce glucose and oxygen.",
+      "difficulty": "easy",
+      "tags": ["life-processes", "photosynthesis"]
+    },
+    {
+      "id": "q_science_10_life-processes_002",
+      "goalId": "grade10-science",
+      "question": "Where does the digestion of proteins begin in the human body?",
+      "options": ["Mouth", "Small intestine", "Stomach", "Large intestine"],
+      "correctIndex": 2,
+      "explanation": "Protein digestion begins in the stomach where pepsin (activated by HCl) starts breaking down proteins into smaller peptides.",
+      "difficulty": "easy",
+      "tags": ["life-processes", "digestion", "proteins"]
+    },
+    {
+      "id": "q_science_10_life-processes_003",
+      "goalId": "grade10-science",
+      "question": "The enzyme secreted by salivary glands that acts on starch is:",
+      "options": ["Pepsin", "Lipase", "Salivary amylase", "Trypsin"],
+      "correctIndex": 2,
+      "explanation": "Salivary amylase (ptyalin) is secreted by salivary glands. It begins the digestion of starch into maltose in the mouth.",
+      "difficulty": "medium",
+      "tags": ["life-processes", "digestion", "enzymes", "salivary-amylase"]
+    },
+    {
+      "id": "q_science_10_life-processes_004",
+      "goalId": "grade10-science",
+      "question": "The oxygen released during photosynthesis comes from:",
+      "options": ["CO₂", "Water", "Glucose", "Chlorophyll"],
+      "correctIndex": 1,
+      "explanation": "During the light reactions of photosynthesis, water molecules are split (photolysis). The oxygen atoms are released as O₂ gas.",
+      "difficulty": "medium",
+      "tags": ["life-processes", "photosynthesis", "oxygen", "photolysis"]
+    },
+    {
+      "id": "q_science_10_life-processes_005",
+      "goalId": "grade10-science",
+      "question": "Amoeba takes in food through a process called:",
+      "options": ["Absorption", "Ingestion", "Endocytosis (phagocytosis)", "Pinocytosis"],
+      "correctIndex": 2,
+      "explanation": "Amoeba engulfs food particles by wrapping its pseudopodia around them. This process of engulfing solid particles is called phagocytosis, a type of endocytosis.",
+      "difficulty": "medium",
+      "tags": ["life-processes", "nutrition", "amoeba", "phagocytosis"]
+    },
+    {
+      "id": "q_science_10_life-processes_006",
+      "goalId": "grade10-science",
+      "question": "Stomata open when guard cells:",
+      "options": ["Lose water and become flaccid", "Absorb water and become turgid", "Release CO₂", "Absorb CO₂"],
+      "correctIndex": 1,
+      "explanation": "When guard cells absorb water, they become turgid and curved, pulling away from each other to open the stomatal pore. Flaccid guard cells close the stoma.",
+      "difficulty": "hard",
+      "tags": ["life-processes", "transpiration", "stomata", "guard-cells"]
+    },
+    {
+      "id": "q_science_10_life-processes_007",
+      "goalId": "grade10-science",
+      "question": "In the kidney, the process of removing waste from blood is called:",
+      "options": ["Osmoregulation", "Excretion", "Ultrafiltration", "Reabsorption"],
+      "correctIndex": 2,
+      "explanation": "In the glomerulus, blood is filtered under high pressure. This process is called ultrafiltration — small molecules including urea, glucose, and water pass through, while large proteins and blood cells remain.",
+      "difficulty": "hard",
+      "tags": ["life-processes", "excretion", "kidney", "ultrafiltration"]
+    }
+  ]
+}

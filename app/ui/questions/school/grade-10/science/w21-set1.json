@@ -1,0 +1,168 @@
+{
+  "goalId": "grade10-science",
+  "title": "Grade 10 Science — Chemical Reactions & Acids, Bases, Salts",
+  "description": "Chemical Reactions and Equations and Acids Bases Salts practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 21,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_10_chemical-reactions_001",
+      "goalId": "grade10-science",
+      "question": "CaCO₃ → CaO + CO₂ is an example of which type of chemical reaction?",
+      "options": ["Combination", "Decomposition", "Displacement", "Double displacement"],
+      "correctIndex": 1,
+      "explanation": "A single compound breaking into two or more simpler substances is a decomposition reaction. Here CaCO₃ breaks into CaO and CO₂.",
+      "difficulty": "easy",
+      "tags": ["chemical-reactions", "decomposition"]
+    },
+    {
+      "id": "q_science_10_chemical-reactions_002",
+      "goalId": "grade10-science",
+      "question": "Fe + CuSO₄ → FeSO₄ + Cu. This reaction is:",
+      "options": ["Combination", "Decomposition", "Displacement", "Double displacement"],
+      "correctIndex": 2,
+      "explanation": "Iron displaces copper from copper sulphate solution because iron is more reactive than copper. This is a displacement (single displacement) reaction.",
+      "difficulty": "easy",
+      "tags": ["chemical-reactions", "displacement", "reactivity-series"]
+    },
+    {
+      "id": "q_science_10_chemical-reactions_003",
+      "goalId": "grade10-science",
+      "question": "2Mg + O₂ → 2MgO. What type of reaction is this?",
+      "options": ["Decomposition", "Displacement", "Combination", "Neutralisation"],
+      "correctIndex": 2,
+      "explanation": "Two or more substances combining to form a single product is a combination (synthesis) reaction. Magnesium and oxygen combine to form magnesium oxide.",
+      "difficulty": "easy",
+      "tags": ["chemical-reactions", "combination"]
+    },
+    {
+      "id": "q_science_10_chemical-reactions_004",
+      "goalId": "grade10-science",
+      "question": "When lead nitrate solution and potassium iodide solution are mixed, a yellow precipitate is formed. This precipitate is:",
+      "options": ["Lead chloride", "Potassium nitrate", "Lead iodide", "Potassium iodide"],
+      "correctIndex": 2,
+      "explanation": "Pb(NO₃)₂ + 2KI → PbI₂↓ + 2KNO₃. Lead iodide (PbI₂) is an insoluble yellow precipitate formed in this double displacement reaction.",
+      "difficulty": "easy",
+      "tags": ["chemical-reactions", "precipitate", "double-displacement"]
+    },
+    {
+      "id": "q_science_10_chemical-reactions_005",
+      "goalId": "grade10-science",
+      "question": "Pb(NO₃)₂ + 2KI → PbI₂ + 2KNO₃. The type of reaction is:",
+      "options": ["Displacement", "Combination", "Double displacement", "Decomposition"],
+      "correctIndex": 2,
+      "explanation": "Two compounds exchange ions or groups to form two new compounds. This exchange of cations and anions between the two reactants is called double displacement.",
+      "difficulty": "medium",
+      "tags": ["chemical-reactions", "double-displacement"]
+    },
+    {
+      "id": "q_science_10_chemical-reactions_006",
+      "goalId": "grade10-science",
+      "question": "Which of the following reactions is exothermic?",
+      "options": [
+        "CaCO₃ → CaO + CO₂",
+        "CH₄ + 2O₂ → CO₂ + 2H₂O",
+        "N₂ + O₂ → 2NO",
+        "2HgO → 2Hg + O₂"
+      ],
+      "correctIndex": 1,
+      "explanation": "Combustion reactions release energy (heat and light). CH₄ + 2O₂ → CO₂ + 2H₂O is the combustion of methane — an exothermic reaction.",
+      "difficulty": "medium",
+      "tags": ["chemical-reactions", "exothermic", "endothermic"]
+    },
+    {
+      "id": "q_science_10_chemical-reactions_007",
+      "goalId": "grade10-science",
+      "question": "In the reaction Zn + 2HCl → ZnCl₂ + H₂, which element is oxidised?",
+      "options": ["Hydrogen", "Zinc", "Chlorine", "No element is oxidised"],
+      "correctIndex": 1,
+      "explanation": "Zinc loses electrons and its oxidation state increases from 0 to +2. Losing electrons is oxidation. Hydrogen gains electrons (from +1 to 0) and is reduced.",
+      "difficulty": "medium",
+      "tags": ["chemical-reactions", "oxidation", "reduction", "redox"]
+    },
+    {
+      "id": "q_science_10_chemical-reactions_008",
+      "goalId": "grade10-science",
+      "question": "When dilute H₂SO₄ reacts with zinc, a gas is evolved. Bringing a burning splinter near it produces a 'pop' sound. The gas is:",
+      "options": ["Oxygen", "CO₂", "SO₂", "Hydrogen"],
+      "correctIndex": 3,
+      "explanation": "Zn + H₂SO₄ → ZnSO₄ + H₂↑. Hydrogen gas is produced, which burns with a 'pop' sound when ignited. This is the standard test for hydrogen.",
+      "difficulty": "hard",
+      "tags": ["chemical-reactions", "hydrogen-gas", "acid-metal"]
+    },
+    {
+      "id": "q_science_10_acids-bases_001",
+      "goalId": "grade10-science",
+      "question": "The pH of pure water at 25°C is:",
+      "options": ["0", "5", "7", "14"],
+      "correctIndex": 2,
+      "explanation": "Pure water is neutral with equal concentrations of H⁺ and OH⁻ ions. Its pH is exactly 7 at 25°C.",
+      "difficulty": "easy",
+      "tags": ["acids-bases", "pH", "water"]
+    },
+    {
+      "id": "q_science_10_acids-bases_002",
+      "goalId": "grade10-science",
+      "question": "Universal indicator turns red in the presence of:",
+      "options": ["Neutral solution", "Weak acid", "Strong acid", "Strong base"],
+      "correctIndex": 2,
+      "explanation": "Universal indicator shows different colours across the pH scale. Red indicates a very low pH (1–3), which corresponds to a strong acid.",
+      "difficulty": "easy",
+      "tags": ["acids-bases", "pH-indicator", "universal-indicator"]
+    },
+    {
+      "id": "q_science_10_acids-bases_003",
+      "goalId": "grade10-science",
+      "question": "In the reaction Na₂CO₃ + H₂SO₄ → Na₂SO₄ + H₂O + CO₂, the salt formed is:",
+      "options": ["Sodium carbonate", "Sodium sulphate", "Sulphuric acid", "Sodium hydroxide"],
+      "correctIndex": 1,
+      "explanation": "When a carbonate reacts with an acid, a salt, water, and CO₂ are produced. Here, sodium sulphate (Na₂SO₄) is the salt.",
+      "difficulty": "medium",
+      "tags": ["acids-bases", "salts", "neutralisation"]
+    },
+    {
+      "id": "q_science_10_acids-bases_004",
+      "goalId": "grade10-science",
+      "question": "Bleaching powder is prepared by passing which gas over slaked lime?",
+      "options": ["SO₂", "Cl₂", "CO₂", "NH₃"],
+      "correctIndex": 1,
+      "explanation": "Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O. Slaked lime reacts with chlorine gas to form bleaching powder (calcium hypochlorite/calcium oxychloride).",
+      "difficulty": "medium",
+      "tags": ["acids-bases", "salts", "bleaching-powder"]
+    },
+    {
+      "id": "q_science_10_acids-bases_005",
+      "goalId": "grade10-science",
+      "question": "Which of the following is a strong base?",
+      "options": ["Ca(OH)₂", "Mg(OH)₂", "NaOH", "NH₄OH"],
+      "correctIndex": 2,
+      "explanation": "NaOH (sodium hydroxide) is a strong base — it completely dissociates into Na⁺ and OH⁻ ions in water. The others are weak or slightly soluble bases.",
+      "difficulty": "medium",
+      "tags": ["acids-bases", "strong-base", "NaOH"]
+    },
+    {
+      "id": "q_science_10_acids-bases_006",
+      "goalId": "grade10-science",
+      "question": "The chemical formula of Plaster of Paris is:",
+      "options": ["CaSO₄", "CaSO₄·2H₂O", "CaSO₄·½H₂O", "Ca(OH)₂"],
+      "correctIndex": 2,
+      "explanation": "Plaster of Paris is calcium sulphate hemihydrate with formula CaSO₄·½H₂O. It is obtained by heating gypsum (CaSO₄·2H₂O) to 100–120°C.",
+      "difficulty": "hard",
+      "tags": ["acids-bases", "salts", "plaster-of-paris"]
+    },
+    {
+      "id": "q_science_10_acids-bases_007",
+      "goalId": "grade10-science",
+      "question": "When baking soda (NaHCO₃) reacts with tartaric acid in baking powder, the gas released that makes bread fluffy is:",
+      "options": ["SO₂", "O₂", "CO₂", "H₂"],
+      "correctIndex": 2,
+      "explanation": "NaHCO₃ + H⁺ → Na⁺ + H₂O + CO₂↑. Carbon dioxide gas released during baking creates bubbles, making bread soft and fluffy.",
+      "difficulty": "hard",
+      "tags": ["acids-bases", "baking-soda", "CO2"]
+    }
+  ]
+}

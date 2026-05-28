@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-mathematics",
+  "title": "Grade 10 Mathematics — Linear Equations & Quadratic Equations",
+  "description": "Linear Equations in Two Variables and Quadratic Equations practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 22,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_10_linear-eq_001",
+      "goalId": "grade10-mathematics",
+      "question": "The solution of the pair of equations x + y = 7 and x − y = 3 is:",
+      "options": ["x = 5, y = 2", "x = 2, y = 5", "x = 4, y = 3", "x = 3, y = 4"],
+      "correctIndex": 0,
+      "explanation": "Adding both equations: 2x = 10 → x = 5. Substituting: 5 + y = 7 → y = 2.",
+      "difficulty": "easy",
+      "tags": ["linear-equations", "substitution", "elimination"]
+    },
+    {
+      "id": "q_mathematics_10_linear-eq_002",
+      "goalId": "grade10-mathematics",
+      "question": "The lines 2x + y = 3 and 4x + 2y = 6 represent:",
+      "options": ["Parallel lines", "Intersecting lines", "Coincident lines", "Perpendicular lines"],
+      "correctIndex": 2,
+      "explanation": "Dividing the second equation by 2 gives 2x + y = 3, identical to the first. So both equations represent the same line (coincident).",
+      "difficulty": "easy",
+      "tags": ["linear-equations", "graphical-method", "coincident"]
+    },
+    {
+      "id": "q_mathematics_10_linear-eq_003",
+      "goalId": "grade10-mathematics",
+      "question": "For a pair of linear equations a₁x + b₁y = c₁ and a₂x + b₂y = c₂ to have a unique solution, the condition is:",
+      "options": ["a₁/a₂ = b₁/b₂", "a₁/a₂ ≠ b₁/b₂", "a₁/a₂ = b₁/b₂ = c₁/c₂", "a₁/a₂ = b₁/b₂ ≠ c₁/c₂"],
+      "correctIndex": 1,
+      "explanation": "A unique solution (intersecting lines) requires the ratio of coefficients of x and y to be unequal: a₁/a₂ ≠ b₁/b₂.",
+      "difficulty": "easy",
+      "tags": ["linear-equations", "consistency", "unique-solution"]
+    },
+    {
+      "id": "q_mathematics_10_linear-eq_004",
+      "goalId": "grade10-mathematics",
+      "question": "For the equations 3x + 2y = 5 and 6x + 4y = k to have infinitely many solutions, k must equal:",
+      "options": ["5", "8", "10", "15"],
+      "correctIndex": 2,
+      "explanation": "For infinitely many solutions: a₁/a₂ = b₁/b₂ = c₁/c₂. Here 3/6 = 2/4 = 1/2, so 5/k = 1/2 → k = 10.",
+      "difficulty": "easy",
+      "tags": ["linear-equations", "infinitely-many-solutions"]
+    },
+    {
+      "id": "q_mathematics_10_linear-eq_005",
+      "goalId": "grade10-mathematics",
+      "question": "A father's age is 3 times his son's age. Ten years later, the father will be twice the son's age. The father's present age is:",
+      "options": ["20", "25", "30", "40"],
+      "correctIndex": 2,
+      "explanation": "Let son's age = s. Father = 3s. After 10 years: 3s + 10 = 2(s + 10) → 3s + 10 = 2s + 20 → s = 10. Father's age = 30.",
+      "difficulty": "medium",
+      "tags": ["linear-equations", "word-problem", "age"]
+    },
+    {
+      "id": "q_mathematics_10_linear-eq_006",
+      "goalId": "grade10-mathematics",
+      "question": "When 2 is added to both numerator and denominator of a fraction, it becomes 9/11. When 3 is added to both, it becomes 5/6. The original numerator is:",
+      "options": ["5", "7", "9", "11"],
+      "correctIndex": 1,
+      "explanation": "Let fraction = n/d. Equations: 11(n+2) = 9(d+2) → 11n − 9d = −4. And 6(n+3) = 5(d+3) → 6n − 5d = −3. Solving: d = 9, n = 7.",
+      "difficulty": "medium",
+      "tags": ["linear-equations", "word-problem", "fractions"]
+    },
+    {
+      "id": "q_mathematics_10_linear-eq_007",
+      "goalId": "grade10-mathematics",
+      "question": "A boat travels at 12 km/h in still water and the stream flows at 3 km/h. Time taken to cover 45 km downstream is:",
+      "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+      "correctIndex": 1,
+      "explanation": "Downstream speed = boat speed + stream speed = 12 + 3 = 15 km/h. Time = 45 ÷ 15 = 3 hours.",
+      "difficulty": "medium",
+      "tags": ["linear-equations", "word-problem", "boats-streams"]
+    },
+    {
+      "id": "q_mathematics_10_linear-eq_008",
+      "goalId": "grade10-mathematics",
+      "question": "The equations 2x − 3y + 7 = 0 and (a + b)x − (a + b − 3)y = 4b + a are inconsistent when:",
+      "options": ["a + b = 6", "a + b = −6", "a + b = 3", "a + b = −3"],
+      "correctIndex": 1,
+      "explanation": "For inconsistent lines: a₁/a₂ = b₁/b₂. 2/(a+b) = 3/(a+b−3) → 2(a+b−3) = 3(a+b) → −a − b = 6 → a + b = −6.",
+      "difficulty": "hard",
+      "tags": ["linear-equations", "inconsistent", "conditions"]
+    },
+    {
+      "id": "q_mathematics_10_quadratic-eq_001",
+      "goalId": "grade10-mathematics",
+      "question": "The discriminant of 3x² − 2x + 1 is:",
+      "options": ["8", "−8", "16", "4"],
+      "correctIndex": 1,
+      "explanation": "D = b² − 4ac = (−2)² − 4(3)(1) = 4 − 12 = −8. Since D < 0, the equation has no real roots.",
+      "difficulty": "easy",
+      "tags": ["quadratic-equations", "discriminant"]
+    },
+    {
+      "id": "q_mathematics_10_quadratic-eq_002",
+      "goalId": "grade10-mathematics",
+      "question": "The roots of x² − 6x + 9 = 0 are:",
+      "options": ["3 and −3", "3 and 3", "6 and 0", "−3 and −3"],
+      "correctIndex": 1,
+      "explanation": "x² − 6x + 9 = (x − 3)². So both roots are equal to 3. D = 36 − 36 = 0 confirms equal roots.",
+      "difficulty": "easy",
+      "tags": ["quadratic-equations", "equal-roots", "factorisation"]
+    },
+    {
+      "id": "q_mathematics_10_quadratic-eq_003",
+      "goalId": "grade10-mathematics",
+      "question": "For what values of k does x² + kx + 4 = 0 have equal roots?",
+      "options": ["k = 2 only", "k = −4 only", "k = ±4", "k = ±2"],
+      "correctIndex": 2,
+      "explanation": "For equal roots, D = 0: k² − 4(1)(4) = 0 → k² = 16 → k = ±4.",
+      "difficulty": "medium",
+      "tags": ["quadratic-equations", "equal-roots", "discriminant"]
+    },
+    {
+      "id": "q_mathematics_10_quadratic-eq_004",
+      "goalId": "grade10-mathematics",
+      "question": "If x = 2 is a root of 2x² − 5x + k = 0, then k equals:",
+      "options": ["1", "2", "3", "4"],
+      "correctIndex": 1,
+      "explanation": "Substituting x = 2: 2(4) − 5(2) + k = 0 → 8 − 10 + k = 0 → k = 2.",
+      "difficulty": "medium",
+      "tags": ["quadratic-equations", "roots", "substitution"]
+    },
+    {
+      "id": "q_mathematics_10_quadratic-eq_005",
+      "goalId": "grade10-mathematics",
+      "question": "The product of two consecutive positive integers is 132. The integers are:",
+      "options": ["10 and 11", "11 and 12", "12 and 13", "9 and 10"],
+      "correctIndex": 1,
+      "explanation": "Let integers be n and n+1. n(n+1) = 132 → n² + n − 132 = 0 → (n + 12)(n − 11) = 0 → n = 11. Integers: 11 and 12.",
+      "difficulty": "medium",
+      "tags": ["quadratic-equations", "word-problem", "consecutive-integers"]
+    },
+    {
+      "id": "q_mathematics_10_quadratic-eq_006",
+      "goalId": "grade10-mathematics",
+      "question": "A train travels 360 km at uniform speed. If the speed were 5 km/h more, it would take 1 hour less. The original speed is:",
+      "options": ["30 km/h", "35 km/h", "40 km/h", "45 km/h"],
+      "correctIndex": 2,
+      "explanation": "360/v − 360/(v+5) = 1 → 360(v+5) − 360v = v(v+5) → 1800 = v² + 5v → v² + 5v − 1800 = 0 → v = 40 km/h.",
+      "difficulty": "hard",
+      "tags": ["quadratic-equations", "word-problem", "speed-distance"]
+    },
+    {
+      "id": "q_mathematics_10_quadratic-eq_007",
+      "goalId": "grade10-mathematics",
+      "question": "If one root of x² − 8x + k = 0 is three times the other, then k =",
+      "options": ["6", "9", "12", "15"],
+      "correctIndex": 2,
+      "explanation": "Let roots be α and 3α. Sum: 4α = 8 → α = 2. Product: α × 3α = 3α² = k = 3 × 4 = 12.",
+      "difficulty": "hard",
+      "tags": ["quadratic-equations", "roots-relationship"]
+    }
+  ]
+}
