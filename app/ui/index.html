@@ -328,6 +328,21 @@
 
       <div id="subject-tabs" class="subject-tabs" style="display:none"></div>
 
+      <!-- Flash Drills Section -->
+      <div class="flash-drill-section" id="flash-drill-section">
+        <div class="flash-drill-header">
+          <span class="flash-drill-title">⚡ Flash Drills</span>
+          <span class="flash-drill-sub">Quick 2-min memory sessions</span>
+        </div>
+        <div class="flash-drill-pills">
+          <button class="drill-pill" onclick="_startDrill('tables')">×&nbsp; Tables</button>
+          <button class="drill-pill" onclick="_startDrill('squares')">²&nbsp; Squares</button>
+          <button class="drill-pill" onclick="_startDrill('cubes')">³&nbsp; Cubes</button>
+          <button class="drill-pill" onclick="_startDrill('formulas')">∫&nbsp; Formulas</button>
+          <button class="drill-pill drill-pill-gk" onclick="_startDrill('gk')">🌍 Today's GK</button>
+        </div>
+      </div>
+
       <div id="goals-list" class="goals-list">
         <p class="text-muted">Loading goals…</p>
       </div>
@@ -402,6 +417,58 @@
       <div class="result-actions">
         <button class="btn btn-primary" id="restart-btn">Restart Goal</button>
         <button class="btn btn-ghost"   id="back-home-btn">Back to Goals</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SCREEN: Flash Drill
+       ══════════════════════════════════════════════════════════ -->
+  <section id="screen-drill" class="screen">
+    <div class="drill-wrap">
+
+      <div class="drill-header">
+        <div class="drill-header-left">
+          <button class="btn btn-ghost btn-sm" onclick="_exitDrill()">← Back</button>
+          <span class="drill-name" id="drill-name">Tables Drill</span>
+        </div>
+        <div class="drill-timer" id="drill-timer">0:00</div>
+      </div>
+
+      <div class="drill-progress-row">
+        <div class="drill-progress-track">
+          <div class="drill-progress-fill" id="drill-progress-fill"></div>
+        </div>
+        <span class="drill-progress-text" id="drill-progress-text">1 / 20</span>
+      </div>
+
+      <!-- Formula flash card (shown before formula MCQ) -->
+      <div class="drill-formula-flash hidden" id="drill-formula-flash">
+        <p class="drill-formula-label">Remember this formula:</p>
+        <div class="drill-formula-card" id="drill-formula-text"></div>
+        <div class="drill-formula-countdown" id="drill-formula-countdown">4</div>
+      </div>
+
+      <div class="drill-question-wrap" id="drill-question-wrap">
+        <p class="drill-question" id="drill-question">Loading…</p>
+        <div class="drill-answer-grid" id="drill-answer-grid"></div>
+      </div>
+
+      <div class="drill-pb" id="drill-pb"></div>
+
+      <!-- Result panel (shown after last question) -->
+      <div class="drill-result hidden" id="drill-result">
+        <div class="drill-result-title" id="drill-result-title">⚡ Drill Complete!</div>
+        <div class="drill-result-score" id="drill-result-score"></div>
+        <div class="drill-result-pb" id="drill-result-pb"></div>
+        <div class="drill-result-stats" id="drill-result-stats"></div>
+        <div class="drill-result-missed" id="drill-result-missed"></div>
+        <div class="drill-result-actions">
+          <button class="btn btn-primary" onclick="_retryDrill()">Try Again</button>
+          <button class="btn btn-ghost"   onclick="_shareDrillResult()">Share Result</button>
+          <button class="btn btn-ghost"   onclick="_exitDrill()">Back to Home</button>
+        </div>
       </div>
 
     </div>
