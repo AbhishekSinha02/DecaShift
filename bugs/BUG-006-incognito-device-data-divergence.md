@@ -111,18 +111,21 @@ will start fresh." Add an export/import feature for manual cross-device transfer
 
 ---
 
-## Recommended Approach
+## Fix Priority (Decided 2026-05-28)
 
-**Now (before marketing launch): Option A** — sync streak after every session.
-Quick, targeted, closes the most visible symptom. Takes 30 minutes.
+**Option A — IMMEDIATE PRIORITY** ✅ Planned for next code session
+Sync streak + grade to Drive after every session end. 30 minutes.
+Closes the most visible symptom before any marketing push.
+Session: `sessions/PENDING-bug-006-streak-sync.md` (Priority 1 in pending queue)
 
-**Post 1,000 users: Option B** — migrate to Upstash Redis.
-The real fix. Upstash free tier handles ~10K commands/day. At 1,000 users
-doing 3 sessions/day = 3,000 commands/day — well within free tier.
+**Option B — LONG-TERM STRATEGY** 📋 Post 1,000 users
+Migrate from Google Drive to Upstash Redis. Proper cross-device sync.
+No OAuth. Syncs after every action. Eliminates F4 (OAuth drop-off) simultaneously.
+Upstash free tier: 10K commands/day → covers 1,000 users at 3 sessions/day.
 Infrastructure cost: ₹0 until scale demands paid tier.
 
-Option C is not recommended — cross-device sync is table stakes for any product
-that parents share between themselves and their child.
+**Option C — Not planned.** Cross-device sync is table stakes for a product
+where parents share the app between themselves and their child.
 
 ---
 

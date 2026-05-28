@@ -7,7 +7,7 @@
 | BUG-003 | — | — | ✅ Fixed v3.1 |
 | BUG-004 | Greeting showed full email instead of name | Low | ✅ Fixed |
 | BUG-005 | Weekly questions in wrong folder (manifest mismatch) | High | ✅ Fixed |
-| [BUG-006](BUG-006-incognito-device-data-divergence.md) | Incognito / cross-device data divergence — streak, questions, login behave differently | High | 🔴 Open |
+| [BUG-006](BUG-006-incognito-device-data-divergence.md) | Incognito / cross-device data divergence — streak, questions, login behave differently | High | 🟡 Fix A planned (sync streak after every session) · Fix B long-term (Upstash Redis) |
 
 ---
 

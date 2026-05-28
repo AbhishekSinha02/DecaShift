@@ -35,12 +35,13 @@ When user says **"start the session"**:
 
 | # | File | Type | Focus | Task | Depends On |
 |---|---|---|---|---|---|
-| 1 | [PENDING-app-js-restructure.md](PENDING-app-js-restructure.md) | Code | Split app.js → 6 focused modules | P2-T037 | P2-T031 done |
-| 2 | [PENDING-gk-capsule-tab.md](PENDING-gk-capsule-tab.md) | Code | Daily GK capsule + GK subject tab | P2-T032 | P2-T031 done |
-| 3 | [PENDING-pwa-install-prompt.md](PENDING-pwa-install-prompt.md) | Code | PWA install prompt + taskbar guide | P2-T033 | — |
-| 4 | [PENDING-settings-6-subscreens.md](PENDING-settings-6-subscreens.md) | Code | Settings restructure → 6 sub-screens | P2-T030 remainder | — |
-| 5 | [PENDING-city-partners-reward-card.md](PENDING-city-partners-reward-card.md) | Code | City partner footer + Reward Cards | P3-T032 | P3-T031 done |
-| 6 | [PENDING-content-grade9-12-set2.md](PENDING-content-grade9-12-set2.md) | Content | Grade 9–12 Set 2 — second round of content | P2-T034 | 1:30 PM session done |
+| 1 | [PENDING-bug-006-streak-sync.md](PENDING-bug-006-streak-sync.md) | Bug Fix | Sync streak to Drive after every session (30 min) | BUG-006 Fix A | — |
+| 2 | [PENDING-app-js-restructure.md](PENDING-app-js-restructure.md) | Code | Split app.js → 6 focused modules | P2-T037 | P2-T031 done |
+| 3 | [PENDING-gk-capsule-tab.md](PENDING-gk-capsule-tab.md) | Code | Daily GK capsule + GK subject tab | P2-T032 | P2-T031 done |
+| 4 | [PENDING-pwa-install-prompt.md](PENDING-pwa-install-prompt.md) | Code | PWA install prompt + taskbar guide | P2-T033 | — |
+| 5 | [PENDING-settings-6-subscreens.md](PENDING-settings-6-subscreens.md) | Code | Settings restructure → 6 sub-screens | P2-T030 remainder | — |
+| 6 | [PENDING-city-partners-reward-card.md](PENDING-city-partners-reward-card.md) | Code | City partner footer + Reward Cards | P3-T032 | P3-T031 done |
+| 7 | [PENDING-content-grade9-12-set2.md](PENDING-content-grade9-12-set2.md) | Content | Grade 9–12 Set 2 — second round of content | P2-T034 | 1:30 PM session done |
 
 ---
 
