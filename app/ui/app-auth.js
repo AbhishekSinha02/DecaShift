@@ -1,0 +1,188 @@
+// app-auth.js — Landing, Sign Up, Sign In, Sign Out
+
+// ── Landing ───────────────────────────────────────────────────────────────────
+
+function _setupLanding() {
+  document.getElementById('btn-for-students').onclick      = () => _goToSignup('school');
+  document.getElementById('btn-for-professionals').onclick = () => _goToSignup('professional');
+  document.getElementById('btn-go-signin').onclick         = () => { _showScreen('signin'); _setupSignin(); };
+}
+
+function _goToSignup(category) {
+  state.pendingCategory = category;
+  _showScreen('signup');
+  _setupSignup(category);
+}
+
+// ── Sign Up ───────────────────────────────────────────────────────────────────
+
+function _setupSignup(category) {
+  const schoolFields = document.getElementById('school-fields');
+  const proFields    = document.getElementById('pro-fields');
+  schoolFields.classList.toggle('hidden', category !== 'school');
+  proFields.classList.toggle('hidden',    category !== 'professional');
+
+  const gradeEl = document.getElementById('reg-grade');
+  if (gradeEl) {
+    gradeEl.onchange = () => {
+      document.getElementById('college-course-group').classList.toggle('hidden', gradeEl.value !== 'college');
+    };
+  }
+
+  document.getElementById('reg-mobile').addEventListener('input', e => {
+    e.target.value = e.target.value.replace(/\D/g, '').slice(0, 10);
+  }, { once: true });
+
+  document.getElementById('signup-form').onsubmit = _handleSignup;
+  document.getElementById('btn-to-signin').onclick = () => { _showScreen('signin'); _setupSignin(); };
+}
+
+async function _handleSignup(e) {
+  e.preventDefault();
+  _clearErrors();
+
+  const name     = document.getElementById('reg-name').value.trim();
+  const email    = document.getElementById('reg-email').value.trim().toLowerCase();
+  const mobile   = document.getElementById('reg-mobile').value.trim();
+  const password = document.getElementById('reg-password').value;
+  const confirm  = document.getElementById('reg-confirm').value;
+  const category = state.pendingCategory || 'professional';
+
+  let valid = true;
+  if (!name)                           { _showError('err-name',     'Enter your name'); valid = false; }
+  if (!email || !_validEmail(email))   { _showError('err-email',    'Enter a valid email'); valid = false; }
+  if (!mobile || mobile.length !== 10) { _showError('err-mobile',   'Enter a 10-digit mobile number'); valid = false; }
+  if (password.length < 6)             { _showError('err-password', 'Password must be at least 6 characters'); valid = false; }
+  if (password !== confirm)            { _showError('err-confirm',  'Passwords do not match'); valid = false; }
+
+  let grade = null, course = null, role = null, company = null, regionalLanguage = null;
+  if (category === 'school') {
+    grade = document.getElementById('reg-grade').value;
+    if (!grade) { _showError('err-grade', 'Select your grade'); valid = false; }
+    if (grade === 'college') {
+      course = document.getElementById('reg-course').value;
+      if (!course) { _showError('err-course', 'Select your course'); valid = false; }
+    }
+    const langEl = document.getElementById('reg-regional-lang');
+    if (langEl && langEl.value) regionalLanguage = langEl.value;
+  } else {
+    role    = document.getElementById('reg-role').value;
+    company = document.getElementById('reg-company').value.trim();
+    if (!role) { _showError('err-role', 'Select your role'); valid = false; }
+  }
+
+  if (!valid) return;
+
+  if (Storage.findAccount(email)) {
+    _showError('err-email', 'This email is already registered. Sign in instead.');
+    return;
+  }
+
+  const btn = document.getElementById('signup-btn');
+  btn.disabled = true; btn.textContent = 'Creating account…';
+
+  const userId       = Storage.getOrCreateUserId();
+  const passwordHash = await Storage.hashPassword(password);
+  const registeredAt = new Date().toISOString();
+
+  const user = {
+    userId, name, email, mobile: '+91' + mobile,
+    category,
+    grade:            grade            || null,
+    course:           course           || null,
+    role:             role             || null,
+    company:          company          || null,
+    regionalLanguage: regionalLanguage || null,
+    registeredAt
+  };
+
+  Storage.saveAccount(email, passwordHash, userId, user);
+  Storage.saveUser(user);
+  state.user = user;
+
+  await _loadQuestionsForUser(user);
+  _autoApplyTheme(user.grade);
+
+  btn.disabled = false; btn.textContent = 'Create Account →';
+  _showScreen('home');
+  _renderHome();
+  _maybeShowWelcome();
+
+  Storage.syncUserToRemote(user).catch(() => {});
+  Storage.syncAccountToDrive({ email, passwordHash, userId, name, category, grade, course, role, company, registeredAt, streak: Storage.loadStreak() }).catch(() => {});
+}
+
+// ── Sign In ───────────────────────────────────────────────────────────────────
+
+function _setupSignin() {
+  document.getElementById('signin-form').onsubmit = _handleSignin;
+  document.getElementById('btn-to-signup').onclick = () => {
+    _showScreen('landing');
+    _setupLanding();
+  };
+}
+
+async function _handleSignin(e) {
+  e.preventDefault();
+  _clearErrors();
+
+  const email    = document.getElementById('si-email').value.trim().toLowerCase();
+  const password = document.getElementById('si-password').value;
+
+  let valid = true;
+  if (!email || !_validEmail(email)) { _showError('err-si-email',    'Enter a valid email'); valid = false; }
+  if (!password)                      { _showError('err-si-password', 'Enter your password'); valid = false; }
+  if (!valid) return;
+
+  const btn = document.getElementById('signin-btn');
+  btn.disabled = true; btn.textContent = 'Signing in…';
+
+  let account = Storage.findAccount(email);
+
+  if (!account) {
+    btn.textContent = 'Checking account…';
+    const driveAccount = await Storage.fetchAccountFromDrive(email);
+    if (!driveAccount) {
+      _showError('err-si-email', 'No account found. Sign up first.');
+      btn.disabled = false; btn.textContent = 'Sign In →';
+      return;
+    }
+    Storage.saveAccount(driveAccount.email, driveAccount.passwordHash, driveAccount.userId);
+    const { passwordHash: _ph, emailHash: _eh, ...userProfile } = driveAccount;
+    Storage.saveUser(userProfile);
+    if (userProfile.streak) Storage.saveStreak(userProfile.streak);
+    account = { email: driveAccount.email, passwordHash: driveAccount.passwordHash, userId: driveAccount.userId };
+  }
+
+  const hash = await Storage.hashPassword(password);
+  if (hash !== account.passwordHash) {
+    _showError('err-si-password', 'Incorrect password.');
+    btn.disabled = false; btn.textContent = 'Sign In →';
+    return;
+  }
+
+  let user = Storage.loadUser();
+  if (!user || user.userId !== account.userId) {
+    const { passwordHash: _ph, ...userProfile } = account;
+    user = userProfile;
+    Storage.saveUser(user);
+  }
+
+  btn.disabled = false; btn.textContent = 'Sign In →';
+  state.user = user;
+  await _loadQuestionsForUser(user);
+  _showScreen('home');
+  _renderHome();
+  _maybeShowWelcome();
+}
+
+// ── Sign Out ──────────────────────────────────────────────────────────────────
+
+function signOut() {
+  Storage.clearSession();
+  state.user      = null;
+  state.goals     = [];
+  state.questions = [];
+  _showScreen('landing');
+  _setupLanding();
+}
