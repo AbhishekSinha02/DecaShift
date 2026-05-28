@@ -75,6 +75,9 @@
 | **[P2-T031](P2-T031-flash-drill-mode-tables-squares-cubes-formulas.md)** | **Flash-Drill mode — speed drills for multiplication tables, squares (1–25), cubes (1–15), formula recall, Daily GK 5-question capsule with personal best tracking + share card** | **M** | **Pending** |
 | **[P2-T032](P2-T032-daily-gk-capsule-current-affairs.md)** | **Daily GK capsule — reflective Daily 5 with explanations, Today in India fact card, monthly Current Affairs pack, GK subject tab, weekly topic rotation** | **S** | **Pending** |
 | **[P2-T033](P2-T033-pwa-install-prompt-taskbar-guide.md)** | **PWA install prompt — Android native banner after 3rd session, iOS Safari manual guide, Windows taskbar steps in Settings → About & Help, standalone detection** | **S** | **Pending** |
+| **[P2-T034](P2-T034-grade-9-12-content-sprint.md)** | **Grade 9–12 content sprint — 800+ questions across 4 grades × 4 subjects; highest-intent users currently underserved; prerequisite before marketing to older students** | **M** | **Pending** |
+| **[P2-T035](P2-T035-content-generation-session-protocol.md)** | **Content generation session protocol — dedicated sessions (no code) for bulk question generation; Sonnet 4.6 writes files directly; 300–500q per 2-hour session; zero additional cost** | **S** | **Pending** |
+| **[P2-T036](P2-T036-curriculum-calendar-config-admin-view.md)** | **Curriculum calendar config + admin view — annual topic plan JSON per grade/subject/week, admin HTML showing coverage gaps, copy-to-clipboard generation commands; merges P3-T021 + P4-T007** | **M** | **Pending** |
 
 ---
 
@@ -250,7 +253,8 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 95 (1 cancelled, 1 superseded) | P1: 13 | P2: 33 | P3: 35 | P4: 9 | P5: 6 | P6: 6*
+*Total tasks: 98 (1 cancelled, 1 superseded) | P1: 13 | P2: 36 | P3: 35 | P4: 9 | P5: 6 | P6: 6*
+*Content Velocity Problem (2026-05-28): P2-T034 (Grade 9-12 sprint) + P2-T035 (generation script) + P2-T036 (curriculum calendar) together permanently resolve the content bottleneck. P2-T035 breaks the Claude Code session dependency for content generation. Google Drive OAuth and Payment/Subscription discussions deferred.*
 *Donnibo Daily Loop (2026-05-28): Four-pillar architecture — LIVE (P3-T033 Planner) · LEARN (P2-T031/032 Drills + GK) · REFLECT (P3-T034 Journal) · GROW (P3-T035 Goals). Together these transform Donnibo from a quiz app into the complete daily companion for school children. No Indian EdTech competitor has all four pillars.*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback | BUG-005 (fixed) — weekly questions moved from `questions/weekly/` into grade+subject folders as day-files; manifest-driven loading; 80 files generated for Grades 3 + 5 as test baseline*
 *Content milestone (2026-05-27): Grades 2–8 all have W21+W22 weekly sets across 4 subjects each (Math, Science, Hindi, French). 280 weekly files × 15q = 4,200q weekly content. Total ~6,000q across all grades + regional + professional. Grade 8 manifest level fixed (was 1, corrected to 2).*
