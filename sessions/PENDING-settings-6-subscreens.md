@@ -1,11 +1,13 @@
 # Session: PENDING — Settings Restructure → 6 Sub-Screens (P2-T030 Remainder)
 
-**Priority:** 4
+**Priority:** ✅ Done — 2026-05-29 · commit [see below]
 **Type:** Code
 **Est. Duration:** 2 hours
 **Task:** P2-T030 (remainder — themes shipped, this is the settings UX restructure)
-**Trigger:** "start the session" (Priority 4 in pending queue)
 **Depends on:** — (standalone, themes already shipped in P2-T030 part 1)
+
+**Also fixed:** BUG-009 — grade not pre-populated in settings (root cause: monolithic
+openSettings() set grade before sub-screen was active; fixed by per-section init functions)
 
 ---
 

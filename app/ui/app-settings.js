@@ -1,26 +1,59 @@
-// app-settings.js — Settings modal, profile edit, password change
+// app-settings.js — Settings: 5-tile menu + sub-screen navigation
+
+// ── Menu Navigation ───────────────────────────────────────────────────────────
 
 function openSettings() {
   document.getElementById('user-menu').classList.add('hidden');
   const modal = document.getElementById('settings-modal');
   if (!modal) return;
+  backToSettingsMenu();
+  modal.classList.remove('hidden');
+}
+
+function closeSettings() {
+  document.getElementById('settings-modal').classList.add('hidden');
+}
+
+function openSettingsSection(name) {
+  document.querySelectorAll('.settings-sub').forEach(s => s.classList.add('hidden'));
+  document.getElementById('settings-menu').classList.add('hidden');
+  const sub = document.getElementById('settings-sub-' + name);
+  if (!sub) return;
+  sub.classList.remove('hidden');
+
+  if (name === 'profile')    _initProfileSection();
+  if (name === 'appearance') _renderThemeSelector();
+  if (name === 'learning')   _initLearningSection();
+  if (name === 'security')   _initSecuritySection();
+}
+
+function backToSettingsMenu() {
+  document.querySelectorAll('.settings-sub').forEach(s => s.classList.add('hidden'));
+  const menu = document.getElementById('settings-menu');
+  if (menu) menu.classList.remove('hidden');
+}
+
+// ── Profile Sub-screen ────────────────────────────────────────────────────────
+
+function _initProfileSection() {
   const user = state.user;
+  if (!user) return;
 
   const nameEl = document.getElementById('settings-name');
   if (nameEl) nameEl.value = user.name || '';
 
   const isSchool = user.category === 'school';
   const isPro    = user.category === 'professional';
-  const schoolEl = document.getElementById('settings-school-fields');
-  const proEl    = document.getElementById('settings-pro-fields');
-  if (schoolEl) schoolEl.classList.toggle('hidden', !isSchool);
-  if (proEl)    proEl.classList.toggle('hidden',    !isPro);
+  document.getElementById('settings-school-fields')?.classList.toggle('hidden', !isSchool);
+  document.getElementById('settings-pro-fields')?.classList.toggle('hidden', !isPro);
 
   if (isSchool) {
-    const gradeEl  = document.getElementById('settings-grade');
-    if (gradeEl) gradeEl.value = user.grade || '';
-    const colGroup = document.getElementById('settings-college-group');
-    if (colGroup) colGroup.classList.toggle('hidden', user.grade !== 'college');
+    const gradeEl = document.getElementById('settings-grade');
+    if (gradeEl) {
+      gradeEl.value = String(user.grade ?? '');
+      document.getElementById('settings-college-group')
+        ?.classList.toggle('hidden', gradeEl.value !== 'college');
+    }
     const courseEl = document.getElementById('settings-course');
     if (courseEl) courseEl.value = user.course || '';
   }
@@ -31,19 +64,9 @@ function openSettings() {
     if (companyEl) companyEl.value = user.company || '';
   }
 
-  const langEl = document.getElementById('settings-regional-lang');
-  if (langEl) langEl.value = user.regionalLanguage || '';
-
-  ['settings-profile-err', 'settings-profile-ok', 'settings-pw-err', 'settings-pw-ok'].forEach(id => {
+  ['settings-profile-err', 'settings-profile-ok'].forEach(id => {
     const el = document.getElementById(id); if (el) el.textContent = '';
   });
-
-  _renderThemeSelector();
-  modal.classList.remove('hidden');
-}
-
-function closeSettings() {
-  document.getElementById('settings-modal').classList.add('hidden');
 }
 
 async function saveProfileEdit() {
@@ -64,12 +87,9 @@ async function saveProfileEdit() {
     const newGrade = gradeEl ? gradeEl.value : '';
     if (!newGrade) { if (errEl) errEl.textContent = 'Select a grade.'; return; }
     user.grade = newGrade;
-    if (newGrade === 'college') {
-      const courseEl = document.getElementById('settings-course');
-      user.course = courseEl ? courseEl.value : null;
-    } else {
-      user.course = null;
-    }
+    user.course = newGrade === 'college'
+      ? (document.getElementById('settings-course')?.value || null)
+      : null;
   } else if (user.category === 'professional') {
     const roleEl    = document.getElementById('settings-role');
     const companyEl = document.getElementById('settings-company');
@@ -84,9 +104,15 @@ async function saveProfileEdit() {
   await _loadQuestionsForUser(user);
   _renderHome();
 
-  if (okEl) okEl.textContent = 'Profile saved.';
-
+  if (okEl) okEl.textContent = 'Saved ✓';
   Storage.syncUserToRemote(user).catch(() => {});
+}
+
+// ── Learning Sub-screen ───────────────────────────────────────────────────────
+
+function _initLearningSection() {
+  const langEl = document.getElementById('settings-regional-lang');
+  if (langEl && state.user) langEl.value = state.user.regionalLanguage || '';
 }
 
 async function saveRegionalLanguage() {
@@ -100,6 +126,19 @@ async function saveRegionalLanguage() {
   await _loadQuestionsForUser(user);
   closeSettings();
   _renderHome();
+}
+
+// ── Security Sub-screen ───────────────────────────────────────────────────────
+
+function _initSecuritySection() {
+  const emailEl = document.getElementById('settings-email-display');
+  if (emailEl && state.user) emailEl.textContent = state.user.email || '—';
+  ['settings-pw-err', 'settings-pw-ok'].forEach(id => {
+    const el = document.getElementById(id); if (el) el.textContent = '';
+  });
+  ['settings-current-pw', 'settings-new-pw', 'settings-confirm-pw'].forEach(id => {
+    const el = document.getElementById(id); if (el) el.value = '';
+  });
 }
 
 async function saveNewPassword() {
@@ -125,8 +164,8 @@ async function saveNewPassword() {
 
   const newHash = await Storage.hashPassword(newPw);
   Storage.saveAccount(user.email, newHash, user.userId, user);
-  if (okEl) okEl.textContent = 'Password updated successfully.';
-  document.getElementById('settings-current-pw').value = '';
-  document.getElementById('settings-new-pw').value     = '';
-  document.getElementById('settings-confirm-pw').value = '';
+  if (okEl) okEl.textContent = 'Password updated ✓';
+  ['settings-current-pw', 'settings-new-pw', 'settings-confirm-pw'].forEach(id => {
+    const el = document.getElementById(id); if (el) el.value = '';
+  });
 }
