@@ -339,7 +339,17 @@ function _showDrillResult() {
   _saveDrillRecord(drillState.type, secs, accuracy);
   const isNewPB = prevRec.bestTime === null || secs < prevRec.bestTime;
 
-  Storage.updateStreak();
+  const drillStreak = Storage.updateStreak();
+  // Sync streak + grade to Drive so other devices see it immediately (BUG-006)
+  if (state.user) {
+    const drillAcct = Storage.findAccount(state.user.email);
+    if (drillAcct) {
+      Storage.syncAccountToDrive({
+        ...state.user, passwordHash: drillAcct.passwordHash, streak: drillStreak
+      }).catch(() => {});
+    }
+    Storage.syncUserToRemote(state.user).catch(() => {});
+  }
 
   document.getElementById('drill-question-wrap').classList.add('hidden');
   document.getElementById('drill-pb').classList.add('hidden');
@@ -1322,6 +1332,8 @@ function _showResult() {
       ...state.user, passwordHash: acct.passwordHash, streak: updatedStreak
     }).catch(() => {});
   }
+  // Sync user profile (grade, category) to Drive so incognito gets correct subject filter (BUG-006)
+  Storage.syncUserToRemote(state.user).catch(() => {});
 
   _showScreen('result');
 

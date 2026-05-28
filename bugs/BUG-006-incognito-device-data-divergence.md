@@ -2,7 +2,7 @@
 
 **Reported:** 2026-05-28
 **Severity:** High
-**Status:** Open
+**Status:** ✅ Fix A applied (2026-05-28) — Option B (Upstash) deferred post-1K users
 **Affects:** All users who use more than one browser, device, or incognito mode
 
 ---
