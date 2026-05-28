@@ -13,7 +13,7 @@
   <script>document.documentElement.dataset.theme = localStorage.getItem('decashift_theme') || 'dark';</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Nunito:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -29,7 +29,6 @@
         <span class="brand-name-sm">DecaShift</span>
       </div>
       <div class="land-nav-right">
-        <button class="btn btn-ghost btn-sm theme-toggle-btn" onclick="toggleTheme()">☀️</button>
         <button class="btn btn-ghost btn-sm" id="btn-go-signin">Sign In</button>
       </div>
     </nav>
@@ -290,7 +289,6 @@
           <h1 class="home-title" id="user-greeting">Your Goals</h1>
         </div>
         <div class="home-header-right">
-          <button class="btn btn-ghost btn-sm theme-toggle-btn" onclick="toggleTheme()">☀️</button>
           <div class="user-chip" onclick="toggleUserMenu()" style="cursor:pointer">
             <div class="user-avatar" id="user-avatar">?</div>
             <span id="user-chip-name">—</span>
@@ -413,6 +411,22 @@
   <div id="settings-modal" class="modal-overlay hidden" onclick="if(event.target===this)closeSettings()">
     <div class="modal-box settings-modal-box">
       <h2 class="modal-title">Settings</h2>
+
+      <!-- Appearance section -->
+      <div class="settings-section">
+        <h3 class="settings-section-title">🎨 Appearance</h3>
+        <p class="settings-section-desc" style="margin-bottom:4px">Theme</p>
+        <div class="theme-tiles" id="theme-tiles"></div>
+        <div class="settings-toggle-row">
+          <div>
+            <p class="settings-toggle-label">Show Avatar</p>
+            <p class="settings-toggle-desc">Display growth character on home screen</p>
+          </div>
+          <button class="toggle-btn on" id="avatar-toggle-btn" onclick="_toggleAvatar()">ON</button>
+        </div>
+      </div>
+
+      <hr class="settings-divider">
 
       <!-- Profile section -->
       <div class="settings-section">

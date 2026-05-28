@@ -51,24 +51,60 @@ async function init() {
   }
 }
 
+const THEMES = [
+  { id: 'dawnbreak', name: 'Dawnbreak', tag: 'Grade 2–8', bg: '#1a1040', accent: '#fbbf24' },
+  { id: 'sunrise',   name: 'Sunrise',   tag: 'Light',     bg: '#fffbf0', accent: '#f59e0b' },
+  { id: 'ocean',     name: 'Ocean',     tag: 'Grade 9–12',bg: '#0f172a', accent: '#38bdf8' },
+  { id: 'dark',      name: 'Dark',      tag: 'Default',   bg: '#0f1117', accent: '#3b82f6' },
+  { id: 'light',     name: 'Light',     tag: 'Classic',   bg: '#f8fafc', accent: '#3b82f6' },
+];
+
 function _initTheme() {
   const theme = localStorage.getItem('decashift_theme') || 'dark';
   document.documentElement.dataset.theme = theme;
-  _updateThemeBtns(theme);
 }
 
-function _updateThemeBtns(theme) {
-  document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
-    btn.textContent = theme === 'dark' ? '☀️' : '🌙';
-    btn.title = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
-  });
+function _setTheme(name) {
+  document.documentElement.dataset.theme = name;
+  localStorage.setItem('decashift_theme', name);
+  _renderThemeSelector();
 }
 
-function toggleTheme() {
-  const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-  document.documentElement.dataset.theme = next;
-  localStorage.setItem('decashift_theme', next);
-  _updateThemeBtns(next);
+function _autoApplyTheme(grade) {
+  if (localStorage.getItem('decashift_theme')) return; // respect existing choice
+  const g    = parseInt(grade, 10);
+  const auto = (g >= 2 && g <= 8) ? 'dawnbreak'
+             : (g >= 9)           ? 'ocean'
+             :                      'dark';
+  _setTheme(auto);
+}
+
+function _renderThemeSelector() {
+  const container = document.getElementById('theme-tiles');
+  if (!container) return;
+  const current = document.documentElement.dataset.theme || 'dark';
+  container.innerHTML = THEMES.map(t => `
+    <div class="theme-tile${t.id === current ? ' active' : ''}"
+         onclick="_setTheme('${t.id}')" title="${t.name}">
+      <div class="theme-tile-swatch"
+           style="background:${t.bg};border-color:${t.accent}"></div>
+      <span class="theme-tile-name">${t.name}</span>
+      <span class="theme-tile-tag">${t.tag}</span>
+    </div>`).join('');
+
+  const avatarBtn = document.getElementById('avatar-toggle-btn');
+  if (avatarBtn) {
+    const on = localStorage.getItem('ds_avatar') !== 'false';
+    avatarBtn.textContent = on ? 'ON' : 'OFF';
+    avatarBtn.classList.toggle('on', on);
+  }
+}
+
+function _toggleAvatar() {
+  const current = localStorage.getItem('ds_avatar') !== 'false';
+  localStorage.setItem('ds_avatar', current ? 'false' : 'true');
+  _renderThemeSelector();
+  _renderHome();
 }
 
 // ── Manifest + Question Loading ───────────────────────────────────────────────
@@ -258,6 +294,7 @@ async function _handleSignup(e) {
   state.user = user;
 
   await _loadQuestionsForUser(user);
+  _autoApplyTheme(user.grade);
 
   btn.disabled = false; btn.textContent = 'Create Account →';
   _showScreen('home');
@@ -387,9 +424,6 @@ function _renderHome() {
     const totalSec = sessions.reduce((s, r) => s + (r.totalDurationSeconds || 0), 0);
     elTime.textContent = totalSec < 60 ? totalSec + 's' : Math.round(totalSec / 60) + 'm';
   }
-
-  // Sync theme button state
-  _updateThemeBtns(document.documentElement.dataset.theme || 'dark');
 
   const currentWeek  = _getISOWeek(new Date());
   const regularGoals = state.goals.filter(g => !g.weekNum && !(g.subject && g.subject.startsWith('regional-')));
@@ -702,6 +736,7 @@ function openSettings() {
     const el = document.getElementById(id); if (el) el.textContent = '';
   });
 
+  _renderThemeSelector();
   modal.classList.remove('hidden');
 }
 

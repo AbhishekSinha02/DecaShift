@@ -1030,12 +1030,140 @@ select option { background: var(--surface-2); }
 [data-theme="light"] select option { background: var(--surface); color: var(--text); }
 
 /* ══════════════════════════════════════════════════════════════
-   THEME TOGGLE + LANDING NAV
+   DAWNBREAK THEME — Deep Indigo + Golden Yellow
+   Auto-applied: Grade 2–8 school users (first login)
    ══════════════════════════════════════════════════════════════ */
+[data-theme="dawnbreak"] {
+  --bg:         #1a1040;
+  --surface:    #2d2060;
+  --surface-2:  #3a2880;
+  --accent:     #fbbf24;
+  --accent-dim: rgba(251, 191, 36, 0.12);
+  --text:       #f5f3ff;
+  --muted:      #a78bfa;
+  --border:     rgba(76, 59, 154, 0.6);
+  --font-head:  'Nunito', sans-serif;
+}
 
+/* ══════════════════════════════════════════════════════════════
+   SUNRISE THEME — Warm Cream + Amber
+   Light background; best for Grade 2–5 and daytime use
+   ══════════════════════════════════════════════════════════════ */
+[data-theme="sunrise"] {
+  --bg:         #fffbf0;
+  --surface:    #fff3dc;
+  --surface-2:  #ffe9c0;
+  --accent:     #f59e0b;
+  --accent-dim: rgba(245, 158, 11, 0.12);
+  --text:       #1c1917;
+  --muted:      #78716c;
+  --border:     rgba(229, 213, 160, 0.8);
+  --font-head:  'Nunito', sans-serif;
+}
+
+[data-theme="sunrise"] input,
+[data-theme="sunrise"] select,
+[data-theme="sunrise"] textarea {
+  background: var(--surface);
+  color: var(--text);
+}
+
+[data-theme="sunrise"] select option { background: var(--surface); color: var(--text); }
+
+/* ══════════════════════════════════════════════════════════════
+   OCEAN FOCUS THEME — Deep Navy + Sky Blue
+   Auto-applied: Grade 9–12 school users (first login)
+   ══════════════════════════════════════════════════════════════ */
+[data-theme="ocean"] {
+  --bg:         #0f172a;
+  --surface:    #1e293b;
+  --surface-2:  #263346;
+  --accent:     #38bdf8;
+  --accent-dim: rgba(56, 189, 248, 0.12);
+  --text:       #f8fafc;
+  --muted:      #94a3b8;
+  --border:     rgba(51, 65, 85, 0.8);
+}
+
+/* ══════════════════════════════════════════════════════════════
+   THEME SELECTOR (Settings → Appearance)
+   ══════════════════════════════════════════════════════════════ */
+.theme-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 8px 0 14px;
+}
+
+.theme-tile {
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 6px 8px;
+  cursor: pointer;
+  text-align: center;
+  background: var(--surface-2);
+  transition: border-color 0.18s, background 0.18s;
+  user-select: none;
+}
+
+.theme-tile:hover  { border-color: var(--accent); }
+.theme-tile.active { border-color: var(--accent); background: var(--accent-dim); }
+
+.theme-tile-swatch {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 0 auto 5px;
+  border: 2.5px solid transparent;
+}
+
+.theme-tile-name {
+  display: block;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.theme-tile-tag {
+  display: block;
+  font-size: 8.5px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   SETTINGS TOGGLE ROW (avatar ON/OFF)
+   ══════════════════════════════════════════════════════════════ */
+.settings-toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0 4px;
+}
+
+.settings-toggle-label { font-size: 14px; font-weight: 600; color: var(--text); margin: 0; }
+.settings-toggle-desc  { font-size: 12px; color: var(--muted); margin: 2px 0 0; }
+
+.toggle-btn {
+  flex-shrink: 0;
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1.5px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.toggle-btn.on { background: var(--accent); color: #fff; }
+
+/* ══════════════════════════════════════════════════════════════
+   LANDING NAV
+   ══════════════════════════════════════════════════════════════ */
 .land-nav-right { display: flex; align-items: center; gap: 8px; }
-
-.theme-toggle-btn { font-size: 16px; padding: 7px 10px; line-height: 1; }
 
 /* ══════════════════════════════════════════════════════════════
    WELCOME MODAL (first-login onboarding)
