@@ -71,6 +71,10 @@
 | **[P2-T027](P2-T027-concept-builder-atom-to-synthesis.md)** | **Concept Builder — atom-to-synthesis engine, concept-tagged bank, smart weekly selection, concept map UI** | **L** | **Pending** |
 | **[P2-T028](P2-T028-local-indie-developer-brand-voice.md)** | **Local indie developer brand voice — developer story card, WhatsApp support, city-dynamic "Made for [City] students" footer + hero, tone guide** | **S** | **Pending** |
 | **[P2-T029](P2-T029-local-domain-city-entry-points.md)** | **Local domain strategy — donnibo.in brand + city entry points (punekids.in, nagpurkids.in etc.), Cloudflare redirects, URL-param city override, ref analytics** | **S** | **Pending** |
+| **[P2-T030](P2-T030-dawnbreak-theme-settings-restructure.md)** | **5-theme system (Dawnbreak · Sunrise · Ocean · Dark · Light) + theme auto-apply by grade + 5-tile selector in Settings → Appearance + 6 sub-screens + avatar toggle** | **M** | **Pending** |
+| **[P2-T031](P2-T031-flash-drill-mode-tables-squares-cubes-formulas.md)** | **Flash-Drill mode — speed drills for multiplication tables, squares (1–25), cubes (1–15), formula recall, Daily GK 5-question capsule with personal best tracking + share card** | **M** | **Pending** |
+| **[P2-T032](P2-T032-daily-gk-capsule-current-affairs.md)** | **Daily GK capsule — reflective Daily 5 with explanations, Today in India fact card, monthly Current Affairs pack, GK subject tab, weekly topic rotation** | **S** | **Pending** |
+| **[P2-T033](P2-T033-pwa-install-prompt-taskbar-guide.md)** | **PWA install prompt — Android native banner after 3rd session, iOS Safari manual guide, Windows taskbar steps in Settings → About & Help, standalone detection** | **S** | **Pending** |
 
 ---
 
@@ -104,6 +108,10 @@
 | **[P3-T029](P3-T029-weekly-progressive-test-subscribers.md)** | **Weekly progressive test (Pro) — 2 easy + 2 medium + 1 hard arc → Weekly Exam, no mid-feedback** | **M** | **Pending** |
 | **[P3-T030](P3-T030-offline-first-question-prefetch.md)** | **Offline-first question prefetch — IndexedDB bulk cache, event-driven invalidation, ~85% fewer network calls** | **M** | **Pending** |
 | **[P3-T031](P3-T031-city-weather-localization.md)** | **Hyperlocal context — silent IP geolocation, city + weather widget on landing + home screen, contextual practice nudge** | **S** | **Pending** |
+| **[P3-T032](P3-T032-city-partner-footer-reward-card-system.md)** | **City partner footer + Reward Card system — local business listings per city, milestone-triggered reward cards (7-day streak etc.), share card for WhatsApp, fixes F7 + F10** | **M** | **Pending** |
+| **[P3-T033](P3-T033-kids-daily-planner-routine-goals.md)** | **Donnibo Daily Loop Pillar 1 — LIVE: Kids daily planner, 4 time blocks, Donnibo tasks auto-check, parent template setup, Perfect Week badge, planner streak** | **M** | **Pending** |
+| **[P3-T034](P3-T034-kids-daily-journal-mood-reflection.md)** | **Donnibo Daily Loop Pillar 3 — REFLECT: Kids daily journal, grade-adaptive mood check-in + reflection + gratitude, 7-day mood strip, creative writing prompt, journal streak** | **M** | **Pending** |
+| **[P3-T035](P3-T035-kids-longterm-goals-milestone-tracker.md)** | **Donnibo Daily Loop Pillar 4 — GROW: Long-term goals + milestone tracker, goal achievement screen, achievements wall, planner integration, 1 goal Free / 3 goals Pro** | **M** | **Pending** |
 | **[P3-T004](P3-T004-avatar-growth-system.md)** | **Avatar growth system — 6-stage character arc (fearful→confident), Journey Replay animation, subject badges** | **L** | **Pending** |
 | [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
 | [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
@@ -216,6 +224,15 @@ P2-T029  (city domains)       depends on P3-T031 (city param extends detection);
 P3-T031  (city + weather)    standalone; prerequisite for P4-T009 + P2-T028 city-dynamic elements; companion to P2-T015 (landing page)
 P4-T009  (hyperlocal ads)    depends on P3-T031 (city detection — required); P2-T013 (plan check); Phase 3 self-serve lives in P4-T006
 
+P2-T030  (dawnbreak theme)   depends on P2-T005 (dark/light toggle — done); parallel with P2-T023 (kid theme); settings sub-screens coordinate with P2-T017 (account security sub-screen) + P2-T033 (About & Help sub-screen) + P3-T032 (My City sub-screen)
+P2-T031  (flash drills)      depends on P3-T001 (streak — done; drills count toward streak); P3-T005 (badges — drill achievements emit badge events); standalone otherwise (inline JS arrays, no fetch)
+P2-T032  (daily GK capsule)  depends on P2-T031 (flash drills — speed GK defined there; this adds reflective mode + GK tab); P3-T028 (plan gating — archive is Pro-only); extends P3-T019 (content calendar date-seeding pattern)
+P2-T033  (PWA install)       depends on existing sw.js + manifest.webmanifest (already in place); settings About & Help sub-screen lives in P2-T030; install reduces F8 (offline) for installed users
+P3-T032  (city partners)     depends on P3-T031 (city detection); P2-T029 (city domains — hostname city is most accurate); P3-T001 (streak — trigger for reward cards); P3-T005 (badges); Phase 3 paid listings live in P4-T009
+P3-T033  (kids planner)      depends on P3-T001 (streak — planner streak parallel); P2-T031 (flash drills — Donnibo tasks launch drills); P2-T032 (GK — GK task in planner); P3-T005 (badges — Perfect Week); P3-T032 (reward cards — Perfect Week + 30-day trigger); feeds P3-T035 (planner ↔ goals pipeline)
+P3-T034  (kids journal)      depends on P3-T001 (streak — journal streak parallel); P3-T033 (planner — evening reflection task launches journal; auto-checks on completion); P3-T005 (badges — journal streak badges); P3-T032 (reward cards — 30-day combined streak)
+P3-T035  (kids goals)        depends on P2-T031 (drills — drill completion auto-verifies milestones); P3-T001 (streak — habit goals measured by streak); P3-T028 (plan gate — 1 goal Free, 3 Pro); P3-T033 (planner — goals suggest tasks); P3-T034 (journal — "why this matters" field connects); P3-T005 (badges); P3-T032 (reward cards — first goal achievement triggers)
+
 P4-T001  (admin)             → P6-T001, P5-T003 (basic metrics; superseded in scope by P4-T006)
 P5-T004  (feature gate)      depends on P2-T013 (tier design must be finalized)
 P5-T005  (upgrade UI)        depends on P5-T004, P2-T013
@@ -233,7 +250,8 @@ P5-T003  (leaderboard)       → P6-T003
 
 ---
 
-*Total tasks: 87 (1 cancelled, 1 superseded) | P1: 13 | P2: 29 | P3: 31 | P4: 9 | P5: 6 | P6: 6*
+*Total tasks: 95 (1 cancelled, 1 superseded) | P1: 13 | P2: 33 | P3: 35 | P4: 9 | P5: 6 | P6: 6*
+*Donnibo Daily Loop (2026-05-28): Four-pillar architecture — LIVE (P3-T033 Planner) · LEARN (P2-T031/032 Drills + GK) · REFLECT (P3-T034 Journal) · GROW (P3-T035 Goals). Together these transform Donnibo from a quiz app into the complete daily companion for school children. No Indian EdTech competitor has all four pillars.*
 *Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback | BUG-005 (fixed) — weekly questions moved from `questions/weekly/` into grade+subject folders as day-files; manifest-driven loading; 80 files generated for Grades 3 + 5 as test baseline*
 *Content milestone (2026-05-27): Grades 2–8 all have W21+W22 weekly sets across 4 subjects each (Math, Science, Hindi, French). 280 weekly files × 15q = 4,200q weekly content. Total ~6,000q across all grades + regional + professional. Grade 8 manifest level fixed (was 1, corrected to 2).*
 *v3.7 snapshot created (2026-05-27) — 13 Donnibo avatar SVGs (6 stages + 7 expressions) + mascot brief committed to design/. App/ui/ enters v4-dev (landing page upgrade).*

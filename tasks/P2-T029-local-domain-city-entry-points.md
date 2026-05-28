@@ -3,261 +3,270 @@
 **Priority:** P2 | **Type:** Branding / Distribution / SEO | **Complexity:** S | **Status:** Pending
 
 > A parent in Pune forwarded `punekids.in` in her school WhatsApp group.
-> Three other parents clicked it. They saw "Pune" in the URL, "Pune" in
-> the header, and "43 students in Pune practicing this week." They signed up.
-> This is the cheapest trust signal in the product.
+> Three other parents clicked it. They saw "Pune" in the URL — the entire
+> time they used the app. That is the trust signal. The URL never changes.
 
 ---
 
 ## The Core Idea
 
-Buy one brand domain + 4–6 city domains. All point to the same app via
-Cloudflare (free). Each city URL pre-sets the city so the app instantly
-shows local branding — no IP detection needed, no delay.
+Buy one brand domain + 4–6 city domains. Deploy the app on **Cloudflare Pages**
+(free) instead of GitHub Pages. Add all city domains as aliases to the same
+deployment. Every domain serves the exact same app — no redirect, no URL change.
+The city domain stays in the address bar from first click to sign-up to daily use.
 
-**Total annual cost: ₹4,900 for 6 domains.**
-That is less than one month of one coaching center's ad spend.
+App detects city from `window.location.hostname` — zero params, zero tricks,
+nothing visible to anyone.
+
+**Total annual cost: ₹4,300 for 6 domains. Hosting: ₹0.**
 
 ---
 
-## Why This Wins
+## Why No Redirects — The Critical Constraint
 
-### 1 — URL Bar is the First Trust Signal
-Before a parent reads a single word of copy, they read the URL.
-`punekids.in` communicates everything in 3 syllables:
-- It's for kids ✓
-- It's from Pune ✓
-- It's not a big company ✓
+A redirect (301/302) changes the URL bar. `punekids.in` → `donnibo.in`
+happens in a flash but every user sees it. The illusion is broken immediately:
+- They know it's not a local site — it's a branded product with city domains as hooks
+- Parents in India recognise this pattern from spam sites
+- Trust destroyed before the first word of copy is read
 
-No landing page copy can match what the URL says for free.
+**The rule: the city domain must stay in the address bar for the entire session.**
+This requires the app to be served directly from each domain, not redirected from it.
 
-### 2 — SEO — Each Domain is a Separate Footprint
-Google treats `punekids.in` and `nagpurkids.in` as different websites.
-Parents searching:
-- "maths practice app Pune" → `punekids.in` ranks
-- "study app for class 6 Nagpur" → `nagpurkids.in` ranks
-- "daily study app Hindi" → `rozpadho.in` ranks
+---
 
-One app, six SEO entry points, six separate ranking opportunities.
-No competitor with one domain can match this without buying the same domains.
+## Why Cloudflare Pages (Not GitHub Pages)
 
-### 3 — WhatsApp Group Distribution
-Parents share links in school/colony WhatsApp groups by city.
-`punekids.in` shared in a Pune parent group = trusted source.
-`donnibo.in` shared in the same group = "what is this random website?"
-The city name in the URL IS the social proof.
+GitHub Pages supports exactly **one** custom domain per repository. There is no
+way to serve the same repo from `punekids.in` AND `nagpurkids.in` without redirects.
 
-### 4 — B2B Ad Pitch Changes Completely
-Before: "Advertise on our study app — ₹2,000/month"
-After: "Advertise on **PuneKids.in** — the Pune student platform — ₹2,000/month"
+Cloudflare Pages solves this natively:
 
-The second pitch sells itself. Coaching centers in Pune know Pune.
-They can imagine "PuneKids.in" in a parent WhatsApp forward.
-They cannot imagine "donnibo.in" being shared by parents.
+| Feature | GitHub Pages | Cloudflare Pages |
+|---|---|---|
+| Multiple custom domains | ❌ One only | ✅ Unlimited on same project |
+| URL stays as city domain | ❌ Requires redirect | ✅ Native — no redirect needed |
+| India CDN edge nodes | ❌ US-only servers | ✅ Mumbai, Chennai, Bangalore |
+| Free bandwidth | ✅ Unlimited | ✅ Unlimited |
+| Build from GitHub repo | ✅ Yes | ✅ Yes (same repo) |
+| Deploy time | ~2 min | ~30 sec |
+| Free SSL all domains | ✅ | ✅ |
+
+Cloudflare Pages is strictly better for this use case. Migration takes 30 minutes.
 
 ---
 
 ## Recommended Domain List
 
-### Phase 1 — Buy Immediately (₹4,200)
+### Phase 1 — Buy Now (₹4,300)
 
 | Domain | Why | Annual Cost |
 |---|---|---|
-| `donnibo.in` | Brand home — long-term permanent address | ₹800 |
+| `donnibo.in` | Brand home — permanent long-term address | ₹800 |
 | `punekids.in` | Maharashtra's largest coaching market | ₹700 |
 | `nagpurkids.in` | Vidarbha region — underserved, high intent | ₹700 |
-| `indorekids.in` | MP's coaching hub, Kota-adjacent culture | ₹700 |
-| `rozpadho.in` | *रोज़ पढ़ो* — national Hindi entry point, memorable | ₹700 |
+| `indorekids.in` | MP coaching hub, Kota-adjacent culture | ₹700 |
+| `rozpadho.in` | *रोज़ पढ़ो* — national Hindi entry, memorable | ₹700 |
 | `rozmaths.in` | Subject-focused national fallback | ₹600 |
 
-### Phase 2 — Add as Cities Grow (₹700/domain)
+### Phase 2 — Add as Cities Get Users (₹700/domain each)
 `surakids.in`, `jaipurkids.in`, `lucknowkids.in`, `hyderabadkids.in`,
-`bhopal kids.in`, `nashikids.in`
+`nashikkids.in`, `bhopalids.in`
 
 ### Do Not Buy
-- `decashift.in` — brand is moving to Donnibo; avoid locking in old name
-- Long domains (> 14 chars) — hard to type on mobile
-- `.com` for these — `.in` signals Indian, costs less, better for local SEO
-- Domain with hyphens — looks spam
+- `decashift.in` — brand moving to Donnibo; waste of money
+- Domains longer than 14 characters — hard to type, hard to remember on mobile
+- `.com` versions — `.in` signals Indian origin, costs less, ranks better on Indian Google
+- Hyphenated domains — pattern-match to spam for Indian users
 
 ---
 
-## Technical Architecture (Zero Extra Code)
+## Technical Architecture — No Redirects, URL Never Changes
 
 ### How It Works
 
 ```
-punekids.in  ──┐
-nagpurkids.in ─┤  Cloudflare (free)  ──►  donnibo.in/?city=Pune
-indorekids.in ─┤  Page Rules / Workers     donnibo.in/?city=Nagpur
-rozpadho.in  ──┘                           donnibo.in/?city=Indore
-                                           donnibo.in/  (brand home)
+User types punekids.in
+        │
+        ▼
+Cloudflare Pages (same deployment)
+        │
+        ├── punekids.in   ──►  serves app, URL bar shows punekids.in  ✓
+        ├── nagpurkids.in ──►  serves app, URL bar shows nagpurkids.in ✓
+        ├── indorekids.in ──►  serves app, URL bar shows indorekids.in ✓
+        └── donnibo.in    ──►  serves app, URL bar shows donnibo.in    ✓
+
+All four: same HTML, same JS, same CSS. Zero redirects.
 ```
 
-### Step 1 — Cloudflare Setup (free, 15 minutes)
+### Step 1 — Deploy to Cloudflare Pages (30 minutes, one-time)
 
-1. Add all domains to Cloudflare (free plan)
-2. Point nameservers from registrar to Cloudflare
-3. Create Page Rules (free tier: 3 rules per domain):
+1. Go to `pages.cloudflare.com` → Create project
+2. Connect GitHub repo (`AbhishekSinha02/DecaShift`)
+3. Set build output directory: `app/ui`
+4. No build command (static files — just deploy as-is)
+5. First deploy takes ~1 minute
 
-```
-Rule: punekids.in/*
-Action: Forwarding URL (301)
-Destination: https://donnibo.in/?city=Pune&ref=punekids
-```
+### Step 2 — Add All City Domains to Same Project
 
-One rule per city domain. Done. No servers, no code, no deployments.
+In Cloudflare Pages → project → Custom domains → Add custom domain:
+- Add `donnibo.in`
+- Add `punekids.in`
+- Add `nagpurkids.in`
+- Add `indorekids.in`
+- Add `rozpadho.in`
 
-### Step 2 — App Reads City From URL Param
+Cloudflare auto-provisions SSL for each. Done. Every domain now serves
+the app with its own URL showing — permanently, no redirect.
 
-In `app.js` `init()`, before IP geolocation:
+### Step 3 — App Detects City from Hostname
 
 ```js
-function _getCityFromURL() {
-  const params = new URLSearchParams(window.location.search);
-  const city   = params.get('city');
-  if (city) {
-    // Override IP detection — city is already known from domain
-    const loc = { city, region: '', country: 'India',
-                  source: 'domain', ts: Date.now() };
+const CITY_DOMAINS = {
+  'punekids.in':   { city: 'Pune',    region: 'Maharashtra' },
+  'nagpurkids.in': { city: 'Nagpur',  region: 'Maharashtra' },
+  'indorekids.in': { city: 'Indore',  region: 'Madhya Pradesh' },
+  'surakids.in':   { city: 'Surat',   region: 'Gujarat' },
+  'jaipurkids.in': { city: 'Jaipur',  region: 'Rajasthan' },
+  'lucknowkids.in':{ city: 'Lucknow', region: 'Uttar Pradesh' },
+  'rozpadho.in':   { city: null,      region: null },  // national — use IP fallback
+};
+
+function _getCityFromHostname() {
+  const host = window.location.hostname;
+  const match = CITY_DOMAINS[host];
+  if (match && match.city) {
+    const loc = { city: match.city, region: match.region,
+                  country: 'India', source: 'hostname', ts: Date.now() };
     localStorage.setItem('ds_location', JSON.stringify(loc));
-    // Clean URL (remove ?city=Pune from bar) without page reload
-    window.history.replaceState({}, '', window.location.pathname);
+    localStorage.setItem('ds_ref', host); // source analytics
     return loc;
   }
-  return null;
+  return null; // not a city domain — fall through to IP detection
 }
 ```
 
 Priority order in `_detectCity()`:
-1. `?city=` URL param (from city domain redirect) — instant, no network call
-2. `localStorage` cache (24h TTL, from prior visit or IP detection)
-3. `ipapi.co` IP geolocation (fallback, first visit without city domain)
+1. `window.location.hostname` match — instant, no network, no params (this task)
+2. `localStorage` cache (24h TTL — from prior visit on same domain)
+3. `ipapi.co` IP geolocation (first visit on `donnibo.in` or `rozpadho.in`)
 
-### Step 3 — GitHub Pages Custom Domain
+Nothing in the URL. Nothing visible. City is silently known from the domain itself.
 
-Set `donnibo.in` as the single GitHub Pages custom domain:
-- GitHub repo → Settings → Pages → Custom domain: `donnibo.in`
-- This creates a `CNAME` file in the repo root
-- All other city domains redirect to `donnibo.in` via Cloudflare (no GitHub involvement)
+### Step 4 — Footer Shows Domain Name, Not Just City
 
-### Step 4 — HTTPS
+When loaded from a city domain, footer reads:
 
-Cloudflare handles HTTPS for all city domains automatically (free Universal SSL).
-GitHub Pages handles HTTPS for `donnibo.in` (already provided by GitHub).
-Zero SSL cert management.
-
----
-
-## Ref Parameter for Analytics
-
-Each city domain adds `?ref=punekids` alongside `?city=Pune`:
-
-```js
-// Store ref source for analytics
-const ref = new URLSearchParams(window.location.search).get('ref');
-if (ref) localStorage.setItem('ds_ref', ref);
-```
-
-This tells you which domain drove each signup. Over time you know:
-- `punekids.in` → 340 signups
-- `rozpadho.in` → 120 signups
-- `nagpurkids.in` → 89 signups
-
-Prioritize ad outreach in cities where the domain already has traction.
-
----
-
-## Maintenance Complexity — Honestly Low
-
-| Concern | Reality |
-|---|---|
-| "Multiple domains to manage" | Cloudflare dashboard: one redirect rule per domain, set once, never touched again |
-| "Different codebases per city" | No. One codebase. City is a parameter, not a fork. |
-| "Domain renewals" | Set auto-renew on registrar. One annual bill. |
-| "HTTPS certificates" | Cloudflare provides free SSL for all domains automatically. |
-| "Adding a new city" | Buy domain (5 min) → add Cloudflare redirect rule (2 min) → done. |
-| "Removing a city" | Delete Cloudflare rule. Domain lapses at renewal. |
-
-The only real ongoing cost is ₹700/year per domain at renewal.
-
----
-
-## Domain Registration Recommendations
-
-**Registrar:** GoDaddy India or Namecheap
-- GoDaddy India often has `.in` domains at ₹599–799 first year
-- Namecheap: $0.99 first year promos sometimes include `.in`
-- **Always enable auto-renew** — losing `punekids.in` after building word-of-mouth on it is a disaster
-
-**Cloudflare:** cloudflare.com → add site → free plan
-- Free plan includes: unlimited redirects via Page Rules, DDoS protection, CDN, free SSL
-- No credit card needed for free plan
-
----
-
-## City-Domain-Aware Landing Page
-
-When app loads via `punekids.in → donnibo.in/?city=Pune`, the landing page
-reads the city and shows:
-
-**Hero tagline:**
-```
-📍 Built for students in Pune
-The daily practice habit your child needs.
-```
-
-**Social proof:**
-```
-127 students in Pune practiced this week
-```
-
-**Developer card:**
-```
-"I built this for students like the kids in my city.
-No big company. No corporate team. Just a developer
-who thinks Pune students deserve better study tools."
-                                        — Abhishek
-```
-
-**Footer:**
 ```
 PuneKids.in · Made with ❤️ for Pune students
 ```
 
-The domain drives the entire local experience. From URL bar to footer,
-the user sees their city — without the developer writing a single
-city-specific page.
+```js
+function _getFooterBrand() {
+  const host  = window.location.hostname;
+  const match = CITY_DOMAINS[host];
+  if (match?.city) return `${host} · Made with ❤️ for ${match.city} students`;
+  return `donnibo.in · Made with ❤️ for Indian students`;
+}
+```
+
+The domain name in the footer reinforces what is already in the address bar.
+Doubled trust signal, zero extra work.
+
+---
+
+## Source Analytics (Which Domain Drives Signups)
+
+`ds_ref` is set in localStorage from `_getCityFromHostname()`:
+- `punekids.in` → `ds_ref = "punekids.in"`
+- `donnibo.in` → `ds_ref = "donnibo.in"`
+
+On signup, include `ref` in the user profile written to Drive:
+```js
+user.signupRef = localStorage.getItem('ds_ref') || 'direct';
+```
+
+This tells you:
+- `punekids.in` → 340 signups
+- `rozpadho.in` → 120 signups
+- `nagpurkids.in` → 89 signups
+
+Prioritise ad outreach in cities where the domain already has traction.
+
+---
+
+## What the User Sees — End to End
+
+Parent receives `punekids.in` link in Pune school WhatsApp group:
+
+| Touchpoint | What they see | Trust signal |
+|---|---|---|
+| URL bar (always) | `punekids.in` | Local site ✓ |
+| Hero | "📍 Built for students in Pune" | My city ✓ |
+| Weather line | "Rainy evening in Pune ☁️" | Live, local ✓ |
+| Student count | "127 students in Pune this week" | Real community ✓ |
+| Ad card | Pune coaching center | Local resource ✓ |
+| Footer | "PuneKids.in · Made with ❤️ for Pune students" | Confirms domain ✓ |
+| Developer card | "I built this for students in my city" | Human, local ✓ |
+
+Every layer says the same thing. The URL never changes throughout.
+
+---
+
+## Maintenance Complexity — Genuinely Low
+
+| Concern | Reality |
+|---|---|
+| Multiple domains to maintain | Cloudflare Pages → Custom domains → list view. All visible in one screen. |
+| Different codebases per city | No. One repo, one deployment. City is hostname, not a fork. |
+| Adding a new city | Buy domain (5 min) → add to Cloudflare Pages (2 min) → add to `CITY_DOMAINS` dict (1 line) → push. |
+| Domain renewals | Set auto-renew at registrar. One annual bill per domain. |
+| SSL certs | Cloudflare auto-provisions and auto-renews. Zero management. |
+| GitHub integration | Cloudflare Pages auto-deploys on every push to main. Same workflow as before. |
+
+---
+
+## Migration from GitHub Pages (One-Time, 30 Minutes)
+
+1. Deploy to Cloudflare Pages (connect repo, set `app/ui` as root — 10 min)
+2. Add all domains to Cloudflare Pages project (5 min)
+3. Remove GitHub Pages custom domain setting from repo (2 min)
+4. Update `CNAME` file or remove it — no longer needed (1 min)
+5. Test all domains load correctly — done
+
+After migration, GitHub is still the source of truth for code.
+Cloudflare Pages auto-deploys on every `git push origin main`.
+Workflow is unchanged. Just a better host.
 
 ---
 
 ## Acceptance Criteria
 
-- [ ] `donnibo.in` purchased and set as GitHub Pages custom domain
-- [ ] HTTPS enabled and working on `donnibo.in`
-- [ ] At least 3 city domains purchased (`punekids.in`, `nagpurkids.in`, `indorekids.in`)
-- [ ] `rozpadho.in` purchased as Hindi national entry point
-- [ ] All city domains added to Cloudflare (free plan)
-- [ ] Cloudflare redirect rules set: each city domain → `donnibo.in/?city={City}&ref={domain}`
-- [ ] `_getCityFromURL()` implemented — reads `?city=` param, stores to localStorage, cleans URL
-- [ ] City param takes priority over IP geolocation in `_detectCity()`
-- [ ] `?ref=` param stored in localStorage for source analytics
-- [ ] Landing page shows city-specific hero text when city is detected from domain
-- [ ] Footer shows city name when loaded via city domain
-- [ ] HTTPS working on all city domains (Cloudflare SSL)
+- [ ] App deployed to Cloudflare Pages from GitHub repo
+- [ ] `donnibo.in` added as custom domain — loads app, URL stays `donnibo.in`
+- [ ] `punekids.in`, `nagpurkids.in`, `indorekids.in` added — each stays in URL bar throughout session
+- [ ] `rozpadho.in` added as national Hindi entry point
+- [ ] `_getCityFromHostname()` implemented — reads hostname, stores to localStorage
+- [ ] City homepage detection: hostname match overrides IP geolocation
+- [ ] Footer shows domain name when loaded from a city domain
+- [ ] `ds_ref` stored in localStorage from hostname for signup attribution
+- [ ] Signup saves `signupRef` to user Drive profile
+- [ ] HTTPS working on all domains (Cloudflare auto-SSL)
 - [ ] Auto-renew enabled on all domains at registrar
+- [ ] GitHub Pages custom domain removed (avoid conflict)
 
 ## Files to Touch
 
-- `app/ui/app.js` — `_getCityFromURL()` added to `init()`, priority detection order
-- `CNAME` (repo root) — set to `donnibo.in` for GitHub Pages
-- `app/ui/index.html` — city-aware hero tagline, footer city injection point (same spans as P2-T028)
+- `app/ui/app.js` — `_getCityFromHostname()`, `CITY_DOMAINS` map,
+  updated `_detectCity()` priority order, footer brand string, signup ref capture
+- `app/ui/index.html` — footer brand injection point (shared with P2-T028)
+- `CNAME` (repo root) — remove or update once Cloudflare Pages is primary host
 
 ## Dependencies
 
-- P3-T031 (city + weather localization) — city detection logic; this task adds URL param as the highest-priority source
-- P2-T028 (local brand voice) — city-aware landing copy ships together; both tasks edit the same HTML elements
-- P2-T015 (landing page improvements) — all three land together as one cohesive local landing experience
+- P3-T031 (city + weather) — city detection priority chain; hostname is the new top priority
+- P2-T028 (local brand voice) — footer city string and developer card ship together
+- P2-T015 (landing page) — all three land as one cohesive local landing experience
 
 ## Budget
 
@@ -266,10 +275,8 @@ city-specific page.
 | `donnibo.in` | ₹800/year |
 | 4 city domains | ₹2,800/year |
 | `rozpadho.in` | ₹700/year |
-| Cloudflare | ₹0 (free plan) |
-| GitHub Pages | ₹0 |
-| SSL certificates | ₹0 (Cloudflare) |
+| Cloudflare Pages | ₹0 (free — unlimited bandwidth) |
+| SSL certificates | ₹0 (Cloudflare auto) |
 | **Total Year 1** | **₹4,300/year** |
 
-Break-even: **2.5 months of one coaching center ad placement.**
-ROI: every city domain that drives a paying subscriber in month 1 pays for itself 10×.
+Break-even: 2.5 months of one coaching center ad placement.
