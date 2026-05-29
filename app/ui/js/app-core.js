@@ -41,16 +41,18 @@ async function init() {
     e.preventDefault();
     _deferredInstallPrompt = e;
   });
+  _loadScreen('landing');
+  _loadScreen('home');
   _initTheme();
   await _loadManifest();
   const user = Storage.loadUser();
   if (user) {
     state.user = user;
     await _loadQuestionsForUser(user);
-    _showScreen('home');
+    await _showScreen('home');
     _renderHome();
   } else {
-    _showScreen('landing');
+    await _showScreen('landing');
     _setupLanding();
   }
 }
@@ -224,9 +226,32 @@ function _filterManifest(manifest, user) {
   return manifest.filter(e => e.category === 'professional');
 }
 
-function _showScreen(name) {
+const _screenHTML = {};
+
+async function _loadScreen(name) {
+  if (document.getElementById('screen-' + name)) return;
+  if (!_screenHTML[name]) {
+    const urls = [
+      _rawUrl('app/ui/screens/screen-' + name + '.html'),
+      'screens/screen-' + name + '.html'
+    ];
+    for (const url of urls) {
+      try {
+        const r = await fetch(url);
+        if (r.ok) { _screenHTML[name] = await r.text(); break; }
+      } catch (_) {}
+    }
+  }
+  if (_screenHTML[name]) {
+    document.body.insertAdjacentHTML('beforeend', _screenHTML[name]);
+  }
+}
+
+async function _showScreen(name) {
+  await _loadScreen(name);
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-  document.getElementById('screen-' + name).classList.add('active');
+  const el = document.getElementById('screen-' + name);
+  if (el) el.classList.add('active');
   state.currentScreen = name;
 }
 

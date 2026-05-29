@@ -2,7 +2,7 @@
 
 // ── Quiz Entry ────────────────────────────────────────────────────────────────
 
-function startGoal(goalId) {
+async function startGoal(goalId) {
   state.selectedGoal      = state.goals.find(g => g.id === goalId);
   state.filteredQuestions = state.questions.filter(q => q.goalId === goalId);
   state.currentIndex      = 0;
@@ -10,7 +10,7 @@ function startGoal(goalId) {
   state.sessionId         = crypto.randomUUID();
   state.sessionStart      = new Date().toISOString();
 
-  _showScreen('quiz');
+  await _showScreen('quiz');
   _renderQuestion();
 }
 
@@ -125,7 +125,7 @@ function _updateTimerDisplay() {
 
 // ── Result Screen ─────────────────────────────────────────────────────────────
 
-function _showResult() {
+async function _showResult() {
   const correct = state.responses.filter(r => r.isCorrect).length;
   const total   = state.responses.length;
   const pct     = total ? Math.round((correct / total) * 100) : 0;
@@ -158,7 +158,7 @@ function _showResult() {
   }
   Storage.syncUserToRemote(state.user).catch(() => {});
 
-  _showScreen('result');
+  await _showScreen('result');
 
   document.getElementById('result-score').textContent = correct + ' / ' + total;
   document.getElementById('result-pct').textContent   = pct + '%';
@@ -186,9 +186,9 @@ function _showResult() {
     if (state.selectedGoal.id === 'daily-gk') _startDailyGK();
     else startGoal(state.selectedGoal.id);
   };
-  document.getElementById('back-home-btn').onclick = () => {
+  document.getElementById('back-home-btn').onclick = async () => {
     if (state.selectedGoal.id === 'daily-gk') state.subjectFilter = 'gk';
-    _showScreen('home');
+    await _showScreen('home');
     _renderHome();
   };
 }

@@ -120,7 +120,7 @@ async function _startDrill(type) {
   document.getElementById('drill-progress-fill').style.width = '0%';
   document.getElementById('drill-timer').textContent = '0:00';
 
-  _showScreen('drill');
+  await _showScreen('drill');
   _startDrillTimer();
   _renderDrillQuestion();
 }
@@ -269,9 +269,9 @@ function _retryDrill() {
   _startDrill(drillState.type);
 }
 
-function _exitDrill() {
+async function _exitDrill() {
   clearInterval(drillState.timerInterval);
-  _showScreen('home');
+  await _showScreen('home');
   _renderHome();
 }
 

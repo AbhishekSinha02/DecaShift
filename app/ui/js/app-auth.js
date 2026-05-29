@@ -5,12 +5,12 @@
 function _setupLanding() {
   document.getElementById('btn-for-students').onclick      = () => _goToSignup('school');
   document.getElementById('btn-for-professionals').onclick = () => _goToSignup('professional');
-  document.getElementById('btn-go-signin').onclick         = () => { _showScreen('signin'); _setupSignin(); };
+  document.getElementById('btn-go-signin').onclick         = async () => { await _showScreen('signin'); _setupSignin(); };
 }
 
-function _goToSignup(category) {
+async function _goToSignup(category) {
   state.pendingCategory = category;
-  _showScreen('signup');
+  await _showScreen('signup');
   _setupSignup(category);
 }
 
@@ -34,7 +34,7 @@ function _setupSignup(category) {
   }, { once: true });
 
   document.getElementById('signup-form').onsubmit = _handleSignup;
-  document.getElementById('btn-to-signin').onclick = () => { _showScreen('signin'); _setupSignin(); };
+  document.getElementById('btn-to-signin').onclick = async () => { await _showScreen('signin'); _setupSignin(); };
 }
 
 async function _handleSignup(e) {
@@ -106,7 +106,7 @@ async function _handleSignup(e) {
   _autoApplyTheme(user.grade);
 
   btn.disabled = false; btn.textContent = 'Create Account →';
-  _showScreen('home');
+  await _showScreen('home');
   _renderHome();
   _maybeShowWelcome();
 
@@ -118,8 +118,8 @@ async function _handleSignup(e) {
 
 function _setupSignin() {
   document.getElementById('signin-form').onsubmit = _handleSignin;
-  document.getElementById('btn-to-signup').onclick = () => {
-    _showScreen('landing');
+  document.getElementById('btn-to-signup').onclick = async () => {
+    await _showScreen('landing');
     _setupLanding();
   };
 }
@@ -175,18 +175,18 @@ async function _handleSignin(e) {
   sessionStorage.removeItem('ds_manifest_cache');
   await _loadManifest();
   await _loadQuestionsForUser(user);
-  _showScreen('home');
+  await _showScreen('home');
   _renderHome();
   _maybeShowWelcome();
 }
 
 // ── Sign Out ──────────────────────────────────────────────────────────────────
 
-function signOut() {
+async function signOut() {
   Storage.clearSession();
   state.user      = null;
   state.goals     = [];
   state.questions = [];
-  _showScreen('landing');
+  await _showScreen('landing');
   _setupLanding();
 }

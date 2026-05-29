@@ -115,7 +115,7 @@ async function _startDailyGK() {
   state.sessionId         = crypto.randomUUID();
   state.sessionStart      = new Date().toISOString();
 
-  _showScreen('quiz');
+  await _showScreen('quiz');
   _renderQuestion();
 }
 
@@ -148,11 +148,11 @@ function _showTodayFactModal(fact) {
   overlay.classList.remove('hidden');
 }
 
-function dismissGKFact() {
+async function dismissGKFact() {
   const overlay = document.getElementById('gk-fact-modal');
   if (overlay) overlay.classList.add('hidden');
   state.subjectFilter = 'gk';
-  _showScreen('home');
+  await _showScreen('home');
   _renderHome();
 }
 
