@@ -49,6 +49,21 @@ document.addEventListener('click', e => {
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 
+function _checkTrialStatus(user) {
+  const TRIAL_DAYS = 30;
+  if (!user) return 'active';
+  if (user.plan === 'pro') return 'active';
+  if (!user.trialStartDate) return 'active';
+  const elapsed = (Date.now() - new Date(user.trialStartDate)) / 86400000;
+  return elapsed < TRIAL_DAYS ? 'active' : 'expired';
+}
+
+function _trialDaysLeft(user) {
+  if (!user?.trialStartDate) return 30;
+  const elapsed = (Date.now() - new Date(user.trialStartDate)) / 86400000;
+  return Math.max(0, Math.ceil(30 - elapsed));
+}
+
 async function init() {
   window.addEventListener('beforeinstallprompt', e => {
     e.preventDefault();
@@ -56,18 +71,43 @@ async function init() {
   });
   _loadScreen('landing');
   _loadScreen('home');
+  _loadScreen('paywall');
   _initTheme();
   await _loadManifest();
   const user = Storage.loadUser();
   if (user) {
     state.user = user;
+    state.user.plan = _checkTrialStatus(user);
     await _loadQuestionsForUser(user);
-    await _showScreen('home');
-    _renderHome();
+    if (state.user.plan === 'expired' && !sessionStorage.getItem('ds_paywall_dismissed')) {
+      await _showScreen('paywall');
+      _setupPaywall();
+    } else {
+      await _showScreen('home');
+      _renderHome();
+    }
   } else {
     await _showScreen('landing');
     _setupLanding();
   }
+}
+
+function _setupPaywall() {
+  const daysEl = document.getElementById('paywall-days-used');
+  if (daysEl && state.user?.trialStartDate) {
+    const elapsed = Math.floor((Date.now() - new Date(state.user.trialStartDate)) / 86400000);
+    daysEl.textContent = elapsed;
+  }
+  document.getElementById('paywall-upgrade-btn')?.addEventListener('click', () => {
+    const msg = encodeURIComponent('Hi, I want to upgrade to Donnibo Pro (₹79/month)');
+    window.open(`https://wa.me/919876543210?text=${msg}`, '_blank');
+  });
+}
+
+async function _dismissPaywall() {
+  sessionStorage.setItem('ds_paywall_dismissed', '1');
+  await _showScreen('home');
+  _renderHome();
 }
 
 // ── Theme ─────────────────────────────────────────────────────────────────────

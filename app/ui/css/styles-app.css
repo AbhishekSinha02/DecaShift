@@ -1474,6 +1474,69 @@
 }
 .subj-dot.active { width: 20px; border-radius: 4px; }
 
+/* ── Paywall Screen ──────────────────────────────────────────── */
+.paywall-wrap {
+  min-height: 100vh;
+  display: flex; flex-direction: column; align-items: center;
+  justify-content: center; padding: 32px 20px;
+  background: var(--bg);
+}
+.paywall-brand {
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 32px;
+}
+.paywall-logo { width: 36px; height: 36px; filter: drop-shadow(0 0 12px rgba(59,130,246,.4)); }
+.paywall-brand-name {
+  font-family: var(--font-head); font-size: 20px; font-weight: 800; color: var(--text);
+}
+.paywall-card {
+  width: 100%; max-width: 420px;
+  background: var(--surface); border-radius: 24px;
+  padding: 32px 28px;
+  border: 1px solid var(--border);
+  box-shadow: 0 24px 64px rgba(0,0,0,.3);
+  display: flex; flex-direction: column; align-items: center; gap: 20px;
+  text-align: center;
+}
+.paywall-badge {
+  background: var(--accent-dim); color: var(--accent);
+  font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  padding: 5px 14px; border-radius: 100px;
+}
+.paywall-title {
+  font-family: var(--font-head); font-size: 26px; font-weight: 800;
+  color: var(--text); margin: 0; line-height: 1.2;
+}
+.paywall-sub { font-size: 14px; color: var(--muted); line-height: 1.65; margin: 0; }
+.paywall-sub strong { color: var(--text); }
+.paywall-plan-box {
+  width: 100%; background: var(--bg);
+  border-radius: 16px; padding: 20px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+.paywall-plan-row { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 16px; }
+.paywall-plan-price {
+  font-family: var(--font-head); font-size: 32px; font-weight: 800; color: var(--accent);
+}
+.paywall-plan-price span { font-size: 14px; color: var(--muted); font-weight: 500; }
+.paywall-plan-tag {
+  font-size: 12px; font-weight: 700; color: var(--accent);
+  background: var(--accent-dim); padding: 3px 10px; border-radius: 100px;
+}
+.paywall-features { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.paywall-features li { font-size: 13px; color: var(--text); }
+.paywall-cta {
+  width: 100%; padding: 14px; font-size: 15px; font-weight: 700;
+  border-radius: 14px;
+}
+.paywall-skip-btn {
+  background: none; border: none; color: var(--muted);
+  font-size: 13px; cursor: pointer; padding: 4px 0;
+  text-decoration: underline; font-family: inherit;
+}
+.paywall-skip-btn:hover { color: var(--text); }
+
 /* ── City partner strip ──────────────────────────────────────── */
 .city-strip {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 195;
