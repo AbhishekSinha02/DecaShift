@@ -62,17 +62,19 @@ function _setupLanding() {
     }, { threshold: 0.5 }).observe(statsEl);
   }
 
-  // Carousel
-  const track   = document.getElementById('lp-carousel-track');
-  const dots    = document.querySelectorAll('.lp-dot');
-  let   current = 0;
+  // Phone feature showcase — screen content fades, phone frame stays fixed
+  const featScreens = document.querySelectorAll('.lp-fs');
+  const featCaps    = document.querySelectorAll('.lp-feat-cap');
+  const dots        = document.querySelectorAll('.lp-dot');
+  let   current     = 0;
   let   autoTimer;
 
-  if (track && dots.length) {
+  if (featScreens.length && dots.length) {
     function goToSlide(n) {
       current = ((n % 4) + 4) % 4;
-      track.style.transform = `translateX(-${current * 100}%)`;
-      dots.forEach((d, i) => d.classList.toggle('lp-dot-active', i === current));
+      featScreens.forEach((s, i) => s.classList.toggle('lp-fs-active',       i === current));
+      featCaps.forEach(   (c, i) => c.classList.toggle('lp-feat-cap-active',  i === current));
+      dots.forEach(       (d, i) => d.classList.toggle('lp-dot-active',       i === current));
     }
     function nextSlide() { goToSlide(current + 1); }
     autoTimer = setInterval(nextSlide, 4000);
@@ -83,11 +85,11 @@ function _setupLanding() {
       autoTimer = setInterval(nextSlide, 4000);
     }));
 
-    const carousel = document.getElementById('lp-carousel');
-    if (carousel) {
+    const phoneEl = document.getElementById('lp-feat-phone');
+    if (phoneEl) {
       let tx = 0;
-      carousel.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
-      carousel.addEventListener('touchend',   e => {
+      phoneEl.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
+      phoneEl.addEventListener('touchend',   e => {
         const dx = e.changedTouches[0].clientX - tx;
         if (Math.abs(dx) > 40) {
           clearInterval(autoTimer);
