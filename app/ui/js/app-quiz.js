@@ -105,18 +105,42 @@ function submitAnswer() {
     durationSeconds: state.timerSeconds
   });
 
+  const _CORRECT_LINES = ['Sharp.', 'Exactly right.', 'Nailed it.', 'Well done.', 'Correct!', 'Right on.'];
+  const _WRONG_PREFIX  = `<em>This one trips a lot of students — here's exactly why:</em><br><br>`;
+
   document.querySelectorAll('.answer-card').forEach(card => {
     const i = parseInt(card.dataset.idx, 10);
-    if (i === q.correctIndex)   card.classList.add('correct');
-    else if (i === s && !ok)    card.classList.add('incorrect');
+    if (i === q.correctIndex) {
+      card.classList.add('correct');
+      if (ok) card.classList.add('correct-bounce');
+    } else if (i === s && !ok) {
+      card.classList.add('incorrect');
+    }
     card.onclick = null;
   });
+
+  const flash = document.getElementById('feedback-flash');
+  if (flash) {
+    if (ok) {
+      flash.textContent = _CORRECT_LINES[state.currentIndex % _CORRECT_LINES.length];
+      flash.className   = 'feedback-flash flash-correct';
+      setTimeout(() => flash.classList.add('flash-fade'), 1400);
+    } else {
+      flash.innerHTML = '';
+      flash.className = 'feedback-flash hidden';
+    }
+  }
 
   if (q.explanation) {
     const box  = document.getElementById('explanation-box');
     const _fn2 = _getFirstName(state.user);
-    box.textContent = q.explanation.replace(/\{\{userName\}\}/g, _fn2);
-    box.classList.remove('hidden');
+    const text = q.explanation.replace(/\{\{userName\}\}/g, _fn2);
+    box.innerHTML  = ok ? _esc(text) : _WRONG_PREFIX + _esc(text);
+    box.className  = ok ? 'explanation-box explanation-correct' : 'explanation-box explanation-wrong';
+  } else if (!ok) {
+    const box = document.getElementById('explanation-box');
+    box.innerHTML = _WRONG_PREFIX + 'The correct answer is highlighted above.';
+    box.className = 'explanation-box explanation-wrong';
   }
 
   document.getElementById('submit-btn').classList.add('hidden');
