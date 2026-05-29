@@ -169,19 +169,22 @@ function _renderHome() {
     ? weeklyGoals
     : weeklyGoals.filter(g => g.subject === state.subjectFilter);
 
-  const thisWeekGoals = weeklyFiltered
-    .filter(g => g.weekNum === currentWeek)
-    .sort((a, b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
+  if (typeof state.weekOffset !== 'number') state.weekOffset = 0;
+  const displayWeekNum = currentWeek + state.weekOffset;
+  const _WEEK_LABELS   = ['2 Weeks Ago', 'Last Week', 'This Week'];
+  const displayLabel   = _WEEK_LABELS[state.weekOffset + 2] || 'This Week';
 
-  const lastWeekGoals = weeklyFiltered
-    .filter(g => g.weekNum === currentWeek - 1)
+  const displayGoals = weeklyFiltered
+    .filter(g => g.weekNum === displayWeekNum)
     .sort((a, b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
+  const canGoBack    = state.weekOffset > -2 && weeklyFiltered.some(g => g.weekNum === displayWeekNum - 1);
+  const canGoForward = state.weekOffset < 0;
 
   const archivedSet   = new Set(user.archivedGoals || []);
   const activeGoals   = subFiltered.filter(g => !archivedSet.has(g.id));
   const archivedGoals = subFiltered.filter(g =>  archivedSet.has(g.id));
 
-  if (!thisWeekGoals.length && !lastWeekGoals.length && !activeGoals.length && !archivedGoals.length) {
+  if (!weeklyFiltered.length && !activeGoals.length && !archivedGoals.length) {
     if (!user.category) {
       list.innerHTML = '<p class="text-muted">Your profile is incomplete. <button class="link-btn" onclick="openEditProfile()">Complete your profile</button> to see your goals.</p>';
     } else {
@@ -196,28 +199,45 @@ function _renderHome() {
     return;
   }
 
-  // ── This Week day-cards ───────────────────────────────────────────────────
+  // ── Week nav + horizontal subject snap ──────────────────────────────────
   let html = '';
 
-  if (thisWeekGoals.length) {
-    html += `<div class="week-section-header"><span class="week-badge active-week">This Week</span></div>`;
-    html += `<div class="day-cards-grid">${thisWeekGoals.map(_dayCardHtml).join('')}</div>`;
-  }
-
-  // ── Last Week collapsible ─────────────────────────────────────────────────
-  if (lastWeekGoals.length) {
-    const isOpen = state.showLastWeekSection;
+  if (displayGoals.length || state.weekOffset !== 0) {
     html += `
-      <button class="archived-toggle" onclick="_toggleLastWeekSection()">
-        ${isOpen ? '▲' : '▼'} Last Week (${lastWeekGoals.length})
-      </button>
-      <div class="day-cards-grid last-week-section" style="display:${isOpen ? 'flex' : 'none'}">
-        ${lastWeekGoals.map(g => _dayCardHtml(g, true)).join('')}
+      <div class="week-nav-row">
+        <button class="week-nav-btn" onclick="_weekNav(-1)"${!canGoBack?' disabled':''}>◀</button>
+        <span class="week-badge${state.weekOffset===0?' active-week':''}">${displayLabel}</span>
+        <button class="week-nav-btn" onclick="_weekNav(1)"${!canGoForward?' disabled':''}>▶</button>
       </div>`;
+
+    if (!displayGoals.length) {
+      html += `<p class="text-muted" style="padding:8px 0">No practice sets for ${displayLabel.toLowerCase()}.</p>`;
+    } else {
+      const bySubj = {};
+      displayGoals.forEach(g => { const s = g.subject || 'general'; (bySubj[s] = bySubj[s] || []).push(g); });
+      const subjKeys = Object.keys(bySubj);
+      const isPast   = state.weekOffset < 0;
+
+      if (subjKeys.length <= 1) {
+        html += `<div class="day-cards-grid">${displayGoals.map(g => _dayCardHtml(g, isPast)).join('')}</div>`;
+      } else {
+        html += `<div class="subj-track" id="subj-track-main">`;
+        subjKeys.forEach(s => {
+          const st = SUBJECT_STYLE[s] || {};
+          const lb = s === 'social-science' ? 'Soc. Sci.' : _cap(s);
+          html += `<div class="subj-card"><div class="subj-card-head" style="color:${st.color||'var(--accent)'}"><span>${st.icon||'📚'}</span><span>${lb}</span></div><div class="day-cards-grid">${bySubj[s].map(g => _dayCardHtml(g, isPast)).join('')}</div></div>`;
+        });
+        html += `</div>`;
+        html += `<div class="subj-dots" id="subj-dots">${subjKeys.map((s, i) => {
+          const st = SUBJECT_STYLE[s] || {};
+          return `<button class="subj-dot${i===0?' active':''}" data-color="${st.color||'var(--accent)'}" style="${i===0?`background:${st.color||'var(--accent)'}`:'background:var(--border)'}" onclick="_scrollToSubj(${i})" title="${s}"></button>`;
+        }).join('')}</div>`;
+      }
+    }
   }
 
   // ── Regular practice goals ────────────────────────────────────────────────
-  if (thisWeekGoals.length || lastWeekGoals.length) {
+  if (weeklyFiltered.length) {
     html += `<div class="week-section-header practice-header"><span class="week-badge practice-badge">Practice Sets</span></div>`;
   }
 
@@ -265,8 +285,18 @@ function _renderHome() {
 
   list.innerHTML = html;
 
-  const bnavMe = document.getElementById('bnav-me-label');
-  if (bnavMe) bnavMe.textContent = _getFirstName(state.user);
+  // Subject track scroll → update dots
+  const subTrack = document.getElementById('subj-track-main');
+  if (subTrack) {
+    subTrack.addEventListener('scroll', () => {
+      const idx = Math.round(subTrack.scrollLeft / subTrack.offsetWidth);
+      document.querySelectorAll('.subj-dot').forEach((d, i) => {
+        const active = i === idx;
+        d.classList.toggle('active', active);
+        d.style.background = active ? (d.dataset.color || 'var(--accent)') : 'var(--border)';
+      });
+    }, { passive: true });
+  }
 }
 
 // ── Goal actions ──────────────────────────────────────────────────────────────
@@ -355,6 +385,22 @@ function _toggleLastWeekSection() {
 function _setSubjectFilter(subject) {
   state.subjectFilter = subject;
   _renderHome();
+}
+
+function _weekNav(delta) {
+  state.weekOffset = Math.max(-2, Math.min(0, (state.weekOffset || 0) + delta));
+  _renderHome();
+}
+
+function _scrollToSubj(idx) {
+  const track = document.getElementById('subj-track-main');
+  if (!track) return;
+  track.scrollTo({ left: idx * track.offsetWidth, behavior: 'smooth' });
+  document.querySelectorAll('.subj-dot').forEach((d, i) => {
+    const active = i === idx;
+    d.classList.toggle('active', active);
+    d.style.background = active ? (d.dataset.color || 'var(--accent)') : 'var(--border)';
+  });
 }
 
 function _navPractice() {

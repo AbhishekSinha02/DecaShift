@@ -1429,6 +1429,51 @@
   font-size: 12px; color: var(--muted);
 }
 
+/* ── Week navigation row ─────────────────────────────────────── */
+.week-nav-row {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 14px; padding: 0 2px;
+}
+.week-nav-btn {
+  background: none; border: 1px solid var(--border);
+  color: var(--muted); width: 32px; height: 32px;
+  border-radius: 8px; cursor: pointer; font-size: 13px;
+  transition: all .15s; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.week-nav-btn:hover:not([disabled]) { background: var(--border); color: var(--text); }
+.week-nav-btn[disabled] { opacity: .3; cursor: default; }
+
+/* ── Horizontal subject snap track ───────────────────────────── */
+.subj-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.subj-track::-webkit-scrollbar { display: none; }
+.subj-card {
+  flex-shrink: 0;
+  width: 100%;
+  scroll-snap-align: start;
+  padding-bottom: 4px;
+}
+.subj-card-head {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 13px; font-weight: 700;
+  margin-bottom: 10px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.subj-dots { display: flex; justify-content: center; gap: 6px; padding: 8px 0 4px; }
+.subj-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  border: none; cursor: pointer; padding: 0;
+  transition: all .2s;
+}
+.subj-dot.active { width: 20px; border-radius: 4px; }
+
 /* ── City partner strip ──────────────────────────────────────── */
 .city-strip {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 195;
