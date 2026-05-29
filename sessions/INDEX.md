@@ -35,7 +35,7 @@ When user says **"start the session"**:
 
 | # | File | Type | Focus | Task | Depends On |
 |---|---|---|---|---|---|
-| 1 | [PENDING-css-split-phase1.md](PENDING-css-split-phase1.md) | Refactor | Split styles.css → base/auth/app (167/318/1596 lines) | P1-T019 | — |
+| ~~1~~ | ~~[PENDING-css-split-phase1.md](PENDING-css-split-phase1.md)~~ | ~~Refactor~~ | ~~Split styles.css → base/auth/app~~ | ~~P1-T019~~ | ~~done~~ |
 | 2 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 | Phase 1 done + styles-app.css > 2,000 lines |
 | ~~1~~ | ~~[PENDING-manifest-sharding.md](PENDING-manifest-sharding.md)~~ | ~~Code~~ | ~~Split 58KB manifest into per-grade shards~~ | ~~P1-T018~~ | ~~done~~ |
 | ~~1~~ | ~~[PENDING-ui-overhaul-phase1.md](PENDING-ui-overhaul-phase1.md)~~ | ~~Code/Design~~ | ~~App shell + fixed header + bottom nav + avatar ring + grade chip~~ | ~~P1-T014, P1-T017~~ | ~~—~~ |
@@ -76,6 +76,7 @@ change its `#` to 1, change Restructure to 2. That's it. Commit + push.
 | 2026-05-29 | —          | P3-T032 — City partner footer (Pune 3 partners) + Reward Card (7-day/30-day/50q milestones, gold card, share to WhatsApp) | `385066a` |
 | 2026-05-28 | 13:30 run  | P2-T034 — Grade 9–12 W23-W24 Set 2: all 12 files already generated (commits understated scope to W21-W22) | verified |
 | 2026-05-29 | —          | P1-T018 — Manifest sharding: 58KB→749B index + 15 grade shards; grade-change callsites fixed in auth+settings | `78c35cf` |
+| 2026-05-29 | —          | P1-T019 — CSS split: styles.css(2081L) → base(166L)/auth(336L)/app(1589L); styles-legacy.css as rollback | `7b5b6b2` |
 
 ---
 
