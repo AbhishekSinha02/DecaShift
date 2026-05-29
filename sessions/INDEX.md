@@ -37,6 +37,7 @@ When user says **"start the session"**:
 |---|---|---|---|---|---|
 | ~~1~~ | ~~[PENDING-css-split-phase1.md](PENDING-css-split-phase1.md)~~ | ~~Refactor~~ | ~~Split styles.css → base/auth/app~~ | ~~P1-T019~~ | ~~done~~ |
 | ~~1~~ | ~~[PENDING-index-html-modularisation.md](PENDING-index-html-modularisation.md)~~ | ~~Refactor~~ | ~~Break index.html (861L) → screens/ folder + ~35L shell~~ | ~~P1-T020~~ | ~~done~~ |
+| 1 | [PENDING-landing-page-enhancements.md](PENDING-landing-page-enhancements.md) | Code/Design | Fixed nav · copy rewrite · hamburger · city ticker · stats count-up · FAQ · scroll-reveal · question teaser | P2-T015 Ph2 | Phase 1 done (f833a62) |
 | 2 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 | Phase 1 done + styles-app.css > 2,000 lines |
 | ~~1~~ | ~~[PENDING-manifest-sharding.md](PENDING-manifest-sharding.md)~~ | ~~Code~~ | ~~Split 58KB manifest into per-grade shards~~ | ~~P1-T018~~ | ~~done~~ |
 | ~~1~~ | ~~[PENDING-ui-overhaul-phase1.md](PENDING-ui-overhaul-phase1.md)~~ | ~~Code/Design~~ | ~~App shell + fixed header + bottom nav + avatar ring + grade chip~~ | ~~P1-T014, P1-T017~~ | ~~—~~ |
@@ -79,6 +80,7 @@ change its `#` to 1, change Restructure to 2. That's it. Commit + push.
 | 2026-05-29 | —          | P1-T018 — Manifest sharding: 58KB→749B index + 15 grade shards; grade-change callsites fixed in auth+settings | `78c35cf` |
 | 2026-05-29 | —          | P1-T019 — CSS split: styles.css(2081L) → base(166L)/auth(336L)/app(1589L); styles-legacy.css as rollback | `7b5b6b2` |
 | 2026-05-29 | —          | P1-T020 — index.html modularisation: 861L → 31L shell; 8 screen files in screens/; all modals JS-rendered | `10f62e8` |
+| 2026-05-29 | —          | P2-T015 Ph1 — Landing page full redesign: 7-section structure, CSS phone mockup, feature rows, pricing, testimonials | `f833a62` |
 
 ---
 
