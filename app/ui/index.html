@@ -283,22 +283,27 @@
   <section id="screen-home" class="screen">
     <div class="home-wrap">
 
-      <div class="home-header">
-        <div>
-          <p class="home-sub">Ready to grow today?</p>
-          <h1 class="home-title" id="user-greeting">Your Goals</h1>
+      <header class="app-header">
+        <div class="app-header-brand">
+          <img src="assets/icon.svg" class="app-logo" alt="Donnibo">
+          <span class="app-brand-name">Donnibo</span>
         </div>
-        <div class="home-header-right">
-          <div class="user-chip" onclick="toggleUserMenu()" style="cursor:pointer">
+        <div class="app-header-meta" id="app-header-meta"></div>
+        <div class="app-header-right">
+          <div class="avatar-ring-wrap" id="avatar-ring-wrap" onclick="toggleUserMenu()" style="cursor:pointer">
+            <svg class="avatar-ring-svg" viewBox="0 0 52 52" fill="none">
+              <circle class="avatar-ring-track" cx="26" cy="26" r="22" stroke-width="3"/>
+              <circle class="avatar-ring-fill" id="avatar-ring-fill" cx="26" cy="26" r="22"
+                      stroke-width="3" stroke-linecap="round" transform="rotate(-90 26 26)"/>
+            </svg>
             <div class="user-avatar" id="user-avatar">?</div>
-            <span id="user-chip-name">—</span>
           </div>
           <div class="user-menu hidden" id="user-menu">
             <button class="user-menu-item" onclick="openSettings()">⚙ Settings</button>
             <button class="user-menu-item" onclick="signOut()">Sign Out</button>
           </div>
         </div>
-      </div>
+      </header>
 
       <!-- Dashboard: streak + progress stats -->
       <div class="home-dashboard">

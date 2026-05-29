@@ -32,6 +32,8 @@ function _renderHome() {
   const avatar = document.getElementById('user-avatar');
   if (avatar) avatar.textContent = firstName[0].toUpperCase();
 
+  _renderHeaderMeta();
+
   // Streak
   const streak = Storage.loadStreak();
   const elStreakCount = document.getElementById('streak-count');
@@ -321,6 +323,19 @@ function _toggleLastWeekSection() {
 function _setSubjectFilter(subject) {
   state.subjectFilter = subject;
   _renderHome();
+}
+
+function _renderHeaderMeta() {
+  const el   = document.getElementById('app-header-meta');
+  const user = state.user;
+  if (!el || !user) return;
+  const grade = user.grade
+    ? (isNaN(Number(user.grade)) ? user.grade : 'Grade ' + user.grade)
+    : '';
+  const city = user.city || '';
+  el.innerHTML =
+    (grade ? `<span class="header-grade-chip">${_esc(grade)}</span>` : '') +
+    (city  ? `<span class="header-city-chip">📍 ${_esc(city)}</span>` : '');
 }
 
 // Close goal menus on any outside click
