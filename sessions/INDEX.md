@@ -35,7 +35,7 @@ When user says **"start the session"**:
 
 | # | File | Type | Focus | Task | Depends On |
 |---|---|---|---|---|---|
-| 1 | [PENDING-manifest-sharding.md](PENDING-manifest-sharding.md) | Code | Split 58KB manifest into per-grade shards (~3–8KB per user) | P1-T018 | — |
+| ~~1~~ | ~~[PENDING-manifest-sharding.md](PENDING-manifest-sharding.md)~~ | ~~Code~~ | ~~Split 58KB manifest into per-grade shards~~ | ~~P1-T018~~ | ~~done~~ |
 | ~~1~~ | ~~[PENDING-ui-overhaul-phase1.md](PENDING-ui-overhaul-phase1.md)~~ | ~~Code/Design~~ | ~~App shell + fixed header + bottom nav + avatar ring + grade chip~~ | ~~P1-T014, P1-T017~~ | ~~—~~ |
 | ~~2~~ | ~~[PENDING-ui-overhaul-phase2.md](PENDING-ui-overhaul-phase2.md)~~ | ~~Code/Design~~ | ~~Visual design system~~ | ~~P1-T015, P1-T016~~ | ~~Phase 1 done~~ |
 | ~~3~~ | ~~[PENDING-pwa-install-prompt.md](PENDING-pwa-install-prompt.md)~~ | ~~Code~~ | ~~PWA install prompt~~ | ~~P2-T033~~ | ~~—~~ |
@@ -73,6 +73,7 @@ change its `#` to 1, change Restructure to 2. That's it. Commit + push.
 | 2026-05-29 | —          | P2-T033 — PWA install: Android banner after 3rd session, iOS guide modal, Settings install tabs (Android/Windows/iOS) | `4ca1eae` |
 | 2026-05-29 | —          | P3-T032 — City partner footer (Pune 3 partners) + Reward Card (7-day/30-day/50q milestones, gold card, share to WhatsApp) | `385066a` |
 | 2026-05-28 | 13:30 run  | P2-T034 — Grade 9–12 W23-W24 Set 2: all 12 files already generated (commits understated scope to W21-W22) | verified |
+| 2026-05-29 | —          | P1-T018 — Manifest sharding: 58KB→749B index + 15 grade shards; grade-change callsites fixed in auth+settings | `78c35cf` |
 
 ---
 
