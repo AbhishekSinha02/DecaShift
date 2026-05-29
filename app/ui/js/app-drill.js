@@ -99,6 +99,9 @@ async function _startDrill(type) {
   drillState.responses    = [];
   drillState.startTime    = Date.now();
 
+  // Load screen FIRST — DOM elements don't exist until the screen HTML is injected
+  await _showScreen('drill');
+
   const meta = DRILL_META[type];
   document.getElementById('drill-name').textContent = meta.name;
 
@@ -120,7 +123,6 @@ async function _startDrill(type) {
   document.getElementById('drill-progress-fill').style.width = '0%';
   document.getElementById('drill-timer').textContent = '0:00';
 
-  await _showScreen('drill');
   _startDrillTimer();
   _renderDrillQuestion();
 }
