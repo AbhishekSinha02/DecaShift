@@ -30,6 +30,24 @@ function _setupLanding() {
       nav.style.boxShadow = landing.scrollTop > 10 ? '0 2px 20px rgba(0,0,0,.08)' : 'none';
     });
   }
+
+  const ham = document.getElementById('lp-hamburger');
+  const mob = document.getElementById('lp-mobile-menu');
+  if (ham && mob) {
+    ham.onclick = () => { ham.classList.toggle('open'); mob.classList.toggle('hidden'); };
+    const mobSignin = document.getElementById('lp-mob-signin');
+    const mobStart  = document.getElementById('lp-mob-start');
+    if (mobSignin) mobSignin.onclick = signin;
+    if (mobStart)  mobStart.onclick  = school;
+    mob.querySelectorAll('.lp-mobile-navlink').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        ham.classList.remove('open'); mob.classList.add('hidden');
+        const t = document.querySelector(link.getAttribute('href'));
+        if (t) t.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  }
 }
 
 async function _goToSignup(category) {
