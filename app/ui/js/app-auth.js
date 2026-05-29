@@ -38,7 +38,7 @@ function _setupLanding() {
       });
     }, { threshold: 0.1 });
     document.querySelectorAll(
-      '.lp-section, .lp-feature, .lp-feature-alt, .lp-testimonials, .lp-pricing, .lp-faq, .lp-stats, .lp-proof-bar'
+      '.lp-section, .lp-feature, .lp-feature-alt, .lp-testimonials, .lp-faq, .lp-stats'
     ).forEach(el => { el.classList.add('lp-reveal'); revealObs.observe(el); });
   }
 

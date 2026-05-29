@@ -397,38 +397,6 @@
 .lp-testi-name { font-size: 14px; font-weight: 700; color: #1e293b; }
 .lp-testi-meta { font-size: 12px; color: #94a3b8; }
 
-/* ── Pricing ─────────────────────────────────────────────────────── */
-.lp-pricing { text-align: center; background: #fff; }
-.lp-pricing-sub { font-size: 15px; color: #64748b; margin: -32px 0 48px; }
-.lp-plan-grid {
-  display: grid; grid-template-columns: 1fr 1fr;
-  gap: 20px; max-width: 760px; margin: 0 auto;
-  text-align: left;
-}
-.lp-plan {
-  border-radius: 24px; padding: 32px; position: relative;
-  border: 2px solid #e2e8f0;
-  transition: box-shadow .25s;
-}
-.lp-plan:hover { box-shadow: 0 8px 40px rgba(0,0,0,.08); }
-.lp-plan-free { background: #fff; }
-.lp-plan-pro  { background: #eff6ff; border-color: #bfdbfe; }
-.lp-plan-badge {
-  position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
-  background: #3b82f6; color: #fff; font-size: 11px; font-weight: 800;
-  letter-spacing: .1em; padding: 4px 16px; border-radius: 100px;
-  white-space: nowrap;
-}
-.lp-plan-name  { font-family: 'Syne', sans-serif; font-size: 20px; font-weight: 800; color: #1e293b; margin-bottom: 8px; }
-.lp-plan-price {
-  font-family: 'Syne', sans-serif; font-size: 40px; font-weight: 800;
-  color: #3b82f6; margin-bottom: 24px; line-height: 1;
-}
-.lp-plan-price span { font-size: 16px; color: #94a3b8; font-weight: 500; }
-.lp-plan-features { list-style: none; padding: 0; margin: 0 0 24px; display: flex; flex-direction: column; gap: 10px; }
-.lp-plan-features li { font-size: 14px; color: #334155; }
-.lp-plan-dim { color: #cbd5e1; text-decoration: line-through; }
-.lp-plan-note { font-size: 12px; color: #94a3b8; text-align: center; margin-top: 10px; }
 
 /* ── Question teaser ─────────────────────────────────────────────── */
 .lp-question-teaser {
@@ -532,25 +500,6 @@
 .lp-footer-link    { color: rgba(255,255,255,.55); text-decoration: none; }
 .lp-footer-link:hover { color: #fff; }
 
-/* ── City proof ticker ───────────────────────────────────────────── */
-.lp-proof-bar {
-  background: #eff6ff; border-bottom: 1px solid #dbeafe;
-  padding: 10px 24px; display: flex; align-items: center;
-  gap: 12px; overflow: hidden; white-space: nowrap;
-}
-.lp-proof-label {
-  font-size: 12px; font-weight: 700; color: #3b82f6;
-  flex-shrink: 0; letter-spacing: .02em;
-}
-.lp-proof-ticker {
-  display: flex; gap: 14px; font-size: 12px; color: #475569; font-weight: 500;
-  animation: lp-ticker 24s linear infinite;
-}
-.lp-proof-dot { color: #bfdbfe; }
-@keyframes lp-ticker {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
 
 /* ── Hamburger + Mobile Nav ──────────────────────────────────────── */
 .lp-hamburger {
@@ -634,10 +583,6 @@
   /* Testimonials */
   .lp-testimonials { padding: 56px 20px; }
   .lp-testi-grid { grid-template-columns: 1fr; gap: 16px; }
-
-  /* Pricing */
-  .lp-pricing { padding: 56px 20px; }
-  .lp-plan-grid { grid-template-columns: 1fr; max-width: 380px; }
 
   /* CTA */
   .lp-cta-block { padding: 56px 20px; }
