@@ -187,8 +187,14 @@
   transition: transform 0.15s;
 }
 .day-card:hover { transform: translateY(-2px); }
-.day-card.past  { border-left-color: var(--border); opacity: 0.75; }
-.day-card.done  { border-left-color: var(--success); }
+.day-card.past   { border-left-color: var(--border); opacity: 0.75; }
+.day-card.done   { border-left-color: var(--success); }
+.day-card.gated  { opacity: 0.65; }
+.day-card-lock   {
+  font-size: 10px; font-weight: 700; color: var(--warning);
+  background: rgba(245,158,11,.12); padding: 2px 8px; border-radius: 100px;
+  width: fit-content; margin-bottom: 6px;
+}
 
 .day-card-meta {
   font-size: 11px;

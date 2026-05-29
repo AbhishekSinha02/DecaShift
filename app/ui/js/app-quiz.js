@@ -2,8 +2,21 @@
 
 // ── Quiz Entry ────────────────────────────────────────────────────────────────
 
+const _GATED_DAYS = new Set(['wed', 'thu', 'fri']); // sets 3–5
+
+function _isGatedGoal(goal) {
+  return goal?.weekNum && _GATED_DAYS.has(goal?.weekDay);
+}
+
 async function startGoal(goalId) {
-  state.selectedGoal      = state.goals.find(g => g.id === goalId);
+  const goal = state.goals.find(g => g.id === goalId);
+  if (_isGatedGoal(goal) && state.user?.plan === 'expired') {
+    await _showScreen('paywall');
+    _setupPaywall();
+    return;
+  }
+
+  state.selectedGoal      = goal;
   state.filteredQuestions = state.questions.filter(q => q.goalId === goalId);
   state.currentIndex      = 0;
   state.responses         = [];

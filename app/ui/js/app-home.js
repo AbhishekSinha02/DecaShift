@@ -365,14 +365,16 @@ function _dayCardHtml(goal, isPast) {
   const subj     = SUBJECT_STYLE[goal.subject] || {};
   const color    = subj.color || 'var(--accent)';
   const icon     = subj.icon  || '';
+  const isGated  = typeof _isGatedGoal === 'function' && _isGatedGoal(goal) && state.user?.plan === 'expired';
   return `
-    <div class="day-card${done ? ' done' : ''}${isPast ? ' past' : ''}" style="border-left-color:${color}">
+    <div class="day-card${done ? ' done' : ''}${isPast ? ' past' : ''}${isGated ? ' gated' : ''}" style="border-left-color:${color}">
+      ${isGated ? '<div class="day-card-lock">🔒 Pro</div>' : ''}
       <div class="day-card-meta">${icon ? icon + ' ' : ''}${metaLabel}</div>
       <div class="day-card-title">${_esc(goal.name)}</div>
       <div class="day-card-desc">${_esc(goal.description)}</div>
       <div class="day-card-footer">
         <span class="day-card-count">${count} Q${score ? ' · ' + score : ''}</span>
-        <button class="btn btn-primary btn-sm" onclick="startGoal('${goal.id}')">${done ? 'Redo' : last ? 'Continue' : 'Start'}</button>
+        <button class="btn${isGated ? ' btn-ghost' : ' btn-primary'} btn-sm" onclick="startGoal('${goal.id}')">${isGated ? '🔒 Unlock' : done ? 'Redo' : last ? 'Continue' : 'Start'}</button>
       </div>
     </div>`;
 }
