@@ -1,0 +1,132 @@
+  <section id="screen-signup" class="screen">
+    <div class="auth-wrap">
+
+      <div class="brand">
+        <img src="assets/icon.svg" class="brand-logo" alt="DecaShift">
+        <h1 class="brand-name">DecaShift</h1>
+        <p class="brand-tagline">Practice Daily. Grow Fast.</p>
+      </div>
+
+      <div class="card auth-card">
+        <h2>Create your account</h2>
+        <p class="subtitle">Free forever. No credit card required.</p>
+
+        <form id="signup-form" novalidate autocomplete="on">
+
+          <div class="form-group">
+            <label for="reg-name">Full Name <span class="required">*</span></label>
+            <input type="text" id="reg-name" name="name" placeholder="Enter your name" autocomplete="name" required>
+            <span class="field-error" id="err-name"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-email">Email Address <span class="required">*</span></label>
+            <input type="email" id="reg-email" name="email" placeholder="you@example.com" autocomplete="email" required>
+            <span class="field-error" id="err-email"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-mobile">Mobile Number <span class="required">*</span></label>
+            <div class="input-with-prefix">
+              <span class="input-prefix">+91</span>
+              <input type="tel" id="reg-mobile" name="mobile" placeholder="9876543210" autocomplete="tel-national" maxlength="10" inputmode="numeric" required>
+            </div>
+            <span class="field-error" id="err-mobile"></span>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="reg-password">Password <span class="required">*</span></label>
+              <input type="password" id="reg-password" name="password" placeholder="Min 6 characters" autocomplete="new-password" required>
+              <span class="field-error" id="err-password"></span>
+            </div>
+            <div class="form-group">
+              <label for="reg-confirm">Confirm Password <span class="required">*</span></label>
+              <input type="password" id="reg-confirm" name="confirm" placeholder="Repeat password" autocomplete="new-password" required>
+              <span class="field-error" id="err-confirm"></span>
+            </div>
+          </div>
+
+          <!-- School fields (shown for Student path) -->
+          <div id="school-fields" class="hidden">
+            <div class="form-group">
+              <label for="reg-grade">Grade / Level <span class="required">*</span></label>
+              <select id="reg-grade" name="grade">
+                <option value="">Select grade…</option>
+                <option value="2">Grade 2</option>
+                <option value="3">Grade 3</option>
+                <option value="4">Grade 4</option>
+                <option value="5">Grade 5</option>
+                <option value="6">Grade 6</option>
+                <option value="7">Grade 7</option>
+                <option value="8">Grade 8</option>
+                <option value="9">Grade 9</option>
+                <option value="10">Grade 10</option>
+                <option value="11">Grade 11</option>
+                <option value="12">Grade 12</option>
+                <option value="college">College / University</option>
+              </select>
+              <span class="field-error" id="err-grade"></span>
+            </div>
+
+            <div class="form-group hidden" id="college-course-group">
+              <label for="reg-course">Course / Stream <span class="required">*</span></label>
+              <select id="reg-course" name="course">
+                <option value="">Select course…</option>
+                <option value="web-dev">Web Development</option>
+                <option value="dsa">Data Structures &amp; Algorithms</option>
+                <option value="data-science">Data Science</option>
+                <option value="electronics">Electronics &amp; Communication</option>
+                <option value="mechanical">Mechanical Engineering</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="field-error" id="err-course"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="reg-regional-lang">Regional Language Practice <span class="optional">(optional)</span></label>
+              <select id="reg-regional-lang" name="regionalLanguage">
+                <option value="">None — skip for now</option>
+                <option value="sanskrit">Sanskrit</option>
+                <option value="marathi">Marathi</option>
+                <option value="tamil">Tamil</option>
+                <option value="telugu">Telugu</option>
+                <option value="punjabi">Punjabi</option>
+                <option value="malayalam">Malayalam</option>
+              </select>
+              <span class="form-hint">Get dedicated practice sets for your chosen language</span>
+            </div>
+          </div>
+
+          <!-- Professional fields (shown for Professional path) -->
+          <div id="pro-fields" class="hidden">
+            <div class="form-group">
+              <label for="reg-role">Role / Designation <span class="required">*</span></label>
+              <select id="reg-role" name="role">
+                <option value="">Select your role…</option>
+                <option value="software-engineer">Software Engineer</option>
+                <option value="devops-engineer">DevOps / Platform Engineer</option>
+                <option value="data-engineer">Data Engineer</option>
+                <option value="ml-engineer">ML / AI Engineer</option>
+                <option value="cloud-architect">Cloud Architect</option>
+                <option value="sre">Site Reliability Engineer</option>
+                <option value="product-manager">Product Manager</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="field-error" id="err-role"></span>
+            </div>
+            <div class="form-group">
+              <label for="reg-company">Company <span class="optional">(optional)</span></label>
+              <input type="text" id="reg-company" name="company" placeholder="Your company or organisation" autocomplete="organization">
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" id="signup-btn">Create Account →</button>
+
+          <p class="auth-switch">Already have an account? <button type="button" class="link-btn" id="btn-to-signin">Sign in</button></p>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
