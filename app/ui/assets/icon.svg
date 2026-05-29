@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Background -->
-  <rect width="100" height="100" rx="22" fill="#1a1d27"/>
-  <!-- Shift arrow — upward pointing, centered -->
-  <path d="M50 16 L78 50 L63 50 L63 64 L37 64 L37 50 L22 50 Z" fill="#3b82f6"/>
-  <!-- Base bar below arrow -->
-  <rect x="33" y="70" width="34" height="9" rx="4.5" fill="#3b82f6"/>
+  <rect width="100" height="100" rx="22" fill="#1e3a8a"/>
+  <path d="M50 16 L78 50 L63 50 L63 64 L37 64 L37 50 L22 50 Z" fill="#ffffff"/>
+  <rect x="33" y="70" width="34" height="9" rx="4.5" fill="#ffffff"/>
 </svg>

@@ -324,8 +324,8 @@ function _maybeShowWelcome() {
     document.body.insertAdjacentHTML('beforeend', `
       <div id="welcome-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissWelcome()">
         <div class="modal-box">
-          <img src="assets/icon.svg" class="modal-logo" alt="DecaShift">
-          <h2 class="modal-title">Welcome to DecaShift!</h2>
+          <img src="assets/icon.svg" class="modal-logo" alt="Donnibo">
+          <h2 class="modal-title">Welcome to Donnibo!</h2>
           <p class="modal-sub">Here's how it works:</p>
           <ul class="modal-steps">
             <li><span>✅</span> Pick a goal → answer questions → see your score</li>
