@@ -35,6 +35,7 @@ When user says **"start the session"**:
 
 | # | File | Type | Focus | Task | Depends On |
 |---|---|---|---|---|---|
+| 1 | [PENDING-manifest-sharding.md](PENDING-manifest-sharding.md) | Code | Split 58KB manifest into per-grade shards (~3–8KB per user) | P1-T018 | — |
 | ~~1~~ | ~~[PENDING-ui-overhaul-phase1.md](PENDING-ui-overhaul-phase1.md)~~ | ~~Code/Design~~ | ~~App shell + fixed header + bottom nav + avatar ring + grade chip~~ | ~~P1-T014, P1-T017~~ | ~~—~~ |
 | ~~2~~ | ~~[PENDING-ui-overhaul-phase2.md](PENDING-ui-overhaul-phase2.md)~~ | ~~Code/Design~~ | ~~Visual design system~~ | ~~P1-T015, P1-T016~~ | ~~Phase 1 done~~ |
 | ~~3~~ | ~~[PENDING-pwa-install-prompt.md](PENDING-pwa-install-prompt.md)~~ | ~~Code~~ | ~~PWA install prompt~~ | ~~P2-T033~~ | ~~—~~ |
