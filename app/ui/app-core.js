@@ -130,8 +130,8 @@ async function _loadManifest() {
   if (cached) { state.manifest = JSON.parse(cached); return; }
 
   const index = await _fetchJSON([
-    _rawUrl('app/ui/questions/manifest.json'),
-    'questions/manifest.json'
+    _rawUrl('app/ui/questions/manifests/manifest.json'),
+    'questions/manifests/manifest.json'
   ]);
   if (!index) { console.error('[DecaShift] Failed to load manifest'); state.manifest = []; return; }
 
@@ -147,8 +147,8 @@ async function _loadManifest() {
   const shardKeys = _getShardsForUser(user, index.shards);
   const arrays    = await Promise.all(
     shardKeys.map(k => _fetchJSON([
-      _rawUrl('app/ui/questions/' + index.shards[k]),
-      'questions/' + index.shards[k]
+      _rawUrl('app/ui/questions/manifests/' + index.shards[k]),
+      'questions/manifests/' + index.shards[k]
     ]))
   );
   state.manifest = arrays.flat().filter(Boolean);
