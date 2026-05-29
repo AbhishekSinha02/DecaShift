@@ -26,7 +26,9 @@
   -webkit-overflow-scrolling: touch;
   max-width: 720px;
   margin: 0 auto;
+  scrollbar-width: none;
 }
+.home-wrap::-webkit-scrollbar { display: none; }
 
 .home-header {
   display: flex;
@@ -69,7 +71,7 @@
 .subject-tabs {
   display: flex;
   gap: 8px;
-  padding: 0 0 16px;
+  padding: 8px 0 8px;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
