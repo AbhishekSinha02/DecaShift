@@ -763,6 +763,25 @@
 
 .result-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 
+/* D-008: Next-level prompt */
+#result-next-level:empty { display: none; }
+.next-level-card {
+  background: linear-gradient(135deg, rgba(99,102,241,0.12), rgba(59,130,246,0.08));
+  border: 1px solid rgba(99,102,241,0.3);
+  border-left: 4px solid #6366f1;
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.next-level-label {
+  font-size: 11px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.07em; color: #6366f1; margin-bottom: 8px;
+}
+.next-level-msg  { font-size: 14px; color: var(--text); line-height: 1.5; margin-bottom: 6px; }
+.next-level-next { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+.next-level-next strong { color: var(--text); }
+.next-level-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+
 /* ── Toast ───────────────────────────────────────────────────── */
 .toast {
   position: fixed;

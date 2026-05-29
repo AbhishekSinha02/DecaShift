@@ -388,4 +388,47 @@ async function _showResult() {
     await _showScreen('home');
     _renderHome();
   };
+
+  _renderNextLevelPrompt(state.selectedGoal);
+}
+
+// ── D-008: Next-level prompt ──────────────────────────────────────────────────
+
+function _renderNextLevelPrompt(goal) {
+  const el = document.getElementById('result-next-level');
+  if (!el || !goal.conceptId || goal.conceptId === 'practice') return;
+
+  const allSessions = Storage.loadSessions();
+  const conceptGoals = state.goals.filter(g =>
+    g.conceptId === goal.conceptId && g.subject === goal.subject
+  );
+  const conceptGoalIds = new Set(conceptGoals.map(g => g.id));
+  const conceptSessions = allSessions.filter(s => conceptGoalIds.has(s.goalId));
+
+  if (conceptSessions.length < 3) return;
+  const avgAcc = conceptSessions.reduce((s, r) => s + (r.accuracy ?? 0), 0) / conceptSessions.length;
+  if (avgAcc < 0.70) return;
+
+  const allGoals = state.goals.filter(g => g.subject === goal.subject && g.weekNum);
+  const maxWeekForConcept = Math.max(...conceptGoals.map(g => g.weekNum || 0));
+  const nextConceptGoals = allGoals.filter(g =>
+    g.conceptId && g.conceptId !== goal.conceptId && (g.weekNum || 0) > maxWeekForConcept
+  );
+  if (!nextConceptGoals.length) return;
+
+  const nextGoal  = nextConceptGoals.sort((a, b) => (a.weekNum || 0) - (b.weekNum || 0))[0];
+  const topic     = typeof _conceptLabel === 'function' ? _conceptLabel(goal.conceptId) : goal.conceptId;
+  const nextTopic = typeof _conceptLabel === 'function' ? _conceptLabel(nextGoal.conceptId) : nextGoal.name;
+  const n         = conceptSessions.length;
+  const pctDisplay = Math.round(avgAcc * 100);
+
+  el.innerHTML = `<div class="next-level-card">
+    <div class="next-level-label">⬆ You're Ready for Next Level</div>
+    <p class="next-level-msg">You've done <strong>${_esc(topic)}</strong> ${n} times with <strong>${pctDisplay}% accuracy</strong>. Time to move on.</p>
+    <p class="next-level-next">Next up: <strong>${_esc(nextTopic)}</strong></p>
+    <div class="next-level-actions">
+      <button class="btn btn-primary btn-sm" onclick="startGoal('${nextGoal.id}')">Start ${_esc(nextTopic)} →</button>
+      <button class="btn btn-ghost btn-sm" onclick="this.closest('.next-level-card').remove()">Stay here</button>
+    </div>
+  </div>`;
 }
