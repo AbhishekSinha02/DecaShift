@@ -195,6 +195,66 @@ function _buildWinMessage(correct, total, pct, goal, prevSessions) {
   return `<strong>${correct}/${total} today.</strong> ${_esc(topic)} is a tough one — but ${n} session${n !== 1 ? 's' : ''} in, you're building the foundation. Consistency is what moves the needle.`;
 }
 
+// ── D-003: Accuracy trend (this week vs last week) ────────────────────────────
+
+function _weekBounds(offsetWeeks = 0) {
+  const now = new Date();
+  const day = now.getDay(); // 0=Sun
+  const msPerDay = 864e5;
+  const monday = new Date(now - ((day === 0 ? 6 : day - 1) * msPerDay + now % msPerDay));
+  monday.setHours(0, 0, 0, 0);
+  const start = new Date(monday - offsetWeeks * 7 * msPerDay);
+  const end   = new Date(start.getTime() + 7 * msPerDay);
+  return { start, end };
+}
+
+function _avgAccuracy(sessions) {
+  if (!sessions.length) return null;
+  return Math.round(sessions.reduce((s, r) => s + (r.accuracy ?? 0), 0) / sessions.length * 100);
+}
+
+function _buildTrendBlock(goalId, currentSessionId) {
+  const all = Storage.loadSessions().filter(s => s.goalId === goalId);
+  const thisW = _weekBounds(0);
+  const lastW = _weekBounds(1);
+
+  const thisSessions = all.filter(s => {
+    const d = new Date(s.sessionStart);
+    return d >= thisW.start && d < thisW.end;
+  });
+  const lastSessions = all.filter(s => {
+    const d = new Date(s.sessionStart);
+    return d >= lastW.start && d < lastW.end;
+  });
+
+  const thisPct = _avgAccuracy(thisSessions);
+  const lastPct = _avgAccuracy(lastSessions);
+
+  if (thisPct === null) return '';
+
+  const bar = pct => {
+    const filled = Math.round(pct / 10);
+    return '█'.repeat(filled) + '░'.repeat(10 - filled);
+  };
+
+  if (lastPct === null) {
+    return `<div class="trend-block">
+      <div class="trend-row"><span class="trend-label">This week</span><span class="trend-bar">${bar(thisPct)}</span><span class="trend-pct">${thisPct}%</span></div>
+      <div class="trend-note">First week — come back next week to see your improvement.</div>
+    </div>`;
+  }
+
+  const delta = thisPct - lastPct;
+  const arrow = delta > 0 ? `↑ ${delta}% improvement` : delta < 0 ? `↓ ${Math.abs(delta)}% from last week` : '→ Same as last week';
+  const arrowClass = delta > 0 ? 'trend-up' : delta < 0 ? 'trend-down' : 'trend-flat';
+
+  return `<div class="trend-block">
+    <div class="trend-row"><span class="trend-label">This week</span><span class="trend-bar">${bar(thisPct)}</span><span class="trend-pct">${thisPct}%</span></div>
+    <div class="trend-row"><span class="trend-label">Last week</span><span class="trend-bar">${bar(lastPct)}</span><span class="trend-pct">${lastPct}%</span></div>
+    <div class="trend-delta ${arrowClass}">${arrow}</div>
+  </div>`;
+}
+
 // ── Result Screen ─────────────────────────────────────────────────────────────
 
 async function _showResult() {
@@ -250,6 +310,9 @@ async function _showResult() {
       .filter(s => s.goalId === state.selectedGoal.id && s.sessionId !== session.sessionId);
     winMsgEl.innerHTML = _buildWinMessage(correct, total, pct, state.selectedGoal, prevSessions);
   }
+
+  const trendEl = document.getElementById('result-trend');
+  if (trendEl) trendEl.innerHTML = _buildTrendBlock(state.selectedGoal.id, session.sessionId);
 
   document.getElementById('result-table-body').innerHTML = state.filteredQuestions.map((q, i) => {
     const r = state.responses[i];

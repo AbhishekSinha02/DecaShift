@@ -563,6 +563,47 @@
 .result-win-msg:empty { display: none; }
 .result-win-msg strong { color: var(--text); font-size: 15px; display: block; margin-bottom: 2px; }
 
+/* D-003: Accuracy trend block */
+#result-trend:empty { display: none; }
+.trend-block {
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  margin-bottom: 20px;
+}
+.trend-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+.trend-label {
+  width: 74px;
+  flex-shrink: 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+.trend-bar {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--accent);
+  letter-spacing: 1px;
+  flex: 1;
+}
+.trend-pct {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text);
+  width: 38px;
+  text-align: right;
+}
+.trend-delta { font-size: 13px; margin-top: 6px; font-weight: 600; }
+.trend-up    { color: var(--success); }
+.trend-down  { color: var(--error); }
+.trend-flat  { color: var(--muted); }
+.trend-note  { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
 .result-hero { text-align: center; margin-bottom: 24px; }
 
 .result-label {
