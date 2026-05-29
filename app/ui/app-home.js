@@ -453,5 +453,42 @@ function _renderHeaderMeta() {
     (city  ? `<span class="header-city-chip">📍 ${_esc(city)}</span>` : '');
 }
 
+// ── Streak milestone ─────────────────────────────────────────────────────────
+
+const _MILESTONES = {
+  3:  { emoji: '🔥', title: '3-Day Streak!', sub: 'Three days straight. The habit is forming.' },
+  7:  { emoji: '⚡', title: '7-Day Streak!',  sub: "A full week. You've shown up every single day." },
+  14: { emoji: '🌟', title: '14-Day Streak!', sub: 'Two weeks of consistency. Most people quit by now.' },
+  30: { emoji: '🏆', title: '30-Day Streak!', sub: "A month. You're in the top 1% of learners." },
+};
+
+function _checkStreakMilestone(streak) {
+  const m = _MILESTONES[streak.current];
+  if (!m || streak.lastDate !== new Date().toISOString().slice(0, 10)) return;
+  setTimeout(() => {
+    const modal = document.getElementById('streak-milestone-modal');
+    if (!modal) return;
+    document.getElementById('milestone-emoji').textContent = m.emoji;
+    document.getElementById('milestone-title').textContent = m.title;
+    document.getElementById('milestone-sub').textContent   = m.sub;
+    modal.classList.remove('hidden');
+  }, 1400);
+}
+
+function dismissMilestone() {
+  const modal = document.getElementById('streak-milestone-modal');
+  if (modal) modal.classList.add('hidden');
+}
+
+function _shareStreak() {
+  const streak = Storage.loadStreak();
+  const text   = `🔥 ${streak.current}-day streak on Donnibo! Daily practice makes the difference. Try it: https://donnibo.app`;
+  if (navigator.share) {
+    navigator.share({ text }).catch(() => {});
+  } else {
+    navigator.clipboard?.writeText(text).then(() => alert('Copied to clipboard!')).catch(() => {});
+  }
+}
+
 // Close goal menus on any outside click
 document.addEventListener('click', _closeAllGoalMenus);

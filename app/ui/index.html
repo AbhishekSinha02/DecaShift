@@ -730,6 +730,18 @@
     </div>
   </div>
 
+  <div id="streak-milestone-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissMilestone()">
+    <div class="modal-box streak-milestone-box">
+      <div class="milestone-emoji" id="milestone-emoji">🔥</div>
+      <h2 class="milestone-title" id="milestone-title">7-Day Streak!</h2>
+      <p class="milestone-sub" id="milestone-sub">You've shown up 7 days in a row. That's discipline.</p>
+      <div class="milestone-actions">
+        <button class="btn btn-primary" onclick="_shareStreak()">Share 🚀</button>
+        <button class="btn btn-ghost" onclick="dismissMilestone()">Keep Going →</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     function toggleUserMenu() {
       document.getElementById('user-menu').classList.toggle('hidden');

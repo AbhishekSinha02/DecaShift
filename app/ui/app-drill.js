@@ -230,6 +230,7 @@ function _showDrillResult() {
   const isNewPB = prevRec.bestTime === null || secs < prevRec.bestTime;
 
   const drillStreak = Storage.updateStreak();
+  _checkStreakMilestone(drillStreak);
   if (state.user) {
     const drillAcct = Storage.findAccount(state.user.email);
     if (drillAcct) {
