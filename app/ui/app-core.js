@@ -115,25 +115,60 @@ function _toggleAvatar() {
 
 // ── Manifest + Question Loading ───────────────────────────────────────────────
 
-async function _loadManifest() {
-  const cached = sessionStorage.getItem('ds_manifest_cache');
-  if (cached) { state.manifest = JSON.parse(cached); return; }
-  const urls = [
-    _rawUrl('app/ui/questions/manifest.json'),
-    'questions/manifest.json'
-  ];
+async function _fetchJSON(urls) {
   for (const url of urls) {
     try {
       const r = await fetch(url);
-      if (r.ok) {
-        state.manifest = await r.json();
-        sessionStorage.setItem('ds_manifest_cache', JSON.stringify(state.manifest));
-        return;
-      }
+      if (r.ok) return r.json();
     } catch (_) {}
   }
-  console.error('[DecaShift] Failed to load manifest');
-  state.manifest = [];
+  return null;
+}
+
+async function _loadManifest() {
+  const cached = sessionStorage.getItem('ds_manifest_cache');
+  if (cached) { state.manifest = JSON.parse(cached); return; }
+
+  const index = await _fetchJSON([
+    _rawUrl('app/ui/questions/manifest.json'),
+    'questions/manifest.json'
+  ]);
+  if (!index) { console.error('[DecaShift] Failed to load manifest'); state.manifest = []; return; }
+
+  // Legacy fallback: old array format
+  if (Array.isArray(index)) {
+    state.manifest = index;
+    sessionStorage.setItem('ds_manifest_cache', JSON.stringify(index));
+    return;
+  }
+
+  // v2 shard mode: fetch only the shards this user needs
+  const user      = Storage.loadUser();
+  const shardKeys = _getShardsForUser(user, index.shards);
+  const arrays    = await Promise.all(
+    shardKeys.map(k => _fetchJSON([
+      _rawUrl('app/ui/questions/' + index.shards[k]),
+      'questions/' + index.shards[k]
+    ]))
+  );
+  state.manifest = arrays.flat().filter(Boolean);
+  sessionStorage.setItem('ds_manifest_cache', JSON.stringify(state.manifest));
+}
+
+function _getShardsForUser(user, shards) {
+  const keys = ['flash'];
+  if (!user) return keys;
+  const cat = user.category;
+  if (cat === 'school') {
+    const g = user.grade === 'college' ? 'college' : 'school-' + user.grade;
+    if (shards[g])                                        keys.push(g);
+    if (shards['regional'] && user.regionalLanguage)      keys.push('regional');
+  } else if (cat === 'college') {
+    if (shards['college'])                                keys.push('college');
+  } else {
+    if (shards['professional'])                           keys.push('professional');
+  }
+  return keys;
 }
 
 async function _loadQuestionsForUser(user) {

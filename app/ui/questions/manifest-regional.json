@@ -1,0 +1,14 @@
+[
+  { "file": "school/regional/sanskrit/set-1.json",   "category": "school", "grade": null, "subject": "regional-sanskrit",  "level": 1 },
+  { "file": "school/regional/sanskrit/set-2.json",   "category": "school", "grade": null, "subject": "regional-sanskrit",  "level": 2 },
+  { "file": "school/regional/marathi/set-1.json",    "category": "school", "grade": null, "subject": "regional-marathi",   "level": 1 },
+  { "file": "school/regional/marathi/set-2.json",    "category": "school", "grade": null, "subject": "regional-marathi",   "level": 2 },
+  { "file": "school/regional/tamil/set-1.json",      "category": "school", "grade": null, "subject": "regional-tamil",     "level": 1 },
+  { "file": "school/regional/tamil/set-2.json",      "category": "school", "grade": null, "subject": "regional-tamil",     "level": 2 },
+  { "file": "school/regional/telugu/set-1.json",     "category": "school", "grade": null, "subject": "regional-telugu",    "level": 1 },
+  { "file": "school/regional/telugu/set-2.json",     "category": "school", "grade": null, "subject": "regional-telugu",    "level": 2 },
+  { "file": "school/regional/punjabi/set-1.json",    "category": "school", "grade": null, "subject": "regional-punjabi",   "level": 1 },
+  { "file": "school/regional/punjabi/set-2.json",    "category": "school", "grade": null, "subject": "regional-punjabi",   "level": 2 },
+  { "file": "school/regional/malayalam/set-1.json",  "category": "school", "grade": null, "subject": "regional-malayalam", "level": 1 },
+  { "file": "school/regional/malayalam/set-2.json",  "category": "school", "grade": null, "subject": "regional-malayalam", "level": 2 }
+]

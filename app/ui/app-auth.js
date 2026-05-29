@@ -100,6 +100,8 @@ async function _handleSignup(e) {
   Storage.saveUser(user);
   state.user = user;
 
+  sessionStorage.removeItem('ds_manifest_cache');
+  await _loadManifest();
   await _loadQuestionsForUser(user);
   _autoApplyTheme(user.grade);
 
@@ -170,6 +172,8 @@ async function _handleSignin(e) {
 
   btn.disabled = false; btn.textContent = 'Sign In →';
   state.user = user;
+  sessionStorage.removeItem('ds_manifest_cache');
+  await _loadManifest();
   await _loadQuestionsForUser(user);
   _showScreen('home');
   _renderHome();

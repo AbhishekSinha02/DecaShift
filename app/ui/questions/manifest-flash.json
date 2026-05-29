@@ -1,0 +1,7 @@
+[
+  { "file": "flash/gk-bank.json",           "category": "flash", "grade": null, "subject": "gk",       "level": 1 },
+  { "file": "flash/formulas-grade5.json",   "category": "flash", "grade": 5,   "subject": "formulas",  "level": 1 },
+  { "file": "flash/formulas-grade6.json",   "category": "flash", "grade": 6,   "subject": "formulas",  "level": 1 },
+  { "file": "flash/formulas-grade7.json",   "category": "flash", "grade": 7,   "subject": "formulas",  "level": 1 },
+  { "file": "flash/formulas-grade8.json",   "category": "flash", "grade": 8,   "subject": "formulas",  "level": 1 }
+]

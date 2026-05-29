@@ -101,6 +101,7 @@ async function saveProfileEdit() {
   state.user = user;
 
   sessionStorage.removeItem('ds_manifest_cache');
+  await _loadManifest();
   await _loadQuestionsForUser(user);
   _renderHome();
 
@@ -123,6 +124,7 @@ async function saveRegionalLanguage() {
   Storage.saveUser(user);
   state.user = user;
   sessionStorage.removeItem('ds_manifest_cache');
+  await _loadManifest();
   await _loadQuestionsForUser(user);
   closeSettings();
   _renderHome();

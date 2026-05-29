@@ -1,0 +1,11 @@
+[
+  { "file": "school/grade-12/computer-science.json",       "category": "school", "grade": 12, "subject": "computer-science", "level": 1 },
+  { "file": "school/grade-12/mathematics/w21-set1.json",   "category": "school", "grade": 12, "subject": "mathematics",      "level": 1, "weekNum": 21 },
+  { "file": "school/grade-12/mathematics/w22-set1.json",   "category": "school", "grade": 12, "subject": "mathematics",      "level": 1, "weekNum": 22 },
+  { "file": "school/grade-12/mathematics/w23-set1.json",   "category": "school", "grade": 12, "subject": "mathematics",      "level": 1, "weekNum": 23 },
+  { "file": "school/grade-12/mathematics/w24-set1.json",   "category": "school", "grade": 12, "subject": "mathematics",      "level": 1, "weekNum": 24 },
+  { "file": "school/grade-12/physics/w21-set1.json",       "category": "school", "grade": 12, "subject": "physics",          "level": 1, "weekNum": 21 },
+  { "file": "school/grade-12/physics/w22-set1.json",       "category": "school", "grade": 12, "subject": "physics",          "level": 1, "weekNum": 22 },
+  { "file": "school/grade-12/chemistry/w21-set1.json",     "category": "school", "grade": 12, "subject": "chemistry",        "level": 1, "weekNum": 21 },
+  { "file": "school/grade-12/chemistry/w22-set1.json",     "category": "school", "grade": 12, "subject": "chemistry",        "level": 1, "weekNum": 22 }
+]

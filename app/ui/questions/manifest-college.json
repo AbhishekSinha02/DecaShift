@@ -1,0 +1,4 @@
+[
+  { "file": "college/web-dev.json", "category": "college", "grade": null, "subject": "web-dev", "level": 1 },
+  { "file": "college/dsa.json",     "category": "college", "grade": null, "subject": "dsa",     "level": 1 }
+]

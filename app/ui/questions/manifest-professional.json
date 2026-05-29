@@ -1,0 +1,7 @@
+[
+  { "file": "professional/azure-aks.json",      "category": "professional", "grade": null, "subject": "cloud-kubernetes", "level": 1 },
+  { "file": "professional/mlops.json",           "category": "professional", "grade": null, "subject": "mlops",           "level": 1 },
+  { "file": "professional/devops.json",          "category": "professional", "grade": null, "subject": "devops",          "level": 1 },
+  { "file": "professional/python.json",          "category": "professional", "grade": null, "subject": "python",          "level": 1 },
+  { "file": "professional/system-design.json",   "category": "professional", "grade": null, "subject": "system-design",   "level": 1 }
+]
