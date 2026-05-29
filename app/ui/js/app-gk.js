@@ -141,11 +141,23 @@ async function _loadTodayFact() {
 }
 
 function _showTodayFactModal(fact) {
-  const overlay = document.getElementById('gk-fact-modal');
-  if (!overlay) return;
+  if (!document.getElementById('gk-fact-modal')) {
+    document.body.insertAdjacentHTML('beforeend', `
+      <div id="gk-fact-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissGKFact()">
+        <div class="modal-box gk-fact-box">
+          <div class="gk-fact-flag">🇮🇳</div>
+          <div class="gk-fact-label" id="gk-fact-category">India</div>
+          <p class="gk-fact-text" id="gk-fact-text"></p>
+          <div class="gk-fact-actions">
+            <button class="btn btn-primary" onclick="_shareGKFact()">Share this fact</button>
+            <button class="btn btn-ghost"   onclick="dismissGKFact()">Continue →</button>
+          </div>
+        </div>
+      </div>`);
+  }
   document.getElementById('gk-fact-text').textContent     = fact.fact;
   document.getElementById('gk-fact-category').textContent = fact.category || 'India';
-  overlay.classList.remove('hidden');
+  document.getElementById('gk-fact-modal').classList.remove('hidden');
 }
 
 async function dismissGKFact() {

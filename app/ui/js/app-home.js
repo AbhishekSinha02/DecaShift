@@ -567,6 +567,34 @@ function _renderRewardNotif() {
 }
 
 async function _openRewardCard() {
+  if (!document.getElementById('reward-card-screen')) {
+    document.body.insertAdjacentHTML('beforeend', `
+      <div id="reward-card-screen" class="modal-overlay hidden" onclick="if(event.target===this)_closeRewardCard()">
+        <div class="reward-card-box">
+          <div class="reward-card-header">
+            <div class="reward-card-badge">🎫 DONNIBO REWARD CARD</div>
+            <div class="reward-card-milestone" id="rc-milestone">7-Day Streak</div>
+          </div>
+          <div class="reward-card-student">
+            <div class="reward-card-name" id="rc-name">Student Name</div>
+            <div class="reward-card-meta" id="rc-meta">Grade 5 · Pune</div>
+          </div>
+          <div class="reward-card-partners-section">
+            <div class="reward-card-valid-label">Valid at:</div>
+            <div class="reward-card-partners" id="rc-partners"></div>
+          </div>
+          <div class="reward-card-code-section">
+            <div class="reward-card-code" id="rc-code">DS-7STR-XXXX-0000</div>
+            <div class="reward-card-validity" id="rc-validity"></div>
+          </div>
+          <p class="reward-card-hint">Show this screen at the shop. Partner will verify your code.</p>
+          <div class="reward-card-actions">
+            <button class="btn btn-primary" onclick="_shareRewardCard()">Share Card 📤</button>
+            <button class="btn btn-ghost"   onclick="_closeRewardCard()">Close</button>
+          </div>
+        </div>
+      </div>`);
+  }
   const screen = document.getElementById('reward-card-screen');
   if (!screen) return;
   const card = JSON.parse(localStorage.getItem('ds_reward_card') || 'null');
@@ -653,12 +681,24 @@ function _checkStreakMilestone(streak) {
   const m = _MILESTONES[streak.current];
   if (!m || streak.lastDate !== new Date().toISOString().slice(0, 10)) return;
   setTimeout(() => {
-    const modal = document.getElementById('streak-milestone-modal');
-    if (!modal) return;
+    if (!document.getElementById('streak-milestone-modal')) {
+      document.body.insertAdjacentHTML('beforeend', `
+        <div id="streak-milestone-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissMilestone()">
+          <div class="modal-box streak-milestone-box">
+            <div class="milestone-emoji" id="milestone-emoji">🔥</div>
+            <h2 class="milestone-title" id="milestone-title">7-Day Streak!</h2>
+            <p class="milestone-sub" id="milestone-sub">You've shown up 7 days in a row. That's discipline.</p>
+            <div class="milestone-actions">
+              <button class="btn btn-primary" onclick="_shareStreak()">Share 🚀</button>
+              <button class="btn btn-ghost" onclick="dismissMilestone()">Keep Going →</button>
+            </div>
+          </div>
+        </div>`);
+    }
     document.getElementById('milestone-emoji').textContent = m.emoji;
     document.getElementById('milestone-title').textContent = m.title;
     document.getElementById('milestone-sub').textContent   = m.sub;
-    modal.classList.remove('hidden');
+    document.getElementById('streak-milestone-modal').classList.remove('hidden');
   }, 1400);
 }
 

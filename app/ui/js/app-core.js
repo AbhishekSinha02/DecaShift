@@ -34,6 +34,19 @@ const state = {
   showLastWeekSection: false
 };
 
+// ── User Menu ─────────────────────────────────────────────────────────────────
+
+function toggleUserMenu() {
+  document.getElementById('user-menu').classList.toggle('hidden');
+}
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('.user-chip') && !e.target.closest('.user-menu')) {
+    const m = document.getElementById('user-menu');
+    if (m) m.classList.add('hidden');
+  }
+});
+
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 
 async function init() {
@@ -266,9 +279,24 @@ function _getFirstName(user)   { if (!user) return 'there'; if (user.name) retur
 // ── Welcome / Onboarding ──────────────────────────────────────────────────────
 
 function _maybeShowWelcome() {
-  if (!localStorage.getItem('decashift_onboarded')) {
-    document.getElementById('welcome-modal').classList.remove('hidden');
+  if (localStorage.getItem('decashift_onboarded')) return;
+  if (!document.getElementById('welcome-modal')) {
+    document.body.insertAdjacentHTML('beforeend', `
+      <div id="welcome-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissWelcome()">
+        <div class="modal-box">
+          <img src="assets/icon.svg" class="modal-logo" alt="DecaShift">
+          <h2 class="modal-title">Welcome to DecaShift!</h2>
+          <p class="modal-sub">Here's how it works:</p>
+          <ul class="modal-steps">
+            <li><span>✅</span> Pick a goal → answer questions → see your score</li>
+            <li><span>🔥</span> Come back daily to build your streak</li>
+            <li><span>📈</span> Watch your accuracy grow over time</li>
+          </ul>
+          <button class="btn btn-primary btn-full" onclick="dismissWelcome()">Let's Go! →</button>
+        </div>
+      </div>`);
   }
+  document.getElementById('welcome-modal').classList.remove('hidden');
 }
 
 function dismissWelcome() {
@@ -303,16 +331,52 @@ function _shouldShowInstallPrompt() {
 }
 
 function _showInstallBanner() {
-  document.getElementById('install-banner')?.classList.remove('hidden');
+  if (!document.getElementById('install-banner')) {
+    document.body.insertAdjacentHTML('beforeend', `
+      <div id="install-banner" class="install-banner hidden">
+        <div class="install-banner-inner">
+          <div class="install-banner-text">
+            <span class="install-banner-icon">📲</span>
+            <div>
+              <div class="install-banner-title">Add Donnibo to your home screen</div>
+              <div class="install-banner-sub">One tap — open instantly, anytime</div>
+            </div>
+          </div>
+          <div class="install-banner-actions">
+            <button class="btn btn-primary btn-sm" onclick="_onInstallAccepted()">Install</button>
+            <button class="btn btn-ghost btn-sm"   onclick="_onInstallDismissed()">Not now</button>
+          </div>
+        </div>
+      </div>`);
+  }
+  document.getElementById('install-banner').classList.remove('hidden');
 }
 
 function _hideInstallBanner() {
   document.getElementById('install-banner')?.classList.add('hidden');
 }
 
+function _ensureIOSModal() {
+  if (document.getElementById('ios-install-modal')) return;
+  document.body.insertAdjacentHTML('beforeend', `
+    <div id="ios-install-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissIOSGuide()">
+      <div class="modal-box ios-guide-box">
+        <div class="ios-guide-title">📲 Add to your Home Screen</div>
+        <ol class="ios-guide-steps">
+          <li>Tap the <strong>Share button</strong> <span class="ios-share-icon">⬆</span><br><span class="ios-guide-hint">Bottom centre of Safari</span></li>
+          <li>Scroll down and tap<br><strong>"Add to Home Screen"</strong></li>
+          <li>Tap <strong>"Add"</strong> in the top right</li>
+        </ol>
+        <p class="ios-guide-result">Donnibo will appear as an app on your home screen!</p>
+        <button class="btn btn-primary btn-full" onclick="dismissIOSGuide()">Got it</button>
+      </div>
+    </div>`);
+}
+
 function _showIOSGuide() {
   if (localStorage.getItem('ds_ios_guide_shown')) return;
-  document.getElementById('ios-install-modal')?.classList.remove('hidden');
+  _ensureIOSModal();
+  document.getElementById('ios-install-modal').classList.remove('hidden');
 }
 
 function dismissIOSGuide() {
@@ -360,7 +424,8 @@ function _triggerInstallFromSettings() {
   }
   if (isIOS) {
     closeSettings();
-    document.getElementById('ios-install-modal')?.classList.remove('hidden');
+    _ensureIOSModal();
+    document.getElementById('ios-install-modal').classList.remove('hidden');
   } else if (_deferredInstallPrompt) {
     closeSettings();
     _onInstallAccepted();
