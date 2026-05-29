@@ -150,8 +150,8 @@ function _renderDrillQuestion() {
   const rec  = _getDrillRecord(drillState.type);
   const pbEl = document.getElementById('drill-pb');
   if (pbEl) pbEl.textContent = rec.bestTime
-    ? `Personal Best: ${Math.floor(rec.bestTime / 60)}:${String(rec.bestTime % 60).padStart(2, '0')} 🏆`
-    : '';
+    ? `PB: ${Math.floor(rec.bestTime / 60)}:${String(rec.bestTime % 60).padStart(2, '0')} 🎯`
+    : 'First attempt — set your benchmark!';
 
   if (drillState.type === 'formulas' && q.formula) {
     _showFormulaFlash(q);
@@ -251,8 +251,27 @@ function _showDrillResult() {
   const resultEl = document.getElementById('drill-result');
   resultEl.classList.remove('hidden');
 
-  document.getElementById('drill-result-score').textContent  = `${correct} / ${total}`;
-  document.getElementById('drill-result-pb').textContent     = isNewPB ? `🏆 New Personal Best! ${timeStr}` : '';
+  document.getElementById('drill-result-score').textContent = `${correct} / ${total}`;
+
+  const pbMsgEl = document.getElementById('drill-result-pb');
+  if (isNewPB) {
+    pbMsgEl.textContent  = `🏆 New Personal Best! ${timeStr}`;
+    pbMsgEl.className    = 'drill-result-pb drill-pb-new';
+  } else if (prevRec.bestTime !== null) {
+    const diff = secs - prevRec.bestTime;
+    const bestStr = `${Math.floor(prevRec.bestTime / 60)}:${String(prevRec.bestTime % 60).padStart(2,'0')}`;
+    if (diff <= 5) {
+      pbMsgEl.textContent = `So close — ${diff}s off your best of ${bestStr}. Try again.`;
+      pbMsgEl.className   = 'drill-result-pb drill-pb-close';
+    } else {
+      pbMsgEl.textContent = `Your best: ${bestStr}. You did ${timeStr} today.`;
+      pbMsgEl.className   = 'drill-result-pb';
+    }
+  } else {
+    pbMsgEl.textContent = '';
+    pbMsgEl.className   = 'drill-result-pb';
+  }
+
   document.getElementById('drill-result-stats').innerHTML    =
     `Time: ${timeStr} &nbsp;·&nbsp; Accuracy: ${Math.round(accuracy * 100)}% &nbsp;·&nbsp; Avg: ${(secs / total).toFixed(1)}s/Q`;
 
