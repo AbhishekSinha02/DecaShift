@@ -39,7 +39,7 @@ When user says **"start the session"**:
 | ~~1~~ | ~~[PENDING-index-html-modularisation.md](PENDING-index-html-modularisation.md)~~ | ~~Refactor~~ | ~~Break index.html (861L) → screens/ folder + ~35L shell~~ | ~~P1-T020~~ | ~~done~~ |
 | ~~1~~ | ~~[PENDING-landing-page-enhancements.md](PENDING-landing-page-enhancements.md)~~ | ~~Code/Design~~ | ~~Fixed nav · copy rewrite · hamburger · city ticker · stats count-up · FAQ · scroll-reveal · question teaser~~ | ~~P2-T015 Ph2~~ | ~~done~~ |
 | ~~1~~ | ~~[PENDING-landing-phase3-carousel-hero.md](PENDING-landing-phase3-carousel-hero.md)~~ | ~~Code/Design~~ | ~~Remove free/pricing/cities · 4-slide feature carousel · full-viewport hero · mobile overflow fix~~ | ~~P2-T038(partial), T039, T040, T042~~ | ~~done~~ |
-| 2 | [PENDING-app-navigation-overhaul.md](PENDING-app-navigation-overhaul.md) | Code/Design | Remove bottom nav · top drawer · vertical week snap · horizontal card snap · streak rename | P2-T041, T043 | Streak word decision required first |
+| ~~2~~ | ~~[PENDING-app-navigation-overhaul.md](PENDING-app-navigation-overhaul.md)~~ | ~~Code/Design~~ | ~~Remove bottom nav · top drawer · week nav · horizontal subject snap · streak→practice~~ | ~~P2-T041, T043~~ | ~~done~~ |
 | 3 | [PENDING-feature-gating-trial.md](PENDING-feature-gating-trial.md) | Code | Silent trial gating · paywall screen · settings Payment Plans · Set 3–5 gate | P2-T038 | Landing Phase 3 + Nav Overhaul done |
 | 4 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 | Phase 1 done + styles-app.css > 2,000 lines |
 | ~~1~~ | ~~[PENDING-manifest-sharding.md](PENDING-manifest-sharding.md)~~ | ~~Code~~ | ~~Split 58KB manifest into per-grade shards~~ | ~~P1-T018~~ | ~~done~~ |
@@ -86,6 +86,8 @@ change its `#` to 1, change Restructure to 2. That's it. Commit + push.
 | 2026-05-29 | —          | P2-T015 Ph1 — Landing page full redesign: 7-section structure, CSS phone mockup, feature rows, pricing, testimonials | `f833a62` |
 | 2026-05-29 | —          | P2-T015 Ph2 — Fixed nav, hero copy, gradient, hamburger, city ticker, count-up, FAQ, scroll-reveal, question teaser | `e14da29` |
 | 2026-05-29 | —          | P2-T038/T039/T040/T042 — Landing Ph3: remove pricing/free/city ticker · 4-slide carousel · full-viewport hero · mobile overflow · cleanup | `c40d310` |
+| 2026-05-29 | —          | Landing hero: phone mockup with fading feature screens (replaces flat carousel) | `7559088` |
+| 2026-05-29 | —          | P2-T041/T043 — Nav overhaul: streak→practice · remove bottom nav · drawer · week nav · horizontal subject snap | `d4545fc` |
 
 ---
 
