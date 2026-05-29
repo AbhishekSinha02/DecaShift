@@ -689,9 +689,42 @@
           <span class="settings-help-label">Support</span>
           <a class="settings-help-link" href="https://wa.me/919876543210?text=Hi%2C%20I%20need%20help%20with%20Donnibo" target="_blank" rel="noopener">WhatsApp ↗</a>
         </div>
-        <div class="settings-help-row">
-          <span class="settings-help-label">Install App</span>
-          <span class="settings-help-value">Browser menu → Add to Home Screen</span>
+        <div class="install-settings-section">
+          <div class="install-settings-header">📲 Install App</div>
+          <p class="install-settings-desc">Add Donnibo to your home screen for instant daily access.</p>
+          <button class="btn btn-primary btn-sm" onclick="_triggerInstallFromSettings()">Install on This Device</button>
+          <div class="install-tabs">
+            <button class="install-tab active" onclick="_showInstallGuide('android',this)">Android</button>
+            <button class="install-tab"        onclick="_showInstallGuide('windows',this)">Windows</button>
+            <button class="install-tab"        onclick="_showInstallGuide('ios',this)">iPhone / iPad</button>
+          </div>
+          <div class="install-guide" id="install-guide-android">
+            <ol>
+              <li>Open Donnibo in Chrome</li>
+              <li>Tap ⋮ → <strong>Add to Home screen</strong></li>
+              <li>Tap <strong>Add</strong></li>
+            </ol>
+          </div>
+          <div class="install-guide hidden" id="install-guide-windows">
+            <strong>Microsoft Edge:</strong>
+            <ol>
+              <li>Click ⋯ → Apps → <strong>Install this site as an app</strong></li>
+              <li>Click <strong>Install</strong></li>
+              <li>Right-click icon in taskbar → <strong>Pin to taskbar</strong></li>
+            </ol>
+            <strong>Google Chrome:</strong>
+            <ol>
+              <li>Click ⋮ → Save and share → <strong>Create shortcut</strong></li>
+              <li>Check <strong>"Open as window"</strong> → Create</li>
+            </ol>
+          </div>
+          <div class="install-guide hidden" id="install-guide-ios">
+            <ol>
+              <li>Tap the <strong>Share button ⬆</strong> (bottom of Safari)</li>
+              <li>Tap <strong>"Add to Home Screen"</strong></li>
+              <li>Tap <strong>"Add"</strong> in the top right</li>
+            </ol>
+          </div>
         </div>
         <div class="settings-help-row">
           <span class="settings-help-label">Data &amp; Privacy</span>
@@ -727,6 +760,37 @@
         <li><span>📈</span> Watch your accuracy grow over time</li>
       </ul>
       <button class="btn btn-primary btn-full" onclick="dismissWelcome()">Let's Go! →</button>
+    </div>
+  </div>
+
+  <!-- Install banner — Android PWA bottom sheet -->
+  <div id="install-banner" class="install-banner hidden">
+    <div class="install-banner-inner">
+      <div class="install-banner-text">
+        <span class="install-banner-icon">📲</span>
+        <div>
+          <div class="install-banner-title">Add Donnibo to your home screen</div>
+          <div class="install-banner-sub">One tap — open instantly, anytime</div>
+        </div>
+      </div>
+      <div class="install-banner-actions">
+        <button class="btn btn-primary btn-sm" onclick="_onInstallAccepted()">Install</button>
+        <button class="btn btn-ghost btn-sm"   onclick="_onInstallDismissed()">Not now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- iOS Install Guide Modal -->
+  <div id="ios-install-modal" class="modal-overlay hidden" onclick="if(event.target===this)dismissIOSGuide()">
+    <div class="modal-box ios-guide-box">
+      <div class="ios-guide-title">📲 Add to your Home Screen</div>
+      <ol class="ios-guide-steps">
+        <li>Tap the <strong>Share button</strong> <span class="ios-share-icon">⬆</span><br><span class="ios-guide-hint">Bottom centre of Safari</span></li>
+        <li>Scroll down and tap<br><strong>"Add to Home Screen"</strong></li>
+        <li>Tap <strong>"Add"</strong> in the top right</li>
+      </ol>
+      <p class="ios-guide-result">Donnibo will appear as an app on your home screen!</p>
+      <button class="btn btn-primary btn-full" onclick="dismissIOSGuide()">Got it</button>
     </div>
   </div>
 
