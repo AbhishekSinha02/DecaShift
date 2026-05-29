@@ -10,11 +10,14 @@
   color: #1e293b;
   font-family: 'Inter', sans-serif;
   overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
   height: auto;
   min-height: 100vh;
   position: relative;
   display: none;
 }
+#screen-landing::-webkit-scrollbar { display: none; }
 #screen-landing.active { display: block; }
 
 /* ── Shared tokens ───────────────────────────────────────────────── */
@@ -85,7 +88,8 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 48px;
-  padding: 136px 64px 80px; /* 136 = 64px top + 64px nav height + 8px breathing room */
+  padding: 80px 64px 60px;
+  min-height: calc(100vh - 64px);
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -128,6 +132,8 @@
 .lp-sub { font-size: 17px; color: #475569; line-height: 1.65; margin: 0; max-width: 480px; }
 .lp-hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
 .lp-trust-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.lp-hero-stats { display: flex; gap: 8px; font-size: 12px; color: #94a3b8; flex-wrap: wrap; }
+.lp-hs-sep { color: #cbd5e1; }
 .lp-trust-pill {
   background: #f0fdf4; color: #16a34a;
   font-size: 12px; font-weight: 600;
@@ -221,22 +227,6 @@
   to   { opacity: 1; transform: scale(1); }
 }
 
-/* ── Stats bar ───────────────────────────────────────────────────── */
-.lp-stats {
-  display: flex; align-items: center; justify-content: center; gap: 0;
-  background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;
-  padding: 28px 32px;
-  flex-wrap: wrap;
-}
-.lp-stat {
-  display: flex; flex-direction: column; align-items: center; gap: 2px;
-  padding: 0 40px;
-  text-align: center;
-}
-.lp-stat strong { font-family: 'Syne', sans-serif; font-size: 28px; font-weight: 800; color: #3b82f6; }
-.lp-stat span   { font-size: 13px; color: #64748b; font-weight: 500; }
-.lp-stat-sep    { width: 1px; height: 40px; background: #e2e8f0; }
-
 /* ── Generic section wrapper ─────────────────────────────────────── */
 .lp-section {
   max-width: 1100px; margin: 0 auto;
@@ -250,33 +240,6 @@
   font-family: 'Syne', sans-serif; font-size: clamp(26px, 4vw, 40px);
   font-weight: 800; color: #1e293b; margin: 0 0 48px;
   line-height: 1.2;
-}
-
-/* ── How it works ────────────────────────────────────────────────── */
-.lp-how { text-align: center; background: #fff; }
-.lp-how .lp-section-title { margin-bottom: 56px; }
-.lp-steps {
-  display: flex; align-items: flex-start; justify-content: center;
-  gap: 0; flex-wrap: wrap;
-}
-.lp-step {
-  display: flex; flex-direction: column; align-items: center; text-align: center;
-  flex: 1; min-width: 220px; max-width: 280px; gap: 12px;
-  padding: 0 20px;
-}
-.lp-step-num {
-  width: 40px; height: 40px; border-radius: 50%;
-  background: #3b82f6; color: #fff;
-  font-family: 'Syne', sans-serif; font-weight: 800; font-size: 18px;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 4px 16px rgba(59,130,246,.35);
-}
-.lp-step-icon { font-size: 36px; }
-.lp-step-title { font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 700; color: #1e293b; }
-.lp-step-desc  { font-size: 14px; color: #64748b; line-height: 1.6; }
-.lp-step-arrow {
-  font-size: 28px; color: #cbd5e1; align-self: center;
-  flex-shrink: 0; margin-top: -20px;
 }
 
 /* ── Feature rows ────────────────────────────────────────────────── */
@@ -643,8 +606,9 @@
 
   /* Hero */
   .lp-hero {
-    grid-template-columns: 1fr; gap: 48px;
-    padding: 100px 20px 56px; text-align: center; /* 100 = 64px nav + 36px breathing */
+    grid-template-columns: 1fr; gap: 40px;
+    padding: 80px 20px 56px; text-align: center;
+    min-height: unset;
   }
   .lp-hero-left { align-items: center; }
   .lp-badge { align-self: center; }
@@ -656,17 +620,8 @@
   .lp-badge-streak { right: -8px; top: 60px; font-size: 11px; }
   .lp-badge-score  { left: -8px; bottom: 80px; font-size: 11px; }
 
-  /* Stats */
-  .lp-stats { gap: 0; flex-wrap: wrap; justify-content: center; }
-  .lp-stat  { padding: 16px 20px; flex: 0 0 45%; }
-  .lp-stat-sep { display: none; }
-
   /* Sections */
   .lp-section { padding: 56px 20px; }
-
-  /* How it works */
-  .lp-steps { flex-direction: column; align-items: center; gap: 32px; }
-  .lp-step-arrow { transform: rotate(90deg); }
 
   /* Feature rows */
   .lp-feature {
