@@ -567,6 +567,11 @@ select option { background: var(--surface-2); }
   font-weight: 600;
 }
 
+/* Card depth system */
+.card-sm { box-shadow: 0 1px 4px rgba(0,0,0,0.2); }
+.card-md { box-shadow: 0 4px 16px rgba(0,0,0,0.25); }
+.card-lg { box-shadow: 0 8px 32px rgba(0,0,0,0.3); }
+
 .goals-list { display: flex; flex-direction: column; gap: 16px; }
 
 .goal-card {
@@ -576,6 +581,7 @@ select option { background: var(--surface-2); }
   border-radius: var(--radius);
   padding: 24px;
   display: flex;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
@@ -649,17 +655,19 @@ select option { background: var(--surface-2); }
 
 .day-card {
   background: var(--surface);
-  border: 1.5px solid var(--accent);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
   border-radius: var(--radius);
   padding: 14px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
   gap: 4px;
   transition: transform 0.15s;
 }
 .day-card:hover { transform: translateY(-2px); }
-.day-card.past  { border-color: var(--border); opacity: 0.75; }
-.day-card.done  { border-color: var(--success); }
+.day-card.past  { border-left-color: var(--border); opacity: 0.75; }
+.day-card.done  { border-left-color: var(--success); }
 
 .day-card-meta {
   font-size: 11px;
