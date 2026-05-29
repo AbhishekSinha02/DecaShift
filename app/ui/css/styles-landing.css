@@ -633,6 +633,13 @@
   .lp-feature-alt .lp-feature-text   { padding-left: 0; order: 2; }
   .lp-feature-card { max-width: 100%; min-width: unset; }
 
+  /* Phone badges — hidden on mobile (overflow source) */
+  .lp-phone-badge { display: none; }
+
+  /* Carousel — full width on mobile */
+  .lp-carousel { width: 100%; }
+  .lp-slide-card { margin: 0; }
+
   /* Testimonials */
   .lp-testimonials { padding: 56px 20px; }
   .lp-testi-grid { grid-template-columns: 1fr; gap: 16px; }
