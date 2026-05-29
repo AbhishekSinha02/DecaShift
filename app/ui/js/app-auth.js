@@ -31,6 +31,17 @@ function _setupLanding() {
     });
   }
 
+  if ('IntersectionObserver' in window) {
+    const revealObs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); revealObs.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll(
+      '.lp-section, .lp-feature, .lp-feature-alt, .lp-testimonials, .lp-pricing, .lp-faq, .lp-stats, .lp-proof-bar'
+    ).forEach(el => { el.classList.add('lp-reveal'); revealObs.observe(el); });
+  }
+
   const statsEl = document.querySelector('.lp-stats');
   if (statsEl && 'IntersectionObserver' in window) {
     let ran = false;
