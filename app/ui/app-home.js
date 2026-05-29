@@ -33,6 +33,7 @@ function _renderHome() {
   if (avatar) avatar.textContent = firstName[0].toUpperCase();
 
   _renderHeaderMeta();
+  _renderCityStrip();
 
   // Streak
   const streak = Storage.loadStreak();
@@ -332,6 +333,17 @@ function _navPractice() {
   state.subjectFilter = localStorage.getItem('ds_last_subject') || 'mathematics';
   _renderHome();
   document.getElementById('home-content')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function _renderCityStrip() {
+  const strip = document.getElementById('city-strip');
+  const text  = document.getElementById('city-strip-text');
+  const user  = state.user;
+  if (!strip || !text || !user) return;
+  const city = user.city || '';
+  if (!city) { strip.classList.add('hidden'); return; }
+  strip.classList.remove('hidden');
+  text.textContent = city + ' · Students practicing daily';
 }
 
 function _renderHeaderMeta() {

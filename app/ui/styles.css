@@ -1837,6 +1837,18 @@ select option { background: var(--surface-2); }
 .bnav-icon  { font-size: 20px; line-height: 1; }
 .bnav-label { font-size: 10px; font-weight: 600; letter-spacing: 0.3px; text-transform: uppercase; }
 
+/* ── City partner strip ──────────────────────────────────────── */
+.city-strip {
+  position: fixed; bottom: 56px; left: 0; right: 0; z-index: 195;
+  height: 30px;
+  background: rgba(0,0,0,0.75);
+  backdrop-filter: blur(8px);
+  display: flex; align-items: center; gap: 6px; padding: 0 14px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+.city-strip-dot  { font-size: 12px; }
+.city-strip-text { font-size: 11px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
 /* ── Sticky streak bar ───────────────────────────────────────── */
 .streak-bar {
   position: sticky; top: 52px; z-index: 190;
