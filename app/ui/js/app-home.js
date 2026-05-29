@@ -515,7 +515,7 @@ async function _renderPartnerFooter() {
 // ── Reward Card System ─────────────────────────────────────────────────────────
 
 const _REWARD_MILESTONES = {
-  '7day':    { label: '7-Day Streak',        emoji: '🎫', partners: 'all' },
+  '7day':    { label: '7-Day Practice',       emoji: '🎫', partners: 'all' },
   '30day':   { label: 'Habit Champion Gold', emoji: '🏆', partners: 'all' },
   '50q':     { label: 'First Steps',         emoji: '⭐', partners: 'stationery' },
 };
@@ -573,7 +573,7 @@ async function _openRewardCard() {
         <div class="reward-card-box">
           <div class="reward-card-header">
             <div class="reward-card-badge">🎫 DONNIBO REWARD CARD</div>
-            <div class="reward-card-milestone" id="rc-milestone">7-Day Streak</div>
+            <div class="reward-card-milestone" id="rc-milestone">7-Day Practice</div>
           </div>
           <div class="reward-card-student">
             <div class="reward-card-name" id="rc-name">Student Name</div>
@@ -671,10 +671,10 @@ async function _shareRewardCard() {
 // ── Streak milestone ─────────────────────────────────────────────────────────
 
 const _MILESTONES = {
-  3:  { emoji: '🔥', title: '3-Day Streak!', sub: 'Three days straight. The habit is forming.' },
-  7:  { emoji: '⚡', title: '7-Day Streak!',  sub: "A full week. You've shown up every single day." },
-  14: { emoji: '🌟', title: '14-Day Streak!', sub: 'Two weeks of consistency. Most people quit by now.' },
-  30: { emoji: '🏆', title: '30-Day Streak!', sub: "A month. You're in the top 1% of learners." },
+  3:  { emoji: '🔥', title: '3-Day Practice!', sub: 'Three days straight. The habit is forming.' },
+  7:  { emoji: '⚡', title: '7-Day Practice!',  sub: "A full week. You've shown up every single day." },
+  14: { emoji: '🌟', title: '14-Day Practice!', sub: 'Two weeks of consistency. Most people quit by now.' },
+  30: { emoji: '🏆', title: '30-Day Practice!', sub: "A month. You're in the top 1% of learners." },
 };
 
 function _checkStreakMilestone(streak) {
@@ -709,7 +709,7 @@ function dismissMilestone() {
 
 function _shareStreak() {
   const streak = Storage.loadStreak();
-  const text   = `🔥 ${streak.current}-day streak on Donnibo! Daily practice makes the difference. Try it: https://donnibo.app`;
+  const text   = `🔥 ${streak.current} days of daily practice on Donnibo! Consistency makes the difference. Try it: https://donnibo.app`;
   if (navigator.share) {
     navigator.share({ text }).catch(() => {});
   } else {

@@ -289,7 +289,7 @@ function _maybeShowWelcome() {
           <p class="modal-sub">Here's how it works:</p>
           <ul class="modal-steps">
             <li><span>✅</span> Pick a goal → answer questions → see your score</li>
-            <li><span>🔥</span> Come back daily to build your streak</li>
+            <li><span>🔥</span> Come back daily to build your practice</li>
             <li><span>📈</span> Watch your accuracy grow over time</li>
           </ul>
           <button class="btn btn-primary btn-full" onclick="dismissWelcome()">Let's Go! →</button>
