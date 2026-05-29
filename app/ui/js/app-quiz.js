@@ -156,6 +156,45 @@ function _updateTimerDisplay() {
   if (el) el.textContent = String(Math.floor(state.timerSeconds / 60)).padStart(2, '0') + ':' + String(state.timerSeconds % 60).padStart(2, '0');
 }
 
+// ── D-002: Personalized win message ──────────────────────────────────────────
+
+function _buildWinMessage(correct, total, pct, goal, prevSessions) {
+  const topic = goal.conceptId
+    ? _conceptLabel(goal.conceptId)
+    : (goal.description ? goal.description.split('—')[0].split('·')[0].trim() : goal.name);
+
+  // First ever session on this goal
+  if (!prevSessions.length) {
+    if (pct >= 70) return `<strong>Strong start.</strong> ${correct}/${total} on your first ${_esc(topic)} session. Come back tomorrow — your next attempt will be better.`;
+    if (pct >= 50) return `<strong>First session done.</strong> ${correct}/${total} on ${_esc(topic)}. Every expert started exactly here.`;
+    return `<strong>First time here.</strong> ${correct}/${total} on ${_esc(topic)}. This is the starting point — most students double their score by session 3.`;
+  }
+
+  const prevBest  = Math.max(...prevSessions.map(s => s.score));
+  const lastScore = prevSessions[prevSessions.length - 1]?.score ?? 0;
+  const lastPct   = Math.round(((prevSessions[prevSessions.length - 1]?.accuracy ?? 0) * 100));
+  const n         = prevSessions.length + 1;
+
+  // New personal best
+  if (correct > prevBest) {
+    return `<strong>New personal best!</strong> ${correct}/${total} — the highest you've ever scored on ${_esc(topic)}.`;
+  }
+  // Consistent excellence
+  if (pct >= 90 && lastPct >= 80) {
+    return `<strong>${pct}% accuracy.</strong> You know ${_esc(topic)} cold. ${n} session${n !== 1 ? 's' : ''} and you're consistently at the top.`;
+  }
+  // Improved from last
+  if (correct > lastScore) {
+    return `<strong>Better than last time.</strong> ${correct}/${total} today vs ${lastScore}/${total} before — up ${pct - lastPct}% on ${_esc(topic)}.`;
+  }
+  // Solid but room to grow
+  if (pct >= 60) {
+    return `<strong>${correct}/${total} — solid.</strong> Your best on ${_esc(topic)} is ${prevBest}/${total}. You've done this ${n} time${n !== 1 ? 's' : ''}. Keep pushing.`;
+  }
+  // Struggling — encourage without lying
+  return `<strong>${correct}/${total} today.</strong> ${_esc(topic)} is a tough one — but ${n} session${n !== 1 ? 's' : ''} in, you're building the foundation. Consistency is what moves the needle.`;
+}
+
 // ── Result Screen ─────────────────────────────────────────────────────────────
 
 async function _showResult() {
@@ -203,6 +242,13 @@ async function _showResult() {
     badge.textContent = 'Good'; badge.className = 'result-badge badge-good';
   } else {
     badge.textContent = 'Needs Work'; badge.className = 'result-badge badge-needs-work';
+  }
+
+  const winMsgEl = document.getElementById('result-win-message');
+  if (winMsgEl) {
+    const prevSessions = Storage.loadSessions()
+      .filter(s => s.goalId === state.selectedGoal.id && s.sessionId !== session.sessionId);
+    winMsgEl.innerHTML = _buildWinMessage(correct, total, pct, state.selectedGoal, prevSessions);
   }
 
   document.getElementById('result-table-body').innerHTML = state.filteredQuestions.map((q, i) => {

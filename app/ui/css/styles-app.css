@@ -549,7 +549,21 @@
   padding: 40px 16px;
 }
 
-.result-hero { text-align: center; margin-bottom: 36px; }
+/* D-002: Personalized win message */
+.result-win-msg {
+  background: var(--surface);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.result-win-msg:empty { display: none; }
+.result-win-msg strong { color: var(--text); font-size: 15px; display: block; margin-bottom: 2px; }
+
+.result-hero { text-align: center; margin-bottom: 24px; }
 
 .result-label {
   font-family: var(--font-mono);
