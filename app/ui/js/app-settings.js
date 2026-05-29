@@ -38,6 +38,7 @@ function openSettingsSection(name) {
   if (name === 'appearance') _renderThemeSelector();
   if (name === 'learning')   _initLearningSection();
   if (name === 'security')   _initSecuritySection();
+  if (name === 'plan')       _initPlanSection();
 }
 
 function backToSettingsMenu() {
@@ -183,4 +184,51 @@ async function saveNewPassword() {
   ['settings-current-pw', 'settings-new-pw', 'settings-confirm-pw'].forEach(id => {
     const el = document.getElementById(id); if (el) el.value = '';
   });
+}
+
+// ── My Plan Sub-screen ────────────────────────────────────────────────────────
+
+function _initPlanSection() {
+  const wrap = document.getElementById('plan-status-content');
+  if (!wrap) return;
+  const user    = state.user;
+  const plan    = user?.plan || _checkTrialStatus(user);
+  const daysLeft = typeof _trialDaysLeft === 'function' ? _trialDaysLeft(user) : 0;
+
+  if (plan === 'pro') {
+    wrap.innerHTML = `
+      <div class="plan-status-card plan-active">
+        <div class="plan-status-badge">✓ Pro</div>
+        <p class="plan-status-msg">You have full access to all features.</p>
+      </div>`;
+    return;
+  }
+
+  if (plan === 'expired') {
+    wrap.innerHTML = `
+      <div class="plan-status-card plan-expired">
+        <div class="plan-status-badge plan-expired-badge">Trial Ended</div>
+        <p class="plan-status-msg">Your 30-day trial has ended. Sets 3–5 are locked.</p>
+        <div class="plan-price-row">₹79<span>/month</span></div>
+        <button class="btn btn-primary" onclick="_upgradeViaWhatsApp()">Upgrade to Pro →</button>
+      </div>`;
+    return;
+  }
+
+  wrap.innerHTML = `
+    <div class="plan-status-card plan-trial">
+      <div class="plan-status-badge plan-trial-badge">Trial · ${daysLeft} day${daysLeft !== 1 ? 's' : ''} left</div>
+      <p class="plan-status-msg">Full access to all features during your trial.</p>
+      <div class="plan-trial-bar-wrap">
+        <div class="plan-trial-bar" style="width:${Math.round((1 - daysLeft / 30) * 100)}%"></div>
+      </div>
+      <p class="plan-trial-note">${30 - daysLeft} of 30 trial days used</p>
+      <div class="plan-price-row">₹79<span>/month</span> after trial</div>
+      <button class="btn btn-primary" onclick="_upgradeViaWhatsApp()">Upgrade early →</button>
+    </div>`;
+}
+
+function _upgradeViaWhatsApp() {
+  const msg = encodeURIComponent('Hi, I want to upgrade to Donnibo Pro (₹79/month)');
+  window.open(`https://wa.me/919876543210?text=${msg}`, '_blank');
 }
