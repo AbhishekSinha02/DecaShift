@@ -62,6 +62,42 @@ function _setupLanding() {
     }, { threshold: 0.5 }).observe(statsEl);
   }
 
+  // Carousel
+  const track   = document.getElementById('lp-carousel-track');
+  const dots    = document.querySelectorAll('.lp-dot');
+  let   current = 0;
+  let   autoTimer;
+
+  if (track && dots.length) {
+    function goToSlide(n) {
+      current = ((n % 4) + 4) % 4;
+      track.style.transform = `translateX(-${current * 100}%)`;
+      dots.forEach((d, i) => d.classList.toggle('lp-dot-active', i === current));
+    }
+    function nextSlide() { goToSlide(current + 1); }
+    autoTimer = setInterval(nextSlide, 4000);
+
+    dots.forEach(d => d.addEventListener('click', () => {
+      clearInterval(autoTimer);
+      goToSlide(+d.dataset.slide);
+      autoTimer = setInterval(nextSlide, 4000);
+    }));
+
+    const carousel = document.getElementById('lp-carousel');
+    if (carousel) {
+      let tx = 0;
+      carousel.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
+      carousel.addEventListener('touchend',   e => {
+        const dx = e.changedTouches[0].clientX - tx;
+        if (Math.abs(dx) > 40) {
+          clearInterval(autoTimer);
+          goToSlide(dx < 0 ? current + 1 : current - 1);
+          autoTimer = setInterval(nextSlide, 4000);
+        }
+      }, { passive: true });
+    }
+  }
+
   const ham = document.getElementById('lp-hamburger');
   const mob = document.getElementById('lp-mobile-menu');
   if (ham && mob) {

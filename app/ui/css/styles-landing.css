@@ -501,6 +501,104 @@
 .lp-footer-link:hover { color: #fff; }
 
 
+/* ── Feature Carousel ─────────────────────────────────────────────── */
+.lp-carousel {
+  position: relative; width: 100%;
+  display: flex; flex-direction: column; gap: 16px;
+  overflow: hidden;
+}
+.lp-carousel-track {
+  display: flex;
+  transition: transform .5s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+.lp-slide {
+  min-width: 100%; flex-shrink: 0;
+  display: flex; flex-direction: column; gap: 20px;
+}
+.lp-slide-card {
+  border-radius: 24px; padding: 24px;
+  box-shadow: 0 12px 48px rgba(0,0,0,.12);
+  transition: transform .28s, box-shadow .28s;
+}
+.lp-slide-card:hover { transform: translateY(-4px); box-shadow: 0 20px 64px rgba(0,0,0,.16); }
+
+/* Slide backgrounds */
+.lp-slide-drills   { background: linear-gradient(135deg,#1e3a8a,#1d4ed8); }
+.lp-slide-quiz     { background: linear-gradient(135deg,#14532d,#16a34a); }
+.lp-slide-progress { background: linear-gradient(135deg,#1e293b,#334155); }
+.lp-slide-week     { background: linear-gradient(135deg,#4c1d95,#7c3aed); }
+
+/* Slide tag */
+.lp-slide-tag {
+  font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  color: rgba(255,255,255,.65); margin-bottom: 12px;
+}
+
+/* Slide text below card */
+.lp-slide-text { padding: 0 4px; }
+.lp-slide-title {
+  font-family: 'Syne', sans-serif; font-size: 22px; font-weight: 800;
+  color: #1e293b; margin: 0 0 6px; line-height: 1.2;
+}
+.lp-slide-sub { font-size: 14px; color: #64748b; margin: 0; }
+
+/* Drill grid */
+.lp-slide-drill-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+.lp-sdc {
+  background: rgba(255,255,255,.1); color: rgba(255,255,255,.85);
+  font-family: 'DM Mono', monospace; font-size: 13px;
+  padding: 10px 12px; border-radius: 10px; border: 1px solid rgba(255,255,255,.12);
+}
+.lp-sdc-correct { background: rgba(34,197,94,.2); color: #86efac; border-color: rgba(34,197,94,.3); }
+.lp-slide-timer  { font-size: 12px; color: rgba(255,255,255,.5); font-family: 'DM Mono', monospace; }
+
+/* Quiz slide */
+.lp-slide-q { font-size: 14px; font-weight: 600; color: #fff; margin-bottom: 12px; line-height: 1.4; }
+.lp-slide-opts { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }
+.lp-sdo {
+  font-size: 12px; color: rgba(255,255,255,.75); background: rgba(255,255,255,.1);
+  padding: 7px 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,.1);
+}
+.lp-sdo-correct { background: rgba(34,197,94,.2); color: #86efac; border-color: rgba(34,197,94,.3); font-weight: 600; }
+.lp-slide-expl { font-size: 11px; color: rgba(255,255,255,.5); border-left: 2px solid rgba(59,130,246,.5); padding-left: 8px; line-height: 1.4; }
+
+/* Progress chart */
+.lp-slide-chart { margin-bottom: 12px; }
+.lp-bar-row { display: flex; gap: 6px; align-items: flex-end; height: 80px; margin-bottom: 6px; }
+.lp-bar { flex: 1; background: rgba(255,255,255,.2); border-radius: 4px 4px 0 0; transition: height .6s ease; }
+.lp-bar-today { background: #3b82f6; }
+.lp-chart-label { font-size: 10px; color: rgba(255,255,255,.4); font-family: 'DM Mono', monospace; }
+.lp-slide-acc { font-size: 14px; font-weight: 700; color: #fff; }
+.lp-acc-delta { font-size: 12px; color: #4ade80; margin-left: 6px; }
+
+/* Week slide */
+.lp-slide-week-pills { display: flex; gap: 6px; margin-bottom: 14px; }
+.lp-wpill {
+  width: 32px; height: 32px; border-radius: 50%;
+  background: rgba(255,255,255,.12); color: rgba(255,255,255,.5);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700;
+}
+.lp-wpill-done  { background: rgba(255,255,255,.9); color: #7c3aed; }
+.lp-wpill-today { background: #fff; color: #7c3aed; box-shadow: 0 0 0 3px rgba(255,255,255,.3); }
+.lp-slide-subjects { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.lp-sub-chip { font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 100px; }
+.lp-sub-math { background: rgba(59,130,246,.3); color: #93c5fd; }
+.lp-sub-sci  { background: rgba(34,197,94,.3);  color: #86efac; }
+.lp-sub-eng  { background: rgba(139,92,246,.3); color: #c4b5fd; }
+.lp-sub-hin  { background: rgba(239,68,68,.3);  color: #fca5a5; }
+.lp-slide-note { font-size: 11px; color: rgba(255,255,255,.4); }
+
+/* Dots */
+.lp-carousel-dots { display: flex; justify-content: center; gap: 8px; padding: 4px 0; }
+.lp-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: #cbd5e1; border: none; cursor: pointer;
+  transition: all .25s; padding: 0;
+}
+.lp-dot-active { background: #3b82f6; width: 24px; border-radius: 4px; }
+
 /* ── Hamburger + Mobile Nav ──────────────────────────────────────── */
 .lp-hamburger {
   display: none;
