@@ -140,6 +140,7 @@ function _showResult() {
   Storage.saveSession(session);
   const updatedStreak = Storage.updateStreak();
   _checkStreakMilestone(updatedStreak);
+  _checkRewardMilestones(updatedStreak);
   checkAndShowInstallPrompt();
 
   if (state.selectedGoal.id === 'daily-gk') {

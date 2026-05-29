@@ -46,6 +46,8 @@ function _renderHome() {
   _renderCityStrip();
   _renderAvatar();
   _renderTodayCard();
+  _renderRewardNotif();
+  _renderPartnerFooter();
 
   // Streak
   const streak = Storage.loadStreak();
@@ -458,6 +460,184 @@ function _renderHeaderMeta() {
   el.innerHTML =
     (grade ? `<span class="header-grade-chip">${_esc(grade)}</span>` : '') +
     (city  ? `<span class="header-city-chip">📍 ${_esc(city)}</span>` : '');
+}
+
+// ── City Partner Footer ───────────────────────────────────────────────────────
+
+let _cityPartnersCache = null;
+
+async function _loadCityPartners() {
+  if (_cityPartnersCache) return _cityPartnersCache;
+  const urls = [
+    _rawUrl('config/city-partners.json'),
+    '../../config/city-partners.json',
+    'config/city-partners.json',
+  ];
+  for (const url of urls) {
+    try {
+      const r = await fetch(url);
+      if (r.ok) { _cityPartnersCache = await r.json(); return _cityPartnersCache; }
+    } catch (_) {}
+  }
+  return {};
+}
+
+async function _renderPartnerFooter() {
+  const wrap = document.getElementById('partner-footer-wrap');
+  if (!wrap) return;
+  const user = state.user;
+  const city = (user?.city || '').toLowerCase().trim();
+  if (!city) { wrap.innerHTML = ''; return; }
+  const all = await _loadCityPartners();
+  const partners = all[city];
+  if (!partners || !partners.length) { wrap.innerHTML = ''; return; }
+
+  wrap.innerHTML = `
+    <div class="partner-footer">
+      <div class="partner-footer-title">🤝 Our Partners in ${_esc(_cap(city))}</div>
+      <div class="partner-list">
+        ${partners.map(p => `
+          <div class="partner-row">
+            <span class="partner-icon">${p.icon}</span>
+            <div class="partner-info">
+              <div class="partner-name">${_esc(p.name)}</div>
+              <div class="partner-offer">${_esc(p.offer)}</div>
+            </div>
+          </div>`).join('')}
+      </div>
+      <div class="partner-footer-cta">
+        Want to list your business here?
+        <a href="https://wa.me/919876543210?text=Hi%2C%20I%27d%20like%20to%20partner%20with%20Donnibo%20in%20${encodeURIComponent(_cap(city))}" target="_blank" rel="noopener">Become a Partner →</a>
+      </div>
+    </div>`;
+}
+
+// ── Reward Card System ─────────────────────────────────────────────────────────
+
+const _REWARD_MILESTONES = {
+  '7day':    { label: '7-Day Streak',        emoji: '🎫', partners: 'all' },
+  '30day':   { label: 'Habit Champion Gold', emoji: '🏆', partners: 'all' },
+  '50q':     { label: 'First Steps',         emoji: '⭐', partners: 'stationery' },
+};
+
+function _generateRewardCode(userId, milestone) {
+  const prefix = { '7day': 'DS-7STR', '30day': 'DS-30GD', '50q': 'DS-FST' };
+  const shortId = (userId || 'ANON').slice(-4).toUpperCase();
+  const dayCode = Math.floor(Date.now() / 86400000) % 9999;
+  return `${prefix[milestone] || 'DS-CARD'}-${shortId}-${dayCode}`;
+}
+
+function _issueRewardCard(milestone) {
+  const existing = JSON.parse(localStorage.getItem('ds_reward_card') || 'null');
+  const milestoneRank = { '50q': 1, '7day': 2, '30day': 3 };
+  if (existing && (milestoneRank[existing.milestone] || 0) >= (milestoneRank[milestone] || 0)) return;
+
+  const user    = state.user;
+  const code    = _generateRewardCode(user?.userId || '', milestone);
+  const issuedAt = new Date().toISOString().slice(0, 10);
+  localStorage.setItem('ds_reward_card', JSON.stringify({ milestone, code, issuedAt }));
+  _renderRewardNotif();
+}
+
+function _checkRewardMilestones(streak) {
+  if (streak.current === 7)  _issueRewardCard('7day');
+  if (streak.current === 30) _issueRewardCard('30day');
+
+  const sessions = Storage.loadSessions().filter(s => s.userId === state.user?.userId);
+  const totalQ = sessions.reduce((n, s) => n + (s.total || 0), 0);
+  if (totalQ >= 50) _issueRewardCard('50q');
+}
+
+function _renderRewardNotif() {
+  const wrap = document.getElementById('reward-notif-wrap');
+  if (!wrap) return;
+  const card = JSON.parse(localStorage.getItem('ds_reward_card') || 'null');
+  if (!card) { wrap.innerHTML = ''; return; }
+  const m = _REWARD_MILESTONES[card.milestone] || {};
+  wrap.innerHTML = `
+    <div class="reward-notif-banner" id="reward-notif-banner">
+      <span class="reward-notif-emoji">${m.emoji || '🎫'}</span>
+      <div class="reward-notif-text">
+        <div class="reward-notif-title">You Earned a Reward Card!</div>
+        <div class="reward-notif-sub">${_esc(m.label || card.milestone)}</div>
+      </div>
+      <button class="btn btn-primary btn-sm" onclick="_openRewardCard()">View My Card</button>
+      <button class="reward-notif-close" onclick="document.getElementById('reward-notif-wrap').innerHTML=''">✕</button>
+    </div>`;
+}
+
+async function _openRewardCard() {
+  const screen = document.getElementById('reward-card-screen');
+  if (!screen) return;
+  const card = JSON.parse(localStorage.getItem('ds_reward_card') || 'null');
+  if (!card) return;
+  const user = state.user;
+  const m    = _REWARD_MILESTONES[card.milestone] || {};
+
+  document.getElementById('rc-milestone').textContent = m.label || card.milestone;
+  document.getElementById('rc-name').textContent      = user?.name || 'Student';
+  const grade = user?.grade ? 'Grade ' + user.grade : '';
+  const city  = user?.city  ? _cap(user.city) : '';
+  document.getElementById('rc-meta').textContent = [grade, city].filter(Boolean).join(' · ');
+  document.getElementById('rc-code').textContent = card.code;
+
+  const issued  = new Date(card.issuedAt);
+  const expires = new Date(issued.getTime() + 7 * 86400000);
+  const fmt = d => d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+  document.getElementById('rc-validity').textContent = `Valid: ${fmt(issued)} – ${fmt(expires)}`;
+
+  const citySlug = (user?.city || '').toLowerCase().trim();
+  const all = await _loadCityPartners();
+  const partners = (all[citySlug] || []).filter(p =>
+    m.partners === 'all' || p.category.toLowerCase().includes(m.partners)
+  );
+  document.getElementById('rc-partners').innerHTML = partners.length
+    ? partners.map(p => `
+        <div class="reward-partner-row">
+          <span class="reward-partner-icon">${p.icon}</span>
+          <div class="reward-partner-info">
+            <div class="reward-partner-name">${_esc(p.name)}</div>
+            <div class="reward-partner-offer">${_esc(p.offer)}</div>
+          </div>
+        </div>`).join('')
+    : '<p style="font-size:12px;color:var(--muted)">Valid at all Donnibo partner stores in your city.</p>';
+
+  screen.classList.remove('hidden');
+}
+
+function _closeRewardCard() {
+  document.getElementById('reward-card-screen')?.classList.add('hidden');
+}
+
+async function _shareRewardCard() {
+  const card = JSON.parse(localStorage.getItem('ds_reward_card') || 'null');
+  if (!card) return;
+  const user = state.user;
+  const m    = _REWARD_MILESTONES[card.milestone] || {};
+  const grade = user?.grade ? 'Grade ' + user.grade : '';
+  const city  = user?.city  ? _cap(user.city) : '';
+  const citySlug = (user?.city || '').toLowerCase().trim();
+  const all = await _loadCityPartners();
+  const partners = (all[citySlug] || []).map(p => p.name).join(', ');
+  const expires = new Date(new Date(card.issuedAt).getTime() + 7 * 86400000);
+  const expFmt  = expires.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+
+  const text = [
+    `🎫 My Donnibo Reward Card`,
+    `${m.label || card.milestone} — ${user?.name || 'Student'}${grade ? ' (' + grade + (city ? ', ' + city : '') + ')' : ''}`,
+    partners ? `Valid at: ${partners}` : '',
+    `Code: ${card.code} · Valid until ${expFmt}`,
+    ``,
+    `Try Donnibo: https://donnibo.app`,
+  ].filter(l => l !== undefined).join('\n');
+
+  if (navigator.share) {
+    navigator.share({ text }).catch(() => {});
+  } else {
+    navigator.clipboard?.writeText(text)
+      .then(() => alert('Copied! Share in WhatsApp 📲'))
+      .catch(() => alert(text));
+  }
 }
 
 // ── Streak milestone ─────────────────────────────────────────────────────────

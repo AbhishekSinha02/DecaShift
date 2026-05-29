@@ -231,6 +231,7 @@ function _showDrillResult() {
 
   const drillStreak = Storage.updateStreak();
   _checkStreakMilestone(drillStreak);
+  _checkRewardMilestones(drillStreak);
   checkAndShowInstallPrompt();
   if (state.user) {
     const drillAcct = Storage.findAccount(state.user.email);
