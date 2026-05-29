@@ -22,6 +22,14 @@ function _setupLanding() {
       if (target) target.scrollIntoView({ behavior: 'smooth' });
     });
   });
+
+  const nav     = document.querySelector('.lp-nav');
+  const landing = document.getElementById('screen-landing');
+  if (nav && landing) {
+    landing.addEventListener('scroll', () => {
+      nav.style.boxShadow = landing.scrollTop > 10 ? '0 2px 20px rgba(0,0,0,.08)' : 'none';
+    });
+  }
 }
 
 async function _goToSignup(category) {
