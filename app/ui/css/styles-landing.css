@@ -451,6 +451,26 @@
 .lp-footer-link    { color: rgba(255,255,255,.55); text-decoration: none; }
 .lp-footer-link:hover { color: #fff; }
 
+/* ── City proof ticker ───────────────────────────────────────────── */
+.lp-proof-bar {
+  background: #eff6ff; border-bottom: 1px solid #dbeafe;
+  padding: 10px 24px; display: flex; align-items: center;
+  gap: 12px; overflow: hidden; white-space: nowrap;
+}
+.lp-proof-label {
+  font-size: 12px; font-weight: 700; color: #3b82f6;
+  flex-shrink: 0; letter-spacing: .02em;
+}
+.lp-proof-ticker {
+  display: flex; gap: 14px; font-size: 12px; color: #475569; font-weight: 500;
+  animation: lp-ticker 24s linear infinite;
+}
+.lp-proof-dot { color: #bfdbfe; }
+@keyframes lp-ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
 /* ── Hamburger + Mobile Nav ──────────────────────────────────────── */
 .lp-hamburger {
   display: none;

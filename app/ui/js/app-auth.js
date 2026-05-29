@@ -31,6 +31,26 @@ function _setupLanding() {
     });
   }
 
+  const statsEl = document.querySelector('.lp-stats');
+  if (statsEl && 'IntersectionObserver' in window) {
+    let ran = false;
+    new IntersectionObserver(entries => {
+      if (!entries[0].isIntersecting || ran) return;
+      ran = true;
+      document.querySelectorAll('[data-target]').forEach(el => {
+        const target = +el.dataset.target;
+        const suffix = el.dataset.suffix || '';
+        let cur = 0;
+        const step = Math.ceil(target / 40);
+        const timer = setInterval(() => {
+          cur = Math.min(cur + step, target);
+          el.textContent = (cur >= 1000 ? (cur / 1000).toFixed(1) + 'K' : cur) + suffix;
+          if (cur >= target) clearInterval(timer);
+        }, 28);
+      });
+    }, { threshold: 0.5 }).observe(statsEl);
+  }
+
   const ham = document.getElementById('lp-hamburger');
   const mob = document.getElementById('lp-mobile-menu');
   if (ham && mob) {
