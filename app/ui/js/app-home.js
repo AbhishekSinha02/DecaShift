@@ -142,6 +142,17 @@ function _renderHome() {
     return;
   }
 
+  // ── No grade set — guide to settings ─────────────────────────────────────
+  if (isSchool && !user.grade && weeklyGoals.length === 0 && regularGoals.length === 0) {
+    list.innerHTML = `<div class="empty-state">
+      <div class="empty-emoji">🎒</div>
+      <p class="empty-title">Set your grade to load your curriculum.</p>
+      <p class="empty-sub">Takes 10 seconds — your personal question bank will be ready immediately.</p>
+      <button class="btn btn-primary btn-sm" style="margin-top:14px" onclick="openSettingsSection('profile')">Go to Settings →</button>
+    </div>`;
+    return;
+  }
+
   // ── Netflix rows for selected subject ─────────────────────────────────────
   const weeklyFiltered = state.subjectFilter === 'all'
     ? weeklyGoals
@@ -238,9 +249,15 @@ function _renderNetflixRows(list, goals, subject, currentWeek) {
     .forEach(([cid, cGoals]) => { html += _buildTopicRow(cid, cGoals); });
 
   if (!thisWeek.length && !lastWeek.length && !Object.keys(byConcept).length) {
-    html += `<div class="empty-state"><div class="empty-emoji">📚</div>
-      <p class="empty-title">No content yet for this subject.</p>
-      <p class="empty-sub">Try Flash Drills or switch tabs while we add more!</p></div>`;
+    const subLabel = (SUBJECT_STYLE[subject] || {}).icon
+      ? (SUBJECT_STYLE[subject].icon + ' ')
+      : '';
+    html += `<div class="empty-state">
+      <div class="empty-emoji">📅</div>
+      <p class="empty-title">${subLabel}${_cap((subject || 'This subject').replace(/-/g,' '))} content loads Monday.</p>
+      <p class="empty-sub">Flash Drills and GK are ready now — keep your streak going.</p>
+      <button class="btn btn-ghost btn-sm" style="margin-top:12px" onclick="_startDrill('gk')">Try GK Today →</button>
+    </div>`;
   }
 
   list.innerHTML = html;
@@ -551,8 +568,11 @@ function _renderTodayCard() {
     </div>`;
   })() : '';
 
-  const ctaLabel = done ? 'Practice Again →' : last ? 'Continue →' : 'Start Today\'s Practice →';
+  const ctaLabel  = done ? 'Practice Again →' : last ? 'Continue →' : 'Start Today\'s Practice →';
   const doneBadge = done ? '<span class="today-done-badge">✅ Done</span>' : '';
+  const doneNote  = done
+    ? `<p class="today-done-note">You're done for today, ${_getFirstName(user)}! Come back tomorrow to keep the streak going.</p>`
+    : '';
 
   const heroCard = `
     <div class="today-hero-card${done ? ' today-done' : ''}" style="border-left-color:${color}">
@@ -561,8 +581,9 @@ function _renderTodayCard() {
         <span class="today-hero-day">Day ${dayNum}/5 ${doneBadge}</span>
       </div>
       <div class="today-hero-topic">${_esc(topic)}</div>
-      ${accBar}
-      <button class="btn btn-primary today-hero-cta" onclick="startGoal('${todayGoal.id}')">
+      ${doneNote}
+      ${done ? '' : accBar}
+      <button class="btn ${done ? 'btn-ghost' : 'btn-primary'} today-hero-cta" onclick="startGoal('${todayGoal.id}')">
         ${ctaLabel}
       </button>
     </div>`;

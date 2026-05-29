@@ -356,6 +356,12 @@
   white-space: nowrap;
 }
 .today-hero-cta { width: 100%; }
+.today-done-note {
+  font-size: 13px;
+  color: var(--success);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
 
 /* ── GK strip (compact, below hero) ─────────────────────────── */
 .today-gk-strip {
