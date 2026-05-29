@@ -128,7 +128,9 @@ function _renderHome() {
 
   // ── GK tab ───────────────────────────────────────────────────────────────
   if (state.subjectFilter === 'gk') {
-    _renderGKTab(list);
+    let gkHtml = _buildDrillRow();
+    gkHtml += _renderGKNetflixRows();
+    list.innerHTML = gkHtml;
     return;
   }
 
@@ -160,143 +162,12 @@ function _renderHome() {
     return;
   }
 
-  // ── Filter regular + weekly goals for current subject tab ─────────────────
-  const subFiltered = state.subjectFilter === 'all'
-    ? regularGoals
-    : regularGoals.filter(g => g.subject === state.subjectFilter);
-
+  // ── Netflix rows for selected subject ─────────────────────────────────────
   const weeklyFiltered = state.subjectFilter === 'all'
     ? weeklyGoals
     : weeklyGoals.filter(g => g.subject === state.subjectFilter);
 
-  if (typeof state.weekOffset !== 'number') state.weekOffset = 0;
-  const displayWeekNum = currentWeek + state.weekOffset;
-  const _WEEK_LABELS   = ['2 Weeks Ago', 'Last Week', 'This Week'];
-  const displayLabel   = _WEEK_LABELS[state.weekOffset + 2] || 'This Week';
-
-  const displayGoals = weeklyFiltered
-    .filter(g => g.weekNum === displayWeekNum)
-    .sort((a, b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
-  const canGoBack    = state.weekOffset > -2 && weeklyFiltered.some(g => g.weekNum === displayWeekNum - 1);
-  const canGoForward = state.weekOffset < 0;
-
-  const archivedSet   = new Set(user.archivedGoals || []);
-  const activeGoals   = subFiltered.filter(g => !archivedSet.has(g.id));
-  const archivedGoals = subFiltered.filter(g =>  archivedSet.has(g.id));
-
-  if (!weeklyFiltered.length && !activeGoals.length && !archivedGoals.length) {
-    if (!user.category) {
-      list.innerHTML = '<p class="text-muted">Your profile is incomplete. <button class="link-btn" onclick="openEditProfile()">Complete your profile</button> to see your goals.</p>';
-    } else {
-      list.innerHTML = `
-        <div class="empty-state">
-          <div class="empty-emoji">📚</div>
-          <p class="empty-title">Content loading…</p>
-          <p class="empty-sub">While you wait, try Today's GK or a Flash Drill!</p>
-          <button class="btn btn-primary btn-sm" onclick="_startDrill('gk')">Today's GK →</button>
-        </div>`;
-    }
-    return;
-  }
-
-  // ── Week nav + horizontal subject snap ──────────────────────────────────
-  let html = '';
-
-  if (displayGoals.length || state.weekOffset !== 0) {
-    html += `
-      <div class="week-nav-row">
-        <button class="week-nav-btn" onclick="_weekNav(-1)"${!canGoBack?' disabled':''}>◀</button>
-        <span class="week-badge${state.weekOffset===0?' active-week':''}">${displayLabel}</span>
-        <button class="week-nav-btn" onclick="_weekNav(1)"${!canGoForward?' disabled':''}>▶</button>
-      </div>`;
-
-    if (!displayGoals.length) {
-      html += `<p class="text-muted" style="padding:8px 0">No practice sets for ${displayLabel.toLowerCase()}.</p>`;
-    } else {
-      const bySubj = {};
-      displayGoals.forEach(g => { const s = g.subject || 'general'; (bySubj[s] = bySubj[s] || []).push(g); });
-      const subjKeys = Object.keys(bySubj);
-      const isPast   = state.weekOffset < 0;
-
-      if (subjKeys.length <= 1) {
-        html += `<div class="day-cards-grid">${displayGoals.map(g => _dayCardHtml(g, isPast)).join('')}</div>`;
-      } else {
-        html += `<div class="subj-track" id="subj-track-main">`;
-        subjKeys.forEach(s => {
-          const st = SUBJECT_STYLE[s] || {};
-          const lb = s === 'social-science' ? 'Soc. Sci.' : _cap(s);
-          html += `<div class="subj-card"><div class="subj-card-head" style="color:${st.color||'var(--accent)'}"><span>${st.icon||'📚'}</span><span>${lb}</span></div><div class="day-cards-grid">${bySubj[s].map(g => _dayCardHtml(g, isPast)).join('')}</div></div>`;
-        });
-        html += `</div>`;
-        html += `<div class="subj-dots" id="subj-dots">${subjKeys.map((s, i) => {
-          const st = SUBJECT_STYLE[s] || {};
-          return `<button class="subj-dot${i===0?' active':''}" data-color="${st.color||'var(--accent)'}" style="${i===0?`background:${st.color||'var(--accent)'}`:'background:var(--border)'}" onclick="_scrollToSubj(${i})" title="${s}"></button>`;
-        }).join('')}</div>`;
-      }
-    }
-  }
-
-  // ── Regular practice goals ────────────────────────────────────────────────
-  if (weeklyFiltered.length) {
-    html += `<div class="week-section-header practice-header"><span class="week-badge practice-badge">Practice Sets</span></div>`;
-  }
-
-  const _cardHtml = (goal, isArchived) => {
-    const count = state.questions.filter(q => q.goalId === goal.id).length;
-    const last  = Storage.getLastSessionForGoal(goal.id);
-    const score = last ? last.score + '/' + last.total : null;
-    const menuItems = isArchived
-      ? `<button class="goal-menu-item" onclick="_unarchiveGoal('${goal.id}')">↩ Unarchive</button>`
-      : `<button class="goal-menu-item" onclick="_archiveGoal('${goal.id}')">✓ Mark as done</button>
-         ${last ? `<button class="goal-menu-item" onclick="resetGoal('${goal.id}')">↺ Reset progress</button>` : ''}`;
-    return `
-      <div class="goal-card${isArchived ? ' archived' : ''}" id="goal-card-${goal.id}">
-        <button class="goal-menu-btn" onclick="_toggleGoalMenu('${goal.id}', event)" title="Options">⋮</button>
-        <div class="goal-menu-dropdown" id="goal-menu-${goal.id}">${menuItems}</div>
-        <div class="goal-info">
-          <h3 class="goal-name">${_esc(goal.name)}</h3>
-          <p class="goal-desc">${_esc(goal.description)}</p>
-          <div class="goal-meta">
-            <span>${count} question${count !== 1 ? 's' : ''}</span>
-            ${score ? `<span class="goal-last-score">Last: ${score}</span>` : ''}
-          </div>
-          <div class="goal-tags">${goal.tags.map(t => `<span class="tag">${_esc(t)}</span>`).join('')}</div>
-        </div>
-        ${!isArchived ? `<div class="goal-actions">
-          <button class="btn btn-primary btn-sm" onclick="startGoal('${goal.id}')">${last ? 'Restart' : 'Start'}</button>
-        </div>` : ''}
-      </div>`;
-  };
-
-  html += activeGoals.length
-    ? activeGoals.map(g => _cardHtml(g, false)).join('')
-    : (subFiltered.length > 0 ? '<p class="text-muted" style="padding:8px 0">All sets marked as done.</p>' : '');
-
-  if (archivedGoals.length) {
-    const isOpen = state.showArchivedGoals;
-    html += `
-      <button class="archived-toggle" onclick="_toggleArchivedSection()">
-        ${isOpen ? '▲' : '▼'} Completed (${archivedGoals.length})
-      </button>
-      <div class="archived-section" style="display:${isOpen ? 'flex' : 'none'}">
-        ${archivedGoals.map(g => _cardHtml(g, true)).join('')}
-      </div>`;
-  }
-
-  list.innerHTML = html;
-
-  // Subject track scroll → update dots
-  const subTrack = document.getElementById('subj-track-main');
-  if (subTrack) {
-    subTrack.addEventListener('scroll', () => {
-      const idx = Math.round(subTrack.scrollLeft / subTrack.offsetWidth);
-      document.querySelectorAll('.subj-dot').forEach((d, i) => {
-        const active = i === idx;
-        d.classList.toggle('active', active);
-        d.style.background = active ? (d.dataset.color || 'var(--accent)') : 'var(--border)';
-      });
-    }, { passive: true });
-  }
+  _renderNetflixRows(list, weeklyFiltered, state.subjectFilter, currentWeek);
 }
 
 // ── Goal actions ──────────────────────────────────────────────────────────────
@@ -352,6 +223,135 @@ function _toggleArchivedSection() {
   _renderHome();
 }
 
+// ── Netflix row renderers ─────────────────────────────────────────────────────
+
+function _renderNetflixRows(list, goals, subject, currentWeek) {
+  let html = _buildDrillRow();
+
+  if (subject === 'gk') {
+    html += _renderGKNetflixRows();
+    list.innerHTML = html;
+    return;
+  }
+
+  const thisWeek = goals
+    .filter(g => g.weekNum === currentWeek)
+    .sort((a, b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
+
+  const lastWeek = goals
+    .filter(g => g.weekNum === currentWeek - 1)
+    .sort((a, b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
+
+  if (thisWeek.length) html += _buildWeekRow('This Week', thisWeek, false);
+  if (lastWeek.length) html += _buildWeekRow('Last Week', lastWeek, true);
+
+  const byConcept = {};
+  goals.forEach(g => {
+    const cid = g.conceptId || 'practice';
+    (byConcept[cid] = byConcept[cid] || []).push(g);
+  });
+
+  Object.entries(byConcept)
+    .sort(([, a], [, b]) =>
+      Math.max(...b.map(g => g.weekNum || 0)) - Math.max(...a.map(g => g.weekNum || 0))
+    )
+    .forEach(([cid, cGoals]) => { html += _buildTopicRow(cid, cGoals); });
+
+  if (!thisWeek.length && !lastWeek.length && !Object.keys(byConcept).length) {
+    html += `<div class="empty-state"><div class="empty-emoji">📚</div>
+      <p class="empty-title">No content yet for this subject.</p>
+      <p class="empty-sub">Try Flash Drills or switch tabs while we add more!</p></div>`;
+  }
+
+  list.innerHTML = html;
+}
+
+function _buildDrillRow() {
+  const drills = [
+    { id: 'tables',   icon: '×',  name: 'Tables',   sub: '2–20 timed' },
+    { id: 'squares',  icon: '²',  name: 'Squares',  sub: '1–25' },
+    { id: 'cubes',    icon: '³',  name: 'Cubes',    sub: '1–15' },
+    { id: 'formulas', icon: '∫',  name: 'Formulas', sub: 'Physics · Math' },
+    { id: 'gk',       icon: '🌍', name: 'GK Today', sub: '5 questions' },
+  ];
+  const bests = JSON.parse(localStorage.getItem('ds_drill_bests') || '{}');
+  const cards = drills.map(d => {
+    const best = bests[d.id];
+    const bestLine = best
+      ? `<div class="drill-card-best">Best: ${best}</div>`
+      : `<div class="drill-card-best" style="color:var(--muted)">Not tried yet</div>`;
+    return `<div class="drill-card" onclick="_startDrill('${d.id}')">
+      <div class="drill-card-icon">${d.icon}</div>
+      <div class="drill-card-name">${d.name}</div>
+      <div class="drill-card-sub">${d.sub}</div>
+      ${bestLine}
+    </div>`;
+  }).join('');
+  return `<div class="netflix-row">
+    <div class="netflix-row-label">⚡ Flash Drills</div>
+    <div class="netflix-cards">${cards}</div>
+  </div>`;
+}
+
+function _buildWeekRow(label, goals, isPast) {
+  const weekNum   = goals[0]?.weekNum;
+  const weekLabel = weekNum ? `${label} (W${weekNum})` : label;
+  return `<div class="netflix-row">
+    <div class="netflix-row-label">${weekLabel}
+      <span class="netflix-row-count">${goals.length} sets</span>
+    </div>
+    <div class="netflix-cards">
+      ${goals.map(g => _dayCardHtml(g, isPast)).join('')}
+    </div>
+  </div>`;
+}
+
+function _buildTopicRow(conceptId, goals) {
+  if (!goals.length) return '';
+  const label  = _conceptLabel(conceptId);
+  const sorted = goals.slice().sort((a, b) =>
+    (b.weekNum - a.weekNum) || (_dayOrder(a.weekDay) - _dayOrder(b.weekDay))
+  );
+  return `<div class="netflix-row">
+    <div class="netflix-row-label">${label}
+      <span class="netflix-row-count">${goals.length} set${goals.length !== 1 ? 's' : ''}</span>
+    </div>
+    <div class="netflix-cards">
+      ${sorted.map(g => _dayCardHtml(g, false)).join('')}
+    </div>
+  </div>`;
+}
+
+function _conceptLabel(conceptId) {
+  if (!conceptId || conceptId === 'practice') return 'Practice';
+  const STOP = new Set(['one', 'two', 'three', 'basics', 'intro', 'introduction',
+    'variable', 'variables', 'advanced', 'level', 'and', 'the', 'of', 'in']);
+  return conceptId.split('-')
+    .filter(w => !STOP.has(w))
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
+}
+
+function _renderGKNetflixRows() {
+  const currentWeek = _getISOWeek(new Date());
+  const gkGoals     = state.goals.filter(g => g.subject === 'gk' && g.weekNum);
+  const thisWeek    = gkGoals
+    .filter(g => g.weekNum === currentWeek)
+    .sort((a, b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
+  const lastWeek    = gkGoals
+    .filter(g => g.weekNum === currentWeek - 1)
+    .sort((a, b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
+  let html = '';
+  if (thisWeek.length) html += _buildWeekRow('This Week GK', thisWeek, false);
+  if (lastWeek.length) html += _buildWeekRow('Last Week GK', lastWeek, true);
+  if (!html) {
+    html = `<div class="empty-state"><div class="empty-emoji">🌍</div>
+      <p class="empty-title">GK sets loading…</p>
+      <button class="btn btn-primary btn-sm" onclick="_startDrill('gk')">Today's GK Drill →</button></div>`;
+  }
+  return html;
+}
+
 // ── Day card ──────────────────────────────────────────────────────────────────
 
 function _dayCardHtml(goal, isPast) {
@@ -389,10 +389,7 @@ function _setSubjectFilter(subject) {
   _renderHome();
 }
 
-function _weekNav(delta) {
-  state.weekOffset = Math.max(-2, Math.min(0, (state.weekOffset || 0) + delta));
-  _renderHome();
-}
+function _weekNav(delta) {}  // retired — Netflix rows replace week nav
 
 function _scrollToSubj(idx) {
   const track = document.getElementById('subj-track-main');
@@ -437,8 +434,12 @@ function _renderTodayCard() {
   const dayLabel = dayNames[today.getDay()];
   const dateStr  = today.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
 
-  el.innerHTML = `
-    <div class="today-card${done ? ' today-done' : ''}">
+  const gkGoal = state.subjectFilter !== 'gk' ? state.goals.find(g =>
+    g.subject === 'gk' && g.weekNum === currentWeek && g.weekDay === todayDay
+  ) : null;
+
+  const subjectCard = `
+    <div class="today-card${done ? ' today-done' : ''} today-card-main">
       <div class="today-card-top">
         <span class="today-badge">${_esc(dayLabel)} · ${dateStr}</span>
         ${done ? '<span class="today-done-badge">✅ Done</span>' : ''}
@@ -451,6 +452,23 @@ function _renderTodayCard() {
         </button>
       </div>
     </div>`;
+
+  const gkCard = gkGoal ? (() => {
+    const gkCount = state.questions.filter(q => q.goalId === gkGoal.id).length;
+    const gkLast  = Storage.getLastSessionForGoal(gkGoal.id);
+    return `<div class="today-card-gk">
+      <div class="today-gk-label">🌍 GK Today</div>
+      <div class="today-gk-title">${_esc(gkGoal.description.split('—')[0].trim())}</div>
+      <div class="today-gk-count">${gkCount} questions</div>
+      <button class="btn btn-primary btn-sm" onclick="startGoal('${gkGoal.id}')">
+        ${gkLast ? 'Redo' : 'Start →'}
+      </button>
+    </div>`;
+  })() : '';
+
+  el.innerHTML = gkCard
+    ? `<div class="today-row">${subjectCard}${gkCard}</div>`
+    : subjectCard;
 }
 
 const _AVATAR_GRADIENTS = [

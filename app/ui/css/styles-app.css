@@ -230,6 +230,73 @@
   color: var(--muted);
 }
 
+/* ── Netflix browse rows ─────────────────────────────────────── */
+.netflix-row { margin-bottom: 24px; }
+
+.netflix-row-label {
+  font-size: 11px; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: #1e3a8a;
+  padding: 0 16px; margin-bottom: 8px;
+  display: flex; align-items: center; gap: 8px;
+}
+
+.netflix-row-count {
+  font-size: 10px; font-weight: 500; color: var(--muted);
+  font-family: var(--font-mono); text-transform: none; letter-spacing: 0;
+}
+
+.netflix-cards {
+  display: flex; gap: 10px;
+  overflow-x: auto; scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  padding: 0 16px 4px;
+}
+.netflix-cards::-webkit-scrollbar { display: none; }
+
+.netflix-cards .day-card {
+  min-width: 160px; max-width: 160px;
+  flex-shrink: 0; scroll-snap-align: start;
+}
+
+/* ── Flash Drill cards ───────────────────────────────────────── */
+.drill-card {
+  min-width: 130px; max-width: 130px; flex-shrink: 0;
+  scroll-snap-align: start;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 12px;
+  display: flex; flex-direction: column; gap: 4px;
+  cursor: pointer; transition: transform .15s, border-color .15s;
+}
+.drill-card:hover { transform: translateY(-2px); border-color: var(--accent); }
+.drill-card-icon { font-size: 22px; line-height: 1; margin-bottom: 2px; }
+.drill-card-name { font-size: 13px; font-weight: 700; color: var(--text); }
+.drill-card-sub  { font-size: 11px; color: var(--muted); line-height: 1.3; }
+.drill-card-best { font-size: 10px; font-family: var(--font-mono); color: var(--warning); margin-top: 4px; }
+
+/* ── Today two-card row ──────────────────────────────────────── */
+.today-row { display: flex; gap: 10px; margin-bottom: 16px; align-items: stretch; }
+.today-card-main { flex: 1; min-width: 0; }
+.today-card.today-card-main { margin-bottom: 0; }
+.today-card-gk {
+  width: 128px; flex-shrink: 0;
+  background: var(--surface);
+  border: 1px solid rgba(20,184,166,.25);
+  border-left: 3px solid #14b8a6;
+  border-radius: var(--radius);
+  padding: 12px 10px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 8px;
+}
+.today-gk-label { font-size: 10px; font-weight: 700; color: #14b8a6; text-transform: uppercase; letter-spacing: .06em; }
+.today-gk-title { font-size: 11px; font-weight: 600; color: var(--text); line-height: 1.3; flex: 1; }
+.today-gk-count { font-size: 10px; color: var(--muted); font-family: var(--font-mono); }
+
+@media (max-width: 400px) {
+  .today-row { flex-direction: column; }
+  .today-card-gk { width: 100%; }
+}
+
 /* Goal card overflow menu */
 .goal-menu-btn {
   position: absolute;
