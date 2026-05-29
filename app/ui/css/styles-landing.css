@@ -140,91 +140,10 @@
   padding: 5px 12px; border-radius: 100px;
 }
 
-/* ── Phone Mockup ────────────────────────────────────────────────── */
+/* ── Hero right (carousel container) ─────────────────────────────── */
 .lp-hero-right {
   display: flex; justify-content: center; align-items: center;
-  /* position/z-index set on .lp-hero-right in the hero block above */
   position: relative;
-}
-.lp-phone {
-  width: 256px;
-  background: #0f1117;
-  border-radius: 40px;
-  border: 3px solid rgba(255,255,255,.12);
-  padding: 52px 16px 28px;
-  position: relative;
-  box-shadow: 0 48px 96px rgba(0,0,0,.22), 0 0 0 1px rgba(255,255,255,.06), inset 0 1px 0 rgba(255,255,255,.08);
-  animation: lp-float 5s ease-in-out infinite;
-}
-@keyframes lp-float {
-  0%, 100% { transform: translateY(0); }
-  50%       { transform: translateY(-10px); }
-}
-.lp-phone-notch {
-  position: absolute; top: 16px; left: 50%; transform: translateX(-50%);
-  width: 72px; height: 18px; background: #1a1d27; border-radius: 20px;
-}
-.lp-phone-screen { display: flex; flex-direction: column; gap: 8px; }
-.lp-mock-header {
-  display: flex; justify-content: space-between; align-items: center;
-  font-size: 10px; color: #94a3b8;
-}
-.lp-mock-streak {
-  background: rgba(245,158,11,.15); color: #f59e0b;
-  padding: 2px 8px; border-radius: 100px; font-size: 10px; font-weight: 700;
-}
-.lp-mock-progress {
-  height: 4px; background: rgba(255,255,255,.1); border-radius: 4px; overflow: hidden;
-}
-.lp-mock-progress-fill {
-  height: 100%; background: #3b82f6; border-radius: 4px;
-  animation: lp-prog 2.5s ease-in-out infinite alternate;
-}
-@keyframes lp-prog { from { width: 30%; } to { width: 45%; } }
-.lp-mock-subject {
-  font-size: 9px; color: #60a5fa; font-weight: 600; letter-spacing: .06em;
-  background: rgba(59,130,246,.12); padding: 3px 8px; border-radius: 6px;
-  width: fit-content;
-}
-.lp-mock-q {
-  font-size: 12px; font-weight: 600; color: #f1f5f9; line-height: 1.4;
-  margin: 4px 0;
-}
-.lp-mock-answers { display: flex; flex-direction: column; gap: 5px; }
-.lp-mock-a {
-  font-size: 11px; color: #94a3b8; background: rgba(255,255,255,.06);
-  padding: 6px 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,.08);
-}
-.lp-mock-a-correct {
-  background: rgba(34,197,94,.15); color: #4ade80;
-  border-color: rgba(34,197,94,.35); font-weight: 600;
-}
-.lp-mock-explain {
-  font-size: 9.5px; color: #64748b; background: rgba(255,255,255,.04);
-  padding: 6px 10px; border-radius: 8px; line-height: 1.4; margin-top: 2px;
-  border-left: 2px solid #3b82f6;
-}
-.lp-phone-badge {
-  position: absolute; padding: 8px 14px; border-radius: 12px;
-  font-size: 12px; font-weight: 700; white-space: nowrap;
-  box-shadow: 0 4px 20px rgba(0,0,0,.15);
-  animation: lp-badge-in .6s ease-out both;
-}
-.lp-badge-streak {
-  right: -20px; top: 80px;
-  background: #fff; color: #f59e0b;
-  border: 1px solid rgba(245,158,11,.2);
-  animation-delay: .4s;
-}
-.lp-badge-score {
-  left: -20px; bottom: 100px;
-  background: #fff; color: #22c55e;
-  border: 1px solid rgba(34,197,94,.2);
-  animation-delay: .7s;
-}
-@keyframes lp-badge-in {
-  from { opacity: 0; transform: scale(.8); }
-  to   { opacity: 1; transform: scale(1); }
 }
 
 /* ── Generic section wrapper ─────────────────────────────────────── */
@@ -274,7 +193,6 @@
   transform: translateY(-6px) scale(1.01);
   box-shadow: 0 20px 60px rgba(0,0,0,.15);
 }
-.lp-plan-pro:hover { box-shadow: 0 12px 48px rgba(59,130,246,.22); }
 .lp-card-blue { background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 100%); }
 .lp-card-gold { background: linear-gradient(135deg, #78350f 0%, #d97706 100%); }
 .lp-card-green { background: linear-gradient(135deg, #14532d 0%, #16a34a 100%); }
@@ -616,9 +534,6 @@
   .lp-hero-ctas { justify-content: center; flex-direction: column; align-items: center; }
   .lp-trust-row { justify-content: center; }
   .lp-hero-right { order: -1; }
-  .lp-phone { width: 220px; }
-  .lp-badge-streak { right: -8px; top: 60px; font-size: 11px; }
-  .lp-badge-score  { left: -8px; bottom: 80px; font-size: 11px; }
 
   /* Sections */
   .lp-section { padding: 56px 20px; }
