@@ -3,9 +3,25 @@
 // ── Landing ───────────────────────────────────────────────────────────────────
 
 function _setupLanding() {
-  document.getElementById('btn-for-students').onclick      = () => _goToSignup('school');
-  document.getElementById('btn-for-professionals').onclick = () => _goToSignup('professional');
-  document.getElementById('btn-go-signin').onclick         = async () => { await _showScreen('signin'); _setupSignin(); };
+  const school = () => _goToSignup('school');
+  const pro    = () => _goToSignup('professional');
+  const signin = async () => { await _showScreen('signin'); _setupSignin(); };
+
+  ['btn-for-students', 'btn-for-students-2', 'btn-for-students-3', 'btn-for-students-4', 'btn-for-students-5']
+    .forEach(id => { const el = document.getElementById(id); if (el) el.onclick = school; });
+  ['btn-for-professionals', 'btn-for-professionals-hero', 'btn-for-professionals-2']
+    .forEach(id => { const el = document.getElementById(id); if (el) el.onclick = pro; });
+
+  const signinBtn = document.getElementById('btn-go-signin');
+  if (signinBtn) signinBtn.onclick = signin;
+
+  document.querySelectorAll('.lp-navlink').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const target = document.querySelector(link.getAttribute('href'));
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
 }
 
 async function _goToSignup(category) {

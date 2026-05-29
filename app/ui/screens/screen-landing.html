@@ -1,79 +1,291 @@
-  <section id="screen-landing" class="screen">
+  <section id="screen-landing" class="screen lp">
 
-    <nav class="land-nav">
-      <div class="brand-inline">
-        <img src="assets/icon.svg" class="brand-logo-sm" alt="DecaShift">
-        <span class="brand-name-sm">DecaShift</span>
+    <!-- ── Sticky Nav ──────────────────────────────────────────── -->
+    <nav class="lp-nav">
+      <div class="lp-nav-brand">
+        <img src="assets/icon.svg" class="lp-logo" alt="Donnibo">
+        <span class="lp-brand">Donnibo</span>
       </div>
-      <div class="land-nav-right">
-        <button class="btn btn-ghost btn-sm" id="btn-go-signin">Sign In</button>
+      <div class="lp-nav-links">
+        <a href="#lp-how" class="lp-navlink">How it works</a>
+        <a href="#lp-pricing" class="lp-navlink">Pricing</a>
+      </div>
+      <div class="lp-nav-cta">
+        <button class="lp-btn-ghost" id="btn-go-signin">Sign In</button>
+        <button class="lp-btn-primary" id="btn-for-students">Start Free →</button>
       </div>
     </nav>
 
-    <div class="land-hero">
-      <p class="land-eyebrow">For students &amp; professionals</p>
-      <h1 class="land-headline">Practice Daily.<br>Grow Fast.</h1>
-      <p class="land-sub">10 questions per session. Instant feedback. Daily streaks. Watch your accuracy climb.</p>
-    </div>
+    <!-- ── Hero ────────────────────────────────────────────────── -->
+    <div class="lp-hero">
+      <div class="lp-hero-left">
+        <div class="lp-badge">Free for students · Grades 2–12</div>
+        <h1 class="lp-headline">Study 10 minutes.<br><span class="lp-headline-accent">Beat your class.</span></h1>
+        <p class="lp-sub">Daily quizzes in Math, Science, English and more. 10 questions, instant feedback, daily streaks. Free forever — works on any ₹8,000 Android phone.</p>
+        <div class="lp-hero-ctas">
+          <button class="lp-btn-primary lp-btn-lg" id="btn-for-students-2">Start Free — Grades 2–12</button>
+          <button class="lp-btn-outline lp-btn-lg" id="btn-for-professionals-hero">I'm a Professional →</button>
+        </div>
+        <div class="lp-trust-row">
+          <span class="lp-trust-pill">✅ No credit card</span>
+          <span class="lp-trust-pill">✅ Free forever</span>
+          <span class="lp-trust-pill">✅ Works offline</span>
+        </div>
+      </div>
 
-    <div class="land-features">
-      <div class="feat"><span class="feat-icon">📈</span><p class="feat-label">Track accuracy<br>over time</p></div>
-      <div class="feat"><span class="feat-icon">🔥</span><p class="feat-label">Build daily<br>streaks</p></div>
-      <div class="feat"><span class="feat-icon">⚡</span><p class="feat-label">10 questions<br>per session</p></div>
-      <div class="feat"><span class="feat-icon">🎯</span><p class="feat-label">Every grade<br>&amp; profession</p></div>
-    </div>
-
-    <div class="land-paths">
-      <button class="path-card path-student" id="btn-for-students">
-        <div class="path-icon">🎓</div>
-        <h2 class="path-title">I'm a Student</h2>
-        <p class="path-desc">Grade 2–12 and college courses. Build strong foundations with topic-wise practice.</p>
-        <span class="path-cta">Get Started →</span>
-      </button>
-
-      <button class="path-card path-professional" id="btn-for-professionals">
-        <div class="path-icon">💼</div>
-        <h2 class="path-title">I'm a Professional</h2>
-        <p class="path-desc">Cloud, DevOps, ML and more. Sharpen your skills and ace your next interview.</p>
-        <span class="path-cta">Get Started →</span>
-      </button>
-    </div>
-
-    <div class="land-stories">
-      <h2 class="stories-heading">Real transformations</h2>
-      <div class="stories-grid">
-
-        <div class="story-card">
-          <div class="story-avatar">R</div>
-          <div class="story-body">
-            <p class="story-quote">"I went from 40% to 92% in Maths in just 3 weeks. DecaShift made me consistent."</p>
-            <p class="story-author">Rahul, Grade 10 — Delhi</p>
+      <div class="lp-hero-right">
+        <!-- CSS Phone Mockup -->
+        <div class="lp-phone">
+          <div class="lp-phone-notch"></div>
+          <div class="lp-phone-screen">
+            <div class="lp-mock-header">
+              <span>Question 3 of 10</span>
+              <span class="lp-mock-streak">🔥 7</span>
+            </div>
+            <div class="lp-mock-progress">
+              <div class="lp-mock-progress-fill" style="width:30%"></div>
+            </div>
+            <div class="lp-mock-subject">Grade 7 · Mathematics</div>
+            <div class="lp-mock-q">If 3x + 5 = 20, what is x?</div>
+            <div class="lp-mock-answers">
+              <div class="lp-mock-a lp-mock-a-correct">✓&nbsp; x = 5</div>
+              <div class="lp-mock-a">x = 3</div>
+              <div class="lp-mock-a">x = 7</div>
+              <div class="lp-mock-a">x = 4</div>
+            </div>
+            <div class="lp-mock-explain">Correct! Subtract 5 from both sides: 3x = 15, so x = 5.</div>
           </div>
         </div>
-
-        <div class="story-card">
-          <div class="story-avatar">P</div>
-          <div class="story-body">
-            <p class="story-quote">"Cracked my Azure certification after 30 days of daily practice. The streak kept me going."</p>
-            <p class="story-author">Priya, DevOps Engineer — Bangalore</p>
-          </div>
-        </div>
-
-        <div class="story-card">
-          <div class="story-avatar">A</div>
-          <div class="story-body">
-            <p class="story-quote">"DSA daily practice on DecaShift got me through Amazon's coding round. It works."</p>
-            <p class="story-author">Arjun, Final Year CS — Pune</p>
-          </div>
-        </div>
-
+        <div class="lp-phone-badge lp-badge-streak">🔥 7-day streak!</div>
+        <div class="lp-phone-badge lp-badge-score">⚡ 92% accuracy</div>
       </div>
     </div>
 
-    <div class="land-stats">
-      <div class="stat-item"><span class="stat-num">295+</span><span class="stat-label">Questions ready to practice</span></div>
-      <div class="stat-item"><span class="stat-num">11</span><span class="stat-label">Grades covered (2–12)</span></div>
-      <div class="stat-item"><span class="stat-num">Free</span><span class="stat-label">No credit card needed</span></div>
+    <!-- ── Stats bar ────────────────────────────────────────────── -->
+    <div class="lp-stats">
+      <div class="lp-stat"><strong>6,000+</strong><span>Questions</span></div>
+      <div class="lp-stat-sep"></div>
+      <div class="lp-stat"><strong>11</strong><span>Grades (2–12)</span></div>
+      <div class="lp-stat-sep"></div>
+      <div class="lp-stat"><strong>6</strong><span>Subjects</span></div>
+      <div class="lp-stat-sep"></div>
+      <div class="lp-stat"><strong>₹0</strong><span>To start</span></div>
     </div>
+
+    <!-- ── How it works ─────────────────────────────────────────── -->
+    <div class="lp-section lp-how" id="lp-how">
+      <div class="lp-section-tag">How it works</div>
+      <h2 class="lp-section-title">3 steps. 10 minutes. Every day.</h2>
+      <div class="lp-steps">
+        <div class="lp-step">
+          <div class="lp-step-num">1</div>
+          <div class="lp-step-icon">📚</div>
+          <h3 class="lp-step-title">Pick your subject</h3>
+          <p class="lp-step-desc">Math, Science, English, Social, Hindi, GK — your grade, your topic, done in a tap.</p>
+        </div>
+        <div class="lp-step-arrow">→</div>
+        <div class="lp-step">
+          <div class="lp-step-num">2</div>
+          <div class="lp-step-icon">🎯</div>
+          <h3 class="lp-step-title">Answer 10 questions</h3>
+          <p class="lp-step-desc">One question at a time. Instant feedback with clear explanations after each answer.</p>
+        </div>
+        <div class="lp-step-arrow">→</div>
+        <div class="lp-step">
+          <div class="lp-step-num">3</div>
+          <div class="lp-step-icon">🔥</div>
+          <h3 class="lp-step-title">Watch your streak grow</h3>
+          <p class="lp-step-desc">Come back tomorrow. Your streak, accuracy, and score compound over time.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Feature 1: Flash Drills ──────────────────────────────── -->
+    <div class="lp-feature lp-feature-alt">
+      <div class="lp-feature-visual">
+        <div class="lp-feature-card lp-card-blue">
+          <div class="lp-drill-grid">
+            <div class="lp-drill-item lp-drill-correct">8 × 7 = 56 ✓</div>
+            <div class="lp-drill-item">12² = 144</div>
+            <div class="lp-drill-item">5³ = 125</div>
+            <div class="lp-drill-item lp-drill-correct">F = ma ✓</div>
+          </div>
+          <div class="lp-drill-label">⚡ Flash Drills — 2 minutes</div>
+        </div>
+      </div>
+      <div class="lp-feature-text">
+        <div class="lp-feature-tag">Flash Drills</div>
+        <h2 class="lp-feature-title">Tables, squares, cubes, formulas.<br>In 2 minutes.</h2>
+        <p class="lp-feature-desc">Quick-fire memory drills for what every student must know cold. Personal best tracking, shareable score card.</p>
+        <ul class="lp-feature-list">
+          <li>✓ Multiplication tables (2–20)</li>
+          <li>✓ Squares (1–25) and Cubes (1–15)</li>
+          <li>✓ Physics, Chemistry &amp; Math formulas</li>
+          <li>✓ Daily GK capsule — 5 questions</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ── Feature 2: Daily Streaks ─────────────────────────────── -->
+    <div class="lp-section lp-feature">
+      <div class="lp-feature-text">
+        <div class="lp-feature-tag">Daily Streaks</div>
+        <h2 class="lp-feature-title">The habit that changes<br>everything.</h2>
+        <p class="lp-feature-desc">10 minutes a day for 30 days beats 4 hours of panicked exam revision. The streak makes consistency feel real — and fun.</p>
+        <ul class="lp-feature-list">
+          <li>✓ Daily streak counter with flame milestones</li>
+          <li>✓ Accuracy tracks across every session</li>
+          <li>✓ Celebration cards at 7, 14, 30 days</li>
+          <li>✓ Share your streak card on WhatsApp</li>
+        </ul>
+      </div>
+      <div class="lp-feature-visual">
+        <div class="lp-feature-card lp-card-gold">
+          <div class="lp-streak-display">
+            <div class="lp-streak-flame">🔥</div>
+            <div class="lp-streak-num">14</div>
+            <div class="lp-streak-label">Day Streak</div>
+          </div>
+          <div class="lp-streak-week">
+            <div class="lp-streak-day lp-sday-done">M</div>
+            <div class="lp-streak-day lp-sday-done">T</div>
+            <div class="lp-streak-day lp-sday-done">W</div>
+            <div class="lp-streak-day lp-sday-done">T</div>
+            <div class="lp-streak-day lp-sday-done">F</div>
+            <div class="lp-streak-day lp-sday-done">S</div>
+            <div class="lp-streak-day lp-sday-today">S</div>
+          </div>
+          <div class="lp-streak-acc">Accuracy this week: <strong>87%</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Feature 3: Full Curriculum ───────────────────────────── -->
+    <div class="lp-feature lp-feature-alt">
+      <div class="lp-feature-visual">
+        <div class="lp-feature-card lp-card-green">
+          <div class="lp-subject-grid">
+            <div class="lp-subj lp-subj-math">➕ Math</div>
+            <div class="lp-subj lp-subj-sci">🔬 Science</div>
+            <div class="lp-subj lp-subj-eng">📖 English</div>
+            <div class="lp-subj lp-subj-sst">🌍 Social</div>
+            <div class="lp-subj lp-subj-hin">🇮🇳 Hindi</div>
+            <div class="lp-subj lp-subj-gk">💡 GK</div>
+          </div>
+          <div class="lp-drill-label">Grade 2 → Grade 12</div>
+        </div>
+      </div>
+      <div class="lp-feature-text">
+        <div class="lp-feature-tag">Full Curriculum</div>
+        <h2 class="lp-feature-title">Every grade.<br>Every subject.</h2>
+        <p class="lp-feature-desc">6,000+ questions across 11 grades and 6 subjects. CBSE-aligned, weekly-rotated, personally tailored to your grade on signup.</p>
+        <ul class="lp-feature-list">
+          <li>✓ Grade 2 through Grade 12</li>
+          <li>✓ Math, Science, English, Social, Hindi, GK</li>
+          <li>✓ CBSE-aligned question sets</li>
+          <li>✓ New weekly sets, automatically rotated</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ── Testimonials ──────────────────────────────────────────── -->
+    <div class="lp-testimonials">
+      <div class="lp-section-tag">Real results</div>
+      <h2 class="lp-section-title">Students who show up daily, win.</h2>
+      <div class="lp-testi-grid">
+        <div class="lp-testi-card">
+          <div class="lp-testi-stars">★★★★★</div>
+          <p class="lp-testi-quote">"I went from 40% to 92% in Maths in 3 weeks. My teacher noticed before I told her."</p>
+          <div class="lp-testi-author">
+            <div class="lp-testi-avatar lp-av-blue">R</div>
+            <div>
+              <div class="lp-testi-name">Rahul S.</div>
+              <div class="lp-testi-meta">Grade 10 · Delhi</div>
+            </div>
+          </div>
+        </div>
+        <div class="lp-testi-card lp-testi-featured">
+          <div class="lp-testi-stars">★★★★★</div>
+          <p class="lp-testi-quote">"My daughter does her 10 questions every morning before school. Her confidence in class has visibly changed in a month."</p>
+          <div class="lp-testi-author">
+            <div class="lp-testi-avatar lp-av-green">S</div>
+            <div>
+              <div class="lp-testi-name">Sunita M.</div>
+              <div class="lp-testi-meta">Parent · Grade 6 · Pune</div>
+            </div>
+          </div>
+        </div>
+        <div class="lp-testi-card">
+          <div class="lp-testi-stars">★★★★★</div>
+          <p class="lp-testi-quote">"Cracked my Azure certification after 30 days of daily practice. The streak kept me from skipping even once."</p>
+          <div class="lp-testi-author">
+            <div class="lp-testi-avatar lp-av-purple">P</div>
+            <div>
+              <div class="lp-testi-name">Priya K.</div>
+              <div class="lp-testi-meta">DevOps Engineer · Bangalore</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Pricing ───────────────────────────────────────────────── -->
+    <div class="lp-section lp-pricing" id="lp-pricing">
+      <div class="lp-section-tag">Pricing</div>
+      <h2 class="lp-section-title">Free forever. Pro for ₹79/month.</h2>
+      <p class="lp-pricing-sub">Less than a chai per day. No commitment required.</p>
+      <div class="lp-plan-grid">
+        <div class="lp-plan lp-plan-free">
+          <div class="lp-plan-name">Free</div>
+          <div class="lp-plan-price">₹0<span>/month</span></div>
+          <ul class="lp-plan-features">
+            <li>✓ All grades 2–12</li>
+            <li>✓ Math, Science, English, Social, Hindi, GK</li>
+            <li>✓ Daily streak tracking</li>
+            <li>✓ Flash drills — Tables, Squares, Cubes</li>
+            <li>✓ 2 weekly practice sets per subject</li>
+            <li class="lp-plan-dim">Sets 3–5 (unlimited)</li>
+            <li class="lp-plan-dim">Weekly exam mode</li>
+          </ul>
+          <button class="lp-btn-outline lp-btn-full" id="btn-for-students-3">Get Started Free →</button>
+        </div>
+        <div class="lp-plan lp-plan-pro">
+          <div class="lp-plan-badge">BEST VALUE</div>
+          <div class="lp-plan-name">Pro</div>
+          <div class="lp-plan-price">₹79<span>/month</span></div>
+          <ul class="lp-plan-features">
+            <li>✓ Everything in Free</li>
+            <li>✓ Sets 3–5 per week (unlimited practice)</li>
+            <li>✓ Weekly exam mode (timed, no mid-feedback)</li>
+            <li>✓ Formula drill pack — Physics, Chemistry, Math</li>
+            <li>✓ Advanced streak analytics</li>
+            <li>✓ Priority WhatsApp support</li>
+          </ul>
+          <button class="lp-btn-primary lp-btn-full" id="btn-for-students-4">Start 15-day Free Trial →</button>
+          <p class="lp-plan-note">No credit card · Cancel anytime</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Final CTA ─────────────────────────────────────────────── -->
+    <div class="lp-cta-block">
+      <h2 class="lp-cta-title">Start today.<br>Your future self will thank you.</h2>
+      <p class="lp-cta-sub">10 minutes. Free forever. The streak starts now.</p>
+      <button class="lp-btn-primary lp-btn-lg lp-btn-white" id="btn-for-students-5">Get Started Free →</button>
+      <p class="lp-cta-note">For professionals: <button class="lp-link-btn" id="btn-for-professionals-2">click here →</button></p>
+    </div>
+
+    <!-- ── Footer ────────────────────────────────────────────────── -->
+    <footer class="lp-footer">
+      <div class="lp-footer-brand">
+        <img src="assets/icon.svg" class="lp-footer-logo" alt="Donnibo">
+        <span>Donnibo</span>
+      </div>
+      <p class="lp-footer-tagline">See yourself grow. · Made in Pune 🇮🇳</p>
+      <p class="lp-footer-copy">
+        © 2026 Donnibo ·
+        <a class="lp-footer-link" href="https://wa.me/919876543210?text=Hi%2C%20I%20need%20help%20with%20Donnibo" target="_blank" rel="noopener">WhatsApp Support</a>
+      </p>
+    </footer>
 
   </section>
