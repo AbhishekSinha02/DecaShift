@@ -1,6 +1,6 @@
 # Session: PENDING — index.html Modularisation (P1-T020)
 
-**Priority:** 3
+**Priority:** 1 ← TOP of queue, run this next
 **Type:** Refactor / Architecture
 **Est. Duration:** 3–4 hours across 5 atomic steps
 **Task:** P1-T020
