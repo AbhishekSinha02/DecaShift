@@ -30,6 +30,11 @@
             <span class="settings-tile-label">My Plan</span>
             <span class="settings-tile-arrow">›</span>
           </button>
+          <button class="settings-tile" onclick="openSettingsSection('progress')">
+            <span class="settings-tile-icon">📊</span>
+            <span class="settings-tile-label">My Progress</span>
+            <span class="settings-tile-arrow">›</span>
+          </button>
           <button class="settings-tile" onclick="openSettingsSection('help')">
             <span class="settings-tile-icon">ℹ️</span>
             <span class="settings-tile-label">About &amp; Help</span>
@@ -237,6 +242,15 @@
       </div>
 
       <!-- ── Sub-screen: My Plan ──────────────────────────── -->
+      <!-- ── Sub-screen: My Progress ──────────────────────────── -->
+      <div id="settings-sub-progress" class="settings-sub hidden">
+        <div class="settings-sub-header">
+          <button class="settings-back-btn" onclick="backToSettingsMenu()">← Back</button>
+          <span class="settings-sub-title">My Progress</span>
+        </div>
+        <div id="progress-content"></div>
+      </div>
+
       <div id="settings-sub-plan" class="settings-sub hidden">
         <div class="settings-sub-header">
           <button class="settings-back-btn" onclick="backToSettingsMenu()">← Back</button>

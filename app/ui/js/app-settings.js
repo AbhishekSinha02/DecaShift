@@ -39,6 +39,7 @@ function openSettingsSection(name) {
   if (name === 'learning')   _initLearningSection();
   if (name === 'security')   _initSecuritySection();
   if (name === 'plan')       _initPlanSection();
+  if (name === 'progress')   _initProgressSection();
 }
 
 function backToSettingsMenu() {
@@ -231,4 +232,116 @@ function _initPlanSection() {
 function _upgradeViaWhatsApp() {
   const msg = encodeURIComponent('Hi, I want to upgrade to Donnibo Pro (₹79/month)');
   window.open(`https://wa.me/919876543210?text=${msg}`, '_blank');
+}
+
+// ── D-016: My Progress Sub-screen ────────────────────────────────────────────
+
+function _initProgressSection() {
+  const wrap = document.getElementById('progress-content');
+  if (!wrap || !state.user) return;
+
+  const allSessions = Storage.loadSessions();
+  const streak      = Storage.loadStreak();
+  const name        = _getFirstName(state.user);
+  const grade       = state.user.grade ? 'Grade ' + state.user.grade : '';
+
+  const weekNum = (() => {
+    const d = new Date(); const day = d.getDay() || 7;
+    d.setUTCDate(d.getUTCDate() + 4 - day);
+    const y = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+    return Math.ceil((((d - y) / 86400000) + 1) / 7);
+  })();
+  const weekStart = (() => {
+    const now = new Date();
+    const day = now.getDay(); const ms = 864e5;
+    const mon = new Date(now - ((day === 0 ? 6 : day - 1) * ms + now % ms));
+    mon.setHours(0,0,0,0); return mon;
+  })();
+  const weekEnd = new Date(weekStart.getTime() + 7 * 864e5);
+  const prevStart = new Date(weekStart.getTime() - 7 * 864e5);
+
+  const thisSessions = allSessions.filter(s => {
+    const d = new Date(s.sessionStart); return d >= weekStart && d < weekEnd;
+  });
+  const prevSessions = allSessions.filter(s => {
+    const d = new Date(s.sessionStart); return d >= prevStart && d < weekStart;
+  });
+
+  const subjects = [...new Set(state.goals.filter(g => g.subject && g.subject !== 'gk').map(g => g.subject))];
+  const days = thisSessions.map(s => new Date(s.sessionEnd).toDateString());
+  const practicedDays = new Set(days).size;
+
+  const subjectRows = subjects.map(sub => {
+    const subGoalIds = new Set(state.goals.filter(g => g.subject === sub).map(g => g.id));
+    const thisSub = thisSessions.filter(s => subGoalIds.has(s.goalId));
+    const prevSub = prevSessions.filter(s => subGoalIds.has(s.goalId));
+    if (!thisSub.length && !prevSub.length) return '';
+    const thisAcc = thisSub.length ? Math.round(thisSub.reduce((a, r) => a + (r.accuracy ?? 0), 0) / thisSub.length * 100) : null;
+    const prevAcc = prevSub.length ? Math.round(prevSub.reduce((a, r) => a + (r.accuracy ?? 0), 0) / prevSub.length * 100) : null;
+    const style   = (typeof SUBJECT_STYLE !== 'undefined' && SUBJECT_STYLE[sub]) || { icon: '📚' };
+    const label   = sub.charAt(0).toUpperCase() + sub.slice(1).replace(/-/g, ' ');
+    const arrow   = (thisAcc !== null && prevAcc !== null) ? (thisAcc > prevAcc ? ` ↑${thisAcc - prevAcc}%` : thisAcc < prevAcc ? ` ↓${prevAcc - thisAcc}%` : ' →') : '';
+    const accStr  = thisAcc !== null ? `${thisAcc}%${arrow}` : '—';
+    const prevStr = prevAcc !== null ? `${prevAcc}%` : 'No data';
+    return `<div class="progress-subject-row">
+      <span class="progress-subject-name">${style.icon} ${label}</span>
+      <span class="progress-subject-this">${accStr}</span>
+      <span class="progress-subject-prev">${prevStr} last week</span>
+    </div>`;
+  }).filter(Boolean).join('');
+
+  const conceptsDone = [...new Set(thisSessions.map(s => {
+    const g = state.goals.find(g => g.id === s.goalId);
+    return g?.conceptId || g?.name || '';
+  }))].filter(Boolean).join(', ');
+
+  wrap.innerHTML = `
+    <div class="progress-week-card">
+      <div class="progress-week-header">Week ${weekNum} · ${practicedDays} of 7 days practiced</div>
+      ${subjectRows || '<p class="text-muted" style="font-size:13px">No sessions this week yet.</p>'}
+    </div>
+    ${conceptsDone ? `<p class="progress-concepts">Concepts this week: <strong>${_esc(conceptsDone)}</strong></p>` : ''}
+    <div class="progress-streak-line">🔥 ${streak.current} day run &nbsp;·&nbsp; Best: ${streak.best} days</div>
+    <button class="btn btn-share btn-full" style="margin-top:16px" onclick="_shareWeekProgress(${weekNum})">
+      Share Week ${weekNum} Report →
+    </button>`;
+}
+
+function _shareWeekProgress(weekNum) {
+  if (!state.user) return;
+  const allSessions  = Storage.loadSessions();
+  const name         = _getFirstName(state.user);
+  const grade        = state.user.grade ? 'Grade ' + state.user.grade : '';
+  const streak       = Storage.loadStreak();
+
+  const weekStart = (() => {
+    const now = new Date(); const day = now.getDay(); const ms = 864e5;
+    const mon = new Date(now - ((day === 0 ? 6 : day - 1) * ms + now % ms));
+    mon.setHours(0,0,0,0); return mon;
+  })();
+  const weekEnd = new Date(weekStart.getTime() + 7 * 864e5);
+  const thisSessions = allSessions.filter(s => {
+    const d = new Date(s.sessionStart); return d >= weekStart && d < weekEnd;
+  });
+
+  const subjects = [...new Set(state.goals.filter(g => g.subject && g.subject !== 'gk').map(g => g.subject))];
+  const subLines = subjects.map(sub => {
+    const subGoalIds = new Set(state.goals.filter(g => g.subject === sub).map(g => g.id));
+    const thisSub = thisSessions.filter(s => subGoalIds.has(s.goalId));
+    if (!thisSub.length) return '';
+    const acc = Math.round(thisSub.reduce((a, r) => a + (r.accuracy ?? 0), 0) / thisSub.length * 100);
+    const label = (sub.charAt(0).toUpperCase() + sub.slice(1).replace(/-/g, ' ')).padEnd(12);
+    return `${label}${acc}% accuracy`;
+  }).filter(Boolean).join('\n');
+
+  const days = [...new Set(thisSessions.map(s => new Date(s.sessionEnd).toDateString()))].length;
+  const gradeStr = grade ? grade + ' · ' : '';
+
+  const text = `📊 ${name}'s Week ${weekNum} Progress Report\n${gradeStr}Donnibo Daily Practice\n\n${subLines}\n\nDays practiced: ${days} of 7\n🔥 ${streak.current} day run\n\ndonnibo.app`;
+
+  if (navigator.share) {
+    navigator.share({ text }).catch(() => {});
+  } else {
+    window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+  }
 }
