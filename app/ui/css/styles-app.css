@@ -12,10 +12,14 @@
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .home-wrap {
-  height: 100%;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
   overscroll-behavior: none;
@@ -655,18 +659,19 @@
 [data-theme="light"] select option { background: var(--surface); color: var(--text); }
 
 /* ══════════════════════════════════════════════════════════════
-   DAWNBREAK THEME — Deep Indigo + Golden Yellow
+   DAWNBREAK THEME — Deep Navy + Golden Yellow
    Auto-applied: Grade 2–8 school users (first login)
+   Navy and gold — the classic premium education palette.
    ══════════════════════════════════════════════════════════════ */
 [data-theme="dawnbreak"] {
-  --bg:         #1a1040;
-  --surface:    #2d2060;
-  --surface-2:  #3a2880;
+  --bg:         #0d1b3e;
+  --surface:    #162952;
+  --surface-2:  #1e3a6e;
   --accent:     #fbbf24;
-  --accent-dim: rgba(251, 191, 36, 0.12);
-  --text:       #f5f3ff;
-  --muted:      #a78bfa;
-  --border:     rgba(76, 59, 154, 0.6);
+  --accent-dim: rgba(251, 191, 36, 0.14);
+  --text:       #eef2ff;
+  --muted:      #7b9fcf;
+  --border:     rgba(99, 140, 210, 0.25);
   --font-head:  'Nunito', sans-serif;
 }
 
@@ -1404,7 +1409,7 @@
   position: sticky; top: 0; z-index: 200;
   height: 52px;
   display: flex; align-items: center; gap: 10px; padding: 0 16px;
-  background: var(--bg);
+  background: var(--surface);
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
 }
