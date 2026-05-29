@@ -2,12 +2,25 @@
 
 // ── Menu Navigation ───────────────────────────────────────────────────────────
 
-function openSettings() {
+async function _ensureSettingsInDOM() {
+  if (document.getElementById('settings-modal')) return;
+  const urls = [
+    _rawUrl('app/ui/screens/screen-settings.html'),
+    'screens/screen-settings.html'
+  ];
+  for (const url of urls) {
+    try {
+      const r = await fetch(url);
+      if (r.ok) { document.body.insertAdjacentHTML('beforeend', await r.text()); return; }
+    } catch (_) {}
+  }
+}
+
+async function openSettings() {
+  await _ensureSettingsInDOM();
   document.getElementById('user-menu').classList.add('hidden');
-  const modal = document.getElementById('settings-modal');
-  if (!modal) return;
   backToSettingsMenu();
-  modal.classList.remove('hidden');
+  document.getElementById('settings-modal').classList.remove('hidden');
 }
 
 function closeSettings() {

@@ -1,0 +1,96 @@
+  <section id="screen-home" class="screen">
+    <div class="home-wrap">
+
+      <header class="app-header">
+        <div class="app-header-brand">
+          <img src="assets/icon.svg" class="app-logo" alt="Donnibo">
+          <span class="app-brand-name">Donnibo</span>
+        </div>
+        <div class="app-header-meta" id="app-header-meta"></div>
+        <div class="app-header-right">
+          <div class="avatar-ring-wrap" id="avatar-ring-wrap" onclick="toggleUserMenu()" style="cursor:pointer">
+            <svg class="avatar-ring-svg" viewBox="0 0 52 52" fill="none">
+              <circle class="avatar-ring-track" cx="26" cy="26" r="22" stroke-width="3"/>
+              <circle class="avatar-ring-fill" id="avatar-ring-fill" cx="26" cy="26" r="22"
+                      stroke-width="3" stroke-linecap="round" transform="rotate(-90 26 26)"/>
+            </svg>
+            <div class="user-avatar" id="user-avatar">?</div>
+          </div>
+          <div class="user-menu hidden" id="user-menu">
+            <button class="user-menu-item" onclick="openSettings()">⚙ Settings</button>
+            <button class="user-menu-item" onclick="signOut()">Sign Out</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="streak-bar" id="streak-bar">
+        <span class="streak-flame-sm">🔥</span>
+        <span class="streak-num" id="streak-count">0</span>
+        <span class="streak-label-sm">days</span>
+        <span class="streak-sep">·</span>
+        <span class="streak-stat-val" id="stat-accuracy">—</span>
+        <span class="streak-stat-key">accuracy</span>
+        <span class="streak-sep">·</span>
+        <span class="streak-stat-val" id="stat-sessions">0</span>
+        <span class="streak-stat-key">sessions</span>
+        <span class="streak-sep">·</span>
+        <span class="streak-stat-val" id="stat-time">0m</span>
+        <span class="streak-stat-key">practiced</span>
+        <span class="streak-best-sm">Best: <strong id="streak-best">0</strong>d</span>
+      </div>
+
+      <div id="subject-tabs" class="subject-tabs" style="display:none"></div>
+
+      <div class="home-content" id="home-content">
+        <div id="today-card-wrap"></div>
+        <div id="reward-notif-wrap"></div>
+
+      <!-- Flash Drills Section -->
+      <div class="flash-drill-section" id="flash-drill-section">
+        <div class="flash-drill-header">
+          <span class="flash-drill-title">⚡ Flash Drills</span>
+          <span class="flash-drill-sub">Quick 2-min memory sessions</span>
+        </div>
+        <div class="flash-drill-pills">
+          <button class="drill-pill" onclick="_startDrill('tables')">×&nbsp; Tables</button>
+          <button class="drill-pill" onclick="_startDrill('squares')">²&nbsp; Squares</button>
+          <button class="drill-pill" onclick="_startDrill('cubes')">³&nbsp; Cubes</button>
+          <button class="drill-pill" onclick="_startDrill('formulas')">∫&nbsp; Formulas</button>
+          <button class="drill-pill drill-pill-gk" onclick="_startDrill('gk')">🌍 Today's GK</button>
+        </div>
+      </div>
+
+      <div id="goals-list" class="goals-list">
+        <p class="text-muted">Loading goals…</p>
+      </div>
+
+      <div id="partner-footer-wrap"></div>
+
+      </div><!-- /home-content -->
+
+      <div class="city-strip hidden" id="city-strip">
+        <span class="city-strip-dot">📍</span>
+        <span class="city-strip-text" id="city-strip-text"></span>
+      </div>
+
+      <nav class="bottom-nav" id="bottom-nav">
+        <button class="bnav-item" onclick="_startDrill('tables')">
+          <span class="bnav-icon">⚡</span>
+          <span class="bnav-label">Drills</span>
+        </button>
+        <button class="bnav-item bnav-active" id="bnav-practice" onclick="_navPractice()">
+          <span class="bnav-icon">📖</span>
+          <span class="bnav-label">Practice</span>
+        </button>
+        <button class="bnav-item" onclick="_setSubjectFilter('gk');_renderHome()">
+          <span class="bnav-icon">🌍</span>
+          <span class="bnav-label">GK</span>
+        </button>
+        <button class="bnav-item" onclick="openSettings()">
+          <span class="bnav-icon">⚙️</span>
+          <span class="bnav-label" id="bnav-me-label">Me</span>
+        </button>
+      </nav>
+
+    </div>
+  </section>
