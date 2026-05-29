@@ -41,6 +41,7 @@ When user says **"start the session"**:
 | ~~1~~ | ~~[PENDING-landing-phase3-carousel-hero.md](PENDING-landing-phase3-carousel-hero.md)~~ | ~~Code/Design~~ | ~~Remove free/pricing/cities · 4-slide feature carousel · full-viewport hero · mobile overflow fix~~ | ~~P2-T038(partial), T039, T040, T042~~ | ~~done~~ |
 | ~~2~~ | ~~[PENDING-app-navigation-overhaul.md](PENDING-app-navigation-overhaul.md)~~ | ~~Code/Design~~ | ~~Remove bottom nav · top drawer · week nav · horizontal subject snap · streak→practice~~ | ~~P2-T041, T043~~ | ~~done~~ |
 | ~~3~~ | ~~[PENDING-feature-gating-trial.md](PENDING-feature-gating-trial.md)~~ | ~~Code~~ | ~~Silent trial gating · paywall screen · settings My Plan · Set 3–5 gate~~ | ~~P2-T038~~ | ~~done~~ |
+| 1 | [PENDING-netflix-home-browse.md](PENDING-netflix-home-browse.md) | Code/Design | Netflix-style home: subject sections + week rows + topic rows, remove tabs | P2-T045 | — |
 | 4 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 | Phase 1 done + styles-app.css > 2,000 lines |
 | 5 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | Install banner on home screen — 1-tap Android, iOS guide | P2-T044 | — |
 | ~~1~~ | ~~[PENDING-manifest-sharding.md](PENDING-manifest-sharding.md)~~ | ~~Code~~ | ~~Split 58KB manifest into per-grade shards~~ | ~~P1-T018~~ | ~~done~~ |
