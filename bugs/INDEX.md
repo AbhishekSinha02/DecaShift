@@ -11,6 +11,7 @@
 | [BUG-007](BUG-007-grade12-subject-tabs-missing.md) | Grade 9–12 subject tabs missing | High | ✅ Fixed |
 | [BUG-008](BUG-008-day-card-null-label.md) | Day card shows NULL label for weekly sets | Low | ✅ Fixed |
 | [BUG-009](BUG-009-grade-not-shown-in-settings.md) | Grade not pre-populated in Settings → Profile — defaults to Grade 2 | Medium | ✅ Fixed (P2-T030 restructure, 2026-05-29) |
+| [BUG-010](BUG-010-avatar-not-implemented.md) | Avatar toggle ON but nothing visible — avatar is letter initial only, growth system not built | High | Open — P1-T017 (styled initials + ring) is interim fix · P3-T004 is full fix |
 
 ---
 
