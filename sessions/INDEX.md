@@ -37,7 +37,7 @@ When user says **"start the session"**:
 |---|---|---|---|---|---|
 | ~~1~~ | ~~[PENDING-ui-overhaul-phase1.md](PENDING-ui-overhaul-phase1.md)~~ | ~~Code/Design~~ | ~~App shell + fixed header + bottom nav + avatar ring + grade chip~~ | ~~P1-T014, P1-T017~~ | ~~—~~ |
 | ~~2~~ | ~~[PENDING-ui-overhaul-phase2.md](PENDING-ui-overhaul-phase2.md)~~ | ~~Code/Design~~ | ~~Visual design system~~ | ~~P1-T015, P1-T016~~ | ~~Phase 1 done~~ |
-| 3 | [PENDING-pwa-install-prompt.md](PENDING-pwa-install-prompt.md) | Code | PWA install prompt + taskbar guide | P2-T033 | — |
+| ~~3~~ | ~~[PENDING-pwa-install-prompt.md](PENDING-pwa-install-prompt.md)~~ | ~~Code~~ | ~~PWA install prompt~~ | ~~P2-T033~~ | ~~—~~ |
 | 4 | [PENDING-city-partners-reward-card.md](PENDING-city-partners-reward-card.md) | Code | City partner footer + Reward Cards | P3-T032 | P3-T031 done |
 | 3 | [PENDING-city-partners-reward-card.md](PENDING-city-partners-reward-card.md) | Code | City partner footer + Reward Cards | P3-T032 | P3-T031 done |
 | 4 | [PENDING-content-grade9-12-set2.md](PENDING-content-grade9-12-set2.md) | Content | Grade 9–12 Set 2 — second round of content | P2-T034 | 1:30 PM session done |
@@ -70,6 +70,7 @@ change its `#` to 1, change Restructure to 2. That's it. Commit + push.
 | 2026-05-29 | —          | P2-T030 — Settings restructure: 5-tile menu + sub-screens + BUG-009 grade fix | `4d97889` |
 | 2026-05-29 | —          | P1-T014/T016/T017 — UI Phase 1: fixed header, sticky streak bar, sticky tabs, bottom nav, city strip, avatar ring, Today's Mission card, button elevation | `329711d` |
 | 2026-05-29 | —          | P1-T015/T016 — UI Phase 2: Inter font, card depth, subject colors, answer animations, streak milestones, empty state | `deedc1d` |
+| 2026-05-29 | —          | P2-T033 — PWA install: Android banner after 3rd session, iOS guide modal, Settings install tabs (Android/Windows/iOS) | `4ca1eae` |
 
 ---
 
