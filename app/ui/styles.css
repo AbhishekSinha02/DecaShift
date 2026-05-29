@@ -69,8 +69,13 @@ body {
 }
 .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none !important; }
 
-.btn-primary { background: var(--accent); color: #fff; }
-.btn-primary:hover:not(:disabled) { background: #2563eb; transform: translateY(-1px); }
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent), #1d4ed8);
+  color: #fff;
+  box-shadow: 0 3px 12px rgba(59,130,246,0.30);
+}
+.btn-primary:hover:not(:disabled) { background: linear-gradient(135deg, #2563eb, #1e40af); transform: translateY(-1px); }
+.btn-primary:active { transform: scale(0.97); box-shadow: none; }
 
 .btn-ghost {
   background: transparent;
