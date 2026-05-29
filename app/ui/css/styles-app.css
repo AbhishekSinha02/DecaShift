@@ -263,6 +263,17 @@
   font-family: var(--font-mono); text-transform: none; letter-spacing: 0;
 }
 
+/* D-009: Concept progress dots */
+.concept-label-text { flex-shrink: 0; }
+.concept-dots { display: flex; align-items: center; gap: 3px; flex-wrap: nowrap; }
+.concept-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+.concept-dot.done { /* background set inline with subject color */ }
+
 .netflix-cards {
   display: flex; gap: 10px;
   overflow-x: auto; scroll-snap-type: x mandatory;

@@ -305,13 +305,25 @@ function _buildWeekRow(label, goals, isPast) {
 
 function _buildTopicRow(conceptId, goals) {
   if (!goals.length) return '';
-  const label  = _conceptLabel(conceptId);
-  const sorted = goals.slice().sort((a, b) =>
+  const label   = _conceptLabel(conceptId);
+  const sorted  = goals.slice().sort((a, b) =>
     (b.weekNum - a.weekNum) || (_dayOrder(a.weekDay) - _dayOrder(b.weekDay))
   );
+  const subjectColor = (SUBJECT_STYLE[goals[0]?.subject] || {}).color || '#3b82f6';
+  const total   = goals.length;
+  const done    = goals.filter(g => {
+    const s = Storage.getLastSessionForGoal(g.id);
+    return s && new Date(s.sessionEnd).toDateString() !== 'Invalid Date';
+  }).length;
+  const dots    = Array.from({ length: total }, (_, i) =>
+    `<span class="concept-dot${i < done ? ' done' : ''}" style="${i < done ? `background:${subjectColor}` : ''}"></span>`
+  ).join('');
+
   return `<div class="netflix-row">
-    <div class="netflix-row-label">${label}
-      <span class="netflix-row-count">${goals.length} set${goals.length !== 1 ? 's' : ''}</span>
+    <div class="netflix-row-label">
+      <span class="concept-label-text">${label}</span>
+      <span class="concept-dots">${dots}</span>
+      <span class="netflix-row-count">${done} of ${total} done</span>
     </div>
     <div class="netflix-cards">
       ${sorted.map(g => _dayCardHtml(g, false)).join('')}
