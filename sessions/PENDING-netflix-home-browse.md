@@ -1,101 +1,129 @@
 # Session: PENDING — Netflix-Style Home Browse
 
-**Priority:** 1  (run next — replaces tab-based navigation)
+**Priority:** 1
 **Type:** Code / Design
 **Est. Duration:** 3 hours
 **Task:** P2-T045
-**Trigger:** "start the session" → runs when Priority 1 in pending queue
+**Trigger:** "start the session"
 **Depends on:** all prior UI tasks done ✓
 
 ---
 
 ## Objective
 
-Replace the subject-tab + week-nav home screen with a Netflix-style vertical scroll
-of horizontal carousels — subjects as sections, rows as week-context or topic-context,
-cards snap-scroll horizontally. Two flows visible simultaneously: time-based (This
-Week / Last Week) and topic-based (concept rows). Remove all subject tabs.
+Keep subject tabs as the selector. Replace everything below the tabs with Netflix-style
+horizontal-scroll rows for the SELECTED subject only. Flash Drills become a horizontal
+row (not pills). Today section shows selected-subject card + GK card together.
+GK tab shows GK-specific Netflix rows.
 
 ---
 
 ## Context
 
-- Today = 2026-05-29. ISO Week = W22 (starts Mon May 25). Last week = W21.
-- Content files: `grade-7/math-w22-mon.json` … `math-w22-fri.json` (10 daily files per subject per 2 weeks)
-- Each goal JSON has: `subject`, `weekNum`, `weekDay`, `conceptId`, `title`, `description`
-- `conceptId` = topic grouping key e.g. `"linear-equations-one-variable"` → display as "Linear Equations"
-- `SUBJECT_STYLE` already has color + icon per subject (app-home.js line 8-19)
-- `_dayCardHtml()` already exists and will be reused inside horizontal rows
-- Current broken pattern: subject-tabs + week nav ◀▶ + grid = 3 gestures to find content
-- Target: 0 tabs, 0 nav buttons — scroll down = more subjects, scroll right = more cards
+- Today = 2026-05-29. ISO Week = W22 (May 25–31). Last week = W21.
+- Each goal JSON: `subject`, `weekNum`, `weekDay`, `conceptId`, `title`, `description`
+- `conceptId` = topic key: `"linear-equations-one-variable"` → displays as "Linear Equations"
+- `SUBJECT_STYLE` has color + icon per subject (app-home.js line 8–19)
+- `_dayCardHtml()` reused inside netflix rows
+- Current pattern: tabs → week nav ◀▶ → grid = 3 gestures
+- Target pattern: tabs → one tap → Netflix rows below update. Scroll down for more rows.
+  Scroll right for more cards. ZERO nav buttons.
 
 ---
 
-## Design Spec
+## Corrected Design Spec
 
-### Page structure (top to bottom, vertical scroll):
+### Full page structure (top → bottom, vertical scroll):
 
 ```
 [App Header — fixed]
 [Streak bar — sticky]
-─────────────────────────────────────────
-[Today's Mission card — hero, full width]
-[Flash Drills row — compact pills]
-─────────────────────────────────────────
-[Subject section: 📐 Mathematics — navy header bar]
-  Row: "This Week" →  [Mon][Tue][Wed][Thu][Fri]  (snap scroll)
-  Row: "Last Week" →  [Mon][Tue][Wed][Thu][Fri]  (snap scroll)
-  Row: "[Topic A]"  →  [card][card][card]...      (snap scroll)
-  Row: "[Topic B]"  →  [card][card]...
-─────────────────────────────────────────
-[Subject section: 🔬 Science — green header bar]
-  Row: "This Week" → ...
-  Row: "Last Week" → ...
-  Row: "[Topic A]" → ...
-─────────────────────────────────────────
-[Subject section: 📖 English]
-[Subject section: 🇮🇳 Hindi — only if user.regionalLanguage = 'hindi']
-[Subject section: 🥖 French — only if user picked French]
-[Subject section: 🌍 GK capsule — compact]
-─────────────────────────────────────────
+[Subject tabs — sticky: Math | Science | English | Hindi | French | Marathi | GK]
+──────────────────────────────────────────────────────────────
+[TODAY SECTION]
+  ┌─────────────────────────────┐  ┌──────────────────┐
+  │ Thu, 29 May                 │  │ 🌍 Today's GK    │
+  │ Grade 7 Math · Linear Eq.   │  │ 5 questions      │
+  │ 10 questions          Start │  │           Start  │
+  └─────────────────────────────┘  └──────────────────┘
+  (Subject card — full-ish width)  (GK card — compact, always visible)
+──────────────────────────────────────────────────────────────
+[FLASH DRILLS ROW — always visible regardless of tab]
+  Row label: ⚡ Flash Drills
+  → [× Tables][² Squares][³ Cubes][∫ Formulas][🌍 GK Capsule]  (snap scroll)
+──────────────────────────────────────────────────────────────
+[NETFLIX ROWS — changes based on selected subject tab]
+  Row: "This Week (W22)" →  [Mon][Tue][Wed][Thu][Fri]
+  Row: "Last Week (W21)" →  [Mon][Tue][Wed][Thu][Fri]
+  Row: "Linear Equations" → [W22-Mon][W22-Tue]...[W21-Mon]...
+  Row: "Fractions"        → [W21-Wed][W21-Thu]...
+  (more topic rows…)
+──────────────────────────────────────────────────────────────
 [Partner footer]
 ```
 
-### Netflix row anatomy:
+### When GK tab selected:
 ```
-[Row label]  "This Week (W22)"        [Count badge]
-[────────────────────────────────────────────────→ scroll]
- [card 160px] [card 160px] [card 160px] [card 160px] [card 160px]
+[TODAY SECTION — GK only, no subject card]
+  [Today's GK capsule — prominent, full width]
+[FLASH DRILLS ROW — same as always]
+[NETFLIX ROWS — GK specific]
+  Row: "Today's GK"    → [capsule card]
+  Row: "This Week GK"  → [Mon GK][Tue GK]...
+  Row: [topic rows by GK conceptId if any]
 ```
-- Each row: `display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:10px; padding:0 16px`
-- Each card: `min-width:160px; scroll-snap-align:start`
-- No ◀▶ buttons — pure touch/mouse scroll
 
-### Subject section header:
+---
+
+## Netflix Row Anatomy
+
 ```
-[colored left bar 4px] [icon] [Subject Name]   [Grade chip]
+THIS WEEK (W22)          5 sets
+──────────────────────────────────────────────── →
+[card 160px][card 160px][card 160px][card 160px][card 160px]
 ```
-- Full width, height 40px
-- `background: linear-gradient(to right, {subjectColor}18, transparent)`
-- Left border: `4px solid {subjectColor}`
-- Font: Syne bold, 15px
-- Sticky as you scroll past (optional stretch goal)
 
-### Topic row label format:
-- Derive human label from `conceptId`:
-  - `"linear-equations-one-variable"` → `"Linear Equations"`
-  - `"fractions-basics"` → `"Fractions"`
-  - Rule: replace hyphens with spaces, title-case, remove last word if it's a dimension word (one-variable, basics, intro)
-- Show number of sessions: `"Linear Equations  (5 sets)"`
+- Row container: `display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:10px; padding:0 16px`
+- Each card: `min-width:160px; max-width:160px; scroll-snap-align:start`
+- Row label: navy `#1e3a8a`, 11px, uppercase, 700 weight
+- Count badge: muted, mono
+- No ◀▶ buttons anywhere — pure touch scroll
 
-### Card sizing — horizontal context:
-- Existing `.day-card` width: currently auto (grid). Add `min-width: 160px; max-width: 160px` when inside `.netflix-cards` context
-- Use a wrapper class `.netflix-cards` that sets fixed card sizes
+---
 
-### Two flows = one scroll:
-- Time rows (This Week, Last Week) appear first in each subject section
-- Topic rows appear below time rows within the same section
-- User sees both without any toggle — pure scroll discovery
+## Flash Drill Cards (new — replaces pills)
+
+Each drill card in the Flash Drills row:
+```
+┌────────────────────┐
+│  ×                 │
+│  Tables            │
+│  2–20 timed        │
+│  Best: 1:42        │
+└────────────────────┘
+```
+- Width: 140px (narrower than day-cards — drills are quicker)
+- Background: `var(--surface-2)` with subject-specific accent border-top
+- On click: `_startDrill('tables')` etc.
+
+Drill card types (in order): Tables (×), Squares (²), Cubes (³), Formulas (∫), GK Today (🌍)
+
+---
+
+## Today Section — Two-Card Layout
+
+New layout for `_renderTodayCard()`:
+
+```
+.today-row { display:flex; gap:10px; margin-bottom:16px; }
+.today-card-main { flex:1; }           /* subject card, full stretch */
+.today-card-gk   { width:130px; flex-shrink:0; }  /* compact GK card */
+```
+
+- Subject card: existing `.today-card` but inside `.today-card-main`
+- GK card: new `.today-card-gk` — shows "Today's GK · 5 questions · Start"
+- GK card always shows if there are GK goals for today (or if GK content is loaded)
+- On mobile 375px: stacked vertically (flex-direction:column), GK card full width
 
 ---
 
@@ -103,190 +131,203 @@ Week / Last Week) and topic-based (concept rows). Remove all subject tabs.
 
 | File | What changes |
 |---|---|
-| `app/ui/js/app-home.js` | Replace `_renderHome()` with Netflix renderer; add `_buildSubjectSection()`, `_buildWeekRow()`, `_buildTopicRow()`; remove `_weekNav()`, `_scrollToSubj()` (keep as no-ops to not break drawer); add `_conceptLabel()` helper |
-| `app/ui/css/styles-app.css` | Add: `.subj-section`, `.subj-section-hdr`, `.netflix-row`, `.netflix-row-label`, `.netflix-cards`, `.netflix-cards .day-card` (width override) |
-| `app/ui/screens/screen-home.html` | Remove `subject-tabs` div; keep all other HTML (header, streak-bar, home-content) |
+| `app/ui/js/app-home.js` | New `_renderNetflixRows()` replaces the goals-list HTML; new `_buildWeekRow()`, `_buildTopicRow()`, `_conceptLabel()`, `_buildDrillRow()`; modify `_renderTodayCard()` for 2-card layout; remove week nav HTML from `_renderHome()`; keep `_setSubjectFilter()` working (tabs still filter) |
+| `app/ui/css/styles-app.css` | Add: `.netflix-row`, `.netflix-row-label`, `.netflix-row-count`, `.netflix-cards`, `.netflix-cards .day-card` width, `.drill-card`, `.today-row`, `.today-card-gk` |
+| `app/ui/screens/screen-home.html` | Remove the `flash-drill-section` div (drills move to JS-rendered netflix row); keep `subject-tabs` div; keep `goals-list` div |
 
-**Do NOT touch:** quiz screen, result screen, drill screen, auth screens, storage.js, app-core.js, styles-base.css, styles-auth.css, landing.
+**Do NOT touch:** quiz, result, drill screens, auth, storage.js, styles-base.css, styles-auth.css, landing CSS.
 
 ---
 
 ## Execute In This Order
 
-### Step 1 — CSS: New Netflix row classes
-Add to `styles-app.css` (after `.day-card` block):
+### Step 1 — CSS additions (styles-app.css)
+
+Add after the existing `.day-card` block:
 
 ```css
-/* ── Netflix browse layout ───────────────────────────────── */
-.subj-section { margin-bottom: 32px; }
-
-.subj-section-hdr {
-  display: flex; align-items: center; gap: 10px;
-  padding: 10px 16px 10px 12px;
-  margin-bottom: 12px;
-  border-left: 4px solid var(--section-color, var(--accent));
-  background: linear-gradient(to right,
-    color-mix(in srgb, var(--section-color, var(--accent)) 12%, transparent),
-    transparent 60%);
-}
-.subj-section-hdr-icon  { font-size: 18px; line-height: 1; }
-.subj-section-hdr-name  {
-  font-family: var(--font-head); font-size: 15px; font-weight: 800;
-  color: var(--text); flex: 1;
-}
-.subj-section-hdr-grade {
-  font-size: 10px; font-weight: 700; letter-spacing: .06em;
-  color: var(--muted); text-transform: uppercase;
-}
-
-.netflix-row { margin-bottom: 20px; }
+/* ── Netflix browse rows ─────────────────────────────────────── */
+.netflix-row { margin-bottom: 24px; }
 
 .netflix-row-label {
-  font-size: 11px; font-weight: 700; letter-spacing: .07em;
+  font-size: 11px; font-weight: 700; letter-spacing: .08em;
   text-transform: uppercase; color: #1e3a8a;
   padding: 0 16px; margin-bottom: 8px;
   display: flex; align-items: center; gap: 8px;
 }
+.netflix-row-label-dark { color: var(--muted); }  /* for flash drills row */
+
 .netflix-row-count {
   font-size: 10px; font-weight: 500; color: var(--muted);
-  font-family: var(--font-mono); letter-spacing: 0;
+  font-family: var(--font-mono); text-transform: none; letter-spacing: 0;
 }
 
 .netflix-cards {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  padding: 0 16px 8px;
+  display: flex; gap: 10px;
+  overflow-x: auto; scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  padding: 0 16px 4px;
 }
 .netflix-cards::-webkit-scrollbar { display: none; }
 
-/* Override day-card width inside netflix row */
+/* Day-cards inside netflix row get fixed width */
 .netflix-cards .day-card {
-  min-width: 160px;
-  max-width: 160px;
-  flex-shrink: 0;
+  min-width: 160px; max-width: 160px;
+  flex-shrink: 0; scroll-snap-align: start;
+}
+
+/* ── Flash Drill cards ───────────────────────────────────────── */
+.drill-card {
+  min-width: 130px; max-width: 130px; flex-shrink: 0;
   scroll-snap-align: start;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 12px;
+  display: flex; flex-direction: column; gap: 4px;
+  cursor: pointer; transition: transform .15s, border-color .15s;
+}
+.drill-card:hover { transform: translateY(-2px); border-color: var(--accent); }
+.drill-card-icon  { font-size: 22px; line-height: 1; margin-bottom: 2px; }
+.drill-card-name  { font-size: 13px; font-weight: 700; color: var(--text); }
+.drill-card-sub   { font-size: 11px; color: var(--muted); line-height: 1.3; }
+.drill-card-best  {
+  font-size: 10px; font-family: var(--font-mono);
+  color: var(--warning); margin-top: 4px;
+}
+
+/* ── Today two-card row ──────────────────────────────────────── */
+.today-row {
+  display: flex; gap: 10px; margin-bottom: 16px; align-items: stretch;
+}
+.today-card-main { flex: 1; min-width: 0; }
+.today-card-gk {
+  width: 128px; flex-shrink: 0;
+  background: var(--surface);
+  border: 1px solid rgba(20,184,166,.25);
+  border-left: 3px solid #14b8a6;
+  border-radius: var(--radius);
+  padding: 12px 10px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 8px;
+}
+.today-gk-label  { font-size: 10px; font-weight: 700; color: #14b8a6; text-transform: uppercase; letter-spacing: .06em; }
+.today-gk-title  { font-size: 12px; font-weight: 700; color: var(--text); line-height: 1.3; }
+.today-gk-count  { font-size: 10px; color: var(--muted); font-family: var(--font-mono); }
+
+@media (max-width: 400px) {
+  .today-row { flex-direction: column; }
+  .today-card-gk { width: 100%; }
 }
 ```
 
-### Step 2 — HTML: Remove subject-tabs div
-In `screen-home.html` remove the line:
-```html
-<div id="subject-tabs" class="subject-tabs" style="display:none"></div>
-```
-(The JS reference `tabsEl = document.getElementById('subject-tabs')` will return null gracefully.)
+### Step 2 — HTML: Remove static Flash Drill section
 
-### Step 3 — JS: Replace _renderHome() in app-home.js
+In `screen-home.html`, remove the entire `<div class="flash-drill-section"...>` block
+(lines 51–64). The drills will now be rendered by JS as a netflix row.
+Keep the `<div id="goals-list">` div — that's where Netflix rows render.
 
-Replace the entire `_renderHome()` function and add new helpers. Keep all other functions
-(goal actions, _dayCardHtml, streak rendering, reward cards, drawer, etc.) unchanged.
+### Step 3 — JS: New rendering functions in app-home.js
 
-**New `_renderHome()` logic:**
+#### 3a. Modify `_renderHome()`
+
+Remove the week-nav-row HTML building and the subject-track HTML building from `_renderHome()`.
+Keep tab rendering logic as-is (tabs still filter via `state.subjectFilter`).
+After tab rendering, call `_renderNetflixRows()` instead of building the goals grid.
+
+At the end of the `_renderHome()` function (before `list.innerHTML = html`), replace the
+entire "build html" section with:
 
 ```js
-function _renderHome() {
-  const user = state.user;
-  _renderHeaderMeta();
-  _renderCityStrip();
-  _renderAvatar();
-  _renderStreakBar();        // extracts streak + stats rendering
-  _renderTodayCard();
-  _renderRewardNotif();
-  _renderNetflixHome();
-  _renderPartnerFooter();
-}
+  _renderNetflixRows(list, weeklyFiltered, state.subjectFilter, currentWeek);
 ```
 
-**New `_renderNetflixHome()`:**
-```js
-function _renderNetflixHome() {
-  const list = document.getElementById('goals-list');
-  if (!list) return;
-  const user       = state.user;
-  const isSchool   = user.category === 'school';
-  const currentWeek = _getISOWeek(new Date());
+Where `weeklyFiltered` = weekly goals for the current subject filter (already computed).
 
-  if (!isSchool) {
-    // Professional: keep existing regular goals render
-    _renderProfessionalGoals(list);
+#### 3b. New `_renderNetflixRows(list, goals, subject, currentWeek)`
+
+```js
+function _renderNetflixRows(list, goals, subject, currentWeek) {
+  let html = '';
+
+  // Flash Drills row (always, regardless of subject tab)
+  html += _buildDrillRow();
+
+  if (subject === 'gk') {
+    html += _renderGKNetflixRows();
+    list.innerHTML = html;
     return;
   }
 
-  const subjectOrder = ['mathematics','science','english','social-science',
-    'physics','chemistry','biology','hindi','french','gk'];
-  const regionalLang = user.regionalLanguage;
-  if (regionalLang && !subjectOrder.includes(regionalLang)) {
-    subjectOrder.splice(subjectOrder.indexOf('gk'), 0, 'regional-' + regionalLang);
-  }
+  const thisWeek = goals
+    .filter(g => g.weekNum === currentWeek)
+    .sort((a,b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
 
-  const allGoals   = state.goals.filter(g => g.weekNum);
-  const subjects   = [...new Set(allGoals.map(g => g.subject))].sort((a,b) =>
-    (subjectOrder.indexOf(a) + 100 || 99) - (subjectOrder.indexOf(b) + 100 || 99)
-  );
+  const lastWeek = goals
+    .filter(g => g.weekNum === currentWeek - 1)
+    .sort((a,b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
 
-  if (!subjects.length) {
-    list.innerHTML = `<div class="empty-state"><div class="empty-emoji">📚</div>
-      <p class="empty-title">Content loading…</p>
-      <button class="btn btn-primary btn-sm" onclick="_startDrill('gk')">Today's GK →</button></div>`;
-    return;
-  }
+  if (thisWeek.length) html += _buildWeekRow('This Week', thisWeek, false);
+  if (lastWeek.length) html += _buildWeekRow('Last Week', lastWeek, true);
 
-  list.innerHTML = subjects.map(subj =>
-    _buildSubjectSection(subj, allGoals.filter(g => g.subject === subj), currentWeek)
-  ).join('');
-}
-```
-
-**New `_buildSubjectSection(subject, goals, currentWeek)`:**
-```js
-function _buildSubjectSection(subject, goals, currentWeek) {
-  const st      = SUBJECT_STYLE[subject] || { color: 'var(--accent)', icon: '📚' };
-  const labels  = { mathematics:'Mathematics', science:'Science', english:'English',
-    'social-science':'Social Science', hindi:'Hindi', french:'French',
-    physics:'Physics', chemistry:'Chemistry', biology:'Biology', gk:'General Knowledge' };
-  const name    = labels[subject] || _cap(subject);
-  const thisWeek = goals.filter(g => g.weekNum === currentWeek).sort((a,b) => _dayOrder(a.weekDay)-_dayOrder(b.weekDay));
-  const lastWeek = goals.filter(g => g.weekNum === currentWeek - 1).sort((a,b) => _dayOrder(a.weekDay)-_dayOrder(b.weekDay));
-
-  // Group all goals by conceptId for topic rows
+  // Topic rows — group all goals by conceptId
   const byConcept = {};
   goals.forEach(g => {
     const cid = g.conceptId || 'practice';
     (byConcept[cid] = byConcept[cid] || []).push(g);
   });
-  // Sort concept groups: most recent week first
-  const conceptEntries = Object.entries(byConcept).sort(([,a],[,b]) =>
-    Math.max(...b.map(g=>g.weekNum||0)) - Math.max(...a.map(g=>g.weekNum||0))
-  );
 
-  const grade = state.user?.grade ? 'Grade ' + state.user.grade : '';
+  Object.entries(byConcept)
+    .sort(([,a],[,b]) =>
+      Math.max(...b.map(g=>g.weekNum||0)) - Math.max(...a.map(g=>g.weekNum||0))
+    )
+    .forEach(([cid, cGoals]) => { html += _buildTopicRow(cid, cGoals); });
 
-  let html = `<div class="subj-section" style="--section-color:${st.color}">
-    <div class="subj-section-hdr">
-      <span class="subj-section-hdr-icon">${st.icon}</span>
-      <span class="subj-section-hdr-name">${name}</span>
-      ${grade ? `<span class="subj-section-hdr-grade">${grade}</span>` : ''}
-    </div>`;
+  if (!thisWeek.length && !lastWeek.length && !Object.keys(byConcept).length) {
+    html += `<div class="empty-state"><div class="empty-emoji">📚</div>
+      <p class="empty-title">No content yet for this subject.</p>
+      <p class="empty-sub">Try Flash Drills or Today's GK while we add more!</p></div>`;
+  }
 
-  if (thisWeek.length) html += _buildWeekRow('This Week', thisWeek, false);
-  if (lastWeek.length) html += _buildWeekRow('Last Week', lastWeek, true);
-
-  conceptEntries.forEach(([cid, cGoals]) => {
-    html += _buildTopicRow(cid, cGoals);
-  });
-
-  html += `</div>`;
-  return html;
+  list.innerHTML = html;
 }
 ```
 
-**New `_buildWeekRow(label, goals, isPast)`:**
+#### 3c. New `_buildDrillRow()`
+
+```js
+function _buildDrillRow() {
+  const drills = [
+    { id: 'tables',   icon: '×', name: 'Tables',   sub: '2–20 timed' },
+    { id: 'squares',  icon: '²', name: 'Squares',  sub: '1–25' },
+    { id: 'cubes',    icon: '³', name: 'Cubes',    sub: '1–15' },
+    { id: 'formulas', icon: '∫', name: 'Formulas', sub: 'Physics · Math' },
+    { id: 'gk',       icon: '🌍', name: 'GK Today', sub: '5 questions' },
+  ];
+  const bests = JSON.parse(localStorage.getItem('ds_drill_bests') || '{}');
+  const cards = drills.map(d => {
+    const best = bests[d.id];
+    const bestHtml = best
+      ? `<div class="drill-card-best">Best: ${best}</div>`
+      : `<div class="drill-card-best" style="color:var(--muted)">Not tried yet</div>`;
+    return `<div class="drill-card" onclick="_startDrill('${d.id}')">
+      <div class="drill-card-icon">${d.icon}</div>
+      <div class="drill-card-name">${d.name}</div>
+      <div class="drill-card-sub">${d.sub}</div>
+      ${bestHtml}
+    </div>`;
+  }).join('');
+  return `<div class="netflix-row">
+    <div class="netflix-row-label">⚡ Flash Drills</div>
+    <div class="netflix-cards">${cards}</div>
+  </div>`;
+}
+```
+
+#### 3d. New `_buildWeekRow(label, goals, isPast)`
+
 ```js
 function _buildWeekRow(label, goals, isPast) {
-  const weekNum = goals[0]?.weekNum;
+  const weekNum   = goals[0]?.weekNum;
   const weekLabel = weekNum ? `${label} (W${weekNum})` : label;
   return `<div class="netflix-row">
     <div class="netflix-row-label">${weekLabel}
@@ -299,11 +340,12 @@ function _buildWeekRow(label, goals, isPast) {
 }
 ```
 
-**New `_buildTopicRow(conceptId, goals)`:**
+#### 3e. New `_buildTopicRow(conceptId, goals)`
+
 ```js
 function _buildTopicRow(conceptId, goals) {
-  if (goals.length <= 0) return '';
-  const label = _conceptLabel(conceptId);
+  if (!goals.length) return '';
+  const label  = _conceptLabel(conceptId);
   const sorted = goals.slice().sort((a,b) =>
     (b.weekNum - a.weekNum) || (_dayOrder(a.weekDay) - _dayOrder(b.weekDay))
   );
@@ -318,57 +360,110 @@ function _buildTopicRow(conceptId, goals) {
 }
 ```
 
-**New `_conceptLabel(conceptId)`:**
+#### 3f. New `_conceptLabel(conceptId)`
+
 ```js
 function _conceptLabel(conceptId) {
   if (!conceptId || conceptId === 'practice') return 'Practice';
-  const STOP_WORDS = new Set(['one','two','three','basics','intro','introduction',
-    'variable','variables','advanced','level']);
-  return conceptId
-    .split('-')
-    .filter(w => !STOP_WORDS.has(w))
+  const STOP = new Set(['one','two','three','basics','intro','introduction',
+    'variable','variables','advanced','level','and','the','of','in']);
+  return conceptId.split('-')
+    .filter(w => !STOP.has(w))
     .map(w => w.charAt(0).toUpperCase() + w.slice(1))
     .join(' ');
 }
 ```
 
-**Extract `_renderStreakBar()`** from current `_renderHome()` — just the streak number + stat elements
-(already present in the existing function, just needs its own named function for clarity).
+#### 3g. New `_renderGKNetflixRows()` — called when GK tab selected
 
-**Keep `_weekNav()` and `_setSubjectFilter()` as no-op functions** so drawer and any old
-callsites don't throw:
 ```js
-function _weekNav(delta) {}       // retired — no-op
-function _setSubjectFilter(s) {}  // retired — no-op
+function _renderGKNetflixRows() {
+  const currentWeek = _getISOWeek(new Date());
+  const gkGoals = state.goals.filter(g => g.subject === 'gk' && g.weekNum);
+  const thisWeek = gkGoals.filter(g => g.weekNum === currentWeek);
+  const lastWeek = gkGoals.filter(g => g.weekNum === currentWeek - 1);
+  let html = '';
+  if (thisWeek.length) html += _buildWeekRow('This Week GK', thisWeek, false);
+  if (lastWeek.length) html += _buildWeekRow('Last Week GK', lastWeek, true);
+  if (!html) html += `<div class="empty-state"><div class="empty-emoji">🌍</div>
+    <p class="empty-title">GK sets loading…</p>
+    <button class="btn btn-primary btn-sm" onclick="_startDrill('gk')">Today's GK Drill →</button></div>`;
+  return html;
+}
 ```
 
-### Step 4 — Verify and commit
-- Open app in browser. Check: Math section visible with This Week + Last Week rows + topic rows
-- Check: Science, Hindi/French (if applicable) sections render
-- Check: horizontal scroll works, cards snap
-- Check: Today's Mission card still appears at top
-- Check: Flash Drills pills still appear
-- Commit: `feat(home): Netflix-style browse — subject sections, week rows, topic rows`
+#### 3h. Modify `_renderTodayCard()` — add GK companion card
+
+Wrap the existing today-card in a `.today-row` div, and append a `.today-card-gk` card.
+
+Replace the final `el.innerHTML = ...` in `_renderTodayCard()` with:
+
+```js
+  // Find today's GK drill goal (any GK goal for today)
+  const todayDayStr = ['sun','mon','tue','wed','thu','fri','sat'][today.getDay()];
+  const gkGoal = state.goals.find(g =>
+    g.subject === 'gk' && g.weekNum === currentWeek && g.weekDay === todayDayStr
+  );
+
+  const subjectCardHtml = `
+    <div class="today-card${done ? ' today-done' : ''} today-card-main">
+      <div class="today-card-top">
+        <span class="today-badge">${_esc(dayLabel)} · ${dateStr}</span>
+        ${done ? '<span class="today-done-badge">✅ Done</span>' : ''}
+      </div>
+      <div class="today-card-title">${_esc(todayGoal.name)}</div>
+      <div class="today-card-footer">
+        <span class="today-card-count">${qCount} questions</span>
+        <button class="btn btn-primary btn-sm" onclick="startGoal('${todayGoal.id}')">
+          ${done ? 'Redo' : last ? 'Continue →' : 'Start →'}
+        </button>
+      </div>
+    </div>`;
+
+  const gkCardHtml = gkGoal ? `
+    <div class="today-card-gk">
+      <div class="today-gk-label">🌍 GK</div>
+      <div class="today-gk-title">${_esc(gkGoal.description.split('—')[0].trim())}</div>
+      <div class="today-gk-count">${state.questions.filter(q=>q.goalId===gkGoal.id).length} questions</div>
+      <button class="btn btn-primary btn-sm" onclick="startGoal('${gkGoal.id}')">Start →</button>
+    </div>` : '';
+
+  el.innerHTML = gkGoal
+    ? `<div class="today-row">${subjectCardHtml}${gkCardHtml}</div>`
+    : subjectCardHtml;  // no row wrap if no GK available
+```
+
+---
+
+## Tab changes — subject tabs stay, GK confirmed
+
+The existing tab logic already includes `gk` as a tab (line 103 in app-home.js).
+GK tab rendering and `_renderGKTab(list)` call are already there.
+The only change: when GK tab is active, call `_renderNetflixRows(list, gkGoals, 'gk', currentWeek)`
+instead of `_renderGKTab(list)`.
+
+Keep `_setSubjectFilter(s)` fully functional — it still sets `state.subjectFilter` and calls
+`_renderHome()`. This is how tabs filter content.
+
+Remove `_weekNav()` as it's replaced — tab logic + scroll replaces the ◀▶ buttons.
 
 ---
 
 ## Success Criteria
 
-- [ ] No subject tabs visible anywhere on home screen
-- [ ] Each subject is a section with colored header (navy left bar + subject color gradient)
-- [ ] "This Week" and "Last Week" appear as horizontal scroll rows within each section
-- [ ] Topic rows (by conceptId) appear below week rows in each section
-- [ ] Cards in horizontal rows have fixed width 160px and snap-scroll
-- [ ] Today's Mission card stays at top
-- [ ] Flash Drills section stays in place
+- [ ] Subject tabs visible and functional — clicking changes Netflix rows below
+- [ ] Flash Drills appear as a horizontal row with 5 drill cards (not pills)
+- [ ] Today section has 2 cards: subject card + GK companion card (side by side or stacked on mobile)
+- [ ] "This Week" and "Last Week" rows render for selected subject
+- [ ] Topic rows group by `conceptId` and render horizontally
+- [ ] GK tab shows GK-specific Netflix rows
+- [ ] Cards snap-scroll horizontally within each row
+- [ ] Week nav ◀▶ buttons removed
 - [ ] No quiz/result/auth functionality broken
-- [ ] Works on 375px mobile width
+- [ ] Works on 375px mobile
 
 ---
 
 ## Hand-off to Next Session
 
-Netflix home complete. Next options:
-- P2-T044: PWA install banner (currently Priority 5 → bump to 2 after this)
-- P2-T035: CSS lazy load for styles-app.css
-- Design polish: topic card visual upgrade (show concept progress arc)
+Netflix home complete. Next: P2-T044 PWA install banner (Priority 2), then P2-T035 CSS lazy load.
