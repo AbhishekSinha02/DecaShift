@@ -19,6 +19,7 @@
   --radius-sm:  8px;
   --font-head:  'Syne', sans-serif;
   --font-mono:  'DM Mono', monospace;
+  --font-body:  'Inter', sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -26,7 +27,7 @@
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: var(--font-head);
+  font-family: var(--font-body);
   min-height: 100vh;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -72,7 +73,7 @@ body {
 .btn-primary {
   background: linear-gradient(135deg, var(--accent), #1d4ed8);
   color: #fff;
-  box-shadow: 0 3px 12px rgba(59,130,246,0.30);
+  box-shadow: 0 4px 14px rgba(59,130,246,0.35);
 }
 .btn-primary:hover:not(:disabled) { background: linear-gradient(135deg, #2563eb, #1e40af); transform: translateY(-1px); }
 .btn-primary:active { transform: scale(0.97); box-shadow: none; }
