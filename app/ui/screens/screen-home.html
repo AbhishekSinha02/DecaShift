@@ -1,30 +1,31 @@
   <section id="screen-home" class="screen">
-    <div class="home-wrap">
 
-      <header class="app-header">
-        <div class="app-header-brand">
-          <img src="assets/icon.svg" class="app-logo" alt="Donnibo">
-          <span class="app-brand-name">Donnibo</span>
+    <header class="app-header">
+      <div class="app-header-brand">
+        <img src="assets/icon.svg" class="app-logo" alt="Donnibo">
+        <span class="app-brand-name">Donnibo</span>
+      </div>
+      <div class="app-header-meta" id="app-header-meta"></div>
+      <div class="app-header-right">
+        <button class="menu-btn" id="menu-btn" onclick="_openDrawer()" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="avatar-ring-wrap" id="avatar-ring-wrap" onclick="toggleUserMenu()" style="cursor:pointer">
+          <svg class="avatar-ring-svg" viewBox="0 0 52 52" fill="none">
+            <circle class="avatar-ring-track" cx="26" cy="26" r="22" stroke-width="3"/>
+            <circle class="avatar-ring-fill" id="avatar-ring-fill" cx="26" cy="26" r="22"
+                    stroke-width="3" stroke-linecap="round" transform="rotate(-90 26 26)"/>
+          </svg>
+          <div class="user-avatar" id="user-avatar">?</div>
         </div>
-        <div class="app-header-meta" id="app-header-meta"></div>
-        <div class="app-header-right">
-          <button class="menu-btn" id="menu-btn" onclick="_openDrawer()" aria-label="Menu">
-            <span></span><span></span><span></span>
-          </button>
-          <div class="avatar-ring-wrap" id="avatar-ring-wrap" onclick="toggleUserMenu()" style="cursor:pointer">
-            <svg class="avatar-ring-svg" viewBox="0 0 52 52" fill="none">
-              <circle class="avatar-ring-track" cx="26" cy="26" r="22" stroke-width="3"/>
-              <circle class="avatar-ring-fill" id="avatar-ring-fill" cx="26" cy="26" r="22"
-                      stroke-width="3" stroke-linecap="round" transform="rotate(-90 26 26)"/>
-            </svg>
-            <div class="user-avatar" id="user-avatar">?</div>
-          </div>
-          <div class="user-menu hidden" id="user-menu">
-            <button class="user-menu-item" onclick="openSettings()">⚙ Settings</button>
-            <button class="user-menu-item" onclick="signOut()">Sign Out</button>
-          </div>
+        <div class="user-menu hidden" id="user-menu">
+          <button class="user-menu-item" onclick="openSettings()">⚙ Settings</button>
+          <button class="user-menu-item" onclick="signOut()">Sign Out</button>
         </div>
-      </header>
+      </div>
+    </header>
+
+    <div class="home-wrap">
 
       <div id="subject-tabs" class="subject-tabs" style="display:none"></div>
 
