@@ -484,7 +484,6 @@ select option { background: var(--surface-2); }
 .home-wrap {
   max-width: 720px;
   margin: 0 auto;
-  padding: 36px 16px;
 }
 
 .home-header {
@@ -1813,6 +1812,10 @@ select option { background: var(--surface-2); }
 
 /* home-wrap top padding for fixed header */
 .home-wrap { padding-top: 52px; }
+
+.home-content {
+  padding: 12px 16px 116px; /* bottom: 56px nav + 30px strip + 30px gap */
+}
 
 /* ── Sticky streak bar ───────────────────────────────────────── */
 .streak-bar {
