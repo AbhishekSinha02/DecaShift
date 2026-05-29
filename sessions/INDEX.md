@@ -35,7 +35,7 @@ When user says **"start the session"**:
 
 | # | File | Type | Focus | Task | Depends On |
 |---|---|---|---|---|---|
-| 1 | [PENDING-ui-overhaul-phase1.md](PENDING-ui-overhaul-phase1.md) | Code/Design | App shell + fixed header + bottom nav + avatar ring + grade chip | P1-T014, P1-T017 | — |
+| ~~1~~ | ~~[PENDING-ui-overhaul-phase1.md](PENDING-ui-overhaul-phase1.md)~~ | ~~Code/Design~~ | ~~App shell + fixed header + bottom nav + avatar ring + grade chip~~ | ~~P1-T014, P1-T017~~ | ~~—~~ |
 | 2 | [PENDING-ui-overhaul-phase2.md](PENDING-ui-overhaul-phase2.md) | Code/Design | Visual design system — typography, colors, animations, milestone | P1-T015, P1-T016 | Phase 1 done |
 | 3 | [PENDING-pwa-install-prompt.md](PENDING-pwa-install-prompt.md) | Code | PWA install prompt + taskbar guide | P2-T033 | — |
 | 4 | [PENDING-city-partners-reward-card.md](PENDING-city-partners-reward-card.md) | Code | City partner footer + Reward Cards | P3-T032 | P3-T031 done |
@@ -68,6 +68,7 @@ change its `#` to 1, change Restructure to 2. That's it. Commit + push.
 | 2026-05-29 | —          | P2-T037 — app.js split into 6 modules (240/188/320/179/338/132 lines) | `2243807` |
 | 2026-05-29 | —          | P2-T032 — Daily GK capsule: GK tab, reflective mode, Today in India fact card | `21f22e7` |
 | 2026-05-29 | —          | P2-T030 — Settings restructure: 5-tile menu + sub-screens + BUG-009 grade fix | `4d97889` |
+| 2026-05-29 | —          | P1-T014/T016/T017 — UI Phase 1: fixed header, sticky streak bar, sticky tabs, bottom nav, city strip, avatar ring, Today's Mission card, button elevation | `329711d` |
 
 ---
 
