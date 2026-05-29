@@ -45,6 +45,7 @@ function _renderHome() {
   _renderHeaderMeta();
   _renderCityStrip();
   _renderAvatar();
+  _renderGreeting();
   _renderTodayCard();
   _renderRewardNotif();
   _renderPartnerFooter();
@@ -407,6 +408,77 @@ function _navPractice() {
   _renderHome();
   document.getElementById('home-content')?.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+// ── D-001: Personalized greeting ─────────────────────────────────────────────
+
+function _renderGreeting() {
+  const el = document.getElementById('greeting-wrap');
+  if (!el) return;
+  const user = state.user;
+  if (!user) { el.innerHTML = ''; return; }
+
+  const name        = _getFirstName(user);
+  const streak      = Storage.loadStreak();
+  const hour        = new Date().getHours();
+  const tod         = hour < 12 ? 'Good morning' : hour < 17 ? 'Good afternoon' : 'Good evening';
+  const sessions    = Storage.loadSessions().filter(s => s.userId === user.userId);
+  const currentWeek = _getISOWeek(new Date());
+  const todayDay    = ['sun','mon','tue','wed','thu','fri','sat'][new Date().getDay()];
+
+  const todayGoal = state.goals.find(g =>
+    g.weekNum === currentWeek && g.weekDay === todayDay && g.subject === state.subjectFilter
+  ) || state.goals.find(g =>
+    g.weekNum === currentWeek && g.weekDay === todayDay
+  );
+
+  const todayLast = todayGoal ? Storage.getLastSessionForGoal(todayGoal.id) : null;
+  const todayDone = todayLast &&
+    new Date(todayLast.sessionEnd).toDateString() === new Date().toDateString();
+
+  let l1, l2;
+
+  if (!sessions.length) {
+    l1 = `Welcome, ${name}! 👋`;
+    l2 = `Let's start your very first daily practice session.`;
+
+  } else if (streak.current === 0) {
+    l1 = `Welcome back, ${name}.`;
+    l2 = streak.best > 0
+      ? `Start a new run today — your best was ${streak.best} day${streak.best !== 1 ? 's' : ''}.`
+      : `Your practice is ready. Pick up where you left off.`;
+
+  } else if (todayDone) {
+    l1 = `Well done today, ${name}! ✅`;
+    const tom = new Date();
+    tom.setDate(tom.getDate() + 1);
+    const tomDay  = ['sun','mon','tue','wed','thu','fri','sat'][tom.getDay()];
+    const tomGoal = state.goals.find(g => g.weekNum === currentWeek && g.weekDay === tomDay);
+    l2 = tomGoal
+      ? `Come back tomorrow for ${_esc(tomGoal.description?.split('—')[0].trim() || tomGoal.name)}.`
+      : `See you tomorrow. Keep the habit going.`;
+
+  } else if (todayGoal) {
+    l1 = `${tod}, ${name}. Day ${streak.current} of your daily practice.`;
+    const dayNum = (_DAY_ORDER[todayDay] ?? 0) + 1;
+    const topic  = todayGoal.description
+      ? todayGoal.description.split('—')[0].trim()
+      : todayGoal.name;
+    l2 = `Today: ${_esc(topic)} — Day ${dayNum} of 5 this week.`;
+
+  } else {
+    l1 = `${tod}, ${name}.`;
+    l2 = [0, 6].includes(new Date().getDay())
+      ? `It's the weekend. Flash Drills and GK are ready.`
+      : `New content loads every Monday. Flash Drills are ready now.`;
+  }
+
+  el.innerHTML = `<div class="greeting-wrap">
+    <p class="greeting-l1">${l1}</p>
+    <p class="greeting-l2">${l2}</p>
+  </div>`;
+}
+
+// ── Today's Mission card ──────────────────────────────────────────────────────
 
 function _renderTodayCard() {
   const el = document.getElementById('today-card-wrap');

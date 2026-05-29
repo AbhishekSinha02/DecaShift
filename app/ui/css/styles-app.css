@@ -1439,6 +1439,16 @@
   background: var(--bg);
 }
 
+/* ── D-001: Personalized greeting ───────────────────────────── */
+.greeting-wrap { padding: 4px 0 14px; }
+.greeting-l1 {
+  font-family: var(--font-head); font-size: 19px; font-weight: 800;
+  color: var(--text); line-height: 1.25; margin-bottom: 3px;
+}
+.greeting-l2 {
+  font-size: 13px; color: var(--muted); line-height: 1.45;
+}
+
 /* ── Menu hamburger button ───────────────────────────────────── */
 .menu-btn {
   display: flex; flex-direction: column; gap: 5px;
