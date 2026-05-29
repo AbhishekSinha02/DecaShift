@@ -7,7 +7,7 @@ function _setupLanding() {
   const pro    = () => _goToSignup('professional');
   const signin = async () => { await _showScreen('signin'); _setupSignin(); };
 
-  ['btn-for-students', 'btn-for-students-2', 'btn-for-students-3', 'btn-for-students-4', 'btn-for-students-5']
+  ['btn-for-students', 'btn-for-students-2', 'btn-for-students-3', 'btn-for-students-4', 'btn-for-students-5', 'btn-for-students-6']
     .forEach(id => { const el = document.getElementById(id); if (el) el.onclick = school; });
   ['btn-for-professionals', 'btn-for-professionals-hero', 'btn-for-professionals-2']
     .forEach(id => { const el = document.getElementById(id); if (el) el.onclick = pro; });
