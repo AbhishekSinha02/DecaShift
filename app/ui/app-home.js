@@ -5,6 +5,19 @@
 const _DAY_ORDER = { mon: 0, tue: 1, wed: 2, thu: 3, fri: 4 };
 const _DAY_LABEL = { mon: 'Mon', tue: 'Tue', wed: 'Wed', thu: 'Thu', fri: 'Fri' };
 
+const SUBJECT_STYLE = {
+  mathematics:      { color: '#3b82f6', icon: '📐' },
+  science:          { color: '#22c55e', icon: '🔬' },
+  physics:          { color: '#a78bfa', icon: '⚡' },
+  chemistry:        { color: '#f97316', icon: '🧪' },
+  biology:          { color: '#34d399', icon: '🌿' },
+  english:          { color: '#60a5fa', icon: '📖' },
+  'social-science': { color: '#fb923c', icon: '🌏' },
+  hindi:            { color: '#f472b6', icon: '🇮🇳' },
+  french:           { color: '#818cf8', icon: '🥖' },
+  gk:               { color: '#14b8a6', icon: '🌍' },
+};
+
 function _dayOrder(day) { return _DAY_ORDER[day] ?? 99; }
 
 function _cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
@@ -100,7 +113,11 @@ function _renderHome() {
           : (subjectLabels[s] || _cap(s));
         const active = state.subjectFilter === s ? ' active' : '';
         const extraClass = isRegTab ? ' regional-tab' : s === 'gk' ? ' gk-tab' : '';
-        return `<button class="subject-tab${active}${extraClass}" data-subject="${s}" onclick="_setSubjectFilter('${s}')">${label}</button>`;
+        const subjColor = (SUBJECT_STYLE[s] || {}).color || '';
+        const activeStyle = (active && subjColor)
+          ? ` style="background:${subjColor};border-color:${subjColor}"`
+          : '';
+        return `<button class="subject-tab${active}${extraClass}"${activeStyle} data-subject="${s}" onclick="_setSubjectFilter('${s}')">${label}</button>`;
       }).join('');
     } else {
       tabsEl.style.display = 'none';
@@ -306,9 +323,12 @@ function _dayCardHtml(goal, isPast) {
   const dayNum   = (_DAY_ORDER[goal.weekDay] ?? 0) + 1;
   const dayLabel = _DAY_LABEL[goal.weekDay] || goal.weekDay;
   const metaLabel = goal.weekDay ? `Day ${dayNum} · ${dayLabel}` : `Week ${goal.weekNum}`;
+  const subj     = SUBJECT_STYLE[goal.subject] || {};
+  const color    = subj.color || 'var(--accent)';
+  const icon     = subj.icon  || '';
   return `
-    <div class="day-card${done ? ' done' : ''}${isPast ? ' past' : ''}">
-      <div class="day-card-meta">${metaLabel}</div>
+    <div class="day-card${done ? ' done' : ''}${isPast ? ' past' : ''}" style="border-left-color:${color}">
+      <div class="day-card-meta">${icon ? icon + ' ' : ''}${metaLabel}</div>
       <div class="day-card-title">${_esc(goal.name)}</div>
       <div class="day-card-desc">${_esc(goal.description)}</div>
       <div class="day-card-footer">
