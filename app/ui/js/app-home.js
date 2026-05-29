@@ -88,9 +88,10 @@ function _renderHome() {
     }
     if (allTabs.length > 1) {
       tabsEl.style.display = 'flex';
+      const allSessions = Storage.loadSessions();
       tabsEl.innerHTML = allTabs.map(s => {
         const isRegTab = hasRegionalTab && s === regionalLang;
-        const label    = s === 'all' ? 'All'
+        const baseLabel = s === 'all' ? 'All'
           : isRegTab ? (langLabel[s] || _cap(s))
           : (subjectLabels[s] || _cap(s));
         const active = state.subjectFilter === s ? ' active' : '';
@@ -99,7 +100,25 @@ function _renderHome() {
         const activeStyle = (active && subjColor)
           ? ` style="background:${subjColor};border-color:${subjColor}"`
           : '';
-        return `<button class="subject-tab${active}${extraClass}"${activeStyle} data-subject="${s}" onclick="_setSubjectFilter('${s}')">${label}</button>`;
+
+        // D-010: accuracy badge on tab
+        let accTag = '';
+        if (s !== 'all' && s !== 'gk') {
+          const subjGoalIds = new Set(
+            [...weeklyGoals, ...regularGoals].filter(g => g.subject === s).map(g => g.id)
+          );
+          const subjSessions = allSessions.filter(sess => subjGoalIds.has(sess.goalId));
+          if (subjSessions.length >= 2) {
+            const avg = Math.round(subjSessions.reduce((a, r) => a + (r.accuracy ?? 0), 0) / subjSessions.length * 100);
+            const prev = subjSessions.slice(0, -Math.ceil(subjSessions.length / 2));
+            const prevAvg = prev.length
+              ? Math.round(prev.reduce((a, r) => a + (r.accuracy ?? 0), 0) / prev.length * 100)
+              : null;
+            const arrow = prevAvg !== null ? (avg > prevAvg ? '↑' : avg < prevAvg ? '↓' : '') : '';
+            accTag = ` <span class="tab-acc">${avg}%${arrow}</span>`;
+          }
+        }
+        return `<button class="subject-tab${active}${extraClass}"${activeStyle} data-subject="${s}" onclick="_setSubjectFilter('${s}')">${baseLabel}${accTag}</button>`;
       }).join('');
     } else {
       tabsEl.style.display = 'none';
