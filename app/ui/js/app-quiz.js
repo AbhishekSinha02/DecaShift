@@ -24,6 +24,24 @@ async function startGoal(goalId) {
   state.sessionStart      = new Date().toISOString();
 
   await _showScreen('quiz');
+
+  // D-005: Challenge banner — beat your last score
+  const _lastSess   = Storage.getLastSessionForGoal(goalId);
+  const _bannerEl   = document.getElementById('quiz-challenge-banner');
+  if (_bannerEl) {
+    if (!_lastSess) {
+      _bannerEl.innerHTML = `<strong>First time here.</strong> No pressure — just see where you start.`;
+    } else {
+      const pct = Math.round((_lastSess.score / _lastSess.total) * 100);
+      if (pct >= 90) {
+        _bannerEl.innerHTML = `<strong>Personal best: ${_lastSess.score}/${_lastSess.total} (${pct}%).</strong> Can you match it today?`;
+      } else {
+        _bannerEl.innerHTML = `<strong>Last time: ${_lastSess.score}/${_lastSess.total}.</strong> Can you beat it today?`;
+      }
+    }
+    _bannerEl.classList.add('visible');
+  }
+
   _renderQuestion();
 }
 
@@ -74,6 +92,8 @@ function _selectAnswer(index) {
 function submitAnswer() {
   if (state.selectedAnswerIndex === null) return;
   _stopTimer();
+
+  document.getElementById('quiz-challenge-banner')?.classList.remove('visible');
 
   const q  = state.filteredQuestions[state.currentIndex];
   const s  = state.selectedAnswerIndex;

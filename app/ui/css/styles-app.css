@@ -401,6 +401,21 @@
    SCREEN 2 — Quiz
    ══════════════════════════════════════════════════════════════ */
 
+/* D-005: Beat your last score challenge banner */
+.quiz-challenge {
+  display: none;
+  background: var(--accent-dim);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.quiz-challenge.visible { display: block; }
+.quiz-challenge strong  { color: var(--text); }
+
 .quiz-wrap {
   max-width: 720px;
   margin: 0 auto;
