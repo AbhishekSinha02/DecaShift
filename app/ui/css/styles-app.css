@@ -70,9 +70,10 @@
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   position: sticky;
-  top: 92px;   /* header 52px + streak bar 40px */
-  z-index: 180;
+  top: 52px;
+  z-index: 190;
   background: var(--bg);
+  border-bottom: 1px solid var(--border);
 }
 .subject-tabs::-webkit-scrollbar { display: none; }
 
@@ -1851,12 +1852,12 @@
 
 /* ── Sticky streak bar ───────────────────────────────────────── */
 .streak-bar {
-  position: sticky; top: 52px; z-index: 190;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   display: flex; align-items: center; gap: 6px;
   padding: 0 16px; height: 40px; overflow-x: auto;
   scrollbar-width: none;
+  flex-shrink: 0;
 }
 .streak-bar::-webkit-scrollbar { display: none; }
 .streak-flame-sm  { font-size: 16px; flex-shrink: 0; }
