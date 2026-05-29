@@ -8,7 +8,18 @@
    SCREEN 1 — Home / Goal Select
    ══════════════════════════════════════════════════════════════ */
 
+#screen-home.active {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  overflow: hidden;
+}
+
 .home-wrap {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
   max-width: 720px;
   margin: 0 auto;
 }
@@ -249,6 +260,7 @@
   display: flex; gap: 10px;
   overflow-x: auto; scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  overscroll-behavior-x: contain;
   padding: 0 16px 4px;
 }
 .netflix-cards::-webkit-scrollbar { display: none; }
