@@ -1966,6 +1966,70 @@ select option { background: var(--surface-2); }
 .install-guide li { margin-bottom: 4px; }
 .install-guide strong { color: var(--text); font-weight: 700; }
 
+/* ── Reward notification banner ─────────────────────────────── */
+.reward-notif-banner {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  background: linear-gradient(135deg, rgba(245,158,11,0.18), rgba(251,191,36,0.08));
+  border: 1px solid rgba(245,158,11,0.4);
+  border-radius: var(--radius); padding: 12px 14px; margin-bottom: 14px;
+  animation: rewardPulse 2.5s ease-in-out infinite;
+}
+@keyframes rewardPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(245,158,11,0); }
+  50%       { box-shadow: 0 0 0 6px rgba(245,158,11,0.15); }
+}
+.reward-notif-emoji { font-size: 22px; flex-shrink: 0; }
+.reward-notif-text  { flex: 1; min-width: 0; }
+.reward-notif-title { font-size: 13px; font-weight: 700; color: var(--warning); font-family: var(--font-head); }
+.reward-notif-sub   { font-size: 12px; color: var(--muted); }
+.reward-notif-close { background: none; border: none; color: var(--muted); font-size: 16px; cursor: pointer; padding: 4px; flex-shrink: 0; }
+
+/* ── Reward Card overlay ─────────────────────────────────────── */
+.reward-card-box {
+  background: linear-gradient(145deg, #1a1040, #0f1117);
+  border: 2px solid #f59e0b;
+  border-radius: 20px; padding: 24px 20px;
+  max-width: 360px; width: 92%; margin: auto;
+  box-shadow: 0 0 40px rgba(245,158,11,0.25), 0 20px 60px rgba(0,0,0,0.5);
+}
+.reward-card-header   { text-align: center; margin-bottom: 18px; }
+.reward-card-badge    { font-size: 12px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; color: #f59e0b; font-family: var(--font-head); margin-bottom: 6px; }
+.reward-card-milestone { font-size: 22px; font-weight: 800; color: var(--text); font-family: var(--font-head); }
+.reward-card-student  { text-align: center; border-top: 1px solid rgba(245,158,11,0.2); border-bottom: 1px solid rgba(245,158,11,0.2); padding: 12px 0; margin-bottom: 14px; }
+.reward-card-name     { font-size: 18px; font-weight: 700; color: var(--text); font-family: var(--font-head); }
+.reward-card-meta     { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.reward-card-valid-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+.reward-card-partners  { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+.reward-partner-row    { display: flex; align-items: flex-start; gap: 8px; }
+.reward-partner-icon   { font-size: 18px; flex-shrink: 0; line-height: 1.3; }
+.reward-partner-info   { flex: 1; }
+.reward-partner-name   { font-size: 13px; font-weight: 700; color: var(--text); }
+.reward-partner-offer  { font-size: 12px; color: var(--muted); }
+.reward-card-code-section { text-align: center; background: rgba(245,158,11,0.08); border: 1px dashed rgba(245,158,11,0.3); border-radius: var(--radius-sm); padding: 12px; margin-bottom: 12px; }
+.reward-card-code     { font-family: var(--font-mono); font-size: 18px; font-weight: 700; color: #f59e0b; letter-spacing: 2px; }
+.reward-card-validity { font-size: 11px; color: var(--muted); margin-top: 4px; }
+.reward-card-hint     { font-size: 12px; color: var(--muted); text-align: center; margin-bottom: 16px; line-height: 1.5; }
+.reward-card-actions  { display: flex; gap: 10px; }
+.reward-card-actions .btn { flex: 1; }
+
+/* ── City partner footer ─────────────────────────────────────── */
+.partner-footer {
+  margin-top: 24px; padding: 18px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+.partner-footer-title { font-size: 13px; font-weight: 700; color: var(--text); font-family: var(--font-head); margin-bottom: 14px; }
+.partner-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 14px; }
+.partner-row  { display: flex; align-items: flex-start; gap: 10px; }
+.partner-icon { font-size: 22px; flex-shrink: 0; line-height: 1.2; }
+.partner-info { flex: 1; }
+.partner-name  { font-size: 13px; font-weight: 700; color: var(--text); }
+.partner-offer { font-size: 12px; color: var(--muted); margin-top: 1px; }
+.partner-footer-cta { font-size: 12px; color: var(--muted); text-align: center; padding-top: 10px; border-top: 1px solid var(--border); }
+.partner-footer-cta a { color: var(--accent); text-decoration: none; }
+
 /* ── Empty state ─────────────────────────────────────────────── */
 .empty-state {
   display: flex; flex-direction: column; align-items: center;
