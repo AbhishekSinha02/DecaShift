@@ -238,6 +238,9 @@ function _renderHome() {
   }
 
   list.innerHTML = html;
+
+  const bnavMe = document.getElementById('bnav-me-label');
+  if (bnavMe) bnavMe.textContent = _getFirstName(state.user);
 }
 
 // ── Goal actions ──────────────────────────────────────────────────────────────
@@ -323,6 +326,12 @@ function _toggleLastWeekSection() {
 function _setSubjectFilter(subject) {
   state.subjectFilter = subject;
   _renderHome();
+}
+
+function _navPractice() {
+  state.subjectFilter = localStorage.getItem('ds_last_subject') || 'mathematics';
+  _renderHome();
+  document.getElementById('home-content')?.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function _renderHeaderMeta() {
