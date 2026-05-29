@@ -1,0 +1,12 @@
+{
+  "pune": [
+    { "name": "Perfect Stationaries", "category": "Stationery", "offer": "10% off on notebooks",                "icon": "✏️" },
+    { "name": "Global Coaching",      "category": "Coaching",   "offer": "Free trial class for streak holders", "icon": "📚" },
+    { "name": "Mira Books",           "category": "Books",      "offer": "₹20 off on any purchase over ₹100",  "icon": "📖" }
+  ],
+  "nagpur": [],
+  "indore": [],
+  "mumbai": [],
+  "delhi":  [],
+  "bangalore": []
+}
