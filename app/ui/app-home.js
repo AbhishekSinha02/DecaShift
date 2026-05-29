@@ -29,11 +29,9 @@ function _renderHome() {
   const chip = document.getElementById('user-chip-name');
   if (chip) chip.textContent = firstName;
 
-  const avatar = document.getElementById('user-avatar');
-  if (avatar) avatar.textContent = firstName[0].toUpperCase();
-
   _renderHeaderMeta();
   _renderCityStrip();
+  _renderAvatar();
 
   // Streak
   const streak = Storage.loadStreak();
@@ -333,6 +331,39 @@ function _navPractice() {
   state.subjectFilter = localStorage.getItem('ds_last_subject') || 'mathematics';
   _renderHome();
   document.getElementById('home-content')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+const _AVATAR_GRADIENTS = [
+  ['#6366f1','#8b5cf6'], ['#3b82f6','#06b6d4'], ['#10b981','#34d399'],
+  ['#f59e0b','#f97316'], ['#ef4444','#ec4899'], ['#8b5cf6','#d946ef'],
+  ['#14b8a6','#3b82f6'], ['#f97316','#eab308'],
+];
+
+function _renderAvatar() {
+  const show = localStorage.getItem('ds_avatar') !== 'false';
+  const wrap = document.getElementById('avatar-ring-wrap');
+  if (!wrap) return;
+  wrap.style.opacity = show ? '1' : '0.4';
+
+  const user   = state.user;
+  const letter = user ? _getFirstName(user)[0].toUpperCase() : '?';
+  const n      = user?.name ? (user.name.charCodeAt(0) + (user.name.charCodeAt(1) || 0)) : 0;
+  const [c1, c2] = _AVATAR_GRADIENTS[n % _AVATAR_GRADIENTS.length];
+
+  const el = document.getElementById('user-avatar');
+  if (el) {
+    el.textContent = letter;
+    el.style.background = `linear-gradient(135deg, ${c1}, ${c2})`;
+  }
+
+  const streak = Storage.loadStreak().current;
+  const circ   = 2 * Math.PI * 22;
+  const fill   = document.getElementById('avatar-ring-fill');
+  if (fill) {
+    const progress = Math.min(streak / 7, 1);
+    fill.style.strokeDashoffset = String(circ * (1 - progress));
+    fill.style.stroke = streak >= 7 ? '#f59e0b' : '#3b82f6';
+  }
 }
 
 function _renderCityStrip() {

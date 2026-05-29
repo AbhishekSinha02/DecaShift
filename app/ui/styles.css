@@ -1849,6 +1849,29 @@ select option { background: var(--surface-2); }
 .city-strip-dot  { font-size: 12px; }
 .city-strip-text { font-size: 11px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
+/* ── Avatar ring ─────────────────────────────────────────────── */
+.avatar-ring-wrap {
+  position: relative; width: 36px; height: 36px; flex-shrink: 0;
+}
+.avatar-ring-svg {
+  position: absolute; top: -5px; left: -5px;
+  width: 46px; height: 46px; pointer-events: none;
+}
+.avatar-ring-track { stroke: rgba(255,255,255,0.08); }
+.avatar-ring-fill  {
+  stroke-dasharray: 138.2; stroke-dashoffset: 138.2;
+  transition: stroke-dashoffset 0.7s ease, stroke 0.4s ease;
+}
+.user-avatar {
+  width: 36px; height: 36px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px; font-weight: 800; color: #fff;
+  font-family: var(--font-head);
+  position: relative; z-index: 1;
+  background: #3b82f6;
+  user-select: none;
+}
+
 /* ── Sticky streak bar ───────────────────────────────────────── */
 .streak-bar {
   position: sticky; top: 52px; z-index: 190;
