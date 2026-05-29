@@ -162,14 +162,49 @@ cp app/ui/questions/manifest.json app/ui/questions/manifest-legacy.json
 }
 ```
 
-### Step 6 — Clear sessionStorage cache key in index.html (one-time)
+### Step 6 — Fix grade-change callsites (critical — 3 places)
 
-After login, `sessionStorage.removeItem('ds_manifest_cache')` is called — this is already done in `saveProfileEdit()`. Also add it to the sign-in flow so existing users get the new shards on next login.
+With sharding, `state.manifest` is grade-specific. Any flow that changes the user's grade or
+category must re-call `_loadManifest()` after clearing the cache, or the new grade shows empty.
 
-In `app-auth.js`, after successful sign-in:
+**app-settings.js — `saveProfileEdit()` (grade change):**
 ```js
+// before:
 sessionStorage.removeItem('ds_manifest_cache');
+await _loadQuestionsForUser(user);
+
+// after:
+sessionStorage.removeItem('ds_manifest_cache');
+await _loadManifest();              // re-fetch the new grade's shard
+await _loadQuestionsForUser(user);
 ```
+
+**app-settings.js — `saveRegionalLanguage()` (regional language change):**
+```js
+// before:
+sessionStorage.removeItem('ds_manifest_cache');
+await _loadQuestionsForUser(user);
+
+// after:
+sessionStorage.removeItem('ds_manifest_cache');
+await _loadManifest();              // re-fetch with regional shard included
+await _loadQuestionsForUser(user);
+```
+
+**app-auth.js — sign-in AND sign-up flows (first login after init loads only flash shard):**
+```js
+// before (both sign-in and sign-up):
+await _loadQuestionsForUser(user);
+
+// after:
+sessionStorage.removeItem('ds_manifest_cache');
+await _loadManifest();              // load user's grade shard (init loaded only flash)
+await _loadQuestionsForUser(user);
+```
+
+`_loadManifest()` reads the grade from `Storage.loadUser()` (already saved by this point)
+and fetches the right shard. No other changes needed. Grade restrictions: not required —
+the fix handles grade changes cleanly in ~200ms (one shard fetch).
 
 ### Step 7 — Verify
 
@@ -199,6 +234,9 @@ git push origin main
 - [ ] `manifest-legacy.json` present as rollback
 - [ ] `sessionStorage` cache cleared on sign-in so existing users re-fetch shards
 - [ ] All grades tested: questions appear correctly
+- [ ] Grade change in Settings: switching Grade 7 → Grade 8 loads Grade 8 content correctly
+- [ ] Regional language toggle: adding Marathi loads regional shard
+- [ ] Sign-in flow: first login shows correct grade content (not empty)
 - [ ] No console errors
 
 ## Hand-off
