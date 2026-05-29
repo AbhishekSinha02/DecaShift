@@ -325,6 +325,7 @@
 
       <div class="home-content" id="home-content">
         <div id="today-card-wrap"></div>
+        <div id="reward-notif-wrap"></div>
 
       <!-- Flash Drills Section -->
       <div class="flash-drill-section" id="flash-drill-section">
@@ -344,6 +345,8 @@
       <div id="goals-list" class="goals-list">
         <p class="text-muted">Loading goals…</p>
       </div>
+
+      <div id="partner-footer-wrap"></div>
 
       </div><!-- /home-content -->
 
@@ -760,6 +763,33 @@
         <li><span>📈</span> Watch your accuracy grow over time</li>
       </ul>
       <button class="btn btn-primary btn-full" onclick="dismissWelcome()">Let's Go! →</button>
+    </div>
+  </div>
+
+  <!-- Reward Card full-screen overlay -->
+  <div id="reward-card-screen" class="modal-overlay hidden" onclick="if(event.target===this)_closeRewardCard()">
+    <div class="reward-card-box">
+      <div class="reward-card-header">
+        <div class="reward-card-badge">🎫 DONNIBO REWARD CARD</div>
+        <div class="reward-card-milestone" id="rc-milestone">7-Day Streak</div>
+      </div>
+      <div class="reward-card-student">
+        <div class="reward-card-name" id="rc-name">Student Name</div>
+        <div class="reward-card-meta" id="rc-meta">Grade 5 · Pune</div>
+      </div>
+      <div class="reward-card-partners-section">
+        <div class="reward-card-valid-label">Valid at:</div>
+        <div class="reward-card-partners" id="rc-partners"></div>
+      </div>
+      <div class="reward-card-code-section">
+        <div class="reward-card-code" id="rc-code">DS-7STR-XXXX-0000</div>
+        <div class="reward-card-validity" id="rc-validity"></div>
+      </div>
+      <p class="reward-card-hint">Show this screen at the shop. Partner will verify your code.</p>
+      <div class="reward-card-actions">
+        <button class="btn btn-primary" onclick="_shareRewardCard()">Share Card 📤</button>
+        <button class="btn btn-ghost"   onclick="_closeRewardCard()">Close</button>
+      </div>
     </div>
   </div>
 
