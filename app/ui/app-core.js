@@ -37,6 +37,10 @@ const state = {
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 
 async function init() {
+  window.addEventListener('beforeinstallprompt', e => {
+    e.preventDefault();
+    _deferredInstallPrompt = e;
+  });
   _initTheme();
   await _loadManifest();
   const user = Storage.loadUser();
@@ -210,6 +214,104 @@ function _maybeShowWelcome() {
 function dismissWelcome() {
   localStorage.setItem('decashift_onboarded', 'true');
   document.getElementById('welcome-modal').classList.add('hidden');
+}
+
+// ── PWA Install Prompt ────────────────────────────────────────────────────────
+
+let _deferredInstallPrompt = null;
+
+function _detectPlatform() {
+  const ua = navigator.userAgent;
+  return {
+    isIOS:        /iPad|iPhone|iPod/.test(ua) && !window.MSStream,
+    isAndroid:    /Android/.test(ua),
+    isWindows:    /Windows/.test(ua),
+    isStandalone: window.matchMedia('(display-mode: standalone)').matches
+                  || window.navigator.standalone === true,
+  };
+}
+
+function _shouldShowInstallPrompt() {
+  const { isStandalone } = _detectPlatform();
+  if (isStandalone) return false;
+  const dismissed = localStorage.getItem('ds_install_dismissed');
+  if (dismissed) {
+    const daysSince = (Date.now() - Number(dismissed)) / 86400000;
+    if (daysSince < 7) return false;
+  }
+  return Storage.loadSessions().length >= 3;
+}
+
+function _showInstallBanner() {
+  document.getElementById('install-banner')?.classList.remove('hidden');
+}
+
+function _hideInstallBanner() {
+  document.getElementById('install-banner')?.classList.add('hidden');
+}
+
+function _showIOSGuide() {
+  if (localStorage.getItem('ds_ios_guide_shown')) return;
+  document.getElementById('ios-install-modal')?.classList.remove('hidden');
+}
+
+function dismissIOSGuide() {
+  localStorage.setItem('ds_ios_guide_shown', 'true');
+  document.getElementById('ios-install-modal')?.classList.add('hidden');
+}
+
+function _onInstallAccepted() {
+  _hideInstallBanner();
+  if (!_deferredInstallPrompt) return;
+  _deferredInstallPrompt.prompt();
+  _deferredInstallPrompt.userChoice.then(choice => {
+    if (choice.outcome === 'accepted') {
+      const banner = document.getElementById('install-banner');
+      if (banner) {
+        banner.innerHTML = '<div class="install-banner-inner"><span style="font-size:20px">✅</span><span style="font-size:13px;color:var(--text);margin-left:10px">Donnibo is on your home screen! Open it anytime.</span></div>';
+        banner.classList.remove('hidden');
+        setTimeout(() => banner.classList.add('hidden'), 4000);
+      }
+    }
+    _deferredInstallPrompt = null;
+  });
+}
+
+function _onInstallDismissed() {
+  localStorage.setItem('ds_install_dismissed', String(Date.now()));
+  _hideInstallBanner();
+}
+
+function checkAndShowInstallPrompt() {
+  if (!_shouldShowInstallPrompt()) return;
+  const { isIOS } = _detectPlatform();
+  if (isIOS) {
+    setTimeout(_showIOSGuide, 1200);
+  } else if (_deferredInstallPrompt) {
+    setTimeout(_showInstallBanner, 1200);
+  }
+}
+
+function _triggerInstallFromSettings() {
+  const { isIOS, isStandalone } = _detectPlatform();
+  if (isStandalone) {
+    alert('Donnibo is already installed as an app on this device!');
+    return;
+  }
+  if (isIOS) {
+    closeSettings();
+    document.getElementById('ios-install-modal')?.classList.remove('hidden');
+  } else if (_deferredInstallPrompt) {
+    closeSettings();
+    _onInstallAccepted();
+  }
+}
+
+function _showInstallGuide(platform, btn) {
+  document.querySelectorAll('.install-guide').forEach(g => g.classList.add('hidden'));
+  document.querySelectorAll('.install-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('install-guide-' + platform)?.classList.remove('hidden');
+  if (btn) btn.classList.add('active');
 }
 
 // ── Bootstrap Event + Dev Fill ────────────────────────────────────────────────
