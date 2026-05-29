@@ -50,28 +50,7 @@ function _renderHome() {
   _renderRewardNotif();
   _renderPartnerFooter();
 
-  // Streak
-  const streak = Storage.loadStreak();
-  const elStreakCount = document.getElementById('streak-count');
-  const elStreakBest  = document.getElementById('streak-best');
-  if (elStreakCount) elStreakCount.textContent = streak.current;
-  if (elStreakBest)  elStreakBest.textContent  = streak.best;
-
-  // Progress stats
-  const sessions  = Storage.loadSessions().filter(s => s.userId === user.userId);
-  const elSess    = document.getElementById('stat-sessions');
-  const elAcc     = document.getElementById('stat-accuracy');
-  const elTime    = document.getElementById('stat-time');
-  if (elSess) elSess.textContent = sessions.length;
-  if (elAcc) {
-    elAcc.textContent = sessions.length
-      ? Math.round(sessions.reduce((s, r) => s + (r.accuracy || 0), 0) / sessions.length * 100) + '%'
-      : '—';
-  }
-  if (elTime) {
-    const totalSec = sessions.reduce((s, r) => s + (r.totalDurationSeconds || 0), 0);
-    elTime.textContent = totalSec < 60 ? totalSec + 's' : Math.round(totalSec / 60) + 'm';
-  }
+  _renderStreakBar();
 
   const currentWeek  = _getISOWeek(new Date());
   const regularGoals = state.goals.filter(g => !g.weekNum && !(g.subject && g.subject.startsWith('regional-')));
@@ -407,6 +386,58 @@ function _navPractice() {
   state.subjectFilter = localStorage.getItem('ds_last_subject') || 'mathematics';
   _renderHome();
   document.getElementById('home-content')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ── D-006: Streak bar — rewards not punishes ─────────────────────────────────
+
+function _renderStreakBar() {
+  const user     = state.user;
+  const streak   = Storage.loadStreak();
+  const sessions = Storage.loadSessions().filter(s => s.userId === user?.userId);
+
+  const elFlame = document.getElementById('streak-flame');
+  const elCount = document.getElementById('streak-count');
+  const elLabel = document.getElementById('streak-label');
+  const elBest  = document.getElementById('streak-best');
+
+  if (elBest) elBest.textContent = streak.best;
+
+  // Never show "0 days" — replace with an encouraging comeback state
+  const isComeback = streak.current === 0 && sessions.length > 0;
+  if (isComeback) {
+    if (elFlame) elFlame.textContent = '↩';
+    if (elCount) elCount.textContent = 'New';
+    if (elLabel) elLabel.textContent = 'run';
+  } else {
+    if (elFlame) elFlame.textContent = '🔥';
+    if (elCount) elCount.textContent = streak.current;
+    if (elLabel) elLabel.textContent = 'days';
+  }
+
+  // Milestone badge — highest earned, permanent, derived from streak.best
+  const elMilestones = document.getElementById('streak-milestones');
+  if (elMilestones) {
+    let badge = '';
+    if (streak.best >= 30)      badge = '<span class="streak-milestone-chip">🏆 30d</span>';
+    else if (streak.best >= 14) badge = '<span class="streak-milestone-chip">🌟 14d</span>';
+    else if (streak.best >= 7)  badge = '<span class="streak-milestone-chip">⚡ 7d</span>';
+    elMilestones.innerHTML = badge;
+  }
+
+  // Stats (unchanged logic, just moved here)
+  const elSess = document.getElementById('stat-sessions');
+  const elAcc  = document.getElementById('stat-accuracy');
+  const elTime = document.getElementById('stat-time');
+  if (elSess) elSess.textContent = sessions.length;
+  if (elAcc) {
+    elAcc.textContent = sessions.length
+      ? Math.round(sessions.reduce((a, r) => a + (r.accuracy || 0), 0) / sessions.length * 100) + '%'
+      : '—';
+  }
+  if (elTime) {
+    const totalSec = sessions.reduce((a, r) => a + (r.totalDurationSeconds || 0), 0);
+    elTime.textContent = totalSec < 60 ? totalSec + 's' : Math.round(totalSec / 60) + 'm';
+  }
 }
 
 // ── D-001: Personalized greeting ─────────────────────────────────────────────
