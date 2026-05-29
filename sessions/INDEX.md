@@ -39,7 +39,7 @@ When user says **"start the session"**:
 | ~~2~~ | ~~[PENDING-ui-overhaul-phase2.md](PENDING-ui-overhaul-phase2.md)~~ | ~~Code/Design~~ | ~~Visual design system~~ | ~~P1-T015, P1-T016~~ | ~~Phase 1 done~~ |
 | ~~3~~ | ~~[PENDING-pwa-install-prompt.md](PENDING-pwa-install-prompt.md)~~ | ~~Code~~ | ~~PWA install prompt~~ | ~~P2-T033~~ | ~~—~~ |
 | ~~done~~ | ~~[PENDING-city-partners-reward-card.md](PENDING-city-partners-reward-card.md)~~ | ~~Code~~ | ~~City partner footer + Reward Cards~~ | ~~P3-T032~~ | ~~done~~ |
-| 4 | [PENDING-content-grade9-12-set2.md](PENDING-content-grade9-12-set2.md) | Content | Grade 9–12 Set 2 — second round of content | P2-T034 | 1:30 PM session done |
+| ~~4~~ | ~~[PENDING-content-grade9-12-set2.md](PENDING-content-grade9-12-set2.md)~~ | ~~Content~~ | ~~Grade 9–12 Set 2~~ | ~~P2-T034~~ | ~~already done in e5ff053/8fde936/3ccdf1c/1f3bdd9~~ |
 
 ---
 
@@ -71,6 +71,7 @@ change its `#` to 1, change Restructure to 2. That's it. Commit + push.
 | 2026-05-29 | —          | P1-T015/T016 — UI Phase 2: Inter font, card depth, subject colors, answer animations, streak milestones, empty state | `deedc1d` |
 | 2026-05-29 | —          | P2-T033 — PWA install: Android banner after 3rd session, iOS guide modal, Settings install tabs (Android/Windows/iOS) | `4ca1eae` |
 | 2026-05-29 | —          | P3-T032 — City partner footer (Pune 3 partners) + Reward Card (7-day/30-day/50q milestones, gold card, share to WhatsApp) | `385066a` |
+| 2026-05-28 | 13:30 run  | P2-T034 — Grade 9–12 W23-W24 Set 2: all 12 files already generated (commits understated scope to W21-W22) | verified |
 
 ---
 
