@@ -255,6 +255,34 @@ function _buildTrendBlock(goalId, currentSessionId) {
   </div>`;
 }
 
+// ── D-004: WhatsApp share card ────────────────────────────────────────────────
+
+function _buildShareText(correct, total, pct, goal, streak) {
+  const name  = _getFirstName(state.user);
+  const grade = state.user?.grade ? 'Grade ' + state.user.grade : '';
+  const topic = goal.conceptId
+    ? _conceptLabel(goal.conceptId)
+    : (goal.description ? goal.description.split('—')[0].split('·')[0].trim() : goal.name);
+
+  const streakLine = streak.current >= 2
+    ? `${streak.current} days of daily practice on Donnibo`
+    : 'Daily practice on Donnibo';
+
+  const gradeLine = grade ? `${grade} · ${topic}` : topic;
+
+  return `🏆 ${name}'s Daily Practice\n${gradeLine}\nScore: ${correct}/${total} · Accuracy: ${pct}%\n\n${streakLine}\ndonnibo.app`;
+}
+
+async function _shareResult(correct, total, pct, goal) {
+  const streak = Storage.loadStreak();
+  const text   = _buildShareText(correct, total, pct, goal, streak);
+  if (navigator.share) {
+    try { await navigator.share({ text }); return; } catch (e) { /* fall through */ }
+  }
+  // Fallback: WhatsApp URL
+  window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+}
+
 // ── Result Screen ─────────────────────────────────────────────────────────────
 
 async function _showResult() {
@@ -323,6 +351,9 @@ async function _showResult() {
       <td class="time-cell">${r.durationSeconds}s</td>
     </tr>`;
   }).join('');
+
+  const shareBtn = document.getElementById('result-share-btn');
+  if (shareBtn) shareBtn.onclick = () => _shareResult(correct, total, pct, state.selectedGoal);
 
   document.getElementById('restart-btn').onclick = () => {
     if (state.selectedGoal.id === 'daily-gk') _startDailyGK();

@@ -87,6 +87,14 @@ body {
 }
 .btn-ghost:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
 
+.btn-share {
+  background: #25D366;
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(37,211,102,0.3);
+}
+.btn-share:hover:not(:disabled) { background: #1ebe5d; transform: translateY(-1px); }
+.btn-share:active { transform: scale(0.97); box-shadow: none; }
+
 .btn-danger { background: var(--error); color: #fff; }
 .btn-danger:hover:not(:disabled) { background: #dc2626; transform: translateY(-1px); }
 
