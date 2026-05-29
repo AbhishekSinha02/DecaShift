@@ -37,6 +37,7 @@ When user says **"start the session"**:
 |---|---|---|---|---|---|
 | ~~1~~ | ~~[PENDING-css-split-phase1.md](PENDING-css-split-phase1.md)~~ | ~~Refactor~~ | ~~Split styles.css → base/auth/app~~ | ~~P1-T019~~ | ~~done~~ |
 | 2 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 | Phase 1 done + styles-app.css > 2,000 lines |
+| 3 | [PENDING-index-html-modularisation.md](PENDING-index-html-modularisation.md) | Refactor | Break index.html (861L) → screens/ folder + ~35L shell | P1-T020 | — |
 | ~~1~~ | ~~[PENDING-manifest-sharding.md](PENDING-manifest-sharding.md)~~ | ~~Code~~ | ~~Split 58KB manifest into per-grade shards~~ | ~~P1-T018~~ | ~~done~~ |
 | ~~1~~ | ~~[PENDING-ui-overhaul-phase1.md](PENDING-ui-overhaul-phase1.md)~~ | ~~Code/Design~~ | ~~App shell + fixed header + bottom nav + avatar ring + grade chip~~ | ~~P1-T014, P1-T017~~ | ~~—~~ |
 | ~~2~~ | ~~[PENDING-ui-overhaul-phase2.md](PENDING-ui-overhaul-phase2.md)~~ | ~~Code/Design~~ | ~~Visual design system~~ | ~~P1-T015, P1-T016~~ | ~~Phase 1 done~~ |
