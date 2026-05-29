@@ -180,10 +180,17 @@ function _renderHome() {
   const archivedGoals = subFiltered.filter(g =>  archivedSet.has(g.id));
 
   if (!thisWeekGoals.length && !lastWeekGoals.length && !activeGoals.length && !archivedGoals.length) {
-    const msg = !user.category
-      ? '<p class="text-muted">Your profile is incomplete. <button class="link-btn" onclick="openEditProfile()">Complete your profile</button> to see your goals.</p>'
-      : '<p class="text-muted">No goals found for your profile. More content coming soon!</p>';
-    list.innerHTML = msg;
+    if (!user.category) {
+      list.innerHTML = '<p class="text-muted">Your profile is incomplete. <button class="link-btn" onclick="openEditProfile()">Complete your profile</button> to see your goals.</p>';
+    } else {
+      list.innerHTML = `
+        <div class="empty-state">
+          <div class="empty-emoji">📚</div>
+          <p class="empty-title">Content loading…</p>
+          <p class="empty-sub">While you wait, try Today's GK or a Flash Drill!</p>
+          <button class="btn btn-primary btn-sm" onclick="_startDrill('gk')">Today's GK →</button>
+        </div>`;
+    }
     return;
   }
 

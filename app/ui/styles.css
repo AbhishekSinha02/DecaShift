@@ -1916,6 +1916,15 @@ select option { background: var(--surface-2); }
 .today-card-footer { display: flex; align-items: center; justify-content: space-between; }
 .today-card-count  { font-size: 12px; color: var(--muted); }
 
+/* ── Empty state ─────────────────────────────────────────────── */
+.empty-state {
+  display: flex; flex-direction: column; align-items: center;
+  padding: 48px 24px; text-align: center; gap: 10px;
+}
+.empty-emoji { font-size: 48px; line-height: 1; margin-bottom: 4px; }
+.empty-title { font-family: var(--font-head); font-size: 18px; font-weight: 700; color: var(--text); }
+.empty-sub   { font-size: 14px; color: var(--muted); margin-bottom: 8px; }
+
 /* ── Streak milestone modal ──────────────────────────────────── */
 .streak-milestone-box {
   text-align: center; padding: 32px 24px;
