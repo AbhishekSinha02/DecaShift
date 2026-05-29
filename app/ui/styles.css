@@ -1872,6 +1872,23 @@ select option { background: var(--surface-2); }
   user-select: none;
 }
 
+/* ── Today's Mission card ────────────────────────────────────── */
+.today-card {
+  background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(99,102,241,0.1));
+  border: 1px solid rgba(59,130,246,0.3);
+  border-radius: var(--radius); padding: 14px 16px; margin-bottom: 14px;
+}
+.today-card.today-done {
+  background: linear-gradient(135deg, rgba(34,197,94,0.12), rgba(16,185,129,0.08));
+  border-color: rgba(34,197,94,0.3);
+}
+.today-card-top  { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.today-badge     { font-size: 11px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px; }
+.today-done-badge { font-size: 11px; color: var(--success); }
+.today-card-title { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 10px; font-family: var(--font-head); }
+.today-card-footer { display: flex; align-items: center; justify-content: space-between; }
+.today-card-count  { font-size: 12px; color: var(--muted); }
+
 /* ── Sticky streak bar ───────────────────────────────────────── */
 .streak-bar {
   position: sticky; top: 52px; z-index: 190;

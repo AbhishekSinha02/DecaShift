@@ -32,6 +32,7 @@ function _renderHome() {
   _renderHeaderMeta();
   _renderCityStrip();
   _renderAvatar();
+  _renderTodayCard();
 
   // Streak
   const streak = Storage.loadStreak();
@@ -331,6 +332,48 @@ function _navPractice() {
   state.subjectFilter = localStorage.getItem('ds_last_subject') || 'mathematics';
   _renderHome();
   document.getElementById('home-content')?.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function _renderTodayCard() {
+  const el = document.getElementById('today-card-wrap');
+  if (!el) return;
+
+  const user = state.user;
+  if (!user || user.category !== 'school') { el.innerHTML = ''; return; }
+
+  const currentWeek = _getISOWeek(new Date());
+  const today       = new Date();
+  const dayNames    = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  const todayDay    = ['sun','mon','tue','wed','thu','fri','sat'][today.getDay()];
+
+  const todayGoal = state.goals.find(g =>
+    g.weekNum === currentWeek && g.weekDay === todayDay && g.subject === state.subjectFilter
+  ) || state.goals.find(g =>
+    g.weekNum === currentWeek && g.weekDay === todayDay
+  );
+
+  if (!todayGoal) { el.innerHTML = ''; return; }
+
+  const qCount   = state.questions.filter(q => q.goalId === todayGoal.id).length;
+  const last     = Storage.getLastSessionForGoal(todayGoal.id);
+  const done     = last && last.accuracy >= 0.8;
+  const dayLabel = dayNames[today.getDay()];
+  const dateStr  = today.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+
+  el.innerHTML = `
+    <div class="today-card${done ? ' today-done' : ''}">
+      <div class="today-card-top">
+        <span class="today-badge">${_esc(dayLabel)} · ${dateStr}</span>
+        ${done ? '<span class="today-done-badge">✅ Done</span>' : ''}
+      </div>
+      <div class="today-card-title">${_esc(todayGoal.name)}</div>
+      <div class="today-card-footer">
+        <span class="today-card-count">${qCount} questions</span>
+        <button class="btn btn-primary btn-sm" onclick="startGoal('${todayGoal.id}')">
+          ${done ? 'Redo' : last ? 'Continue →' : 'Start →'}
+        </button>
+      </div>
+    </div>`;
 }
 
 const _AVATAR_GRADIENTS = [
