@@ -204,7 +204,8 @@ async function _handleSignup(e) {
     role:             role             || null,
     company:          company          || null,
     regionalLanguage: regionalLanguage || null,
-    registeredAt
+    registeredAt,
+    trialStartDate:   registeredAt
   };
 
   Storage.saveAccount(email, passwordHash, userId, user);
@@ -278,6 +279,12 @@ async function _handleSignin(e) {
   if (!user || user.userId !== account.userId) {
     const { passwordHash: _ph, ...userProfile } = account;
     user = userProfile;
+    Storage.saveUser(user);
+  }
+
+  // Backfill trialStartDate for accounts that predate the trial system
+  if (!user.trialStartDate) {
+    user.trialStartDate = user.registeredAt || new Date().toISOString();
     Storage.saveUser(user);
   }
 
