@@ -305,30 +305,20 @@
         </div>
       </header>
 
-      <!-- Dashboard: streak + progress stats -->
-      <div class="home-dashboard">
-        <div class="streak-row">
-          <div class="streak-main">
-            <span class="streak-flame">🔥</span>
-            <span class="streak-count" id="streak-count">0</span>
-            <span class="streak-label">day streak</span>
-          </div>
-          <div class="streak-best">Best: <strong id="streak-best">0</strong> days</div>
-        </div>
-        <div class="stats-row">
-          <div class="stat-mini">
-            <span class="stat-mini-val" id="stat-sessions">0</span>
-            <span class="stat-mini-key">Sessions</span>
-          </div>
-          <div class="stat-mini">
-            <span class="stat-mini-val" id="stat-accuracy">—</span>
-            <span class="stat-mini-key">Avg Accuracy</span>
-          </div>
-          <div class="stat-mini">
-            <span class="stat-mini-val" id="stat-time">0m</span>
-            <span class="stat-mini-key">Practiced</span>
-          </div>
-        </div>
+      <div class="streak-bar" id="streak-bar">
+        <span class="streak-flame-sm">🔥</span>
+        <span class="streak-num" id="streak-count">0</span>
+        <span class="streak-label-sm">days</span>
+        <span class="streak-sep">·</span>
+        <span class="streak-stat-val" id="stat-accuracy">—</span>
+        <span class="streak-stat-key">accuracy</span>
+        <span class="streak-sep">·</span>
+        <span class="streak-stat-val" id="stat-sessions">0</span>
+        <span class="streak-stat-key">sessions</span>
+        <span class="streak-sep">·</span>
+        <span class="streak-stat-val" id="stat-time">0m</span>
+        <span class="streak-stat-key">practiced</span>
+        <span class="streak-best-sm">Best: <strong id="streak-best">0</strong>d</span>
       </div>
 
       <div id="subject-tabs" class="subject-tabs" style="display:none"></div>
