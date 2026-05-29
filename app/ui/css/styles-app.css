@@ -294,27 +294,84 @@
 .drill-card-sub  { font-size: 11px; color: var(--muted); line-height: 1.3; }
 .drill-card-best { font-size: 10px; font-family: var(--font-mono); color: var(--warning); margin-top: 4px; }
 
-/* ── Today two-card row ──────────────────────────────────────── */
-.today-row { display: flex; gap: 10px; margin-bottom: 16px; align-items: stretch; }
-.today-card-main { flex: 1; min-width: 0; }
-.today-card.today-card-main { margin-bottom: 0; }
-.today-card-gk {
-  width: 128px; flex-shrink: 0;
+/* ── D-007: Today hero card ──────────────────────────────────── */
+.today-hero-card {
   background: var(--surface);
-  border: 1px solid rgba(20,184,166,.25);
-  border-left: 3px solid #14b8a6;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
   border-radius: var(--radius);
-  padding: 12px 10px;
-  display: flex; flex-direction: column; justify-content: space-between; gap: 8px;
+  padding: 18px 16px 16px;
+  margin-bottom: 12px;
 }
-.today-gk-label { font-size: 10px; font-weight: 700; color: #14b8a6; text-transform: uppercase; letter-spacing: .06em; }
-.today-gk-title { font-size: 11px; font-weight: 600; color: var(--text); line-height: 1.3; flex: 1; }
-.today-gk-count { font-size: 10px; color: var(--muted); font-family: var(--font-mono); }
+.today-hero-card.today-done {
+  opacity: 0.85;
+}
+.today-hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.today-hero-meta {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.today-hero-day {
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.today-done-badge { font-size: 11px; color: var(--success); }
+.today-hero-topic {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--font-head);
+  color: var(--text);
+  line-height: 1.25;
+  margin-bottom: 14px;
+}
+.today-hero-acc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.today-acc-bar {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--accent);
+  letter-spacing: 1px;
+  flex: 1;
+}
+.today-acc-label {
+  font-size: 12px;
+  font-family: var(--font-mono);
+  color: var(--success);
+  white-space: nowrap;
+}
+.today-hero-cta { width: 100%; }
 
-@media (max-width: 400px) {
-  .today-row { flex-direction: column; }
-  .today-card-gk { width: 100%; }
+/* ── GK strip (compact, below hero) ─────────────────────────── */
+.today-gk-strip {
+  background: var(--surface);
+  border: 1px solid rgba(20,184,166,.2);
+  border-left: 3px solid #14b8a6;
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+.today-gk-label  { font-size: 11px; font-weight: 700; color: #14b8a6; flex-shrink: 0; }
+.today-gk-topic  { font-size: 12px; color: var(--text); flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.today-gk-count  { font-size: 11px; color: var(--muted); font-family: var(--font-mono); flex-shrink: 0; }
 
 /* Goal card overflow menu */
 .goal-menu-btn {
@@ -1775,22 +1832,7 @@
   user-select: none;
 }
 
-/* ── Today's Mission card ────────────────────────────────────── */
-.today-card {
-  background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(99,102,241,0.1));
-  border: 1px solid rgba(59,130,246,0.3);
-  border-radius: var(--radius); padding: 14px 16px; margin-bottom: 14px;
-}
-.today-card.today-done {
-  background: linear-gradient(135deg, rgba(34,197,94,0.12), rgba(16,185,129,0.08));
-  border-color: rgba(34,197,94,0.3);
-}
-.today-card-top  { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
-.today-badge     { font-size: 11px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px; }
-.today-done-badge { font-size: 11px; color: var(--success); }
-.today-card-title { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 10px; font-family: var(--font-head); }
-.today-card-footer { display: flex; align-items: center; justify-content: space-between; }
-.today-card-count  { font-size: 12px; color: var(--muted); }
+/* D-007 today-hero-card styles live at top of file */
 
 /* ── PWA install banner ──────────────────────────────────────── */
 .install-banner {

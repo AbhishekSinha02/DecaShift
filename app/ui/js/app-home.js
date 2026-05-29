@@ -520,8 +520,8 @@ function _renderTodayCard() {
 
   const currentWeek = _getISOWeek(new Date());
   const today       = new Date();
-  const dayNames    = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
   const todayDay    = ['sun','mon','tue','wed','thu','fri','sat'][today.getDay()];
+  const dayNum      = (_DAY_ORDER[todayDay] ?? 0) + 1; // 1-5
 
   const todayGoal = state.goals.find(g =>
     g.weekNum === currentWeek && g.weekDay === todayDay && g.subject === state.subjectFilter
@@ -531,47 +531,60 @@ function _renderTodayCard() {
 
   if (!todayGoal) { el.innerHTML = ''; return; }
 
+  const style    = SUBJECT_STYLE[todayGoal.subject] || { color: '#3b82f6', icon: '📚' };
+  const color    = style.color;
   const qCount   = state.questions.filter(q => q.goalId === todayGoal.id).length;
   const last     = Storage.getLastSessionForGoal(todayGoal.id);
-  const done     = last && last.accuracy >= 0.8;
-  const dayLabel = dayNames[today.getDay()];
-  const dateStr  = today.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+  const done     = last && new Date(last.sessionEnd).toDateString() === today.toDateString();
+  const accPct   = last ? Math.round(last.accuracy * 100) : null;
+  const grade    = user.grade ? 'Grade ' + user.grade + ' · ' : '';
+  const subName  = _cap(todayGoal.subject.replace(/-/g, ' '));
+  const topic    = todayGoal.description
+    ? todayGoal.description.split('—')[0].split('·')[0].trim()
+    : todayGoal.name;
+
+  const accBar = accPct !== null ? (() => {
+    const filled = Math.round(accPct / 10);
+    return `<div class="today-hero-acc">
+      <span class="today-acc-bar">${'█'.repeat(filled)}${'░'.repeat(10 - filled)}</span>
+      <span class="today-acc-label">${accPct}% accuracy</span>
+    </div>`;
+  })() : '';
+
+  const ctaLabel = done ? 'Practice Again →' : last ? 'Continue →' : 'Start Today\'s Practice →';
+  const doneBadge = done ? '<span class="today-done-badge">✅ Done</span>' : '';
+
+  const heroCard = `
+    <div class="today-hero-card${done ? ' today-done' : ''}" style="border-left-color:${color}">
+      <div class="today-hero-top">
+        <span class="today-hero-meta">${style.icon} ${grade}${subName}</span>
+        <span class="today-hero-day">Day ${dayNum}/5 ${doneBadge}</span>
+      </div>
+      <div class="today-hero-topic">${_esc(topic)}</div>
+      ${accBar}
+      <button class="btn btn-primary today-hero-cta" onclick="startGoal('${todayGoal.id}')">
+        ${ctaLabel}
+      </button>
+    </div>`;
 
   const gkGoal = state.subjectFilter !== 'gk' ? state.goals.find(g =>
     g.subject === 'gk' && g.weekNum === currentWeek && g.weekDay === todayDay
   ) : null;
 
-  const subjectCard = `
-    <div class="today-card${done ? ' today-done' : ''} today-card-main">
-      <div class="today-card-top">
-        <span class="today-badge">${_esc(dayLabel)} · ${dateStr}</span>
-        ${done ? '<span class="today-done-badge">✅ Done</span>' : ''}
-      </div>
-      <div class="today-card-title">${_esc(todayGoal.name)}</div>
-      <div class="today-card-footer">
-        <span class="today-card-count">${qCount} questions</span>
-        <button class="btn btn-primary btn-sm" onclick="startGoal('${todayGoal.id}')">
-          ${done ? 'Redo' : last ? 'Continue →' : 'Start →'}
-        </button>
-      </div>
-    </div>`;
-
   const gkCard = gkGoal ? (() => {
     const gkCount = state.questions.filter(q => q.goalId === gkGoal.id).length;
     const gkLast  = Storage.getLastSessionForGoal(gkGoal.id);
-    return `<div class="today-card-gk">
-      <div class="today-gk-label">🌍 GK Today</div>
-      <div class="today-gk-title">${_esc(gkGoal.description.split('—')[0].trim())}</div>
-      <div class="today-gk-count">${gkCount} questions</div>
-      <button class="btn btn-primary btn-sm" onclick="startGoal('${gkGoal.id}')">
+    return `<div class="today-gk-strip">
+      <span class="today-gk-label">🌍 GK Today</span>
+      <span class="today-gk-topic">${_esc(gkGoal.description.split('—')[0].trim())}</span>
+      <span class="today-gk-count">${gkCount}Q</span>
+      <button class="btn btn-ghost btn-sm" onclick="startGoal('${gkGoal.id}')">
         ${gkLast ? 'Redo' : 'Start →'}
       </button>
     </div>`;
   })() : '';
 
-  el.innerHTML = gkCard
-    ? `<div class="today-row">${subjectCard}${gkCard}</div>`
-    : subjectCard;
+  el.innerHTML = heroCard + gkCard;
 }
 
 const _AVATAR_GRADIENTS = [
