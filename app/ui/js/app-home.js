@@ -30,6 +30,25 @@ function _getISOWeek(date) {
   return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
 }
 
+const _MONTHS_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+// Mon–Fri date range for "this week" (isPast=false) or "last week" (isPast=true),
+// e.g. "25 - 29 May, 2026". Anchored on today in local time so it always matches
+// the user's calendar (the weekly rows are, by construction, this/last week).
+function _weekRangeStr(isPast) {
+  const ref = new Date();
+  if (isPast) ref.setDate(ref.getDate() - 7);
+  const dow    = (ref.getDay() + 6) % 7;            // 0 = Monday … 6 = Sunday
+  const monday = new Date(ref);  monday.setDate(ref.getDate() - dow);
+  const friday = new Date(monday); friday.setDate(monday.getDate() + 4);
+  const dM = monday.getDate(), dF = friday.getDate();
+  const mM = _MONTHS_SHORT[monday.getMonth()], mF = _MONTHS_SHORT[friday.getMonth()];
+  const yM = monday.getFullYear(), yF = friday.getFullYear();
+  if (yM !== yF) return `${dM} ${mM}, ${yM} - ${dF} ${mF}, ${yF}`;  // spans New Year
+  if (mM !== mF) return `${dM} ${mM} - ${dF} ${mF}, ${yF}`;          // spans month end
+  return `${dM} - ${dF} ${mM}, ${yF}`;
+}
+
 // ── Home Screen ───────────────────────────────────────────────────────────────
 
 function _renderHome() {
@@ -322,7 +341,7 @@ function _buildDrillRow() {
 
 function _buildWeekRow(label, goals, isPast) {
   const weekNum   = goals[0]?.weekNum;
-  const weekLabel = weekNum ? `${label} (W${weekNum})` : label;
+  const weekLabel = weekNum ? `${label} (${_weekRangeStr(isPast)})` : label;
   return `<div class="netflix-row">
     <div class="netflix-row-label">${weekLabel}
       <span class="netflix-row-count">${goals.length} sets</span>
