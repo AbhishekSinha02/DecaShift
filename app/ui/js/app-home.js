@@ -843,9 +843,12 @@ function _maybeOpenMysteryBox(opts) {
   localStorage.setItem('donnibo_box_state', JSON.stringify(stored));
   const reward = Collectibles.rollReward(ctx);
 
-  // wait until any celebration overlay (level-up/evolution/ritual) is gone
+  // wait until any celebration overlay/modal is gone (level-up/evolution/ritual via
+  // .quest-ritual-overlay, and the D-006 streak-milestone / reward-card .modal-overlay)
   const tryShow = () => {
-    if (document.querySelector('.quest-ritual-overlay')) { setTimeout(tryShow, 600); return; }
+    const blocking = document.querySelector('.quest-ritual-overlay')
+      || document.querySelector('.modal-overlay:not(.hidden)');
+    if (blocking) { setTimeout(tryShow, 600); return; }
     _showMysteryBox(reward, ctx);
   };
   setTimeout(tryShow, 1000);
