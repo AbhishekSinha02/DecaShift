@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-05-30T13:38:40.277Z",
+  "base": "http://127.0.0.1:8731",
+  "consoleErrors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "pageErrors": [],
+  "failedRequests": [],
+  "steps": [
+    {
+      "name": "Returning user lands on home",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Curriculum loaded for grade-6 user",
+      "ok": true,
+      "detail": "53 manifest · 48 goals · 671 questions"
+    },
+    {
+      "name": "Home renders goal/day cards",
+      "ok": true,
+      "detail": "20 cards"
+    },
+    {
+      "name": "Home hero grid / flash-drill region present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Quiz screen opens (card click or startGoal)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Quiz answer→submit→next loop works",
+      "ok": true,
+      "detail": "15 questions answered"
+    },
+    {
+      "name": "Quiz completes to result screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Result screen has action buttons",
+      "ok": true,
+      "detail": "Share Result | ⚔ Challenge a Friend | Restart Goal | Back to Goals"
+    },
+    {
+      "name": "Export JSON/CSV functions available",
+      "ok": true,
+      "detail": "in storage.js (Storage.exportAsJSON/CSV)"
+    },
+    {
+      "name": "Navigate to Journey screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Settings modal opens via openSettings()",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Session persisted to localStorage",
+      "ok": true,
+      "detail": "1 sessions"
+    },
+    {
+      "name": "Breakpoint mobile-375: no horizontal overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Breakpoint tablet-768: no horizontal overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Breakpoint laptop-1024: no horizontal overflow",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Breakpoint desktop-1440: no horizontal overflow",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "perf": {
+    "coldLoadMs": 1395,
+    "nav": {
+      "domContentLoaded": 230,
+      "loadComplete": 230,
+      "domInteractive": 227,
+      "resourceCount": 132
+    }
+  },
+  "breakpoints": [
+    {
+      "label": "mobile-375",
+      "w": 375,
+      "h": 812,
+      "screenshot": "screenshots/home-mobile-375.png",
+      "horizontal": false,
+      "sw": 375,
+      "cw": 375
+    },
+    {
+      "label": "tablet-768",
+      "w": 768,
+      "h": 1024,
+      "screenshot": "screenshots/home-tablet-768.png",
+      "horizontal": false,
+      "sw": 768,
+      "cw": 768
+    },
+    {
+      "label": "laptop-1024",
+      "w": 1024,
+      "h": 768,
+      "screenshot": "screenshots/home-laptop-1024.png",
+      "horizontal": false,
+      "sw": 1024,
+      "cw": 1024
+    },
+    {
+      "label": "desktop-1440",
+      "w": 1440,
+      "h": 900,
+      "screenshot": "screenshots/home-desktop-1440.png",
+      "horizontal": false,
+      "sw": 1440,
+      "cw": 1440
+    }
+  ],
+  "consoleErrorCount": 58,
+  "pageErrorCount": 0,
+  "failedRequestCount": 0
+}

@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-05-30T13:31:01.303Z",
+  "summary": {
+    "totalJSONFiles": 409,
+    "manifestEntries": 392,
+    "totalQuestions": 5562,
+    "uniqueGoalIds": 361,
+    "uniqueQIds": 5561,
+    "schemaBad": 0,
+    "gradeCounts": {
+      "2": 651,
+      "3": 671,
+      "4": 671,
+      "5": 676,
+      "6": 671,
+      "7": 651,
+      "8": 656,
+      "9": 195,
+      "10": 200,
+      "11": 135,
+      "12": 140
+    },
+    "screenFiles": 10
+  },
+  "errorCount": 5,
+  "warningCount": 32,
+  "errors": [
+    {
+      "area": "schema",
+      "msg": "flash/gk-bank.json: missing goalId"
+    },
+    {
+      "area": "schema",
+      "msg": "flash/formulas-grade5.json: missing goalId"
+    },
+    {
+      "area": "schema",
+      "msg": "flash/formulas-grade6.json: missing goalId"
+    },
+    {
+      "area": "schema",
+      "msg": "flash/formulas-grade7.json: missing goalId"
+    },
+    {
+      "area": "schema",
+      "msg": "flash/formulas-grade8.json: missing goalId"
+    }
+  ],
+  "warnings": [
+    {
+      "area": "dup-qid",
+      "msg": "question id \"g3h-w22-mon-012\" in school/grade-3/french-w22-mon.json & school/grade-3/hindi-w22-mon.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade9-mathematics\" in school/grade-9/mathematics/w22-set1.json & school/grade-9/mathematics/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade9-mathematics\" in school/grade-9/mathematics/w23-set1.json & school/grade-9/mathematics/w22-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade9-mathematics\" in school/grade-9/mathematics/w24-set1.json & school/grade-9/mathematics/w23-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade9-science\" in school/grade-9/science/w22-set1.json & school/grade-9/science/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade9-science\" in school/grade-9/science/w23-set1.json & school/grade-9/science/w22-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade9-science\" in school/grade-9/science/w24-set1.json & school/grade-9/science/w23-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade9-english\" in school/grade-9/english/w22-set1.json & school/grade-9/english/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade9-social-science\" in school/grade-9/social-science/w22-set1.json & school/grade-9/social-science/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade10-mathematics\" in school/grade-10/mathematics/w22-set1.json & school/grade-10/mathematics/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade10-mathematics\" in school/grade-10/mathematics/w23-set1.json & school/grade-10/mathematics/w22-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade10-mathematics\" in school/grade-10/mathematics/w24-set1.json & school/grade-10/mathematics/w23-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade10-science\" in school/grade-10/science/w22-set1.json & school/grade-10/science/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade10-science\" in school/grade-10/science/w23-set1.json & school/grade-10/science/w22-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade10-science\" in school/grade-10/science/w24-set1.json & school/grade-10/science/w23-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade10-english\" in school/grade-10/english/w22-set1.json & school/grade-10/english/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade10-social-science\" in school/grade-10/social-science/w22-set1.json & school/grade-10/social-science/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade11-mathematics\" in school/grade-11/mathematics/w22-set1.json & school/grade-11/mathematics/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade11-mathematics\" in school/grade-11/mathematics/w23-set1.json & school/grade-11/mathematics/w22-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade11-mathematics\" in school/grade-11/mathematics/w24-set1.json & school/grade-11/mathematics/w23-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade11-physics\" in school/grade-11/physics/w22-set1.json & school/grade-11/physics/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade11-chemistry\" in school/grade-11/chemistry/w22-set1.json & school/grade-11/chemistry/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade12-mathematics\" in school/grade-12/mathematics/w22-set1.json & school/grade-12/mathematics/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade12-mathematics\" in school/grade-12/mathematics/w23-set1.json & school/grade-12/mathematics/w22-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade12-mathematics\" in school/grade-12/mathematics/w24-set1.json & school/grade-12/mathematics/w23-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade12-physics\" in school/grade-12/physics/w22-set1.json & school/grade-12/physics/w21-set1.json"
+    },
+    {
+      "area": "dup-goalid",
+      "msg": "goalId \"grade12-chemistry\" in school/grade-12/chemistry/w22-set1.json & school/grade-12/chemistry/w21-set1.json"
+    },
+    {
+      "area": "empty-file",
+      "msg": "flash/gk-bank.json: 0 questions"
+    },
+    {
+      "area": "empty-file",
+      "msg": "flash/formulas-grade5.json: 0 questions"
+    },
+    {
+      "area": "empty-file",
+      "msg": "flash/formulas-grade6.json: 0 questions"
+    },
+    {
+      "area": "empty-file",
+      "msg": "flash/formulas-grade7.json: 0 questions"
+    },
+    {
+      "area": "empty-file",
+      "msg": "flash/formulas-grade8.json: 0 questions"
+    }
+  ]
+}

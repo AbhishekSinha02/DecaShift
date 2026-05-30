@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-05-30T14:20:06.521Z",
+  "payload": {
+    "shellKB": 339.5,
+    "cssKB": 135.6,
+    "jsKB": 201.9,
+    "largestJS": [
+      {
+        "f": "js/app-home.js",
+        "kb": 58.5
+      },
+      {
+        "f": "js/app-quiz.js",
+        "kb": 24.6
+      },
+      {
+        "f": "js/app-core.js",
+        "kb": 21.1
+      },
+      {
+        "f": "js/app-drill.js",
+        "kb": 15.1
+      },
+      {
+        "f": "js/app-settings.js",
+        "kb": 15.1
+      }
+    ],
+    "largestCSS": [
+      {
+        "f": "css/styles-app.css",
+        "kb": 98.3
+      },
+      {
+        "f": "css/styles-landing.css",
+        "kb": 26.3
+      },
+      {
+        "f": "css/styles-base.css",
+        "kb": 7.3
+      },
+      {
+        "f": "css/styles-auth.css",
+        "kb": 3.7
+      }
+    ]
+  },
+  "coldLoad": {
+    "grade2": {
+      "ms": 33020,
+      "transferredKB": 634,
+      "questions": 651,
+      "goals": 44,
+      "resources": 124
+    },
+    "grade6": {
+      "ms": 30833,
+      "transferredKB": 703.1,
+      "questions": 671,
+      "goals": 48,
+      "resources": 132
+    },
+    "grade12": {
+      "ms": 30241,
+      "transferredKB": 450.9,
+      "questions": 140,
+      "goals": 9,
+      "resources": 54
+    }
+  },
+  "stress": {
+    "sessionsCompleted": 2,
+    "totalMs": 821984,
+    "avgMsPerSession": 82198,
+    "domNodesBefore": 658,
+    "domNodesAfter": 768,
+    "domGrowth": 110,
+    "heapBeforeMB": 10,
+    "heapAfterMB": 10,
+    "sessionsStored": 2
+  },
+  "largestGrade": {}
+}
