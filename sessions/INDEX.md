@@ -14,8 +14,13 @@
 
 | # | File | Type | Focus | Task |
 |---|---|---|---|---|
-| 1 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 |
-| 2 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | PWA install banner improvements | P2-T044 |
+| 1 | [PENDING-content-w23-science.md](PENDING-content-w23-science.md) | Content | W23 Science G2–8 (35 files/525q) — completes the current week | CONTENT-GEN-3MONTH-PLAN · C1 |
+| 2 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 |
+| 3 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | PWA install banner improvements | P2-T044 |
+
+> **Content track:** full 3-month queue (all grades, all subjects, Jun–Aug) in
+> [`tasks/marketing/CONTENT-GEN-3MONTH-PLAN.md`](../tasks/marketing/CONTENT-GEN-3MONTH-PLAN.md).
+> Run just-in-time (~2 weeks ahead), one subject-week (525q) per session.
 
 ---
 
