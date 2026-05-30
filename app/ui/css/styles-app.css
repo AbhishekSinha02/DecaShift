@@ -2567,3 +2567,29 @@
 @media (prefers-reduced-motion: reduce) {
   .screen.nav-forward, .screen.nav-back { animation: none; }
 }
+
+/* ════════════════════════════════════════════════════════════════
+   E-009 — skeleton loaders (perceived performance at cold start)
+   ════════════════════════════════════════════════════════════════ */
+.skeleton {
+  position: relative; overflow: hidden; display: block;
+  background: var(--surface-2); border-radius: var(--radius-sm);
+}
+.skeleton::after {
+  content: ''; position: absolute; inset: 0; transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.07), transparent);
+  animation: skelShimmer 1.3s infinite;
+}
+@keyframes skelShimmer { 100% { transform: translateX(100%); } }
+
+.skeleton-shelf { margin-bottom: 24px; }
+.skel-label { height: 16px; width: 140px; margin: 0 0 12px 16px; }
+.skel-cards { display: flex; gap: 10px; padding: 0 16px; overflow: hidden; }
+.skel-card  { width: 160px; height: 124px; flex-shrink: 0; border-radius: var(--radius); }
+
+.skel-line       { height: 18px; width: 100%; margin-bottom: 8px; }
+.skel-line-short { width: 62%; }
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton::after { animation: none; }
+}
