@@ -38,8 +38,8 @@
   margin-bottom: 32px;
 }
 
-.home-title { font-size: 26px; font-weight: 800; }
-.home-sub   { color: var(--muted); font-size: 14px; margin-bottom: 4px; }
+.home-title { font-size: var(--fs-h1); font-weight: 800; }
+.home-sub   { color: var(--muted); font-size: var(--fs-label); margin-bottom: 4px; }
 
 .user-chip {
   display: flex;
