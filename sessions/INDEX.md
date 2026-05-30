@@ -1,126 +1,45 @@
 # Donnibo — Session Schedule
 
-> **How it works:**
-> Open Claude Code in `C:\aiPrj\DecaShift` at the scheduled time.
-> Say **"start the session"** — Claude reads this INDEX, finds the right session, executes it.
-> No briefing. No context. The session file contains everything.
+> Completed sessions: `sessions/completed/`
+> How to run: say **"start the session"** → Claude reads this INDEX → runs Priority 1 from pending queue.
 
 ---
 
-## Trigger Behaviour
-
-When user says **"start the session"**:
-1. Read this INDEX
-2. **If a Scheduled session matches today's date + approximate time → run that**
-3. **If no scheduled session matches → run the top item from the Pending Queue (Priority 1)**
-4. If ambiguous (two scheduled sessions today) → ask which one
+## Scheduled Sessions
+*(none active)*
 
 ---
 
-## Scheduled Sessions (Date + Time Locked)
+## Pending Queue
 
-| Date | Time IST | File | Type | Focus | Status |
-|---|---|---|---|---|---|
-| 2026-05-28 | 13:30 | [2026-05-28-1330-questions-grade9-12.md](2026-05-28-1330-questions-grade9-12.md) | Content | Grade 9–12 questions — 45 files, ~675q | ✅ Done |
-| 2026-05-28 | 18:30 | [2026-05-28-1830-flash-drill-implementation.md](2026-05-28-1830-flash-drill-implementation.md) | Code | P2-T031 Flash Drill implementation | ✅ Done |
-
----
-
-## Pending Queue (Priority Order — No Date Yet)
-
-> **To reprioritize:** Change the number in the `#` column and re-sort the rows.
-> **To run:** Say "start the session" when no scheduled session is active — Claude runs Priority 1.
-> **To promote to Scheduled:** Move the row to the Scheduled table above and add date + time.
-> **To add a new pending session:** Create a `PENDING-*.md` file and add a row here.
-
-| # | File | Type | Focus | Task | Depends On |
-|---|---|---|---|---|---|
-| ~~1~~ | ~~[PENDING-css-split-phase1.md](PENDING-css-split-phase1.md)~~ | ~~Refactor~~ | ~~Split styles.css → base/auth/app~~ | ~~P1-T019~~ | ~~done~~ |
-| ~~1~~ | ~~[PENDING-index-html-modularisation.md](PENDING-index-html-modularisation.md)~~ | ~~Refactor~~ | ~~Break index.html (861L) → screens/ folder + ~35L shell~~ | ~~P1-T020~~ | ~~done~~ |
-| ~~1~~ | ~~[PENDING-landing-page-enhancements.md](PENDING-landing-page-enhancements.md)~~ | ~~Code/Design~~ | ~~Fixed nav · copy rewrite · hamburger · city ticker · stats count-up · FAQ · scroll-reveal · question teaser~~ | ~~P2-T015 Ph2~~ | ~~done~~ |
-| ~~1~~ | ~~[PENDING-landing-phase3-carousel-hero.md](PENDING-landing-phase3-carousel-hero.md)~~ | ~~Code/Design~~ | ~~Remove free/pricing/cities · 4-slide feature carousel · full-viewport hero · mobile overflow fix~~ | ~~P2-T038(partial), T039, T040, T042~~ | ~~done~~ |
-| ~~2~~ | ~~[PENDING-app-navigation-overhaul.md](PENDING-app-navigation-overhaul.md)~~ | ~~Code/Design~~ | ~~Remove bottom nav · top drawer · week nav · horizontal subject snap · streak→practice~~ | ~~P2-T041, T043~~ | ~~done~~ |
-| ~~3~~ | ~~[PENDING-feature-gating-trial.md](PENDING-feature-gating-trial.md)~~ | ~~Code~~ | ~~Silent trial gating · paywall screen · settings My Plan · Set 3–5 gate~~ | ~~P2-T038~~ | ~~done~~ |
-| ~~1~~ | ~~[PENDING-netflix-home-browse.md](PENDING-netflix-home-browse.md)~~ | ~~Code/Design~~ | ~~Netflix-style home: tabs filter + week rows + topic rows + drill row + GK companion~~ | ~~P2-T045~~ | ~~done 012c21d~~ |
-| 4 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 | Phase 1 done + styles-app.css > 2,000 lines |
-| 5 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | Install banner on home screen — 1-tap Android, iOS guide | P2-T044 | — |
-| ~~1~~ | ~~[PENDING-manifest-sharding.md](PENDING-manifest-sharding.md)~~ | ~~Code~~ | ~~Split 58KB manifest into per-grade shards~~ | ~~P1-T018~~ | ~~done~~ |
-| ~~1~~ | ~~[PENDING-ui-overhaul-phase1.md](PENDING-ui-overhaul-phase1.md)~~ | ~~Code/Design~~ | ~~App shell + fixed header + bottom nav + avatar ring + grade chip~~ | ~~P1-T014, P1-T017~~ | ~~—~~ |
-| ~~2~~ | ~~[PENDING-ui-overhaul-phase2.md](PENDING-ui-overhaul-phase2.md)~~ | ~~Code/Design~~ | ~~Visual design system~~ | ~~P1-T015, P1-T016~~ | ~~Phase 1 done~~ |
-| ~~3~~ | ~~[PENDING-pwa-install-prompt.md](PENDING-pwa-install-prompt.md)~~ | ~~Code~~ | ~~PWA install prompt~~ | ~~P2-T033~~ | ~~—~~ |
-| ~~done~~ | ~~[PENDING-city-partners-reward-card.md](PENDING-city-partners-reward-card.md)~~ | ~~Code~~ | ~~City partner footer + Reward Cards~~ | ~~P3-T032~~ | ~~done~~ |
-| ~~4~~ | ~~[PENDING-content-grade9-12-set2.md](PENDING-content-grade9-12-set2.md)~~ | ~~Content~~ | ~~Grade 9–12 Set 2~~ | ~~P2-T034~~ | ~~already done in e5ff053/8fde936/3ccdf1c/1f3bdd9~~ |
+| # | File | Type | Focus | Task |
+|---|---|---|---|---|
+| 1 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 |
+| 2 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | PWA install banner improvements | P2-T044 |
 
 ---
 
-## How to Manage This Queue
+## Completed Sessions (19 done)
+See `sessions/completed/` for all session files.
 
-**Add a session:** Create `sessions/PENDING-{topic}.md` → add row to queue above → commit + push.
-
-**Reprioritize:** Edit the `#` column and re-sort rows. Example — to make GK Capsule go first:
-change its `#` to 1, change Restructure to 2. That's it. Commit + push.
-
-**Promote to scheduled:** Move the row from Pending Queue → Scheduled table, add date + time.
-
-**Mark done:** Move from Pending Queue → Completed table, add commit hash.
-
----
-
-## Completed Sessions
-
-| Date | Time | What Was Done | Commit |
-|---|---|---|---|
-| 2026-05-28 | 09:00–13:00 | Strategy, 8 tasks, P2-T030 themes, marketing folder, content velocity plan, session system | `a5fc65f` |
-| 2026-05-28 | 13:30–16:00 | 45 content files — Grade 9–12 Math/Science/Physics/Chemistry/English/Social Science + GK bank + Formula banks | `e68765b` |
-| 2026-05-28 | 18:30–21:00 | P2-T031 Flash Drill Mode — Tables, Squares, Cubes, Formulas, GK (5 drills, timer, PB, share card) | `f59c60e` |
-| 2026-05-28 | 21:30      | BUG-006 Fix A — streak + grade sync to Drive after every quiz and drill session | `4bffe4e` |
-| 2026-05-29 | —          | P2-T037 — app.js split into 6 modules (240/188/320/179/338/132 lines) | `2243807` |
-| 2026-05-29 | —          | P2-T032 — Daily GK capsule: GK tab, reflective mode, Today in India fact card | `21f22e7` |
-| 2026-05-29 | —          | P2-T030 — Settings restructure: 5-tile menu + sub-screens + BUG-009 grade fix | `4d97889` |
-| 2026-05-29 | —          | P1-T014/T016/T017 — UI Phase 1: fixed header, sticky streak bar, sticky tabs, bottom nav, city strip, avatar ring, Today's Mission card, button elevation | `329711d` |
-| 2026-05-29 | —          | P1-T015/T016 — UI Phase 2: Inter font, card depth, subject colors, answer animations, streak milestones, empty state | `deedc1d` |
-| 2026-05-29 | —          | P2-T033 — PWA install: Android banner after 3rd session, iOS guide modal, Settings install tabs (Android/Windows/iOS) | `4ca1eae` |
-| 2026-05-29 | —          | P3-T032 — City partner footer (Pune 3 partners) + Reward Card (7-day/30-day/50q milestones, gold card, share to WhatsApp) | `385066a` |
-| 2026-05-28 | 13:30 run  | P2-T034 — Grade 9–12 W23-W24 Set 2: all 12 files already generated (commits understated scope to W21-W22) | verified |
-| 2026-05-29 | —          | P1-T018 — Manifest sharding: 58KB→749B index + 15 grade shards; grade-change callsites fixed in auth+settings | `78c35cf` |
-| 2026-05-29 | —          | P1-T019 — CSS split: styles.css(2081L) → base(166L)/auth(336L)/app(1589L); styles-legacy.css as rollback | `7b5b6b2` |
-| 2026-05-29 | —          | P1-T020 — index.html modularisation: 861L → 31L shell; 8 screen files in screens/; all modals JS-rendered | `10f62e8` |
-| 2026-05-29 | —          | P2-T015 Ph1 — Landing page full redesign: 7-section structure, CSS phone mockup, feature rows, pricing, testimonials | `f833a62` |
-| 2026-05-29 | —          | P2-T015 Ph2 — Fixed nav, hero copy, gradient, hamburger, city ticker, count-up, FAQ, scroll-reveal, question teaser | `e14da29` |
-| 2026-05-29 | —          | P2-T038/T039/T040/T042 — Landing Ph3: remove pricing/free/city ticker · 4-slide carousel · full-viewport hero · mobile overflow · cleanup | `c40d310` |
-| 2026-05-29 | —          | Landing hero: phone mockup with fading feature screens (replaces flat carousel) | `7559088` |
-| 2026-05-29 | —          | P2-T041/T043 — Nav overhaul: streak→practice · remove bottom nav · drawer · week nav · horizontal subject snap | `d4545fc` |
-| 2026-05-29 | —          | P2-T038 — Trial gating: trialStartDate on signup · _checkTrialStatus · paywall screen · My Plan in settings · sets 3–5 gated | `ab4b42d` |
-| 2026-05-29 | —          | Delight Stack (D-001–D-018) — all 18 delight/retention/trust tasks shipped; iOS Safari header fix (position:sticky bug) | `f5e29ca` |
-
----
-
-## Session File Format Reference
-
-```markdown
-# Session: PENDING — Topic Name
-
-**Priority:** N  (1 = run next, higher = later)
-**Type:** Content | Code | Review | Mixed | Strategy
-**Est. Duration:** X hours
-**Task:** P2-TXXX
-**Trigger:** "start the session" (runs when Priority 1 in pending queue)
-**Depends on:** what must be done first (or "—" if standalone)
-
-## Objective
-One sentence.
-
-## Context
-- Bullet 1
-- Bullet 2 (max 5)
-
-## Execute In This Order
-### Step 1...
-### Step 2...
-
-## Success Criteria
-- [ ] Checkbox list
-
-## Hand-off to Next Session
-What the next session picks up from here.
-```
+| Date | What | Commit |
+|---|---|---|
+| 2026-05-28 | Grade 9–12 questions — 45 files ~675q | `e68765b` |
+| 2026-05-28 | P2-T031 Flash Drill — 5 drills, timer, PB, share | `f59c60e` |
+| 2026-05-28 | BUG-006 streak + grade sync fix | `4bffe4e` |
+| 2026-05-29 | P2-T037 app.js → 6 modules | `2243807` |
+| 2026-05-29 | P2-T032 Daily GK capsule + GK tab | `21f22e7` |
+| 2026-05-29 | P2-T030 Settings 5-tile + BUG-009 grade fix | `4d97889` |
+| 2026-05-29 | P1-T014/016/017 UI Phase 1 | `329711d` |
+| 2026-05-29 | P1-T015/016 UI Phase 2 | `deedc1d` |
+| 2026-05-29 | P2-T033 PWA install | `4ca1eae` |
+| 2026-05-29 | P3-T032 City partner footer + Reward Cards | `385066a` |
+| 2026-05-29 | P1-T018 Manifest sharding 58KB→749B | `78c35cf` |
+| 2026-05-29 | P1-T019 CSS split base/auth/app | `7b5b6b2` |
+| 2026-05-29 | P1-T020 HTML modularisation → screens/ | `10f62e8` |
+| 2026-05-29 | P2-T015 Ph1+Ph2+Ph3 Landing full rebuild | `c40d310` |
+| 2026-05-29 | P2-T041/T043 Nav overhaul: drawer + week nav + subject snap | `d4545fc` |
+| 2026-05-29 | P2-T038 Trial gating: paywall + My Plan + sets 3–5 gate | `ab4b42d` |
+| 2026-05-29 | P2-T045 Netflix home browse | `012c21d` |
+| 2026-05-29 | Donnibo brand + mobile bug fixes | `7559088` |
+| 2026-05-29 | Delight Stack D-001–D-018 (15 code tasks) + iOS header fix | `f5e29ca` |
