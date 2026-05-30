@@ -2312,3 +2312,44 @@
 @media (prefers-reduced-motion: reduce) {
   .quest-ritual-overlay, .quest-ritual-card { animation: none; }
 }
+
+/* ════════════════════════════════════════════════════════════════
+   E-005 — XP + levels surfacing
+   ════════════════════════════════════════════════════════════════ */
+/* Level badge on the header avatar ring */
+.avatar-ring-wrap { position: relative; }
+.level-badge {
+  position: absolute; bottom: -2px; right: -2px;
+  min-width: 17px; height: 17px; padding: 0 3px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-mono); font-size: 10px; font-weight: 700;
+  color: #fff; background: var(--accent);
+  border: 2px solid var(--bg); border-radius: 999px;
+  line-height: 1; box-sizing: content-box;
+}
+
+/* +XP on the result hero */
+.result-xp {
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  margin-top: 10px;
+}
+.result-xp-gain {
+  font-family: var(--font-mono); font-weight: 700;
+  font-size: var(--fs-body); color: var(--accent);
+}
+.result-xp-level { font-size: var(--fs-xs); color: var(--muted); }
+
+/* Level-up overlay (reuses ritual overlay shell) */
+.levelup-card { border-color: rgba(59,130,246,0.5); }
+.levelup-ring {
+  width: 88px; height: 88px; margin: 0 auto 14px;
+  display: flex; align-items: center; justify-content: center; gap: 2px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 35%, rgba(59,130,246,0.35), rgba(59,130,246,0.08));
+  border: 3px solid var(--accent);
+  box-shadow: 0 0 28px rgba(59,130,246,0.45);
+}
+.levelup-arrow { font-size: 20px; }
+.levelup-num {
+  font-family: var(--font-head); font-weight: 800; font-size: 34px; color: #fff;
+}

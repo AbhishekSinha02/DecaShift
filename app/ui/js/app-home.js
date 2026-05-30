@@ -754,6 +754,26 @@ function _showQuestRitual() {
   document.body.appendChild(overlay);
 }
 
+// ── E-005: level-up celebration (shared by quiz + drill finalize) ────────────
+function _showLevelUp(level) {
+  const overlay = document.createElement('div');
+  overlay.className = 'quest-ritual-overlay levelup-overlay';
+  overlay.innerHTML = `
+    <div class="quest-ritual-card levelup-card" role="dialog" aria-label="Level up">
+      <div class="levelup-ring">
+        <span class="levelup-arrow">⬆</span>
+        <span class="levelup-num">${level}</span>
+      </div>
+      <div class="quest-ritual-title">Level ${level}!</div>
+      <p class="quest-ritual-msg">You're growing. Every question moves you up — keep climbing, ${_esc(_getFirstName(state.user))}.</p>
+      <button class="btn btn-primary quest-ritual-dismiss">Keep going →</button>
+    </div>`;
+  const close = () => overlay.remove();
+  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+  overlay.querySelector('.quest-ritual-dismiss').addEventListener('click', close);
+  document.body.appendChild(overlay);
+}
+
 const _AVATAR_GRADIENTS = [
   ['#6366f1','#8b5cf6'], ['#3b82f6','#06b6d4'], ['#10b981','#34d399'],
   ['#f59e0b','#f97316'], ['#ef4444','#ec4899'], ['#8b5cf6','#d946ef'],
@@ -777,14 +797,16 @@ function _renderAvatar() {
     el.style.background = `linear-gradient(135deg, ${c1}, ${c2})`;
   }
 
-  const streak = Storage.loadStreak().current;
-  const circ   = 2 * Math.PI * 22;
-  const fill   = document.getElementById('avatar-ring-fill');
+  // E-005: avatar ring shows LEVEL progress (streak lives in the streak bar)
+  const lv   = (typeof XP !== 'undefined') ? XP.levelFromXP(XP.getTotalXP()) : { level: 1, pct: 0 };
+  const circ = 2 * Math.PI * 22;
+  const fill = document.getElementById('avatar-ring-fill');
   if (fill) {
-    const progress = Math.min(streak / 7, 1);
-    fill.style.strokeDashoffset = String(circ * (1 - progress));
-    fill.style.stroke = streak >= 7 ? '#f59e0b' : '#3b82f6';
+    fill.style.strokeDashoffset = String(circ * (1 - lv.pct));
+    fill.style.stroke = '#3b82f6';
   }
+  const badge = document.getElementById('level-badge');
+  if (badge) badge.textContent = lv.level;
 }
 
 function _renderCityStrip() {

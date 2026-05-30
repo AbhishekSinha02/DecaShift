@@ -322,7 +322,7 @@ async function _showResult() {
   };
 
   Storage.saveSession(session);
-  if (typeof XP !== 'undefined') XP.awardSession(session);  // E-005 (surfaced next commit)
+  const xpResult = (typeof XP !== 'undefined') ? XP.awardSession(session) : null;  // E-005
   const updatedStreak = Storage.updateStreak();
   _checkStreakMilestone(updatedStreak);
   _checkRewardMilestones(updatedStreak);
@@ -389,6 +389,19 @@ async function _showResult() {
     await _showScreen('home');
     _renderHome();
   };
+
+  // E-005: +XP on result + level-up celebration
+  const xpEl = document.getElementById('result-xp');
+  if (xpEl && xpResult && xpResult.gained > 0) {
+    const lv = XP.levelFromXP(xpResult.total);
+    xpEl.innerHTML = `<span class="result-xp-gain">+${xpResult.gained} XP</span>` +
+      `<span class="result-xp-level">Level ${lv.level} · ${lv.xpIntoLevel}/${lv.xpForNext}</span>`;
+  } else if (xpEl) {
+    xpEl.innerHTML = '';
+  }
+  if (xpResult && xpResult.leveledUp && typeof _showLevelUp === 'function') {
+    setTimeout(() => _showLevelUp(xpResult.toLevel), 700);
+  }
 
   _renderNextLevelPrompt(state.selectedGoal);
 }

@@ -232,7 +232,10 @@ function _showDrillResult() {
   const isNewPB = prevRec.bestTime === null || secs < prevRec.bestTime;
 
   if (typeof DailyQuest !== 'undefined') DailyQuest.mark('drill');  // E-003 quest objective
-  if (typeof XP !== 'undefined') XP.awardDrill(correct);            // E-005 (surfaced next commit)
+  const drillXP = (typeof XP !== 'undefined') ? XP.awardDrill(correct) : null;  // E-005
+  if (drillXP && drillXP.leveledUp && typeof _showLevelUp === 'function') {
+    setTimeout(() => _showLevelUp(drillXP.toLevel), 700);
+  }
   const drillStreak = Storage.updateStreak();
   _checkStreakMilestone(drillStreak);
   _checkRewardMilestones(drillStreak);
