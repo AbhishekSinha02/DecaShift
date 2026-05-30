@@ -14,7 +14,7 @@
 
 | # | File | Type | Focus | Task |
 |---|---|---|---|---|
-| 1 | [PENDING-content-w23-hindi.md](PENDING-content-w23-hindi.md) | Content | W23 Hindi G2–8 (35 files/525q) — Math+Science done, Hindi next | CONTENT-GEN-3MONTH-PLAN · C2 |
+| 1 | [PENDING-content-w23-french.md](PENDING-content-w23-french.md) | Content | W23 French G2–8 (35 files/525q) — Math+Science+Hindi done, French next | CONTENT-GEN-3MONTH-PLAN · C3 |
 | 2 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 |
 | 3 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | PWA install banner improvements | P2-T044 |
 
