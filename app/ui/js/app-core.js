@@ -159,6 +159,13 @@ function _renderThemeSelector() {
     avatarBtn.textContent = on ? 'ON' : 'OFF';
     avatarBtn.classList.toggle('on', on);
   }
+
+  const fbBtn = document.getElementById('feedback-toggle-btn');
+  if (fbBtn) {
+    const on = (typeof Feedback !== 'undefined') ? Feedback.isEnabled() : true;
+    fbBtn.textContent = on ? 'ON' : 'OFF';
+    fbBtn.classList.toggle('on', on);
+  }
 }
 
 function _toggleAvatar() {
@@ -166,6 +173,14 @@ function _toggleAvatar() {
   localStorage.setItem('ds_avatar', current ? 'false' : 'true');
   _renderThemeSelector();
   _renderHome();
+}
+
+function _toggleFeedback() {
+  if (typeof Feedback === 'undefined') return;
+  const next = !Feedback.isEnabled();
+  Feedback.setEnabled(next);
+  if (next) Feedback.hit('tap');   // confirm with a tick when turning on
+  _renderThemeSelector();
 }
 
 // ── Manifest + Question Loading ───────────────────────────────────────────────
