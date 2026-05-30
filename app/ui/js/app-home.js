@@ -470,7 +470,16 @@ function _renderStreakBar() {
     if (streak.best >= 30)      badge = '<span class="streak-milestone-chip">🏆 30d</span>';
     else if (streak.best >= 14) badge = '<span class="streak-milestone-chip">🌟 14d</span>';
     else if (streak.best >= 7)  badge = '<span class="streak-milestone-chip">⚡ 7d</span>';
-    elMilestones.innerHTML = badge;
+
+    // E-004: banked streak freezes + "saved today" note
+    let freezeChip = '';
+    if ((streak.freezes || 0) > 0) {
+      freezeChip += `<span class="streak-freeze-chip" title="Streak freezes banked — a missed day won't break your streak">🛡 ${streak.freezes}</span>`;
+    }
+    if (streak.savedByFreeze === new Date().toISOString().slice(0, 10)) {
+      freezeChip += `<span class="streak-saved-note">Streak saved</span>`;
+    }
+    elMilestones.innerHTML = badge + freezeChip;
   }
 
   // Stats (unchanged logic, just moved here)

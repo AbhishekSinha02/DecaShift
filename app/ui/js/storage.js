@@ -135,21 +135,53 @@ const Storage = (() => {
 
   function loadStreak() {
     const raw = localStorage.getItem(KEYS.STREAK);
-    return raw ? JSON.parse(raw) : { current: 0, best: 0, lastDate: null };
+    const stored = raw ? JSON.parse(raw) : {};
+    // E-004: freezes/freezeMilestone/savedByFreeze default in for old records
+    return Object.assign(
+      { current: 0, best: 0, lastDate: null, freezes: 0, freezeMilestone: 0, savedByFreeze: null },
+      stored
+    );
   }
 
   function saveStreak(streak) {
     localStorage.setItem(KEYS.STREAK, JSON.stringify(streak));
   }
 
+  // E-004: kind streak — a single missed day is auto-covered by a banked freeze
+  // instead of resetting. Freezes are earned at each 7-day milestone (cap 2).
   function updateStreak() {
-    const today = new Date().toISOString().slice(0, 10);
+    const today  = new Date().toISOString().slice(0, 10);
     const streak = loadStreak();
     if (streak.lastDate === today) return streak;
-    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-    streak.current = streak.lastDate === yesterday ? streak.current + 1 : 1;
+
+    const last      = streak.lastDate ? Date.parse(streak.lastDate) : null;
+    const daysSince = last !== null ? Math.round((Date.parse(today) - last) / 86400000) : null;
+
+    if (last === null || daysSince === 1) {
+      // first ever activity, or a consecutive day
+      streak.current = last === null ? 1 : streak.current + 1;
+      streak.savedByFreeze = null;
+    } else if (daysSince === 2 && streak.freezes > 0) {
+      // exactly one day missed → spend a freeze, keep the streak alive (kindly)
+      streak.freezes  -= 1;
+      streak.current  += 1;
+      streak.savedByFreeze = today;
+    } else {
+      // longer gap or no freeze → reset, but never punish (D-006 comeback handles tone)
+      streak.current = 1;
+      streak.savedByFreeze = null;
+    }
+
     streak.best = Math.max(streak.best, streak.current);
     streak.lastDate = today;
+
+    // earn freezes at each new 7-day milestone, capped at 2
+    const milestone = Math.floor(streak.current / 7);
+    if (milestone > streak.freezeMilestone) {
+      streak.freezes = Math.min(2, streak.freezes + (milestone - streak.freezeMilestone));
+      streak.freezeMilestone = milestone;
+    }
+
     saveStreak(streak);
     return streak;
   }
