@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w23-fri",
+  "title": "Grade 3 Maths — Fri, Jun 05",
+  "description": "Division — Day 5 of 5: Word problems (Synthesis)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "division", "word-problems", "synthesis"],
+  "questions": [
+    { "id": "g3m-w23-fri-001", "question": "21 students sit in rows of 3. How many rows?", "options": ["6", "7", "8", "9"], "correctIndex": 1, "explanation": "21 ÷ 3 = 7 rows.", "tags": ["word-problem"] },
+    { "id": "g3m-w23-fri-002", "question": "A teacher gives 30 stickers equally to 5 children. Each gets ___.", "options": ["5", "6", "7", "10"], "correctIndex": 1, "explanation": "30 ÷ 5 = 6 stickers each.", "tags": ["word-problem"] },
+    { "id": "g3m-w23-fri-003", "question": "20 laddoos packed 4 to a box. How many boxes?", "options": ["4", "5", "6", "8"], "correctIndex": 1, "explanation": "20 ÷ 4 = 5 boxes.", "tags": ["word-problem"] },
+    { "id": "g3m-w23-fri-004", "question": "17 toffees shared among 4 kids. How many are left over?", "options": ["0", "1", "2", "3"], "correctIndex": 1, "explanation": "4 × 4 = 16, so each gets 4 and 1 is left over.", "tags": ["word-problem", "remainders"] },
+    { "id": "g3m-w23-fri-005", "question": "A rope 18 m long is cut into 2 m pieces. How many pieces?", "options": ["7", "8", "9", "10"], "correctIndex": 2, "explanation": "18 ÷ 2 = 9 pieces.", "tags": ["word-problem"] },
+    { "id": "g3m-w23-fri-006", "question": "₹40 shared equally by 5 friends. Each gets ___.", "options": ["₹6", "₹7", "₹8", "₹10"], "correctIndex": 2, "explanation": "40 ÷ 5 = ₹8 each.", "tags": ["word-problem"] },
+    { "id": "g3m-w23-fri-007", "question": "24 chairs arranged in 4 equal rows. Each row has ___.", "options": ["5", "6", "7", "8"], "correctIndex": 1, "explanation": "24 ÷ 4 = 6 chairs per row.", "tags": ["word-problem"] },
+    { "id": "g3m-w23-fri-008", "question": "15 books shared among 4 shelves equally. How many are left over?", "options": ["1", "2", "3", "4"], "correctIndex": 2, "explanation": "4 × 3 = 12, each shelf gets 3 and 3 are left over.", "tags": ["word-problem", "remainders"] },
+    { "id": "g3m-w23-fri-009", "question": "A baker bakes 35 buns, 5 per tray. How many trays?", "options": ["5", "6", "7", "8"], "correctIndex": 2, "explanation": "35 ÷ 5 = 7 trays.", "tags": ["word-problem"] },
+    { "id": "g3m-w23-fri-010", "question": "12 pencils shared equally between 2 children. Each gets ___.", "options": ["4", "5", "6", "8"], "correctIndex": 2, "explanation": "12 ÷ 2 = 6 pencils each.", "tags": ["word-problem"] },
+    { "id": "g3m-w23-fri-011", "question": "If 4 × 6 = 24, how many groups of 6 are in 24?", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "24 ÷ 6 = 4 groups.", "tags": ["word-problem", "inverse"] },
+    { "id": "g3m-w23-fri-012", "question": "28 apples in baskets of 4. How many baskets?", "options": ["6", "7", "8", "9"], "correctIndex": 1, "explanation": "28 ÷ 4 = 7 baskets.", "tags": ["word-problem"] },
+    { "id": "g3m-w23-fri-013", "question": "A class of 25 makes teams of 5. How many teams?", "options": ["4", "5", "6", "7"], "correctIndex": 1, "explanation": "25 ÷ 5 = 5 teams.", "tags": ["word-problem"] },
+    { "id": "g3m-w23-fri-014", "question": "19 candies shared among 3 kids. Each gets 6, and ___ is left.", "options": ["0", "1", "2", "3"], "correctIndex": 1, "explanation": "3 × 6 = 18, so 1 candy is left over.", "tags": ["word-problem", "remainders"] },
+    { "id": "g3m-w23-fri-015", "question": "36 crayons shared equally in 4 boxes. Each box has ___.", "options": ["7", "8", "9", "12"], "correctIndex": 2, "explanation": "36 ÷ 4 = 9 crayons per box.", "tags": ["word-problem"] }
+  ]
+}

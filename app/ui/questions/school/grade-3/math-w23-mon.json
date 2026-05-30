@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w23-mon",
+  "title": "Grade 3 Maths — Mon, Jun 01",
+  "description": "Division — Day 1 of 5: Sharing equally",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "division", "sharing"],
+  "questions": [
+    { "id": "g3m-w23-mon-001", "question": "6 apples shared equally between 2 children. Each gets how many?", "options": ["2", "3", "4", "6"], "correctIndex": 1, "explanation": "6 ÷ 2 = 3. Each child gets 3 apples.", "tags": ["division", "sharing"] },
+    { "id": "g3m-w23-mon-002", "question": "Which sign means 'divide'?", "options": ["×", "+", "÷", "−"], "correctIndex": 2, "explanation": "The ÷ sign means divide (share equally).", "tags": ["division", "symbol"] },
+    { "id": "g3m-w23-mon-003", "question": "8 sweets shared among 4 friends. Each gets ___.", "options": ["2", "3", "4", "8"], "correctIndex": 0, "explanation": "8 ÷ 4 = 2. Each friend gets 2 sweets.", "tags": ["division", "sharing"] },
+    { "id": "g3m-w23-mon-004", "question": "10 ÷ 5 = ?", "options": ["1", "2", "5", "10"], "correctIndex": 1, "explanation": "10 shared into 5 equal groups gives 2 in each. 10 ÷ 5 = 2.", "tags": ["division", "facts"] },
+    { "id": "g3m-w23-mon-005", "question": "Division means making ___ groups.", "options": ["Bigger", "Equal", "Random", "Two"], "correctIndex": 1, "explanation": "Dividing means splitting into equal groups.", "tags": ["division", "concept"] },
+    { "id": "g3m-w23-mon-006", "question": "12 pencils in 3 boxes equally. Each box has ___.", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "12 ÷ 3 = 4. Each box has 4 pencils.", "tags": ["division", "sharing"] },
+    { "id": "g3m-w23-mon-007", "question": "9 ÷ 3 = ?", "options": ["2", "3", "4", "6"], "correctIndex": 1, "explanation": "9 shared into 3 groups gives 3 each. 9 ÷ 3 = 3.", "tags": ["division", "facts"] },
+    { "id": "g3m-w23-mon-008", "question": "Share 15 balloons among 5 kids. Each gets ___.", "options": ["2", "3", "4", "5"], "correctIndex": 1, "explanation": "15 ÷ 5 = 3 balloons each.", "tags": ["division", "sharing"] },
+    { "id": "g3m-w23-mon-009", "question": "In 6 ÷ 2 = 3, the number 6 is called the ___.", "options": ["Divisor", "Dividend", "Quotient", "Sum"], "correctIndex": 1, "explanation": "The number being divided (6) is the dividend.", "tags": ["division", "vocabulary"] },
+    { "id": "g3m-w23-mon-010", "question": "In 6 ÷ 2 = 3, the answer 3 is called the ___.", "options": ["Dividend", "Divisor", "Quotient", "Product"], "correctIndex": 2, "explanation": "The answer of a division is the quotient.", "tags": ["division", "vocabulary"] },
+    { "id": "g3m-w23-mon-011", "question": "14 ÷ 2 = ?", "options": ["6", "7", "8", "12"], "correctIndex": 1, "explanation": "14 shared into 2 equal groups gives 7 each.", "tags": ["division", "facts"] },
+    { "id": "g3m-w23-mon-012", "question": "20 chocolates among 4 children equally. Each gets ___.", "options": ["4", "5", "6", "10"], "correctIndex": 1, "explanation": "20 ÷ 4 = 5 chocolates each.", "tags": ["division", "sharing"] },
+    { "id": "g3m-w23-mon-013", "question": "Any number divided by 1 equals ___.", "options": ["1", "0", "Itself", "Double"], "correctIndex": 2, "explanation": "Sharing among 1 group keeps everything: 7 ÷ 1 = 7.", "tags": ["division", "rule"] },
+    { "id": "g3m-w23-mon-014", "question": "0 ÷ 5 = ?", "options": ["5", "0", "1", "Cannot do"], "correctIndex": 1, "explanation": "Nothing shared among 5 gives 0 each. 0 ÷ 5 = 0.", "tags": ["division", "rule"] },
+    { "id": "g3m-w23-mon-015", "question": "18 ÷ 2 = ?", "options": ["8", "9", "10", "16"], "correctIndex": 1, "explanation": "18 split into 2 equal groups gives 9 each.", "tags": ["division", "facts"] }
+  ]
+}

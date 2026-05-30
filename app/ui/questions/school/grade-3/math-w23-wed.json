@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w23-wed",
+  "title": "Grade 3 Maths — Wed, Jun 03",
+  "description": "Division — Day 3 of 5: Division facts (tables 2–5)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "division", "facts"],
+  "questions": [
+    { "id": "g3m-w23-wed-001", "question": "16 ÷ 4 = ?", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "4 × 4 = 16, so 16 ÷ 4 = 4.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-002", "question": "25 ÷ 5 = ?", "options": ["4", "5", "6", "7"], "correctIndex": 1, "explanation": "5 × 5 = 25, so 25 ÷ 5 = 5.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-003", "question": "18 ÷ 3 = ?", "options": ["5", "6", "7", "9"], "correctIndex": 1, "explanation": "3 × 6 = 18, so 18 ÷ 3 = 6.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-004", "question": "20 ÷ 4 = ?", "options": ["4", "5", "6", "8"], "correctIndex": 1, "explanation": "4 × 5 = 20, so 20 ÷ 4 = 5.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-005", "question": "30 ÷ 5 = ?", "options": ["5", "6", "7", "8"], "correctIndex": 1, "explanation": "5 × 6 = 30, so 30 ÷ 5 = 6.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-006", "question": "24 ÷ 3 = ?", "options": ["6", "7", "8", "9"], "correctIndex": 2, "explanation": "3 × 8 = 24, so 24 ÷ 3 = 8.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-007", "question": "10 ÷ 2 = ?", "options": ["4", "5", "6", "8"], "correctIndex": 1, "explanation": "2 × 5 = 10, so 10 ÷ 2 = 5.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-008", "question": "35 ÷ 5 = ?", "options": ["5", "6", "7", "8"], "correctIndex": 2, "explanation": "5 × 7 = 35, so 35 ÷ 5 = 7.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-009", "question": "12 ÷ 2 = ?", "options": ["4", "5", "6", "8"], "correctIndex": 2, "explanation": "2 × 6 = 12, so 12 ÷ 2 = 6.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-010", "question": "27 ÷ 3 = ?", "options": ["7", "8", "9", "10"], "correctIndex": 2, "explanation": "3 × 9 = 27, so 27 ÷ 3 = 9.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-011", "question": "40 ÷ 5 = ?", "options": ["6", "7", "8", "9"], "correctIndex": 2, "explanation": "5 × 8 = 40, so 40 ÷ 5 = 8.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-012", "question": "28 ÷ 4 = ?", "options": ["6", "7", "8", "9"], "correctIndex": 1, "explanation": "4 × 7 = 28, so 28 ÷ 4 = 7.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-013", "question": "Which is correct?", "options": ["8 ÷ 2 = 3", "8 ÷ 2 = 4", "8 ÷ 2 = 5", "8 ÷ 2 = 6"], "correctIndex": 1, "explanation": "2 × 4 = 8, so 8 ÷ 2 = 4.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-014", "question": "32 ÷ 4 = ?", "options": ["6", "7", "8", "9"], "correctIndex": 2, "explanation": "4 × 8 = 32, so 32 ÷ 4 = 8.", "tags": ["facts"] },
+    { "id": "g3m-w23-wed-015", "question": "45 ÷ 5 = ?", "options": ["7", "8", "9", "10"], "correctIndex": 2, "explanation": "5 × 9 = 45, so 45 ÷ 5 = 9.", "tags": ["facts"] }
+  ]
+}

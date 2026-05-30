@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w23-tue",
+  "title": "Grade 4 Math — Tue, Jun 02",
+  "description": "Fractions — Day 2 of 5: Equivalent fractions",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "fractions", "equivalent"],
+  "questions": [
+    { "id": "g4m-w23-tue-001", "question": "Which fraction is equal to 1/2?", "options": ["2/3", "2/4", "3/4", "1/4"], "correctIndex": 1, "explanation": "2/4 simplifies to 1/2 (divide both by 2).", "tags": ["equivalent"] },
+    { "id": "g4m-w23-tue-002", "question": "1/3 is the same as ___.", "options": ["2/6", "2/3", "3/6", "1/6"], "correctIndex": 0, "explanation": "Multiply top and bottom by 2: 1/3 = 2/6.", "tags": ["equivalent"] },
+    { "id": "g4m-w23-tue-003", "question": "Which is equivalent to 2/3?", "options": ["3/4", "4/6", "4/5", "3/6"], "correctIndex": 1, "explanation": "Multiply both by 2: 2/3 = 4/6.", "tags": ["equivalent"] },
+    { "id": "g4m-w23-tue-004", "question": "To make an equivalent fraction, multiply top and bottom by the ___ number.", "options": ["Different", "Same", "Bigger", "Smaller"], "correctIndex": 1, "explanation": "Multiplying numerator and denominator by the same number keeps the value equal.", "tags": ["equivalent", "rule"] },
+    { "id": "g4m-w23-tue-005", "question": "3/6 in its simplest form is ___.", "options": ["1/2", "1/3", "2/3", "3/3"], "correctIndex": 0, "explanation": "Divide both by 3: 3/6 = 1/2.", "tags": ["equivalent", "simplify"] },
+    { "id": "g4m-w23-tue-006", "question": "Which fraction equals 1/4?", "options": ["2/6", "2/8", "3/8", "2/4"], "correctIndex": 1, "explanation": "Multiply both by 2: 1/4 = 2/8.", "tags": ["equivalent"] },
+    { "id": "g4m-w23-tue-007", "question": "4/8 is the same as ___.", "options": ["1/2", "1/4", "2/3", "3/4"], "correctIndex": 0, "explanation": "Divide both by 4: 4/8 = 1/2.", "tags": ["equivalent", "simplify"] },
+    { "id": "g4m-w23-tue-008", "question": "Which is NOT equal to 1/2?", "options": ["2/4", "3/6", "4/8", "3/5"], "correctIndex": 3, "explanation": "3/5 is not half; the others all simplify to 1/2.", "tags": ["equivalent"] },
+    { "id": "g4m-w23-tue-009", "question": "2/5 = ?/10", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "Multiply both by 2: 2/5 = 4/10.", "tags": ["equivalent"] },
+    { "id": "g4m-w23-tue-010", "question": "6/9 in simplest form is ___.", "options": ["2/3", "3/4", "1/3", "2/9"], "correctIndex": 0, "explanation": "Divide both by 3: 6/9 = 2/3.", "tags": ["equivalent", "simplify"] },
+    { "id": "g4m-w23-tue-011", "question": "1/2 = 5/?", "options": ["8", "9", "10", "12"], "correctIndex": 2, "explanation": "1/2 = 5/10 (multiply both by 5).", "tags": ["equivalent"] },
+    { "id": "g4m-w23-tue-012", "question": "Which fraction equals 3/4?", "options": ["6/8", "5/8", "4/6", "2/4"], "correctIndex": 0, "explanation": "Multiply both by 2: 3/4 = 6/8.", "tags": ["equivalent"] },
+    { "id": "g4m-w23-tue-013", "question": "8/12 in simplest form is ___.", "options": ["2/3", "3/4", "4/5", "1/2"], "correctIndex": 0, "explanation": "Divide both by 4: 8/12 = 2/3.", "tags": ["equivalent", "simplify"] },
+    { "id": "g4m-w23-tue-014", "question": "Which two fractions are equivalent?", "options": ["1/3 and 2/5", "2/4 and 3/6", "1/2 and 2/5", "3/4 and 2/3"], "correctIndex": 1, "explanation": "Both 2/4 and 3/6 equal 1/2.", "tags": ["equivalent"] },
+    { "id": "g4m-w23-tue-015", "question": "5/10 is the same as ___.", "options": ["1/2", "1/5", "2/5", "5/5"], "correctIndex": 0, "explanation": "Divide both by 5: 5/10 = 1/2.", "tags": ["equivalent", "simplify"] }
+  ]
+}

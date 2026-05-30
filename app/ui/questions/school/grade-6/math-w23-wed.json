@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w23-wed",
+  "title": "Grade 6 Math — Wed, Jun 03",
+  "description": "Ratio & Proportion — Day 3 of 5: Proportion",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-6", "weekly", "proportion"],
+  "questions": [
+    { "id": "g6m-w23-wed-001", "question": "A proportion means two ratios are ___.", "options": ["Different", "Equal", "Added", "Subtracted"], "correctIndex": 1, "explanation": "A proportion states that two ratios are equal, e.g. 1 : 2 = 2 : 4.", "tags": ["proportion", "concept"] },
+    { "id": "g6m-w23-wed-002", "question": "Are 2 : 3 and 4 : 6 in proportion?", "options": ["Yes", "No", "Cannot tell", "Only sometimes"], "correctIndex": 0, "explanation": "4 : 6 = 2 : 3, so they are in proportion.", "tags": ["proportion"] },
+    { "id": "g6m-w23-wed-003", "question": "In a proportion a : b = c : d, the cross products are ___.", "options": ["a×c and b×d", "a×d and b×c", "a+d and b+c", "a−d and b−c"], "correctIndex": 1, "explanation": "a × d = b × c (cross multiplication) when in proportion.", "tags": ["proportion", "rule"] },
+    { "id": "g6m-w23-wed-004", "question": "Are 1 : 2 and 3 : 5 in proportion?", "options": ["Yes", "No", "Equal", "Cannot tell"], "correctIndex": 1, "explanation": "1 × 5 = 5 but 2 × 3 = 6. Not equal, so not in proportion.", "tags": ["proportion"] },
+    { "id": "g6m-w23-wed-005", "question": "Find x: 2 : 4 = x : 8", "options": ["2", "4", "6", "8"], "correctIndex": 1, "explanation": "2 : 4 = 1 : 2, so x : 8 = 1 : 2 means x = 4. (Cross: 2×8=4×x → x=4.)", "tags": ["proportion", "solve"] },
+    { "id": "g6m-w23-wed-006", "question": "Find x: 3 : 5 = 9 : x", "options": ["12", "15", "18", "20"], "correctIndex": 1, "explanation": "Cross multiply: 3x = 5 × 9 = 45, so x = 15.", "tags": ["proportion", "solve"] },
+    { "id": "g6m-w23-wed-007", "question": "Are 5 : 10 and 8 : 16 in proportion?", "options": ["Yes", "No", "Cannot tell", "Only first"], "correctIndex": 0, "explanation": "Both equal 1 : 2, so yes.", "tags": ["proportion"] },
+    { "id": "g6m-w23-wed-008", "question": "Find x: 4 : x = 8 : 12", "options": ["5", "6", "7", "8"], "correctIndex": 1, "explanation": "Cross multiply: 4 × 12 = 8x → 48 = 8x → x = 6.", "tags": ["proportion", "solve"] },
+    { "id": "g6m-w23-wed-009", "question": "Which set is in proportion?", "options": ["1 : 2, 3 : 5", "2 : 3, 6 : 9", "1 : 4, 2 : 9", "3 : 5, 5 : 3"], "correctIndex": 1, "explanation": "2 : 3 = 6 : 9 (both reduce to 2 : 3).", "tags": ["proportion"] },
+    { "id": "g6m-w23-wed-010", "question": "Find x: x : 6 = 2 : 3", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "Cross multiply: 3x = 6 × 2 = 12, so x = 4.", "tags": ["proportion", "solve"] },
+    { "id": "g6m-w23-wed-011", "question": "If a : b = c : d, then b and c are called the ___.", "options": ["Extremes", "Means", "Ratios", "Terms"], "correctIndex": 1, "explanation": "The middle terms b and c are the means; a and d are the extremes.", "tags": ["proportion", "vocabulary"] },
+    { "id": "g6m-w23-wed-012", "question": "Find x: 6 : 9 = 10 : x", "options": ["12", "15", "18", "20"], "correctIndex": 1, "explanation": "6 : 9 = 2 : 3, so 10 : x = 2 : 3 → 2x = 30 → x = 15.", "tags": ["proportion", "solve"] },
+    { "id": "g6m-w23-wed-013", "question": "Are 7 : 14 and 3 : 6 in proportion?", "options": ["Yes", "No", "Cannot tell", "Only sometimes"], "correctIndex": 0, "explanation": "Both equal 1 : 2, so yes.", "tags": ["proportion"] },
+    { "id": "g6m-w23-wed-014", "question": "In a : b = c : d, a and d are called the ___.", "options": ["Means", "Extremes", "Factors", "Products"], "correctIndex": 1, "explanation": "The end terms a and d are the extremes.", "tags": ["proportion", "vocabulary"] },
+    { "id": "g6m-w23-wed-015", "question": "Find x: 2 : 7 = x : 21", "options": ["3", "6", "9", "14"], "correctIndex": 1, "explanation": "Cross multiply: 7x = 2 × 21 = 42, so x = 6.", "tags": ["proportion", "solve"] }
+  ]
+}

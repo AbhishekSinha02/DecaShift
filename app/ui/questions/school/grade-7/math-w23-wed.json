@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-math-w23-wed",
+  "title": "Grade 7 Math — Wed, Jun 03",
+  "description": "Comparing Quantities — Day 3 of 5: Profit & loss",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-7", "weekly", "profit-loss"],
+  "questions": [
+    { "id": "g7m-w23-wed-001", "question": "Profit = Selling Price − ___.", "options": ["Marked Price", "Cost Price", "Discount", "Tax"], "correctIndex": 1, "explanation": "Profit = SP − CP when SP is greater than CP.", "tags": ["profit-loss", "formula"] },
+    { "id": "g7m-w23-wed-002", "question": "An item bought at ₹80 is sold at ₹100. Profit is ___.", "options": ["₹10", "₹20", "₹30", "₹100"], "correctIndex": 1, "explanation": "Profit = 100 − 80 = ₹20.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-wed-003", "question": "Loss happens when ___.", "options": ["SP > CP", "SP = CP", "SP < CP", "CP = 0"], "correctIndex": 2, "explanation": "A loss occurs when selling price is less than cost price.", "tags": ["profit-loss", "concept"] },
+    { "id": "g7m-w23-wed-004", "question": "Profit% is calculated on the ___.", "options": ["Selling Price", "Cost Price", "Profit", "Marked Price"], "correctIndex": 1, "explanation": "Profit% = (Profit ÷ CP) × 100.", "tags": ["profit-loss", "rule"] },
+    { "id": "g7m-w23-wed-005", "question": "CP = ₹200, profit = ₹40. Profit% is ___.", "options": ["10%", "15%", "20%", "25%"], "correctIndex": 2, "explanation": "(40 ÷ 200) × 100 = 20%.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-wed-006", "question": "Bought at ₹150, sold at ₹120. Loss is ___.", "options": ["₹20", "₹30", "₹40", "₹50"], "correctIndex": 1, "explanation": "Loss = 150 − 120 = ₹30.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-wed-007", "question": "CP = ₹500, SP = ₹600. Profit% is ___.", "options": ["10%", "15%", "20%", "25%"], "correctIndex": 2, "explanation": "Profit = 100; (100 ÷ 500) × 100 = 20%.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-wed-008", "question": "CP = ₹250, loss = ₹50. Loss% is ___.", "options": ["10%", "15%", "20%", "25%"], "correctIndex": 2, "explanation": "(50 ÷ 250) × 100 = 20%.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-wed-009", "question": "An article costing ₹400 is sold at 10% profit. SP is ___.", "options": ["₹410", "₹420", "₹440", "₹450"], "correctIndex": 2, "explanation": "10% of 400 = 40; SP = 400 + 40 = ₹440.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-wed-010", "question": "A toy costing ₹600 is sold at 20% loss. SP is ___.", "options": ["₹420", "₹480", "₹500", "₹540"], "correctIndex": 1, "explanation": "20% of 600 = 120; SP = 600 − 120 = ₹480.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-wed-011", "question": "If SP = CP, then there is ___.", "options": ["Profit", "Loss", "No profit, no loss", "Discount"], "correctIndex": 2, "explanation": "Equal SP and CP means neither profit nor loss.", "tags": ["profit-loss", "concept"] },
+    { "id": "g7m-w23-wed-012", "question": "CP = ₹1000, SP = ₹1250. Profit% is ___.", "options": ["20%", "25%", "30%", "12.5%"], "correctIndex": 1, "explanation": "Profit = 250; (250 ÷ 1000) × 100 = 25%.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-wed-013", "question": "A pen bought at ₹50 sold at 10% loss. SP is ___.", "options": ["₹40", "₹45", "₹48", "₹55"], "correctIndex": 1, "explanation": "10% of 50 = 5; SP = 50 − 5 = ₹45.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-wed-014", "question": "CP = ₹300, sold at 15% profit. Profit amount is ___.", "options": ["₹30", "₹45", "₹60", "₹75"], "correctIndex": 1, "explanation": "15% of 300 = ₹45.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-wed-015", "question": "A shopkeeper buys at ₹80 and sells at ₹72. Loss% is ___.", "options": ["8%", "10%", "12%", "20%"], "correctIndex": 1, "explanation": "Loss = 8; (8 ÷ 80) × 100 = 10%.", "tags": ["profit-loss"] }
+  ]
+}

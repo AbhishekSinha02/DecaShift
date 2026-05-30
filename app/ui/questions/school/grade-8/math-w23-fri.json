@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-math-w23-fri",
+  "title": "Grade 8 Math — Fri, Jun 05",
+  "description": "Squares & Square Roots — Day 5 of 5: Synthesis — mixed problems",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-8", "weekly", "squares", "square-roots", "synthesis"],
+  "questions": [
+    { "id": "g8m-w23-fri-001", "question": "17² = ?", "options": ["269", "279", "289", "299"], "correctIndex": 2, "explanation": "17 × 17 = 289.", "tags": ["squares"] },
+    { "id": "g8m-w23-fri-002", "question": "√289 = ?", "options": ["15", "16", "17", "18"], "correctIndex": 2, "explanation": "17 × 17 = 289, so √289 = 17.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-fri-003", "question": "Which is NOT a perfect square?", "options": ["196", "225", "250", "289"], "correctIndex": 2, "explanation": "250 is not a perfect square; 196=14², 225=15², 289=17².", "tags": ["squares"] },
+    { "id": "g8m-w23-fri-004", "question": "A square field has area 169 m². Its perimeter is ___.", "options": ["13 m", "26 m", "52 m", "169 m"], "correctIndex": 2, "explanation": "Side = √169 = 13 m; perimeter = 4 × 13 = 52 m.", "tags": ["square-roots", "word-problem"] },
+    { "id": "g8m-w23-fri-005", "question": "1 + 3 + 5 + 7 + 9 + 11 = ?", "options": ["30", "36", "42", "25"], "correctIndex": 1, "explanation": "Sum of first 6 odd numbers = 6² = 36.", "tags": ["patterns"] },
+    { "id": "g8m-w23-fri-006", "question": "√(900) = ?", "options": ["30", "300", "90", "9"], "correctIndex": 0, "explanation": "30 × 30 = 900, so √900 = 30.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-fri-007", "question": "The smallest number to multiply 8 by to get a perfect square is ___.", "options": ["2", "3", "4", "8"], "correctIndex": 0, "explanation": "8 = 2³; multiply by 2 → 16 = 4².", "tags": ["perfect-square"] },
+    { "id": "g8m-w23-fri-008", "question": "18² = ?", "options": ["304", "314", "324", "334"], "correctIndex": 2, "explanation": "18 × 18 = 324.", "tags": ["squares"] },
+    { "id": "g8m-w23-fri-009", "question": "√(0.25) = ?", "options": ["0.05", "0.5", "5", "0.25"], "correctIndex": 1, "explanation": "0.5 × 0.5 = 0.25, so √0.25 = 0.5.", "tags": ["square-roots", "decimal"] },
+    { "id": "g8m-w23-fri-010", "question": "Between which numbers does √60 lie?", "options": ["6 and 7", "7 and 8", "8 and 9", "5 and 6"], "correctIndex": 1, "explanation": "7² = 49 and 8² = 64, so √60 is between 7 and 8.", "tags": ["estimation"] },
+    { "id": "g8m-w23-fri-011", "question": "If a² = 196, then a = ___.", "options": ["12", "13", "14", "16"], "correctIndex": 2, "explanation": "14 × 14 = 196, so a = 14.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-fri-012", "question": "19² = ?", "options": ["351", "361", "371", "381"], "correctIndex": 1, "explanation": "19 × 19 = 361.", "tags": ["squares"] },
+    { "id": "g8m-w23-fri-013", "question": "√1024 = ?", "options": ["28", "30", "32", "34"], "correctIndex": 2, "explanation": "32 × 32 = 1024, so √1024 = 32.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-fri-014", "question": "A perfect square between 90 and 110 is ___.", "options": ["96", "100", "105", "108"], "correctIndex": 1, "explanation": "100 = 10² is the perfect square in that range.", "tags": ["squares"] },
+    { "id": "g8m-w23-fri-015", "question": "Tiles of side 1 m tile a square hall of 144 m². The hall's side is ___.", "options": ["10 m", "12 m", "14 m", "16 m"], "correctIndex": 1, "explanation": "Side = √144 = 12 m.", "tags": ["square-roots", "word-problem"] }
+  ]
+}

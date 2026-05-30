@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-math-w23-wed",
+  "title": "Grade 8 Math — Wed, Jun 03",
+  "description": "Squares & Square Roots — Day 3 of 5: Square roots",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-8", "weekly", "square-roots"],
+  "questions": [
+    { "id": "g8m-w23-wed-001", "question": "√49 = ?", "options": ["6", "7", "8", "9"], "correctIndex": 1, "explanation": "7 × 7 = 49, so √49 = 7.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-002", "question": "The square root is the ___ of squaring.", "options": ["Same as", "Opposite (inverse)", "Double", "Half"], "correctIndex": 1, "explanation": "Square root undoes squaring: √(x²) = x.", "tags": ["square-roots", "concept"] },
+    { "id": "g8m-w23-wed-003", "question": "√81 = ?", "options": ["8", "9", "7", "18"], "correctIndex": 1, "explanation": "9 × 9 = 81, so √81 = 9.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-004", "question": "√144 = ?", "options": ["11", "12", "13", "14"], "correctIndex": 1, "explanation": "12 × 12 = 144, so √144 = 12.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-005", "question": "The symbol √ is called the ___ sign.", "options": ["Radical", "Equal", "Power", "Ratio"], "correctIndex": 0, "explanation": "√ is the radical sign, meaning square root.", "tags": ["square-roots", "vocabulary"] },
+    { "id": "g8m-w23-wed-006", "question": "√100 = ?", "options": ["10", "20", "50", "1000"], "correctIndex": 0, "explanation": "10 × 10 = 100, so √100 = 10.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-007", "question": "√64 = ?", "options": ["6", "7", "8", "9"], "correctIndex": 2, "explanation": "8 × 8 = 64, so √64 = 8.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-008", "question": "√169 = ?", "options": ["12", "13", "14", "15"], "correctIndex": 1, "explanation": "13 × 13 = 169, so √169 = 13.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-009", "question": "√225 = ?", "options": ["13", "14", "15", "16"], "correctIndex": 2, "explanation": "15 × 15 = 225, so √225 = 15.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-010", "question": "√1 = ?", "options": ["0", "1", "2", "10"], "correctIndex": 1, "explanation": "1 × 1 = 1, so √1 = 1.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-011", "question": "√36 = ?", "options": ["5", "6", "7", "8"], "correctIndex": 1, "explanation": "6 × 6 = 36, so √36 = 6.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-012", "question": "√256 = ?", "options": ["14", "15", "16", "18"], "correctIndex": 2, "explanation": "16 × 16 = 256, so √256 = 16.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-013", "question": "If x² = 121, then x = ___.", "options": ["10", "11", "12", "13"], "correctIndex": 1, "explanation": "11 × 11 = 121, so x = 11.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-014", "question": "√400 = ?", "options": ["20", "40", "200", "4"], "correctIndex": 0, "explanation": "20 × 20 = 400, so √400 = 20.", "tags": ["square-roots"] },
+    { "id": "g8m-w23-wed-015", "question": "A square garden has area 196 m². Its side is ___.", "options": ["12 m", "13 m", "14 m", "16 m"], "correctIndex": 2, "explanation": "√196 = 14, so each side is 14 m.", "tags": ["square-roots", "word-problem"] }
+  ]
+}

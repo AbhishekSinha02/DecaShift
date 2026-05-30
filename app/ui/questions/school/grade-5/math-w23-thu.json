@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w23-thu",
+  "title": "Grade 5 Math — Thu, Jun 04",
+  "description": "Percentages & Averages — Day 4 of 5: Finding the average (mean)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "average", "mean"],
+  "questions": [
+    { "id": "g5m-w23-thu-001", "question": "To find the average, add the numbers and ___ by how many there are.", "options": ["Multiply", "Divide", "Subtract", "Add again"], "correctIndex": 1, "explanation": "Average = sum ÷ count.", "tags": ["average", "rule"] },
+    { "id": "g5m-w23-thu-002", "question": "Average of 4 and 6 is ___.", "options": ["4", "5", "6", "10"], "correctIndex": 1, "explanation": "(4 + 6) ÷ 2 = 10 ÷ 2 = 5.", "tags": ["average"] },
+    { "id": "g5m-w23-thu-003", "question": "Average of 2, 4 and 6 is ___.", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "(2 + 4 + 6) ÷ 3 = 12 ÷ 3 = 4.", "tags": ["average"] },
+    { "id": "g5m-w23-thu-004", "question": "Average of 10 and 20 is ___.", "options": ["10", "15", "20", "30"], "correctIndex": 1, "explanation": "(10 + 20) ÷ 2 = 30 ÷ 2 = 15.", "tags": ["average"] },
+    { "id": "g5m-w23-thu-005", "question": "The average is also called the ___.", "options": ["Total", "Mean", "Range", "Mode"], "correctIndex": 1, "explanation": "Average and mean mean the same thing.", "tags": ["average", "vocabulary"] },
+    { "id": "g5m-w23-thu-006", "question": "Average of 5, 5 and 5 is ___.", "options": ["3", "5", "10", "15"], "correctIndex": 1, "explanation": "(5 + 5 + 5) ÷ 3 = 15 ÷ 3 = 5.", "tags": ["average"] },
+    { "id": "g5m-w23-thu-007", "question": "Average of 3, 7 and 8 is ___.", "options": ["5", "6", "7", "8"], "correctIndex": 1, "explanation": "(3 + 7 + 8) ÷ 3 = 18 ÷ 3 = 6.", "tags": ["average"] },
+    { "id": "g5m-w23-thu-008", "question": "Scores: 8, 10, 12. The average score is ___.", "options": ["9", "10", "11", "12"], "correctIndex": 1, "explanation": "(8 + 10 + 12) ÷ 3 = 30 ÷ 3 = 10.", "tags": ["average", "word-problem"] },
+    { "id": "g5m-w23-thu-009", "question": "Average of 1, 2, 3, 4 is ___.", "options": ["2", "2.5", "3", "3.5"], "correctIndex": 1, "explanation": "(1 + 2 + 3 + 4) ÷ 4 = 10 ÷ 4 = 2.5.", "tags": ["average"] },
+    { "id": "g5m-w23-thu-010", "question": "A boy reads 4, 6 and 8 pages on 3 days. Average pages per day?", "options": ["5", "6", "7", "8"], "correctIndex": 1, "explanation": "(4 + 6 + 8) ÷ 3 = 18 ÷ 3 = 6 pages.", "tags": ["average", "word-problem"] },
+    { "id": "g5m-w23-thu-011", "question": "Average of 20 and 40 is ___.", "options": ["20", "25", "30", "60"], "correctIndex": 2, "explanation": "(20 + 40) ÷ 2 = 60 ÷ 2 = 30.", "tags": ["average"] },
+    { "id": "g5m-w23-thu-012", "question": "Average of 0, 5 and 10 is ___.", "options": ["3", "5", "7", "15"], "correctIndex": 1, "explanation": "(0 + 5 + 10) ÷ 3 = 15 ÷ 3 = 5.", "tags": ["average"] },
+    { "id": "g5m-w23-thu-013", "question": "Temperatures: 30°, 32°, 34°, 28°. Average is ___.", "options": ["30°", "31°", "32°", "33°"], "correctIndex": 1, "explanation": "(30 + 32 + 34 + 28) ÷ 4 = 124 ÷ 4 = 31°.", "tags": ["average", "word-problem"] },
+    { "id": "g5m-w23-thu-014", "question": "If the average of two numbers is 8, their sum is ___.", "options": ["8", "12", "16", "4"], "correctIndex": 2, "explanation": "Sum = average × count = 8 × 2 = 16.", "tags": ["average", "reverse"] },
+    { "id": "g5m-w23-thu-015", "question": "Average of 6, 6, 6 and 10 is ___.", "options": ["6", "7", "8", "10"], "correctIndex": 1, "explanation": "(6 + 6 + 6 + 10) ÷ 4 = 28 ÷ 4 = 7.", "tags": ["average"] }
+  ]
+}

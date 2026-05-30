@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w23-mon",
+  "title": "Grade 2 Math — Mon, Jun 01",
+  "description": "3D Solid Shapes — Day 1 of 5: Naming solids around us",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "3d-shapes", "solids"],
+  "questions": [
+    { "id": "g2m-w23-mon-001", "question": "Which shape looks like a ball?", "options": ["Cube", "Sphere", "Cone", "Cylinder"], "correctIndex": 1, "explanation": "A ball is round all over — that is a sphere.", "tags": ["solids", "sphere"] },
+    { "id": "g2m-w23-mon-002", "question": "An ice-cream cone is shaped like a ___.", "options": ["Cone", "Cube", "Sphere", "Cuboid"], "correctIndex": 0, "explanation": "A cone has a round bottom and a pointy top, just like an ice-cream cone.", "tags": ["solids", "cone"] },
+    { "id": "g2m-w23-mon-003", "question": "A dice (number cube) is the shape of a ___.", "options": ["Sphere", "Cylinder", "Cube", "Cone"], "correctIndex": 2, "explanation": "A dice has 6 equal flat square faces — it is a cube.", "tags": ["solids", "cube"] },
+    { "id": "g2m-w23-mon-004", "question": "Which everyday object is shaped like a cylinder?", "options": ["A football", "A tin can", "A birthday cap", "A book"], "correctIndex": 1, "explanation": "A tin can has two flat round ends and a curved side — that is a cylinder.", "tags": ["solids", "cylinder"] },
+    { "id": "g2m-w23-mon-005", "question": "Which of these is a 3D (solid) shape?", "options": ["Circle", "Square", "Triangle", "Cube"], "correctIndex": 3, "explanation": "Circle, square and triangle are flat (2D). A cube is a solid you can hold — it is 3D.", "tags": ["solids", "2d-vs-3d"] },
+    { "id": "g2m-w23-mon-006", "question": "A birthday cap is shaped like a ___.", "options": ["Cube", "Cylinder", "Cone", "Sphere"], "correctIndex": 2, "explanation": "A birthday cap is wide at the bottom and pointy at the top — a cone.", "tags": ["solids", "cone"] },
+    { "id": "g2m-w23-mon-007", "question": "A brick is most like which solid shape?", "options": ["Cuboid", "Sphere", "Cone", "Cylinder"], "correctIndex": 0, "explanation": "A brick is a box shape with flat rectangular faces — a cuboid.", "tags": ["solids", "cuboid"] },
+    { "id": "g2m-w23-mon-008", "question": "Which shape can roll easily?", "options": ["Cube", "Cuboid", "Sphere", "Brick"], "correctIndex": 2, "explanation": "A sphere is round all over, so it rolls in any direction.", "tags": ["solids", "rolling"] },
+    { "id": "g2m-w23-mon-009", "question": "The Sun and the Moon look like which solid shape?", "options": ["Cube", "Sphere", "Cone", "Cylinder"], "correctIndex": 1, "explanation": "They look round like a ball — a sphere.", "tags": ["solids", "sphere"] },
+    { "id": "g2m-w23-mon-010", "question": "Which object is shaped like a cube?", "options": ["A pipe", "A sugar cube", "An egg", "A funnel"], "correctIndex": 1, "explanation": "A sugar cube has 6 equal square faces — it is a cube.", "tags": ["solids", "cube"] },
+    { "id": "g2m-w23-mon-011", "question": "A pencil (before sharpening) is most like a ___.", "options": ["Sphere", "Cube", "Cylinder", "Cone"], "correctIndex": 2, "explanation": "A long round pencil body is a cylinder.", "tags": ["solids", "cylinder"] },
+    { "id": "g2m-w23-mon-012", "question": "Which solid shape has a pointy tip (vertex) at the top?", "options": ["Sphere", "Cone", "Cylinder", "Cube"], "correctIndex": 1, "explanation": "A cone narrows to a single point at the top.", "tags": ["solids", "cone"] },
+    { "id": "g2m-w23-mon-013", "question": "A matchbox is the shape of a ___.", "options": ["Cuboid", "Sphere", "Cone", "Cylinder"], "correctIndex": 0, "explanation": "A matchbox is a box with rectangular faces — a cuboid.", "tags": ["solids", "cuboid"] },
+    { "id": "g2m-w23-mon-014", "question": "Which of these solids has NO flat face at all?", "options": ["Cube", "Cylinder", "Sphere", "Cone"], "correctIndex": 2, "explanation": "A sphere is curved everywhere with no flat face.", "tags": ["solids", "faces"] },
+    { "id": "g2m-w23-mon-015", "question": "A glass tumbler is closest to which shape?", "options": ["Cube", "Cylinder", "Sphere", "Cone"], "correctIndex": 1, "explanation": "A tumbler has round flat ends and a curved side — a cylinder.", "tags": ["solids", "cylinder"] }
+  ]
+}

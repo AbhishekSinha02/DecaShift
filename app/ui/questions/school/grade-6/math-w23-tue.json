@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w23-tue",
+  "title": "Grade 6 Math — Tue, Jun 02",
+  "description": "Ratio & Proportion — Day 2 of 5: Equivalent ratios",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-6", "weekly", "ratio", "equivalent"],
+  "questions": [
+    { "id": "g6m-w23-tue-001", "question": "Which ratio is equivalent to 1 : 2?", "options": ["2 : 3", "2 : 4", "3 : 4", "1 : 3"], "correctIndex": 1, "explanation": "Multiply both by 2: 1 : 2 = 2 : 4.", "tags": ["equivalent"] },
+    { "id": "g6m-w23-tue-002", "question": "Equivalent ratios are made by multiplying or dividing both terms by the ___ number.", "options": ["Different", "Same", "Bigger", "Even"], "correctIndex": 1, "explanation": "Multiply or divide both terms by the same number.", "tags": ["equivalent", "rule"] },
+    { "id": "g6m-w23-tue-003", "question": "2 : 3 = 4 : ?", "options": ["5", "6", "7", "8"], "correctIndex": 1, "explanation": "Multiply both by 2: 2 : 3 = 4 : 6.", "tags": ["equivalent"] },
+    { "id": "g6m-w23-tue-004", "question": "Which is equivalent to 3 : 5?", "options": ["6 : 10", "5 : 3", "6 : 8", "9 : 12"], "correctIndex": 0, "explanation": "Multiply both by 2: 3 : 5 = 6 : 10.", "tags": ["equivalent"] },
+    { "id": "g6m-w23-tue-005", "question": "1 : 4 = ? : 12", "options": ["2", "3", "4", "6"], "correctIndex": 1, "explanation": "Multiply both by 3: 1 : 4 = 3 : 12.", "tags": ["equivalent"] },
+    { "id": "g6m-w23-tue-006", "question": "Which ratio is NOT equivalent to 2 : 5?", "options": ["4 : 10", "6 : 15", "8 : 20", "4 : 8"], "correctIndex": 3, "explanation": "4 : 8 = 1 : 2, not 2 : 5. The others all reduce to 2 : 5.", "tags": ["equivalent"] },
+    { "id": "g6m-w23-tue-007", "question": "5 : 6 = 10 : ?", "options": ["10", "11", "12", "15"], "correctIndex": 2, "explanation": "Multiply both by 2: 5 : 6 = 10 : 12.", "tags": ["equivalent"] },
+    { "id": "g6m-w23-tue-008", "question": "Which is equivalent to 6 : 9?", "options": ["2 : 3", "3 : 2", "2 : 5", "9 : 6"], "correctIndex": 0, "explanation": "Divide both by 3: 6 : 9 = 2 : 3.", "tags": ["equivalent", "simplify"] },
+    { "id": "g6m-w23-tue-009", "question": "3 : 7 = 9 : ?", "options": ["14", "18", "21", "27"], "correctIndex": 2, "explanation": "Multiply both by 3: 3 : 7 = 9 : 21.", "tags": ["equivalent"] },
+    { "id": "g6m-w23-tue-010", "question": "Which two ratios are equivalent?", "options": ["1 : 2 and 2 : 5", "2 : 3 and 4 : 6", "3 : 4 and 6 : 9", "1 : 3 and 2 : 5"], "correctIndex": 1, "explanation": "2 : 3 = 4 : 6 (multiply both by 2).", "tags": ["equivalent"] },
+    { "id": "g6m-w23-tue-011", "question": "8 : 12 in simplest form is ___.", "options": ["2 : 3", "3 : 2", "4 : 6", "2 : 5"], "correctIndex": 0, "explanation": "Divide both by 4: 8 : 12 = 2 : 3.", "tags": ["equivalent", "simplify"] },
+    { "id": "g6m-w23-tue-012", "question": "1 : 5 = 4 : ?", "options": ["15", "20", "25", "9"], "correctIndex": 1, "explanation": "Multiply both by 4: 1 : 5 = 4 : 20.", "tags": ["equivalent"] },
+    { "id": "g6m-w23-tue-013", "question": "Which ratio equals 10 : 15?", "options": ["2 : 3", "3 : 2", "5 : 10", "1 : 5"], "correctIndex": 0, "explanation": "Divide both by 5: 10 : 15 = 2 : 3.", "tags": ["equivalent", "simplify"] },
+    { "id": "g6m-w23-tue-014", "question": "4 : 9 = ? : 18", "options": ["6", "8", "9", "12"], "correctIndex": 1, "explanation": "Multiply both by 2: 4 : 9 = 8 : 18.", "tags": ["equivalent"] },
+    { "id": "g6m-w23-tue-015", "question": "To find an equivalent ratio for a recipe, you ___ both ingredients.", "options": ["Add to", "Scale (multiply) equally", "Subtract from", "Ignore"], "correctIndex": 1, "explanation": "Scaling both quantities by the same factor keeps the ratio equivalent.", "tags": ["equivalent", "application"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w23-thu",
+  "title": "Grade 3 Maths — Thu, Jun 04",
+  "description": "Division — Day 4 of 5: Remainders",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "division", "remainders"],
+  "questions": [
+    { "id": "g3m-w23-thu-001", "question": "7 sweets shared between 2 kids. How many are left over?", "options": ["0", "1", "2", "3"], "correctIndex": 1, "explanation": "7 ÷ 2 = 3 each, with 1 left over. Remainder = 1.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-002", "question": "The number left over after dividing is called the ___.", "options": ["Quotient", "Divisor", "Remainder", "Dividend"], "correctIndex": 2, "explanation": "What is left over is the remainder.", "tags": ["remainders", "vocabulary"] },
+    { "id": "g3m-w23-thu-003", "question": "9 ÷ 4 leaves a remainder of ___.", "options": ["0", "1", "2", "3"], "correctIndex": 1, "explanation": "4 × 2 = 8, and 9 − 8 = 1. Remainder = 1.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-004", "question": "13 ÷ 5 gives quotient 2 and remainder ___.", "options": ["1", "2", "3", "4"], "correctIndex": 2, "explanation": "5 × 2 = 10, and 13 − 10 = 3. Remainder = 3.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-005", "question": "10 ÷ 3 leaves a remainder of ___.", "options": ["0", "1", "2", "3"], "correctIndex": 1, "explanation": "3 × 3 = 9, and 10 − 9 = 1. Remainder = 1.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-006", "question": "When a number divides exactly, the remainder is ___.", "options": ["1", "0", "The divisor", "The quotient"], "correctIndex": 1, "explanation": "Exact division leaves nothing over — remainder 0.", "tags": ["remainders", "rule"] },
+    { "id": "g3m-w23-thu-007", "question": "11 ÷ 2 = 5 remainder ___.", "options": ["0", "1", "2", "3"], "correctIndex": 1, "explanation": "2 × 5 = 10, and 11 − 10 = 1. Remainder = 1.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-008", "question": "The remainder is always ___ the divisor.", "options": ["Bigger than", "Equal to", "Smaller than", "Double"], "correctIndex": 2, "explanation": "If the remainder were as big as the divisor, you could share once more.", "tags": ["remainders", "rule"] },
+    { "id": "g3m-w23-thu-009", "question": "17 ÷ 5 = 3 remainder ___.", "options": ["1", "2", "3", "4"], "correctIndex": 1, "explanation": "5 × 3 = 15, and 17 − 15 = 2. Remainder = 2.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-010", "question": "Which division has remainder 0?", "options": ["7 ÷ 2", "12 ÷ 4", "10 ÷ 3", "11 ÷ 5"], "correctIndex": 1, "explanation": "12 ÷ 4 = 3 exactly, remainder 0.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-011", "question": "19 ÷ 4 = 4 remainder ___.", "options": ["1", "2", "3", "4"], "correctIndex": 2, "explanation": "4 × 4 = 16, and 19 − 16 = 3. Remainder = 3.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-012", "question": "8 mangoes shared among 3 boys. Remainder?", "options": ["0", "1", "2", "3"], "correctIndex": 2, "explanation": "3 × 2 = 6, and 8 − 6 = 2. Remainder = 2.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-013", "question": "14 ÷ 3 = 4 remainder ___.", "options": ["1", "2", "3", "4"], "correctIndex": 1, "explanation": "3 × 4 = 12, and 14 − 12 = 2. Remainder = 2.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-014", "question": "Which has a remainder of 1?", "options": ["10 ÷ 5", "9 ÷ 3", "13 ÷ 4", "8 ÷ 4"], "correctIndex": 2, "explanation": "4 × 3 = 12, and 13 − 12 = 1. Remainder = 1.", "tags": ["remainders"] },
+    { "id": "g3m-w23-thu-015", "question": "23 ÷ 5 = 4 remainder ___.", "options": ["1", "2", "3", "4"], "correctIndex": 2, "explanation": "5 × 4 = 20, and 23 − 20 = 3. Remainder = 3.", "tags": ["remainders"] }
+  ]
+}

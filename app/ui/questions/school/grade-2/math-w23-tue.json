@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w23-tue",
+  "title": "Grade 2 Math — Tue, Jun 02",
+  "description": "3D Solid Shapes — Day 2 of 5: Faces, edges and corners",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "3d-shapes", "faces"],
+  "questions": [
+    { "id": "g2m-w23-tue-001", "question": "How many flat faces does a cube have?", "options": ["4", "6", "8", "12"], "correctIndex": 1, "explanation": "A cube has 6 square faces — top, bottom and four sides.", "tags": ["faces", "cube"] },
+    { "id": "g2m-w23-tue-002", "question": "A flat surface of a solid shape is called its ___.", "options": ["Edge", "Corner", "Face", "Point"], "correctIndex": 2, "explanation": "The flat parts you can touch are called faces.", "tags": ["faces", "vocabulary"] },
+    { "id": "g2m-w23-tue-003", "question": "Where two faces meet, we get a line called an ___.", "options": ["Edge", "Face", "Corner", "Curve"], "correctIndex": 0, "explanation": "The line where two faces meet is an edge.", "tags": ["edges", "vocabulary"] },
+    { "id": "g2m-w23-tue-004", "question": "The pointy spot where edges meet is called a ___ (corner).", "options": ["Face", "Edge", "Vertex", "Side"], "correctIndex": 2, "explanation": "A corner of a solid is called a vertex.", "tags": ["vertices", "vocabulary"] },
+    { "id": "g2m-w23-tue-005", "question": "How many corners (vertices) does a cube have?", "options": ["6", "8", "10", "12"], "correctIndex": 1, "explanation": "A cube has 8 corners.", "tags": ["vertices", "cube"] },
+    { "id": "g2m-w23-tue-006", "question": "How many faces does a cuboid (box) have?", "options": ["6", "4", "8", "5"], "correctIndex": 0, "explanation": "Like a cube, a cuboid also has 6 faces, but they are rectangles.", "tags": ["faces", "cuboid"] },
+    { "id": "g2m-w23-tue-007", "question": "A sphere has how many flat faces?", "options": ["1", "2", "0", "6"], "correctIndex": 2, "explanation": "A sphere is curved all over — it has 0 flat faces.", "tags": ["faces", "sphere"] },
+    { "id": "g2m-w23-tue-008", "question": "How many flat faces does a cylinder have?", "options": ["1", "2", "3", "6"], "correctIndex": 1, "explanation": "A cylinder has 2 flat round faces — the top and the bottom.", "tags": ["faces", "cylinder"] },
+    { "id": "g2m-w23-tue-009", "question": "How many edges does a cube have?", "options": ["8", "10", "12", "6"], "correctIndex": 2, "explanation": "A cube has 12 straight edges.", "tags": ["edges", "cube"] },
+    { "id": "g2m-w23-tue-010", "question": "A cone has how many flat faces?", "options": ["0", "1", "2", "3"], "correctIndex": 1, "explanation": "A cone has 1 flat round face at the bottom and a curved surface.", "tags": ["faces", "cone"] },
+    { "id": "g2m-w23-tue-011", "question": "How many corners (vertices) does a cone have?", "options": ["0", "1", "2", "4"], "correctIndex": 1, "explanation": "A cone has 1 vertex — the sharp tip at the top.", "tags": ["vertices", "cone"] },
+    { "id": "g2m-w23-tue-012", "question": "Which solid has 6 faces that are all squares?", "options": ["Cuboid", "Cube", "Cylinder", "Cone"], "correctIndex": 1, "explanation": "All 6 faces of a cube are equal squares.", "tags": ["faces", "cube"] },
+    { "id": "g2m-w23-tue-013", "question": "How many corners does a sphere have?", "options": ["0", "1", "2", "8"], "correctIndex": 0, "explanation": "A sphere is smooth and round — it has no corners.", "tags": ["vertices", "sphere"] },
+    { "id": "g2m-w23-tue-014", "question": "The faces of a cuboid are shaped like ___.", "options": ["Circles", "Triangles", "Rectangles", "Stars"], "correctIndex": 2, "explanation": "A cuboid's flat faces are rectangles.", "tags": ["faces", "cuboid"] },
+    { "id": "g2m-w23-tue-015", "question": "Which solid has a curved surface AND two flat circles?", "options": ["Cube", "Cone", "Cylinder", "Cuboid"], "correctIndex": 2, "explanation": "A cylinder has a curved side and two flat round faces.", "tags": ["faces", "cylinder"] }
+  ]
+}

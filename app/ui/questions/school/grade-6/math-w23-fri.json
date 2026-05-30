@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w23-fri",
+  "title": "Grade 6 Math — Fri, Jun 05",
+  "description": "Ratio & Proportion — Day 5 of 5: Word problems (Synthesis)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-6", "weekly", "ratio", "proportion", "synthesis"],
+  "questions": [
+    { "id": "g6m-w23-fri-001", "question": "Divide ₹100 between A and B in the ratio 2 : 3. A gets ___.", "options": ["₹30", "₹40", "₹50", "₹60"], "correctIndex": 1, "explanation": "Total parts = 5. One part = 100 ÷ 5 = ₹20. A = 2 × 20 = ₹40.", "tags": ["ratio", "sharing"] },
+    { "id": "g6m-w23-fri-002", "question": "In the same split (₹100, ratio 2 : 3), B gets ___.", "options": ["₹40", "₹50", "₹60", "₹70"], "correctIndex": 2, "explanation": "B = 3 parts = 3 × 20 = ₹60.", "tags": ["ratio", "sharing"] },
+    { "id": "g6m-w23-fri-003", "question": "A recipe uses sugar : flour = 1 : 3. For 2 cups sugar, flour needed?", "options": ["3 cups", "4 cups", "6 cups", "9 cups"], "correctIndex": 2, "explanation": "Scale by 2: 1 : 3 = 2 : 6, so 6 cups flour.", "tags": ["proportion", "recipe"] },
+    { "id": "g6m-w23-fri-004", "question": "If 4 notebooks cost ₹120, then 6 cost ___.", "options": ["₹150", "₹160", "₹180", "₹200"], "correctIndex": 2, "explanation": "1 notebook = 30; 6 × 30 = ₹180.", "tags": ["unitary"] },
+    { "id": "g6m-w23-fri-005", "question": "The ratio of red to blue balls is 5 : 4. If there are 20 red, how many blue?", "options": ["12", "16", "20", "25"], "correctIndex": 1, "explanation": "5 : 4 = 20 : 16, so 16 blue.", "tags": ["proportion"] },
+    { "id": "g6m-w23-fri-006", "question": "Simplify the ratio 250 g : 1 kg.", "options": ["1 : 4", "4 : 1", "1 : 250", "25 : 100"], "correctIndex": 0, "explanation": "1 kg = 1000 g, so 250 : 1000 = 1 : 4.", "tags": ["ratio", "units"] },
+    { "id": "g6m-w23-fri-007", "question": "Divide 30 sweets between two kids in ratio 1 : 2. The larger share is ___.", "options": ["10", "15", "20", "25"], "correctIndex": 2, "explanation": "Parts = 3, one part = 10. Larger = 2 × 10 = 20.", "tags": ["ratio", "sharing"] },
+    { "id": "g6m-w23-fri-008", "question": "Are 12 : 18 and 2 : 3 in proportion?", "options": ["Yes", "No", "Cannot tell", "Only sometimes"], "correctIndex": 0, "explanation": "12 : 18 = 2 : 3, so yes.", "tags": ["proportion"] },
+    { "id": "g6m-w23-fri-009", "question": "A map scale is 1 cm : 5 km. 4 cm represents ___.", "options": ["9 km", "15 km", "20 km", "25 km"], "correctIndex": 2, "explanation": "1 : 5 = 4 : 20, so 20 km.", "tags": ["proportion", "scale"] },
+    { "id": "g6m-w23-fri-010", "question": "Find x: 5 : 8 = 15 : x", "options": ["18", "21", "24", "27"], "correctIndex": 2, "explanation": "5 : 8 = 15 : 24 (multiply both by 3).", "tags": ["proportion", "solve"] },
+    { "id": "g6m-w23-fri-011", "question": "Boys : girls = 3 : 2 in a class of 30. Number of boys?", "options": ["12", "15", "18", "20"], "correctIndex": 2, "explanation": "Parts = 5, one part = 6. Boys = 3 × 6 = 18.", "tags": ["ratio", "sharing"] },
+    { "id": "g6m-w23-fri-012", "question": "If 9 m cloth costs ₹270, then 1 m costs ___.", "options": ["₹25", "₹30", "₹35", "₹40"], "correctIndex": 1, "explanation": "270 ÷ 9 = ₹30 per metre.", "tags": ["unitary"] },
+    { "id": "g6m-w23-fri-013", "question": "Simplify 1 hour : 30 minutes.", "options": ["1 : 30", "2 : 1", "1 : 2", "30 : 60"], "correctIndex": 1, "explanation": "1 hour = 60 min, so 60 : 30 = 2 : 1.", "tags": ["ratio", "units"] },
+    { "id": "g6m-w23-fri-014", "question": "Share 45 marbles in ratio 4 : 5. The smaller share is ___.", "options": ["15", "20", "25", "30"], "correctIndex": 1, "explanation": "Parts = 9, one part = 5. Smaller = 4 × 5 = 20.", "tags": ["ratio", "sharing"] },
+    { "id": "g6m-w23-fri-015", "question": "If 2 machines make 100 toys, how many do 6 machines make (same rate)?", "options": ["200", "250", "300", "350"], "correctIndex": 2, "explanation": "1 machine = 50; 6 × 50 = 300 toys.", "tags": ["unitary", "proportion"] }
+  ]
+}

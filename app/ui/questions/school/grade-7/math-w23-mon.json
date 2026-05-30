@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-math-w23-mon",
+  "title": "Grade 7 Math — Mon, Jun 01",
+  "description": "Comparing Quantities — Day 1 of 5: Ratios & percentages",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-7", "weekly", "percentage", "ratio"],
+  "questions": [
+    { "id": "g7m-w23-mon-001", "question": "The ratio 3 : 4 written as a percentage of the whole (first part) is ___.", "options": ["30%", "Approx 43%", "75%", "34%"], "correctIndex": 1, "explanation": "First part = 3 of 7 total = 3/7 ≈ 0.4286 ≈ 43%.", "tags": ["ratio", "percentage"] },
+    { "id": "g7m-w23-mon-002", "question": "Convert 2/5 to a percent.", "options": ["20%", "25%", "40%", "52%"], "correctIndex": 2, "explanation": "2/5 × 100 = 40%.", "tags": ["percentage", "conversion"] },
+    { "id": "g7m-w23-mon-003", "question": "What is 15% of 200?", "options": ["20", "25", "30", "35"], "correctIndex": 2, "explanation": "15% of 200 = (15/100) × 200 = 30.", "tags": ["percentage"] },
+    { "id": "g7m-w23-mon-004", "question": "Express 0.35 as a percent.", "options": ["3.5%", "35%", "350%", "0.35%"], "correctIndex": 1, "explanation": "0.35 × 100 = 35%.", "tags": ["percentage", "conversion"] },
+    { "id": "g7m-w23-mon-005", "question": "What percent is 12 out of 48?", "options": ["20%", "24%", "25%", "30%"], "correctIndex": 2, "explanation": "12/48 = 1/4 = 25%.", "tags": ["percentage"] },
+    { "id": "g7m-w23-mon-006", "question": "Increase 50 by 10%. New value?", "options": ["55", "60", "65", "45"], "correctIndex": 0, "explanation": "10% of 50 = 5; 50 + 5 = 55.", "tags": ["percentage", "increase"] },
+    { "id": "g7m-w23-mon-007", "question": "Decrease 80 by 25%. New value?", "options": ["55", "60", "65", "70"], "correctIndex": 1, "explanation": "25% of 80 = 20; 80 − 20 = 60.", "tags": ["percentage", "decrease"] },
+    { "id": "g7m-w23-mon-008", "question": "Convert 5% to a fraction in simplest form.", "options": ["1/20", "1/5", "5/10", "1/2"], "correctIndex": 0, "explanation": "5/100 = 1/20.", "tags": ["percentage", "fraction"] },
+    { "id": "g7m-w23-mon-009", "question": "What is 120% of 50?", "options": ["50", "55", "60", "70"], "correctIndex": 2, "explanation": "120% of 50 = (120/100) × 50 = 60.", "tags": ["percentage"] },
+    { "id": "g7m-w23-mon-010", "question": "If 30% of a number is 60, the number is ___.", "options": ["120", "150", "180", "200"], "correctIndex": 3, "explanation": "30% = 60, so 1% = 2, and 100% = 200.", "tags": ["percentage", "reverse"] },
+    { "id": "g7m-w23-mon-011", "question": "Convert 7/20 to a percent.", "options": ["27%", "35%", "70%", "14%"], "correctIndex": 1, "explanation": "7/20 = 35/100 = 35%.", "tags": ["percentage", "conversion"] },
+    { "id": "g7m-w23-mon-012", "question": "What is 40% of 250?", "options": ["80", "100", "120", "150"], "correctIndex": 1, "explanation": "40% of 250 = (40/100) × 250 = 100.", "tags": ["percentage"] },
+    { "id": "g7m-w23-mon-013", "question": "A ratio 1 : 4 means the first quantity is what percent of the total?", "options": ["10%", "20%", "25%", "40%"], "correctIndex": 1, "explanation": "1 of 5 parts = 1/5 = 20%.", "tags": ["ratio", "percentage"] },
+    { "id": "g7m-w23-mon-014", "question": "If 25% of students wear glasses in a class of 40, how many wear glasses?", "options": ["8", "10", "12", "15"], "correctIndex": 1, "explanation": "25% of 40 = 10.", "tags": ["percentage", "word-problem"] },
+    { "id": "g7m-w23-mon-015", "question": "Express 3 : 2 as a percentage split (first : second).", "options": ["50% : 50%", "60% : 40%", "40% : 60%", "30% : 20%"], "correctIndex": 1, "explanation": "Total 5 parts: 3/5 = 60% and 2/5 = 40%.", "tags": ["ratio", "percentage"] }
+  ]
+}

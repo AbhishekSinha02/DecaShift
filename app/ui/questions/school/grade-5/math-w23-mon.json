@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w23-mon",
+  "title": "Grade 5 Math — Mon, Jun 01",
+  "description": "Percentages & Averages — Day 1 of 5: Understanding percent",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "percentage"],
+  "questions": [
+    { "id": "g5m-w23-mon-001", "question": "What does 'per cent' mean?", "options": ["Out of ten", "Out of hundred", "Out of fifty", "Out of one"], "correctIndex": 1, "explanation": "Per cent means 'out of 100'. 25% = 25 out of 100.", "tags": ["percentage", "concept"] },
+    { "id": "g5m-w23-mon-002", "question": "50% is the same as which fraction?", "options": ["1/4", "1/2", "1/5", "3/4"], "correctIndex": 1, "explanation": "50/100 = 1/2.", "tags": ["percentage", "fraction"] },
+    { "id": "g5m-w23-mon-003", "question": "25% as a fraction is ___.", "options": ["1/2", "1/3", "1/4", "1/5"], "correctIndex": 2, "explanation": "25/100 = 1/4.", "tags": ["percentage", "fraction"] },
+    { "id": "g5m-w23-mon-004", "question": "What percent is the whole thing?", "options": ["10%", "50%", "100%", "1000%"], "correctIndex": 2, "explanation": "The whole is 100%.", "tags": ["percentage", "concept"] },
+    { "id": "g5m-w23-mon-005", "question": "10% means ___ out of 100.", "options": ["1", "10", "100", "0"], "correctIndex": 1, "explanation": "10% = 10 out of 100.", "tags": ["percentage"] },
+    { "id": "g5m-w23-mon-006", "question": "75% as a fraction in simplest form is ___.", "options": ["3/4", "7/10", "1/2", "2/3"], "correctIndex": 0, "explanation": "75/100 = 3/4.", "tags": ["percentage", "fraction"] },
+    { "id": "g5m-w23-mon-007", "question": "If 40 of 100 squares are shaded, what percent is shaded?", "options": ["4%", "40%", "60%", "100%"], "correctIndex": 1, "explanation": "40 out of 100 = 40%.", "tags": ["percentage"] },
+    { "id": "g5m-w23-mon-008", "question": "100% of 50 is ___.", "options": ["5", "50", "100", "500"], "correctIndex": 1, "explanation": "100% means the whole amount — all 50.", "tags": ["percentage"] },
+    { "id": "g5m-w23-mon-009", "question": "1/5 written as a percent is ___.", "options": ["5%", "15%", "20%", "25%"], "correctIndex": 2, "explanation": "1/5 = 20/100 = 20%.", "tags": ["percentage", "fraction"] },
+    { "id": "g5m-w23-mon-010", "question": "0% of anything is ___.", "options": ["The whole", "Half", "Nothing (0)", "Double"], "correctIndex": 2, "explanation": "0% means none of it — zero.", "tags": ["percentage", "concept"] },
+    { "id": "g5m-w23-mon-011", "question": "30 out of 100 marks is ___%.", "options": ["3%", "30%", "70%", "300%"], "correctIndex": 1, "explanation": "30 out of 100 = 30%.", "tags": ["percentage"] },
+    { "id": "g5m-w23-mon-012", "question": "Which is the same as 1/2?", "options": ["25%", "40%", "50%", "75%"], "correctIndex": 2, "explanation": "1/2 = 50/100 = 50%.", "tags": ["percentage", "fraction"] },
+    { "id": "g5m-w23-mon-013", "question": "If a battery is 60% charged, what percent is empty?", "options": ["30%", "40%", "50%", "60%"], "correctIndex": 1, "explanation": "100% − 60% = 40% empty.", "tags": ["percentage", "concept"] },
+    { "id": "g5m-w23-mon-014", "question": "20% as a fraction in simplest form is ___.", "options": ["1/4", "1/5", "2/5", "1/2"], "correctIndex": 1, "explanation": "20/100 = 1/5.", "tags": ["percentage", "fraction"] },
+    { "id": "g5m-w23-mon-015", "question": "If 90% attended, what percent was absent?", "options": ["9%", "10%", "90%", "100%"], "correctIndex": 1, "explanation": "100% − 90% = 10% absent.", "tags": ["percentage"] }
+  ]
+}

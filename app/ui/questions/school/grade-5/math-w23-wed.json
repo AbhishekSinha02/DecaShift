@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w23-wed",
+  "title": "Grade 5 Math — Wed, Jun 03",
+  "description": "Percentages & Averages — Day 3 of 5: Percent of a quantity",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "percentage", "percent-of"],
+  "questions": [
+    { "id": "g5m-w23-wed-001", "question": "What is 50% of 80?", "options": ["20", "30", "40", "50"], "correctIndex": 2, "explanation": "50% of 80 = 80 ÷ 2 = 40.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-002", "question": "What is 10% of 200?", "options": ["10", "20", "50", "100"], "correctIndex": 1, "explanation": "10% of 200 = 200 ÷ 10 = 20.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-003", "question": "What is 25% of 40?", "options": ["8", "10", "12", "15"], "correctIndex": 1, "explanation": "25% = 1/4, and 40 ÷ 4 = 10.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-004", "question": "What is 20% of 50?", "options": ["5", "10", "15", "20"], "correctIndex": 1, "explanation": "20% = 1/5, and 50 ÷ 5 = 10.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-005", "question": "What is 100% of 65?", "options": ["0", "6.5", "65", "130"], "correctIndex": 2, "explanation": "100% means the whole — 65.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-006", "question": "What is 50% of 30?", "options": ["10", "15", "20", "25"], "correctIndex": 1, "explanation": "50% of 30 = 30 ÷ 2 = 15.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-007", "question": "A shirt costs ₹500. A 10% discount is ___.", "options": ["₹10", "₹50", "₹100", "₹450"], "correctIndex": 1, "explanation": "10% of 500 = 50, so the discount is ₹50.", "tags": ["percent-of", "money"] },
+    { "id": "g5m-w23-wed-008", "question": "What is 75% of 80?", "options": ["40", "50", "60", "70"], "correctIndex": 2, "explanation": "75% = 3/4, and 3/4 of 80 = 60.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-009", "question": "What is 10% of 90?", "options": ["7", "8", "9", "10"], "correctIndex": 2, "explanation": "10% of 90 = 90 ÷ 10 = 9.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-010", "question": "In a class of 40, 25% are absent. How many are absent?", "options": ["8", "10", "12", "15"], "correctIndex": 1, "explanation": "25% of 40 = 40 ÷ 4 = 10 absent.", "tags": ["percent-of", "word-problem"] },
+    { "id": "g5m-w23-wed-011", "question": "What is 20% of 100?", "options": ["10", "20", "25", "40"], "correctIndex": 1, "explanation": "20% of 100 = 20.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-012", "question": "What is 50% of 144?", "options": ["62", "72", "82", "92"], "correctIndex": 1, "explanation": "Half of 144 = 72.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-013", "question": "A jar has 60 marbles; 10% are red. How many are red?", "options": ["4", "6", "8", "10"], "correctIndex": 1, "explanation": "10% of 60 = 6 red marbles.", "tags": ["percent-of", "word-problem"] },
+    { "id": "g5m-w23-wed-014", "question": "What is 25% of 200?", "options": ["25", "40", "50", "75"], "correctIndex": 2, "explanation": "25% = 1/4, and 200 ÷ 4 = 50.", "tags": ["percent-of"] },
+    { "id": "g5m-w23-wed-015", "question": "Ravi scored 80% of 50 marks. How many marks?", "options": ["35", "40", "45", "48"], "correctIndex": 1, "explanation": "80% of 50 = (80 ÷ 100) × 50 = 40 marks.", "tags": ["percent-of", "word-problem"] }
+  ]
+}

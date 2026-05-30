@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w23-thu",
+  "title": "Grade 2 Math — Thu, Jun 04",
+  "description": "3D Solid Shapes — Day 4 of 5: Solids in real life",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "3d-shapes", "real-life"],
+  "questions": [
+    { "id": "g2m-w23-thu-001", "question": "A football is shaped like a ___.", "options": ["Cube", "Cone", "Sphere", "Cuboid"], "correctIndex": 2, "explanation": "A football is round all over — a sphere.", "tags": ["real-life", "sphere"] },
+    { "id": "g2m-w23-thu-002", "question": "A cardboard box for shoes is a ___.", "options": ["Sphere", "Cuboid", "Cone", "Cylinder"], "correctIndex": 1, "explanation": "A shoe box has rectangular flat faces — a cuboid.", "tags": ["real-life", "cuboid"] },
+    { "id": "g2m-w23-thu-003", "question": "A traffic cone on the road is shaped like a ___.", "options": ["Cube", "Cone", "Sphere", "Cylinder"], "correctIndex": 1, "explanation": "It is wide at the base and pointed at the top — a cone.", "tags": ["real-life", "cone"] },
+    { "id": "g2m-w23-thu-004", "question": "A water pipe is the shape of a ___.", "options": ["Cylinder", "Cube", "Sphere", "Cone"], "correctIndex": 0, "explanation": "A pipe is long and round — a cylinder.", "tags": ["real-life", "cylinder"] },
+    { "id": "g2m-w23-thu-005", "question": "A Rubik's cube is a ___.", "options": ["Sphere", "Cube", "Cone", "Cylinder"], "correctIndex": 1, "explanation": "It has 6 equal square faces — a cube.", "tags": ["real-life", "cube"] },
+    { "id": "g2m-w23-thu-006", "question": "An orange is closest to which shape?", "options": ["Cube", "Cuboid", "Sphere", "Cone"], "correctIndex": 2, "explanation": "An orange is round like a ball — a sphere.", "tags": ["real-life", "sphere"] },
+    { "id": "g2m-w23-thu-007", "question": "A drum is most like a ___.", "options": ["Cone", "Cylinder", "Cube", "Sphere"], "correctIndex": 1, "explanation": "A drum has round flat ends and a curved side — a cylinder.", "tags": ["real-life", "cylinder"] },
+    { "id": "g2m-w23-thu-008", "question": "A dice and a sugar cube are both ___.", "options": ["Spheres", "Cones", "Cubes", "Cylinders"], "correctIndex": 2, "explanation": "Both have 6 equal square faces — cubes.", "tags": ["real-life", "cube"] },
+    { "id": "g2m-w23-thu-009", "question": "A party hat is shaped like a ___.", "options": ["Cube", "Sphere", "Cone", "Cuboid"], "correctIndex": 2, "explanation": "A party hat narrows to a point — a cone.", "tags": ["real-life", "cone"] },
+    { "id": "g2m-w23-thu-010", "question": "A book is closest to which solid?", "options": ["Cuboid", "Sphere", "Cone", "Cylinder"], "correctIndex": 0, "explanation": "A thick book is box-shaped with rectangular faces — a cuboid.", "tags": ["real-life", "cuboid"] },
+    { "id": "g2m-w23-thu-011", "question": "A marble is shaped like a ___.", "options": ["Cube", "Sphere", "Cone", "Cylinder"], "correctIndex": 1, "explanation": "A marble is a tiny ball — a sphere.", "tags": ["real-life", "sphere"] },
+    { "id": "g2m-w23-thu-012", "question": "A candle (the straight kind) is most like a ___.", "options": ["Sphere", "Cube", "Cylinder", "Cuboid"], "correctIndex": 2, "explanation": "A straight candle is long and round — a cylinder.", "tags": ["real-life", "cylinder"] },
+    { "id": "g2m-w23-thu-013", "question": "A gift wrapped in a square box is a ___.", "options": ["Cube", "Sphere", "Cone", "Cylinder"], "correctIndex": 0, "explanation": "If all sides are equal squares, it is a cube.", "tags": ["real-life", "cube"] },
+    { "id": "g2m-w23-thu-014", "question": "Which object is NOT a sphere?", "options": ["Cricket ball", "Globe", "Tin can", "Marble"], "correctIndex": 2, "explanation": "A tin can is a cylinder; the others are round spheres.", "tags": ["real-life", "sorting"] },
+    { "id": "g2m-w23-thu-015", "question": "Which pair are both cuboids?", "options": ["Brick and matchbox", "Ball and dice", "Cone and pipe", "Orange and drum"], "correctIndex": 0, "explanation": "A brick and a matchbox are both box-shaped cuboids.", "tags": ["real-life", "sorting"] }
+  ]
+}

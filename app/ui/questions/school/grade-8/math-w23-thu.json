@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-math-w23-thu",
+  "title": "Grade 8 Math — Thu, Jun 04",
+  "description": "Squares & Square Roots — Day 4 of 5: Roots by prime factorisation & estimation",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-8", "weekly", "square-roots", "estimation"],
+  "questions": [
+    { "id": "g8m-w23-thu-001", "question": "By prime factorisation, 36 = 2×2×3×3, so √36 = ___.", "options": ["4", "6", "9", "12"], "correctIndex": 1, "explanation": "Pair the primes: (2×3) = 6, so √36 = 6.", "tags": ["prime-factorisation"] },
+    { "id": "g8m-w23-thu-002", "question": "To find a square root by prime factorisation, take ___ of each pair.", "options": ["Both factors", "One factor", "The sum", "The square"], "correctIndex": 1, "explanation": "From each pair of equal primes, take one factor and multiply them.", "tags": ["prime-factorisation", "rule"] },
+    { "id": "g8m-w23-thu-003", "question": "√(2×2×5×5) = ?", "options": ["7", "10", "20", "25"], "correctIndex": 1, "explanation": "Pairs give 2 and 5; 2×5 = 10.", "tags": ["prime-factorisation"] },
+    { "id": "g8m-w23-thu-004", "question": "√50 lies between which two whole numbers?", "options": ["5 and 6", "6 and 7", "7 and 8", "8 and 9"], "correctIndex": 2, "explanation": "7² = 49 and 8² = 64, so √50 is between 7 and 8.", "tags": ["estimation"] },
+    { "id": "g8m-w23-thu-005", "question": "√90 lies between ___.", "options": ["8 and 9", "9 and 10", "10 and 11", "7 and 8"], "correctIndex": 1, "explanation": "9² = 81 and 10² = 100, so √90 is between 9 and 10.", "tags": ["estimation"] },
+    { "id": "g8m-w23-thu-006", "question": "100 = 2×2×5×5. So √100 = ___.", "options": ["5", "10", "20", "25"], "correctIndex": 1, "explanation": "Pairs give 2 and 5; 2×5 = 10.", "tags": ["prime-factorisation"] },
+    { "id": "g8m-w23-thu-007", "question": "√72 is nearest to which whole number?", "options": ["7", "8", "9", "10"], "correctIndex": 1, "explanation": "8² = 64, 9² = 81; 72 is closer to 64, so ≈ 8.", "tags": ["estimation"] },
+    { "id": "g8m-w23-thu-008", "question": "By factorisation, √324 (=2²×3⁴) = ?", "options": ["16", "18", "20", "24"], "correctIndex": 1, "explanation": "Pairs: 2 and 3×3 = 9; 2×9 = 18.", "tags": ["prime-factorisation"] },
+    { "id": "g8m-w23-thu-009", "question": "Which is the smallest number to multiply 18 by to make a perfect square?", "options": ["2", "3", "5", "6"], "correctIndex": 0, "explanation": "18 = 2×3×3; multiply by 2 to pair the 2 → 36 = 6².", "tags": ["prime-factorisation", "perfect-square"] },
+    { "id": "g8m-w23-thu-010", "question": "√120 lies between ___.", "options": ["9 and 10", "10 and 11", "11 and 12", "12 and 13"], "correctIndex": 1, "explanation": "10² = 100 and 11² = 121, so √120 is between 10 and 11.", "tags": ["estimation"] },
+    { "id": "g8m-w23-thu-011", "question": "√441 (= 3²×7²) = ?", "options": ["19", "20", "21", "22"], "correctIndex": 2, "explanation": "Pairs give 3 and 7; 3×7 = 21.", "tags": ["prime-factorisation"] },
+    { "id": "g8m-w23-thu-012", "question": "By how much must 48 be divided to become a perfect square?", "options": ["2", "3", "4", "6"], "correctIndex": 1, "explanation": "48 = 2⁴×3; divide by 3 → 16 = 4².", "tags": ["prime-factorisation", "perfect-square"] },
+    { "id": "g8m-w23-thu-013", "question": "√200 is closest to ___.", "options": ["12", "13", "14", "15"], "correctIndex": 2, "explanation": "14² = 196, very close to 200, so ≈ 14.", "tags": ["estimation"] },
+    { "id": "g8m-w23-thu-014", "question": "√(3×3×7×7) = ?", "options": ["10", "21", "42", "49"], "correctIndex": 1, "explanation": "Pairs give 3 and 7; 3×7 = 21.", "tags": ["prime-factorisation"] },
+    { "id": "g8m-w23-thu-015", "question": "√625 = ?", "options": ["15", "20", "25", "35"], "correctIndex": 2, "explanation": "625 = 5⁴, pairs give 5×5 = 25.", "tags": ["prime-factorisation"] }
+  ]
+}

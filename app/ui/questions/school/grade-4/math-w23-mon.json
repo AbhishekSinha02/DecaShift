@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w23-mon",
+  "title": "Grade 4 Math — Mon, Jun 01",
+  "description": "Fractions — Day 1 of 5: What is a fraction?",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "fractions"],
+  "questions": [
+    { "id": "g4m-w23-mon-001", "question": "A cake is cut into 4 equal parts. One part is what fraction?", "options": ["1/2", "1/3", "1/4", "4/1"], "correctIndex": 2, "explanation": "One of four equal parts is 1/4.", "tags": ["fractions", "concept"] },
+    { "id": "g4m-w23-mon-002", "question": "In the fraction 3/5, the number 5 is the ___.", "options": ["Numerator", "Denominator", "Whole", "Remainder"], "correctIndex": 1, "explanation": "The bottom number (total equal parts) is the denominator.", "tags": ["fractions", "vocabulary"] },
+    { "id": "g4m-w23-mon-003", "question": "In 3/5, the number 3 is the ___.", "options": ["Denominator", "Numerator", "Divisor", "Whole"], "correctIndex": 1, "explanation": "The top number (parts taken) is the numerator.", "tags": ["fractions", "vocabulary"] },
+    { "id": "g4m-w23-mon-004", "question": "If 2 of 6 equal slices are eaten, what fraction is eaten?", "options": ["2/6", "6/2", "2/4", "4/6"], "correctIndex": 0, "explanation": "2 parts out of 6 equal parts is 2/6.", "tags": ["fractions", "concept"] },
+    { "id": "g4m-w23-mon-005", "question": "Which fraction means 'one half'?", "options": ["1/4", "1/3", "1/2", "2/1"], "correctIndex": 2, "explanation": "One of two equal parts is 1/2 — one half.", "tags": ["fractions"] },
+    { "id": "g4m-w23-mon-006", "question": "A pizza in 8 equal slices; 3 are taken. Fraction taken?", "options": ["3/8", "8/3", "3/5", "5/8"], "correctIndex": 0, "explanation": "3 out of 8 equal slices is 3/8.", "tags": ["fractions"] },
+    { "id": "g4m-w23-mon-007", "question": "The fraction 4/4 is equal to ___.", "options": ["0", "1/2", "1 whole", "4"], "correctIndex": 2, "explanation": "All 4 of 4 parts make one whole, so 4/4 = 1.", "tags": ["fractions", "whole"] },
+    { "id": "g4m-w23-mon-008", "question": "Which picture shows 1/3 shaded? (3 equal parts, ___ shaded)", "options": ["2 shaded", "1 shaded", "3 shaded", "0 shaded"], "correctIndex": 1, "explanation": "1/3 means 1 of 3 equal parts is shaded.", "tags": ["fractions", "visual"] },
+    { "id": "g4m-w23-mon-009", "question": "A chocolate bar of 10 squares; 7 are left. Fraction left?", "options": ["3/10", "7/10", "10/7", "7/3"], "correctIndex": 1, "explanation": "7 of 10 squares remain, so 7/10.", "tags": ["fractions"] },
+    { "id": "g4m-w23-mon-010", "question": "For a fraction, the parts must be ___.", "options": ["Different sizes", "Equal", "Big", "Round"], "correctIndex": 1, "explanation": "Fractions only work when the whole is split into equal parts.", "tags": ["fractions", "concept"] },
+    { "id": "g4m-w23-mon-011", "question": "What fraction is half of a whole?", "options": ["1/4", "1/2", "2/3", "3/4"], "correctIndex": 1, "explanation": "Half means 1 of 2 equal parts = 1/2.", "tags": ["fractions"] },
+    { "id": "g4m-w23-mon-012", "question": "If 5 of 5 equal parts are coloured, the fraction is ___.", "options": ["0/5", "1/5", "5/5 = 1", "5"], "correctIndex": 2, "explanation": "5/5 equals one whole.", "tags": ["fractions", "whole"] },
+    { "id": "g4m-w23-mon-013", "question": "Which fraction is the smallest piece?", "options": ["1/2", "1/4", "1/8", "1/3"], "correctIndex": 2, "explanation": "More equal parts means smaller pieces; 1/8 is the smallest here.", "tags": ["fractions", "comparison"] },
+    { "id": "g4m-w23-mon-014", "question": "A glass is 1/4 full. How many more quarters to fill it?", "options": ["1", "2", "3", "4"], "correctIndex": 2, "explanation": "1/4 + 3/4 = 4/4 = full, so 3 more quarters.", "tags": ["fractions", "whole"] },
+    { "id": "g4m-w23-mon-015", "question": "6 of 9 equal parts are shaded. The fraction shaded is ___.", "options": ["9/6", "6/9", "3/9", "6/3"], "correctIndex": 1, "explanation": "6 parts out of 9 is 6/9.", "tags": ["fractions"] }
+  ]
+}

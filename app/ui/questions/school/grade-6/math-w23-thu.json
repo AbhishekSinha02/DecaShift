@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w23-thu",
+  "title": "Grade 6 Math — Thu, Jun 04",
+  "description": "Ratio & Proportion — Day 4 of 5: Unitary method",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-6", "weekly", "unitary-method"],
+  "questions": [
+    { "id": "g6m-w23-thu-001", "question": "In the unitary method, we first find the value of ___.", "options": ["Many units", "One unit", "Zero units", "The total"], "correctIndex": 1, "explanation": "First find the value of one unit, then multiply for the required number.", "tags": ["unitary", "concept"] },
+    { "id": "g6m-w23-thu-002", "question": "If 5 pens cost ₹25, one pen costs ___.", "options": ["₹4", "₹5", "₹6", "₹10"], "correctIndex": 1, "explanation": "25 ÷ 5 = ₹5 per pen.", "tags": ["unitary"] },
+    { "id": "g6m-w23-thu-003", "question": "If 1 pen is ₹5, then 7 pens cost ___.", "options": ["₹30", "₹35", "₹40", "₹45"], "correctIndex": 1, "explanation": "5 × 7 = ₹35.", "tags": ["unitary"] },
+    { "id": "g6m-w23-thu-004", "question": "If 4 kg of rice costs ₹160, 1 kg costs ___.", "options": ["₹30", "₹40", "₹50", "₹60"], "correctIndex": 1, "explanation": "160 ÷ 4 = ₹40 per kg.", "tags": ["unitary"] },
+    { "id": "g6m-w23-thu-005", "question": "If 3 books cost ₹90, then 5 books cost ___.", "options": ["₹120", "₹150", "₹180", "₹100"], "correctIndex": 1, "explanation": "1 book = 90 ÷ 3 = ₹30; 5 books = 30 × 5 = ₹150.", "tags": ["unitary"] },
+    { "id": "g6m-w23-thu-006", "question": "A car goes 60 km on 1 hour. In 3 hours it goes ___.", "options": ["120 km", "150 km", "180 km", "200 km"], "correctIndex": 2, "explanation": "60 × 3 = 180 km.", "tags": ["unitary", "speed"] },
+    { "id": "g6m-w23-thu-007", "question": "If 6 apples cost ₹48, then 1 apple costs ___.", "options": ["₹6", "₹7", "₹8", "₹9"], "correctIndex": 2, "explanation": "48 ÷ 6 = ₹8.", "tags": ["unitary"] },
+    { "id": "g6m-w23-thu-008", "question": "If 2 m cloth costs ₹70, then 5 m costs ___.", "options": ["₹140", "₹150", "₹175", "₹200"], "correctIndex": 2, "explanation": "1 m = 70 ÷ 2 = ₹35; 5 m = 35 × 5 = ₹175.", "tags": ["unitary"] },
+    { "id": "g6m-w23-thu-009", "question": "8 workers finish in 1 day what 1 worker does in ___ days.", "options": ["1", "4", "8", "16"], "correctIndex": 2, "explanation": "1 worker needs 8 times as long = 8 days.", "tags": ["unitary", "inverse"] },
+    { "id": "g6m-w23-thu-010", "question": "If 10 sweets cost ₹50, then 4 sweets cost ___.", "options": ["₹15", "₹20", "₹25", "₹30"], "correctIndex": 1, "explanation": "1 sweet = 50 ÷ 10 = ₹5; 4 sweets = ₹20.", "tags": ["unitary"] },
+    { "id": "g6m-w23-thu-011", "question": "A bike travels 90 km on 3 L petrol. On 1 L it travels ___.", "options": ["20 km", "30 km", "40 km", "45 km"], "correctIndex": 1, "explanation": "90 ÷ 3 = 30 km per litre.", "tags": ["unitary", "mileage"] },
+    { "id": "g6m-w23-thu-012", "question": "If 5 tickets cost ₹200, then 8 tickets cost ___.", "options": ["₹280", "₹300", "₹320", "₹400"], "correctIndex": 2, "explanation": "1 ticket = 200 ÷ 5 = ₹40; 8 tickets = 40 × 8 = ₹320.", "tags": ["unitary"] },
+    { "id": "g6m-w23-thu-013", "question": "12 eggs cost ₹72. How much for 1 egg?", "options": ["₹5", "₹6", "₹7", "₹8"], "correctIndex": 1, "explanation": "72 ÷ 12 = ₹6.", "tags": ["unitary"] },
+    { "id": "g6m-w23-thu-014", "question": "If a tap fills 20 L in 1 minute, in 4 minutes it fills ___.", "options": ["60 L", "80 L", "100 L", "120 L"], "correctIndex": 1, "explanation": "20 × 4 = 80 L.", "tags": ["unitary"] },
+    { "id": "g6m-w23-thu-015", "question": "If 7 chocolates cost ₹84, then 3 chocolates cost ___.", "options": ["₹30", "₹36", "₹42", "₹48"], "correctIndex": 1, "explanation": "1 chocolate = 84 ÷ 7 = ₹12; 3 = 12 × 3 = ₹36.", "tags": ["unitary"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w23-wed",
+  "title": "Grade 2 Math — Wed, Jun 03",
+  "description": "3D Solid Shapes — Day 3 of 5: Rolling, sliding and stacking",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "3d-shapes", "properties"],
+  "questions": [
+    { "id": "g2m-w23-wed-001", "question": "Which shape can roll but cannot be stacked?", "options": ["Cube", "Sphere", "Cuboid", "Brick"], "correctIndex": 1, "explanation": "A sphere rolls in every direction and cannot sit still to be stacked.", "tags": ["rolling", "sphere"] },
+    { "id": "g2m-w23-wed-002", "question": "Which shape can only slide, never roll?", "options": ["Sphere", "Cone", "Cube", "Cylinder"], "correctIndex": 2, "explanation": "A cube has only flat faces, so it slides but does not roll.", "tags": ["sliding", "cube"] },
+    { "id": "g2m-w23-wed-003", "question": "A cylinder can roll when lying on its ___.", "options": ["Flat round face", "Curved side", "Corner", "Edge"], "correctIndex": 1, "explanation": "Lying on its curved side, a cylinder rolls; standing on a flat face it does not.", "tags": ["rolling", "cylinder"] },
+    { "id": "g2m-w23-wed-004", "question": "Which shapes are easiest to stack into a tower?", "options": ["Spheres", "Cones", "Cubes", "Balls"], "correctIndex": 2, "explanation": "Cubes have flat faces all around, so they stack neatly.", "tags": ["stacking", "cube"] },
+    { "id": "g2m-w23-wed-005", "question": "A ball rolls because it has a ___ surface.", "options": ["Flat", "Curved", "Square", "Pointy"], "correctIndex": 1, "explanation": "Its curved (round) surface lets it roll.", "tags": ["rolling", "sphere"] },
+    { "id": "g2m-w23-wed-006", "question": "Which can both roll and be stacked when standing up?", "options": ["Sphere", "Cylinder", "Cube only", "Cone"], "correctIndex": 1, "explanation": "Standing on a flat end a cylinder stacks; on its side it rolls.", "tags": ["stacking", "cylinder"] },
+    { "id": "g2m-w23-wed-007", "question": "Why does a cuboid NOT roll?", "options": ["It is too heavy", "It has only flat faces", "It is too big", "It is round"], "correctIndex": 1, "explanation": "Flat faces meet at edges and corners, so it slides instead of rolling.", "tags": ["sliding", "cuboid"] },
+    { "id": "g2m-w23-wed-008", "question": "A cone lying on its side rolls in a ___.", "options": ["Straight line", "Circle", "Square", "It cannot roll"], "correctIndex": 1, "explanation": "Because one end is wide and one is pointed, a cone rolls round in a circle.", "tags": ["rolling", "cone"] },
+    { "id": "g2m-w23-wed-009", "question": "Which two shapes both roll?", "options": ["Cube and cuboid", "Sphere and cylinder", "Cube and cone", "Cuboid and cube"], "correctIndex": 1, "explanation": "Both a sphere and a cylinder have curved surfaces that roll.", "tags": ["rolling", "sorting"] },
+    { "id": "g2m-w23-wed-010", "question": "To build a stable wall, which shape is best?", "options": ["Sphere", "Cuboid (brick)", "Cone", "Ball"], "correctIndex": 1, "explanation": "Bricks (cuboids) have flat faces that stack without rolling away.", "tags": ["stacking", "cuboid"] },
+    { "id": "g2m-w23-wed-011", "question": "Which shape would roll off a sloped table fastest?", "options": ["Cube", "Cuboid", "Sphere", "Matchbox"], "correctIndex": 2, "explanation": "A sphere rolls freely in any direction, so it rolls off quickest.", "tags": ["rolling", "sphere"] },
+    { "id": "g2m-w23-wed-012", "question": "A shape that slides but does not roll has only ___ faces.", "options": ["Curved", "Flat", "Round", "Pointy"], "correctIndex": 1, "explanation": "Only flat faces means it slides — like a cube or cuboid.", "tags": ["sliding", "properties"] },
+    { "id": "g2m-w23-wed-013", "question": "Which is the odd one out (does NOT roll)?", "options": ["Sphere", "Cylinder", "Cone", "Cube"], "correctIndex": 3, "explanation": "A cube has no curved surface, so it is the only one that does not roll.", "tags": ["sorting", "cube"] },
+    { "id": "g2m-w23-wed-014", "question": "Stacking tins on their flat ends works because the ends are ___.", "options": ["Curved", "Flat", "Pointy", "Round and rolling"], "correctIndex": 1, "explanation": "The flat round ends give a steady surface to stack on.", "tags": ["stacking", "cylinder"] },
+    { "id": "g2m-w23-wed-015", "question": "Which group can ALL be stacked steadily?", "options": ["Cube, cuboid, cylinder (upright)", "Sphere, cone, cube", "Sphere, ball, marble", "Cone, sphere, cylinder (on side)"], "correctIndex": 0, "explanation": "Cube, cuboid and an upright cylinder all have flat faces to stack on.", "tags": ["stacking", "sorting"] }
+  ]
+}

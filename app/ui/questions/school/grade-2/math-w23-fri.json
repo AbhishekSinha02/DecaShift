@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w23-fri",
+  "title": "Grade 2 Math — Fri, Jun 05",
+  "description": "3D Solid Shapes — Day 5 of 5: Synthesis — name, count, sort",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "3d-shapes", "synthesis"],
+  "questions": [
+    { "id": "g2m-w23-fri-001", "question": "Which solid has 6 faces, 12 edges and 8 corners?", "options": ["Sphere", "Cube", "Cone", "Cylinder"], "correctIndex": 1, "explanation": "A cube has 6 faces, 12 edges and 8 corners.", "tags": ["synthesis", "cube"] },
+    { "id": "g2m-w23-fri-002", "question": "Which solid has 0 faces, 0 edges and 0 corners?", "options": ["Cube", "Cylinder", "Sphere", "Cone"], "correctIndex": 2, "explanation": "A sphere is smooth all over with no faces, edges or corners.", "tags": ["synthesis", "sphere"] },
+    { "id": "g2m-w23-fri-003", "question": "Riya has a ball, a dice and a tin can. How many can roll?", "options": ["1", "2", "3", "0"], "correctIndex": 1, "explanation": "The ball and the tin can roll; the dice (cube) does not. So 2.", "tags": ["synthesis", "rolling"] },
+    { "id": "g2m-w23-fri-004", "question": "Which solid has 1 flat face and 1 pointy corner?", "options": ["Cube", "Cone", "Cylinder", "Sphere"], "correctIndex": 1, "explanation": "A cone has 1 flat round face and 1 vertex at the tip.", "tags": ["synthesis", "cone"] },
+    { "id": "g2m-w23-fri-005", "question": "Count the flat faces: cylinder + cube = ?", "options": ["6", "7", "8", "9"], "correctIndex": 2, "explanation": "Cylinder has 2 flat faces, cube has 6. 2 + 6 = 8.", "tags": ["synthesis", "faces"] },
+    { "id": "g2m-w23-fri-006", "question": "Which solid is best for making a tall, steady tower?", "options": ["Sphere", "Cube", "Cone", "Ball"], "correctIndex": 1, "explanation": "Flat faces all around make the cube easy to stack steadily.", "tags": ["synthesis", "stacking"] },
+    { "id": "g2m-w23-fri-007", "question": "A solid with 2 flat round faces and a curved side is a ___.", "options": ["Cone", "Cylinder", "Cube", "Sphere"], "correctIndex": 1, "explanation": "Two flat round ends plus a curved side describe a cylinder.", "tags": ["synthesis", "cylinder"] },
+    { "id": "g2m-w23-fri-008", "question": "Which group can ALL roll?", "options": ["Cube, cuboid, brick", "Ball, orange, marble", "Dice, book, box", "Cube, book, tin"], "correctIndex": 1, "explanation": "Ball, orange and marble are all spheres — they all roll.", "tags": ["synthesis", "sorting"] },
+    { "id": "g2m-w23-fri-009", "question": "How many corners does a cuboid have?", "options": ["6", "8", "10", "12"], "correctIndex": 1, "explanation": "Like a cube, a cuboid has 8 corners.", "tags": ["synthesis", "cuboid"] },
+    { "id": "g2m-w23-fri-010", "question": "An ice-cream cone and a party hat share which shape?", "options": ["Cube", "Cone", "Sphere", "Cylinder"], "correctIndex": 1, "explanation": "Both are cones — wide base, pointy top.", "tags": ["synthesis", "cone"] },
+    { "id": "g2m-w23-fri-011", "question": "Which solid has the most edges?", "options": ["Sphere (0)", "Cone (curved)", "Cube (12)", "Cylinder (2 curved)"], "correctIndex": 2, "explanation": "A cube has 12 straight edges — the most among these.", "tags": ["synthesis", "edges"] },
+    { "id": "g2m-w23-fri-012", "question": "Which does NOT belong with the others?", "options": ["Cube", "Cuboid", "Matchbox", "Sphere"], "correctIndex": 3, "explanation": "Cube, cuboid and matchbox are box-like with flat faces; the sphere is round.", "tags": ["synthesis", "sorting"] },
+    { "id": "g2m-w23-fri-013", "question": "A shape that slides but never rolls must have ___.", "options": ["A curved surface", "Only flat faces", "One pointy tip", "Round ends"], "correctIndex": 1, "explanation": "Only flat faces means no curved part to roll on — it slides.", "tags": ["synthesis", "properties"] },
+    { "id": "g2m-w23-fri-014", "question": "Which solid matches a globe of the Earth?", "options": ["Cube", "Cylinder", "Sphere", "Cone"], "correctIndex": 2, "explanation": "A globe is round all over — a sphere.", "tags": ["synthesis", "sphere"] },
+    { "id": "g2m-w23-fri-015", "question": "Sort by faces: which has exactly 1 flat face?", "options": ["Cube", "Cone", "Cylinder", "Cuboid"], "correctIndex": 1, "explanation": "A cone has exactly 1 flat face (its round base).", "tags": ["synthesis", "faces"] }
+  ]
+}

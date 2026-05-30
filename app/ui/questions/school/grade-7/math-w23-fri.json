@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-math-w23-fri",
+  "title": "Grade 7 Math — Fri, Jun 05",
+  "description": "Comparing Quantities — Day 5 of 5: Mixed problems (Synthesis)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-7", "weekly", "percentage", "profit-loss", "simple-interest", "synthesis"],
+  "questions": [
+    { "id": "g7m-w23-fri-001", "question": "A shirt marked ₹1000 has a 30% discount. Sale price?", "options": ["₹600", "₹700", "₹750", "₹800"], "correctIndex": 1, "explanation": "30% of 1000 = 300; 1000 − 300 = ₹700.", "tags": ["discount"] },
+    { "id": "g7m-w23-fri-002", "question": "CP = ₹400, SP = ₹500. Profit% is ___.", "options": ["20%", "25%", "30%", "40%"], "correctIndex": 1, "explanation": "Profit = 100; (100 ÷ 400) × 100 = 25%.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-fri-003", "question": "SI on ₹3000 at 8% for 2 years is ___.", "options": ["₹240", "₹360", "₹480", "₹600"], "correctIndex": 2, "explanation": "(3000 × 8 × 2) ÷ 100 = ₹480.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-fri-004", "question": "What is 35% of 80?", "options": ["24", "28", "30", "32"], "correctIndex": 1, "explanation": "(35/100) × 80 = 28.", "tags": ["percentage"] },
+    { "id": "g7m-w23-fri-005", "question": "A bag costs ₹250, sold at 12% loss. SP is ___.", "options": ["₹210", "₹220", "₹230", "₹238"], "correctIndex": 1, "explanation": "12% of 250 = 30; 250 − 30 = ₹220.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-fri-006", "question": "Price rises from ₹250 to ₹300. Percent increase?", "options": ["15%", "20%", "25%", "30%"], "correctIndex": 1, "explanation": "Increase = 50 on 250 = 20%.", "tags": ["increase"] },
+    { "id": "g7m-w23-fri-007", "question": "Amount on ₹5000 at 6% SI for 1 year is ___.", "options": ["₹5300", "₹5600", "₹6000", "₹5060"], "correctIndex": 0, "explanation": "SI = 300; A = 5000 + 300 = ₹5300.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-fri-008", "question": "60 is what percent of 240?", "options": ["20%", "25%", "30%", "40%"], "correctIndex": 1, "explanation": "60/240 = 1/4 = 25%.", "tags": ["percentage"] },
+    { "id": "g7m-w23-fri-009", "question": "A watch bought at ₹2000 sold at 15% profit. SP is ___.", "options": ["₹2150", "₹2200", "₹2300", "₹2400"], "correctIndex": 2, "explanation": "15% of 2000 = 300; SP = 2000 + 300 = ₹2300.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-fri-010", "question": "Reduce 500 by 18%. Result?", "options": ["₹400", "₹410", "₹420", "₹430"], "correctIndex": 1, "explanation": "18% of 500 = 90; 500 − 90 = ₹410.", "tags": ["decrease"] },
+    { "id": "g7m-w23-fri-011", "question": "SI on ₹1500 at 10% for 3 years is ___.", "options": ["₹300", "₹400", "₹450", "₹500"], "correctIndex": 2, "explanation": "(1500 × 10 × 3) ÷ 100 = ₹450.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-fri-012", "question": "If 20% of a number is 50, the number is ___.", "options": ["200", "250", "300", "350"], "correctIndex": 1, "explanation": "20% = 50, so 100% = 250.", "tags": ["percentage", "reverse"] },
+    { "id": "g7m-w23-fri-013", "question": "A ₹600 item sold at ₹540. Loss% is ___.", "options": ["8%", "10%", "12%", "15%"], "correctIndex": 1, "explanation": "Loss = 60; (60 ÷ 600) × 100 = 10%.", "tags": ["profit-loss"] },
+    { "id": "g7m-w23-fri-014", "question": "After a 20% discount, a ₹750 jacket costs ___.", "options": ["₹550", "₹600", "₹620", "₹650"], "correctIndex": 1, "explanation": "20% of 750 = 150; 750 − 150 = ₹600.", "tags": ["discount"] },
+    { "id": "g7m-w23-fri-015", "question": "At what rate will ₹2000 earn ₹300 SI in 3 years?", "options": ["4%", "5%", "6%", "7.5%"], "correctIndex": 1, "explanation": "R = (300 × 100) ÷ (2000 × 3) = 30000 ÷ 6000 = 5%.", "tags": ["simple-interest", "reverse"] }
+  ]
+}

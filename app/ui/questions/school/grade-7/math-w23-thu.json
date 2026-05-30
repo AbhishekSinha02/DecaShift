@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-math-w23-thu",
+  "title": "Grade 7 Math — Thu, Jun 04",
+  "description": "Comparing Quantities — Day 4 of 5: Simple interest",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-7", "weekly", "simple-interest"],
+  "questions": [
+    { "id": "g7m-w23-thu-001", "question": "The formula for Simple Interest is SI = ___.", "options": ["P × R × T", "(P × R × T) ÷ 100", "P + R + T", "P ÷ (R × T)"], "correctIndex": 1, "explanation": "SI = (P × R × T) ÷ 100, where P=principal, R=rate, T=time in years.", "tags": ["simple-interest", "formula"] },
+    { "id": "g7m-w23-thu-002", "question": "The money borrowed or invested is called the ___.", "options": ["Interest", "Principal", "Amount", "Rate"], "correctIndex": 1, "explanation": "The original sum is the principal (P).", "tags": ["simple-interest", "vocabulary"] },
+    { "id": "g7m-w23-thu-003", "question": "SI on ₹1000 at 10% for 1 year is ___.", "options": ["₹50", "₹100", "₹110", "₹200"], "correctIndex": 1, "explanation": "(1000 × 10 × 1) ÷ 100 = ₹100.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-thu-004", "question": "SI on ₹2000 at 5% for 2 years is ___.", "options": ["₹100", "₹150", "₹200", "₹250"], "correctIndex": 2, "explanation": "(2000 × 5 × 2) ÷ 100 = ₹200.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-thu-005", "question": "Amount = Principal + ___.", "options": ["Rate", "Time", "Interest", "Discount"], "correctIndex": 2, "explanation": "Amount A = P + SI.", "tags": ["simple-interest", "formula"] },
+    { "id": "g7m-w23-thu-006", "question": "SI on ₹500 at 8% for 1 year is ___.", "options": ["₹30", "₹40", "₹50", "₹80"], "correctIndex": 1, "explanation": "(500 × 8 × 1) ÷ 100 = ₹40.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-thu-007", "question": "SI on ₹1200 at 10% for 2 years is ___.", "options": ["₹120", "₹180", "₹240", "₹360"], "correctIndex": 2, "explanation": "(1200 × 10 × 2) ÷ 100 = ₹240.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-thu-008", "question": "If P = ₹1000, SI = ₹100, the Amount is ___.", "options": ["₹900", "₹1000", "₹1100", "₹1200"], "correctIndex": 2, "explanation": "A = P + SI = 1000 + 100 = ₹1100.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-thu-009", "question": "SI on ₹4000 at 6% for 1 year is ___.", "options": ["₹200", "₹240", "₹280", "₹300"], "correctIndex": 1, "explanation": "(4000 × 6 × 1) ÷ 100 = ₹240.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-thu-010", "question": "SI on ₹600 at 5% for 3 years is ___.", "options": ["₹60", "₹75", "₹90", "₹120"], "correctIndex": 2, "explanation": "(600 × 5 × 3) ÷ 100 = ₹90.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-thu-011", "question": "In SI, 'T' stands for time measured in ___.", "options": ["Days", "Months", "Years", "Hours"], "correctIndex": 2, "explanation": "In the standard formula, T is in years.", "tags": ["simple-interest", "vocabulary"] },
+    { "id": "g7m-w23-thu-012", "question": "SI on ₹2500 at 4% for 2 years is ___.", "options": ["₹100", "₹150", "₹200", "₹250"], "correctIndex": 2, "explanation": "(2500 × 4 × 2) ÷ 100 = ₹200.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-thu-013", "question": "If SI = ₹240 on ₹1200 for 2 years, the rate is ___.", "options": ["8%", "10%", "12%", "15%"], "correctIndex": 1, "explanation": "R = (SI × 100) ÷ (P × T) = (240 × 100) ÷ (1200 × 2) = 10%.", "tags": ["simple-interest", "reverse"] },
+    { "id": "g7m-w23-thu-014", "question": "SI on ₹800 at 10% for 6 months (½ year) is ___.", "options": ["₹40", "₹50", "₹80", "₹160"], "correctIndex": 0, "explanation": "(800 × 10 × 0.5) ÷ 100 = ₹40.", "tags": ["simple-interest"] },
+    { "id": "g7m-w23-thu-015", "question": "Amount on ₹2000 at 5% for 2 years is ___.", "options": ["₹2100", "₹2150", "₹2200", "₹2400"], "correctIndex": 2, "explanation": "SI = 200; A = 2000 + 200 = ₹2200.", "tags": ["simple-interest"] }
+  ]
+}

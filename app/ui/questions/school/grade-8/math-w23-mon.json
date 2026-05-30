@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-math-w23-mon",
+  "title": "Grade 8 Math — Mon, Jun 01",
+  "description": "Squares & Square Roots — Day 1 of 5: Squares & perfect squares",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-8", "weekly", "squares"],
+  "questions": [
+    { "id": "g8m-w23-mon-001", "question": "The square of 7 is ___.", "options": ["14", "49", "42", "21"], "correctIndex": 1, "explanation": "7² = 7 × 7 = 49.", "tags": ["squares"] },
+    { "id": "g8m-w23-mon-002", "question": "A perfect square is a number that is the square of a ___.", "options": ["Fraction", "Whole number", "Decimal", "Negative"], "correctIndex": 1, "explanation": "A perfect square is the square of a whole number, e.g. 16 = 4².", "tags": ["squares", "concept"] },
+    { "id": "g8m-w23-mon-003", "question": "Which of these is a perfect square?", "options": ["18", "24", "36", "40"], "correctIndex": 2, "explanation": "36 = 6². The others are not perfect squares.", "tags": ["squares"] },
+    { "id": "g8m-w23-mon-004", "question": "12² = ?", "options": ["124", "144", "122", "121"], "correctIndex": 1, "explanation": "12 × 12 = 144.", "tags": ["squares"] },
+    { "id": "g8m-w23-mon-005", "question": "A perfect square never ends in ___.", "options": ["1 or 9", "4 or 6", "2, 3, 7 or 8", "0 or 5"], "correctIndex": 2, "explanation": "Squares never end in 2, 3, 7 or 8.", "tags": ["squares", "property"] },
+    { "id": "g8m-w23-mon-006", "question": "15² = ?", "options": ["205", "215", "225", "235"], "correctIndex": 2, "explanation": "15 × 15 = 225.", "tags": ["squares"] },
+    { "id": "g8m-w23-mon-007", "question": "Which is NOT a perfect square?", "options": ["64", "81", "90", "100"], "correctIndex": 2, "explanation": "90 is not a perfect square; 64=8², 81=9², 100=10².", "tags": ["squares"] },
+    { "id": "g8m-w23-mon-008", "question": "The square of an even number is always ___.", "options": ["Odd", "Even", "Prime", "Zero"], "correctIndex": 1, "explanation": "Even × even = even, so the square is even.", "tags": ["squares", "property"] },
+    { "id": "g8m-w23-mon-009", "question": "13² = ?", "options": ["156", "169", "163", "159"], "correctIndex": 1, "explanation": "13 × 13 = 169.", "tags": ["squares"] },
+    { "id": "g8m-w23-mon-010", "question": "The square of an odd number is always ___.", "options": ["Even", "Odd", "Zero", "Negative"], "correctIndex": 1, "explanation": "Odd × odd = odd.", "tags": ["squares", "property"] },
+    { "id": "g8m-w23-mon-011", "question": "20² = ?", "options": ["200", "400", "420", "40"], "correctIndex": 1, "explanation": "20 × 20 = 400.", "tags": ["squares"] },
+    { "id": "g8m-w23-mon-012", "question": "Which number is a perfect square?", "options": ["50", "121", "125", "150"], "correctIndex": 1, "explanation": "121 = 11².", "tags": ["squares"] },
+    { "id": "g8m-w23-mon-013", "question": "11² = ?", "options": ["111", "121", "112", "131"], "correctIndex": 1, "explanation": "11 × 11 = 121.", "tags": ["squares"] },
+    { "id": "g8m-w23-mon-014", "question": "How many digits will 99² have at most?", "options": ["2", "3", "4", "5"], "correctIndex": 2, "explanation": "99² = 9801 — 4 digits. The square of a 2-digit number has at most 4 digits.", "tags": ["squares", "property"] },
+    { "id": "g8m-w23-mon-015", "question": "16² = ?", "options": ["246", "256", "266", "236"], "correctIndex": 1, "explanation": "16 × 16 = 256.", "tags": ["squares"] }
+  ]
+}

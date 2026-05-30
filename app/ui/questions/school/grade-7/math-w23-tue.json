@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-math-w23-tue",
+  "title": "Grade 7 Math — Tue, Jun 02",
+  "description": "Comparing Quantities — Day 2 of 5: Percentage increase & decrease",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["math", "grade-7", "weekly", "percentage", "change"],
+  "questions": [
+    { "id": "g7m-w23-tue-001", "question": "A price rises from ₹100 to ₹120. The percent increase is ___.", "options": ["12%", "20%", "18%", "25%"], "correctIndex": 1, "explanation": "Increase = 20 on 100 = 20%.", "tags": ["increase"] },
+    { "id": "g7m-w23-tue-002", "question": "Percent change = (change ÷ ___) × 100.", "options": ["New value", "Original value", "Final value", "Difference"], "correctIndex": 1, "explanation": "Percent change is taken on the original value.", "tags": ["change", "rule"] },
+    { "id": "g7m-w23-tue-003", "question": "A number falls from 50 to 40. Percent decrease?", "options": ["10%", "15%", "20%", "25%"], "correctIndex": 2, "explanation": "Decrease = 10 on 50 = 20%.", "tags": ["decrease"] },
+    { "id": "g7m-w23-tue-004", "question": "Increase ₹200 by 15%. New amount?", "options": ["₹215", "₹230", "₹250", "₹260"], "correctIndex": 1, "explanation": "15% of 200 = 30; 200 + 30 = ₹230.", "tags": ["increase"] },
+    { "id": "g7m-w23-tue-005", "question": "Decrease 60 by 25%. Result?", "options": ["40", "45", "48", "50"], "correctIndex": 1, "explanation": "25% of 60 = 15; 60 − 15 = 45.", "tags": ["decrease"] },
+    { "id": "g7m-w23-tue-006", "question": "Population grows from 1000 to 1200. Percent increase?", "options": ["10%", "15%", "20%", "25%"], "correctIndex": 2, "explanation": "Increase = 200 on 1000 = 20%.", "tags": ["increase"] },
+    { "id": "g7m-w23-tue-007", "question": "A ₹500 item is 20% off. Sale price?", "options": ["₹350", "₹380", "₹400", "₹450"], "correctIndex": 2, "explanation": "20% of 500 = 100; 500 − 100 = ₹400.", "tags": ["decrease", "discount"] },
+    { "id": "g7m-w23-tue-008", "question": "A salary of ₹20000 increases by 5%. New salary?", "options": ["₹20500", "₹21000", "₹22000", "₹25000"], "correctIndex": 1, "explanation": "5% of 20000 = 1000; 20000 + 1000 = ₹21000.", "tags": ["increase"] },
+    { "id": "g7m-w23-tue-009", "question": "Marks rise from 40 to 50. Percent increase?", "options": ["10%", "20%", "25%", "30%"], "correctIndex": 2, "explanation": "Increase = 10 on 40 = 25%.", "tags": ["increase"] },
+    { "id": "g7m-w23-tue-010", "question": "A ₹80 toy is now ₹100. Percent increase?", "options": ["20%", "25%", "30%", "40%"], "correctIndex": 1, "explanation": "Increase = 20 on 80 = 25%.", "tags": ["increase"] },
+    { "id": "g7m-w23-tue-011", "question": "Reduce 150 by 40%. Result?", "options": ["60", "80", "90", "110"], "correctIndex": 2, "explanation": "40% of 150 = 60; 150 − 60 = 90.", "tags": ["decrease"] },
+    { "id": "g7m-w23-tue-012", "question": "A weight drops from 80 kg to 64 kg. Percent decrease?", "options": ["16%", "20%", "25%", "32%"], "correctIndex": 1, "explanation": "Decrease = 16 on 80 = 20%.", "tags": ["decrease"] },
+    { "id": "g7m-w23-tue-013", "question": "Increase 250 by 10%, then the result is ___.", "options": ["260", "270", "275", "300"], "correctIndex": 2, "explanation": "10% of 250 = 25; 250 + 25 = 275.", "tags": ["increase"] },
+    { "id": "g7m-w23-tue-014", "question": "A shop raises a ₹40 price by 50%. New price?", "options": ["₹50", "₹60", "₹70", "₹80"], "correctIndex": 1, "explanation": "50% of 40 = 20; 40 + 20 = ₹60.", "tags": ["increase"] },
+    { "id": "g7m-w23-tue-015", "question": "After a 25% discount, a ₹240 jacket costs ___.", "options": ["₹160", "₹180", "₹200", "₹210"], "correctIndex": 1, "explanation": "25% of 240 = 60; 240 − 60 = ₹180.", "tags": ["decrease", "discount"] }
+  ]
+}
