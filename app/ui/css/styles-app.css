@@ -2127,7 +2127,10 @@
 
 /* ── Sticky streak bar ───────────────────────────────────────── */
 .streak-bar {
-  position: sticky; top: 96px; z-index: 185;
+  /* sits flush under the sticky subject tabs (49px). The old 96px offset was a
+     leftover from when the header lived inside this scroll container; the header
+     is now a sibling above .home-wrap, so only the tabs sit above the streak bar. */
+  position: sticky; top: 49px; z-index: 185;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   display: flex; align-items: center; gap: 6px;
@@ -2137,6 +2140,9 @@
   scrollbar-width: none;
   flex-shrink: 0;
 }
+/* when the subject tabs are hidden (no tabs to show), pin the streak bar to the
+   very top of the scroll container so there is no empty offset above it */
+.streak-bar.no-tabs { top: 0; }
 .streak-bar::-webkit-scrollbar { display: none; }
 .streak-milestone-chip {
   display: inline-flex; align-items: center;

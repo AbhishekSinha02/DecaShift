@@ -92,8 +92,10 @@ function _renderHome() {
     if (state.subjectFilter === 'all' && subjects.includes('mathematics')) {
       state.subjectFilter = 'mathematics';
     }
+    const streakBarEl = document.getElementById('streak-bar');
     if (allTabs.length > 1) {
       tabsEl.style.display = 'flex';
+      streakBarEl?.classList.remove('no-tabs');  // streak bar pins under the tabs (49px)
       const allSessions = Storage.loadSessions();
       tabsEl.innerHTML = allTabs.map(s => {
         const isRegTab = hasRegionalTab && s === regionalLang;
@@ -128,6 +130,7 @@ function _renderHome() {
       }).join('');
     } else {
       tabsEl.style.display = 'none';
+      streakBarEl?.classList.add('no-tabs');  // no tabs → streak bar pins to top (0)
     }
   }
 
