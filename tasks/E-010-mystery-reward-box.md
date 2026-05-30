@@ -1,6 +1,6 @@
 # E-010: Mystery Reward Box on Milestones
 
-**Priority:** P1 (Reward) | **Force:** Reward | **Type:** JS+UI | **Complexity:** M | **Status:** Pending
+**Priority:** P1 (Reward) | **Force:** Reward | **Type:** JS+UI | **Complexity:** M | **Status:** ✅ Done (store + box overlay)
 **Session:** E5 · **Depends on:** E-005 (XP), E-008 (confetti) · **Defines the collectible store E-011 surfaces**
 
 ## Goal

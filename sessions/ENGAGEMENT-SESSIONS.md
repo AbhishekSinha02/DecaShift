@@ -19,7 +19,7 @@
 
 | # | Session | Theme (force) | Tasks | Size | Status |
 |---|---|---|---|---|---|
-| **E5** | Variable Reward | Reward | E-012, E-010, E-011 | S + M + L | Pending |
+| **E5** | Variable Reward | Reward | E-012, E-010, E-011 | S + M + L | ✅ Done |
 | **E6** | Belonging & Virality | Belonging | E-015, E-013 | M + M | Pending |
 | **E7** | Re-engagement | Ritual | E-014 | L | Pending |
 

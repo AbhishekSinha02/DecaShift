@@ -1,6 +1,6 @@
 # E-012: XP Crits & Lucky Questions
 
-**Priority:** P1 (Reward) | **Force:** Reward | **Type:** JS+UI | **Complexity:** S | **Status:** Pending
+**Priority:** P1 (Reward) | **Force:** Reward | **Type:** JS+UI | **Complexity:** S | **Status:** ✅ Done
 **Session:** E5 · **Depends on:** E-005 (XP), E-008 (feedback) · Cheapest variable-reward win
 
 ## Goal

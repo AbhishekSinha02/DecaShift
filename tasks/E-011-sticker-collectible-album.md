@@ -1,6 +1,6 @@
 # E-011: Sticker / Collectible Album
 
-**Priority:** P1 (Reward) | **Force:** Reward | **Type:** UI+JS | **Complexity:** L | **Status:** Pending
+**Priority:** P1 (Reward) | **Force:** Reward | **Type:** UI+JS | **Complexity:** L | **Status:** ✅ Done (album + NEW ribbon)
 **Session:** E5 · **Depends on:** E-010 (collectibles store) · **Lives in:** the Journey screen (E-007)
 
 ## Goal
