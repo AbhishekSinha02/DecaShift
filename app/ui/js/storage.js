@@ -186,6 +186,14 @@ const Storage = (() => {
     return streak;
   }
 
+  // E-010: bank a freeze from a mystery box (respects the cap-2)
+  function grantFreeze() {
+    const s = loadStreak();
+    s.freezes = Math.min(2, (s.freezes || 0) + 1);
+    saveStreak(s);
+    return s.freezes;
+  }
+
   // ── Export ────────────────────────────────────────────────────────────────
 
   function exportAsJSON(sessions) {
@@ -209,7 +217,7 @@ const Storage = (() => {
     syncAccountToDrive, fetchAccountFromDrive,
     syncUserToRemote,
     saveSession, loadSessions, getLastSessionForGoal, clearSessionsForGoal,
-    loadStreak, saveStreak, updateStreak,
+    loadStreak, saveStreak, updateStreak, grantFreeze,
     exportAsJSON, exportAsCSV
   };
 })();

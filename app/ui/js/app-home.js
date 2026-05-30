@@ -817,6 +817,84 @@ function _showEvolution(level) {
   }
 }
 
+// ── E-010: mystery reward box ────────────────────────────────────────────────
+// Detect a streak (7/14/30/100) or level (×5) milestone, once each, and queue a box
+// to appear after any level-up/evolution overlay is dismissed.
+function _maybeOpenMysteryBox(opts) {
+  if (typeof Collectibles === 'undefined') return;
+  let stored = {};
+  try { stored = JSON.parse(localStorage.getItem('donnibo_box_state') || '{}'); } catch (_) {}
+
+  let ctx = null;
+  const sm = opts.streak ? opts.streak.current : 0;
+  if ([7, 14, 30, 100].includes(sm) && (stored.streak || 0) < sm) {
+    ctx = { type: 'streak', milestone: sm };
+    stored.streak = sm;
+  }
+  if (!ctx && opts.xpResult && opts.xpResult.leveledUp) {
+    const lm = Math.floor(opts.xpResult.toLevel / 5) * 5;
+    if (lm >= 5 && (stored.level || 0) < lm) {
+      ctx = { type: 'level', milestone: lm };
+      stored.level = lm;
+    }
+  }
+  if (!ctx) return;
+
+  localStorage.setItem('donnibo_box_state', JSON.stringify(stored));
+  const reward = Collectibles.rollReward(ctx);
+
+  // wait until any celebration overlay (level-up/evolution/ritual) is gone
+  const tryShow = () => {
+    if (document.querySelector('.quest-ritual-overlay')) { setTimeout(tryShow, 600); return; }
+    _showMysteryBox(reward, ctx);
+  };
+  setTimeout(tryShow, 1000);
+}
+
+function _showMysteryBox(reward, ctx) {
+  const label = ctx.type === 'streak' ? `${ctx.milestone}-day streak` : `Level ${ctx.milestone}`;
+  const overlay = document.createElement('div');
+  overlay.className = 'quest-ritual-overlay mystery-overlay';
+  overlay.innerHTML = `
+    <div class="quest-ritual-card mystery-card" role="dialog" aria-label="Mystery box">
+      <div class="mystery-eyebrow">🎁 Reward unlocked · ${label}</div>
+      <div class="mystery-box">🎁</div>
+      <div class="quest-ritual-title">Mystery Box</div>
+      <p class="quest-ritual-msg">You earned a reward box. Tap to open it!</p>
+      <button class="btn btn-primary quest-ritual-dismiss" id="mystery-open">Open it ✨</button>
+    </div>`;
+  document.body.appendChild(overlay);
+  const close = () => overlay.remove();
+  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+
+  overlay.querySelector('#mystery-open').addEventListener('click', () => {
+    let icon = '', title = '', msg = '';
+    if (reward.kind === 'sticker') {
+      Collectibles.grant(reward.id);
+      icon  = `<img src="${reward.file}" alt="${_esc(reward.name)}">`;
+      title = _esc(reward.name);
+      msg   = `A new <strong>${reward.rarity}</strong> sticker for your album!`;
+    } else if (reward.kind === 'xp') {
+      if (typeof XP !== 'undefined') XP.addXP(reward.amount, 'box');
+      icon = '⚡'; title = `+${reward.amount} XP`; msg = 'Straight into your level progress.';
+    } else {
+      const n = (typeof Storage !== 'undefined') ? Storage.grantFreeze() : 1;
+      icon = '🛡'; title = 'Streak Freeze'; msg = `Banked — a missed day won't break your streak. (${n}/2)`;
+    }
+    const card = overlay.querySelector('.mystery-card');
+    card.innerHTML = `
+      <div class="mystery-reveal${reward.kind === 'sticker' ? ' is-sticker' : ''}">${icon}</div>
+      <div class="quest-ritual-title">${title}</div>
+      <p class="quest-ritual-msg">${msg}</p>
+      <button class="btn btn-primary quest-ritual-dismiss" id="mystery-claim">Claim ✓</button>`;
+    card.querySelector('#mystery-claim').addEventListener('click', () => {
+      close();
+      if (state.currentScreen === 'home' && typeof _renderHome === 'function') _renderHome();
+    });
+    if (typeof Feedback !== 'undefined') { Feedback.confetti({ count: 90 }); Feedback.hit('reward'); }
+  });
+}
+
 const _AVATAR_GRADIENTS = [
   ['#6366f1','#8b5cf6'], ['#3b82f6','#06b6d4'], ['#10b981','#34d399'],
   ['#f59e0b','#f97316'], ['#ef4444','#ec4899'], ['#8b5cf6','#d946ef'],

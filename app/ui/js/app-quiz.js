@@ -431,6 +431,9 @@ async function _showResult() {
     }
   }
 
+  // E-010: queue a mystery box for streak/level milestones (after any celebration)
+  if (typeof _maybeOpenMysteryBox === 'function') _maybeOpenMysteryBox({ streak: updatedStreak, xpResult });
+
   _renderNextLevelPrompt(state.selectedGoal);
 }
 

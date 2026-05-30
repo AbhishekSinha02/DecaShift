@@ -249,6 +249,7 @@ function _showDrillResult() {
   const drillStreak = Storage.updateStreak();
   _checkStreakMilestone(drillStreak);
   _checkRewardMilestones(drillStreak);
+  if (typeof _maybeOpenMysteryBox === 'function') _maybeOpenMysteryBox({ streak: drillStreak, xpResult: drillXP });  // E-010
   checkAndShowInstallPrompt();
   if (state.user) {
     const drillAcct = Storage.findAccount(state.user.email);
