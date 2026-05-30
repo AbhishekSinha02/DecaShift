@@ -355,6 +355,39 @@ function _shareChallenge(goalId, score, total) {
   }
 }
 
+// Head-to-head block when the finished set came from a friend's challenge.
+function _renderChallengeResult(myScore, total) {
+  const el = document.getElementById('result-challenge');
+  if (!el) return;
+  const ch = state.activeChallenge;
+  if (!ch || ch.goalId !== state.selectedGoal.id) { el.innerHTML = ''; return; }
+
+  const them = ch.score, theirTotal = ch.total || total;
+  let verdict, cls;
+  if (myScore > them)       { verdict = 'You won! 🎉';                       cls = 'h2h-win'; }
+  else if (myScore === them) { verdict = `Dead tie with ${ch.name}! 🤝`;     cls = 'h2h-tie'; }
+  else                       { verdict = `So close — ${ch.name} edged it`;   cls = 'h2h-lose'; }
+
+  el.innerHTML = `
+    <div class="h2h ${cls}">
+      <div class="h2h-verdict">${_esc(verdict)}</div>
+      <div class="h2h-rows">
+        <div class="h2h-row h2h-you"><span>You</span><strong>${myScore}/${total}</strong></div>
+        <div class="h2h-vs">vs</div>
+        <div class="h2h-row"><span>${_esc(ch.name)}</span><strong>${them}/${theirTotal}</strong></div>
+      </div>
+      <button class="btn btn-challenge" id="rematch-btn">⚔ Counter-Challenge</button>
+    </div>`;
+  const rematch = document.getElementById('rematch-btn');
+  if (rematch) rematch.onclick = () => _shareChallenge(ch.goalId, myScore, total);
+
+  if (myScore > them && typeof Feedback !== 'undefined') {
+    Feedback.confetti({ count: 70, colors: ['#7c3aed', '#22d3ee', '#f59e0b'] });
+  }
+
+  state.activeChallenge = null;  // consume — don't replay on restart/back
+}
+
 // ── Result Screen ─────────────────────────────────────────────────────────────
 
 async function _showResult() {
@@ -411,6 +444,8 @@ async function _showResult() {
       .filter(s => s.goalId === state.selectedGoal.id && s.sessionId !== session.sessionId);
     winMsgEl.innerHTML = _buildWinMessage(correct, total, pct, state.selectedGoal, prevSessions);
   }
+
+  _renderChallengeResult(correct, total);  // E-013: head-to-head if this was a challenge
 
   const trendEl = document.getElementById('result-trend');
   if (trendEl) trendEl.innerHTML = _buildTrendBlock(state.selectedGoal.id, session.sessionId);
