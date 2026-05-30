@@ -81,6 +81,10 @@ user.seenQuestions = {
 | W22 | May 25–31 | ✅ 35 files | set-2 | current week |
 | **W23** | **Jun 01–07** | ✅ **35 files (shipped 2026-05-30)** | ✅ **set-3 (6 langs, 60q)** | next week, pre-staged |
 
+**W23 science topic map (progresses from W22), shipped 2026-05-30 (`11ca503`):**
+G2 Plants Around Us · G3 Animal Life · G4 Animals & Their Habitats · G5 The Skeletal System ·
+G6 Fibre to Fabric · G7 Nutrition in Animals · G8 Synthetic Fibres & Plastics. 35 files / 525q.
+
 **W23 math topic map (progresses from W22):**
 G2 3D Solid Shapes · G3 Division · G4 Fractions · G5 Percentages & Averages ·
 G6 Ratio & Proportion · G7 Comparing Quantities (%, profit/loss, SI) · G8 Squares & Square Roots.
@@ -90,6 +94,6 @@ animals, body, family & nature words. Kept on existing set-based regional tab (n
 Note: regional is grade-null/flat-card, NOT the daily-gated weekly model. True daily regional would need
 app-home/app-quiz changes (E-track polish, deferred).
 
-**Still pending for W23 (not yet generated — next content session):** science, hindi, french for G2–8
-(W22 has them: 35 files each). Science/Hindi/French W23 = 105 more files / 1,575q. Run one subject per
+**Still pending for W23 (not yet generated — next content sessions):** hindi, french for G2–8
+(W22 has them: 35 files each). Hindi/French W23 = 70 more files / 1,050q. Run one subject per
 ~1M-token session per the content protocol (full week = 2,100q ≈ 4–5 standard sessions).

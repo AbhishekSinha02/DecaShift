@@ -41,8 +41,8 @@ W22 schema (see any `math-w22-mon.json`): `goalId`, `weekNum`, `weekDay`, `weekS
 ### Priority 1 — Finish the CURRENT week (W23, Jun 01–07) so all 4 subjects are live
 | # | Session | Files | Q | Status |
 |---|---|---|---|---|
-| C1 | **W23 Science G2–8** | 35 | 525 | 🔜 **NEXT** → `sessions/PENDING-content-w23-science.md` |
-| C2 | W23 Hindi G2–8 | 35 | 525 | ⬜ |
+| C1 | W23 Science G2–8 | 35 | 525 | ✅ done (`11ca503`, 2026-05-30) |
+| C2 | **W23 Hindi G2–8** | 35 | 525 | 🔜 **NEXT** |
 | C3 | W23 French G2–8 | 35 | 525 | ⬜ |
 | — | W23 Math G2–8 | 35 | 525 | ✅ done (`5ce7d55`) |
 | — | W23 Regional set-3 ×6 | 6 | 60 | ✅ done (`08f06e2`) |
