@@ -233,8 +233,14 @@ function _showDrillResult() {
 
   if (typeof DailyQuest !== 'undefined') DailyQuest.mark('drill');  // E-003 quest objective
   const drillXP = (typeof XP !== 'undefined') ? XP.awardDrill(correct) : null;  // E-005
-  if (drillXP && drillXP.leveledUp && typeof _showLevelUp === 'function') {
-    setTimeout(() => _showLevelUp(drillXP.toLevel), 700);
+  if (drillXP && drillXP.leveledUp) {
+    const evolved = typeof Avatar !== 'undefined' &&
+      Avatar.stageFromLevel(drillXP.toLevel) > Avatar.stageFromLevel(drillXP.fromLevel);
+    if (evolved && typeof _showEvolution === 'function') {
+      setTimeout(() => _showEvolution(drillXP.toLevel), 700);
+    } else if (typeof _showLevelUp === 'function') {
+      setTimeout(() => _showLevelUp(drillXP.toLevel), 700);
+    }
   }
   const drillStreak = Storage.updateStreak();
   _checkStreakMilestone(drillStreak);

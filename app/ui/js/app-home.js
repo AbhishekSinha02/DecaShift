@@ -774,6 +774,27 @@ function _showLevelUp(level) {
   document.body.appendChild(overlay);
 }
 
+// ── E-006: evolution reveal (crossing an avatar stage — the rare big moment) ──
+function _showEvolution(level) {
+  const stage = Avatar.stageInfo(level);
+  const overlay = document.createElement('div');
+  overlay.className = 'quest-ritual-overlay evolve-overlay';
+  overlay.innerHTML = `
+    <div class="quest-ritual-card evolve-card" role="dialog" aria-label="Donnibo evolved">
+      <div class="evolve-label">✨ Donnibo evolved ✨</div>
+      <div class="evolve-avatar">
+        <img src="${Avatar.fileFor(level)}" alt="${stage.name}" onerror="this.style.display='none'">
+      </div>
+      <div class="quest-ritual-title">${stage.name}</div>
+      <p class="quest-ritual-msg">Your Donnibo grew into its <strong>${stage.name}</strong> form. This is you, ${_esc(_getFirstName(state.user))} — getting stronger every day.</p>
+      <button class="btn btn-primary quest-ritual-dismiss">Amazing →</button>
+    </div>`;
+  const close = () => overlay.remove();
+  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+  overlay.querySelector('.quest-ritual-dismiss').addEventListener('click', close);
+  document.body.appendChild(overlay);
+}
+
 const _AVATAR_GRADIENTS = [
   ['#6366f1','#8b5cf6'], ['#3b82f6','#06b6d4'], ['#10b981','#34d399'],
   ['#f59e0b','#f97316'], ['#ef4444','#ec4899'], ['#8b5cf6','#d946ef'],
@@ -791,14 +812,16 @@ function _renderAvatar() {
   const n      = user?.name ? (user.name.charCodeAt(0) + (user.name.charCodeAt(1) || 0)) : 0;
   const [c1, c2] = _AVATAR_GRADIENTS[n % _AVATAR_GRADIENTS.length];
 
-  const el = document.getElementById('user-avatar');
-  if (el) {
-    el.textContent = letter;
-    el.style.background = `linear-gradient(135deg, ${c1}, ${c2})`;
-  }
-
   // E-005: avatar ring shows LEVEL progress (streak lives in the streak bar)
   const lv   = (typeof XP !== 'undefined') ? XP.levelFromXP(XP.getTotalXP()) : { level: 1, pct: 0 };
+
+  const el = document.getElementById('user-avatar');
+  if (el) {
+    el.textContent = letter;                                   // fallback under the SVG
+    el.style.background = `linear-gradient(135deg, ${c1}, ${c2})`;
+    if (typeof Avatar !== 'undefined') Avatar.mount(el, lv.level);  // E-006 stage SVG
+  }
+
   const circ = 2 * Math.PI * 22;
   const fill = document.getElementById('avatar-ring-fill');
   if (fill) {

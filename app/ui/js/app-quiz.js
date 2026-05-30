@@ -399,8 +399,14 @@ async function _showResult() {
   } else if (xpEl) {
     xpEl.innerHTML = '';
   }
-  if (xpResult && xpResult.leveledUp && typeof _showLevelUp === 'function') {
-    setTimeout(() => _showLevelUp(xpResult.toLevel), 700);
+  if (xpResult && xpResult.leveledUp) {
+    const evolved = typeof Avatar !== 'undefined' &&
+      Avatar.stageFromLevel(xpResult.toLevel) > Avatar.stageFromLevel(xpResult.fromLevel);
+    if (evolved && typeof _showEvolution === 'function') {
+      setTimeout(() => _showEvolution(xpResult.toLevel), 700);
+    } else if (typeof _showLevelUp === 'function') {
+      setTimeout(() => _showLevelUp(xpResult.toLevel), 700);
+    }
   }
 
   _renderNextLevelPrompt(state.selectedGoal);
