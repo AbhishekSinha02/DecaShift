@@ -232,6 +232,10 @@ function _showDrillResult() {
   const isNewPB = prevRec.bestTime === null || secs < prevRec.bestTime;
 
   if (typeof DailyQuest !== 'undefined') DailyQuest.mark('drill');  // E-003 quest objective
+  if (typeof Feedback !== 'undefined') {  // E-008
+    if (isNewPB) { Feedback.confetti({ count: 80 }); Feedback.hit('reward'); }
+    else Feedback.play('complete');
+  }
   const drillXP = (typeof XP !== 'undefined') ? XP.awardDrill(correct) : null;  // E-005
   if (drillXP && drillXP.leveledUp) {
     const evolved = typeof Avatar !== 'undefined' &&

@@ -752,6 +752,7 @@ function _showQuestRitual() {
   overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
   overlay.querySelector('.quest-ritual-dismiss').addEventListener('click', close);
   document.body.appendChild(overlay);
+  if (typeof Feedback !== 'undefined') { Feedback.confetti({ count: 90 }); Feedback.hit('complete'); }  // E-008
 }
 
 // ── E-005: level-up celebration (shared by quiz + drill finalize) ────────────
@@ -772,6 +773,7 @@ function _showLevelUp(level) {
   overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
   overlay.querySelector('.quest-ritual-dismiss').addEventListener('click', close);
   document.body.appendChild(overlay);
+  if (typeof Feedback !== 'undefined') { Feedback.confetti({ count: 80 }); Feedback.hit('levelup'); }  // E-008
 }
 
 // ── E-006: evolution reveal (crossing an avatar stage — the rare big moment) ──
@@ -793,6 +795,10 @@ function _showEvolution(level) {
   overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
   overlay.querySelector('.quest-ritual-dismiss').addEventListener('click', close);
   document.body.appendChild(overlay);
+  if (typeof Feedback !== 'undefined') {  // E-008 — the grandest moment
+    Feedback.confetti({ count: 110, colors: ['#7c3aed', '#22d3ee', '#a78bfa', '#f59e0b'] });
+    Feedback.hit('reward');
+  }
 }
 
 const _AVATAR_GRADIENTS = [

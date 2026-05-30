@@ -84,6 +84,7 @@ function _renderQuestion() {
 
 function _selectAnswer(index) {
   state.selectedAnswerIndex = index;
+  if (typeof Feedback !== 'undefined') Feedback.play('tap');  // E-008
   document.querySelectorAll('.answer-card').forEach(c => c.classList.remove('selected'));
   document.querySelector(`.answer-card[data-idx="${index}"]`).classList.add('selected');
   document.getElementById('submit-btn').disabled = false;
@@ -98,6 +99,8 @@ function submitAnswer() {
   const q  = state.filteredQuestions[state.currentIndex];
   const s  = state.selectedAnswerIndex;
   const ok = s === q.correctIndex;
+
+  if (typeof Feedback !== 'undefined') Feedback.hit(ok ? 'correct' : 'wrong');  // E-008
 
   state.responses.push({
     questionId: q.id, selectedIndex: s, correctIndex: q.correctIndex,
@@ -389,6 +392,12 @@ async function _showResult() {
     await _showScreen('home');
     _renderHome();
   };
+
+  // E-008: celebrate a perfect set (level-up/evolution sounds handled below)
+  if (typeof Feedback !== 'undefined') {
+    if (pct >= 100) { Feedback.confetti({ count: 90 }); Feedback.hit('reward'); }
+    else if (pct >= 60) { Feedback.play('complete'); }
+  }
 
   // E-005: +XP on result + level-up celebration
   const xpEl = document.getElementById('result-xp');
