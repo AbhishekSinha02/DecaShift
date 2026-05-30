@@ -1,6 +1,6 @@
 # E-002: Tablet & Laptop Shell + Multi-Column Home
 
-**Priority:** P0 (Substrate) | **Force:** Responsive Excellence | **Type:** UI/CSS+JS | **Complexity:** L | **Status:** Pending
+**Priority:** P0 (Substrate) | **Force:** Responsive Excellence | **Type:** UI/CSS+JS | **Complexity:** L | **Status:** ✅ Done (commits 78c7a5c layout, 4b82de1 rail)
 **Session:** E1 · **Depends on:** E-001 · **Closes half the "laptop/tablet/mobile" mandate**
 
 ## Goal
