@@ -286,23 +286,38 @@
 
 .netflix-cards {
   display: flex; gap: 10px;
-  overflow-x: auto; scroll-snap-type: x mandatory;
+  /* free horizontal scroll — no mandatory snap (it offset the rest position past
+     the padding, breaking at-start detection, and fought the arrow/wheel scroll) */
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch; scrollbar-width: none;
   overscroll-behavior-x: contain;
   padding: 0 16px 4px;
 }
 .netflix-cards::-webkit-scrollbar { display: none; }
 
-/* Mouse devices: reveal a slim, draggable scrollbar on the card shelves so it's
-   clear they slide horizontally (no touchscreen to swipe). Touch/phone unchanged. */
+/* Netflix-style shelf edge arrows — replace the scrollbar on mouse devices.
+   Right arrow shows only when more cards lie to the right; left only once
+   scrolled; both fade in on hover over a gradient. Hidden entirely on touch. */
+.shelf { position: relative; }
+.shelf-arrow {
+  position: absolute; top: 0; bottom: 0; width: 46px;
+  z-index: 6; display: none;
+  align-items: center; justify-content: center;
+  border: none; padding: 0; cursor: pointer;
+  font-family: var(--font-head); font-size: 30px; line-height: 1;
+  color: var(--text); opacity: 0; transition: opacity .18s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.shelf-arrow-left  { left: 0;  border-radius: var(--radius) 0 0 var(--radius);
+  background: linear-gradient(90deg, var(--bg) 35%, transparent); }
+.shelf-arrow-right { right: 0; border-radius: 0 var(--radius) var(--radius) 0;
+  background: linear-gradient(270deg, var(--bg) 35%, transparent); }
+.shelf-arrow:hover { color: var(--accent); }
+
 @media (hover: hover) and (pointer: fine) {
-  .netflix-cards { scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
-  .netflix-cards::-webkit-scrollbar { display: block; height: 8px; }
-  .netflix-cards::-webkit-scrollbar-track { background: transparent; }
-  .netflix-cards::-webkit-scrollbar-thumb {
-    background: var(--border); border-radius: 4px;
-  }
-  .netflix-cards:hover::-webkit-scrollbar-thumb { background: var(--muted); }
+  .shelf.scrollable:not(.at-end)   .shelf-arrow-right { display: flex; }
+  .shelf.scrollable:not(.at-start) .shelf-arrow-left  { display: flex; }
+  .shelf:hover .shelf-arrow { opacity: 1; }
 }
 
 .netflix-cards .day-card {

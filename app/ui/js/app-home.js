@@ -72,6 +72,7 @@ function _renderHome() {
   _renderGreeting();
   _renderDailyQuest();
   _renderFlashDrills();
+  requestAnimationFrame(_initShelfArrows);  // after all shelves are in the DOM
   _renderTodayCard();
   _renderRewardNotif();
   _renderPartnerFooter();
@@ -316,6 +317,38 @@ function _renderFlashDrills() {
   if (wrap) wrap.innerHTML = _buildDrillRow();
 }
 
+// Wrap a horizontal card track with Netflix-style edge arrows. Arrows are shown
+// only on mouse devices and only when there is more to scroll in that direction
+// — _initShelfArrows() toggles .scrollable/.at-start/.at-end on the .shelf.
+function _shelfHtml(cardsHtml) {
+  return `<div class="shelf">
+      <button class="shelf-arrow shelf-arrow-left" aria-label="Scroll left" tabindex="-1">‹</button>
+      <div class="netflix-cards">${cardsHtml}</div>
+      <button class="shelf-arrow shelf-arrow-right" aria-label="Scroll right" tabindex="-1">›</button>
+    </div>`;
+}
+
+// Toggle which edge arrows a shelf shows based on its scroll position.
+function _updateShelf(shelf) {
+  const cards = shelf.querySelector('.netflix-cards');
+  if (!cards) return;
+  const max = cards.scrollWidth - cards.clientWidth;
+  shelf.classList.toggle('scrollable', max > 2);
+  shelf.classList.toggle('at-start', cards.scrollLeft <= 1);
+  shelf.classList.toggle('at-end', cards.scrollLeft >= max - 1);
+}
+
+// Bind each shelf's scroll → arrow-state update (once per rendered element).
+function _initShelfArrows() {
+  document.querySelectorAll('.shelf').forEach(shelf => {
+    const cards = shelf.querySelector('.netflix-cards');
+    if (!cards || cards._shelfBound) return;
+    cards._shelfBound = true;
+    cards.addEventListener('scroll', () => _updateShelf(shelf), { passive: true });
+    _updateShelf(shelf);
+  });
+}
+
 function _buildDrillRow() {
   const drills = [
     { id: 'tables',   icon: '×',  name: 'Tables',   sub: '2–20 timed' },
@@ -339,7 +372,7 @@ function _buildDrillRow() {
   }).join('');
   return `<div class="netflix-row">
     <div class="netflix-row-label">⚡ Flash Drills</div>
-    <div class="netflix-cards">${cards}</div>
+    ${_shelfHtml(cards)}
   </div>`;
 }
 
@@ -350,9 +383,7 @@ function _buildWeekRow(label, goals, isPast) {
     <div class="netflix-row-label">${weekLabel}
       <span class="netflix-row-count">${goals.length} sets</span>
     </div>
-    <div class="netflix-cards">
-      ${goals.map(g => _dayCardHtml(g, isPast)).join('')}
-    </div>
+    ${_shelfHtml(goals.map(g => _dayCardHtml(g, isPast)).join(''))}
   </div>`;
 }
 
@@ -378,9 +409,7 @@ function _buildTopicRow(conceptId, goals) {
       <span class="concept-dots">${dots}</span>
       <span class="netflix-row-count">${done} of ${total} done</span>
     </div>
-    <div class="netflix-cards">
-      ${sorted.map(g => _dayCardHtml(g, false)).join('')}
-    </div>
+    ${_shelfHtml(sorted.map(g => _dayCardHtml(g, false)).join(''))}
   </div>`;
 }
 

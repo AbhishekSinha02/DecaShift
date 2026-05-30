@@ -61,6 +61,21 @@ document.addEventListener('wheel', e => {
   e.preventDefault();
 }, { passive: false });
 
+// Netflix-style shelf arrows: click scrolls ~one viewport of cards. Visibility
+// (.scrollable/.at-start/.at-end) is maintained by _initShelfArrows in app-home.
+document.addEventListener('click', e => {
+  const arrow = e.target.closest && e.target.closest('.shelf-arrow');
+  if (!arrow) return;
+  const cards = arrow.closest('.shelf')?.querySelector('.netflix-cards');
+  if (!cards) return;
+  const dist = Math.max(200, Math.round(cards.clientWidth * 0.85));
+  cards.scrollBy({ left: arrow.classList.contains('shelf-arrow-left') ? -dist : dist, behavior: 'smooth' });
+});
+
+window.addEventListener('resize', () => {
+  if (typeof _updateShelf === 'function') document.querySelectorAll('.shelf').forEach(_updateShelf);
+});
+
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 
 function _checkTrialStatus(user) {
