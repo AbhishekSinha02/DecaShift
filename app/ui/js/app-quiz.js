@@ -323,6 +323,19 @@ async function _shareResult(correct, total, pct, goal) {
   window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
 }
 
+// ── E-013: friend challenge share ─────────────────────────────────────────────
+
+function _shareChallenge(goalId, score, total) {
+  const name = _getFirstName(state.user);
+  const link = Challenge.link({ goalId, score, total, name });
+  const text = `⚔ ${name} scored ${score}/${total} on Donnibo and challenges YOU to beat it!\n${link}`;
+  if (navigator.share) {
+    navigator.share({ text }).catch(() => {});
+  } else {
+    window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+  }
+}
+
 // ── Result Screen ─────────────────────────────────────────────────────────────
 
 async function _showResult() {
@@ -395,6 +408,14 @@ async function _showResult() {
 
   const shareBtn = document.getElementById('result-share-btn');
   if (shareBtn) shareBtn.onclick = () => _shareResult(correct, total, pct, state.selectedGoal);
+
+  // E-013: challenge a friend to beat this set (not for the date-specific daily GK)
+  const challengeBtn = document.getElementById('result-challenge-btn');
+  if (challengeBtn) {
+    const challengeable = typeof Challenge !== 'undefined' && state.selectedGoal.id !== 'daily-gk';
+    challengeBtn.style.display = challengeable ? '' : 'none';
+    if (challengeable) challengeBtn.onclick = () => _shareChallenge(state.selectedGoal.id, correct, total);
+  }
 
   document.getElementById('restart-btn').onclick = () => {
     if (state.selectedGoal.id === 'daily-gk') _startDailyGK();

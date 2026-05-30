@@ -135,6 +135,14 @@ body {
 .btn-share:hover:not(:disabled) { background: #1ebe5d; transform: translateY(-1px); }
 .btn-share:active { transform: scale(0.97); box-shadow: none; }
 
+.btn-challenge {
+  background: #7c3aed;
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(124,58,237,0.3);
+}
+.btn-challenge:hover:not(:disabled) { background: #6d28d9; transform: translateY(-1px); }
+.btn-challenge:active { transform: scale(0.97); box-shadow: none; }
+
 .btn-danger { background: var(--error); color: #fff; }
 .btn-danger:hover:not(:disabled) { background: #dc2626; transform: translateY(-1px); }
 
