@@ -1,5 +1,29 @@
   <section id="screen-home" class="screen">
 
+    <!-- E-002: laptop left nav rail (≥1024px) — reuses drawer handlers, hidden on phone/tablet -->
+    <nav class="home-nav-rail" aria-label="Primary">
+      <img src="assets/icon.svg" class="rail-logo" alt="Donnibo">
+      <button class="rail-item" onclick="_renderHome()">
+        <span class="rail-icon">🏠</span><span class="rail-label">Home</span>
+      </button>
+      <button class="rail-item" id="rail-practice-btn" onclick="_navPractice()">
+        <span class="rail-icon">📖</span><span class="rail-label">Practice</span>
+      </button>
+      <button class="rail-item" onclick="_startDrill('tables')">
+        <span class="rail-icon">⚡</span><span class="rail-label">Drills</span>
+      </button>
+      <button class="rail-item" onclick="_setSubjectFilter('gk');_renderHome()">
+        <span class="rail-icon">🌍</span><span class="rail-label">GK</span>
+      </button>
+      <button class="rail-item" onclick="openSettings()">
+        <span class="rail-icon">⚙️</span><span class="rail-label">Settings</span>
+      </button>
+      <span class="rail-spacer"></span>
+      <button class="rail-item" onclick="signOut()">
+        <span class="rail-icon">↩</span><span class="rail-label">Sign Out</span>
+      </button>
+    </nav>
+
     <header class="app-header">
       <div class="app-header-brand">
         <img src="assets/icon.svg" class="app-logo" alt="Donnibo">
