@@ -1,0 +1,23 @@
+{
+  "goalId": "regional-marathi-3",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-marathi",
+  "level": 3,
+  "weekNum": 23,
+  "title": "Marathi — Set 3",
+  "description": "Week 23 — animals, body parts & family words",
+  "tags": ["marathi", "regional", "vocabulary", "week-23"],
+  "questions": [
+    { "id": "mar3-001", "question": "What does 'कुत्रा' (Kutra) mean?", "options": ["Cat", "Dog", "Cow", "Horse"], "correctIndex": 1, "explanation": "'कुत्रा' means dog in Marathi.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "mar3-002", "question": "What does 'मांजर' (Manjar) mean?", "options": ["Cat", "Dog", "Goat", "Bird"], "correctIndex": 0, "explanation": "'मांजर' means cat in Marathi.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "mar3-003", "question": "What does 'गाय' (Gaay) mean?", "options": ["Horse", "Goat", "Cow", "Buffalo"], "correctIndex": 2, "explanation": "'गाय' means cow in Marathi.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "mar3-004", "question": "What does 'हात' (Haat) mean?", "options": ["Leg", "Eye", "Hand", "Ear"], "correctIndex": 2, "explanation": "'हात' means hand in Marathi.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "mar3-005", "question": "What does 'डोळा' (Dola) mean?", "options": ["Nose", "Eye", "Mouth", "Hand"], "correctIndex": 1, "explanation": "'डोळा' means eye in Marathi.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "mar3-006", "question": "What does 'आई' (Aai) mean?", "options": ["Father", "Sister", "Mother", "Brother"], "correctIndex": 2, "explanation": "'आई' means mother in Marathi.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "mar3-007", "question": "What does 'वडील' (Vadil) mean?", "options": ["Father", "Uncle", "Grandfather", "Son"], "correctIndex": 0, "explanation": "'वडील' means father in Marathi.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "mar3-008", "question": "What does 'फूल' (Phool) mean?", "options": ["Leaf", "Flower", "Fruit", "Seed"], "correctIndex": 1, "explanation": "'फूल' means flower in Marathi.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "mar3-009", "question": "What does 'सूर्य' (Surya) mean?", "options": ["Moon", "Star", "Sun", "Sky"], "correctIndex": 2, "explanation": "'सूर्य' means sun in Marathi.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "mar3-010", "question": "What does 'पुस्तक' (Pustak) mean?", "options": ["Pen", "Book", "Bag", "Paper"], "correctIndex": 1, "explanation": "'पुस्तक' means book in Marathi.", "difficulty": "easy", "tags": ["objects", "vocabulary"] }
+  ]
+}

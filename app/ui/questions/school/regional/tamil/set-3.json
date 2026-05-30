@@ -1,0 +1,23 @@
+{
+  "goalId": "regional-tamil-3",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-tamil",
+  "level": 3,
+  "weekNum": 23,
+  "title": "Tamil — Set 3",
+  "description": "Week 23 — animals, body parts & family words",
+  "tags": ["tamil", "regional", "vocabulary", "week-23"],
+  "questions": [
+    { "id": "tam3-001", "question": "What does 'நாய்' (Naai) mean?", "options": ["Cat", "Dog", "Cow", "Goat"], "correctIndex": 1, "explanation": "'நாய்' means dog in Tamil.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "tam3-002", "question": "What does 'பூனை' (Poonai) mean?", "options": ["Cat", "Dog", "Rat", "Bird"], "correctIndex": 0, "explanation": "'பூனை' means cat in Tamil.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "tam3-003", "question": "What does 'பால்' (Paal) mean?", "options": ["Water", "Milk", "Juice", "Oil"], "correctIndex": 1, "explanation": "'பால்' means milk in Tamil.", "difficulty": "easy", "tags": ["food", "vocabulary"] },
+    { "id": "tam3-004", "question": "What does 'கை' (Kai) mean?", "options": ["Leg", "Eye", "Hand", "Ear"], "correctIndex": 2, "explanation": "'கை' means hand in Tamil.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "tam3-005", "question": "What does 'கண்' (Kan) mean?", "options": ["Nose", "Eye", "Mouth", "Hand"], "correctIndex": 1, "explanation": "'கண்' means eye in Tamil.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "tam3-006", "question": "What does 'அம்மா' (Amma) mean?", "options": ["Father", "Sister", "Mother", "Aunt"], "correctIndex": 2, "explanation": "'அம்மா' means mother in Tamil.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "tam3-007", "question": "What does 'அப்பா' (Appa) mean?", "options": ["Father", "Brother", "Uncle", "Son"], "correctIndex": 0, "explanation": "'அப்பா' means father in Tamil.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "tam3-008", "question": "What does 'மரம்' (Maram) mean?", "options": ["Flower", "Tree", "Leaf", "Fruit"], "correctIndex": 1, "explanation": "'மரம்' means tree in Tamil.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "tam3-009", "question": "What does 'பூ' (Poo) mean?", "options": ["Leaf", "Flower", "Seed", "Root"], "correctIndex": 1, "explanation": "'பூ' means flower in Tamil.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "tam3-010", "question": "What does 'சூரியன்' (Sooriyan) mean?", "options": ["Moon", "Star", "Sun", "Sky"], "correctIndex": 2, "explanation": "'சூரியன்' means sun in Tamil.", "difficulty": "easy", "tags": ["nature", "vocabulary"] }
+  ]
+}

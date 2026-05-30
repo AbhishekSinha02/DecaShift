@@ -1,0 +1,23 @@
+{
+  "goalId": "regional-punjabi-3",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-punjabi",
+  "level": 3,
+  "weekNum": 23,
+  "title": "Punjabi — Set 3",
+  "description": "Week 23 — animals, body parts & family words",
+  "tags": ["punjabi", "regional", "vocabulary", "week-23"],
+  "questions": [
+    { "id": "pun3-001", "question": "What does 'ਕੁੱਤਾ' (Kutta) mean?", "options": ["Cat", "Dog", "Cow", "Goat"], "correctIndex": 1, "explanation": "'ਕੁੱਤਾ' means dog in Punjabi.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "pun3-002", "question": "What does 'ਬਿੱਲੀ' (Billi) mean?", "options": ["Cat", "Dog", "Rat", "Bird"], "correctIndex": 0, "explanation": "'ਬਿੱਲੀ' means cat in Punjabi.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "pun3-003", "question": "What does 'ਦੁੱਧ' (Dudh) mean?", "options": ["Water", "Milk", "Juice", "Curd"], "correctIndex": 1, "explanation": "'ਦੁੱਧ' means milk in Punjabi.", "difficulty": "easy", "tags": ["food", "vocabulary"] },
+    { "id": "pun3-004", "question": "What does 'ਹੱਥ' (Hath) mean?", "options": ["Leg", "Eye", "Hand", "Ear"], "correctIndex": 2, "explanation": "'ਹੱਥ' means hand in Punjabi.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "pun3-005", "question": "What does 'ਅੱਖ' (Akkh) mean?", "options": ["Nose", "Eye", "Mouth", "Hand"], "correctIndex": 1, "explanation": "'ਅੱਖ' means eye in Punjabi.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "pun3-006", "question": "What does 'ਮਾਂ' (Maa) mean?", "options": ["Father", "Sister", "Mother", "Aunt"], "correctIndex": 2, "explanation": "'ਮਾਂ' means mother in Punjabi.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "pun3-007", "question": "What does 'ਪਿਤਾ' (Pita) mean?", "options": ["Father", "Brother", "Uncle", "Son"], "correctIndex": 0, "explanation": "'ਪਿਤਾ' means father in Punjabi. 'ਬਾਪੂ' is also used.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "pun3-008", "question": "What does 'ਰੁੱਖ' (Rukkh) mean?", "options": ["Flower", "Tree", "Leaf", "Fruit"], "correctIndex": 1, "explanation": "'ਰੁੱਖ' means tree in Punjabi.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "pun3-009", "question": "What does 'ਫੁੱਲ' (Phull) mean?", "options": ["Leaf", "Flower", "Seed", "Root"], "correctIndex": 1, "explanation": "'ਫੁੱਲ' means flower in Punjabi.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "pun3-010", "question": "What does 'ਸੂਰਜ' (Sooraj) mean?", "options": ["Moon", "Star", "Sun", "Sky"], "correctIndex": 2, "explanation": "'ਸੂਰਜ' means sun in Punjabi.", "difficulty": "easy", "tags": ["nature", "vocabulary"] }
+  ]
+}

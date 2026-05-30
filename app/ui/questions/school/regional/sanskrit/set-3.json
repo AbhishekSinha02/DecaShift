@@ -1,0 +1,23 @@
+{
+  "goalId": "regional-sanskrit-3",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-sanskrit",
+  "level": 3,
+  "weekNum": 23,
+  "title": "Sanskrit — Set 3",
+  "description": "Week 23 — animals, body parts & family words",
+  "tags": ["sanskrit", "regional", "vocabulary", "week-23"],
+  "questions": [
+    { "id": "san3-001", "question": "What does 'गजः' (Gajah) mean?", "options": ["Horse", "Elephant", "Lion", "Dog"], "correctIndex": 1, "explanation": "'गजः' means elephant in Sanskrit. 'हस्ती' is another word for elephant.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "san3-002", "question": "What does 'अश्वः' (Ashvah) mean?", "options": ["Horse", "Cow", "Goat", "Camel"], "correctIndex": 0, "explanation": "'अश्वः' means horse in Sanskrit.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "san3-003", "question": "What does 'जलम्' (Jalam) mean?", "options": ["Fire", "Air", "Water", "Earth"], "correctIndex": 2, "explanation": "'जलम्' means water in Sanskrit. 'अपः' and 'वारि' also mean water.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "san3-004", "question": "What does 'हस्तः' (Hastah) mean?", "options": ["Foot", "Hand", "Head", "Eye"], "correctIndex": 1, "explanation": "'हस्तः' means hand in Sanskrit. 'करः' also means hand.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "san3-005", "question": "What does 'सूर्यः' (Suryah) mean?", "options": ["Moon", "Sun", "Star", "Cloud"], "correctIndex": 1, "explanation": "'सूर्यः' means sun in Sanskrit. 'रविः' and 'भानुः' also mean sun.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "san3-006", "question": "What does 'माता' (Mata) mean?", "options": ["Sister", "Daughter", "Mother", "Aunt"], "correctIndex": 2, "explanation": "'माता' means mother in Sanskrit. 'जननी' also means mother.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "san3-007", "question": "What does 'पिता' (Pita) mean?", "options": ["Father", "Brother", "Son", "Grandfather"], "correctIndex": 0, "explanation": "'पिता' means father in Sanskrit. 'जनकः' also means father.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "san3-008", "question": "What does 'वृक्षः' (Vrikshah) mean?", "options": ["Flower", "Leaf", "Tree", "Fruit"], "correctIndex": 2, "explanation": "'वृक्षः' means tree in Sanskrit. 'तरुः' also means tree.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "san3-009", "question": "What does 'पुष्पम्' (Pushpam) mean?", "options": ["Flower", "Seed", "Root", "Branch"], "correctIndex": 0, "explanation": "'पुष्पम्' means flower in Sanskrit. 'सुमनम्' also means flower.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "san3-010", "question": "What does 'पुस्तकम्' (Pustakam) mean?", "options": ["Pen", "Book", "Bag", "Slate"], "correctIndex": 1, "explanation": "'पुस्तकम्' means book in Sanskrit.", "difficulty": "easy", "tags": ["objects", "vocabulary"] }
+  ]
+}

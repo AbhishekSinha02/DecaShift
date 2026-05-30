@@ -1,0 +1,23 @@
+{
+  "goalId": "regional-telugu-3",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-telugu",
+  "level": 3,
+  "weekNum": 23,
+  "title": "Telugu — Set 3",
+  "description": "Week 23 — animals, body parts & family words",
+  "tags": ["telugu", "regional", "vocabulary", "week-23"],
+  "questions": [
+    { "id": "tel3-001", "question": "What does 'కుక్క' (Kukka) mean?", "options": ["Cat", "Dog", "Cow", "Goat"], "correctIndex": 1, "explanation": "'కుక్క' means dog in Telugu.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "tel3-002", "question": "What does 'పిల్లి' (Pilli) mean?", "options": ["Cat", "Dog", "Rat", "Bird"], "correctIndex": 0, "explanation": "'పిల్లి' means cat in Telugu.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "tel3-003", "question": "What does 'పాలు' (Paalu) mean?", "options": ["Water", "Milk", "Juice", "Curd"], "correctIndex": 1, "explanation": "'పాలు' means milk in Telugu.", "difficulty": "easy", "tags": ["food", "vocabulary"] },
+    { "id": "tel3-004", "question": "What does 'చెయ్యి' (Cheyyi) mean?", "options": ["Leg", "Eye", "Hand", "Ear"], "correctIndex": 2, "explanation": "'చెయ్యి' means hand in Telugu.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "tel3-005", "question": "What does 'కన్ను' (Kannu) mean?", "options": ["Nose", "Eye", "Mouth", "Hand"], "correctIndex": 1, "explanation": "'కన్ను' means eye in Telugu.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "tel3-006", "question": "What does 'అమ్మ' (Amma) mean?", "options": ["Father", "Sister", "Mother", "Aunt"], "correctIndex": 2, "explanation": "'అమ్మ' means mother in Telugu.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "tel3-007", "question": "What does 'నాన్న' (Nanna) mean?", "options": ["Father", "Brother", "Uncle", "Son"], "correctIndex": 0, "explanation": "'నాన్న' means father in Telugu.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "tel3-008", "question": "What does 'చెట్టు' (Chettu) mean?", "options": ["Flower", "Tree", "Leaf", "Fruit"], "correctIndex": 1, "explanation": "'చెట్టు' means tree in Telugu.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "tel3-009", "question": "What does 'పువ్వు' (Puvvu) mean?", "options": ["Leaf", "Flower", "Seed", "Root"], "correctIndex": 1, "explanation": "'పువ్వు' means flower in Telugu.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "tel3-010", "question": "What does 'సూర్యుడు' (Suryudu) mean?", "options": ["Moon", "Star", "Sun", "Sky"], "correctIndex": 2, "explanation": "'సూర్యుడు' means sun in Telugu.", "difficulty": "easy", "tags": ["nature", "vocabulary"] }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "goalId": "regional-malayalam-3",
+  "category": "school",
+  "grade": null,
+  "subject": "regional-malayalam",
+  "level": 3,
+  "weekNum": 23,
+  "title": "Malayalam — Set 3",
+  "description": "Week 23 — animals, body parts & family words",
+  "tags": ["malayalam", "regional", "vocabulary", "week-23"],
+  "questions": [
+    { "id": "mal3-001", "question": "What does 'നായ' (Naaya) mean?", "options": ["Cat", "Dog", "Cow", "Goat"], "correctIndex": 1, "explanation": "'നായ' means dog in Malayalam.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "mal3-002", "question": "What does 'പൂച്ച' (Poocha) mean?", "options": ["Cat", "Dog", "Rat", "Bird"], "correctIndex": 0, "explanation": "'പൂച്ച' means cat in Malayalam.", "difficulty": "easy", "tags": ["animals", "vocabulary"] },
+    { "id": "mal3-003", "question": "What does 'പാല്' (Paal) mean?", "options": ["Water", "Milk", "Juice", "Curd"], "correctIndex": 1, "explanation": "'പാല്' means milk in Malayalam.", "difficulty": "easy", "tags": ["food", "vocabulary"] },
+    { "id": "mal3-004", "question": "What does 'കൈ' (Kai) mean?", "options": ["Leg", "Eye", "Hand", "Ear"], "correctIndex": 2, "explanation": "'കൈ' means hand in Malayalam.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "mal3-005", "question": "What does 'കണ്ണ്' (Kannu) mean?", "options": ["Nose", "Eye", "Mouth", "Hand"], "correctIndex": 1, "explanation": "'കണ്ണ്' means eye in Malayalam.", "difficulty": "easy", "tags": ["body", "vocabulary"] },
+    { "id": "mal3-006", "question": "What does 'അമ്മ' (Amma) mean?", "options": ["Father", "Sister", "Mother", "Aunt"], "correctIndex": 2, "explanation": "'അമ്മ' means mother in Malayalam.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "mal3-007", "question": "What does 'അച്ഛൻ' (Achchan) mean?", "options": ["Father", "Brother", "Uncle", "Son"], "correctIndex": 0, "explanation": "'അച്ഛൻ' means father in Malayalam.", "difficulty": "easy", "tags": ["family", "relationships"] },
+    { "id": "mal3-008", "question": "What does 'മരം' (Maram) mean?", "options": ["Flower", "Tree", "Leaf", "Fruit"], "correctIndex": 1, "explanation": "'മരം' means tree in Malayalam.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "mal3-009", "question": "What does 'പൂവ്' (Poovu) mean?", "options": ["Leaf", "Flower", "Seed", "Root"], "correctIndex": 1, "explanation": "'പൂവ്' means flower in Malayalam.", "difficulty": "easy", "tags": ["nature", "vocabulary"] },
+    { "id": "mal3-010", "question": "What does 'സൂര്യൻ' (Sooryan) mean?", "options": ["Moon", "Star", "Sun", "Sky"], "correctIndex": 2, "explanation": "'സൂര്യൻ' means sun in Malayalam.", "difficulty": "easy", "tags": ["nature", "vocabulary"] }
+  ]
+}
