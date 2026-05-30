@@ -77,7 +77,14 @@
 
       <div class="home-content" id="home-content">
         <div id="greeting-wrap"></div>
-        <div id="daily-quest-wrap"></div>
+
+        <!-- Today's Quest + Flash Drills share one row on laptop so the weekly
+             subject cards stay above the fold (stacked on phone/tablet). -->
+        <div class="home-hero-grid">
+          <div id="daily-quest-wrap"></div>
+          <div id="flash-drill-wrap"></div>
+        </div>
+
         <div id="today-card-wrap"></div>
         <div id="reward-notif-wrap"></div>
 

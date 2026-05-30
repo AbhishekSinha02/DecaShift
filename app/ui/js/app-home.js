@@ -71,6 +71,7 @@ function _renderHome() {
   _renderAvatar();
   _renderGreeting();
   _renderDailyQuest();
+  _renderFlashDrills();
   _renderTodayCard();
   _renderRewardNotif();
   _renderPartnerFooter();
@@ -157,9 +158,7 @@ function _renderHome() {
 
   // ── GK tab ───────────────────────────────────────────────────────────────
   if (state.subjectFilter === 'gk') {
-    let gkHtml = _buildDrillRow();
-    gkHtml += _renderGKNetflixRows();
-    list.innerHTML = gkHtml;
+    list.innerHTML = _renderGKNetflixRows();  // flash drills render in #flash-drill-wrap
     return;
   }
 
@@ -266,7 +265,7 @@ function _toggleArchivedSection() {
 // ── Netflix row renderers ─────────────────────────────────────────────────────
 
 function _renderNetflixRows(list, goals, subject, currentWeek) {
-  let html = _buildDrillRow();
+  let html = '';  // flash drills render separately in #flash-drill-wrap
 
   if (subject === 'gk') {
     html += _renderGKNetflixRows();
@@ -310,6 +309,11 @@ function _renderNetflixRows(list, goals, subject, currentWeek) {
   }
 
   list.innerHTML = html;
+}
+
+function _renderFlashDrills() {
+  const wrap = document.getElementById('flash-drill-wrap');
+  if (wrap) wrap.innerHTML = _buildDrillRow();
 }
 
 function _buildDrillRow() {
