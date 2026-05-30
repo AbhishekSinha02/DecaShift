@@ -2464,3 +2464,59 @@
   font-family: var(--font-head); font-weight: 800; font-size: var(--fs-h3); color: var(--text);
 }
 .journey-stat-key { font-size: var(--fs-xs); color: var(--muted); margin-top: 2px; }
+
+/* Section titles */
+.journey-section-title {
+  font-family: var(--font-head); font-weight: 800; font-size: var(--fs-h3);
+  color: var(--text); margin: 18px 0 10px;
+  display: flex; align-items: center; gap: 8px;
+}
+.journey-section-count {
+  font-family: var(--font-mono); font-size: var(--fs-xs); font-weight: 700;
+  color: var(--accent); background: var(--accent-dim);
+  border-radius: 999px; padding: 1px 8px;
+}
+
+/* Mastery list (D-012 + D-017) */
+.mastery-list { display: flex; flex-direction: column; gap: 6px; }
+.mastery-row {
+  display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: center;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 10px 14px;
+}
+.mastery-name {
+  font-weight: 600; font-size: var(--fs-sm); color: var(--text);
+  grid-column: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.mastery-best {
+  grid-column: 1; grid-row: 2;
+  font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--muted);
+}
+.mastery-tier {
+  grid-column: 2; grid-row: 1 / span 2;
+  font-size: var(--fs-xs); font-weight: 700; white-space: nowrap;
+  border-radius: 999px; padding: 4px 10px;
+}
+.mastery-mastered   { color: #fbbf24; background: rgba(251,191,36,0.12); }
+.mastery-solid      { color: #60a5fa; background: rgba(96,165,250,0.12); }
+.mastery-developing { color: #34d399; background: rgba(52,211,153,0.12); }
+.mastery-learning   { color: var(--muted); background: var(--surface-2); }
+.mastery-none       { color: var(--muted); background: var(--surface-2); }
+
+/* Badges grid */
+.badges-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+}
+.badge-cell {
+  display: flex; flex-direction: column; align-items: center; gap: 5px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 14px 8px; text-align: center;
+}
+.badge-icon { font-size: 26px; line-height: 1; }
+.badge-label { font-size: var(--fs-xs); color: var(--text); font-weight: 600; }
+.badge-cell.locked { opacity: 0.4; filter: grayscale(1); }
+.badge-cell.locked .badge-label { color: var(--muted); }
+
+@media (min-width: 768px) {
+  .badges-grid { grid-template-columns: repeat(4, 1fr); }
+}

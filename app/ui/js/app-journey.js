@@ -80,6 +80,69 @@ function _renderJourney() {
       tile(totalQ, 'questions') + tile(acc + '%', 'accuracy') +
       tile(sessions.length, 'sessions') + tile(timeStr, 'practiced');
   }
+
+  _renderJourneyMastery(sessions);
+  _renderJourneyBadges(sessions, streak, lv.level);
+}
+
+// D-012 "your best" + D-017 tier badges, per concept (topic)
+function _renderJourneyMastery(sessions) {
+  const el = document.getElementById('journey-mastery');
+  if (!el || typeof Mastery === 'undefined') return;
+  if (!sessions.length) { el.innerHTML = ''; return; }
+
+  const byGoal = {};
+  sessions.forEach(s => { (byGoal[s.goalId] = byGoal[s.goalId] || []).push(s); });
+
+  const rows = Object.keys(byGoal).map(gid => {
+    const gs   = byGoal[gid];
+    const tier = Mastery.tierFor(gs);
+    const st   = Mastery.statsFor(gs);
+    const goal = state.goals.find(g => g.id === gid);
+    const name = goal
+      ? (goal.description ? goal.description.split('—')[0].split('·')[0].trim() : goal.name)
+      : gid;
+    const bestStr = st.best ? `${st.best.score}/${st.best.total}` : '—';
+    return { tier, name, bestStr, count: st.count, rank: Mastery.rank(tier.id) };
+  }).sort((a, b) => a.rank - b.rank).slice(0, 10);
+
+  el.innerHTML = `<div class="journey-section-title">Concept Mastery</div>` +
+    `<div class="mastery-list">` + rows.map(r => `
+      <div class="mastery-row">
+        <span class="mastery-name">${_esc(r.name)}</span>
+        <span class="mastery-best">best ${r.bestStr} · ${r.count}×</span>
+        <span class="mastery-tier mastery-${r.tier.id}">${r.tier.icon} ${r.tier.label}</span>
+      </div>`).join('') + `</div>`;
+}
+
+function _journeyBadges(sessions, streak, level) {
+  const perfect = sessions.filter(s => (s.accuracy || 0) >= 1).length;
+  const hi80    = sessions.filter(s => (s.accuracy || 0) >= 0.8).length;
+  return [
+    { icon: '⚡', label: '7-day streak',  earned: streak.best >= 7 },
+    { icon: '🌟', label: '14-day streak', earned: streak.best >= 14 },
+    { icon: '🏆', label: '30-day streak', earned: streak.best >= 30 },
+    { icon: '🎯', label: 'First 100%',    earned: perfect >= 1 },
+    { icon: '✅', label: '5× over 80%',   earned: hi80 >= 5 },
+    { icon: '🔼', label: 'Reach Level 5', earned: level >= 5 },
+    { icon: '🚀', label: 'Reach Level 10',earned: level >= 10 },
+    { icon: '📚', label: '10 sessions',   earned: sessions.length >= 10 },
+    { icon: '💎', label: '50 sessions',   earned: sessions.length >= 50 },
+  ];
+}
+
+function _renderJourneyBadges(sessions, streak, level) {
+  const el = document.getElementById('journey-badges');
+  if (!el) return;
+  const badges = _journeyBadges(sessions, streak, level);
+  const earnedCount = badges.filter(b => b.earned).length;
+  el.innerHTML =
+    `<div class="journey-section-title">Badges <span class="journey-section-count">${earnedCount}/${badges.length}</span></div>` +
+    `<div class="badges-grid">` + badges.map(b => `
+      <div class="badge-cell${b.earned ? '' : ' locked'}">
+        <span class="badge-icon">${b.icon}</span>
+        <span class="badge-label">${_esc(b.label)}</span>
+      </div>`).join('') + `</div>`;
 }
 
 // Placeholder — implemented with the share-card commit
