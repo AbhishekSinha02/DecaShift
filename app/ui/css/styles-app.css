@@ -2550,3 +2550,20 @@
 @media (prefers-reduced-motion: reduce) {
   .replay-pop { animation: none; }
 }
+
+/* ════════════════════════════════════════════════════════════════
+   E-009 — directional screen transitions (override base fadeIn)
+   ════════════════════════════════════════════════════════════════ */
+.screen.nav-forward { animation: navForward 0.28s ease both; }
+.screen.nav-back    { animation: navBack 0.28s ease both; }
+@keyframes navForward {
+  from { opacity: 0; transform: translateX(26px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes navBack {
+  from { opacity: 0; transform: translateX(-26px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .screen.nav-forward, .screen.nav-back { animation: none; }
+}

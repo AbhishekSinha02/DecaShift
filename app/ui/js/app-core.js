@@ -315,11 +315,23 @@ async function _loadScreen(name) {
   }
 }
 
+// E-009: tiny nav stack → infer forward/back direction for screen transitions
+let _navStack = [];
+function _navDirection(name) {
+  const idx = _navStack.indexOf(name);
+  if (idx >= 0) { _navStack = _navStack.slice(0, idx + 1); return 'back'; }
+  _navStack.push(name);
+  return 'forward';
+}
+
 async function _showScreen(name) {
   await _loadScreen(name);
-  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active', 'nav-forward', 'nav-back'));
   const el = document.getElementById('screen-' + name);
-  if (el) el.classList.add('active');
+  if (el) {
+    const dir = _navDirection(name);
+    el.classList.add('active', dir === 'back' ? 'nav-back' : 'nav-forward');
+  }
   state.currentScreen = name;
 }
 
