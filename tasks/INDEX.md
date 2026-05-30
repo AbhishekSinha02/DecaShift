@@ -26,6 +26,12 @@
 
 ---
 
+## Code Hygiene (High priority — fast-follow, not launch-blocking)
+
+| File | What | Size | Note |
+|---|---|---|---|
+| [REFACTOR-001](REFACTOR-001-split-home-and-appcss.md) | Split `app-home.js` (1,343 lines) + `styles-app.css` (2,765 lines) past standing-instruction thresholds | M | **Not required for launch.** Do after E-014 + visual QA; bundle CSS split into the E8 token track. ~3–4 hrs, low risk. |
+
 ## Pending — Launch Critical (do now)
 
 | File | What | Size |
