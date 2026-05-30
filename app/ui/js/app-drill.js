@@ -231,6 +231,7 @@ function _showDrillResult() {
   _saveDrillRecord(drillState.type, secs, accuracy);
   const isNewPB = prevRec.bestTime === null || secs < prevRec.bestTime;
 
+  if (typeof DailyQuest !== 'undefined') DailyQuest.mark('drill');  // E-003 quest objective
   const drillStreak = Storage.updateStreak();
   _checkStreakMilestone(drillStreak);
   _checkRewardMilestones(drillStreak);

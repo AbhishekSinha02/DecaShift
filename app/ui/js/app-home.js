@@ -46,6 +46,7 @@ function _renderHome() {
   _renderCityStrip();
   _renderAvatar();
   _renderGreeting();
+  _renderDailyQuest();
   _renderTodayCard();
   _renderRewardNotif();
   _renderPartnerFooter();
@@ -637,6 +638,82 @@ function _renderTodayCard() {
   })() : '';
 
   el.innerHTML = heroCard + gkCard;
+}
+
+// ── E-003: Daily Quest + Continue hero ───────────────────────────────────────
+
+// The set-objective target: today's scheduled set (school), else any week-day
+// set, else any regular goal. Drives the "Continue / Start today's set" CTA.
+function _questSetGoal() {
+  const currentWeek = _getISOWeek(new Date());
+  const todayDay    = ['sun','mon','tue','wed','thu','fri','sat'][new Date().getDay()];
+  return state.goals.find(g => g.weekNum === currentWeek && g.weekDay === todayDay && g.subject === state.subjectFilter)
+      || state.goals.find(g => g.weekNum === currentWeek && g.weekDay === todayDay)
+      || state.goals.find(g => !g.weekNum && !(g.subject && g.subject.startsWith('regional-')))
+      || null;
+}
+
+function _renderDailyQuest() {
+  const el = document.getElementById('daily-quest-wrap');
+  if (!el) return;
+  if (!state.user) { el.innerHTML = ''; return; }
+
+  const q = DailyQuest.getState();
+
+  // The single next action (Continue hero): first incomplete objective.
+  let ctaLabel = '', ctaAction = '';
+  if (!q.set) {
+    const g = _questSetGoal();
+    if (g) {
+      const resumed = !!Storage.getLastSessionForGoal(g.id);
+      const topic   = (g.description ? g.description.split('—')[0].split('·')[0].trim() : g.name);
+      ctaLabel  = (resumed ? '📖 Continue: ' : '📖 Start: ') + _esc(topic) + ' →';
+      ctaAction = `startGoal('${g.id}')`;
+    } else {
+      ctaLabel  = '📖 Start practice →';
+      ctaAction = `_navPractice()`;
+    }
+  } else if (!q.drill) {
+    ctaLabel  = '⚡ Do a Flash Drill →';
+    ctaAction = `_startDrill('tables')`;
+  } else if (!q.gk) {
+    ctaLabel  = "🌍 Today's GK →";
+    ctaAction = `_setSubjectFilter('gk');_renderHome()`;
+  }
+
+  const chip = (done, icon, label) =>
+    `<span class="quest-chip${done ? ' done' : ''}"><span class="quest-chip-mark">${done ? '✓' : '○'}</span>${icon} ${label}</span>`;
+
+  if (q.complete) {
+    el.innerHTML = `
+      <div class="daily-quest daily-quest-complete">
+        <div class="quest-complete-row">
+          <span class="quest-complete-icon">🎉</span>
+          <div>
+            <div class="quest-complete-title">Day complete!</div>
+            <div class="quest-complete-sub">Quest done — see you tomorrow to keep it going.</div>
+          </div>
+        </div>
+        <div class="quest-chips">
+          ${chip(true, '📖', 'Set')}${chip(true, '⚡', 'Drill')}${chip(true, '🌍', 'GK')}
+        </div>
+      </div>`;
+    // E-004 ritual fires from here (added in the next commit).
+    if (typeof _maybeShowQuestRitual === 'function') _maybeShowQuestRitual(q);
+    return;
+  }
+
+  el.innerHTML = `
+    <div class="daily-quest">
+      <div class="quest-head">
+        <span class="quest-title">Today's Quest</span>
+        <span class="quest-progress">${q.done}/${q.total}</span>
+      </div>
+      <div class="quest-chips">
+        ${chip(q.set, '📖', 'Set')}${chip(q.drill, '⚡', 'Drill')}${chip(q.gk, '🌍', 'GK')}
+      </div>
+      <button class="btn btn-primary quest-cta" onclick="${ctaAction}">${ctaLabel}</button>
+    </div>`;
 }
 
 const _AVATAR_GRADIENTS = [
