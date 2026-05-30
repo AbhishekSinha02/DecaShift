@@ -13,7 +13,7 @@
 | **E1** | Responsive Excellence | Substrate | E-001, E-002 | S + L | ✅ Done |
 | **E2** | The Daily Pull | Ritual | E-003, E-004 | M + M | ✅ Done |
 | **E3** | See Yourself Grow | Identity | E-005, E-006, E-007 | M + L + M | ✅ Done |
-| **E4** | Game Juice | Juice | E-008, E-009 | M + M | Pending |
+| **E4** | Game Juice | Juice | E-008, E-009 | M + M | ✅ Done |
 
 > Wave 2 (E-010–E-015: mystery rewards, sticker album, XP crits, friend challenge, notifications,
 > shareable achievement cards) gets specced after E4 ships and we have live engagement data.

@@ -1,6 +1,6 @@
 # E-009: Screen Transitions + Skeleton Loaders
 
-**Priority:** P1 (Juice) | **Force:** Juice | **Type:** UI+JS | **Complexity:** M | **Status:** Pending
+**Priority:** P1 (Juice) | **Force:** Juice | **Type:** UI+JS | **Complexity:** M | **Status:** ✅ Done (3af2005 transitions, 5552d86 skeletons)
 **Session:** E4 · **Depends on:** none (pairs with E-008) · **Perceived-performance polish**
 
 ## Goal

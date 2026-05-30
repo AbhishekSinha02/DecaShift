@@ -29,7 +29,9 @@
 | E1 | Responsive Excellence | tablet/laptop layout | E-001, E-002 | ✅ Done (29326d0, 78c7a5c, 4b82de1) |
 | E2 | The Daily Pull | daily quest + ritual + streak-freeze | E-003, E-004 | ✅ Done (eada092, 46ab9dc, 6b81573) |
 | E3 | See Yourself Grow | XP + levels + avatar + journey | E-005, E-006, E-007 | ✅ Done (7 commits, f49a725→9c0c052) |
-| E4 | Game Juice | sound + haptics + confetti + transitions | E-008, E-009 | Pending |
+| E4 | Game Juice | sound + haptics + confetti + transitions | E-008, E-009 | ✅ Done (e8945f2→5552d86) |
+
+**Wave 1 complete (E1–E4, all 9 tasks).** Next: verify in browser, re-score launch confidence, then spec Wave 2 (E-010–E-015).
 
 ---
 
