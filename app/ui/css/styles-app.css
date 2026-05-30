@@ -2593,6 +2593,17 @@
 .album-cell.locked { opacity: 0.55; }
 .album-cell.locked img { filter: grayscale(1); }
 .album-cell.locked .album-name { color: var(--muted); }
+.album-new {
+  position: absolute; top: -6px; right: -4px;
+  font-size: 9px; font-weight: 800; letter-spacing: 0.04em; color: #fff;
+  background: var(--error); border-radius: 999px; padding: 1px 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+.album-complete-tag {
+  font-family: var(--font-body); font-size: var(--fs-xs); font-weight: 700;
+  color: #fbbf24; background: rgba(251,191,36,0.12);
+  border-radius: 999px; padding: 1px 9px;
+}
 @media (min-width: 768px) { .album-grid { grid-template-columns: repeat(4, 1fr); } }
 @media (min-width: 1024px) { .album-grid { grid-template-columns: repeat(6, 1fr); } }
 

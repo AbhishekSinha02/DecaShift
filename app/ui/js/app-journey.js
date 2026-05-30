@@ -92,20 +92,32 @@ function _renderJourneyAlbum() {
   const el = document.getElementById('journey-album');
   if (!el || typeof Collectibles === 'undefined') return;
 
-  const owned = new Set(Collectibles.owned());
-  const pool  = Collectibles.POOL.slice().sort((a, b) =>
+  const owned  = new Set(Collectibles.owned());
+  const unseen = new Set(Collectibles.unseen());   // earned since last album view
+  const pool   = Collectibles.POOL.slice().sort((a, b) =>
     Collectibles.RARITY_ORDER[a.rarity] - Collectibles.RARITY_ORDER[b.rarity]);
 
+  const complete = owned.size === pool.length;
   el.innerHTML =
-    `<div class="journey-section-title">Sticker Album <span class="journey-section-count">${owned.size}/${pool.length}</span></div>` +
+    `<div class="journey-section-title">Sticker Album <span class="journey-section-count">${owned.size}/${pool.length}</span>${complete ? '<span class="album-complete-tag">Complete! 🎉</span>' : ''}</div>` +
     `<div class="album-grid">` + pool.map(p => {
       const has = owned.has(p.id);
       return `<div class="album-cell rarity-${p.rarity}${has ? '' : ' locked'}" title="${_esc(has ? p.name : 'Locked — ' + p.earn)}">
+        ${unseen.has(p.id) ? '<span class="album-new">NEW</span>' : ''}
         ${has ? `<img src="${Collectibles.fileFor(p.id)}" alt="${_esc(p.name)}">` : '<span class="album-lock">🔒</span>'}
         <span class="album-name">${has ? _esc(p.name) : '???'}</span>
         <span class="album-rarity">${p.rarity}</span>
       </div>`;
     }).join('') + `</div>`;
+
+  // Celebrate first time the album is completed
+  if (complete && localStorage.getItem('donnibo_album_done') !== 'true') {
+    localStorage.setItem('donnibo_album_done', 'true');
+    if (typeof Feedback !== 'undefined') { Feedback.confetti({ count: 100 }); Feedback.hit('reward'); }
+  }
+
+  // Mark all as seen now that they've been displayed (clears NEW on next view)
+  if (unseen.size) Collectibles.markAllSeen();
 }
 
 // 6–10s growth replay: walks the avatar through every stage reached so far.
