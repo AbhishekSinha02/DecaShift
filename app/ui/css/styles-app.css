@@ -312,13 +312,16 @@
 
 /* ── Flash Drill cards ───────────────────────────────────────── */
 .drill-card {
-  min-width: 130px; max-width: 130px; flex-shrink: 0;
+  /* match the This Week .day-card box treatment for a consistent shelf */
+  min-width: 160px; max-width: 160px; flex-shrink: 0;
   scroll-snap-align: start;
-  background: var(--surface-2);
+  background: var(--surface);
   border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
   border-radius: var(--radius);
-  padding: 14px 12px;
+  padding: 14px;
   display: flex; flex-direction: column; gap: 4px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
   cursor: pointer; transition: transform .15s, border-color .15s;
 }
 .drill-card:hover { transform: translateY(-2px); border-color: var(--accent); }
@@ -2187,7 +2190,8 @@
 
   /* Browse shelves: larger, more generous cards */
   .netflix-cards          { gap: 14px; padding: 0 24px 6px; }
-  .netflix-cards .day-card { min-width: 184px; max-width: 184px; }
+  .netflix-cards .day-card,
+  .drill-card              { min-width: 184px; max-width: 184px; }
 
   /* Settings tiles: two columns */
   .settings-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
@@ -2204,7 +2208,8 @@
   .home-content { padding: 20px 40px 56px; }
 
   .netflix-cards          { gap: 16px; padding: 0 40px 6px; }
-  .netflix-cards .day-card { min-width: 200px; max-width: 200px; }
+  .netflix-cards .day-card,
+  .drill-card              { min-width: 200px; max-width: 200px; }
 
   .settings-tiles { grid-template-columns: 1fr 1fr 1fr; }
 
