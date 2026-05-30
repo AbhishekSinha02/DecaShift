@@ -83,6 +83,54 @@ function _renderJourney() {
 
   _renderJourneyMastery(sessions);
   _renderJourneyBadges(sessions, streak, lv.level);
+  _renderJourneyReplay(lv.level);
+}
+
+// 6–10s growth replay: walks the avatar through every stage reached so far.
+function _renderJourneyReplay(level) {
+  const el = document.getElementById('journey-replay');
+  if (!el || typeof Avatar === 'undefined') return;
+  const curStage = Avatar.stageFromLevel(level);
+  const reached  = Avatar.STAGES.slice(0, curStage + 1);
+  el.innerHTML = `
+    <div class="journey-section-title">Growth Replay</div>
+    <div class="replay-stage">
+      <img id="replay-img" src="${Avatar.fileFor(level)}" alt="">
+      <div class="replay-name" id="replay-name">${Avatar.stageInfo(level).name}</div>
+    </div>
+    <div class="replay-track">
+      ${reached.map((s, i) => `<span class="replay-dot${i === curStage ? ' active' : ''}" title="${s.name}"></span>`).join('')}
+    </div>
+    <button class="btn btn-ghost btn-sm replay-btn" onclick="_playJourneyReplay(${level})">▶ Replay my growth</button>`;
+}
+
+function _playJourneyReplay(level) {
+  if (typeof Avatar === 'undefined') return;
+  const curStage = Avatar.stageFromLevel(level);
+  const img    = document.getElementById('replay-img');
+  const nameEl = document.getElementById('replay-name');
+  const dots   = Array.from(document.querySelectorAll('.replay-dot'));
+  if (!img) return;
+
+  // Reduced motion → jump straight to the final stage, no animation
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    img.src = Avatar.fileFor(level);
+    if (nameEl) nameEl.textContent = Avatar.stageInfo(level).name;
+    return;
+  }
+
+  let i = 0;
+  const step = () => {
+    if (i > curStage) return;
+    const st = Avatar.STAGES[i];
+    img.src = 'assets/avatar/' + st.file;
+    img.classList.remove('replay-pop'); void img.offsetWidth; img.classList.add('replay-pop');
+    if (nameEl) nameEl.textContent = st.name;
+    dots.forEach((d, di) => d.classList.toggle('active', di === i));
+    i++;
+    if (i <= curStage) setTimeout(step, 1100);
+  };
+  step();
 }
 
 // D-012 "your best" + D-017 tier badges, per concept (topic)
@@ -145,12 +193,23 @@ function _renderJourneyBadges(sessions, streak, level) {
       </div>`).join('') + `</div>`;
 }
 
-// Placeholder — implemented with the share-card commit
 function _shareJourney() {
-  const lv = _journeyLevel();
-  const stage = (typeof Avatar !== 'undefined') ? Avatar.stageInfo(lv.level).name : '';
+  const lv     = _journeyLevel();
+  const stage  = (typeof Avatar !== 'undefined') ? Avatar.stageInfo(lv.level).name : '';
   const streak = Storage.loadStreak();
-  const text = `My Donnibo journey: Level ${lv.level} (${stage}) · 🔥 ${streak.current}-day streak. See yourself grow!`;
+  const user   = state.user;
+  const sessions = Storage.loadSessions().filter(s => s.userId === user?.userId);
+  const totalQ = sessions.reduce((a, s) => a + (s.total || 0), 0);
+  const acc    = sessions.length
+    ? Math.round(sessions.reduce((a, s) => a + (s.accuracy || 0), 0) / sessions.length * 100) : 0;
+
+  const text =
+    `🌱 My Donnibo journey\n` +
+    `Level ${lv.level} · ${stage}\n` +
+    `🔥 ${streak.current}-day streak (best ${streak.best})\n` +
+    `${totalQ} questions · ${acc}% accuracy\n\n` +
+    `See yourself grow — donnibo`;
+
   if (navigator.share) { navigator.share({ text }).catch(() => {}); }
   else window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
 }
