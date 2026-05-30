@@ -805,16 +805,43 @@ function _showEvolution(level) {
       </div>
       <div class="quest-ritual-title">${stage.name}</div>
       <p class="quest-ritual-msg">Your Donnibo grew into its <strong>${stage.name}</strong> form. This is you, ${_esc(_getFirstName(state.user))} — getting stronger every day.</p>
-      <button class="btn btn-primary quest-ritual-dismiss">Amazing →</button>
+      <div class="ritual-actions">
+        <button class="btn btn-ghost evolve-share">Share card 📸</button>
+        <button class="btn btn-primary quest-ritual-dismiss">Amazing →</button>
+      </div>
     </div>`;
   const close = () => overlay.remove();
   overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
   overlay.querySelector('.quest-ritual-dismiss').addEventListener('click', close);
+  overlay.querySelector('.evolve-share').addEventListener('click', () => _shareEvolution(level));
   document.body.appendChild(overlay);
   if (typeof Feedback !== 'undefined') {  // E-008 — the grandest moment
     Feedback.confetti({ count: 110, colors: ['#7c3aed', '#22d3ee', '#a78bfa', '#f59e0b'] });
     Feedback.hit('reward');
   }
+}
+
+// E-015: share the evolution as a branded image card (text fallback).
+async function _shareEvolution(level) {
+  const stage = (typeof Avatar !== 'undefined') ? Avatar.stageInfo(level) : { name: '' };
+  const name  = _getFirstName(state.user);
+  const text  = `✨ ${name}'s Donnibo evolved into ${stage.name} (Level ${level})!\nSee yourself grow — donnibo.app`;
+  if (typeof ShareCard !== 'undefined') {
+    try {
+      const blob = await ShareCard.render({
+        level,
+        headline: `Evolved into ${stage.name}!`,
+        sub: `${name} reached a new form`,
+        stat: 'Level ' + level,
+        accent: '#7c3aed',
+        fallbackChar: (name[0] || 'D').toUpperCase(),
+      });
+      await ShareCard.share(blob, text);
+      return;
+    } catch (e) { /* fall through */ }
+  }
+  if (navigator.share) { navigator.share({ text }).catch(() => {}); }
+  else window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
 }
 
 // ── E-010: mystery reward box ────────────────────────────────────────────────
@@ -1204,13 +1231,30 @@ function dismissMilestone() {
   if (modal) modal.classList.add('hidden');
 }
 
-function _shareStreak() {
+async function _shareStreak() {
   const streak = Storage.loadStreak();
-  const text   = `🔥 ${streak.current} days of daily practice on Donnibo! Consistency makes the difference. Try it: https://donnibo.app`;
+  const name   = _getFirstName(state.user);
+  const level  = (typeof XP !== 'undefined') ? XP.levelFromXP(XP.getTotalXP()).level : 1;
+  const text   = `🔥 ${name} is on a ${streak.current}-day practice streak on Donnibo! Consistency makes the difference. Try it: https://donnibo.app`;
+  // E-015: badge image card; text is the fallback.
+  if (typeof ShareCard !== 'undefined') {
+    try {
+      const blob = await ShareCard.render({
+        level,
+        headline: `${streak.current}-Day Streak! 🔥`,
+        sub: `${name} shows up every day`,
+        stat: `${streak.current} days`,
+        accent: '#f59e0b',
+        fallbackChar: (name[0] || 'D').toUpperCase(),
+      });
+      await ShareCard.share(blob, text);
+      return;
+    } catch (e) { /* fall through */ }
+  }
   if (navigator.share) {
     navigator.share({ text }).catch(() => {});
   } else {
-    navigator.clipboard?.writeText(text).then(() => alert('Copied to clipboard!')).catch(() => {});
+    window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
   }
 }
 

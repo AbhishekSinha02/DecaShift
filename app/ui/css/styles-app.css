@@ -2353,6 +2353,8 @@
   line-height: 1.55; margin-bottom: 22px;
 }
 .quest-ritual-dismiss { width: 100%; }
+.ritual-actions { display: flex; flex-direction: column; gap: 10px; }
+.ritual-actions .btn { width: 100%; }
 
 @keyframes qrFade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes qrPop {

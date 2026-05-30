@@ -227,23 +227,39 @@ function _renderJourneyBadges(sessions, streak, level) {
       </div>`).join('') + `</div>`;
 }
 
-function _shareJourney() {
+async function _shareJourney() {
   const lv     = _journeyLevel();
   const stage  = (typeof Avatar !== 'undefined') ? Avatar.stageInfo(lv.level).name : '';
   const streak = Storage.loadStreak();
   const user   = state.user;
+  const name   = _getFirstName(user);
   const sessions = Storage.loadSessions().filter(s => s.userId === user?.userId);
   const totalQ = sessions.reduce((a, s) => a + (s.total || 0), 0);
   const acc    = sessions.length
     ? Math.round(sessions.reduce((a, s) => a + (s.accuracy || 0), 0) / sessions.length * 100) : 0;
 
   const text =
-    `🌱 My Donnibo journey\n` +
+    `🌱 ${name}'s Donnibo journey\n` +
     `Level ${lv.level} · ${stage}\n` +
     `🔥 ${streak.current}-day streak (best ${streak.best})\n` +
     `${totalQ} questions · ${acc}% accuracy\n\n` +
-    `See yourself grow — donnibo`;
+    `See yourself grow — donnibo.app`;
 
+  // E-015: share a branded image card; text is the fallback body.
+  if (typeof ShareCard !== 'undefined') {
+    try {
+      const blob = await ShareCard.render({
+        level: lv.level,
+        headline: `${name}'s Journey`,
+        sub: `Level ${lv.level} · ${stage}`,
+        stat: `${streak.current}d streak · ${acc}%`,
+        accent: '#7c3aed',
+        fallbackChar: (name[0] || 'D').toUpperCase(),
+      });
+      await ShareCard.share(blob, text);
+      return;
+    } catch (e) { /* fall through to text share */ }
+  }
   if (navigator.share) { navigator.share({ text }).catch(() => {}); }
   else window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
 }

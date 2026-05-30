@@ -19,18 +19,25 @@ const ShareCard = (() => {
   // blob URL (same-origin → canvas stays exportable). Any failure → null.
   async function _loadAvatar(level) {
     if (typeof Avatar === 'undefined') return null;
-    try {
-      const res = await fetch(Avatar.fileFor(level));
-      if (!res.ok) return null;
-      let svg = await res.text();
-      if (!/<svg[^>]*\swidth=/.test(svg)) {
-        svg = svg.replace(/<svg/, '<svg width="400" height="400"');
-      }
-      const url = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' }));
-      const img = await _imageFrom(url);
-      URL.revokeObjectURL(url);
-      return img;
-    } catch (e) { return null; }
+    const src = Avatar.fileFor(level);
+    // On http(s): fetch + inject width/height so Firefox will rasterise the
+    // viewBox-only SVG (it refuses sizeless SVGs). On file:// (fetch is blocked
+    // by the browser): load the SVG straight into an <img>, which Chromium draws
+    // fine. Either route failing → null → graceful letter fallback.
+    if (location.protocol !== 'file:') {
+      try {
+        const res = await fetch(src);
+        if (res.ok) {
+          let svg = await res.text();
+          if (!/<svg[^>]*\swidth=/.test(svg)) {
+            svg = svg.replace(/<svg/, '<svg width="400" height="400"');
+          }
+          const url = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' }));
+          try { return await _imageFrom(url); } finally { URL.revokeObjectURL(url); }
+        }
+      } catch (e) { /* fall through to direct <img> load */ }
+    }
+    try { return await _imageFrom(src); } catch (e) { return null; }
   }
 
   function _imageFrom(src) {
