@@ -2111,3 +2111,59 @@
 .streak-stat-val  { font-size: 13px; font-weight: 700; color: var(--text); flex-shrink: 0; font-family: var(--font-head); }
 .streak-stat-key  { font-size: 11px; color: var(--muted); flex-shrink: 0; }
 .streak-best-sm   { font-size: 11px; color: var(--muted); margin-left: auto; flex-shrink: 0; white-space: nowrap; }
+
+/* ════════════════════════════════════════════════════════════════
+   E-002 — Tablet & laptop responsive layers
+   ADDITIVE ONLY. All rules below are min-width — they layer on top of
+   the mobile-first base and never modify it. Phone (<768px) unchanged.
+   Reading columns (quiz) stay narrow; browse/home goes wide.
+   ════════════════════════════════════════════════════════════════ */
+
+/* ── Tablet (≥768px) ───────────────────────────────────────────── */
+@media (min-width: 768px) {
+
+  /* Home breathes: wider scroll column, more gutter */
+  .home-wrap     { max-width: 900px; }
+  .home-content  { padding: 16px 24px 40px; }
+
+  /* Browse shelves: larger, more generous cards */
+  .netflix-cards          { gap: 14px; padding: 0 24px 6px; }
+  .netflix-cards .day-card { min-width: 184px; max-width: 184px; }
+
+  /* Settings tiles: two columns */
+  .settings-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+  /* Section rhythm uses the fluid gap token */
+  .netflix-row { margin-bottom: var(--sp-section); }
+}
+
+/* ── Laptop / desktop (≥1024px) ────────────────────────────────── */
+@media (min-width: 1024px) {
+
+  /* Home uses the wide container */
+  .home-wrap    { max-width: var(--container-wide); }
+  .home-content { padding: 20px 40px 56px; }
+
+  .netflix-cards          { gap: 16px; padding: 0 40px 6px; }
+  .netflix-cards .day-card { min-width: 200px; max-width: 200px; }
+
+  .settings-tiles { grid-template-columns: 1fr 1fr 1fr; }
+
+  /* Quiz keeps a readable column but answers go 2×2 */
+  .answer-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .quiz-actions { max-width: 720px; }
+}
+
+/* ── Pointer-precise hover affordances (mouse only) ────────────── */
+@media (hover: hover) and (pointer: fine) and (min-width: 1024px) {
+  .netflix-cards .day-card,
+  .drill-card {
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+  .netflix-cards .day-card:hover,
+  .drill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.35);
+    border-color: var(--accent);
+  }
+}
