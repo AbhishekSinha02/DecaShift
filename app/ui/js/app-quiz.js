@@ -20,6 +20,8 @@ async function startGoal(goalId) {
   state.filteredQuestions = state.questions.filter(q => q.goalId === goalId);
   state.currentIndex      = 0;
   state.responses         = [];
+  // E-012: one random question per set is the Lucky Question (2× XP)
+  state.luckyIndex        = state.filteredQuestions.length ? Math.floor(Math.random() * state.filteredQuestions.length) : -1;
   state.sessionId         = crypto.randomUUID();
   state.sessionStart      = new Date().toISOString();
 
@@ -60,6 +62,10 @@ function _renderQuestion() {
 
   document.getElementById('question-text').textContent = _personalise(q.question);
 
+  // E-012: reveal the Lucky Question tag (anticipation before answering)
+  const luckyTag = document.getElementById('lucky-tag');
+  if (luckyTag) luckyTag.classList.toggle('hidden', state.currentIndex !== state.luckyIndex);
+
   document.getElementById('answer-list').innerHTML = q.options.map((opt, i) => `
     <div class="answer-card" data-idx="${i}" onclick="_selectAnswer(${i})">
       <span class="answer-label">${String.fromCharCode(65 + i)}</span>
@@ -99,12 +105,17 @@ function submitAnswer() {
   const q  = state.filteredQuestions[state.currentIndex];
   const s  = state.selectedAnswerIndex;
   const ok = s === q.correctIndex;
+  const isLucky = state.currentIndex === state.luckyIndex;  // E-012
 
-  if (typeof Feedback !== 'undefined') Feedback.hit(ok ? 'correct' : 'wrong');  // E-008
+  if (typeof Feedback !== 'undefined') {
+    if (ok && isLucky) { Feedback.hit('reward'); Feedback.confetti({ count: 50 }); }  // E-012 crit
+    else Feedback.hit(ok ? 'correct' : 'wrong');  // E-008
+  }
 
   state.responses.push({
     questionId: q.id, selectedIndex: s, correctIndex: q.correctIndex,
-    isCorrect: ok, startTime: state.questionStart, endTime: new Date().toISOString(),
+    isCorrect: ok, lucky: isLucky,
+    startTime: state.questionStart, endTime: new Date().toISOString(),
     durationSeconds: state.timerSeconds
   });
 
@@ -125,8 +136,10 @@ function submitAnswer() {
   const flash = document.getElementById('feedback-flash');
   if (flash) {
     if (ok) {
-      flash.textContent = _CORRECT_LINES[state.currentIndex % _CORRECT_LINES.length];
-      flash.className   = 'feedback-flash flash-correct';
+      flash.textContent = isLucky
+        ? '✨ Lucky! Double XP on this one.'
+        : _CORRECT_LINES[state.currentIndex % _CORRECT_LINES.length];
+      flash.className   = isLucky ? 'feedback-flash flash-correct flash-lucky' : 'feedback-flash flash-correct';
       setTimeout(() => flash.classList.add('flash-fade'), 1400);
     } else {
       flash.innerHTML = '';

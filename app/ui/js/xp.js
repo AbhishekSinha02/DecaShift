@@ -74,6 +74,7 @@ const XP = (() => {
     let amt = 0;
     for (const r of (session.responses || [])) {
       amt += r.isCorrect ? XP_RULES.correct : XP_RULES.attempt;
+      if (r.isCorrect && r.lucky) amt += XP_RULES.correct;  // E-012: lucky question = 2× correct XP
     }
     const isGK = session.goalId === 'daily-gk';
     amt += isGK ? XP_RULES.gkComplete : XP_RULES.setComplete;
