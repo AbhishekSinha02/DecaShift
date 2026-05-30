@@ -322,6 +322,7 @@ async function _showResult() {
   };
 
   Storage.saveSession(session);
+  if (typeof XP !== 'undefined') XP.awardSession(session);  // E-005 (surfaced next commit)
   const updatedStreak = Storage.updateStreak();
   _checkStreakMilestone(updatedStreak);
   _checkRewardMilestones(updatedStreak);
