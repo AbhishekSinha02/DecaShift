@@ -30,8 +30,11 @@
 | E2 | The Daily Pull | daily quest + ritual + streak-freeze | E-003, E-004 | ✅ Done (eada092, 46ab9dc, 6b81573) |
 | E3 | See Yourself Grow | XP + levels + avatar + journey | E-005, E-006, E-007 | ✅ Done (7 commits, f49a725→9c0c052) |
 | E4 | Game Juice | sound + haptics + confetti + transitions | E-008, E-009 | ✅ Done (e8945f2→5552d86) |
+| E5 | Variable Reward | XP crits + mystery box + sticker album | E-012, E-010, E-011 | Pending |
+| E6 | Belonging & Virality | image share cards + friend challenge | E-015, E-013 | Pending |
+| E7 | Re-engagement | daily reminder + streak-save nudge | E-014 | Pending |
 
-**Wave 1 complete (E1–E4, all 9 tasks).** Next: verify in browser, re-score launch confidence, then spec Wave 2 (E-010–E-015).
+**Wave 1 complete (E1–E4) + live-verified.** Wave 2 (E5–E7) specced. Next: run E5, or browser-QA Wave 1 deeper first.
 
 ---
 

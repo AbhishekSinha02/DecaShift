@@ -15,8 +15,17 @@
 | **E3** | See Yourself Grow | Identity | E-005, E-006, E-007 | M + L + M | ✅ Done |
 | **E4** | Game Juice | Juice | E-008, E-009 | M + M | ✅ Done |
 
-> Wave 2 (E-010–E-015: mystery rewards, sticker album, XP crits, friend challenge, notifications,
-> shareable achievement cards) gets specced after E4 ships and we have live engagement data.
+### Wave 2 — depth & virality (specced 2026-05-29)
+
+| # | Session | Theme (force) | Tasks | Size | Status |
+|---|---|---|---|---|---|
+| **E5** | Variable Reward | Reward | E-012, E-010, E-011 | S + M + L | Pending |
+| **E6** | Belonging & Virality | Belonging | E-015, E-013 | M + M | Pending |
+| **E7** | Re-engagement | Ritual | E-014 | L | Pending |
+
+> **Wave 1 verified live (Playwright, 2026-05-29)** — the see-yourself-grow loop fires with zero console
+> errors. Wave 2 builds on the real modules it shipped: `xp.js`, `feedback.js`, `avatar.js`,
+> `storage.js` freezes, the Journey screen, and `design/avatars/expr-*.svg` for the collectible pool.
 
 ---
 
@@ -61,7 +70,39 @@
 
 ---
 
-## After E4
-1. Re-score launch confidence (currently 83/100) — expect Identity/Engagement gains.
-2. Pull the §6 metrics (D7 return, quest completion, sessions/active-day, streak survival, avg level).
-3. Spec Wave 2 (E-010–E-015) against what the data says is working.
+# ══════════ WAVE 2 ══════════
+
+## E5 — Variable Reward
+**Goal:** the "I never know what I'll get" pull, pointed at learning effort.
+1. **E-012** Lucky question / XP crit — one 2× question per set, ✨ tag, crit feedback. Commit (S, atomic).
+2. **E-010** `collectibles.js` store + roll logic (silent). Commit.
+3. **E-010** Mystery box overlay + milestone triggers (queued after level/evolve). Commit.
+4. **E-011** Sticker album grid in Journey (owned vs locked). Commit.
+5. **E-011** NEW-ribbon + set-complete polish. Commit.
+**Verify:** hit a streak/level milestone → box opens once; earned sticker appears in album; lucky question doubles XP.
+**Ships:** the collectible economy — boxes to open, a set to complete.
+
+## E6 — Belonging & Virality
+**Goal:** the share *is* the product showing off the child; the challenge *requires* a new session.
+1. **E-015** `sharecard.js` canvas renderer (avatar+level+stat) + download. Commit.
+2. **E-015** Wire image share into Journey + evolution/milestone overlays (supersede text share). Commit.
+3. **E-013** `challenge.js` encode + "Challenge a friend" link on result. Commit.
+4. **E-013** Parse `?ch=` on init → route into the set + challenger banner. Commit.
+5. **E-013** Head-to-head result compare + rematch CTA. Commit.
+**Verify:** share produces a real PNG; a `?ch=` link opens the set and shows who won.
+**Ships:** the growth loop — branded image cards + friend challenges, the only marketing channel that scales.
+
+## E7 — Re-engagement
+**Goal:** engineer the return from outside the app — honestly, within no-backend limits.
+1. **E-014** Minimal `sw.js` + register + `notificationclick`. Commit.
+2. **E-014** Settings daily-reminder time/toggle + permission flow. Commit.
+3. **E-014** Streak-save nudge (freeze-aware) + Notification Triggers where supported. Commit.
+**Verify:** reminder fires on next open / in-tab; streak-at-risk nudges, freeze-covered does not; denied permission degrades to in-app banner.
+**Ships:** the nudge — the return trigger, with iOS-closed-push honestly out of scope until paid infra.
+
+---
+
+## After Wave 2
+1. Re-score launch confidence — expect Reward/Belonging gains on top of Wave 1.
+2. Pull the §6 metrics (D7 return, quest completion, sessions/active-day, streak survival, avg level, **share-card sends**, **challenge opens**).
+3. Decide on paid-infra items deferred by constraint: true push server (E-014), real-exam leaderboard (P5-T003).

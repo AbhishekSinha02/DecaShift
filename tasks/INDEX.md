@@ -23,7 +23,16 @@
 | [E-008](E-008-feedback-engine-sound-haptics-confetti.md) | Feedback engine — sound + haptics + confetti | Juice | E4 | M |
 | [E-009](E-009-transitions-skeleton-loaders.md) | Screen transitions + skeleton loaders | Juice | E4 | M |
 
-**Wave 2 (specced after E4 ships):** E-010 mystery box · E-011 sticker album · E-012 XP crits · E-013 friend challenge · E-014 daily reminder · E-015 shareable achievement cards.
+**Wave 2 — specced (sessions E5–E7):**
+
+| File | What | Force | Session | Size |
+|---|---|---|---|---|
+| [E-012](E-012-xp-crits-lucky-questions.md) | XP crits / lucky questions (2× XP) | Reward | E5 | S |
+| [E-010](E-010-mystery-reward-box.md) | Mystery reward box on milestones | Reward | E5 | M |
+| [E-011](E-011-sticker-collectible-album.md) | Sticker / collectible album | Reward | E5 | L |
+| [E-015](E-015-shareable-achievement-cards.md) | Shareable achievement image cards | Belonging | E6 | M |
+| [E-013](E-013-friend-challenge-link.md) | Friend challenge via share link | Belonging | E6 | M |
+| [E-014](E-014-daily-reminder-notifications.md) | Daily reminder + streak-save nudge | Ritual | E7 | L |
 
 ---
 
