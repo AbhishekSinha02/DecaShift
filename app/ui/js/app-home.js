@@ -42,6 +42,11 @@ function _renderHome() {
   const chip = document.getElementById('user-chip-name');
   if (chip) chip.textContent = firstName;
 
+  // E-013: arrived via a friend-challenge link → drop into that set after render
+  if (typeof Challenge !== 'undefined' && Challenge.pending() && !state.activeChallenge) {
+    setTimeout(_maybeStartPendingChallenge, 0);
+  }
+
   _renderHeaderMeta();
   _renderCityStrip();
   _renderAvatar();

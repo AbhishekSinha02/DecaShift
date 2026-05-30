@@ -8,6 +8,18 @@ function _isGatedGoal(goal) {
   return goal?.weekNum && _GATED_DAYS.has(goal?.weekDay);
 }
 
+// E-013: route an opened ?ch= challenge into its set (or degrade gracefully).
+function _maybeStartPendingChallenge() {
+  if (state.activeChallenge || !state.user) return;
+  const ch = (typeof Challenge !== 'undefined') ? Challenge.pending() : null;
+  if (!ch) return;
+  Challenge.clear();  // consume — a refresh shouldn't replay it
+  const goal = state.goals.find(g => g.id === ch.goalId);
+  if (!goal || goal.id === 'daily-gk') return;  // unknown/locked/GK → just load home normally
+  state.activeChallenge = ch;
+  startGoal(ch.goalId);
+}
+
 async function startGoal(goalId) {
   const goal = state.goals.find(g => g.id === goalId);
   if (_isGatedGoal(goal) && state.user?.plan === 'expired') {
@@ -41,6 +53,13 @@ async function startGoal(goalId) {
         _bannerEl.innerHTML = `<strong>Last time: ${_lastSess.score}/${_lastSess.total}.</strong> Can you beat it today?`;
       }
     }
+    _bannerEl.classList.add('visible');
+  }
+
+  // E-013: a friend challenge overrides the beat-your-last-score banner
+  if (_bannerEl && state.activeChallenge && state.activeChallenge.goalId === goalId) {
+    const ch = state.activeChallenge;
+    _bannerEl.innerHTML = `<strong>⚔ ${_esc(ch.name)} challenged you</strong> — beat ${ch.score}/${ch.total}!`;
     _bannerEl.classList.add('visible');
   }
 

@@ -69,6 +69,7 @@ async function init() {
     e.preventDefault();
     _deferredInstallPrompt = e;
   });
+  if (typeof Challenge !== 'undefined') Challenge.capture();  // E-013: stash ?ch= before routing
   _loadScreen('landing');
   _loadScreen('home');
   _loadScreen('paywall');
