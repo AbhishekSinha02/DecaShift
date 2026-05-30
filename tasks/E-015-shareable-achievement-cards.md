@@ -1,6 +1,6 @@
 # E-015: Shareable Achievement Image Cards
 
-**Priority:** P1 (Belonging) | **Force:** Belonging | **Type:** JS+Canvas | **Complexity:** M | **Status:** Pending
+**Priority:** P1 (Belonging) | **Force:** Belonging | **Type:** JS+Canvas | **Complexity:** M | **Status:** ✅ Done (2026-05-30)
 **Session:** E6 · **Depends on:** E-005/E-006/E-007 (level/avatar/journey) · Upgrades text shares to images
 
 ## Goal

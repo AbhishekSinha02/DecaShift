@@ -1,6 +1,6 @@
 # E-013: Friend Challenge via Share Link
 
-**Priority:** P1 (Belonging) | **Force:** Belonging | **Type:** JS+UI | **Complexity:** M | **Status:** Pending
+**Priority:** P1 (Belonging) | **Force:** Belonging | **Type:** JS+UI | **Complexity:** M | **Status:** ✅ Done (2026-05-30)
 **Session:** E6 · **Depends on:** existing share plumbing (D-004) · No backend — all in the URL
 
 ## Goal
