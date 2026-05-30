@@ -11,11 +11,18 @@
 > Strategy + framework: [ENGAGEMENT-STRATEGY.md](ENGAGEMENT-STRATEGY.md) · Build plan: [../sessions/ENGAGEMENT-SESSIONS.md](../sessions/ENGAGEMENT-SESSIONS.md)
 > Force key: Substrate = responsive · Ritual = daily return · Identity = see-yourself-grow · Juice = polish
 >
-> ✅ **Wave 1 (E-001…E-009) + E5 (E-010/011/012) + E6 (E-013/015) shipped** → moved to `tasks/completed/`. Only E7 remains.
+> ✅ **Wave 1 (E-001…E-009) + E5 (E-010/011/012) + E6 (E-013/015) shipped** → moved to `tasks/completed/`.
+> Home UX polish shipped 2026-05-30 (laptop hero-grid, Netflix shelf arrows, week date-ranges, removed All tab, CTA/badge/gap fixes — see `session_handoff_20260530`).
 
-| File | What | Force | Session | Size |
-|---|---|---|---|---|
-| [E-014](E-014-daily-reminder-notifications.md) | Daily reminder + streak-save nudge | Ritual | E7 | L |
+| File | What | Force | Session | Size | Status |
+|---|---|---|---|---|---|
+| [E-014](E-014-daily-reminder-notifications.md) | Daily reminder + streak-save nudge (last Wave-2 task) | Ritual | E7 | L | Pending |
+| E-016 | Card token primitive (`--card-*`) — every card consumes it | Polish | E8 | S | Proposed |
+| E-017 | Shelf primitive everywhere + sticky-offset tokens (`--header-h`/`--tabs-h`) | Polish | E8 | M | Proposed |
+| E-018 | Truncation-safe CTA pattern + spacing scale (`--sp-*`) | Polish | E8 | S | Proposed |
+| E-019 | One `Avatar.render()` + shared `.corner-badge` utility | Polish | E8 | M | Proposed |
+
+> **Before E7/E8: a manual cross-breakpoint visual QA pass (375/768/1024/1440)** — headless tests miss visual bugs (proven 2026-05-30).
 
 ---
 

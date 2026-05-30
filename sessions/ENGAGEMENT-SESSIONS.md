@@ -102,7 +102,21 @@
 
 ---
 
+## Home UX polish (2026-05-30, post-E6 — not a formal E task)
+Shipped between E6 and E7: streak-bar sticky-gap fix, removed 'All' subject tab, week date-range labels (replaces W22), Flash-Drill↔This-Week card style match, **laptop hero-grid (Today's Quest + Flash Drills side-by-side → weekly cards above the fold)**, **Netflix-style shelf edge-arrows replacing the scrollbar** (dropped `scroll-snap: x mandatory`), Today's-Quest CTA truncation, level-badge separation. Confidence → 85/100. Detail in memory `session_handoff_20260530`.
+
+## E7 — Re-engagement (next, the last Wave-2 task)
+**E-014** daily reminder + streak-save nudge — needs a minimal `sw.js` (none exists). True closed-app push is OUT of scope (no push server); degrade to next-open / in-tab reminder + Notification Triggers where supported. Ships Retention 9→10.
+
+## E8 (proposed) — UX Consistency mini-track (cheap, high-leverage)
+The app grew feature-by-feature; the same patterns are re-implemented slightly differently each time (this is what produced the gap/overflow/overlap bugs). Consolidate into shared primitives — see memory `session_handoff_20260530` for the full list:
+- **E-016** Card token primitive (`--card-bg/-border/-shadow/-radius/-pad`) — every card consumes it; drill→day match becomes structural, can't drift.
+- **E-017** Shelf primitive everywhere (one `.shelf` wrapper for tabs/GK/topic/future rows) + sticky-offset tokens (`--header-h`/`--tabs-h` drive sticky `top`).
+- **E-018** Truncation-safe CTA pattern + spacing scale (use `--sp-*` tokens, not ad-hoc margins).
+- **E-019** One `Avatar.render(el, level, opts)` + shared `.corner-badge` utility (anchor + surface ring; fixes same-color merges like the level badge).
+
 ## After Wave 2
-1. Re-score launch confidence — expect Reward/Belonging gains on top of Wave 1.
-2. Pull the §6 metrics (D7 return, quest completion, sessions/active-day, streak survival, avg level, **share-card sends**, **challenge opens**).
-3. Decide on paid-infra items deferred by constraint: true push server (E-014), real-exam leaderboard (P5-T003).
+1. **Manual cross-breakpoint visual QA pass (375 / 768 / 1024 / 1440)** — headless construction tests miss visual bugs (proven 2026-05-30). Screenshot every screen; fix overflow/overlap/below-fold. Highest-value next work.
+2. Re-score launch confidence — expect Reward/Belonging gains on top of Wave 1.
+3. Pull the §6 metrics (D7 return, quest completion, sessions/active-day, streak survival, avg level, **share-card sends**, **challenge opens**).
+4. Decide on paid-infra items deferred by constraint: true push server (E-014), real-exam leaderboard (P5-T003).
