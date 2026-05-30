@@ -47,6 +47,20 @@ document.addEventListener('click', e => {
   }
 });
 
+// Desktop: let a vertical mouse wheel scroll the horizontal shelves/tabs (no
+// touchscreen to swipe). Delegated so it survives shelf re-renders. Passes the
+// event through at the track's edges so the page still scrolls vertically.
+document.addEventListener('wheel', e => {
+  const sc = e.target.closest && e.target.closest('.netflix-cards, .subject-tabs, .subj-track');
+  if (!sc || sc.scrollWidth <= sc.clientWidth) return;
+  if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;   // trackpad already horizontal
+  const atStart = sc.scrollLeft <= 0;
+  const atEnd   = sc.scrollLeft + sc.clientWidth >= sc.scrollWidth - 1;
+  if ((e.deltaY < 0 && atStart) || (e.deltaY > 0 && atEnd)) return;  // edge → let page scroll
+  sc.scrollLeft += e.deltaY;
+  e.preventDefault();
+}, { passive: false });
+
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 
 function _checkTrialStatus(user) {

@@ -293,6 +293,18 @@
 }
 .netflix-cards::-webkit-scrollbar { display: none; }
 
+/* Mouse devices: reveal a slim, draggable scrollbar on the card shelves so it's
+   clear they slide horizontally (no touchscreen to swipe). Touch/phone unchanged. */
+@media (hover: hover) and (pointer: fine) {
+  .netflix-cards { scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
+  .netflix-cards::-webkit-scrollbar { display: block; height: 8px; }
+  .netflix-cards::-webkit-scrollbar-track { background: transparent; }
+  .netflix-cards::-webkit-scrollbar-thumb {
+    background: var(--border); border-radius: 4px;
+  }
+  .netflix-cards:hover::-webkit-scrollbar-thumb { background: var(--muted); }
+}
+
 .netflix-cards .day-card {
   min-width: 160px; max-width: 160px;
   flex-shrink: 0; scroll-snap-align: start;
