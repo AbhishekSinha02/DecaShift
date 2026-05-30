@@ -1,0 +1,62 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Zzz text elements (floating) -->
+  <text x="128" y="48" font-size="16" font-weight="bold" fill="#4C3D6E" opacity="0.55" font-family="sans-serif">z</text>
+  <text x="143" y="32" font-size="20" font-weight="bold" fill="#5D4A80" opacity="0.65" font-family="sans-serif">z</text>
+  <text x="158" y="14" font-size="26" font-weight="bold" fill="#4C3D6E" opacity="0.45" font-family="sans-serif">Z</text>
+
+  <!-- Curled up body (sleeping position — body rotated/curled) -->
+  <!-- Tail curled around (implied by curved shape at bottom) -->
+  <ellipse cx="100" cy="162" rx="38" ry="22" fill="#4C3D6E"/>
+  <ellipse cx="100" cy="162" rx="20" ry="12" fill="#F5E6C8"/>
+
+  <!-- Arms tucked in (folded under head) -->
+  <ellipse cx="72" cy="148" rx="10" ry="7" fill="#4C3D6E" transform="rotate(-30 72 148)"/>
+  <ellipse cx="128" cy="148" rx="10" ry="7" fill="#4C3D6E" transform="rotate(30 128 148)"/>
+
+  <!-- Staff lying on ground -->
+  <rect x="25" y="178" width="150" height="5" rx="2.5" fill="#7C4A1E" opacity="0.55"/>
+
+  <!-- Legs tucked (small, barely visible) -->
+  <ellipse cx="80" cy="178" rx="10" ry="7" fill="#4C3D6E" opacity="0.80"/>
+  <ellipse cx="120" cy="178" rx="10" ry="7" fill="#4C3D6E" opacity="0.80"/>
+
+  <!-- HEAD (resting, tilted slightly) -->
+  <circle cx="100" cy="80" r="52" fill="#4C3D6E"/>
+
+  <!-- Ears (relaxed, slightly drooped) -->
+  <ellipse cx="57" cy="34" rx="12" ry="16" fill="#4C3D6E" transform="rotate(-8 57 34)"/>
+  <ellipse cx="57" cy="36" rx="7" ry="10" fill="#5D4A80" transform="rotate(-8 57 36)"/>
+  <ellipse cx="141" cy="33" rx="12" ry="15" fill="#4C3D6E" transform="rotate(12 141 33)"/>
+  <ellipse cx="141" cy="35" rx="7" ry="9" fill="#5D4A80" transform="rotate(12 141 35)"/>
+
+  <!-- Snout -->
+  <ellipse cx="100" cy="99" rx="18" ry="12" fill="#F5E6C8"/>
+
+  <!-- Eyes CLOSED (two gentle curved lines) -->
+  <path d="M 71 77 Q 83 72 95 77" stroke="#F59E0B" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 105 77 Q 117 72 129 77" stroke="#F59E0B" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Lashes (sleeping detail) -->
+  <line x1="74" y1="76" x2="72" y2="71" stroke="#F59E0B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="83" y1="73" x2="83" y2="68" stroke="#F59E0B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="92" y1="76" x2="94" y2="71" stroke="#F59E0B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="108" y1="76" x2="106" y2="71" stroke="#F59E0B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="117" y1="73" x2="117" y2="68" stroke="#F59E0B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="126" y1="76" x2="128" y2="71" stroke="#F59E0B" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Nose -->
+  <ellipse cx="100" cy="96" rx="6.5" ry="4.5" fill="#3D2B5E"/>
+
+  <!-- Mouth (small, relaxed — sleeping breath) -->
+  <path d="M 95 106 Q 100 110 105 106" stroke="#3D2B5E" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Blush (peaceful sleep) -->
+  <ellipse cx="67" cy="95" rx="9" ry="5" fill="#E8A4A4" opacity="0.38"/>
+  <ellipse cx="133" cy="95" rx="9" ry="5" fill="#E8A4A4" opacity="0.38"/>
+
+  <!-- Bandana (loosened slightly) -->
+  <rect x="76" y="125" width="48" height="8" rx="3" fill="#E74C3C" opacity="0.80"/>
+
+  <!-- Small moon (context) -->
+  <path d="M 25 35 Q 22 28 28 22 Q 18 26 18 35 Q 18 44 28 48 Q 22 42 25 35 Z" fill="#F5E6C8" opacity="0.50"/>
+</svg>

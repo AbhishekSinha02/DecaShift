@@ -1,0 +1,51 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Staff resting on shoulder -->
+  <rect x="108" y="30" width="6" height="135" rx="3" fill="#7C4A1E" transform="rotate(-20 108 120)"/>
+
+  <!-- Body -->
+  <ellipse cx="100" cy="157" rx="28" ry="23" fill="#4C3D6E"/>
+  <ellipse cx="100" cy="157" rx="15" ry="13" fill="#F5E6C8"/>
+
+  <!-- Left arm (relaxed, slight outward hang) -->
+  <ellipse cx="68" cy="155" rx="8" ry="17" fill="#4C3D6E" transform="rotate(-12 68 155)"/>
+  <!-- Right arm (staff on shoulder) -->
+  <ellipse cx="125" cy="143" rx="8" ry="15" fill="#4C3D6E" transform="rotate(-35 125 143)"/>
+
+  <!-- Legs -->
+  <ellipse cx="87" cy="177" rx="13" ry="9" fill="#4C3D6E"/>
+  <ellipse cx="113" cy="177" rx="13" ry="9" fill="#4C3D6E"/>
+
+  <!-- HEAD -->
+  <circle cx="100" cy="75" r="52" fill="#4C3D6E"/>
+
+  <!-- Ears -->
+  <ellipse cx="58" cy="30" rx="13" ry="17" fill="#4C3D6E"/>
+  <ellipse cx="58" cy="32" rx="7" ry="10" fill="#5D4A80"/>
+  <ellipse cx="142" cy="30" rx="13" ry="17" fill="#4C3D6E"/>
+  <ellipse cx="142" cy="32" rx="7" ry="10" fill="#5D4A80"/>
+
+  <!-- Snout -->
+  <ellipse cx="100" cy="94" rx="18" ry="12" fill="#F5E6C8"/>
+
+  <!-- Eyes (relaxed, half-lidded slight) -->
+  <circle cx="83" cy="72" r="13" fill="#F59E0B"/>
+  <circle cx="84" cy="74" r="7.5" fill="#1E1B4B"/>
+  <circle cx="87" cy="70" r="3" fill="white" opacity="0.9"/>
+  <!-- Relaxed eyelid line -->
+  <path d="M 70 69 Q 83 67 96 69" stroke="#4C3D6E" stroke-width="2" fill="none"/>
+
+  <circle cx="117" cy="72" r="13" fill="#F59E0B"/>
+  <circle cx="118" cy="74" r="7.5" fill="#1E1B4B"/>
+  <circle cx="121" cy="70" r="3" fill="white" opacity="0.9"/>
+  <path d="M 104 69 Q 117 67 130 69" stroke="#4C3D6E" stroke-width="2" fill="none"/>
+
+  <!-- Nose -->
+  <ellipse cx="100" cy="91" rx="6.5" ry="4.5" fill="#3D2B5E"/>
+
+  <!-- Mouth (gentle resting smile) -->
+  <path d="M 93 100 Q 100 106 107 100" stroke="#3D2B5E" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Bandana -->
+  <rect x="74" y="120" width="52" height="9" rx="3" fill="#E74C3C"/>
+  <path d="M 126 120 L 133 129 L 126 129" fill="#C0392B"/>
+</svg>
