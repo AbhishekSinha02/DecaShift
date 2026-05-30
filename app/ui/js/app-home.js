@@ -725,6 +725,35 @@ function _renderDailyQuest() {
     </div>`;
 }
 
+// ── E-004: Daily completion ritual (fires once when the quest completes) ──────
+function _maybeShowQuestRitual(q) {
+  if (!q.complete || DailyQuest.ritualShownToday()) return;
+  DailyQuest.markRitualShown();
+  _showQuestRitual();
+}
+
+function _showQuestRitual() {
+  const streak = Storage.loadStreak();
+  const name   = _getFirstName(state.user);
+  const days   = streak.current;
+
+  const overlay = document.createElement('div');
+  overlay.className = 'quest-ritual-overlay';
+  overlay.innerHTML = `
+    <div class="quest-ritual-card" role="dialog" aria-label="Day complete">
+      <div class="quest-ritual-burst">🎉</div>
+      <div class="quest-ritual-title">Day Complete!</div>
+      <div class="quest-ritual-streak"><span class="qr-flame">🔥</span> ${days} day${days === 1 ? '' : 's'}</div>
+      <p class="quest-ritual-msg">Brilliant, ${_esc(name)} — you finished today's full quest: set, drill, and GK. See you tomorrow to keep it going.</p>
+      <button class="btn btn-primary quest-ritual-dismiss">Done for today ✓</button>
+    </div>`;
+
+  const close = () => overlay.remove();
+  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+  overlay.querySelector('.quest-ritual-dismiss').addEventListener('click', close);
+  document.body.appendChild(overlay);
+}
+
 const _AVATAR_GRADIENTS = [
   ['#6366f1','#8b5cf6'], ['#3b82f6','#06b6d4'], ['#10b981','#34d399'],
   ['#f59e0b','#f97316'], ['#ef4444','#ec4899'], ['#8b5cf6','#d946ef'],

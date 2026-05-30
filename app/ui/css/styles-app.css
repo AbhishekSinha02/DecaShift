@@ -2267,3 +2267,48 @@
   font-size: 11px; font-weight: 600; color: var(--success);
   margin-left: 6px; white-space: nowrap;
 }
+
+/* ── E-004: daily completion ritual overlay ────────────────────── */
+.quest-ritual-overlay {
+  position: fixed; inset: 0; z-index: 200;
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+  background: rgba(7, 9, 14, 0.78);
+  backdrop-filter: blur(4px);
+  animation: qrFade 0.25s ease;
+}
+.quest-ritual-card {
+  width: 100%; max-width: 360px; text-align: center;
+  background: linear-gradient(160deg, var(--surface-2), var(--surface));
+  border: 1px solid rgba(34,197,94,0.45);
+  border-radius: 20px;
+  padding: 32px 24px 24px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.5);
+  animation: qrPop 0.4s cubic-bezier(0.18,0.89,0.32,1.28);
+}
+.quest-ritual-burst { font-size: 56px; line-height: 1; margin-bottom: 8px; }
+.quest-ritual-title {
+  font-family: var(--font-head); font-weight: 800;
+  font-size: var(--fs-h1); color: var(--text); margin-bottom: 8px;
+}
+.quest-ritual-streak {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--font-mono); font-weight: 700;
+  font-size: var(--fs-body); color: var(--warning);
+  background: rgba(245,158,11,0.12); border-radius: 999px;
+  padding: 4px 14px; margin-bottom: 14px;
+}
+.quest-ritual-msg {
+  font-size: var(--fs-sm); color: var(--muted);
+  line-height: 1.55; margin-bottom: 22px;
+}
+.quest-ritual-dismiss { width: 100%; }
+
+@keyframes qrFade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes qrPop {
+  from { opacity: 0; transform: scale(0.88) translateY(12px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .quest-ritual-overlay, .quest-ritual-card { animation: none; }
+}
