@@ -2335,6 +2335,12 @@
 }
 .quest-chip-mark { font-weight: 800; }
 .quest-cta { width: 100%; }
+/* keep the long set topic on one line — truncate it, never let it overflow the
+   button; the arrow stays pinned at the end */
+.quest-cta .quest-cta-label {
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0;
+}
+.quest-cta .quest-cta-arrow { flex: 0 0 auto; }
 .quest-hint {
   font-size: var(--fs-sm); color: var(--accent); font-weight: 600;
   text-align: center; margin-top: 2px;
@@ -2445,12 +2451,14 @@
 /* Level badge on the header avatar ring */
 .avatar-ring-wrap { position: relative; }
 .level-badge {
-  position: absolute; bottom: -2px; right: -2px;
-  min-width: 17px; height: 17px; padding: 0 3px;
+  position: absolute; bottom: -3px; right: -3px;
+  min-width: 16px; height: 16px; padding: 0 3px;
   display: flex; align-items: center; justify-content: center;
   font-family: var(--font-mono); font-size: 10px; font-weight: 700;
   color: #fff; background: var(--accent);
-  border: 2px solid var(--bg); border-radius: 999px;
+  /* surface-coloured ring separates the badge from the same-blue progress ring
+     behind it, so it reads as a distinct chip rather than merging into it */
+  border: 2px solid var(--surface); border-radius: 999px;
   line-height: 1; box-sizing: content-box;
 }
 

@@ -751,18 +751,18 @@ function _renderDailyQuest() {
       if (g) {
         const resumed = !!Storage.getLastSessionForGoal(g.id);
         const topic   = (g.description ? g.description.split('—')[0].split('·')[0].trim() : g.name);
-        ctaLabel  = (resumed ? '📖 Continue: ' : '📖 Start: ') + _esc(topic) + ' →';
+        ctaLabel  = (resumed ? '📖 Continue: ' : '📖 Start: ') + _esc(topic);
         ctaAction = `startGoal('${g.id}')`;
       } else {
-        ctaLabel  = '📖 Start practice →';
+        ctaLabel  = '📖 Start practice';
         ctaAction = `_navPractice()`;
       }
     }
   } else if (!q.drill) {
-    ctaLabel  = '⚡ Do a Flash Drill →';
+    ctaLabel  = '⚡ Do a Flash Drill';
     ctaAction = `_startDrill('tables')`;
   } else if (!q.gk) {
-    ctaLabel  = "🌍 Today's GK →";
+    ctaLabel  = "🌍 Today's GK";
     ctaAction = `_setSubjectFilter('gk');_renderHome()`;
   }
 
@@ -799,7 +799,7 @@ function _renderDailyQuest() {
       </div>
       ${deferToHero
         ? `<p class="quest-hint">Start with today's set below ↓</p>`
-        : `<button class="btn btn-primary quest-cta" onclick="${ctaAction}">${ctaLabel}</button>`}
+        : `<button class="btn btn-primary quest-cta" onclick="${ctaAction}"><span class="quest-cta-label">${ctaLabel}</span><span class="quest-cta-arrow">→</span></button>`}
     </div>`;
 }
 
