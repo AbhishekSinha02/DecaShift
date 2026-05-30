@@ -2092,7 +2092,9 @@
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   display: flex; align-items: center; gap: 6px;
-  padding: 0 16px; height: 40px; overflow-x: auto;
+  /* E-004 fix: wrap instead of clipping freeze/saved chips on narrow screens */
+  flex-wrap: wrap; row-gap: 1px;
+  padding: 7px 16px; min-height: 40px;
   scrollbar-width: none;
   flex-shrink: 0;
 }
@@ -2243,6 +2245,10 @@
 }
 .quest-chip-mark { font-weight: 800; }
 .quest-cta { width: 100%; }
+.quest-hint {
+  font-size: var(--fs-sm); color: var(--accent); font-weight: 600;
+  text-align: center; margin-top: 2px;
+}
 
 /* Day-complete state */
 .daily-quest-complete {

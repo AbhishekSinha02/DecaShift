@@ -669,18 +669,32 @@ function _renderDailyQuest() {
 
   const q = DailyQuest.getState();
 
+  // Does the today-hero card below already show today's set? (school + scheduled
+  // goal). If so, defer the set CTA to it instead of duplicating the button here.
+  const _cw = _getISOWeek(new Date());
+  const _td = ['sun','mon','tue','wed','thu','fri','sat'][new Date().getDay()];
+  const todayHeroGoal = (state.user.category === 'school')
+    ? (state.goals.find(g => g.weekNum === _cw && g.weekDay === _td && g.subject === state.subjectFilter)
+       || state.goals.find(g => g.weekNum === _cw && g.weekDay === _td))
+    : null;
+
   // The single next action (Continue hero): first incomplete objective.
-  let ctaLabel = '', ctaAction = '';
+  let ctaLabel = '', ctaAction = '', deferToHero = false;
   if (!q.set) {
-    const g = _questSetGoal();
-    if (g) {
-      const resumed = !!Storage.getLastSessionForGoal(g.id);
-      const topic   = (g.description ? g.description.split('—')[0].split('·')[0].trim() : g.name);
-      ctaLabel  = (resumed ? '📖 Continue: ' : '📖 Start: ') + _esc(topic) + ' →';
-      ctaAction = `startGoal('${g.id}')`;
+    if (todayHeroGoal) {
+      // set CTA lives in the today-hero card below — don't duplicate it
+      deferToHero = true;
     } else {
-      ctaLabel  = '📖 Start practice →';
-      ctaAction = `_navPractice()`;
+      const g = _questSetGoal();
+      if (g) {
+        const resumed = !!Storage.getLastSessionForGoal(g.id);
+        const topic   = (g.description ? g.description.split('—')[0].split('·')[0].trim() : g.name);
+        ctaLabel  = (resumed ? '📖 Continue: ' : '📖 Start: ') + _esc(topic) + ' →';
+        ctaAction = `startGoal('${g.id}')`;
+      } else {
+        ctaLabel  = '📖 Start practice →';
+        ctaAction = `_navPractice()`;
+      }
     }
   } else if (!q.drill) {
     ctaLabel  = '⚡ Do a Flash Drill →';
@@ -721,7 +735,9 @@ function _renderDailyQuest() {
       <div class="quest-chips">
         ${chip(q.set, '📖', 'Set')}${chip(q.drill, '⚡', 'Drill')}${chip(q.gk, '🌍', 'GK')}
       </div>
-      <button class="btn btn-primary quest-cta" onclick="${ctaAction}">${ctaLabel}</button>
+      ${deferToHero
+        ? `<p class="quest-hint">Start with today's set below ↓</p>`
+        : `<button class="btn btn-primary quest-cta" onclick="${ctaAction}">${ctaLabel}</button>`}
     </div>`;
 }
 
