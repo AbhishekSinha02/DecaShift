@@ -2571,6 +2571,31 @@
   .badges-grid { grid-template-columns: repeat(4, 1fr); }
 }
 
+/* E-011: sticker album */
+.album-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.album-cell {
+  position: relative;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 14px 8px 10px; text-align: center;
+}
+.album-cell img { width: 56px; height: 56px; object-fit: contain; }
+.album-lock { font-size: 30px; line-height: 56px; opacity: 0.5; }
+.album-name { font-size: var(--fs-xs); color: var(--text); font-weight: 600; }
+.album-rarity {
+  font-size: 9px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700;
+}
+.album-cell.rarity-common .album-rarity { color: var(--muted); }
+.album-cell.rarity-rare   .album-rarity { color: #60a5fa; }
+.album-cell.rarity-epic   .album-rarity { color: #c084fc; }
+.album-cell.rarity-rare   { border-color: rgba(96,165,250,0.35); }
+.album-cell.rarity-epic   { border-color: rgba(192,132,252,0.4); }
+.album-cell.locked { opacity: 0.55; }
+.album-cell.locked img { filter: grayscale(1); }
+.album-cell.locked .album-name { color: var(--muted); }
+@media (min-width: 768px) { .album-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1024px) { .album-grid { grid-template-columns: repeat(6, 1fr); } }
+
 /* Growth replay */
 .replay-stage {
   text-align: center;
