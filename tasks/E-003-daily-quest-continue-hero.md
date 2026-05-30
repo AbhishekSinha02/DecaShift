@@ -1,6 +1,10 @@
 # E-003: Daily Quest + "Continue Your Quest" Hero
 
-**Priority:** P1 (Ritual) | **Force:** Ritual | **Type:** UI+JS | **Complexity:** M | **Status:** Pending
+**Priority:** P1 (Ritual) | **Force:** Ritual | **Type:** UI+JS | **Complexity:** M | **Status:** ✅ Done (commit eada092)
+
+> **Scope note:** the quiz engine saves a session only on completion (no mid-question
+> persistence), so the Continue hero resumes today's *set* (next incomplete objective),
+> not an exact question index. True mid-set resume would need a separate task.
 **Session:** E2 · **Depends on:** none (uses existing session history + streak) · **Builds on:** D-007 Today card
 
 ## Goal

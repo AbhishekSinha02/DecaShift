@@ -1,6 +1,6 @@
 # E-004: Daily Completion Ritual + Kind Streak-Freeze
 
-**Priority:** P1 (Ritual) | **Force:** Ritual | **Type:** UI+JS | **Complexity:** M | **Status:** Pending
+**Priority:** P1 (Ritual) | **Force:** Ritual | **Type:** UI+JS | **Complexity:** M | **Status:** ✅ Done (commits 46ab9dc freeze, 6b81573 ritual)
 **Session:** E2 · **Depends on:** E-003 (uses `isDayComplete`) · **Relates to:** D-006 streak rewards
 
 ## Goal
