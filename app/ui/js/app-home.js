@@ -87,10 +87,13 @@ function _renderHome() {
     const langLabel = { sanskrit: 'Sanskrit', marathi: 'Marathi', tamil: 'Tamil',
                         telugu: 'Telugu', punjabi: 'Punjabi', malayalam: 'Malayalam' };
     const allTabs = subjects.length > 0
-      ? [...subjects, ...(isSchool ? ['gk'] : []), ...(hasRegionalTab ? [regionalLang] : []), 'all']
+      ? [...subjects, ...(isSchool ? ['gk'] : []), ...(hasRegionalTab ? [regionalLang] : [])]
       : [];
-    if (state.subjectFilter === 'all' && subjects.includes('mathematics')) {
-      state.subjectFilter = 'mathematics';
+    // 'All' tab removed — when the saved filter is 'all' or no longer a valid tab,
+    // default to the first subject (math sorts first). Non-school users keep 'all'
+    // (their tabs are hidden and content renders unfiltered).
+    if (subjects.length > 0 && !allTabs.includes(state.subjectFilter)) {
+      state.subjectFilter = subjects[0];
     }
     const streakBarEl = document.getElementById('streak-bar');
     if (allTabs.length > 1) {
@@ -99,8 +102,7 @@ function _renderHome() {
       const allSessions = Storage.loadSessions();
       tabsEl.innerHTML = allTabs.map(s => {
         const isRegTab = hasRegionalTab && s === regionalLang;
-        const baseLabel = s === 'all' ? 'All'
-          : isRegTab ? (langLabel[s] || _cap(s))
+        const baseLabel = isRegTab ? (langLabel[s] || _cap(s))
           : (subjectLabels[s] || _cap(s));
         const active = state.subjectFilter === s ? ' active' : '';
         const extraClass = isRegTab ? ' regional-tab' : s === 'gk' ? ' gk-tab' : '';
