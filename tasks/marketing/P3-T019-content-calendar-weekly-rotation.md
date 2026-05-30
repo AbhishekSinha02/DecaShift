@@ -66,3 +66,30 @@ user.seenQuestions = {
 - P3-T017 (weekly sets — done, framework in place)
 - P3-T018 (regional language — done, framework in place)
 - P2-T020 (content ops / CSV import — speeds up content creation)
+
+---
+
+## Weekly Rotation Log
+
+> Weekly math files: grades 2–8 × 5 days (mon–fri) × 15q = 35 files / 525q per week.
+> File pattern: `school/grade-N/math-wWW-DAY.json`, wired in `manifests/manifest-grade-N.json`.
+> Home shows "This Week" (currentWeek) + "Last Week" (currentWeek−1) shelves via ISO week.
+
+| Week | Dates | Math (G2–8) | Regional | Notes |
+|---|---|---|---|---|
+| W21 | May 18–24 | ✅ 35 files | set-1 | last week |
+| W22 | May 25–31 | ✅ 35 files | set-2 | current week |
+| **W23** | **Jun 01–07** | ✅ **35 files (shipped 2026-05-30)** | ✅ **set-3 (6 langs, 60q)** | next week, pre-staged |
+
+**W23 math topic map (progresses from W22):**
+G2 3D Solid Shapes · G3 Division · G4 Fractions · G5 Percentages & Averages ·
+G6 Ratio & Proportion · G7 Comparing Quantities (%, profit/loss, SI) · G8 Squares & Square Roots.
+
+**Regional W23:** set-3 (level 3, `weekNum:23`) for marathi/sanskrit/tamil/telugu/punjabi/malayalam —
+animals, body, family & nature words. Kept on existing set-based regional tab (no JS change, no day-gating).
+Note: regional is grade-null/flat-card, NOT the daily-gated weekly model. True daily regional would need
+app-home/app-quiz changes (E-track polish, deferred).
+
+**Still pending for W23 (not yet generated — next content session):** science, hindi, french for G2–8
+(W22 has them: 35 files each). Science/Hindi/French W23 = 105 more files / 1,575q. Run one subject per
+~1M-token session per the content protocol (full week = 2,100q ≈ 4–5 standard sessions).
