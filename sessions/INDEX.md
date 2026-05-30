@@ -19,6 +19,20 @@
 
 ---
 
+## Engagement Track (E-track) — "Beat Netflix/YouTube"
+
+> Strategy: [`tasks/ENGAGEMENT-STRATEGY.md`](../tasks/ENGAGEMENT-STRATEGY.md) ·
+> Build plan: [`ENGAGEMENT-SESSIONS.md`](ENGAGEMENT-SESSIONS.md)
+
+| # | Session | Theme | Tasks | Status |
+|---|---|---|---|---|
+| E1 | Responsive Excellence | tablet/laptop layout | E-001, E-002 | Pending |
+| E2 | The Daily Pull | daily quest + ritual + streak-freeze | E-003, E-004 | Pending |
+| E3 | See Yourself Grow | XP + levels + avatar + journey | E-005, E-006, E-007 | Pending |
+| E4 | Game Juice | sound + haptics + confetti + transitions | E-008, E-009 | Pending |
+
+---
+
 ## Completed Sessions (19 done)
 See `sessions/completed/` for all session files.
 

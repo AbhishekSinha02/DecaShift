@@ -6,6 +6,27 @@
 
 ---
 
+## Engagement Track (E-track) — "Beat Netflix/YouTube" delight & habit
+
+> Strategy + framework: [ENGAGEMENT-STRATEGY.md](ENGAGEMENT-STRATEGY.md) · Build plan: [../sessions/ENGAGEMENT-SESSIONS.md](../sessions/ENGAGEMENT-SESSIONS.md)
+> Force key: Substrate = responsive · Ritual = daily return · Identity = see-yourself-grow · Juice = polish
+
+| File | What | Force | Session | Size |
+|---|---|---|---|---|
+| [E-001](E-001-fluid-responsive-foundation.md) | Fluid responsive token foundation | Substrate | E1 | S |
+| [E-002](E-002-tablet-laptop-shell.md) | Tablet & laptop shell + multi-column home | Substrate | E1 | L |
+| [E-003](E-003-daily-quest-continue-hero.md) | Daily Quest + "Continue your quest" hero | Ritual | E2 | M |
+| [E-004](E-004-completion-ritual-streak-freeze.md) | Completion ritual + kind streak-freeze | Ritual | E2 | M |
+| [E-005](E-005-xp-levels-engine.md) | XP + Levels engine + level-up moment | Identity | E3 | M |
+| [E-006](E-006-avatar-growth-evolution.md) | Donnibo avatar 6-stage evolution (supersedes P3-T004, closes BUG-010) | Identity | E3 | L |
+| [E-007](E-007-my-journey-profile.md) | "My Journey" profile screen (absorbs D-012, D-017, P3-T003) | Identity | E3 | M |
+| [E-008](E-008-feedback-engine-sound-haptics-confetti.md) | Feedback engine — sound + haptics + confetti | Juice | E4 | M |
+| [E-009](E-009-transitions-skeleton-loaders.md) | Screen transitions + skeleton loaders | Juice | E4 | M |
+
+**Wave 2 (specced after E4 ships):** E-010 mystery box · E-011 sticker album · E-012 XP crits · E-013 friend challenge · E-014 daily reminder · E-015 shareable achievement cards.
+
+---
+
 ## Pending — Launch Critical (do now)
 
 | File | What | Size |
