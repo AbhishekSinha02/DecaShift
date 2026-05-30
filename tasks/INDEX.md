@@ -1,269 +1,66 @@
-# DecaShift — Task Index
+# Donnibo — Code Task Index
 
-> Build for user transformation, not just content delivery.
-> Priority is visible in every filename: P1 = must ship first, P6 = future expansion.
+> **Only code-change tasks live here.**
+> Marketing, strategy, content ops, collab → `tasks/marketing/`
+> Completed tasks → `tasks/completed/`
 
 ---
 
-## Priority Key
+## Pending — Launch Critical (do now)
 
-| Level | Meaning | Ship When |
+| File | What | Size |
 |---|---|---|
-| **P1** | Foundation — app broken without it | Before any user testing |
-| **P2** | Core experience — users expect it | Before public launch |
-| **P3** | Engagement & retention — keeps users coming back | First 4 weeks post-launch |
-| **P4** | Power features — admin + advanced UX | After first 1,000 users |
-| **P5** | Monetization — Stripe + paid tier | After retention is proven |
-| **P6** | Ecosystem — collab + scale | After first revenue |
+| [P2-T017](P2-T017-profile-page-password-reset.md) | Forgot-password email flow | S |
+| [P2-T026](P2-T026-subscription-plan-tamper-protection.md) | HMAC subscription tamper protection | M |
+| [P2-T035](P2-T035-css-lazy-load-phase2.md) | Lazy-load styles-app.css after login | S |
+| [P2-T044](P2-T044-pwa-install-banner-home.md) | PWA install banner improvements | S |
+
+## Pending — High Value Pre-Scale
+
+| File | What | Size |
+|---|---|---|
+| [P2-T027](P2-T027-concept-builder-atom-to-synthesis.md) | Concept Builder atom→synthesis | XL |
+| [P2-T016](P2-T016-welcome-onboarding-flow.md) | Welcome onboarding flow | M |
+| [P2-T023](P2-T023-cross-page-ui-consistency-kid-theme.md) | Cross-page UI consistency | S |
+| [P3-T003](P3-T003-progress-dashboard.md) | Progress dashboard | M |
+| [P3-T004](P3-T004-avatar-growth-system.md) | Avatar growth system (Donnibo mascot) | L |
+| [P3-T005](P3-T005-gamification-badges-milestones.md) | Gamification badges + milestones | M |
+| [P3-T007](P3-T007-efficient-question-addition.md) | Admin form / CSV import for questions | M |
+| [P3-T008](P3-T008-offline-dnd-mode.md) | Offline / DND mode | L |
+| [P3-T026](P3-T026-topic-tag-filter-ui.md) | Topic tag filter UI | S |
+| [P3-T029](P3-T029-weekly-progressive-test-subscribers.md) | Weekly progressive test for Pro users | M |
+| [P3-T030](P3-T030-offline-first-question-prefetch.md) | Offline-first question prefetch (IndexedDB) | L |
+| [P3-T031](P3-T031-city-weather-localization.md) | City weather localization widget | S |
+| [P3-T033](P3-T033-kids-daily-planner-routine-goals.md) | Kids daily planner + routine goals | L |
+| [P3-T034](P3-T034-kids-daily-journal-mood-reflection.md) | Kids daily journal + mood reflection | L |
+| [P3-T035](P3-T035-kids-longterm-goals-milestone-tracker.md) | Kids long-term goals + milestone tracker | L |
+| [P3-T036](P3-T036-parent-progress-notifications-whatsapp-email.md) | Parent progress notifications | M |
+
+## Pending — Monetization (Stripe stays here)
+
+| File | What | Size |
+|---|---|---|
+| [P5-T001](P5-T001-stripe-integration-setup.md) | Stripe integration setup | L |
+| [P5-T002](P5-T002-real-exam-mode-paid.md) | Real exam mode (paid feature) | M |
+| [P5-T003](P5-T003-leaderboard-paid.md) | Leaderboard (paid feature) | M |
+| [P5-T004](P5-T004-feature-gate-system.md) | Feature gate system | M |
+| [P5-T005](P5-T005-upgrade-prompt-ui.md) | Upgrade prompt UI | S |
+| [P5-T006](P5-T006-global-payment-gateway.md) | Global payment gateway | L |
+
+## Pending — Future Scale (P4/P6 code)
+
+| File | What | Size |
+|---|---|---|
+| [P3-T010](P3-T010-per-user-session-folder-drive.md) | Per-user session folder in Drive | M |
+| [P4-T001](P4-T001-admin-dashboard-user-analytics.md) | Admin dashboard + user analytics | L |
+| [P4-T002](P4-T002-multi-language-support.md) | Multi-language support | L |
+| [P4-T005](P4-T005-multilanguage-ui-landing-signup.md) | Multi-language UI (landing + signup) | M |
+| [P4-T006](P4-T006-admin-portal-standalone-app.md) | Admin portal standalone app | XL |
+| [P4-T007](P4-T007-admin-question-pattern-config.md) | Admin question pattern config | M |
+| [P6-T004](P6-T004-app-internationalization-i18n.md) | App internationalisation (i18n) | L |
+| [P6-T005](P6-T005-international-language-learning.md) | International language learning content | L |
+| [P6-T006](P6-T006-localized-curriculum-content.md) | Localized curriculum content | L |
 
 ---
 
-## P1 — Foundation (Build First)
-
-| File | Goal | Complexity | Status |
-|---|---|---|---|
-| [P1-T001](P1-T001-fix-profile-save-performance.md) | Fix slow "Saving Profile" — non-blocking sync | S | ✅ Done |
-| [P1-T002](P1-T002-user-signup-email-password.md) | User sign-up with email + password | M | ✅ Done (localStorage auth) |
-| [P1-T003](P1-T003-user-signin-form.md) | User sign-in form | S | ✅ Done (localStorage auth) |
-| [P1-T004](P1-T004-session-persistence-auth.md) | Session persistence — stay logged in across browser restarts | M | ✅ Done (localStorage) |
-| [P1-T005](P1-T005-user-signout.md) | Sign-out — clean state clear | S | ✅ Done |
-| [P1-T006](P1-T006-user-category-selection.md) | User category: School (Grade 2–12) / College / Professional | S | ✅ Done |
-| [P1-T007](P1-T007-auto-save-responses-remove-export.md) | Auto-save responses on submit — remove manual CSV/JSON export | S | ✅ Done |
-| [P1-T008](P1-T008-category-level-question-filtering.md) | Filter questions by user category + difficulty level | M | ✅ Done |
-| ~~[P1-T009](P1-T009-migrate-drive-to-google-sheets.md)~~ | ~~Replace Drive JSON files with Google Sheets rows~~ | S | ❌ Cancelled |
-| [P1-T010](P1-T010-static-content-from-github-raw.md) | Fetch question files from GitHub raw URLs with local fallback | S | ✅ Done |
-| [P1-T011](P1-T011-individual-drive-files-per-user-and-session.md) | One JSON file per user + one JSON file per session in Drive | S | ✅ Done |
-| [P1-T012](P1-T012-drive-account-persistence-cross-device-login.md) | Save account to Drive — login works on any device / incognito | S | ✅ Done |
-| [P1-T013](P1-T013-multi-file-questions-folder-by-grade-subject-level.md) | Multi-file questions folder — auto-populate goals by grade/subject/level | M | ✅ Done |
-
----
-
-## P2 — Core Experience (Before Public Launch)
-
-| File | Goal | Complexity | Status |
-|---|---|---|---|
-| [P2-T001](P2-T001-json-driven-ui-dynamic-reflection.md) | JSON changes reflect on UI instantly — fully data-driven | S | ✅ Done (manifest-driven) |
-| [P2-T002](P2-T002-landing-page-success-stories.md) | Landing page with success stories — emotional hook before sign-up | M | ✅ Done |
-| [P2-T003](P2-T003-mobile-tab-responsive-redesign.md) | Mobile-first + tab-friendly full redesign | M | 🔄 Partial (touch targets, responsive quiz header done) |
-| [P2-T004](P2-T004-timer-toggle-on-off.md) | Timer on/off toggle — pressure-free practice option | S | ✅ Done |
-| [P2-T005](P2-T005-dark-light-mode-toggle.md) | Dark / light mode with system preference detection | S | ✅ Done |
-| [P2-T006](P2-T006-daily-free-unlimited-practice.md) | Daily free unlimited practice — no paywalls on core loop | S | ✅ Done |
-| [P2-T007](P2-T007-git-version-tagging-strategy.md) | Git tag convention — every release recoverable by version number | S | ✅ Done |
-| [P2-T008](P2-T008-multi-version-deployment-github-pages.md) | Deploy v1/v2/latest simultaneously on GitHub Pages subdirectories | S | ✅ Done |
-| [P2-T009](P2-T009-version-comparison-index-page.md) | Root index page listing all versions with links for side-by-side comparison | S | ✅ Done |
-| [P2-T010](P2-T010-local-dev-testing-setup.md) | Local dev testing setup — Live Server + Ctrl+Shift+D quick-fill | S | ✅ Done |
-| [P2-T011](P2-T011-manual-test-checklist.md) | Manual test checklist — all screens, auth flows, edge cases | S | Pending |
-| **[P2-T012](P2-T012-profile-edit-grade-change.md)** | **Profile edit — grade/role change without losing history** | **S** | **✅ Done** |
-| **[P2-T013](P2-T013-subscription-tier-design.md)** | **Subscription strategy — 15-day trial, soft lock, ₹199/month Pro** | **S** | **Pending** |
-| **[P2-T014](P2-T014-branding-logo-rename.md)** | **Branding — progression arc logo, "See yourself grow" tagline, favicon, OG image (derived from avatar SVG)** | **M** | **Pending** |
-| **[P2-T015](P2-T015-landing-page-improvements.md)** | **Landing page — real stats, screenshot, specific social proof, FAQ** | **M** | **Pending** |
-| **[P2-T016](P2-T016-welcome-onboarding-flow.md)** | **Welcome onboarding — first-login modal, guided profile setup, empty states** | **M** | **Pending** |
-| **[P2-T017](P2-T017-profile-page-password-reset.md)** | **Profile page — account screen, change password, delete account** | **M** | **Pending** |
-| **[P2-T018](P2-T018-automated-testing-strategy.md)** | **Automated E2E tests — Playwright, GitHub Actions CI, all critical flows** | **M** | **Pending** |
-| **[P2-T019](P2-T019-subscription-prelaunch-readiness.md)** | **Subscription pre-launch readiness — content depth gate, landing page honesty, differentiation story** | **M** | **Pending** |
-| **[P2-T020](P2-T020-content-operations-bulk-import.md)** | **Content operations — in-app admin panel + CSV bulk import for non-developer content growth** | **M** | **Pending** |
-| **[P2-T021](P2-T021-subject-tab-filter-ui.md)** | **Subject tab filter — Math / Science / Hindi / French tabs on home screen** | **S** | **✅ Done** |
-| **[P2-T022](P2-T022-remove-regional-language-from-signup.md)** | **Remove regional language from signup — move to profile settings, keeps app internationally neutral** | **S** | **Pending** |
-| **[P2-T023](P2-T023-cross-page-ui-consistency-kid-theme.md)** | **Cross-page UI consistency + auto kid-friendly theme — warm palette default for school Grade 2–8** | **M** | **Pending** |
-| **[P2-T024](P2-T024-session-management-confidence-audit.md)** | **Session management confidence audit — Drive sync, localStorage fallback, cross-device integrity** | **M** | **Pending** |
-| **[P2-T025](P2-T025-backup-and-disaster-recovery.md)** | **Backup and disaster recovery — daily Drive snapshots, user data export, recovery playbook** | **M** | **Pending** |
-| **[P2-T026](P2-T026-subscription-plan-tamper-protection.md)** | **Subscription plan tamper protection — signed HMAC token, Drive as source of truth, Pro content proxied via Apps Script** | **M** | **Pending** |
-| **[P2-T027](P2-T027-concept-builder-atom-to-synthesis.md)** | **Concept Builder — atom-to-synthesis engine, concept-tagged bank, smart weekly selection, concept map UI** | **L** | **Pending** |
-| **[P2-T028](P2-T028-local-indie-developer-brand-voice.md)** | **Local indie developer brand voice — developer story card, WhatsApp support, city-dynamic "Made for [City] students" footer + hero, tone guide** | **S** | **Pending** |
-| **[P2-T029](P2-T029-local-domain-city-entry-points.md)** | **Local domain strategy — donnibo.in brand + city entry points (punekids.in, nagpurkids.in etc.), Cloudflare redirects, URL-param city override, ref analytics** | **S** | **Pending** |
-| **[P2-T030](P2-T030-dawnbreak-theme-settings-restructure.md)** | **5-theme system (Dawnbreak · Sunrise · Ocean · Dark · Light) + theme auto-apply by grade + 5-tile selector in Settings → Appearance + 6 sub-screens + avatar toggle** | **M** | **Pending** |
-| **[P2-T031](P2-T031-flash-drill-mode-tables-squares-cubes-formulas.md)** | **Flash-Drill mode — speed drills for multiplication tables, squares (1–25), cubes (1–15), formula recall, Daily GK 5-question capsule with personal best tracking + share card** | **M** | **Pending** |
-| **[P2-T032](P2-T032-daily-gk-capsule-current-affairs.md)** | **Daily GK capsule — reflective Daily 5 with explanations, Today in India fact card, monthly Current Affairs pack, GK subject tab, weekly topic rotation** | **S** | **Pending** |
-| **[P2-T033](P2-T033-pwa-install-prompt-taskbar-guide.md)** | **PWA install prompt — Android native banner after 3rd session, iOS Safari manual guide, Windows taskbar steps in Settings → About & Help, standalone detection** | **S** | **Pending** |
-| **[P2-T034](P2-T034-grade-9-12-content-sprint.md)** | **Grade 9–12 content sprint — 800+ questions across 4 grades × 4 subjects; highest-intent users currently underserved; prerequisite before marketing to older students** | **M** | **Pending** |
-| **[P2-T035](P2-T035-content-generation-session-protocol.md)** | **Content generation session protocol — dedicated sessions (no code) for bulk question generation; Sonnet 4.6 writes files directly; 300–500q per 2-hour session; zero additional cost** | **S** | **Pending** |
-| **[P2-T036](P2-T036-curriculum-calendar-config-admin-view.md)** | **Curriculum calendar config + admin view — annual topic plan JSON per grade/subject/week, admin HTML showing coverage gaps, copy-to-clipboard generation commands; merges P3-T021 + P4-T007** | **M** | **Pending** |
-| **[P2-T037](P2-T037-app-js-file-splitting-restructure.md)** | **app.js file splitting — split into 6 focused modules (core/auth/home/quiz/drill/settings); no framework, no bundler; do after P2-T031 Flash Drill ships; session plan in sessions/PENDING-app-js-restructure.md** | **M** | **Pending** |
-| **[P2-T038](P2-T038-silent-feature-gating-trial.md)** | **Silent feature gating + configurable trial — no explicit free/paid labels; full access for configurable period (default 30d); silent expiry with paywall screen; Settings → Payment Plans; admin-configurable period (P4)** | **M** | **Pending** |
-| **[P2-T039](P2-T039-landing-feature-carousel.md)** | **Landing page hero feature carousel — replace static phone mockup with 4-slide auto-advancing CSS carousel: Flash Drills · Daily Practice · Progress · Week Sets; swipe support; navigation dots** | **M** | **Pending** |
-| **[P2-T040](P2-T040-landing-hero-no-scroll.md)** | **Landing page above-fold hero — hero fills 1440×900 viewport without scroll; inline stats; remove "How it works" section; hide scrollbar; fix overflow-x** | **S** | **Pending** |
-| **[P2-T041](P2-T041-vocabulary-streak-replacement.md)** | **App-wide vocabulary: replace "streak" — choose relatable word (Run/Habit/Flow); user-visible strings only; internal function names unchanged; options: Run · Habit · Flow — decision required before implementation** | **S** | **Pending — word decision needed** |
-| **[P2-T042](P2-T042-mobile-layout-overflow-fix.md)** | **Mobile layout overflow fix — content shifts left due to horizontal overflow; root cause: element(s) wider than viewport; fix overflow-x on html/body/#screen-landing; audit all screens at 375px** | **S** | **Pending** |
-| **[P2-T043](P2-T043-app-navigation-overhaul.md)** | **App navigation overhaul — remove bottom nav; top-right ☰ drawer with all options; vertical scroll-snap for week navigation (This Week ↕ Last Week); horizontal scroll-snap for subject cards within week; fixed shell, sliding content** | **L** | **Pending** |
-
----
-
-## P3 — Engagement & Retention (First 4 Weeks)
-
-| File | Goal | Complexity | Status |
-|---|---|---|---|
-| [P3-T001](P3-T001-daily-streak-tracking.md) | Daily streak tracking — core habit loop | S | ✅ Done |
-| [P3-T002](P3-T002-streak-visualization-ui.md) | Streak visualization — flame, 7-day strip, milestone celebrations | S | ✅ Done (flame + count; 7-day strip pending) |
-| [P3-T003](P3-T003-progress-dashboard.md) | Progress dashboard — accuracy trends, time invested, goal breakdown | M | ✅ Done (inline on home; deep analytics pending) |
-| [P3-T009](P3-T009-questions-folder-hierarchy-by-grade.md) | Questions folder hierarchy — nested category/grade, manifest-only discovery | M | ✅ Done |
-| **[P3-T010](P3-T010-per-user-session-folder-drive.md)** | **Per-user session folder in Drive — verified + future full user-root folder** | **S** | **✅ Already Implemented (Code.gs)** |
-| **[P3-T011](P3-T011-content-expansion-tracking.md)** | **Content expansion — 6,000+ questions, Grades 2–8 full W21+W22 weekly sets (all 4 subjects)** | **S** | **✅ Done** |
-| **[P3-T012](P3-T012-colorful-student-theme.md)** | **Colorful student theme (Grade 2–8) — 3rd theme option, warm/bright palette** | **M** | **Pending** |
-| ~~[P3-T013](P3-T013-regional-language-learning.md)~~ | ~~Regional language learning (superseded by P3-T018)~~ | **M** | ❌ Superseded |
-| **[P3-T014](P3-T014-content-expansion-science-hindi-french-grade2-8.md)** | **Content expansion — Science, Hindi, French for grades 2–8 (22 new files, 264 questions)** | **M** | **✅ Done** |
-| **[P3-T015](P3-T015-personalized-questions-username-placeholder.md)** | **Personalized questions — {{userName}} placeholder replaced at render time** | **S** | **✅ Done** |
-| **[P3-T016](P3-T016-goal-archive-mark-as-done.md)** | **Goal archive — mark as done, hide from home, "Show completed (N)" toggle** | **S** | **✅ Done** |
-| **[P3-T017](P3-T017-weekly-question-sets.md)** | **Weekly question sets — date-gated, Mon–Sun, "This Week" card on home screen** | **M** | **✅ Done** |
-| **[P3-T018](P3-T018-regional-language-signup-profile.md)** | **Regional language — signup selection, settings, 120 questions (6 languages × 2 sets)** | **M** | **✅ Done** |
-| **[P3-T019](P3-T019-content-calendar-weekly-rotation.md)** | **Content calendar — weekly question rotation, seen-first filter, Set 2 for grades 7–12** | **M** | **Pending** |
-| **[P3-T020](P3-T020-international-language-learning-priority.md)** | **International language learning — French, German, Spanish, Japanese, Mandarin, Arabic (elevated from P6)** | **M** | **Pending** |
-| **[P3-T021](P3-T021-curriculum-topic-progression-plan.md)** | **Curriculum topic progression — structured topic sequence per grade/subject, not random day-by-day** | **M** | **Pending** |
-| **[P3-T022](P3-T022-question-reuse-spaced-practice.md)** | **Question reuse & spaced practice — track mastery per question, surface weak topics for retry sessions** | **M** | **Pending** |
-| **[P3-T023](P3-T023-question-content-growth-strategy.md)** | **Question content growth strategy — coverage matrix, quality rubric, freshness policy, velocity targets** | **M** | **Pending** |
-| **[P3-T024](P3-T024-ai-question-generation-pipeline.md)** | **AI question generation pipeline — prompt template, format validator, review UI, 30-min workflow** | **M** | **Pending** |
-| **[P3-T025](P3-T025-question-file-architecture-at-scale.md)** | **Question file architecture at scale — lazy loading, manifest split by grade, archive strategy** | **M** | **Pending** |
-| **[P3-T026](P3-T026-topic-tag-filter-ui.md)** | **Topic tag filter UI — Pro feature; topic pills for subscribers, clean "Upgrade" CTA for free users** | **M** | **Pending** |
-| **[P3-T027](P3-T027-tag-quality-and-canonicalization.md)** | **Tag quality & canonicalization — canonical tag vocab, audit script, backfill Grade 3+5 files** | **S** | **Pending** |
-| **[P3-T028](P3-T028-free-pro-weekly-set-gating.md)** | **Free vs Pro weekly set gating — Sets 1–2 free, Sets 3–5 locked with clean Pro badge (no grey-out)** | **S** | **Pending** |
-| **[P3-T029](P3-T029-weekly-progressive-test-subscribers.md)** | **Weekly progressive test (Pro) — 2 easy + 2 medium + 1 hard arc → Weekly Exam, no mid-feedback** | **M** | **Pending** |
-| **[P3-T030](P3-T030-offline-first-question-prefetch.md)** | **Offline-first question prefetch — IndexedDB bulk cache, event-driven invalidation, ~85% fewer network calls** | **M** | **Pending** |
-| **[P3-T031](P3-T031-city-weather-localization.md)** | **Hyperlocal context — silent IP geolocation, city + weather widget on landing + home screen, contextual practice nudge** | **S** | **Pending** |
-| **[P3-T032](P3-T032-city-partner-footer-reward-card-system.md)** | **City partner footer + Reward Card system — local business listings per city, milestone-triggered reward cards (7-day streak etc.), share card for WhatsApp, fixes F7 + F10** | **M** | **Pending** |
-| **[P3-T033](P3-T033-kids-daily-planner-routine-goals.md)** | **Donnibo Daily Loop Pillar 1 — LIVE: Kids daily planner, 4 time blocks, Donnibo tasks auto-check, parent template setup, Perfect Week badge, planner streak** | **M** | **Pending** |
-| **[P3-T034](P3-T034-kids-daily-journal-mood-reflection.md)** | **Donnibo Daily Loop Pillar 3 — REFLECT: Kids daily journal, grade-adaptive mood check-in + reflection + gratitude, 7-day mood strip, creative writing prompt, journal streak** | **M** | **Pending** |
-| **[P3-T035](P3-T035-kids-longterm-goals-milestone-tracker.md)** | **Donnibo Daily Loop Pillar 4 — GROW: Long-term goals + milestone tracker, goal achievement screen, achievements wall, planner integration, 1 goal Free / 3 goals Pro** | **M** | **Pending** |
-| **[P3-T004](P3-T004-avatar-growth-system.md)** | **Avatar growth system — 6-stage character arc (fearful→confident), Journey Replay animation, subject badges** | **L** | **Pending** |
-| [P3-T005](P3-T005-gamification-badges-milestones.md) | Badges for streaks, accuracy, exploration, growth | M | Pending |
-| [P3-T006](P3-T006-confidence-consistency-tracking.md) | Confidence + consistency score per goal | S | Pending |
-| [P3-T007](P3-T007-efficient-question-addition.md) | Admin form + CSV bulk import for adding questions | M | Pending |
-| [P3-T008](P3-T008-offline-dnd-mode.md) | Offline mode (Service Worker) + DnD focus toggle | M | Pending |
-
----
-
-## P4 — Power Features (After 1,000 Users)
-
-| File | Goal | Complexity | Status |
-|---|---|---|---|
-| [P4-T001](P4-T001-admin-dashboard-user-analytics.md) | Admin dashboard — users, sessions, daily actives, goal popularity | M | Pending |
-| [P4-T002](P4-T002-multi-language-support.md) | Multi-language UI + translated questions (English + Hindi first) | M | Pending |
-| **[P4-T003](P4-T003-go-to-market-strategy.md)** | **Go-to-market strategy — target segment, first 100 users plan, success metrics** | **S** | **Pending** |
-| **[P4-T004](P4-T004-professional-micro-habit-trackers.md)** | **Professional micro-habit trackers — Health, Finance, Wellness, Learning daily check-ins** | **L** | **Pending** |
-| **[P4-T005](P4-T005-multilanguage-ui-landing-signup.md)** | **Multi-language UI — landing page + signup in Hindi, Marathi, Tamil** | **L** | **Pending** |
-| **[P4-T006](P4-T006-admin-portal-standalone-app.md)** | **Admin portal — dedicated standalone web app: users, content, sessions, health dashboard** | **L** | **Pending** |
-| **[P4-T007](P4-T007-admin-question-pattern-config.md)** | **Admin question pattern config — weekly difficulty ramp per grade, exam mix, slot labels via JSON** | **S** | **Pending** |
-| **[P4-T008](P4-T008-product-split-three-apps.md)** | **Product split — DecaShift Students / Pro / Exam as 3 focused apps on one shared platform (mitigates F3)** | **L** | **Pending** |
-| **[P4-T009](P4-T009-hyperlocal-ad-network.md)** | **Hyperlocal ad network — city-targeted coaching center sponsorships, JSON-driven, Pro tier = ad-free, B2B revenue before subscription scale** | **M** | **Pending** |
-
----
-
-## P5 — Monetization (After Retention Proven)
-
-| File | Goal | Complexity | Status |
-|---|---|---|---|
-| **[P5-T004](P5-T004-feature-gate-system.md)** | **Feature gate system — `user.plan` checks for Free/Pro/Max** | **S** | **Pending** |
-| **[P5-T005](P5-T005-upgrade-prompt-ui.md)** | **Upgrade prompt UI — plan comparison screen with CTA** | **M** | **Pending** |
-| [P5-T001](P5-T001-stripe-integration-setup.md) | Stripe Checkout — paid plan upgrade flow | L | Pending |
-| [P5-T002](P5-T002-real-exam-mode-paid.md) | Real exam mode — countdown, no mid-feedback, review before submit | M | Pending |
-| [P5-T003](P5-T003-leaderboard-paid.md) | Leaderboard — weekly + all-time, exam sessions only | M | Pending |
-| **[P5-T006](P5-T006-global-payment-gateway.md)** | **Global payment gateway — Stripe + Razorpay, multi-currency, international markets** | **M** | **Pending** |
-
----
-
-## P6 — Ecosystem (After First Revenue)
-
-| File | Goal | Complexity | Status |
-|---|---|---|---|
-| [P6-T001](P6-T001-teacher-collab-content.md) | Teacher content contribution + review queue | M | Pending |
-| [P6-T002](P6-T002-student-peer-collab.md) | Student challenge links + peer comparison | L | Pending |
-| [P6-T003](P6-T003-institute-partnership-portal.md) | Institute-branded portal + private question banks | L | Pending |
-| **[P6-T004](P6-T004-app-internationalization-i18n.md)** | **App & landing page i18n — Hindi, Arabic, French, German, Spanish UI translation + RTL** | **L** | **Pending** |
-| **[P6-T005](P6-T005-international-language-learning.md)** | **International language learning — French, German, Arabic, Spanish, Japanese, Mandarin** | **M** | **Pending** |
-| **[P6-T006](P6-T006-localized-curriculum-content.md)** | **Localized curriculum — math/science in Arabic, French, German, Spanish for local school markets** | **L** | **Pending** |
-
----
-
-## Dependency Map
-
-```
-P1-T001  (fix perf)          — standalone
-P1-T002  (sign-up)           → P1-T003, P1-T004, P1-T005, P1-T006
-P1-T003  (sign-in)           → P1-T004, P1-T005
-P1-T004  (session persist)   → P3-T001, P3-T003, P3-T005, P3-T006, P5-T001
-P1-T006  (categories)        → P1-T008, P2-T012
-P1-T008  (question filter)   → P2-T001, P3-T007
-P1-T009  (Drive→Sheets)      — CANCELLED, superseded by P1-T011
-P1-T011  (individual files)  — standalone, replaces Apps Script internals only
-P1-T012  (Drive accounts)    — depends on P1-T011 (adds accounts/ subfolder to Drive)
-P1-T013  (questions folder)  — depends on P1-T008 (refactors existing filter logic)
-P1-T010  (GitHub raw URLs)   — standalone, isolated to _loadData() in app.js
-
-P2-T001  (JSON-driven)       → P4-T002
-P2-T002  (landing page)      → P1-T002 (CTA links to sign-up)
-P2-T006  (free practice)     → P6-T002
-P2-T007  (git tagging)       → P2-T008, P2-T009
-P2-T008  (multi-version)     → P2-T009
-P2-T008  (multi-version)     depends on P1-T010 (GitHub raw URLs enable branch switching)
-P2-T012  (profile edit)      depends on P1-T006 (categories — done)
-P2-T013  (subscription)      → P5-T004, P5-T005, P5-T001; trial gate is the feature gate
-P2-T018  (automated tests)   depends on P2-T013 (trial gate needed for trial.spec.js)
-P2-T019  (sub readiness)     depends on P3-T011 (50q/file content) + P2-T013; blocks P5-T005
-P2-T020  (content ops)       elevates P3-T007; needed before P3-T011 can scale
-P4-T003  (GTM strategy)      informs P2-T015 landing page copy + P6-T004 language priorities
-P5-T006  (global payments)   depends on P5-T001 (Stripe Phase 1); adds Razorpay + multi-currency
-P6-T004  (i18n)              depends on P4-T003 (which markets); → P6-T005, P6-T006
-P6-T005  (intl languages)    depends on P3-T013 (regional lang arch); extends same pattern
-P6-T006  (localized content) depends on P6-T004 (UI in local lang first)
-
-P3-T001  (streak)            → P3-T002, P3-T005
-P3-T016  (goal archive)      depends on P2-T021 (subject tabs — done); archive state hides goals within each tab filter too
-P3-T019  (content calendar)  depends on P3-T017 (weekly sets — done); extends rotation pattern
-P3-T020  (intl languages)    depends on P3-T018 (regional lang arch — done); reuses same folder + filter pattern; supersedes P6-T005 in priority
-P4-T004  (habit trackers)    standalone; builds on P3-T001 (streak pattern); surfaces in P2-T017 (profile page)
-P4-T005  (multi-lang UI)     standalone; supersedes P6-T004 in priority; informs P4-T003 (GTM — which markets)
-P3-T007  (Q addition)        → P6-T001
-P3-T013  (regional lang)     depends on P3-T009 (nested folders — done); → P2-T012 (profile edit adds change-language option)
-
-P2-T014  (branding)          depends on P3-T004 (avatar SVG first; logo derived from it); parallel with P2-T023
-P2-T023  (kid theme)         depends on P2-T005 (dark/light toggle); extends P3-T012 (student theme); parallel with P2-T014 (branding)
-P2-T024  (session audit)     depends on P1-T011, P1-T012, P1-T004 (all done); feeds P2-T025
-P2-T025  (backup)            depends on P2-T024 (session audit first); feeds P4-T006 (admin health panel)
-P2-T026  (tamper protection) must ship before P5-T001 (Stripe); informs P3-T028 + P3-T029 + P3-T026 (all reuse _verifyPlan)
-P2-T027  (concept builder)   must be designed before content scales past Grade 5; feeds P3-T023 (catalogue) + P3-T024 (gen prompts) + P3-T029 (exam arc) + P3-T004 (avatar mastery events)
-P3-T023  (content strategy)  feeds P3-T024 (generation pipeline) + P3-T019 (content calendar) + P3-T021 (progression)
-P3-T024  (AI gen pipeline)   depends on P3-T023 (strategy spec); review UI lives in P4-T006 (admin portal)
-P3-T025  (file architecture) depends on P1-T013 (multi-file — done); feeds P3-T019 (calendar)
-P3-T026  (topic filter UI)   Pro feature; blocked by P3-T027 (tag quality) + P3-T028 (plan-check pattern)
-P3-T027  (tag quality)       depends on P3-T023 (strategy); unblocks P3-T026
-P3-T028  (set gating)        first subscription UX to ship; stubs P5-T004; unblocks P3-T026 + P3-T029
-P3-T030  (offline prefetch)  companion to P3-T008 (SW safety net); depends on P3-T028 (plan tier drives what to prefetch)
-P3-T029  (weekly exam)       depends on P3-T028 (gating + difficultyRank in place); feeds P4-T007
-P4-T007  (pattern config)    depends on P3-T028 + P3-T029 (features exist); lives inside P4-T006
-P4-T006  (admin portal)      extends P4-T001 (absorbs it); depends on P2-T024, P2-T025, P3-T024, P2-T020
-P2-T028  (local brand voice)  ships with P2-T015 (landing page); city-dynamic elements depend on P3-T031; static parts ship independently
-P2-T029  (city domains)       depends on P3-T031 (city param extends detection); ships with P2-T028 + P2-T015 as one cohesive local landing; Cloudflare free plan handles all redirects
-P3-T031  (city + weather)    standalone; prerequisite for P4-T009 + P2-T028 city-dynamic elements; companion to P2-T015 (landing page)
-P4-T009  (hyperlocal ads)    depends on P3-T031 (city detection — required); P2-T013 (plan check); Phase 3 self-serve lives in P4-T006
-
-P2-T030  (dawnbreak theme)   depends on P2-T005 (dark/light toggle — done); parallel with P2-T023 (kid theme); settings sub-screens coordinate with P2-T017 (account security sub-screen) + P2-T033 (About & Help sub-screen) + P3-T032 (My City sub-screen)
-P2-T031  (flash drills)      depends on P3-T001 (streak — done; drills count toward streak); P3-T005 (badges — drill achievements emit badge events); standalone otherwise (inline JS arrays, no fetch)
-P2-T032  (daily GK capsule)  depends on P2-T031 (flash drills — speed GK defined there; this adds reflective mode + GK tab); P3-T028 (plan gating — archive is Pro-only); extends P3-T019 (content calendar date-seeding pattern)
-P2-T033  (PWA install)       depends on existing sw.js + manifest.webmanifest (already in place); settings About & Help sub-screen lives in P2-T030; install reduces F8 (offline) for installed users
-P3-T032  (city partners)     depends on P3-T031 (city detection); P2-T029 (city domains — hostname city is most accurate); P3-T001 (streak — trigger for reward cards); P3-T005 (badges); Phase 3 paid listings live in P4-T009
-P3-T033  (kids planner)      depends on P3-T001 (streak — planner streak parallel); P2-T031 (flash drills — Donnibo tasks launch drills); P2-T032 (GK — GK task in planner); P3-T005 (badges — Perfect Week); P3-T032 (reward cards — Perfect Week + 30-day trigger); feeds P3-T035 (planner ↔ goals pipeline)
-P3-T034  (kids journal)      depends on P3-T001 (streak — journal streak parallel); P3-T033 (planner — evening reflection task launches journal; auto-checks on completion); P3-T005 (badges — journal streak badges); P3-T032 (reward cards — 30-day combined streak)
-P3-T035  (kids goals)        depends on P2-T031 (drills — drill completion auto-verifies milestones); P3-T001 (streak — habit goals measured by streak); P3-T028 (plan gate — 1 goal Free, 3 Pro); P3-T033 (planner — goals suggest tasks); P3-T034 (journal — "why this matters" field connects); P3-T005 (badges); P3-T032 (reward cards — first goal achievement triggers)
-
-P4-T001  (admin)             → P6-T001, P5-T003 (basic metrics; superseded in scope by P4-T006)
-P5-T004  (feature gate)      depends on P2-T013 (tier design must be finalized)
-P5-T005  (upgrade UI)        depends on P5-T004, P2-T013
-P5-T001  (Stripe)            depends on P5-T004, P5-T005 → P5-T002, P5-T003
-P5-T002  (exam mode)         → P5-T003
-P5-T003  (leaderboard)       → P6-T003
-```
-
----
-
-## Complexity Reference
-- **S** — Small: < 1 day | single file change | can ship + test independently
-- **M** — Medium: 1–3 days | 2–4 files | needs integration test
-- **L** — Large: 3–5 days | cross-cutting | needs staging test before deploy
-
----
-
-*Total tasks: 99 (1 cancelled, 1 superseded) | P1: 13 | P2: 37 | P3: 35 | P4: 9 | P5: 6 | P6: 6*
-*Content Velocity Problem (2026-05-28): P2-T034 (Grade 9-12 sprint) + P2-T035 (generation script) + P2-T036 (curriculum calendar) together permanently resolve the content bottleneck. P2-T035 breaks the Claude Code session dependency for content generation. Google Drive OAuth and Payment/Subscription discussions deferred.*
-*Donnibo Daily Loop (2026-05-28): Four-pillar architecture — LIVE (P3-T033 Planner) · LEARN (P2-T031/032 Drills + GK) · REFLECT (P3-T034 Journal) · GROW (P3-T035 Goals). Together these transform Donnibo from a quiz app into the complete daily companion for school children. No Indian EdTech competitor has all four pillars.*
-*Bugs: BUG-001 (fixed), BUG-002 (fixed v3.1), BUG-003 (fixed v3.1), BUG-004 (fixed) — greeting showed full email instead of name when user.name was absent; `.split(' ')[0]` doesn't strip `@domain`, fixed with `_getFirstName()` helper that splits on `@` for email fallback | BUG-005 (fixed) — weekly questions moved from `questions/weekly/` into grade+subject folders as day-files; manifest-driven loading; 80 files generated for Grades 3 + 5 as test baseline*
-*Content milestone (2026-05-27): Grades 2–8 all have W21+W22 weekly sets across 4 subjects each (Math, Science, Hindi, French). 280 weekly files × 15q = 4,200q weekly content. Total ~6,000q across all grades + regional + professional. Grade 8 manifest level fixed (was 1, corrected to 2).*
-*v3.7 snapshot created (2026-05-27) — 13 Donnibo avatar SVGs (6 stages + 7 expressions) + mascot brief committed to design/. App/ui/ enters v4-dev (landing page upgrade).*
-*New tasks bolded. All tasks are self-contained, independently deployable, and version-controlled in this folder.*
+**36 code tasks total · 59 completed (tasks/completed/) · 30 marketing (tasks/marketing/)**
