@@ -91,6 +91,7 @@ change its `#` to 1, change Restructure to 2. That's it. Commit + push.
 | 2026-05-29 | —          | Landing hero: phone mockup with fading feature screens (replaces flat carousel) | `7559088` |
 | 2026-05-29 | —          | P2-T041/T043 — Nav overhaul: streak→practice · remove bottom nav · drawer · week nav · horizontal subject snap | `d4545fc` |
 | 2026-05-29 | —          | P2-T038 — Trial gating: trialStartDate on signup · _checkTrialStatus · paywall screen · My Plan in settings · sets 3–5 gated | `ab4b42d` |
+| 2026-05-29 | —          | Delight Stack (D-001–D-018) — all 18 delight/retention/trust tasks shipped; iOS Safari header fix (position:sticky bug) | `f5e29ca` |
 
 ---
 
