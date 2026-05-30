@@ -1,0 +1,37 @@
+  <section id="screen-journey" class="screen">
+
+    <header class="app-header journey-header">
+      <button class="journey-back" onclick="closeJourney()" aria-label="Back">←</button>
+      <span class="journey-header-title">My Journey</span>
+      <button class="journey-share-btn" id="journey-share-btn" aria-label="Share" onclick="_shareJourney()">↗</button>
+    </header>
+
+    <div class="journey-wrap">
+
+      <!-- Identity hero -->
+      <div class="journey-hero">
+        <div class="journey-avatar">
+          <svg class="journey-ring" viewBox="0 0 120 120" fill="none">
+            <circle class="journey-ring-track" cx="60" cy="60" r="54" stroke-width="5"/>
+            <circle class="journey-ring-fill" id="journey-ring-fill" cx="60" cy="60" r="54"
+                    stroke-width="5" stroke-linecap="round" transform="rotate(-90 60 60)"/>
+          </svg>
+          <img class="journey-avatar-img" id="journey-avatar-img" alt="">
+        </div>
+        <div class="journey-stage" id="journey-stage">—</div>
+        <div class="journey-level" id="journey-level">Level 1</div>
+        <div class="journey-xpbar"><div class="journey-xpbar-fill" id="journey-xpbar-fill"></div></div>
+        <div class="journey-xptext" id="journey-xptext"></div>
+        <div class="journey-streak" id="journey-streak"></div>
+      </div>
+
+      <!-- Stats band -->
+      <div class="journey-stats" id="journey-stats"></div>
+
+      <!-- Filled in later commits -->
+      <div id="journey-mastery"></div>
+      <div id="journey-badges"></div>
+      <div id="journey-replay"></div>
+
+    </div>
+  </section>

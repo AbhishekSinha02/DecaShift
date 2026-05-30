@@ -12,6 +12,9 @@
       <button class="rail-item" onclick="_startDrill('tables')">
         <span class="rail-icon">⚡</span><span class="rail-label">Drills</span>
       </button>
+      <button class="rail-item" onclick="openJourney()">
+        <span class="rail-icon">🌱</span><span class="rail-label">Journey</span>
+      </button>
       <button class="rail-item" onclick="_setSubjectFilter('gk');_renderHome()">
         <span class="rail-icon">🌍</span><span class="rail-label">GK</span>
       </button>
@@ -44,6 +47,7 @@
           <span class="level-badge" id="level-badge"></span>
         </div>
         <div class="user-menu hidden" id="user-menu">
+          <button class="user-menu-item" onclick="openJourney()">🌱 My Journey</button>
           <button class="user-menu-item" onclick="openSettings()">⚙ Settings</button>
           <button class="user-menu-item" onclick="signOut()">Sign Out</button>
         </div>
@@ -110,6 +114,10 @@
             <button class="drawer-item" id="drawer-practice-btn" onclick="_navPractice();_closeDrawer()">
               <span class="drawer-icon">📖</span>
               <span class="drawer-label">Practice</span>
+            </button>
+            <button class="drawer-item" onclick="openJourney()">
+              <span class="drawer-icon">🌱</span>
+              <span class="drawer-label">My Journey</span>
             </button>
             <button class="drawer-item" onclick="_setSubjectFilter('gk');_renderHome();_closeDrawer()">
               <span class="drawer-icon">🌍</span>
