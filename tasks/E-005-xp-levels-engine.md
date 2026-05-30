@@ -1,6 +1,6 @@
 # E-005: XP + Levels Engine + Level-Up Moment
 
-**Priority:** P1 (Identity) | **Force:** Identity | **Type:** JS+UI | **Complexity:** M | **Status:** Pending
+**Priority:** P1 (Identity) | **Force:** Identity | **Type:** JS+UI | **Complexity:** M | **Status:** ✅ Done (f49a725 engine, f2583a1 surfacing)
 **Session:** E3 · **Depends on:** none · **Unblocks:** E-006 (avatar), E-007 (journey), Wave-2 rewards
 
 ## Goal

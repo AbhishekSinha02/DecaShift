@@ -1,6 +1,9 @@
 # Feature: Avatar Growth System — See Yourself Grow
 
-**Priority:** P3 → elevated to near-P2 | **Type:** Core Identity / Engagement | **Complexity:** L | **Status:** Pending
+**Priority:** P3 → elevated to near-P2 | **Type:** Core Identity / Engagement | **Complexity:** L | **Status:** ✅ Superseded & Done by E-006 (commit ffdc1a8)
+
+> Implemented via the E-track: 6-stage Donnibo SVG evolution tied to XP levels (E-005),
+> stage-up reveal + Journey replay (E-007). See `tasks/E-006-avatar-growth-evolution.md`.
 
 > This is not a cosmetic feature. It is the emotional core of the product.
 > Every other engagement mechanic (streaks, badges, weekly tests) feeds this.

@@ -1,7 +1,7 @@
 # BUG-010 — Avatar Not Implemented (Shows Letter Initial Only)
 
 **Severity:** High
-**Status:** Open — P3-T004 (Avatar Growth System) is the full fix; P1-T017 is the interim fix
+**Status:** ✅ Resolved by E-006 (commit ffdc1a8) — header avatar renders the level-based Donnibo stage SVG, with letter fallback if the asset fails
 
 ## Symptom
 

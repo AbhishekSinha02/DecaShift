@@ -5,9 +5,13 @@
 
 ---
 
-## Pending — Code (2 tasks)
+## Pending — Code (0 tasks)
 
-### D-012 · "Your Best" Label on Concept Row
+> ✅ **D-012 and D-017 resolved by E-007** (Journey mastery map, commit 3a8cb6e):
+> per-concept "your best" + sessions and tier badges now live on the My Journey screen
+> via the shared `mastery.js`. Folding these onto the home Netflix rows remains optional.
+
+### D-012 · "Your Best" Label on Concept Row — ✅ Done (in Journey, E-007)
 **Effort:** S (1 hr) · **Depends on:** D-009 ✅
 
 Below the concept row label, if sessions done:
@@ -19,7 +23,7 @@ Clicking the row header shows a small summary: total questions, avg accuracy, be
 
 ---
 
-### D-017 · Concept Mastery Tier Badge on Rows
+### D-017 · Concept Mastery Tier Badge on Rows — ✅ Done (in Journey, E-007)
 **Effort:** M (2 hr) · **Depends on:** D-009 ✅, D-012
 
 Each concept row earns a tier badge:

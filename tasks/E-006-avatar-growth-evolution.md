@@ -1,6 +1,6 @@
 # E-006: Donnibo Avatar Growth — 6-Stage Evolution
 
-**Priority:** P1 (Identity) | **Force:** Identity | **Type:** UI+JS+asset | **Complexity:** L | **Status:** Pending
+**Priority:** P1 (Identity) | **Force:** Identity | **Type:** UI+JS+asset | **Complexity:** L | **Status:** ✅ Done (ffdc1a8)
 **Session:** E3 · **Depends on:** E-005 (level drives stage) · **Implements P3-T004 · Closes BUG-010**
 
 ## Goal
