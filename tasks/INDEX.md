@@ -10,28 +10,11 @@
 
 > Strategy + framework: [ENGAGEMENT-STRATEGY.md](ENGAGEMENT-STRATEGY.md) · Build plan: [../sessions/ENGAGEMENT-SESSIONS.md](../sessions/ENGAGEMENT-SESSIONS.md)
 > Force key: Substrate = responsive · Ritual = daily return · Identity = see-yourself-grow · Juice = polish
+>
+> ✅ **Wave 1 (E-001…E-009) + E5 (E-010/011/012) + E6 (E-013/015) shipped** → moved to `tasks/completed/`. Only E7 remains.
 
 | File | What | Force | Session | Size |
 |---|---|---|---|---|
-| [E-001](E-001-fluid-responsive-foundation.md) | Fluid responsive token foundation | Substrate | E1 | S |
-| [E-002](E-002-tablet-laptop-shell.md) | Tablet & laptop shell + multi-column home | Substrate | E1 | L |
-| [E-003](E-003-daily-quest-continue-hero.md) | Daily Quest + "Continue your quest" hero | Ritual | E2 | M |
-| [E-004](E-004-completion-ritual-streak-freeze.md) | Completion ritual + kind streak-freeze | Ritual | E2 | M |
-| [E-005](E-005-xp-levels-engine.md) | XP + Levels engine + level-up moment | Identity | E3 | M |
-| [E-006](E-006-avatar-growth-evolution.md) | Donnibo avatar 6-stage evolution (supersedes P3-T004, closes BUG-010) | Identity | E3 | L |
-| [E-007](E-007-my-journey-profile.md) | "My Journey" profile screen (absorbs D-012, D-017, P3-T003) | Identity | E3 | M |
-| [E-008](E-008-feedback-engine-sound-haptics-confetti.md) | Feedback engine — sound + haptics + confetti | Juice | E4 | M |
-| [E-009](E-009-transitions-skeleton-loaders.md) | Screen transitions + skeleton loaders | Juice | E4 | M |
-
-**Wave 2 — specced (sessions E5–E7):**
-
-| File | What | Force | Session | Size |
-|---|---|---|---|---|
-| [E-012](E-012-xp-crits-lucky-questions.md) | XP crits / lucky questions (2× XP) | Reward | E5 | S |
-| [E-010](E-010-mystery-reward-box.md) | Mystery reward box on milestones | Reward | E5 | M |
-| [E-011](E-011-sticker-collectible-album.md) | Sticker / collectible album | Reward | E5 | L |
-| [E-015](E-015-shareable-achievement-cards.md) | Shareable achievement image cards | Belonging | E6 | M |
-| [E-013](E-013-friend-challenge-link.md) | Friend challenge via share link | Belonging | E6 | M |
 | [E-014](E-014-daily-reminder-notifications.md) | Daily reminder + streak-save nudge | Ritual | E7 | L |
 
 ---
@@ -93,4 +76,4 @@
 
 ---
 
-**36 code tasks total · 59 completed (tasks/completed/) · 30 marketing (tasks/marketing/)**
+**22 code tasks total · 73 completed (tasks/completed/) · 30 marketing (tasks/marketing/)**
