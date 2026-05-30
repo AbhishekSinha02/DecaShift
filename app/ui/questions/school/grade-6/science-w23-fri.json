@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w23-fri",
+  "title": "Grade 6 Science — Fri, Jun 05",
+  "description": "Fibre to Fabric — Day 5 of 5: Synthesis — fibres, processes and uses",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "fibre-to-fabric"],
+  "questions": [
+    { "id": "g6s-w23-fri-001", "question": "Arrange in correct order: yarn, fibre, fabric.", "options": ["Fabric → yarn → fibre", "Fibre → yarn → fabric", "Yarn → fibre → fabric", "Fibre → fabric → yarn"], "correctIndex": 1, "explanation": "Fibres are spun into yarn, and yarn is made into fabric.", "tags": ["synthesis", "sequence"] },
+    { "id": "g6s-w23-fri-002", "question": "Match the source correctly: silk comes from the silkworm and wool comes from:", "options": ["The cotton plant", "Sheep", "The jute stem", "Chemicals"], "correctIndex": 1, "explanation": "Wool is an animal fibre obtained mainly from sheep.", "tags": ["synthesis", "sources"] },
+    { "id": "g6s-w23-fri-003", "question": "Ginning is to cotton seeds as spinning is to:", "options": ["Making yarn from fibres", "Removing seeds", "Weaving fabric", "Dyeing cloth"], "correctIndex": 0, "explanation": "Ginning removes seeds; spinning makes yarn from fibres.", "tags": ["synthesis", "processes"] },
+    { "id": "g6s-w23-fri-004", "question": "Which fibre is BOTH a natural fibre AND comes from a plant stem?", "options": ["Wool", "Silk", "Jute", "Nylon"], "correctIndex": 2, "explanation": "Jute is a natural plant fibre obtained from the stem of the jute plant.", "tags": ["synthesis", "classification"] },
+    { "id": "g6s-w23-fri-005", "question": "A fabric made by interlacing two sets of yarn is woven; one made by looping a single yarn is:", "options": ["Ginned", "Spun", "Knitted", "Dyed"], "correctIndex": 2, "explanation": "Knitting forms fabric from loops of a single yarn, while weaving uses two sets of yarn.", "tags": ["synthesis", "processes"] },
+    { "id": "g6s-w23-fri-006", "question": "For a hot, humid day the most comfortable fabric would be:", "options": ["Wool", "Cotton", "Thick nylon", "Plastic sheet"], "correctIndex": 1, "explanation": "Cotton absorbs sweat and lets air pass, making it comfortable in hot weather.", "tags": ["synthesis", "uses"] },
+    { "id": "g6s-w23-fri-007", "question": "Which device is correctly matched to its job?", "options": ["Charkha – weaving", "Loom – spinning", "Charkha – spinning yarn", "Gin – knitting"], "correctIndex": 2, "explanation": "The charkha spins yarn; the loom weaves; the gin removes seeds.", "tags": ["synthesis", "devices"] },
+    { "id": "g6s-w23-fri-008", "question": "Cotton seeds left after ginning are used to make oil, showing that:", "options": ["Nothing from cotton is wasted", "Cotton seeds are useless", "Seeds are spun into yarn", "Seeds make silk"], "correctIndex": 0, "explanation": "Cotton seeds are turned into oil and cattle feed, so little is wasted.", "tags": ["synthesis", "uses"] },
+    { "id": "g6s-w23-fri-009", "question": "Which statement is TRUE?", "options": ["Wool and silk are plant fibres", "Cotton and jute are animal fibres", "Cotton is a plant fibre and wool is an animal fibre", "Nylon is a natural fibre"], "correctIndex": 2, "explanation": "Cotton is a plant fibre and wool is an animal fibre; nylon is synthetic.", "tags": ["synthesis", "classification"] },
+    { "id": "g6s-w23-fri-010", "question": "Why is wool a better choice than cotton for a winter sweater?", "options": ["Wool absorbs sweat", "Wool traps air and keeps body heat in", "Cotton is waterproof", "Wool is cheaper"], "correctIndex": 1, "explanation": "Wool traps air, which prevents body heat from escaping, keeping us warm.", "tags": ["synthesis", "reasoning"] },
+    { "id": "g6s-w23-fri-011", "question": "The first thing done after cotton bolls are picked is:", "options": ["Weaving", "Ginning to remove seeds", "Dyeing", "Stitching"], "correctIndex": 1, "explanation": "After picking, cotton is ginned to separate the fibres from the seeds.", "tags": ["synthesis", "sequence"] },
+    { "id": "g6s-w23-fri-012", "question": "Which use best matches jute's properties of being rough and strong?", "options": ["Silk saree", "Gunny bags and ropes", "Baby's soft clothes", "Raincoat"], "correctIndex": 1, "explanation": "Jute's strength and roughness make it ideal for gunny bags and ropes.", "tags": ["synthesis", "uses"] },
+    { "id": "g6s-w23-fri-013", "question": "Mahatma Gandhi's charkha was used for spinning to promote:", "options": ["Foreign cloth", "Khadi and self-reliance", "Power looms", "Synthetic fibres"], "correctIndex": 1, "explanation": "Gandhiji used the charkha to spin yarn for khadi and to encourage self-reliance.", "tags": ["synthesis", "history"] },
+    { "id": "g6s-w23-fri-014", "question": "A fabric that absorbs sweat well, is skin-friendly and grows on a plant is most likely:", "options": ["Nylon", "Cotton", "Polyester", "Acrylic"], "correctIndex": 1, "explanation": "These clues describe cotton, a skin-friendly plant fibre that absorbs sweat.", "tags": ["synthesis", "reasoning"] },
+    { "id": "g6s-w23-fri-015", "question": "What is the BEST summary of the journey from fibre to fabric?", "options": ["Fibres are picked, spun into yarn, then woven or knitted into fabric", "Fabric is grown and cut into fibres", "Yarn is grown on plants directly", "Fabric is made only from seeds"], "correctIndex": 0, "explanation": "Fibres from plants or animals are spun into yarn, then woven or knitted into fabric.", "tags": ["synthesis", "summary"] }
+  ]
+}

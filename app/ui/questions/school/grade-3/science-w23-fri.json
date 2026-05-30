@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w23-fri",
+  "title": "Grade 3 Science — Fri, Jun 05",
+  "description": "Animal Life — Day 5 of 5: Synthesis — features, movement, food, homes and young",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "animals"],
+  "questions": [
+    { "id": "g3s-w23-fri-001", "question": "Which feature helps a bird to fly?", "options": ["Gills", "Wings and feathers", "Fins", "Scales"], "correctIndex": 1, "explanation": "Birds have wings and light feathers that help them fly in the air.", "tags": ["animals", "birds"] },
+    { "id": "g3s-w23-fri-002", "question": "How many legs does an insect like an ant have?", "options": ["Four", "Six", "Eight", "Two"], "correctIndex": 1, "explanation": "All insects, including ants, have six legs.", "tags": ["animals", "insects"] },
+    { "id": "g3s-w23-fri-003", "question": "A fish moves through water using its:", "options": ["Wings", "Legs", "Fins", "Paws"], "correctIndex": 2, "explanation": "Fish use fins and a tail to swim and move in water.", "tags": ["animals", "movement"] },
+    { "id": "g3s-w23-fri-004", "question": "Which animal hops to move from place to place?", "options": ["Snake", "Frog", "Fish", "Cow"], "correctIndex": 1, "explanation": "Frogs have strong back legs and move by hopping.", "tags": ["animals", "movement"] },
+    { "id": "g3s-w23-fri-005", "question": "A cow eats only plants. Such animals are called:", "options": ["Meat-eaters", "Plant-eaters", "Insect-eaters", "Egg-eaters"], "correctIndex": 1, "explanation": "Animals that eat only plants are called plant-eaters (herbivores).", "tags": ["animals", "food"] },
+    { "id": "g3s-w23-fri-006", "question": "A lion eats other animals. Such animals are called:", "options": ["Plant-eaters", "Meat-eaters", "Both plant and meat eaters", "Non-eaters"], "correctIndex": 1, "explanation": "Animals that eat the flesh of other animals are called meat-eaters (carnivores).", "tags": ["animals", "food"] },
+    { "id": "g3s-w23-fri-007", "question": "The home of a honeybee is a hive. The home of a horse is a:", "options": ["Nest", "Stable", "Web", "Burrow"], "correctIndex": 1, "explanation": "Horses are kept in a stable.", "tags": ["animals", "homes"] },
+    { "id": "g3s-w23-fri-008", "question": "Which young one matches its parent correctly?", "options": ["Dog – calf", "Cow – puppy", "Cat – kitten", "Lion – chick"], "correctIndex": 2, "explanation": "A baby cat is called a kitten.", "tags": ["animals", "young"] },
+    { "id": "g3s-w23-fri-009", "question": "A snake has no legs. How does it move?", "options": ["It hops", "It crawls and slides", "It flies", "It swims with fins"], "correctIndex": 1, "explanation": "Snakes move by crawling and sliding their body along the ground.", "tags": ["animals", "movement"] },
+    { "id": "g3s-w23-fri-010", "question": "Which of these animals lays eggs?", "options": ["Cow", "Hen", "Dog", "Goat"], "correctIndex": 1, "explanation": "A hen lays eggs, while a cow, dog and goat give birth to live young.", "tags": ["animals", "young"] },
+    { "id": "g3s-w23-fri-011", "question": "A butterfly has wings but is not a bird. It is an:", "options": ["Insect", "Fish", "Reptile", "Mammal"], "correctIndex": 0, "explanation": "A butterfly is an insect with six legs and a pair of wings.", "tags": ["animals", "insects"] },
+    { "id": "g3s-w23-fri-012", "question": "Animals build homes mainly to:", "options": ["Look beautiful", "Stay safe and protect their young", "Make noise", "Collect leaves"], "correctIndex": 1, "explanation": "Animals build shelters to keep safe from danger and weather and to protect their babies.", "tags": ["animals", "homes"] },
+    { "id": "g3s-w23-fri-013", "question": "Which animal has a body covered with scales?", "options": ["Sparrow", "Fish", "Rabbit", "Bee"], "correctIndex": 1, "explanation": "A fish has a body covered with scales, which protect it in the water.", "tags": ["animals", "features"] },
+    { "id": "g3s-w23-fri-014", "question": "A spider catches its food using its:", "options": ["Web", "Nest", "Den", "Hive"], "correctIndex": 0, "explanation": "A spider spins a web to trap insects for food.", "tags": ["animals", "food"] },
+    { "id": "g3s-w23-fri-015", "question": "Which list correctly groups only birds?", "options": ["Crow, sparrow, parrot", "Crow, fish, ant", "Sparrow, frog, dog", "Parrot, snake, cow"], "correctIndex": 0, "explanation": "Crow, sparrow and parrot are all birds — they have wings, feathers and a beak.", "tags": ["animals", "birds"] }
+  ]
+}

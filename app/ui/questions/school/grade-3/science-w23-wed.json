@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w23-wed",
+  "title": "Grade 3 Science — Wed, Jun 03",
+  "description": "Animal Life — Day 3 of 5: How animals move and eat",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "animals"],
+  "questions": [
+    { "id": "g3s-w23-wed-001", "question": "Animals that eat only plants are called:", "options": ["Carnivores", "Herbivores", "Omnivores", "Insects"], "correctIndex": 1, "explanation": "Herbivores, like cows and goats, eat only plants.", "tags": ["animals", "food"] },
+    { "id": "g3s-w23-wed-002", "question": "Animals that eat only other animals are called:", "options": ["Herbivores", "Carnivores", "Omnivores", "Birds"], "correctIndex": 1, "explanation": "Carnivores, like lions and tigers, eat the flesh of other animals.", "tags": ["animals", "food"] },
+    { "id": "g3s-w23-wed-003", "question": "Animals that eat both plants and animals are called:", "options": ["Herbivores", "Carnivores", "Omnivores", "Reptiles"], "correctIndex": 2, "explanation": "Omnivores, like crows and bears, eat both plants and animals.", "tags": ["animals", "food"] },
+    { "id": "g3s-w23-wed-004", "question": "How does a fish move in water?", "options": ["By walking", "By using fins and tail to swim", "By flying", "By hopping"], "correctIndex": 1, "explanation": "Fish use their fins and tail to swim through water.", "tags": ["animals", "movement"] },
+    { "id": "g3s-w23-wed-005", "question": "Which animal moves by slithering (crawling on its belly)?", "options": ["Snake", "Horse", "Frog", "Rabbit"], "correctIndex": 0, "explanation": "Snakes have no legs and move by slithering along the ground.", "tags": ["animals", "movement"] },
+    { "id": "g3s-w23-wed-006", "question": "A frog moves on land by:", "options": ["Slithering", "Hopping (jumping)", "Flying", "Swimming only"], "correctIndex": 1, "explanation": "Frogs have strong back legs and hop or jump on land.", "tags": ["animals", "movement"] },
+    { "id": "g3s-w23-wed-007", "question": "A cow is a herbivore. Which of these does it eat?", "options": ["Meat", "Grass", "Fish", "Insects"], "correctIndex": 1, "explanation": "A cow is a herbivore that eats grass and other plants.", "tags": ["animals", "food"] },
+    { "id": "g3s-w23-wed-008", "question": "Sharp teeth and claws are usually found in:", "options": ["Herbivores", "Carnivores", "Birds that eat seeds", "Fish only"], "correctIndex": 1, "explanation": "Carnivores have sharp teeth and claws to catch and tear their prey.", "tags": ["animals", "food"] },
+    { "id": "g3s-w23-wed-009", "question": "Which animal uses its trunk to pick up food and water?", "options": ["Lion", "Elephant", "Deer", "Monkey"], "correctIndex": 1, "explanation": "An elephant uses its long trunk to pick up food and drink water.", "tags": ["animals", "feeding"] },
+    { "id": "g3s-w23-wed-010", "question": "A bird like a sparrow moves through the air by:", "options": ["Swimming", "Flying with its wings", "Crawling", "Hopping only"], "correctIndex": 1, "explanation": "Sparrows and most birds fly using their wings.", "tags": ["animals", "movement"] },
+    { "id": "g3s-w23-wed-011", "question": "A lion is a carnivore. This means a lion eats:", "options": ["Grass", "Other animals", "Fruits", "Leaves"], "correctIndex": 1, "explanation": "A lion is a carnivore that hunts and eats other animals.", "tags": ["animals", "food"] },
+    { "id": "g3s-w23-wed-012", "question": "Which of these animals can both swim in water and walk on land?", "options": ["Fish", "Frog", "Snake only on land", "Eagle"], "correctIndex": 1, "explanation": "A frog can swim in water and hop on land — it lives both in water and on land.", "tags": ["animals", "movement"] },
+    { "id": "g3s-w23-wed-013", "question": "A goat eating leaves and a tiger eating a deer shows that animals:", "options": ["All eat the same food", "Eat different kinds of food", "Never eat", "Only drink water"], "correctIndex": 1, "explanation": "Different animals eat different foods — some eat plants, some eat animals, and some eat both.", "tags": ["animals", "food"] },
+    { "id": "g3s-w23-wed-014", "question": "A snail moves slowly by:", "options": ["Hopping", "Sliding on its soft foot", "Flying", "Running"], "correctIndex": 1, "explanation": "A snail slides slowly on its soft muscular foot, leaving a slimy trail.", "tags": ["animals", "movement"] },
+    { "id": "g3s-w23-wed-015", "question": "A crow eats both fruits and insects. A crow is therefore a/an:", "options": ["Herbivore", "Carnivore", "Omnivore", "Reptile"], "correctIndex": 2, "explanation": "Because a crow eats both plants (fruits) and animals (insects), it is an omnivore.", "tags": ["animals", "food"] }
+  ]
+}

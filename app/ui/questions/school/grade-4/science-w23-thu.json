@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w23-thu",
+  "title": "Grade 4 Science — Thu, Jun 04",
+  "description": "Animals & Their Habitats — Day 4 of 5: Food chains and protecting habitats",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "habitats"],
+  "questions": [
+    { "id": "g4s-w23-thu-001", "question": "Animals that eat only plants are called:", "options": ["Carnivores", "Herbivores", "Omnivores", "Decomposers"], "correctIndex": 1, "explanation": "Herbivores are animals that eat only plants, such as cows and deer.", "tags": ["food-chain", "herbivore"] },
+    { "id": "g4s-w23-thu-002", "question": "Animals that eat only other animals are called:", "options": ["Herbivores", "Carnivores", "Omnivores", "Producers"], "correctIndex": 1, "explanation": "Carnivores eat the flesh of other animals, such as lions and tigers.", "tags": ["food-chain", "carnivore"] },
+    { "id": "g4s-w23-thu-003", "question": "Animals that eat both plants and animals are called:", "options": ["Herbivores", "Carnivores", "Omnivores", "Producers"], "correctIndex": 2, "explanation": "Omnivores eat both plants and animals, such as crows and bears.", "tags": ["food-chain", "omnivore"] },
+    { "id": "g4s-w23-thu-004", "question": "In a food chain, green plants are called producers because they:", "options": ["Eat other animals", "Make their own food", "Run very fast", "Live in water"], "correctIndex": 1, "explanation": "Plants are producers because they make their own food using sunlight.", "tags": ["food-chain", "producer"] },
+    { "id": "g4s-w23-thu-005", "question": "In the food chain grass → deer → lion, the deer eats:", "options": ["The lion", "Grass", "Another deer", "Insects"], "correctIndex": 1, "explanation": "In this chain the deer is a herbivore that eats grass, and the lion then eats the deer.", "tags": ["food-chain", "example"] },
+    { "id": "g4s-w23-thu-006", "question": "A food chain always begins with:", "options": ["A meat-eater", "Green plants", "A bird", "A fish"], "correctIndex": 1, "explanation": "Food chains begin with green plants, which make food using the Sun's energy.", "tags": ["food-chain", "producer"] },
+    { "id": "g4s-w23-thu-007", "question": "Where do plants get the energy to make food?", "options": ["From the Moon", "From the Sun", "From the soil only", "From animals"], "correctIndex": 1, "explanation": "Plants use energy from sunlight to make their own food.", "tags": ["food-chain", "energy"] },
+    { "id": "g4s-w23-thu-008", "question": "Cutting down forests harms animals because it destroys their:", "options": ["Toys", "Habitat", "Holiday", "Colour"], "correctIndex": 1, "explanation": "Cutting forests removes the homes, food and shelter that animals need — their habitat.", "tags": ["conservation", "habitats"] },
+    { "id": "g4s-w23-thu-009", "question": "In the chain grass → grasshopper → frog → snake, the frog eats the:", "options": ["Snake", "Grass", "Grasshopper", "Soil"], "correctIndex": 2, "explanation": "In this chain the frog eats the grasshopper, and the snake then eats the frog.", "tags": ["food-chain", "example"] },
+    { "id": "g4s-w23-thu-010", "question": "Which of these helps to protect animal habitats?", "options": ["Cutting all trees", "Planting trees and saving forests", "Polluting rivers", "Hunting animals"], "correctIndex": 1, "explanation": "Planting trees and protecting forests keep habitats safe for animals.", "tags": ["conservation", "habitats"] },
+    { "id": "g4s-w23-thu-011", "question": "A place where wild animals are protected in their natural habitat is a:", "options": ["Zoo", "Wildlife sanctuary", "Farm", "Market"], "correctIndex": 1, "explanation": "A wildlife sanctuary is a protected area where animals live safely in nature.", "tags": ["conservation", "sanctuary"] },
+    { "id": "g4s-w23-thu-012", "question": "If all the deer in a forest disappeared, the lions would:", "options": ["Get more food", "Find it harder to get food", "Become herbivores", "Grow bigger"], "correctIndex": 1, "explanation": "Lions depend on deer for food, so losing the deer would make food harder to find.", "tags": ["food-chain", "balance"] },
+    { "id": "g4s-w23-thu-013", "question": "Polluting a pond with waste is harmful because it:", "options": ["Makes the water cleaner", "Harms the fish and other water animals", "Helps plants grow", "Cools the water"], "correctIndex": 1, "explanation": "Pollution makes the water unsafe and harms the animals living in the pond.", "tags": ["conservation", "water"] },
+    { "id": "g4s-w23-thu-014", "question": "Which animal is an example of an omnivore?", "options": ["Cow", "Lion", "Crow", "Goat"], "correctIndex": 2, "explanation": "A crow eats both plant food (grains, fruit) and small animals, so it is an omnivore.", "tags": ["food-chain", "omnivore"] },
+    { "id": "g4s-w23-thu-015", "question": "Why is every animal in a food chain important?", "options": ["They are all the same", "Each one is food for or feeds on another", "They all eat grass", "They never die"], "correctIndex": 1, "explanation": "Each animal is linked to others as food or feeder, so all are needed to keep nature balanced.", "tags": ["food-chain", "balance"] }
+  ]
+}

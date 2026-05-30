@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w23-mon",
+  "title": "Grade 6 Science — Mon, Jun 01",
+  "description": "Fibre to Fabric — Day 1 of 5: Natural fibres and their sources",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "fibre-to-fabric"],
+  "questions": [
+    { "id": "g6s-w23-mon-001", "question": "The thin, thread-like strands from which fabrics are made are called:", "options": ["Fibres", "Yarns", "Sheets", "Buttons"], "correctIndex": 0, "explanation": "Fibres are thin thread-like strands that are spun into yarn and woven into fabric.", "tags": ["fibre", "basics"] },
+    { "id": "g6s-w23-mon-002", "question": "Fibres obtained from plants and animals are called:", "options": ["Synthetic fibres", "Natural fibres", "Plastic fibres", "Metal fibres"], "correctIndex": 1, "explanation": "Natural fibres come from plant or animal sources, like cotton, jute, wool and silk.", "tags": ["fibre", "natural"] },
+    { "id": "g6s-w23-mon-003", "question": "Cotton fibre is obtained from the:", "options": ["Stem of jute", "Cotton plant's bolls (fruit)", "Sheep's body", "Silkworm"], "correctIndex": 1, "explanation": "Cotton is obtained from the fluffy fibres found in the cotton bolls (fruits) of the cotton plant.", "tags": ["fibre", "cotton"] },
+    { "id": "g6s-w23-mon-004", "question": "Jute fibre is obtained from the ____ of the jute plant.", "options": ["Roots", "Stem", "Flowers", "Seeds"], "correctIndex": 1, "explanation": "Jute is obtained from the stem of the jute plant.", "tags": ["fibre", "jute"] },
+    { "id": "g6s-w23-mon-005", "question": "Wool is a natural fibre obtained from:", "options": ["Plants", "Animals like sheep", "Plastic", "Rocks"], "correctIndex": 1, "explanation": "Wool is an animal fibre obtained from sheep, goats and some other animals.", "tags": ["fibre", "wool"] },
+    { "id": "g6s-w23-mon-006", "question": "Silk fibre is obtained from the:", "options": ["Cotton plant", "Silkworm's cocoon", "Sheep", "Jute stem"], "correctIndex": 1, "explanation": "Silk is obtained from the cocoon spun by the silkworm.", "tags": ["fibre", "silk"] },
+    { "id": "g6s-w23-mon-007", "question": "Which of these is a plant fibre?", "options": ["Wool", "Silk", "Cotton", "Nylon"], "correctIndex": 2, "explanation": "Cotton is a plant fibre; wool and silk are animal fibres and nylon is synthetic.", "tags": ["fibre", "plant"] },
+    { "id": "g6s-w23-mon-008", "question": "Which two of these are animal fibres?", "options": ["Cotton and jute", "Wool and silk", "Cotton and silk", "Jute and wool"], "correctIndex": 1, "explanation": "Wool and silk are both obtained from animals, so they are animal fibres.", "tags": ["fibre", "animal"] },
+    { "id": "g6s-w23-mon-009", "question": "Cotton plants grow best in places with:", "options": ["Cold and dry weather", "Warm climate and black soil", "Snowy mountains", "Salty seawater"], "correctIndex": 1, "explanation": "Cotton needs a warm climate and grows well in black soil.", "tags": ["fibre", "cotton"] },
+    { "id": "g6s-w23-mon-010", "question": "Jute is mainly grown in India during the:", "options": ["Winter season", "Rainy season", "Dry summer", "Any season"], "correctIndex": 1, "explanation": "Jute is grown during the rainy season as it needs plenty of water.", "tags": ["fibre", "jute"] },
+    { "id": "g6s-w23-mon-011", "question": "Fibres made from chemicals, not from plants or animals, are called:", "options": ["Natural fibres", "Synthetic fibres", "Cotton fibres", "Silk fibres"], "correctIndex": 1, "explanation": "Synthetic fibres, like nylon and polyester, are made from chemicals.", "tags": ["fibre", "synthetic"] },
+    { "id": "g6s-w23-mon-012", "question": "Which of these is a synthetic fibre?", "options": ["Cotton", "Jute", "Polyester", "Wool"], "correctIndex": 2, "explanation": "Polyester is a synthetic (man-made) fibre, while cotton, jute and wool are natural.", "tags": ["fibre", "synthetic"] },
+    { "id": "g6s-w23-mon-013", "question": "Long ago, before fabrics, people used ____ to cover their bodies.", "options": ["Plastic sheets", "Tree bark, leaves and animal skins", "Glass", "Metal"], "correctIndex": 1, "explanation": "Early humans used bark, large leaves and animal skins and furs before they learned to make fabric.", "tags": ["fibre", "history"] },
+    { "id": "g6s-w23-mon-014", "question": "Why is cotton clothing comfortable in summer?", "options": ["It traps heat", "It absorbs sweat and lets air pass", "It is made of plastic", "It is very thick"], "correctIndex": 1, "explanation": "Cotton absorbs sweat and allows air to pass, keeping us cool in summer.", "tags": ["fibre", "cotton"] },
+    { "id": "g6s-w23-mon-015", "question": "Group correctly: which list has only natural fibres?", "options": ["Cotton, wool, silk", "Cotton, nylon, silk", "Polyester, wool, jute", "Nylon, polyester, acrylic"], "correctIndex": 0, "explanation": "Cotton, wool and silk are all natural fibres from plants or animals.", "tags": ["fibre", "natural"] }
+  ]
+}

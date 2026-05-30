@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-science-w23-mon",
+  "title": "Grade 8 Science — Mon, Jun 01",
+  "description": "Synthetic Fibres & Plastics — Day 1 of 5: What are synthetic fibres?",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly", "synthetic-fibres"],
+  "questions": [
+    { "id": "g8s-w23-mon-001", "question": "Synthetic fibres are made by humans from raw materials obtained mainly from:", "options": ["Cotton plants", "Petroleum (petrochemicals)", "Sheep wool", "Silkworms"], "correctIndex": 1, "explanation": "Synthetic fibres are man-made from chemicals called petrochemicals, obtained from petroleum.", "tags": ["synthetic", "basics"] },
+    { "id": "g8s-w23-mon-002", "question": "A synthetic fibre is made of many small repeating units joined together to form a large molecule called a:", "options": ["Monomer", "Polymer", "Atom", "Mineral"], "correctIndex": 1, "explanation": "A polymer is a large molecule made of many small repeating units called monomers.", "tags": ["synthetic", "polymer"] },
+    { "id": "g8s-w23-mon-003", "question": "The first fully synthetic fibre made by humans was:", "options": ["Rayon", "Nylon", "Cotton", "Silk"], "correctIndex": 1, "explanation": "Nylon, made in 1931, was the first fully synthetic fibre, made without any natural raw material.", "tags": ["synthetic", "nylon"] },
+    { "id": "g8s-w23-mon-004", "question": "Rayon is called a 'semi-synthetic' fibre because it is made from:", "options": ["Pure chemicals only", "Wood pulp (a natural source) treated with chemicals", "Sheep wool", "Petroleum only"], "correctIndex": 1, "explanation": "Rayon is obtained from wood pulp, a natural material, treated with chemicals — so it is semi-synthetic.", "tags": ["synthetic", "rayon"] },
+    { "id": "g8s-w23-mon-005", "question": "Rayon is also known as:", "options": ["Artificial silk", "Real silk", "Pure cotton", "Natural wool"], "correctIndex": 0, "explanation": "Because it has a silky look and is cheaper, rayon is called artificial silk.", "tags": ["synthetic", "rayon"] },
+    { "id": "g8s-w23-mon-006", "question": "Which fibre is known for being very strong, elastic and used in parachutes and ropes?", "options": ["Cotton", "Nylon", "Jute", "Wool"], "correctIndex": 1, "explanation": "Nylon is strong and elastic, so it is used in parachutes, ropes, seat belts and toothbrush bristles.", "tags": ["synthetic", "nylon"] },
+    { "id": "g8s-w23-mon-007", "question": "Polyester is a synthetic fibre that:", "options": ["Wrinkles very easily", "Does not wrinkle easily and is easy to wash", "Absorbs a lot of water", "Catches fire instantly"], "correctIndex": 1, "explanation": "Polyester resists wrinkles and dries quickly, making it popular for clothes.", "tags": ["synthetic", "polyester"] },
+    { "id": "g8s-w23-mon-008", "question": "PET, used to make bottles and many containers, is a type of:", "options": ["Polyester", "Cotton", "Wool", "Rayon"], "correctIndex": 0, "explanation": "PET (polyethylene terephthalate) is a kind of polyester used for bottles, jars and films.", "tags": ["synthetic", "polyester"] },
+    { "id": "g8s-w23-mon-009", "question": "Acrylic is a synthetic fibre that looks and feels like:", "options": ["Wool", "Cotton", "Jute", "Silk"], "correctIndex": 0, "explanation": "Acrylic resembles wool and is used to make sweaters and blankets, often cheaper than real wool.", "tags": ["synthetic", "acrylic"] },
+    { "id": "g8s-w23-mon-010", "question": "Synthetic fibres are popular because they are cheaper, durable and:", "options": ["Hard to wash", "Easily available and dry quickly", "Always natural", "Unable to be dyed"], "correctIndex": 1, "explanation": "Synthetic fibres are inexpensive, strong, readily available and dry fast.", "tags": ["synthetic", "advantages"] },
+    { "id": "g8s-w23-mon-011", "question": "Which of these is NOT a synthetic fibre?", "options": ["Nylon", "Polyester", "Acrylic", "Cotton"], "correctIndex": 3, "explanation": "Cotton is a natural plant fibre; nylon, polyester and acrylic are synthetic.", "tags": ["synthetic", "classification"] },
+    { "id": "g8s-w23-mon-012", "question": "The small repeating unit that joins to form a polymer is called a:", "options": ["Monomer", "Polymer", "Fibre", "Cell"], "correctIndex": 0, "explanation": "Monomers are the small units that link together to make a polymer.", "tags": ["synthetic", "polymer"] },
+    { "id": "g8s-w23-mon-013", "question": "Natural fibres like cotton and wool are also polymers. For example, cotton is made of the polymer:", "options": ["Nylon", "Cellulose", "Polyester", "Acrylic"], "correctIndex": 1, "explanation": "Cotton is made of cellulose, a natural polymer, showing polymers occur in nature too.", "tags": ["synthetic", "polymer"] },
+    { "id": "g8s-w23-mon-014", "question": "Why is rayon mixed with cotton to make bedsheets?", "options": ["To make them costlier", "To combine the qualities of both fibres", "To make them waterproof", "To remove colour"], "correctIndex": 1, "explanation": "Mixing fibres combines useful qualities — rayon adds silkiness and cotton adds comfort.", "tags": ["synthetic", "blends"] },
+    { "id": "g8s-w23-mon-015", "question": "Which statement about synthetic fibres is TRUE?", "options": ["They are obtained directly from plants", "They are man-made polymers, often from petrochemicals", "They are spun by silkworms", "They are dug out of the ground"], "correctIndex": 1, "explanation": "Synthetic fibres are man-made polymers, usually produced from petrochemicals.", "tags": ["synthetic", "basics"] }
+  ]
+}

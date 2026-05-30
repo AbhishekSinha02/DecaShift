@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w23-wed",
+  "title": "Grade 4 Science — Wed, Jun 03",
+  "description": "Animals & Their Habitats — Day 3 of 5: Life in water and air",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "habitats"],
+  "questions": [
+    { "id": "g4s-w23-wed-001", "question": "A fish breathes underwater using its:", "options": ["Lungs", "Gills", "Nose", "Skin only"], "correctIndex": 1, "explanation": "Fish use gills to take in oxygen dissolved in water.", "tags": ["water", "fish"] },
+    { "id": "g4s-w23-wed-002", "question": "The streamlined (smooth, pointed) body shape of a fish helps it to:", "options": ["Float on top", "Move easily through water", "Walk on land", "Fly"], "correctIndex": 1, "explanation": "A streamlined body lets the fish glide smoothly and quickly through water.", "tags": ["water", "adaptation"] },
+    { "id": "g4s-w23-wed-003", "question": "A duck has webbed feet that help it to:", "options": ["Climb trees", "Paddle and swim in water", "Run on sand", "Catch insects"], "correctIndex": 1, "explanation": "Webbed feet act like paddles, helping the duck swim.", "tags": ["water", "adaptation"] },
+    { "id": "g4s-w23-wed-004", "question": "Which animal lives in water but comes up to breathe air?", "options": ["Goldfish", "Dolphin", "Crab", "Starfish"], "correctIndex": 1, "explanation": "Dolphins live in water but breathe air, so they come up to the surface to breathe.", "tags": ["water", "dolphin"] },
+    { "id": "g4s-w23-wed-005", "question": "Fins and a tail help a fish to:", "options": ["Breathe", "Swim and change direction", "Eat", "See"], "correctIndex": 1, "explanation": "Fins and the tail help a fish swim, balance and steer in the water.", "tags": ["water", "adaptation"] },
+    { "id": "g4s-w23-wed-006", "question": "A bird that flies in the air has bones that are:", "options": ["Heavy and solid", "Light and hollow", "Made of fur", "Filled with water"], "correctIndex": 1, "explanation": "Birds have light, hollow bones that make their bodies light enough to fly.", "tags": ["air", "birds"] },
+    { "id": "g4s-w23-wed-007", "question": "An eagle has very sharp eyes that help it to:", "options": ["See prey from high in the sky", "Swim deep", "Dig burrows", "Eat grass"], "correctIndex": 0, "explanation": "Sharp eyesight helps the eagle spot small prey while flying high above.", "tags": ["air", "adaptation"] },
+    { "id": "g4s-w23-wed-008", "question": "A frog is well suited to live near ponds because it has:", "options": ["Thick fur", "Moist skin and webbed feet", "Strong claws", "Feathers"], "correctIndex": 1, "explanation": "A frog's moist skin and webbed feet help it live both in water and on land.", "tags": ["water", "amphibian"] },
+    { "id": "g4s-w23-wed-009", "question": "Which part of a bird is shaped to help it fly?", "options": ["Beak", "Wings", "Legs", "Tail feathers only"], "correctIndex": 1, "explanation": "A bird's wings are shaped to push against air and lift it up while flying.", "tags": ["air", "birds"] },
+    { "id": "g4s-w23-wed-010", "question": "Why is a fish's body covered with slippery scales and slime?", "options": ["To shine", "To help it move smoothly and protect it", "To keep it warm", "To help it fly"], "correctIndex": 1, "explanation": "Slippery scales reduce rubbing against water and protect the fish's body.", "tags": ["water", "adaptation"] },
+    { "id": "g4s-w23-wed-011", "question": "Which of these animals is best suited for flying?", "options": ["Whale", "Sparrow", "Crab", "Snail"], "correctIndex": 1, "explanation": "A sparrow is a bird with wings and a light body, well suited for flying.", "tags": ["air", "birds"] },
+    { "id": "g4s-w23-wed-012", "question": "Water plants and small water animals are food for many:", "options": ["Birds of the desert", "Pond animals like fish and frogs", "Forest lions", "Polar bears"], "correctIndex": 1, "explanation": "Pond animals such as fish and frogs feed on water plants and small water creatures.", "tags": ["water", "food"] },
+    { "id": "g4s-w23-wed-013", "question": "A bird uses its beak mainly to:", "options": ["Fly", "Pick up and eat food", "Hear sounds", "Swim"], "correctIndex": 1, "explanation": "A bird uses its beak to pick up, hold and eat its food.", "tags": ["air", "birds"] },
+    { "id": "g4s-w23-wed-014", "question": "Which adaptation would NOT help an animal living in water?", "options": ["Gills", "Fins", "Thick fur to keep dry", "Streamlined body"], "correctIndex": 2, "explanation": "Gills, fins and a streamlined body help in water; thick fur to keep dry is not a water adaptation.", "tags": ["water", "adaptation"] },
+    { "id": "g4s-w23-wed-015", "question": "A penguin lives in cold water and on ice. Its smooth feathers and fat layer help it to:", "options": ["Fly high", "Stay warm and swim well", "Climb trees", "Live in a desert"], "correctIndex": 1, "explanation": "A penguin's fat layer keeps it warm and its smooth body helps it swim in cold water.", "tags": ["water", "adaptation"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w23-thu",
+  "title": "Grade 6 Science — Thu, Jun 04",
+  "description": "Fibre to Fabric — Day 4 of 5: Properties and uses of fibres",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "fibre-to-fabric"],
+  "questions": [
+    { "id": "g6s-w23-thu-001", "question": "Cotton clothes are preferred in summer because cotton:", "options": ["Traps body heat", "Absorbs sweat and keeps us cool", "Is waterproof", "Is very thick"], "correctIndex": 1, "explanation": "Cotton absorbs sweat and allows air to pass, keeping the body cool in summer.", "tags": ["properties", "cotton"] },
+    { "id": "g6s-w23-thu-002", "question": "Woollen clothes keep us warm in winter because wool:", "options": ["Absorbs water", "Traps air which is a poor conductor of heat", "Is very thin", "Reflects sunlight"], "correctIndex": 1, "explanation": "Wool traps air, and trapped air does not let body heat escape, keeping us warm.", "tags": ["properties", "wool"] },
+    { "id": "g6s-w23-thu-003", "question": "Jute fibre is strong and cheap, so it is mainly used to make:", "options": ["Silk sarees", "Gunny bags and ropes", "Woollen sweaters", "Glass bottles"], "correctIndex": 1, "explanation": "Jute is used to make gunny (sacking) bags, ropes and mats because it is strong and cheap.", "tags": ["uses", "jute"] },
+    { "id": "g6s-w23-thu-004", "question": "Silk is valued for clothing because it is:", "options": ["Rough and dull", "Smooth, shiny and soft", "Heavy and stiff", "Waterproof"], "correctIndex": 1, "explanation": "Silk is smooth, shiny and soft, making it a prized fabric for fine clothing.", "tags": ["properties", "silk"] },
+    { "id": "g6s-w23-thu-005", "question": "Which fibre is best for making a raincoat?", "options": ["Cotton", "Wool", "A synthetic fibre like nylon", "Jute"], "correctIndex": 2, "explanation": "Synthetic fibres like nylon are water-resistant, making them suitable for raincoats.", "tags": ["uses", "synthetic"] },
+    { "id": "g6s-w23-thu-006", "question": "A doormat is often made of jute because jute is:", "options": ["Soft and shiny", "Rough and strong", "Waterproof", "Very expensive"], "correctIndex": 1, "explanation": "Jute is rough and strong, which makes it good for mats and sacks.", "tags": ["uses", "jute"] },
+    { "id": "g6s-w23-thu-007", "question": "Why might a sports jersey be made of synthetic fibre rather than cotton?", "options": ["It dries quickly and is light", "It tears easily", "It is heavier", "It cannot be coloured"], "correctIndex": 0, "explanation": "Synthetic fibres are light and dry quickly, which suits sportswear.", "tags": ["uses", "synthetic"] },
+    { "id": "g6s-w23-thu-008", "question": "Cotton is grown by farmers, so it is a fibre that is:", "options": ["Made in factories from chemicals", "Obtained from a plant", "Obtained from sheep", "Dug from the ground"], "correctIndex": 1, "explanation": "Cotton is a natural plant fibre obtained from the cotton plant.", "tags": ["properties", "cotton"] },
+    { "id": "g6s-w23-thu-009", "question": "Which property makes wool suitable for blankets?", "options": ["It keeps the body warm", "It is waterproof", "It is shiny", "It is the cheapest fibre"], "correctIndex": 0, "explanation": "Wool keeps the body warm by trapping air, making it good for blankets.", "tags": ["uses", "wool"] },
+    { "id": "g6s-w23-thu-010", "question": "An advantage of natural fibres over many synthetic fibres is that natural fibres are:", "options": ["Cheaper to burn", "More skin-friendly and absorb sweat better", "Always waterproof", "Made from chemicals"], "correctIndex": 1, "explanation": "Natural fibres like cotton are skin-friendly and absorb sweat, so they are comfortable to wear.", "tags": ["properties", "comparison"] },
+    { "id": "g6s-w23-thu-011", "question": "Which fibre would be the WORST choice for a thick winter coat?", "options": ["Wool", "Thin cotton", "Fleece", "Thick woollen blend"], "correctIndex": 1, "explanation": "Thin cotton does not trap heat well, so it is a poor choice for a warm winter coat.", "tags": ["uses", "comparison"] },
+    { "id": "g6s-w23-thu-012", "question": "Ropes used to tie heavy loads are often made of jute or:", "options": ["Silk", "Strong synthetic fibre", "Thin cotton thread", "Wool"], "correctIndex": 1, "explanation": "Strong fibres like jute and tough synthetic fibres are used for ropes.", "tags": ["uses", "comparison"] },
+    { "id": "g6s-w23-thu-013", "question": "Why is silk usually more expensive than cotton?", "options": ["Silk is made from chemicals", "Silk is harder to obtain, needing silkworms and care", "Silk grows like grass", "Cotton is rarer"], "correctIndex": 1, "explanation": "Silk production needs silkworms and careful handling, making it costlier than cotton.", "tags": ["properties", "silk"] },
+    { "id": "g6s-w23-thu-014", "question": "Which match of fibre and use is CORRECT?", "options": ["Jute – fine silk saree", "Wool – winter sweater", "Cotton – waterproof raincoat", "Silk – gunny bag"], "correctIndex": 1, "explanation": "Wool is used for winter sweaters because it keeps the body warm.", "tags": ["uses", "matching"] },
+    { "id": "g6s-w23-thu-015", "question": "Choosing the right fabric for clothing mainly depends on the:", "options": ["Colour only", "Weather and the purpose of the clothing", "Price only", "Brand name"], "correctIndex": 1, "explanation": "We choose fabrics based on the weather and what the clothing is needed for.", "tags": ["uses", "reasoning"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w23-fri",
+  "title": "Grade 4 Science — Fri, Jun 05",
+  "description": "Animals & Their Habitats — Day 5 of 5: Synthesis — habitats, adaptations and food chains",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "habitats"],
+  "questions": [
+    { "id": "g4s-w23-fri-001", "question": "A camel's hump and a polar bear's thick fur are both examples of:", "options": ["Food chains", "Adaptations to the habitat", "Camouflage", "Migration"], "correctIndex": 1, "explanation": "Both are adaptations that help each animal survive in its own habitat.", "tags": ["adaptation", "synthesis"] },
+    { "id": "g4s-w23-fri-002", "question": "Match the animal to its habitat: a dolphin lives in the:", "options": ["Desert", "Ocean", "Forest floor", "Polar cave"], "correctIndex": 1, "explanation": "A dolphin is a water animal that lives in the ocean.", "tags": ["habitats", "synthesis"] },
+    { "id": "g4s-w23-fri-003", "question": "Which feature would help an animal survive in a desert?", "options": ["Thick fur for warmth", "Storing fat and needing little water", "Webbed feet", "Gills"], "correctIndex": 1, "explanation": "Desert animals are adapted to store fat and survive with very little water.", "tags": ["adaptation", "desert"] },
+    { "id": "g4s-w23-fri-004", "question": "In the chain grass → rabbit → fox, the fox is a:", "options": ["Producer", "Herbivore", "Carnivore", "Plant"], "correctIndex": 2, "explanation": "The fox eats the rabbit (an animal), so it is a carnivore in this food chain.", "tags": ["food-chain", "synthesis"] },
+    { "id": "g4s-w23-fri-005", "question": "A fish out of water cannot survive because it:", "options": ["Gets too cold", "Cannot breathe using its gills", "Cannot see", "Has no legs"], "correctIndex": 1, "explanation": "A fish's gills only work in water, so it cannot breathe on dry land.", "tags": ["habitats", "water"] },
+    { "id": "g4s-w23-fri-006", "question": "The green colour of a frog and the green colour of a grasshopper both help by:", "options": ["Making them fast", "Camouflaging them among plants", "Helping them fly", "Keeping them warm"], "correctIndex": 1, "explanation": "Green colour helps both animals hide among plants — this is camouflage.", "tags": ["adaptation", "camouflage"] },
+    { "id": "g4s-w23-fri-007", "question": "Which of these is the correct order of a food chain?", "options": ["Lion → deer → grass", "Grass → deer → lion", "Deer → grass → lion", "Lion → grass → deer"], "correctIndex": 1, "explanation": "A food chain starts with a plant (grass), then a herbivore (deer), then a carnivore (lion).", "tags": ["food-chain", "synthesis"] },
+    { "id": "g4s-w23-fri-008", "question": "Webbed feet in a duck and fins in a fish are both adaptations for living:", "options": ["In the desert", "In or near water", "High in the air", "Underground"], "correctIndex": 1, "explanation": "Both webbed feet and fins help animals move in water.", "tags": ["adaptation", "water"] },
+    { "id": "g4s-w23-fri-009", "question": "Which animal is best matched to a forest habitat?", "options": ["Camel", "Monkey", "Penguin", "Whale"], "correctIndex": 1, "explanation": "A monkey, with its climbing adaptations, is suited to the forest habitat.", "tags": ["habitats", "synthesis"] },
+    { "id": "g4s-w23-fri-010", "question": "Why do we need to protect habitats like forests and ponds?", "options": ["They look nice only", "Animals depend on them for food, water and shelter", "They are not useful", "To build more roads"], "correctIndex": 1, "explanation": "Animals need their habitats to survive, so protecting habitats protects the animals.", "tags": ["conservation", "synthesis"] },
+    { "id": "g4s-w23-fri-011", "question": "An eagle's sharp eyes and a rabbit's long ears are both adaptations for:", "options": ["Eating plants", "Sensing prey or danger", "Swimming", "Flying"], "correctIndex": 1, "explanation": "Sharp eyes help the eagle spot prey; long ears help the rabbit sense danger.", "tags": ["adaptation", "synthesis"] },
+    { "id": "g4s-w23-fri-012", "question": "A cow eats grass and a lion eats the cow. The cow is the lion's:", "options": ["Habitat", "Food", "Adaptation", "Producer"], "correctIndex": 1, "explanation": "In this food chain the cow is the food (prey) of the lion.", "tags": ["food-chain", "synthesis"] },
+    { "id": "g4s-w23-fri-013", "question": "Which set correctly groups water habitats only?", "options": ["Pond, river, ocean", "Pond, desert, forest", "Ocean, grassland, hill", "River, cave, field"], "correctIndex": 0, "explanation": "Ponds, rivers and oceans are all water habitats.", "tags": ["habitats", "synthesis"] },
+    { "id": "g4s-w23-fri-014", "question": "An animal that is awake at night and rests in the day is said to be:", "options": ["Aquatic", "Nocturnal", "Herbivore", "Migratory"], "correctIndex": 1, "explanation": "Animals that are active at night are called nocturnal animals.", "tags": ["adaptation", "behaviour"] },
+    { "id": "g4s-w23-fri-015", "question": "What is the BEST reason different animals live in different habitats?", "options": ["They like to be different", "Each animal's body and habits suit its own habitat", "All habitats are equally easy", "They cannot move at all"], "correctIndex": 1, "explanation": "Animals live where their adaptations let them find food, water and shelter and stay safe.", "tags": ["habitats", "synthesis"] }
+  ]
+}

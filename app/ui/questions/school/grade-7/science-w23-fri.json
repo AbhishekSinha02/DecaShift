@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-science-w23-fri",
+  "title": "Grade 7 Science — Fri, Jun 05",
+  "description": "Nutrition in Animals — Day 5 of 5: Synthesis and reasoning",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly", "nutrition"],
+  "questions": [
+    { "id": "g7s-w23-fri-001", "question": "Arrange the steps of nutrition in correct order: absorption, ingestion, egestion, digestion, assimilation.", "options": ["Ingestion → digestion → absorption → assimilation → egestion", "Digestion → ingestion → egestion → absorption", "Egestion → assimilation → ingestion", "Absorption → ingestion → digestion"], "correctIndex": 0, "explanation": "The correct order is ingestion, digestion, absorption, assimilation, then egestion.", "tags": ["synthesis", "steps"] },
+    { "id": "g7s-w23-fri-002", "question": "Amoeba uses pseudopodia to capture food, while hydra uses:", "options": ["Teeth", "Tentacles", "Villi", "A rumen"], "correctIndex": 1, "explanation": "Hydra captures prey with its tentacles, while amoeba uses pseudopodia.", "tags": ["synthesis", "feeding"] },
+    { "id": "g7s-w23-fri-003", "question": "Saliva acts on starch and the stomach acts on proteins. Bile from the liver helps digest:", "options": ["Starch", "Fats", "Minerals", "Water"], "correctIndex": 1, "explanation": "Bile helps break down fats so they can be digested in the small intestine.", "tags": ["synthesis", "digestion"] },
+    { "id": "g7s-w23-fri-004", "question": "A cow can digest grass but a lion cannot, mainly because the cow has:", "options": ["Sharper teeth", "Bacteria in its rumen to break down cellulose", "A shorter intestine", "No stomach"], "correctIndex": 1, "explanation": "Helpful bacteria in the cow's rumen digest the cellulose in grass; lions lack this.", "tags": ["synthesis", "ruminant"] },
+    { "id": "g7s-w23-fri-005", "question": "Villi in the small intestine increase its surface area, which improves:", "options": ["Chewing", "Absorption of digested food", "Swallowing", "Egestion"], "correctIndex": 1, "explanation": "More surface area from villi means more digested food can be absorbed into the blood.", "tags": ["synthesis", "absorption"] },
+    { "id": "g7s-w23-fri-006", "question": "Which pair is correctly matched?", "options": ["Liver – makes saliva", "Stomach – digests proteins", "Mouth – absorbs water", "Large intestine – digests fats"], "correctIndex": 1, "explanation": "The stomach digests proteins with its acidic juices.", "tags": ["synthesis", "organs"] },
+    { "id": "g7s-w23-fri-007", "question": "Both ruminants and humans break food down completely, but ruminants have an extra advantage of:", "options": ["No teeth", "Digesting cellulose with rumen bacteria", "Not needing food", "Making their own food"], "correctIndex": 1, "explanation": "Rumen bacteria let ruminants digest cellulose, which humans cannot.", "tags": ["synthesis", "comparison"] },
+    { "id": "g7s-w23-fri-008", "question": "A person eats bread (starch). Where does its digestion begin and where is it mostly completed?", "options": ["Begins in stomach, completed in mouth", "Begins in mouth, completed in small intestine", "Begins in large intestine", "Begins and ends in the stomach"], "correctIndex": 1, "explanation": "Starch digestion begins in the mouth with saliva and is completed in the small intestine.", "tags": ["synthesis", "digestion"] },
+    { "id": "g7s-w23-fri-009", "question": "Peristalsis is important because it:", "options": ["Makes acid", "Pushes food along the alimentary canal", "Absorbs water", "Chews food"], "correctIndex": 1, "explanation": "Peristalsis is the muscular wave that moves food through the digestive tract.", "tags": ["synthesis", "peristalsis"] },
+    { "id": "g7s-w23-fri-010", "question": "The main reason animals show heterotrophic nutrition is that they:", "options": ["Have chlorophyll", "Cannot make their own food", "Live in water", "Have a backbone"], "correctIndex": 1, "explanation": "Animals lack chlorophyll and cannot make food, so they depend on others — heterotrophic nutrition.", "tags": ["synthesis", "modes"] },
+    { "id": "g7s-w23-fri-011", "question": "Which set lists organs in the correct order food passes through?", "options": ["Mouth → stomach → food pipe → intestine", "Mouth → food pipe → stomach → small intestine → large intestine", "Stomach → mouth → intestine", "Small intestine → mouth → stomach"], "correctIndex": 1, "explanation": "Food moves mouth → food pipe → stomach → small intestine → large intestine.", "tags": ["synthesis", "path"] },
+    { "id": "g7s-w23-fri-012", "question": "During diarrhoea, ORS is given because the body has lost:", "options": ["Teeth and bones", "Water and salts", "Hair and skin", "Muscles"], "correctIndex": 1, "explanation": "ORS replaces the water and salts lost from the body during diarrhoea.", "tags": ["synthesis", "health"] },
+    { "id": "g7s-w23-fri-013", "question": "The food vacuole in amoeba does a job similar to which human organ?", "options": ["The eye", "The stomach (digestion)", "The lung", "The bone"], "correctIndex": 1, "explanation": "The food vacuole digests food in amoeba, much like the stomach and intestine do in humans.", "tags": ["synthesis", "comparison"] },
+    { "id": "g7s-w23-fri-014", "question": "Why are molars and premolars broad and flat while canines are pointed?", "options": ["For decoration", "Molars grind food and canines tear it", "All teeth do the same job", "Canines grind and molars tear"], "correctIndex": 1, "explanation": "Different teeth have different shapes for different jobs — molars grind, canines tear.", "tags": ["synthesis", "teeth"] },
+    { "id": "g7s-w23-fri-015", "question": "Which statement BEST summarises nutrition in animals?", "options": ["Animals make their own food using sunlight", "Animals take in food, digest it, absorb and use it, and remove waste", "Animals only store food", "Animals do not need to digest food"], "correctIndex": 1, "explanation": "Animal nutrition involves ingestion, digestion, absorption, assimilation and egestion.", "tags": ["synthesis", "summary"] }
+  ]
+}

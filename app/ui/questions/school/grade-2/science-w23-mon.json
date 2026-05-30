@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w23-mon",
+  "title": "Grade 2 Science — Mon, Jun 01",
+  "description": "Plants Around Us — Day 1 of 5: Parts of a plant",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "plants"],
+  "questions": [
+    { "id": "g2s-w23-mon-001", "question": "Which part of a plant is usually under the ground?", "options": ["Leaf", "Flower", "Root", "Fruit"], "correctIndex": 2, "explanation": "Roots grow under the ground and hold the plant firmly in the soil.", "tags": ["plants", "roots"] },
+    { "id": "g2s-w23-mon-002", "question": "Which part of the plant is green and makes food?", "options": ["Root", "Leaf", "Stem", "Seed"], "correctIndex": 1, "explanation": "Leaves are green and make food for the plant using sunlight.", "tags": ["plants", "leaf"] },
+    { "id": "g2s-w23-mon-003", "question": "What carries water from the roots to the leaves?", "options": ["Flower", "Fruit", "Stem", "Petal"], "correctIndex": 2, "explanation": "The stem holds the plant up and carries water from the roots to other parts.", "tags": ["plants", "stem"] },
+    { "id": "g2s-w23-mon-004", "question": "Which part of a plant is often colourful and sweet-smelling?", "options": ["Root", "Stem", "Flower", "Bark"], "correctIndex": 2, "explanation": "Flowers are usually colourful and may smell sweet. They later become fruits.", "tags": ["plants", "flower"] },
+    { "id": "g2s-w23-mon-005", "question": "Roots help the plant by:", "options": ["Making it colourful", "Holding it in the soil and taking in water", "Giving it flowers", "Making it smell nice"], "correctIndex": 1, "explanation": "Roots fix the plant in the soil and absorb water and minerals.", "tags": ["plants", "roots"] },
+    { "id": "g2s-w23-mon-006", "question": "From which part of the plant do we get a new plant?", "options": ["Leaf", "Seed", "Stem", "Bark"], "correctIndex": 1, "explanation": "Seeds grow into new plants when they get water, air and warmth.", "tags": ["plants", "seed"] },
+    { "id": "g2s-w23-mon-007", "question": "Which of these is the topmost part of a small plant?", "options": ["Root", "Shoot", "Soil", "Stone"], "correctIndex": 1, "explanation": "The part of the plant above the ground (stem, leaves, flowers) is called the shoot.", "tags": ["plants", "shoot"] },
+    { "id": "g2s-w23-mon-008", "question": "Leaves are usually green because of a colour called:", "options": ["Chlorophyll", "Petal", "Pollen", "Sap"], "correctIndex": 0, "explanation": "Leaves contain a green colour called chlorophyll, which helps them make food.", "tags": ["plants", "leaf"] },
+    { "id": "g2s-w23-mon-009", "question": "Which part grows first when a seed begins to grow?", "options": ["Flower", "Fruit", "Root", "Branch"], "correctIndex": 2, "explanation": "When a seed sprouts, the tiny root comes out first and goes into the soil.", "tags": ["plants", "seed"] },
+    { "id": "g2s-w23-mon-010", "question": "The outer covering of a tree's stem is called the:", "options": ["Bark", "Petal", "Root", "Leaf"], "correctIndex": 0, "explanation": "The hard outer cover on the stem of a tree is called the bark. It protects the tree.", "tags": ["plants", "stem"] },
+    { "id": "g2s-w23-mon-011", "question": "Which part of the plant joins the leaf to the stem?", "options": ["Root", "Stalk", "Petal", "Seed"], "correctIndex": 1, "explanation": "A small stalk joins each leaf to the stem of the plant.", "tags": ["plants", "leaf"] },
+    { "id": "g2s-w23-mon-012", "question": "We eat the root of which plant?", "options": ["Mango", "Carrot", "Rose", "Banana"], "correctIndex": 1, "explanation": "Carrot is a root that we eat. Many roots like radish and beetroot are eaten too.", "tags": ["plants", "roots"] },
+    { "id": "g2s-w23-mon-013", "question": "Which part of the plant turns into a fruit?", "options": ["Root", "Leaf", "Flower", "Stem"], "correctIndex": 2, "explanation": "After a flower is done blooming, it slowly changes into a fruit.", "tags": ["plants", "flower"] },
+    { "id": "g2s-w23-mon-014", "question": "Why do most plants need their leaves?", "options": ["To stand up straight", "To make food", "To grow roots", "To stay cool"], "correctIndex": 1, "explanation": "Leaves make food for the whole plant using sunlight, air and water.", "tags": ["plants", "leaf"] },
+    { "id": "g2s-w23-mon-015", "question": "Put these plant parts in order from bottom to top: leaf, root, stem.", "options": ["Leaf, stem, root", "Root, stem, leaf", "Stem, root, leaf", "Root, leaf, stem"], "correctIndex": 1, "explanation": "Roots are at the bottom in the soil, the stem rises up, and leaves grow on the stem.", "tags": ["plants", "parts"] }
+  ]
+}

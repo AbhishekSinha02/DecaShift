@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w23-mon",
+  "title": "Grade 4 Science — Mon, Jun 01",
+  "description": "Animals & Their Habitats — Day 1 of 5: What is a habitat?",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "habitats"],
+  "questions": [
+    { "id": "g4s-w23-mon-001", "question": "The natural place where an animal lives is called its:", "options": ["Habitat", "Holiday", "Hobby", "Harbour"], "correctIndex": 0, "explanation": "A habitat is the natural home where an animal finds food, water and shelter.", "tags": ["habitats", "basics"] },
+    { "id": "g4s-w23-mon-002", "question": "Which of these is a land habitat?", "options": ["Ocean", "Pond", "Forest", "River"], "correctIndex": 2, "explanation": "A forest is a habitat on land, while oceans, ponds and rivers are water habitats.", "tags": ["habitats", "land"] },
+    { "id": "g4s-w23-mon-003", "question": "A fish lives in a:", "options": ["Land habitat", "Water habitat", "Desert habitat", "Mountain habitat"], "correctIndex": 1, "explanation": "Fish live in water habitats such as rivers, ponds and oceans.", "tags": ["habitats", "water"] },
+    { "id": "g4s-w23-mon-004", "question": "Three things every animal needs from its habitat are food, shelter and:", "options": ["Television", "Water", "Toys", "Money"], "correctIndex": 1, "explanation": "Animals need food, water and shelter to survive in their habitat.", "tags": ["habitats", "needs"] },
+    { "id": "g4s-w23-mon-005", "question": "The hot, dry, sandy habitat where camels live is called a:", "options": ["Forest", "Desert", "Pond", "Grassland"], "correctIndex": 1, "explanation": "A desert is a hot and dry habitat with very little water.", "tags": ["habitats", "desert"] },
+    { "id": "g4s-w23-mon-006", "question": "Which animal lives in a polar (very cold) habitat?", "options": ["Camel", "Polar bear", "Monkey", "Frog"], "correctIndex": 1, "explanation": "Polar bears live in the very cold, snowy polar regions.", "tags": ["habitats", "polar"] },
+    { "id": "g4s-w23-mon-007", "question": "A habitat with lots of trees and many animals is a:", "options": ["Desert", "Forest", "Ocean", "Glacier"], "correctIndex": 1, "explanation": "Forests have many trees and are home to a large variety of animals.", "tags": ["habitats", "forest"] },
+    { "id": "g4s-w23-mon-008", "question": "Why can a fish not live on dry land for long?", "options": ["It is too big", "It needs water to breathe and move", "It does not like the sun", "It cannot see on land"], "correctIndex": 1, "explanation": "Fish breathe oxygen from water using gills and need water to survive.", "tags": ["habitats", "water"] },
+    { "id": "g4s-w23-mon-009", "question": "Which of these is NOT a need an animal gets from its habitat?", "options": ["Food", "Shelter", "Water", "A school bag"], "correctIndex": 3, "explanation": "Animals get food, water and shelter from their habitat; a school bag is a human-made object.", "tags": ["habitats", "needs"] },
+    { "id": "g4s-w23-mon-010", "question": "A grassland habitat is mostly covered with:", "options": ["Tall trees", "Sand", "Grass and small plants", "Ice"], "correctIndex": 2, "explanation": "Grasslands are open areas covered mainly with grass and a few small plants.", "tags": ["habitats", "grassland"] },
+    { "id": "g4s-w23-mon-011", "question": "Animals that live in water are also called:", "options": ["Aquatic animals", "Desert animals", "Forest animals", "Pet animals"], "correctIndex": 0, "explanation": "Animals that live in water are called aquatic animals.", "tags": ["habitats", "water"] },
+    { "id": "g4s-w23-mon-012", "question": "Which is an example of a water habitat?", "options": ["Cave", "Pond", "Hill", "Field"], "correctIndex": 1, "explanation": "A pond is a water habitat where fish, frogs and water plants live.", "tags": ["habitats", "water"] },
+    { "id": "g4s-w23-mon-013", "question": "A frog can live both in water and on land. It is called a/an:", "options": ["Reptile", "Amphibian", "Bird", "Insect"], "correctIndex": 1, "explanation": "Animals that live both in water and on land, like frogs, are called amphibians.", "tags": ["habitats", "amphibian"] },
+    { "id": "g4s-w23-mon-014", "question": "Different animals live in different habitats because:", "options": ["They like to travel", "Each animal is suited to a certain place", "All habitats are the same", "They cannot move"], "correctIndex": 1, "explanation": "Each animal has a body and habits suited to its particular habitat.", "tags": ["habitats", "basics"] },
+    { "id": "g4s-w23-mon-015", "question": "Which habitat would you expect to find a cactus and a camel?", "options": ["Ocean", "Desert", "Polar region", "Pond"], "correctIndex": 1, "explanation": "Both cactus plants and camels are suited to the hot, dry desert habitat.", "tags": ["habitats", "desert"] }
+  ]
+}

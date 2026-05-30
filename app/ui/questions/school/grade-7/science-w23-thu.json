@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-science-w23-thu",
+  "title": "Grade 7 Science — Thu, Jun 04",
+  "description": "Nutrition in Animals — Day 4 of 5: Feeding in simple animals and applications",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly", "nutrition"],
+  "questions": [
+    { "id": "g7s-w23-thu-001", "question": "In amoeba, the process by which it surrounds and engulfs food is called:", "options": ["Photosynthesis", "Phagocytosis (engulfing)", "Egestion", "Respiration"], "correctIndex": 1, "explanation": "Amoeba engulfs food by surrounding it with pseudopodia, a process called phagocytosis.", "tags": ["amoeba", "feeding"] },
+    { "id": "g7s-w23-thu-002", "question": "Digestion in amoeba takes place inside the:", "options": ["Mouth", "Food vacuole", "Stomach", "Intestine"], "correctIndex": 1, "explanation": "Amoeba digests food inside a food vacuole using digestive juices.", "tags": ["amoeba", "digestion"] },
+    { "id": "g7s-w23-thu-003", "question": "After digestion in amoeba, the simple food is absorbed and waste is removed by:", "options": ["A mouth", "The cell membrane (egestion)", "Tentacles", "Villi"], "correctIndex": 1, "explanation": "Amoeba absorbs digested food and removes undigested waste through its cell surface.", "tags": ["amoeba", "egestion"] },
+    { "id": "g7s-w23-thu-004", "question": "Hydra digests its food in a hollow space called the:", "options": ["Body cavity (gastrovascular cavity)", "Food vacuole", "Stomach", "Rumen"], "correctIndex": 0, "explanation": "Hydra digests food in its central body cavity after pulling prey in with tentacles.", "tags": ["hydra", "digestion"] },
+    { "id": "g7s-w23-thu-005", "question": "A mosquito feeds on blood using mouthparts shaped for:", "options": ["Grinding", "Piercing and sucking", "Tearing flesh", "Chewing leaves"], "correctIndex": 1, "explanation": "A mosquito has piercing and sucking mouthparts to feed on blood.", "tags": ["feeding", "insects"] },
+    { "id": "g7s-w23-thu-006", "question": "Why is it important to brush our teeth regularly?", "options": ["To change tooth colour", "To remove food bits and prevent tooth decay", "To make teeth sharper", "To grow more teeth"], "correctIndex": 1, "explanation": "Brushing removes food and bacteria that can cause tooth decay and gum disease.", "tags": ["health", "teeth"] },
+    { "id": "g7s-w23-thu-007", "question": "Tooth decay is mainly caused by bacteria acting on ____ left on teeth.", "options": ["Water", "Sugar and food bits", "Air", "Toothpaste"], "correctIndex": 1, "explanation": "Bacteria break down sugar on teeth and produce acids that cause decay.", "tags": ["health", "teeth"] },
+    { "id": "g7s-w23-thu-008", "question": "A housefly feeds by first releasing saliva on solid food to:", "options": ["Cool it", "Turn it into a liquid it can suck up", "Colour it", "Freeze it"], "correctIndex": 1, "explanation": "A housefly pours saliva on food to dissolve it, then sucks up the liquid.", "tags": ["feeding", "insects"] },
+    { "id": "g7s-w23-thu-009", "question": "Which feeding method matches the animal correctly?", "options": ["Amoeba – chewing teeth", "Butterfly – sucking nectar through a proboscis", "Cow – piercing and sucking", "Snake – grinding molars"], "correctIndex": 1, "explanation": "A butterfly sucks nectar using its long proboscis.", "tags": ["feeding", "matching"] },
+    { "id": "g7s-w23-thu-010", "question": "Why should we drink enough water and eat fibre-rich food?", "options": ["To make the body lighter", "To help smooth digestion and prevent constipation", "To stop digestion", "To grow taller only"], "correctIndex": 1, "explanation": "Water and fibre help food move smoothly through the digestive system and prevent constipation.", "tags": ["health", "diet"] },
+    { "id": "g7s-w23-thu-011", "question": "A leech feeds on blood, so it is an example of a:", "options": ["Herbivore", "Blood-sucking parasite", "Producer", "Ruminant"], "correctIndex": 1, "explanation": "A leech sucks blood from other animals, making it a blood-sucking parasite.", "tags": ["feeding", "parasite"] },
+    { "id": "g7s-w23-thu-012", "question": "When a person suffers from severe diarrhoea, the body loses a lot of:", "options": ["Bones", "Water and salts", "Teeth", "Hair"], "correctIndex": 1, "explanation": "Diarrhoea causes the body to lose water and salts, which must be replaced.", "tags": ["health", "diarrhoea"] },
+    { "id": "g7s-w23-thu-013", "question": "A simple, safe drink given during diarrhoea to replace lost water and salts is:", "options": ["Cold drink", "Oral rehydration solution (ORS)", "Coffee", "Milk only"], "correctIndex": 1, "explanation": "ORS (a solution of water, salt and sugar) helps replace water and salts lost during diarrhoea.", "tags": ["health", "ors"] },
+    { "id": "g7s-w23-thu-014", "question": "How is digestion in amoeba similar to digestion in humans?", "options": ["Both use teeth", "Both break complex food into simpler substances", "Both have a long intestine", "Both chew cud"], "correctIndex": 1, "explanation": "In both, complex food is broken into simpler forms the body can use, even though the structures differ.", "tags": ["feeding", "comparison"] },
+    { "id": "g7s-w23-thu-015", "question": "Which habit is BEST for a healthy digestive system?", "options": ["Eating too fast without chewing", "Chewing food well and eating fibre and water", "Skipping meals daily", "Eating only sugary food"], "correctIndex": 1, "explanation": "Chewing well and eating fibre with enough water keeps digestion healthy.", "tags": ["health", "diet"] }
+  ]
+}

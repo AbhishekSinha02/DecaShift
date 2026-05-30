@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-science-w23-tue",
+  "title": "Grade 8 Science — Tue, Jun 02",
+  "description": "Synthetic Fibres & Plastics — Day 2 of 5: Properties of synthetic fibres",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly", "synthetic-fibres"],
+  "questions": [
+    { "id": "g8s-w23-tue-001", "question": "Compared to natural fibres, synthetic fibres generally dry:", "options": ["More slowly", "Faster", "Never", "Only in winter"], "correctIndex": 1, "explanation": "Synthetic fibres absorb little water, so they dry faster than natural fibres.", "tags": ["properties", "drying"] },
+    { "id": "g8s-w23-tue-002", "question": "A major drawback of synthetic fibres is that they:", "options": ["Are very expensive", "Melt and stick to the body when they catch fire", "Cannot be dyed", "Tear very easily"], "correctIndex": 1, "explanation": "Synthetic fibres melt on heating and can stick to the skin, making them risky near fire.", "tags": ["properties", "safety"] },
+    { "id": "g8s-w23-tue-003", "question": "Why should we NOT wear synthetic clothes while working in the kitchen near a flame?", "options": ["They are too heavy", "They can catch fire and melt onto the skin", "They are too cold", "They absorb too much water"], "correctIndex": 1, "explanation": "Synthetic fibres melt and stick to the skin if they catch fire, causing serious burns.", "tags": ["properties", "safety"] },
+    { "id": "g8s-w23-tue-004", "question": "Synthetic fibres are often preferred for sportswear because they are:", "options": ["Heavy and slow-drying", "Light, strong and quick-drying", "Easily torn", "Very costly"], "correctIndex": 1, "explanation": "Their lightness, strength and quick drying make synthetic fibres ideal for sportswear.", "tags": ["properties", "uses"] },
+    { "id": "g8s-w23-tue-005", "question": "Cotton clothes are more comfortable in summer than nylon because cotton:", "options": ["Absorbs sweat and lets air pass", "Melts in heat", "Is synthetic", "Does not absorb water"], "correctIndex": 0, "explanation": "Cotton absorbs sweat and is breathable, while nylon does not absorb sweat well.", "tags": ["properties", "comparison"] },
+    { "id": "g8s-w23-tue-006", "question": "Synthetic fibres are durable because they:", "options": ["Are weak", "Resist wear, do not crease easily and last long", "Rot quickly", "Are eaten by insects"], "correctIndex": 1, "explanation": "Synthetic fibres resist wear and creasing and are not damaged by moths, so they last long.", "tags": ["properties", "durability"] },
+    { "id": "g8s-w23-tue-007", "question": "Why are synthetic clothes generally cheaper than silk or fine wool?", "options": ["They are made from costly natural materials", "They are mass-produced from inexpensive petrochemicals", "They take years to make", "They need silkworms"], "correctIndex": 1, "explanation": "Synthetic fibres are mass-produced from cheap raw materials, lowering their cost.", "tags": ["properties", "cost"] },
+    { "id": "g8s-w23-tue-008", "question": "Unlike natural fibres, synthetic fibres are usually NOT damaged by:", "options": ["Fire", "Moths and insects", "Strong sunlight", "Sharp scissors"], "correctIndex": 1, "explanation": "Moths and insects attack natural fibres like wool but generally do not damage synthetic fibres.", "tags": ["properties", "durability"] },
+    { "id": "g8s-w23-tue-009", "question": "A raincoat is best made of synthetic fibre because the fibre is:", "options": ["Absorbent", "Water-resistant", "Breathable", "Easily torn"], "correctIndex": 1, "explanation": "Synthetic fibres do not absorb water, making them water-resistant and good for raincoats.", "tags": ["properties", "uses"] },
+    { "id": "g8s-w23-tue-010", "question": "Acrylic blankets are often used instead of woollen ones because acrylic is:", "options": ["Warmer than wool and cheaper", "Cooler than wool", "Heavier and costlier", "Eaten by moths easily"], "correctIndex": 0, "explanation": "Acrylic is warm like wool, cheaper, and not attacked by moths, so it is widely used.", "tags": ["properties", "acrylic"] },
+    { "id": "g8s-w23-tue-011", "question": "Which property makes synthetic fibres unsuitable for clothing worn in very hot weather?", "options": ["They absorb too much sweat", "They do not absorb sweat and feel uncomfortable", "They tear easily", "They are too light"], "correctIndex": 1, "explanation": "Synthetic fibres do not absorb sweat, so they can feel sticky and uncomfortable in heat.", "tags": ["properties", "comparison"] },
+    { "id": "g8s-w23-tue-012", "question": "Firefighters' uniforms are made with special fibres that are:", "options": ["Easily flammable", "Heat- and fire-resistant", "Water-absorbing", "Very thin"], "correctIndex": 1, "explanation": "Firefighters wear fibres specially treated to resist heat and fire for protection.", "tags": ["properties", "safety"] },
+    { "id": "g8s-w23-tue-013", "question": "Why are fibre blends like polycot (polyester + cotton) made?", "options": ["To make cloth weaker", "To combine the good qualities of both fibres", "To increase moth attacks", "To make cloth absorb less colour"], "correctIndex": 1, "explanation": "Blending combines polyester's strength and easy care with cotton's comfort.", "tags": ["properties", "blends"] },
+    { "id": "g8s-w23-tue-014", "question": "Which is a CORRECT comparison between cotton and nylon?", "options": ["Cotton dries faster than nylon", "Nylon is stronger and dries faster than cotton", "Cotton melts but nylon burns to ash", "Nylon absorbs more sweat than cotton"], "correctIndex": 1, "explanation": "Nylon is stronger and dries faster than cotton, but cotton absorbs sweat better.", "tags": ["properties", "comparison"] },
+    { "id": "g8s-w23-tue-015", "question": "Which statement BEST balances the use of synthetic fibres?", "options": ["They are always better than natural fibres", "They are durable and cheap but can be unsafe near fire and uncomfortable in heat", "They have no useful properties", "They should never be used"], "correctIndex": 1, "explanation": "Synthetic fibres are durable and cheap, but melt near fire and are less comfortable in heat.", "tags": ["properties", "evaluation"] }
+  ]
+}

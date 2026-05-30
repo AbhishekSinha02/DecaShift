@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w23-tue",
+  "title": "Grade 4 Science — Tue, Jun 02",
+  "description": "Animals & Their Habitats — Day 2 of 5: Adaptations on land",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "habitats"],
+  "questions": [
+    { "id": "g4s-w23-tue-001", "question": "A special feature that helps an animal live in its habitat is called a/an:", "options": ["Adaptation", "Action", "Addition", "Accident"], "correctIndex": 0, "explanation": "An adaptation is a special body feature or habit that helps an animal survive in its habitat.", "tags": ["adaptation", "basics"] },
+    { "id": "g4s-w23-tue-002", "question": "A camel can store fat in its hump to survive in the desert where there is little:", "options": ["Sand", "Food and water", "Sunlight", "Air"], "correctIndex": 1, "explanation": "The camel's hump stores fat, helping it survive when food and water are scarce.", "tags": ["adaptation", "desert"] },
+    { "id": "g4s-w23-tue-003", "question": "A polar bear has thick fur mainly to:", "options": ["Look pretty", "Keep its body warm in the cold", "Swim faster", "Hide from the sun"], "correctIndex": 1, "explanation": "Thick fur keeps the polar bear warm in its very cold habitat.", "tags": ["adaptation", "polar"] },
+    { "id": "g4s-w23-tue-004", "question": "A camel has long legs and wide feet to walk easily on:", "options": ["Ice", "Hot sand", "Water", "Rocks"], "correctIndex": 1, "explanation": "Wide feet stop the camel from sinking, and long legs keep its body away from the hot sand.", "tags": ["adaptation", "desert"] },
+    { "id": "g4s-w23-tue-005", "question": "A monkey has a long tail and strong arms that help it to:", "options": ["Dig holes", "Climb and swing on trees", "Swim in the sea", "Fly in the sky"], "correctIndex": 1, "explanation": "Monkeys are adapted to climb and swing among trees in the forest.", "tags": ["adaptation", "forest"] },
+    { "id": "g4s-w23-tue-006", "question": "The green colour of a grasshopper helps it to:", "options": ["Run fast", "Hide among green leaves and grass", "Make sound", "Eat more"], "correctIndex": 1, "explanation": "Its green colour helps the grasshopper blend in and hide from enemies — this is called camouflage.", "tags": ["adaptation", "camouflage"] },
+    { "id": "g4s-w23-tue-007", "question": "Animals hiding by matching the colour of their surroundings is called:", "options": ["Migration", "Camouflage", "Hibernation", "Decoration"], "correctIndex": 1, "explanation": "Camouflage is when an animal's colour or pattern helps it blend with its surroundings.", "tags": ["adaptation", "camouflage"] },
+    { "id": "g4s-w23-tue-008", "question": "A deer has long, strong legs mainly to:", "options": ["Dig burrows", "Run fast and escape from enemies", "Climb trees", "Swim across rivers"], "correctIndex": 1, "explanation": "Long, strong legs help a deer run fast to escape predators.", "tags": ["adaptation", "grassland"] },
+    { "id": "g4s-w23-tue-009", "question": "Why does a desert animal often rest in the daytime and come out at night?", "options": ["It is lazy", "To avoid the very hot daytime sun", "It cannot see in the day", "It has no work"], "correctIndex": 1, "explanation": "Many desert animals stay hidden during the hot day and become active in the cooler night.", "tags": ["adaptation", "desert"] },
+    { "id": "g4s-w23-tue-010", "question": "A rabbit's long ears help it to:", "options": ["Smell food", "Hear enemies and danger from far away", "Run faster", "Dig the soil"], "correctIndex": 1, "explanation": "Long ears help the rabbit hear approaching danger so it can quickly hide.", "tags": ["adaptation", "grassland"] },
+    { "id": "g4s-w23-tue-011", "question": "Thick fur and a layer of fat under the skin are adaptations for living in a ____ habitat.", "options": ["Hot desert", "Very cold polar", "Forest", "Grassland"], "correctIndex": 1, "explanation": "Thick fur and body fat keep animals warm in cold polar habitats.", "tags": ["adaptation", "polar"] },
+    { "id": "g4s-w23-tue-012", "question": "A lion's sharp claws and teeth are adaptations that help it to:", "options": ["Eat grass", "Catch and tear its prey", "Climb trees", "Swim"], "correctIndex": 1, "explanation": "Sharp claws and teeth help a lion catch and eat other animals.", "tags": ["adaptation", "carnivore"] },
+    { "id": "g4s-w23-tue-013", "question": "Which feature helps a bird to fly easily?", "options": ["Heavy bones", "Light body and feathers", "Thick fur", "Many legs"], "correctIndex": 1, "explanation": "Birds have light bodies and feathers, which make flying easier.", "tags": ["adaptation", "birds"] },
+    { "id": "g4s-w23-tue-014", "question": "A chameleon changing its skin colour to match a leaf is an example of:", "options": ["Hibernation", "Camouflage", "Migration", "Growth"], "correctIndex": 1, "explanation": "Changing colour to match the surroundings is a form of camouflage.", "tags": ["adaptation", "camouflage"] },
+    { "id": "g4s-w23-tue-015", "question": "Adaptations are useful to animals because they help the animals to:", "options": ["Look colourful", "Survive in their habitat", "Make noise", "Grow taller"], "correctIndex": 1, "explanation": "Adaptations help animals find food, stay safe and survive in their habitat.", "tags": ["adaptation", "basics"] }
+  ]
+}

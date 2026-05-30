@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-science-w23-thu",
+  "title": "Grade 8 Science — Thu, Jun 04",
+  "description": "Synthetic Fibres & Plastics — Day 4 of 5: Plastics and the environment",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly", "synthetic-fibres"],
+  "questions": [
+    { "id": "g8s-w23-thu-001", "question": "The main environmental problem with plastic is that it is:", "options": ["Biodegradable", "Non-biodegradable and stays for years", "Eaten quickly by bacteria", "Dissolved by rain"], "correctIndex": 1, "explanation": "Plastic is non-biodegradable, so it remains in the environment for a very long time.", "tags": ["environment", "plastic"] },
+    { "id": "g8s-w23-thu-002", "question": "Burning plastic is harmful because it releases:", "options": ["Fresh oxygen", "Poisonous gases", "Clean water", "Useful minerals"], "correctIndex": 1, "explanation": "Burning plastic gives off toxic gases that pollute the air and harm health.", "tags": ["environment", "burning"] },
+    { "id": "g8s-w23-thu-003", "question": "Plastic bags thrown carelessly can clog drains and:", "options": ["Help plants grow", "Cause water-logging and harm animals", "Clean the soil", "Produce oxygen"], "correctIndex": 1, "explanation": "Plastic chokes drains causing water-logging, and animals may eat it and fall ill.", "tags": ["environment", "pollution"] },
+    { "id": "g8s-w23-thu-004", "question": "The '4 R's' to manage plastic waste are Reduce, Reuse, Recycle and:", "options": ["Repair / Recover", "Remove", "Replace", "Repeat"], "correctIndex": 0, "explanation": "The principle is to Reduce, Reuse, Recycle and Recover (repair/reuse) to manage waste.", "tags": ["environment", "4rs"] },
+    { "id": "g8s-w23-thu-005", "question": "Which is the BEST first step to reduce plastic pollution?", "options": ["Burn all plastic", "Use fewer plastic items, e.g. carry a cloth bag", "Throw plastic in rivers", "Bury all plastic deep"], "correctIndex": 1, "explanation": "Reducing use, such as carrying a cloth or jute bag, is the best first step.", "tags": ["environment", "reduce"] },
+    { "id": "g8s-w23-thu-006", "question": "Cattle sometimes die after eating plastic bags because the plastic:", "options": ["Gives them energy", "Blocks their digestive system", "Helps digestion", "Turns into food"], "correctIndex": 1, "explanation": "Plastic cannot be digested and blocks the animal's stomach and intestines, which can be fatal.", "tags": ["environment", "animals"] },
+    { "id": "g8s-w23-thu-007", "question": "Why is recycling plastic helpful?", "options": ["It increases plastic waste", "It reduces new plastic production and waste", "It pollutes more", "It uses up more petroleum"], "correctIndex": 1, "explanation": "Recycling reuses plastic, reducing both waste and the need to make new plastic.", "tags": ["environment", "recycle"] },
+    { "id": "g8s-w23-thu-008", "question": "An eco-friendly alternative to plastic carry bags is a bag made of:", "options": ["Polythene", "Cloth or jute", "PVC", "Nylon"], "correctIndex": 1, "explanation": "Cloth or jute bags are reusable and biodegradable, making them eco-friendly.", "tags": ["environment", "alternatives"] },
+    { "id": "g8s-w23-thu-009", "question": "PET bottles are often recycled into:", "options": ["Food directly", "Fibres for fleece jackets and carpets", "Pure water", "Glass"], "correctIndex": 1, "explanation": "Recycled PET can be turned into polyester fibre used in fleece jackets, carpets and bags.", "tags": ["environment", "recycle"] },
+    { "id": "g8s-w23-thu-010", "question": "Which action follows the principle 'Reuse'?", "options": ["Throwing a bottle away after one use", "Using an empty jar to store spices", "Burning old bags", "Buying many new bags"], "correctIndex": 1, "explanation": "Reusing means using an item again, like turning an empty jar into a storage container.", "tags": ["environment", "reuse"] },
+    { "id": "g8s-w23-thu-011", "question": "Why should we avoid storing very hot or oily food in thin plastic bags?", "options": ["The food tastes better", "Harmful chemicals from the plastic may enter the food", "Plastic adds vitamins", "It keeps food fresh forever"], "correctIndex": 1, "explanation": "Heat and oil can cause harmful chemicals from the plastic to mix into the food.", "tags": ["environment", "health"] },
+    { "id": "g8s-w23-thu-012", "question": "Choosing materials that decompose naturally helps the environment because they:", "options": ["Pile up forever", "Break down and do not pollute for long", "Release toxic gas", "Harm the soil"], "correctIndex": 1, "explanation": "Biodegradable materials break down naturally, so they do not pollute for long.", "tags": ["environment", "biodegradable"] },
+    { "id": "g8s-w23-thu-013", "question": "Which choice shows the MOST responsible use of plastic?", "options": ["Use a plastic bag once and burn it", "Avoid single-use plastic and recycle what you must use", "Throw plastic in the river", "Bury plastic in the garden"], "correctIndex": 1, "explanation": "Avoiding single-use plastic and recycling what is used is the most responsible approach.", "tags": ["environment", "responsibility"] },
+    { "id": "g8s-w23-thu-014", "question": "Segregating waste means:", "options": ["Mixing all waste together", "Separating biodegradable and non-biodegradable waste", "Burning all waste", "Burying all waste"], "correctIndex": 1, "explanation": "Segregating waste means separating biodegradable from non-biodegradable waste so each is handled properly.", "tags": ["environment", "segregation"] },
+    { "id": "g8s-w23-thu-015", "question": "What is the BEST overall message about using plastics?", "options": ["Use as much plastic as possible", "Use plastics sensibly, reduce single-use, and recycle to protect the environment", "Never use any plastic at all", "Burn plastic to remove it"], "correctIndex": 1, "explanation": "Plastics are useful but harmful as waste, so we should use them sensibly, reduce single-use and recycle.", "tags": ["environment", "summary"] }
+  ]
+}

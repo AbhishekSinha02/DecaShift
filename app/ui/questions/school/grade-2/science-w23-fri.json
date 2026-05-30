@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w23-fri",
+  "title": "Grade 2 Science — Fri, Jun 05",
+  "description": "Plants Around Us — Day 5 of 5: Synthesis — parts, types, uses and growth",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "plants"],
+  "questions": [
+    { "id": "g2s-w23-fri-001", "question": "Which part of the plant holds it in the soil?", "options": ["Leaf", "Root", "Flower", "Fruit"], "correctIndex": 1, "explanation": "Roots hold the plant firmly in the soil and take in water.", "tags": ["plants", "roots"] },
+    { "id": "g2s-w23-fri-002", "question": "A small plant with a soft green stem is a:", "options": ["Tree", "Herb", "Shrub", "Climber"], "correctIndex": 1, "explanation": "Herbs are small plants with soft, green stems.", "tags": ["plants", "types"] },
+    { "id": "g2s-w23-fri-003", "question": "Which gas do plants give out that we need to breathe?", "options": ["Oxygen", "Smoke", "Steam", "Carbon dioxide"], "correctIndex": 0, "explanation": "Plants give out oxygen, which all living things need to breathe.", "tags": ["plants", "oxygen"] },
+    { "id": "g2s-w23-fri-004", "question": "A new plant grows from a:", "options": ["Stone", "Seed", "Drop of water", "Cloud"], "correctIndex": 1, "explanation": "A seed grows into a new plant when it gets water, air and warmth.", "tags": ["plants", "growth"] },
+    { "id": "g2s-w23-fri-005", "question": "Which part of the plant makes food using sunlight?", "options": ["Root", "Leaf", "Bark", "Seed"], "correctIndex": 1, "explanation": "Green leaves make food for the plant using sunlight.", "tags": ["plants", "leaf"] },
+    { "id": "g2s-w23-fri-006", "question": "A grapevine that climbs a wall with support is a:", "options": ["Tree", "Climber", "Herb", "Shrub"], "correctIndex": 1, "explanation": "A grapevine is a climber, with a weak stem that needs support to climb.", "tags": ["plants", "types"] },
+    { "id": "g2s-w23-fri-007", "question": "When we eat a carrot, which part of the plant are we eating?", "options": ["Leaf", "Root", "Flower", "Fruit"], "correctIndex": 1, "explanation": "A carrot is the root of the plant.", "tags": ["plants", "food"] },
+    { "id": "g2s-w23-fri-008", "question": "Three things a plant needs to grow are water, air and:", "options": ["Sunlight", "Plastic", "Noise", "Stones"], "correctIndex": 0, "explanation": "Plants need water, air and sunlight to grow well.", "tags": ["plants", "needs"] },
+    { "id": "g2s-w23-fri-009", "question": "Which of these is the largest type of plant?", "options": ["Herb", "Shrub", "Tree", "Creeper"], "correctIndex": 2, "explanation": "Trees are the largest plants, with thick, hard trunks.", "tags": ["plants", "types"] },
+    { "id": "g2s-w23-fri-010", "question": "Cotton, used to make our clothes, comes from a:", "options": ["Plant", "Stone", "Machine", "Animal"], "correctIndex": 0, "explanation": "Cotton comes from the cotton plant.", "tags": ["plants", "uses"] },
+    { "id": "g2s-w23-fri-011", "question": "A plant left without any water for many days will:", "options": ["Grow taller", "Dry up and wilt", "Make more flowers", "Turn into a stone"], "correctIndex": 1, "explanation": "Without water, a plant dries up and wilts.", "tags": ["plants", "needs"] },
+    { "id": "g2s-w23-fri-012", "question": "Which part of a plant later changes into a fruit?", "options": ["Root", "Flower", "Leaf", "Stem"], "correctIndex": 1, "explanation": "After blooming, a flower slowly changes into a fruit.", "tags": ["plants", "flower"] },
+    { "id": "g2s-w23-fri-013", "question": "A rose plant is best described as a:", "options": ["Tree", "Shrub", "Herb", "Creeper"], "correctIndex": 1, "explanation": "A rose plant is a shrub, bushy with hard stems near the ground.", "tags": ["plants", "types"] },
+    { "id": "g2s-w23-fri-014", "question": "Sitting under a tree on a hot day feels cool because the tree gives:", "options": ["Heat", "Shade", "Noise", "Light"], "correctIndex": 1, "explanation": "Trees give shade, which keeps us cool.", "tags": ["plants", "uses"] },
+    { "id": "g2s-w23-fri-015", "question": "Which of these is the correct order of plant growth?", "options": ["Plant → seedling → seed", "Seed → seedling → plant", "Seedling → plant → seed", "Plant → seed → seedling"], "correctIndex": 1, "explanation": "A seed grows into a seedling, and the seedling grows into a full plant.", "tags": ["plants", "growth"] }
+  ]
+}

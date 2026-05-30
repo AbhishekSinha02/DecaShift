@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w23-mon",
+  "title": "Grade 3 Science — Mon, Jun 01",
+  "description": "Animal Life — Day 1 of 5: Birds and their features",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "animals", "birds"],
+  "questions": [
+    { "id": "g3s-w23-mon-001", "question": "Which body covering helps birds fly?", "options": ["Scales", "Feathers", "Fur", "Shell"], "correctIndex": 1, "explanation": "Birds have feathers and wings that help them fly.", "tags": ["birds", "features"] },
+    { "id": "g3s-w23-mon-002", "question": "A bird's mouth is called a:", "options": ["Snout", "Beak", "Trunk", "Jaw"], "correctIndex": 1, "explanation": "Birds have a hard mouth called a beak, which they use to pick up food.", "tags": ["birds", "beak"] },
+    { "id": "g3s-w23-mon-003", "question": "Birds bring out their young ones by laying:", "options": ["Babies directly", "Eggs", "Seeds", "Cocoons"], "correctIndex": 1, "explanation": "Birds lay eggs, and the baby birds hatch out of the eggs.", "tags": ["birds", "young"] },
+    { "id": "g3s-w23-mon-004", "question": "How many legs do birds have?", "options": ["Two", "Four", "Six", "Eight"], "correctIndex": 0, "explanation": "All birds have two legs.", "tags": ["birds", "features"] },
+    { "id": "g3s-w23-mon-005", "question": "Which of these is a bird that CANNOT fly?", "options": ["Sparrow", "Crow", "Ostrich", "Pigeon"], "correctIndex": 2, "explanation": "An ostrich is a bird, but it is too big and heavy to fly. It runs very fast instead.", "tags": ["birds", "features"] },
+    { "id": "g3s-w23-mon-006", "question": "A bird that swims in water and has webbed feet is the:", "options": ["Eagle", "Duck", "Parrot", "Sparrow"], "correctIndex": 1, "explanation": "Ducks have webbed feet that help them paddle and swim in water.", "tags": ["birds", "features"] },
+    { "id": "g3s-w23-mon-007", "question": "An eagle has a sharp, curved beak because it:", "options": ["Eats only grass", "Tears flesh of its prey", "Drinks only water", "Eats only seeds"], "correctIndex": 1, "explanation": "Birds of prey like eagles have sharp, hooked beaks to tear the flesh of the animals they eat.", "tags": ["birds", "beak"] },
+    { "id": "g3s-w23-mon-008", "question": "Which part of a bird helps it balance and change direction while flying?", "options": ["Beak", "Tail", "Claws", "Eyes"], "correctIndex": 1, "explanation": "A bird's tail helps it balance and steer while flying.", "tags": ["birds", "features"] },
+    { "id": "g3s-w23-mon-009", "question": "Baby birds come out of eggs by a process called:", "options": ["Melting", "Hatching", "Floating", "Hopping"], "correctIndex": 1, "explanation": "When a baby bird breaks out of its egg, we say the egg has hatched.", "tags": ["birds", "young"] },
+    { "id": "g3s-w23-mon-010", "question": "A parrot has a strong, curved beak that helps it:", "options": ["Crack hard seeds and nuts", "Catch fish", "Dig the soil", "Swim faster"], "correctIndex": 0, "explanation": "Parrots use their strong curved beaks to crack open hard seeds and nuts.", "tags": ["birds", "beak"] },
+    { "id": "g3s-w23-mon-011", "question": "Birds keep their bodies light for flying because their bones are:", "options": ["Very heavy", "Hollow (light)", "Made of stone", "Full of water"], "correctIndex": 1, "explanation": "Birds have hollow, light bones, which help them fly easily.", "tags": ["birds", "features"] },
+    { "id": "g3s-w23-mon-012", "question": "Which of these animals is a bird?", "options": ["Bat", "Butterfly", "Peacock", "Fish"], "correctIndex": 2, "explanation": "A peacock is a bird with feathers, wings and a beak. A bat is a mammal and a butterfly is an insect.", "tags": ["birds", "features"] },
+    { "id": "g3s-w23-mon-013", "question": "Why do most birds build nests?", "options": ["To store water", "To lay eggs and keep their young safe", "To catch fish", "To sleep underwater"], "correctIndex": 1, "explanation": "Birds build nests to lay their eggs and keep their baby birds safe.", "tags": ["birds", "young"] },
+    { "id": "g3s-w23-mon-014", "question": "A woodpecker has a strong pointed beak to:", "options": ["Drink nectar", "Make holes in tree trunks to find insects", "Crack open shells", "Eat grass"], "correctIndex": 1, "explanation": "Woodpeckers use their strong pointed beaks to drill into tree bark and find insects.", "tags": ["birds", "beak"] },
+    { "id": "g3s-w23-mon-015", "question": "Which feature is common to all birds?", "options": ["They all can fly", "They all have feathers and a beak", "They all live in water", "They all eat only insects"], "correctIndex": 1, "explanation": "All birds have feathers and a beak, even if some, like the ostrich, cannot fly.", "tags": ["birds", "features"] }
+  ]
+}

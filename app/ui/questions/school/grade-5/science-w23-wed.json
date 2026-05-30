@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w23-wed",
+  "title": "Grade 5 Science — Wed, Jun 03",
+  "description": "The Skeletal System — Day 3 of 5: Muscles and movement",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "human-body"],
+  "questions": [
+    { "id": "g5s-w23-wed-001", "question": "Bones cannot move on their own. They are moved by:", "options": ["Muscles", "Skin", "Hair", "Blood"], "correctIndex": 0, "explanation": "Muscles pull on the bones to move them; bones cannot move by themselves.", "tags": ["muscles", "movement"] },
+    { "id": "g5s-w23-wed-002", "question": "Muscles are attached to bones by tough cords called:", "options": ["Ligaments", "Tendons", "Veins", "Nerves"], "correctIndex": 1, "explanation": "Tendons are strong cords that attach muscles to bones.", "tags": ["muscles", "tendons"] },
+    { "id": "g5s-w23-wed-003", "question": "A muscle moves a bone by:", "options": ["Pushing it", "Pulling it as the muscle shortens", "Melting it", "Blowing air"], "correctIndex": 1, "explanation": "When a muscle contracts (shortens), it pulls the bone and moves it.", "tags": ["muscles", "movement"] },
+    { "id": "g5s-w23-wed-004", "question": "Muscles usually work in:", "options": ["Single muscles alone", "Pairs", "Threes", "Tens"], "correctIndex": 1, "explanation": "Muscles work in pairs — one pulls the bone one way, the other pulls it back.", "tags": ["muscles", "pairs"] },
+    { "id": "g5s-w23-wed-005", "question": "When you bend your arm, the muscle on the front (biceps):", "options": ["Relaxes", "Contracts and pulls the bone", "Disappears", "Turns to bone"], "correctIndex": 1, "explanation": "The biceps contracts to bend the arm, pulling the lower arm bone upward.", "tags": ["muscles", "movement"] },
+    { "id": "g5s-w23-wed-006", "question": "When one muscle of a pair contracts, the other one:", "options": ["Also contracts", "Relaxes", "Breaks", "Grows a bone"], "correctIndex": 1, "explanation": "In a muscle pair, when one contracts the other relaxes, so the bone can move smoothly.", "tags": ["muscles", "pairs"] },
+    { "id": "g5s-w23-wed-007", "question": "The muscle of the heart works:", "options": ["Only when we run", "All the time without us thinking", "Only when we sleep", "Never"], "correctIndex": 1, "explanation": "The heart muscle works on its own, all the time, without us having to think about it.", "tags": ["muscles", "heart"] },
+    { "id": "g5s-w23-wed-008", "question": "Muscles that we move when we want, like arm muscles, are called:", "options": ["Voluntary muscles", "Involuntary muscles", "Fixed muscles", "Bone muscles"], "correctIndex": 0, "explanation": "Voluntary muscles, like those in the arms and legs, move when we choose to move them.", "tags": ["muscles", "voluntary"] },
+    { "id": "g5s-w23-wed-009", "question": "Which activity helps to keep our muscles strong and healthy?", "options": ["Sitting all day", "Regular exercise", "Skipping meals", "Watching TV"], "correctIndex": 1, "explanation": "Regular exercise keeps muscles strong, fit and healthy.", "tags": ["muscles", "health"] },
+    { "id": "g5s-w23-wed-010", "question": "Why does the body need both bones and muscles to move?", "options": ["Bones bend and muscles are stiff", "Muscles pull and bones provide the firm parts to move", "Only bones are needed", "Only muscles are needed"], "correctIndex": 1, "explanation": "Muscles pull on bones, and bones act as the firm levers that actually move.", "tags": ["muscles", "movement"] },
+    { "id": "g5s-w23-wed-011", "question": "The muscle at the back of the upper arm (triceps) helps to:", "options": ["Bend the arm", "Straighten the arm", "Move the leg", "Turn the neck"], "correctIndex": 1, "explanation": "The triceps contracts to straighten the arm, working as the partner of the biceps.", "tags": ["muscles", "pairs"] },
+    { "id": "g5s-w23-wed-012", "question": "Tendons differ from ligaments because tendons join:", "options": ["Bone to bone", "Muscle to bone", "Skin to hair", "Nerve to blood"], "correctIndex": 1, "explanation": "Tendons join muscle to bone, while ligaments join bone to bone.", "tags": ["muscles", "tendons"] },
+    { "id": "g5s-w23-wed-013", "question": "Muscles that work without our control, like those in the stomach, are called:", "options": ["Voluntary muscles", "Involuntary muscles", "Bone muscles", "Joint muscles"], "correctIndex": 1, "explanation": "Involuntary muscles, like the stomach muscles, work on their own without our control.", "tags": ["muscles", "involuntary"] },
+    { "id": "g5s-w23-wed-014", "question": "When you walk, your leg muscles and leg bones work together at the:", "options": ["Skull", "Knee and hip joints", "Elbow", "Wrist"], "correctIndex": 1, "explanation": "Walking uses leg muscles pulling bones at the knee and hip joints.", "tags": ["muscles", "movement"] },
+    { "id": "g5s-w23-wed-015", "question": "Which statement is TRUE about muscles?", "options": ["They can only push, not pull", "They pull bones to create movement", "They are harder than bones", "They never need rest"], "correctIndex": 1, "explanation": "Muscles move the body by pulling on bones when they contract.", "tags": ["muscles", "movement"] }
+  ]
+}

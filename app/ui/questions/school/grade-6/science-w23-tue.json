@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w23-tue",
+  "title": "Grade 6 Science — Tue, Jun 02",
+  "description": "Fibre to Fabric — Day 2 of 5: From cotton boll to yarn",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "fibre-to-fabric"],
+  "questions": [
+    { "id": "g6s-w23-tue-001", "question": "The process of removing seeds from cotton fibres is called:", "options": ["Ginning", "Spinning", "Weaving", "Knitting"], "correctIndex": 0, "explanation": "Ginning is the process of separating cotton fibres from the seeds.", "tags": ["process", "ginning"] },
+    { "id": "g6s-w23-tue-002", "question": "The process of making yarn from fibres is called:", "options": ["Ginning", "Spinning", "Weaving", "Dyeing"], "correctIndex": 1, "explanation": "Spinning is the process in which fibres are drawn out and twisted to make yarn.", "tags": ["process", "spinning"] },
+    { "id": "g6s-w23-tue-003", "question": "A simple hand device used for spinning yarn is the:", "options": ["Loom", "Takli or charkha", "Needle", "Scissors"], "correctIndex": 1, "explanation": "The takli (hand spindle) and charkha (spinning wheel) are simple devices for spinning yarn by hand.", "tags": ["process", "spinning"] },
+    { "id": "g6s-w23-tue-004", "question": "Cotton is usually picked from the field by:", "options": ["Hand or machines", "Burning the plant", "Boiling the boll", "Freezing it"], "correctIndex": 0, "explanation": "Cotton bolls are picked from the plants by hand or by machines.", "tags": ["process", "cotton"] },
+    { "id": "g6s-w23-tue-005", "question": "In earlier days, ginning of cotton was mostly done by:", "options": ["Machines only", "Hand (combing out the seeds)", "Boiling", "Burning"], "correctIndex": 1, "explanation": "Earlier, ginning was done by hand by combing the seeds out of the cotton; now machines are also used.", "tags": ["process", "ginning"] },
+    { "id": "g6s-w23-tue-006", "question": "Spinning twists fibres together mainly to make the yarn:", "options": ["Weaker", "Stronger and continuous", "Coloured", "Wet"], "correctIndex": 1, "explanation": "Twisting the fibres together makes the yarn strong and forms a long continuous thread.", "tags": ["process", "spinning"] },
+    { "id": "g6s-w23-tue-007", "question": "Mahatma Gandhi encouraged people to spin yarn at home using the:", "options": ["Loom", "Charkha", "Sewing machine", "Power loom"], "correctIndex": 1, "explanation": "Gandhiji promoted the charkha (spinning wheel) to make khadi and encourage self-reliance.", "tags": ["process", "history"] },
+    { "id": "g6s-w23-tue-008", "question": "The correct order of the first steps is:", "options": ["Spinning → ginning → picking", "Picking cotton → ginning → spinning", "Ginning → picking → spinning", "Weaving → ginning → picking"], "correctIndex": 1, "explanation": "First cotton is picked, then ginned to remove seeds, then spun into yarn.", "tags": ["process", "sequence"] },
+    { "id": "g6s-w23-tue-009", "question": "After ginning, what remains to be spun into yarn?", "options": ["Cotton seeds", "Cotton fibres", "Cotton flowers", "Cotton roots"], "correctIndex": 1, "explanation": "Ginning removes the seeds, leaving the cotton fibres to be spun into yarn.", "tags": ["process", "ginning"] },
+    { "id": "g6s-w23-tue-010", "question": "In a large textile factory, spinning is done on:", "options": ["A loom", "Large spinning machines", "A needle", "A charkha only"], "correctIndex": 1, "explanation": "In factories, large spinning machines spin huge amounts of yarn quickly.", "tags": ["process", "spinning"] },
+    { "id": "g6s-w23-tue-011", "question": "Cotton seeds removed during ginning are NOT wasted; they are used to make:", "options": ["Oil and cattle feed", "Glass", "Iron", "Paper money"], "correctIndex": 0, "explanation": "Cotton seeds are used to make cooking oil and as feed for cattle.", "tags": ["process", "uses"] },
+    { "id": "g6s-w23-tue-012", "question": "Why must fibres be made into yarn before making cloth?", "options": ["Loose fibres cannot be woven into cloth directly", "Yarn is colourful", "Fibres are too long", "Cloth needs seeds"], "correctIndex": 0, "explanation": "Loose, short fibres must be spun into long, strong yarn before they can be woven or knitted into cloth.", "tags": ["process", "spinning"] },
+    { "id": "g6s-w23-tue-013", "question": "Which device is used to spin yarn but NOT to weave cloth?", "options": ["Charkha", "Loom", "Power loom", "Handloom"], "correctIndex": 0, "explanation": "The charkha is used for spinning yarn; looms are used for weaving cloth.", "tags": ["process", "spinning"] },
+    { "id": "g6s-w23-tue-014", "question": "The fluffy white part inside a cotton boll is made up of:", "options": ["Seeds only", "Cotton fibres", "Leaves", "Water"], "correctIndex": 1, "explanation": "Inside the cotton boll are seeds covered with fluffy cotton fibres.", "tags": ["process", "cotton"] },
+    { "id": "g6s-w23-tue-015", "question": "Which step comes immediately AFTER spinning in making cloth?", "options": ["Picking cotton", "Ginning", "Weaving or knitting the yarn into fabric", "Sowing seeds"], "correctIndex": 2, "explanation": "After spinning produces yarn, the yarn is woven or knitted into fabric.", "tags": ["process", "sequence"] }
+  ]
+}

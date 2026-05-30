@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w23-mon",
+  "title": "Grade 5 Science — Mon, Jun 01",
+  "description": "The Skeletal System — Day 1 of 5: Bones and the skeleton",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "human-body"],
+  "questions": [
+    { "id": "g5s-w23-mon-001", "question": "The framework of bones that supports our body is called the:", "options": ["Muscle system", "Skeleton", "Skin", "Nervous system"], "correctIndex": 1, "explanation": "The skeleton is the framework of bones that gives the body its shape and support.", "tags": ["skeleton", "bones"] },
+    { "id": "g5s-w23-mon-002", "question": "About how many bones are there in an adult human body?", "options": ["26", "106", "206", "406"], "correctIndex": 2, "explanation": "An adult human body has about 206 bones.", "tags": ["skeleton", "bones"] },
+    { "id": "g5s-w23-mon-003", "question": "The bony box that protects the brain is called the:", "options": ["Rib cage", "Skull", "Backbone", "Pelvis"], "correctIndex": 1, "explanation": "The skull is a hard bony case that protects the soft brain.", "tags": ["skeleton", "skull"] },
+    { "id": "g5s-w23-mon-004", "question": "The set of curved bones that protects the heart and lungs is the:", "options": ["Skull", "Rib cage", "Backbone", "Kneecap"], "correctIndex": 1, "explanation": "The rib cage is made of curved ribs that protect the heart and lungs.", "tags": ["skeleton", "ribs"] },
+    { "id": "g5s-w23-mon-005", "question": "The backbone is also called the:", "options": ["Spine", "Skull", "Rib", "Joint"], "correctIndex": 0, "explanation": "The backbone, or spine, runs down the middle of the back and supports the body.", "tags": ["skeleton", "backbone"] },
+    { "id": "g5s-w23-mon-006", "question": "One important job of the skeleton is to:", "options": ["Digest food", "Give the body shape and support", "Pump blood", "Clean the blood"], "correctIndex": 1, "explanation": "The skeleton gives the body its shape and holds it upright.", "tags": ["skeleton", "function"] },
+    { "id": "g5s-w23-mon-007", "question": "The backbone is made up of many small bones called:", "options": ["Ribs", "Vertebrae", "Skulls", "Joints"], "correctIndex": 1, "explanation": "The backbone is made of small ring-like bones called vertebrae.", "tags": ["skeleton", "backbone"] },
+    { "id": "g5s-w23-mon-008", "question": "Besides giving shape, bones also help to:", "options": ["Protect soft inner organs", "Make food", "See in the dark", "Hear sounds"], "correctIndex": 0, "explanation": "Bones protect delicate organs — the skull protects the brain, ribs protect the heart and lungs.", "tags": ["skeleton", "function"] },
+    { "id": "g5s-w23-mon-009", "question": "Why is the backbone able to bend?", "options": ["It is a single long bone", "It is made of many small bones joined together", "It is made of muscle", "It is hollow"], "correctIndex": 1, "explanation": "The backbone bends because it is made of many small vertebrae joined together.", "tags": ["skeleton", "backbone"] },
+    { "id": "g5s-w23-mon-010", "question": "Bones are hard because they contain minerals like:", "options": ["Iron and gold", "Calcium and phosphorus", "Salt and sugar", "Copper and zinc"], "correctIndex": 1, "explanation": "Bones are strong and hard because they contain calcium and phosphorus.", "tags": ["skeleton", "bones"] },
+    { "id": "g5s-w23-mon-011", "question": "Which food helps to make our bones strong?", "options": ["Soft drinks", "Milk and dairy products", "Chips", "Candy"], "correctIndex": 1, "explanation": "Milk and dairy products are rich in calcium, which makes bones strong.", "tags": ["skeleton", "health"] },
+    { "id": "g5s-w23-mon-012", "question": "The longest bone in the human body is found in the:", "options": ["Arm", "Thigh", "Finger", "Neck"], "correctIndex": 1, "explanation": "The thigh bone (femur) is the longest and strongest bone in the body.", "tags": ["skeleton", "bones"] },
+    { "id": "g5s-w23-mon-013", "question": "If we had no skeleton, our body would:", "options": ["Move faster", "Have no fixed shape and could not stand", "Digest food better", "Stay warmer"], "correctIndex": 1, "explanation": "Without a skeleton the body would have no support and could not keep its shape or stand.", "tags": ["skeleton", "function"] },
+    { "id": "g5s-w23-mon-014", "question": "The skull rests on top of the:", "options": ["Rib cage", "Backbone", "Hip bone", "Knee"], "correctIndex": 1, "explanation": "The skull sits at the top of the backbone (spine).", "tags": ["skeleton", "backbone"] },
+    { "id": "g5s-w23-mon-015", "question": "Which statement about the skeleton is TRUE?", "options": ["It is made of soft muscles", "It protects organs and supports the body", "It pumps blood", "It only exists in the legs"], "correctIndex": 1, "explanation": "The skeleton supports the body, gives it shape and protects important organs.", "tags": ["skeleton", "function"] }
+  ]
+}

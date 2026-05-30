@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w23-thu",
+  "title": "Grade 2 Science — Thu, Jun 04",
+  "description": "Plants Around Us — Day 4 of 5: How plants grow and what they need",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "plants"],
+  "questions": [
+    { "id": "g2s-w23-thu-001", "question": "A plant grows from a tiny:", "options": ["Stone", "Seed", "Leaf", "Drop of water"], "correctIndex": 1, "explanation": "Most plants begin life as a seed, which grows into a new plant.", "tags": ["plants", "growth"] },
+    { "id": "g2s-w23-thu-002", "question": "Which of these does a plant need to grow?", "options": ["Water", "Plastic", "Glass", "Smoke"], "correctIndex": 0, "explanation": "Plants need water to grow, along with sunlight, air and soil.", "tags": ["plants", "needs"] },
+    { "id": "g2s-w23-thu-003", "question": "Plants make their food using light from the:", "options": ["Moon", "Bulb only", "Sun", "Stars"], "correctIndex": 2, "explanation": "Plants use sunlight to make their food in their green leaves.", "tags": ["plants", "needs"] },
+    { "id": "g2s-w23-thu-004", "question": "A young plant that has just grown from a seed is called a:", "options": ["Seedling", "Trunk", "Branch", "Petal"], "correctIndex": 0, "explanation": "A tiny new plant that grows from a seed is called a seedling.", "tags": ["plants", "growth"] },
+    { "id": "g2s-w23-thu-005", "question": "What will happen to a plant that gets no water for many days?", "options": ["It grows taller", "It dries up (wilts)", "It turns into a stone", "It makes more flowers"], "correctIndex": 1, "explanation": "Without water, a plant dries up and wilts because it cannot make food or stay healthy.", "tags": ["plants", "needs"] },
+    { "id": "g2s-w23-thu-006", "question": "Plants usually grow well in:", "options": ["Soil", "Plastic bags", "Air only", "Dry sand with no water"], "correctIndex": 0, "explanation": "Soil holds water and food for the roots, so most plants grow well in soil.", "tags": ["plants", "needs"] },
+    { "id": "g2s-w23-thu-007", "question": "Which part of the seedling appears first?", "options": ["Flower", "Root", "Fruit", "Bark"], "correctIndex": 1, "explanation": "The root comes out of the seed first and goes down into the soil.", "tags": ["plants", "growth"] },
+    { "id": "g2s-w23-thu-008", "question": "Besides water and sunlight, plants also need ____ to breathe.", "options": ["Air", "Milk", "Oil", "Sugar"], "correctIndex": 0, "explanation": "Plants need air, just like they need water and sunlight, to live and grow.", "tags": ["plants", "needs"] },
+    { "id": "g2s-w23-thu-009", "question": "Why do gardeners water plants regularly?", "options": ["To make them colourful", "So the plants get the water they need to grow", "To make them heavy", "To wash the leaves only"], "correctIndex": 1, "explanation": "Plants need water to grow, so gardeners water them regularly to keep them healthy.", "tags": ["plants", "care"] },
+    { "id": "g2s-w23-thu-010", "question": "Which of these grows into a big mango tree?", "options": ["Mango leaf", "Mango seed", "Mango flower", "Mango bark"], "correctIndex": 1, "explanation": "A mango seed, when planted, grows into a mango tree.", "tags": ["plants", "growth"] },
+    { "id": "g2s-w23-thu-011", "question": "A plant kept in a dark room with no light will:", "options": ["Grow stronger", "Become weak and pale", "Make more fruits", "Turn into a tree"], "correctIndex": 1, "explanation": "Without sunlight a plant cannot make food, so it becomes weak and pale.", "tags": ["plants", "needs"] },
+    { "id": "g2s-w23-thu-012", "question": "Roots take in water and food from the:", "options": ["Air", "Soil", "Sky", "Leaves"], "correctIndex": 1, "explanation": "Roots absorb water and minerals from the soil for the plant.", "tags": ["plants", "needs"] },
+    { "id": "g2s-w23-thu-013", "question": "Put the stages of plant growth in order: plant, seed, seedling.", "options": ["Plant, seed, seedling", "Seed, seedling, plant", "Seedling, seed, plant", "Seed, plant, seedling"], "correctIndex": 1, "explanation": "First there is a seed, it grows into a seedling, and the seedling grows into a full plant.", "tags": ["plants", "growth"] },
+    { "id": "g2s-w23-thu-014", "question": "Which of these is the BEST place to grow a healthy plant?", "options": ["A dark cupboard", "Near a sunny window with water", "Inside a closed box", "On a hot stove"], "correctIndex": 1, "explanation": "A sunny window with water gives the plant the light and water it needs to grow well.", "tags": ["plants", "needs"] },
+    { "id": "g2s-w23-thu-015", "question": "Farmers grow crops like wheat by first planting the:", "options": ["Fruits", "Seeds", "Flowers", "Leaves"], "correctIndex": 1, "explanation": "Farmers plant seeds in the soil, which then grow into crops.", "tags": ["plants", "growth"] }
+  ]
+}

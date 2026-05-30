@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w23-fri",
+  "title": "Grade 5 Science — Fri, Jun 05",
+  "description": "The Skeletal System — Day 5 of 5: Synthesis — bones, joints, muscles and care",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "human-body"],
+  "questions": [
+    { "id": "g5s-w23-fri-001", "question": "Put these in the correct order from largest framework to smallest unit: vertebra, skeleton, backbone.", "options": ["Skeleton → backbone → vertebra", "Vertebra → backbone → skeleton", "Backbone → skeleton → vertebra", "Skeleton → vertebra → backbone"], "correctIndex": 0, "explanation": "The skeleton contains the backbone, and the backbone is made of small vertebrae.", "tags": ["synthesis", "skeleton"] },
+    { "id": "g5s-w23-fri-002", "question": "The skull protects the brain and the rib cage protects the:", "options": ["Stomach", "Heart and lungs", "Liver only", "Kidneys"], "correctIndex": 1, "explanation": "The rib cage protects the heart and lungs.", "tags": ["synthesis", "protection"] },
+    { "id": "g5s-w23-fri-003", "question": "Which pair is correctly matched?", "options": ["Elbow – ball-and-socket joint", "Shoulder – hinge joint", "Knee – hinge joint", "Skull – pivot joint"], "correctIndex": 2, "explanation": "The knee is a hinge joint; the shoulder is ball-and-socket and skull joints are fixed.", "tags": ["synthesis", "joints"] },
+    { "id": "g5s-w23-fri-004", "question": "Muscles move bones by pulling on them. Muscles are joined to bones by:", "options": ["Ligaments", "Tendons", "Nerves", "Veins"], "correctIndex": 1, "explanation": "Tendons attach muscles to bones; ligaments join bone to bone.", "tags": ["synthesis", "muscles"] },
+    { "id": "g5s-w23-fri-005", "question": "When you straighten your bent arm, which muscle contracts?", "options": ["Biceps", "Triceps", "Heart muscle", "Stomach muscle"], "correctIndex": 1, "explanation": "The triceps contracts to straighten the arm while the biceps relaxes.", "tags": ["synthesis", "muscles"] },
+    { "id": "g5s-w23-fri-006", "question": "Which combination is needed to move your leg while walking?", "options": ["Only bones", "Only muscles", "Bones, muscles and joints together", "Only joints"], "correctIndex": 2, "explanation": "Movement needs muscles pulling bones at joints — all three work together.", "tags": ["synthesis", "movement"] },
+    { "id": "g5s-w23-fri-007", "question": "A friend twists her ankle and the ligaments are stretched. This injury is a:", "options": ["Fracture", "Sprain", "Cramp", "Cold"], "correctIndex": 1, "explanation": "Stretching or tearing ligaments at a joint by twisting is a sprain.", "tags": ["synthesis", "injury"] },
+    { "id": "g5s-w23-fri-008", "question": "To keep bones strong, the BEST choice is to eat foods rich in calcium such as:", "options": ["Soft drinks", "Milk and green leafy vegetables", "Chips", "Candy"], "correctIndex": 1, "explanation": "Calcium from milk and leafy vegetables keeps bones strong.", "tags": ["synthesis", "nutrition"] },
+    { "id": "g5s-w23-fri-009", "question": "The heart muscle is different from arm muscles because it:", "options": ["Is voluntary", "Works on its own all the time", "Cannot move", "Is attached to bone"], "correctIndex": 1, "explanation": "The heart is an involuntary muscle that works continuously without our control.", "tags": ["synthesis", "muscles"] },
+    { "id": "g5s-w23-fri-010", "question": "Why does the backbone bend while the skull does not?", "options": ["The backbone is one bone", "The backbone has many vertebrae with movable joints; the skull has fixed joints", "The skull has muscles, the backbone does not", "Both are the same"], "correctIndex": 1, "explanation": "Movable joints between vertebrae let the backbone bend; fixed joints lock the skull.", "tags": ["synthesis", "joints"] },
+    { "id": "g5s-w23-fri-011", "question": "Which is an example of an involuntary muscle?", "options": ["Arm muscle", "Leg muscle", "Stomach muscle", "Neck muscle you turn"], "correctIndex": 2, "explanation": "The stomach muscle works on its own and is an involuntary muscle.", "tags": ["synthesis", "muscles"] },
+    { "id": "g5s-w23-fri-012", "question": "Sunlight helps our body because it helps make vitamin D, needed for:", "options": ["Strong bones", "Better hearing", "Faster running only", "Curly hair"], "correctIndex": 0, "explanation": "Vitamin D from sunlight helps the body use calcium for strong bones.", "tags": ["synthesis", "nutrition"] },
+    { "id": "g5s-w23-fri-013", "question": "Which action shows good care for your skeletal system?", "options": ["Slouching for hours", "Sitting straight and exercising daily", "Carrying very heavy loads daily", "Skipping calcium foods"], "correctIndex": 1, "explanation": "Good posture and regular exercise keep bones, joints and muscles healthy.", "tags": ["synthesis", "health"] },
+    { "id": "g5s-w23-fri-014", "question": "If a bone breaks, what helps it heal in the right shape?", "options": ["Moving it a lot", "A plaster cast holding it still", "Tight shoes", "Warm water only"], "correctIndex": 1, "explanation": "A plaster cast keeps the broken bone still so it can heal correctly.", "tags": ["synthesis", "injury"] },
+    { "id": "g5s-w23-fri-015", "question": "What is the MAIN reason the body needs a skeleton with joints and muscles?", "options": ["To make blood", "To support the body, protect organs and allow movement", "To digest food", "To keep the body warm"], "correctIndex": 1, "explanation": "Together they support and shape the body, protect organs and make movement possible.", "tags": ["synthesis", "function"] }
+  ]
+}

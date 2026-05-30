@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-science-w23-mon",
+  "title": "Grade 7 Science — Mon, Jun 01",
+  "description": "Nutrition in Animals — Day 1 of 5: Modes of feeding and steps of nutrition",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "mon",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly", "nutrition"],
+  "questions": [
+    { "id": "g7s-w23-mon-001", "question": "Unlike plants, animals cannot make their own food, so their mode of nutrition is:", "options": ["Autotrophic", "Heterotrophic", "Parasitic only", "Photosynthetic"], "correctIndex": 1, "explanation": "Animals depend on other organisms for food, so their nutrition is heterotrophic.", "tags": ["nutrition", "modes"] },
+    { "id": "g7s-w23-mon-002", "question": "Which is the correct order of the steps of nutrition in animals?", "options": ["Digestion → ingestion → absorption → egestion", "Ingestion → digestion → absorption → assimilation → egestion", "Absorption → ingestion → digestion", "Egestion → digestion → ingestion"], "correctIndex": 1, "explanation": "The steps are ingestion, digestion, absorption, assimilation and egestion, in that order.", "tags": ["nutrition", "steps"] },
+    { "id": "g7s-w23-mon-003", "question": "The taking in of food is called:", "options": ["Digestion", "Ingestion", "Absorption", "Egestion"], "correctIndex": 1, "explanation": "Ingestion is the process of taking food into the body.", "tags": ["nutrition", "ingestion"] },
+    { "id": "g7s-w23-mon-004", "question": "Breaking down complex food into simpler substances is called:", "options": ["Ingestion", "Digestion", "Egestion", "Assimilation"], "correctIndex": 1, "explanation": "Digestion breaks down complex food into simple, absorbable substances.", "tags": ["nutrition", "digestion"] },
+    { "id": "g7s-w23-mon-005", "question": "Removal of undigested food from the body is called:", "options": ["Absorption", "Egestion", "Ingestion", "Assimilation"], "correctIndex": 1, "explanation": "Egestion is the removal of undigested waste from the body.", "tags": ["nutrition", "egestion"] },
+    { "id": "g7s-w23-mon-006", "question": "An amoeba takes in food using finger-like extensions called:", "options": ["Cilia", "Pseudopodia", "Tentacles", "Roots"], "correctIndex": 1, "explanation": "Amoeba captures food using pseudopodia (false feet) that surround the food.", "tags": ["nutrition", "amoeba"] },
+    { "id": "g7s-w23-mon-007", "question": "The temporary cavity in amoeba where food is digested is the:", "options": ["Food vacuole", "Stomach", "Mouth", "Gullet"], "correctIndex": 0, "explanation": "Inside the amoeba, food is digested in a food vacuole.", "tags": ["nutrition", "amoeba"] },
+    { "id": "g7s-w23-mon-008", "question": "Absorbed food being used by body cells for energy and growth is called:", "options": ["Egestion", "Assimilation", "Ingestion", "Digestion"], "correctIndex": 1, "explanation": "Assimilation is when absorbed nutrients are used by cells for energy, growth and repair.", "tags": ["nutrition", "assimilation"] },
+    { "id": "g7s-w23-mon-009", "question": "A hydra catches its prey using:", "options": ["Pseudopodia", "Tentacles", "Teeth", "Cilia"], "correctIndex": 1, "explanation": "Hydra uses its tentacles to capture and pull prey towards its mouth.", "tags": ["nutrition", "hydra"] },
+    { "id": "g7s-w23-mon-010", "question": "Why do animals need nutrition?", "options": ["Only to grow taller", "For energy, growth and repair of the body", "Only to move", "To change colour"], "correctIndex": 1, "explanation": "Food provides energy and materials needed for growth and repair of body cells.", "tags": ["nutrition", "need"] },
+    { "id": "g7s-w23-mon-011", "question": "Which animal does NOT chew its food but swallows it whole?", "options": ["Cow", "Snake", "Human", "Goat"], "correctIndex": 1, "explanation": "Snakes swallow their prey whole without chewing it.", "tags": ["nutrition", "feeding"] },
+    { "id": "g7s-w23-mon-012", "question": "In which step does digested food pass into the blood?", "options": ["Ingestion", "Absorption", "Egestion", "Chewing"], "correctIndex": 1, "explanation": "During absorption, the digested simple food passes into the blood.", "tags": ["nutrition", "absorption"] },
+    { "id": "g7s-w23-mon-013", "question": "Different animals have different feeding methods mainly because of differences in their:", "options": ["Colour", "Food habits and body structure", "Names", "Size only"], "correctIndex": 1, "explanation": "Feeding methods depend on what animals eat and how their bodies are built.", "tags": ["nutrition", "feeding"] },
+    { "id": "g7s-w23-mon-014", "question": "Which sequence shows what happens AFTER digestion?", "options": ["Absorption → assimilation → egestion", "Ingestion → digestion", "Egestion → ingestion", "Assimilation → ingestion"], "correctIndex": 0, "explanation": "After digestion, food is absorbed, then assimilated, and the waste is egested.", "tags": ["nutrition", "steps"] },
+    { "id": "g7s-w23-mon-015", "question": "A butterfly feeds on nectar using its long tube-like mouthpart called a:", "options": ["Proboscis", "Beak", "Tongue only", "Trunk"], "correctIndex": 0, "explanation": "A butterfly sucks nectar through its long coiled proboscis.", "tags": ["nutrition", "feeding"] }
+  ]
+}

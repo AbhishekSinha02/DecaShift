@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-science-w23-tue",
+  "title": "Grade 7 Science — Tue, Jun 02",
+  "description": "Nutrition in Animals — Day 2 of 5: The human digestive system",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly", "nutrition"],
+  "questions": [
+    { "id": "g7s-w23-tue-001", "question": "The long, coiled tube along which food travels in the human body is called the:", "options": ["Alimentary canal", "Wind pipe", "Blood vessel", "Spinal cord"], "correctIndex": 0, "explanation": "The alimentary canal is the continuous tube from the mouth to the anus through which food passes.", "tags": ["digestive-system", "structure"] },
+    { "id": "g7s-w23-tue-002", "question": "Digestion of food begins in the:", "options": ["Stomach", "Mouth", "Small intestine", "Large intestine"], "correctIndex": 1, "explanation": "Digestion begins in the mouth, where teeth break food and saliva acts on starch.", "tags": ["digestive-system", "mouth"] },
+    { "id": "g7s-w23-tue-003", "question": "Saliva in the mouth begins the digestion of:", "options": ["Proteins", "Starch (carbohydrates)", "Fats", "Minerals"], "correctIndex": 1, "explanation": "Saliva contains an enzyme that begins breaking down starch into sugar.", "tags": ["digestive-system", "saliva"] },
+    { "id": "g7s-w23-tue-004", "question": "The muscular movement that pushes food down the food pipe is called:", "options": ["Peristalsis", "Photosynthesis", "Respiration", "Absorption"], "correctIndex": 0, "explanation": "Peristalsis is the wave-like contraction of muscles that pushes food along the canal.", "tags": ["digestive-system", "peristalsis"] },
+    { "id": "g7s-w23-tue-005", "question": "Most of the digestion and absorption of food takes place in the:", "options": ["Stomach", "Mouth", "Small intestine", "Large intestine"], "correctIndex": 2, "explanation": "The small intestine completes digestion and absorbs the digested food into the blood.", "tags": ["digestive-system", "small-intestine"] },
+    { "id": "g7s-w23-tue-006", "question": "The stomach releases acid and juices that mainly digest:", "options": ["Starch", "Proteins", "Vitamins", "Water"], "correctIndex": 1, "explanation": "The stomach's acidic gastric juice begins the digestion of proteins.", "tags": ["digestive-system", "stomach"] },
+    { "id": "g7s-w23-tue-007", "question": "The largest gland in the human body, which secretes bile, is the:", "options": ["Pancreas", "Liver", "Stomach", "Kidney"], "correctIndex": 1, "explanation": "The liver is the largest gland and secretes bile, which helps digest fats.", "tags": ["digestive-system", "liver"] },
+    { "id": "g7s-w23-tue-008", "question": "Bile helps in the digestion of:", "options": ["Starch", "Fats", "Proteins", "Water"], "correctIndex": 1, "explanation": "Bile breaks large fat droplets into smaller ones to help digest fats.", "tags": ["digestive-system", "bile"] },
+    { "id": "g7s-w23-tue-009", "question": "The inner wall of the small intestine has tiny finger-like projections called:", "options": ["Cilia", "Villi", "Tentacles", "Pseudopodia"], "correctIndex": 1, "explanation": "Villi increase the surface area of the small intestine for better absorption of food.", "tags": ["digestive-system", "villi"] },
+    { "id": "g7s-w23-tue-010", "question": "The main job of the large intestine is to absorb:", "options": ["Proteins", "Water from undigested food", "Fats", "Sugar only"], "correctIndex": 1, "explanation": "The large intestine absorbs water and some salts from undigested food.", "tags": ["digestive-system", "large-intestine"] },
+    { "id": "g7s-w23-tue-011", "question": "Undigested waste is finally removed from the body through the:", "options": ["Mouth", "Anus", "Nose", "Liver"], "correctIndex": 1, "explanation": "Undigested food is removed from the body through the anus as faeces.", "tags": ["digestive-system", "egestion"] },
+    { "id": "g7s-w23-tue-012", "question": "The four kinds of teeth in humans are incisors, canines, premolars and:", "options": ["Molars", "Villi", "Fangs", "Tusks"], "correctIndex": 0, "explanation": "Humans have incisors, canines, premolars and molars, each with a different job.", "tags": ["digestive-system", "teeth"] },
+    { "id": "g7s-w23-tue-013", "question": "Which teeth are used mainly for grinding and chewing food?", "options": ["Incisors", "Canines", "Molars and premolars", "Front teeth"], "correctIndex": 2, "explanation": "Molars and premolars are flat and broad, used for grinding and chewing food.", "tags": ["digestive-system", "teeth"] },
+    { "id": "g7s-w23-tue-014", "question": "Why does the small intestine have villi?", "options": ["To store food", "To increase surface area for absorbing food", "To make acid", "To chew food"], "correctIndex": 1, "explanation": "Villi greatly increase the surface area, allowing more digested food to be absorbed.", "tags": ["digestive-system", "villi"] },
+    { "id": "g7s-w23-tue-015", "question": "Which is the correct path of food through the body?", "options": ["Mouth → stomach → food pipe → small intestine", "Mouth → food pipe → stomach → small intestine → large intestine", "Mouth → small intestine → stomach", "Stomach → mouth → intestine"], "correctIndex": 1, "explanation": "Food goes from the mouth down the food pipe to the stomach, then to the small and large intestines.", "tags": ["digestive-system", "path"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w23-thu",
+  "title": "Grade 3 Science — Thu, Jun 04",
+  "description": "Animal Life — Day 4 of 5: Homes and young ones",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "animals"],
+  "questions": [
+    { "id": "g3s-w23-thu-001", "question": "Where does a bird usually live?", "options": ["Burrow", "Nest", "Web", "Kennel"], "correctIndex": 1, "explanation": "Most birds build nests to live in and to lay their eggs.", "tags": ["animals", "homes"] },
+    { "id": "g3s-w23-thu-002", "question": "The home of a honeybee is called a:", "options": ["Nest", "Hive", "Stable", "Den"], "correctIndex": 1, "explanation": "Honeybees live together in a hive.", "tags": ["animals", "homes"] },
+    { "id": "g3s-w23-thu-003", "question": "A spider makes a ____ to catch insects and live in.", "options": ["Web", "Nest", "Burrow", "Shell"], "correctIndex": 0, "explanation": "A spider spins a web to trap insects and as a place to live.", "tags": ["animals", "homes"] },
+    { "id": "g3s-w23-thu-004", "question": "The young one of a dog is called a:", "options": ["Kitten", "Puppy", "Calf", "Cub"], "correctIndex": 1, "explanation": "A baby dog is called a puppy.", "tags": ["animals", "young"] },
+    { "id": "g3s-w23-thu-005", "question": "The young one of a cow is called a:", "options": ["Calf", "Foal", "Lamb", "Kid"], "correctIndex": 0, "explanation": "A baby cow is called a calf.", "tags": ["animals", "young"] },
+    { "id": "g3s-w23-thu-006", "question": "A rat or rabbit often lives in a hole in the ground called a:", "options": ["Hive", "Nest", "Burrow", "Web"], "correctIndex": 2, "explanation": "Animals like rats and rabbits dig and live in holes called burrows.", "tags": ["animals", "homes"] },
+    { "id": "g3s-w23-thu-007", "question": "The young one of a cat is called a:", "options": ["Puppy", "Kitten", "Cub", "Chick"], "correctIndex": 1, "explanation": "A baby cat is called a kitten.", "tags": ["animals", "young"] },
+    { "id": "g3s-w23-thu-008", "question": "A baby bird that has just hatched is called a:", "options": ["Chick", "Calf", "Cub", "Foal"], "correctIndex": 0, "explanation": "A baby bird is called a chick.", "tags": ["animals", "young"] },
+    { "id": "g3s-w23-thu-009", "question": "The home of a horse, built by people, is called a:", "options": ["Den", "Stable", "Hive", "Web"], "correctIndex": 1, "explanation": "Horses are kept in a stable.", "tags": ["animals", "homes"] },
+    { "id": "g3s-w23-thu-010", "question": "Animals that give birth to babies (not eggs) include:", "options": ["Hen", "Cow", "Crow", "Sparrow"], "correctIndex": 1, "explanation": "A cow gives birth to a live baby (calf). Hens, crows and sparrows lay eggs.", "tags": ["animals", "young"] },
+    { "id": "g3s-w23-thu-011", "question": "The young one of a lion is called a:", "options": ["Cub", "Calf", "Chick", "Kid"], "correctIndex": 0, "explanation": "A baby lion is called a cub.", "tags": ["animals", "young"] },
+    { "id": "g3s-w23-thu-012", "question": "Why do animals build homes or shelters?", "options": ["To show off", "To stay safe and protect their young", "To block sunlight", "To collect water only"], "correctIndex": 1, "explanation": "Animals build shelters to stay safe from danger and the weather, and to protect their young.", "tags": ["animals", "homes"] },
+    { "id": "g3s-w23-thu-013", "question": "Which animal lays eggs?", "options": ["Cow", "Dog", "Hen", "Goat"], "correctIndex": 2, "explanation": "A hen lays eggs, from which chicks hatch.", "tags": ["animals", "young"] },
+    { "id": "g3s-w23-thu-014", "question": "Match the home to the animal: a den is the home of a:", "options": ["Bee", "Lion", "Bird", "Spider"], "correctIndex": 1, "explanation": "Wild animals like lions live in a den.", "tags": ["animals", "homes"] },
+    { "id": "g3s-w23-thu-015", "question": "A mother hen sits on her eggs to keep them:", "options": ["Cold", "Warm so the chicks can grow", "Wet", "Hidden from food"], "correctIndex": 1, "explanation": "A hen keeps her eggs warm so the baby chicks inside can grow and hatch.", "tags": ["animals", "young"] }
+  ]
+}

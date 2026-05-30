@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w23-tue",
+  "title": "Grade 3 Science — Tue, Jun 02",
+  "description": "Animal Life — Day 2 of 5: Insects and small creatures",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "animals", "insects"],
+  "questions": [
+    { "id": "g3s-w23-tue-001", "question": "How many legs does an insect have?", "options": ["Four", "Six", "Eight", "Ten"], "correctIndex": 1, "explanation": "All insects have six legs.", "tags": ["insects", "features"] },
+    { "id": "g3s-w23-tue-002", "question": "An insect's body is divided into how many main parts?", "options": ["Two", "Three", "Four", "Five"], "correctIndex": 1, "explanation": "An insect's body has three parts: head, thorax (middle) and abdomen.", "tags": ["insects", "features"] },
+    { "id": "g3s-w23-tue-003", "question": "Which of these is an insect?", "options": ["Spider", "Ant", "Snail", "Earthworm"], "correctIndex": 1, "explanation": "An ant is an insect with six legs and three body parts. Spiders have eight legs and are not insects.", "tags": ["insects", "features"] },
+    { "id": "g3s-w23-tue-004", "question": "A butterfly drinks sweet liquid from flowers called:", "options": ["Honey", "Nectar", "Milk", "Juice"], "correctIndex": 1, "explanation": "Butterflies sip nectar, a sweet liquid found inside flowers.", "tags": ["insects", "feeding"] },
+    { "id": "g3s-w23-tue-005", "question": "Which insect makes honey?", "options": ["Housefly", "Mosquito", "Honeybee", "Grasshopper"], "correctIndex": 2, "explanation": "Honeybees collect nectar from flowers and make honey.", "tags": ["insects", "bees"] },
+    { "id": "g3s-w23-tue-006", "question": "The feelers on an insect's head, used to sense things, are called:", "options": ["Antennae", "Wings", "Claws", "Tails"], "correctIndex": 0, "explanation": "Insects have a pair of antennae (feelers) to smell and feel things around them.", "tags": ["insects", "features"] },
+    { "id": "g3s-w23-tue-007", "question": "A butterfly begins its life as a tiny:", "options": ["Egg", "Stone", "Seed", "Feather"], "correctIndex": 0, "explanation": "A butterfly starts as an egg, which hatches into a caterpillar.", "tags": ["insects", "lifecycle"] },
+    { "id": "g3s-w23-tue-008", "question": "A caterpillar changes into a butterfly inside a:", "options": ["Nest", "Cocoon (pupa)", "Shell", "Burrow"], "correctIndex": 1, "explanation": "A caterpillar forms a cocoon (pupa) and changes into a butterfly inside it.", "tags": ["insects", "lifecycle"] },
+    { "id": "g3s-w23-tue-009", "question": "Which insect can harm us by spreading diseases like malaria?", "options": ["Butterfly", "Mosquito", "Ladybird", "Honeybee"], "correctIndex": 1, "explanation": "Mosquitoes can spread diseases such as malaria and dengue through their bites.", "tags": ["insects", "harmful"] },
+    { "id": "g3s-w23-tue-010", "question": "Insects like bees help plants by:", "options": ["Eating their roots", "Carrying pollen from flower to flower", "Drinking all their water", "Breaking their stems"], "correctIndex": 1, "explanation": "Bees and butterflies carry pollen from one flower to another, which helps plants make seeds.", "tags": ["insects", "pollination"] },
+    { "id": "g3s-w23-tue-011", "question": "Which of these is NOT an insect?", "options": ["Beetle", "Ant", "Spider", "Bee"], "correctIndex": 2, "explanation": "A spider has eight legs and is not an insect. Beetles, ants and bees are insects with six legs.", "tags": ["insects", "features"] },
+    { "id": "g3s-w23-tue-012", "question": "Most insects breathe and move using their:", "options": ["Six legs and wings", "Fins", "Webbed feet", "Trunk"], "correctIndex": 0, "explanation": "Insects use their six legs to walk and many have wings to fly.", "tags": ["insects", "features"] },
+    { "id": "g3s-w23-tue-013", "question": "The correct order of a butterfly's life is:", "options": ["Egg → butterfly → caterpillar", "Egg → caterpillar → pupa → butterfly", "Caterpillar → egg → butterfly", "Pupa → egg → caterpillar"], "correctIndex": 1, "explanation": "A butterfly's life goes: egg → caterpillar → pupa (cocoon) → butterfly.", "tags": ["insects", "lifecycle"] },
+    { "id": "g3s-w23-tue-014", "question": "An ant carries food to its home, which is called a:", "options": ["Nest", "Anthill", "Web", "Hive"], "correctIndex": 1, "explanation": "Ants live together in an anthill, where they store food and raise their young.", "tags": ["insects", "homes"] },
+    { "id": "g3s-w23-tue-015", "question": "Why are insects like bees and butterflies useful to farmers?", "options": ["They eat all the crops", "They help flowers turn into fruits by pollination", "They dig holes in the ground", "They scare away birds"], "correctIndex": 1, "explanation": "By carrying pollen between flowers, bees and butterflies help crops make fruits and seeds.", "tags": ["insects", "pollination"] }
+  ]
+}

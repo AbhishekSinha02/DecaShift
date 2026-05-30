@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-science-w23-wed",
+  "title": "Grade 7 Science — Wed, Jun 03",
+  "description": "Nutrition in Animals — Day 3 of 5: Digestion in grass-eating animals",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly", "nutrition"],
+  "questions": [
+    { "id": "g7s-w23-wed-001", "question": "Animals like cows and buffaloes that chew cud are called:", "options": ["Carnivores", "Ruminants", "Omnivores", "Decomposers"], "correctIndex": 1, "explanation": "Grass-eating animals that bring back swallowed food to chew again are called ruminants.", "tags": ["ruminant", "basics"] },
+    { "id": "g7s-w23-wed-002", "question": "The partly digested food that ruminants bring back to the mouth to chew is called:", "options": ["Cud", "Bile", "Saliva", "Acid"], "correctIndex": 0, "explanation": "The food brought back from the rumen to the mouth for further chewing is called cud.", "tags": ["ruminant", "cud"] },
+    { "id": "g7s-w23-wed-003", "question": "In ruminants, swallowed grass is first stored in a large part of the stomach called the:", "options": ["Rumen", "Liver", "Small intestine", "Mouth"], "correctIndex": 0, "explanation": "Grass is first stored and partly digested in the rumen.", "tags": ["ruminant", "rumen"] },
+    { "id": "g7s-w23-wed-004", "question": "The process of bringing back food to chew again is called:", "options": ["Ingestion", "Rumination", "Egestion", "Absorption"], "correctIndex": 1, "explanation": "Rumination is the chewing of cud — bringing food back from the rumen to chew again.", "tags": ["ruminant", "rumination"] },
+    { "id": "g7s-w23-wed-005", "question": "Grass contains a substance called cellulose, which is a type of:", "options": ["Protein", "Carbohydrate", "Fat", "Mineral"], "correctIndex": 1, "explanation": "Cellulose is a complex carbohydrate found in plant cell walls.", "tags": ["ruminant", "cellulose"] },
+    { "id": "g7s-w23-wed-006", "question": "Humans cannot digest cellulose because we lack the:", "options": ["Teeth", "Bacteria that break down cellulose", "Stomach", "Liver"], "correctIndex": 1, "explanation": "Humans do not have the special bacteria needed to digest cellulose, but ruminants do.", "tags": ["ruminant", "cellulose"] },
+    { "id": "g7s-w23-wed-007", "question": "Ruminants can digest cellulose with the help of certain ____ living in the rumen.", "options": ["Viruses", "Bacteria", "Insects", "Worms"], "correctIndex": 1, "explanation": "Helpful bacteria in the rumen break down the cellulose in grass.", "tags": ["ruminant", "bacteria"] },
+    { "id": "g7s-w23-wed-008", "question": "A part of a ruminant's intestine, where cellulose digestion continues, is called the:", "options": ["Caecum", "Liver", "Heart", "Lung"], "correctIndex": 0, "explanation": "The caecum is a large sac where cellulose is further digested by bacteria.", "tags": ["ruminant", "caecum"] },
+    { "id": "g7s-w23-wed-009", "question": "Why do cows often sit quietly and keep moving their jaws after eating grass?", "options": ["They are sleeping", "They are chewing the cud", "They are drinking water", "They are calling other cows"], "correctIndex": 1, "explanation": "Cows bring back cud from the rumen and chew it again while resting.", "tags": ["ruminant", "behaviour"] },
+    { "id": "g7s-w23-wed-010", "question": "Grass eaten quickly and stored in the rumen is later chewed properly. This shows ruminants:", "options": ["Do not chew at all", "Chew their food in two stages", "Have no stomach", "Eat only meat"], "correctIndex": 1, "explanation": "Ruminants chew food in two stages — quick swallowing, then chewing the cud later.", "tags": ["ruminant", "digestion"] },
+    { "id": "g7s-w23-wed-011", "question": "Which of these animals is a ruminant?", "options": ["Lion", "Buffalo", "Snake", "Eagle"], "correctIndex": 1, "explanation": "A buffalo is a grass-eating ruminant that chews cud.", "tags": ["ruminant", "examples"] },
+    { "id": "g7s-w23-wed-012", "question": "The bacteria in a ruminant's rumen are an example of two organisms living together and helping each other, called:", "options": ["A food chain", "A helpful partnership (symbiosis)", "A parasite", "Competition"], "correctIndex": 1, "explanation": "The bacteria get food and shelter while helping the ruminant digest cellulose — a helpful partnership.", "tags": ["ruminant", "symbiosis"] },
+    { "id": "g7s-w23-wed-013", "question": "Grass-eating animals usually have flat, broad teeth that are good for:", "options": ["Tearing flesh", "Grinding plant food", "Sucking blood", "Cutting wood"], "correctIndex": 1, "explanation": "Flat, broad teeth help herbivores grind tough plant food.", "tags": ["ruminant", "teeth"] },
+    { "id": "g7s-w23-wed-014", "question": "Compared to meat-eaters, ruminants usually have a ____ intestine.", "options": ["Much shorter", "Longer", "No", "Glass"], "correctIndex": 1, "explanation": "Plant food is harder to digest, so ruminants have a longer intestine than carnivores.", "tags": ["ruminant", "comparison"] },
+    { "id": "g7s-w23-wed-015", "question": "What is the MAIN advantage of chewing the cud for a ruminant?", "options": ["It looks impressive", "It helps break down tough grass more completely", "It cools the body", "It removes water"], "correctIndex": 1, "explanation": "Chewing cud lets ruminants break down tough grass more fully for better digestion.", "tags": ["ruminant", "reasoning"] }
+  ]
+}

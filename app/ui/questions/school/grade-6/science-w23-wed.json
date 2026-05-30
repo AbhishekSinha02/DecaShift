@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w23-wed",
+  "title": "Grade 6 Science — Wed, Jun 03",
+  "description": "Fibre to Fabric — Day 3 of 5: Weaving and knitting",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "fibre-to-fabric"],
+  "questions": [
+    { "id": "g6s-w23-wed-001", "question": "The process of arranging two sets of yarn together to make a fabric is called:", "options": ["Spinning", "Weaving", "Ginning", "Picking"], "correctIndex": 1, "explanation": "Weaving is the process of interlacing two sets of yarn to make fabric.", "tags": ["weaving", "basics"] },
+    { "id": "g6s-w23-wed-002", "question": "The device used to weave yarn into fabric is called a:", "options": ["Loom", "Charkha", "Takli", "Gin"], "correctIndex": 0, "explanation": "A loom is the device on which yarn is woven into fabric.", "tags": ["weaving", "loom"] },
+    { "id": "g6s-w23-wed-003", "question": "Making a fabric from a single yarn by forming loops is called:", "options": ["Weaving", "Knitting", "Ginning", "Spinning"], "correctIndex": 1, "explanation": "Knitting uses a single yarn to make a fabric by forming interconnected loops.", "tags": ["knitting", "basics"] },
+    { "id": "g6s-w23-wed-004", "question": "A sweater is usually made by:", "options": ["Weaving", "Knitting", "Ginning", "Dyeing"], "correctIndex": 1, "explanation": "Sweaters and socks are commonly made by knitting yarn.", "tags": ["knitting", "examples"] },
+    { "id": "g6s-w23-wed-005", "question": "Weaving uses how many sets of yarn?", "options": ["One set", "Two sets", "Three sets", "No yarn"], "correctIndex": 1, "explanation": "Weaving interlaces two sets of yarn crossing each other.", "tags": ["weaving", "basics"] },
+    { "id": "g6s-w23-wed-006", "question": "A loom operated by hand is called a:", "options": ["Power loom", "Handloom", "Charkha", "Takli"], "correctIndex": 1, "explanation": "A handloom is a loom worked by hand, while a power loom runs on electricity.", "tags": ["weaving", "loom"] },
+    { "id": "g6s-w23-wed-007", "question": "Knitting can be done by hand using:", "options": ["A loom", "Knitting needles", "A gin", "A charkha"], "correctIndex": 1, "explanation": "Hand knitting is done using knitting needles to form loops of yarn.", "tags": ["knitting", "basics"] },
+    { "id": "g6s-w23-wed-008", "question": "Looms run by electricity that weave cloth quickly are called:", "options": ["Handlooms", "Power looms", "Charkhas", "Taklis"], "correctIndex": 1, "explanation": "Power looms use electricity to weave large amounts of cloth quickly.", "tags": ["weaving", "loom"] },
+    { "id": "g6s-w23-wed-009", "question": "Which item is usually woven, not knitted?", "options": ["Sweater", "Socks", "A cotton bedsheet", "Woollen cap"], "correctIndex": 2, "explanation": "A cotton bedsheet is woven on a loom, while sweaters, socks and caps are knitted.", "tags": ["weaving", "examples"] },
+    { "id": "g6s-w23-wed-010", "question": "If a single yarn comes loose, a knitted fabric may:", "options": ["Get stronger", "Unravel easily", "Turn into thread again", "Change colour"], "correctIndex": 1, "explanation": "Because knitting uses loops of one yarn, pulling a loose end can make it unravel.", "tags": ["knitting", "property"] },
+    { "id": "g6s-w23-wed-011", "question": "The correct overall order from fibre to cloth is:", "options": ["Fibre → spinning → yarn → weaving → fabric", "Fabric → yarn → fibre", "Yarn → fibre → fabric", "Weaving → spinning → fibre"], "correctIndex": 0, "explanation": "Fibres are spun into yarn, and yarn is woven (or knitted) into fabric.", "tags": ["process", "sequence"] },
+    { "id": "g6s-w23-wed-012", "question": "Weaving is an old craft in India. Weavers who make cloth are skilled workers called:", "options": ["Farmers", "Weavers", "Spinners only", "Tailors"], "correctIndex": 1, "explanation": "People skilled in weaving cloth on looms are called weavers.", "tags": ["weaving", "craft"] },
+    { "id": "g6s-w23-wed-013", "question": "Why are two yarns needed in weaving but only one in knitting?", "options": ["Weaving crosses two sets; knitting loops a single yarn", "Knitting needs more yarn", "Weaving uses no machine", "They both use the same number"], "correctIndex": 0, "explanation": "Weaving interlaces two sets of yarn, while knitting forms loops from a single yarn.", "tags": ["process", "comparison"] },
+    { "id": "g6s-w23-wed-014", "question": "Which is a benefit of power looms over handlooms?", "options": ["They make cloth more slowly", "They produce cloth faster and in large amounts", "They use no electricity", "They cannot weave cotton"], "correctIndex": 1, "explanation": "Power looms weave cloth much faster and in larger quantities than handlooms.", "tags": ["weaving", "loom"] },
+    { "id": "g6s-w23-wed-015", "question": "After fabric is made, it is usually ____ before being sold as clothes.", "options": ["Buried", "Dyed, printed and stitched", "Ginned again", "Spun again"], "correctIndex": 1, "explanation": "Fabric is dyed or printed for colour and then stitched into clothes.", "tags": ["process", "finishing"] }
+  ]
+}

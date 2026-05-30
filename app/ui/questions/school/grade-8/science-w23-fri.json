@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-science-w23-fri",
+  "title": "Grade 8 Science — Fri, Jun 05",
+  "description": "Synthetic Fibres & Plastics — Day 5 of 5: Synthesis — fibres, plastics, uses and environment",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 23,
+  "weekDay": "fri",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly", "synthetic-fibres"],
+  "questions": [
+    { "id": "g8s-w23-fri-001", "question": "Both synthetic fibres and plastics are examples of:", "options": ["Metals", "Polymers", "Minerals", "Natural gases"], "correctIndex": 1, "explanation": "Synthetic fibres and plastics are both polymers — large molecules made of repeating units.", "tags": ["synthesis", "polymer"] },
+    { "id": "g8s-w23-fri-002", "question": "Match correctly: nylon is used for ropes and parachutes; bakelite is used for:", "options": ["Sweaters", "Electrical switches", "Bottles", "Raincoats"], "correctIndex": 1, "explanation": "Bakelite, a poor conductor of electricity, is used for electrical switches and plug handles.", "tags": ["synthesis", "uses"] },
+    { "id": "g8s-w23-fri-003", "question": "Which is the correct match of fibre to its quality?", "options": ["Acrylic – feels like wool", "Nylon – absorbs lots of sweat", "Polyester – wrinkles a lot", "Rayon – made only from petroleum"], "correctIndex": 0, "explanation": "Acrylic resembles wool; nylon absorbs little sweat, polyester resists wrinkles, rayon is from wood pulp.", "tags": ["synthesis", "properties"] },
+    { "id": "g8s-w23-fri-004", "question": "A pan with a metal base and a plastic handle uses each material's property: the plastic handle is chosen because plastic:", "options": ["Conducts heat well", "Is a poor conductor of heat", "Is magnetic", "Rusts"], "correctIndex": 1, "explanation": "The plastic handle stays cool because plastic is a poor conductor of heat.", "tags": ["synthesis", "uses"] },
+    { "id": "g8s-w23-fri-005", "question": "Rayon differs from nylon because rayon is:", "options": ["Fully synthetic", "Semi-synthetic, made from wood pulp", "An animal fibre", "A metal"], "correctIndex": 1, "explanation": "Rayon is semi-synthetic (from natural wood pulp), while nylon is fully synthetic.", "tags": ["synthesis", "classification"] },
+    { "id": "g8s-w23-fri-006", "question": "Why is a thermosetting plastic like melamine, not a thermoplastic, used for fire-resistant kitchenware?", "options": ["It melts easily", "It resists heat and does not soften on heating", "It conducts electricity", "It dissolves in water"], "correctIndex": 1, "explanation": "Thermosetting melamine resists heat and does not soften, suiting fire-resistant kitchenware.", "tags": ["synthesis", "plastics"] },
+    { "id": "g8s-w23-fri-007", "question": "The same property that makes plastic useful (unreactive, durable) also makes it:", "options": ["Easy to decompose", "An environmental pollution problem", "Biodegradable", "Magnetic"], "correctIndex": 1, "explanation": "Being unreactive and durable means plastic does not decompose, causing long-lasting pollution.", "tags": ["synthesis", "environment"] },
+    { "id": "g8s-w23-fri-008", "question": "For comfortable summer clothing the best choice is cotton rather than nylon because cotton:", "options": ["Melts in heat", "Absorbs sweat and is breathable", "Does not absorb water", "Is synthetic"], "correctIndex": 1, "explanation": "Cotton absorbs sweat and lets air pass, keeping the wearer cool in summer.", "tags": ["synthesis", "comparison"] },
+    { "id": "g8s-w23-fri-009", "question": "PET bottles can be recycled into polyester fibre. This is an example of:", "options": ["Reduce", "Recycle", "Refuse", "Burning"], "correctIndex": 1, "explanation": "Turning waste PET into new polyester fibre is recycling.", "tags": ["synthesis", "recycle"] },
+    { "id": "g8s-w23-fri-010", "question": "Which statement is TRUE about polymers?", "options": ["Only synthetic materials are polymers", "Both cotton (cellulose) and nylon are polymers", "Plastics are not polymers", "Polymers are single small molecules"], "correctIndex": 1, "explanation": "Polymers occur naturally (cellulose in cotton) and artificially (nylon); both are large molecules.", "tags": ["synthesis", "polymer"] },
+    { "id": "g8s-w23-fri-011", "question": "A firefighter's protective suit uses fibres that are:", "options": ["Easily flammable", "Treated to resist heat and fire", "Quick to melt", "Made of cotton only"], "correctIndex": 1, "explanation": "Such suits use special heat- and fire-resistant fibres (like treated melamine fibre) for safety.", "tags": ["synthesis", "uses"] },
+    { "id": "g8s-w23-fri-012", "question": "Why should synthetic clothes NOT be worn while cooking near a flame?", "options": ["They look dull", "They melt and stick to the skin if they catch fire", "They are too warm", "They absorb too much oil"], "correctIndex": 1, "explanation": "Synthetic fibres melt and stick to the skin if ignited, causing serious burns.", "tags": ["synthesis", "safety"] },
+    { "id": "g8s-w23-fri-013", "question": "Which sequence shows how a synthetic fibre is built up?", "options": ["Polymer → monomer → fibre", "Monomer → polymer → fibre", "Fibre → polymer → monomer", "Fibre → monomer → polymer"], "correctIndex": 1, "explanation": "Small monomers join to form a polymer, which is then made into fibre.", "tags": ["synthesis", "polymer"] },
+    { "id": "g8s-w23-fri-014", "question": "The MOST eco-friendly action among these is to:", "options": ["Burn plastic waste at home", "Carry a reusable cloth bag and recycle plastic", "Throw plastic in water bodies", "Use a new plastic bag each time"], "correctIndex": 1, "explanation": "Reusing cloth bags and recycling plastic reduces pollution far more than burning or dumping.", "tags": ["synthesis", "environment"] },
+    { "id": "g8s-w23-fri-015", "question": "What is the BEST overall summary of this topic?", "options": ["Synthetic fibres and plastics are useless", "Synthetic fibres and plastics are useful polymers with many uses, but their disposal harms the environment", "Plastics easily decompose", "Natural fibres are always worse than synthetic ones"], "correctIndex": 1, "explanation": "These polymers are very useful, but being non-biodegradable, their disposal is an environmental challenge.", "tags": ["synthesis", "summary"] }
+  ]
+}

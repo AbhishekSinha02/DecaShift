@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w23-thu",
+  "title": "Grade 5 Science — Thu, Jun 04",
+  "description": "The Skeletal System — Day 4 of 5: Caring for bones and muscles",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "thu",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "human-body"],
+  "questions": [
+    { "id": "g5s-w23-thu-001", "question": "Sitting and standing straight with the back upright is called good:", "options": ["Posture", "Pressure", "Pollution", "Practice"], "correctIndex": 0, "explanation": "Good posture means keeping the body, especially the back, in the correct upright position.", "tags": ["health", "posture"] },
+    { "id": "g5s-w23-thu-002", "question": "Carrying a very heavy school bag on one shoulder can harm your:", "options": ["Eyes", "Backbone and posture", "Teeth", "Ears"], "correctIndex": 1, "explanation": "A heavy bag on one side can bend the backbone and spoil posture.", "tags": ["health", "posture"] },
+    { "id": "g5s-w23-thu-003", "question": "The mineral that keeps bones strong is:", "options": ["Calcium", "Iron", "Sugar", "Salt"], "correctIndex": 0, "explanation": "Calcium, found in milk and leafy vegetables, keeps bones strong.", "tags": ["health", "nutrition"] },
+    { "id": "g5s-w23-thu-004", "question": "Which vitamin helps the body use calcium and is made with the help of sunlight?", "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"], "correctIndex": 2, "explanation": "Vitamin D, made when sunlight falls on our skin, helps the body use calcium for strong bones.", "tags": ["health", "nutrition"] },
+    { "id": "g5s-w23-thu-005", "question": "A crack or break in a bone is called a:", "options": ["Sprain", "Fracture", "Bruise", "Cramp"], "correctIndex": 1, "explanation": "When a bone breaks or cracks, it is called a fracture.", "tags": ["health", "injury"] },
+    { "id": "g5s-w23-thu-006", "question": "A doctor may put a hard cover called a ____ around a broken bone to help it heal.", "options": ["Bandage only", "Plaster cast", "Belt", "Pillow"], "correctIndex": 1, "explanation": "A plaster cast holds the broken bone still so it can heal in the correct position.", "tags": ["health", "injury"] },
+    { "id": "g5s-w23-thu-007", "question": "Regular exercise is good for muscles because it makes them:", "options": ["Weaker", "Stronger and more flexible", "Disappear", "Turn into bone"], "correctIndex": 1, "explanation": "Exercise makes muscles stronger, more flexible and healthier.", "tags": ["health", "exercise"] },
+    { "id": "g5s-w23-thu-008", "question": "A painful, sudden tightening of a muscle is called a:", "options": ["Fracture", "Cramp", "Bruise", "Cut"], "correctIndex": 1, "explanation": "A cramp is a sudden, painful tightening of a muscle.", "tags": ["health", "muscles"] },
+    { "id": "g5s-w23-thu-009", "question": "Which set of foods is best for strong bones and muscles?", "options": ["Milk, eggs and green vegetables", "Chips and cold drinks", "Candy and chocolate", "Only white bread"], "correctIndex": 0, "explanation": "Milk, eggs and green vegetables give calcium and protein needed for bones and muscles.", "tags": ["health", "nutrition"] },
+    { "id": "g5s-w23-thu-010", "question": "Why should we warm up before playing sports?", "options": ["To waste time", "To prepare muscles and avoid injury", "To feel tired", "To grow taller"], "correctIndex": 1, "explanation": "Warming up gets muscles ready and helps prevent cramps and injuries.", "tags": ["health", "exercise"] },
+    { "id": "g5s-w23-thu-011", "question": "A twisting injury to a joint, stretching its ligaments, is called a:", "options": ["Fracture", "Sprain", "Cramp", "Cold"], "correctIndex": 1, "explanation": "A sprain happens when a joint is twisted and its ligaments are stretched or torn.", "tags": ["health", "injury"] },
+    { "id": "g5s-w23-thu-012", "question": "Sitting straight while studying helps protect your:", "options": ["Backbone", "Teeth", "Hair", "Nails"], "correctIndex": 0, "explanation": "Good sitting posture keeps the backbone healthy and prevents back pain.", "tags": ["health", "posture"] },
+    { "id": "g5s-w23-thu-013", "question": "Getting some morning sunlight helps the body make vitamin D, which is good for:", "options": ["Teeth only", "Bones", "Hair colour", "Eyesight only"], "correctIndex": 1, "explanation": "Sunlight helps make vitamin D, which keeps bones strong.", "tags": ["health", "nutrition"] },
+    { "id": "g5s-w23-thu-014", "question": "Which habit is BAD for the health of bones and muscles?", "options": ["Daily exercise", "Eating calcium-rich food", "Sitting in a slouched position for hours", "Playing outdoor games"], "correctIndex": 2, "explanation": "Slouching for long hours harms posture and the backbone.", "tags": ["health", "posture"] },
+    { "id": "g5s-w23-thu-015", "question": "Why is rest important after heavy exercise?", "options": ["It is a waste of time", "Muscles need rest to recover and grow stronger", "It makes muscles weaker", "Bones rest but muscles do not need it"], "correctIndex": 1, "explanation": "Rest lets tired muscles recover and become stronger.", "tags": ["health", "exercise"] }
+  ]
+}

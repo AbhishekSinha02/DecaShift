@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w23-wed",
+  "title": "Grade 2 Science — Wed, Jun 03",
+  "description": "Plants Around Us — Day 3 of 5: What plants give us",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "plants"],
+  "questions": [
+    { "id": "g2s-w23-wed-001", "question": "Which of these do we get from plants?", "options": ["Plastic", "Fruits", "Glass", "Iron"], "correctIndex": 1, "explanation": "Plants give us fruits to eat, along with vegetables, grains and more.", "tags": ["plants", "uses"] },
+    { "id": "g2s-w23-wed-002", "question": "The gas that plants give out, which we need to breathe, is:", "options": ["Carbon dioxide", "Oxygen", "Smoke", "Steam"], "correctIndex": 1, "explanation": "Plants release oxygen, the gas all animals and people need to breathe.", "tags": ["plants", "oxygen"] },
+    { "id": "g2s-w23-wed-003", "question": "Wood for making furniture comes from the ____ of trees.", "options": ["Leaves", "Flowers", "Stem (trunk)", "Roots"], "correctIndex": 2, "explanation": "Wood comes from the trunk (stem) of trees and is used to make furniture.", "tags": ["plants", "uses"] },
+    { "id": "g2s-w23-wed-004", "question": "Which of these is a vegetable we get from a plant?", "options": ["Milk", "Potato", "Egg", "Honey"], "correctIndex": 1, "explanation": "Potato is a vegetable that grows from a plant.", "tags": ["plants", "food"] },
+    { "id": "g2s-w23-wed-005", "question": "Cotton, used to make clothes, comes from a:", "options": ["Animal", "Plant", "Stone", "Machine"], "correctIndex": 1, "explanation": "Cotton comes from the cotton plant and is used to make cloth.", "tags": ["plants", "uses"] },
+    { "id": "g2s-w23-wed-006", "question": "Which part of the plant do we eat when we eat spinach?", "options": ["Root", "Leaf", "Flower", "Seed"], "correctIndex": 1, "explanation": "Spinach is a leafy vegetable — we eat its leaves.", "tags": ["plants", "food"] },
+    { "id": "g2s-w23-wed-007", "question": "Rice and wheat are examples of:", "options": ["Fruits", "Grains", "Flowers", "Roots"], "correctIndex": 1, "explanation": "Rice and wheat are grains (seeds) that we get from plants and eat as food.", "tags": ["plants", "food"] },
+    { "id": "g2s-w23-wed-008", "question": "Plants are important because they give us:", "options": ["Only water", "Food and oxygen", "Only stones", "Only shade"], "correctIndex": 1, "explanation": "Plants give us food to eat and oxygen to breathe, among many other things.", "tags": ["plants", "uses"] },
+    { "id": "g2s-w23-wed-009", "question": "Which sweet liquid do we get with the help of plants and bees?", "options": ["Milk", "Honey", "Oil", "Juice from a tap"], "correctIndex": 1, "explanation": "Bees collect nectar from flowers to make honey, so honey comes with the help of plants.", "tags": ["plants", "uses"] },
+    { "id": "g2s-w23-wed-010", "question": "Which part of the plant do we eat when we eat a carrot?", "options": ["Leaf", "Root", "Flower", "Fruit"], "correctIndex": 1, "explanation": "A carrot is the root of the carrot plant.", "tags": ["plants", "food"] },
+    { "id": "g2s-w23-wed-011", "question": "Medicines for many illnesses are made from:", "options": ["Plants", "Rocks", "Air only", "Plastic"], "correctIndex": 0, "explanation": "Many medicines are made from plants such as neem, tulsi and aloe vera.", "tags": ["plants", "uses"] },
+    { "id": "g2s-w23-wed-012", "question": "On a hot day, sitting under a tree feels cool because the tree gives:", "options": ["Light", "Shade", "Heat", "Noise"], "correctIndex": 1, "explanation": "Trees give us shade, which keeps us cool on hot days.", "tags": ["plants", "uses"] },
+    { "id": "g2s-w23-wed-013", "question": "Which of these do we NOT get from plants?", "options": ["Paper", "Fruits", "Wood", "Stone"], "correctIndex": 3, "explanation": "Stone comes from the earth, not from plants. Paper, fruits and wood all come from plants.", "tags": ["plants", "uses"] },
+    { "id": "g2s-w23-wed-014", "question": "Sugar that we eat is mostly made from a plant called:", "options": ["Sugarcane", "Mango", "Rose", "Cactus"], "correctIndex": 0, "explanation": "Sugar is made from the juice of the sugarcane plant.", "tags": ["plants", "food"] },
+    { "id": "g2s-w23-wed-015", "question": "Why should we plant more trees?", "options": ["They make noise", "They give us food, oxygen and shade", "They make the ground hard", "They block the sky"], "correctIndex": 1, "explanation": "More trees mean more food, more oxygen to breathe and more shade, so we should plant them.", "tags": ["plants", "care"] }
+  ]
+}

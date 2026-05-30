@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w23-tue",
+  "title": "Grade 2 Science — Tue, Jun 02",
+  "description": "Plants Around Us — Day 2 of 5: Types of plants",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "plants"],
+  "questions": [
+    { "id": "g2s-w23-tue-001", "question": "A very big plant with a hard, thick stem is called a:", "options": ["Herb", "Shrub", "Tree", "Grass"], "correctIndex": 2, "explanation": "Trees are the largest plants with thick, hard, woody stems called trunks.", "tags": ["plants", "trees"] },
+    { "id": "g2s-w23-tue-002", "question": "A small plant with a soft, green stem is called a:", "options": ["Tree", "Herb", "Shrub", "Climber"], "correctIndex": 1, "explanation": "Herbs are small plants with soft, green stems, like mint and coriander.", "tags": ["plants", "herbs"] },
+    { "id": "g2s-w23-tue-003", "question": "A plant that needs support to climb up is called a:", "options": ["Tree", "Shrub", "Climber", "Herb"], "correctIndex": 2, "explanation": "Climbers, like a money plant or grapevine, are weak and need support to climb.", "tags": ["plants", "climbers"] },
+    { "id": "g2s-w23-tue-004", "question": "A medium plant with many woody branches near the ground is a:", "options": ["Tree", "Herb", "Shrub", "Creeper"], "correctIndex": 2, "explanation": "Shrubs are bushy plants with hard stems branching out close to the ground, like a rose plant.", "tags": ["plants", "shrubs"] },
+    { "id": "g2s-w23-tue-005", "question": "A plant with a weak stem that spreads along the ground is a:", "options": ["Climber", "Creeper", "Tree", "Shrub"], "correctIndex": 1, "explanation": "Creepers, like pumpkin and watermelon plants, have weak stems that creep along the ground.", "tags": ["plants", "creepers"] },
+    { "id": "g2s-w23-tue-006", "question": "Which of these is a tree?", "options": ["Tomato plant", "Mango", "Mint", "Money plant"], "correctIndex": 1, "explanation": "Mango is a large tree with a thick woody trunk.", "tags": ["plants", "trees"] },
+    { "id": "g2s-w23-tue-007", "question": "Which of these is a herb?", "options": ["Banyan", "Neem", "Tulsi (Basil)", "Mango"], "correctIndex": 2, "explanation": "Tulsi (Basil) is a small herb with a soft stem.", "tags": ["plants", "herbs"] },
+    { "id": "g2s-w23-tue-008", "question": "A grapevine climbing on a wall is an example of a:", "options": ["Tree", "Climber", "Herb", "Grass"], "correctIndex": 1, "explanation": "A grapevine is a climber — its weak stem climbs up with support.", "tags": ["plants", "climbers"] },
+    { "id": "g2s-w23-tue-009", "question": "Which plant has the strongest stem?", "options": ["Herb", "Creeper", "Tree", "Climber"], "correctIndex": 2, "explanation": "Trees have the strongest, thickest and hardest stems among all plants.", "tags": ["plants", "trees"] },
+    { "id": "g2s-w23-tue-010", "question": "A rose plant is an example of a:", "options": ["Tree", "Shrub", "Creeper", "Herb"], "correctIndex": 1, "explanation": "A rose plant is a shrub — bushy with hard stems branching near the ground.", "tags": ["plants", "shrubs"] },
+    { "id": "g2s-w23-tue-011", "question": "A watermelon plant spreading on the ground is a:", "options": ["Climber", "Creeper", "Tree", "Shrub"], "correctIndex": 1, "explanation": "A watermelon plant is a creeper that spreads along the ground.", "tags": ["plants", "creepers"] },
+    { "id": "g2s-w23-tue-012", "question": "Which type of plant lives the longest and grows the tallest?", "options": ["Herb", "Shrub", "Tree", "Creeper"], "correctIndex": 2, "explanation": "Trees grow the tallest and can live for many, many years.", "tags": ["plants", "trees"] },
+    { "id": "g2s-w23-tue-013", "question": "Why does a money plant need a stick or thread to grow up a wall?", "options": ["Its stem is too strong", "Its stem is weak and cannot stand on its own", "It has no leaves", "It has too many roots"], "correctIndex": 1, "explanation": "A money plant is a climber with a weak stem, so it needs support to climb.", "tags": ["plants", "climbers"] },
+    { "id": "g2s-w23-tue-014", "question": "Coriander and mint are examples of:", "options": ["Trees", "Shrubs", "Herbs", "Climbers"], "correctIndex": 2, "explanation": "Coriander and mint are small herbs with soft green stems.", "tags": ["plants", "herbs"] },
+    { "id": "g2s-w23-tue-015", "question": "Which group is in order from smallest to largest plant?", "options": ["Tree, shrub, herb", "Herb, shrub, tree", "Shrub, herb, tree", "Tree, herb, shrub"], "correctIndex": 1, "explanation": "Herbs are smallest, shrubs are medium-sized, and trees are the largest.", "tags": ["plants", "types"] }
+  ]
+}

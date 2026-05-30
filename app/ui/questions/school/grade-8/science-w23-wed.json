@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-science-w23-wed",
+  "title": "Grade 8 Science — Wed, Jun 03",
+  "description": "Synthetic Fibres & Plastics — Day 3 of 5: Plastics and their properties",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 23,
+  "weekDay": "wed",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly", "synthetic-fibres"],
+  "questions": [
+    { "id": "g8s-w23-wed-001", "question": "Plastic is also a polymer. Plastics that can be moulded again and again on heating are called:", "options": ["Thermosetting plastics", "Thermoplastics", "Natural fibres", "Metals"], "correctIndex": 1, "explanation": "Thermoplastics can be softened by heating and moulded repeatedly, like polythene and PVC.", "tags": ["plastics", "thermoplastic"] },
+    { "id": "g8s-w23-wed-002", "question": "Plastics that, once moulded and set, cannot be softened again by heating are called:", "options": ["Thermoplastics", "Thermosetting plastics", "Rayon", "Acrylic"], "correctIndex": 1, "explanation": "Thermosetting plastics, like bakelite and melamine, cannot be remoulded once set.", "tags": ["plastics", "thermosetting"] },
+    { "id": "g8s-w23-wed-003", "question": "Which is an example of a thermoplastic?", "options": ["Bakelite", "Polythene", "Melamine", "Wood"], "correctIndex": 1, "explanation": "Polythene and PVC are thermoplastics that can be remoulded on heating.", "tags": ["plastics", "examples"] },
+    { "id": "g8s-w23-wed-004", "question": "Bakelite is used for electrical switches and plug handles because it is a:", "options": ["Good conductor of heat and electricity", "Poor conductor of heat and electricity", "Metal", "Natural fibre"], "correctIndex": 1, "explanation": "Bakelite is a poor conductor of heat and electricity, making it safe for electrical fittings.", "tags": ["plastics", "bakelite"] },
+    { "id": "g8s-w23-wed-005", "question": "Melamine is used to make floor tiles and unbreakable kitchenware because it:", "options": ["Catches fire easily", "Resists fire and can tolerate heat", "Melts at room temperature", "Conducts electricity"], "correctIndex": 1, "explanation": "Melamine resists fire and tolerates heat, so it is used for kitchenware and fire-resistant fabrics.", "tags": ["plastics", "melamine"] },
+    { "id": "g8s-w23-wed-006", "question": "Plastic is widely used for storing food and chemicals because it is:", "options": ["Easily rusted", "Non-reactive and does not react with air, water or many chemicals", "A good conductor", "Heavy"], "correctIndex": 1, "explanation": "Plastic is non-reactive, so it does not corrode or react with stored substances.", "tags": ["plastics", "properties"] },
+    { "id": "g8s-w23-wed-007", "question": "Plastic is preferred for many containers because it is light, strong and:", "options": ["Very expensive", "Cheap and durable", "Heavier than metal", "Easily broken"], "correctIndex": 1, "explanation": "Plastic is cheap, light, strong and durable, making it useful for many products.", "tags": ["plastics", "properties"] },
+    { "id": "g8s-w23-wed-008", "question": "Why are cooking pan handles often made of plastic?", "options": ["Plastic is a good conductor of heat", "Plastic is a poor conductor of heat, so the handle stays cool", "Plastic looks shiny", "Plastic is magnetic"], "correctIndex": 1, "explanation": "Plastic is a poor conductor of heat, so the handle does not get too hot to hold.", "tags": ["plastics", "uses"] },
+    { "id": "g8s-w23-wed-009", "question": "Teflon, a special plastic that food does not stick to, is used to coat:", "options": ["Non-stick cookware", "Electric wires", "Glass windows", "Cotton clothes"], "correctIndex": 0, "explanation": "Teflon is used to coat non-stick pans because food and oil do not stick to it.", "tags": ["plastics", "teflon"] },
+    { "id": "g8s-w23-wed-010", "question": "Plastic does not react with water, so it is useful but also a problem because it:", "options": ["Rusts quickly", "Does not decompose easily and causes pollution", "Dissolves in rain", "Is eaten by bacteria fast"], "correctIndex": 1, "explanation": "Because plastic does not rot or decompose easily, waste plastic remains for years and pollutes.", "tags": ["plastics", "environment"] },
+    { "id": "g8s-w23-wed-011", "question": "A material that can be broken down by natural processes is called:", "options": ["Non-biodegradable", "Biodegradable", "Synthetic", "Thermosetting"], "correctIndex": 1, "explanation": "Biodegradable materials are broken down by bacteria and other natural processes.", "tags": ["plastics", "biodegradable"] },
+    { "id": "g8s-w23-wed-012", "question": "Plastic is an example of a ____ material.", "options": ["Biodegradable", "Non-biodegradable", "Living", "Magnetic"], "correctIndex": 1, "explanation": "Plastic is non-biodegradable; it is not easily broken down by natural processes.", "tags": ["plastics", "biodegradable"] },
+    { "id": "g8s-w23-wed-013", "question": "Which use matches the correct property of plastic?", "options": ["Plastic raincoat – because it absorbs water", "Plastic electrical socket – because it does not conduct electricity", "Plastic pan base – because it conducts heat", "Plastic spoon – because it rusts"], "correctIndex": 1, "explanation": "Plastic does not conduct electricity, so it is safe for electrical sockets and switches.", "tags": ["plastics", "uses"] },
+    { "id": "g8s-w23-wed-014", "question": "How does a thermosetting plastic differ from a thermoplastic?", "options": ["A thermoplastic cannot be remoulded; a thermosetting plastic can", "A thermosetting plastic cannot be remoulded once set; a thermoplastic can", "Both can always be remoulded", "Neither can be moulded"], "correctIndex": 1, "explanation": "Thermoplastics can be remoulded by heating; thermosetting plastics set permanently.", "tags": ["plastics", "comparison"] },
+    { "id": "g8s-w23-wed-015", "question": "The very property that makes plastic useful — being unreactive and long-lasting — is also why it:", "options": ["Decomposes fast", "Stays in the environment for a very long time", "Burns cleanly", "Dissolves in water"], "correctIndex": 1, "explanation": "Because plastic is unreactive and durable, it persists in the environment and is hard to dispose of.", "tags": ["plastics", "environment"] }
+  ]
+}

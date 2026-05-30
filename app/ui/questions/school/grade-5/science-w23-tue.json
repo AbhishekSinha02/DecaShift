@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w23-tue",
+  "title": "Grade 5 Science — Tue, Jun 02",
+  "description": "The Skeletal System — Day 2 of 5: Joints and how we bend",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": "tue",
+  "weekStart": "2026-06-01",
+  "weekEnd": "2026-06-07",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "human-body"],
+  "questions": [
+    { "id": "g5s-w23-tue-001", "question": "The place where two bones meet is called a:", "options": ["Muscle", "Joint", "Nerve", "Vein"], "correctIndex": 1, "explanation": "A joint is the point where two or more bones meet, allowing movement.", "tags": ["joints", "basics"] },
+    { "id": "g5s-w23-tue-002", "question": "The joint at the elbow allows movement in only one direction, like a door. It is a:", "options": ["Ball-and-socket joint", "Hinge joint", "Fixed joint", "Pivot joint"], "correctIndex": 1, "explanation": "The elbow is a hinge joint that bends in only one direction, like a door hinge.", "tags": ["joints", "hinge"] },
+    { "id": "g5s-w23-tue-003", "question": "The shoulder joint can move in many directions. It is a:", "options": ["Hinge joint", "Fixed joint", "Ball-and-socket joint", "Gliding joint"], "correctIndex": 2, "explanation": "The shoulder is a ball-and-socket joint, allowing the arm to move in many directions.", "tags": ["joints", "ball-socket"] },
+    { "id": "g5s-w23-tue-004", "question": "Which of these is also a hinge joint?", "options": ["Knee", "Shoulder", "Skull bones", "Neck"], "correctIndex": 0, "explanation": "The knee is a hinge joint that bends back and forth in one direction.", "tags": ["joints", "hinge"] },
+    { "id": "g5s-w23-tue-005", "question": "The joints in the skull do NOT move. They are called:", "options": ["Hinge joints", "Fixed joints", "Ball-and-socket joints", "Pivot joints"], "correctIndex": 1, "explanation": "The bones of the skull are joined by fixed (immovable) joints.", "tags": ["joints", "fixed"] },
+    { "id": "g5s-w23-tue-006", "question": "The joint in the neck that lets us turn our head side to side is a:", "options": ["Hinge joint", "Pivot joint", "Fixed joint", "Ball-and-socket joint"], "correctIndex": 1, "explanation": "The pivot joint in the neck allows the head to rotate from side to side.", "tags": ["joints", "pivot"] },
+    { "id": "g5s-w23-tue-007", "question": "Joints are important because they allow our body to:", "options": ["Stay completely stiff", "Bend and move", "Make blood", "Digest food"], "correctIndex": 1, "explanation": "Joints make it possible for parts of the body to bend, turn and move.", "tags": ["joints", "function"] },
+    { "id": "g5s-w23-tue-008", "question": "Which joint lets you rotate your arm in a full circle?", "options": ["Knee", "Elbow", "Shoulder", "Finger"], "correctIndex": 2, "explanation": "The ball-and-socket joint of the shoulder lets the arm move in a full circle.", "tags": ["joints", "ball-socket"] },
+    { "id": "g5s-w23-tue-009", "question": "Why can't you bend your knee backwards far?", "options": ["It is a fixed joint", "It is a hinge joint that moves only one way", "It is a ball-and-socket joint", "It has no bones"], "correctIndex": 1, "explanation": "The knee is a hinge joint, so it bends mainly in one direction.", "tags": ["joints", "hinge"] },
+    { "id": "g5s-w23-tue-010", "question": "Bones at a joint are held together by tough bands called:", "options": ["Veins", "Ligaments", "Nerves", "Hairs"], "correctIndex": 1, "explanation": "Ligaments are strong bands that hold the bones together at a joint.", "tags": ["joints", "ligaments"] },
+    { "id": "g5s-w23-tue-011", "question": "The hip joint, like the shoulder, is a:", "options": ["Hinge joint", "Ball-and-socket joint", "Fixed joint", "Pivot joint"], "correctIndex": 1, "explanation": "The hip is a ball-and-socket joint, allowing the leg to move in many directions.", "tags": ["joints", "ball-socket"] },
+    { "id": "g5s-w23-tue-012", "question": "Which everyday action uses a hinge joint?", "options": ["Turning your head", "Bending your elbow to eat", "Rotating your shoulder", "Sitting still"], "correctIndex": 1, "explanation": "Bending the elbow uses a hinge joint, which moves in one direction.", "tags": ["joints", "hinge"] },
+    { "id": "g5s-w23-tue-013", "question": "Fixed joints in the skull are useful because they:", "options": ["Let the head spin", "Hold the skull bones firmly to protect the brain", "Help in chewing", "Allow bending"], "correctIndex": 1, "explanation": "Fixed joints lock the skull bones together to form a strong case for the brain.", "tags": ["joints", "fixed"] },
+    { "id": "g5s-w23-tue-014", "question": "Which list shows joints from most movable to least movable?", "options": ["Shoulder, elbow, skull joint", "Skull joint, elbow, shoulder", "Elbow, skull joint, shoulder", "Skull joint, shoulder, elbow"], "correctIndex": 0, "explanation": "The shoulder (ball-and-socket) moves most, the elbow (hinge) less, and skull joints are fixed.", "tags": ["joints", "synthesis"] },
+    { "id": "g5s-w23-tue-015", "question": "Without joints, our arms and legs would be:", "options": ["Able to bend more", "Stiff and unable to bend", "Stronger", "Softer"], "correctIndex": 1, "explanation": "Joints allow bending; without them our limbs would be stiff and could not move.", "tags": ["joints", "function"] }
+  ]
+}
