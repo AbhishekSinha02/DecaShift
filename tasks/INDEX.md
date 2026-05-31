@@ -36,7 +36,7 @@
 
 | File | What | Size |
 |---|---|---|
-| [P2-T046](P2-T046-full-state-cross-device-sync.md) | ★ Full-state cross-device sync (all progress, not just account) + offline support-driven password reset — no new infra | M |
+| [P2-T046](P2-T046-full-state-cross-device-sync.md) | ★ Full-state cross-device sync (all progress, not just account) + offline support-driven password reset — no new infra. **Decide [P2-T047 identity strategy](marketing/P2-T047-identity-strategy-userid-email-mobile.md) first.** | M |
 | [P2-T017](P2-T017-profile-page-password-reset.md) | Password reset — now **offline support process** (change-password UI + Drive re-sync; email flow superseded by P2-T046) | S |
 | [P2-T026](P2-T026-subscription-plan-tamper-protection.md) | HMAC subscription tamper protection | M |
 | [P2-T035](P2-T035-css-lazy-load-phase2.md) | Lazy-load styles-app.css after login | S |

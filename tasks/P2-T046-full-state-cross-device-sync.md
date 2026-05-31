@@ -5,6 +5,7 @@
 > **Size:** M · **Risk:** Low-Medium (feature-flagged, no schema break) · **Infra:** none new.
 > **Supersedes:** the email-based plan in [P2-T017](P2-T017-profile-page-password-reset.md).
 > **Builds on:** [P1-T012](completed/P1-T012-drive-account-persistence-cross-device-login.md) (account-only Drive login, done).
+> **Depends on:** [P2-T047 identity strategy](marketing/P2-T047-identity-strategy-userid-email-mobile.md) — the durable account KEY (handle/PIN/recovery code vs email/mobile) must be decided first; this task syncs against whatever key that decision picks.
 
 ---
 
