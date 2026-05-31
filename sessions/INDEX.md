@@ -14,9 +14,11 @@
 
 | # | File | Type | Focus | Task |
 |---|---|---|---|---|
-| 1 | [PENDING-content-w23-french.md](PENDING-content-w23-french.md) | Content | W23 French G2–8 (35 files/525q) — Math+Science+Hindi done, French next | CONTENT-GEN-3MONTH-PLAN · C3 |
+| 1 | [PENDING-cross-device-full-state-sync.md](PENDING-cross-device-full-state-sync.md) | Code | ★ HIGHEST — full progress sync across devices (XP/avatar/streak/stickers/mastery/sessions) + offline password reset. No new infra (reuse Apps Script→Drive). | P2-T046 |
 | 2 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 |
 | 3 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | PWA install banner improvements | P2-T044 |
+
+> W23 French content (C3) shipped `522ff2e` — W23 now complete (all 4 subjects). Next content session = C4 (W24 Science).
 
 > **Content track:** full 3-month queue (all grades, all subjects, Jun–Aug) in
 > [`tasks/marketing/CONTENT-GEN-3MONTH-PLAN.md`](../tasks/marketing/CONTENT-GEN-3MONTH-PLAN.md).
