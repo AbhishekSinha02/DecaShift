@@ -1,0 +1,213 @@
+{
+  "goalId": "grade12-chemistry",
+  "title": "Grade 12 Chemistry — Chemical Kinetics",
+  "description": "Chapter 4: rate of reaction, order, rate constant, Arrhenius equation, mechanisms",
+  "category": "school",
+  "grade": 12,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_12_kinetics_001",
+      "goalId": "grade12-chemistry",
+      "question": "The rate of a chemical reaction is defined as:",
+      "options": ["The concentration of reactants at start", "The change in concentration of a reactant or product per unit time", "The temperature at which the reaction occurs", "The volume of gas produced per reaction"],
+      "correctIndex": 1,
+      "explanation": "Rate = -d[Reactant]/dt = +d[Product]/dt (with appropriate stoichiometric coefficients). The negative sign for reactants indicates decreasing concentration.",
+      "difficulty": "easy",
+      "tags": ["chemical-kinetics", "rate", "definition"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_002",
+      "goalId": "grade12-chemistry",
+      "question": "For reaction A → B, if Rate = k[A]², what is the order of reaction?",
+      "options": ["Zero order", "First order", "Second order", "Third order"],
+      "correctIndex": 2,
+      "explanation": "The order equals the power of concentration in the rate law. Rate = k[A]² → second-order reaction. Order is determined experimentally, not from stoichiometry.",
+      "difficulty": "easy",
+      "tags": ["chemical-kinetics", "order-of-reaction", "rate-law"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_003",
+      "goalId": "grade12-chemistry",
+      "question": "The unit of rate constant k for a first-order reaction is:",
+      "options": ["mol L⁻¹ s⁻¹", "s⁻¹", "L mol⁻¹ s⁻¹", "L² mol⁻² s⁻¹"],
+      "correctIndex": 1,
+      "explanation": "For first-order: Rate = k[A] → k = Rate/[A] = (mol L⁻¹ s⁻¹)/(mol L⁻¹) = s⁻¹. For zero-order: mol L⁻¹ s⁻¹; second-order: L mol⁻¹ s⁻¹.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "rate-constant", "units"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_004",
+      "goalId": "grade12-chemistry",
+      "question": "The half-life of a first-order reaction is:",
+      "options": ["t½ = [A]₀/2k (depends on initial concentration)", "t½ = 0.693/k (independent of initial concentration)", "t½ = k/0.693", "t½ = 2/k[A]₀"],
+      "correctIndex": 1,
+      "explanation": "For first-order reactions: t½ = 0.693/k = ln2/k. This is constant regardless of initial concentration — a unique feature of first-order kinetics (e.g., radioactive decay).",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "half-life", "first-order"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_005",
+      "goalId": "grade12-chemistry",
+      "question": "The Arrhenius equation is k = Ae^(-Ea/RT). What does Ea represent?",
+      "options": ["The heat released by the reaction", "The minimum energy that colliding molecules must have to form products (activation energy)", "The equilibrium energy difference between reactants and products", "The energy of the transition state only"],
+      "correctIndex": 1,
+      "explanation": "Activation energy (Ea) is the energy barrier that must be overcome for a reaction to occur. The term e^(-Ea/RT) gives the fraction of molecules with sufficient energy to react.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "arrhenius-equation", "activation-energy"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_006",
+      "goalId": "grade12-chemistry",
+      "question": "According to the Arrhenius equation, increasing temperature increases the rate constant because:",
+      "options": ["It decreases the activation energy", "It increases the fraction of molecules with energy ≥ Ea (the exponential term increases rapidly with T)", "It decreases the frequency factor A", "Temperature has no effect — only concentration matters"],
+      "correctIndex": 1,
+      "explanation": "In k = Ae^(-Ea/RT): as T increases, the negative exponent becomes less negative, so e^(-Ea/RT) increases — more molecules have sufficient energy to react. Even a 10°C rise can double or triple the rate.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "arrhenius-equation", "temperature-effect"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_007",
+      "goalId": "grade12-chemistry",
+      "question": "For 2H₂O₂ → 2H₂O + O₂, if the rate of decomposition of H₂O₂ is 0.06 mol L⁻¹ s⁻¹, the rate of formation of O₂ is:",
+      "options": ["0.06 mol L⁻¹ s⁻¹", "0.03 mol L⁻¹ s⁻¹", "0.12 mol L⁻¹ s⁻¹", "0.01 mol L⁻¹ s⁻¹"],
+      "correctIndex": 1,
+      "explanation": "Rate of reaction = -½ d[H₂O₂]/dt = d[O₂]/dt. So d[O₂]/dt = ½ × 0.06 = 0.03 mol L⁻¹ s⁻¹.",
+      "difficulty": "hard",
+      "tags": ["chemical-kinetics", "stoichiometry", "rate-numerical"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_008",
+      "goalId": "grade12-chemistry",
+      "question": "A catalyst increases the rate of reaction by:",
+      "options": ["Increasing the temperature of the reaction", "Providing an alternative pathway with lower activation energy without being consumed", "Increasing the concentration of reactants", "Shifting the equilibrium position toward products"],
+      "correctIndex": 1,
+      "explanation": "A catalyst lowers Ea by providing a different mechanism. Since more molecules now have sufficient energy (Ea is lower), rate increases. The catalyst is regenerated and appears in neither ΔH nor equilibrium expression.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "catalyst", "activation-energy"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_009",
+      "goalId": "grade12-chemistry",
+      "question": "What is the difference between molecularity and order of reaction?",
+      "options": ["They are always numerically equal", "Molecularity is the number of molecules in the rate-determining step (always a small positive integer, theoretical); order is determined experimentally and can be zero, fractional, or any integer", "Order is theoretical; molecularity is experimental", "Molecularity applies only to gases; order applies to all reactions"],
+      "correctIndex": 1,
+      "explanation": "Molecularity comes from the reaction mechanism (how many molecules collide in the rate-determining step). Order is determined by experiment and can be fractional or zero, which has no mechanical meaning.",
+      "difficulty": "hard",
+      "tags": ["chemical-kinetics", "molecularity", "order-of-reaction"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_010",
+      "goalId": "grade12-chemistry",
+      "question": "Zero-order reactions are those where:",
+      "options": ["The reaction stops after all reactant is consumed", "The rate is independent of reactant concentration (rate = k)", "The rate is directly proportional to concentration", "No activation energy is needed"],
+      "correctIndex": 1,
+      "explanation": "In zero-order reactions, rate = k regardless of [A]. The rate constant k has units mol L⁻¹ s⁻¹. Examples include enzyme-catalysed reactions at saturating substrate concentrations.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "zero-order", "rate-law"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_011",
+      "goalId": "grade12-chemistry",
+      "question": "The integrated rate law for a second-order reaction A → products is:",
+      "options": ["[A] = [A]₀ × e^(-kt)", "1/[A] = 1/[A]₀ + kt", "ln[A] = ln[A]₀ - kt", "[A]² = [A]₀² - 2kt"],
+      "correctIndex": 1,
+      "explanation": "Second-order integrated rate law: 1/[A] = 1/[A]₀ + kt. A plot of 1/[A] vs t gives a straight line with slope k. Compare with first-order: ln[A] = ln[A]₀ - kt (plot ln[A] vs t).",
+      "difficulty": "hard",
+      "tags": ["chemical-kinetics", "second-order", "integrated-rate-law"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_012",
+      "goalId": "grade12-chemistry",
+      "question": "The rate constant of a first-order reaction is 0.04 s⁻¹. Its half-life is:",
+      "options": ["25 s", "17.3 s", "8.65 s", "0.04 s"],
+      "correctIndex": 1,
+      "explanation": "t½ = 0.693/k = 0.693/0.04 = 17.325 ≈ 17.3 s.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "half-life", "numerical"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_013",
+      "goalId": "grade12-chemistry",
+      "question": "Which factor does NOT directly affect the rate of a chemical reaction?",
+      "options": ["Temperature of the reaction mixture", "Concentration of reactants", "Colour of the reactants", "Presence of a catalyst"],
+      "correctIndex": 2,
+      "explanation": "Colour is a physical property unrelated to reaction rate. Rate is affected by temperature (Arrhenius), concentration (rate law), catalyst (lowers Ea), surface area (for heterogeneous reactions), and light (for photochemical reactions).",
+      "difficulty": "easy",
+      "tags": ["chemical-kinetics", "factors-affecting-rate", "basics"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_014",
+      "goalId": "grade12-chemistry",
+      "question": "A pseudo-first-order reaction is one that:",
+      "options": ["Appears to be first-order but is actually second-order", "Is actually higher order but appears first-order because one reactant is in large excess, making its concentration effectively constant", "Has two identical reactants reacting at the same rate", "Involves a catalyst that changes the apparent order"],
+      "correctIndex": 1,
+      "explanation": "Example: hydrolysis of ester in excess water — Rate = k[ester][H₂O] becomes Rate = k'[ester] because [H₂O] is nearly constant. The reaction is second-order but appears first-order.",
+      "difficulty": "hard",
+      "tags": ["chemical-kinetics", "pseudo-first-order", "approximation"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_015",
+      "goalId": "grade12-chemistry",
+      "question": "The rate of a reaction doubles for every 10°C rise. Starting at 20°C, what is the rate at 50°C relative to rate R at 20°C?",
+      "options": ["2R", "4R", "6R", "8R"],
+      "correctIndex": 3,
+      "explanation": "From 20°C to 50°C = three 10°C increments. Rate = R × 2³ = 8R. This rule of thumb (Q₁₀ = 2) approximates many biological and chemical reactions.",
+      "difficulty": "hard",
+      "tags": ["chemical-kinetics", "temperature-coefficient", "numerical"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_016",
+      "goalId": "grade12-chemistry",
+      "question": "The pre-exponential factor A in the Arrhenius equation represents:",
+      "options": ["The activation energy in joules", "The frequency of collisions with the correct orientation (frequency factor)", "The universal gas constant R", "The equilibrium constant at high temperature"],
+      "correctIndex": 1,
+      "explanation": "A is the pre-exponential (or frequency) factor — it accounts for the frequency of collisions and the fraction with correct orientation. For a reaction to occur, molecules must collide with sufficient energy AND in the correct orientation.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "arrhenius-equation", "frequency-factor"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_017",
+      "goalId": "grade12-chemistry",
+      "question": "How is the Arrhenius equation used to find activation energy graphically?",
+      "options": ["Plot rate vs temperature — Ea is the x-intercept", "Plot ln k vs 1/T — gives a straight line with slope = -Ea/R", "Plot k vs T² — slope gives Ea directly", "Plot concentration vs time — Ea is the half-life"],
+      "correctIndex": 1,
+      "explanation": "Taking ln of k = Ae^(-Ea/RT): ln k = ln A - Ea/RT. Plot ln k (y-axis) vs 1/T (x-axis) → straight line with slope = -Ea/R. Ea = -slope × R.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "arrhenius-equation", "graphical-method"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_018",
+      "goalId": "grade12-chemistry",
+      "question": "For an elementary reaction, the order of reaction:",
+      "options": ["Must always be determined experimentally", "Equals the molecularity — it can be read from the stoichiometric coefficients in the elementary step", "Is always first-order", "Has no relation to molecularity"],
+      "correctIndex": 1,
+      "explanation": "For elementary reactions (single-step mechanisms), the rate law can be written directly from stoichiometry. For A + B → products (bimolecular), Rate = k[A][B]. This is NOT true for overall (complex) reactions.",
+      "difficulty": "hard",
+      "tags": ["chemical-kinetics", "elementary-reaction", "molecularity"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_019",
+      "goalId": "grade12-chemistry",
+      "question": "The activation energy of a reaction is 0 kJ/mol. What effect does temperature have on the rate?",
+      "options": ["Rate increases linearly with temperature", "Rate would not change with temperature (e^0 = 1, so k = A regardless of T)", "Rate decreases with temperature", "The reaction would not occur at any temperature"],
+      "correctIndex": 1,
+      "explanation": "From k = Ae^(-Ea/RT): if Ea = 0, k = A × e⁰ = A × 1 = A at all temperatures. The rate is constant with temperature. Very few real reactions have Ea ≈ 0 (diffusion-controlled reactions approach this).",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "activation-energy", "temperature-effect"]
+    },
+    {
+      "id": "q_chemistry_12_kinetics_020",
+      "goalId": "grade12-chemistry",
+      "question": "The order of reaction with respect to a particular reactant is determined:",
+      "options": ["From the stoichiometric coefficients in the balanced equation", "Experimentally by measuring how rate changes with concentration", "From the molecular formula of the reactant only", "From the activation energy of the reaction"],
+      "correctIndex": 1,
+      "explanation": "Order must be determined experimentally (e.g., by the method of initial rates or from integrated rate laws). The balanced equation coefficients do NOT give the rate law — except for elementary reactions.",
+      "difficulty": "medium",
+      "tags": ["chemical-kinetics", "order-of-reaction", "experimental"]
+    }
+  ]
+}

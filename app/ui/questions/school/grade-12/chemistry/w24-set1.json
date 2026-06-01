@@ -1,0 +1,213 @@
+{
+  "goalId": "grade12-chemistry",
+  "title": "Grade 12 Chemistry — Surface Chemistry",
+  "description": "Chapter 5: adsorption, colloids, emulsions, catalysis, Tyndall effect",
+  "category": "school",
+  "grade": 12,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_12_surface-chemistry_001",
+      "goalId": "grade12-chemistry",
+      "question": "Adsorption is the phenomenon where:",
+      "options": ["A substance is distributed throughout the bulk of another material (absorption)", "A substance accumulates at the surface or interface of another substance", "A gas dissolves uniformly in a liquid", "A solid completely melts into a liquid phase"],
+      "correctIndex": 1,
+      "explanation": "Adsorption is a surface phenomenon — molecules accumulate at the surface (not inside) of the adsorbent. Distinguish from absorption: in adsorption, the substance stays on the surface; in absorption, it penetrates the bulk.",
+      "difficulty": "easy",
+      "tags": ["surface-chemistry", "adsorption", "definition"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_002",
+      "goalId": "grade12-chemistry",
+      "question": "In adsorption terminology, the substance that accumulates on the surface is called the:",
+      "options": ["Adsorbent", "Absorbent", "Adsorbate", "Solvent"],
+      "correctIndex": 2,
+      "explanation": "Adsorbate = the substance being adsorbed (accumulating on the surface). Adsorbent = the substance doing the adsorbing (the surface). E.g., in charcoal removing gas: charcoal is adsorbent, gas is adsorbate.",
+      "difficulty": "easy",
+      "tags": ["surface-chemistry", "adsorbate", "adsorbent", "terminology"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_003",
+      "goalId": "grade12-chemistry",
+      "question": "Physical adsorption (physisorption) is characterised by:",
+      "options": ["Strong chemical bond formation, high activation energy, irreversible", "Weak van der Waals forces, low heat of adsorption (~20–40 kJ/mol), reversible, non-specific", "High specificity and chemical bond formation", "Only occurring at temperatures above 500°C"],
+      "correctIndex": 1,
+      "explanation": "Physisorption: weak van der Waals forces, multi-layer possible, reversible (adsorbate easily removed by heating), low heat of adsorption, decreases with increasing temperature, non-specific.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "physisorption", "adsorption-types"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_004",
+      "goalId": "grade12-chemistry",
+      "question": "How does chemisorption differ from physisorption?",
+      "options": ["Chemisorption involves weaker forces and is more easily reversible", "Chemisorption involves chemical bond formation, has high heat of adsorption (~80–240 kJ/mol), is highly specific, irreversible, and involves only a monolayer", "Chemisorption is always an exothermic process at all temperatures", "Chemisorption only applies to gases, physisorption only to liquids"],
+      "correctIndex": 1,
+      "explanation": "Chemisorption involves covalent or ionic bond formation between adsorbate and adsorbent surface. It is highly specific (only certain pairs react), forms a monolayer, is largely irreversible, and has high activation energy.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "chemisorption", "adsorption-types"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_005",
+      "goalId": "grade12-chemistry",
+      "question": "The Freundlich adsorption isotherm equation is:",
+      "options": ["x/m = kP^(1/n)", "x/m = k/P", "x/m = kP + C", "x/m = k × ln P"],
+      "correctIndex": 0,
+      "explanation": "Freundlich: x/m = kP^(1/n), where x = mass adsorbed, m = mass of adsorbent, P = pressure, k and n are constants. On log-log plot: log(x/m) = log k + (1/n)log P — gives a straight line.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "freundlich-isotherm", "adsorption"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_006",
+      "goalId": "grade12-chemistry",
+      "question": "The Tyndall effect is observed in colloids and involves:",
+      "options": ["The change in colour of colloidal solutions when heated", "The scattering of a beam of light by colloidal particles, making the beam visible", "The rapid sedimentation of colloidal particles under gravity", "Coagulation of colloids when electrolytes are added"],
+      "correctIndex": 1,
+      "explanation": "The Tyndall effect distinguishes colloids from true solutions. Colloidal particles (1–1000 nm) scatter light (like dust particles in a sunbeam). True solutions don't scatter light because solute particles are too small.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "tyndall-effect", "colloids"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_007",
+      "goalId": "grade12-chemistry",
+      "question": "The particle size range for colloidal systems is:",
+      "options": ["Less than 1 nm (like true solutions)", "1 nm to 1000 nm (1 nm to 1 μm)", "1 mm to 1 cm", "Greater than 1000 nm only (suspensions)"],
+      "correctIndex": 1,
+      "explanation": "Colloids: particles 1–1000 nm. Smaller (< 1 nm) = true solutions; larger (> 1000 nm) = suspensions (that settle). Colloidal particles are large enough to scatter light (Tyndall) but small enough to remain dispersed.",
+      "difficulty": "easy",
+      "tags": ["surface-chemistry", "colloids", "particle-size"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_008",
+      "goalId": "grade12-chemistry",
+      "question": "Coagulation of a colloid is:",
+      "options": ["The process of making a colloid more stable", "The aggregation of colloidal particles into larger masses that precipitate from the dispersion medium", "The purification of a colloid by removing ionic impurities", "The preparation of a new colloid from a precipitate"],
+      "correctIndex": 1,
+      "explanation": "Coagulation (flocculation) occurs when the charge on colloidal particles is neutralised (e.g., by adding electrolytes). Particles aggregate and settle. This is used in water treatment to remove colloidal impurities.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "coagulation", "colloids"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_009",
+      "goalId": "grade12-chemistry",
+      "question": "The Hardy-Schulze rule states that the coagulating power of an electrolyte:",
+      "options": ["Decreases as the charge of the active ion increases", "Increases with the valency (charge) of the ion that has the OPPOSITE charge to the colloidal particle", "Is independent of the ionic charge", "Depends only on the concentration of the electrolyte, not its charge"],
+      "correctIndex": 1,
+      "explanation": "Hardy-Schulze rule: coagulating power ∝ (valency)^n of the ion with opposite charge to the colloid. An Fe(OH)₃ sol (positive) is coagulated best by PO₄³⁻ > SO₄²⁻ > Cl⁻ (higher valency = stronger coagulation).",
+      "difficulty": "hard",
+      "tags": ["surface-chemistry", "hardy-schulze-rule", "coagulation"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_010",
+      "goalId": "grade12-chemistry",
+      "question": "Electrophoresis is the:",
+      "options": ["Migration of solvent molecules through a semipermeable membrane", "Migration of charged colloidal particles toward the oppositely charged electrode under an applied electric field", "Coagulation of colloids by applying electric current", "Observation of the Tyndall effect under electric field"],
+      "correctIndex": 1,
+      "explanation": "Electrophoresis proves that colloidal particles carry charge. The direction of migration reveals the sign of charge. Used in gel electrophoresis (DNA/protein separation) and industrial applications.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "electrophoresis", "colloids"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_011",
+      "goalId": "grade12-chemistry",
+      "question": "Emulsions are colloidal systems where:",
+      "options": ["A solid is dispersed in a liquid", "One liquid is dispersed as droplets in another immiscible liquid, stabilised by an emulsifying agent", "A gas is dispersed in a liquid (foam)", "A solid is dispersed in a gas (aerosol)"],
+      "correctIndex": 1,
+      "explanation": "Two types: O/W (oil-in-water) — oil droplets in water, e.g., milk, salad dressing; W/O (water-in-oil) — water droplets in oil, e.g., butter, cold cream. Emulsifying agents (soap, proteins) stabilise the interface.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "emulsions", "colloids"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_012",
+      "goalId": "grade12-chemistry",
+      "question": "Which is an example of an oil-in-water (O/W) emulsion?",
+      "options": ["Butter", "Milk", "Cold cream", "Margarine"],
+      "correctIndex": 1,
+      "explanation": "Milk is an O/W emulsion — fat droplets dispersed in water, stabilised by casein (protein emulsifier). Butter and margarine are W/O emulsions — water droplets in fat.",
+      "difficulty": "easy",
+      "tags": ["surface-chemistry", "emulsions", "examples"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_013",
+      "goalId": "grade12-chemistry",
+      "question": "Dialysis is used to purify colloids by:",
+      "options": ["Concentrating the colloidal particles by evaporation", "Removing small crystalloid molecules/ions using a semipermeable membrane while retaining larger colloidal particles", "Coagulating unwanted colloidal impurities", "Preparing fresh colloids from electrolytes"],
+      "correctIndex": 1,
+      "explanation": "In dialysis, a colloidal solution is placed in a semipermeable membrane bag (e.g., cellophane) in water. Small ions/molecules pass through; large colloidal particles cannot. Used to purify artificial colloids.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "dialysis", "purification"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_014",
+      "goalId": "grade12-chemistry",
+      "question": "How does a lyophilic colloid differ from a lyophobic colloid?",
+      "options": ["They are essentially the same with different names", "Lyophilic: solvent-attracting, stable, reversible, not easily coagulated; Lyophobic: solvent-repelling, unstable, irreversible once coagulated, sensitive to electrolytes", "Lyophilic is unstable; lyophobic is very stable", "Lyophilic has larger particle size than lyophobic"],
+      "correctIndex": 1,
+      "explanation": "Lyophilic (solvent-loving): starch, gum in water — highly stable, reform on adding solvent after evaporation. Lyophobic (solvent-hating): gold, sulphur sols — unstable, require electrostatic stabilisation, coagulate easily.",
+      "difficulty": "hard",
+      "tags": ["surface-chemistry", "lyophilic", "lyophobic", "colloids"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_015",
+      "goalId": "grade12-chemistry",
+      "question": "Heterogeneous catalysis involves:",
+      "options": ["Catalyst and reactants in the same phase (e.g., both liquid)", "Catalyst and reactants in different phases — typically a solid catalyst with gaseous or liquid reactants", "Only enzyme catalysis in biological systems", "Reactions that catalyse themselves (autocatalysis)"],
+      "correctIndex": 1,
+      "explanation": "Heterogeneous catalysis: solid catalyst + gas/liquid reactants. Reaction occurs at the solid surface. Examples: Fe catalyst (Haber process), Pt/V₂O₅ (Contact process), Ni (hydrogenation). Chemisorption is the key step.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "heterogeneous-catalysis", "catalysis"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_016",
+      "goalId": "grade12-chemistry",
+      "question": "What is Brownian motion and what does it indicate?",
+      "options": ["The sedimentation of colloidal particles — indicates they are heavy", "Random zigzag motion of colloidal particles caused by unequal bombardment by solvent molecules — proves kinetic molecular theory", "The organised flow of colloidal particles under electric field", "The rotation of colloidal particles around their axes"],
+      "correctIndex": 1,
+      "explanation": "Brownian motion (named after Robert Brown, 1827) is the constant random movement of colloidal particles. It was explained by Einstein (1905) as evidence of molecular kinetics — particles are bombarded randomly by solvent molecules.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "brownian-motion", "colloids"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_017",
+      "goalId": "grade12-chemistry",
+      "question": "What is a 'sol' in colloidal chemistry?",
+      "options": ["A solid dispersed in a gas", "A solid dispersed in a liquid (liquid-solid colloidal system)", "A liquid dispersed in a solid", "A gas dispersed in a liquid"],
+      "correctIndex": 1,
+      "explanation": "A sol is a colloidal dispersion of solid particles in a liquid. Examples: gold sol, starch sol, paint. When the liquid is water: hydrosol or aquasol. When set to a gel state: solid-in-liquid network.",
+      "difficulty": "easy",
+      "tags": ["surface-chemistry", "sol", "colloids", "types"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_018",
+      "goalId": "grade12-chemistry",
+      "question": "In heterogeneous catalysis, the catalyst works by:",
+      "options": ["Physically mixing with reactants to form new molecules", "Providing a surface for reactant molecules to adsorb, weakening bonds and facilitating reaction, then desorbing products", "Changing the equilibrium constant of the reaction", "Increasing the temperature at the reaction site"],
+      "correctIndex": 1,
+      "explanation": "Steps in heterogeneous catalysis: (1) Diffusion of reactants to surface; (2) Adsorption (chemisorption) of reactants — weakens bonds; (3) Reaction at surface; (4) Desorption of products; (5) Diffusion of products away.",
+      "difficulty": "hard",
+      "tags": ["surface-chemistry", "heterogeneous-catalysis", "mechanism"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_019",
+      "goalId": "grade12-chemistry",
+      "question": "The activation energy of adsorption in chemisorption compared to physisorption is:",
+      "options": ["Zero for both types", "Greater for chemisorption (higher energy barrier to form chemical bonds)", "Less for chemisorption (bonds form spontaneously)", "The same for both types"],
+      "correctIndex": 1,
+      "explanation": "Chemisorption requires activation energy because chemical bonds must form. Physisorption has near-zero activation energy — it occurs spontaneously (van der Waals forces act at contact). This is why chemisorption increases with temperature initially.",
+      "difficulty": "medium",
+      "tags": ["surface-chemistry", "chemisorption", "activation-energy"]
+    },
+    {
+      "id": "q_chemistry_12_surface-chemistry_020",
+      "goalId": "grade12-chemistry",
+      "question": "In the adsorption of a gas on a solid, which condition generally INCREASES the extent of adsorption?",
+      "options": ["Increasing temperature (for physisorption) and increasing pressure", "Decreasing pressure and increasing temperature", "Increasing pressure and decreasing temperature (for physisorption)", "Neither temperature nor pressure affects adsorption"],
+      "correctIndex": 2,
+      "explanation": "For physisorption: higher pressure → more gas molecules available → more adsorption. Lower temperature → molecules have less energy to escape the surface → more adsorption. This is described by adsorption isotherms (Freundlich, Langmuir).",
+      "difficulty": "hard",
+      "tags": ["surface-chemistry", "factors-affecting-adsorption", "physisorption"]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "goalId": "grade12-physics",
+  "title": "Grade 12 Physics — Magnetism and Matter",
+  "description": "Chapter 5: bar magnet, Earth's magnetism, dia/para/ferromagnetism, hysteresis",
+  "category": "school",
+  "grade": 12,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_12_magnetism-matter_001",
+      "goalId": "grade12-physics",
+      "question": "What makes a bar magnet fundamentally different from an electric dipole?",
+      "options": ["A bar magnet can be isolated into individual poles (magnetic monopoles)", "Magnetic monopoles do not exist — cutting a bar magnet always produces two smaller magnets, each with both N and S poles", "A bar magnet only attracts ferromagnetic materials", "A bar magnet has a definite electric charge"],
+      "correctIndex": 1,
+      "explanation": "Magnetic monopoles have never been observed. Every magnet, no matter how small, has both N and S poles. This is a fundamental difference from electricity, where positive and negative charges can be separated.",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "bar-magnet", "monopoles"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_002",
+      "goalId": "grade12-physics",
+      "question": "The SI unit of magnetic dipole moment is:",
+      "options": ["Tesla", "Weber", "A·m² (ampere-metre squared)", "Henry"],
+      "correctIndex": 2,
+      "explanation": "Magnetic dipole moment m = IA (current × area), with SI unit A·m². For a bar magnet, it is expressed as m = M (pole strength × 2l), with the same unit A·m².",
+      "difficulty": "easy",
+      "tags": ["magnetism-matter", "magnetic-moment", "units"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_003",
+      "goalId": "grade12-physics",
+      "question": "The magnetic field on the AXIAL line (end-on position) of a short bar magnet at distance r is:",
+      "options": ["B = (μ₀/4π) × 2M/r³", "B = (μ₀/4π) × M/r³", "B = (μ₀/4π) × M/r²", "B = (μ₀/4π) × 2M/r²"],
+      "correctIndex": 0,
+      "explanation": "On axial line: B = (μ₀/4π) × 2M/r³. On equatorial line: B = (μ₀/4π) × M/r³. Axial field is twice the equatorial field at the same distance. Both fall as r⁻³ (dipole field).",
+      "difficulty": "hard",
+      "tags": ["magnetism-matter", "bar-magnet", "axial-field"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_004",
+      "goalId": "grade12-physics",
+      "question": "The angle of declination is the angle between:",
+      "options": ["Geographic north and magnetic north (horizontal projection)", "The horizontal component and total Earth's field", "The vertical component and total Earth's field", "True north and the magnetic equator"],
+      "correctIndex": 0,
+      "explanation": "Magnetic declination is the horizontal angle between geographic (true) north and magnetic north. It varies with location and time. Ships and compasses must correct for this when navigating.",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "earths-magnetism", "declination"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_005",
+      "goalId": "grade12-physics",
+      "question": "The angle of dip (inclination) is zero at the:",
+      "options": ["Geographic poles", "Magnetic poles", "Magnetic equator", "Tropic of Capricorn"],
+      "correctIndex": 2,
+      "explanation": "The angle of dip (angle between Earth's field and the horizontal) is 0° at the magnetic equator (field is horizontal), and 90° at the magnetic poles (field is vertical).",
+      "difficulty": "easy",
+      "tags": ["magnetism-matter", "earths-magnetism", "angle-of-dip"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_006",
+      "goalId": "grade12-physics",
+      "question": "Diamagnetic materials are characterised by:",
+      "options": ["Very strong attraction to magnetic fields (χ >> 1)", "Weak repulsion from magnetic fields with small negative susceptibility (χ slightly < 0)", "Weak attraction to magnetic fields with small positive susceptibility", "Strong retention of magnetism after field removal"],
+      "correctIndex": 1,
+      "explanation": "Diamagnetic materials (Bi, Cu, Ag, water): χ is small and negative (−10⁻⁵ to −10⁻⁶). They are weakly repelled from a magnet. Due to paired electrons, no permanent magnetic moment. Superconductors are perfect diamagnets (χ = −1).",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "diamagnetic", "susceptibility"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_007",
+      "goalId": "grade12-physics",
+      "question": "Ferromagnetic materials differ from paramagnetic materials because:",
+      "options": ["Both have positive susceptibility but the same magnitude", "Ferromagnetic materials have very large positive susceptibility and form magnetic domains, retaining magnetisation after field removal", "Paramagnetic materials have domains; ferromagnetic materials do not", "Ferromagnetic materials have negative susceptibility"],
+      "correctIndex": 1,
+      "explanation": "Ferromagnetic (Fe, Co, Ni): χ >> 1 (can be thousands), form domains (aligned microscopic magnets), can be permanently magnetised, exhibit hysteresis. Paramagnetic (Al, Pt): χ is small and positive, no domains, lose magnetism when field removed.",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "ferromagnetic", "paramagnetic", "domains"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_008",
+      "goalId": "grade12-physics",
+      "question": "The Curie temperature is the temperature above which:",
+      "options": ["A substance becomes a liquid", "A ferromagnetic material loses its ferromagnetism and becomes paramagnetic", "A diamagnetic material becomes paramagnetic", "All materials lose their magnetic properties completely"],
+      "correctIndex": 1,
+      "explanation": "Above the Curie temperature (Tc), thermal agitation destroys magnetic domain alignment. Fe: Tc = 1043 K; Co: 1388 K; Ni: 627 K. Above Tc, ferromagnets become paramagnets — susceptibility follows Curie-Weiss Law.",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "curie-temperature", "ferromagnetic"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_009",
+      "goalId": "grade12-physics",
+      "question": "Magnetic hysteresis refers to:",
+      "options": ["The alignment of magnetic domains with an external field", "The lagging of magnetic flux density B behind the applied magnetising field H when a ferromagnetic material goes through a complete magnetisation cycle", "The rapid loss of magnetism at high temperatures", "The attraction between two bar magnets"],
+      "correctIndex": 1,
+      "explanation": "When a ferromagnetic material is taken through a B-H cycle, B lags behind H. The loop (hysteresis loop) shows that B depends not just on current H but on the material's magnetic history.",
+      "difficulty": "hard",
+      "tags": ["magnetism-matter", "hysteresis", "ferromagnetic"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_010",
+      "goalId": "grade12-physics",
+      "question": "The area enclosed by the hysteresis loop represents:",
+      "options": ["The magnetic susceptibility of the material", "Energy dissipated as heat per complete magnetisation cycle", "The remanence (retentivity) of the material only", "The coercivity of the material only"],
+      "correctIndex": 1,
+      "explanation": "The area of the hysteresis loop = energy loss per unit volume per cycle (in J/m³). Materials with wide loops (hard magnets) waste more energy but retain magnetism. Narrow loops (soft magnets, like soft iron) are used in transformer cores.",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "hysteresis-loop", "energy-loss"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_011",
+      "goalId": "grade12-physics",
+      "question": "For a material used to make PERMANENT magnets, which properties are needed?",
+      "options": ["Low remanence and low coercivity (easy to demagnetise)", "High remanence (retains strong magnetism after field removed) AND high coercivity (resists demagnetisation)", "Low coercivity only, regardless of remanence", "Superconducting properties only"],
+      "correctIndex": 1,
+      "explanation": "Permanent magnets need: high remanence (B remains strong when H = 0) and high coercivity (large reverse field needed to demagnetise). Example materials: Alnico, SmCo₅, Nd₂Fe₁₄B (neodymium magnets).",
+      "difficulty": "hard",
+      "tags": ["magnetism-matter", "permanent-magnets", "coercivity", "remanence"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_012",
+      "goalId": "grade12-physics",
+      "question": "Magnetic susceptibility (χ) is defined as:",
+      "options": ["B/H", "M/H (ratio of magnetisation to applied magnetising field)", "μ/μ₀", "B/M"],
+      "correctIndex": 1,
+      "explanation": "χ = M/H. It measures how easily a material is magnetised. Diamagnetic: χ < 0; Paramagnetic: χ > 0 (small); Ferromagnetic: χ >> 1. Related to relative permeability: μr = 1 + χ.",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "magnetic-susceptibility", "definition"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_013",
+      "goalId": "grade12-physics",
+      "question": "The relationship between B, H, and magnetisation M in a material is:",
+      "options": ["B = μ₀H", "B = μ₀(H + M)", "B = H + M (without μ₀)", "B = μ₀H - M"],
+      "correctIndex": 1,
+      "explanation": "B = μ₀(H + M). In vacuum: M = 0, so B = μ₀H. In a material, the magnetisation M adds to H. This can be rewritten as B = μ₀μrH where μr = 1 + χ is relative permeability.",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "B-H-M-relation", "permeability"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_014",
+      "goalId": "grade12-physics",
+      "question": "Earth's magnetic field at the surface is approximately:",
+      "options": ["0.1 T", "10⁻⁴ T (0.1 mT)", "1 T", "10⁻² T"],
+      "correctIndex": 1,
+      "explanation": "Earth's field ≈ 25–65 μT (microtesla), i.e., about 10⁻⁴ T. This is very weak — a fridge magnet is about 100× stronger. Earth's field protects us from solar wind by deflecting charged particles.",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "earths-magnetism", "magnitude"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_015",
+      "goalId": "grade12-physics",
+      "question": "Why does a compass needle point toward geographic north?",
+      "options": ["Earth's geographic north pole is actually a south magnetic pole — it attracts the N-pole of the compass needle", "Earth's geographic north coincides exactly with its magnetic north pole", "Compass needles are mechanically set to point north during manufacturing", "The compass is attracted to Earth's rotational axis, not its magnetic field"],
+      "correctIndex": 0,
+      "explanation": "Earth's geographic north pole region is actually a magnetic SOUTH pole (attracting compass N-poles). The magnetic south pole is near the geographic north pole. So the N of a compass points to geographic north because that region is magnetically south.",
+      "difficulty": "hard",
+      "tags": ["magnetism-matter", "earths-magnetism", "compass", "polarity"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_016",
+      "goalId": "grade12-physics",
+      "question": "Paramagnetic materials placed in a non-uniform magnetic field will:",
+      "options": ["Move away from stronger field regions (like diamagnetics)", "Move toward stronger field regions (weakly attracted)", "Remain stationary in any magnetic field", "Be unaffected by non-uniform fields"],
+      "correctIndex": 1,
+      "explanation": "Paramagnetic materials (Al, O₂, Pt) are weakly attracted to magnets — they move into stronger field regions. Diamagnetic materials (Bi, Cu) move out of stronger field regions. Ferromagnetics are strongly attracted.",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "paramagnetic", "field-behaviour"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_017",
+      "goalId": "grade12-physics",
+      "question": "The 'neutral points' of a bar magnet placed with its N-pole pointing geographic north are located:",
+      "options": ["At the poles of the magnet itself", "On the equatorial line of the magnet, where Earth's field and the magnet's equatorial field cancel", "On the axial line, where the two fields add up", "Everywhere equally around the magnet"],
+      "correctIndex": 1,
+      "explanation": "When N-pole points North, neutral points are on the equatorial line (East-West). Earth's northward field and the magnet's southward equatorial field cancel here. When N-pole points South, neutral points are on the axial line.",
+      "difficulty": "hard",
+      "tags": ["magnetism-matter", "neutral-points", "bar-magnet"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_018",
+      "goalId": "grade12-physics",
+      "question": "The magnetic permeability μ of a material is related to susceptibility χ by:",
+      "options": ["μ = μ₀(1 - χ)", "μ = μ₀(1 + χ)", "μ = χ/μ₀", "μ = μ₀ + χ"],
+      "correctIndex": 1,
+      "explanation": "μ = μ₀μr = μ₀(1 + χ). Relative permeability μr = 1 + χ. For diamagnetics, χ < 0 so μr < 1; for paramagnetics, χ > 0 so μr slightly > 1; for ferromagnetics, χ >> 1 so μr >> 1.",
+      "difficulty": "hard",
+      "tags": ["magnetism-matter", "permeability", "susceptibility"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_019",
+      "goalId": "grade12-physics",
+      "question": "Which material property makes soft iron suitable for transformer cores but NOT for permanent magnets?",
+      "options": ["Soft iron has very high remanence and high coercivity — ideal for retaining magnetism", "Soft iron has high permeability and low coercivity (narrow hysteresis loop = low energy loss per cycle, but cannot retain magnetism)", "Soft iron has zero susceptibility", "Soft iron has high coercivity but low remanence"],
+      "correctIndex": 1,
+      "explanation": "Soft iron (and silicon steel): narrow hysteresis loop, high permeability, low coercivity — magnetised and demagnetised easily with low energy loss. Perfect for transformers (frequent magnetic reversals). NOT for permanent magnets (cannot retain magnetism).",
+      "difficulty": "hard",
+      "tags": ["magnetism-matter", "soft-iron", "transformer-core", "hysteresis"]
+    },
+    {
+      "id": "q_physics_12_magnetism-matter_020",
+      "goalId": "grade12-physics",
+      "question": "The three elements of Earth's magnetic field are:",
+      "options": ["Longitude, latitude, and altitude", "Magnetic declination, angle of dip (inclination), and horizontal component (BH)", "North component, South component, and vertical component", "Magnetic flux, magnetic intensity, and magnetic moment"],
+      "correctIndex": 1,
+      "explanation": "The three elements completely specify Earth's field at any location: (1) Declination: angle between geographic and magnetic north; (2) Dip angle: angle of field with horizontal; (3) BH: horizontal component of Earth's total field.",
+      "difficulty": "medium",
+      "tags": ["magnetism-matter", "earths-magnetism", "three-elements"]
+    }
+  ]
+}

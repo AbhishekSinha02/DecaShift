@@ -1,0 +1,213 @@
+{
+  "goalId": "grade12-physics",
+  "title": "Grade 12 Physics — Moving Charges and Magnetism",
+  "description": "Chapter 4: Biot-Savart law, Ampere's law, Lorentz force, galvanometer, cyclotron",
+  "category": "school",
+  "grade": 12,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_12_moving-charges_001",
+      "goalId": "grade12-physics",
+      "question": "The Lorentz magnetic force on a charge q moving with velocity v in magnetic field B is:",
+      "options": ["F = qE", "F = qvB sinθ (where θ is angle between v and B)", "F = qvB/r", "F = qB/v"],
+      "correctIndex": 1,
+      "explanation": "The magnetic force F = q(v × B), with magnitude qvBsinθ. It acts perpendicular to both v and B (no work is done by magnetic force). This force causes circular motion of charged particles.",
+      "difficulty": "easy",
+      "tags": ["moving-charges", "lorentz-force", "magnetic-force"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_002",
+      "goalId": "grade12-physics",
+      "question": "The SI unit of magnetic field B is:",
+      "options": ["Gauss", "Weber", "Tesla", "Henry"],
+      "correctIndex": 2,
+      "explanation": "The SI unit of magnetic field (magnetic flux density) is Tesla (T) = kg/(A·s²) = V·s/m². 1 Gauss = 10⁻⁴ Tesla (CGS unit, still used in some contexts).",
+      "difficulty": "easy",
+      "tags": ["moving-charges", "magnetic-field", "units"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_003",
+      "goalId": "grade12-physics",
+      "question": "The Biot-Savart Law gives the magnetic field due to:",
+      "options": ["A stationary electric charge only", "A small current-carrying element (dl) at a point in space", "A permanent magnet only", "An electric dipole in a uniform field"],
+      "correctIndex": 1,
+      "explanation": "Biot-Savart: dB = (μ₀/4π) × (Idl × r̂)/r². It gives the field contribution of an infinitesimal current element. Integrating over a conductor gives the total field.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "biot-savart-law", "magnetic-field"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_004",
+      "goalId": "grade12-physics",
+      "question": "Ampere's Circuital Law states: ∮B·dl = :",
+      "options": ["μ₀I_enclosed", "ε₀I_enclosed", "μ₀ε₀I_enclosed", "I_enclosed/μ₀"],
+      "correctIndex": 0,
+      "explanation": "Ampere's Law: ∮B·dl = μ₀I_enc. The line integral of B around a closed Amperian loop equals μ₀ times the total current passing through the loop. Used to find B for symmetric current distributions.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "amperes-law", "magnetic-field"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_005",
+      "goalId": "grade12-physics",
+      "question": "A charged particle moving perpendicular to a uniform magnetic field follows a:",
+      "options": ["Straight line path", "Parabolic path", "Circular path", "Elliptical path"],
+      "correctIndex": 2,
+      "explanation": "The magnetic force is always perpendicular to velocity — it changes direction but not speed. This provides centripetal acceleration, resulting in uniform circular motion: qvB = mv²/r → r = mv/qB.",
+      "difficulty": "easy",
+      "tags": ["moving-charges", "circular-motion", "charged-particle"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_006",
+      "goalId": "grade12-physics",
+      "question": "The magnetic field at the centre of a circular loop of radius r carrying current I is:",
+      "options": ["B = μ₀I/2πr", "B = μ₀I/2r", "B = μ₀I/4πr", "B = 2μ₀I/r"],
+      "correctIndex": 1,
+      "explanation": "B = μ₀I/2r at the centre of a circular current loop. This follows from integrating the Biot-Savart Law around the loop.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "circular-loop", "magnetic-field"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_007",
+      "goalId": "grade12-physics",
+      "question": "The magnetic field at distance r from a long straight wire carrying current I is:",
+      "options": ["B = μ₀I/4πr²", "B = μ₀I/2πr", "B = μ₀I/2r", "B = μ₀Ir/2π"],
+      "correctIndex": 1,
+      "explanation": "By Ampere's Law for a long straight wire: B = μ₀I/2πr. The field forms concentric circles around the wire and decreases with distance.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "straight-wire", "amperes-law"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_008",
+      "goalId": "grade12-physics",
+      "question": "The right-hand thumb rule is used to find the direction of:",
+      "options": ["Electric field around a point charge", "Magnetic field around a current-carrying conductor", "Force on a current in an external magnetic field", "Induced EMF in a rotating coil"],
+      "correctIndex": 1,
+      "explanation": "Right-hand thumb rule: point thumb in the direction of current flow; curled fingers give the direction of the magnetic field circles around the wire.",
+      "difficulty": "easy",
+      "tags": ["moving-charges", "right-hand-rule", "direction"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_009",
+      "goalId": "grade12-physics",
+      "question": "Two long parallel wires carrying currents in the SAME direction will:",
+      "options": ["Repel each other", "Attract each other", "Have no force between them", "Rotate around each other"],
+      "correctIndex": 1,
+      "explanation": "Parallel currents attract; antiparallel currents repel. This follows from the force F = BIl — the magnetic field of one wire acts on the other. This principle defines the ampere.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "parallel-wires", "force"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_010",
+      "goalId": "grade12-physics",
+      "question": "A galvanometer is converted to an ammeter by connecting:",
+      "options": ["A high resistance in series with it", "A low resistance shunt in parallel with it", "A capacitor in series with it", "An inductor in parallel with it"],
+      "correctIndex": 1,
+      "explanation": "A shunt (small parallel resistance) allows most of the current to bypass the galvanometer, extending its range. The shunt resistance S = Ig × G / (I - Ig), where G is galvanometer resistance.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "ammeter", "galvanometer", "shunt"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_011",
+      "goalId": "grade12-physics",
+      "question": "A galvanometer is converted to a voltmeter by connecting:",
+      "options": ["A low resistance shunt in parallel", "A high resistance in series", "A capacitor in parallel", "No modification needed"],
+      "correctIndex": 1,
+      "explanation": "A high series resistance extends the voltage range. R = V/Ig - G, where Ig is full-scale deflection current and G is galvanometer resistance. High series resistance ensures the voltmeter draws very little current.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "voltmeter", "galvanometer"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_012",
+      "goalId": "grade12-physics",
+      "question": "The force per unit length between two parallel wires with currents I₁ and I₂ separated by distance d is:",
+      "options": ["F/L = μ₀I₁I₂/πd", "F/L = μ₀I₁I₂/2πd", "F/L = μ₀I₁I₂/4πd²", "F/L = 2μ₀I₁I₂/πd"],
+      "correctIndex": 1,
+      "explanation": "F/L = μ₀I₁I₂/2πd. This formula defines the ampere: 1 A is the current in each of two parallel wires 1 m apart that produces a force of 2×10⁻⁷ N/m between them.",
+      "difficulty": "hard",
+      "tags": ["moving-charges", "parallel-wires", "force-per-unit-length"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_013",
+      "goalId": "grade12-physics",
+      "question": "The moving coil galvanometer works on the principle that:",
+      "options": ["Current generates heat proportional to resistance", "A current-carrying coil in a magnetic field experiences a torque", "Magnetic field is proportional to current squared", "Resistance changes in proportion to the magnetic field"],
+      "correctIndex": 1,
+      "explanation": "Torque τ = NIAB (N turns, current I, area A, field B). The coil rotates until this torque is balanced by the restoring torque of the spring. Deflection angle ∝ current.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "galvanometer", "torque"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_014",
+      "goalId": "grade12-physics",
+      "question": "A cyclotron is a device that uses:",
+      "options": ["Only magnetic fields to accelerate particles in a linear path", "Alternating electric fields and a static magnetic field to accelerate charged particles in a spiral path to high energies", "Static electric fields only to generate very high voltages", "Nuclear reactions to produce fast particles"],
+      "correctIndex": 1,
+      "explanation": "A cyclotron uses two D-shaped magnets (dees) with alternating electric field between them. The magnetic field keeps particles in semicircular paths; the electric field accelerates them each time they cross the gap.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "cyclotron", "particle-accelerator"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_015",
+      "goalId": "grade12-physics",
+      "question": "The cyclotron frequency (resonance frequency) of a particle with charge q and mass m in field B is:",
+      "options": ["Dependent on the particle's speed", "f = qB/2πm (independent of speed and orbit radius)", "Dependent on the radius of the orbit", "f = 2πm/qB"],
+      "correctIndex": 1,
+      "explanation": "f = qB/2πm. This is independent of velocity — the key principle that makes the cyclotron work! As particles gain energy and move in larger circles, they still complete each semicircle in the same time.",
+      "difficulty": "hard",
+      "tags": ["moving-charges", "cyclotron-frequency", "cyclotron"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_016",
+      "goalId": "grade12-physics",
+      "question": "A proton and an alpha particle are accelerated through the same potential V, then enter a magnetic field B perpendicularly. What is the ratio r_proton/r_alpha?",
+      "options": ["1:1", "1:√2", "√2:1", "1:2"],
+      "correctIndex": 1,
+      "explanation": "r = mv/qB. KE = qV gives v = √(2qV/m), so r = √(2mV/q)/B. r_p = √(2m_pV/e)/B; r_α = √(2×4m_p V/2e)/B = √(4m_pV/e)/B. Ratio = √(2)/√(4) = 1/√2, i.e., r_p:r_α = 1:√2.",
+      "difficulty": "hard",
+      "tags": ["moving-charges", "radius-in-field", "numerical"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_017",
+      "goalId": "grade12-physics",
+      "question": "What is a solenoid and what is the magnetic field inside it?",
+      "options": ["A single bar magnet; field is strongest at the centre", "A long helical coil; field inside is nearly uniform: B = μ₀nI (n = turns per unit length)", "A toroidal coil; field inside varies with position", "A flat coil; field is non-uniform everywhere"],
+      "correctIndex": 1,
+      "explanation": "A solenoid (long coil) has nearly uniform field inside: B = μ₀nI. By Ampere's Law, choosing a rectangular loop, the field outside is ~0 and inside is μ₀nI. Used in electromagnets and MRI machines.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "solenoid", "magnetic-field"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_018",
+      "goalId": "grade12-physics",
+      "question": "What happens to a current-carrying conductor placed PARALLEL to a magnetic field?",
+      "options": ["It experiences maximum force (BIL)", "It experiences zero force (F = BIL sin0° = 0)", "The conductor rotates perpendicular to the field", "The current in the conductor increases"],
+      "correctIndex": 1,
+      "explanation": "F = BIL sinθ. When θ = 0° (parallel), F = 0. Maximum force occurs when θ = 90° (conductor perpendicular to field). This determines the orientation for maximum motor torque.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "force-on-conductor", "angle"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_019",
+      "goalId": "grade12-physics",
+      "question": "The magnetic field inside a toroid is:",
+      "options": ["Zero everywhere inside and outside", "Uniform and non-zero inside the toroid ring; zero outside", "Non-uniform inside, uniform outside the ring", "Identical to the field of a solenoid of the same length"],
+      "correctIndex": 1,
+      "explanation": "For an ideal toroid, Ampere's Law gives B = μ₀NI/2πr inside the toroid ring (varying slightly with r). The field outside the toroid (including the central region of the ring) is zero.",
+      "difficulty": "hard",
+      "tags": ["moving-charges", "toroid", "amperes-law"]
+    },
+    {
+      "id": "q_physics_12_moving-charges_020",
+      "goalId": "grade12-physics",
+      "question": "The net magnetic field at a point is determined by:",
+      "options": ["Only the nearest current source", "The vector sum of magnetic fields due to all individual sources (superposition principle)", "The algebraic (scalar) sum of all field magnitudes", "The product of all individual field strengths"],
+      "correctIndex": 1,
+      "explanation": "Magnetic fields obey the principle of superposition: B_net = B₁ + B₂ + B₃ + ... (vector sum). This is used when multiple wires, loops, or magnets contribute fields at a point.",
+      "difficulty": "medium",
+      "tags": ["moving-charges", "superposition", "magnetic-field"]
+    }
+  ]
+}
