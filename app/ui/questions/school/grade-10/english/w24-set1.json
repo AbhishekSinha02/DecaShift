@@ -1,0 +1,213 @@
+{
+  "goalId": "grade10-english",
+  "title": "Grade 10 English — The Making of a Scientist + Clauses",
+  "description": "First Flight Unit 6 comprehension and Grammar: Types of Clauses",
+  "category": "school",
+  "grade": 10,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_10_making-scientist_001",
+      "goalId": "grade10-english",
+      "question": "Who is the main subject of 'The Making of a Scientist'?",
+      "options": ["Albert Einstein", "Richard Ebright", "Isaac Newton", "Louis Pasteur"],
+      "correctIndex": 1,
+      "explanation": "'The Making of a Scientist' by Robert W. Peterson is about Richard Ebright, who went on to become a notable scientist after his childhood passion for collecting butterflies led to serious research.",
+      "difficulty": "easy",
+      "tags": ["making-of-scientist", "ebright", "first-flight"]
+    },
+    {
+      "id": "q_english_10_making-scientist_002",
+      "goalId": "grade10-english",
+      "question": "What was Richard Ebright's childhood interest that sparked his scientific career?",
+      "options": ["Stamp collecting and philately", "Collecting butterflies — he had collected all 25 local species by age 7", "Building model aeroplanes and rockets", "Playing chess competitively"],
+      "correctIndex": 1,
+      "explanation": "Ebright grew up in Reading, Pennsylvania, and collected butterflies from childhood. After collecting all 25 local species, he looked for new scientific challenges — this curiosity drove him toward original research.",
+      "difficulty": "easy",
+      "tags": ["making-of-scientist", "butterflies", "curiosity"]
+    },
+    {
+      "id": "q_english_10_making-scientist_003",
+      "goalId": "grade10-english",
+      "question": "What role did Ebright's mother play in his development as a scientist?",
+      "options": ["She was a professional scientist who taught him directly", "She nurtured his curiosity — giving him books, microscopes, telescopes, and taking him on educational trips", "She enrolled him in a professional research lab from age 10", "She discouraged science and wanted him to be a lawyer"],
+      "correctIndex": 1,
+      "explanation": "Ebright's mother is described as his first teacher. She encouraged his curiosity by providing books and equipment, and constantly found things to feed his growing mind — a key factor the story highlights as essential to scientific development.",
+      "difficulty": "medium",
+      "tags": ["making-of-scientist", "mothers-role", "childhood"]
+    },
+    {
+      "id": "q_english_10_making-scientist_004",
+      "goalId": "grade10-english",
+      "question": "What were the two qualities the author says are needed to become a great scientist?",
+      "options": ["Wealth and a prestigious university education", "A first-rate mind combined with the will to do real experiments", "Luck and connections to established researchers", "A strict teacher and a competitive nature"],
+      "correctIndex": 1,
+      "explanation": "The author states that Ebright had two key qualities: a first-rate mind (intelligence and curiosity) and a drive to do real scientific experiments rather than just collecting data or following others.",
+      "difficulty": "medium",
+      "tags": ["making-of-scientist", "qualities", "theme"]
+    },
+    {
+      "id": "q_english_10_making-scientist_005",
+      "goalId": "grade10-english",
+      "question": "What was Ebright's important scientific work related to monarch butterflies?",
+      "options": ["He discovered a new species of butterfly in Pennsylvania", "He found that cells could work like tiny computer chips; related to a hormone that controls insect metamorphosis", "He proved that monarch butterflies navigate using magnetic fields", "He mapped the complete migration route of monarch butterflies"],
+      "correctIndex": 1,
+      "explanation": "Ebright's college-level research showed that a hormone secreted by a tiny gold spot on monarch caterpillars triggers metamorphosis. He later theorised this related to how cells read their DNA — proposing a new theory of cell life.",
+      "difficulty": "hard",
+      "tags": ["making-of-scientist", "monarch-butterfly", "research"]
+    },
+    {
+      "id": "q_english_10_making-scientist_006",
+      "goalId": "grade10-english",
+      "question": "What role did science fairs play in Ebright's scientific development?",
+      "options": ["He always won easily without putting in real effort", "They challenged him to move beyond simple displays toward genuine original research and creative thinking", "He found them pointless and preferred to work alone", "They only tested his memory of scientific facts, not creativity"],
+      "correctIndex": 1,
+      "explanation": "Science fairs were a turning point — after early losses when judges wanted original research, not just displays, Ebright learned what real science meant. His subsequent work was increasingly original and sophisticated.",
+      "difficulty": "medium",
+      "tags": ["making-of-scientist", "science-fairs", "growth"]
+    },
+    {
+      "id": "q_english_10_making-scientist_007",
+      "goalId": "grade10-english",
+      "question": "What is the central message of 'The Making of a Scientist'?",
+      "options": ["Only people born with genius IQ can become scientists", "Curiosity nurtured from childhood, combined with a drive to do real experiments, is the foundation of scientific achievement", "Science fairs are the only path to becoming a scientist", "Fame and recognition are necessary motivations for scientific work"],
+      "correctIndex": 1,
+      "explanation": "The story shows that Ebright's greatness came from his mother's encouragement, his own boundless curiosity, and his willingness to ask real questions and design real experiments — not from innate genius alone.",
+      "difficulty": "medium",
+      "tags": ["making-of-scientist", "theme", "central-message"]
+    },
+    {
+      "id": "q_english_10_making-scientist_008",
+      "goalId": "grade10-english",
+      "question": "What does the story suggest about the importance of early mentorship?",
+      "options": ["Early mentors are irrelevant — talent alone determines success", "Ebright's mother and supportive teachers were as important as his natural ability in shaping his scientific career", "Professional laboratory training from an early age is the only mentorship that matters", "Mentors must be scientists themselves to be helpful"],
+      "correctIndex": 1,
+      "explanation": "Ebright's story emphasises that behind every scientist is someone who fed their curiosity. His mother's early nurturing and his teacher Dr. Urquhart's guidance at a critical juncture were decisive influences.",
+      "difficulty": "hard",
+      "tags": ["making-of-scientist", "mentorship", "theme"]
+    },
+    {
+      "id": "q_english_10_clauses_001",
+      "goalId": "grade10-english",
+      "question": "A clause that can stand alone as a complete sentence is called a:",
+      "options": ["Subordinate clause", "Dependent clause", "Principal (Independent) clause", "Relative clause"],
+      "correctIndex": 2,
+      "explanation": "A principal (or independent) clause has a subject and predicate and expresses a complete thought. A subordinate (dependent) clause also has a subject and predicate but cannot stand alone.",
+      "difficulty": "easy",
+      "tags": ["clauses", "independent-clause", "grammar"]
+    },
+    {
+      "id": "q_english_10_clauses_002",
+      "goalId": "grade10-english",
+      "question": "Identify the subordinate clause: 'I will go if you come.'",
+      "options": ["I will go", "if you come", "will go if", "you come"],
+      "correctIndex": 1,
+      "explanation": "'if you come' is a subordinate (dependent) clause — it begins with the subordinating conjunction 'if' and cannot stand alone as a complete sentence.",
+      "difficulty": "easy",
+      "tags": ["clauses", "subordinate-clause", "grammar"]
+    },
+    {
+      "id": "q_english_10_clauses_003",
+      "goalId": "grade10-english",
+      "question": "What type of clause is 'who came late' in: 'The boy who came late was punished.'?",
+      "options": ["Noun clause", "Adverb clause of time", "Adjective clause (relative clause)", "Principal clause"],
+      "correctIndex": 2,
+      "explanation": "'who came late' is an adjective (relative) clause — it modifies the noun 'boy' and is introduced by the relative pronoun 'who'.",
+      "difficulty": "medium",
+      "tags": ["clauses", "adjective-clause", "relative-clause"]
+    },
+    {
+      "id": "q_english_10_clauses_004",
+      "goalId": "grade10-english",
+      "question": "Identify the noun clause in: 'I know that she is honest.'",
+      "options": ["I know", "she is honest", "that she is honest", "is honest"],
+      "correctIndex": 2,
+      "explanation": "'that she is honest' is a noun clause — it functions as the object of the verb 'know', just as a noun would (I know [something] = I know that she is honest).",
+      "difficulty": "medium",
+      "tags": ["clauses", "noun-clause", "grammar"]
+    },
+    {
+      "id": "q_english_10_clauses_005",
+      "goalId": "grade10-english",
+      "question": "What is the adverb clause in: 'She ran quickly because she was late.'?",
+      "options": ["She ran quickly", "because she was late", "ran quickly because", "she was late"],
+      "correctIndex": 1,
+      "explanation": "'because she was late' is an adverb clause of reason — it modifies the verb 'ran' by telling us WHY she ran quickly.",
+      "difficulty": "medium",
+      "tags": ["clauses", "adverb-clause", "grammar"]
+    },
+    {
+      "id": "q_english_10_clauses_006",
+      "goalId": "grade10-english",
+      "question": "What type of clause is: 'What he said was surprising'?",
+      "options": ["Adjective clause modifying 'surprising'", "Adverb clause of manner", "Noun clause functioning as the subject", "An independent clause only"],
+      "correctIndex": 2,
+      "explanation": "'What he said' is a noun clause functioning as the subject of the sentence. It acts as a noun (What he said = His words).",
+      "difficulty": "medium",
+      "tags": ["clauses", "noun-clause", "subject"]
+    },
+    {
+      "id": "q_english_10_clauses_007",
+      "goalId": "grade10-english",
+      "question": "How many clauses are in: 'When the rain stopped, we went out and played football.'?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correctIndex": 2,
+      "explanation": "Three clauses: (1) 'When the rain stopped' [adverb clause]; (2) 'we went out' [main clause]; (3) '[we] played football' [coordinate clause joined by 'and'].",
+      "difficulty": "hard",
+      "tags": ["clauses", "clause-count", "grammar"]
+    },
+    {
+      "id": "q_english_10_clauses_008",
+      "goalId": "grade10-english",
+      "question": "'Though she was tired, she finished her work.' The underlined clause 'Though she was tired' is:",
+      "options": ["A noun clause expressing condition", "An adverb clause of concession", "An adjective clause modifying 'she'", "An independent principal clause"],
+      "correctIndex": 1,
+      "explanation": "An adverb clause of concession introduces a contrast or unexpected result. 'Though/Although/Even though' signals concession — the result ('finished her work') is surprising given the condition ('was tired').",
+      "difficulty": "medium",
+      "tags": ["clauses", "adverb-clause", "concession"]
+    },
+    {
+      "id": "q_english_10_clauses_009",
+      "goalId": "grade10-english",
+      "question": "Which sentence contains a relative (adjective) clause?",
+      "options": ["She said that she would come.", "I stayed because I was tired.", "The book which I borrowed is very interesting.", "If it rains, we will cancel the trip."],
+      "correctIndex": 2,
+      "explanation": "'which I borrowed' is a relative clause introduced by the relative pronoun 'which'. It modifies the noun 'book' — telling us which book is being referred to.",
+      "difficulty": "medium",
+      "tags": ["clauses", "relative-clause", "identification"]
+    },
+    {
+      "id": "q_english_10_clauses_010",
+      "goalId": "grade10-english",
+      "question": "In 'He worked hard so that he could pass,' the clause 'so that he could pass' is:",
+      "options": ["An adverb clause of reason", "An adverb clause of purpose", "An adverb clause of result", "A noun clause acting as object"],
+      "correctIndex": 1,
+      "explanation": "'so that' introduces an adverb clause of purpose — it answers the question 'Why did he work hard?' (answer: for the purpose of passing).",
+      "difficulty": "medium",
+      "tags": ["clauses", "adverb-clause", "purpose"]
+    },
+    {
+      "id": "q_english_10_clauses_011",
+      "goalId": "grade10-english",
+      "question": "Identify the types of clauses in: 'I believe that the girl who studies hard will succeed.'",
+      "options": ["All three are independent clauses", "Main clause: 'I believe'; Noun clause: 'that...will succeed'; Adjective clause: 'who studies hard'", "Main clause: 'I believe'; Adverb clause: 'that...will succeed'; Noun clause: 'who studies hard'", "Two main clauses and one adverb clause"],
+      "correctIndex": 1,
+      "explanation": "Analysis: 'I believe' = main clause; 'that the girl...will succeed' = noun clause (object of 'believe'); 'who studies hard' = adjective clause modifying 'girl'.",
+      "difficulty": "hard",
+      "tags": ["clauses", "complex-sentence", "analysis"]
+    },
+    {
+      "id": "q_english_10_clauses_012",
+      "goalId": "grade10-english",
+      "question": "What type of clause is introduced by subordinating conjunctions like 'when', 'before', 'after', 'until'?",
+      "options": ["Noun clauses", "Adjective clauses", "Adverb clauses of time", "Relative clauses"],
+      "correctIndex": 2,
+      "explanation": "Subordinating conjunctions of time (when, before, after, until, since, while, as soon as) introduce adverb clauses of time — they modify the main verb by telling WHEN the action occurs.",
+      "difficulty": "easy",
+      "tags": ["clauses", "adverb-clause", "time", "conjunctions"]
+    }
+  ]
+}

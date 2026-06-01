@@ -1,0 +1,213 @@
+{
+  "goalId": "grade10-social-science",
+  "title": "Grade 10 Social Science — Nationalism in India (Non-Cooperation Movement)",
+  "description": "History Chapter 3: Gandhi, Non-Cooperation Movement, Khilafat, Jallianwala Bagh",
+  "category": "school",
+  "grade": 10,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social-science_10_non-cooperation_001",
+      "goalId": "grade10-social-science",
+      "question": "When was the Non-Cooperation Movement launched?",
+      "options": ["1915", "1920", "1930", "1942"],
+      "correctIndex": 1,
+      "explanation": "The Non-Cooperation Movement was launched by Mahatma Gandhi in September 1920, at the Calcutta session of the Indian National Congress, and formally launched in December 1920 at Nagpur.",
+      "difficulty": "easy",
+      "tags": ["non-cooperation", "gandhi", "nationalism"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_002",
+      "goalId": "grade10-social-science",
+      "question": "What events prompted Gandhi to launch the Non-Cooperation Movement?",
+      "options": ["Only the failure of the Khilafat movement", "The Jallianwala Bagh massacre, the repressive Rowlatt Act, and British treatment of the Ottoman Caliph (Khilafat issue)", "Only the Partition of Bengal in 1905", "The failure of the Round Table Conferences"],
+      "correctIndex": 1,
+      "explanation": "Three key events converged: the Rowlatt Act (1919) allowing imprisonment without trial; the Jallianwala Bagh massacre (April 1919); and the Khilafat issue (British treatment of the Ottoman Caliph after WWI).",
+      "difficulty": "medium",
+      "tags": ["non-cooperation", "causes", "jallianwala-bagh"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_003",
+      "goalId": "grade10-social-science",
+      "question": "What happened at Jallianwala Bagh on April 13, 1919?",
+      "options": ["Gandhi gave his first public speech against the British", "General Dyer ordered troops to fire on a peaceful gathering, killing hundreds of unarmed Indians", "The Indian National Congress held its annual session", "The first Non-Cooperation Movement rally was held"],
+      "correctIndex": 1,
+      "explanation": "On Baisakhi Day, a large crowd had gathered at Jallianwala Bagh in Amritsar. General Dyer ordered troops to fire without warning on the trapped crowd, killing several hundred people and wounding thousands.",
+      "difficulty": "easy",
+      "tags": ["non-cooperation", "jallianwala-bagh", "colonial-brutality"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_004",
+      "goalId": "grade10-social-science",
+      "question": "What was the 'Khilafat issue' and how did it connect to the Non-Cooperation Movement?",
+      "options": ["A dispute over land taxes affecting Muslim farmers", "Muslim concern over the Ottoman Caliph's treatment after WWI; Gandhi linked it to Non-Cooperation to achieve Hindu-Muslim unity against British rule", "A conflict between Hindu and Muslim leaders within the Congress", "A religious dispute over mosque construction"],
+      "correctIndex": 1,
+      "explanation": "After WWI, the British dismembered the Ottoman Empire and demoted the Caliph (the Islamic religious leader). Indian Muslims were outraged. Gandhi saw this as an opportunity to forge Hindu-Muslim unity in a joint struggle.",
+      "difficulty": "medium",
+      "tags": ["non-cooperation", "khilafat", "hindu-muslim-unity"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_005",
+      "goalId": "grade10-social-science",
+      "question": "What forms of non-cooperation were adopted during the movement?",
+      "options": ["Armed resistance and guerrilla warfare against British soldiers", "Surrendering titles, boycotting civil services, army, courts, and government schools, refusing to pay taxes", "Only economic boycott of British goods — no political actions", "Letter-writing campaigns and legal petitions only"],
+      "correctIndex": 1,
+      "explanation": "The movement included surrendering titles (like 'Sir'), boycotting legislative councils, courts, schools, foreign cloth, and refusing to pay taxes. Lawyers like C.R. Das and Motilal Nehru gave up lucrative legal practices.",
+      "difficulty": "medium",
+      "tags": ["non-cooperation", "methods", "boycott"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_006",
+      "goalId": "grade10-social-science",
+      "question": "Why did Gandhi withdraw the Non-Cooperation Movement in February 1922?",
+      "options": ["He was arrested and forced to stop", "Violence at Chauri Chaura — a mob burned a police station, killing 22 policemen", "The British met all Indian demands", "The Khilafat Movement had already achieved its goal"],
+      "correctIndex": 1,
+      "explanation": "At Chauri Chaura (UP), protesters clashed with police and set fire to a police station, killing 22 policemen. Gandhi was deeply disturbed by this violence and immediately called off the movement, believing India was not yet ready for mass non-violent struggle.",
+      "difficulty": "medium",
+      "tags": ["non-cooperation", "chauri-chaura", "withdrawal"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_007",
+      "goalId": "grade10-social-science",
+      "question": "What is 'Satyagraha'?",
+      "options": ["Violent armed resistance against foreign rule", "A method of mass agitation based on the force of truth and non-violence", "A tax imposed by the British on Indian salt", "A form of traditional Indian court system"],
+      "correctIndex": 1,
+      "explanation": "Satyagraha (Sanskrit: 'truth-force') was Gandhi's method of non-violent resistance. It combined civil disobedience, non-cooperation, and moral pressure without resorting to violence.",
+      "difficulty": "easy",
+      "tags": ["non-cooperation", "satyagraha", "gandhi-method"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_008",
+      "goalId": "grade10-social-science",
+      "question": "What was the Rowlatt Act (1919)?",
+      "options": ["An act giving Indians voting rights in provincial elections", "An act that allowed the government to imprison political suspects without trial, causing nationwide outrage", "An act reducing land taxes for Indian farmers", "An act establishing Indian self-governance in local areas"],
+      "correctIndex": 1,
+      "explanation": "The Rowlatt Act (also called the 'Black Act') extended WWI emergency powers into peacetime, allowing arrest without warrant and detention without trial. Indians called it 'No appeal, no vakil, no daleel' (no appeal, no lawyer, no argument).",
+      "difficulty": "medium",
+      "tags": ["non-cooperation", "rowlatt-act", "civil-liberties"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_009",
+      "goalId": "grade10-social-science",
+      "question": "How did different social groups participate in the Non-Cooperation Movement?",
+      "options": ["Only the educated middle class and lawyers participated", "Middle-class professionals, plantation workers in Assam, peasants in Awadh protesting landlords, and Khilafat supporters all participated in different ways", "Only students boycotted schools and colleges", "Participation was limited to cities; rural India was unaffected"],
+      "correctIndex": 1,
+      "explanation": "The movement was truly national: urban professionals, Khilafat supporters, Assam tea plantation workers (who left estates), and Awadh peasants (who refused to pay taxes to landlords) all participated with their own grievances.",
+      "difficulty": "hard",
+      "tags": ["non-cooperation", "mass-movement", "participation"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_010",
+      "goalId": "grade10-social-science",
+      "question": "Who were the Ali Brothers and why were they important?",
+      "options": ["Military officers who secretly supported Gandhi", "Muhammad Ali and Shaukat Ali — Muslim leaders who joined Gandhi to create an unprecedented Hindu-Muslim united movement", "Textile mill owners who funded the movement from profits", "Writers who translated Gandhi's speeches into Urdu"],
+      "correctIndex": 1,
+      "explanation": "Muhammad Ali and Shaukat Ali were leaders of the Khilafat Movement who allied with Gandhi in 1920. Their participation made the Non-Cooperation Movement the first truly mass movement with Hindu-Muslim unity.",
+      "difficulty": "medium",
+      "tags": ["non-cooperation", "ali-brothers", "khilafat", "hindu-muslim-unity"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_011",
+      "goalId": "grade10-social-science",
+      "question": "What did Indians do with foreign-made cloth during the Non-Cooperation Movement?",
+      "options": ["They sold it at reduced prices to help the poor", "They publicly burned it and boycotted it, promoting swadeshi (Indian-made) goods instead", "They donated it to European charity organisations", "They hid it from British customs inspectors"],
+      "correctIndex": 1,
+      "explanation": "Bonfires of foreign cloth were a powerful symbol of the movement. Gandhi promoted hand-spun khadi as an alternative, making the charkha (spinning wheel) a symbol of self-reliance and resistance.",
+      "difficulty": "easy",
+      "tags": ["non-cooperation", "swadeshi", "boycott", "khadi"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_012",
+      "goalId": "grade10-social-science",
+      "question": "What was the significance of Chauri Chaura in the history of the Non-Cooperation Movement?",
+      "options": ["It was a great victory that boosted the movement's momentum", "The violence there prompted Gandhi to withdraw the movement, revealing the tension between mass mobilisation and non-violence", "It was where the movement was officially launched", "It showed British weakness and inability to suppress protests"],
+      "correctIndex": 1,
+      "explanation": "Chauri Chaura (February 1922) — where protesters burned a police station — led Gandhi to call off the movement. This decision was controversial; many leaders felt it was premature, but Gandhi placed non-violence above political victory.",
+      "difficulty": "hard",
+      "tags": ["non-cooperation", "chauri-chaura", "non-violence"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_013",
+      "goalId": "grade10-social-science",
+      "question": "What was the contradiction between Gandhi's principles and peasant actions in Awadh?",
+      "options": ["There was no contradiction — Gandhi fully approved all peasant actions", "Gandhi championed non-violence, but Awadh peasants under Baba Ramchandra attacked landlords' houses and seized grain, going beyond Gandhi's framework", "Peasants refused to participate in any form of protest", "The contradiction was only about language — Gandhi spoke English, peasants spoke Hindi"],
+      "correctIndex": 1,
+      "explanation": "In Awadh, peasants led by Baba Ramchandra had their own grievances against landlords (nai-dhobi bandh, high rents). Their militant actions sometimes crossed into violence, which Gandhi could not endorse even as he needed their numbers.",
+      "difficulty": "hard",
+      "tags": ["non-cooperation", "awadh", "peasants", "non-violence"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_014",
+      "goalId": "grade10-social-science",
+      "question": "How did plantation workers in Assam contribute to the movement?",
+      "options": ["They donated large sums of money to the Congress", "Believing Swaraj meant freedom of movement, thousands left British-owned tea estates and marched home — a direct defiance of the Inland Emigration Act", "They boycotted tea sales to British merchants", "They refused to tend to tea plants until wages improved"],
+      "correctIndex": 1,
+      "explanation": "The Inland Emigration Act prevented tea workers from leaving plantations without permission. Inspired by the Non-Cooperation call, thousands walked off the estates. They were stopped and beaten by authorities but showed remarkable courage.",
+      "difficulty": "hard",
+      "tags": ["non-cooperation", "assam", "plantation-workers"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_015",
+      "goalId": "grade10-social-science",
+      "question": "What was the lasting impact of the Non-Cooperation Movement on Indian nationalism?",
+      "options": ["It had little lasting effect as it was quickly suppressed", "It transformed the freedom struggle from an elite political affair into a mass movement involving millions across classes, regions, and religious communities", "It only affected the educated urban middle class permanently", "It weakened the Indian National Congress permanently"],
+      "correctIndex": 1,
+      "explanation": "The movement was a turning point. For the first time, millions of ordinary Indians — peasants, workers, women — participated in politics. It established Gandhi as the undisputed mass leader and showed that independence required popular mobilisation.",
+      "difficulty": "medium",
+      "tags": ["non-cooperation", "impact", "mass-movement"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_016",
+      "goalId": "grade10-social-science",
+      "question": "Which city is associated with the Jallianwala Bagh massacre?",
+      "options": ["Delhi", "Amritsar", "Lahore", "Mumbai"],
+      "correctIndex": 1,
+      "explanation": "Jallianwala Bagh is a public garden in Amritsar, Punjab. The massacre on April 13, 1919 (Baisakhi Day) became a defining moment in India's independence movement.",
+      "difficulty": "easy",
+      "tags": ["non-cooperation", "jallianwala-bagh", "amritsar"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_017",
+      "goalId": "grade10-social-science",
+      "question": "What does 'Non-Cooperation' mean in the context of Gandhi's movement?",
+      "options": ["Violent armed resistance against the British government", "Refusing to cooperate with the colonial government through peaceful withdrawal from its institutions, services, and goods", "Secret underground resistance activities against British rule", "Sending delegations abroad to build international support"],
+      "correctIndex": 1,
+      "explanation": "Non-Cooperation meant withdrawing consent from the British system — not using its courts, not studying in its schools, not working in its bureaucracy. Gandhi believed British rule was sustained by Indian cooperation, and withdrawing it would make the empire unsustainable.",
+      "difficulty": "medium",
+      "tags": ["non-cooperation", "concept", "gandhi-philosophy"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_018",
+      "goalId": "grade10-social-science",
+      "question": "What was Gandhi's vision for 'Swaraj'?",
+      "options": ["Complete immediate independence with no transition period", "Self-rule — both political independence from Britain and individual moral self-discipline; a civilisational transformation, not just a transfer of power", "Dominion status within the British Empire, similar to Canada", "A socialist state modelled on the Soviet Union"],
+      "correctIndex": 1,
+      "explanation": "For Gandhi, Swaraj was not just political independence — it meant self-rule in a deeper sense: rebuilding Indian society on Indian values, with khadi, village industries, communal harmony, and individual moral regeneration.",
+      "difficulty": "hard",
+      "tags": ["non-cooperation", "swaraj", "gandhi-philosophy"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_019",
+      "goalId": "grade10-social-science",
+      "question": "What was the relationship between the Khilafat Movement and the Non-Cooperation Movement?",
+      "options": ["They were rival, competing movements with conflicting goals", "Gandhi merged them into one broad anti-British movement in 1920, creating unprecedented Hindu-Muslim cooperation", "The Khilafat Movement was purely a religious matter with no connection to nationalism", "They were led by the same person and had always been one movement"],
+      "correctIndex": 1,
+      "explanation": "Gandhi brilliantly saw that linking the Khilafat cause (important to Muslims) with the Non-Cooperation Movement (important to all Indians) could create a united Hindu-Muslim front against British rule — the most powerful alliance since 1857.",
+      "difficulty": "medium",
+      "tags": ["non-cooperation", "khilafat", "hindu-muslim-unity"]
+    },
+    {
+      "id": "q_social-science_10_non-cooperation_020",
+      "goalId": "grade10-social-science",
+      "question": "What was the Inland Emigration Act and how did it relate to the Non-Cooperation Movement?",
+      "options": ["An act that controlled Indian migration to Britain", "A colonial law binding tea plantation workers to estates without permission to leave; workers defied it during Non-Cooperation by walking off plantations", "An act preventing Indian merchants from trading in certain areas", "A law controlling movement of goods between provinces"],
+      "correctIndex": 1,
+      "explanation": "The Inland Emigration Act (1859) bound plantation workers to British-owned tea estates. Inspired by the Non-Cooperation call, Assam workers interpreted Swaraj as freedom and left plantations en masse — a direct act of civil disobedience.",
+      "difficulty": "hard",
+      "tags": ["non-cooperation", "inland-emigration-act", "assam"]
+    }
+  ]
+}

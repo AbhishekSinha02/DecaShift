@@ -10,6 +10,10 @@
   { "file": "school/grade-10/science/w24-set1.json",            "category": "school", "grade": 10, "subject": "science",        "level": 1, "weekNum": 24 },
   { "file": "school/grade-10/english/w21-set1.json",            "category": "school", "grade": 10, "subject": "english",        "level": 1, "weekNum": 21 },
   { "file": "school/grade-10/english/w22-set1.json",            "category": "school", "grade": 10, "subject": "english",        "level": 1, "weekNum": 22 },
+  { "file": "school/grade-10/english/w23-set1.json",            "category": "school", "grade": 10, "subject": "english",        "level": 1, "weekNum": 23 },
+  { "file": "school/grade-10/english/w24-set1.json",            "category": "school", "grade": 10, "subject": "english",        "level": 1, "weekNum": 24 },
   { "file": "school/grade-10/social-science/w21-set1.json",     "category": "school", "grade": 10, "subject": "social-science", "level": 1, "weekNum": 21 },
-  { "file": "school/grade-10/social-science/w22-set1.json",     "category": "school", "grade": 10, "subject": "social-science", "level": 1, "weekNum": 22 }
+  { "file": "school/grade-10/social-science/w22-set1.json",     "category": "school", "grade": 10, "subject": "social-science", "level": 1, "weekNum": 22 },
+  { "file": "school/grade-10/social-science/w23-set1.json",     "category": "school", "grade": 10, "subject": "social-science", "level": 1, "weekNum": 23 },
+  { "file": "school/grade-10/social-science/w24-set1.json",     "category": "school", "grade": 10, "subject": "social-science", "level": 1, "weekNum": 24 }
 ]

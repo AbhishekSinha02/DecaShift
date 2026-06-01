@@ -1,0 +1,213 @@
+{
+  "goalId": "grade10-english",
+  "title": "Grade 10 English — The Hundred Dresses + Formal Letter",
+  "description": "First Flight Unit 5 comprehension and Formal Letter writing",
+  "category": "school",
+  "grade": 10,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_10_hundred-dresses_001",
+      "goalId": "grade10-english",
+      "question": "Who wrote 'The Hundred Dresses'?",
+      "options": ["O. Henry", "Eleanor Estes", "Mark Twain", "Roald Dahl"],
+      "correctIndex": 1,
+      "explanation": "'The Hundred Dresses' was written by Eleanor Estes, an American author. The story appeared in her 1944 novel of the same name and is part of CBSE Class 10's First Flight.",
+      "difficulty": "easy",
+      "tags": ["hundred-dresses", "author", "first-flight"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_002",
+      "goalId": "grade10-english",
+      "question": "Who is Wanda Petronski?",
+      "options": ["A popular girl who leads the class", "A Polish girl living in Boggins Heights who claims to own a hundred dresses", "The narrator's sister", "A new teacher at the school"],
+      "correctIndex": 1,
+      "explanation": "Wanda Petronski is a quiet Polish immigrant girl who lives in the poorer part of town (Boggins Heights) and claims to have a hundred dresses at home, though she always wears the same faded blue dress.",
+      "difficulty": "easy",
+      "tags": ["hundred-dresses", "wanda", "character"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_003",
+      "goalId": "grade10-english",
+      "question": "How many dresses did Wanda claim to own?",
+      "options": ["Ten", "Fifty", "A hundred", "Twenty-five"],
+      "correctIndex": 2,
+      "explanation": "Wanda claimed to have a hundred dresses, all lined up in her closet. The irony is that she always came to school in the same worn blue dress.",
+      "difficulty": "easy",
+      "tags": ["hundred-dresses", "plot", "irony"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_004",
+      "goalId": "grade10-english",
+      "question": "Why did the girls question Wanda about her dresses repeatedly?",
+      "options": ["They genuinely admired her fashion sense", "To mock her, since she always wore the same faded blue dress while claiming to own a hundred", "She had invited them to see her wardrobe", "It was part of a school fashion competition"],
+      "correctIndex": 1,
+      "explanation": "The 'game' of asking Wanda about her dresses was a form of bullying. The girls found it amusing to make Wanda repeat her claim while knowing she had only one dress, humiliating her.",
+      "difficulty": "medium",
+      "tags": ["hundred-dresses", "bullying", "mockery"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_005",
+      "goalId": "grade10-english",
+      "question": "Who is Maddie in the story and what does her character represent?",
+      "options": ["The main bully who leads the mockery of Wanda", "Peggy's friend who is uncomfortable about the mockery but too afraid to speak up — the silent bystander", "Wanda's loyal best friend who defends her", "The class teacher who fails to notice the bullying"],
+      "correctIndex": 1,
+      "explanation": "Maddie represents the moral coward — the bystander who knows something is wrong but stays silent out of fear of losing social status. Her guilt is a central theme of the story.",
+      "difficulty": "medium",
+      "tags": ["hundred-dresses", "maddie", "bystander", "character"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_006",
+      "goalId": "grade10-english",
+      "question": "What is the significance of Wanda's surname 'Petronski'?",
+      "options": ["It suggests she is descended from Polish nobility", "It marks her as a foreign immigrant, making her an easy target for exclusion in her American school", "It is a common American name of the era", "It indicates she is related to the school principal"],
+      "correctIndex": 1,
+      "explanation": "Wanda's distinctly Polish surname immediately marks her as 'different' in an American setting. The other children mock even her name, reflecting how immigrants were othered and excluded.",
+      "difficulty": "medium",
+      "tags": ["hundred-dresses", "wanda", "immigration", "prejudice"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_007",
+      "goalId": "grade10-english",
+      "question": "What is the central theme of 'The Hundred Dresses - Part 1'?",
+      "options": ["The importance of fashion and appearance", "The cruelty of bullying — how mockery, even when seemingly playful, causes deep harm to those who are different", "Friendship between children of different backgrounds always triumphs", "The immigrant experience in early 20th-century America is generally positive"],
+      "correctIndex": 1,
+      "explanation": "The story explores how children can be cruel to those who are different, and how silence in the face of cruelty makes one complicit. The 'hundred dresses' represent Wanda's dignity and creative inner life.",
+      "difficulty": "hard",
+      "tags": ["hundred-dresses", "theme", "bullying", "prejudice"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_008",
+      "goalId": "grade10-english",
+      "question": "What did the hundred dresses that Wanda described actually turn out to be?",
+      "options": ["Dresses her mother secretly sewed for her", "Beautiful dress designs she had drawn on paper — she was a gifted artist", "Dresses borrowed from neighbours", "They did not exist at all and Wanda had lied completely"],
+      "correctIndex": 1,
+      "explanation": "The hundred dresses were real in Wanda's imagination — she had drawn a hundred beautiful dress designs on paper. She won the school drawing competition with them, revealing her remarkable artistic talent.",
+      "difficulty": "hard",
+      "tags": ["hundred-dresses", "plot-twist", "art", "wanda"]
+    },
+    {
+      "id": "q_english_10_formal-letter_001",
+      "goalId": "grade10-english",
+      "question": "In a formal letter, where is the sender's address placed?",
+      "options": ["At the bottom left corner", "At the top right corner", "At the top left corner", "In the centre at the top"],
+      "correctIndex": 1,
+      "explanation": "In a formal letter, the sender's address appears at the top right, followed by the date below it. The recipient's address is placed on the left below the date.",
+      "difficulty": "easy",
+      "tags": ["formal-letter", "format", "writing"]
+    },
+    {
+      "id": "q_english_10_formal-letter_002",
+      "goalId": "grade10-english",
+      "question": "Which salutation is correct when you do NOT know the recipient's name?",
+      "options": ["Dear Friend,", "Hi there,", "Dear Sir/Madam,", "To My Dear,"],
+      "correctIndex": 2,
+      "explanation": "'Dear Sir/Madam,' is the standard salutation when the recipient's name is unknown. If the name is known, use 'Dear Mr./Ms. [Surname],'.",
+      "difficulty": "easy",
+      "tags": ["formal-letter", "salutation", "writing"]
+    },
+    {
+      "id": "q_english_10_formal-letter_003",
+      "goalId": "grade10-english",
+      "question": "Which complimentary close is appropriate for a formal letter that begins 'Dear Sir/Madam,'?",
+      "options": ["Love,", "Your friend,", "Yours faithfully,", "Cheers,"],
+      "correctIndex": 2,
+      "explanation": "'Yours faithfully,' is used when the letter opens with 'Dear Sir/Madam,' (unknown recipient). 'Yours sincerely,' is used when the name is known ('Dear Mr. Sharma,').",
+      "difficulty": "easy",
+      "tags": ["formal-letter", "complimentary-close", "writing"]
+    },
+    {
+      "id": "q_english_10_formal-letter_004",
+      "goalId": "grade10-english",
+      "question": "What is the correct structure of a formal letter?",
+      "options": ["Subject → Salutation → Body → Date → Address", "Sender's address → Date → Recipient's address → Salutation → Subject → Body → Complimentary close → Signature", "Body → Subject → Date → Sender's address → Signature", "Salutation → Body → Recipient's address → Date → Signature"],
+      "correctIndex": 1,
+      "explanation": "The standard formal letter format: Sender's address (top right) → Date → Recipient's address (left) → Salutation → Subject → Body paragraphs → Complimentary close → Signature.",
+      "difficulty": "medium",
+      "tags": ["formal-letter", "structure", "format"]
+    },
+    {
+      "id": "q_english_10_formal-letter_005",
+      "goalId": "grade10-english",
+      "question": "The subject line in a formal letter is placed:",
+      "options": ["After the body of the letter as a summary", "After the salutation and before the body paragraphs", "At the very end before the signature", "Before the sender's address at the top"],
+      "correctIndex": 1,
+      "explanation": "The subject line (preceded by 'Sub:' or 'Re:') appears after the salutation and before the body. It tells the reader what the letter is about at a glance.",
+      "difficulty": "medium",
+      "tags": ["formal-letter", "subject-line", "format"]
+    },
+    {
+      "id": "q_english_10_formal-letter_006",
+      "goalId": "grade10-english",
+      "question": "Which of the following is NOT a feature of formal letter language?",
+      "options": ["Polite and respectful tone throughout", "Slang words and contractions like 'can't', 'won't'", "Clear and concise sentences with specific details", "Standard format with address, date, and subject line"],
+      "correctIndex": 1,
+      "explanation": "Formal letters avoid slang, contractions, and casual language. They use full forms ('cannot' not 'can't'), polite language, and a professional tone throughout.",
+      "difficulty": "easy",
+      "tags": ["formal-letter", "language", "writing"]
+    },
+    {
+      "id": "q_english_10_formal-letter_007",
+      "goalId": "grade10-english",
+      "question": "You are writing to the editor of a newspaper about pollution in your city. This is called a:",
+      "options": ["Letter of application", "Letter to the Editor", "Letter of enquiry", "Letter of complaint to a company"],
+      "correctIndex": 1,
+      "explanation": "A 'Letter to the Editor' is written to a newspaper or magazine to express an opinion, report a problem, or raise public awareness about an issue.",
+      "difficulty": "medium",
+      "tags": ["formal-letter", "letter-types", "writing"]
+    },
+    {
+      "id": "q_english_10_formal-letter_008",
+      "goalId": "grade10-english",
+      "question": "'Yours faithfully' vs 'Yours sincerely' — which statement is correct?",
+      "options": ["Both are interchangeable in any formal letter", "'Yours faithfully' is for letters starting with 'Dear Sir/Madam'; 'Yours sincerely' is for letters starting with the recipient's name", "'Yours sincerely' is for official government letters only", "'Yours faithfully' is used only in business letters"],
+      "correctIndex": 1,
+      "explanation": "The rule: if you know the name → 'Dear Mr./Ms. X' → close with 'Yours sincerely'. If you don't know the name → 'Dear Sir/Madam' → close with 'Yours faithfully'.",
+      "difficulty": "medium",
+      "tags": ["formal-letter", "complimentary-close", "writing"]
+    },
+    {
+      "id": "q_english_10_formal-letter_009",
+      "goalId": "grade10-english",
+      "question": "Which is the best opening for a complaint letter to the Municipal Corporation about poor road conditions?",
+      "options": ["The roads here are very bad, please fix them.", "I am writing to draw your attention to the deplorable condition of roads in [area], which poses a serious risk to commuters.", "You should know that our roads are broken and someone should do something.", "Hi, I wanted to tell you about the bad roads near my house."],
+      "correctIndex": 1,
+      "explanation": "A complaint letter should state the problem clearly and formally in the opening, identify the location, and convey the seriousness — without slang or vague language.",
+      "difficulty": "hard",
+      "tags": ["formal-letter", "complaint-letter", "writing"]
+    },
+    {
+      "id": "q_english_10_formal-letter_010",
+      "goalId": "grade10-english",
+      "question": "In a formal letter's body, each paragraph should:",
+      "options": ["Contain all information jumbled together for brevity", "Cover one main idea per paragraph in a clear, focused manner", "Be written entirely in bullet points", "Be at least two pages long to show effort"],
+      "correctIndex": 1,
+      "explanation": "Formal letter body paragraphs follow the principle of one idea per paragraph: Para 1 — purpose; Para 2 — details/evidence; Para 3 — request/proposed action.",
+      "difficulty": "medium",
+      "tags": ["formal-letter", "paragraphing", "writing"]
+    },
+    {
+      "id": "q_english_10_formal-letter_011",
+      "goalId": "grade10-english",
+      "question": "You are writing to your school Principal requesting a leave of absence. Which opening line is most appropriate?",
+      "options": ["Hey Principal, I need leave next week.", "I respectfully request a leave of absence from [date] to [date] due to a family medical emergency.", "Please give me leave because I want it.", "Hi, I am writing because I need to be absent."],
+      "correctIndex": 1,
+      "explanation": "A leave application to the Principal must be formal, state exact dates, and give a clear reason. It should open with a respectful statement of the request.",
+      "difficulty": "medium",
+      "tags": ["formal-letter", "leave-application", "writing"]
+    },
+    {
+      "id": "q_english_10_formal-letter_012",
+      "goalId": "grade10-english",
+      "question": "What should the concluding paragraph of a formal complaint letter typically contain?",
+      "options": ["A personal anecdote about past experiences", "A clear statement of the action you expect the recipient to take and an expression of hope for resolution", "Repeated details about the complaint already mentioned", "A threat of legal action in all cases"],
+      "correctIndex": 1,
+      "explanation": "The closing paragraph should state what you expect — repair, refund, investigation, etc. — and express hope for a prompt response. It should be polite but firm.",
+      "difficulty": "hard",
+      "tags": ["formal-letter", "conclusion", "complaint-letter"]
+    }
+  ]
+}

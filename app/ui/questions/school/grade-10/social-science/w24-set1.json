@@ -1,0 +1,213 @@
+{
+  "goalId": "grade10-social-science",
+  "title": "Grade 10 Social Science — Water Resources",
+  "description": "Geography Chapter 3: dams, rainwater harvesting, water scarcity, traditional methods",
+  "category": "school",
+  "grade": 10,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social-science_10_water-resources_001",
+      "goalId": "grade10-social-science",
+      "question": "Why is water conservation critical in India despite having 4% of the world's freshwater?",
+      "options": ["It is not critical — India has more than enough water for all needs", "India has 16% of the world's population, extremely uneven spatial and seasonal distribution, and rising demand that makes conservation essential", "India's water is exported to neighbouring countries, reducing availability", "Water conservation is only important in desert states like Rajasthan"],
+      "correctIndex": 1,
+      "explanation": "Though India has 4% of global freshwater, with 16% of world population and highly uneven distribution (heavy rainfall in some areas, droughts in others), water stress is a growing national challenge.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "conservation", "india"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_002",
+      "goalId": "grade10-social-science",
+      "question": "What is a multipurpose river valley project?",
+      "options": ["A project only for flood control in river valleys", "A dam-based project serving multiple purposes — irrigation, hydroelectric power, flood control, water supply, fishing, and recreation", "A project to build bridges across major rivers", "A project to clean polluted river water for drinking"],
+      "correctIndex": 1,
+      "explanation": "Multipurpose projects like Bhakra Nangal, Hirakud, and Nagarjuna Sagar serve several functions simultaneously — this was Nehru's vision of dams as 'temples of modern India'.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "multipurpose-projects", "dams"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_003",
+      "goalId": "grade10-social-science",
+      "question": "Why did Jawaharlal Nehru call big dams the 'temples of modern India'?",
+      "options": ["Because they are architecturally as beautiful as ancient temples", "Because they represented modern India's development, technological progress, and industrialisation after independence", "Because they were built by religious communities", "Because they were used for religious water ceremonies"],
+      "correctIndex": 1,
+      "explanation": "Nehru used this phrase to express his belief that big dams — bringing irrigation, power, and flood control — would transform post-independence India just as temples once symbolised civilisational achievement.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "nehru", "dams", "development"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_004",
+      "goalId": "grade10-social-science",
+      "question": "What is 'rainwater harvesting'?",
+      "options": ["Generating electricity from rainfall using special turbines", "The collection and storage of rainwater at the point where it falls, for later use in wells, tanks, or recharging groundwater", "Measuring annual rainfall using meteorological instruments", "A government scheme to protect crops from hailstorms"],
+      "correctIndex": 1,
+      "explanation": "Rainwater harvesting captures rain before it runs off, stores it in tanks, ponds, or allows it to percolate underground. It is practiced in many parts of India as an ancient and modern water conservation technique.",
+      "difficulty": "easy",
+      "tags": ["water-resources", "rainwater-harvesting", "conservation"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_005",
+      "goalId": "grade10-social-science",
+      "question": "Hirakud Dam is built on which river?",
+      "options": ["Ganga", "Mahanadi", "Godavari", "Narmada"],
+      "correctIndex": 1,
+      "explanation": "Hirakud Dam, built on the Mahanadi river in Odisha, is the world's longest earthen dam. It was one of the first major multipurpose projects built after Indian independence.",
+      "difficulty": "easy",
+      "tags": ["water-resources", "hirakud-dam", "mahanadi"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_006",
+      "goalId": "grade10-social-science",
+      "question": "What are the main environmental criticisms of large dams?",
+      "options": ["They are too expensive to build and maintain", "They cause displacement of communities, submerge forests and biodiversity, disrupt river ecosystems, contribute to waterlogging and soil salinity", "They do not generate enough electricity to justify the cost", "They require too much imported technology"],
+      "correctIndex": 1,
+      "explanation": "Critics point out that large dams submerge forests (biodiversity loss), displace millions of people (often tribal communities), alter downstream ecology, increase seismic risk, and often benefit wealthy upstream farmers at the expense of downstream communities.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "dams", "environment", "criticism"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_007",
+      "goalId": "grade10-social-science",
+      "question": "What was the Narmada Bachao Andolan a protest against?",
+      "options": ["Pollution of the Narmada river by industrial waste", "The Sardar Sarovar Dam project — protesting the displacement of hundreds of thousands of tribal and rural people", "Foreign mining companies operating near the Narmada", "Thermal power plants being built on the Narmada riverbank"],
+      "correctIndex": 1,
+      "explanation": "The Narmada Bachao Andolan (Save Narmada Movement), led by Medha Patkar and others, protested the Sardar Sarovar Dam's submersion of villages and displacement of adivasi communities without adequate rehabilitation.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "narmada-bachao-andolan", "displacement"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_008",
+      "goalId": "grade10-social-science",
+      "question": "What are 'tankas' in the context of Rajasthan's traditional water conservation?",
+      "options": ["Small military watchtower structures in desert forts", "Underground cisterns built in homes to collect and store rainwater from rooftops", "A type of traditional painting depicting water gods", "Clay pots used to transport water from distant sources"],
+      "correctIndex": 1,
+      "explanation": "Tankas are underground cylindrical cisterns that have been used for centuries in Rajasthan. Rainwater collected from rooftops flows through pipes into the tanka, where it stays cool and clean for months.",
+      "difficulty": "easy",
+      "tags": ["water-resources", "tankas", "rajasthan", "traditional-methods"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_009",
+      "goalId": "grade10-social-science",
+      "question": "What is a 'johad' and where is it found?",
+      "options": ["A fish trap used in Kerala backwaters", "A traditional earthen check dam used to conserve rainwater and recharge groundwater in semi-arid Rajasthan", "A religious water reservoir beside temples in Tamil Nadu", "An irrigation canal system in Punjab"],
+      "correctIndex": 1,
+      "explanation": "Johads are crescent-shaped earthen embankments that capture rainwater runoff. They have been used for centuries in Rajasthan. Rajendra Singh of Tarun Bharat Sangh revived hundreds of johads, restoring rivers like the Arvari.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "johad", "rajasthan", "traditional-methods"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_010",
+      "goalId": "grade10-social-science",
+      "question": "The traditional 'kul' water channel system is found in which region?",
+      "options": ["Rajasthan (Thar Desert)", "Western Himalayas (Himachal Pradesh and Jammu)", "Tamil Nadu coastal plains", "Kerala backwaters"],
+      "correctIndex": 1,
+      "explanation": "Kuls are traditional diversion channels that carry water from glaciers or streams to terraced fields in the Himachal Pradesh mountains. They represent an ancient hill irrigation technique.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "kul", "himachal-pradesh", "traditional-methods"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_011",
+      "goalId": "grade10-social-science",
+      "question": "Why is overuse of groundwater a concern in India?",
+      "options": ["It increases rainfall by releasing underground moisture", "It depletes the water table, causes land subsidence, and threatens water security for future generations", "It improves soil quality by bringing minerals to the surface", "It prevents flooding in low-lying areas"],
+      "correctIndex": 1,
+      "explanation": "In states like Punjab, Haryana, and parts of Tamil Nadu, groundwater has been over-extracted for irrigation (especially with electric pumps). Water tables are falling, borewells must be dug deeper every year.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "groundwater", "depletion"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_012",
+      "goalId": "grade10-social-science",
+      "question": "Which Indian state is known for using 'bamboo drip irrigation' as a traditional conservation method?",
+      "options": ["Punjab", "Rajasthan", "Meghalaya", "Kerala"],
+      "correctIndex": 2,
+      "explanation": "The Khasi and Jaintia tribes of Meghalaya have practised bamboo drip irrigation for centuries — a 200-year-old system that diverts river water through bamboo pipes to hillside crops, wasting very little water.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "bamboo-drip-irrigation", "meghalaya", "traditional-methods"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_013",
+      "goalId": "grade10-social-science",
+      "question": "What is watershed management?",
+      "options": ["Managing the water supply infrastructure in cities", "Sustainably managing all aspects of a watershed — soil, water, vegetation — to reduce runoff, increase groundwater recharge, and prevent soil erosion", "Building large dams in river watersheds", "Managing fishing rights in river basins"],
+      "correctIndex": 1,
+      "explanation": "Watershed management involves treating a catchment area as a unit — planting trees, building check dams, terracing slopes — to slow runoff, increase soil moisture, and improve groundwater levels.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "watershed-management", "conservation"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_014",
+      "goalId": "grade10-social-science",
+      "question": "The inter-state water dispute over the Cauvery (Kaveri) river involves which states?",
+      "options": ["Punjab and Haryana", "Karnataka and Tamil Nadu (along with Kerala and Puducherry)", "Assam and Meghalaya", "Rajasthan and Gujarat"],
+      "correctIndex": 1,
+      "explanation": "The Cauvery water dispute is one of India's most contentious inter-state conflicts. Karnataka wants to retain more water for its Mysuru and Bengaluru regions; Tamil Nadu argues its farmers have historical rights to the water.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "cauvery-dispute", "inter-state-conflict"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_015",
+      "goalId": "grade10-social-science",
+      "question": "What are the benefits of rooftop rainwater harvesting in urban areas?",
+      "options": ["It generates electricity for homes", "It reduces dependence on municipal supply and groundwater, recharges local aquifers, and reduces urban flooding", "It is only useful in agricultural areas, not cities", "It mainly benefits large industries, not residential areas"],
+      "correctIndex": 1,
+      "explanation": "Urban rooftop rainwater harvesting is now mandatory in many Indian cities (Chennai made it compulsory in 2003). It recharges groundwater, reduces runoff (and flooding), and provides alternative water supply during shortages.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "rooftop-harvesting", "urban", "conservation"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_016",
+      "goalId": "grade10-social-science",
+      "question": "What are the main arguments against large dams highlighted by critics?",
+      "options": ["They create too much electricity, disrupting energy markets", "Displacement of millions (especially tribal communities), loss of biodiversity and forests, unequal benefit distribution, and sedimentation reducing lifespan", "They are too efficient and do not require ongoing management", "Governments lose tax revenue from villages submerged by reservoirs"],
+      "correctIndex": 1,
+      "explanation": "Critics argue that large dam benefits (irrigation, power) go mainly to wealthy farmers and urban consumers, while the costs (displacement, loss of land/forests) are borne disproportionately by poor and tribal communities.",
+      "difficulty": "hard",
+      "tags": ["water-resources", "dams", "criticism", "displacement"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_017",
+      "goalId": "grade10-social-science",
+      "question": "The 'Zabo' (or Ruza) system of rainwater harvesting is practiced in which state?",
+      "options": ["Rajasthan", "Nagaland", "Kerala", "Gujarat"],
+      "correctIndex": 1,
+      "explanation": "The Zabo system in Nagaland involves impounding runoff from hillsides in water tanks near the top of slopes. Water then flows through paddy fields before reaching cattle and fish ponds at the base — a beautifully integrated system.",
+      "difficulty": "hard",
+      "tags": ["water-resources", "zabo", "nagaland", "traditional-methods"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_018",
+      "goalId": "grade10-social-science",
+      "question": "Which river basin has the highest percentage of utilisable water resources in India?",
+      "options": ["Ganga basin", "Indus basin", "Godavari basin", "Brahmaputra basin"],
+      "correctIndex": 0,
+      "explanation": "The Ganga basin is the largest river basin in India and has the highest utilisable water resources, supporting the densely populated and agriculturally intensive Indo-Gangetic Plains.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "ganga-basin", "river-basins"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_019",
+      "goalId": "grade10-social-science",
+      "question": "What is the main cause of water scarcity in a region with adequate rainfall?",
+      "options": ["High altitude prevents water collection", "Deteriorated water quality due to pollution, overexploitation, and inequitable access — not just low rainfall", "All water-scarce regions have low rainfall by definition", "High temperatures evaporate all available rainfall instantly"],
+      "correctIndex": 1,
+      "explanation": "Water scarcity is not always about low rainfall. Industrial and domestic pollution, over-extraction, and poor management can make adequate rainfall areas water-scarce. Chennai receives reasonable rainfall but faces severe water stress.",
+      "difficulty": "hard",
+      "tags": ["water-resources", "water-scarcity", "pollution"]
+    },
+    {
+      "id": "q_social-science_10_water-resources_020",
+      "goalId": "grade10-social-science",
+      "question": "The 'Guls' and 'Kuhls' are traditional water harvesting channels found in:",
+      "options": ["Rajasthan and Gujarat", "Western Himalayan states (Himachal Pradesh, Uttarakhand)", "Tamil Nadu and Karnataka", "Assam and Meghalaya"],
+      "correctIndex": 1,
+      "explanation": "Guls and Kuhls are irrigation channels that divert glacial or stream water to terraced farmland in Himachal Pradesh and Uttarakhand. Communities share water distribution rights managed through traditional governance.",
+      "difficulty": "medium",
+      "tags": ["water-resources", "guls-kuhls", "himalayan-states", "traditional-methods"]
+    }
+  ]
+}
