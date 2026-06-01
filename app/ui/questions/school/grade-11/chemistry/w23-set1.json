@@ -1,0 +1,213 @@
+{
+  "goalId": "grade11-chemistry",
+  "title": "Grade 11 Chemistry — States of Matter",
+  "description": "Chapter 5: gas laws, kinetic theory, real gases, Van der Waals equation",
+  "category": "school",
+  "grade": 11,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_11_states-matter_001",
+      "goalId": "grade11-chemistry",
+      "question": "Boyle's Law states that at constant temperature, the pressure of a gas is:",
+      "options": ["Directly proportional to its volume", "Inversely proportional to its volume (P ∝ 1/V)", "Independent of its volume", "Equal to its volume divided by temperature"],
+      "correctIndex": 1,
+      "explanation": "Boyle's Law: PV = constant at constant T and n. If volume halves, pressure doubles — useful for understanding gas compression and the behaviour of syringes.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "boyles-law", "gas-laws"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_002",
+      "goalId": "grade11-chemistry",
+      "question": "At STP (Standard Temperature and Pressure), the molar volume of an ideal gas is:",
+      "options": ["11.2 L/mol", "22.4 L/mol", "44.8 L/mol", "1 L/mol"],
+      "correctIndex": 1,
+      "explanation": "At STP (0°C, 1 atm), one mole of any ideal gas occupies 22.4 litres. This is a fundamental constant in gas calculations.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "molar-volume", "STP"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_003",
+      "goalId": "grade11-chemistry",
+      "question": "The ideal gas equation is:",
+      "options": ["PV = nRT", "PV = RT", "P = nRT/V²", "PV² = nRT"],
+      "correctIndex": 0,
+      "explanation": "The ideal gas equation PV = nRT combines Boyle's, Charles's, and Avogadro's laws. P = pressure, V = volume, n = moles, R = 8.314 J/mol·K, T = temperature in Kelvin.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "ideal-gas-equation", "PV=nRT"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_004",
+      "goalId": "grade11-chemistry",
+      "question": "According to kinetic molecular theory, temperature is a measure of:",
+      "options": ["The total kinetic energy of all gas molecules", "The average kinetic energy of gas molecules", "The size of individual gas molecules", "The number of molecules per unit volume"],
+      "correctIndex": 1,
+      "explanation": "Temperature (absolute, in Kelvin) is directly proportional to the average kinetic energy per molecule: KE_avg = (3/2)kT. Higher temperature means molecules move faster on average.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "kinetic-theory", "temperature"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_005",
+      "goalId": "grade11-chemistry",
+      "question": "Dalton's Law of Partial Pressures states that:",
+      "options": ["The total volume of a gas mixture equals the sum of individual volumes", "The total pressure of a mixture of non-reacting gases equals the sum of their partial pressures", "Each gas in a mixture exerts zero pressure on the others", "Gas molecules of different types cannot coexist in the same container"],
+      "correctIndex": 1,
+      "explanation": "P_total = P₁ + P₂ + P₃ + ... Each gas in a mixture behaves independently and contributes its partial pressure proportional to its mole fraction.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "daltons-law", "partial-pressure"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_006",
+      "goalId": "grade11-chemistry",
+      "question": "The Van der Waals equation modifies the ideal gas law to account for:",
+      "options": ["Only the finite volume of gas molecules", "Both intermolecular attractive forces and the finite volume of gas molecules", "Temperature variations at high pressure", "The speed distribution of gas molecules"],
+      "correctIndex": 1,
+      "explanation": "Van der Waals equation: (P + an²/V²)(V - nb) = nRT. The 'a' term corrects for intermolecular attraction (reduces effective pressure); the 'b' term corrects for the volume occupied by molecules themselves.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "van-der-waals", "real-gases"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_007",
+      "goalId": "grade11-chemistry",
+      "question": "Graham's Law of Diffusion states that the rate of diffusion of a gas is:",
+      "options": ["Directly proportional to its molar mass", "Inversely proportional to the square root of its molar mass", "Independent of molar mass", "Directly proportional to its density"],
+      "correctIndex": 1,
+      "explanation": "r ∝ 1/√M. Lighter gases diffuse faster. This explains why hydrogen diffuses about 4× faster than oxygen (√32/√2 ≈ 4) and is used in uranium isotope separation.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "grahams-law", "diffusion"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_008",
+      "goalId": "grade11-chemistry",
+      "question": "Which gas will effuse fastest according to Graham's Law?",
+      "options": ["CO₂ (M = 44 g/mol)", "SO₂ (M = 64 g/mol)", "CH₄ (M = 16 g/mol)", "N₂ (M = 28 g/mol)"],
+      "correctIndex": 2,
+      "explanation": "CH₄ has the lowest molar mass (16 g/mol), so it diffuses/effuses fastest. Rate ∝ 1/√M: lighter = faster.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "grahams-law", "effusion"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_009",
+      "goalId": "grade11-chemistry",
+      "question": "What is the 'critical temperature' of a gas?",
+      "options": ["The temperature at which a gas instantly condenses", "The temperature above which a gas cannot be liquefied regardless of how much pressure is applied", "The boiling point of the gas at 1 atm", "The temperature at which gas molecules stop moving"],
+      "correctIndex": 1,
+      "explanation": "Above the critical temperature (Tc), kinetic energy overcomes intermolecular forces permanently and no amount of pressure can liquefy the gas. CO₂ has Tc = 304.2 K; H₂O has Tc = 647 K.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "critical-temperature", "liquefaction"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_010",
+      "goalId": "grade11-chemistry",
+      "question": "The compressibility factor Z for a real gas at moderate pressure is less than 1 because:",
+      "options": ["Gas molecules have zero volume at moderate pressure", "Intermolecular attractive forces reduce the effective pressure, making the gas more compressible than ideal", "The gas expands more than expected due to high temperature", "Z is always exactly 1 for any gas"],
+      "correctIndex": 1,
+      "explanation": "Z = PV/nRT. At moderate pressure, intermolecular attractions pull molecules together, reducing pressure below the ideal value — so Z < 1. At very high pressure, the repulsive volume effect dominates and Z > 1.",
+      "difficulty": "hard",
+      "tags": ["states-of-matter", "compressibility-factor", "real-gases"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_011",
+      "goalId": "grade11-chemistry",
+      "question": "Charles's Law states that at constant pressure, the volume of a gas:",
+      "options": ["Is inversely proportional to its absolute temperature", "Is directly proportional to its absolute temperature (V ∝ T)", "Decreases as temperature increases", "Is independent of temperature"],
+      "correctIndex": 1,
+      "explanation": "Charles's Law: V/T = constant at constant P and n. Volume increases linearly with Kelvin temperature — this is why hot air balloons rise.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "charles-law", "gas-laws"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_012",
+      "goalId": "grade11-chemistry",
+      "question": "The universal gas constant R has the value:",
+      "options": ["8.314 J/mol·K only", "0.0821 L·atm/mol·K only", "1.987 cal/mol·K only", "All of the above — they are different units of the same constant"],
+      "correctIndex": 3,
+      "explanation": "R = 8.314 J/mol·K = 0.0821 L·atm/mol·K = 1.987 cal/mol·K. You choose the unit form that matches the other units in your problem.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "gas-constant", "units"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_013",
+      "goalId": "grade11-chemistry",
+      "question": "Brownian motion in colloidal suspensions provides evidence for:",
+      "options": ["Gravity acting on particles in solution", "The continuous random motion of molecules (supporting kinetic molecular theory)", "Electrical forces between particles", "The solid-like nature of liquids at the molecular scale"],
+      "correctIndex": 1,
+      "explanation": "Brownian motion — the random zigzag movement of colloidal particles — is caused by unequal bombardment by surrounding solvent molecules. It was key evidence for the molecular theory of matter.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "brownian-motion", "kinetic-theory"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_014",
+      "goalId": "grade11-chemistry",
+      "question": "The temperature of a gas is doubled from 300 K to 600 K at constant volume. What happens to its pressure?",
+      "options": ["Pressure halves", "Pressure doubles", "Pressure remains constant", "Pressure increases by four times"],
+      "correctIndex": 1,
+      "explanation": "Gay-Lussac's Law: P/T = constant at constant V and n. If T doubles (300→600 K), P doubles. This is why pressure cookers must have safety valves.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "gay-lussacs-law", "pressure-temperature"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_015",
+      "goalId": "grade11-chemistry",
+      "question": "At absolute zero (0 K), the volume of an ideal gas would theoretically be:",
+      "options": ["Infinite — gases expand without limit", "Maximum — the gas would be at its largest", "Zero — all molecular motion ceases", "Equal to 22.4 L regardless of amount"],
+      "correctIndex": 2,
+      "explanation": "By extrapolating Charles's Law, volume → 0 as T → 0 K. In reality, all gases liquefy before reaching 0 K, but the theoretical concept defines absolute zero and the Kelvin scale.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "absolute-zero", "charles-law"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_016",
+      "goalId": "grade11-chemistry",
+      "question": "Avogadro's Law states that at the same temperature and pressure, equal volumes of all gases contain:",
+      "options": ["The same mass", "The same number of molecules", "Molecules of the same size", "The same total kinetic energy"],
+      "correctIndex": 1,
+      "explanation": "Avogadro's Law: V ∝ n at constant T and P. One mole of any gas contains 6.022 × 10²³ molecules (Avogadro's number) and occupies 22.4 L at STP.",
+      "difficulty": "easy",
+      "tags": ["states-of-matter", "avogadros-law", "gas-laws"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_017",
+      "goalId": "grade11-chemistry",
+      "question": "Which assumptions of kinetic molecular theory are violated by real gases?",
+      "options": ["That molecules have mass and move randomly — both are false for real gases", "That molecules are point masses (no volume) and have no intermolecular forces — both are incorrect for real gases", "That molecular speed increases with temperature — not true for real gases", "That molecules move in straight lines — real gases have circular motion"],
+      "correctIndex": 1,
+      "explanation": "Real gas molecules do have finite volume and do exert forces on each other (van der Waals forces). These two deviations account for all differences between ideal and real gas behaviour.",
+      "difficulty": "hard",
+      "tags": ["states-of-matter", "kinetic-theory-assumptions", "real-gases"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_018",
+      "goalId": "grade11-chemistry",
+      "question": "Liquefaction of gases is achieved by:",
+      "options": ["Heating the gas at constant pressure", "Cooling below the critical temperature and applying sufficient pressure", "Adding chemical reactants that absorb heat", "Reducing the number of gas molecules in the container"],
+      "correctIndex": 1,
+      "explanation": "To liquefy a gas: first cool it below its critical temperature (Tc), then apply pressure. Above Tc, no amount of pressure can liquefy it. Liquid nitrogen (Tc = 126 K) and liquid oxygen (Tc = 155 K) are produced this way.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "liquefaction", "critical-temperature"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_019",
+      "goalId": "grade11-chemistry",
+      "question": "A gas occupies 5 L at 1 atm. What volume will it occupy at 2 atm, at the same temperature?",
+      "options": ["10 L", "2.5 L", "5 L", "1 L"],
+      "correctIndex": 1,
+      "explanation": "Boyle's Law: P₁V₁ = P₂V₂. (1)(5) = (2)(V₂). V₂ = 5/2 = 2.5 L. Doubling pressure halves the volume.",
+      "difficulty": "medium",
+      "tags": ["states-of-matter", "boyles-law", "numerical"]
+    },
+    {
+      "id": "q_chemistry_11_states-matter_020",
+      "goalId": "grade11-chemistry",
+      "question": "The Maxwell-Boltzmann distribution shows that for a gas at a given temperature:",
+      "options": ["All molecules have the same speed", "Most molecules have speeds near the most probable speed, with very few at extremely high or low speeds", "Half the molecules are stationary at any given moment", "Molecular speed is independent of temperature"],
+      "correctIndex": 1,
+      "explanation": "The Maxwell-Boltzmann distribution is a bell-shaped curve (skewed right) showing the distribution of molecular speeds. It gives three characteristic speeds: most probable (Vp), average (Vavg), and root mean square (Vrms).",
+      "difficulty": "hard",
+      "tags": ["states-of-matter", "maxwell-boltzmann", "speed-distribution"]
+    }
+  ]
+}

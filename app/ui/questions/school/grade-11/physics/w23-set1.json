@@ -1,0 +1,213 @@
+{
+  "goalId": "grade11-physics",
+  "title": "Grade 11 Physics — Laws of Motion",
+  "description": "Chapter 5: Newton's laws, friction, momentum, impulse, equilibrium",
+  "category": "school",
+  "grade": 11,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_11_laws-motion_001",
+      "goalId": "grade11-physics",
+      "question": "Newton's First Law of Motion is also called the:",
+      "options": ["Law of Gravitation", "Law of Inertia", "Law of Action-Reaction", "Law of Acceleration"],
+      "correctIndex": 1,
+      "explanation": "Newton's First Law (Law of Inertia): a body at rest stays at rest, and a body in uniform motion continues in uniform motion, unless acted upon by an external net force.",
+      "difficulty": "easy",
+      "tags": ["laws-of-motion", "first-law", "inertia"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_002",
+      "goalId": "grade11-physics",
+      "question": "Newton's Second Law of Motion states F = :",
+      "options": ["F = mv", "F = ma", "F = m/a", "F = v/t"],
+      "correctIndex": 1,
+      "explanation": "F = ma (net force = mass × acceleration). More precisely: F = dp/dt (rate of change of momentum), which reduces to F = ma for constant mass.",
+      "difficulty": "easy",
+      "tags": ["laws-of-motion", "second-law", "force"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_003",
+      "goalId": "grade11-physics",
+      "question": "A body of mass 5 kg is acted upon by a net force of 20 N. What is the acceleration?",
+      "options": ["100 m/s²", "25 m/s²", "4 m/s²", "0.25 m/s²"],
+      "correctIndex": 2,
+      "explanation": "a = F/m = 20/5 = 4 m/s². This is a direct application of Newton's Second Law.",
+      "difficulty": "easy",
+      "tags": ["laws-of-motion", "second-law", "numerical"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_004",
+      "goalId": "grade11-physics",
+      "question": "Newton's Third Law states:",
+      "options": ["An object at rest stays at rest unless acted upon by force", "For every action there is an equal and opposite reaction", "Force equals mass times acceleration", "The total momentum of a closed system is conserved"],
+      "correctIndex": 1,
+      "explanation": "Newton's Third Law: forces always come in equal-and-opposite pairs acting on DIFFERENT objects. When you push a wall, the wall pushes you back with equal force.",
+      "difficulty": "easy",
+      "tags": ["laws-of-motion", "third-law", "action-reaction"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_005",
+      "goalId": "grade11-physics",
+      "question": "What is linear momentum?",
+      "options": ["Product of force and time", "Product of mass and velocity (p = mv)", "Product of mass and acceleration", "Product of force and displacement"],
+      "correctIndex": 1,
+      "explanation": "Linear momentum p = mv. It is a vector quantity. The SI unit is kg·m/s. Newton's Second Law can be written as F = Δp/Δt.",
+      "difficulty": "easy",
+      "tags": ["laws-of-motion", "momentum", "definition"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_006",
+      "goalId": "grade11-physics",
+      "question": "The law of conservation of momentum states:",
+      "options": ["Momentum increases with temperature", "In the absence of external forces, the total momentum of a system remains constant", "Momentum equals kinetic energy", "Momentum is always zero in a closed system"],
+      "correctIndex": 1,
+      "explanation": "Conservation of momentum: if ΣF_ext = 0, then Δp_total = 0. This is why a gun recoils when fired — the system's total momentum before and after must be equal.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "conservation-of-momentum", "third-law"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_007",
+      "goalId": "grade11-physics",
+      "question": "The coefficient of friction (μ) is defined as:",
+      "options": ["The ratio of mass to normal force", "The ratio of friction force to normal reaction force (f/N)", "The ratio of velocity to acceleration", "The ratio of applied force to area"],
+      "correctIndex": 1,
+      "explanation": "μ = f/N. The coefficient of kinetic friction (μk) is slightly less than the coefficient of static friction (μs). It depends on the nature of the surfaces, not on the area of contact.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "friction", "coefficient-of-friction"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_008",
+      "goalId": "grade11-physics",
+      "question": "Two objects collide and stick together (perfectly inelastic). Object A: 2 kg at 6 m/s; Object B: 4 kg at rest. What is the final velocity?",
+      "options": ["3 m/s", "2 m/s", "4 m/s", "1.5 m/s"],
+      "correctIndex": 1,
+      "explanation": "Conservation of momentum: m₁v₁ + m₂v₂ = (m₁+m₂)v. (2)(6) + (4)(0) = 6v. v = 12/6 = 2 m/s.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "conservation-of-momentum", "numerical"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_009",
+      "goalId": "grade11-physics",
+      "question": "Static friction is greater than kinetic friction because:",
+      "options": ["Static surfaces are always rougher than moving ones", "Molecular bonds and interlocking surface asperities form when surfaces are at rest, requiring more force to break them than to keep them sliding", "Kinetic friction depends on velocity, which is zero when static", "The normal force is greater when a body is stationary"],
+      "correctIndex": 1,
+      "explanation": "When surfaces are at rest, molecular adhesion and mechanical interlocking increase the friction. Once sliding begins, fewer contact bonds form at any instant, reducing the friction force.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "static-friction", "kinetic-friction"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_010",
+      "goalId": "grade11-physics",
+      "question": "A 10 kg object is on a surface with μs = 0.3. What is the maximum static friction force? (g = 10 m/s²)",
+      "options": ["3 N", "30 N", "10 N", "300 N"],
+      "correctIndex": 1,
+      "explanation": "Maximum static friction = μs × N = μs × mg = 0.3 × 10 × 10 = 30 N. The applied force must exceed 30 N to start the object moving.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "static-friction", "numerical"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_011",
+      "goalId": "grade11-physics",
+      "question": "What is an impulse?",
+      "options": ["A large force acting over a long period", "The change in momentum: Impulse = F × Δt = Δp", "The average speed during a collision", "Kinetic energy transferred during a collision"],
+      "correctIndex": 1,
+      "explanation": "Impulse = FΔt = Δ(mv). This is why car airbags work — they increase the collision time, reducing the peak force on the occupant (same impulse = same momentum change, but spread over longer time).",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "impulse", "momentum"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_012",
+      "goalId": "grade11-physics",
+      "question": "In which type of collision is kinetic energy conserved?",
+      "options": ["Perfectly inelastic collision", "Elastic collision", "Partially inelastic collision", "All collisions conserve kinetic energy"],
+      "correctIndex": 1,
+      "explanation": "In elastic collisions, both momentum AND kinetic energy are conserved. Billiard ball collisions approximate elastic collisions. In all other collisions, some KE is converted to heat, sound, or deformation.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "elastic-collision", "energy-conservation"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_013",
+      "goalId": "grade11-physics",
+      "question": "A gun recoils when fired. Which law explains this?",
+      "options": ["Newton's First Law (inertia)", "Newton's Second Law (F = ma)", "Newton's Third Law (action-reaction)", "Law of Conservation of Energy"],
+      "correctIndex": 2,
+      "explanation": "The gun exerts a forward force on the bullet (action); the bullet exerts an equal backward force on the gun (reaction), causing recoil. Total momentum before = 0 = total momentum after.",
+      "difficulty": "easy",
+      "tags": ["laws-of-motion", "third-law", "recoil"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_014",
+      "goalId": "grade11-physics",
+      "question": "For a particle to be in equilibrium, the condition is:",
+      "options": ["Net velocity = 0", "Net acceleration = 0", "Vector sum of all forces acting on it = 0 (ΣF = 0)", "Both net velocity and acceleration must be 0 simultaneously"],
+      "correctIndex": 2,
+      "explanation": "Equilibrium means ΣF = 0 (and Στ = 0 for rotational equilibrium). A body can be in equilibrium while moving at constant velocity (dynamic equilibrium) — it doesn't have to be stationary.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "equilibrium", "first-law"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_015",
+      "goalId": "grade11-physics",
+      "question": "A rocket accelerates by expelling gas at 500 m/s at a rate of 10 kg/s. What is the thrust force?",
+      "options": ["500 N", "5000 N", "50 N", "10000 N"],
+      "correctIndex": 1,
+      "explanation": "Thrust = (dm/dt) × v_exhaust = 10 × 500 = 5000 N. This is a direct application of Newton's Third Law and the rocket equation.",
+      "difficulty": "hard",
+      "tags": ["laws-of-motion", "rocket-propulsion", "numerical"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_016",
+      "goalId": "grade11-physics",
+      "question": "The angle of friction is the angle whose tangent equals:",
+      "options": ["The ratio of normal force to weight", "The coefficient of friction (tan θ = μ)", "The angle of the inclined plane", "The ratio of kinetic to static friction"],
+      "correctIndex": 1,
+      "explanation": "Angle of friction θ = tan⁻¹(μ). It is the angle between the normal reaction and the resultant of normal reaction and friction. It equals the angle of repose — the maximum angle before an object slides.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "angle-of-friction", "friction"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_017",
+      "goalId": "grade11-physics",
+      "question": "A pseudo force in a non-inertial (accelerating) reference frame is:",
+      "options": ["A real contact force caused by friction", "A fictitious force introduced so Newton's laws can be applied in an accelerating reference frame", "Equal in magnitude and direction to the reaction force", "The gravitational force acting on objects in the frame"],
+      "correctIndex": 1,
+      "explanation": "When you're in an accelerating car and feel 'pushed back', that's a pseudo force (= -ma). It's not a real force — it's an artefact of the non-inertial frame. Real forces always have a physical source.",
+      "difficulty": "hard",
+      "tags": ["laws-of-motion", "pseudo-force", "non-inertial-frame"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_018",
+      "goalId": "grade11-physics",
+      "question": "A block rests on a 30° incline. μs = 0.4, g = 10 m/s². Does the block slide? (sin30° = 0.5, cos30° = 0.866)",
+      "options": ["No — static friction always prevents sliding on inclines", "Yes — gravity component along incline (mgsin30°) exceeds maximum static friction (μmgcos30°)", "No — the block is too heavy to slide", "Yes — kinetic friction is less than gravity, so the block must slide"],
+      "correctIndex": 1,
+      "explanation": "For a 10 kg block: mgsin30° = 100×0.5 = 50 N; max static friction = μmgcos30° = 0.4×100×0.866 = 34.6 N. Since 50 N > 34.6 N, the block slides.",
+      "difficulty": "hard",
+      "tags": ["laws-of-motion", "friction", "inclined-plane", "numerical"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_019",
+      "goalId": "grade11-physics",
+      "question": "Which of the following correctly describes the condition for a ball thrown horizontally to hit the ground?",
+      "options": ["The horizontal velocity determines the fall time", "The height alone determines the fall time (vertical free fall: t = √(2h/g))", "Both horizontal velocity and height equally determine fall time", "The mass of the ball determines how quickly it falls"],
+      "correctIndex": 1,
+      "explanation": "Horizontal and vertical motions are independent. The ball falls under gravity regardless of horizontal velocity. t = √(2h/g) — only height matters for fall time.",
+      "difficulty": "medium",
+      "tags": ["laws-of-motion", "projectile", "horizontal-throw"]
+    },
+    {
+      "id": "q_physics_11_laws-motion_020",
+      "goalId": "grade11-physics",
+      "question": "What is the 'normal force' when a 5 kg book rests on a table? (g = 10 m/s²)",
+      "options": ["0 N (tables don't exert forces)", "50 N upward (equal and opposite to the book's weight)", "25 N downward", "100 N upward"],
+      "correctIndex": 1,
+      "explanation": "Normal force = weight = mg = 5×10 = 50 N. By Newton's Third Law, the table pushes up on the book with exactly 50 N — equal and opposite to the book's weight — keeping it in equilibrium.",
+      "difficulty": "easy",
+      "tags": ["laws-of-motion", "normal-force", "third-law"]
+    }
+  ]
+}

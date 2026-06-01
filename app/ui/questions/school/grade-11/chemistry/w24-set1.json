@@ -1,0 +1,213 @@
+{
+  "goalId": "grade11-chemistry",
+  "title": "Grade 11 Chemistry — Chemical Thermodynamics",
+  "description": "Chapter 6: enthalpy, entropy, Gibbs free energy, laws of thermodynamics",
+  "category": "school",
+  "grade": 11,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_11_thermodynamics_001",
+      "goalId": "grade11-chemistry",
+      "question": "Which of the following is a state function?",
+      "options": ["Work (W)", "Heat (q)", "Enthalpy (H)", "Both work and heat"],
+      "correctIndex": 2,
+      "explanation": "State functions depend only on the state of the system (like T, P, V), not on the path taken. Enthalpy H, internal energy U, entropy S, and Gibbs free energy G are state functions. Heat and work are path functions.",
+      "difficulty": "easy",
+      "tags": ["thermodynamics", "state-function", "enthalpy"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_002",
+      "goalId": "grade11-chemistry",
+      "question": "The standard enthalpy of formation (ΔfH°) of any element in its standard state is:",
+      "options": ["Positive — elements release energy on formation", "Negative — elements form spontaneously", "Zero — by definition", "Equal to its atomisation enthalpy"],
+      "correctIndex": 2,
+      "explanation": "By convention, the standard enthalpy of formation of every element in its most stable standard state is defined as zero. This provides a reference baseline for calculating reaction enthalpies.",
+      "difficulty": "easy",
+      "tags": ["thermodynamics", "standard-enthalpy-of-formation", "convention"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_003",
+      "goalId": "grade11-chemistry",
+      "question": "Hess's Law states that:",
+      "options": ["The enthalpy of a reaction depends on how quickly it occurs", "The total enthalpy change of a reaction is the same whether it occurs in one step or several steps (path independence of ΔH)", "Entropy always increases in any chemical process", "Exothermic reactions are always spontaneous"],
+      "correctIndex": 1,
+      "explanation": "Hess's Law follows from enthalpy being a state function. This allows us to calculate ΔH for reactions that cannot be measured directly by combining known reactions.",
+      "difficulty": "medium",
+      "tags": ["thermodynamics", "hess-law", "enthalpy"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_004",
+      "goalId": "grade11-chemistry",
+      "question": "A reaction is exothermic when:",
+      "options": ["ΔH > 0 (system absorbs heat)", "ΔH < 0 (system releases heat to surroundings)", "ΔH = 0 (no heat change)", "ΔS > 0 only"],
+      "correctIndex": 1,
+      "explanation": "Exothermic reactions release heat: ΔH < 0 (products have lower enthalpy than reactants). Examples: combustion, respiration, neutralisation. The surroundings become warmer.",
+      "difficulty": "easy",
+      "tags": ["thermodynamics", "exothermic", "enthalpy"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_005",
+      "goalId": "grade11-chemistry",
+      "question": "The Gibbs free energy equation is:",
+      "options": ["G = H + TS", "ΔG = ΔH - TΔS", "ΔG = ΔH + ΔS", "G = H/TS"],
+      "correctIndex": 1,
+      "explanation": "ΔG = ΔH - TΔS (Gibbs-Helmholtz equation). It combines enthalpy and entropy to predict spontaneity at constant T and P. ΔG < 0 → spontaneous; ΔG > 0 → non-spontaneous; ΔG = 0 → equilibrium.",
+      "difficulty": "medium",
+      "tags": ["thermodynamics", "gibbs-free-energy", "spontaneity"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_006",
+      "goalId": "grade11-chemistry",
+      "question": "Entropy is a measure of:",
+      "options": ["The heat content of a system", "The degree of disorder or randomness in a system", "The temperature of a system", "The pressure exerted by a system"],
+      "correctIndex": 1,
+      "explanation": "Entropy (S) quantifies disorder. Gases have higher entropy than liquids, which have higher entropy than solids. A reaction producing more gas molecules increases entropy.",
+      "difficulty": "easy",
+      "tags": ["thermodynamics", "entropy", "disorder"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_007",
+      "goalId": "grade11-chemistry",
+      "question": "The Second Law of Thermodynamics states that:",
+      "options": ["Energy is conserved in all processes", "The entropy of the universe always increases in a spontaneous process (ΔS_universe > 0)", "Heat can flow from cold to hot without work input", "All reactions reach equilibrium at 0 K"],
+      "correctIndex": 1,
+      "explanation": "The Second Law: ΔS_universe = ΔS_system + ΔS_surroundings > 0 for any spontaneous process. The universe always moves toward greater disorder. This is why time has a direction.",
+      "difficulty": "medium",
+      "tags": ["thermodynamics", "second-law", "entropy"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_008",
+      "goalId": "grade11-chemistry",
+      "question": "For a spontaneous reaction at constant temperature and pressure, the Gibbs free energy change (ΔG) must be:",
+      "options": ["Positive", "Negative", "Zero", "Equal to the entropy change"],
+      "correctIndex": 1,
+      "explanation": "ΔG < 0 is the criterion for spontaneity at constant T and P. Spontaneous processes always move toward lower Gibbs free energy, just as objects roll toward lower potential energy.",
+      "difficulty": "medium",
+      "tags": ["thermodynamics", "gibbs-free-energy", "spontaneity"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_009",
+      "goalId": "grade11-chemistry",
+      "question": "An endothermic reaction (ΔH > 0) can be spontaneous when:",
+      "options": ["At all temperatures — endothermic reactions are always spontaneous", "Never — endothermic reactions cannot be spontaneous", "At high temperatures where TΔS > ΔH (large positive entropy change)", "When ΔG is positive"],
+      "correctIndex": 2,
+      "explanation": "From ΔG = ΔH - TΔS: if ΔH > 0 and ΔS > 0, then at high enough T, TΔS > ΔH, making ΔG < 0 (spontaneous). Melting ice is an example: endothermic, but spontaneous above 0°C.",
+      "difficulty": "hard",
+      "tags": ["thermodynamics", "gibbs-free-energy", "endothermic", "spontaneity"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_010",
+      "goalId": "grade11-chemistry",
+      "question": "The First Law of Thermodynamics states that:",
+      "options": ["Energy can be created from nuclear reactions", "The change in internal energy (ΔU) of a system equals heat absorbed (q) plus work done on the system (w): ΔU = q + w", "Entropy is conserved in all processes", "Pressure is constant during all chemical reactions"],
+      "correctIndex": 1,
+      "explanation": "The First Law is the Law of Conservation of Energy: ΔU = q + w. The internal energy of a system changes by the heat added to it minus the work done by it (or plus work done on it).",
+      "difficulty": "medium",
+      "tags": ["thermodynamics", "first-law", "internal-energy"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_011",
+      "goalId": "grade11-chemistry",
+      "question": "The relationship between enthalpy change (ΔH) and internal energy change (ΔU) at constant pressure is:",
+      "options": ["ΔH = ΔU", "ΔH = ΔU + PΔV", "ΔH = ΔU × PΔV", "ΔH = ΔU - PΔV"],
+      "correctIndex": 1,
+      "explanation": "H = U + PV, so ΔH = ΔU + Δ(PV) = ΔU + PΔV at constant P. For reactions involving gases: PΔV = Δng × RT, where Δng = moles of gaseous products - moles of gaseous reactants.",
+      "difficulty": "medium",
+      "tags": ["thermodynamics", "enthalpy", "internal-energy"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_012",
+      "goalId": "grade11-chemistry",
+      "question": "For the reaction N₂(g) + 3H₂(g) → 2NH₃(g), what is the sign of ΔS?",
+      "options": ["ΔS > 0 because products are more complex molecules", "ΔS < 0 because 4 moles of gas (reactants) produce only 2 moles of gas (products), reducing disorder", "ΔS = 0 because no change of state occurs", "ΔS > 0 because the reaction is exothermic"],
+      "correctIndex": 1,
+      "explanation": "Going from 4 moles of gas to 2 moles of gas decreases the number of molecules (disorder), so ΔS < 0. This is one reason why the Haber process must be run at high temperature — to overcome the entropy penalty.",
+      "difficulty": "hard",
+      "tags": ["thermodynamics", "entropy-change", "haber-process"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_013",
+      "goalId": "grade11-chemistry",
+      "question": "The Third Law of Thermodynamics states that:",
+      "options": ["All reactions go to completion at 0 K", "The entropy of a perfect crystal at absolute zero (0 K) is zero — providing a reference for absolute entropy values", "Energy cannot be created at 0 K", "Gibbs free energy equals zero at absolute zero"],
+      "correctIndex": 1,
+      "explanation": "The Third Law gives a universal reference point: S = 0 for a perfect crystal at 0 K. This allows calculation of absolute (standard) entropies at any temperature by integrating heat capacity from 0 K.",
+      "difficulty": "hard",
+      "tags": ["thermodynamics", "third-law", "absolute-entropy"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_014",
+      "goalId": "grade11-chemistry",
+      "question": "The enthalpy of neutralisation of a strong acid with a strong base in dilute solution is always approximately:",
+      "options": ["+57.1 kJ/mol (endothermic)", "-57.1 kJ/mol (exothermic)", "0 kJ/mol (no change)", "Depends strongly on which acid and base are used"],
+      "correctIndex": 1,
+      "explanation": "For strong acid + strong base, the net reaction is always H⁺(aq) + OH⁻(aq) → H₂O(l), ΔH ≈ -57.1 kJ/mol. This constant value confirms that strong acids and bases are fully dissociated in dilute solution.",
+      "difficulty": "medium",
+      "tags": ["thermodynamics", "enthalpy-of-neutralisation", "acid-base"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_015",
+      "goalId": "grade11-chemistry",
+      "question": "Bond dissociation enthalpy is always:",
+      "options": ["Negative — energy is released when bonds break", "Positive — energy input is always required to break bonds", "Zero for all covalent bonds", "Variable — some bonds release energy when broken"],
+      "correctIndex": 1,
+      "explanation": "Breaking a chemical bond always requires energy input (endothermic). Bond formation always releases energy (exothermic). The sign is always positive for bond dissociation because we are breaking bonds.",
+      "difficulty": "easy",
+      "tags": ["thermodynamics", "bond-dissociation-enthalpy", "enthalpy"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_016",
+      "goalId": "grade11-chemistry",
+      "question": "If ΔG° = 0 for a reaction, what can be concluded?",
+      "options": ["The reaction is non-spontaneous in both directions", "The system is at equilibrium with K = 1", "The reaction is highly spontaneous", "ΔH and ΔS are both zero"],
+      "correctIndex": 1,
+      "explanation": "ΔG° = -RT ln K. If ΔG° = 0, then ln K = 0, so K = 1 — reactants and products are present in equal amounts at equilibrium. The reaction proceeds spontaneously in neither direction preferentially.",
+      "difficulty": "hard",
+      "tags": ["thermodynamics", "gibbs-free-energy", "equilibrium-constant"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_017",
+      "goalId": "grade11-chemistry",
+      "question": "The Born-Haber cycle is used to calculate:",
+      "options": ["Activation energy of chemical reactions", "Lattice enthalpy of ionic compounds (which cannot be measured directly)", "Standard electrode potentials", "Bond dissociation energies of covalent molecules"],
+      "correctIndex": 1,
+      "explanation": "The Born-Haber cycle applies Hess's Law to ionic compound formation, calculating the lattice enthalpy indirectly from measurable quantities like ionisation enthalpy, electron affinity, and sublimation enthalpy.",
+      "difficulty": "medium",
+      "tags": ["thermodynamics", "born-haber-cycle", "lattice-enthalpy"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_018",
+      "goalId": "grade11-chemistry",
+      "question": "Under which conditions is a reaction spontaneous regardless of temperature?",
+      "options": ["ΔH > 0 and ΔS > 0", "ΔH < 0 and ΔS < 0", "ΔH < 0 and ΔS > 0 (exothermic AND increases entropy)", "ΔH > 0 and ΔS < 0"],
+      "correctIndex": 2,
+      "explanation": "ΔG = ΔH - TΔS. If ΔH < 0 and ΔS > 0, then ΔG is negative at ALL temperatures — the reaction is always spontaneous. If ΔH > 0 and ΔS < 0, ΔG is always positive — never spontaneous.",
+      "difficulty": "hard",
+      "tags": ["thermodynamics", "spontaneity", "gibbs-free-energy"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_019",
+      "goalId": "grade11-chemistry",
+      "question": "The enthalpy of combustion is always:",
+      "options": ["Positive (endothermic)", "Negative (exothermic — heat is always released during combustion)", "Zero for hydrocarbons", "Depends on whether the product is CO₂ or CO"],
+      "correctIndex": 1,
+      "explanation": "Combustion is always exothermic (ΔH < 0) — it releases heat. Standard enthalpy of combustion values are always negative, making combustion reactions useful for energy production.",
+      "difficulty": "easy",
+      "tags": ["thermodynamics", "enthalpy-of-combustion", "exothermic"]
+    },
+    {
+      "id": "q_chemistry_11_thermodynamics_020",
+      "goalId": "grade11-chemistry",
+      "question": "Kirchhoff's equation relates enthalpy change to:",
+      "options": ["The entropy change at different pressures", "The variation of ΔH with temperature using heat capacities: ΔH₂ = ΔH₁ + ΔCp(T₂-T₁)", "The Gibbs energy and activation energy of a reaction", "The equilibrium constant at different temperatures"],
+      "correctIndex": 1,
+      "explanation": "Kirchhoff's equation: d(ΔH)/dT = ΔCp. Integrating: ΔH(T₂) = ΔH(T₁) + ΔCp(T₂-T₁). It allows calculation of ΔH at any temperature from a known value and heat capacity data.",
+      "difficulty": "hard",
+      "tags": ["thermodynamics", "kirchhoffs-equation", "heat-capacity"]
+    }
+  ]
+}

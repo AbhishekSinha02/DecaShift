@@ -1,0 +1,213 @@
+{
+  "goalId": "grade11-physics",
+  "title": "Grade 11 Physics — Work, Energy and Power",
+  "description": "Chapter 6: work-energy theorem, kinetic and potential energy, conservation, power",
+  "category": "school",
+  "grade": 11,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_11_work-energy_001",
+      "goalId": "grade11-physics",
+      "question": "Work done by a force F on an object displaced by d at angle θ to the force is:",
+      "options": ["W = Fd sinθ", "W = Fd cosθ", "W = Fd tanθ", "W = F/d"],
+      "correctIndex": 1,
+      "explanation": "W = F·d·cosθ. Only the component of force along the direction of displacement does work. If θ = 90°, W = 0 (no work done — e.g., carrying a bag horizontally).",
+      "difficulty": "easy",
+      "tags": ["work-energy", "work", "definition"]
+    },
+    {
+      "id": "q_physics_11_work-energy_002",
+      "goalId": "grade11-physics",
+      "question": "What is the work done if the force is perpendicular to displacement?",
+      "options": ["Maximum work (Fd)", "Minimum positive work", "Zero", "Negative work"],
+      "correctIndex": 2,
+      "explanation": "W = Fd cos90° = Fd × 0 = 0. The centripetal force in circular motion does no work because it is always perpendicular to velocity (= perpendicular to displacement).",
+      "difficulty": "easy",
+      "tags": ["work-energy", "work", "perpendicular"]
+    },
+    {
+      "id": "q_physics_11_work-energy_003",
+      "goalId": "grade11-physics",
+      "question": "The work-energy theorem states that:",
+      "options": ["Work done equals change in potential energy", "Net work done on an object equals its change in kinetic energy (W_net = ΔKE)", "Work = Force × Time", "Potential energy is always conserved"],
+      "correctIndex": 1,
+      "explanation": "W_net = ΔKE = ½mv₂² - ½mv₁². This connects kinematics and dynamics — work done by the net force changes the kinetic energy.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "work-energy-theorem", "kinetic-energy"]
+    },
+    {
+      "id": "q_physics_11_work-energy_004",
+      "goalId": "grade11-physics",
+      "question": "The kinetic energy of a body of mass m moving with velocity v is:",
+      "options": ["mv", "mv²", "½mv²", "2mv²"],
+      "correctIndex": 2,
+      "explanation": "KE = ½mv². This can be derived from the work-energy theorem: W = ∫F·dx = ∫ma·dx = ∫mv·(dv/dx)·dx = ∫mv dv = ½mv².",
+      "difficulty": "easy",
+      "tags": ["work-energy", "kinetic-energy", "formula"]
+    },
+    {
+      "id": "q_physics_11_work-energy_005",
+      "goalId": "grade11-physics",
+      "question": "If the speed of a body is doubled, its kinetic energy becomes:",
+      "options": ["Doubled", "Halved", "Four times", "Eight times"],
+      "correctIndex": 2,
+      "explanation": "KE = ½mv². If v → 2v, KE → ½m(2v)² = ½m·4v² = 4 × ½mv² = 4KE. Kinetic energy is proportional to the SQUARE of speed.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "kinetic-energy", "proportionality"]
+    },
+    {
+      "id": "q_physics_11_work-energy_006",
+      "goalId": "grade11-physics",
+      "question": "Power is defined as:",
+      "options": ["Work done per unit mass", "Force per unit area", "Work done per unit time (P = W/t)", "Energy per unit distance"],
+      "correctIndex": 2,
+      "explanation": "P = W/t = F·v (instantaneous power = force × velocity). The SI unit is Watt (W) = Joule/second. 1 horsepower ≈ 746 W.",
+      "difficulty": "easy",
+      "tags": ["work-energy", "power", "definition"]
+    },
+    {
+      "id": "q_physics_11_work-energy_007",
+      "goalId": "grade11-physics",
+      "question": "The gravitational potential energy of mass m at height h above a reference level is:",
+      "options": ["mh", "mg/h", "mgh", "½mgh"],
+      "correctIndex": 2,
+      "explanation": "PE = mgh. This is the work done against gravity to raise the mass from the reference level to height h. It converts to kinetic energy as the object falls.",
+      "difficulty": "easy",
+      "tags": ["work-energy", "potential-energy", "gravity"]
+    },
+    {
+      "id": "q_physics_11_work-energy_008",
+      "goalId": "grade11-physics",
+      "question": "A ball of mass m is dropped from height h. What fraction of its total mechanical energy is kinetic energy when it has fallen h/2?",
+      "options": ["Zero", "¼ of total", "½ of total", "¾ of total"],
+      "correctIndex": 2,
+      "explanation": "Total energy = mgh. At height h/2: PE = mg(h/2) = mgh/2. KE = Total - PE = mgh - mgh/2 = mgh/2 = ½ of total energy.",
+      "difficulty": "hard",
+      "tags": ["work-energy", "conservation-of-energy", "numerical"]
+    },
+    {
+      "id": "q_physics_11_work-energy_009",
+      "goalId": "grade11-physics",
+      "question": "A spring compressed by x stores potential energy E. If compression doubles to 2x, the energy stored becomes:",
+      "options": ["2E", "3E", "4E", "8E"],
+      "correctIndex": 2,
+      "explanation": "Spring PE = ½kx². If x → 2x: PE = ½k(2x)² = 4(½kx²) = 4E. Spring energy is proportional to the square of compression/extension.",
+      "difficulty": "hard",
+      "tags": ["work-energy", "spring-energy", "proportionality"]
+    },
+    {
+      "id": "q_physics_11_work-energy_010",
+      "goalId": "grade11-physics",
+      "question": "What is a conservative force?",
+      "options": ["A force that always acts in the same direction", "A force for which work done depends only on initial and final positions, not on the path taken", "A force that never does negative work", "A force that is always constant in magnitude"],
+      "correctIndex": 1,
+      "explanation": "Conservative forces (gravity, spring force, electrostatic force) have two key properties: (1) work done is path-independent; (2) work done in a closed loop = 0. They allow the definition of potential energy.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "conservative-force", "definition"]
+    },
+    {
+      "id": "q_physics_11_work-energy_011",
+      "goalId": "grade11-physics",
+      "question": "Which of the following is NOT a conservative force?",
+      "options": ["Gravity", "Elastic spring force", "Friction", "Electrostatic force between charges"],
+      "correctIndex": 2,
+      "explanation": "Friction is non-conservative — work done against friction is path-dependent (longer path = more work done) and cannot be recovered as potential energy. It converts mechanical energy to heat irreversibly.",
+      "difficulty": "easy",
+      "tags": ["work-energy", "conservative-force", "friction"]
+    },
+    {
+      "id": "q_physics_11_work-energy_012",
+      "goalId": "grade11-physics",
+      "question": "The principle of conservation of mechanical energy states that in the absence of non-conservative forces:",
+      "options": ["Kinetic energy is always constant", "Total mechanical energy (KE + PE) remains constant", "Potential energy equals kinetic energy at all times", "Energy is created by gravity as objects fall"],
+      "correctIndex": 1,
+      "explanation": "When only conservative forces act, KE + PE = constant. As a ball falls, PE decreases and KE increases by the same amount. Total mechanical energy is unchanged.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "conservation-of-energy", "mechanical-energy"]
+    },
+    {
+      "id": "q_physics_11_work-energy_013",
+      "goalId": "grade11-physics",
+      "question": "In a perfectly inelastic collision:",
+      "options": ["Both momentum and kinetic energy are conserved", "Momentum is conserved, but kinetic energy is lost (converted to heat/sound/deformation)", "Neither momentum nor kinetic energy is conserved", "Only kinetic energy is conserved"],
+      "correctIndex": 1,
+      "explanation": "In a perfectly inelastic collision, objects stick together. Momentum is always conserved (if no external forces). Maximum kinetic energy is lost — the minimum consistent with momentum conservation.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "inelastic-collision", "momentum"]
+    },
+    {
+      "id": "q_physics_11_work-energy_014",
+      "goalId": "grade11-physics",
+      "question": "An engine of power 10 kW moves a car up a smooth incline (sin θ = 0.1) at constant speed. What is the speed? (m = 1000 kg, g = 10 m/s²)",
+      "options": ["5 m/s", "10 m/s", "15 m/s", "20 m/s"],
+      "correctIndex": 1,
+      "explanation": "At constant speed, P = Fv. Force needed = mgsinθ = 1000×10×0.1 = 1000 N. v = P/F = 10000/1000 = 10 m/s.",
+      "difficulty": "hard",
+      "tags": ["work-energy", "power", "inclined-plane", "numerical"]
+    },
+    {
+      "id": "q_physics_11_work-energy_015",
+      "goalId": "grade11-physics",
+      "question": "The efficiency of a machine is defined as:",
+      "options": ["(Output power / Input power) × 100%", "(Input energy / Output energy) × 100%", "(Friction force / Applied force) × 100%", "(Potential energy / Kinetic energy) × 100%"],
+      "correctIndex": 0,
+      "explanation": "Efficiency η = (Useful output / Total input) × 100%. No real machine is 100% efficient because friction and other non-conservative forces always dissipate some energy as heat.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "efficiency", "machines"]
+    },
+    {
+      "id": "q_physics_11_work-energy_016",
+      "goalId": "grade11-physics",
+      "question": "A particle is displaced from A to B under a constant force of 10 N at 60° to the displacement of 5 m. Work done = ?",
+      "options": ["50 J", "43.3 J", "25 J", "86.6 J"],
+      "correctIndex": 2,
+      "explanation": "W = Fdcosθ = 10 × 5 × cos60° = 10 × 5 × 0.5 = 25 J.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "work", "numerical"]
+    },
+    {
+      "id": "q_physics_11_work-energy_017",
+      "goalId": "grade11-physics",
+      "question": "The dimensional formula for work/energy is:",
+      "options": ["[MLT⁻¹]", "[ML²T⁻²]", "[MLT⁻²]", "[ML⁻¹T⁻²]"],
+      "correctIndex": 1,
+      "explanation": "Work = Force × Distance = [MLT⁻²] × [L] = [ML²T⁻²]. This is the same dimension as energy (joule). Power = Work/Time = [ML²T⁻³].",
+      "difficulty": "medium",
+      "tags": ["work-energy", "dimensional-analysis", "units"]
+    },
+    {
+      "id": "q_physics_11_work-energy_018",
+      "goalId": "grade11-physics",
+      "question": "Which statement about potential energy is correct?",
+      "options": ["Potential energy is always positive", "Potential energy depends only on the position of the object (in a conservative force field)", "Potential energy can never be zero", "Potential energy equals kinetic energy at the highest point of any motion"],
+      "correctIndex": 1,
+      "explanation": "Potential energy is a function of position only in a conservative force field. It can be negative (e.g., gravitational PE relative to a reference below the object), and can be zero at chosen reference points.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "potential-energy", "conservative-force"]
+    },
+    {
+      "id": "q_physics_11_work-energy_019",
+      "goalId": "grade11-physics",
+      "question": "1 horsepower is approximately equal to:",
+      "options": ["100 W", "500 W", "746 W", "1000 W"],
+      "correctIndex": 2,
+      "explanation": "1 hp ≈ 746 W. This unit was defined by James Watt based on how much work a horse could sustain over a long period. It is still used to rate car engines and electric motors.",
+      "difficulty": "easy",
+      "tags": ["work-energy", "power", "horsepower", "units"]
+    },
+    {
+      "id": "q_physics_11_work-energy_020",
+      "goalId": "grade11-physics",
+      "question": "A 2 kg ball is thrown vertically upward with v = 20 m/s. What is its maximum height? (g = 10 m/s², ignore air resistance)",
+      "options": ["10 m", "20 m", "40 m", "80 m"],
+      "correctIndex": 1,
+      "explanation": "Using energy conservation: KE = PE at max height. ½mv² = mgh. h = v²/2g = 400/20 = 20 m. All kinetic energy converts to gravitational potential energy.",
+      "difficulty": "medium",
+      "tags": ["work-energy", "conservation-of-energy", "projectile", "numerical"]
+    }
+  ]
+}
