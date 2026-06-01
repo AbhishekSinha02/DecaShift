@@ -14,7 +14,7 @@
 
 | # | File | Type | Focus | Task |
 |---|---|---|---|---|
-| 1 | [PENDING-grade9-12-missing-content-w23-w24.md](PENDING-grade9-12-missing-content-w23-w24.md) | Content | ★★ URGENT — Grade 9-12 English/Soc-Sci/Chemistry/Physics missing for W23+W24. 16 files + manifest entries. Grade 9-12 students see blank cards without this. | Content |
+| ~~1~~ | ~~PENDING-grade9-12-missing-content-w23-w24.md~~ | ✅ DONE (2026-06-02, commit b081bb1) | 16 files × 20q = 320 questions added for grades 9-12 English/Soc-Sci/Chem/Physics W23+W24 | Content |
 | 2 | [PENDING-browser-test-p0-bugs.md](PENDING-browser-test-p0-bugs.md) | Testing | ★ P0 bugs BUG-002/003/004/005 — code looks correct but UX audit flagged as broken. Need Chrome DevTools confirmation. Fix immediately if they reproduce. | BUG-002 thru 005 |
 | 3 | [P2-T047 identity strategy](../tasks/marketing/P2-T047-identity-strategy-userid-email-mobile.md) | Strategy | Decide the durable account KEY (handle+PIN+recovery code vs email/mobile). **Needs user decision. GATES P2-T046.** | P2-T047 |
 | 4 | [PENDING-cross-device-full-state-sync.md](PENDING-cross-device-full-state-sync.md) | Code | Full progress sync across devices (XP/avatar/streak/stickers/mastery/sessions). Implements against P2-T047's chosen key. | P2-T046 |
