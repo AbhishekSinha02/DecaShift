@@ -162,7 +162,7 @@ async function _handleSignup(e) {
   let valid = true;
   if (!name)                           { _showError('err-name',     'Enter your name'); valid = false; }
   if (!email || !_validEmail(email))   { _showError('err-email',    'Enter a valid email'); valid = false; }
-  if (!mobile || mobile.length !== 10) { _showError('err-mobile',   'Enter a 10-digit mobile number'); valid = false; }
+  if (mobile && mobile.length !== 10)  { _showError('err-mobile',   'Enter a valid 10-digit number'); valid = false; }
   if (password.length < 6)             { _showError('err-password', 'Password must be at least 6 characters'); valid = false; }
   if (password !== confirm)            { _showError('err-confirm',  'Passwords do not match'); valid = false; }
 

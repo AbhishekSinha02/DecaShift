@@ -435,7 +435,7 @@ async function _showResult() {
   } else if (pct >= 60) {
     badge.textContent = 'Good'; badge.className = 'result-badge badge-good';
   } else {
-    badge.textContent = 'Needs Work'; badge.className = 'result-badge badge-needs-work';
+    badge.textContent = 'Keep Going 💪'; badge.className = 'result-badge badge-needs-work';
   }
 
   const winMsgEl = document.getElementById('result-win-message');
