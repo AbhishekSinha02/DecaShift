@@ -263,6 +263,67 @@ function _toggleArchivedSection() {
   _renderHome();
 }
 
+// ── Topic key helpers ─────────────────────────────────────────────────────────
+
+// Derive a stable topic slug from a goal's name (for grouping older cards).
+function _topicKeyFromGoal(g) {
+  if (g.conceptId && g.conceptId !== 'practice') return g.conceptId;
+  const raw = (g.name || '')
+    .replace(/^Grade\s+\d+\s+/i, '')
+    .replace(/^[^—–]+[—–]\s*/, '')
+    .trim();
+  if (!raw || raw.length < 4) return g.weekNum ? 'week-' + g.weekNum : 'practice';
+  return raw.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40);
+}
+
+// Human-readable label for a topic group (preserves original casing from goal name).
+function _topicLabel(g) {
+  if (g.conceptId && g.conceptId !== 'practice') return _conceptLabel(g.conceptId);
+  const raw = (g.name || '')
+    .replace(/^Grade\s+\d+\s+/i, '')
+    .replace(/^[^—–]+[—–]\s*/, '')
+    .trim();
+  return raw || (g.weekNum ? 'Week ' + g.weekNum : 'Practice');
+}
+
+// ── Collapsible row state ─────────────────────────────────────────────────────
+// Week rows default open  → track in ds_collapsed_rows when collapsed.
+// Topic rows default closed → track in ds_open_topics when expanded.
+
+const _COLLAPSE_KEY = 'ds_collapsed_rows';
+const _OPEN_KEY     = 'ds_open_topics';
+
+function _updateSet(key, id, add) {
+  try {
+    const s = new Set(JSON.parse(localStorage.getItem(key) || '[]'));
+    add ? s.add(id) : s.delete(id);
+    localStorage.setItem(key, JSON.stringify([...s]));
+  } catch {}
+}
+
+function _isCollapsed(rowId) {
+  if (rowId.startsWith('row-topic-')) {
+    try { return !new Set(JSON.parse(localStorage.getItem(_OPEN_KEY) || '[]')).has(rowId); }
+    catch { return true; }
+  }
+  try { return new Set(JSON.parse(localStorage.getItem(_COLLAPSE_KEY) || '[]')).has(rowId); }
+  catch { return false; }
+}
+
+function _toggleRow(rowId) {
+  const el = document.getElementById(rowId);
+  if (!el) return;
+  const nowCollapsed = !el.classList.contains('row-collapsed');
+  el.classList.toggle('row-collapsed', nowCollapsed);
+  el.querySelector('.row-chevron')?.classList.toggle('collapsed', nowCollapsed);
+  if (!nowCollapsed) requestAnimationFrame(_initShelfArrows);
+  if (rowId.startsWith('row-topic-')) {
+    _updateSet(_OPEN_KEY, rowId, !nowCollapsed);
+  } else {
+    _updateSet(_COLLAPSE_KEY, rowId, nowCollapsed);
+  }
+}
+
 // ── Netflix row renderers ─────────────────────────────────────────────────────
 
 function _renderNetflixRows(list, goals, subject, currentWeek) {
@@ -282,22 +343,42 @@ function _renderNetflixRows(list, goals, subject, currentWeek) {
     .filter(g => g.weekNum === currentWeek - 1)
     .sort((a, b) => _dayOrder(a.weekDay) - _dayOrder(b.weekDay));
 
+  // Default: collapse last week on first visit
+  if (lastWeek.length && !localStorage.getItem('ds_rows_inited')) {
+    _updateSet(_COLLAPSE_KEY, 'row-week-last', true);
+    localStorage.setItem('ds_rows_inited', '1');
+  }
+
   if (thisWeek.length) html += _buildWeekRow('This Week', thisWeek, false);
   if (lastWeek.length) html += _buildWeekRow('Last Week', lastWeek, true);
 
+  // Older goals (not this or last week) grouped by derived topic
+  const olderGoals = goals.filter(g => g.weekNum !== currentWeek && g.weekNum !== currentWeek - 1);
   const byConcept = {};
-  goals.forEach(g => {
-    const cid = g.conceptId || 'practice';
-    (byConcept[cid] = byConcept[cid] || []).push(g);
+  olderGoals.forEach(g => {
+    const cid = _topicKeyFromGoal(g);
+    if (!byConcept[cid]) byConcept[cid] = { label: _topicLabel(g), goals: [] };
+    byConcept[cid].goals.push(g);
   });
 
-  Object.entries(byConcept)
+  const topicEntries = Object.entries(byConcept)
     .sort(([, a], [, b]) =>
-      Math.max(...b.map(g => g.weekNum || 0)) - Math.max(...a.map(g => g.weekNum || 0))
-    )
-    .forEach(([cid, cGoals]) => { html += _buildTopicRow(cid, cGoals); });
+      Math.max(...b.goals.map(g => g.weekNum || 0)) - Math.max(...a.goals.map(g => g.weekNum || 0))
+    );
 
-  if (!thisWeek.length && !lastWeek.length && !Object.keys(byConcept).length) {
+  const MAX_TOPICS = 5;
+  const visible = state.showAllTopics ? topicEntries : topicEntries.slice(0, MAX_TOPICS);
+  visible.forEach(([cid, { label, goals: cGoals }]) => { html += _buildTopicRow(cid, cGoals, label); });
+
+  if (topicEntries.length > MAX_TOPICS && !state.showAllTopics) {
+    html += `<div class="show-more-row">
+      <button class="btn btn-ghost btn-sm" onclick="state.showAllTopics=true;_renderHome()">
+        Show ${topicEntries.length - MAX_TOPICS} more topics ↓
+      </button>
+    </div>`;
+  }
+
+  if (!thisWeek.length && !lastWeek.length && !topicEntries.length) {
     const subLabel = (SUBJECT_STYLE[subject] || {}).icon
       ? (SUBJECT_STYLE[subject].icon + ' ')
       : '';
@@ -314,7 +395,9 @@ function _renderNetflixRows(list, goals, subject, currentWeek) {
 
 function _renderFlashDrills() {
   const wrap = document.getElementById('flash-drill-wrap');
-  if (wrap) wrap.innerHTML = _buildDrillRow();
+  if (!wrap) return;
+  const showDrills = !state.user || state.subjectFilter === 'mathematics' || state.subjectFilter === 'all';
+  wrap.innerHTML = showDrills ? _buildDrillRow() : '';
 }
 
 // Wrap a horizontal card track with Netflix-style edge arrows. Arrows are shown
@@ -384,18 +467,25 @@ function _buildDrillRow() {
 
 function _buildWeekRow(label, goals, isPast) {
   const weekNum   = goals[0]?.weekNum;
-  const weekLabel = weekNum ? `${label} (${_weekRangeStr(isPast)})` : label;
-  return `<div class="netflix-row">
-    <div class="netflix-row-label">${weekLabel}
+  const weekLabel = weekNum ? `${label} · ${_weekRangeStr(isPast)}` : label;
+  const rowId     = isPast ? 'row-week-last' : 'row-week-current';
+  const collapsed = _isCollapsed(rowId);
+  const chevron   = `<span class="row-chevron${collapsed ? ' collapsed' : ''}">›</span>`;
+  return `<div class="netflix-row${collapsed ? ' row-collapsed' : ''}" id="${rowId}">
+    <div class="netflix-row-label collapsible-header" onclick="_toggleRow('${rowId}')">
+      ${weekLabel}
       <span class="netflix-row-count">${goals.length} sets</span>
+      ${chevron}
     </div>
-    ${_shelfHtml(goals.map(g => _dayCardHtml(g, isPast)).join(''))}
+    <div class="row-body">
+      ${_shelfHtml(goals.map(g => _dayCardHtml(g, isPast)).join(''))}
+    </div>
   </div>`;
 }
 
-function _buildTopicRow(conceptId, goals) {
+function _buildTopicRow(conceptId, goals, label) {
   if (!goals.length) return '';
-  const label   = _conceptLabel(conceptId);
+  label = label || _conceptLabel(conceptId);
   const sorted  = goals.slice().sort((a, b) =>
     (b.weekNum - a.weekNum) || (_dayOrder(a.weekDay) - _dayOrder(b.weekDay))
   );
@@ -405,17 +495,65 @@ function _buildTopicRow(conceptId, goals) {
     const s = Storage.getLastSessionForGoal(g.id);
     return s && new Date(s.sessionEnd).toDateString() !== 'Invalid Date';
   }).length;
-  const dots    = Array.from({ length: total }, (_, i) =>
+  const dotCount = Math.min(total, 10);
+  const dots    = Array.from({ length: dotCount }, (_, i) =>
     `<span class="concept-dot${i < done ? ' done' : ''}" style="${i < done ? `background:${subjectColor}` : ''}"></span>`
   ).join('');
 
-  return `<div class="netflix-row">
-    <div class="netflix-row-label">
+  const rowId     = 'row-topic-' + conceptId;
+  const collapsed = _isCollapsed(rowId);
+  const chevron   = `<span class="row-chevron${collapsed ? ' collapsed' : ''}">›</span>`;
+
+  const header = `<div class="netflix-row-label collapsible-header" onclick="_toggleRow('${rowId}')">
       <span class="concept-label-text">${label}</span>
       <span class="concept-dots">${dots}</span>
       <span class="netflix-row-count">${done} of ${total} done</span>
+      ${chevron}
+    </div>`;
+
+  if (sorted.length <= 5) {
+    return `<div class="netflix-row${collapsed ? ' row-collapsed' : ''}" id="${rowId}">
+    ${header}
+    <div class="row-body">
+      ${_shelfHtml(sorted.map(g => _dayCardHtml(g, false)).join(''))}
     </div>
-    ${_shelfHtml(sorted.map(g => _dayCardHtml(g, false)).join(''))}
+  </div>`;
+  }
+
+  // >5 cards: split by difficulty
+  const byDiff = { easy: [], medium: [], hard: [] };
+  sorted.forEach(g => {
+    let diff = 'medium';
+    if (g.level != null) {
+      diff = g.level <= 1 ? 'easy' : g.level === 2 ? 'medium' : 'hard';
+    } else if (g.weekDay) {
+      const ord = _dayOrder(g.weekDay);
+      diff = ord <= 1 ? 'easy' : ord <= 3 ? 'medium' : 'hard';
+    }
+    byDiff[diff].push(g);
+  });
+
+  let inner = '';
+  if (byDiff.easy.length)   inner += _buildDiffShelf('Easy',   byDiff.easy,   rowId + '-easy');
+  if (byDiff.medium.length) inner += _buildDiffShelf('Medium', byDiff.medium, rowId + '-medium');
+  if (byDiff.hard.length)   inner += _buildDiffShelf('Hard',   byDiff.hard,   rowId + '-hard');
+
+  return `<div class="netflix-row topic-group${collapsed ? ' row-collapsed' : ''}" id="${rowId}">
+    ${header}
+    <div class="row-body">${inner}</div>
+  </div>`;
+}
+
+function _buildDiffShelf(label, goals, rowId) {
+  const collapsed = _isCollapsed(rowId);
+  return `<div class="diff-shelf${collapsed ? ' row-collapsed' : ''}" id="${rowId}">
+    <div class="diff-shelf-label collapsible-header" onclick="_toggleRow('${rowId}')">
+      ${label}
+      <span class="row-chevron${collapsed ? ' collapsed' : ''}">›</span>
+    </div>
+    <div class="row-body">
+      ${_shelfHtml(goals.map(g => _dayCardHtml(g, false)).join(''))}
+    </div>
   </div>`;
 }
 
@@ -483,6 +621,7 @@ function _toggleLastWeekSection() {
 
 function _setSubjectFilter(subject) {
   state.subjectFilter = subject;
+  state.showAllTopics = false;
   _renderHome();
 }
 

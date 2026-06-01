@@ -31,7 +31,8 @@ const state = {
   timerEnabled: localStorage.getItem('decashift_timer') !== 'off',
   subjectFilter: 'all',
   showArchivedGoals: false,
-  showLastWeekSection: false
+  showLastWeekSection: false,
+  showAllTopics: false
 };
 
 // ── User Menu ─────────────────────────────────────────────────────────────────

@@ -284,6 +284,42 @@
 }
 .concept-dot.done { /* background set inline with subject color */ }
 
+/* ── Collapsible rows ────────────────────────────────────────── */
+.collapsible-header {
+  cursor: pointer; user-select: none;
+}
+.collapsible-header:hover { opacity: 0.82; }
+
+.row-chevron {
+  margin-left: auto; flex-shrink: 0;
+  font-size: 16px; color: var(--muted);
+  transition: transform 0.2s ease;
+  transform: rotate(90deg);   /* pointing down = expanded */
+  display: inline-block;
+}
+.row-chevron.collapsed { transform: rotate(0deg); }  /* pointing right = collapsed */
+
+.row-body {
+  overflow: hidden;
+  transition: max-height 0.25s ease, opacity 0.2s ease;
+  max-height: 600px; opacity: 1;
+}
+.row-collapsed .row-body { max-height: 0; opacity: 0; pointer-events: none; }
+
+.show-more-row {
+  text-align: center; padding: 4px 16px 16px;
+}
+
+/* Difficulty sub-shelves inside topic groups */
+.diff-shelf { margin-bottom: 8px; }
+.diff-shelf-label {
+  font-size: 10px; font-weight: 600; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--muted);
+  padding: 4px 16px; margin-bottom: 4px;
+  display: flex; align-items: center; gap: 6px;
+}
+.diff-shelf-label .row-chevron { font-size: 13px; }
+
 .netflix-cards {
   display: flex; gap: 10px;
   /* free horizontal scroll — no mandatory snap (it offset the rest position past
