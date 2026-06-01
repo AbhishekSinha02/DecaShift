@@ -15,11 +15,13 @@
 | # | File | Type | Focus | Task |
 |---|---|---|---|---|
 | ~~1~~ | ~~PENDING-grade9-12-missing-content-w23-w24.md~~ | ✅ DONE (2026-06-02, commit b081bb1) | 16 files × 20q = 320 questions added for grades 9-12 English/Soc-Sci/Chem/Physics W23+W24 | Content |
-| 2 | [PENDING-browser-test-p0-bugs.md](PENDING-browser-test-p0-bugs.md) | Testing | ★ P0 bugs BUG-002/003/004/005 — code looks correct but UX audit flagged as broken. Need Chrome DevTools confirmation. Fix immediately if they reproduce. | BUG-002 thru 005 |
-| 3 | [P2-T047 identity strategy](../tasks/marketing/P2-T047-identity-strategy-userid-email-mobile.md) | Strategy | Decide the durable account KEY (handle+PIN+recovery code vs email/mobile). **Needs user decision. GATES P2-T046.** | P2-T047 |
-| 4 | [PENDING-cross-device-full-state-sync.md](PENDING-cross-device-full-state-sync.md) | Code | Full progress sync across devices (XP/avatar/streak/stickers/mastery/sessions). Implements against P2-T047's chosen key. | P2-T046 |
-| 5 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 |
-| 6 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | PWA install banner improvements | P2-T044 |
+| **1** | [**PENDING-home-ux-card-grouping-and-drills.md**](PENDING-home-ux-card-grouping-and-drills.md) | **Code** | ★★ HIGH — (A) Older cards collapse into one "Practice" row — group by topic (max 5), split >5 by difficulty. (B) Drills show on all subject tabs — hide on non-math immediately. | Home UX |
+| 2 | [PENDING-drill-tab-strategy.md](PENDING-drill-tab-strategy.md) | Decision | Decide: subject-specific drills / dedicated Drills tab / Math-only permanently. Pick before W25 content. | Drill UX |
+| 3 | [PENDING-browser-test-p0-bugs.md](PENDING-browser-test-p0-bugs.md) | Testing | BUG-002/003/004/005 — static analysis suggests all false positives. Do quick browser verify and mark closed. | BUG-002 thru 005 |
+| 4 | [P2-T047 identity strategy](../tasks/marketing/P2-T047-identity-strategy-userid-email-mobile.md) | Strategy | Decide the durable account KEY (handle+PIN+recovery code vs email/mobile). **Needs user decision. GATES P2-T046.** | P2-T047 |
+| 5 | [PENDING-cross-device-full-state-sync.md](PENDING-cross-device-full-state-sync.md) | Code | Full progress sync across devices (XP/avatar/streak/stickers/mastery/sessions). Implements against P2-T047's chosen key. | P2-T046 |
+| 6 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 |
+| 7 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | PWA install banner improvements | P2-T044 |
 
 > W23 French content (C3) shipped `522ff2e` — W23 now complete (all 4 subjects). Next content session = C4 (W24 Science).
 
