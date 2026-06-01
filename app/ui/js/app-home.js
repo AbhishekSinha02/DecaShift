@@ -357,12 +357,18 @@ function _buildDrillRow() {
     { id: 'formulas', icon: '∫',  name: 'Formulas', sub: 'Physics · Math' },
     { id: 'gk',       icon: '🌍', name: 'GK Today', sub: '5 questions' },
   ];
-  const bests = JSON.parse(localStorage.getItem('ds_drill_bests') || '{}');
+  const records = JSON.parse(localStorage.getItem('ds_drill_records') || '{}');
   const cards = drills.map(d => {
-    const best = bests[d.id];
-    const bestLine = best
-      ? `<div class="drill-card-best">Best: ${best}</div>`
-      : `<div class="drill-card-best" style="color:var(--muted)">Not tried yet</div>`;
+    const rec = records[d.id];
+    let bestLine;
+    if (rec && rec.bestTime !== null) {
+      const m   = Math.floor(rec.bestTime / 60);
+      const s   = String(rec.bestTime % 60).padStart(2, '0');
+      const pct = rec.bestAccuracy !== null ? ' · ' + Math.round(rec.bestAccuracy * 100) + '%' : '';
+      bestLine = `<div class="drill-card-best">Best: ${m}:${s}${pct}</div>`;
+    } else {
+      bestLine = `<div class="drill-card-best" style="color:var(--muted)">Not tried yet</div>`;
+    }
     return `<div class="drill-card" onclick="_startDrill('${d.id}')">
       <div class="drill-card-icon">${d.icon}</div>
       <div class="drill-card-name">${d.name}</div>
@@ -815,6 +821,9 @@ function _showQuestRitual() {
   const name   = _getFirstName(state.user);
   const days   = streak.current;
 
+  // BUG-006: award quest XP once per day (guarded by ritualShownToday flag set before this call)
+  const questXP = (typeof XP !== 'undefined') ? XP.awardQuestComplete() : null;
+
   const overlay = document.createElement('div');
   overlay.className = 'quest-ritual-overlay';
   overlay.innerHTML = `
@@ -826,11 +835,37 @@ function _showQuestRitual() {
       <button class="btn btn-primary quest-ritual-dismiss">Done for today ✓</button>
     </div>`;
 
-  const close = () => overlay.remove();
+  const close = () => {
+    overlay.remove();
+    _maybeQuestReward(questXP);
+  };
   overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
   overlay.querySelector('.quest-ritual-dismiss').addEventListener('click', close);
   document.body.appendChild(overlay);
   if (typeof Feedback !== 'undefined') { Feedback.confetti({ count: 90 }); Feedback.hit('complete'); }  // E-008
+}
+
+// BUG-006: show level-up (if XP crossed a level) + collectibles reward box after quest ritual
+function _maybeQuestReward(questXP) {
+  if (questXP && questXP.leveledUp) {
+    const evolved = typeof Avatar !== 'undefined' &&
+      Avatar.stageFromLevel(questXP.toLevel) > Avatar.stageFromLevel(questXP.fromLevel);
+    if (evolved && typeof _showEvolution === 'function') {
+      setTimeout(() => _showEvolution(questXP.toLevel), 300);
+    } else {
+      setTimeout(() => _showLevelUp(questXP.toLevel), 300);
+    }
+  }
+  const dayKey = 'ds_quest_reward_' + new Date().toISOString().slice(0, 10);
+  if (localStorage.getItem(dayKey)) return;
+  localStorage.setItem(dayKey, '1');
+  if (typeof Collectibles === 'undefined') return;
+  const reward = Collectibles.rollReward({ type: 'quest' });
+  const tryShow = () => {
+    if (document.querySelector('.quest-ritual-overlay')) { setTimeout(tryShow, 600); return; }
+    _showMysteryBox(reward, { type: 'quest', milestone: 0 });
+  };
+  setTimeout(tryShow, 400);
 }
 
 // ── E-005: level-up celebration (shared by quiz + drill finalize) ────────────
@@ -944,7 +979,9 @@ function _maybeOpenMysteryBox(opts) {
 }
 
 function _showMysteryBox(reward, ctx) {
-  const label = ctx.type === 'streak' ? `${ctx.milestone}-day streak` : `Level ${ctx.milestone}`;
+  const label = ctx.type === 'streak' ? `${ctx.milestone}-day streak`
+              : ctx.type === 'quest'  ? 'daily quest'
+              : `Level ${ctx.milestone}`;
   const overlay = document.createElement('div');
   overlay.className = 'quest-ritual-overlay mystery-overlay';
   overlay.innerHTML = `

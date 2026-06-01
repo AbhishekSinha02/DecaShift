@@ -10,12 +10,12 @@
 
 | ID | Title | Feature | Severity | Status | Fix ETA | Owner |
 |---|---|---|---|---|---|---|
-| BUG-001 | Drill card shows "Not tried yet" after completion | Flash Drills | CRITICAL | 🔴 PENDING | 2026-06-01 | Dev |
-| BUG-002 | Quiz session not persisting to home card | Quiz Engine | CRITICAL | 🔴 PENDING | 2026-06-01 | Dev |
-| BUG-003 | Daily quest progress bar not real-time | Daily Quest | CRITICAL | 🔴 PENDING | 2026-06-01 | Dev |
-| BUG-004 | Avatar level-up animation missing | Avatar/XP | CRITICAL | 🔴 PENDING | 2026-06-01 | Dev |
-| BUG-005 | Streak freeze not preventing streak break | Streak | CRITICAL | 🔴 PENDING | 2026-06-02 | Dev |
-| BUG-006 | Mystery box not appearing after quest | Daily Quest | CRITICAL | 🔴 PENDING | 2026-06-02 | Dev |
+| BUG-001 | Drill card shows "Not tried yet" after completion | Flash Drills | CRITICAL | ✅ FIXED 2026-06-02 | — | Dev |
+| BUG-002 | Quiz session not persisting to home card | Quiz Engine | CRITICAL | 🔍 NEEDS BROWSER TEST | 2026-06-02 | Dev |
+| BUG-003 | Daily quest progress bar not real-time | Daily Quest | CRITICAL | 🔍 NEEDS BROWSER TEST | 2026-06-02 | Dev |
+| BUG-004 | Avatar level-up animation missing | Avatar/XP | CRITICAL | 🔍 NEEDS BROWSER TEST | 2026-06-02 | Dev |
+| BUG-005 | Streak freeze not preventing streak break | Streak | CRITICAL | 🔍 NEEDS BROWSER TEST | 2026-06-02 | Dev |
+| BUG-006 | Mystery box not appearing after quest | Daily Quest | CRITICAL | ✅ FIXED 2026-06-02 | — | Dev |
 
 ### 🟡 HIGH PRIORITY — Fix This Week
 
@@ -25,7 +25,7 @@
 | BUG-008 | Share result card shows wrong/blank avatar | Share Card | HIGH | 🟡 PENDING | 2026-06-03 | Dev |
 | BUG-009 | Challenge friend link fails/shows error | Challenge | HIGH | 🟡 PENDING | 2026-06-03 | Dev |
 | BUG-010 | Settings changes not persisted | Settings | HIGH | 🟡 PENDING | 2026-06-04 | Dev |
-| BUG-013 | Personal best not showing on drill card | Flash Drills | HIGH | 🔴 PENDING | 2026-06-01 | Dev |
+| BUG-013 | Personal best not showing on drill card | Flash Drills | HIGH | ✅ FIXED 2026-06-02 (same fix as BUG-001) | — | Dev |
 
 ### 🟢 MEDIUM — Fix Before Content Sprint
 
