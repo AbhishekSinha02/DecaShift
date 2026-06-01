@@ -1,0 +1,213 @@
+{
+  "goalId": "grade9-social-science",
+  "title": "Grade 9 Social Science — Nazism and the Rise of Hitler",
+  "description": "History Chapter 3: Weimar Republic, Hitler's rise, Nazi ideology and the Holocaust",
+  "category": "school",
+  "grade": 9,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social-science_9_nazism_001",
+      "goalId": "grade9-social-science",
+      "question": "What was the name of the democratic government established in Germany after World War I?",
+      "options": ["Nazi Republic", "Weimar Republic", "Habsburg Monarchy", "Federal Republic of Germany"],
+      "correctIndex": 1,
+      "explanation": "The Weimar Republic (1919–1933) was Germany's democratic government after WWI. It was named after the city of Weimar where its constitution was drafted.",
+      "difficulty": "easy",
+      "tags": ["nazism", "weimar-republic", "history"]
+    },
+    {
+      "id": "q_social-science_9_nazism_002",
+      "goalId": "grade9-social-science",
+      "question": "When did Adolf Hitler become Chancellor of Germany?",
+      "options": ["1919", "1929", "1933", "1939"],
+      "correctIndex": 2,
+      "explanation": "Hitler became Chancellor of Germany on 30 January 1933 after the Nazi Party became the largest party in the Reichstag through elections.",
+      "difficulty": "easy",
+      "tags": ["nazism", "hitler", "chancellor"]
+    },
+    {
+      "id": "q_social-science_9_nazism_003",
+      "goalId": "grade9-social-science",
+      "question": "What was the full name of the Nazi Party?",
+      "options": ["German Workers' Democratic Party", "National Socialist German Workers' Party", "German National Conservative Party", "National German Liberation Front"],
+      "correctIndex": 1,
+      "explanation": "The Nazi Party's full name was the Nationalsozialistische Deutsche Arbeiterpartei (NSDAP), or National Socialist German Workers' Party. 'Nazi' is a short form of 'Nationalsozialist'.",
+      "difficulty": "easy",
+      "tags": ["nazism", "nazi-party", "history"]
+    },
+    {
+      "id": "q_social-science_9_nazism_004",
+      "goalId": "grade9-social-science",
+      "question": "What was the impact of the Great Depression (1929) on Germany?",
+      "options": ["Germany's economy boomed and unemployment fell", "Unemployment rose sharply, banks collapsed, and poverty increased, weakening the Weimar Republic", "Germany successfully repaid all war debts imposed by the Treaty of Versailles", "Germany became the wealthiest country in Europe"],
+      "correctIndex": 1,
+      "explanation": "The Great Depression devastated Germany — 6 million were unemployed, banks collapsed, businesses closed. This economic desperation made people receptive to Hitler's promises of national restoration.",
+      "difficulty": "medium",
+      "tags": ["nazism", "great-depression", "weimar-republic"]
+    },
+    {
+      "id": "q_social-science_9_nazism_005",
+      "goalId": "grade9-social-science",
+      "question": "What did the Treaty of Versailles impose on Germany after World War I?",
+      "options": ["A trade partnership with France and Britain", "War guilt, massive reparations, loss of territory, and severe military restrictions", "A democratic constitution and new borders", "An alliance with Russia and Japan"],
+      "correctIndex": 1,
+      "explanation": "The Treaty of Versailles (1919) forced Germany to accept sole blame for WWI (Article 231), pay 6 billion pounds in reparations, surrender territories, and drastically reduce its military — creating deep resentment.",
+      "difficulty": "medium",
+      "tags": ["nazism", "treaty-of-versailles", "history"]
+    },
+    {
+      "id": "q_social-science_9_nazism_006",
+      "goalId": "grade9-social-science",
+      "question": "What did the Enabling Act of 1933 do?",
+      "options": ["It gave women the right to vote", "It gave Hitler the power to rule by decree, bypassing the parliament", "It created the Hitler Youth organisation", "It banned the Communist Party only"],
+      "correctIndex": 1,
+      "explanation": "The Enabling Act (March 1933) effectively made Hitler dictator. It allowed the government to pass laws without Reichstag approval or presidential consent for four years, dismantling Germany's democracy.",
+      "difficulty": "medium",
+      "tags": ["nazism", "enabling-act", "dictatorship"]
+    },
+    {
+      "id": "q_social-science_9_nazism_007",
+      "goalId": "grade9-social-science",
+      "question": "What term describes the Nazi policy of systematically exterminating Jews and other groups?",
+      "options": ["The Final Crusade", "The Holocaust", "The Great Purge", "Kristallnacht"],
+      "correctIndex": 1,
+      "explanation": "The Holocaust refers to the systematic, state-sponsored genocide of six million Jews and millions of others (Roma, disabled people, political opponents) by the Nazi regime during WWII.",
+      "difficulty": "easy",
+      "tags": ["nazism", "holocaust", "genocide"]
+    },
+    {
+      "id": "q_social-science_9_nazism_008",
+      "goalId": "grade9-social-science",
+      "question": "What was 'Kristallnacht' (Night of Broken Glass)?",
+      "options": ["A celebration of Nazi election victory", "A violent pogrom in November 1938 where synagogues were burned and Jewish businesses smashed across Germany", "The night Hitler gave his first public speech", "The night Germany invaded Poland"],
+      "correctIndex": 1,
+      "explanation": "Kristallnacht (9–10 November 1938) was a coordinated nationwide attack on Jews — synagogues burned, 7,500 Jewish businesses destroyed, and about 30,000 Jews arrested. It marked a major escalation of Nazi persecution.",
+      "difficulty": "medium",
+      "tags": ["nazism", "kristallnacht", "antisemitism"]
+    },
+    {
+      "id": "q_social-science_9_nazism_009",
+      "goalId": "grade9-social-science",
+      "question": "What was the Gestapo?",
+      "options": ["The German regular army", "The Nazi secret state police that terrorised and eliminated political opponents", "The Jewish resistance movement in Germany", "The Nazi propaganda department"],
+      "correctIndex": 1,
+      "explanation": "The Gestapo (Geheime Staatspolizei) was the official secret police of Nazi Germany. It operated outside legal constraints and used surveillance, torture, and execution to crush opposition.",
+      "difficulty": "medium",
+      "tags": ["nazism", "gestapo", "police-state"]
+    },
+    {
+      "id": "q_social-science_9_nazism_010",
+      "goalId": "grade9-social-science",
+      "question": "How did Hitler use propaganda to consolidate power?",
+      "options": ["By banning all media including radio and newspapers", "By using film, radio, posters, and mass rallies to project himself as Germany's saviour and demonise Jews as the cause of all problems", "By allowing a free press that voluntarily supported him", "By focusing only on economic progress with no political messaging"],
+      "correctIndex": 1,
+      "explanation": "Joseph Goebbels, as Minister of Propaganda, used every medium — cinema, radio, posters, rallies at Nuremberg — to glorify Hitler and spread Nazi ideology. Media that opposed the regime was shut down.",
+      "difficulty": "hard",
+      "tags": ["nazism", "propaganda", "goebbels"]
+    },
+    {
+      "id": "q_social-science_9_nazism_011",
+      "goalId": "grade9-social-science",
+      "question": "In Nazi ideology, what did the term 'Aryan' refer to?",
+      "options": ["All citizens of Germany regardless of background", "The Nordic/Germanic race that Nazis considered biologically superior", "All Christians in Europe", "Scientists and educated professionals only"],
+      "correctIndex": 1,
+      "explanation": "Nazi racial ideology claimed that 'Aryans' (Northern Europeans with blonde hair and blue eyes) were the 'master race' (Herrenvolk). This pseudo-scientific racism was used to justify discrimination and genocide.",
+      "difficulty": "medium",
+      "tags": ["nazism", "aryan-ideology", "racism"]
+    },
+    {
+      "id": "q_social-science_9_nazism_012",
+      "goalId": "grade9-social-science",
+      "question": "What was the name of Hitler's autobiography?",
+      "options": ["Der Spiegel", "Mein Kampf", "Das Kapital", "Sturm und Drang"],
+      "correctIndex": 1,
+      "explanation": "'Mein Kampf' (My Struggle), written in 1925 while Hitler was in prison, outlined his ideology: extreme nationalism, antisemitism, anti-communism, and the need for German 'living space' (Lebensraum).",
+      "difficulty": "easy",
+      "tags": ["nazism", "mein-kampf", "hitler"]
+    },
+    {
+      "id": "q_social-science_9_nazism_013",
+      "goalId": "grade9-social-science",
+      "question": "What did the Nuremberg Laws (1935) establish?",
+      "options": ["The rules for the Nuremberg war crimes trials", "Racial laws that stripped Jews of German citizenship and banned marriage between Jews and non-Jews", "Military conscription laws for building the German army", "Economic laws for Germany's industrial recovery"],
+      "correctIndex": 1,
+      "explanation": "The Nuremberg Laws (1935) defined Jews by race (not religion), stripped them of citizenship, banned marriage between Jews and 'Aryans', and excluded Jews from many professions — legalising systematic discrimination.",
+      "difficulty": "hard",
+      "tags": ["nazism", "nuremberg-laws", "antisemitism"]
+    },
+    {
+      "id": "q_social-science_9_nazism_014",
+      "goalId": "grade9-social-science",
+      "question": "How did Hitler use the Reichstag fire (February 1933) to expand his power?",
+      "options": ["He blamed himself and offered to resign", "He used it as a pretext to suspend civil liberties and arrest Communist and other political opponents", "It led to new elections which the Nazis lost", "He ordered an investigation that found the Nazis responsible"],
+      "correctIndex": 1,
+      "explanation": "When the Reichstag (parliament building) was set on fire, Hitler blamed the Communists and used it to pass the Reichstag Fire Decree, suspending civil liberties and enabling mass arrests of political opponents.",
+      "difficulty": "medium",
+      "tags": ["nazism", "reichstag-fire", "civil-liberties"]
+    },
+    {
+      "id": "q_social-science_9_nazism_015",
+      "goalId": "grade9-social-science",
+      "question": "How did economic hardship and the Treaty of Versailles contribute to Hitler's rise?",
+      "options": ["They had no impact — Hitler rose purely through military strength", "They created deep resentment and desperation among Germans, making them receptive to Hitler's promises of restoring German glory and his scapegoating of Jews and communists", "The Great Depression actually strengthened German democracy", "Germans were largely unaffected by economic problems in this period"],
+      "correctIndex": 1,
+      "explanation": "The 'stab-in-the-back' myth, humiliation from Versailles, and millions unemployed due to the Depression created the conditions for extremism. Hitler offered simple explanations and bold promises that mainstream parties could not match.",
+      "difficulty": "hard",
+      "tags": ["nazism", "rise-of-hitler", "weimar-republic"]
+    },
+    {
+      "id": "q_social-science_9_nazism_016",
+      "goalId": "grade9-social-science",
+      "question": "In which year did Germany invade Poland, triggering World War II?",
+      "options": ["1933", "1935", "1937", "1939"],
+      "correctIndex": 3,
+      "explanation": "Germany invaded Poland on 1 September 1939. Britain and France declared war on Germany two days later, marking the beginning of World War II in Europe.",
+      "difficulty": "easy",
+      "tags": ["nazism", "world-war-2", "poland"]
+    },
+    {
+      "id": "q_social-science_9_nazism_017",
+      "goalId": "grade9-social-science",
+      "question": "What were concentration camps used for under the Nazi regime?",
+      "options": ["Prisoner-of-war camps following international law", "Detention and extermination camps for Jews, political prisoners, and other groups deemed 'undesirable' by the Nazis", "Re-education and rehabilitation centres for criminals", "Military training camps for the SS"],
+      "correctIndex": 1,
+      "explanation": "Concentration camps evolved from early political detention centres to mass extermination camps. Sites like Auschwitz-Birkenau were built specifically for systematic murder using gas chambers.",
+      "difficulty": "medium",
+      "tags": ["nazism", "concentration-camps", "holocaust"]
+    },
+    {
+      "id": "q_social-science_9_nazism_018",
+      "goalId": "grade9-social-science",
+      "question": "What is meant by 'totalitarianism'?",
+      "options": ["A system with a strong welfare state", "A system where a single authority exercises absolute control over all aspects of public and private life with no permitted opposition", "A democratic system with a dominant party", "A monarchy where the king has limited powers"],
+      "correctIndex": 1,
+      "explanation": "Totalitarianism means total state control — over economy, media, education, culture, and private life. Nazi Germany was a totalitarian state where opposition was crushed and every institution served the regime.",
+      "difficulty": "medium",
+      "tags": ["nazism", "totalitarianism", "political-concepts"]
+    },
+    {
+      "id": "q_social-science_9_nazism_019",
+      "goalId": "grade9-social-science",
+      "question": "What was the primary purpose of youth organisations like Hitler Youth (Hitlerjugend)?",
+      "options": ["To provide sports and recreation for all German children", "To indoctrinate young Germans with Nazi ideology, train them physically, and build total loyalty to Hitler", "To teach trade skills and vocational training", "To promote international cultural exchange with other countries"],
+      "correctIndex": 1,
+      "explanation": "The Hitler Youth (for boys) and League of German Girls (BDM) aimed to create a generation completely loyal to Hitler. Members were taught Nazi racial ideology, military discipline, and contempt for 'enemies of the Reich'.",
+      "difficulty": "hard",
+      "tags": ["nazism", "hitler-youth", "indoctrination"]
+    },
+    {
+      "id": "q_social-science_9_nazism_020",
+      "goalId": "grade9-social-science",
+      "question": "What happened to Germany at the end of World War II?",
+      "options": ["Germany won and expanded its European territories", "Germany was defeated, divided into occupation zones by the Allied powers, and the Nazi regime was dismantled", "Germany signed a ceasefire and kept most of its territories", "Germany became a neutral country immediately after the war"],
+      "correctIndex": 1,
+      "explanation": "Germany surrendered in May 1945. It was divided into four occupation zones (US, UK, France, Soviet Union). The Nazi leadership was tried at Nuremberg. Germany later became two states — West Germany and East Germany.",
+      "difficulty": "easy",
+      "tags": ["nazism", "world-war-2", "germany-defeat"]
+    }
+  ]
+}

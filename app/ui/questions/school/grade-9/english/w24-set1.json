@@ -1,0 +1,213 @@
+{
+  "goalId": "grade9-english",
+  "title": "Grade 9 English — My Childhood + Passive Voice",
+  "description": "Beehive Unit 6 comprehension and Passive Voice grammar basics",
+  "category": "school",
+  "grade": 9,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_9_my-childhood_001",
+      "goalId": "grade9-english",
+      "question": "Who is the author of 'My Childhood'?",
+      "options": ["Jawaharlal Nehru", "APJ Abdul Kalam", "Mahatma Gandhi", "Rabindranath Tagore"],
+      "correctIndex": 1,
+      "explanation": "'My Childhood' is an excerpt from APJ Abdul Kalam's autobiography 'Wings of Fire', recounting his early years in Rameswaram.",
+      "difficulty": "easy",
+      "tags": ["my-childhood", "author", "beehive"]
+    },
+    {
+      "id": "q_english_9_my-childhood_002",
+      "goalId": "grade9-english",
+      "question": "Where did APJ Abdul Kalam grow up?",
+      "options": ["Mumbai", "Rameswaram", "Chennai", "Hyderabad"],
+      "correctIndex": 1,
+      "explanation": "Kalam was born and grew up in Rameswaram, a small island town in Tamil Nadu, known for the famous Ramanathaswamy temple.",
+      "difficulty": "easy",
+      "tags": ["my-childhood", "setting", "rameswaram"]
+    },
+    {
+      "id": "q_english_9_my-childhood_003",
+      "goalId": "grade9-english",
+      "question": "What was APJ Abdul Kalam's father's name?",
+      "options": ["Jainulabdeen", "Sivasubramania Iyer", "Lakshmana Sastry", "Ramanadha Sastry"],
+      "correctIndex": 0,
+      "explanation": "Kalam's father was Jainulabdeen, described as a deeply religious and wise man who, despite having little formal education, possessed great innate wisdom.",
+      "difficulty": "easy",
+      "tags": ["my-childhood", "character", "father"]
+    },
+    {
+      "id": "q_english_9_my-childhood_004",
+      "goalId": "grade9-english",
+      "question": "Why was young Kalam asked to sit at the back of the class by a new teacher?",
+      "options": ["He had arrived late that day", "Being a Muslim, he was separated from his Hindu friend Ramanadha Sastry", "He was misbehaving in class", "There were no other seats available at the front"],
+      "correctIndex": 1,
+      "explanation": "A new teacher was uncomfortable with Kalam (a Muslim) sitting next to Ramanadha Sastry (a Hindu Brahmin boy). The teacher asked Kalam to move to the back row, which upset both boys.",
+      "difficulty": "medium",
+      "tags": ["my-childhood", "communal-harmony", "discrimination"]
+    },
+    {
+      "id": "q_english_9_my-childhood_005",
+      "goalId": "grade9-english",
+      "question": "What did science teacher Sivasubramania Iyer do to challenge social prejudice?",
+      "options": ["He refused to teach Muslim students at all", "He invited Kalam home for dinner and, despite his wife's initial reluctance, ensured Kalam was treated as an equal guest", "He started a school specifically for students of all religions", "He wrote a book about communal harmony"],
+      "correctIndex": 1,
+      "explanation": "Sivasubramania Iyer invited Kalam to his home for a meal. His wife initially refused to serve a Muslim boy in her kitchen. But Iyer served Kalam himself and later convinced his wife that prejudice must be overcome.",
+      "difficulty": "medium",
+      "tags": ["my-childhood", "sivasubramania-iyer", "communal-harmony"]
+    },
+    {
+      "id": "q_english_9_my-childhood_006",
+      "goalId": "grade9-english",
+      "question": "Who was Ramanadha Sastry in Kalam's life?",
+      "options": ["His science teacher", "A childhood friend who was the son of the priest of the Rameswaram temple", "His cousin from Chennai", "A local government official"],
+      "correctIndex": 1,
+      "explanation": "Ramanadha Sastry was Kalam's closest friend in childhood. He was the son of Pakshi Lakshmana Sastry, the head priest of the Rameswaram temple. Their friendship across religious lines is central to the chapter.",
+      "difficulty": "medium",
+      "tags": ["my-childhood", "ramanadha-sastry", "friendship"]
+    },
+    {
+      "id": "q_english_9_my-childhood_007",
+      "goalId": "grade9-english",
+      "question": "What quality of his father inspired Kalam most?",
+      "options": ["His political influence in Rameswaram", "His simplicity, dignity, and wisdom in handling communal relationships with faith", "His knowledge of science and engineering", "His ability to earn money for the family"],
+      "correctIndex": 1,
+      "explanation": "Kalam was most inspired by his father Jainulabdeen's wisdom and equanimity. Though uneducated, his father understood the essence of religious harmony and human dignity.",
+      "difficulty": "medium",
+      "tags": ["my-childhood", "father", "character-values"]
+    },
+    {
+      "id": "q_english_9_my-childhood_008",
+      "goalId": "grade9-english",
+      "question": "What is the central message of 'My Childhood'?",
+      "options": ["Poverty is a barrier to success that cannot be overcome", "True education transcends religious and social divisions; great teachers and family values shape character", "Science is more important than religious traditions", "Rural life is better than city life for developing values"],
+      "correctIndex": 1,
+      "explanation": "The chapter shows that Kalam's character was shaped by communal harmony at home, supportive teachers who challenged prejudice, and friendships across religious lines — not by formal education or wealth.",
+      "difficulty": "hard",
+      "tags": ["my-childhood", "theme", "central-message"]
+    },
+    {
+      "id": "q_english_9_passive-voice_001",
+      "goalId": "grade9-english",
+      "question": "In passive voice, the object of the active sentence becomes the:",
+      "options": ["Direct object", "Subject", "Predicate", "Complement"],
+      "correctIndex": 1,
+      "explanation": "In passive construction, the object of the active sentence moves to the subject position. E.g., 'She wrote the letter' → 'The letter was written by her.'",
+      "difficulty": "easy",
+      "tags": ["passive-voice", "grammar", "basics"]
+    },
+    {
+      "id": "q_english_9_passive-voice_002",
+      "goalId": "grade9-english",
+      "question": "\"The teacher teaches the students.\" → In passive voice:",
+      "options": ["The students are taught by the teacher.", "The teacher is taught by the students.", "The students teach the teacher.", "The students are being taught by the teacher."],
+      "correctIndex": 0,
+      "explanation": "Simple present active → passive: Subject + am/is/are + past participle + by + agent. 'teaches' → 'are taught'.",
+      "difficulty": "easy",
+      "tags": ["passive-voice", "simple-present", "grammar"]
+    },
+    {
+      "id": "q_english_9_passive-voice_003",
+      "goalId": "grade9-english",
+      "question": "\"She is eating a mango.\" → In passive voice:",
+      "options": ["A mango is being eaten by her.", "A mango was eaten by her.", "A mango has been eaten by her.", "A mango is eaten by she."],
+      "correctIndex": 0,
+      "explanation": "Present continuous active → passive: Object + is/are + being + past participle + by + agent.",
+      "difficulty": "medium",
+      "tags": ["passive-voice", "present-continuous", "grammar"]
+    },
+    {
+      "id": "q_english_9_passive-voice_004",
+      "goalId": "grade9-english",
+      "question": "\"They will complete the project by Friday.\" → In passive voice:",
+      "options": ["The project will be completed by them by Friday.", "The project is completed by them by Friday.", "The project was completed by them by Friday.", "The project has been completed by them by Friday."],
+      "correctIndex": 0,
+      "explanation": "Future tense active → passive: Object + will be + past participle + by + agent.",
+      "difficulty": "medium",
+      "tags": ["passive-voice", "future-tense", "grammar"]
+    },
+    {
+      "id": "q_english_9_passive-voice_005",
+      "goalId": "grade9-english",
+      "question": "\"He has painted the house.\" → In passive voice:",
+      "options": ["The house has been painted by him.", "The house was painted by him.", "The house is painted by him.", "The house had been painted by him."],
+      "correctIndex": 0,
+      "explanation": "Present perfect active → passive: Object + has/have + been + past participle + by + agent.",
+      "difficulty": "medium",
+      "tags": ["passive-voice", "present-perfect", "grammar"]
+    },
+    {
+      "id": "q_english_9_passive-voice_006",
+      "goalId": "grade9-english",
+      "question": "\"Someone stole my wallet.\" → Passive voice (agent not mentioned):",
+      "options": ["My wallet has been stolen.", "My wallet was stolen.", "My wallet is stolen.", "My wallet was being stolen."],
+      "correctIndex": 1,
+      "explanation": "Simple past active → passive: Object + was/were + past participle. When the agent is unknown or unimportant, 'by + agent' is omitted.",
+      "difficulty": "medium",
+      "tags": ["passive-voice", "simple-past", "grammar"]
+    },
+    {
+      "id": "q_english_9_passive-voice_007",
+      "goalId": "grade9-english",
+      "question": "Which sentence is in the CORRECT passive form?",
+      "options": ["The book was reading by me.", "The book was read by me.", "The book is read by I.", "The book has reading by me."],
+      "correctIndex": 1,
+      "explanation": "Passive voice requires 'was/were + past participle'. 'The book was read by me' is correctly formed. Note: 'by me' uses object pronoun, not 'I'.",
+      "difficulty": "easy",
+      "tags": ["passive-voice", "error-identification", "grammar"]
+    },
+    {
+      "id": "q_english_9_passive-voice_008",
+      "goalId": "grade9-english",
+      "question": "\"Do not open the door.\" → In passive voice:",
+      "options": ["The door is not to be opened.", "The door should not be opened.", "The door was not opened.", "Let the door not be opened."],
+      "correctIndex": 3,
+      "explanation": "For negative imperatives, the passive form is: 'Let + object + not + be + past participle'. This is the standard CBSE form for negative command → passive.",
+      "difficulty": "hard",
+      "tags": ["passive-voice", "imperatives", "grammar"]
+    },
+    {
+      "id": "q_english_9_passive-voice_009",
+      "goalId": "grade9-english",
+      "question": "\"My mother is cooking dinner.\" → In passive voice:",
+      "options": ["Dinner is being cooked by my mother.", "Dinner was cooked by my mother.", "Dinner has been cooked by my mother.", "Dinner is cooked by my mother."],
+      "correctIndex": 0,
+      "explanation": "Present continuous: Subject + is/are + being + past participle. 'is cooking' → 'is being cooked'.",
+      "difficulty": "medium",
+      "tags": ["passive-voice", "present-continuous", "grammar"]
+    },
+    {
+      "id": "q_english_9_passive-voice_010",
+      "goalId": "grade9-english",
+      "question": "\"The police arrested the thief.\" → In passive voice:",
+      "options": ["The thief was being arrested by the police.", "The thief was arrested by the police.", "The thief is arrested by the police.", "The thief had arrested by the police."],
+      "correctIndex": 1,
+      "explanation": "Simple past active → passive: 'arrested' (simple past) → 'was arrested' (past simple passive). The subject becomes the agent introduced by 'by'.",
+      "difficulty": "easy",
+      "tags": ["passive-voice", "simple-past", "grammar"]
+    },
+    {
+      "id": "q_english_9_passive-voice_011",
+      "goalId": "grade9-english",
+      "question": "\"Open the window.\" (Affirmative imperative) → In passive voice:",
+      "options": ["The window is opened.", "The window was opened.", "Let the window be opened.", "The window should be opened."],
+      "correctIndex": 2,
+      "explanation": "For affirmative imperatives, passive voice uses: 'Let + object + be + past participle'.",
+      "difficulty": "hard",
+      "tags": ["passive-voice", "imperatives", "grammar"]
+    },
+    {
+      "id": "q_english_9_passive-voice_012",
+      "goalId": "grade9-english",
+      "question": "\"She had written the letter before he arrived.\" → In passive voice:",
+      "options": ["The letter was written by her before he arrived.", "The letter has been written by her before he arrived.", "The letter had been written by her before he arrived.", "The letter is written by her before he arrived."],
+      "correctIndex": 2,
+      "explanation": "Past perfect active → passive: Object + had been + past participle + by + agent. 'had written' → 'had been written'.",
+      "difficulty": "hard",
+      "tags": ["passive-voice", "past-perfect", "grammar"]
+    }
+  ]
+}

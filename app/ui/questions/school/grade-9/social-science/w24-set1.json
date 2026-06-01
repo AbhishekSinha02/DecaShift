@@ -1,0 +1,213 @@
+{
+  "goalId": "grade9-social-science",
+  "title": "Grade 9 Social Science — Drainage (Rivers of India)",
+  "description": "Geography Chapter 3: river systems, Himalayan rivers, peninsular rivers, drainage patterns",
+  "category": "school",
+  "grade": 9,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social-science_9_drainage_001",
+      "goalId": "grade9-social-science",
+      "question": "What is a drainage basin?",
+      "options": ["An underground water reservoir", "The area of land drained by a river and all its tributaries", "A man-made storage tank", "A coastal inlet where rivers meet the sea"],
+      "correctIndex": 1,
+      "explanation": "A drainage basin (also called a catchment area) is all the land that drains into a particular river system. Rain falling anywhere within the basin eventually flows into that river.",
+      "difficulty": "easy",
+      "tags": ["drainage", "drainage-basin", "geography"]
+    },
+    {
+      "id": "q_social-science_9_drainage_002",
+      "goalId": "grade9-social-science",
+      "question": "What is a watershed?",
+      "options": ["A large natural lake", "An elevated boundary (ridge or hill) that separates two adjacent drainage basins", "A water storage facility built by the government", "The mouth of a river near the sea"],
+      "correctIndex": 1,
+      "explanation": "A watershed is a divide — typically a ridge or highland — that separates one drainage basin from another. Rain falling on either side of the watershed goes to different river systems.",
+      "difficulty": "easy",
+      "tags": ["drainage", "watershed", "geography"]
+    },
+    {
+      "id": "q_social-science_9_drainage_003",
+      "goalId": "grade9-social-science",
+      "question": "What are the two major drainage systems of India?",
+      "options": ["Northern rivers and Southern rivers", "Himalayan rivers and Peninsular rivers", "Perennial rivers and seasonal rivers only", "Bay of Bengal rivers and Arabian Sea rivers only"],
+      "correctIndex": 1,
+      "explanation": "India's rivers are broadly classified into two systems: (1) Himalayan rivers — fed by glaciers and monsoon, mostly perennial; (2) Peninsular rivers — flowing from plateaus to sea, mostly rain-fed.",
+      "difficulty": "medium",
+      "tags": ["drainage", "himalayan-rivers", "peninsular-rivers"]
+    },
+    {
+      "id": "q_social-science_9_drainage_004",
+      "goalId": "grade9-social-science",
+      "question": "Where does the River Ganga originate?",
+      "options": ["Rohtang Pass in Himachal Pradesh", "Gangotri Glacier in Uttarakhand", "Manasarovar Lake in Tibet", "Siachen Glacier in Ladakh"],
+      "correctIndex": 1,
+      "explanation": "The Ganga originates from the Gangotri Glacier in the Uttarakhand Himalayas. The river begins as the Bhagirathi at Gaumukh and is joined by the Alaknanda at Devprayag to form the Ganga.",
+      "difficulty": "easy",
+      "tags": ["drainage", "ganga", "origin"]
+    },
+    {
+      "id": "q_social-science_9_drainage_005",
+      "goalId": "grade9-social-science",
+      "question": "Which rivers are the major tributaries of the Ganga?",
+      "options": ["Indus, Chenab, Jhelum", "Yamuna, Ghaghara, Gandak, Kosi", "Narmada, Tapti, Mahanadi", "Godavari, Krishna, Kaveri"],
+      "correctIndex": 1,
+      "explanation": "The Ganga river system includes major tributaries from both left (Himalayan side — Ghaghara, Gandak, Kosi) and right (Yamuna). These are perennial rivers fed by Himalayan glaciers.",
+      "difficulty": "medium",
+      "tags": ["drainage", "ganga", "tributaries"]
+    },
+    {
+      "id": "q_social-science_9_drainage_006",
+      "goalId": "grade9-social-science",
+      "question": "How do Himalayan rivers differ from Peninsular rivers?",
+      "options": ["Himalayan rivers are shorter; Peninsular rivers are longer", "Himalayan rivers are perennial (fed by glaciers and monsoon); most Peninsular rivers are seasonal (rain-fed only)", "Himalayan rivers flow westward; Peninsular rivers flow eastward only", "Himalayan rivers are not navigable; all Peninsular rivers are"],
+      "correctIndex": 1,
+      "explanation": "Himalayan rivers have water year-round (glaciers supply water in summer when rainfall is low). Peninsular rivers depend mainly on monsoon rainfall, so they may have low flow in dry seasons.",
+      "difficulty": "medium",
+      "tags": ["drainage", "himalayan-rivers", "peninsular-rivers", "comparison"]
+    },
+    {
+      "id": "q_social-science_9_drainage_007",
+      "goalId": "grade9-social-science",
+      "question": "Which river flows through a rift valley between the Vindhya and Satpura ranges?",
+      "options": ["Godavari", "Narmada", "Krishna", "Mahanadi"],
+      "correctIndex": 1,
+      "explanation": "The Narmada flows westward through a rift valley formed by the Vindhya Range to the north and Satpura Range to the south. It drains into the Arabian Sea through the Gulf of Khambhat.",
+      "difficulty": "medium",
+      "tags": ["drainage", "narmada", "rift-valley"]
+    },
+    {
+      "id": "q_social-science_9_drainage_008",
+      "goalId": "grade9-social-science",
+      "question": "Where does the Brahmaputra enter India?",
+      "options": ["Through Nepal into Bihar", "From Tibet into Arunachal Pradesh", "From China directly into Assam", "From Bangladesh into West Bengal"],
+      "correctIndex": 1,
+      "explanation": "The Brahmaputra originates in Tibet as the Tsangpo. It enters India through Arunachal Pradesh (as the Dihang), then flows through Assam as the Brahmaputra, and eventually joins the Ganga delta.",
+      "difficulty": "medium",
+      "tags": ["drainage", "brahmaputra", "northeast-india"]
+    },
+    {
+      "id": "q_social-science_9_drainage_009",
+      "goalId": "grade9-social-science",
+      "question": "What is the Sundarbans?",
+      "options": ["A mountain range in Uttarakhand", "The world's largest mangrove delta formed by the Ganga and Brahmaputra in West Bengal and Bangladesh", "An inland salt lake in Rajasthan", "A desert region in western India"],
+      "correctIndex": 1,
+      "explanation": "The Sundarbans is the world's largest delta, formed where the Ganga and Brahmaputra empty into the Bay of Bengal. It contains the largest mangrove forests in the world and is a UNESCO World Heritage Site.",
+      "difficulty": "medium",
+      "tags": ["drainage", "sundarbans", "delta", "ganga"]
+    },
+    {
+      "id": "q_social-science_9_drainage_010",
+      "goalId": "grade9-social-science",
+      "question": "Which river is called the 'Ganga of the South'?",
+      "options": ["Krishna", "Kaveri", "Godavari", "Mahanadi"],
+      "correctIndex": 2,
+      "explanation": "The Godavari is called the 'Ganga of the South' or 'Dakshina Ganga'. It is the longest Peninsular river, originating in Maharashtra and flowing into the Bay of Bengal.",
+      "difficulty": "easy",
+      "tags": ["drainage", "godavari", "peninsular-rivers"]
+    },
+    {
+      "id": "q_social-science_9_drainage_011",
+      "goalId": "grade9-social-science",
+      "question": "What is inland drainage? Which river in India is an example?",
+      "options": ["Rivers that flow through mountain tunnels", "Rivers that do not reach the sea but drain into a lake or evaporate — the Luni in Rajasthan is an example", "Underground rivers that only surface near the coast", "Rivers that flow through forests only"],
+      "correctIndex": 1,
+      "explanation": "Inland drainage rivers drain into a depression or lake rather than reaching the sea. The Luni river in Rajasthan is India's best-known example — it flows into the Rann of Kutch and disappears.",
+      "difficulty": "hard",
+      "tags": ["drainage", "inland-drainage", "luni", "rajasthan"]
+    },
+    {
+      "id": "q_social-science_9_drainage_012",
+      "goalId": "grade9-social-science",
+      "question": "The Indus river originates near which water body in Tibet?",
+      "options": ["Pangong Lake", "Mansarovar Lake", "Chilika Lake", "Dal Lake"],
+      "correctIndex": 1,
+      "explanation": "The Indus originates near Mansarovar Lake in Tibet. It flows northwest through Ladakh, then southwest through Pakistan, finally emptying into the Arabian Sea.",
+      "difficulty": "medium",
+      "tags": ["drainage", "indus", "origin", "tibet"]
+    },
+    {
+      "id": "q_social-science_9_drainage_013",
+      "goalId": "grade9-social-science",
+      "question": "In which direction do most Peninsular rivers of eastern India flow?",
+      "options": ["West, into the Arabian Sea", "North, toward the Ganga", "East, into the Bay of Bengal", "South, into the Indian Ocean"],
+      "correctIndex": 2,
+      "explanation": "Most major Peninsular rivers (Mahanadi, Godavari, Krishna, Kaveri) originate in the Western Ghats and flow east into the Bay of Bengal, following the general eastward slope of the Deccan Plateau.",
+      "difficulty": "easy",
+      "tags": ["drainage", "peninsular-rivers", "bay-of-bengal"]
+    },
+    {
+      "id": "q_social-science_9_drainage_014",
+      "goalId": "grade9-social-science",
+      "question": "Why are Himalayan rivers important for agriculture in the North Indian Plains?",
+      "options": ["They provide hydroelectric power only", "They carry alluvial soil from the mountains, and supply water year-round (glaciers in summer, monsoon in wet season), enabling irrigation and farming", "They flood the plains every year making agriculture impossible", "They only serve as borders between states"],
+      "correctIndex": 1,
+      "explanation": "Himalayan rivers built the fertile Indo-Gangetic Plains through deposition of alluvial soil over millions of years. Their perennial flow supports the most agriculturally productive region of India.",
+      "difficulty": "hard",
+      "tags": ["drainage", "himalayan-rivers", "agriculture", "alluvial-soil"]
+    },
+    {
+      "id": "q_social-science_9_drainage_015",
+      "goalId": "grade9-social-science",
+      "question": "Chilika Lake, India's largest coastal lagoon, is located in which state?",
+      "options": ["Kerala", "Goa", "Odisha", "Andhra Pradesh"],
+      "correctIndex": 2,
+      "explanation": "Chilika Lake is located in Odisha, on the eastern coast of India. It is India's largest coastal lagoon and an important biodiversity hotspot, home to the rare Irrawaddy dolphin.",
+      "difficulty": "easy",
+      "tags": ["drainage", "chilika-lake", "odisha", "lagoon"]
+    },
+    {
+      "id": "q_social-science_9_drainage_016",
+      "goalId": "grade9-social-science",
+      "question": "Which river is known as the 'River of Sorrow' due to its frequent devastating floods?",
+      "options": ["Godavari", "Kosi", "Yamuna", "Tapti"],
+      "correctIndex": 1,
+      "explanation": "The Kosi river (Saptakoshi) is called the 'Sorrow of Bihar' because it frequently shifts course (it has shifted 120 km westward over 250 years), causing catastrophic floods in the North Bihar plains.",
+      "difficulty": "medium",
+      "tags": ["drainage", "kosi", "floods", "bihar"]
+    },
+    {
+      "id": "q_social-science_9_drainage_017",
+      "goalId": "grade9-social-science",
+      "question": "The Narmada River empties into which water body?",
+      "options": ["Bay of Bengal", "Arabian Sea", "Indian Ocean south of Sri Lanka", "Gulf of Mannar"],
+      "correctIndex": 1,
+      "explanation": "The Narmada flows westward and empties into the Arabian Sea through the Gulf of Khambhat (Cambay) in Gujarat. Unlike most Peninsular rivers, it flows west rather than east.",
+      "difficulty": "medium",
+      "tags": ["drainage", "narmada", "arabian-sea"]
+    },
+    {
+      "id": "q_social-science_9_drainage_018",
+      "goalId": "grade9-social-science",
+      "question": "What type of drainage pattern does the Ganga plain exhibit?",
+      "options": ["Radial drainage", "Trellis drainage", "Dendritic drainage", "Rectangular drainage"],
+      "correctIndex": 2,
+      "explanation": "Dendritic drainage (resembling a tree's branches) forms in regions with uniform rock structure where tributaries join the main river at acute angles — typical of the flat Ganga plains.",
+      "difficulty": "hard",
+      "tags": ["drainage", "drainage-pattern", "dendritic", "ganga"]
+    },
+    {
+      "id": "q_social-science_9_drainage_019",
+      "goalId": "grade9-social-science",
+      "question": "Bhakra Nangal Dam is built on which river?",
+      "options": ["Chambal", "Beas", "Sutlej", "Yamuna"],
+      "correctIndex": 2,
+      "explanation": "Bhakra Nangal Dam is built on the Sutlej River in Himachal Pradesh. It is one of India's largest dams and provides irrigation and hydroelectric power to several northern states.",
+      "difficulty": "medium",
+      "tags": ["drainage", "bhakra-nangal", "sutlej", "dam"]
+    },
+    {
+      "id": "q_social-science_9_drainage_020",
+      "goalId": "grade9-social-science",
+      "question": "The river Yamuna is a major tributary of which river?",
+      "options": ["Brahmaputra", "Indus", "Ganga", "Godavari"],
+      "correctIndex": 2,
+      "explanation": "The Yamuna originates from the Yamunotri Glacier in Uttarakhand and joins the Ganga at Prayagraj (Allahabad) at the famous Triveni Sangam, making it the Ganga's most important tributary.",
+      "difficulty": "easy",
+      "tags": ["drainage", "yamuna", "ganga", "tributary"]
+    }
+  ]
+}

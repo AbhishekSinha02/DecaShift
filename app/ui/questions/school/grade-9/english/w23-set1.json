@@ -1,0 +1,213 @@
+{
+  "goalId": "grade9-english",
+  "title": "Grade 9 English — The Snake and the Mirror + Reported Speech",
+  "description": "Beehive Unit 5 comprehension and Reported Speech grammar",
+  "category": "school",
+  "grade": 9,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_9_snake-mirror_001",
+      "goalId": "grade9-english",
+      "question": "Who is the author of 'The Snake and the Mirror'?",
+      "options": ["R.K. Narayan", "Vaikom Muhammad Basheer", "APJ Abdul Kalam", "Ruskin Bond"],
+      "correctIndex": 1,
+      "explanation": "'The Snake and the Mirror' is written by Vaikom Muhammad Basheer, a celebrated Malayalam writer known for his humour and satire.",
+      "difficulty": "easy",
+      "tags": ["snake-and-mirror", "author", "beehive"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_002",
+      "goalId": "grade9-english",
+      "question": "Where does the story 'The Snake and the Mirror' take place?",
+      "options": ["A hospital ward", "A doctor's small rented room", "A palace garden", "A village school"],
+      "correctIndex": 1,
+      "explanation": "The narrator-doctor lives in a small rented room where the snake encounter occurs on a hot summer night.",
+      "difficulty": "easy",
+      "tags": ["snake-and-mirror", "setting", "beehive"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_003",
+      "goalId": "grade9-english",
+      "question": "What was the doctor doing when the snake fell on him from the roof?",
+      "options": ["Sleeping", "Eating dinner", "Admiring himself in the mirror", "Reading a medical book"],
+      "correctIndex": 2,
+      "explanation": "The doctor was looking at his own reflection in the mirror, thinking of ways to appear more attractive, when the snake dropped from the roof onto his shoulder.",
+      "difficulty": "easy",
+      "tags": ["snake-and-mirror", "plot", "mirror"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_004",
+      "goalId": "grade9-english",
+      "question": "What decision did the doctor make while admiring himself in the mirror?",
+      "options": ["To move to a bigger house", "To shave daily and grow a thin moustache", "To buy expensive clothes", "To leave medicine for acting"],
+      "correctIndex": 1,
+      "explanation": "In a humorous passage, the doctor resolves to shave daily and keep a thin moustache to look more attractive — a comic detail that highlights his vanity.",
+      "difficulty": "medium",
+      "tags": ["snake-and-mirror", "humour", "mirror", "character"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_005",
+      "goalId": "grade9-english",
+      "question": "What happened when the snake noticed its own reflection in the mirror?",
+      "options": ["It became angry and bit the doctor", "It seemed fascinated and its coil on the doctor's arm loosened", "It slid off immediately without pausing", "It fell asleep on the doctor's arm"],
+      "correctIndex": 1,
+      "explanation": "Like the doctor who was captivated by his own reflection, the snake also appeared enchanted by its image in the mirror, allowing the doctor to escape.",
+      "difficulty": "medium",
+      "tags": ["snake-and-mirror", "plot", "mirror", "irony"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_006",
+      "goalId": "grade9-english",
+      "question": "What is the central irony in 'The Snake and the Mirror'?",
+      "options": ["A doctor is afraid of his own patients", "Both the doctor and the snake are captivated by their own reflections in the mirror", "The snake turns out to be harmless", "The doctor escapes but his house burns down"],
+      "correctIndex": 1,
+      "explanation": "The story's irony lies in the parallel vanity: the doctor admires himself in the mirror, and the snake does the same — both absorbed in self-admiration.",
+      "difficulty": "medium",
+      "tags": ["snake-and-mirror", "irony", "theme", "mirror"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_007",
+      "goalId": "grade9-english",
+      "question": "What does the mirror symbolise in 'The Snake and the Mirror'?",
+      "options": ["Wealth and social status", "Vanity and self-obsession that can be both amusing and dangerous", "Medical success and achievement", "Superstition and rural belief"],
+      "correctIndex": 1,
+      "explanation": "The mirror is a symbol of vanity throughout the story. It distracts both the doctor and the snake, making it the central comic and ironic device.",
+      "difficulty": "hard",
+      "tags": ["snake-and-mirror", "symbolism", "mirror", "theme"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_008",
+      "goalId": "grade9-english",
+      "question": "How does the wife's character add to the humour of the story?",
+      "options": ["She is terrified of mirrors", "She is implied to be fiercer than the cobra, which flees when she arrives", "She helps the doctor catch the snake", "She scolds the doctor for his vanity"],
+      "correctIndex": 1,
+      "explanation": "The humour peaks when the snake—which had terrified the doctor—flees on the wife's arrival, implying she is more intimidating than a cobra.",
+      "difficulty": "hard",
+      "tags": ["snake-and-mirror", "humour", "character", "wife"]
+    },
+    {
+      "id": "q_english_9_reported-speech_001",
+      "goalId": "grade9-english",
+      "question": "When converting direct speech to indirect speech, first-person pronouns (I, me, my) change according to:",
+      "options": ["Always to 'he' or 'she'", "The subject of the reporting verb", "The listener's person", "They remain unchanged"],
+      "correctIndex": 1,
+      "explanation": "Pronouns in indirect speech shift to match the subject of the reporting verb. 'I said' → 'he/she said that he/she...'",
+      "difficulty": "easy",
+      "tags": ["reported-speech", "pronouns", "grammar"]
+    },
+    {
+      "id": "q_english_9_reported-speech_002",
+      "goalId": "grade9-english",
+      "question": "He said, \"I am happy.\" → In indirect speech:",
+      "options": ["He said that he was happy.", "He said that I am happy.", "He said that he is happy.", "He said that he were happy."],
+      "correctIndex": 0,
+      "explanation": "'am' (present) → 'was' (past) when the reporting verb is past tense. 'I' → 'he' to match the subject.",
+      "difficulty": "easy",
+      "tags": ["reported-speech", "tense-change", "grammar"]
+    },
+    {
+      "id": "q_english_9_reported-speech_003",
+      "goalId": "grade9-english",
+      "question": "In indirect speech, the word 'now' changes to:",
+      "options": ["soon", "then", "here", "after"],
+      "correctIndex": 1,
+      "explanation": "Time and place expressions shift in indirect speech: 'now' → 'then', 'today' → 'that day', 'tomorrow' → 'the next day'.",
+      "difficulty": "easy",
+      "tags": ["reported-speech", "time-expressions", "grammar"]
+    },
+    {
+      "id": "q_english_9_reported-speech_004",
+      "goalId": "grade9-english",
+      "question": "She said, \"I will come tomorrow.\" → She said that she _____ come the next day.",
+      "options": ["will", "would", "shall", "could"],
+      "correctIndex": 1,
+      "explanation": "'will' changes to 'would' in indirect speech when the reporting verb is in the past tense.",
+      "difficulty": "easy",
+      "tags": ["reported-speech", "modal-change", "grammar"]
+    },
+    {
+      "id": "q_english_9_reported-speech_005",
+      "goalId": "grade9-english",
+      "question": "He said to me, \"Are you feeling well?\" → In indirect speech:",
+      "options": ["He asked me if I was feeling well.", "He said me if I am feeling well.", "He told me that I was feeling well.", "He asked me that was I feeling well."],
+      "correctIndex": 0,
+      "explanation": "For yes/no questions in indirect speech, use 'if' or 'whether'. The reporting verb changes from 'said' to 'asked'.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "questions", "grammar"]
+    },
+    {
+      "id": "q_english_9_reported-speech_006",
+      "goalId": "grade9-english",
+      "question": "She said, \"I have completed the project.\" → In indirect speech:",
+      "options": ["She said she had completed the project.", "She said she has completed the project.", "She said she completed the project.", "She said she have completed the project."],
+      "correctIndex": 0,
+      "explanation": "Present perfect ('have completed') changes to past perfect ('had completed') in indirect speech.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "tense-change", "grammar"]
+    },
+    {
+      "id": "q_english_9_reported-speech_007",
+      "goalId": "grade9-english",
+      "question": "He said, \"I worked hard yesterday.\" → In indirect speech:",
+      "options": ["He said that he had worked hard the previous day.", "He said that he worked hard yesterday.", "He said that he has worked hard the day before.", "He said that he works hard the previous day."],
+      "correctIndex": 0,
+      "explanation": "Simple past ('worked') → past perfect ('had worked'). 'Yesterday' → 'the previous day'.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "tense-change", "time-expressions"]
+    },
+    {
+      "id": "q_english_9_reported-speech_008",
+      "goalId": "grade9-english",
+      "question": "The teacher said to the students, \"Open your books.\" → In indirect speech:",
+      "options": ["The teacher told the students to open their books.", "The teacher said the students open their books.", "The teacher asked the students if they opened their books.", "The teacher told to the students to open their books."],
+      "correctIndex": 0,
+      "explanation": "For imperatives/commands, indirect speech uses: told + object + to + infinitive. 'Said to' changes to 'told'.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "commands", "grammar"]
+    },
+    {
+      "id": "q_english_9_reported-speech_009",
+      "goalId": "grade9-english",
+      "question": "He said, \"May I use your pen?\" → In indirect speech:",
+      "options": ["He asked if he might use my pen.", "He asked that he may use my pen.", "He asked if he can use my pen.", "He requested to use my pen."],
+      "correctIndex": 0,
+      "explanation": "'May' (permission) changes to 'might' in indirect speech. Permission questions use 'if/whether'.",
+      "difficulty": "hard",
+      "tags": ["reported-speech", "modal-change", "questions"]
+    },
+    {
+      "id": "q_english_9_reported-speech_010",
+      "goalId": "grade9-english",
+      "question": "She said, \"What a beautiful painting this is!\" → In indirect speech:",
+      "options": ["She exclaimed that it was a very beautiful painting.", "She said that what a beautiful painting it was.", "She exclaimed what a beautiful painting.", "She told that the painting was beautiful."],
+      "correctIndex": 0,
+      "explanation": "Exclamatory sentences are converted to statements with 'exclaimed that'. The exclamation structure becomes declarative.",
+      "difficulty": "hard",
+      "tags": ["reported-speech", "exclamatory", "grammar"]
+    },
+    {
+      "id": "q_english_9_reported-speech_011",
+      "goalId": "grade9-english",
+      "question": "\"Don't make noise,\" the teacher said to us. → In indirect speech:",
+      "options": ["The teacher told us not to make noise.", "The teacher said us don't make noise.", "The teacher asked us if we made noise.", "The teacher told us that don't make noise."],
+      "correctIndex": 0,
+      "explanation": "For negative commands, indirect speech uses: told + object + not + to + infinitive.",
+      "difficulty": "hard",
+      "tags": ["reported-speech", "negative-commands", "grammar"]
+    },
+    {
+      "id": "q_english_9_reported-speech_012",
+      "goalId": "grade9-english",
+      "question": "She said, \"I am studying for my exams.\" → She said that she _____ for her exams.",
+      "options": ["was studying", "is studying", "has been studying", "studied"],
+      "correctIndex": 0,
+      "explanation": "Present continuous ('am studying') → past continuous ('was studying') in indirect speech.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "tense-change", "continuous"]
+    }
+  ]
+}
