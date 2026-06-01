@@ -586,7 +586,9 @@ function _renderGreeting() {
     g.weekNum === currentWeek && g.weekDay === todayDay && g.subject === state.subjectFilter
   ) || state.goals.find(g =>
     g.weekNum === currentWeek && g.weekDay === todayDay
-  );
+  ) || state.goals.find(g =>
+    g.weekNum === currentWeek && !g.weekDay && g.subject === state.subjectFilter
+  ) || null;
 
   const todayLast = todayGoal ? Storage.getLastSessionForGoal(todayGoal.id) : null;
   const todayDone = todayLast &&
@@ -653,7 +655,9 @@ function _renderTodayCard() {
     g.weekNum === currentWeek && g.weekDay === todayDay && g.subject === state.subjectFilter
   ) || state.goals.find(g =>
     g.weekNum === currentWeek && g.weekDay === todayDay
-  );
+  ) || state.goals.find(g =>
+    g.weekNum === currentWeek && !g.weekDay && g.subject === state.subjectFilter
+  ) || null;
 
   if (!todayGoal) { el.innerHTML = ''; return; }
 
@@ -726,6 +730,7 @@ function _questSetGoal() {
   const todayDay    = ['sun','mon','tue','wed','thu','fri','sat'][new Date().getDay()];
   return state.goals.find(g => g.weekNum === currentWeek && g.weekDay === todayDay && g.subject === state.subjectFilter)
       || state.goals.find(g => g.weekNum === currentWeek && g.weekDay === todayDay)
+      || state.goals.find(g => g.weekNum === currentWeek && !g.weekDay && g.subject === state.subjectFilter)
       || state.goals.find(g => !g.weekNum && !(g.subject && g.subject.startsWith('regional-')))
       || null;
 }
@@ -743,7 +748,8 @@ function _renderDailyQuest() {
   const _td = ['sun','mon','tue','wed','thu','fri','sat'][new Date().getDay()];
   const todayHeroGoal = (state.user.category === 'school')
     ? (state.goals.find(g => g.weekNum === _cw && g.weekDay === _td && g.subject === state.subjectFilter)
-       || state.goals.find(g => g.weekNum === _cw && g.weekDay === _td))
+       || state.goals.find(g => g.weekNum === _cw && g.weekDay === _td)
+       || state.goals.find(g => g.weekNum === _cw && !g.weekDay && g.subject === state.subjectFilter))
     : null;
 
   // The single next action (Continue hero): first incomplete objective.
@@ -1034,7 +1040,8 @@ function _renderAvatar() {
   const show = localStorage.getItem('ds_avatar') !== 'false';
   const wrap = document.getElementById('avatar-ring-wrap');
   if (!wrap) return;
-  wrap.style.opacity = show ? '1' : '0.4';
+  // Keep full opacity always — avatar toggle hides the character SVG, not the ring button
+  wrap.style.opacity = '1';
 
   const user   = state.user;
   const letter = user ? _getFirstName(user)[0].toUpperCase() : '?';
@@ -1046,9 +1053,10 @@ function _renderAvatar() {
 
   const el = document.getElementById('user-avatar');
   if (el) {
-    el.textContent = letter;                                   // fallback under the SVG
+    el.textContent = letter;                                   // letter initial always visible
     el.style.background = `linear-gradient(135deg, ${c1}, ${c2})`;
-    if (typeof Avatar !== 'undefined') Avatar.mount(el, lv.level);  // E-006 stage SVG
+    // Only mount the Donnibo character SVG when avatar is enabled
+    if (show && typeof Avatar !== 'undefined') Avatar.mount(el, lv.level);  // E-006 stage SVG
   }
 
   const circ = 2 * Math.PI * 22;

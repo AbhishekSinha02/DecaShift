@@ -2451,7 +2451,7 @@
 /* Level badge on the header avatar ring */
 .avatar-ring-wrap { position: relative; }
 .level-badge {
-  position: absolute; bottom: -3px; right: -3px;
+  position: absolute; bottom: 0px; right: -4px;
   min-width: 16px; height: 16px; padding: 0 3px;
   display: flex; align-items: center; justify-content: center;
   font-family: var(--font-mono); font-size: 10px; font-weight: 700;

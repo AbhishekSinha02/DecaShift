@@ -279,14 +279,20 @@ async function _loadQuestionsForUser(user) {
   state.questions = [];
 
   results.filter(Boolean).forEach(file => {
+    // Grade 9-12 files have weekNum but no weekDay and use a shared goalId (e.g.
+    // "grade9-mathematics") across all weeks. Append the week so each weekly card
+    // gets a unique ID and sessions are tracked per-week, not per-subject-ever.
+    const goalId = (file.weekNum && !file.weekDay && file.goalId)
+      ? file.goalId + '-w' + file.weekNum
+      : file.goalId;
     state.goals.push({
-      id: file.goalId, name: file.title || file.name, description: file.description || '',
+      id: goalId, name: file.title || file.name, description: file.description || '',
       category: file.category, grade: file.grade ?? null,
       subject: file.subject, level: file.level, tags: file.tags || [],
       weekNum: file.weekNum || null, weekDay: file.weekDay || null,
       weekStart: file.weekStart || null, weekEnd: file.weekEnd || null
     });
-    (file.questions || []).forEach(q => state.questions.push({ ...q, goalId: file.goalId }));
+    (file.questions || []).forEach(q => state.questions.push({ ...q, goalId }));
   });
 }
 
