@@ -250,7 +250,15 @@ async function _handleSignin(e) {
 
   if (!account) {
     btn.textContent = 'Checking account…';
-    const driveAccount = await Storage.fetchAccountFromDrive(loginId);
+    let driveAccount = null;
+    try {
+      driveAccount = await Storage.fetchAccountFromDrive(loginId);
+    } catch (_) {
+      // Timeout / network error — never leave the button stuck (BUG-028).
+      _showError('err-si-loginid', 'Couldn’t reach the server. Check your connection and try again.');
+      btn.disabled = false; btn.textContent = 'Sign In →';
+      return;
+    }
     if (!driveAccount) {
       _showError('err-si-loginid', 'No account found. Sign up first.');
       btn.disabled = false; btn.textContent = 'Sign In →';
@@ -283,13 +291,15 @@ async function _handleSignin(e) {
   // (category/grade). Without category the manifest can't pick the grade shard,
   // so the home screen renders empty. Recover the full profile from Drive.
   if (!user.category) {
-    const driveAccount = await Storage.fetchAccountFromDrive(loginId);
-    if (driveAccount && driveAccount.category) {
-      const { passwordHash: _ph, loginIdHash: _lh, ...full } = driveAccount;
-      user = full;
-      Storage.saveAccount(account.loginId, account.passwordHash, account.userId, full);
-      Storage.saveUser(user);
-    }
+    try {
+      const driveAccount = await Storage.fetchAccountFromDrive(loginId);
+      if (driveAccount && driveAccount.category) {
+        const { passwordHash: _ph, loginIdHash: _lh, ...full } = driveAccount;
+        user = full;
+        Storage.saveAccount(account.loginId, account.passwordHash, account.userId, full);
+        Storage.saveUser(user);
+      }
+    } catch (_) { /* offline — sign-in is already valid locally, keep going */ }
   }
 
   // Backfill trialStartDate for accounts that predate the trial system

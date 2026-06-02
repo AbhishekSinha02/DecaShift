@@ -77,15 +77,22 @@ const Storage = (() => {
     }).catch(() => {});
   }
 
-  async function fetchAccountFromDrive(loginId) {
+  // Returns the account if Drive says found, null if Drive says not-found, and
+  // THROWS on timeout / network error (so callers can tell "no account" apart
+  // from "couldn't reach the server"). A bare fetch here used to hang sign-in
+  // forever on a slow/unreachable endpoint — see BUG-028.
+  async function fetchAccountFromDrive(loginId, timeoutMs = 8000) {
     if (!APPS_SCRIPT_URL) return null;
+    const ctrl  = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), timeoutMs);
     try {
       const lHash = await _emailHash(loginId);
-      const r = await fetch(APPS_SCRIPT_URL + '?action=getAccount&loginIdHash=' + lHash);
+      const r = await fetch(APPS_SCRIPT_URL + '?action=getAccount&loginIdHash=' + lHash, { signal: ctrl.signal });
       const data = await r.json();
-      if (data.found) return data.account;
-    } catch (_) {}
-    return null;
+      return data.found ? data.account : null;
+    } finally {
+      clearTimeout(timer);
+    }
   }
 
   // ── Remote sync — silent, fire-and-forget ─────────────────────────────────
