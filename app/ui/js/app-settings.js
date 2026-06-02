@@ -129,7 +129,7 @@ async function saveProfileEdit() {
 
   sessionStorage.removeItem('ds_manifest_cache');
   await _loadManifest();
-  await _loadQuestionsForUser(user);
+  await _loadCurriculum(user);
   _renderHome();
 
   if (okEl) okEl.textContent = 'Saved ✓';
@@ -152,7 +152,7 @@ async function saveRegionalLanguage() {
   state.user = user;
   sessionStorage.removeItem('ds_manifest_cache');
   await _loadManifest();
-  await _loadQuestionsForUser(user);
+  await _loadCurriculum(user);
   closeSettings();
   _renderHome();
 }

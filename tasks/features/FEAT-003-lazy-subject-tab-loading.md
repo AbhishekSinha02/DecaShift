@@ -2,7 +2,7 @@
 
 **Priority:** 🔴 P1  
 **Estimate:** 0.5 session  
-**Status:** Open  
+**Status:** ✅ Done (2026-06-02). `_loadCurriculum` loads only today's Daily Sprint files for graded-school users; subject files fetch on first tab open via `_loadSubjectData` (skeleton shown), cached by `state.loadedSubjects` (in-memory) + `ds_qf_*` (sessionStorage). Tab strip derived from manifest so all tabs show before load. Test: `test/lazy-subject-tabs.mjs`.  
 
 ---
 

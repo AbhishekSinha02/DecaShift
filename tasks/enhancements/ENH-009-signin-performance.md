@@ -2,7 +2,7 @@
 
 **Priority:** 🔴 P1  
 **Estimate:** 0.5 session  
-**Status:** Open  
+**Status:** ✅ Done (2026-06-02) — paired with FEAT-003 lazy loading + per-file sessionStorage cache. Sign-in now fetches ~6 files (today's Daily Sprint) instead of 68; repeat fetches served from `ds_qf_*` sessionStorage cache.  
 
 ---
 

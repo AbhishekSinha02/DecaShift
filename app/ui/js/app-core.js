@@ -32,7 +32,10 @@ const state = {
   subjectFilter: 'daily-sprint',
   showArchivedGoals: false,
   showLastWeekSection: false,
-  showAllTopics: false
+  showAllTopics: false,
+  lazyMode: false,              // FEAT-003: graded-school users load subjects on demand
+  loadedFiles: new Set(),       // question files already fetched this session
+  loadedSubjects: new Set()     // subjects whose full shelves are loaded
 };
 
 // ── User Menu ─────────────────────────────────────────────────────────────────
@@ -109,7 +112,7 @@ async function init() {
   if (user) {
     state.user = user;
     state.user.plan = _checkTrialStatus(user);
-    await _loadQuestionsForUser(user);
+    await _loadCurriculum(user);
     if (state.user.plan === 'expired' && !sessionStorage.getItem('ds_paywall_dismissed')) {
       await _showScreen('paywall');
       _setupPaywall();
@@ -272,32 +275,78 @@ function _getShardsForUser(user, shards) {
   return keys;
 }
 
-async function _loadQuestionsForUser(user) {
-  const entries = _filterManifest(state.manifest, user);
-  const results = await Promise.all(entries.map(e => _fetchQuestionFile(e.file)));
+// Merge one fetched question-file's goal + questions into state.
+function _ingestFile(file) {
+  // Grade 9-12 files have weekNum but no weekDay and use a shared goalId (e.g.
+  // "grade9-mathematics") across all weeks. Append the week so each weekly card
+  // gets a unique ID and sessions are tracked per-week, not per-subject-ever.
+  const goalId = (file.weekNum && !file.weekDay && file.goalId)
+    ? file.goalId + '-w' + file.weekNum
+    : file.goalId;
+  state.goals.push({
+    id: goalId, name: file.title || file.name, description: file.description || '',
+    category: file.category, grade: file.grade ?? null,
+    subject: file.subject, level: file.level, tags: file.tags || [],
+    weekNum: file.weekNum || null, weekDay: file.weekDay || null,
+    weekStart: file.weekStart || null, weekEnd: file.weekEnd || null
+  });
+  (file.questions || []).forEach(q => state.questions.push({ ...q, goalId }));
+}
 
-  state.goals     = [];
-  state.questions = [];
-
-  results.filter(Boolean).forEach(file => {
-    // Grade 9-12 files have weekNum but no weekDay and use a shared goalId (e.g.
-    // "grade9-mathematics") across all weeks. Append the week so each weekly card
-    // gets a unique ID and sessions are tracked per-week, not per-subject-ever.
-    const goalId = (file.weekNum && !file.weekDay && file.goalId)
-      ? file.goalId + '-w' + file.weekNum
-      : file.goalId;
-    state.goals.push({
-      id: goalId, name: file.title || file.name, description: file.description || '',
-      category: file.category, grade: file.grade ?? null,
-      subject: file.subject, level: file.level, tags: file.tags || [],
-      weekNum: file.weekNum || null, weekDay: file.weekDay || null,
-      weekStart: file.weekStart || null, weekEnd: file.weekEnd || null
-    });
-    (file.questions || []).forEach(q => state.questions.push({ ...q, goalId }));
+// Fetch + merge a set of manifest entries, skipping any file already loaded
+// this session (state.loadedFiles dedupes across daily-sprint + lazy loads).
+async function _ingestEntries(entries) {
+  const fresh = entries.filter(e => !state.loadedFiles.has(e.file));
+  if (!fresh.length) return;
+  const files = await Promise.all(fresh.map(e => _fetchQuestionFile(e.file)));
+  fresh.forEach((e, i) => {
+    state.loadedFiles.add(e.file);
+    if (files[i]) _ingestFile(files[i]);
   });
 }
 
+// Reset state and load just enough for the default view. School (graded) users
+// get only today's Daily Sprint files up front — their subject shelves load when
+// the tab is opened (FEAT-003). Everyone else loads their full (small) set.
+async function _loadCurriculum(user) {
+  state.loadedFiles    = new Set();
+  state.loadedSubjects = new Set();
+  state.goals          = [];
+  state.questions      = [];
+
+  const graded = !!(user && user.category === 'school'
+    && user.grade != null && user.grade !== 'college');
+  state.lazyMode = graded;
+
+  const entries = _filterManifest(state.manifest, user);
+  if (graded) {
+    const week     = _getISOWeek(new Date());
+    const todayDay = ['sun','mon','tue','wed','thu','fri','sat'][new Date().getDay()];
+    // Today's per-subject cards and today's GK live in currentWeek+todayDay files.
+    await _ingestEntries(entries.filter(e => e.weekNum === week && e.weekDay === todayDay));
+  } else {
+    await _ingestEntries(entries);
+  }
+}
+
+// FEAT-003: fetch + merge every file for one subject the first time its tab is
+// opened. `subject` is the manifest subject key (e.g. "mathematics" or
+// "regional-tamil"). No-op once that subject is loaded.
+async function _loadSubjectData(subject) {
+  if (state.loadedSubjects.has(subject)) return;
+  const entries = _filterManifest(state.manifest, state.user).filter(e => e.subject === subject);
+  await _ingestEntries(entries);
+  state.loadedSubjects.add(subject);
+}
+
 async function _fetchQuestionFile(filename) {
+  // sessionStorage cache → instant on reload / re-sign-in within the same tab.
+  const cacheKey = 'ds_qf_' + filename.replace(/[^a-z0-9]/gi, '_');
+  try {
+    const cached = sessionStorage.getItem(cacheKey);
+    if (cached) return JSON.parse(cached);
+  } catch (_) {}
+
   const urls = [
     _rawUrl('app/ui/questions/' + filename),
     'questions/' + filename
@@ -305,7 +354,11 @@ async function _fetchQuestionFile(filename) {
   for (const url of urls) {
     try {
       const r = await fetch(url);
-      if (r.ok) return r.json();
+      if (r.ok) {
+        const data = await r.json();
+        try { sessionStorage.setItem(cacheKey, JSON.stringify(data)); } catch (_) {/* quota — skip */}
+        return data;
+      }
     } catch (_) {}
   }
   return null;

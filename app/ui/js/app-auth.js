@@ -209,7 +209,7 @@ async function _handleSignup(e) {
 
   sessionStorage.removeItem('ds_manifest_cache');
   await _loadManifest();
-  await _loadQuestionsForUser(user);
+  await _loadCurriculum(user);
   _autoApplyTheme(user.grade);
 
   btn.disabled = false; btn.textContent = 'Create Account →';
@@ -302,7 +302,7 @@ async function _handleSignin(e) {
   state.user = user;
   sessionStorage.removeItem('ds_manifest_cache');
   await _loadManifest();
-  await _loadQuestionsForUser(user);
+  await _loadCurriculum(user);
   await _showScreen('home');
   const hw = document.querySelector('.home-wrap');
   if (hw) hw.scrollTop = 0;

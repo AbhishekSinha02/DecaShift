@@ -88,16 +88,21 @@ function _renderHome() {
   const tabsEl   = document.getElementById('subject-tabs');
   const isSchool = user.category === 'school';
   if (tabsEl) {
-    const rawSubjects = isSchool ? [...new Set([...regularGoals, ...weeklyGoals]
-      .filter(g => !(g.subject && g.subject.startsWith('regional-')))
-      .map(g => g.subject))] : [];
+    // Subjects come from the manifest (always fully loaded), not state.goals —
+    // so every subject tab shows even though its question files load lazily on
+    // first tab open (FEAT-003). Falls back to the manifest superset in eager mode.
+    const userManifest = isSchool ? _filterManifest(state.manifest, user) : [];
+    const rawSubjects = [...new Set(userManifest
+      .filter(e => !(e.subject && e.subject.startsWith('regional-')))
+      .map(e => e.subject))];
     // GK lives in Daily Sprint — remove from subject tab strip
     const subjects = rawSubjects
       .filter(s => s !== 'gk')
       .slice().sort((a, b) =>
         a === 'mathematics' ? -1 : b === 'mathematics' ? 1 : 0
       );
-    const hasRegionalTab = isSchool && regionalGoals.length > 0;
+    const hasRegionalTab = isSchool && !!regionalLang
+      && userManifest.some(e => e.subject === 'regional-' + regionalLang);
     const subjectLabels = {
       'mathematics': 'Math', 'science': 'Science', 'hindi': 'Hindi',
       'french': 'French', 'computer-science': 'CS', 'web-dev': 'Web Dev', 'dsa': 'DSA',
@@ -719,10 +724,48 @@ function _toggleLastWeekSection() {
   _renderHome();
 }
 
-function _setSubjectFilter(subject) {
+async function _setSubjectFilter(subject) {
   state.subjectFilter = subject;
   state.showAllTopics = false;
+
+  // FEAT-003: a subject's weekly shelves are fetched the first time its tab is
+  // opened. Show a skeleton while the files load, then render the real content.
+  if (state.lazyMode && subject !== 'daily-sprint') {
+    const regionalLang = state.user?.regionalLanguage;
+    const key = (regionalLang && subject === regionalLang)
+      ? 'regional-' + regionalLang : subject;
+    if (!state.loadedSubjects.has(key)) {
+      _renderTabsActive(subject);   // reflect the clicked tab immediately
+      _showSubjectSkeleton();
+      await _loadSubjectData(key);
+    }
+  }
   _renderHome();
+}
+
+// Briefly mark the clicked tab active before its content loads (the full tab
+// strip re-renders in _renderHome once data arrives).
+function _renderTabsActive(subject) {
+  document.querySelectorAll('#subject-tabs .subject-tab').forEach(b => {
+    b.classList.toggle('active', b.dataset.subject === subject);
+  });
+}
+
+// Skeleton placeholder shown in #goals-list while a subject's files load.
+function _showSubjectSkeleton() {
+  const _clr = id => { const e = document.getElementById(id); if (e) e.innerHTML = ''; };
+  _clr('greeting-wrap'); _clr('today-card-wrap'); _clr('flash-drill-wrap'); _clr('daily-quest-wrap');
+  const list = document.getElementById('goals-list');
+  if (!list) return;
+  const shelf = `<div class="skeleton-shelf" aria-hidden="true">
+      <div class="skeleton skel-label"></div>
+      <div class="skel-cards">
+        <div class="skeleton skel-card"></div>
+        <div class="skeleton skel-card"></div>
+        <div class="skeleton skel-card"></div>
+      </div>
+    </div>`;
+  list.innerHTML = shelf + shelf;
 }
 
 function _weekNav(delta) {}  // retired — Netflix rows replace week nav
@@ -739,8 +782,8 @@ function _scrollToSubj(idx) {
 }
 
 function _navPractice() {
-  state.subjectFilter = localStorage.getItem('ds_last_subject') || 'mathematics';
-  _renderHome();
+  const subject = localStorage.getItem('ds_last_subject') || 'mathematics';
+  _setSubjectFilter(subject);   // async: lazy-loads the subject's files then renders
   document.getElementById('home-content')?.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
