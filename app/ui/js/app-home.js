@@ -69,14 +69,8 @@ function _renderHome() {
   _renderHeaderMeta();
   _renderCityStrip();
   _renderAvatar();
-  _renderGreeting();
-  _renderDailyQuest();
-  _renderFlashDrills();
-  requestAnimationFrame(_initShelfArrows);  // after all shelves are in the DOM
-  _renderTodayCard();
   _renderRewardNotif();
   _renderPartnerFooter();
-
   _renderStreakBar();
 
   const currentWeek  = _getISOWeek(new Date());
@@ -97,36 +91,44 @@ function _renderHome() {
     const rawSubjects = isSchool ? [...new Set([...regularGoals, ...weeklyGoals]
       .filter(g => !(g.subject && g.subject.startsWith('regional-')))
       .map(g => g.subject))] : [];
-    const subjects = rawSubjects.slice().sort((a, b) =>
-      a === 'mathematics' ? -1 : b === 'mathematics' ? 1 : 0
-    );
+    // GK lives in Daily Sprint — remove from subject tab strip
+    const subjects = rawSubjects
+      .filter(s => s !== 'gk')
+      .slice().sort((a, b) =>
+        a === 'mathematics' ? -1 : b === 'mathematics' ? 1 : 0
+      );
     const hasRegionalTab = isSchool && regionalGoals.length > 0;
     const subjectLabels = {
       'mathematics': 'Math', 'science': 'Science', 'hindi': 'Hindi',
       'french': 'French', 'computer-science': 'CS', 'web-dev': 'Web Dev', 'dsa': 'DSA',
       'physics': 'Physics', 'chemistry': 'Chemistry', 'biology': 'Biology',
-      'english': 'English', 'social-science': 'Soc. Sci.', 'gk': '🌍 GK'
+      'english': 'English', 'social-science': 'Soc. Sci.'
     };
     const langLabel = { sanskrit: 'Sanskrit', marathi: 'Marathi', tamil: 'Tamil',
                         telugu: 'Telugu', punjabi: 'Punjabi', malayalam: 'Malayalam' };
+    // Daily Sprint is always first; subject tabs follow; regional last
     const allTabs = subjects.length > 0
-      ? [...subjects, ...(isSchool ? ['gk'] : []), ...(hasRegionalTab ? [regionalLang] : [])]
+      ? ['daily-sprint', ...subjects, ...(hasRegionalTab ? [regionalLang] : [])]
       : [];
-    // 'All' tab removed — when the saved filter is 'all' or no longer a valid tab,
-    // default to the first subject (math sorts first). Non-school users keep 'all'
-    // (their tabs are hidden and content renders unfiltered).
-    if (subjects.length > 0 && !allTabs.includes(state.subjectFilter)) {
-      state.subjectFilter = subjects[0];
+
+    // Default to daily-sprint when current filter is no longer a valid tab
+    if (allTabs.length > 0 && !allTabs.includes(state.subjectFilter)) {
+      state.subjectFilter = 'daily-sprint';
     }
+
     if (allTabs.length > 1) {
       tabsEl.style.display = 'flex';
       const allSessions = Storage.loadSessions();
       tabsEl.innerHTML = allTabs.map(s => {
+        if (s === 'daily-sprint') {
+          const active = state.subjectFilter === 'daily-sprint' ? ' active' : '';
+          return `<button class="subject-tab daily-sprint-tab${active}" data-subject="daily-sprint" onclick="_setSubjectFilter('daily-sprint')">⚡ Daily Sprint</button>`;
+        }
         const isRegTab = hasRegionalTab && s === regionalLang;
         const baseLabel = isRegTab ? (langLabel[s] || _cap(s))
           : (subjectLabels[s] || _cap(s));
         const active = state.subjectFilter === s ? ' active' : '';
-        const extraClass = isRegTab ? ' regional-tab' : s === 'gk' ? ' gk-tab' : '';
+        const extraClass = isRegTab ? ' regional-tab' : '';
         const subjColor = (SUBJECT_STYLE[s] || {}).color || '';
         const activeStyle = (active && subjColor)
           ? ` style="background:${subjColor};border-color:${subjColor}"`
@@ -134,20 +136,18 @@ function _renderHome() {
 
         // D-010: accuracy badge on tab
         let accTag = '';
-        if (s !== 'all' && s !== 'gk') {
-          const subjGoalIds = new Set(
-            [...weeklyGoals, ...regularGoals].filter(g => g.subject === s).map(g => g.id)
-          );
-          const subjSessions = allSessions.filter(sess => subjGoalIds.has(sess.goalId));
-          if (subjSessions.length >= 2) {
-            const avg = Math.round(subjSessions.reduce((a, r) => a + (r.accuracy ?? 0), 0) / subjSessions.length * 100);
-            const prev = subjSessions.slice(0, -Math.ceil(subjSessions.length / 2));
-            const prevAvg = prev.length
-              ? Math.round(prev.reduce((a, r) => a + (r.accuracy ?? 0), 0) / prev.length * 100)
-              : null;
-            const arrow = prevAvg !== null ? (avg > prevAvg ? '↑' : avg < prevAvg ? '↓' : '') : '';
-            accTag = ` <span class="tab-acc">${avg}%${arrow}</span>`;
-          }
+        const subjGoalIds = new Set(
+          [...weeklyGoals, ...regularGoals].filter(g => g.subject === s).map(g => g.id)
+        );
+        const subjSessions = allSessions.filter(sess => subjGoalIds.has(sess.goalId));
+        if (subjSessions.length >= 2) {
+          const avg = Math.round(subjSessions.reduce((a, r) => a + (r.accuracy ?? 0), 0) / subjSessions.length * 100);
+          const prev = subjSessions.slice(0, -Math.ceil(subjSessions.length / 2));
+          const prevAvg = prev.length
+            ? Math.round(prev.reduce((a, r) => a + (r.accuracy ?? 0), 0) / prev.length * 100)
+            : null;
+          const arrow = prevAvg !== null ? (avg > prevAvg ? '↑' : avg < prevAvg ? '↓' : '') : '';
+          accTag = ` <span class="tab-acc">${avg}%${arrow}</span>`;
         }
         return `<button class="subject-tab${active}${extraClass}"${activeStyle} data-subject="${s}" onclick="_setSubjectFilter('${s}')">${baseLabel}${accTag}</button>`;
       }).join('');
@@ -156,57 +156,152 @@ function _renderHome() {
     }
   }
 
-  // ── GK tab ───────────────────────────────────────────────────────────────
-  if (state.subjectFilter === 'gk') {
-    list.innerHTML = _renderGKNetflixRows();  // flash drills render in #flash-drill-wrap
-    return;
+  // ── Dispatch based on selected tab ────────────────────────────────────────
+  if (!isSchool) {
+    // Non-school users: flat goal list, no subject filtering
+    const _clr = id => { const e = document.getElementById(id); if (e) e.innerHTML = ''; };
+    _clr('greeting-wrap'); _clr('today-card-wrap'); _clr('flash-drill-wrap'); _clr('daily-quest-wrap');
+    _renderNetflixRows(list, weeklyGoals, 'all', currentWeek);
+  } else if (state.subjectFilter === 'daily-sprint') {
+    _renderDailySprint();
+  } else if (regionalLang && state.subjectFilter === regionalLang) {
+    _renderRegionalView(list, regionalGoals);
+  } else if (!user.grade && weeklyGoals.length === 0 && regularGoals.length === 0) {
+    _renderNoGradeState(list);
+  } else {
+    _renderSubjectView(list, weeklyGoals, currentWeek);
   }
 
-  // ── Regional language tab ─────────────────────────────────────────────────
-  const isRegionalTab = isSchool && regionalLang && state.subjectFilter === regionalLang;
+  requestAnimationFrame(_initShelfArrows);
+}
 
-  if (isRegionalTab) {
-    const cards = regionalGoals.map(g => {
-      const count = state.questions.filter(q => q.goalId === g.id).length;
-      const last  = Storage.getLastSessionForGoal(g.id);
-      const score = last ? last.score + '/' + last.total : null;
-      const done  = last && last.accuracy >= 1;
-      return `
-        <div class="goal-card${done ? ' archived' : ''}" id="goal-card-${g.id}">
-          <div class="goal-info">
-            <h3 class="goal-name">${_esc(g.name)}${done ? ' ✅' : ''}</h3>
-            <p class="goal-desc">${_esc(g.description)}</p>
-            <div class="goal-meta">
-              <span>${count} question${count !== 1 ? 's' : ''}</span>
-              ${score ? `<span class="goal-last-score">Last: ${score}</span>` : ''}
-            </div>
-          </div>
-          <div class="goal-actions">
-            <button class="btn btn-primary btn-sm" onclick="startGoal('${g.id}')">${last ? 'Retry' : 'Start'}</button>
-          </div>
-        </div>`;
-    }).join('');
-    list.innerHTML = cards || '<p class="text-muted">No content found for this language.</p>';
-    return;
-  }
+// ── Daily Sprint view (pinned first tab) ──────────────────────────────────────
 
-  // ── No grade set — guide to settings ─────────────────────────────────────
-  if (isSchool && !user.grade && weeklyGoals.length === 0 && regularGoals.length === 0) {
-    list.innerHTML = `<div class="empty-state">
-      <div class="empty-emoji">🎒</div>
-      <p class="empty-title">Set your grade to load your curriculum.</p>
-      <p class="empty-sub">Takes 10 seconds — your personal question bank will be ready immediately.</p>
-      <button class="btn btn-primary btn-sm" style="margin-top:14px" onclick="openSettingsSection('profile')">Go to Settings →</button>
-    </div>`;
-    return;
-  }
+function _renderDailySprint() {
+  _renderGreeting();
+  _renderTodayCards();
+  _renderFlashDrills();
+  _renderGKSection();
+  _renderDailyQuest();
+}
 
-  // ── Netflix rows for selected subject ─────────────────────────────────────
-  const weeklyFiltered = state.subjectFilter === 'all'
-    ? weeklyGoals
-    : weeklyGoals.filter(g => g.subject === state.subjectFilter);
+// ── Subject tab view (weekly shelves only) ────────────────────────────────────
 
+function _renderSubjectView(list, weeklyGoals, currentWeek) {
+  const _clr = id => { const e = document.getElementById(id); if (e) e.innerHTML = ''; };
+  _clr('greeting-wrap'); _clr('today-card-wrap'); _clr('flash-drill-wrap'); _clr('daily-quest-wrap');
+  const weeklyFiltered = weeklyGoals.filter(g => g.subject === state.subjectFilter);
   _renderNetflixRows(list, weeklyFiltered, state.subjectFilter, currentWeek);
+}
+
+function _renderRegionalView(list, regionalGoals) {
+  const _clr = id => { const e = document.getElementById(id); if (e) e.innerHTML = ''; };
+  _clr('greeting-wrap'); _clr('today-card-wrap'); _clr('flash-drill-wrap'); _clr('daily-quest-wrap');
+  const cards = regionalGoals.map(g => {
+    const count = state.questions.filter(q => q.goalId === g.id).length;
+    const last  = Storage.getLastSessionForGoal(g.id);
+    const score = last ? last.score + '/' + last.total : null;
+    const done  = last && last.accuracy >= 1;
+    return `
+      <div class="goal-card${done ? ' archived' : ''}" id="goal-card-${g.id}">
+        <div class="goal-info">
+          <h3 class="goal-name">${_esc(g.name)}${done ? ' ✅' : ''}</h3>
+          <p class="goal-desc">${_esc(g.description)}</p>
+          <div class="goal-meta">
+            <span>${count} question${count !== 1 ? 's' : ''}</span>
+            ${score ? `<span class="goal-last-score">Last: ${score}</span>` : ''}
+          </div>
+        </div>
+        <div class="goal-actions">
+          <button class="btn btn-primary btn-sm" onclick="startGoal('${g.id}')">${last ? 'Retry' : 'Start'}</button>
+        </div>
+      </div>`;
+  }).join('');
+  list.innerHTML = cards || '<p class="text-muted">No content found for this language.</p>';
+}
+
+function _renderNoGradeState(list) {
+  const _clr = id => { const e = document.getElementById(id); if (e) e.innerHTML = ''; };
+  _clr('greeting-wrap'); _clr('today-card-wrap'); _clr('flash-drill-wrap'); _clr('daily-quest-wrap');
+  list.innerHTML = `<div class="empty-state">
+    <div class="empty-emoji">🎒</div>
+    <p class="empty-title">Set your grade to load your curriculum.</p>
+    <p class="empty-sub">Takes 10 seconds — your personal question bank will be ready immediately.</p>
+    <button class="btn btn-primary btn-sm" style="margin-top:14px" onclick="openSettingsSection('profile')">Go to Settings →</button>
+  </div>`;
+}
+
+// ── Today's Practice row (Daily Sprint only) ─────────────────────────────────
+// Single Netflix shelf: all subjects' today cards in one horizontal scroll.
+// Label: "Today's Practice · 2 Jun · Monday"
+
+function _renderTodayCards() {
+  const el = document.getElementById('today-card-wrap');
+  if (!el) return;
+  const user = state.user;
+  if (!user || user.category !== 'school') { el.innerHTML = ''; return; }
+
+  const currentWeek = _getISOWeek(new Date());
+  const today       = new Date();
+  const todayDay    = ['sun','mon','tue','wed','thu','fri','sat'][today.getDay()];
+  const dayName     = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][today.getDay()];
+  const dateStr     = today.getDate() + ' ' + _MONTHS_SHORT[today.getMonth()];
+
+  const subjects = [...new Set(state.goals
+    .filter(g => g.weekNum && !(g.subject && g.subject.startsWith('regional-')) && g.subject !== 'gk')
+    .map(g => g.subject)
+  )].sort((a, b) => a === 'mathematics' ? -1 : b === 'mathematics' ? 1 : 0);
+
+  const cards = subjects.map(subject => {
+    const todayGoal = state.goals.find(g =>
+      g.weekNum === currentWeek && g.weekDay === todayDay && g.subject === subject
+    ) || null;
+    return todayGoal ? _dayCardHtml(todayGoal, false) : '';
+  }).filter(Boolean).join('');
+
+  if (!cards) { el.innerHTML = ''; return; }
+
+  el.innerHTML = `<div class="netflix-row">
+    <div class="netflix-row-label">📅 Today's Practice · ${dateStr} · ${dayName}</div>
+    <div class="row-body">${_shelfHtml(cards)}</div>
+  </div>`;
+}
+
+// ── GK + Current Affairs section (Daily Sprint goals-list) ────────────────────
+
+function _renderGKSection() {
+  const list = document.getElementById('goals-list');
+  if (!list) return;
+
+  const currentWeek = _getISOWeek(new Date());
+  const today       = new Date();
+  const todayDay    = ['sun','mon','tue','wed','thu','fri','sat'][today.getDay()];
+
+  const todayGK = state.goals.find(g =>
+    g.subject === 'gk' && g.weekNum === currentWeek && g.weekDay === todayDay
+  );
+
+  const gkCard = todayGK ? _dayCardHtml(todayGK, false) : '';
+  const caCard = `<div class="day-card current-affairs-placeholder">
+    <div class="day-card-meta">📰 Current Affairs</div>
+    <div class="day-card-title">Daily News Quiz</div>
+    <div class="day-card-desc">Coming soon — daily news quizzes for your grade</div>
+    <div class="day-card-footer"><span class="day-card-count" style="color:var(--muted)">Coming soon</span></div>
+  </div>`;
+
+  list.innerHTML = `<div class="netflix-row">
+    <div class="netflix-row-label">🌍 Current Affairs & GK</div>
+    <div class="row-body">${_shelfHtml(gkCard + caCard)}</div>
+  </div>`;
+}
+
+// ── Go Home — sets Daily Sprint tab + scrolls to top ─────────────────────────
+
+function _goHome() {
+  state.subjectFilter = 'daily-sprint';
+  state.showAllTopics = false;
+  _renderHome();
+  document.getElementById('home-wrap')?.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // ── Goal actions ──────────────────────────────────────────────────────────────
@@ -395,8 +490,7 @@ function _renderNetflixRows(list, goals, subject, currentWeek) {
 function _renderFlashDrills() {
   const wrap = document.getElementById('flash-drill-wrap');
   if (!wrap) return;
-  const showDrills = !state.user || state.subjectFilter === 'mathematics' || state.subjectFilter === 'all';
-  wrap.innerHTML = showDrills ? _buildDrillRow() : '';
+  wrap.innerHTML = _buildDrillRow();
 }
 
 // Wrap a horizontal card track with Netflix-style edge arrows. Arrows are shown
@@ -459,7 +553,7 @@ function _buildDrillRow() {
     </div>`;
   }).join('');
   return `<div class="netflix-row">
-    <div class="netflix-row-label">⚡ Flash Drills</div>
+    <div class="netflix-row-label">⚡ Math Flash Drill</div>
     ${_shelfHtml(cards)}
   </div>`;
 }
@@ -913,7 +1007,7 @@ function _renderDailyQuest() {
     ctaAction = `_startDrill('tables')`;
   } else if (!q.gk) {
     ctaLabel  = "🌍 Today's GK";
-    ctaAction = `_setSubjectFilter('gk');_renderHome()`;
+    ctaAction = `_startDrill('gk')`;
   }
 
   const chip = (done, icon, label) =>

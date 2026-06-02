@@ -1574,7 +1574,7 @@
 .settings-help-link:hover { text-decoration: underline; }
 
 /* ══════════════════════════════════════════════════════════════
-   GK TAB — subject-tab green accent
+   GK TAB — subject-tab green accent (kept for legacy)
    ══════════════════════════════════════════════════════════════ */
 
 .subject-tab.gk-tab {
@@ -1585,6 +1585,27 @@
   background: rgba(34, 197, 94, 0.18);
   border-color: var(--success);
   color: #bbf7d0;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   DAILY SPRINT TAB — pinned first tab, accent electric-blue pill
+   ══════════════════════════════════════════════════════════════ */
+
+.subject-tab.daily-sprint-tab {
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 700;
+}
+.subject-tab.daily-sprint-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+/* Current Affairs placeholder — muted, no hover */
+.day-card.current-affairs-placeholder {
+  opacity: 0.55;
+  pointer-events: none;
 }
 
 /* ══════════════════════════════════════════════════════════════
@@ -2252,19 +2273,6 @@
   .netflix-cards          { gap: 16px; padding: 0 40px 6px; }
   .netflix-cards .day-card,
   .drill-card              { min-width: 200px; max-width: 200px; }
-
-  /* Today's Quest + Flash Drills share one row so the weekly subject cards
-     stay above the fold. Flash drills sit flush in their narrower column. */
-  .home-hero-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-    gap: 24px; align-items: start;
-    margin-bottom: var(--sp-section);
-  }
-  .home-hero-grid #daily-quest-wrap > *,
-  .home-hero-grid #flash-drill-wrap .netflix-row { margin-bottom: 0; }
-  .home-hero-grid #flash-drill-wrap .netflix-cards { padding-left: 0; padding-right: 0; }
-  .home-hero-grid #flash-drill-wrap .drill-card { min-width: 160px; max-width: 160px; }
 
   .settings-tiles { grid-template-columns: 1fr 1fr 1fr; }
 

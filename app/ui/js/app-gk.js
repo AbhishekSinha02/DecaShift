@@ -163,7 +163,7 @@ function _showTodayFactModal(fact) {
 async function dismissGKFact() {
   const overlay = document.getElementById('gk-fact-modal');
   if (overlay) overlay.classList.add('hidden');
-  state.subjectFilter = 'gk';
+  state.subjectFilter = 'daily-sprint';
   await _showScreen('home');
   _renderHome();
 }

@@ -29,7 +29,7 @@ const state = {
   timerInterval: null,
   timerSeconds: 0,
   timerEnabled: localStorage.getItem('decashift_timer') !== 'off',
-  subjectFilter: 'all',
+  subjectFilter: 'daily-sprint',
   showArchivedGoals: false,
   showLastWeekSection: false,
   showAllTopics: false

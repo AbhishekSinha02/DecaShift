@@ -476,7 +476,6 @@ async function _showResult() {
     else startGoal(state.selectedGoal.id);
   };
   document.getElementById('back-home-btn').onclick = async () => {
-    if (state.selectedGoal.id === 'daily-gk') state.subjectFilter = 'gk';
     await _showScreen('home');
     _renderHome();
   };

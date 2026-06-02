@@ -3,7 +3,7 @@
     <!-- E-002: laptop left nav rail (≥1024px) — reuses drawer handlers, hidden on phone/tablet -->
     <nav class="home-nav-rail" aria-label="Primary">
       <img src="assets/icon.svg" class="rail-logo" alt="Donnibo">
-      <button class="rail-item" onclick="_renderHome()">
+      <button class="rail-item" onclick="_goHome()">
         <span class="rail-icon">🏠</span><span class="rail-label">Home</span>
       </button>
       <button class="rail-item" id="rail-practice-btn" onclick="_navPractice()">
@@ -15,7 +15,7 @@
       <button class="rail-item" onclick="openJourney()">
         <span class="rail-icon">🌱</span><span class="rail-label">Journey</span>
       </button>
-      <button class="rail-item" onclick="_setSubjectFilter('gk');_renderHome()">
+      <button class="rail-item" onclick="_goHome()">
         <span class="rail-icon">🌍</span><span class="rail-label">GK</span>
       </button>
       <button class="rail-item" onclick="openSettings()">
@@ -28,7 +28,7 @@
     </nav>
 
     <header class="app-header">
-      <div class="app-header-brand">
+      <div class="app-header-brand" onclick="_goHome()" style="cursor:pointer">
         <img src="assets/icon.svg" class="app-logo" alt="Donnibo">
         <span class="app-brand-name">Donnibo</span>
       </div>
@@ -77,16 +77,8 @@
 
       <div class="home-content" id="home-content">
         <div id="greeting-wrap"></div>
-
-        <!-- Today's Quest + Flash Drills share one row on laptop so the weekly
-             subject cards stay above the fold (stacked on phone/tablet). -->
-        <div class="home-hero-grid">
-          <div id="daily-quest-wrap"></div>
-          <div id="flash-drill-wrap"></div>
-        </div>
-
         <div id="today-card-wrap"></div>
-        <div id="reward-notif-wrap"></div>
+        <div id="flash-drill-wrap"></div>
 
       <div id="goals-list" class="goals-list">
         <div class="skeleton-shelf" aria-hidden="true">
@@ -107,6 +99,8 @@
         </div>
       </div>
 
+        <div id="daily-quest-wrap"></div>
+        <div id="reward-notif-wrap"></div>
       <div id="partner-footer-wrap"></div>
 
       </div><!-- /home-content -->
@@ -143,7 +137,7 @@
             <span class="drawer-icon">🌱</span>
             <span class="drawer-label">My Journey</span>
           </button>
-          <button class="drawer-item" onclick="_setSubjectFilter('gk');_renderHome();_closeDrawer()">
+          <button class="drawer-item" onclick="_goHome();_closeDrawer()">
             <span class="drawer-icon">🌍</span>
             <span class="drawer-label">Today's GK</span>
           </button>
