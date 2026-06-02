@@ -573,9 +573,9 @@ function _buildWeekRow(label, goals, isPast) {
   const chevron   = `<span class="row-chevron${collapsed ? ' collapsed' : ''}">›</span>`;
   return `<div class="netflix-row${collapsed ? ' row-collapsed' : ''}" id="${rowId}">
     <div class="netflix-row-label collapsible-header" onclick="_toggleRow('${rowId}')">
+      ${chevron}
       ${weekLabel}
       <span class="netflix-row-count">${goals.length} sets</span>
-      ${chevron}
     </div>
     <div class="row-body">
       ${_shelfHtml(goals.map(g => _dayCardHtml(g, isPast)).join(''))}
@@ -605,10 +605,10 @@ function _buildTopicRow(conceptId, goals, label) {
   const chevron   = `<span class="row-chevron${collapsed ? ' collapsed' : ''}">›</span>`;
 
   const header = `<div class="netflix-row-label collapsible-header" onclick="_toggleRow('${rowId}')">
+      ${chevron}
       <span class="concept-label-text">${label}</span>
       <span class="concept-dots">${dots}</span>
       <span class="netflix-row-count">${done} of ${total} done</span>
-      ${chevron}
     </div>`;
 
   if (sorted.length <= 5) {
@@ -648,8 +648,8 @@ function _buildDiffShelf(label, goals, rowId) {
   const collapsed = _isCollapsed(rowId);
   return `<div class="diff-shelf${collapsed ? ' row-collapsed' : ''}" id="${rowId}">
     <div class="diff-shelf-label collapsible-header" onclick="_toggleRow('${rowId}')">
-      ${label}
       <span class="row-chevron${collapsed ? ' collapsed' : ''}">›</span>
+      ${label}
     </div>
     <div class="row-body">
       ${_shelfHtml(goals.map(g => _dayCardHtml(g, false)).join(''))}

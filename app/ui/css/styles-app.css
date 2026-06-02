@@ -269,6 +269,7 @@
 .netflix-row-count {
   font-size: 10px; font-weight: 500; color: var(--muted);
   font-family: var(--font-mono); text-transform: none; letter-spacing: 0;
+  margin-left: auto;
 }
 
 /* D-009: Concept progress dots */
@@ -289,7 +290,7 @@
 .collapsible-header:hover { opacity: 0.82; }
 
 .row-chevron {
-  margin-left: auto; flex-shrink: 0;
+  flex-shrink: 0;
   font-size: 16px; color: var(--muted);
   transition: transform 0.2s ease;
   transform: rotate(90deg);   /* pointing down = expanded */
