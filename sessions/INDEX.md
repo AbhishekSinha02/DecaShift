@@ -10,15 +10,26 @@
 
 | # | Priority | File | Focus |
 |---|---|---|---|
-| 1 | 🔴 P1 | bugs/INDEX.md → BUG-018 | Timer countdown fix (15 min) |
-| 2 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) |
+| 1 | 🔴 P1 | features/INDEX.md → FEAT-002 | **User ID replaces Email login — zero friction signup** (0.5 session) |
+| 2 | 🔴 P1 | bugs/INDEX.md → BUG-018 | Timer countdown fix (15 min) |
 | 3 | 🔴 P1 | bugs/INDEX.md → BUG-016 | Journey screen empty sections (0.5 session) |
-| 4 | 🟠 P2 | enhancements/INDEX.md → ENH-007 | Weekly completion celebration (0.5 session) |
-| 5 | 🟠 P2 | enhancements/INDEX.md → ENH-002 | Week progress calendar Mon–Fri dots (0.5 session) |
-| 6 | 🟠 P2 | enhancements/INDEX.md → ENH-003 | Quiz pause / exit button (0.5 session) |
-| 7 | 🟠 P2 | E-014 (ENGAGEMENT-SESSIONS.md) | Re-engagement nudge — last E-track item (0.5 session) |
-| 8 | 🟠 P2 | features/INDEX.md → FEAT-001 | Week architecture Mon–Sun (1 code session, needs user decision first) |
-| 9 | 🔵 P3 | PENDING-browser-test-p0-bugs.md | BUG-002/003/004/005 browser verify (30 min) |
+| 4 | 🔴 P1 | bugs/INDEX.md → BUG-017 | Result ✗ rows expandable with explanation (pairs with ENH-001) |
+| 5 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) |
+| 6 | 🟠 P2 | enhancements/INDEX.md → ENH-007 | Weekly completion celebration (0.5 session) |
+| 7 | 🟠 P2 | enhancements/INDEX.md → ENH-002 | Week progress calendar Mon–Fri dots (0.5 session) |
+| 8 | 🟠 P2 | enhancements/INDEX.md → ENH-003 | Quiz pause / exit button (0.5 session) |
+| 9 | 🟠 P2 | E-014 (ENGAGEMENT-SESSIONS.md) | Re-engagement nudge — last E-track item (0.5 session) |
+| 10 | 🟠 P2 | features/INDEX.md → FEAT-001 | Week architecture Mon–Sun (1 code session, needs user decision first) |
+| 11 | 🔵 P3 | PENDING-browser-test-p0-bugs.md | BUG-002/003/004/005 browser verify (30 min) |
+
+---
+
+## 🔁 Recurring — Every Session
+
+| Check | Action |
+|---|---|
+| **Landing page** | Open `screen-landing.html` — scan every headline, subtext, CTA, FAQ, and testimonial. Flag anything stale, inaccurate, or weaker than the current product. |
+| **app.js line count** | If >2,000 lines → raise splitting proposal before starting any new feature |
 
 ---
 

@@ -140,10 +140,6 @@ function _setupSignup(category) {
     };
   }
 
-  document.getElementById('reg-mobile').addEventListener('input', e => {
-    e.target.value = e.target.value.replace(/\D/g, '').slice(0, 10);
-  }, { once: true });
-
   document.getElementById('signup-form').onsubmit = _handleSignup;
   document.getElementById('btn-to-signin').onclick = async () => { await _showScreen('signin'); _setupSignin(); };
 }
@@ -153,18 +149,17 @@ async function _handleSignup(e) {
   _clearErrors();
 
   const name     = document.getElementById('reg-name').value.trim();
-  const email    = document.getElementById('reg-email').value.trim().toLowerCase();
-  const mobile   = document.getElementById('reg-mobile').value.trim();
+  const loginId  = document.getElementById('reg-loginid').value.trim().toLowerCase();
   const password = document.getElementById('reg-password').value;
   const confirm  = document.getElementById('reg-confirm').value;
   const category = state.pendingCategory || 'professional';
 
   let valid = true;
-  if (!name)                           { _showError('err-name',     'Enter your name'); valid = false; }
-  if (!email || !_validEmail(email))   { _showError('err-email',    'Enter a valid email'); valid = false; }
-  if (mobile && mobile.length !== 10)  { _showError('err-mobile',   'Enter a valid 10-digit number'); valid = false; }
-  if (password.length < 6)             { _showError('err-password', 'Password must be at least 6 characters'); valid = false; }
-  if (password !== confirm)            { _showError('err-confirm',  'Passwords do not match'); valid = false; }
+  if (!name)                   { _showError('err-name',    'Enter your name'); valid = false; }
+  if (loginId.length < 3)      { _showError('err-loginid', 'User ID must be at least 3 characters'); valid = false; }
+  if (/\s/.test(loginId))      { _showError('err-loginid', 'User ID cannot contain spaces'); valid = false; }
+  if (password.length < 6)     { _showError('err-password', 'Password must be at least 6 characters'); valid = false; }
+  if (password !== confirm)    { _showError('err-confirm',  'Passwords do not match'); valid = false; }
 
   let grade = null, course = null, role = null, company = null, regionalLanguage = null;
   if (category === 'school') {
@@ -184,8 +179,8 @@ async function _handleSignup(e) {
 
   if (!valid) return;
 
-  if (Storage.findAccount(email)) {
-    _showError('err-email', 'This email is already registered. Sign in instead.');
+  if (Storage.findAccount(loginId)) {
+    _showError('err-loginid', 'This User ID is already taken. Try another or sign in.');
     return;
   }
 
@@ -197,7 +192,7 @@ async function _handleSignup(e) {
   const registeredAt = new Date().toISOString();
 
   const user = {
-    userId, name, email, mobile: '+91' + mobile,
+    userId, name, loginId,
     category,
     grade:            grade            || null,
     course:           course           || null,
@@ -208,7 +203,7 @@ async function _handleSignup(e) {
     trialStartDate:   registeredAt
   };
 
-  Storage.saveAccount(email, passwordHash, userId, user);
+  Storage.saveAccount(loginId, passwordHash, userId, user);
   Storage.saveUser(user);
   state.user = user;
 
@@ -223,7 +218,7 @@ async function _handleSignup(e) {
   _maybeShowWelcome();
 
   Storage.syncUserToRemote(user).catch(() => {});
-  Storage.syncAccountToDrive({ email, passwordHash, userId, name, category, grade, course, role, company, registeredAt, streak: Storage.loadStreak() }).catch(() => {});
+  Storage.syncAccountToDrive({ loginId, passwordHash, userId, name, category, grade, course, role, company, registeredAt, streak: Storage.loadStreak() }).catch(() => {});
 }
 
 // ── Sign In ───────────────────────────────────────────────────────────────────
@@ -240,32 +235,32 @@ async function _handleSignin(e) {
   e.preventDefault();
   _clearErrors();
 
-  const email    = document.getElementById('si-email').value.trim().toLowerCase();
+  const loginId  = document.getElementById('si-loginid').value.trim().toLowerCase();
   const password = document.getElementById('si-password').value;
 
   let valid = true;
-  if (!email || !_validEmail(email)) { _showError('err-si-email',    'Enter a valid email'); valid = false; }
-  if (!password)                      { _showError('err-si-password', 'Enter your password'); valid = false; }
+  if (!loginId)  { _showError('err-si-loginid', 'Enter your User ID'); valid = false; }
+  if (!password) { _showError('err-si-password', 'Enter your password'); valid = false; }
   if (!valid) return;
 
   const btn = document.getElementById('signin-btn');
   btn.disabled = true; btn.textContent = 'Signing in…';
 
-  let account = Storage.findAccount(email);
+  let account = Storage.findAccount(loginId);
 
   if (!account) {
     btn.textContent = 'Checking account…';
-    const driveAccount = await Storage.fetchAccountFromDrive(email);
+    const driveAccount = await Storage.fetchAccountFromDrive(loginId);
     if (!driveAccount) {
-      _showError('err-si-email', 'No account found. Sign up first.');
+      _showError('err-si-loginid', 'No account found. Sign up first.');
       btn.disabled = false; btn.textContent = 'Sign In →';
       return;
     }
-    Storage.saveAccount(driveAccount.email, driveAccount.passwordHash, driveAccount.userId);
-    const { passwordHash: _ph, emailHash: _eh, ...userProfile } = driveAccount;
+    Storage.saveAccount(driveAccount.loginId, driveAccount.passwordHash, driveAccount.userId);
+    const { passwordHash: _ph, loginIdHash: _lh, ...userProfile } = driveAccount;
     Storage.saveUser(userProfile);
     if (userProfile.streak) Storage.saveStreak(userProfile.streak);
-    account = { email: driveAccount.email, passwordHash: driveAccount.passwordHash, userId: driveAccount.userId };
+    account = { loginId: driveAccount.loginId, passwordHash: driveAccount.passwordHash, userId: driveAccount.userId };
   }
 
   const hash = await Storage.hashPassword(password);

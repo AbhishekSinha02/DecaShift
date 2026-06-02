@@ -50,10 +50,10 @@ const Storage = (() => {
     return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('').slice(0, 16);
   }
 
-  function saveAccount(email, passwordHash, userId, userProfile = {}) {
+  function saveAccount(loginId, passwordHash, userId, userProfile = {}) {
     const accounts = loadAccounts();
-    const idx = accounts.findIndex(a => a.email === email);
-    const record = { email, passwordHash, userId, createdAt: new Date().toISOString(), ...userProfile };
+    const idx = accounts.findIndex(a => a.loginId === loginId);
+    const record = { loginId, passwordHash, userId, createdAt: new Date().toISOString(), ...userProfile };
     if (idx >= 0) accounts[idx] = record; else accounts.push(record);
     localStorage.setItem(KEYS.ACCOUNTS, JSON.stringify(accounts));
   }
@@ -63,25 +63,25 @@ const Storage = (() => {
     return raw ? JSON.parse(raw) : [];
   }
 
-  function findAccount(email) {
-    return loadAccounts().find(a => a.email === email.toLowerCase()) || null;
+  function findAccount(loginId) {
+    return loadAccounts().find(a => a.loginId === loginId.toLowerCase()) || null;
   }
 
   async function syncAccountToDrive(accountData) {
     if (!APPS_SCRIPT_URL) return;
-    const eHash = await _emailHash(accountData.email);
+    const lHash = await _emailHash(accountData.loginId);
     fetch(APPS_SCRIPT_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'text/plain' },
-      body: JSON.stringify({ action: 'saveAccount', payload: { ...accountData, emailHash: eHash } })
+      body: JSON.stringify({ action: 'saveAccount', payload: { ...accountData, loginIdHash: lHash } })
     }).catch(() => {});
   }
 
-  async function fetchAccountFromDrive(email) {
+  async function fetchAccountFromDrive(loginId) {
     if (!APPS_SCRIPT_URL) return null;
     try {
-      const eHash = await _emailHash(email);
-      const r = await fetch(APPS_SCRIPT_URL + '?action=getAccount&emailHash=' + eHash);
+      const lHash = await _emailHash(loginId);
+      const r = await fetch(APPS_SCRIPT_URL + '?action=getAccount&loginIdHash=' + lHash);
       const data = await r.json();
       if (data.found) return data.account;
     } catch (_) {}
