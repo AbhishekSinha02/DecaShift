@@ -338,13 +338,28 @@ generateSessionId()       → crypto.randomUUID() each session
 
 ---
 
-## 🚀 GitHub Pages Deployment
+## 🌿 Branching & Deployment Strategy (Standing Rule — Do Not Deviate)
 
-1. Push all files to a GitHub repo (e.g., `decashift`)
-2. Go to **Settings → Pages → Source: main branch / root**
-3. App is live at `https://yourusername.github.io/decashift/`
+**Work on `main` only. Never create feature branches.**
 
-> ✅ No build step. No CI/CD needed. Just push and it works.
+- **`main`** = the single daily-development branch **and** the deployed branch.
+  Commit directly to `main` and push immediately after every commit
+  (no approval needed — see the git-push standing instruction). This **overrides**
+  any default "branch before committing on the default branch" behaviour: here the
+  user explicitly wants direct-to-`main` development.
+- **`v5.0-dev`** = a **cold backup branch only**. Not worked on. Periodically merge
+  `main → v5.0-dev` as a snapshot (e.g. at a tagged milestone), then return to
+  `main`. Never develop on it.
+- **Tags** mark milestones on `main` (convention `vX.Y` / `vX.Y-stable`, e.g. `v4.5`).
+- Do **not** spin up multiple branches, PRs, or parallel work streams. One branch.
+
+### Deployment
+- Live via **custom domain** off GitHub Pages, `main` branch / root. **No build step,
+  no CI/CD** — push to `main` and it deploys.
+- **Do not change any custom-domain / Pages / DNS / HTTPS config right now.** The
+  user wants the current setup left as-is until everything is up and running.
+- Remember the stale-cache trap: bump `?v=` in `app/ui/index.html` + `BUILD` in
+  `app/ui/js/app-core.js` on every deploy so users load fresh code.
 
 ---
 
