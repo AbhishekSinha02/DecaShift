@@ -121,7 +121,7 @@ function _renderHome() {
     const streakBarEl = document.getElementById('streak-bar');
     if (allTabs.length > 1) {
       tabsEl.style.display = 'flex';
-      streakBarEl?.classList.remove('no-tabs');  // streak bar pins under the tabs (49px)
+      streakBarEl?.classList.remove('no-tabs');
       const allSessions = Storage.loadSessions();
       tabsEl.innerHTML = allTabs.map(s => {
         const isRegTab = hasRegionalTab && s === regionalLang;
@@ -155,7 +155,7 @@ function _renderHome() {
       }).join('');
     } else {
       tabsEl.style.display = 'none';
-      streakBarEl?.classList.add('no-tabs');  // no tabs → streak bar pins to top (0)
+      streakBarEl?.classList.add('no-tabs');
     }
   }
 
