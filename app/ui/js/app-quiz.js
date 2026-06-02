@@ -134,6 +134,8 @@ function submitAnswer() {
   state.responses.push({
     questionId: q.id, selectedIndex: s, correctIndex: q.correctIndex,
     isCorrect: ok, lucky: isLucky,
+    explanation: q.explanation || null,
+    correctOptionText: q.options[q.correctIndex] || null,
     startTime: state.questionStart, endTime: new Date().toISOString(),
     durationSeconds: state.timerSeconds
   });
@@ -452,12 +454,28 @@ async function _showResult() {
 
   document.getElementById('result-table-body').innerHTML = state.filteredQuestions.map((q, i) => {
     const r = state.responses[i];
-    return `<tr>
-      <td>${i + 1}</td>
-      <td class="q-text">${_esc(q.question.length > 60 ? q.question.slice(0, 60) + '…' : q.question)}</td>
-      <td class="${r.isCorrect ? 'correct' : 'incorrect'}">${r.isCorrect ? '✓' : '✗'}</td>
-      <td class="time-cell">${r.durationSeconds}s</td>
-    </tr>`;
+    const mainRow = r.isCorrect
+      ? `<tr>
+          <td>${i + 1}</td>
+          <td class="q-text">${_esc(q.question.length > 60 ? q.question.slice(0, 60) + '…' : q.question)}</td>
+          <td class="correct">✓</td>
+          <td class="time-cell">${r.durationSeconds}s</td>
+        </tr>`
+      : `<tr class="result-row-wrong" onclick="_toggleResultRow(${i})" title="Tap to see explanation">
+          <td>${i + 1}</td>
+          <td class="q-text">${_esc(q.question.length > 60 ? q.question.slice(0, 60) + '…' : q.question)}</td>
+          <td class="incorrect">✗ ›</td>
+          <td class="time-cell">${r.durationSeconds}s</td>
+        </tr>`;
+    const detailRow = !r.isCorrect
+      ? `<tr class="result-row-detail hidden" id="result-row-detail-${i}">
+          <td colspan="4" class="result-row-explanation">
+            <strong>Correct answer:</strong> ${_esc(r.correctOptionText || '')}
+            ${r.explanation ? `<br><span class="result-row-expl-text">${_esc(r.explanation)}</span>` : ''}
+          </td>
+        </tr>`
+      : '';
+    return mainRow + detailRow;
   }).join('');
 
   const shareBtn = document.getElementById('result-share-btn');
@@ -550,4 +568,9 @@ function _renderNextLevelPrompt(goal) {
       <button class="btn btn-ghost btn-sm" onclick="this.closest('.next-level-card').remove()">Stay here</button>
     </div>
   </div>`;
+}
+
+function _toggleResultRow(i) {
+  const row = document.getElementById('result-row-detail-' + i);
+  if (row) row.classList.toggle('hidden');
 }

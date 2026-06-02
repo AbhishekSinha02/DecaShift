@@ -891,6 +891,13 @@
 .result-table td.correct   { color: var(--success); font-family: var(--font-mono); font-weight: 600; }
 .result-table td.incorrect { color: var(--error);   font-family: var(--font-mono); font-weight: 600; }
 .result-table td.time-cell { font-family: var(--font-mono); color: var(--muted); }
+.result-row-wrong { cursor: pointer; }
+.result-row-wrong:hover { background: rgba(239,68,68,0.05); }
+.result-row-detail td.result-row-explanation {
+  background: var(--surface); border-top: none;
+  padding: 10px 14px; font-size: var(--fs-xs); line-height: 1.6; color: var(--text);
+}
+.result-row-expl-text { color: var(--muted); display: block; margin-top: 4px; }
 
 .result-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 
