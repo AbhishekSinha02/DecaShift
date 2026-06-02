@@ -8,20 +8,21 @@
 
 ## Pending Queue — Code & UX
 
+> ✅ Done 2026-06-02: BUG-026 (sign-out→in empty home, real RCA) · ENH-009 (sign-in speed) ·
+> FEAT-003 (lazy subject tabs + idle prefetch). See `memory/project_lazy_loading_architecture.md`.
+
 | # | Priority | File | Focus |
 |---|---|---|---|
-| 1 | 🔴 P1 | bugs/INDEX.md → BUG-026 | **Sign out → sign in empty home** — fix applied (3906913), verify first |
-| 2 | 🔴 P1 | enhancements/INDEX.md → ENH-009 | **Sign-in speed** — show skeleton immediately, lazy-fetch questions |
-| 3 | 🔴 P1 | features/INDEX.md → FEAT-003 | **Lazy subject tabs** — only load Daily Sprint on sign-in (pairs with ENH-009) |
-| 4 | 🔴 P1 | marketing/GTM-001-landing-rampup.md | **Landing ramp-up** — conversion audit, copy, WhatsApp share, grade picker |
-| 5 | 🔴 P1 | features/INDEX.md → FEAT-004 | **Payment ₹79/month** — needs user decision first (processor + trial days) |
-| 6 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) |
-| 6 | 🟠 P2 | enhancements/INDEX.md → ENH-007 | Weekly completion celebration (0.5 session) |
-| 7 | 🟠 P2 | enhancements/INDEX.md → ENH-002 | Week progress calendar Mon–Fri dots (0.5 session) |
-| 8 | 🟠 P2 | enhancements/INDEX.md → ENH-003 | Quiz pause / exit button (0.5 session) |
-| 9 | 🟠 P2 | E-014 (ENGAGEMENT-SESSIONS.md) | Re-engagement nudge — last E-track item (0.5 session) |
-| 10 | 🟠 P2 | features/INDEX.md → FEAT-001 | Week architecture Mon–Sun (1 code session, needs user decision first) |
-| 11 | 🔵 P3 | PENDING-browser-test-p0-bugs.md | BUG-002/003/004/005 browser verify (30 min) |
+| 1 | 🔴 P1 | marketing/GTM-001-landing-rampup.md | **Landing ramp-up** — conversion audit, copy, WhatsApp share, grade picker |
+| 2 | 🔴 P1 | features/INDEX.md → FEAT-004 | **Payment ₹79/month** — needs user decision first (processor + trial days) |
+| 3 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) |
+| 4 | 🟠 P2 | enhancements/INDEX.md → ENH-010 | **Refactor bulk files** — app-home.js (1.6k), styles-app.css (2.8k), app-core.js. Zero behaviour change, test-guarded (1–1.5 session) |
+| 5 | 🟠 P2 | enhancements/INDEX.md → ENH-007 | Weekly completion celebration (0.5 session) |
+| 6 | 🟠 P2 | enhancements/INDEX.md → ENH-002 | Week progress calendar Mon–Fri dots (0.5 session) |
+| 7 | 🟠 P2 | enhancements/INDEX.md → ENH-003 | Quiz pause / exit button (0.5 session) |
+| 8 | 🟠 P2 | E-014 (ENGAGEMENT-SESSIONS.md) | Re-engagement nudge — last E-track item (0.5 session) |
+| 9 | 🟠 P2 | features/INDEX.md → FEAT-001 | Week architecture Mon–Sun (1 code session, needs user decision first) |
+| 10 | 🔵 P3 | PENDING-browser-test-p0-bugs.md | BUG-002/003/004/005 browser verify (30 min) |
 
 ---
 
@@ -30,7 +31,7 @@
 | Check | Action |
 |---|---|
 | **Landing page** | Open `screen-landing.html` — scan every headline, subtext, CTA, FAQ, and testimonial. Flag anything stale, inaccurate, or weaker than the current product. |
-| **app.js line count** | If >2,000 lines → raise splitting proposal before starting any new feature |
+| **JS/CSS file sizes** | Any JS file >400 lines or CSS >2,500 → flag for ENH-010 split before adding features. Current offenders: app-home.js (1.6k), styles-app.css (2.8k), app-core.js (667), app-quiz.js (576). |
 
 ---
 

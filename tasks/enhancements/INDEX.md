@@ -6,6 +6,7 @@
 | ID | Priority | Title | Est. | File |
 |---|---|---|---|---|
 | ENH-001 | 🔴 P1 | Wrong answer review flow after quiz | 1 session | [→](ENH-001-wrong-answer-review-flow.md) |
+| ENH-010 | 🟠 P2 | Refactor bulk files into focused modules (app-home.js 1.6k, styles-app.css 2.8k…) | 1–1.5 session | [→](ENH-010-refactor-large-files.md) |
 | ENH-007 | 🟠 P2 | Weekly completion celebration | 0.5 session | [→](ENH-007-weekly-completion-celebration.md) |
 | ENH-002 | 🟠 P2 | Week progress calendar (Mon–Fri dots) | 0.5 session | [→](ENH-002-week-progress-calendar.md) |
 | ENH-003 | 🟠 P2 | Quiz pause / exit button | 0.5 session | [→](ENH-003-quiz-pause-exit.md) |
