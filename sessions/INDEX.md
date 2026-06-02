@@ -10,8 +10,12 @@
 
 | # | Priority | File | Focus |
 |---|---|---|---|
-| 1 | 🔴 P1 | bugs/INDEX.md → BUG-026 | **Sign out → sign in empty home** — 2-line fix, apply immediately |
-| 2 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) |
+| 1 | 🔴 P1 | bugs/INDEX.md → BUG-026 | **Sign out → sign in empty home** — fix applied (3906913), verify first |
+| 2 | 🔴 P1 | enhancements/INDEX.md → ENH-009 | **Sign-in speed** — show skeleton immediately, lazy-fetch questions |
+| 3 | 🔴 P1 | features/INDEX.md → FEAT-003 | **Lazy subject tabs** — only load Daily Sprint on sign-in (pairs with ENH-009) |
+| 4 | 🔴 P1 | marketing/GTM-001-landing-rampup.md | **Landing ramp-up** — conversion audit, copy, WhatsApp share, grade picker |
+| 5 | 🔴 P1 | features/INDEX.md → FEAT-004 | **Payment ₹79/month** — needs user decision first (processor + trial days) |
+| 6 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) |
 | 6 | 🟠 P2 | enhancements/INDEX.md → ENH-007 | Weekly completion celebration (0.5 session) |
 | 7 | 🟠 P2 | enhancements/INDEX.md → ENH-002 | Week progress calendar Mon–Fri dots (0.5 session) |
 | 8 | 🟠 P2 | enhancements/INDEX.md → ENH-003 | Quiz pause / exit button (0.5 session) |

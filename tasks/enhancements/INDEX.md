@@ -5,6 +5,7 @@
 
 | ID | Priority | Title | Est. | File |
 |---|---|---|---|---|
+| ENH-009 | 🔴 P1 | Sign-in performance — skeleton first, lazy question fetch | 0.5 session | [→](ENH-009-signin-performance.md) |
 | ENH-001 | 🔴 P1 | Wrong answer review flow after quiz | 1 session | [→](ENH-001-wrong-answer-review-flow.md) |
 | ENH-007 | 🟠 P2 | Weekly completion celebration | 0.5 session | [→](ENH-007-weekly-completion-celebration.md) |
 | ENH-002 | 🟠 P2 | Week progress calendar (Mon–Fri dots) | 0.5 session | [→](ENH-002-week-progress-calendar.md) |
