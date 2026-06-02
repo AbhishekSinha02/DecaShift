@@ -203,8 +203,19 @@ async function _handleSignup(e) {
     trialStartDate:   registeredAt
   };
 
-  Storage.saveAccount(loginId, passwordHash, userId, user);
-  Storage.saveUser(user);
+  // Persist + verify. Some browsers (private/incognito, "block site data", strict
+  // privacy) silently drop or block localStorage writes — signup then LOOKS fine
+  // (home renders from in-memory state) but the account is gone at the next
+  // sign-in → "no account found". Fail loudly here instead. (BUG-029)
+  try {
+    Storage.saveAccount(loginId, passwordHash, userId, user);
+    Storage.saveUser(user);
+  } catch (_) { /* handled by the verify below */ }
+  if (!Storage.findAccount(loginId)) {
+    _showError('err-loginid', 'Couldn’t save your account on this device. Turn off private/incognito mode or allow site data for this site, then try again.');
+    btn.disabled = false; btn.textContent = 'Create Account →';
+    return;
+  }
   state.user = user;
 
   sessionStorage.removeItem('ds_manifest_cache');
