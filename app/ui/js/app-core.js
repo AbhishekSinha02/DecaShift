@@ -48,10 +48,10 @@ document.addEventListener('click', e => {
   }
 });
 
-// Desktop: let a vertical mouse wheel scroll the horizontal shelves/tabs (no
-// touchscreen to swipe). Delegated so it survives shelf re-renders. Passes the
-// event through at the track's edges so the page still scrolls vertically.
+// Desktop: convert vertical wheel to horizontal scroll for shelves/tabs on the
+// home screen. Guard: only active on 'home' so landing/auth screens scroll freely.
 document.addEventListener('wheel', e => {
+  if (state.currentScreen !== 'home') return;
   const sc = e.target.closest && e.target.closest('.netflix-cards, .subject-tabs, .subj-track');
   if (!sc || sc.scrollWidth <= sc.clientWidth) return;
   if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return;   // trackpad already horizontal

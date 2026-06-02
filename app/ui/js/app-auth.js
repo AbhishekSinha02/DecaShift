@@ -23,12 +23,12 @@ function _setupLanding() {
     });
   });
 
-  const nav     = document.querySelector('.lp-nav');
-  const landing = document.getElementById('screen-landing');
-  if (nav && landing) {
-    landing.addEventListener('scroll', () => {
-      nav.style.boxShadow = landing.scrollTop > 10 ? '0 2px 20px rgba(0,0,0,.08)' : 'none';
-    });
+  const nav = document.querySelector('.lp-nav');
+  if (nav) {
+    window.addEventListener('scroll', () => {
+      if (state.currentScreen !== 'landing') return;
+      nav.style.boxShadow = window.scrollY > 10 ? '0 2px 20px rgba(0,0,0,.08)' : 'none';
+    }, { passive: true });
   }
 
   if ('IntersectionObserver' in window) {

@@ -9,15 +9,11 @@
   background: #ffffff;
   color: #1e293b;
   font-family: 'Inter', sans-serif;
-  overflow-y: auto;
   overflow-x: hidden;
-  scrollbar-width: none;
-  height: auto;
   min-height: 100vh;
   position: relative;
   display: none;
 }
-#screen-landing::-webkit-scrollbar { display: none; }
 #screen-landing.active { display: block; }
 
 /* ── Shared tokens ───────────────────────────────────────────────── */
