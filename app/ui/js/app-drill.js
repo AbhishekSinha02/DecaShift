@@ -252,7 +252,7 @@ function _showDrillResult() {
   if (typeof _maybeOpenMysteryBox === 'function') _maybeOpenMysteryBox({ streak: drillStreak, xpResult: drillXP });  // E-010
   checkAndShowInstallPrompt();
   if (state.user) {
-    const drillAcct = Storage.findAccount(state.user.email);
+    const drillAcct = Storage.findAccount(state.user.loginId || state.user.email);  // BUG-030: loginId, not removed email
     if (drillAcct) {
       Storage.syncAccountToDrive({
         ...state.user, passwordHash: drillAcct.passwordHash, streak: drillStreak

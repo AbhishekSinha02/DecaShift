@@ -418,7 +418,7 @@ async function _showResult() {
   const banner = document.getElementById('first-session-banner');
   if (banner) banner.classList.toggle('hidden', Storage.loadSessions().length !== 1);
 
-  const acct = Storage.findAccount(state.user.email);
+  const acct = Storage.findAccount(state.user.loginId || state.user.email);  // BUG-030: loginId, not removed email
   if (acct) {
     Storage.syncAccountToDrive({
       ...state.user, passwordHash: acct.passwordHash, streak: updatedStreak

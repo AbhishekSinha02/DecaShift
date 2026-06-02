@@ -51,9 +51,13 @@ await page.route('**raw.githubusercontent.com**', r => r.abort());
 // all clear ds_manifest_cache; a direct localStorage write + reload would leave a stale
 // flash-only manifest cache, which is a synthetic path users cannot reach via the UI).
 await page.addInitScript(() => {
+  // Real User-ID user (FEAT-002: loginId, NO email) + a matching account, so the
+  // quiz/drill completion paths exercise Storage.findAccount(loginId) for real (BUG-030).
   if (!localStorage.getItem('decashift_user')) localStorage.setItem('decashift_user', JSON.stringify({
-    userId:'test_fn', name:'Test Kid', email:'kid@test.com', category:'school', grade:'6',
+    userId:'test_fn', name:'Test Kid', loginId:'testfn', category:'school', grade:'6',
     plan:'pro', trialStartDate:new Date().toISOString(), createdAt:new Date().toISOString() }));
+  if (!localStorage.getItem('decashift_accounts')) localStorage.setItem('decashift_accounts', JSON.stringify([
+    { loginId:'testfn', passwordHash:'x', userId:'test_fn', category:'school', grade:'6' }]));
 });
 
 page.on('console', m => { if (m.type() === 'error') report.consoleErrors.push(m.text()); });

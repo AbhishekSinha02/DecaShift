@@ -64,6 +64,7 @@ const Storage = (() => {
   }
 
   function findAccount(loginId) {
+    if (!loginId) return null;   // guard: undefined/null id must not throw (BUG-030)
     return loadAccounts().find(a => a.loginId === loginId.toLowerCase()) || null;
   }
 
