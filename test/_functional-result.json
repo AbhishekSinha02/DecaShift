@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-05-30T13:38:40.277Z",
+  "generatedAt": "2026-06-02T17:38:22.084Z",
   "base": "http://127.0.0.1:8731",
   "consoleErrors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
     "Failed to load resource: net::ERR_FAILED",
     "Failed to load resource: net::ERR_FAILED",
     "Failed to load resource: net::ERR_FAILED",
@@ -72,12 +92,12 @@
     {
       "name": "Curriculum loaded for grade-6 user",
       "ok": true,
-      "detail": "53 manifest · 48 goals · 671 questions"
+      "detail": "73 manifest · 68 goals · 971 questions"
     },
     {
       "name": "Home renders goal/day cards",
       "ok": true,
-      "detail": "20 cards"
+      "detail": "1 cards"
     },
     {
       "name": "Home hero grid / flash-drill region present",
@@ -146,12 +166,12 @@
     }
   ],
   "perf": {
-    "coldLoadMs": 1395,
+    "coldLoadMs": 1268,
     "nav": {
-      "domContentLoaded": 230,
-      "loadComplete": 230,
-      "domInteractive": 227,
-      "resourceCount": 132
+      "domContentLoaded": 288,
+      "loadComplete": 288,
+      "domInteractive": 285,
+      "resourceCount": 172
     }
   },
   "breakpoints": [
@@ -192,7 +212,7 @@
       "cw": 1440
     }
   ],
-  "consoleErrorCount": 58,
+  "consoleErrorCount": 78,
   "pageErrorCount": 0,
   "failedRequestCount": 0
 }

@@ -256,11 +256,13 @@ async function _handleSignin(e) {
       btn.disabled = false; btn.textContent = 'Sign In →';
       return;
     }
-    Storage.saveAccount(driveAccount.loginId, driveAccount.passwordHash, driveAccount.userId);
     const { passwordHash: _ph, loginIdHash: _lh, ...userProfile } = driveAccount;
+    // Persist the full profile into the local account record (not just the
+    // credentials) so a later sign-in can rebuild category/grade offline.
+    Storage.saveAccount(driveAccount.loginId, driveAccount.passwordHash, driveAccount.userId, userProfile);
     Storage.saveUser(userProfile);
     if (userProfile.streak) Storage.saveStreak(userProfile.streak);
-    account = { loginId: driveAccount.loginId, passwordHash: driveAccount.passwordHash, userId: driveAccount.userId };
+    account = Storage.findAccount(loginId);
   }
 
   const hash = await Storage.hashPassword(password);
@@ -272,9 +274,22 @@ async function _handleSignin(e) {
 
   let user = Storage.loadUser();
   if (!user || user.userId !== account.userId) {
-    const { passwordHash: _ph, ...userProfile } = account;
+    const { passwordHash: _ph, loginIdHash: _lh, createdAt: _ca, ...userProfile } = account;
     user = userProfile;
     Storage.saveUser(user);
+  }
+
+  // Safety net: a legacy/Drive account record may lack the learning profile
+  // (category/grade). Without category the manifest can't pick the grade shard,
+  // so the home screen renders empty. Recover the full profile from Drive.
+  if (!user.category) {
+    const driveAccount = await Storage.fetchAccountFromDrive(loginId);
+    if (driveAccount && driveAccount.category) {
+      const { passwordHash: _ph, loginIdHash: _lh, ...full } = driveAccount;
+      user = full;
+      Storage.saveAccount(account.loginId, account.passwordHash, account.userId, full);
+      Storage.saveUser(user);
+    }
   }
 
   // Backfill trialStartDate for accounts that predate the trial system
@@ -298,6 +313,14 @@ async function _handleSignin(e) {
 // ── Sign Out ──────────────────────────────────────────────────────────────────
 
 async function signOut() {
+  // Backfill the account record with the live profile before clearing the user,
+  // so the next sign-in can rebuild a complete user (category/grade) offline —
+  // even for legacy/Drive accounts whose stored record lacked the profile.
+  const u = state.user || Storage.loadUser();
+  if (u && u.loginId) {
+    const acct = Storage.findAccount(u.loginId);
+    if (acct) Storage.saveAccount(acct.loginId, acct.passwordHash, acct.userId, u);
+  }
   Storage.clearSession();
   sessionStorage.removeItem('ds_manifest_cache');
   state.user      = null;
