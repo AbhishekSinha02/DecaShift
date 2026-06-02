@@ -281,6 +281,23 @@ function _renderGKSection() {
     g.subject === 'gk' && g.weekNum === currentWeek && g.weekDay === todayDay
   );
 
+  const records  = JSON.parse(localStorage.getItem('ds_drill_records') || '{}');
+  const gkRec    = records['gk'];
+  let gkBestLine;
+  if (gkRec && gkRec.bestTime !== null) {
+    const m = Math.floor(gkRec.bestTime / 60), s = String(gkRec.bestTime % 60).padStart(2, '0');
+    const pct = gkRec.bestAccuracy !== null ? ' · ' + Math.round(gkRec.bestAccuracy * 100) + '%' : '';
+    gkBestLine = `<div class="drill-card-best">Best: ${m}:${s}${pct}</div>`;
+  } else {
+    gkBestLine = `<div class="drill-card-best" style="color:var(--muted)">Not tried yet</div>`;
+  }
+  const gkDrillCard = `<div class="drill-card" onclick="_startDrill('gk')">
+    <div class="drill-card-icon">🌍</div>
+    <div class="drill-card-name">GK Drill</div>
+    <div class="drill-card-sub">5 questions</div>
+    ${gkBestLine}
+  </div>`;
+
   const gkCard = todayGK ? _dayCardHtml(todayGK, false) : '';
   const caCard = `<div class="day-card current-affairs-placeholder">
     <div class="day-card-meta">📰 Current Affairs</div>
@@ -290,8 +307,8 @@ function _renderGKSection() {
   </div>`;
 
   list.innerHTML = `<div class="netflix-row">
-    <div class="netflix-row-label">🌍 Current Affairs & GK</div>
-    <div class="row-body">${_shelfHtml(gkCard + caCard)}</div>
+    <div class="netflix-row-label">🌍 GK & Current Affairs</div>
+    <div class="row-body">${_shelfHtml(gkDrillCard + gkCard + caCard)}</div>
   </div>`;
 }
 
@@ -531,7 +548,6 @@ function _buildDrillRow() {
     { id: 'squares',  icon: '²',  name: 'Squares',  sub: '1–25' },
     { id: 'cubes',    icon: '³',  name: 'Cubes',    sub: '1–15' },
     { id: 'formulas', icon: '∫',  name: 'Formulas', sub: 'Physics · Math' },
-    { id: 'gk',       icon: '🌍', name: 'GK Today', sub: '5 questions' },
   ];
   const records = JSON.parse(localStorage.getItem('ds_drill_records') || '{}');
   const cards = drills.map(d => {
