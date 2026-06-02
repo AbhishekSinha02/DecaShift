@@ -160,8 +160,10 @@ async function saveRegionalLanguage() {
 // ── Security Sub-screen ───────────────────────────────────────────────────────
 
 function _initSecuritySection() {
-  const emailEl = document.getElementById('settings-email-display');
-  if (emailEl && state.user) emailEl.textContent = state.user.email || '—';
+  // FEAT-002: login key is the User ID (loginId), not email. Fall back to legacy
+  // email only for pre-migration accounts that never had a loginId.
+  const idEl = document.getElementById('settings-loginid-display');
+  if (idEl && state.user) idEl.textContent = state.user.loginId || state.user.email || '—';
   ['settings-pw-err', 'settings-pw-ok'].forEach(id => {
     const el = document.getElementById(id); if (el) el.textContent = '';
   });
@@ -184,7 +186,8 @@ async function saveNewPassword() {
   if (newPw !== confirm) { if (errEl) errEl.textContent = 'Passwords do not match.'; return; }
 
   const user        = state.user;
-  const account     = Storage.findAccount(user.email);
+  const loginId     = user.loginId || user.email;   // login key (FEAT-002), legacy email fallback
+  const account     = loginId ? Storage.findAccount(loginId) : null;
   const currentHash = await Storage.hashPassword(current);
   if (!account || currentHash !== account.passwordHash) {
     if (errEl) errEl.textContent = 'Current password is incorrect.';
@@ -192,7 +195,16 @@ async function saveNewPassword() {
   }
 
   const newHash = await Storage.hashPassword(newPw);
-  Storage.saveAccount(user.email, newHash, user.userId, user);
+  Storage.saveAccount(loginId, newHash, user.userId, user);
+  // Propagate the new hash to Drive with the FULL account record (same shape as
+  // signup) so cross-device sign-in uses the new password and the profile is not
+  // clobbered by a partial write.
+  Storage.syncAccountToDrive({
+    loginId, passwordHash: newHash, userId: user.userId,
+    name: user.name, category: user.category, grade: user.grade,
+    course: user.course, role: user.role, company: user.company,
+    registeredAt: user.registeredAt, streak: Storage.loadStreak()
+  }).catch(() => {});
   if (okEl) okEl.textContent = 'Password updated ✓';
   ['settings-current-pw', 'settings-new-pw', 'settings-confirm-pw'].forEach(id => {
     const el = document.getElementById(id); if (el) el.value = '';

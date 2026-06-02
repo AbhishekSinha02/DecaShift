@@ -5,8 +5,8 @@
 
 | ID | Severity | Title | File |
 |---|---|---|---|
-| ID | Severity | Title | File |
-|---|---|---|---|
-| BUG-026 | 🔴 High | Sign out → sign in leaves home empty (no tabs, no content) | [→](BUG-026-signout-signin-empty-home.md) |
+| _(none open)_ | — | — | — |
 
-**Priority:** Fix BUG-026 next session — RCA written, fix is Option B+D (2-line change)
+**Recently fixed (2026-06-02):**
+- BUG-026 — sign out → sign in empty home (real RCA: profile-less account record) → [→](BUG-026-signout-signin-empty-home.md)
+- BUG-027 — Settings → Security showed blank "Email" + password change broken under User-ID login → [→](BUG-027-settings-password-shows-email-not-userid.md)
