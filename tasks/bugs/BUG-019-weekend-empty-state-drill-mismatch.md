@@ -1,6 +1,7 @@
 # BUG-019 — Weekend empty-state copy says "Flash Drills ready" but drills are hidden on non-Math tabs
 
 **Severity:** Medium
+**Status:** WONTFIX — superseded by FEAT-001 (week architecture Mon–Sun). Saturday = Exam Day, Sunday = Catch-up Day means weekends will never be empty. No copy fix needed.
 **Found by:** UX Audit 2026-06-03 (Home screen, weekend, Science tab)
 **Files:** `app/ui/js/app-home.js` — `_renderNetflixRows` empty state + `_renderFlashDrills`
 
