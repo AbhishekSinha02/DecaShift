@@ -1,5 +1,12 @@
 // app-core.js — Bootstrap, state, theme, manifest, question loading, shared utilities
 
+// Build stamp — bump together with the ?v= query strings in index.html. Lets us
+// confirm which code is actually live (stale CDN/browser cache vs latest deploy):
+// open DevTools console → look for this line, or type DONNIBO_BUILD.
+const BUILD = '20260602c';
+window.DONNIBO_BUILD = BUILD;
+console.log('%cDonnibo build ' + BUILD, 'color:#3b82f6;font-weight:bold');
+
 const CONFIG = {
   owner:         'AbhishekSinha02',
   repo:          'DecaShift',
