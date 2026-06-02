@@ -2671,6 +2671,22 @@
 }
 .journey-stat-key { font-size: var(--fs-xs); color: var(--muted); margin-top: 2px; }
 
+/* Coming-soon teasers */
+.journey-coming-soon-grid {
+  display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 24px;
+}
+.journey-teaser {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 18px;
+  display: flex; align-items: flex-start; gap: 14px;
+}
+.journey-teaser-icon { font-size: 24px; line-height: 1; flex-shrink: 0; margin-top: 2px; }
+.journey-teaser-title {
+  font-family: var(--font-head); font-weight: 700; font-size: var(--fs-sm);
+  color: var(--text); margin-bottom: 4px;
+}
+.journey-teaser-sub { font-size: var(--fs-xs); color: var(--muted); line-height: 1.5; }
+
 /* Section titles */
 .journey-section-title {
   font-family: var(--font-head); font-weight: 800; font-size: var(--fs-h3);
