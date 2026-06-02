@@ -42,7 +42,7 @@ function toggleUserMenu() {
 }
 
 document.addEventListener('click', e => {
-  if (!e.target.closest('.user-chip') && !e.target.closest('.user-menu')) {
+  if (!e.target.closest('.avatar-ring-wrap') && !e.target.closest('.user-menu')) {
     const m = document.getElementById('user-menu');
     if (m) m.classList.add('hidden');
   }

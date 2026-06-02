@@ -58,7 +58,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   min-width: 140px;
-  z-index: 100;
+  z-index: 400;
   overflow: hidden;
 }
 

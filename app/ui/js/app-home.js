@@ -1522,5 +1522,12 @@ function _closeDrawer() {
   document.body.style.overflow = '';
 }
 
+function _toggleDrawer() {
+  const drawer = document.getElementById('app-drawer');
+  if (!drawer) return;
+  if (drawer.classList.contains('open')) _closeDrawer();
+  else _openDrawer();
+}
+
 // Close goal menus on any outside click
 document.addEventListener('click', _closeAllGoalMenus);
