@@ -257,7 +257,7 @@
 }
 
 /* ── Netflix browse rows ─────────────────────────────────────── */
-.netflix-row { margin-bottom: 24px; }
+.netflix-row { margin-bottom: 10px; }
 
 .netflix-row-label {
   font-size: 11px; font-weight: 700; letter-spacing: .08em;
@@ -269,7 +269,6 @@
 .netflix-row-count {
   font-size: 10px; font-weight: 500; color: var(--muted);
   font-family: var(--font-mono); text-transform: none; letter-spacing: 0;
-  margin-left: auto;
 }
 
 /* D-009: Concept progress dots */
@@ -2297,8 +2296,7 @@
   .settings-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
   .settings-modal-content .settings-tiles { display: flex; flex-direction: column; gap: 4px; }
 
-  /* Section rhythm uses the fluid gap token */
-  .netflix-row { margin-bottom: var(--sp-section); }
+  .netflix-row { margin-bottom: 14px; }
 }
 
 /* ── Laptop / desktop (≥1024px) ────────────────────────────────── */
