@@ -1,81 +1,71 @@
 # Donnibo — Session Schedule
 
-> Completed sessions: `sessions/completed/`
-> How to run: say **"start the session"** → Claude reads this INDEX → runs Priority 1 from pending queue.
+> Completed sessions → `sessions/completed/`
+> **Do NOT load completed/ when looking for next task — everything actionable is below.**
+> Say **"start the session"** → Claude reads this INDEX → runs Priority 1 from pending queue.
 
 ---
 
-## Scheduled Sessions
-*(none active)*
+## Pending Queue — Code & UX
+
+| # | Priority | File | Focus |
+|---|---|---|---|
+| 1 | 🔴 P1 | bugs/INDEX.md → BUG-018 | Timer countdown fix (15 min) |
+| 2 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) |
+| 3 | 🔴 P1 | bugs/INDEX.md → BUG-016 | Journey screen empty sections (0.5 session) |
+| 4 | 🟠 P2 | enhancements/INDEX.md → ENH-007 | Weekly completion celebration (0.5 session) |
+| 5 | 🟠 P2 | enhancements/INDEX.md → ENH-002 | Week progress calendar Mon–Fri dots (0.5 session) |
+| 6 | 🟠 P2 | enhancements/INDEX.md → ENH-003 | Quiz pause / exit button (0.5 session) |
+| 7 | 🟠 P2 | E-014 (ENGAGEMENT-SESSIONS.md) | Re-engagement nudge — last E-track item (0.5 session) |
+| 8 | 🟠 P2 | features/INDEX.md → FEAT-001 | Week architecture Mon–Sun (1 code session, needs user decision first) |
+| 9 | 🔵 P3 | PENDING-browser-test-p0-bugs.md | BUG-002/003/004/005 browser verify (30 min) |
 
 ---
 
-## Pending Queue
+## Pending Queue — Infrastructure
 
-| # | File | Type | Focus | Task |
-|---|---|---|---|---|
-| ~~1~~ | ~~PENDING-grade9-12-missing-content-w23-w24.md~~ | ✅ DONE (2026-06-02, commit b081bb1) | 16 files × 20q = 320 questions added for grades 9-12 English/Soc-Sci/Chem/Physics W23+W24 | Content |
-| ~~1~~ | ~~PENDING-home-ux-card-grouping-and-drills.md~~ | ✅ DONE (2026-06-03, commit 180820d) | Topic grouping (max 5 rows, >5 → difficulty split) + drills hidden on non-math tabs | Home UX |
-| ~~1b~~ | ~~PENDING-collapsible-rows.md~~ | ✅ DONE (2026-06-03, commit 180820d) | Collapsible row headers with chevron; Last Week + topic rows collapsed by default | Home UX |
-| ~~2~~ | ~~PENDING-drill-tab-strategy.md~~ | ✅ DONE (2026-06-02) | GK drill moved to GK & Current Affairs row; Math Flash Drill = 4 math cards only | Drill UX |
-| ~~P2-T047~~ | ~~Daily Sprint tab + home restructure~~ | ✅ DONE (2026-06-02, commits `1b49e28`–`c45a487`) | Daily Sprint pinned tab, Today's Practice shelf, GK section, quest at bottom, settings modal pinned footer | Home UX |
-| 1 | [PENDING-browser-test-p0-bugs.md](PENDING-browser-test-p0-bugs.md) | Testing | BUG-002/003/004/005 — static analysis suggests all false positives. Do quick browser verify and mark closed. | BUG-002 thru 005 |
-| 2 | [P2-T047 identity strategy](../tasks/marketing/P2-T047-identity-strategy-userid-email-mobile.md) | Strategy | Decide the durable account KEY (handle+PIN+recovery code vs email/mobile). **Needs user decision. GATES P2-T046.** | Identity |
-| 5 | [PENDING-cross-device-full-state-sync.md](PENDING-cross-device-full-state-sync.md) | Code | Full progress sync across devices (XP/avatar/streak/stickers/mastery/sessions). Implements against P2-T047's chosen key. | P2-T046 |
-| 6 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 |
-| 7 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | PWA install banner improvements | P2-T044 |
-
-> W23 French content (C3) shipped `522ff2e` — W23 now complete (all 4 subjects). Next content session = C4 (W24 Science).
-
-> **Content track:** full 3-month queue (all grades, all subjects, Jun–Aug) in
-> [`tasks/marketing/CONTENT-GEN-3MONTH-PLAN.md`](../tasks/marketing/CONTENT-GEN-3MONTH-PLAN.md).
-> Run just-in-time (~2 weeks ahead), one subject-week (525q) per session.
+| # | Priority | File | Focus |
+|---|---|---|---|
+| 1 | 🔴 P1 (blocked) | P2-T047 identity strategy | Decide account key — handle+PIN vs email. **User decision needed. GATES cross-device sync.** |
+| 2 | 🟠 P2 (gated) | PENDING-cross-device-full-state-sync.md | Full progress sync across devices. Requires P2-T047 decision. |
+| 3 | 🔵 P3 | PENDING-css-lazy-load-phase2.md | Lazy-load styles-app.css after login |
+| 4 | 🔵 P3 | PENDING-pwa-install-banner.md | PWA install banner improvements |
 
 ---
 
-## Engagement Track (E-track) — "Beat Netflix/YouTube"
+## Pending Queue — Content
 
-> Strategy: [`tasks/ENGAGEMENT-STRATEGY.md`](../tasks/ENGAGEMENT-STRATEGY.md) ·
-> Build plan: [`ENGAGEMENT-SESSIONS.md`](ENGAGEMENT-SESSIONS.md)
+> W21/W22/W23 complete (all subjects). W24 = nothing yet.
+> Full 3-month plan: `tasks/marketing/CONTENT-GEN-3MONTH-PLAN.md`
+> Run just-in-time (~2 weeks ahead). Say **"start questions generation"** → auto-executes.
 
-| # | Session | Theme | Tasks | Status |
-|---|---|---|---|---|
-| E1 | Responsive Excellence | tablet/laptop layout | E-001, E-002 | ✅ Done (29326d0, 78c7a5c, 4b82de1) |
-| E2 | The Daily Pull | daily quest + ritual + streak-freeze | E-003, E-004 | ✅ Done (eada092, 46ab9dc, 6b81573) |
-| E3 | See Yourself Grow | XP + levels + avatar + journey | E-005, E-006, E-007 | ✅ Done (7 commits, f49a725→9c0c052) |
-| E4 | Game Juice | sound + haptics + confetti + transitions | E-008, E-009 | ✅ Done (e8945f2→5552d86) |
-| E5 | Variable Reward | XP crits + mystery box + sticker album | E-012, E-010, E-011 | ✅ Done |
-| E6 | Belonging & Virality | image share cards + friend challenge | E-015, E-013 | Pending |
-| E7 | Re-engagement | daily reminder + streak-save nudge | E-014 | Pending |
+| # | Priority | Focus |
+|---|---|---|
+| C4 | 🔴 P1 | W24 Science — all grades |
+| C5 | 🟠 P2 | W24 Math — all grades |
+| C6 | 🟠 P2 | W24 Hindi + French — all grades |
 
-**Wave 1 complete (E1–E4) + live-verified.** Wave 2 (E5–E7) specced. Next: run E5, or browser-QA Wave 1 deeper first.
+---
+
+## Engagement Track (E-track)
+
+| # | Session | Status |
+|---|---|---|
+| E1–E5 | Responsive + Daily Pull + Avatar + Juice + Variable Reward | ✅ Done |
+| E6 | Share cards + friend challenge | ✅ Done |
+| **E7** | **Re-engagement nudge (E-014)** | **⬅ NEXT** |
 
 ---
 
 ## Completed Sessions (22 done)
-See `sessions/completed/` for all session files.
+See `sessions/completed/` for full session files. Summary only here.
 
 | Date | What | Commit |
 |---|---|---|
-| 2026-06-03 | UX audit (Gr.5 + Gr.11) — 7 bugs + 8 enhancements filed; BUG-014/020/ENH-005 fixed; Home UX: topic grouping + collapsible rows + drills math-only | `302190c` |
-| 2026-06-03 | BUG-025 concept labels in past practice; chevron left; row spacing; BUG-015 support number; FEAT-001 task; v4.3→v4.4 | `e20e3b7` |
-| 2026-06-02 | Daily Sprint tab + settings modal; past practice conceptId grouping open by default; BUG-022/023/024 fixed | `17ba8fa` |
-| 2026-05-28 | Grade 9–12 questions — 45 files ~675q | `e68765b` |
-| 2026-05-28 | P2-T031 Flash Drill — 5 drills, timer, PB, share | `f59c60e` |
-| 2026-05-28 | BUG-006 streak + grade sync fix | `4bffe4e` |
-| 2026-05-29 | P2-T037 app.js → 6 modules | `2243807` |
-| 2026-05-29 | P2-T032 Daily GK capsule + GK tab | `21f22e7` |
-| 2026-05-29 | P2-T030 Settings 5-tile + BUG-009 grade fix | `4d97889` |
-| 2026-05-29 | P1-T014/016/017 UI Phase 1 | `329711d` |
-| 2026-05-29 | P1-T015/016 UI Phase 2 | `deedc1d` |
-| 2026-05-29 | P2-T033 PWA install | `4ca1eae` |
-| 2026-05-29 | P3-T032 City partner footer + Reward Cards | `385066a` |
-| 2026-05-29 | P1-T018 Manifest sharding 58KB→749B | `78c35cf` |
-| 2026-05-29 | P1-T019 CSS split base/auth/app | `7b5b6b2` |
-| 2026-05-29 | P1-T020 HTML modularisation → screens/ | `10f62e8` |
-| 2026-05-29 | P2-T015 Ph1+Ph2+Ph3 Landing full rebuild | `c40d310` |
-| 2026-05-29 | P2-T041/T043 Nav overhaul: drawer + week nav + subject snap | `d4545fc` |
-| 2026-05-29 | P2-T038 Trial gating: paywall + My Plan + sets 3–5 gate | `ab4b42d` |
-| 2026-05-29 | P2-T045 Netflix home browse | `012c21d` |
-| 2026-05-29 | Donnibo brand + mobile bug fixes | `7559088` |
-| 2026-05-29 | Delight Stack D-001–D-018 (15 code tasks) + iOS header fix | `f5e29ca` |
+| 2026-06-03 | BUG-025/015 fixed; row polish; FEAT-001; v4.3→v4.4 | `005420f` |
+| 2026-06-03 | UX audit Gr.5+11; 7 bugs + 8 enhancements; BUG-014/020/ENH-005 fixed | `302190c` |
+| 2026-06-02 | Daily Sprint tab; past practice grouping; BUG-022/023/024 fixed | `17ba8fa` |
+| 2026-05-29 | Delight Stack D-001–D-018 + iOS header fix | `f5e29ca` |
+| 2026-05-29 | Full UI/landing/nav/trial/settings/modules overhaul (v4.0) | `012c21d` |
+| 2026-05-28 | Grade 9–12 questions 45 files ~675q; Flash Drill; BUG-006 | `f59c60e` |
+| 2026-05-27 | v3.7 snapshot — Grades 2–8 content complete ~6,000q | `e68765b` |

@@ -1,0 +1,540 @@
+{
+  "runLabel": "v4.3-run-005-2026-05-31T09-17-45",
+  "generatedAt": "2026-05-31T09:20:22.975Z",
+  "base": "http://127.0.0.1:8732",
+  "summary": {
+    "total": 75,
+    "pass": 74,
+    "fail": 1,
+    "warn": 0,
+    "skip": 0
+  },
+  "results": {
+    "TC-01-001": {
+      "id": "TC-01-001",
+      "title": "Landing page loads correctly for first-time visitor",
+      "status": "PASS",
+      "detail": "landing=true cta=true signinNav=true",
+      "category": ""
+    },
+    "TC-01-002": {
+      "id": "TC-01-002",
+      "title": "\"For Students\" → Sign Up with school category",
+      "status": "PASS",
+      "detail": "signup=true gradeField=true",
+      "category": ""
+    },
+    "TC-01-003": {
+      "id": "TC-01-003",
+      "title": "\"For Professionals\" → Sign Up without grade selector",
+      "status": "PASS",
+      "detail": "signup=true schoolHidden=true",
+      "category": ""
+    },
+    "TC-01-011": {
+      "id": "TC-01-011",
+      "title": "Auto-login when session exists in localStorage",
+      "status": "PASS",
+      "detail": "homeVisible=true",
+      "category": ""
+    },
+    "TC-01-012": {
+      "id": "TC-01-012",
+      "title": "Sign out clears session and returns to landing",
+      "status": "PASS",
+      "detail": "signoutClicked=true landing=true",
+      "category": ""
+    },
+    "TC-01-013": {
+      "id": "TC-01-013",
+      "title": "Phone feature showcase auto-rotates on landing",
+      "status": "PASS",
+      "detail": "dot-slide before=0 after=1",
+      "category": ""
+    },
+    "TC-02-001": {
+      "id": "TC-02-001",
+      "title": "Home screen renders all core sections after login",
+      "status": "PASS",
+      "detail": "home=true greeting=true quest=true drills=true tabs=true",
+      "category": ""
+    },
+    "TC-02-002": {
+      "id": "TC-02-002",
+      "title": "Greeting shows correct first name (not full name)",
+      "status": "PASS",
+      "detail": "greeting=\"Welcome, Arjun! 👋\"",
+      "category": ""
+    },
+    "TC-02-003": {
+      "id": "TC-02-003",
+      "title": "Math subject tab is pre-selected for school user",
+      "status": "PASS",
+      "detail": "mathTabActive=true",
+      "category": ""
+    },
+    "TC-02-004": {
+      "id": "TC-02-004",
+      "title": "Tapping a subject tab filters content correctly",
+      "status": "PASS",
+      "detail": "scienceTabActive=true",
+      "category": ""
+    },
+    "TC-02-006": {
+      "id": "TC-02-006",
+      "title": "Day cards visible in shelf",
+      "status": "PASS",
+      "detail": "25 cards",
+      "category": ""
+    },
+    "TC-02-007": {
+      "id": "TC-02-007",
+      "title": "Expired user sees lock icons on Wed/Thu/Fri cards",
+      "status": "PASS",
+      "detail": "gated/lock elements found: 42",
+      "category": ""
+    },
+    "TC-02-008": {
+      "id": "TC-02-008",
+      "title": "Pro user sees no lock icons",
+      "status": "PASS",
+      "detail": "locks=0",
+      "category": ""
+    },
+    "TC-02-015": {
+      "id": "TC-02-015",
+      "title": "User menu dropdown opens on chip tap (toggleUserMenu)",
+      "status": "PASS",
+      "detail": "opened=true visible=true",
+      "category": ""
+    },
+    "TC-02-016": {
+      "id": "TC-02-016",
+      "title": "User menu closes on outside click",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-02-018": {
+      "id": "TC-02-018",
+      "title": "Home renders correctly on 375px mobile viewport — no overflow",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-03-001": {
+      "id": "TC-03-001",
+      "title": "Starting a quiz navigates to quiz screen",
+      "status": "PASS",
+      "detail": "started=true visible=true",
+      "category": ""
+    },
+    "TC-03-002": {
+      "id": "TC-03-002",
+      "title": "Challenge banner visible on quiz start",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-03-005": {
+      "id": "TC-03-005",
+      "title": "Selecting an answer enables Submit button",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-03-006": {
+      "id": "TC-03-006",
+      "title": "Correct answer shows green feedback after submit",
+      "status": "PASS",
+      "detail": "greenCard=true",
+      "category": ""
+    },
+    "TC-03-009": {
+      "id": "TC-03-009",
+      "title": "\"Next Question\" button appears after submit",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-03-010": {
+      "id": "TC-03-010",
+      "title": "Timer counts up when enabled",
+      "status": "PASS",
+      "detail": "timerEl=true",
+      "category": ""
+    },
+    "TC-03-013": {
+      "id": "TC-03-013",
+      "title": "Result screen shows after last question",
+      "status": "PASS",
+      "detail": "answered=20",
+      "category": ""
+    },
+    "TC-03-017": {
+      "id": "TC-03-017",
+      "title": "XP is awarded and shown on result screen",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-03-018": {
+      "id": "TC-03-018",
+      "title": "\"Back to Home\" returns to Home screen",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-03-019": {
+      "id": "TC-03-019",
+      "title": "Session persisted to localStorage after quiz",
+      "status": "PASS",
+      "detail": "1 sessions found",
+      "category": ""
+    },
+    "TC-03-020": {
+      "id": "TC-03-020",
+      "title": "Gated set redirects expired user to paywall",
+      "status": "PASS",
+      "detail": "paywall",
+      "category": ""
+    },
+    "TC-04-001": {
+      "id": "TC-04-001",
+      "title": "Flash Drills shelf visible on Home screen",
+      "status": "PASS",
+      "detail": "5 drill cards",
+      "category": ""
+    },
+    "TC-04-002": {
+      "id": "TC-04-002",
+      "title": "Drill card shows name and description",
+      "status": "PASS",
+      "detail": "name=\"Tables\"",
+      "category": ""
+    },
+    "TC-04-004": {
+      "id": "TC-04-004",
+      "title": "Tapping a drill card opens drill screen",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-04-005": {
+      "id": "TC-04-005",
+      "title": "Drill question and 4 answer options shown",
+      "status": "PASS",
+      "detail": "q=true opts=4",
+      "category": ""
+    },
+    "TC-04-011": {
+      "id": "TC-04-011",
+      "title": "Drill result screen shows after all questions",
+      "status": "PASS",
+      "detail": "answered=20",
+      "category": ""
+    },
+    "TC-05-001": {
+      "id": "TC-05-001",
+      "title": "GK tab visible in subject tabs",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-05-002": {
+      "id": "TC-05-002",
+      "title": "GK tab renders GK content in goals-list (day cards or empty state)",
+      "status": "PASS",
+      "detail": "hasCard=false hasEmpty=true children=1",
+      "category": ""
+    },
+    "TC-06-001": {
+      "id": "TC-06-001",
+      "title": "Daily Quest bar is visible on Home screen",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-06-002": {
+      "id": "TC-06-002",
+      "title": "Quest state readable (DailyQuest.getState() works)",
+      "status": "PASS",
+      "detail": "{\"done\":0,\"total\":3,\"complete\":false}",
+      "category": ""
+    },
+    "TC-06-009": {
+      "id": "TC-06-009",
+      "title": "Quest state persists across page reload",
+      "status": "PASS",
+      "detail": "done after reload=0",
+      "category": ""
+    },
+    "TC-07-001": {
+      "id": "TC-07-001",
+      "title": "XP module (XP.js) is loaded and accessible",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-07-011": {
+      "id": "TC-07-011",
+      "title": "XP total is persistent across page reload (seeded 95 XP)",
+      "status": "PASS",
+      "detail": "xp=95",
+      "category": ""
+    },
+    "TC-07-008": {
+      "id": "TC-07-008",
+      "title": "Level increases when XP threshold is crossed (L1→L2 at 100 XP)",
+      "status": "PASS",
+      "detail": "L1→L2 (105 XP)",
+      "category": ""
+    },
+    "TC-07-012": {
+      "id": "TC-07-012",
+      "title": "XP never decreases (addXP only adds)",
+      "status": "PASS",
+      "detail": "total=105",
+      "category": ""
+    },
+    "TC-07-014": {
+      "id": "TC-07-014",
+      "title": "Lucky Question index assigned per quiz session",
+      "status": "PASS",
+      "detail": "set",
+      "category": ""
+    },
+    "TC-08-001": {
+      "id": "TC-08-001",
+      "title": "New user starts with Stage 1 (Spark)",
+      "status": "PASS",
+      "detail": "stageName=\"Spark\"",
+      "category": ""
+    },
+    "TC-08-003": {
+      "id": "TC-08-003",
+      "title": "All 6 stage boundaries are correct",
+      "status": "PASS",
+      "detail": "L3:Pup | L6:Rookie | L10:Fighter | L15:Champion | L21:Donnibo",
+      "category": ""
+    },
+    "TC-08-004": {
+      "id": "TC-08-004",
+      "title": "Avatar element present in header chip",
+      "status": "PASS",
+      "detail": "avatarEl=true",
+      "category": ""
+    },
+    "TC-09-001": {
+      "id": "TC-09-001",
+      "title": "Journey screen opens",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-09-003": {
+      "id": "TC-09-003",
+      "title": "Avatar and level number displayed on Journey",
+      "status": "PASS",
+      "detail": "levelEl=true",
+      "category": ""
+    },
+    "TC-09-004": {
+      "id": "TC-09-004",
+      "title": "XP progress bar present on Journey",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-09-005": {
+      "id": "TC-09-005",
+      "title": "Streak displayed on Journey",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-09-012": {
+      "id": "TC-09-012",
+      "title": "Journey data sourced from localStorage (offline-capable)",
+      "status": "PASS",
+      "detail": "xp=250",
+      "category": ""
+    },
+    "TC-09-013": {
+      "id": "TC-09-013",
+      "title": "Back button returns to Home (via closeJourney())",
+      "status": "PASS",
+      "detail": "navOk=true homeVisible=true",
+      "category": ""
+    },
+    "TC-10-001": {
+      "id": "TC-10-001",
+      "title": "Streak count displayed in header",
+      "status": "PASS",
+      "detail": "streakEl=\"🔥\n        14\n        days\n        ·\n        —\n        accuracy\n        ·\n        0\n        sessions\n        ·\n        0s\n        practiced\n        Best: 0d\n        🛡 1\"",
+      "category": ""
+    },
+    "TC-10-009": {
+      "id": "TC-10-009",
+      "title": "Streak data persists across reload (seeded 14-day streak)",
+      "status": "PASS",
+      "detail": "current=14 longest=21",
+      "category": ""
+    },
+    "TC-10-011": {
+      "id": "TC-10-011",
+      "title": "Longest streak tracked separately from current streak",
+      "status": "PASS",
+      "detail": "current=14 longest=21",
+      "category": ""
+    },
+    "TC-11-010": {
+      "id": "TC-11-010",
+      "title": "Collectibles module loaded",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-11-002": {
+      "id": "TC-11-002",
+      "title": "rollReward() returns a valid reward object",
+      "status": "PASS",
+      "detail": "kind=sticker",
+      "category": ""
+    },
+    "TC-11-007": {
+      "id": "TC-11-007",
+      "title": "No duplicate stickers granted (idempotent grant)",
+      "status": "PASS",
+      "detail": "idle count=1",
+      "category": ""
+    },
+    "TC-11-011": {
+      "id": "TC-11-011",
+      "title": "Collectibles pool has 7 sticker entries",
+      "status": "PASS",
+      "detail": "pool=7",
+      "category": ""
+    },
+    "TC-12-001": {
+      "id": "TC-12-001",
+      "title": "\"Share Result\" button visible on result screen",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-12-003": {
+      "id": "TC-12-003",
+      "title": "ShareCard.render() produces a Blob",
+      "status": "PASS",
+      "detail": "{\"ok\":true,\"size\":1141100}",
+      "category": ""
+    },
+    "TC-13-003": {
+      "id": "TC-13-003",
+      "title": "Challenge URL payload encodes and decodes correctly",
+      "status": "PASS",
+      "detail": "{\"goalId\":\"grade-5-math-w23-mon\",\"score\":12,\"total\":15,\"name\":\"Arjun\"}",
+      "category": ""
+    },
+    "TC-13-007": {
+      "id": "TC-13-007",
+      "title": "Challenge URL stripped from address bar after capture",
+      "status": "PASS",
+      "detail": "remaining qs=\"\"",
+      "category": ""
+    },
+    "TC-13-009": {
+      "id": "TC-13-009",
+      "title": "Invalid challenge payload returns null gracefully",
+      "status": "PASS",
+      "detail": "result=null",
+      "category": ""
+    },
+    "TC-14-001": {
+      "id": "TC-14-001",
+      "title": "Account has trial plan",
+      "status": "PASS",
+      "detail": "plan=trial",
+      "category": ""
+    },
+    "TC-14-002": {
+      "id": "TC-14-002",
+      "title": "Trial user sees all day cards with no locks",
+      "status": "PASS",
+      "detail": "locks=0",
+      "category": ""
+    },
+    "TC-14-004": {
+      "id": "TC-14-004",
+      "title": "Expired user sees lock icons on Wed/Thu/Fri",
+      "status": "PASS",
+      "detail": "locks=42",
+      "category": ""
+    },
+    "TC-14-005": {
+      "id": "TC-14-005",
+      "title": "Tapping locked card shows paywall screen",
+      "status": "PASS",
+      "detail": "paywall",
+      "category": ""
+    },
+    "TC-15-001": {
+      "id": "TC-15-001",
+      "title": "Settings modal opens",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-15-004": {
+      "id": "TC-15-004",
+      "title": "Settings menu shows all expected tiles",
+      "status": "PASS",
+      "detail": "7 tiles",
+      "category": ""
+    },
+    "TC-15-005": {
+      "id": "TC-15-005",
+      "title": "Profile sub-screen shows current user name",
+      "status": "PASS",
+      "detail": "nameField=\"Arjun Sharma\"",
+      "category": ""
+    },
+    "TC-15-016": {
+      "id": "TC-15-016",
+      "title": "Back arrow returns from sub-screen to settings menu",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-15-017": {
+      "id": "TC-15-017",
+      "title": "Settings close button closes the modal",
+      "status": "PASS",
+      "detail": "",
+      "category": ""
+    },
+    "TC-16-012": {
+      "id": "TC-16-012",
+      "title": "Manifest file accessible at /manifest.webmanifest",
+      "status": "PASS",
+      "detail": "status=200",
+      "category": ""
+    },
+    "TC-16-013": {
+      "id": "TC-16-013",
+      "title": "App shell (JS+CSS+HTML) payload under 400 KB",
+      "status": "PASS",
+      "detail": "~366 KB (shell only, excludes content JSON)",
+      "category": ""
+    },
+    "TC-16-008": {
+      "id": "TC-16-008",
+      "title": "Quiz session completes offline without data loss",
+      "status": "FAIL",
+      "detail": "answered=20",
+      "category": ""
+    }
+  },
+  "consoleErrors": []
+}
