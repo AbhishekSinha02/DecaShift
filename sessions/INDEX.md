@@ -52,11 +52,14 @@
 
 ---
 
-## Completed Sessions (19 done)
+## Completed Sessions (22 done)
 See `sessions/completed/` for all session files.
 
 | Date | What | Commit |
 |---|---|---|
+| 2026-06-03 | UX audit (Gr.5 + Gr.11) — 7 bugs + 8 enhancements filed; BUG-014/020/ENH-005 fixed; Home UX: topic grouping + collapsible rows + drills math-only | `302190c` |
+| 2026-06-03 | BUG-025 concept labels in past practice; chevron left; row spacing; BUG-015 support number; FEAT-001 task; v4.3→v4.4 | `e20e3b7` |
+| 2026-06-02 | Daily Sprint tab + settings modal; past practice conceptId grouping open by default; BUG-022/023/024 fixed | `17ba8fa` |
 | 2026-05-28 | Grade 9–12 questions — 45 files ~675q | `e68765b` |
 | 2026-05-28 | P2-T031 Flash Drill — 5 drills, timer, PB, share | `f59c60e` |
 | 2026-05-28 | BUG-006 streak + grade sync fix | `4bffe4e` |

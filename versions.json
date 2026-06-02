@@ -21,10 +21,17 @@
     "status": "stable"
   },
   {
-    "version": "v4-dev",
+    "version": "v4.3",
     "path": "./app/ui/",
-    "date": "2026-05-27",
-    "description": "Active development — landing page UI upgrade, kid theme, branding, onboarding improvements",
+    "date": "2026-05-30",
+    "description": "Stable snapshot — E-track Wave 1+2 complete (XP/avatar/journey/drills/stickers/challenge), Netflix home browse, Donnibo brand, responsive excellence, 85/100 launch score",
+    "status": "stable"
+  },
+  {
+    "version": "v4.4",
+    "path": "./app/ui/",
+    "date": "2026-06-03",
+    "description": "Active — UX polish: concept labels in past practice, chevron left, row spacing, BUG-015 support number fixed, FEAT-001 week architecture planned",
     "status": "latest"
   }
 ]
