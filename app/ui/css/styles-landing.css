@@ -9,12 +9,16 @@
   background: #ffffff;
   color: #1e293b;
   font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
-  min-height: 100vh;
-  position: relative;
   display: none;
 }
-#screen-landing.active { display: block; }
+#screen-landing.active {
+  display: block;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
 
 /* ── Shared tokens ───────────────────────────────────────────────── */
 .lp { --lp-navy: #1e3a8a; --lp-blue: #2563eb; --lp-blue-dark: #1e3a8a; --lp-gold: #f59e0b;
