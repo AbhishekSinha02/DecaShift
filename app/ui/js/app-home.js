@@ -94,7 +94,9 @@ function _renderHome() {
   const tabsEl   = document.getElementById('subject-tabs');
   const isSchool = user.category === 'school';
   if (tabsEl) {
-    const rawSubjects = isSchool ? [...new Set([...regularGoals, ...weeklyGoals].map(g => g.subject))] : [];
+    const rawSubjects = isSchool ? [...new Set([...regularGoals, ...weeklyGoals]
+      .filter(g => !(g.subject && g.subject.startsWith('regional-')))
+      .map(g => g.subject))] : [];
     const subjects = rawSubjects.slice().sort((a, b) =>
       a === 'mathematics' ? -1 : b === 'mathematics' ? 1 : 0
     );
