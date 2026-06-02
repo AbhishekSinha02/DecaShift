@@ -376,15 +376,31 @@ function _toggleArchivedSection() {
 
 // ── Topic key helpers ─────────────────────────────────────────────────────────
 
-// Group key: use conceptId directly; fall back to week number if missing.
+// Extract concept name from description field ("Fractions & Decimals — Day 1 of 5" → "Fractions & Decimals").
+function _conceptFromDesc(desc) {
+  if (!desc) return null;
+  const cut = desc.split(' — ')[0].trim();
+  return cut || null;
+}
+
+// Convert concept name to a stable slug for grouping ("Fractions & Decimals" → "fractions-decimals").
+function _conceptSlug(text) {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+// Group key: conceptId → description-derived slug → week number → "practice".
 function _topicKeyFromGoal(g) {
   if (g.conceptId && g.conceptId !== 'practice') return g.conceptId;
+  const concept = _conceptFromDesc(g.description);
+  if (concept) return _conceptSlug(concept);
   return g.weekNum ? 'week-' + g.weekNum : 'practice';
 }
 
-// Human-readable label from conceptId (e.g. "fractions-basic" → "Fractions Basic").
+// Human-readable label: conceptId → description concept → Week N → "Practice".
 function _topicLabel(g) {
   if (g.conceptId && g.conceptId !== 'practice') return _conceptLabel(g.conceptId);
+  const concept = _conceptFromDesc(g.description);
+  if (concept) return concept;
   return g.weekNum ? 'Week ' + g.weekNum : 'Practice';
 }
 
