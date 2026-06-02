@@ -1,6 +1,6 @@
 # P2-T047 — Daily Sprint tab + home screen restructure
 
-**Priority:** P2 (conversion impact — first thing every user sees every day)
+**Priority:** P1 — NEXT SESSION (highest priority)
 **Effort:** 1 session (~3–4 hours)
 **Status:** 🔲 Pending
 
@@ -117,6 +117,28 @@ Add a `_goHome()` function that sets filter + re-renders + scrolls. Wire both su
 
 ---
 
+## Completion state sync — Daily Sprint ↔ Subject tabs
+
+When a student completes a today-card from the Daily Sprint tab, that card's state
+must immediately reflect in the corresponding subject tab and vice versa.
+
+**Rule:** Completion state is driven by session storage (`Storage.getLastSessionForGoal()`),
+not by which tab the card was opened from. Both Daily Sprint and subject tabs read the
+same source of truth — no duplication of state.
+
+**Specific behaviour:**
+- Student taps Math today-card on Daily Sprint → completes quiz → returns home
+- Math today-card on Daily Sprint shows ✅ completed state
+- User switches to Math tab → the same card appears there as ✅ completed
+- Works in reverse: complete from Math tab → Daily Sprint card also shows completed
+
+**Implementation note:** Today-cards already call `Storage.getLastSessionForGoal(goalId)` to
+show last score. Ensure `_renderDailySprint()` and `_renderSubjectView()` both re-read
+storage on every render (no cached card state). If a re-render is needed after quiz
+return, ensure `_showScreen('home')` triggers `_renderHome()` so both views update.
+
+---
+
 ## What is NOT changing
 
 - The weekly shelf rendering logic (unchanged — subject tabs reuse it)
@@ -149,6 +171,8 @@ Wire up properly once W24+ content sessions include current affairs questions.
 - [ ] Donnibo logo tap on mobile → Daily Sprint tab, scroll to top
 - [ ] Laptop Home button → Daily Sprint tab, scroll to top
 - [ ] Flash Drill section label reads "Math Flash Drill"
+- [ ] Completing a today-card on Daily Sprint → card shows ✅ completed on Daily Sprint AND on the subject tab
+- [ ] Completing a today-card on a subject tab → card shows ✅ completed on that tab AND on Daily Sprint
 - [ ] No regression on quiz launch, streak, XP, avatar from any card
 
 ---
