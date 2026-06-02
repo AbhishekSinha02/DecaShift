@@ -1508,9 +1508,9 @@ async function _shareStreak() {
 function _openDrawer() {
   const drawer = document.getElementById('app-drawer');
   if (!drawer) return;
+  if (drawer.classList.contains('open')) { _closeDrawer(); return; }
   drawer.classList.add('open');
   document.body.style.overflow = 'hidden';
-  // Update drawer user footer
   const footer = document.getElementById('drawer-footer');
   if (footer && state.user) {
     footer.textContent = state.user.name || state.user.email || '';
@@ -1520,13 +1520,6 @@ function _openDrawer() {
 function _closeDrawer() {
   document.getElementById('app-drawer')?.classList.remove('open');
   document.body.style.overflow = '';
-}
-
-function _toggleDrawer() {
-  const drawer = document.getElementById('app-drawer');
-  if (!drawer) return;
-  if (drawer.classList.contains('open')) _closeDrawer();
-  else _openDrawer();
 }
 
 // Close goal menus on any outside click
