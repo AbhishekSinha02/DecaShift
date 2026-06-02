@@ -10,7 +10,8 @@
 
 | # | Priority | File | Focus |
 |---|---|---|---|
-| 1 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) |
+| 1 | 🔴 P1 | bugs/INDEX.md → BUG-026 | **Sign out → sign in empty home** — 2-line fix, apply immediately |
+| 2 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) |
 | 6 | 🟠 P2 | enhancements/INDEX.md → ENH-007 | Weekly completion celebration (0.5 session) |
 | 7 | 🟠 P2 | enhancements/INDEX.md → ENH-002 | Week progress calendar Mon–Fri dots (0.5 session) |
 | 8 | 🟠 P2 | enhancements/INDEX.md → ENH-003 | Quiz pause / exit button (0.5 session) |

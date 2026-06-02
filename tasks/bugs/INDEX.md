@@ -5,6 +5,8 @@
 
 | ID | Severity | Title | File |
 |---|---|---|---|
-| *(none open)* | — | All filed bugs resolved | — |
+| ID | Severity | Title | File |
+|---|---|---|---|
+| BUG-026 | 🔴 High | Sign out → sign in leaves home empty (no tabs, no content) | [→](BUG-026-signout-signin-empty-home.md) |
 
-**Last resolved (this session):** BUG-018 · BUG-016 · BUG-017 — all fixed, pushed `ee56134`
+**Priority:** Fix BUG-026 next session — RCA written, fix is Option B+D (2-line change)
