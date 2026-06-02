@@ -17,9 +17,10 @@
 | ~~1~~ | ~~PENDING-grade9-12-missing-content-w23-w24.md~~ | ✅ DONE (2026-06-02, commit b081bb1) | 16 files × 20q = 320 questions added for grades 9-12 English/Soc-Sci/Chem/Physics W23+W24 | Content |
 | ~~1~~ | ~~PENDING-home-ux-card-grouping-and-drills.md~~ | ✅ DONE (2026-06-03, commit 180820d) | Topic grouping (max 5 rows, >5 → difficulty split) + drills hidden on non-math tabs | Home UX |
 | ~~1b~~ | ~~PENDING-collapsible-rows.md~~ | ✅ DONE (2026-06-03, commit 180820d) | Collapsible row headers with chevron; Last Week + topic rows collapsed by default | Home UX |
-| 2 | [PENDING-drill-tab-strategy.md](PENDING-drill-tab-strategy.md) | Decision | Decide: subject-specific drills / dedicated Drills tab / Math-only permanently. Pick before W25 content. | Drill UX |
-| 3 | [PENDING-browser-test-p0-bugs.md](PENDING-browser-test-p0-bugs.md) | Testing | BUG-002/003/004/005 — static analysis suggests all false positives. Do quick browser verify and mark closed. | BUG-002 thru 005 |
-| 4 | [P2-T047 identity strategy](../tasks/marketing/P2-T047-identity-strategy-userid-email-mobile.md) | Strategy | Decide the durable account KEY (handle+PIN+recovery code vs email/mobile). **Needs user decision. GATES P2-T046.** | P2-T047 |
+| ~~2~~ | ~~PENDING-drill-tab-strategy.md~~ | ✅ DONE (2026-06-02) | GK drill moved to GK & Current Affairs row; Math Flash Drill = 4 math cards only | Drill UX |
+| ~~P2-T047~~ | ~~Daily Sprint tab + home restructure~~ | ✅ DONE (2026-06-02, commits `1b49e28`–`c45a487`) | Daily Sprint pinned tab, Today's Practice shelf, GK section, quest at bottom, settings modal pinned footer | Home UX |
+| 1 | [PENDING-browser-test-p0-bugs.md](PENDING-browser-test-p0-bugs.md) | Testing | BUG-002/003/004/005 — static analysis suggests all false positives. Do quick browser verify and mark closed. | BUG-002 thru 005 |
+| 2 | [P2-T047 identity strategy](../tasks/marketing/P2-T047-identity-strategy-userid-email-mobile.md) | Strategy | Decide the durable account KEY (handle+PIN+recovery code vs email/mobile). **Needs user decision. GATES P2-T046.** | Identity |
 | 5 | [PENDING-cross-device-full-state-sync.md](PENDING-cross-device-full-state-sync.md) | Code | Full progress sync across devices (XP/avatar/streak/stickers/mastery/sessions). Implements against P2-T047's chosen key. | P2-T046 |
 | 6 | [PENDING-css-lazy-load-phase2.md](PENDING-css-lazy-load-phase2.md) | Perf | Lazy-load styles-app.css after login | P2-T035 |
 | 7 | [PENDING-pwa-install-banner.md](PENDING-pwa-install-banner.md) | Code | PWA install banner improvements | P2-T044 |
