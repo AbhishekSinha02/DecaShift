@@ -100,7 +100,7 @@ function _renderQuestion() {
   const timerBtn   = document.getElementById('timer-toggle-btn');
   if (timerBadge) timerBadge.classList.toggle('hidden', !state.timerEnabled);
   if (timerBtn) {
-    timerBtn.textContent = state.timerEnabled ? 'Timer ON' : 'Timer OFF';
+    timerBtn.textContent = state.timerEnabled ? '⏱ Tracking time' : '⏱ Timer off';
     timerBtn.classList.toggle('active', state.timerEnabled);
   }
 
@@ -196,7 +196,7 @@ function toggleTimer() {
   const timerBtn   = document.getElementById('timer-toggle-btn');
   if (timerBadge) timerBadge.classList.toggle('hidden', !state.timerEnabled);
   if (timerBtn) {
-    timerBtn.textContent = state.timerEnabled ? 'Timer ON' : 'Timer OFF';
+    timerBtn.textContent = state.timerEnabled ? '⏱ Tracking time' : '⏱ Timer off';
     timerBtn.classList.toggle('active', state.timerEnabled);
   }
 }
