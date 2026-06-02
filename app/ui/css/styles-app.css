@@ -2278,7 +2278,7 @@
 .streak-sep       { font-size: 11px; color: var(--border); flex-shrink: 0; }
 .streak-stat-val  { font-size: 13px; font-weight: 700; color: var(--text); flex-shrink: 0; font-family: var(--font-head); }
 .streak-stat-key  { font-size: 11px; color: var(--muted); flex-shrink: 0; }
-.streak-best-sm   { font-size: 11px; color: var(--muted); margin-left: auto; flex-shrink: 0; white-space: nowrap; }
+.streak-best-sm   { font-size: 11px; color: var(--muted); flex-shrink: 0; white-space: nowrap; }
 
 /* ════════════════════════════════════════════════════════════════
    E-002 — Tablet & laptop responsive layers
