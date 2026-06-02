@@ -3,7 +3,7 @@
 // Build stamp — bump together with the ?v= query strings in index.html. Lets us
 // confirm which code is actually live (stale CDN/browser cache vs latest deploy):
 // open DevTools console → look for this line, or type DONNIBO_BUILD.
-const BUILD = '20260602d';
+const BUILD = '20260602e';
 window.DONNIBO_BUILD = BUILD;
 console.log('%cDonnibo build ' + BUILD, 'color:#3b82f6;font-weight:bold');
 
@@ -439,9 +439,10 @@ const _screenHTML = {};
 async function _loadScreen(name) {
   if (document.getElementById('screen-' + name)) return;
   if (!_screenHTML[name]) {
+    // ?v=BUILD busts stale CDN/raw caches so screen HTML changes ship on deploy.
     const urls = [
-      _rawUrl('app/ui/screens/screen-' + name + '.html'),
-      'screens/screen-' + name + '.html'
+      _rawUrl('app/ui/screens/screen-' + name + '.html') + '?v=' + BUILD,
+      'screens/screen-' + name + '.html?v=' + BUILD
     ];
     for (const url of urls) {
       try {

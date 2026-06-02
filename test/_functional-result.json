@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T20:20:25.899Z",
+  "generatedAt": "2026-06-02T20:56:49.214Z",
   "base": "http://127.0.0.1:8731",
   "consoleErrors": [
     "Failed to load resource: net::ERR_FAILED",
@@ -166,11 +166,11 @@
     }
   ],
   "perf": {
-    "coldLoadMs": 1341,
+    "coldLoadMs": 1167,
     "nav": {
-      "domContentLoaded": 233,
-      "loadComplete": 233,
-      "domInteractive": 229,
+      "domContentLoaded": 210,
+      "loadComplete": 210,
+      "domInteractive": 207,
       "resourceCount": 172
     }
   },
