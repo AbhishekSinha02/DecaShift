@@ -1786,7 +1786,7 @@
 
 /* ── Navigation Drawer ───────────────────────────────────────── */
 .app-drawer {
-  position: fixed; inset: 0; z-index: 300;
+  position: fixed; inset: 0; z-index: 9999;
   pointer-events: none;
 }
 .app-drawer.open { pointer-events: auto; }

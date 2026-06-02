@@ -116,47 +116,48 @@
         <span class="city-strip-text" id="city-strip-text"></span>
       </div>
 
+    </div><!-- /home-wrap -->
 
-      <!-- ── Navigation Drawer ──────────────────────────────── -->
-      <div class="app-drawer" id="app-drawer">
-        <div class="drawer-overlay" id="drawer-overlay" onclick="_closeDrawer()"></div>
-        <div class="drawer-panel">
-          <div class="drawer-header">
-            <div class="drawer-brand">
-              <img src="assets/icon.svg" class="drawer-logo" alt="Donnibo">
-              <span class="drawer-brand-name">Donnibo</span>
-            </div>
-            <button class="drawer-close" onclick="_closeDrawer()" aria-label="Close menu">✕</button>
+    <!-- ── Navigation Drawer — direct child of #screen-home, outside home-wrap
+         so no overflow container can interfere with its position:fixed stacking ── -->
+    <div class="app-drawer" id="app-drawer">
+      <div class="drawer-overlay" id="drawer-overlay" onclick="_closeDrawer()"></div>
+      <div class="drawer-panel">
+        <div class="drawer-header">
+          <div class="drawer-brand">
+            <img src="assets/icon.svg" class="drawer-logo" alt="Donnibo">
+            <span class="drawer-brand-name">Donnibo</span>
           </div>
-          <nav class="drawer-nav">
-            <button class="drawer-item" onclick="_startDrill('tables');_closeDrawer()">
-              <span class="drawer-icon">⚡</span>
-              <span class="drawer-label">Flash Drills</span>
-            </button>
-            <button class="drawer-item" id="drawer-practice-btn" onclick="_navPractice();_closeDrawer()">
-              <span class="drawer-icon">📖</span>
-              <span class="drawer-label">Practice</span>
-            </button>
-            <button class="drawer-item" onclick="openJourney()">
-              <span class="drawer-icon">🌱</span>
-              <span class="drawer-label">My Journey</span>
-            </button>
-            <button class="drawer-item" onclick="_setSubjectFilter('gk');_renderHome();_closeDrawer()">
-              <span class="drawer-icon">🌍</span>
-              <span class="drawer-label">Today's GK</span>
-            </button>
-            <button class="drawer-item" onclick="openSettings();_closeDrawer()">
-              <span class="drawer-icon">⚙️</span>
-              <span class="drawer-label">Settings</span>
-            </button>
-            <button class="drawer-item" onclick="signOut()">
-              <span class="drawer-icon">↩</span>
-              <span class="drawer-label">Sign Out</span>
-            </button>
-          </nav>
-          <div class="drawer-footer" id="drawer-footer"></div>
+          <button class="drawer-close" onclick="_closeDrawer()" aria-label="Close menu">✕</button>
         </div>
+        <nav class="drawer-nav">
+          <button class="drawer-item" onclick="_startDrill('tables');_closeDrawer()">
+            <span class="drawer-icon">⚡</span>
+            <span class="drawer-label">Flash Drills</span>
+          </button>
+          <button class="drawer-item" id="drawer-practice-btn" onclick="_navPractice();_closeDrawer()">
+            <span class="drawer-icon">📖</span>
+            <span class="drawer-label">Practice</span>
+          </button>
+          <button class="drawer-item" onclick="openJourney()">
+            <span class="drawer-icon">🌱</span>
+            <span class="drawer-label">My Journey</span>
+          </button>
+          <button class="drawer-item" onclick="_setSubjectFilter('gk');_renderHome();_closeDrawer()">
+            <span class="drawer-icon">🌍</span>
+            <span class="drawer-label">Today's GK</span>
+          </button>
+          <button class="drawer-item" onclick="openSettings();_closeDrawer()">
+            <span class="drawer-icon">⚙️</span>
+            <span class="drawer-label">Settings</span>
+          </button>
+          <button class="drawer-item" onclick="signOut()">
+            <span class="drawer-icon">↩</span>
+            <span class="drawer-label">Sign Out</span>
+          </button>
+        </nav>
+        <div class="drawer-footer" id="drawer-footer"></div>
       </div>
-
     </div>
+
   </section>
