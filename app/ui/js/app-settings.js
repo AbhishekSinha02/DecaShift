@@ -34,6 +34,12 @@ function openSettingsSection(name) {
   if (!sub) return;
   sub.classList.remove('hidden');
 
+  // Show Back button in the pinned footer
+  document.getElementById('settings-footer-back')?.classList.remove('hidden');
+
+  // Scroll content back to top
+  document.querySelector('.settings-modal-content')?.scrollTo({ top: 0 });
+
   if (name === 'profile')    _initProfileSection();
   if (name === 'appearance') _renderThemeSelector();
   if (name === 'learning')   _initLearningSection();
@@ -46,6 +52,12 @@ function backToSettingsMenu() {
   document.querySelectorAll('.settings-sub').forEach(s => s.classList.add('hidden'));
   const menu = document.getElementById('settings-menu');
   if (menu) menu.classList.remove('hidden');
+
+  // Hide Back button; Close is always visible
+  document.getElementById('settings-footer-back')?.classList.add('hidden');
+
+  // Scroll content back to top
+  document.querySelector('.settings-modal-content')?.scrollTo({ top: 0 });
 }
 
 // ── Profile Sub-screen ────────────────────────────────────────────────────────

@@ -1175,8 +1175,33 @@
   max-width: 460px;
   text-align: left;
   max-height: 90vh;
-  overflow-y: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0;        /* override .modal-box default padding */
 }
+
+/* Scrollable inner area — hidden scrollbar so no bar is ever visible */
+.settings-modal-content {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 20px 20px 8px;
+  scrollbar-width: none;
+}
+.settings-modal-content::-webkit-scrollbar { display: none; }
+
+/* Always-visible bottom bar: Back (sub-screens) + Close (always) */
+.settings-modal-footer {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px 16px;
+  border-top: 1px solid var(--border);
+}
+.settings-modal-footer .btn { flex: 1; }
+.settings-footer-back.hidden { display: none; }
 
 .settings-section { margin-bottom: 24px; }
 
@@ -1496,7 +1521,7 @@
   align-items: center;
   gap: 12px;
   width: 100%;
-  padding: 13px 14px;
+  padding: 10px 14px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -1547,6 +1572,10 @@
   font-weight: 700;
   color: var(--text);
   font-family: var(--font-head);
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: block;
 }
 
 .settings-email-display {
