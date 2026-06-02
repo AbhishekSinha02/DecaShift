@@ -489,6 +489,26 @@ No third session needed if focused.
 | Offline | IndexedDB prefetch on login; re-fetch only on week/grade/plan change (P3-T030) |
 | Subject tabs | Math first, All last; auto-applies Math for school users on first render |
 | Weekly sets | Free: Sets 1–2 | Pro: Sets 3–5 + Exam (2 easy → 2 medium → 1 hard) |
+| **Login key (FEAT-002)** | **User ID (`state.user.loginId`), NOT email.** New users have NO `email`/`mobile` field. |
+
+### ⚠️ Account & Identity Model — read before touching auth/account code
+
+Since FEAT-002 the **login key is `loginId` (User ID), not email.** A new user object is
+`{ userId, name, loginId, category, grade, ... }` — **no `email`, no `mobile`.**
+
+- Look up accounts with `Storage.findAccount(state.user.loginId)` — **never `state.user.email`**
+  (it's `undefined`, and `findAccount(undefined)` is guarded to return null but the lookup is wrong).
+  `state.user.loginId || state.user.email` is the safe form (legacy email fallback).
+- This class of leftover caused BUG-027 (settings password) and BUG-030 (quiz/drill result
+  screen crash). Before adding account/Drive/sync code, grep for `.email` and use `loginId`.
+- Old (pre-FEAT-002) email-keyed accounts are **not migrated** and can't sign in (acceptable —
+  all test users; see [[project_identity_strategy]]).
+
+### Build / cache-busting (deployed via custom domain)
+
+- `BUILD` const in `app-core.js` + `?v=<BUILD>` on index.html assets AND `_loadScreen` fetches.
+  **Bump both on every deploy** or users get stale code. Verify live code via `DONNIBO_BUILD`
+  in the console. Current: `20260602e`. See [[project_deploy_cache_busting]].
 
 ### The Bottleneck Is Never Code
 
