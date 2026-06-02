@@ -244,7 +244,7 @@ async function _loadManifest() {
   }
 
   // v2 shard mode: fetch only the shards this user needs
-  const user      = Storage.loadUser();
+  const user      = Storage.loadUser() || state.user;
   const shardKeys = _getShardsForUser(user, index.shards);
   const arrays    = await Promise.all(
     shardKeys.map(k => _fetchJSON([

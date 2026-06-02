@@ -289,6 +289,8 @@ async function _handleSignin(e) {
   await _loadManifest();
   await _loadQuestionsForUser(user);
   await _showScreen('home');
+  const hw = document.querySelector('.home-wrap');
+  if (hw) hw.scrollTop = 0;
   _renderHome();
   _maybeShowWelcome();
 }
@@ -297,7 +299,9 @@ async function _handleSignin(e) {
 
 async function signOut() {
   Storage.clearSession();
+  sessionStorage.removeItem('ds_manifest_cache');
   state.user      = null;
+  state.manifest  = [];
   state.goals     = [];
   state.questions = [];
   await _showScreen('landing');
