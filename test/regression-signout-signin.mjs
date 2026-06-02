@@ -76,6 +76,10 @@ await page.waitForTimeout(300);
 const afterSignout = await page.evaluate(() => ({ screen: state.currentScreen, user: state.user, goals: state.goals.length }));
 console.log('AFTER SIGNOUT:', JSON.stringify(afterSignout));
 
+// Simulate a stale in-memory subject filter from a previous session — re-signin
+// must reset to Daily Sprint, not land on an unloaded (blank) subject view.
+await page.evaluate(() => { state.subjectFilter = 'mathematics'; });
+
 // Drive the real sign-in form. Need to be on signin screen.
 await page.evaluate(async () => { await _showScreen('signin'); _setupSignin(); });
 await page.waitForTimeout(200);
@@ -93,7 +97,9 @@ const afterSignin = await page.evaluate(() => ({
   questions: state.questions.length,
   goalsListChildren: document.getElementById('goals-list') ? document.getElementById('goals-list').children.length : 'NO #goals-list',
   goalsListHTMLlen: document.getElementById('goals-list') ? document.getElementById('goals-list').innerHTML.length : 0,
-  homeActive: !!document.querySelector('#screen-home.active')
+  homeActive: !!document.querySelector('#screen-home.active'),
+  subjectFilter: state.subjectFilter,
+  dailySprintTabActive: !!document.querySelector('#subject-tabs .subject-tab.active.daily-sprint-tab')
 }));
 console.log('AFTER SIGNIN:', JSON.stringify(afterSignin, null, 2));
 
@@ -107,7 +113,9 @@ server.close();
 const pass = afterSignin.screen === 'home'
   && afterSignin.userCategory === 'school'
   && afterSignin.goals > 0
-  && afterSignin.questions > 0;
-console.log(pass ? '\nPASS — BUG-026 fixed: home has content after sign-in'
-                 : '\nFAIL — BUG-026 still broken: empty home after sign-in');
+  && afterSignin.questions > 0
+  && afterSignin.subjectFilter === 'daily-sprint'      // reset, not stale 'mathematics'
+  && afterSignin.dailySprintTabActive === true;        // default tab visibly selected
+console.log(pass ? '\nPASS — BUG-026 + default-tab reset: home has content, Daily Sprint active'
+                 : '\nFAIL — empty home / wrong tab after sign-in');
 process.exit(pass ? 0 : 1);

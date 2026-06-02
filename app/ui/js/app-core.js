@@ -309,10 +309,16 @@ async function _ingestEntries(entries) {
 // get only today's Daily Sprint files up front — their subject shelves load when
 // the tab is opened (FEAT-003). Everyone else loads their full (small) set.
 async function _loadCurriculum(user) {
-  state.loadedFiles    = new Set();
-  state.loadedSubjects = new Set();
-  state.goals          = [];
-  state.questions      = [];
+  state.loadedFiles       = new Set();
+  state.loadedSubjects    = new Set();
+  state._subjectLoads     = {};            // in-flight per-subject load promises
+  state._prefetchScheduled = false;
+  state.goals             = [];
+  state.questions         = [];
+  // Always land on Daily Sprint after a fresh load. Without this, a subjectFilter
+  // left over in memory from a previous session (e.g. "mathematics") would point
+  // the home at a subject whose files aren't loaded yet → blank home, wrong tab.
+  state.subjectFilter     = 'daily-sprint';
 
   const graded = !!(user && user.category === 'school'
     && user.grade != null && user.grade !== 'college');
@@ -331,12 +337,49 @@ async function _loadCurriculum(user) {
 
 // FEAT-003: fetch + merge every file for one subject the first time its tab is
 // opened. `subject` is the manifest subject key (e.g. "mathematics" or
-// "regional-tamil"). No-op once that subject is loaded.
-async function _loadSubjectData(subject) {
-  if (state.loadedSubjects.has(subject)) return;
-  const entries = _filterManifest(state.manifest, state.user).filter(e => e.subject === subject);
-  await _ingestEntries(entries);
-  state.loadedSubjects.add(subject);
+// "regional-tamil"). No-op once loaded; concurrent calls (tab click + idle
+// prefetch) share one in-flight promise so files are never fetched twice.
+function _loadSubjectData(subject) {
+  if (state.loadedSubjects.has(subject)) return Promise.resolve();
+  state._subjectLoads = state._subjectLoads || {};
+  if (state._subjectLoads[subject]) return state._subjectLoads[subject];
+  const p = (async () => {
+    const entries = _filterManifest(state.manifest, state.user).filter(e => e.subject === subject);
+    await _ingestEntries(entries);
+    state.loadedSubjects.add(subject);
+  })().finally(() => { delete state._subjectLoads[subject]; });
+  state._subjectLoads[subject] = p;
+  return p;
+}
+
+// Premium "Netflix" loading: once the home is interactive, quietly hydrate the
+// remaining subject shelves during browser idle time so opening a tab is instant
+// instead of showing a skeleton. Non-blocking, low priority, runs once per load.
+// Mathematics first (the default subject), then the rest, one at a time.
+function _prefetchSubjectsIdle() {
+  if (!state.lazyMode || !state.user) return;
+  if (typeof window !== 'undefined' && window.__dsNoPrefetch) return;  // test seam
+  // Respect Data Saver and slow links — keep pure lazy on metered/2G connections
+  // (the ₹8,000-phone-on-4G case). Only background-hydrate when the link is fine.
+  const conn = navigator.connection;
+  if (conn && (conn.saveData || /(^|\b)(slow-)?2g$/.test(conn.effectiveType || ''))) return;
+
+  const subjects = [...new Set(_filterManifest(state.manifest, state.user)
+    .filter(e => e.subject && !e.subject.startsWith('regional-') && e.subject !== 'gk')
+    .map(e => e.subject))]
+    .filter(s => !state.loadedSubjects.has(s))
+    .sort((a, b) => a === 'mathematics' ? -1 : b === 'mathematics' ? 1 : 0);
+
+  const schedule = window.requestIdleCallback
+    ? cb => window.requestIdleCallback(cb, { timeout: 2000 })
+    : cb => setTimeout(cb, 300);
+
+  const next = () => {
+    const s = subjects.shift();
+    if (!s) return;
+    _loadSubjectData(s).finally(() => schedule(next));
+  };
+  schedule(next);
 }
 
 async function _fetchQuestionFile(filename) {

@@ -45,6 +45,7 @@ page.on('request', r => {
 });
 
 await page.addInitScript(() => {
+  window.__dsNoPrefetch = true;   // deterministic: test pure on-demand lazy loading
   localStorage.setItem('decashift_user', JSON.stringify({
     userId:'u_lazy', name:'Lazy Kid', loginId:'lazykid', category:'school',
     grade:'6', plan:'pro', trialStartDate:new Date().toISOString(),
@@ -85,6 +86,23 @@ await page.waitForTimeout(400);
 const reclickFetches = qFetches.length;
 console.log('RE-CLICK MATH: qFetches=' + reclickFetches);
 
+await page.close();
+
+// ── Prefetch ON: a second user, no __dsNoPrefetch → background idle hydration
+// should load other subjects on its own so a later tab open is instant. ────────
+const page2 = await ctx.newPage();
+await page2.route('**raw.githubusercontent.com**', r => r.abort());
+await page2.addInitScript(() => {
+  localStorage.setItem('decashift_user', JSON.stringify({
+    userId:'u_pf', name:'Prefetch Kid', loginId:'pfkid', category:'school',
+    grade:'6', plan:'pro', trialStartDate:new Date().toISOString(),
+    createdAt:new Date().toISOString() }));
+});
+await page2.goto(BASE, { waitUntil: 'networkidle' });
+await page2.waitForTimeout(2500);   // let idle prefetch run
+const prefetched = await page2.evaluate(() => [...state.loadedSubjects]);
+console.log('PREFETCHED (no click):', JSON.stringify(prefetched));
+
 await browser.close();
 server.close();
 
@@ -96,7 +114,8 @@ const pass =
   afterMath.mathWeekly > 1 &&                      // full math weekly set loaded after click
   afterMath.shelves > 0 && afterMath.skeletons === 0 &&
   mathFetches > 0 &&                               // click triggered fetches
-  reclickFetches === 0;                            // re-click served from memory
-console.log(pass ? '\nPASS — FEAT-003 lazy subject loading works'
+  reclickFetches === 0 &&                          // re-click served from memory
+  prefetched.includes('mathematics');              // idle prefetch hydrated on its own
+console.log(pass ? '\nPASS — FEAT-003 lazy loading + idle prefetch work'
                  : '\nFAIL — lazy subject loading broken');
 process.exit(pass ? 0 : 1);

@@ -170,14 +170,21 @@ function _renderHome() {
   } else if (state.subjectFilter === 'daily-sprint') {
     _renderDailySprint();
   } else if (regionalLang && state.subjectFilter === regionalLang) {
-    _renderRegionalView(list, regionalGoals);
+    if (_ensureSubjectLoaded('regional-' + regionalLang)) _renderRegionalView(list, regionalGoals);
   } else if (!user.grade && weeklyGoals.length === 0 && regularGoals.length === 0) {
     _renderNoGradeState(list);
   } else {
-    _renderSubjectView(list, weeklyGoals, currentWeek);
+    if (_ensureSubjectLoaded(state.subjectFilter)) _renderSubjectView(list, weeklyGoals, currentWeek);
   }
 
   requestAnimationFrame(_initShelfArrows);
+
+  // Premium loading: hydrate the other subjects in the background so tab opens
+  // are instant. Scheduled once per fresh curriculum load (reset in _loadCurriculum).
+  if (state.lazyMode && !state._prefetchScheduled) {
+    state._prefetchScheduled = true;
+    _prefetchSubjectsIdle();
+  }
 }
 
 // ── Daily Sprint view (pinned first tab) ──────────────────────────────────────
@@ -724,31 +731,28 @@ function _toggleLastWeekSection() {
   _renderHome();
 }
 
-async function _setSubjectFilter(subject) {
+// Switch tabs. _renderHome re-renders the tab strip (so the clicked tab shows
+// active immediately) and its dispatch lazy-loads the subject via
+// _ensureSubjectLoaded — showing a skeleton, then re-rendering when ready.
+function _setSubjectFilter(subject) {
   state.subjectFilter = subject;
   state.showAllTopics = false;
-
-  // FEAT-003: a subject's weekly shelves are fetched the first time its tab is
-  // opened. Show a skeleton while the files load, then render the real content.
-  if (state.lazyMode && subject !== 'daily-sprint') {
-    const regionalLang = state.user?.regionalLanguage;
-    const key = (regionalLang && subject === regionalLang)
-      ? 'regional-' + regionalLang : subject;
-    if (!state.loadedSubjects.has(key)) {
-      _renderTabsActive(subject);   // reflect the clicked tab immediately
-      _showSubjectSkeleton();
-      await _loadSubjectData(key);
-    }
-  }
   _renderHome();
 }
 
-// Briefly mark the clicked tab active before its content loads (the full tab
-// strip re-renders in _renderHome once data arrives).
-function _renderTabsActive(subject) {
-  document.querySelectorAll('#subject-tabs .subject-tab').forEach(b => {
-    b.classList.toggle('active', b.dataset.subject === subject);
+// Returns true if `subjectKey`'s files are ready to render. If not (lazy mode,
+// not yet fetched), shows a skeleton, kicks off the load, and re-renders home
+// when it arrives — returning false so the caller skips rendering empty content.
+// Tab clicks, _navPractice, and a stale subjectFilter after re-signin all flow
+// through here, so no path can land on a blank subject view.
+function _ensureSubjectLoaded(subjectKey) {
+  if (!state.lazyMode || state.loadedSubjects.has(subjectKey)) return true;
+  _showSubjectSkeleton();
+  const requestedFilter = state.subjectFilter;
+  _loadSubjectData(subjectKey).then(() => {
+    if (state.subjectFilter === requestedFilter) _renderHome();
   });
+  return false;
 }
 
 // Skeleton placeholder shown in #goals-list while a subject's files load.
