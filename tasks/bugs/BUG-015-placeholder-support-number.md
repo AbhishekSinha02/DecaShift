@@ -1,6 +1,7 @@
 # BUG-015 — WhatsApp support number is a dummy placeholder
 
 **Severity:** Critical (P0 before any user reaches the app)
+**Status:** FIXED — replaced with +917415827596
 **Found by:** UX Audit 2026-06-03 (Settings → About & Help)
 **File:** `app/ui/screens/screen-settings.html` line 206
 
