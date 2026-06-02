@@ -376,33 +376,22 @@ function _toggleArchivedSection() {
 
 // ── Topic key helpers ─────────────────────────────────────────────────────────
 
-// Derive a stable topic slug from a goal's name (for grouping older cards).
+// Group key: use conceptId directly; fall back to week number if missing.
 function _topicKeyFromGoal(g) {
   if (g.conceptId && g.conceptId !== 'practice') return g.conceptId;
-  const raw = (g.name || '')
-    .replace(/^Grade\s+\d+\s+/i, '')
-    .replace(/^[^—–]+[—–]\s*/, '')
-    .trim();
-  if (!raw || raw.length < 4) return g.weekNum ? 'week-' + g.weekNum : 'practice';
-  return raw.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40);
+  return g.weekNum ? 'week-' + g.weekNum : 'practice';
 }
 
-// Human-readable label for a topic group (preserves original casing from goal name).
+// Human-readable label from conceptId (e.g. "fractions-basic" → "Fractions Basic").
 function _topicLabel(g) {
   if (g.conceptId && g.conceptId !== 'practice') return _conceptLabel(g.conceptId);
-  const raw = (g.name || '')
-    .replace(/^Grade\s+\d+\s+/i, '')
-    .replace(/^[^—–]+[—–]\s*/, '')
-    .trim();
-  return raw || (g.weekNum ? 'Week ' + g.weekNum : 'Practice');
+  return g.weekNum ? 'Week ' + g.weekNum : 'Practice';
 }
 
 // ── Collapsible row state ─────────────────────────────────────────────────────
-// Week rows default open  → track in ds_collapsed_rows when collapsed.
-// Topic rows default closed → track in ds_open_topics when expanded.
+// All rows (week + topic) default OPEN. Track collapsed ones in ds_collapsed_rows.
 
 const _COLLAPSE_KEY = 'ds_collapsed_rows';
-const _OPEN_KEY     = 'ds_open_topics';
 
 function _updateSet(key, id, add) {
   try {
@@ -413,10 +402,6 @@ function _updateSet(key, id, add) {
 }
 
 function _isCollapsed(rowId) {
-  if (rowId.startsWith('row-topic-')) {
-    try { return !new Set(JSON.parse(localStorage.getItem(_OPEN_KEY) || '[]')).has(rowId); }
-    catch { return true; }
-  }
   try { return new Set(JSON.parse(localStorage.getItem(_COLLAPSE_KEY) || '[]')).has(rowId); }
   catch { return false; }
 }
@@ -428,11 +413,7 @@ function _toggleRow(rowId) {
   el.classList.toggle('row-collapsed', nowCollapsed);
   el.querySelector('.row-chevron')?.classList.toggle('collapsed', nowCollapsed);
   if (!nowCollapsed) requestAnimationFrame(_initShelfArrows);
-  if (rowId.startsWith('row-topic-')) {
-    _updateSet(_OPEN_KEY, rowId, !nowCollapsed);
-  } else {
-    _updateSet(_COLLAPSE_KEY, rowId, nowCollapsed);
-  }
+  _updateSet(_COLLAPSE_KEY, rowId, nowCollapsed);
 }
 
 // ── Netflix row renderers ─────────────────────────────────────────────────────
@@ -463,7 +444,7 @@ function _renderNetflixRows(list, goals, subject, currentWeek) {
   if (thisWeek.length) html += _buildWeekRow('This Week', thisWeek, false);
   if (lastWeek.length) html += _buildWeekRow('Last Week', lastWeek, true);
 
-  // Older goals (not this or last week) grouped by derived topic
+  // Past practice — all goals older than last week, grouped by conceptId
   const olderGoals = goals.filter(g => g.weekNum !== currentWeek && g.weekNum !== currentWeek - 1);
   const byConcept = {};
   olderGoals.forEach(g => {
@@ -477,16 +458,10 @@ function _renderNetflixRows(list, goals, subject, currentWeek) {
       Math.max(...b.goals.map(g => g.weekNum || 0)) - Math.max(...a.goals.map(g => g.weekNum || 0))
     );
 
-  const MAX_TOPICS = 5;
-  const visible = state.showAllTopics ? topicEntries : topicEntries.slice(0, MAX_TOPICS);
-  visible.forEach(([cid, { label, goals: cGoals }]) => { html += _buildTopicRow(cid, cGoals, label); });
-
-  if (topicEntries.length > MAX_TOPICS && !state.showAllTopics) {
-    html += `<div class="show-more-row">
-      <button class="btn btn-ghost btn-sm" onclick="state.showAllTopics=true;_renderHome()">
-        Show ${topicEntries.length - MAX_TOPICS} more topics ↓
-      </button>
-    </div>`;
+  if (topicEntries.length > 0) {
+    const subIcon = (SUBJECT_STYLE[subject] || {}).icon || '📚';
+    html += `<div class="past-practice-divider">${subIcon} Past Practice</div>`;
+    topicEntries.forEach(([cid, { label, goals: cGoals }]) => { html += _buildTopicRow(cid, cGoals, label); });
   }
 
   if (!thisWeek.length && !lastWeek.length && !topicEntries.length) {
