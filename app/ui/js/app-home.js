@@ -118,10 +118,8 @@ function _renderHome() {
     if (subjects.length > 0 && !allTabs.includes(state.subjectFilter)) {
       state.subjectFilter = subjects[0];
     }
-    const streakBarEl = document.getElementById('streak-bar');
     if (allTabs.length > 1) {
       tabsEl.style.display = 'flex';
-      streakBarEl?.classList.remove('no-tabs');
       const allSessions = Storage.loadSessions();
       tabsEl.innerHTML = allTabs.map(s => {
         const isRegTab = hasRegionalTab && s === regionalLang;
@@ -155,7 +153,6 @@ function _renderHome() {
       }).join('');
     } else {
       tabsEl.style.display = 'none';
-      streakBarEl?.classList.add('no-tabs');
     }
   }
 

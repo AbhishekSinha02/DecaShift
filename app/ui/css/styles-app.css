@@ -67,16 +67,15 @@
   color: #fff;
 }
 
-/* Subject filter tabs */
+/* Subject filter tabs — sibling of .app-header and .home-wrap, never scrolls */
 .subject-tabs {
   display: flex;
+  flex-shrink: 0;
   gap: 8px;
   padding: 8px 0 8px;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
-  position: sticky;
-  top: 55px;
   z-index: 190;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
@@ -2191,10 +2190,9 @@
   100% { transform: scale(1) rotate(0deg);     opacity: 1; }
 }
 
-/* ── Sticky streak bar ───────────────────────────────────────── */
+/* ── Streak bar — sibling of .app-header and .home-wrap, never scrolls ── */
 .streak-bar {
-  /* streak bar is first; subject tabs (55px below) sit under it when shown */
-  position: sticky; top: 0; z-index: 185;
+  z-index: 185;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   display: flex; align-items: center; gap: 6px;
@@ -2204,7 +2202,6 @@
   scrollbar-width: none;
   flex-shrink: 0;
 }
-.streak-bar.no-tabs { top: 0; }
 .streak-bar::-webkit-scrollbar { display: none; }
 .streak-milestone-chip {
   display: inline-flex; align-items: center;
