@@ -2285,8 +2285,9 @@
   .netflix-cards .day-card,
   .drill-card              { min-width: 184px; max-width: 184px; }
 
-  /* Settings tiles: two columns */
+  /* Settings tiles: two columns — but single column inside the narrow modal */
   .settings-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .settings-modal-content .settings-tiles { display: flex; flex-direction: column; gap: 4px; }
 
   /* Section rhythm uses the fluid gap token */
   .netflix-row { margin-bottom: var(--sp-section); }
@@ -2304,6 +2305,7 @@
   .drill-card              { min-width: 200px; max-width: 200px; }
 
   .settings-tiles { grid-template-columns: 1fr 1fr 1fr; }
+  .settings-modal-content .settings-tiles { display: flex; flex-direction: column; gap: 4px; }
 
   /* Quiz keeps a readable column but answers go 2×2 */
   .answer-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
