@@ -200,7 +200,15 @@ async function _handleSignup(e) {
     company:          company          || null,
     regionalLanguage: regionalLanguage || null,
     registeredAt,
-    trialStartDate:   registeredAt
+    trialStartDate:   registeredAt,
+    // FEAT-005 pre-beta foundation — capture from user #1 (brutal to retrofit):
+    schemaVersion:    1,                       // item 1: versions every record for safe future migration
+    entitlement: {                             // item 2: trial clock + plan, Drive is source of truth
+      status:         'trial',
+      trialStartedAt: registeredAt,
+      plan:           'trial',
+      planExpiry:     null
+    }
   };
 
   // Persist + verify. Some browsers (private/incognito, "block site data", strict
@@ -317,6 +325,24 @@ async function _handleSignin(e) {
   if (!user.trialStartDate) {
     user.trialStartDate = user.registeredAt || new Date().toISOString();
     Storage.saveUser(user);
+  }
+
+  // FEAT-005: backfill foundation fields for accounts created before this shipped
+  // (additive — never overwrites an existing value)
+  let _ffBackfilled = false;
+  if (!user.schemaVersion) { user.schemaVersion = 1; _ffBackfilled = true; }
+  if (!user.entitlement) {
+    user.entitlement = {
+      status:         'trial',
+      trialStartedAt: user.trialStartDate,
+      plan:           'trial',
+      planExpiry:     null
+    };
+    _ffBackfilled = true;
+  }
+  if (_ffBackfilled) {
+    Storage.saveUser(user);
+    Storage.syncUserToRemote(user).catch(() => {});
   }
 
   btn.disabled = false; btn.textContent = 'Sign In →';
