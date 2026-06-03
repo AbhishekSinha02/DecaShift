@@ -9,15 +9,19 @@
 
 ## Pending Queue — Code & UX
 
+> ✅ Done 2026-06-03 (build 20260603a, tags v4.8/v4.9/v5.0): city-clone dedupe (Varanasi/Nagpur share
+> root `/content`) · **FEAT-005 items 1–2** (per-user Drive folder `users/{userId}/`, schemaVersion +
+> entitlement at signup, Code.gs v3 + loginIdHash fix) · scope cut to graded-school-only · branching
+> rule (snapshot v5.0-dev only after testing). ⚠️ **Code.gs needs manual Apps Script redeploy.**
+> See `memory/session_handoff_20260603_feat005.md` (LATEST handoff) + `memory/feat005_per_user_folder_progress.md`.
+>
 > ✅ Done 2026-06-02 (build 20260602e, tags v4.5→v4.7): FEAT-003 (lazy subject tabs + idle prefetch) ·
-> ENH-009 (sign-in speed) · BUG-026 (empty home, real RCA) · BUG-027 (settings password) ·
-> BUG-028 (sign-in hang) · BUG-029 (signup silent storage fail) · BUG-030 (quiz/drill result crash) ·
-> BUG-031 (Journey restored) · cache-busting + build stamp · ENH-010 filed. See
-> `memory/session_handoff_20260602_v47.md` (LATEST handoff).
+> ENH-009 (sign-in speed) · BUG-026..031 · cache-busting + build stamp · ENH-010 filed.
 
 | # | Priority | File | Focus |
 |---|---|---|---|
-| **1** | 🔴 **P0** | **PENDING-g2-journey-freeze-paywall.md → ENH-011** | **G2: Journey-freeze paywall + Razorpay — THE binding GTM blocker; contains the subscription strategy. Build flag-gated, atomic. (Quick live-build verify as pre-step.)** |
+| **1** | 🧪 **NEXT (user-set)** | **PENDING-test-feedback-then-multicity.md** | **Phase 1: redeploy Code.gs + TEST FEAT-005 end-to-end + fix feedback (graded-school path only). Phase 2: multi-city Cloudflare Pages + R2 deploy (→ INFRA-001). Only merge v5.0-dev after testing.** |
+| **2** | 🔴 **P0** | **PENDING-g2-journey-freeze-paywall.md → ENH-011** | **G2: Journey-freeze paywall + Razorpay — THE binding GTM blocker; contains the subscription strategy. Build flag-gated, atomic. (Not deprioritized — sequenced after user's test+multi-city focus.)** |
 | 2 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) — result screen now renders post-BUG-030 |
 | 3 | 🔴 P1 | marketing/GTM-001-landing-rampup.md | **Landing ramp-up** — conversion audit, copy, WhatsApp share, grade picker |
 | ~~4~~ | ✅ superseded | ~~FEAT-004 Payment ₹79/month~~ | **Replaced by ENH-011 (G2) at ₹399/1999/3599. FEAT-004 → completed.** |
@@ -44,10 +48,11 @@
 
 | # | Priority | File | Focus |
 |---|---|---|---|
-| 1 | 🔴 P1 (blocked) | P2-T047 identity strategy | Decide account key — handle+PIN vs email. **User decision needed. GATES cross-device sync.** |
-| 2 | 🟠 P2 (gated) | PENDING-cross-device-full-state-sync.md | Full progress sync across devices. Requires P2-T047 decision. |
-| 3 | 🔵 P3 | PENDING-css-lazy-load-phase2.md | Lazy-load styles-app.css after login |
-| 4 | 🔵 P3 | PENDING-pwa-install-banner.md | PWA install banner improvements |
+| 1 | ✅ RESOLVED | ~~P2-T047 identity strategy~~ | **Done — account key = User ID (FEAT-002 shipped). Unblocks cross-device sync. See `memory/project_identity_strategy.md`.** |
+| 2 | 🟠 P2 (unblocked) | PENDING-cross-device-full-state-sync.md → P2-T046 | Full journey sync across devices (journey.json). `saveJourney` already wired server-side; needs client snapshotAll/restoreAll. Chosen "phase 2" of FEAT-005 per-user work. |
+| 3 | 🟠 P2 | **INFRA-001-multicity-cloudflare-r2-deploy.md** | **Multi-city custom domains: Cloudflare Pages + R2. Needs FEAT-005 item 5 (brand config by hostname) first. Content stays public.** |
+| 4 | 🔵 P3 | PENDING-css-lazy-load-phase2.md | Lazy-load styles-app.css after login |
+| 5 | 🔵 P3 | PENDING-pwa-install-banner.md | PWA install banner improvements |
 
 ---
 
