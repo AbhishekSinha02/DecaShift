@@ -59,12 +59,12 @@ G10 (OAuth/email signup friction) was carried over stale from product failure F4
 
 | # | Failure Point | Severity | Status |
 |---|---|---|---|
-| G1 | Trial→paid % at premium price unproven — the whole revenue thesis | 🔴 Critical | Only resolvable by running the pilot. The pilot IS the experiment. |
+| G1 | Trial→paid % at premium price unproven — the whole revenue thesis | 🔴 Critical | **Nature changed: it's a RATE, not a binary, driven by TWO engines (paid push + organic viral loop), not intern-dependent.** Timeline to 100 paid = reach × conversion% × viral-K. Still only *proven* by running the pilot — the pilot IS the experiment. |
 | G2 | Can't collect money — Razorpay + new-pricing paywall not built | 🟠 High | P2-T013 code pending |
 | G3 | Depends on hiring a *good* local rep/owner; weak one = dead city | 🟠 High | No rep hired; incentive model mitigates |
 | G4 | Solopreneur bandwidth (build + content + sales + support) | 🟠 High | Mirrors product F5; handover trigger defined |
 | G5 | No live funnel instrumentation — blind on drop-off | 🟡 Medium | M-T002 designed, not live |
-| G6 | Word-of-mouth assumed, not proven (F7 loop live but unmeasured) | 🟡 Medium | Strongest mitigation to date |
+| G6 | Word-of-mouth assumed, not proven (F7 loop live but unmeasured) | 🟡 Medium | **Being actively built into Engine 2:** success-card sharing to WhatsApp/FB + validation quests = deliberate viral loop (E-013/E-015 shipped). Lever = viral-K (share at peak emotion + recipient-pull card + frictionless landing). Measure K via ref attribution (= G5 build). Still unmeasured. |
 | G7 | Single-city concentration — Lucknow cold pick risk | 🟡 Medium | Mitigated only with a Lucknow ground contact |
 | G8 | Engaged child outruns weekly content | 🟡 Medium | Keep drop ahead of cohort |
 | G9 | Reps over-discount → margin/perception erosion | 🟢 Low | Floor-price rule in code mitigates |

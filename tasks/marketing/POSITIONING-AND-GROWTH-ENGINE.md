@@ -107,6 +107,47 @@ model is a flywheel that spins faster the longer it runs.
 
 ---
 
+## The Two-Engine Growth Model (why conversion is a *rate*, not a wall)
+
+Growth and conversion aren't a binary pass/fail. They're a **rate**, and the timeline to 100
+paid (1 vs 3 vs 6 months) = **reach × conversion% × viral-K**. We drive it with two independent
+engines — so growth does **not** depend on interns alone:
+
+**Engine 1 — Paid push (linear, controllable, on from day one).** Interns + local partners →
+gate demos, WhatsApp groups, teacher endorsements. Predictable signups per week. The floor.
+
+**Engine 2 — Organic viral loop (compounding, exponential — the real prize).** The app
+manufactures its own users; scales with *happy users*, not headcount. **Mostly already shipped
+(E-track):** branded image success cards (E-015), friend-challenge `?ch=` link that makes the
+recipient open + play then see a head-to-head (E-013), 6 share triggers. The work now is
+pointing it at WhatsApp/Facebook groups and feeding it with **validation quests.**
+
+### The appreciation flywheel (the fuel)
+```
+win → child feels SEEN & uplifted → shares the card → recipient's parent feels the tug
+    → frictionless signup (User ID, no OAuth) → that child wins → shares → …
+```
+The more they win, the more appreciated they feel, the more they share. **Emotion is the fuel,
+the success card is the vehicle, the WhatsApp/FB group is the distribution.** Validation quests
+are the raw material — every quest completion is another win-moment the loop runs on. More
+quests = more appreciation = more shares.
+
+### Turning the dial: the viral coefficient K (additive → exponential)
+Virality either *amplifies* paid push (K<1) or *self-sustains* (K≥1). Four levers, all in our control:
+1. **Fire the share at PEAK emotion** — level-up, avatar evolution, badge, perfect score, streak
+   milestone, challenge win. Not a buried menu button.
+2. **Make the card PULL the recipient** — child's name + a *beatable* hook (*"Can your child beat
+   Aarav — Stage 5?"*), not a generic brag. A challenge invites; a brag is ignored.
+3. **Frictionless landing** — done (User ID signup, no OAuth). The tap doesn't hit a wall.
+4. **MEASURE K** — every card/link carries ref attribution (**same build as G5 ref tracking** →
+   instruments both engines at once). As K → 1, the 6-month timeline collapses toward 1, visibly.
+
+> This is what de-risks G1 (conversion): it's not a single fragile bet on intern conversion —
+> it's a rate driven by two engines, one linear and one compounding, both dial-able. Aggressive
+> marketing raises reach; product quality raises conversion; share-moment design raises K.
+
+---
+
 ## Content Posture (reframed)
 
 - **Velocity is proven, not a risk.** App matured to GTM in ~10 days. Weekly content is a
