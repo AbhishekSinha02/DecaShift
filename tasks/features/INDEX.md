@@ -5,6 +5,7 @@
 
 | ID | Priority | Title | Est. | Decision needed? | File |
 |---|---|---|---|---|---|
+| **FEAT-005** | 🔴 **P0** | **Pre-Beta Foundation — the 5 must-do-now, brutal-to-retrofit decisions (per-user folder + schemaVersion, trial clock from user #1, city stamp, stable content IDs, brand-config/never-fork topology). DO BEFORE FIRST BETA USER.** | 1–1.5 sessions | ✅ Yes — PWA manifest per-city ((a) generic vs (b) per-domain) | [→](FEAT-005-pre-beta-foundation.md) |
 | ~~FEAT-004~~ | ✅ Superseded | ~~Payment ₹79/month~~ → **replaced by ENH-011 (Journey-Freeze Paywall + Razorpay, G2)** at ₹399/1999/3599 | — | — | [→](completed/FEAT-004-payment-integration.md) |
 | FEAT-003 | ✅ Done | Lazy loading — only load Daily Sprint on sign-in | — | — | [→](FEAT-003-lazy-subject-tab-loading.md) |
 | FEAT-002 | ✅ Done | User ID replaces Email as login key | — | — | [→](FEAT-002-userid-replaces-email-login.md) |
