@@ -1,7 +1,23 @@
 # FEAT-005: Pre-Beta Foundation — the 5 "must-do-now, brutal-to-retrofit" decisions
 
 **Priority:** 🔴 **P0 — do BEFORE the first beta user signs up.**
-**Type:** Architecture / Data Foundation (Code) | **Complexity:** M (1–1.5 sessions) | **Status:** Open — pre-beta gate
+**Type:** Architecture / Data Foundation (Code) | **Complexity:** M (1–1.5 sessions) | **Status:** 🟡 In progress — items 1–2 shipped (2026-06-03)
+
+> **PROGRESS (2026-06-03, build `20260603a`):**
+> - **Item 1 (per-user folder) — DONE in code.** Folder is keyed by **`userId`** (`users/{userId}/`),
+>   **NOT `loginId`** — user decision 2026-06-03 (keeps the already-built `sessions/{userId}/`,
+>   stays cross-device-stable by restoring `userId` from the account record at login). **This
+>   overrides the `loginId` wording in item 1 below.** Layout now:
+>   `users/{userId}/{profile.json, entitlement.json, journey.json, sessions/sess_*.json}`.
+> - **Item 2 (entitlement + trial clock) — DONE in code.** Signup writes `schemaVersion:1` +
+>   `entitlement{status:'trial', trialStartedAt, plan:'trial', planExpiry}`; sign-in backfills both.
+>   Trial clock canonical field stays `user.trialStartDate` (read by `_checkTrialStatus`);
+>   `entitlement.trialStartedAt` mirrors it.
+> - **`Code.gs` rewritten** to the per-user folder layout + new `saveJourney` action; also fixed a
+>   `loginIdHash` vs `emailHash` mismatch that broke cross-device account lookup.
+>   ⚠️ **Apps Script must be MANUALLY re-deployed** — not auto-deployed — before the new layout is live.
+> - **Still OPEN:** item 3 (city stamp), item 4 (content-ID stability audit), item 5 (brand config),
+>   and journey.json population = **P2-T046** (chosen as the next phase). Commits: `d1bce70`, `e4321ba`.
 
 > **Why this exists:** We are shipping the current build to **beta test users** (not GA). The only
 > work that must happen *before* that is the work that is **impossible or painful to retrofit onto
