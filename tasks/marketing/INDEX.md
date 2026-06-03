@@ -23,10 +23,15 @@
 
 | File | Goal | Priority | Status |
 |---|---|---|---|
+| [**POSITIONING-AND-GROWTH-ENGINE**](POSITIONING-AND-GROWTH-ENGINE.md) | **"The learning app that's alive" — weekly content + concept-first + visual questions as 3 marketing weapons; the weekly flywheel; the plays** | **M1** | **Locked** |
+| [**OPERATING-MODEL**](OPERATING-MODEL.md) | **Business architecture — fragment the face (local sub-brands), unify the engine (one hidden backend); city-owner split, centralized billing, KPIs, handover trigger** | **M1** | **Locked** |
+| [**LUCKNOW-LAUNCH-STRATEGY**](LUCKNOW-LAUNCH-STRATEGY.md) | **Single-city pilot — full GTM: people, 6-week timeline, metrics, budget, risk** | **M1** | **Active** |
+| [**P2-T013**](P2-T013-subscription-tier-design.md) | **Subscription pricing — FINAL (₹399/mo decoy · ₹1,999/yr hero · ₹3,599/yr Champion + live exams · coupons · 30-day trial)** | **P2** | **Finalized** |
 | [M-T001](M-T001-local-rep-onboarding-kit.md) | Local rep onboarding kit — goals, pitch, targets, incentive, reporting | M1 | Pending |
 | [M-T002](M-T002-referral-tracking-rep-performance.md) | Rep referral tracking — named ref codes, Google Sheet dashboard, weekly review | M1 | Pending |
 | [M-T003](M-T003-whatsapp-outreach-templates.md) | WhatsApp outreach templates — parent groups, teachers, coaching centers (EN + HI) | M1 | Pending |
-| [M-T004](M-T004-city-launch-playbook.md) | City launch playbook — step-by-step for entering any new city in 2 weeks | M2 | Pending |
+| [M-T004](M-T004-city-launch-playbook.md) | City launch playbook — Lucknow is now city #1 (pilot) | M2 | Pending |
+| [**M-T005**](M-T005-school-gate-demo-script.md) | **30-second school-gate demo script — bilingual (EN + Hinglish), timed beats, objection table, QR-scan close** | **M1** | **Ready** |
 
 ---
 

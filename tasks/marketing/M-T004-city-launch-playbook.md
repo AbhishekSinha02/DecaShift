@@ -127,18 +127,26 @@ When City A hits **100 verified engaged users** (completed 3+ sessions):
 
 ---
 
-## City Expansion Priority (Based on Coaching Culture + Population)
+## City Expansion Priority (UPDATED 2026-06-02 — Lucknow is the pilot)
+
+> **Decision:** **Lucknow launches FIRST** as the single-city pilot. See
+> `LUCKNOW-LAUNCH-STRATEGY.md` for the full plan. Rationale: UP Board is underserved by
+> CBSE-skewed incumbents (BYJU'S/PW/Vedantu), Hindi-medium support is a real local moat,
+> student density + exam culture is high, and a founder ground-connection beats a larger
+> cold market. The order below applies *after* the Lucknow gate passes.
 
 | Priority | City | Why |
 |---|---|---|
-| 1 | Pune | Maharashtra's largest coaching market. Domain: punekids.in |
-| 2 | Nagpur | Vidarbha coaching hub. Domain: nagpurkids.in |
-| 3 | Indore | MP coaching culture, Kota-adjacent mindset. Domain: indorekids.in |
-| 4 | Surat | Gujarat tier-2, high parent education focus. Domain: surakids.in |
-| 5 | Lucknow | UP board exam culture, massive student density. Domain: lucknowkids.in |
+| **1 (PILOT)** | **Lucknow** | UP board exam culture, underserved by CBSE-first incumbents, Hindi-medium wedge, massive student density. Domain: **lucknowkids.in** |
+| 2 | Pune | Maharashtra's largest coaching market. Domain: punekids.in |
+| 3 | Nagpur | Vidarbha coaching hub. Domain: nagpurkids.in |
+| 4 | Indore | MP coaching culture, Kota-adjacent mindset. Domain: indorekids.in |
+| 5 | Surat | Gujarat tier-2, high parent education focus. Domain: suratkids.in |
 | 6 | Jaipur | Kota feeder city — families with exam-prep mindset. Domain: jaipurkids.in |
 
-Launch cities in this order unless you have a personal connection that makes another city easier to enter first. A city where you know 1 teacher is worth more than the "best" city on this list.
+Replicate to city #2 only after Lucknow clears its Week-6 decision gate
+(trial→paid ≥18%, session-completion >60%). A city where you know 1 teacher is worth more
+than the "best" city on this list.
 
 ---
 
@@ -152,4 +160,5 @@ Launch cities in this order unless you have a personal connection that makes ano
 | Your time (setup + 2 calls) | 3–4 hours |
 | **Total per city, Month 1** | **₹1,700 + 4 hours** |
 
-Break-even: 22 Pro conversions at ₹79/month = ₹1,738. One city pays for itself with 22 paid users.
+Break-even (at the finalized pricing — see P2-T013): **1 annual conversion** at ₹1,999/yr
+covers the per-city cost above. One paying family pays back the city launch.
