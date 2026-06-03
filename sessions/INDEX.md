@@ -17,10 +17,10 @@
 
 | # | Priority | File | Focus |
 |---|---|---|---|
-| 1 | 🔴 P0 | session_handoff_20260602_v47.md | **VERIFY live build first** — confirm `DONNIBO_BUILD`=20260602e+ in console, then a fresh User-ID account end-to-end: signup → quiz → result → drill → Journey → sign out → sign in. The 6 auth/result/Journey fixes were found by manual testing the headless suite missed; confirm they hold. |
+| **1** | 🔴 **P0** | **PENDING-g2-journey-freeze-paywall.md → ENH-011** | **G2: Journey-freeze paywall + Razorpay — THE binding GTM blocker; contains the subscription strategy. Build flag-gated, atomic. (Quick live-build verify as pre-step.)** |
 | 2 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) — result screen now renders post-BUG-030 |
 | 3 | 🔴 P1 | marketing/GTM-001-landing-rampup.md | **Landing ramp-up** — conversion audit, copy, WhatsApp share, grade picker |
-| 4 | 🔴 P1 | features/INDEX.md → FEAT-004 | **Payment ₹79/month** — needs user decision first (processor + trial days) |
+| ~~4~~ | ✅ superseded | ~~FEAT-004 Payment ₹79/month~~ | **Replaced by ENH-011 (G2) at ₹399/1999/3599. FEAT-004 → completed.** |
 | 5 | 🟠 P2 | enhancements/INDEX.md → ENH-010 | **Refactor bulk files** — app-home.js (1.6k), styles-app.css (2.8k), app-core.js. Zero behaviour change, test-guarded (1–1.5 session) |
 | 6 | 🟠 P2 | enhancements/INDEX.md → ENH-007 | Weekly completion celebration (0.5 session) |
 | 7 | 🟠 P2 | enhancements/INDEX.md → ENH-002 | Week progress calendar Mon–Fri dots (0.5 session) |

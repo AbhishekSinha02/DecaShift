@@ -1,6 +1,10 @@
 # Strategy: Go-to-Market + Target Segment Definition
 
-**Priority:** P4 | **Type:** Management / Strategy | **Complexity:** S | **Status:** Pending
+> ✅ **DEFINED & CLOSED 2026-06-02.** Segment + GTM are decided: school students (parent-buyer),
+> single-city Lucknow pilot. Full GTM in `tasks/marketing/LUCKNOW-LAUNCH-STRATEGY.md` +
+> `OPERATING-MODEL.md` + `POSITIONING-AND-GROWTH-ENGINE.md`. This question is answered.
+
+**Priority:** P4 | **Type:** Management / Strategy | **Complexity:** S | **Status:** ✅ Done — see LUCKNOW-LAUNCH-STRATEGY / OPERATING-MODEL / POSITIONING
 
 ## Goal
 Define who DecaShift is FOR before the first paid marketing rupee is spent.

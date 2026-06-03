@@ -5,6 +5,7 @@
 
 | ID | Priority | Title | Est. | File |
 |---|---|---|---|---|
+| **ENH-011** | 🔴 **P0** | **Journey-freeze paywall + Razorpay (G2) — the binding GTM blocker. Contains the subscription strategy. NEXT SESSION.** | 1.5–2 sessions | [→](ENH-011-journey-freeze-paywall-razorpay.md) |
 | ENH-001 | 🔴 P1 | Wrong answer review flow after quiz | 1 session | [→](ENH-001-wrong-answer-review-flow.md) |
 | ENH-010 | 🟠 P2 | Refactor bulk files into focused modules (app-home.js 1.6k, styles-app.css 2.8k…) | 1–1.5 session | [→](ENH-010-refactor-large-files.md) |
 | ENH-007 | 🟠 P2 | Weekly completion celebration | 0.5 session | [→](ENH-007-weekly-completion-celebration.md) |

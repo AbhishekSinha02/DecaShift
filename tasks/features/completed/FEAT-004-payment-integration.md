@@ -1,8 +1,13 @@
 # FEAT-004 — Payment integration (₹79/month Pro plan)
 
-**Priority:** 🔴 P1  
+> ✅ **SUPERSEDED / CLOSED 2026-06-02.** Pricing decision changed from ₹79/month flood to a
+> premium sales-led model (₹399/mo decoy · ₹1,999/yr hero · ₹3,599/yr Champion). Payment +
+> paywall is now **ENH-011 (Journey-Freeze Paywall + Razorpay, G2)** — the build task. This file
+> is kept for history only. See `tasks/enhancements/ENH-011-journey-freeze-paywall-razorpay.md`.
+
+**Priority:** ~~🔴 P1~~ → superseded by ENH-011
 **Estimate:** 1–2 sessions  
-**Status:** Open — needs user decision before building  
+**Status:** ✅ Superseded (replaced by ENH-011)  
 
 ---
 

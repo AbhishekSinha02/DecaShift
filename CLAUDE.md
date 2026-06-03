@@ -8,9 +8,15 @@
 
 **5,000 users onboarded by end of August 2026. (~3 months from 2026-05-27)**
 
-**Strategy:** Flood the market at the lowest possible price. ₹79/month Pro.
-Solopreneur + near-zero infra cost (static site + Cloudflare R2 + Upstash) = margins
-competitors with payroll cannot match. Three products, one engine:
+**Strategy (UPDATED 2026-06-02 — premium, sales-led, single-city pilot):** Prove the full loop
+in **one city (Lucknow)** before scaling. Acquisition stays free/frictionless (30-day trial);
+monetization is premium + human-closed: **₹1,999/yr hero** (₹399/mo decoy · ₹3,599/yr Champion).
+The moat is **the journey, not content** — daily appreciation + visible growth (gate the journey,
+not the content). Two growth engines: paid push + organic viral loop. Solopreneur + near-zero
+infra (static site + Cloudflare R2 + Upstash) = margins competitors with payroll cannot match.
+Full strategy: `tasks/marketing/` (POSITIONING / OPERATING-MODEL / LUCKNOW-LAUNCH-STRATEGY /
+GTM-READINESS-SCORE). *(The original "flood at ₹79, 5K-by-Aug" thesis is superseded for the
+launch motion; 5K remains the directional goal once the pilot proves conversion.)* Three products, one engine:
 1. **DecaShift Students** — Grade 2–12 (this app, launch first)
 2. **DecaShift Pro** — Professionals, upskilling + interview prep (fork after Students stable)
 3. **DecaShift Exam** — UPSC / JEE / NEET / CAT aspirants (fork after Pro stable)
@@ -485,7 +491,9 @@ No third session needed if focused.
 | Journey Replay | 6–10 sec inline animation of full growth arc from profile screen |
 | Learning engine | Atom → Foundation → Relationship → Application → Synthesis (P2-T027) |
 | Question bank | Reusable, concept-tagged source; smart weekly selection, never random |
-| Subscription gate | HMAC signed token; Plan stored in Drive, not localStorage (P2-T026) |
+| **Pricing (2026-06-02)** | **Premium sales-led: ₹399/mo decoy · ₹1,999/yr HERO · ₹3,599/yr Champion (+live exams) · sibling +₹999/yr. 30-day trial. Razorpay. Lead with annual, never monthly. Full: `tasks/marketing/completed/P2-T013`.** |
+| **Subscription gate** | **Gate the JOURNEY not the content — at trial end forward growth FREEZES (avatar/streak/badges/GK), NEVER deletes ("journey saved · continue →"). Plan in Drive (source of truth). Build = ENH-011 (G2, P0 next). Coupons: LUCKNOW500/STREAK21/WIN-rep; floor ₹1,199/yr.** |
+| GTM (2026-06-02) | Single-city **Lucknow pilot** first (premium, sales-led, local sub-brand). Two growth engines: paid push (interns/partners) + organic viral loop (share cards). Strategy locked in `tasks/marketing/`. The one blocker = G2 (ENH-011). |
 | Offline | IndexedDB prefetch on login; re-fetch only on week/grade/plan change (P3-T030) |
 | Subject tabs | Math first, All last; auto-applies Math for school users on first render |
 | Weekly sets | Free: Sets 1–2 | Pro: Sets 3–5 + Exam (2 easy → 2 medium → 1 hard) |

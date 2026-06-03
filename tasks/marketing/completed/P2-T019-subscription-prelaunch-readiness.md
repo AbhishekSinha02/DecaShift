@@ -1,6 +1,11 @@
 # Feature: Subscription Pre-Launch Readiness
 
-**Priority:** P2 | **Type:** Product + Code | **Complexity:** M | **Status:** Pending
+> ✅ **CLOSED 2026-06-02.** Superseded by the new strategy. F6 resolved (landing aligned, v4.0).
+> Positioning delivered (`POSITIONING-AND-GROWTH-ENGINE.md`). Content depth proven (user: app
+> matured to GTM; weekly cadence is the moat). Trial-gate readiness is now the ENH-011 build with
+> the journey-freeze mechanic (gates the journey, not the content) — see ENH-011.
+
+**Priority:** P2 | **Type:** Product + Code | **Complexity:** M | **Status:** ✅ Done — superseded by ENH-011 + new strategy
 
 ## Goal
 Gate the subscription soft-lock from deploying until three conditions are met:

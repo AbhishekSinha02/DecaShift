@@ -1,6 +1,10 @@
 # Subscription Strategy — Final Pricing Model (Sales-Led, Single-City)
 
-**Priority:** P2 | **Type:** Product Strategy + Feature | **Complexity:** M | **Status:** Finalized (2026-06-02)
+> ✅ **STRATEGY DEFINED & CLOSED 2026-06-02.** Pricing/coupons/trial/journey-freeze mechanic are
+> finalized. The **build** is `tasks/enhancements/ENH-011-journey-freeze-paywall-razorpay.md` (G2),
+> which embeds this strategy. This file remains the canonical pricing reference.
+
+**Priority:** P2 | **Type:** Product Strategy + Feature | **Complexity:** M | **Status:** ✅ Done — defined; builds as ENH-011
 
 > **Supersedes** the earlier ₹199 / 15-day soft-lock draft. This version reflects the
 > pivot to a **premium, sales-led, single-city launch (Lucknow)** with a human closing loop
