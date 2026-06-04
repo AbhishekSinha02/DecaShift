@@ -1,7 +1,7 @@
 // storage.js — DecaShift v3 — localStorage-first, silent remote sync
 
 const Storage = (() => {
-  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz6pHgQ1nOi9YTYmMPIaXbKMAfFZwFATD6NQ36E5B6TM8lDJHhYVf2pcoGApjjHBfziqw/exec';
+  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxiBe-1hTfBrm-5LjQ6dbi785Y_G-qTuDnnU07JDbAAc51HYtG9RX7y0wvZq1y3Qq-yRw/exec';
 
   const KEYS = {
     USER:     'decashift_user',
