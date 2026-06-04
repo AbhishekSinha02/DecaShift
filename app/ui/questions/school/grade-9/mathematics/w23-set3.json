@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-mathematics",
+  "title": "Grade 9 Mathematics — Quadrilaterals",
+  "description": "Properties of quadrilaterals — parallelogram, rectangle, rhombus, square, trapezium",
+  "category": "school",
+  "grade": 9,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_9_w23_s3_001",
+      "goalId": "grade9-mathematics",
+      "question": "The sum of all angles in a quadrilateral is:",
+      "options": ["180°", "270°", "360°", "540°"],
+      "correctIndex": 2,
+      "explanation": "The angle sum of a quadrilateral is 360°. Any quadrilateral can be divided into 2 triangles, each with 180°, giving 2 × 180° = 360°.",
+      "difficulty": "easy",
+      "tags": ["quadrilateral", "angle-sum", "property"]
+    },
+    {
+      "id": "q_math_9_w23_s3_002",
+      "goalId": "grade9-mathematics",
+      "question": "In a parallelogram, opposite sides are:",
+      "options": ["Equal and perpendicular", "Equal and parallel", "Unequal and parallel", "Equal and intersecting"],
+      "correctIndex": 1,
+      "explanation": "Parallelogram properties: (1) opposite sides are equal and parallel, (2) opposite angles are equal, (3) diagonals bisect each other, (4) consecutive angles are supplementary.",
+      "difficulty": "easy",
+      "tags": ["parallelogram", "properties", "sides"]
+    },
+    {
+      "id": "q_math_9_w23_s3_003",
+      "goalId": "grade9-mathematics",
+      "question": "The diagonals of a rectangle are:",
+      "options": ["Equal and bisect each other at right angles", "Equal and bisect each other (but NOT necessarily at right angles)", "Unequal and bisect each other", "Equal but do not bisect each other"],
+      "correctIndex": 1,
+      "explanation": "Rectangle: diagonals are EQUAL in length and bisect each other. They do NOT intersect at right angles (that property belongs to rhombus and square). All angles = 90°.",
+      "difficulty": "medium",
+      "tags": ["rectangle", "diagonals", "properties"]
+    },
+    {
+      "id": "q_math_9_w23_s3_004",
+      "goalId": "grade9-mathematics",
+      "question": "A quadrilateral whose diagonals bisect each other at right angles but are NOT equal is a:",
+      "options": ["Rectangle", "Square", "Rhombus", "Trapezium"],
+      "correctIndex": 2,
+      "explanation": "Rhombus: all sides equal, diagonals bisect each other at 90° but are NOT equal. Rectangle: equal diagonals but not at 90°. Square: equal diagonals AND at 90°.",
+      "difficulty": "medium",
+      "tags": ["rhombus", "diagonals", "properties"]
+    },
+    {
+      "id": "q_math_9_w23_s3_005",
+      "goalId": "grade9-mathematics",
+      "question": "In parallelogram ABCD, ∠A = 70°. Find ∠B.",
+      "options": ["70°", "110°", "140°", "90°"],
+      "correctIndex": 1,
+      "explanation": "In a parallelogram, consecutive angles are supplementary: ∠A + ∠B = 180°. ∠B = 180° − 70° = 110°.",
+      "difficulty": "easy",
+      "tags": ["parallelogram", "angles", "calculation"]
+    },
+    {
+      "id": "q_math_9_w23_s3_006",
+      "goalId": "grade9-mathematics",
+      "question": "The Midpoint Theorem states that the line segment joining the midpoints of two sides of a triangle is:",
+      "options": ["Equal to the third side", "Half the length of the third side and parallel to it", "Twice the third side", "Perpendicular to the third side"],
+      "correctIndex": 1,
+      "explanation": "Midpoint Theorem: The line joining the midpoints of two sides of a triangle is parallel to the third side and half its length. This is a key theorem for quadrilateral proofs.",
+      "difficulty": "medium",
+      "tags": ["midpoint-theorem", "triangles", "parallelism"]
+    },
+    {
+      "id": "q_math_9_w23_s3_007",
+      "goalId": "grade9-mathematics",
+      "question": "A trapezium has:",
+      "options": ["Both pairs of opposite sides parallel", "Exactly one pair of opposite sides parallel", "No parallel sides", "All sides equal"],
+      "correctIndex": 1,
+      "explanation": "A trapezium (UK) / trapezoid (US) has exactly ONE pair of parallel sides (called the parallel sides or bases). A parallelogram has TWO pairs of parallel sides.",
+      "difficulty": "easy",
+      "tags": ["trapezium", "parallel-sides", "definition"]
+    },
+    {
+      "id": "q_math_9_w23_s3_008",
+      "goalId": "grade9-mathematics",
+      "question": "Which of the following is NOT a property of a square?",
+      "options": ["All sides are equal", "Diagonals bisect each other at right angles", "Diagonals are unequal", "All angles are 90°"],
+      "correctIndex": 2,
+      "explanation": "In a square: all sides equal, all angles 90°, diagonals are EQUAL AND bisect each other at 90°. 'Unequal diagonals' is NOT a property of a square — it is a property of a rhombus (non-square).",
+      "difficulty": "medium",
+      "tags": ["square", "properties", "diagonals"]
+    },
+    {
+      "id": "q_math_9_w23_s3_009",
+      "goalId": "grade9-mathematics",
+      "question": "In parallelogram PQRS, diagonals PR and QS bisect at O. If PO = 5 cm, find PR.",
+      "options": ["5 cm", "10 cm", "2.5 cm", "20 cm"],
+      "correctIndex": 1,
+      "explanation": "Diagonals of a parallelogram bisect each other. If PO = 5 cm (half of PR), then PR = 2 × PO = 10 cm.",
+      "difficulty": "easy",
+      "tags": ["parallelogram", "diagonals", "bisect", "calculation"]
+    },
+    {
+      "id": "q_math_9_w23_s3_010",
+      "goalId": "grade9-mathematics",
+      "question": "A parallelogram is a rectangle if and only if:",
+      "options": ["Its diagonals are perpendicular", "Its diagonals are equal in length", "Its opposite sides are parallel", "It has at least one right angle"],
+      "correctIndex": 1,
+      "explanation": "A parallelogram is a rectangle if and only if its diagonals are equal (in length). Equal diagonals in a parallelogram mean all angles are 90°.",
+      "difficulty": "hard",
+      "tags": ["rectangle", "condition", "diagonals"]
+    },
+    {
+      "id": "q_math_9_w23_s3_011",
+      "goalId": "grade9-mathematics",
+      "question": "In a rhombus ABCD, ∠ABC = 60°. Find ∠ADC.",
+      "options": ["60°", "120°", "90°", "30°"],
+      "correctIndex": 0,
+      "explanation": "In a rhombus (also a parallelogram), opposite angles are equal. ∠ABC = ∠ADC = 60°. Adjacent angles are supplementary: ∠BAD = ∠BCD = 120°.",
+      "difficulty": "medium",
+      "tags": ["rhombus", "angles", "calculation"]
+    },
+    {
+      "id": "q_math_9_w23_s3_012",
+      "goalId": "grade9-mathematics",
+      "question": "The area of a parallelogram is:",
+      "options": ["½ × base × height", "base × height", "base × side", "½ × d₁ × d₂"],
+      "correctIndex": 1,
+      "explanation": "Area of parallelogram = base × height (perpendicular height). Area of rhombus = ½ × d₁ × d₂ (product of diagonals). Area of triangle = ½ × base × height.",
+      "difficulty": "easy",
+      "tags": ["area", "parallelogram", "formula"]
+    },
+    {
+      "id": "q_math_9_w23_s3_013",
+      "goalId": "grade9-mathematics",
+      "question": "All squares are rectangles. All rectangles are parallelograms. Therefore:",
+      "options": ["All rectangles are squares", "All parallelograms are squares", "All squares are parallelograms", "All parallelograms are rectangles"],
+      "correctIndex": 2,
+      "explanation": "If square → rectangle → parallelogram (by the given statements), then by transitivity: all squares are parallelograms. The reverse implications are not valid (not all parallelograms are rectangles).",
+      "difficulty": "hard",
+      "tags": ["hierarchy", "quadrilaterals", "logical-reasoning"]
+    },
+    {
+      "id": "q_math_9_w23_s3_014",
+      "goalId": "grade9-mathematics",
+      "question": "A kite has:",
+      "options": ["Both pairs of opposite sides equal", "Two pairs of adjacent sides equal", "All sides equal", "No equal sides"],
+      "correctIndex": 1,
+      "explanation": "A kite has two pairs of ADJACENT (neighbouring) sides equal: e.g., AB=AD and CB=CD. It has one pair of equal opposite angles and diagonals that are perpendicular.",
+      "difficulty": "medium",
+      "tags": ["kite", "quadrilateral", "properties"]
+    },
+    {
+      "id": "q_math_9_w23_s3_015",
+      "goalId": "grade9-mathematics",
+      "question": "ABCD is a parallelogram. If AB = 2x − 3 and CD = x + 4, find x.",
+      "options": ["1", "7", "5", "3"],
+      "correctIndex": 1,
+      "explanation": "Opposite sides of a parallelogram are equal: AB = CD. 2x − 3 = x + 4 → x = 7. Then AB = CD = 11.",
+      "difficulty": "medium",
+      "tags": ["parallelogram", "algebra", "sides"]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-mathematics",
+  "title": "Grade 9 Mathematics — Triangles: Congruence Criteria",
+  "description": "Triangle congruence — SSS, SAS, ASA, AAS, RHS criteria and applications",
+  "category": "school",
+  "grade": 9,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_9_w23_s2_001",
+      "goalId": "grade9-mathematics",
+      "question": "Two triangles are congruent if all their corresponding _____ are equal.",
+      "options": ["Angles only", "Sides only", "Sides and angles", "Areas"],
+      "correctIndex": 2,
+      "explanation": "Congruent triangles have all corresponding sides equal AND all corresponding angles equal. If triangles are congruent (≅), one can be made to coincide exactly with the other.",
+      "difficulty": "easy",
+      "tags": ["congruence", "definition", "triangles"]
+    },
+    {
+      "id": "q_math_9_w23_s2_002",
+      "goalId": "grade9-mathematics",
+      "question": "SSS congruence criterion states that two triangles are congruent if:",
+      "options": ["Two sides and the included angle are equal", "All three sides of one triangle are equal to the corresponding sides of the other", "Two angles and the included side are equal", "One side and one angle are equal"],
+      "correctIndex": 1,
+      "explanation": "SSS (Side-Side-Side): If all three sides of one triangle are equal to the three corresponding sides of another triangle, the triangles are congruent.",
+      "difficulty": "easy",
+      "tags": ["SSS", "congruence", "triangles"]
+    },
+    {
+      "id": "q_math_9_w23_s2_003",
+      "goalId": "grade9-mathematics",
+      "question": "SAS congruence criterion requires:",
+      "options": ["Two sides and any angle", "Two sides and the included angle (the angle between those two sides)", "Three sides", "Two angles and any side"],
+      "correctIndex": 1,
+      "explanation": "SAS (Side-Angle-Side): Two sides and the INCLUDED angle (the angle formed between the two equal sides) must be equal. The angle must be between the two given sides.",
+      "difficulty": "easy",
+      "tags": ["SAS", "congruence", "triangles"]
+    },
+    {
+      "id": "q_math_9_w23_s2_004",
+      "goalId": "grade9-mathematics",
+      "question": "In triangles ABC and DEF, AB = DE, BC = EF, and ∠B = ∠E. The triangles are congruent by:",
+      "options": ["SSS", "SAS", "ASA", "RHS"],
+      "correctIndex": 1,
+      "explanation": "AB = DE (side), ∠B = ∠E (included angle between AB-BC and DE-EF), BC = EF (side). This is SAS — two sides and the included angle.",
+      "difficulty": "medium",
+      "tags": ["SAS", "congruence", "identification"]
+    },
+    {
+      "id": "q_math_9_w23_s2_005",
+      "goalId": "grade9-mathematics",
+      "question": "ASA congruence criterion requires:",
+      "options": ["Two angles and the included side", "Two angles and any side", "Three angles", "Two sides and one angle"],
+      "correctIndex": 0,
+      "explanation": "ASA (Angle-Side-Angle): Two angles and the INCLUDED side (the side between those two angles) must be equal. Both angles must be adjacent to the given side.",
+      "difficulty": "easy",
+      "tags": ["ASA", "congruence", "triangles"]
+    },
+    {
+      "id": "q_math_9_w23_s2_006",
+      "goalId": "grade9-mathematics",
+      "question": "RHS congruence criterion applies only to:",
+      "options": ["Equilateral triangles", "Right-angled triangles", "Obtuse triangles", "Isosceles triangles"],
+      "correctIndex": 1,
+      "explanation": "RHS (Right angle-Hypotenuse-Side) applies only to right-angled triangles. If the hypotenuse and one side of a right triangle equal those of another, the triangles are congruent.",
+      "difficulty": "easy",
+      "tags": ["RHS", "congruence", "right-triangles"]
+    },
+    {
+      "id": "q_math_9_w23_s2_007",
+      "goalId": "grade9-mathematics",
+      "question": "In an isosceles triangle ABC with AB = AC, if D is the midpoint of BC, then triangles ABD and ACD are congruent by:",
+      "options": ["SSS", "SAS", "ASA", "RHS"],
+      "correctIndex": 0,
+      "explanation": "AB = AC (given), BD = CD (D is midpoint of BC), AD = AD (common). All three sides are equal → SSS congruence.",
+      "difficulty": "medium",
+      "tags": ["SSS", "isosceles-triangle", "midpoint"]
+    },
+    {
+      "id": "q_math_9_w23_s2_008",
+      "goalId": "grade9-mathematics",
+      "question": "If two triangles have all three corresponding angles equal, they are necessarily congruent. True or False?",
+      "options": ["True — three equal angles guarantee congruence", "False — equal angles only guarantee similarity, not congruence", "True — because angles determine shape and size", "False — only SSS can guarantee congruence"],
+      "correctIndex": 1,
+      "explanation": "AAA (three equal angles) only guarantees SIMILARITY (same shape), not congruence (same size). The triangles can be scaled versions. You need at least one side to determine size.",
+      "difficulty": "hard",
+      "tags": ["AAA", "similarity-vs-congruence", "triangles"]
+    },
+    {
+      "id": "q_math_9_w23_s2_009",
+      "goalId": "grade9-mathematics",
+      "question": "In triangle ABC, AB = AC. The bisector of angle A meets BC at D. Which of the following is TRUE?",
+      "options": ["BD = DC and the triangles ABD ≅ ACD by ASA", "BD ≠ DC", "D is not on BC", "Triangles ABD and ACD are only similar"],
+      "correctIndex": 0,
+      "explanation": "In isosceles △ABC (AB=AC), the angle bisector AD is also the perpendicular bisector and median. Triangles ABD and ACD: AB=AC, ∠BAD=∠CAD (bisector), AD=AD → SAS congruence → BD=DC.",
+      "difficulty": "hard",
+      "tags": ["isosceles", "angle-bisector", "congruence"]
+    },
+    {
+      "id": "q_math_9_w23_s2_010",
+      "goalId": "grade9-mathematics",
+      "question": "The exterior angle of a triangle is equal to:",
+      "options": ["The sum of all three interior angles", "The sum of the two non-adjacent (remote) interior angles", "Each interior angle", "The supplement of the adjacent interior angle only (not the other two)"],
+      "correctIndex": 1,
+      "explanation": "Exterior Angle Theorem: An exterior angle of a triangle equals the sum of the two remote interior angles (the two interior angles not adjacent to it). This follows from the angle sum property.",
+      "difficulty": "medium",
+      "tags": ["exterior-angle", "triangles", "theorem"]
+    },
+    {
+      "id": "q_math_9_w23_s2_011",
+      "goalId": "grade9-mathematics",
+      "question": "In triangle ABC, ∠A = 50°, ∠B = 70°. The exterior angle at C is:",
+      "options": ["60°", "120°", "130°", "180°"],
+      "correctIndex": 1,
+      "explanation": "∠C = 180° − 50° − 70° = 60° (angle sum). Exterior angle at C = 180° − 60° = 120°. Also: exterior angle = ∠A + ∠B = 50° + 70° = 120°. ✓",
+      "difficulty": "medium",
+      "tags": ["exterior-angle", "calculation", "triangles"]
+    },
+    {
+      "id": "q_math_9_w23_s2_012",
+      "goalId": "grade9-mathematics",
+      "question": "Which of the following sets of lengths CAN form a triangle?",
+      "options": ["1 cm, 2 cm, 5 cm", "3 cm, 4 cm, 5 cm", "2 cm, 2 cm, 10 cm", "1 cm, 1 cm, 3 cm"],
+      "correctIndex": 1,
+      "explanation": "Triangle Inequality: sum of any two sides must be greater than the third side. Check 3,4,5: 3+4=7>5 ✓; 4+5=9>3 ✓; 3+5=8>4 ✓. All others fail: 1+2=3 not > 5; 2+2=4 not > 10; 1+1=2 not > 3.",
+      "difficulty": "medium",
+      "tags": ["triangle-inequality", "sides", "triangles"]
+    },
+    {
+      "id": "q_math_9_w23_s2_013",
+      "goalId": "grade9-mathematics",
+      "question": "In a right triangle, the side opposite the right angle is called the:",
+      "options": ["Base", "Altitude", "Hypotenuse", "Median"],
+      "correctIndex": 2,
+      "explanation": "The hypotenuse is the longest side of a right triangle — it is always the side opposite the right angle (90°). In a 3-4-5 triangle, 5 is the hypotenuse.",
+      "difficulty": "easy",
+      "tags": ["right-triangle", "hypotenuse", "terminology"]
+    },
+    {
+      "id": "q_math_9_w23_s2_014",
+      "goalId": "grade9-mathematics",
+      "question": "The sum of all angles in a triangle is:",
+      "options": ["90°", "180°", "270°", "360°"],
+      "correctIndex": 1,
+      "explanation": "The Angle Sum Property of a triangle: all three interior angles add up to 180°. This is a fundamental theorem in Euclidean geometry.",
+      "difficulty": "easy",
+      "tags": ["angle-sum", "triangles", "property"]
+    },
+    {
+      "id": "q_math_9_w23_s2_015",
+      "goalId": "grade9-mathematics",
+      "question": "Two right triangles have equal hypotenuses and one equal leg. They are congruent by:",
+      "options": ["SSS", "SAS", "ASA", "RHS"],
+      "correctIndex": 3,
+      "explanation": "RHS (Right angle-Hypotenuse-Side): Two right triangles with equal hypotenuses and one equal corresponding side are congruent. The right angle is always equal (90°).",
+      "difficulty": "medium",
+      "tags": ["RHS", "right-triangles", "congruence"]
+    }
+  ]
+}

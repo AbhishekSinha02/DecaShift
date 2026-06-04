@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-mathematics",
+  "title": "Grade 9 Mathematics — Surface Areas and Volumes",
+  "description": "Surface area and volume of cubes, cuboids, cylinders, cones, and spheres",
+  "category": "school",
+  "grade": 9,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_9_w23_s5_001",
+      "goalId": "grade9-mathematics",
+      "question": "The total surface area of a cuboid with length l, breadth b, and height h is:",
+      "options": ["lbh", "2(lb + bh + hl)", "2lb + 2bh", "l + b + h"],
+      "correctIndex": 1,
+      "explanation": "Total Surface Area of cuboid = 2(lb + bh + hl). It has 6 faces: top+bottom (2lb), front+back (2bh), left+right (2hl).",
+      "difficulty": "easy",
+      "tags": ["cuboid", "surface-area", "formula"]
+    },
+    {
+      "id": "q_math_9_w23_s5_002",
+      "goalId": "grade9-mathematics",
+      "question": "The volume of a cube with side a is:",
+      "options": ["a²", "6a²", "4a²", "a³"],
+      "correctIndex": 3,
+      "explanation": "Volume of cube = side × side × side = a³. Total surface area of cube = 6a². Lateral surface area = 4a².",
+      "difficulty": "easy",
+      "tags": ["cube", "volume", "formula"]
+    },
+    {
+      "id": "q_math_9_w23_s5_003",
+      "goalId": "grade9-mathematics",
+      "question": "The curved surface area of a cylinder with radius r and height h is:",
+      "options": ["2πr²", "πr²h", "2πrh", "2πr(r + h)"],
+      "correctIndex": 2,
+      "explanation": "Curved (Lateral) Surface Area of cylinder = 2πrh. Total Surface Area = 2πr(r+h) = 2πrh + 2πr². Volume = πr²h.",
+      "difficulty": "easy",
+      "tags": ["cylinder", "curved-surface-area", "formula"]
+    },
+    {
+      "id": "q_math_9_w23_s5_004",
+      "goalId": "grade9-mathematics",
+      "question": "Find the volume of a cylinder with radius 7 cm and height 10 cm. (π = 22/7)",
+      "options": ["440 cm³", "1540 cm³", "154 cm³", "2200 cm³"],
+      "correctIndex": 1,
+      "explanation": "Volume = πr²h = (22/7) × 7² × 10 = (22/7) × 49 × 10 = 22 × 7 × 10 = 1540 cm³.",
+      "difficulty": "medium",
+      "tags": ["cylinder", "volume", "calculation"]
+    },
+    {
+      "id": "q_math_9_w23_s5_005",
+      "goalId": "grade9-mathematics",
+      "question": "The slant height (l) of a cone with radius r and height h is:",
+      "options": ["r + h", "√(r² + h²)", "√(r + h)", "r × h"],
+      "correctIndex": 1,
+      "explanation": "The slant height of a cone: l = √(r² + h²). This is derived from the Pythagorean theorem — the slant height is the hypotenuse of the right triangle formed by r (base radius) and h (height).",
+      "difficulty": "medium",
+      "tags": ["cone", "slant-height", "formula"]
+    },
+    {
+      "id": "q_math_9_w23_s5_006",
+      "goalId": "grade9-mathematics",
+      "question": "The curved surface area of a cone with radius r and slant height l is:",
+      "options": ["πrl", "πr²l", "2πrl", "πrl + πr²"],
+      "correctIndex": 0,
+      "explanation": "CSA of cone = πrl. Total Surface Area of cone = πrl + πr² = πr(l + r). Volume of cone = (1/3)πr²h.",
+      "difficulty": "easy",
+      "tags": ["cone", "curved-surface-area", "formula"]
+    },
+    {
+      "id": "q_math_9_w23_s5_007",
+      "goalId": "grade9-mathematics",
+      "question": "The volume of a cone is _____ of the volume of a cylinder with the same radius and height.",
+      "options": ["1/2", "1/3", "1/4", "2/3"],
+      "correctIndex": 1,
+      "explanation": "Volume of cone = (1/3)πr²h = (1/3) × volume of cylinder. A cone is exactly 1/3 of the cylinder with the same base and height.",
+      "difficulty": "medium",
+      "tags": ["cone", "volume", "relationship"]
+    },
+    {
+      "id": "q_math_9_w23_s5_008",
+      "goalId": "grade9-mathematics",
+      "question": "The surface area of a sphere with radius r is:",
+      "options": ["πr²", "2πr²", "4πr²", "(4/3)πr³"],
+      "correctIndex": 2,
+      "explanation": "Surface Area of sphere = 4πr². Volume of sphere = (4/3)πr³. Surface area of hemisphere (flat face + curved) = 3πr².",
+      "difficulty": "easy",
+      "tags": ["sphere", "surface-area", "formula"]
+    },
+    {
+      "id": "q_math_9_w23_s5_009",
+      "goalId": "grade9-mathematics",
+      "question": "A cuboid is 10 cm × 8 cm × 5 cm. Find its total surface area.",
+      "options": ["400 cm²", "340 cm²", "200 cm²", "160 cm²"],
+      "correctIndex": 1,
+      "explanation": "TSA = 2(lb + bh + hl) = 2(10×8 + 8×5 + 5×10) = 2(80 + 40 + 50) = 2 × 170 = 340 cm².",
+      "difficulty": "medium",
+      "tags": ["cuboid", "surface-area", "calculation"]
+    },
+    {
+      "id": "q_math_9_w23_s5_010",
+      "goalId": "grade9-mathematics",
+      "question": "A cone has radius 5 cm and slant height 13 cm. Its curved surface area is: (use π = 3.14)",
+      "options": ["204.1 cm²", "65π cm²", "78.5 cm²", "31.4 cm²"],
+      "correctIndex": 0,
+      "explanation": "CSA = πrl = 3.14 × 5 × 13 = 3.14 × 65 = 204.1 cm².",
+      "difficulty": "medium",
+      "tags": ["cone", "CSA", "calculation"]
+    },
+    {
+      "id": "q_math_9_w23_s5_011",
+      "goalId": "grade9-mathematics",
+      "question": "The radius of a sphere is 6 cm. Its volume is: (use π = 3.14)",
+      "options": ["904.32 cm³", "452.16 cm³", "113.04 cm³", "1256.64 cm³"],
+      "correctIndex": 0,
+      "explanation": "Volume = (4/3)πr³ = (4/3) × 3.14 × 6³ = (4/3) × 3.14 × 216 = (4 × 3.14 × 216)/3 = 2712.96/3 = 904.32 cm³.",
+      "difficulty": "hard",
+      "tags": ["sphere", "volume", "calculation"]
+    },
+    {
+      "id": "q_math_9_w23_s5_012",
+      "goalId": "grade9-mathematics",
+      "question": "If the radius of a sphere is doubled, its volume becomes:",
+      "options": ["Double", "4 times", "6 times", "8 times"],
+      "correctIndex": 3,
+      "explanation": "V = (4/3)πr³. If r → 2r: V_new = (4/3)π(2r)³ = (4/3)π × 8r³ = 8 × (4/3)πr³ = 8V. Volume increases 8 times.",
+      "difficulty": "hard",
+      "tags": ["sphere", "volume", "scaling"]
+    },
+    {
+      "id": "q_math_9_w23_s5_013",
+      "goalId": "grade9-mathematics",
+      "question": "A cube has surface area 150 cm². Find its side length.",
+      "options": ["5 cm", "25 cm", "10 cm", "15 cm"],
+      "correctIndex": 0,
+      "explanation": "TSA of cube = 6a². 6a² = 150 → a² = 25 → a = 5 cm.",
+      "difficulty": "medium",
+      "tags": ["cube", "surface-area", "reverse-calculation"]
+    },
+    {
+      "id": "q_math_9_w23_s5_014",
+      "goalId": "grade9-mathematics",
+      "question": "The total surface area of a hemisphere (flat face + curved surface) with radius r is:",
+      "options": ["2πr²", "3πr²", "4πr²", "πr²"],
+      "correctIndex": 1,
+      "explanation": "Hemisphere: Curved SA = 2πr², Flat circular face = πr². TSA = 2πr² + πr² = 3πr².",
+      "difficulty": "medium",
+      "tags": ["hemisphere", "surface-area", "formula"]
+    },
+    {
+      "id": "q_math_9_w23_s5_015",
+      "goalId": "grade9-mathematics",
+      "question": "A cylindrical tank has radius 1.4 m and height 3 m. How many litres of water can it hold? (π = 22/7; 1 m³ = 1000 litres)",
+      "options": ["18,480 litres", "13,200 litres", "18,480 m³", "1,848 litres"],
+      "correctIndex": 0,
+      "explanation": "Volume = πr²h = (22/7) × (1.4)² × 3 = (22/7) × 1.96 × 3 = (22/7) × 5.88 = 22 × 0.84 = 18.48 m³ = 18,480 litres.",
+      "difficulty": "hard",
+      "tags": ["cylinder", "volume", "word-problem"]
+    }
+  ]
+}

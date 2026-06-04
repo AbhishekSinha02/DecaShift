@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-science",
+  "title": "Grade 9 Science — Tissues",
+  "description": "Plant and animal tissues — types, functions, and characteristics",
+  "category": "school",
+  "grade": 9,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_9_w23_s4_001",
+      "goalId": "grade9-science",
+      "question": "A tissue is defined as:",
+      "options": ["A single specialised cell", "A group of cells with similar structure performing a common function", "An organ in the body", "A collection of different organs"],
+      "correctIndex": 1,
+      "explanation": "A tissue is a group of cells that are similar in structure, origin, and function. The study of tissues is called histology. Tissues form organs; organs form organ systems.",
+      "difficulty": "easy",
+      "tags": ["tissue", "definition", "biology"]
+    },
+    {
+      "id": "q_science_9_w23_s4_002",
+      "goalId": "grade9-science",
+      "question": "Meristematic tissue in plants is responsible for:",
+      "options": ["Storage of food", "Transport of water", "Cell division and growth (produces new cells)", "Providing mechanical support"],
+      "correctIndex": 2,
+      "explanation": "Meristematic tissue has cells that can divide continuously — they are responsible for growth. Found at root tips (apical), stem internodes (intercalary), and sides (lateral = cambium).",
+      "difficulty": "easy",
+      "tags": ["meristematic-tissue", "cell-division", "plant-tissue"]
+    },
+    {
+      "id": "q_science_9_w23_s4_003",
+      "goalId": "grade9-science",
+      "question": "Parenchyma tissue in plants functions mainly for:",
+      "options": ["Water conduction", "Mechanical support", "Storage of food and performing photosynthesis (in leaves)", "Transporting minerals"],
+      "correctIndex": 2,
+      "explanation": "Parenchyma is the most common simple permanent tissue in plants. Functions: storage (starch, water), photosynthesis (when chloroplasts present = chlorenchyma), and buoyancy (in aquatic plants = aerenchyma).",
+      "difficulty": "medium",
+      "tags": ["parenchyma", "plant-tissue", "function"]
+    },
+    {
+      "id": "q_science_9_w23_s4_004",
+      "goalId": "grade9-science",
+      "question": "Xylem is the vascular tissue in plants responsible for:",
+      "options": ["Transporting food (sugars) from leaves to all parts", "Transporting water and dissolved minerals from roots to leaves", "Providing flexibility to young stems", "Storing excess glucose"],
+      "correctIndex": 1,
+      "explanation": "Xylem transports water and dissolved minerals UPWARD from roots to leaves. It is made of tracheids, vessels, xylem fibres, and xylem parenchyma. Phloem transports food downward.",
+      "difficulty": "easy",
+      "tags": ["xylem", "water-transport", "vascular-tissue"]
+    },
+    {
+      "id": "q_science_9_w23_s4_005",
+      "goalId": "grade9-science",
+      "question": "Collenchyma tissue in plants provides:",
+      "options": ["Rigidity through dead cells with lignin", "Flexibility and mechanical support to young growing stems (with pectin thickening)", "Conduction of water", "Gas exchange"],
+      "correctIndex": 1,
+      "explanation": "Collenchyma provides mechanical support and flexibility to young stems and leaf stalks. Its cells have uneven thickening (pectin at corners). Unlike sclerenchyma, cells are living.",
+      "difficulty": "medium",
+      "tags": ["collenchyma", "mechanical-support", "plant-tissue"]
+    },
+    {
+      "id": "q_science_9_w23_s4_006",
+      "goalId": "grade9-science",
+      "question": "Sclerenchyma differs from collenchyma in that sclerenchyma cells are:",
+      "options": ["Living and flexible", "Dead, with thick lignified walls — providing rigidity (like coconut husk fibres)", "Found only in roots", "Involved in photosynthesis"],
+      "correctIndex": 1,
+      "explanation": "Sclerenchyma cells are dead at maturity with thick, lignified walls — they provide hard mechanical support. Examples: jute fibre, coconut husk fibres, seed coats. Unlike collenchyma (living, pectin).",
+      "difficulty": "medium",
+      "tags": ["sclerenchyma", "lignin", "plant-tissue"]
+    },
+    {
+      "id": "q_science_9_w23_s4_007",
+      "goalId": "grade9-science",
+      "question": "Epithelial tissue in animals functions as:",
+      "options": ["A covering or lining tissue protecting organs and body surfaces", "A connective tissue binding organs together", "A muscle tissue enabling movement", "A nervous tissue transmitting signals"],
+      "correctIndex": 0,
+      "explanation": "Epithelial tissue covers body surfaces, lines organs and cavities, and forms glands. It protects against physical damage, drying, and infection, and controls what enters/exits (e.g., gut lining, skin).",
+      "difficulty": "easy",
+      "tags": ["epithelial-tissue", "animal-tissue", "covering"]
+    },
+    {
+      "id": "q_science_9_w23_s4_008",
+      "goalId": "grade9-science",
+      "question": "Striated (voluntary) muscles are found in:",
+      "options": ["Heart", "Intestinal walls", "Limbs and body walls — under conscious control", "Blood vessels"],
+      "correctIndex": 2,
+      "explanation": "Striated (skeletal/voluntary) muscles attach to bones, allow voluntary movement, and show striations (alternating light and dark bands). Found in limbs, tongue, and body wall. Heart = cardiac (involuntary striated).",
+      "difficulty": "medium",
+      "tags": ["striated-muscle", "voluntary", "animal-tissue"]
+    },
+    {
+      "id": "q_science_9_w23_s4_009",
+      "goalId": "grade9-science",
+      "question": "Smooth (involuntary) muscle tissue is found in:",
+      "options": ["Skeletal muscles of the arm", "Heart walls", "Walls of digestive tract, blood vessels, and uterus", "Tendons and ligaments"],
+      "correctIndex": 2,
+      "explanation": "Smooth (unstriated/involuntary) muscle is found in internal organs — gut, blood vessels, uterus, bronchi. It works automatically (not under conscious control) and has spindle-shaped cells without striations.",
+      "difficulty": "medium",
+      "tags": ["smooth-muscle", "involuntary", "internal-organs"]
+    },
+    {
+      "id": "q_science_9_w23_s4_010",
+      "goalId": "grade9-science",
+      "question": "Cardiac muscle differs from skeletal muscle in that cardiac muscle:",
+      "options": ["Is voluntary (under conscious control)", "Is striated but involuntary, never tires, and has intercalated discs for coordination", "Has no striations", "Is found in limbs"],
+      "correctIndex": 1,
+      "explanation": "Cardiac muscle (heart) is unique — it is striated like skeletal muscle BUT involuntary (like smooth muscle). Intercalated discs allow electrical signals to pass between cells. It never fatigues.",
+      "difficulty": "hard",
+      "tags": ["cardiac-muscle", "heart", "involuntary-striated"]
+    },
+    {
+      "id": "q_science_9_w23_s4_011",
+      "goalId": "grade9-science",
+      "question": "Neurons are the basic unit of which tissue type?",
+      "options": ["Epithelial tissue", "Connective tissue", "Muscular tissue", "Nervous tissue"],
+      "correctIndex": 3,
+      "explanation": "Neurons (nerve cells) are the structural and functional units of nervous tissue. They receive and transmit electrical impulses. Neurons + neuroglia (support cells) make up nervous tissue.",
+      "difficulty": "easy",
+      "tags": ["neuron", "nervous-tissue", "animal-tissue"]
+    },
+    {
+      "id": "q_science_9_w23_s4_012",
+      "goalId": "grade9-science",
+      "question": "Blood is an example of which type of tissue?",
+      "options": ["Epithelial tissue", "Nervous tissue", "Connective tissue (fluid connective tissue)", "Muscular tissue"],
+      "correctIndex": 2,
+      "explanation": "Blood is a fluid connective tissue — its cells (RBCs, WBCs, platelets) are suspended in a liquid matrix (plasma). Other connective tissues: bone (rigid), cartilage (flexible), adipose (fat), tendons.",
+      "difficulty": "medium",
+      "tags": ["blood", "connective-tissue", "fluid-matrix"]
+    },
+    {
+      "id": "q_science_9_w23_s4_013",
+      "goalId": "grade9-science",
+      "question": "Which permanent plant tissue allows gas exchange through small pores called stomata?",
+      "options": ["Xylem", "Phloem", "Epidermis", "Sclerenchyma"],
+      "correctIndex": 2,
+      "explanation": "The epidermis (outer covering of the plant) has stomata — pores guarded by guard cells — through which gas exchange and transpiration occur. The epidermis also secretes a waxy cuticle to reduce water loss.",
+      "difficulty": "medium",
+      "tags": ["epidermis", "stomata", "gas-exchange"]
+    },
+    {
+      "id": "q_science_9_w23_s4_014",
+      "goalId": "grade9-science",
+      "question": "Adipose (fat) tissue in the human body functions to:",
+      "options": ["Transmit nerve impulses", "Store energy as fat and provide insulation and cushioning", "Produce blood cells", "Control body movements"],
+      "correctIndex": 1,
+      "explanation": "Adipose tissue stores energy (fat), insulates the body, cushions organs, and is found under the skin and around organs. Its cells (adipocytes) are filled with fat droplets.",
+      "difficulty": "easy",
+      "tags": ["adipose-tissue", "fat-storage", "connective-tissue"]
+    },
+    {
+      "id": "q_science_9_w23_s4_015",
+      "goalId": "grade9-science",
+      "question": "Cartilage, found in the ear and nose tip, is a type of:",
+      "options": ["Epithelial tissue", "Muscular tissue", "Connective tissue (softer than bone, more flexible)", "Nervous tissue"],
+      "correctIndex": 2,
+      "explanation": "Cartilage is a connective tissue — firmer than other connective tissues but softer than bone. It lacks blood vessels (avascular). Found in joints, nose, ear, trachea. Its cells are called chondrocytes.",
+      "difficulty": "medium",
+      "tags": ["cartilage", "connective-tissue", "avascular"]
+    }
+  ]
+}

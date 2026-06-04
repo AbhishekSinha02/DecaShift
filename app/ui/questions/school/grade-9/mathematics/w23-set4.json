@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-mathematics",
+  "title": "Grade 9 Mathematics — Circles",
+  "description": "Circle properties — chords, arcs, central and inscribed angles, cyclic quadrilaterals",
+  "category": "school",
+  "grade": 9,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_9_w23_s4_001",
+      "goalId": "grade9-mathematics",
+      "question": "A chord of a circle is:",
+      "options": ["A line tangent to the circle", "A line segment joining two points on the circle", "The distance from the centre to the circle (radius)", "A line passing through the centre"],
+      "correctIndex": 1,
+      "explanation": "A chord is a line segment with both endpoints on the circle. The longest chord is the diameter (passing through the centre). A radius is NOT a chord.",
+      "difficulty": "easy",
+      "tags": ["chord", "circle", "definition"]
+    },
+    {
+      "id": "q_math_9_w23_s4_002",
+      "goalId": "grade9-mathematics",
+      "question": "Equal chords of a circle are equidistant from the:",
+      "options": ["Circumference", "Centre", "Tangent point", "Arc"],
+      "correctIndex": 1,
+      "explanation": "Theorem: Equal chords of a circle are equidistant from the centre. Conversely, chords equidistant from the centre are equal. The perpendicular from the centre to a chord bisects the chord.",
+      "difficulty": "easy",
+      "tags": ["equal-chords", "distance-from-centre", "circle"]
+    },
+    {
+      "id": "q_math_9_w23_s4_003",
+      "goalId": "grade9-mathematics",
+      "question": "The angle subtended by an arc at the centre is _____ the angle subtended at any point on the remaining arc.",
+      "options": ["Equal to", "Half of", "Double of", "One-third of"],
+      "correctIndex": 2,
+      "explanation": "Central Angle Theorem: The angle at the centre = 2 × angle at the circumference (inscribed angle). So central angle = double the inscribed angle subtended by the same arc.",
+      "difficulty": "medium",
+      "tags": ["central-angle", "inscribed-angle", "circle"]
+    },
+    {
+      "id": "q_math_9_w23_s4_004",
+      "goalId": "grade9-mathematics",
+      "question": "Angles in the same segment of a circle are:",
+      "options": ["Supplementary (add up to 180°)", "Equal to each other", "Complementary (add up to 90°)", "Different for each point"],
+      "correctIndex": 1,
+      "explanation": "Theorem: All angles inscribed in the same segment of a circle (subtended by the same arc) are equal. This is the 'angles in the same segment' theorem.",
+      "difficulty": "medium",
+      "tags": ["same-segment", "inscribed-angle", "circle"]
+    },
+    {
+      "id": "q_math_9_w23_s4_005",
+      "goalId": "grade9-mathematics",
+      "question": "The angle in a semicircle (angle subtended by a diameter at any point on the circle) is always:",
+      "options": ["60°", "90°", "120°", "45°"],
+      "correctIndex": 1,
+      "explanation": "Thales' theorem: the angle subtended by a diameter at any point on the circle is always 90°. This is a special case of the central angle theorem (diameter = arc of 180°, so inscribed angle = 90°).",
+      "difficulty": "easy",
+      "tags": ["angle-in-semicircle", "thales-theorem", "circle"]
+    },
+    {
+      "id": "q_math_9_w23_s4_006",
+      "goalId": "grade9-mathematics",
+      "question": "In a cyclic quadrilateral, opposite angles are:",
+      "options": ["Equal", "Supplementary (add up to 180°)", "Complementary (add up to 90°)", "Both 90°"],
+      "correctIndex": 1,
+      "explanation": "In a cyclic quadrilateral (all vertices lie on a circle), opposite angles are supplementary: ∠A + ∠C = 180° and ∠B + ∠D = 180°. This is the cyclic quadrilateral theorem.",
+      "difficulty": "medium",
+      "tags": ["cyclic-quadrilateral", "opposite-angles", "supplementary"]
+    },
+    {
+      "id": "q_math_9_w23_s4_007",
+      "goalId": "grade9-mathematics",
+      "question": "If the central angle of a minor arc is 80°, the central angle of the corresponding major arc is:",
+      "options": ["80°", "100°", "280°", "160°"],
+      "correctIndex": 2,
+      "explanation": "Major arc + minor arc = full circle = 360°. If minor arc has central angle 80°, the major arc has central angle 360° − 80° = 280°.",
+      "difficulty": "easy",
+      "tags": ["major-minor-arc", "central-angle", "circle"]
+    },
+    {
+      "id": "q_math_9_w23_s4_008",
+      "goalId": "grade9-mathematics",
+      "question": "A line that touches a circle at exactly one point is called a:",
+      "options": ["Chord", "Secant", "Tangent", "Diameter"],
+      "correctIndex": 2,
+      "explanation": "A tangent is a line that touches the circle at exactly one point (the point of tangency). A secant intersects the circle at two points. The tangent is perpendicular to the radius at the point of contact.",
+      "difficulty": "easy",
+      "tags": ["tangent", "circle", "definition"]
+    },
+    {
+      "id": "q_math_9_w23_s4_009",
+      "goalId": "grade9-mathematics",
+      "question": "The perpendicular from the centre of a circle to a chord:",
+      "options": ["Is equal to the radius", "Bisects the chord", "Passes through the end of the chord", "Is equal to the chord"],
+      "correctIndex": 1,
+      "explanation": "Theorem: The perpendicular drawn from the centre of a circle to a chord bisects the chord (divides it into two equal parts). Conversely, the perpendicular bisector of any chord passes through the centre.",
+      "difficulty": "medium",
+      "tags": ["perpendicular-from-centre", "bisect-chord", "circle"]
+    },
+    {
+      "id": "q_math_9_w23_s4_010",
+      "goalId": "grade9-mathematics",
+      "question": "In a circle with centre O, the central angle ∠AOB = 120°. The inscribed angle ∠APB (P on the major arc) is:",
+      "options": ["60°", "120°", "240°", "30°"],
+      "correctIndex": 0,
+      "explanation": "By the Central Angle Theorem: inscribed angle = ½ × central angle. When P is on the MAJOR arc, the inscribed angle = ½ × 120° = 60°.",
+      "difficulty": "medium",
+      "tags": ["central-angle-theorem", "inscribed-angle", "calculation"]
+    },
+    {
+      "id": "q_math_9_w23_s4_011",
+      "goalId": "grade9-mathematics",
+      "question": "ABCD is a cyclic quadrilateral with ∠A = 70°. Find ∠C.",
+      "options": ["70°", "110°", "180°", "90°"],
+      "correctIndex": 1,
+      "explanation": "Opposite angles of a cyclic quadrilateral are supplementary: ∠A + ∠C = 180°. ∠C = 180° − 70° = 110°.",
+      "difficulty": "easy",
+      "tags": ["cyclic-quadrilateral", "calculation", "opposite-angles"]
+    },
+    {
+      "id": "q_math_9_w23_s4_012",
+      "goalId": "grade9-mathematics",
+      "question": "How many circles can pass through three non-collinear points?",
+      "options": ["None", "Exactly one", "Two", "Infinitely many"],
+      "correctIndex": 1,
+      "explanation": "Through any three non-collinear points, exactly one circle can be drawn. This is because the perpendicular bisectors of the three segments joining the points meet at a unique centre.",
+      "difficulty": "medium",
+      "tags": ["circle-through-points", "unique-circle", "theorem"]
+    },
+    {
+      "id": "q_math_9_w23_s4_013",
+      "goalId": "grade9-mathematics",
+      "question": "The area of a circle with radius 7 cm is: (use π = 22/7)",
+      "options": ["44 cm²", "154 cm²", "22 cm²", "308 cm²"],
+      "correctIndex": 1,
+      "explanation": "Area = πr² = (22/7) × 7² = (22/7) × 49 = 22 × 7 = 154 cm².",
+      "difficulty": "easy",
+      "tags": ["area-of-circle", "calculation", "formula"]
+    },
+    {
+      "id": "q_math_9_w23_s4_014",
+      "goalId": "grade9-mathematics",
+      "question": "A chord AB of a circle is 16 cm long. The perpendicular from centre O to AB has length 6 cm. Find the radius of the circle.",
+      "options": ["8 cm", "10 cm", "12 cm", "14 cm"],
+      "correctIndex": 1,
+      "explanation": "Perpendicular from centre bisects chord: half-chord = 8 cm. By Pythagoras: r² = 8² + 6² = 64 + 36 = 100. r = 10 cm.",
+      "difficulty": "hard",
+      "tags": ["chord", "radius", "pythagoras", "calculation"]
+    },
+    {
+      "id": "q_math_9_w23_s4_015",
+      "goalId": "grade9-mathematics",
+      "question": "In the same circle, two chords are equal if and only if they subtend equal angles at:",
+      "options": ["Any point on the circumference", "The centre", "Each other's midpoints", "The tangent point"],
+      "correctIndex": 1,
+      "explanation": "Theorem: In the same circle (or congruent circles), equal chords subtend equal angles at the centre. Conversely, chords that subtend equal angles at the centre are equal.",
+      "difficulty": "medium",
+      "tags": ["equal-chords", "central-angle", "theorem"]
+    }
+  ]
+}

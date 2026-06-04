@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-english",
+  "title": "Grade 9 English — Passive Voice + Comprehension Practice",
+  "description": "Passive voice transformation, reading comprehension, and vocabulary",
+  "category": "school",
+  "grade": 9,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_9_w23_s4_001",
+      "goalId": "grade9-english",
+      "question": "The passive voice of 'She writes a letter' is:",
+      "options": ["A letter is written by her.", "A letter was written by her.", "A letter will be written by her.", "A letter is being written by her."],
+      "correctIndex": 0,
+      "explanation": "Active: She writes a letter (simple present). Passive: A letter is written by her. Formula: Object + is/am/are + past participle + by + subject.",
+      "difficulty": "easy",
+      "tags": ["passive-voice", "grammar", "transformation"]
+    },
+    {
+      "id": "q_english_9_w23_s4_002",
+      "goalId": "grade9-english",
+      "question": "The passive voice of 'They built this bridge in 1980' is:",
+      "options": ["This bridge was built in 1980.", "This bridge is built in 1980.", "This bridge has been built in 1980.", "This bridge will be built in 1980."],
+      "correctIndex": 0,
+      "explanation": "Simple past active uses 'built'. Passive: Object + was/were + past participle. 'They' is dropped (agent is unimportant): This bridge was built in 1980.",
+      "difficulty": "easy",
+      "tags": ["passive-voice", "grammar", "simple-past"]
+    },
+    {
+      "id": "q_english_9_w23_s4_003",
+      "goalId": "grade9-english",
+      "question": "Passive voice of 'The manager will announce the results tomorrow' is:",
+      "options": ["The results are announced by the manager tomorrow.", "The results will be announced by the manager tomorrow.", "The results were announced by the manager tomorrow.", "The results have been announced by the manager."],
+      "correctIndex": 1,
+      "explanation": "Future simple active (will + verb). Passive: Object + will be + past participle + by + agent. The results will be announced by the manager tomorrow.",
+      "difficulty": "medium",
+      "tags": ["passive-voice", "grammar", "future-simple"]
+    },
+    {
+      "id": "q_english_9_w23_s4_004",
+      "goalId": "grade9-english",
+      "question": "When do we prefer to use the passive voice?",
+      "options": ["When we want to emphasise who did the action", "When the doer (agent) is unknown, unimportant, or obvious", "When writing informal text messages", "When the subject of the sentence is a person"],
+      "correctIndex": 1,
+      "explanation": "We use the passive voice when: (1) the agent is unknown ('The window was broken'), (2) unimportant ('English is spoken here'), or (3) obvious from context. It puts emphasis on the action/result.",
+      "difficulty": "medium",
+      "tags": ["passive-voice", "usage", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s4_005",
+      "goalId": "grade9-english",
+      "question": "Identify the passive sentence:",
+      "options": ["The dog chased the cat.", "Maria painted this portrait.", "The cake was eaten by the children.", "He drives a red car."],
+      "correctIndex": 2,
+      "explanation": "'The cake was eaten by the children' is passive: Object (the cake) + was + past participle (eaten) + by + agent (children). The other sentences are active.",
+      "difficulty": "easy",
+      "tags": ["passive-voice", "identification", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s4_006",
+      "goalId": "grade9-english",
+      "question": "Active: 'Someone has stolen my wallet.' → Passive:",
+      "options": ["My wallet has been stolen.", "My wallet was stolen.", "My wallet is stolen.", "My wallet will be stolen."],
+      "correctIndex": 0,
+      "explanation": "Present perfect active (has + past participle). Passive: Object + has/have been + past participle. 'Someone' is dropped. → My wallet has been stolen.",
+      "difficulty": "medium",
+      "tags": ["passive-voice", "present-perfect", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s4_007",
+      "goalId": "grade9-english",
+      "question": "What does the word 'arduous' mean?",
+      "options": ["Easy and simple", "Involving a lot of effort, difficult", "Relating to art", "Smooth and comfortable"],
+      "correctIndex": 1,
+      "explanation": "'Arduous' means involving or requiring strenuous effort; difficult and tiring. E.g., 'Climbing the mountain was an arduous task.'",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "word-meaning", "english"]
+    },
+    {
+      "id": "q_english_9_w23_s4_008",
+      "goalId": "grade9-english",
+      "question": "In comprehension, 'inference' means:",
+      "options": ["Finding a word directly stated in the text", "Drawing a conclusion based on evidence and reasoning from the text", "Rewriting a sentence from the passage", "Identifying the author of the passage"],
+      "correctIndex": 1,
+      "explanation": "Inference is reading 'between the lines' — using clues and context from the text to conclude something that is not directly stated. It requires reasoning beyond literal meaning.",
+      "difficulty": "medium",
+      "tags": ["comprehension", "inference", "reading-skills"]
+    },
+    {
+      "id": "q_english_9_w23_s4_009",
+      "goalId": "grade9-english",
+      "question": "Passive of 'Is she baking a cake?' is:",
+      "options": ["Is a cake baked by her?", "Is a cake being baked by her?", "Was a cake baked by her?", "Has a cake been baked by her?"],
+      "correctIndex": 1,
+      "explanation": "Present continuous active (is + verb-ing). Passive: Is/Are + Object + being + past participle + by + subject? → Is a cake being baked by her?",
+      "difficulty": "hard",
+      "tags": ["passive-voice", "present-continuous", "questions"]
+    },
+    {
+      "id": "q_english_9_w23_s4_010",
+      "goalId": "grade9-english",
+      "question": "The antonym of 'benevolent' is:",
+      "options": ["Kind", "Generous", "Malevolent", "Honest"],
+      "correctIndex": 2,
+      "explanation": "'Benevolent' means well-meaning and kindly. Its antonym is 'malevolent' — having or showing a wish to do evil to others. (Bene = good, male = bad + volent = wishing).",
+      "difficulty": "hard",
+      "tags": ["vocabulary", "antonym", "word-meaning"]
+    },
+    {
+      "id": "q_english_9_w23_s4_011",
+      "goalId": "grade9-english",
+      "question": "A 'precis' of a passage should be:",
+      "options": ["Longer than the original with added details", "About one-third of the original length, in your own words", "An exact copy of the first paragraph", "A list of all the difficult words in the passage"],
+      "correctIndex": 1,
+      "explanation": "A précis is a concise summary of a passage in your own words, usually about one-third the length. It retains the essential ideas without unnecessary detail, examples, or repetition.",
+      "difficulty": "medium",
+      "tags": ["precis", "writing-skills", "comprehension"]
+    },
+    {
+      "id": "q_english_9_w23_s4_012",
+      "goalId": "grade9-english",
+      "question": "Passive of 'They were repairing the road.' is:",
+      "options": ["The road was repaired by them.", "The road is being repaired by them.", "The road was being repaired by them.", "The road has been repaired by them."],
+      "correctIndex": 2,
+      "explanation": "Past continuous active (was/were + verb-ing). Passive: was/were being + past participle. → The road was being repaired by them.",
+      "difficulty": "hard",
+      "tags": ["passive-voice", "past-continuous", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s4_013",
+      "goalId": "grade9-english",
+      "question": "Which sentence has correct subject-verb agreement?",
+      "options": ["The team are playing well.", "Neither of the boys are ready.", "Each of the students was given a prize.", "Mathematics are a difficult subject."],
+      "correctIndex": 2,
+      "explanation": "'Each' is singular and takes a singular verb: 'Each of the students was given a prize.' 'Mathematics' (subject ending in -s but singular) → takes 'is'. 'Neither' → singular verb 'is'.",
+      "difficulty": "hard",
+      "tags": ["subject-verb-agreement", "grammar", "sentence-correction"]
+    },
+    {
+      "id": "q_english_9_w23_s4_014",
+      "goalId": "grade9-english",
+      "question": "The story 'The Snake and the Mirror' is written by:",
+      "options": ["Ruskin Bond", "R K Narayan", "Vaikom Muhammad Basheer", "Mulk Raj Anand"],
+      "correctIndex": 2,
+      "explanation": "'The Snake and the Mirror' is written by Vaikom Muhammad Basheer, a celebrated Malayalam writer. The story is told as a flashback by a homeopathic doctor.",
+      "difficulty": "medium",
+      "tags": ["snake-and-mirror", "author", "beehive"]
+    },
+    {
+      "id": "q_english_9_w23_s4_015",
+      "goalId": "grade9-english",
+      "question": "What is a 'clause'?",
+      "options": ["A group of words without a verb", "A group of words that contains a subject and a verb", "Only the subject of a sentence", "A type of punctuation mark"],
+      "correctIndex": 1,
+      "explanation": "A clause is a group of words that contains a subject and a finite verb. An independent (main) clause can stand alone as a sentence; a dependent (subordinate) clause cannot.",
+      "difficulty": "easy",
+      "tags": ["clauses", "grammar", "sentence-structure"]
+    }
+  ]
+}

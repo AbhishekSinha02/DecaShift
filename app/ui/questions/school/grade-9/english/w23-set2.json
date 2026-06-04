@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-english",
+  "title": "Grade 9 English — The Happy Prince + Reported Speech (II)",
+  "description": "Moments Unit 5 'The Happy Prince' comprehension and advanced reported speech",
+  "category": "school",
+  "grade": 9,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_9_w23_s2_001",
+      "goalId": "grade9-english",
+      "question": "In 'The Happy Prince', what does the swallow carry to the poor seamstress's son first?",
+      "options": ["The ruby from the prince's sword hilt", "A sapphire from the prince's eye", "A gold leaf from the prince's body", "A diamond from the prince's crown"],
+      "correctIndex": 0,
+      "explanation": "The swallow first carries the ruby from the sword hilt of the Happy Prince to the seamstress's son who is burning with fever.",
+      "difficulty": "medium",
+      "tags": ["happy-prince", "comprehension", "moments"]
+    },
+    {
+      "id": "q_english_9_w23_s2_002",
+      "goalId": "grade9-english",
+      "question": "Why does the Happy Prince weep in 'The Happy Prince'?",
+      "options": ["He is lonely on his pedestal", "He can see the misery and suffering of the poor in his city", "The swallow has left him", "He cannot move his limbs"],
+      "correctIndex": 1,
+      "explanation": "The Happy Prince weeps because, although he lived a sheltered life, from his high pedestal he can now see all the ugliness and misery of the city.",
+      "difficulty": "easy",
+      "tags": ["happy-prince", "comprehension", "moments"]
+    },
+    {
+      "id": "q_english_9_w23_s2_003",
+      "goalId": "grade9-english",
+      "question": "In reported speech, 'She said, \"I am very tired.\"' becomes:",
+      "options": ["She said that she is very tired.", "She said that she was very tired.", "She says that she was very tired.", "She told that she is very tired."],
+      "correctIndex": 1,
+      "explanation": "In indirect speech with a past reporting verb ('said'), the present tense 'am' shifts to past 'was': She said that she was very tired.",
+      "difficulty": "easy",
+      "tags": ["reported-speech", "grammar", "tense-shift"]
+    },
+    {
+      "id": "q_english_9_w23_s2_004",
+      "goalId": "grade9-english",
+      "question": "In reported speech, 'He said, \"I will help you tomorrow.\"' becomes:",
+      "options": ["He said that he will help me the next day.", "He said that he would help me the next day.", "He said that he would help you tomorrow.", "He told that he will help me the next day."],
+      "correctIndex": 1,
+      "explanation": "'Will' changes to 'would' in indirect speech; 'you' changes to 'me' (speaker's perspective); 'tomorrow' changes to 'the next day'.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "grammar", "modal-shift"]
+    },
+    {
+      "id": "q_english_9_w23_s2_005",
+      "goalId": "grade9-english",
+      "question": "Which change does NOT happen when converting direct speech to indirect speech?",
+      "options": ["Tense of the verb shifts back", "Pronouns change according to meaning", "Quotation marks are removed", "The subject of the main clause changes"],
+      "correctIndex": 3,
+      "explanation": "The subject of the reporting clause (e.g., 'He said') does not change. Tense, pronouns, and time/place expressions change, and quotation marks are removed.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "grammar", "rules"]
+    },
+    {
+      "id": "q_english_9_w23_s2_006",
+      "goalId": "grade9-english",
+      "question": "The theme of 'The Happy Prince' is best described as:",
+      "options": ["The futility of wealth and beauty", "Selfless love and sacrifice for others", "The cruelty of city authorities", "The importance of friendship between birds and statues"],
+      "correctIndex": 1,
+      "explanation": "The central theme of 'The Happy Prince' is selfless love and sacrifice — the prince gives away all his gold and jewels to help the poor, and the swallow stays to help him even at the cost of its own life.",
+      "difficulty": "medium",
+      "tags": ["happy-prince", "theme", "moments"]
+    },
+    {
+      "id": "q_english_9_w23_s2_007",
+      "goalId": "grade9-english",
+      "question": "Convert to indirect speech: 'The teacher said, \"Open your books.\"'",
+      "options": ["The teacher said to open our books.", "The teacher told us to open our books.", "The teacher said that open our books.", "The teacher asked we open our books."],
+      "correctIndex": 1,
+      "explanation": "For imperative sentences in reported speech, use 'told + object + to + infinitive'. The teacher told us to open our books.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "imperatives", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s2_008",
+      "goalId": "grade9-english",
+      "question": "In 'The Snake and the Mirror', the doctor's vanity is shown by:",
+      "options": ["His expensive furniture and car", "His habit of admiring himself in the mirror", "His refusal to treat poor patients", "His dismissal of the homeopathic doctor"],
+      "correctIndex": 1,
+      "explanation": "The doctor constantly admires himself in the mirror, planning to grow a thin moustache and marry a rich doctor — his vanity is portrayed through his mirror-gazing habit.",
+      "difficulty": "easy",
+      "tags": ["snake-and-mirror", "character", "beehive"]
+    },
+    {
+      "id": "q_english_9_w23_s2_009",
+      "goalId": "grade9-english",
+      "question": "In reported speech, 'now' changes to:",
+      "options": ["then", "today", "at that time", "that moment"],
+      "correctIndex": 2,
+      "explanation": "Time adverbs change in reported speech: 'now' → 'at that time', 'today' → 'that day', 'yesterday' → 'the day before', 'tomorrow' → 'the next day'.",
+      "difficulty": "easy",
+      "tags": ["reported-speech", "time-adverbs", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s2_010",
+      "goalId": "grade9-english",
+      "question": "Convert to indirect speech: 'He asked, \"Are you coming to the party?\"'",
+      "options": ["He asked that was she coming to the party.", "He asked if she was coming to the party.", "He asked whether she is coming to the party.", "He asked her coming to the party."],
+      "correctIndex": 1,
+      "explanation": "Yes/no questions in reported speech use 'if' or 'whether'. The verb shifts back (are → was) and word order becomes normal (subject-verb): He asked if she was coming to the party.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "questions", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s2_011",
+      "goalId": "grade9-english",
+      "question": "What happens to the Happy Prince at the end of the story?",
+      "options": ["He is repaired and shines again", "His lead heart and the dead swallow are taken to paradise by God", "He is melted down and his statue rebuilt", "He is sold and the money given to the poor"],
+      "correctIndex": 1,
+      "explanation": "God asks an angel to bring the two most precious things in the city — the leaden heart of the prince and the dead swallow — and they are placed in paradise.",
+      "difficulty": "hard",
+      "tags": ["happy-prince", "ending", "moments"]
+    },
+    {
+      "id": "q_english_9_w23_s2_012",
+      "goalId": "grade9-english",
+      "question": "The word 'ephemeral' means:",
+      "options": ["Lasting forever", "Lasting for a very short time", "Related to the earth", "Connected to water"],
+      "correctIndex": 1,
+      "explanation": "'Ephemeral' means lasting for a very short time. It comes from Greek 'ephemeros' (for a day). Used in literature to describe things that are fleeting or temporary.",
+      "difficulty": "hard",
+      "tags": ["vocabulary", "word-meaning", "english"]
+    },
+    {
+      "id": "q_english_9_w23_s2_013",
+      "goalId": "grade9-english",
+      "question": "Convert: 'She said, \"I have finished my homework.\"' to indirect speech.",
+      "options": ["She said that she has finished her homework.", "She said that she had finished her homework.", "She told that she finished her homework.", "She said she will finish her homework."],
+      "correctIndex": 1,
+      "explanation": "Present perfect ('have finished') shifts to past perfect ('had finished') in indirect speech when the reporting verb is in past tense.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "present-perfect", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s2_014",
+      "goalId": "grade9-english",
+      "question": "In 'The Happy Prince', the Town Councillors decide to melt the statue because:",
+      "options": ["The prince gave away all his gold and gems and looked shabby", "The swallow had dirtied the statue", "A new king had come to power", "The statue was blocking the road"],
+      "correctIndex": 0,
+      "explanation": "After the Happy Prince gave away his gold leaf and jewels, the statue looked dull and shabby. The Town Councillors decided to pull it down and melt it.",
+      "difficulty": "medium",
+      "tags": ["happy-prince", "plot", "moments"]
+    },
+    {
+      "id": "q_english_9_w23_s2_015",
+      "goalId": "grade9-english",
+      "question": "Which figure of speech is used in: 'The wind was a torrent of darkness'?",
+      "options": ["Simile", "Metaphor", "Personification", "Alliteration"],
+      "correctIndex": 1,
+      "explanation": "A metaphor directly equates two unlike things without using 'like' or 'as'. 'The wind was a torrent of darkness' is a metaphor — the wind is described as a torrent of darkness.",
+      "difficulty": "hard",
+      "tags": ["figures-of-speech", "metaphor", "grammar"]
+    }
+  ]
+}

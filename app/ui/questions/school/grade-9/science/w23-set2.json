@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-science",
+  "title": "Grade 9 Science — Structure of the Atom",
+  "description": "Sub-atomic particles, atomic models, electronic configuration",
+  "category": "school",
+  "grade": 9,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_9_w23_s2_001",
+      "goalId": "grade9-science",
+      "question": "Who proposed the nuclear model of the atom (planetary model)?",
+      "options": ["J.J. Thomson", "Niels Bohr", "Ernest Rutherford", "John Dalton"],
+      "correctIndex": 2,
+      "explanation": "Ernest Rutherford proposed the nuclear model (1911) based on his gold foil experiment. He showed that atoms have a tiny, dense, positively charged nucleus surrounded by electrons.",
+      "difficulty": "easy",
+      "tags": ["atomic-model", "rutherford", "nucleus"]
+    },
+    {
+      "id": "q_science_9_w23_s2_002",
+      "goalId": "grade9-science",
+      "question": "In Rutherford's gold foil experiment, most alpha particles passed straight through because:",
+      "options": ["Gold atoms have no nucleus", "Atoms are mostly empty space; the nucleus is tiny", "Alpha particles are very small", "Gold is a very thin metal"],
+      "correctIndex": 1,
+      "explanation": "Most alpha particles passed through because atoms are mostly empty space. Only a few were deflected (hit the tiny nucleus). This showed the nucleus is very small but very dense and positively charged.",
+      "difficulty": "medium",
+      "tags": ["rutherford", "gold-foil", "atomic-structure"]
+    },
+    {
+      "id": "q_science_9_w23_s2_003",
+      "goalId": "grade9-science",
+      "question": "J.J. Thomson discovered the:",
+      "options": ["Proton", "Neutron", "Electron", "Nucleus"],
+      "correctIndex": 2,
+      "explanation": "J.J. Thomson discovered the electron (1897) using cathode ray tube experiments. He proposed the 'plum pudding model' — electrons embedded in a positive sphere.",
+      "difficulty": "easy",
+      "tags": ["thomson", "electron", "discovery"]
+    },
+    {
+      "id": "q_science_9_w23_s2_004",
+      "goalId": "grade9-science",
+      "question": "The atomic number of an element equals the number of:",
+      "options": ["Neutrons in the nucleus", "Protons in the nucleus (= electrons in a neutral atom)", "Protons + neutrons", "Electrons in the outermost shell"],
+      "correctIndex": 1,
+      "explanation": "Atomic number (Z) = number of protons = number of electrons (in a neutral atom). It uniquely identifies an element. Mass number (A) = protons + neutrons.",
+      "difficulty": "easy",
+      "tags": ["atomic-number", "protons", "definition"]
+    },
+    {
+      "id": "q_science_9_w23_s2_005",
+      "goalId": "grade9-science",
+      "question": "The mass number (A) of an atom is:",
+      "options": ["Number of electrons", "Number of protons only", "Number of protons + number of neutrons", "Number of neutrons only"],
+      "correctIndex": 2,
+      "explanation": "Mass number (A) = number of protons (Z) + number of neutrons (N). A = Z + N. E.g., Carbon-12: 6 protons + 6 neutrons = mass number 12.",
+      "difficulty": "easy",
+      "tags": ["mass-number", "definition", "atomic-structure"]
+    },
+    {
+      "id": "q_science_9_w23_s2_006",
+      "goalId": "grade9-science",
+      "question": "Isotopes are atoms of the same element that have:",
+      "options": ["Same number of protons and neutrons", "Same number of protons but different number of neutrons", "Different number of protons but same neutrons", "Same atomic mass but different atomic number"],
+      "correctIndex": 1,
+      "explanation": "Isotopes: same element (same atomic number Z = same protons), but different mass numbers (different number of neutrons). E.g., Carbon-12 (6n) and Carbon-14 (8n) — both have 6 protons.",
+      "difficulty": "medium",
+      "tags": ["isotopes", "definition", "atomic-structure"]
+    },
+    {
+      "id": "q_science_9_w23_s2_007",
+      "goalId": "grade9-science",
+      "question": "The maximum number of electrons in the first shell (K shell) is:",
+      "options": ["2", "8", "18", "32"],
+      "correctIndex": 0,
+      "explanation": "Maximum electrons in shells: K(n=1) = 2, L(n=2) = 8, M(n=3) = 18, N(n=4) = 32. Formula: 2n². For n=1: 2×1² = 2.",
+      "difficulty": "easy",
+      "tags": ["electron-shells", "K-shell", "electronic-configuration"]
+    },
+    {
+      "id": "q_science_9_w23_s2_008",
+      "goalId": "grade9-science",
+      "question": "What is the electronic configuration of sodium (atomic number 11)?",
+      "options": ["2, 8, 1", "2, 9", "3, 8", "2, 8, 3"],
+      "correctIndex": 0,
+      "explanation": "Sodium (Na) has 11 electrons. Fill shells: K=2, L=8, M=1. Configuration: 2, 8, 1. The 1 electron in the outermost shell explains sodium's high reactivity.",
+      "difficulty": "medium",
+      "tags": ["sodium", "electronic-configuration", "calculation"]
+    },
+    {
+      "id": "q_science_9_w23_s2_009",
+      "goalId": "grade9-science",
+      "question": "Valency of an element is defined as the:",
+      "options": ["Number of electrons in the atom", "Number of electrons in the outermost shell", "Combining capacity of an atom (number of electrons gained, lost, or shared)", "Number of protons"],
+      "correctIndex": 2,
+      "explanation": "Valency is the combining capacity of an atom — how many electrons it gains, loses, or shares to achieve a stable electronic configuration (like a noble gas). It determines how atoms bond.",
+      "difficulty": "medium",
+      "tags": ["valency", "definition", "chemical-bonding"]
+    },
+    {
+      "id": "q_science_9_w23_s2_010",
+      "goalId": "grade9-science",
+      "question": "Bohr's model of the atom proposed that electrons:",
+      "options": ["Are randomly distributed around the nucleus", "Move in specific fixed orbits (shells) without losing energy", "Are embedded in the nucleus", "Can exist between shells"],
+      "correctIndex": 1,
+      "explanation": "Bohr's model (1913): electrons revolve around the nucleus in specific fixed circular orbits (called shells or energy levels). In these orbits they don't emit radiation — a key improvement over Rutherford's model.",
+      "difficulty": "medium",
+      "tags": ["bohr-model", "atomic-structure", "shells"]
+    },
+    {
+      "id": "q_science_9_w23_s2_011",
+      "goalId": "grade9-science",
+      "question": "An atom of chlorine has atomic number 17. How many electrons are in its outermost shell?",
+      "options": ["1", "5", "7", "8"],
+      "correctIndex": 2,
+      "explanation": "Cl (17 electrons): K=2, L=8, M=7. Outermost shell (M) has 7 electrons. This is why chlorine needs 1 more electron to complete its octet — it is highly reactive and forms Cl⁻ ion.",
+      "difficulty": "medium",
+      "tags": ["chlorine", "electronic-configuration", "valence-electrons"]
+    },
+    {
+      "id": "q_science_9_w23_s2_012",
+      "goalId": "grade9-science",
+      "question": "Isobars are atoms that have:",
+      "options": ["Same atomic number but different mass numbers", "Same mass number but different atomic numbers (different elements)", "Same number of neutrons", "Same electron configuration"],
+      "correctIndex": 1,
+      "explanation": "Isobars: same mass number (A), different atomic numbers (Z). E.g., Ca (Z=20, A=40) and Ar (Z=18, A=40) — both have mass number 40 but are different elements.",
+      "difficulty": "hard",
+      "tags": ["isobars", "definition", "atomic-structure"]
+    },
+    {
+      "id": "q_science_9_w23_s2_013",
+      "goalId": "grade9-science",
+      "question": "Who discovered the neutron?",
+      "options": ["J.J. Thomson", "Ernest Rutherford", "James Chadwick", "Niels Bohr"],
+      "correctIndex": 2,
+      "explanation": "James Chadwick discovered the neutron in 1932. He bombarded beryllium with alpha particles and detected a neutral particle with mass similar to the proton.",
+      "difficulty": "easy",
+      "tags": ["neutron", "chadwick", "discovery"]
+    },
+    {
+      "id": "q_science_9_w23_s2_014",
+      "goalId": "grade9-science",
+      "question": "The charge and mass of an electron are approximately:",
+      "options": ["Charge = +1, Mass = 1 amu", "Charge = −1 (−1.6×10⁻¹⁹C), Mass ≈ negligible (1/1836 of proton)", "Charge = 0, Mass = 1 amu", "Charge = +1, Mass ≈ 0"],
+      "correctIndex": 1,
+      "explanation": "Electron: charge = −1 (−1.6×10⁻¹⁹ coulombs), mass = 9.1×10⁻³¹ kg ≈ 1/1836 of a proton mass (negligible). Proton: +1 charge, 1 amu. Neutron: 0 charge, 1 amu.",
+      "difficulty": "hard",
+      "tags": ["electron", "charge", "mass", "atomic-particles"]
+    },
+    {
+      "id": "q_science_9_w23_s2_015",
+      "goalId": "grade9-science",
+      "question": "The number of neutrons in Carbon-14 (atomic number 6) is:",
+      "options": ["6", "8", "14", "20"],
+      "correctIndex": 1,
+      "explanation": "Neutrons = Mass number − Atomic number = 14 − 6 = 8. Carbon-14 has 6 protons and 8 neutrons. It is a radioactive isotope used in carbon dating.",
+      "difficulty": "medium",
+      "tags": ["neutron-calculation", "isotopes", "carbon-14"]
+    }
+  ]
+}

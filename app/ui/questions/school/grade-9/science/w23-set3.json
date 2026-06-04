@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-science",
+  "title": "Grade 9 Science — The Fundamental Unit of Life (Cell)",
+  "description": "Cell structure, organelles, plant vs animal cells, cell division basics",
+  "category": "school",
+  "grade": 9,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_9_w23_s3_001",
+      "goalId": "grade9-science",
+      "question": "Who first observed and named cells?",
+      "options": ["Antonie van Leeuwenhoek", "Robert Hooke", "Robert Brown", "Schleiden"],
+      "correctIndex": 1,
+      "explanation": "Robert Hooke first observed and named cells in 1665 while examining thin cork slices under a primitive microscope. The word 'cell' comes from the Latin 'cellula' meaning small room.",
+      "difficulty": "easy",
+      "tags": ["cell", "hooke", "history-of-cell"]
+    },
+    {
+      "id": "q_science_9_w23_s3_002",
+      "goalId": "grade9-science",
+      "question": "Cell theory states that:",
+      "options": ["Only animals are made of cells", "All living organisms are composed of cells and cells arise from pre-existing cells", "Cells can be created from non-living matter", "Only complex organisms are made of cells"],
+      "correctIndex": 1,
+      "explanation": "Cell Theory (Schleiden, Schwann, Virchow): (1) All living things are made of cells; (2) Cell is the basic unit of life; (3) All cells arise from pre-existing cells (Omnis cellula e cellula).",
+      "difficulty": "easy",
+      "tags": ["cell-theory", "schleiden", "schwann"]
+    },
+    {
+      "id": "q_science_9_w23_s3_003",
+      "goalId": "grade9-science",
+      "question": "The control centre of the cell containing genetic information (DNA) is the:",
+      "options": ["Mitochondria", "Nucleus", "Cell membrane", "Ribosomes"],
+      "correctIndex": 1,
+      "explanation": "The nucleus is the control centre of the cell — it contains DNA (chromosomes), directs cell activities, and is bounded by a nuclear membrane with pores. It controls protein synthesis and cell division.",
+      "difficulty": "easy",
+      "tags": ["nucleus", "DNA", "cell-organelles"]
+    },
+    {
+      "id": "q_science_9_w23_s3_004",
+      "goalId": "grade9-science",
+      "question": "Which organelle is called the 'powerhouse of the cell'?",
+      "options": ["Nucleus", "Chloroplast", "Mitochondria", "Golgi apparatus"],
+      "correctIndex": 2,
+      "explanation": "Mitochondria are called the powerhouse of the cell because they generate most of the cell's supply of ATP (energy) through cellular respiration. They have their own DNA (semi-autonomous).",
+      "difficulty": "easy",
+      "tags": ["mitochondria", "ATP", "energy"]
+    },
+    {
+      "id": "q_science_9_w23_s3_005",
+      "goalId": "grade9-science",
+      "question": "Chloroplasts are found in:",
+      "options": ["All cells", "Only animal cells", "Plant cells and some algae cells", "Only bacteria"],
+      "correctIndex": 2,
+      "explanation": "Chloroplasts are found in plant cells and algae (not in animal cells). They contain chlorophyll and carry out photosynthesis, converting light energy into chemical energy (glucose).",
+      "difficulty": "easy",
+      "tags": ["chloroplasts", "photosynthesis", "plant-cells"]
+    },
+    {
+      "id": "q_science_9_w23_s3_006",
+      "goalId": "grade9-science",
+      "question": "The cell wall in plant cells is mainly made of:",
+      "options": ["Chitin", "Cellulose", "Protein", "Starch"],
+      "correctIndex": 1,
+      "explanation": "The plant cell wall is primarily composed of cellulose — a complex carbohydrate. It provides rigidity and structural support. Fungal cell walls are made of chitin; bacterial cell walls of peptidoglycan.",
+      "difficulty": "medium",
+      "tags": ["cell-wall", "cellulose", "plant-cells"]
+    },
+    {
+      "id": "q_science_9_w23_s3_007",
+      "goalId": "grade9-science",
+      "question": "Which of the following is present in plant cells but NOT in animal cells?",
+      "options": ["Mitochondria", "Cell membrane", "Cell wall and large central vacuole", "Ribosomes"],
+      "correctIndex": 2,
+      "explanation": "Plant cells have: cell wall (cellulose), chloroplasts, and a large central vacuole. Animal cells lack all three. Both have: cell membrane, mitochondria, nucleus, ribosomes, etc.",
+      "difficulty": "medium",
+      "tags": ["plant-vs-animal-cells", "differences", "cell-structure"]
+    },
+    {
+      "id": "q_science_9_w23_s3_008",
+      "goalId": "grade9-science",
+      "question": "The Golgi apparatus is responsible for:",
+      "options": ["Energy production", "Protein synthesis on ribosomes", "Packaging and transporting proteins and lipids to their destinations", "Digesting cellular waste"],
+      "correctIndex": 2,
+      "explanation": "The Golgi apparatus (Golgi body) processes, packages, and dispatches proteins and lipids received from the endoplasmic reticulum to their destinations (secretion, cell membrane, lysosomes).",
+      "difficulty": "medium",
+      "tags": ["golgi-apparatus", "protein-packaging", "organelles"]
+    },
+    {
+      "id": "q_science_9_w23_s3_009",
+      "goalId": "grade9-science",
+      "question": "Lysosomes are often called 'suicide bags' because they:",
+      "options": ["Produce energy for the cell", "Contain digestive enzymes that can break down the cell itself if ruptured", "Break down DNA in old cells", "Synthesise proteins for the cell"],
+      "correctIndex": 1,
+      "explanation": "Lysosomes contain hydrolytic enzymes that digest cellular waste, foreign material, and worn-out organelles. If they rupture (e.g., in disease), these enzymes digest the cell itself — hence 'suicide bags'.",
+      "difficulty": "medium",
+      "tags": ["lysosomes", "suicide-bags", "enzymes"]
+    },
+    {
+      "id": "q_science_9_w23_s3_010",
+      "goalId": "grade9-science",
+      "question": "The fluid inside the cell surrounding all organelles is called:",
+      "options": ["Cell sap", "Cytoplasm", "Nucleoplasm", "Plasma"],
+      "correctIndex": 1,
+      "explanation": "Cytoplasm is the jelly-like fluid filling the cell (between the cell membrane and nucleus). It contains organelles, salts, enzymes, and organic molecules. Nucleoplasm is the fluid inside the nucleus.",
+      "difficulty": "easy",
+      "tags": ["cytoplasm", "cell-structure", "terminology"]
+    },
+    {
+      "id": "q_science_9_w23_s3_011",
+      "goalId": "grade9-science",
+      "question": "Osmosis is defined as the movement of water molecules through a semi-permeable membrane:",
+      "options": ["From a region of low concentration to high concentration", "From a region of higher water concentration (lower solute) to lower water concentration (higher solute)", "Always from inside the cell to outside", "Against a concentration gradient using energy"],
+      "correctIndex": 1,
+      "explanation": "Osmosis: movement of water (solvent) molecules through a semi-permeable membrane from a region of higher water (lower solute) concentration to lower water (higher solute) concentration. It is passive (no energy).",
+      "difficulty": "medium",
+      "tags": ["osmosis", "semi-permeable", "water-movement"]
+    },
+    {
+      "id": "q_science_9_w23_s3_012",
+      "goalId": "grade9-science",
+      "question": "When a cell is placed in a hypertonic solution, it will:",
+      "options": ["Swell and burst (lyse)", "Shrink due to water loss (plasmolysis)", "Remain unchanged", "Divide rapidly"],
+      "correctIndex": 1,
+      "explanation": "Hypertonic solution has higher solute (lower water) concentration than the cell. Water moves OUT of the cell by osmosis → cell shrinks. In plant cells this is called plasmolysis; in RBCs, crenation.",
+      "difficulty": "hard",
+      "tags": ["osmosis", "hypertonic", "plasmolysis"]
+    },
+    {
+      "id": "q_science_9_w23_s3_013",
+      "goalId": "grade9-science",
+      "question": "Prokaryotic cells differ from eukaryotic cells in that prokaryotic cells:",
+      "options": ["Have no DNA", "Have no cell membrane", "Have no membrane-bound nucleus or organelles", "Are larger"],
+      "correctIndex": 2,
+      "explanation": "Prokaryotes (bacteria, archaea) lack a membrane-bound nucleus — their DNA is in a region called the nucleoid. They also lack membrane-bound organelles (no mitochondria, ER, Golgi). Eukaryotes have all these.",
+      "difficulty": "hard",
+      "tags": ["prokaryote", "eukaryote", "differences"]
+    },
+    {
+      "id": "q_science_9_w23_s3_014",
+      "goalId": "grade9-science",
+      "question": "Ribosomes are the site of:",
+      "options": ["Energy production", "Protein synthesis", "DNA replication", "Lipid storage"],
+      "correctIndex": 1,
+      "explanation": "Ribosomes are the site of protein synthesis — they translate mRNA into protein. They are found on the rough endoplasmic reticulum (attached) or free in the cytoplasm. Present in all cells.",
+      "difficulty": "easy",
+      "tags": ["ribosomes", "protein-synthesis", "organelles"]
+    },
+    {
+      "id": "q_science_9_w23_s3_015",
+      "goalId": "grade9-science",
+      "question": "The process by which white blood cells engulf bacteria is called:",
+      "options": ["Osmosis", "Diffusion", "Phagocytosis", "Pinocytosis"],
+      "correctIndex": 2,
+      "explanation": "Phagocytosis ('cell eating') is a process where cells engulf large particles (bacteria, dead cells) by surrounding them with the cell membrane. White blood cells (neutrophils, macrophages) use this for immunity.",
+      "difficulty": "medium",
+      "tags": ["phagocytosis", "white-blood-cells", "immunity"]
+    }
+  ]
+}

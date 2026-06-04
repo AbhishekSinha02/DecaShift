@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-social-science",
+  "title": "Grade 9 Social Science — Nazi Ideology, Propaganda & Holocaust",
+  "description": "Deeper study of Nazism — ideology, propaganda machinery, and the Holocaust",
+  "category": "school",
+  "grade": 9,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_ss_9_w23_s2_001",
+      "goalId": "grade9-social-science",
+      "question": "The term 'Lebensraum' used by Hitler refers to:",
+      "options": ["The living space or territory needed for the German master race to expand eastward", "The economic policy of Germany after WWI", "The Nazi secret police organisation", "The Jewish ghetto in Warsaw"],
+      "correctIndex": 0,
+      "explanation": "Lebensraum (German for 'living space') was Hitler's ideology that Germany needed to expand east into Slavic lands to provide territory for the 'superior' Germanic race. It justified aggression against Poland and USSR.",
+      "difficulty": "medium",
+      "tags": ["nazism", "lebensraum", "ideology"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_002",
+      "goalId": "grade9-social-science",
+      "question": "Joseph Goebbels was the head of Nazi:",
+      "options": ["Secret police (Gestapo)", "Ministry of Public Enlightenment and Propaganda", "Army High Command", "Economic Planning Ministry"],
+      "correctIndex": 1,
+      "explanation": "Joseph Goebbels headed the Ministry of Public Enlightenment and Propaganda. He controlled all media — newspapers, radio, film, art — to spread Nazi ideology and Hitler's cult of personality.",
+      "difficulty": "medium",
+      "tags": ["nazism", "propaganda", "goebbels"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_003",
+      "goalId": "grade9-social-science",
+      "question": "The Nuremberg Laws (1935) stripped German Jews of:",
+      "options": ["The right to own property", "German citizenship and the right to marry non-Jews", "The right to education", "The right to travel abroad"],
+      "correctIndex": 1,
+      "explanation": "The Nuremberg Laws (Reich Citizenship Law and Law for the Protection of German Blood and Honour) stripped Jews of German citizenship and prohibited marriage/sexual relations between Jews and non-Jewish Germans.",
+      "difficulty": "medium",
+      "tags": ["nuremberg-laws", "antisemitism", "nazism"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_004",
+      "goalId": "grade9-social-science",
+      "question": "Kristallnacht (Night of Broken Glass) occurred in:",
+      "options": ["1933", "1935", "1938", "1942"],
+      "correctIndex": 2,
+      "explanation": "Kristallnacht (November 9-10, 1938) was a pogrom against Jews in Germany and Austria — Jewish businesses, synagogues, and homes were destroyed; thousands of Jews were arrested.",
+      "difficulty": "hard",
+      "tags": ["kristallnacht", "antisemitism", "holocaust"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_005",
+      "goalId": "grade9-social-science",
+      "question": "The 'Final Solution' (Endlösung) referred to:",
+      "options": ["The Nazi plan to end the economic crisis", "The systematic genocide of Jews — mass murder in death camps", "The peace treaty with the Allied powers", "The Nazi plan to conquer all of Europe"],
+      "correctIndex": 1,
+      "explanation": "The 'Final Solution to the Jewish Question' was the Nazi plan for the genocide of Jews. It involved mass shootings, ghettos, and ultimately death camps like Auschwitz-Birkenau.",
+      "difficulty": "medium",
+      "tags": ["holocaust", "final-solution", "genocide"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_006",
+      "goalId": "grade9-social-science",
+      "question": "The Hitler Youth (Hitlerjugend) was designed to:",
+      "options": ["Provide vocational training for unemployed youth", "Indoctrinate young Germans with Nazi ideology and prepare boys for military service", "Organise recreational sports and cultural activities", "Provide free education to poor German families"],
+      "correctIndex": 1,
+      "explanation": "The Hitler Youth was a paramilitary organisation for boys (10-18) designed to indoctrinate the next generation with Nazi ideology — loyalty to Hitler, racial purity, and military preparedness.",
+      "difficulty": "medium",
+      "tags": ["nazism", "hitler-youth", "indoctrination"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_007",
+      "goalId": "grade9-social-science",
+      "question": "The Gestapo was the:",
+      "options": ["Regular German army", "Nazi secret state police that used terror to silence opposition", "German parliament under Hitler", "Organisation managing Nazi propaganda"],
+      "correctIndex": 1,
+      "explanation": "The Gestapo (Geheime Staatspolizei) was the official secret police of Nazi Germany. It used surveillance, torture, and imprisonment to silence political opponents and enforce Nazi terror.",
+      "difficulty": "easy",
+      "tags": ["gestapo", "nazism", "terror"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_008",
+      "goalId": "grade9-social-science",
+      "question": "Why did the Nazi regime burn books?",
+      "options": ["To create heat during the cold winter of 1933", "To destroy works by Jewish, communist, and other 'un-German' authors and control thought", "Books were too expensive for libraries", "To recycle paper for the war effort"],
+      "correctIndex": 1,
+      "explanation": "In May 1933, Nazi students burned books by Jewish, Marxist, pacifist, and other 'un-German' authors. It was a symbolic act of cultural control — destroying ideas the regime found threatening.",
+      "difficulty": "medium",
+      "tags": ["nazism", "book-burning", "censorship"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_009",
+      "goalId": "grade9-social-science",
+      "question": "Approximately how many Jews were killed in the Holocaust?",
+      "options": ["1 million", "3 million", "6 million", "10 million"],
+      "correctIndex": 2,
+      "explanation": "Approximately 6 million Jews (about two-thirds of European Jews) were murdered in the Holocaust. In total, the Nazis killed 11-17 million people including Roma, disabled persons, political opponents, and others.",
+      "difficulty": "easy",
+      "tags": ["holocaust", "genocide", "statistics"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_010",
+      "goalId": "grade9-social-science",
+      "question": "Which country was invaded first by Nazi Germany, starting World War II?",
+      "options": ["France", "Russia", "Poland", "Czechoslovakia"],
+      "correctIndex": 2,
+      "explanation": "Germany invaded Poland on September 1, 1939, triggering World War II. Britain and France declared war on Germany on September 3, 1939 in response.",
+      "difficulty": "easy",
+      "tags": ["wwii", "poland", "invasion"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_011",
+      "goalId": "grade9-social-science",
+      "question": "The concept of 'Aryan racial superiority' in Nazi ideology was:",
+      "options": ["A scientific fact proven by European biologists", "A pseudo-scientific myth used to justify discrimination and genocide", "An ancient Germanic religious belief", "A temporary political strategy that Hitler himself did not believe"],
+      "correctIndex": 1,
+      "explanation": "Nazi racial theory was pseudo-science — there is no master race. Modern genetics confirms all humans are 99.9% identical. The 'Aryan' myth was invented to justify discrimination, conquest, and genocide.",
+      "difficulty": "hard",
+      "tags": ["racism", "aryan-myth", "ideology"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_012",
+      "goalId": "grade9-social-science",
+      "question": "The Nuremberg Trials (1945-46) were:",
+      "options": ["Trials of German war criminals by Allied tribunals after WWII", "The trials held by Hitler against political opponents", "International sports competitions organised post-war", "The trials of Allied soldiers accused of war crimes"],
+      "correctIndex": 0,
+      "explanation": "The Nuremberg Trials were military tribunals held by Allied forces to prosecute major Nazi war criminals for crimes against peace, war crimes, and crimes against humanity. They established important precedents for international law.",
+      "difficulty": "medium",
+      "tags": ["nuremberg-trials", "war-crimes", "wwii"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_013",
+      "goalId": "grade9-social-science",
+      "question": "What was the Enabling Act (1933)?",
+      "options": ["An act giving workers more rights in Germany", "Legislation that gave Hitler dictatorial powers, allowing him to make laws without the Reichstag", "An act enabling free elections in Germany", "Legislation to rebuild Germany's military"],
+      "correctIndex": 1,
+      "explanation": "The Enabling Act (March 1933) gave Hitler the power to enact laws without the Reichstag (parliament) for 4 years. It effectively ended German democracy and established Hitler's dictatorship.",
+      "difficulty": "hard",
+      "tags": ["enabling-act", "dictatorship", "nazism"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_014",
+      "goalId": "grade9-social-science",
+      "question": "SS (Schutzstaffel) in Nazi Germany was:",
+      "options": ["The regular German infantry", "Hitler's elite paramilitary force responsible for running concentration camps", "The German navy", "The organisation managing economic affairs"],
+      "correctIndex": 1,
+      "explanation": "The SS was Hitler's personal paramilitary corps, commanded by Heinrich Himmler. It ran the concentration camps, carried out mass killings, and enforced racial policies.",
+      "difficulty": "medium",
+      "tags": ["ss", "concentration-camps", "nazism"]
+    },
+    {
+      "id": "q_ss_9_w23_s2_015",
+      "goalId": "grade9-social-science",
+      "question": "The Weimar Republic faced which major economic crisis before Hitler's rise?",
+      "options": ["The Great Depression (1929) with massive unemployment and hyperinflation", "The Oil Crisis of 1928", "The Russian Revolution's economic spillover", "Drought and famine in 1930"],
+      "correctIndex": 0,
+      "explanation": "The Great Depression (after 1929 US stock market crash) caused Germany's unemployment to reach 6 million by 1932. Combined with earlier hyperinflation, economic despair made people desperate — creating conditions for Hitler's rise.",
+      "difficulty": "medium",
+      "tags": ["great-depression", "weimar-republic", "economic-crisis"]
+    }
+  ]
+}

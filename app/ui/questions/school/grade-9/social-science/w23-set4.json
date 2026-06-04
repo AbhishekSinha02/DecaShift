@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-social-science",
+  "title": "Grade 9 Social Science — Drainage: Rivers of India",
+  "description": "River systems, Himalayan vs Peninsular rivers, dams, and water bodies",
+  "category": "school",
+  "grade": 9,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_ss_9_w23_s4_001",
+      "goalId": "grade9-social-science",
+      "question": "A drainage basin (river basin) is the area drained by:",
+      "options": ["Multiple unconnected rivers", "A river and all its tributaries", "Only the main river channel", "All rivers flowing into an ocean"],
+      "correctIndex": 1,
+      "explanation": "A drainage basin or catchment area is the total land area drained by a river system — the main river AND all its tributaries. It is separated from other basins by watersheds (divides).",
+      "difficulty": "easy",
+      "tags": ["drainage-basin", "river-system", "geography"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_002",
+      "goalId": "grade9-social-science",
+      "question": "Himalayan rivers are perennial (flow throughout the year) because they are fed by:",
+      "options": ["Heavy monsoon rainfall only", "Glaciers and snowmelt as well as monsoon rainfall", "Underground springs", "Annual floods"],
+      "correctIndex": 1,
+      "explanation": "Himalayan rivers (Ganga, Indus, Brahmaputra) are perennial — they get water from melting glaciers and snow in summer AND monsoon rainfall. Peninsular rivers depend mainly on rainfall and may run dry.",
+      "difficulty": "medium",
+      "tags": ["himalayan-rivers", "perennial", "glaciers"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_003",
+      "goalId": "grade9-social-science",
+      "question": "The Ganga river originates from:",
+      "options": ["Yamunotri glacier", "Gangotri glacier (Gomukh)", "Mansarovar lake in Tibet", "Kedarnath peak"],
+      "correctIndex": 1,
+      "explanation": "The Ganga originates as the Bhagirathi from Gangotri glacier (at Gomukh, Uttarakhand). It meets the Alaknanda at Devprayag to become the Ganga.",
+      "difficulty": "easy",
+      "tags": ["ganga", "origin", "gangotri"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_004",
+      "goalId": "grade9-social-science",
+      "question": "Which rivers join the Ganga from the south (left bank tributaries from Peninsular India)?",
+      "options": ["Yamuna, Ghaghra, Gandak", "Chambal, Son, Damodar", "Satluj, Ravi, Beas", "Narmada, Tapti, Mahanadi"],
+      "correctIndex": 1,
+      "explanation": "South bank (right bank looking downstream) tributaries of the Ganga from Peninsular India include Chambal, Son, and Damodar. Yamuna, Ghaghra, Gandak are north bank (Himalayan) tributaries.",
+      "difficulty": "hard",
+      "tags": ["ganga-tributaries", "peninsular-rivers", "tributaries"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_005",
+      "goalId": "grade9-social-science",
+      "question": "The Indus river originates in:",
+      "options": ["India (Ladakh)", "Pakistan", "Tibet (near Lake Mansarovar)", "Afghanistan"],
+      "correctIndex": 2,
+      "explanation": "The Indus originates in Tibet (China) near Lake Mansarovar. It enters India through Ladakh, flows through Jammu & Kashmir, and then into Pakistan, where it meets the Arabian Sea.",
+      "difficulty": "medium",
+      "tags": ["indus", "origin", "tibet"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_006",
+      "goalId": "grade9-social-science",
+      "question": "Which of the following is a Peninsular river flowing westward into the Arabian Sea?",
+      "options": ["Mahanadi", "Krishna", "Narmada", "Godavari"],
+      "correctIndex": 2,
+      "explanation": "Narmada (and Tapti) are the main Peninsular rivers flowing WEST into the Arabian Sea — they flow through rift valleys. Most Peninsular rivers (Godavari, Krishna, Mahanadi, Cauvery) flow east into the Bay of Bengal.",
+      "difficulty": "medium",
+      "tags": ["narmada", "westward-rivers", "peninsular-rivers"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_007",
+      "goalId": "grade9-social-science",
+      "question": "The Sundarbans delta is formed by:",
+      "options": ["The Indus river system", "The Ganga-Brahmaputra river systems combined", "The Godavari river", "The Mahanadi river"],
+      "correctIndex": 1,
+      "explanation": "The Sundarbans is the world's largest mangrove forest, formed by the combined delta of the Ganga and Brahmaputra rivers at the Bay of Bengal. It spans India (West Bengal) and Bangladesh.",
+      "difficulty": "medium",
+      "tags": ["sundarbans", "delta", "ganga-brahmaputra"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_008",
+      "goalId": "grade9-social-science",
+      "question": "Which dam is built on the Bhakra-Nangal project (Satluj river)?",
+      "options": ["Hirakud Dam", "Bhakra Dam", "Nagarjuna Sagar", "Tehri Dam"],
+      "correctIndex": 1,
+      "explanation": "Bhakra Dam on the Satluj river (Himachal Pradesh) is one of India's largest dams and part of the Bhakra-Nangal multipurpose project. It provides irrigation and hydropower to Punjab, Haryana, and Rajasthan.",
+      "difficulty": "medium",
+      "tags": ["bhakra-dam", "satluj", "dams-india"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_009",
+      "goalId": "grade9-social-science",
+      "question": "A 'meander' in a river is:",
+      "options": ["A straight rapid section of a river", "A loop-like bend formed when a river curves in flat terrain", "The point where a river meets the sea", "A waterfall in a river"],
+      "correctIndex": 1,
+      "explanation": "A meander is a winding curve or loop in the course of a river, typically formed on flat floodplains. When a meander is cut off from the river, it forms an oxbow lake.",
+      "difficulty": "easy",
+      "tags": ["meander", "river-features", "floodplain"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_010",
+      "goalId": "grade9-social-science",
+      "question": "The concept of 'interlinking of rivers' in India aims to:",
+      "options": ["Create an internal waterway transport system only", "Transfer water from surplus river basins to deficit basins to address regional water imbalances", "Prevent floods by diverting river water to the sea faster", "Generate electricity by connecting rivers to turbines"],
+      "correctIndex": 1,
+      "explanation": "India's National River Linking Project proposes connecting surplus rivers (Himalayan and Peninsular) to water-deficit regions through canals. It aims to solve droughts and floods, though it is controversial.",
+      "difficulty": "hard",
+      "tags": ["river-linking", "water-management", "india"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_011",
+      "goalId": "grade9-social-science",
+      "question": "A 'watershed' in geography refers to:",
+      "options": ["A large water storage facility", "The ridge or elevated land that separates two drainage basins", "The mouth where a river meets the sea", "The area flooded by a river"],
+      "correctIndex": 1,
+      "explanation": "A watershed (or water divide) is a ridge or elevated area that separates one river drainage basin from another. Rain falling on one side drains into one river system; rain on the other side drains into a different system.",
+      "difficulty": "medium",
+      "tags": ["watershed", "drainage-divide", "geography"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_012",
+      "goalId": "grade9-social-science",
+      "question": "The Godavari river originates in:",
+      "options": ["Tamil Nadu", "Nasik, Maharashtra (Trimbakeshwar)", "Madhya Pradesh", "Karnataka"],
+      "correctIndex": 1,
+      "explanation": "The Godavari ('Vridha Ganga' or 'Dakshin Ganga') originates in Trimbakeshwar near Nasik, Maharashtra. It flows eastward and drains into the Bay of Bengal in Andhra Pradesh.",
+      "difficulty": "medium",
+      "tags": ["godavari", "origin", "peninsular-rivers"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_013",
+      "goalId": "grade9-social-science",
+      "question": "Chilika Lake in Odisha is a:",
+      "options": ["Freshwater lake formed by a dam", "Saltwater coastal lagoon — India's largest brackish water lagoon", "Oxbow lake formed by the Mahanadi", "Volcanic crater lake"],
+      "correctIndex": 1,
+      "explanation": "Chilika Lake (Odisha) is India's largest coastal lagoon and Asia's largest brackish water lagoon. It is a Ramsar wetland and crucial habitat for migratory birds and the endangered Irrawaddy dolphin.",
+      "difficulty": "hard",
+      "tags": ["chilika-lake", "lagoon", "odisha"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_014",
+      "goalId": "grade9-social-science",
+      "question": "An oxbow lake is formed when:",
+      "options": ["A river dam is constructed", "A river meander is cut off from the main river", "A glacier melts to form a lake", "A river delta is created"],
+      "correctIndex": 1,
+      "explanation": "An oxbow lake forms when a river meander gets cut off from the main river channel (due to flooding or erosion). The isolated bend fills with water to form a crescent-shaped lake.",
+      "difficulty": "medium",
+      "tags": ["oxbow-lake", "meander", "river-features"]
+    },
+    {
+      "id": "q_ss_9_w23_s4_015",
+      "goalId": "grade9-social-science",
+      "question": "The Kaveri (Cauvery) river is a source of dispute between which states?",
+      "options": ["Maharashtra and Gujarat", "Karnataka and Tamil Nadu (and Kerala, Puducherry)", "Andhra Pradesh and Telangana", "Odisha and Chhattisgarh"],
+      "correctIndex": 1,
+      "explanation": "The Cauvery water dispute is a long-standing conflict between Karnataka and Tamil Nadu (+ Kerala and Puducherry) over sharing river water for irrigation and drinking. A tribunal and later the Supreme Court have addressed it.",
+      "difficulty": "medium",
+      "tags": ["kaveri-dispute", "water-sharing", "interstate"]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-english",
+  "title": "Grade 9 English — Mixed Review: Grammar, Literature & Vocabulary",
+  "description": "Week 23 mixed review covering all topics — literature, grammar, vocabulary",
+  "category": "school",
+  "grade": 9,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_9_w23_s5_001",
+      "goalId": "grade9-english",
+      "question": "Which chapter of Beehive is 'The Snake and the Mirror' from?",
+      "options": ["Chapter 4", "Chapter 5", "Chapter 6", "Chapter 7"],
+      "correctIndex": 1,
+      "explanation": "'The Snake and the Mirror' is Chapter 5 of Beehive (Class 9 English prose textbook). It is a humorous story about a doctor's encounter with a snake.",
+      "difficulty": "easy",
+      "tags": ["snake-and-mirror", "textbook", "beehive"]
+    },
+    {
+      "id": "q_english_9_w23_s5_002",
+      "goalId": "grade9-english",
+      "question": "Choose the correctly punctuated sentence:",
+      "options": ["its a beautiful day, isn't it", "It's a beautiful day, isn't it?", "Its' a beautiful day isn't it?", "It's a beautiful day isnt it?"],
+      "correctIndex": 1,
+      "explanation": "'It's' (contraction of 'it is') needs an apostrophe. The question tag needs a comma before it and a question mark at the end: It's a beautiful day, isn't it?",
+      "difficulty": "medium",
+      "tags": ["punctuation", "grammar", "apostrophe"]
+    },
+    {
+      "id": "q_english_9_w23_s5_003",
+      "goalId": "grade9-english",
+      "question": "The snake in 'The Snake and the Mirror' is described as coiling around the doctor's:",
+      "options": ["Leg", "Neck", "Arm", "Waist"],
+      "correctIndex": 2,
+      "explanation": "The snake slides down onto the doctor's arm and coils around it. The doctor is too frightened to move and sits still, which is why he is described as looking at his own reflection — frozen in terror.",
+      "difficulty": "medium",
+      "tags": ["snake-and-mirror", "plot", "beehive"]
+    },
+    {
+      "id": "q_english_9_w23_s5_004",
+      "goalId": "grade9-english",
+      "question": "Complete the sentence with the correct form: 'If I _____ rich, I would travel the world.'",
+      "options": ["am", "was", "were", "would be"],
+      "correctIndex": 2,
+      "explanation": "In unreal/hypothetical conditional sentences (Type 2), we use 'were' for all persons (I/he/she/it/they/we): If I were rich... It expresses an imagined/unreal situation.",
+      "difficulty": "medium",
+      "tags": ["conditionals", "grammar", "were-usage"]
+    },
+    {
+      "id": "q_english_9_w23_s5_005",
+      "goalId": "grade9-english",
+      "question": "Identify the type of sentence: 'What a beautiful sunset!'",
+      "options": ["Declarative (statement)", "Interrogative (question)", "Imperative (command)", "Exclamatory (exclamation)"],
+      "correctIndex": 3,
+      "explanation": "An exclamatory sentence expresses strong emotion and ends with an exclamation mark. It begins with 'What' or 'How': 'What a beautiful sunset!' expresses admiration.",
+      "difficulty": "easy",
+      "tags": ["types-of-sentences", "grammar", "exclamatory"]
+    },
+    {
+      "id": "q_english_9_w23_s5_006",
+      "goalId": "grade9-english",
+      "question": "The synonym of 'diligent' is:",
+      "options": ["Lazy", "Careless", "Hardworking", "Dishonest"],
+      "correctIndex": 2,
+      "explanation": "'Diligent' means having or showing care and conscientiousness in one's work. Its synonym is 'hardworking'. Antonym: lazy, indolent.",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "synonym", "word-meaning"]
+    },
+    {
+      "id": "q_english_9_w23_s5_007",
+      "goalId": "grade9-english",
+      "question": "In 'The Road Not Taken', how many stanzas does the poem have?",
+      "options": ["2", "3", "4", "5"],
+      "correctIndex": 2,
+      "explanation": "'The Road Not Taken' has 4 stanzas, each with 5 lines. Total: 20 lines. The ABAAB rhyme scheme is consistent throughout all four stanzas.",
+      "difficulty": "medium",
+      "tags": ["road-not-taken", "structure", "poetry"]
+    },
+    {
+      "id": "q_english_9_w23_s5_008",
+      "goalId": "grade9-english",
+      "question": "Change to active voice: 'The letter was written by Priya.'",
+      "options": ["Priya has written the letter.", "Priya wrote the letter.", "Priya writes the letter.", "Priya will write the letter."],
+      "correctIndex": 1,
+      "explanation": "'Was written' = simple past passive. Active simple past: Subject + past verb + object. → Priya wrote the letter. (Agent 'by Priya' becomes subject.)",
+      "difficulty": "medium",
+      "tags": ["passive-to-active", "grammar", "transformation"]
+    },
+    {
+      "id": "q_english_9_w23_s5_009",
+      "goalId": "grade9-english",
+      "question": "Which connective shows contrast?",
+      "options": ["furthermore", "therefore", "however", "consequently"],
+      "correctIndex": 2,
+      "explanation": "'However' is a contrast connective (it introduces a contrasting idea). 'Furthermore' = addition; 'therefore' and 'consequently' = result/conclusion.",
+      "difficulty": "easy",
+      "tags": ["connectives", "grammar", "cohesion"]
+    },
+    {
+      "id": "q_english_9_w23_s5_010",
+      "goalId": "grade9-english",
+      "question": "Convert to reported speech: 'She asked, \"Where do you live?\"'",
+      "options": ["She asked where did I live.", "She asked where I lived.", "She asked that where I live.", "She asked me where do you live."],
+      "correctIndex": 1,
+      "explanation": "Wh-questions in reported speech: use wh-word + normal word order (no inversion) + tense shift. 'where do you live' → 'where I lived'. She asked where I lived.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "wh-questions", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s5_011",
+      "goalId": "grade9-english",
+      "question": "Which of the following is a compound sentence?",
+      "options": ["Because it was raining, we stayed inside.", "She sang beautifully.", "He studied hard, and he passed the exam.", "The tall boy who sits in the front row is my friend."],
+      "correctIndex": 2,
+      "explanation": "A compound sentence has two or more independent clauses joined by a coordinating conjunction (FANBOYS: for, and, nor, but, or, yet, so). 'He studied hard, and he passed the exam' = compound.",
+      "difficulty": "hard",
+      "tags": ["compound-sentence", "grammar", "sentence-types"]
+    },
+    {
+      "id": "q_english_9_w23_s5_012",
+      "goalId": "grade9-english",
+      "question": "What is the narrative perspective (point of view) in 'The Snake and the Mirror'?",
+      "options": ["Third person omniscient", "Second person", "First person (narrator recalls his own experience)", "Third person limited"],
+      "correctIndex": 2,
+      "explanation": "The story is narrated in first person — the doctor himself tells the story as a flashback at a gathering of friends. First-person narration uses 'I', creating immediacy and humour.",
+      "difficulty": "hard",
+      "tags": ["snake-and-mirror", "narrative-perspective", "beehive"]
+    },
+    {
+      "id": "q_english_9_w23_s5_013",
+      "goalId": "grade9-english",
+      "question": "The word 'melancholy' means:",
+      "options": ["Extremely happy", "A deep pensive sadness with no obvious cause", "Angry and frustrated", "Tired and sleepy"],
+      "correctIndex": 1,
+      "explanation": "'Melancholy' means a feeling of pensive sadness, typically with no obvious cause. It can be a noun or adjective. Related: melancholic (adjective).",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "word-meaning", "english"]
+    },
+    {
+      "id": "q_english_9_w23_s5_014",
+      "goalId": "grade9-english",
+      "question": "Fill in the blank: 'Neither the captain nor the players _____ happy with the result.'",
+      "options": ["was", "were", "is", "has been"],
+      "correctIndex": 1,
+      "explanation": "When using 'neither...nor', the verb agrees with the subject closer to it (the nearer subject rule). 'Players' (plural) is the closer subject → use 'were'.",
+      "difficulty": "hard",
+      "tags": ["subject-verb-agreement", "neither-nor", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s5_015",
+      "goalId": "grade9-english",
+      "question": "What is the main literary device used in 'The Road Not Taken'?",
+      "options": ["Personification of roads", "Extended metaphor (roads as life choices)", "Dramatic monologue", "Stream of consciousness"],
+      "correctIndex": 1,
+      "explanation": "The central literary device is an extended metaphor: the diverging roads represent life choices. The entire poem develops this single metaphor across all four stanzas.",
+      "difficulty": "hard",
+      "tags": ["road-not-taken", "literary-device", "extended-metaphor"]
+    }
+  ]
+}

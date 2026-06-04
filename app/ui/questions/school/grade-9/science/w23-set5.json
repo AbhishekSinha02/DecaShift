@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-science",
+  "title": "Grade 9 Science — Motion",
+  "description": "Distance, displacement, speed, velocity, acceleration, equations of motion",
+  "category": "school",
+  "grade": 9,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_9_w23_s5_001",
+      "goalId": "grade9-science",
+      "question": "The difference between distance and displacement is that displacement is:",
+      "options": ["Always greater than or equal to distance", "Always less than or equal to distance, and has both magnitude and direction", "The same as distance in all cases", "Measured in km while distance is in m"],
+      "correctIndex": 1,
+      "explanation": "Distance = total path length (scalar). Displacement = shortest straight-line path from start to end (vector — has direction). |Displacement| ≤ Distance. Equal only for straight-line motion in one direction.",
+      "difficulty": "medium",
+      "tags": ["distance", "displacement", "scalar-vector"]
+    },
+    {
+      "id": "q_science_9_w23_s5_002",
+      "goalId": "grade9-science",
+      "question": "If a car travels 60 km in 1.5 hours, its average speed is:",
+      "options": ["90 km/h", "40 km/h", "30 km/h", "45 km/h"],
+      "correctIndex": 1,
+      "explanation": "Average speed = total distance / total time = 60 km / 1.5 h = 40 km/h.",
+      "difficulty": "easy",
+      "tags": ["speed", "calculation", "motion"]
+    },
+    {
+      "id": "q_science_9_w23_s5_003",
+      "goalId": "grade9-science",
+      "question": "Acceleration is defined as the rate of change of:",
+      "options": ["Distance", "Speed only", "Velocity (change in velocity per unit time)", "Displacement"],
+      "correctIndex": 2,
+      "explanation": "Acceleration (a) = change in velocity / time = (v − u) / t. It is a vector quantity. Deceleration (retardation) is negative acceleration — velocity is decreasing.",
+      "difficulty": "easy",
+      "tags": ["acceleration", "definition", "velocity"]
+    },
+    {
+      "id": "q_science_9_w23_s5_004",
+      "goalId": "grade9-science",
+      "question": "A body starts from rest and accelerates uniformly at 5 m/s². Its velocity after 4 seconds is:",
+      "options": ["5 m/s", "10 m/s", "20 m/s", "25 m/s"],
+      "correctIndex": 2,
+      "explanation": "Using v = u + at: u = 0 (starts from rest), a = 5 m/s², t = 4 s. v = 0 + 5 × 4 = 20 m/s.",
+      "difficulty": "easy",
+      "tags": ["first-equation-of-motion", "calculation", "acceleration"]
+    },
+    {
+      "id": "q_science_9_w23_s5_005",
+      "goalId": "grade9-science",
+      "question": "The second equation of motion is:",
+      "options": ["v = u + at", "s = ut + ½at²", "v² = u² + 2as", "a = (v − u)/t"],
+      "correctIndex": 1,
+      "explanation": "Three equations of motion (for uniform acceleration): (1) v = u + at; (2) s = ut + ½at²; (3) v² = u² + 2as. Where u=initial velocity, v=final velocity, a=acceleration, t=time, s=displacement.",
+      "difficulty": "medium",
+      "tags": ["equations-of-motion", "second-equation", "kinematics"]
+    },
+    {
+      "id": "q_science_9_w23_s5_006",
+      "goalId": "grade9-science",
+      "question": "A car initially moving at 20 m/s decelerates at 4 m/s². How far does it travel before stopping?",
+      "options": ["50 m", "100 m", "20 m", "80 m"],
+      "correctIndex": 0,
+      "explanation": "Use v² = u² + 2as: Final velocity v = 0, u = 20 m/s, a = −4 m/s² (deceleration). 0 = 400 + 2(−4)s → 8s = 400 → s = 50 m.",
+      "difficulty": "hard",
+      "tags": ["third-equation", "deceleration", "calculation"]
+    },
+    {
+      "id": "q_science_9_w23_s5_007",
+      "goalId": "grade9-science",
+      "question": "An object in uniform circular motion has:",
+      "options": ["Constant speed and constant velocity", "Changing speed but constant velocity", "Constant speed but constantly changing velocity (direction changes)", "Neither constant speed nor constant velocity"],
+      "correctIndex": 2,
+      "explanation": "In uniform circular motion, speed is constant but velocity continuously changes direction — so it is ACCELERATED motion (centripetal acceleration). A car going around a roundabout at constant speed is accelerating.",
+      "difficulty": "hard",
+      "tags": ["circular-motion", "velocity", "acceleration"]
+    },
+    {
+      "id": "q_science_9_w23_s5_008",
+      "goalId": "grade9-science",
+      "question": "The slope of a distance-time graph gives:",
+      "options": ["Acceleration", "Speed (or velocity if displacement-time)", "Force", "Displacement"],
+      "correctIndex": 1,
+      "explanation": "Slope of distance-time graph = distance/time = speed. Slope of displacement-time graph = velocity. Slope of velocity-time graph = acceleration.",
+      "difficulty": "medium",
+      "tags": ["distance-time-graph", "slope", "speed"]
+    },
+    {
+      "id": "q_science_9_w23_s5_009",
+      "goalId": "grade9-science",
+      "question": "The area under a velocity-time graph represents:",
+      "options": ["Acceleration", "Speed", "Distance/Displacement", "Force"],
+      "correctIndex": 2,
+      "explanation": "Area under velocity-time graph = displacement (or distance if velocity is always positive). This is because Area = velocity × time = displacement.",
+      "difficulty": "medium",
+      "tags": ["velocity-time-graph", "area", "displacement"]
+    },
+    {
+      "id": "q_science_9_w23_s5_010",
+      "goalId": "grade9-science",
+      "question": "SI unit of acceleration is:",
+      "options": ["m/s", "m/s²", "km/h", "N/kg"],
+      "correctIndex": 1,
+      "explanation": "Acceleration = change in velocity / time = (m/s) / s = m/s². This is also written as ms⁻². N/kg is equivalent to m/s² (acceleration) but used in the context of gravitational field strength.",
+      "difficulty": "easy",
+      "tags": ["SI-unit", "acceleration", "units"]
+    },
+    {
+      "id": "q_science_9_w23_s5_011",
+      "goalId": "grade9-science",
+      "question": "A body is thrown vertically upward with velocity 20 m/s. Using g = 10 m/s², how high does it rise?",
+      "options": ["10 m", "20 m", "40 m", "2 m"],
+      "correctIndex": 1,
+      "explanation": "v² = u² − 2gh (going up, g opposes). At highest point, v = 0: 0 = 400 − 2×10×h → h = 400/20 = 20 m.",
+      "difficulty": "hard",
+      "tags": ["projectile", "vertical-throw", "calculation"]
+    },
+    {
+      "id": "q_science_9_w23_s5_012",
+      "goalId": "grade9-science",
+      "question": "A horizontal straight line on a velocity-time graph means the object is:",
+      "options": ["Accelerating uniformly", "Decelerating", "Moving at constant (uniform) velocity — zero acceleration", "At rest"],
+      "correctIndex": 2,
+      "explanation": "A horizontal line on a v-t graph means velocity is constant → acceleration = 0 → uniform motion. A line with positive slope = uniform acceleration. A line through origin = increasing velocity from rest.",
+      "difficulty": "medium",
+      "tags": ["velocity-time-graph", "uniform-motion", "zero-acceleration"]
+    },
+    {
+      "id": "q_science_9_w23_s5_013",
+      "goalId": "grade9-science",
+      "question": "A train starts from rest and accelerates at 0.5 m/s². How long does it take to reach 72 km/h?",
+      "options": ["40 s", "36 s", "144 s", "20 s"],
+      "correctIndex": 0,
+      "explanation": "Convert: 72 km/h = 72 × (1000/3600) = 20 m/s. Using v = u + at: 20 = 0 + 0.5 × t → t = 20/0.5 = 40 s.",
+      "difficulty": "hard",
+      "tags": ["first-equation", "unit-conversion", "calculation"]
+    },
+    {
+      "id": "q_science_9_w23_s5_014",
+      "goalId": "grade9-science",
+      "question": "Which of the following is an example of non-uniform (variable) motion?",
+      "options": ["A car moving at a constant speed on a straight highway", "Earth revolving around the sun (approximately constant speed)", "A ball rolling down an inclined plane (speed increases)", "Light travelling through vacuum"],
+      "correctIndex": 2,
+      "explanation": "A ball rolling down an inclined plane accelerates due to gravity — its speed changes, so it is non-uniform motion. Constant speed in a straight line = uniform motion.",
+      "difficulty": "medium",
+      "tags": ["non-uniform-motion", "examples", "acceleration"]
+    },
+    {
+      "id": "q_science_9_w23_s5_015",
+      "goalId": "grade9-science",
+      "question": "The odometer in a vehicle measures:",
+      "options": ["Speed at a given moment", "Average speed of the journey", "Total distance travelled", "Acceleration"],
+      "correctIndex": 2,
+      "explanation": "An odometer measures the cumulative distance travelled by the vehicle. A speedometer measures instantaneous speed. An accelerometer measures acceleration.",
+      "difficulty": "easy",
+      "tags": ["odometer", "distance", "instruments"]
+    }
+  ]
+}

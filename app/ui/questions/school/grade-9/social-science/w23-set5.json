@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-social-science",
+  "title": "Grade 9 Social Science — Democratic Rights & Mixed Review",
+  "description": "Civics: Fundamental Rights in India + mixed review of history and geography",
+  "category": "school",
+  "grade": 9,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_ss_9_w23_s5_001",
+      "goalId": "grade9-social-science",
+      "question": "The Fundamental Rights in India are guaranteed by:",
+      "options": ["Directive Principles (Part IV)", "The Constitution — Part III (Articles 12–35)", "The Indian Penal Code", "The Preamble only"],
+      "correctIndex": 1,
+      "explanation": "Fundamental Rights are enshrined in Part III (Articles 12–35) of the Indian Constitution. They are justiciable — courts can enforce them. They protect citizens from arbitrary state action.",
+      "difficulty": "medium",
+      "tags": ["fundamental-rights", "constitution", "civics"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_002",
+      "goalId": "grade9-social-science",
+      "question": "Which Fundamental Right prohibits discrimination on grounds of religion, race, caste, sex, or place of birth?",
+      "options": ["Right to Freedom", "Right to Constitutional Remedies", "Right to Equality (Article 14–18)", "Right against Exploitation"],
+      "correctIndex": 2,
+      "explanation": "The Right to Equality (Articles 14–18) prohibits discrimination on grounds of religion, race, caste, sex, or place of birth, and guarantees equality before law.",
+      "difficulty": "easy",
+      "tags": ["right-to-equality", "fundamental-rights", "article-14-18"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_003",
+      "goalId": "grade9-social-science",
+      "question": "Article 32 of the Indian Constitution gives citizens the right to approach the Supreme Court to enforce Fundamental Rights. Dr Ambedkar called it:",
+      "options": ["The heart and soul of the Constitution", "The basic structure of the Constitution", "The preamble of all rights", "The directive principle"],
+      "correctIndex": 0,
+      "explanation": "Dr B.R. Ambedkar described Article 32 (Right to Constitutional Remedies) as 'the heart and soul of the Constitution'. It allows citizens to move the Supreme Court (or High Courts) if their Fundamental Rights are violated.",
+      "difficulty": "hard",
+      "tags": ["article-32", "constitutional-remedies", "ambedkar"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_004",
+      "goalId": "grade9-social-science",
+      "question": "The writ of Habeas Corpus means:",
+      "options": ["Let the action be undone", "You should have the body — a court order to produce an arrested person to check detention legality", "To have more power", "Stay proceedings — stop a lower court"],
+      "correctIndex": 1,
+      "explanation": "Habeas Corpus ('you should have the body') is a writ requiring a detaining authority to produce a detained person before the court to determine if the detention is legal. It protects against arbitrary arrest.",
+      "difficulty": "hard",
+      "tags": ["habeas-corpus", "writs", "fundamental-rights"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_005",
+      "goalId": "grade9-social-science",
+      "question": "The Right to Education (RTE Act, 2009) guarantees free and compulsory education for children aged:",
+      "options": ["0–6 years", "6–14 years", "6–18 years", "0–14 years"],
+      "correctIndex": 1,
+      "explanation": "The RTE Act 2009 (under Article 21A) guarantees free and compulsory education for all children aged 6–14 years. It was inserted as a Fundamental Right by the 86th Constitutional Amendment (2002).",
+      "difficulty": "medium",
+      "tags": ["right-to-education", "RTE", "children"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_006",
+      "goalId": "grade9-social-science",
+      "question": "Untouchability was abolished by which provision of the Constitution?",
+      "options": ["Article 14 — Equality before law", "Article 17 — Abolition of Untouchability", "Article 15 — Prohibition of discrimination", "Article 21 — Right to life"],
+      "correctIndex": 1,
+      "explanation": "Article 17 of the Indian Constitution abolishes untouchability and forbids its practice in any form. Any person violating Article 17 can be punished under the Protection of Civil Rights Act, 1955.",
+      "difficulty": "medium",
+      "tags": ["article-17", "untouchability", "fundamental-rights"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_007",
+      "goalId": "grade9-social-science",
+      "question": "The Treaty of Versailles (1919) punished Germany by:",
+      "options": ["Giving Germany new territories", "Imposing reparations, reducing its army, and assigning war guilt to Germany (War Guilt Clause)", "Welcoming Germany into the League of Nations immediately", "Cancelling all German war debts"],
+      "correctIndex": 1,
+      "explanation": "The Treaty of Versailles (1919) imposed massive reparations (132 billion gold marks), reduced Germany's military (100,000 troops), stripped territories, and the War Guilt Clause (Article 231) blamed Germany. This humiliation fuelled resentment that Hitler exploited.",
+      "difficulty": "medium",
+      "tags": ["versailles", "wwi", "reparations", "germany"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_008",
+      "goalId": "grade9-social-science",
+      "question": "India's northernmost point (excluding disputed territories) is approximately:",
+      "options": ["8°N", "23.5°N", "35°N latitude", "37°N latitude"],
+      "correctIndex": 2,
+      "explanation": "India extends from approximately 8°4'N (Kanyakumari/Indira Point, Andaman & Nicobar) to approximately 35°6'N (Ladakh/disputed areas). The Tropic of Cancer (23.5°N) passes through India's centre.",
+      "difficulty": "hard",
+      "tags": ["india-geography", "latitude", "extent"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_009",
+      "goalId": "grade9-social-science",
+      "question": "What was the significance of the Beer Hall Putsch (1923)?",
+      "options": ["Hitler successfully took over Munich", "Hitler's failed attempt to seize power; he was imprisoned and wrote Mein Kampf", "The Nazis won their first election majority", "The German army supported Hitler's coup"],
+      "correctIndex": 1,
+      "explanation": "The Beer Hall Putsch (November 1923) was Hitler's failed coup attempt in Munich. He was arrested and sentenced to 5 years (served 9 months). In prison, he wrote 'Mein Kampf' (My Struggle), outlining his ideology.",
+      "difficulty": "medium",
+      "tags": ["beer-hall-putsch", "mein-kampf", "hitler"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_010",
+      "goalId": "grade9-social-science",
+      "question": "Which type of soil covers the largest area in India?",
+      "options": ["Black soil", "Laterite soil", "Alluvial soil", "Red soil"],
+      "correctIndex": 2,
+      "explanation": "Alluvial soil covers the largest area in India — most of the Northern Plains, parts of coastal Andhra and Tamil Nadu. It is highly fertile and supports intensive agriculture (wheat, rice, sugarcane).",
+      "difficulty": "easy",
+      "tags": ["alluvial-soil", "largest-area", "india"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_011",
+      "goalId": "grade9-social-science",
+      "question": "Which Article of the Indian Constitution guarantees freedom of speech and expression?",
+      "options": ["Article 19(1)(a)", "Article 21", "Article 14", "Article 17"],
+      "correctIndex": 0,
+      "explanation": "Article 19(1)(a) guarantees the right to freedom of speech and expression. However, it is not absolute — reasonable restrictions can be imposed under Article 19(2) for sovereignty, security, public order, etc.",
+      "difficulty": "medium",
+      "tags": ["freedom-of-speech", "article-19", "fundamental-rights"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_012",
+      "goalId": "grade9-social-science",
+      "question": "The economic policy of 'Autarky' followed by Nazi Germany means:",
+      "options": ["Free trade with all nations", "Economic self-sufficiency — reducing dependence on foreign goods and imports", "Giving the economy to private businesses", "Using slave labour for production"],
+      "correctIndex": 1,
+      "explanation": "Autarky means economic self-sufficiency. Nazi Germany aimed to reduce imports and produce everything domestically to prepare for war and avoid economic blockades.",
+      "difficulty": "hard",
+      "tags": ["autarky", "nazi-economy", "self-sufficiency"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_013",
+      "goalId": "grade9-social-science",
+      "question": "The Brahmaputra is known for:",
+      "options": ["Being the longest river in India", "Having the world's largest river island — Majuli — in Assam", "Originating in the Deccan Plateau", "Flowing entirely within India"],
+      "correctIndex": 1,
+      "explanation": "The Brahmaputra contains Majuli Island (Assam), the world's largest river island. The Brahmaputra originates in Tibet, enters India, and forms a massive braided river system before joining the Ganga in Bangladesh.",
+      "difficulty": "medium",
+      "tags": ["brahmaputra", "majuli", "assam"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_014",
+      "goalId": "grade9-social-science",
+      "question": "Directive Principles of State Policy (DPSP) in India are:",
+      "options": ["Enforceable by courts like Fundamental Rights", "Non-justiciable guidelines for the government to achieve socio-economic goals", "Rights of foreigners in India", "Rights guaranteed only in emergencies"],
+      "correctIndex": 1,
+      "explanation": "DPSPs (Part IV, Articles 36–51) are guidelines for the government — they are NOT enforceable by courts (non-justiciable) but are fundamental in governance. They aim for social, economic, and political justice.",
+      "difficulty": "hard",
+      "tags": ["DPSP", "directive-principles", "constitution"]
+    },
+    {
+      "id": "q_ss_9_w23_s5_015",
+      "goalId": "grade9-social-science",
+      "question": "The Loktak Lake, known for its floating islands (phumdis), is in:",
+      "options": ["Meghalaya", "Assam", "Manipur", "Nagaland"],
+      "correctIndex": 2,
+      "explanation": "Loktak Lake in Manipur is famous for its circular floating islands called phumdis — masses of vegetation, soil, and organic matter. It is the largest freshwater lake in northeast India.",
+      "difficulty": "hard",
+      "tags": ["loktak-lake", "manipur", "lakes-india"]
+    }
+  ]
+}

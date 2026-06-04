@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-social-science",
+  "title": "Grade 9 Social Science — Physical Features of India",
+  "description": "Geography — mountain ranges, plateaus, plains, coastal areas of India",
+  "category": "school",
+  "grade": 9,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_ss_9_w23_s3_001",
+      "goalId": "grade9-social-science",
+      "question": "The highest peak in India is:",
+      "options": ["Mount Everest", "K2 (Godwin-Austen)", "Kangchenjunga", "Nanda Devi"],
+      "correctIndex": 2,
+      "explanation": "Kangchenjunga (8,586 m) is the highest peak in India (located on the Sikkim-Nepal border). K2 is the second highest in the world but is in Pakistan-administered Kashmir. Mt Everest is in Nepal.",
+      "difficulty": "medium",
+      "tags": ["mountains", "peaks", "physical-features-india"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_002",
+      "goalId": "grade9-social-science",
+      "question": "The Himalayan mountain ranges run in which direction?",
+      "options": ["North-South", "East-West", "Northeast-Southwest", "Northwest-Southeast"],
+      "correctIndex": 1,
+      "explanation": "The Himalayas run in an East-West direction across northern India, forming an arc from Jammu & Kashmir in the west to Arunachal Pradesh in the east.",
+      "difficulty": "easy",
+      "tags": ["himalayas", "direction", "physical-features"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_003",
+      "goalId": "grade9-social-science",
+      "question": "The Deccan Plateau is bounded on its eastern and western edges by:",
+      "options": ["Himalayan ranges", "Eastern and Western Ghats", "Vindhya and Satpura ranges", "Aravalli and Shivalik ranges"],
+      "correctIndex": 1,
+      "explanation": "The Deccan Plateau (peninsular India) is bounded by the Eastern Ghats on the east and the Western Ghats on the west. The plateau tilts from west to east, so most rivers flow east.",
+      "difficulty": "medium",
+      "tags": ["deccan-plateau", "ghats", "physical-features"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_004",
+      "goalId": "grade9-social-science",
+      "question": "The Northern Plains of India were formed by the deposition of:",
+      "options": ["Volcanic lava", "Glacial deposits from the Himalayas", "Alluvial deposits by Himalayan rivers (Indus, Ganga, Brahmaputra)", "Wind-blown sand from the Thar Desert"],
+      "correctIndex": 2,
+      "explanation": "The Northern Plains (Indo-Gangetic Plains) formed over millions of years from alluvial sediments deposited by rivers — primarily the Indus, Ganga, and Brahmaputra systems coming from the Himalayas.",
+      "difficulty": "medium",
+      "tags": ["northern-plains", "alluvial", "river-deposition"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_005",
+      "goalId": "grade9-social-science",
+      "question": "The Thar Desert is located mainly in which Indian state?",
+      "options": ["Gujarat", "Rajasthan", "Punjab", "Haryana"],
+      "correctIndex": 1,
+      "explanation": "The Thar Desert (Great Indian Desert) is mainly located in Rajasthan, extending into parts of Gujarat, Punjab, and Haryana. It lies to the west of the Aravalli range.",
+      "difficulty": "easy",
+      "tags": ["thar-desert", "rajasthan", "physical-features"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_006",
+      "goalId": "grade9-social-science",
+      "question": "Bhabar is the zone where:",
+      "options": ["Rivers break into distributaries and form deltas", "Pebbles and boulders are deposited by Himalayan rivers (porous, streams disappear)", "Rich alluvial soil enables dense farming", "Wetlands and swamps form near the sea coast"],
+      "correctIndex": 1,
+      "explanation": "Bhabar is a narrow strip (8-16 km wide) at the foothills of the Himalayas where rivers deposit pebbles. The water seeps underground and streams disappear here.",
+      "difficulty": "hard",
+      "tags": ["bhabar", "terai", "northern-plains-zones"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_007",
+      "goalId": "grade9-social-science",
+      "question": "The Western Ghats are also known as:",
+      "options": ["Sahyadri", "Vindyachal", "Aravalli", "Shivalik"],
+      "correctIndex": 0,
+      "explanation": "The Western Ghats are known as Sahyadri (Sahya Adri). They run parallel to the west coast, are continuous ranges (unlike the Eastern Ghats), and are a UNESCO World Heritage biodiversity hotspot.",
+      "difficulty": "easy",
+      "tags": ["western-ghats", "sahyadri", "ghats"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_008",
+      "goalId": "grade9-social-science",
+      "question": "India's coastline is approximately:",
+      "options": ["3,700 km", "5,200 km", "7,517 km", "9,000 km"],
+      "correctIndex": 2,
+      "explanation": "India has a coastline of approximately 7,517 km — 5,423 km of mainland coast + Lakshadweep and Andaman & Nicobar Islands. It is bounded by the Arabian Sea, Indian Ocean, and Bay of Bengal.",
+      "difficulty": "medium",
+      "tags": ["coastline", "india", "geography-facts"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_009",
+      "goalId": "grade9-social-science",
+      "question": "The Brahmaputra river is called 'Tsangpo' in:",
+      "options": ["Bangladesh", "Bhutan", "Tibet (China)", "Arunachal Pradesh"],
+      "correctIndex": 2,
+      "explanation": "The Brahmaputra originates in Tibet (China) as the Tsangpo river, enters India through Arunachal Pradesh (called Dihang), becomes the Brahmaputra in Assam, and joins the Ganga delta in Bangladesh.",
+      "difficulty": "medium",
+      "tags": ["brahmaputra", "tsangpo", "rivers-india"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_010",
+      "goalId": "grade9-social-science",
+      "question": "The Andaman and Nicobar Islands are separated by the:",
+      "options": ["Palk Strait", "Ten Degree Channel", "Duncan Passage", "Eight Degree Channel"],
+      "correctIndex": 1,
+      "explanation": "The Ten Degree Channel separates the Andaman Islands (north) from the Nicobar Islands (south). It lies at approximately 10°N latitude.",
+      "difficulty": "hard",
+      "tags": ["andaman-nicobar", "channels", "island-geography"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_011",
+      "goalId": "grade9-social-science",
+      "question": "The Eastern Coastal Plain is known as the Coromandel Coast in:",
+      "options": ["Odisha coast", "Tamil Nadu coast (between Krishna delta and Kanyakumari)", "Andhra Pradesh coast", "West Bengal coast"],
+      "correctIndex": 1,
+      "explanation": "The Coromandel Coast refers to the southeastern coast of India, primarily along Tamil Nadu. The Northern Circars (Odisha-Andhra coast) is the northern part of the Eastern Coastal Plain.",
+      "difficulty": "hard",
+      "tags": ["coromandel-coast", "eastern-coastal-plain", "india"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_012",
+      "goalId": "grade9-social-science",
+      "question": "The 'Duars' or 'Dooars' are the plains regions adjacent to:",
+      "options": ["The Thar Desert", "The Himalayan foothills in northeast India (Bengal/Assam/Bhutan border)", "The Deccan Plateau in Maharashtra", "The coastal wetlands of Kerala"],
+      "correctIndex": 1,
+      "explanation": "Duars (meaning 'doors') are the floodplain and foothills region in the terai zone — mainly in West Bengal, Assam, and adjacent to Bhutan's border. A wildlife-rich transition zone.",
+      "difficulty": "hard",
+      "tags": ["duars", "terai", "northeast-india"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_013",
+      "goalId": "grade9-social-science",
+      "question": "India is separated from Sri Lanka by:",
+      "options": ["Ten Degree Channel", "Palk Strait and Gulf of Mannar", "Duncan Passage", "Lakshadweep Sea"],
+      "correctIndex": 1,
+      "explanation": "India and Sri Lanka are separated by the Palk Strait (north) and the Gulf of Mannar (south). The thin Adam's Bridge (Rama Setu) is a chain of natural limestone shoals between the two.",
+      "difficulty": "medium",
+      "tags": ["palk-strait", "sri-lanka", "geography"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_014",
+      "goalId": "grade9-social-science",
+      "question": "The soil that is most suitable for growing cotton is:",
+      "options": ["Alluvial soil", "Laterite soil", "Black soil (Regur)", "Red soil"],
+      "correctIndex": 2,
+      "explanation": "Black soil (Regur) of the Deccan Plateau is ideal for cotton cultivation. It retains moisture, is rich in lime/iron/magnesium, and swells when wet and cracks when dry.",
+      "difficulty": "medium",
+      "tags": ["black-soil", "cotton", "soil-types"]
+    },
+    {
+      "id": "q_ss_9_w23_s3_015",
+      "goalId": "grade9-social-science",
+      "question": "The Lakshadweep Islands are located in which ocean/sea?",
+      "options": ["Bay of Bengal", "Indian Ocean", "Arabian Sea", "Pacific Ocean"],
+      "correctIndex": 2,
+      "explanation": "Lakshadweep Islands are located in the Arabian Sea (west coast of India). They are coral islands — India's smallest Union Territory. Andaman & Nicobar Islands are in the Bay of Bengal.",
+      "difficulty": "easy",
+      "tags": ["lakshadweep", "arabian-sea", "islands"]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-english",
+  "title": "Grade 9 English — Poetry: The Road Not Taken + Writing Skills",
+  "description": "Poetry appreciation, figures of speech, and formal/informal writing",
+  "category": "school",
+  "grade": 9,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_9_w23_s3_001",
+      "goalId": "grade9-english",
+      "question": "Who wrote the poem 'The Road Not Taken'?",
+      "options": ["Walt Whitman", "Robert Frost", "William Wordsworth", "John Keats"],
+      "correctIndex": 1,
+      "explanation": "The Road Not Taken (1916) was written by American poet Robert Frost. It is one of the most widely read English poems about choices and individuality.",
+      "difficulty": "easy",
+      "tags": ["road-not-taken", "poet", "beehive"]
+    },
+    {
+      "id": "q_english_9_w23_s3_002",
+      "goalId": "grade9-english",
+      "question": "In 'The Road Not Taken', the two roads symbolise:",
+      "options": ["Two paths in a forest", "The choices we face in life", "Good and evil", "Youth and old age"],
+      "correctIndex": 1,
+      "explanation": "The two diverging roads are a metaphor (extended symbol) for the choices or decisions we encounter in life. The speaker regrets not being able to travel both.",
+      "difficulty": "easy",
+      "tags": ["road-not-taken", "symbolism", "theme"]
+    },
+    {
+      "id": "q_english_9_w23_s3_003",
+      "goalId": "grade9-english",
+      "question": "The rhyme scheme of 'The Road Not Taken' is:",
+      "options": ["AABB", "ABAB", "ABAAB", "ABCDE"],
+      "correctIndex": 2,
+      "explanation": "Each stanza of 'The Road Not Taken' follows the ABAAB rhyme scheme. For example: wood/stood (A), way (B), undergrowth (A), though (A), day (B).",
+      "difficulty": "hard",
+      "tags": ["road-not-taken", "rhyme-scheme", "poetry"]
+    },
+    {
+      "id": "q_english_9_w23_s3_004",
+      "goalId": "grade9-english",
+      "question": "What does the speaker say about the two roads in the poem?",
+      "options": ["One was clearly better than the other", "Both roads were equally worn / about the same", "One was older and more overgrown", "One led uphill while the other went downhill"],
+      "correctIndex": 1,
+      "explanation": "The speaker notes 'the passing there / Had worn them really about the same' — both roads were equally travelled. The 'difference' is made up later, in hindsight.",
+      "difficulty": "medium",
+      "tags": ["road-not-taken", "analysis", "poetry"]
+    },
+    {
+      "id": "q_english_9_w23_s3_005",
+      "goalId": "grade9-english",
+      "question": "A 'simile' differs from a 'metaphor' in that:",
+      "options": ["Simile is about nature; metaphor is about people", "Simile uses 'like' or 'as'; metaphor makes a direct comparison", "Simile uses exaggeration; metaphor does not", "Simile is used only in poetry; metaphor is used in prose"],
+      "correctIndex": 1,
+      "explanation": "Simile: comparison using 'like' or 'as' (e.g., 'brave as a lion'). Metaphor: direct comparison without 'like/as' (e.g., 'He is a lion in battle'). Both compare unlike things.",
+      "difficulty": "easy",
+      "tags": ["simile", "metaphor", "figures-of-speech"]
+    },
+    {
+      "id": "q_english_9_w23_s3_006",
+      "goalId": "grade9-english",
+      "question": "Identify the figure of speech in: 'The stars danced playfully in the sky.'",
+      "options": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+      "correctIndex": 2,
+      "explanation": "Personification gives human qualities (dancing playfully) to non-human things (stars). Stars cannot literally dance — this is personification.",
+      "difficulty": "easy",
+      "tags": ["personification", "figures-of-speech", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s3_007",
+      "goalId": "grade9-english",
+      "question": "Which is an example of alliteration?",
+      "options": ["She sells sea shells by the sea shore.", "The moon smiled down upon the earth.", "He runs as fast as a cheetah.", "I could eat a horse, I am so hungry."],
+      "correctIndex": 0,
+      "explanation": "Alliteration is the repetition of the same initial consonant sound in closely linked words. 'She sells sea shells' — 's' sound repeats at the start of words.",
+      "difficulty": "easy",
+      "tags": ["alliteration", "figures-of-speech", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s3_008",
+      "goalId": "grade9-english",
+      "question": "In formal letter writing, the correct order of components is:",
+      "options": ["Salutation → Address → Date → Subject → Body → Closing", "Address → Date → Receiver's Address → Subject → Salutation → Body → Closing", "Date → Salutation → Address → Body → Closing → Subject", "Subject → Address → Date → Salutation → Body → Closing"],
+      "correctIndex": 1,
+      "explanation": "A formal letter order: Sender's Address → Date → Receiver's Address → Subject → Salutation (Dear Sir/Madam) → Body (Introduction, Main, Conclusion) → Closing (Yours faithfully) → Signature.",
+      "difficulty": "medium",
+      "tags": ["formal-letter", "letter-writing", "format"]
+    },
+    {
+      "id": "q_english_9_w23_s3_009",
+      "goalId": "grade9-english",
+      "question": "Which closing is appropriate for a formal letter to someone you do not know by name?",
+      "options": ["Yours sincerely", "Yours truly", "Yours faithfully", "With love"],
+      "correctIndex": 2,
+      "explanation": "'Yours faithfully' is used when you begin with 'Dear Sir/Madam' (unknown recipient). 'Yours sincerely' is used when you know the person's name ('Dear Mr Sharma').",
+      "difficulty": "medium",
+      "tags": ["formal-letter", "salutation", "closing"]
+    },
+    {
+      "id": "q_english_9_w23_s3_010",
+      "goalId": "grade9-english",
+      "question": "Identify the figure of speech: 'I have told you a million times!'",
+      "options": ["Metaphor", "Simile", "Personification", "Hyperbole"],
+      "correctIndex": 3,
+      "explanation": "Hyperbole is an extreme exaggeration used for emphasis or effect. 'A million times' is not literally true — it is hyperbole to stress how many times something was said.",
+      "difficulty": "easy",
+      "tags": ["hyperbole", "figures-of-speech", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s3_011",
+      "goalId": "grade9-english",
+      "question": "The mood/tone of the last stanza of 'The Road Not Taken' is:",
+      "options": ["Joyful and celebratory", "Reflective, with a slight sense of wondering/regret", "Angry and bitter", "Neutral and factual"],
+      "correctIndex": 1,
+      "explanation": "The speaker imagines telling the story 'with a sigh' in the future — the tone is reflective and slightly wistful or wondering about the unchosen path.",
+      "difficulty": "hard",
+      "tags": ["road-not-taken", "tone", "poetry-analysis"]
+    },
+    {
+      "id": "q_english_9_w23_s3_012",
+      "goalId": "grade9-english",
+      "question": "An oxymoron is:",
+      "options": ["A figure of speech that uses the same sound repeatedly", "A phrase combining two contradictory terms", "Giving human qualities to non-human things", "An extreme exaggeration for effect"],
+      "correctIndex": 1,
+      "explanation": "An oxymoron combines two contradictory or opposite terms: e.g., 'deafening silence', 'living death', 'bitter sweet'. It creates a powerful paradoxical effect.",
+      "difficulty": "medium",
+      "tags": ["oxymoron", "figures-of-speech", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s3_013",
+      "goalId": "grade9-english",
+      "question": "In writing a paragraph, the 'topic sentence' is:",
+      "options": ["The last sentence that sums up the paragraph", "The first sentence that introduces the main idea of the paragraph", "Any sentence that has the most important word", "The sentence with the longest length"],
+      "correctIndex": 1,
+      "explanation": "The topic sentence is usually the first sentence of a paragraph — it introduces the main idea. Supporting sentences then develop, explain, or give evidence for this idea.",
+      "difficulty": "easy",
+      "tags": ["paragraph-writing", "topic-sentence", "writing-skills"]
+    },
+    {
+      "id": "q_english_9_w23_s3_014",
+      "goalId": "grade9-english",
+      "question": "Which word is the odd one out in terms of word class? happy / quickly / slowly / brightly",
+      "options": ["happy", "quickly", "slowly", "brightly"],
+      "correctIndex": 0,
+      "explanation": "'Happy' is an adjective (modifies nouns). 'Quickly', 'slowly', and 'brightly' are all adverbs (modifying verbs/adjectives). So 'happy' is the odd one out.",
+      "difficulty": "medium",
+      "tags": ["parts-of-speech", "adjective", "adverb", "grammar"]
+    },
+    {
+      "id": "q_english_9_w23_s3_015",
+      "goalId": "grade9-english",
+      "question": "What is an 'antonym'?",
+      "options": ["A word with a similar meaning to another word", "A word with the opposite meaning to another word", "A word that sounds the same as another word", "A word that is spelled the same but has different meanings"],
+      "correctIndex": 1,
+      "explanation": "An antonym is a word that means the opposite: hot ↔ cold, fast ↔ slow, happy ↔ sad. A synonym is a word with a similar meaning.",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "antonym", "word-meaning"]
+    }
+  ]
+}
