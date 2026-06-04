@@ -20,7 +20,8 @@
 
 | # | Priority | File | Focus |
 |---|---|---|---|
-| **1** | 🧪 **NEXT (user-set)** | **PENDING-test-feedback-then-multicity.md** | **Phase 1: redeploy Code.gs + TEST FEAT-005 end-to-end + fix feedback (graded-school path only). Phase 2: multi-city Cloudflare Pages + R2 deploy (→ INFRA-001). Only merge v5.0-dev after testing.** |
+| **1** | ★ **NEXT (user-set 2026-06-04)** | **tasks/P2-T046-full-state-cross-device-sync.md** | **Sync COMPLETE user journey + preferences + appearance/theme to Drive. Server `saveJourney` exists; add `getJourney` read-half + client snapshotAll/restoreAll, flag-gated. Today journey is write-only/lost on device switch — the binding gap now Phase 1 is done.** |
+| ~~1~~ | ✅ **Phase 1 DONE 2026-06-04** | ~~PENDING-test-feedback-then-multicity.md~~ | **FEAT-005 per-user folder TESTED + LIVE** at `dailymath30.com/DecaShift/app/ui/` (build 20260603b, new Apps Script URL). Fixed the real blocker: nested `.github.io` gitlink broke every Pages build (`183854e`) + `.nojekyll`. Brand config (FEAT-005 item 5) shipped, path-based. **Phase 2 (multi-city deploy) stays GitHub Pages path-based per user — NOT Cloudflare.** See [[project_deploy_architecture]]. |
 | **2** | 🔴 **P0** | **PENDING-g2-journey-freeze-paywall.md → ENH-011** | **G2: Journey-freeze paywall + Razorpay — THE binding GTM blocker; contains the subscription strategy. Build flag-gated, atomic. (Not deprioritized — sequenced after user's test+multi-city focus.)** |
 | 2 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) — result screen now renders post-BUG-030 |
 | 3 | 🔴 P1 | marketing/GTM-001-landing-rampup.md | **Landing ramp-up** — conversion audit, copy, WhatsApp share, grade picker |

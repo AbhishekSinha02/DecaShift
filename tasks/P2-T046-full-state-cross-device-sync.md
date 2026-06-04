@@ -1,11 +1,18 @@
-# P2-T046 — Full-State Cross-Device Sync (+ offline password reset)
+# P2-T046 — Full-State Cross-Device Sync: journey + preferences + appearance (+ offline password reset)
 
-> **Priority:** ★ HIGHEST (Launch Critical). Run in the session immediately after the
-> W23 French content commit.
+> **Priority:** ★ HIGHEST (Launch Critical) — **NEXT SESSION (user-set 2026-06-04).** Sync the
+> COMPLETE user journey, preferences, and appearance/theme prefs to Drive. Phase 1 (FEAT-005
+> per-user folder) is tested and live, so this is now the binding gap: today the journey is
+> write-only/lost on device switch.
 > **Size:** M · **Risk:** Low-Medium (feature-flagged, no schema break) · **Infra:** none new.
 > **Supersedes:** the email-based plan in [P2-T017](P2-T017-profile-page-password-reset.md).
-> **Builds on:** [P1-T012](completed/P1-T012-drive-account-persistence-cross-device-login.md) (account-only Drive login, done).
-> **Depends on:** [P2-T047 identity strategy](marketing/P2-T047-identity-strategy-userid-email-mobile.md) — the durable account KEY (handle/PIN/recovery code vs email/mobile) must be decided first; this task syncs against whatever key that decision picks.
+> **Builds on:** [P1-T012](completed/P1-T012-drive-account-persistence-cross-device-login.md) (account-only Drive login, done)
+> and **FEAT-005 items 1–2 (SHIPPED + tested 2026-06-04)** — per-user folder `users/{userId}/` is live, and the
+> server already exposes a **`saveJourney` action** that writes `users/{userId}/journey.json`. **Server write-half
+> exists; this task builds the client snapshot/restore + the read-half.** See [[project_deploy_architecture]],
+> [[feat005_per_user_folder_progress]].
+> **Dependency CLEARED:** [P2-T047 identity](marketing/P2-T047-identity-strategy-userid-email-mobile.md) is
+> **resolved** — account key = **User ID** (`state.user.userId`; FEAT-002 shipped). Sync against `userId`.
 
 ---
 
@@ -49,11 +56,15 @@ Apps Script → Drive endpoint (`APPS_SCRIPT_URL` in `storage.js`).
 1. **`Storage.snapshotAll()`** — return `{ version, savedAt, userId, keys: {…} }` bundling every
    user key above. Pure read, no behaviour change. Commit.
 2. **`Storage.restoreAll(blob)`** — write each key back; skip unknown keys; never throw on a
-   missing key. Merge rules: `streak.current`/`best`, `ds_xp`, drill bests → take **max**;
-   sessions → union by `sessionId`; everything else → newer `savedAt` wins. Commit.
-3. **Apps Script: `saveState` / `getState`** actions keyed by `userId` (one Drive file per user,
-   same pattern as account/session). Deploy. Commit the client `syncStateToDrive()` /
-   `fetchStateFromDrive()` wrappers behind a feature flag (`FEATURES.fullSync`). Commit.
+   missing key. **v1 = last-write-wins: newest `savedAt` snapshot wins, whole-blob.** Keep it
+   dead simple. (Per-key max-merge + sessions-union is explicitly DEFERRED — see Low-priority
+   polish below. User call 2026-06-04: ship simple, don't hyper-engineer.) Commit.
+3. **Apps Script: write-half already exists** — the deployed v3 `Code.gs` has a **`saveJourney`**
+   action writing `users/{userId}/journey.json`. **Only the READ-half is missing:** add a
+   **`getJourney`** doGet action (return `users/{userId}/journey.json` or `{found:false}`), mirror
+   of `getAccount`. ⚠️ Apps Script is manual-deploy (see [[project_deploy_architecture]] for the new
+   URL + the gitlink/Pages gotcha). Commit the client `syncStateToDrive()` (→ `saveJourney`) /
+   `fetchStateFromDrive()` (→ `getJourney`) wrappers behind a feature flag (`FEATURES.fullSync`). Commit.
 4. **Restore on sign-in** — after existing account fetch in `_handleSignin`, call
    `fetchStateFromDrive(userId)` → `restoreAll()` → re-render home. Commit.
 5. **Re-sync on key events** — debounced `syncStateToDrive()` on: session end, level-up,
@@ -84,8 +95,20 @@ Apps Script → Drive endpoint (`APPS_SCRIPT_URL` in `storage.js`).
 - Apps Script unreachable → app still works (local-first); manual backup/restore still functions.
 - Feature is flag-guarded; flag off = today's behaviour exactly.
 
+## ⬇ Low-priority polish (DEFER — do NOT do in the first build; user call 2026-06-04 "we have a mountain to move")
+
+> The core v1 (snapshot on key events → restore whole blob, last-write-wins, on sign-in) is enough
+> to make "see yourself grow" durable across devices/incognito. The items below are refinements only
+> — park them here so the thought isn't lost, but they are explicitly NOT launch-blocking.
+
+- **Two-device merge** — if the same user earns progress on two devices, do per-key smart merge:
+  `ds_xp`/streak/drill-bests → take **max**; sessions → **union** by `sessionId`; prefs → newest wins.
+  (v1 last-write-wins can let a stale device overwrite higher progress — acceptable for launch since
+  almost everyone uses one device.)
+- **Offline-restore robustness** — restore needs Drive reachable at sign-in; harden the offline path
+  (retry/queue, "syncing…" state). v1 is already local-first so the app never blocks; this is polish.
+
 ## Out of scope (later / scale-hardening)
 
 - Move state blob from Drive to R2/Upstash (near 5K users).
 - Per-user salted / slow password hashing (separate security task).
-- Real-time multi-device conflict resolution beyond timestamp + max-merge.
