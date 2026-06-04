@@ -167,18 +167,21 @@ async function _resolveBrand() {
   } catch (_) { return; }          // offline / missing → keep static HTML defaults
   if (!cfg || !cfg.default) return;
 
+  const cities = cfg.cities || {};
   const qsCity = new URLSearchParams(location.search).get('city');
   if (qsCity) localStorage.setItem('ds_city', qsCity);
-  const override = qsCity || localStorage.getItem('ds_city');
+  const override  = qsCity || localStorage.getItem('ds_city');
+  const pathSeg   = location.pathname.split('/').filter(Boolean)[0];  // path-based deploy: /lucknow/
 
   let picked = cfg.default;
   let isCity = false;
-  if (override && cfg.cities) {
-    const m = Object.values(cfg.cities).find(c => c.brandId === override);
-    if (m) { picked = m; isCity = true; }
-  } else if (cfg.cities && cfg.cities[location.hostname]) {
-    picked = cfg.cities[location.hostname];
-    isCity = true;
+  if (override && cities[override]) {                 // 1. explicit override (testing)
+    picked = cities[override]; isCity = true;
+  } else if (pathSeg && cities[pathSeg]) {            // 2. URL path segment (this deploy)
+    picked = cities[pathSeg]; isCity = true;
+  } else {                                            // 3. hostname (future subdomain deploy)
+    const byHost = Object.values(cities).find(c => c.host === location.hostname);
+    if (byHost) { picked = byHost; isCity = true; }
   }
   BRAND = Object.assign({}, cfg.default, picked);  // default backfills any missing field
   BRAND.isCity = isCity;

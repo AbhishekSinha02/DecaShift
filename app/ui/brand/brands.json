@@ -1,5 +1,5 @@
 {
-  "_doc": "FEAT-005 item 5 — brand config by hostname. Cities = config, not clones. The app resolves the active brand from window.location.hostname (see _resolveBrand in app-core.js). 'default' MUST mirror today's Donnibo look so the production host is a no-op. Add a city by adding one entry under 'cities' keyed by its exact hostname — no code copy. Test before a real domain exists with ?city=<id> (or localStorage ds_city=<id>).",
+  "_doc": "FEAT-005 item 5 — brand config. Cities = config, not clones. The app resolves the active brand (see _resolveBrand in app-core.js) by, in order: ?city=<id> override (persisted to ds_city) > first URL path segment (path-based deploy, e.g. /lucknow/) > matching 'host' (subdomain deploy). 'default' MUST mirror today's Donnibo look so the base path/host is a no-op. Add a city = one entry under 'cities' keyed by its brandId — no code copy.",
   "default": {
     "brandId": "donnibo",
     "brandName": "Donnibo",
@@ -12,8 +12,9 @@
     "coupon": ""
   },
   "cities": {
-    "lucknow.dailymath30.com": {
+    "lucknow": {
       "brandId": "lucknow",
+      "host": "lucknow.dailymath30.com",
       "brandName": "Donnibo Lucknow",
       "tagline": "See yourself grow.",
       "logo": "assets/icon.svg",
