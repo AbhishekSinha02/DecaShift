@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-english",
+  "title": "Grade 10 English — Mixed Review: Grammar, Literature & Writing",
+  "description": "Week 23 comprehensive review — all topics",
+  "category": "school",
+  "grade": 10,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_10_w23_s5_001",
+      "goalId": "grade10-english",
+      "question": "The central theme of 'Footprints Without Feet' is:",
+      "options": ["The wonders of modern science", "The danger of genius misused for selfish and lawless ends", "The story of a poor scientist", "The importance of warm clothing in winter"],
+      "correctIndex": 1,
+      "explanation": "The story explores the misuse of scientific genius. Griffin's invisibility, a potentially beneficial discovery, is wasted on crime and escaping justice — a commentary on science without ethics.",
+      "difficulty": "medium",
+      "tags": ["footprints", "theme", "science-ethics"]
+    },
+    {
+      "id": "q_english_10_w23_s5_002",
+      "goalId": "grade10-english",
+      "question": "Change to passive: 'Who broke the window?'",
+      "options": ["The window has been broken.", "By whom was the window broken?", "Who was breaking the window?", "The window was broken by who?"],
+      "correctIndex": 1,
+      "explanation": "Passive of interrogative (question): Wh-question passive → 'By whom was the window broken?' (formal) or 'Who was the window broken by?' (informal). The standard form uses 'by whom'.",
+      "difficulty": "hard",
+      "tags": ["passive-voice", "interrogative", "transformation"]
+    },
+    {
+      "id": "q_english_10_w23_s5_003",
+      "goalId": "grade10-english",
+      "question": "Wanda Petronski sent a letter from her new home. What did she give to Maddie and Peggy in the letter?",
+      "options": ["A real dress", "The drawings of the dresses — specifically ones that looked like Peggy and Maddie", "Her apology for being upset", "Her address so they could visit"],
+      "correctIndex": 1,
+      "explanation": "In Wanda's letter, she says Peggy and Maddie can keep the drawings — and the ones that look like Peggy and Maddie are especially meant for them. This reveals her kindness despite how they treated her.",
+      "difficulty": "medium",
+      "tags": ["hundred-dresses", "wanda-letter", "plot"]
+    },
+    {
+      "id": "q_english_10_w23_s5_004",
+      "goalId": "grade10-english",
+      "question": "Identify the figure of speech: 'The thunder was the voice of God.'",
+      "options": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+      "correctIndex": 1,
+      "explanation": "This is a metaphor — the thunder IS described as 'the voice of God' (direct comparison, no 'like/as'). It suggests power and authority.",
+      "difficulty": "easy",
+      "tags": ["metaphor", "identification", "figures-of-speech"]
+    },
+    {
+      "id": "q_english_10_w23_s5_005",
+      "goalId": "grade10-english",
+      "question": "The poem 'Amanda!' ends with the parent saying 'Stop daydreaming, Amanda!' This ending is ironic because:",
+      "options": ["Amanda wasn't daydreaming", "The nagging that drove Amanda to daydream is now told to stop the very escape it created", "The parent is kind", "Amanda is happy"],
+      "correctIndex": 1,
+      "explanation": "The dramatic irony: the constant nagging is precisely what drives Amanda into her inner world of daydreams. The parent tells her to stop daydreaming without realising their own behaviour is the cause.",
+      "difficulty": "hard",
+      "tags": ["amanda", "dramatic-irony", "ending"]
+    },
+    {
+      "id": "q_english_10_w23_s5_006",
+      "goalId": "grade10-english",
+      "question": "Change to indirect speech: 'She said, \"I have never seen such a beautiful place.\"'",
+      "options": ["She said that she has never seen such a beautiful place.", "She said that she had never seen such a beautiful place.", "She told that she never saw such a beautiful place.", "She exclaimed that she never had seen such a beautiful place."],
+      "correctIndex": 1,
+      "explanation": "Present perfect ('have never seen') → past perfect ('had never seen') in indirect speech. 'Such a' remains. → She said that she had never seen such a beautiful place.",
+      "difficulty": "medium",
+      "tags": ["reported-speech", "present-perfect", "indirect"]
+    },
+    {
+      "id": "q_english_10_w23_s5_007",
+      "goalId": "grade10-english",
+      "question": "The word 'serendipity' means:",
+      "options": ["Sorrow and regret", "The occurrence of fortunate events by chance; happy accidents", "Cleverness in business", "A type of weather phenomenon"],
+      "correctIndex": 1,
+      "explanation": "'Serendipity' means finding valuable or pleasant things unexpectedly — coined by Horace Walpole (1754) from the Persian fairy tale 'The Three Princes of Serendip'. 'Serendipitous' = adjective.",
+      "difficulty": "hard",
+      "tags": ["vocabulary", "serendipity", "word-meaning"]
+    },
+    {
+      "id": "q_english_10_w23_s5_008",
+      "goalId": "grade10-english",
+      "question": "The word 'ubiquitous' means:",
+      "options": ["Very rare and unusual", "Present, appearing, or found everywhere", "Related to water (aqua)", "Invisible"],
+      "correctIndex": 1,
+      "explanation": "'Ubiquitous' means seeming to appear everywhere or be very widespread: 'Smartphones are ubiquitous today.' From Latin 'ubique' (everywhere). Synonym: omnipresent.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "ubiquitous", "word-meaning"]
+    },
+    {
+      "id": "q_english_10_w23_s5_009",
+      "goalId": "grade10-english",
+      "question": "What does 'allusion' mean in literature?",
+      "options": ["A false or misleading image", "An indirect reference to a person, event, or work that the reader is expected to know", "A type of metaphor using animals", "A repetition of sounds"],
+      "correctIndex": 1,
+      "explanation": "An allusion is an indirect reference: 'He had a Midas touch' alludes to the Greek myth of King Midas. 'Don't be a Romeo' alludes to Shakespeare. Allusions enrich meaning without full explanation.",
+      "difficulty": "medium",
+      "tags": ["allusion", "literary-terms", "definition"]
+    },
+    {
+      "id": "q_english_10_w23_s5_010",
+      "goalId": "grade10-english",
+      "question": "Which sentence uses the correct conditional (Type 3 — past unreal)?",
+      "options": ["If it rains tomorrow, I will stay home.", "If I studied harder, I would pass.", "If she had studied, she would have passed.", "Unless you try, you will not succeed."],
+      "correctIndex": 2,
+      "explanation": "Type 3 conditional (past unreal): If + past perfect + would have + past participle. 'If she had studied, she would have passed' — the situation is past and did NOT happen. Type 1 = real future; Type 2 = present unreal.",
+      "difficulty": "hard",
+      "tags": ["conditionals", "type-3", "grammar"]
+    },
+    {
+      "id": "q_english_10_w23_s5_011",
+      "goalId": "grade10-english",
+      "question": "An 'idiom' is:",
+      "options": ["A scientific term", "A phrase whose meaning cannot be inferred from the literal meanings of its words", "A long compound sentence", "A type of noun"],
+      "correctIndex": 1,
+      "explanation": "An idiom is an expression whose meaning is different from the literal meaning of its words: 'kick the bucket' = die; 'raining cats and dogs' = raining heavily; 'break a leg' = good luck.",
+      "difficulty": "easy",
+      "tags": ["idiom", "definition", "figures-of-speech"]
+    },
+    {
+      "id": "q_english_10_w23_s5_012",
+      "goalId": "grade10-english",
+      "question": "Identify the type of clause underlined: 'I know [that she is honest].'",
+      "options": ["Adverbial clause", "Relative (adjective) clause", "Noun clause (subject/object of a verb)", "Coordinate clause"],
+      "correctIndex": 2,
+      "explanation": "'that she is honest' is a noun clause acting as the object of the verb 'know'. Noun clauses function as subject, object, or complement. They can begin with: that, whether, if, wh-words.",
+      "difficulty": "hard",
+      "tags": ["noun-clause", "types-of-clause", "grammar"]
+    },
+    {
+      "id": "q_english_10_w23_s5_013",
+      "goalId": "grade10-english",
+      "question": "Which word is spelled correctly?",
+      "options": ["Seperate", "Occurance", "Necessary", "Recomend"],
+      "correctIndex": 2,
+      "explanation": "'Necessary' — one 'c', double 's'. Memory trick: 'one Collar, two Socks' (1c, 2s). Correct: Necessary. Wrong: Seperate (→ Separate), Occurance (→ Occurrence), Recomend (→ Recommend).",
+      "difficulty": "medium",
+      "tags": ["spelling", "vocabulary", "common-errors"]
+    },
+    {
+      "id": "q_english_10_w23_s5_014",
+      "goalId": "grade10-english",
+      "question": "In Griffin's story, when he swallows some food, it becomes visible briefly. What does this reveal?",
+      "options": ["His formula was wearing off", "The invisibility only affects the body; eaten food is visible until absorbed — showing limits of the invisibility drug", "He is becoming hungry", "He forgot to take his medicine"],
+      "correctIndex": 1,
+      "explanation": "When Griffin eats, the food is temporarily visible until it is digested and absorbed into his transparent body. This reveals the scientific limitation of his formula — and is used with dark humour in the story.",
+      "difficulty": "hard",
+      "tags": ["footprints", "invisibility-limits", "plot"]
+    },
+    {
+      "id": "q_english_10_w23_s5_015",
+      "goalId": "grade10-english",
+      "question": "The word 'stoic' means:",
+      "options": ["Easily moved to tears", "Enduring pain or difficulty without complaining or showing emotion", "Lively and enthusiastic", "Deeply religious"],
+      "correctIndex": 1,
+      "explanation": "'Stoic' means enduring pain or hardship without showing or expressing feelings. From the ancient Greek Stoic philosophy that emphasised virtue and endurance over emotion. Antonym: emotional, expressive.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "stoic", "word-meaning"]
+    }
+  ]
+}

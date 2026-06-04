@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-english",
+  "title": "Grade 10 English — Footprints Without Feet + Grammar Review",
+  "description": "H.G. Wells story comprehension, grammar, and letter writing continuation",
+  "category": "school",
+  "grade": 10,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_10_w23_s2_001",
+      "goalId": "grade10-english",
+      "question": "In 'Footprints Without Feet', Griffin is described as a:",
+      "options": ["Brilliant but lawless scientist who discovers how to make himself invisible", "Ordinary thief who steals clothes", "Police officer investigating a theft", "Teacher at a school in Iping"],
+      "correctIndex": 0,
+      "explanation": "Griffin is a brilliant scientist who discovers how to make the human body transparent and invisible. However, he is described as 'lawless' — he burns his landlord's house and commits theft.",
+      "difficulty": "easy",
+      "tags": ["footprints-without-feet", "griffin", "character"]
+    },
+    {
+      "id": "q_english_10_w23_s2_002",
+      "goalId": "grade10-english",
+      "question": "How did Griffin become visible again in Iping?",
+      "options": ["His formula wore off", "He put on stolen clothes and bandages to cover himself", "He was caught and forced to appear", "He took a counter-formula"],
+      "correctIndex": 1,
+      "explanation": "To survive the cold January, Griffin broke into a theatrical company, stole and wore a bandaged disguise — wide-brimmed hat, overcoat, dark glasses, and false nose — making himself visible.",
+      "difficulty": "medium",
+      "tags": ["footprints-without-feet", "plot", "visible"]
+    },
+    {
+      "id": "q_english_10_w23_s2_003",
+      "goalId": "grade10-english",
+      "question": "The ironical aspect of the story 'Footprints Without Feet' is that Griffin:",
+      "options": ["Is caught by the police despite being invisible", "Uses his scientific genius for lawless and selfish purposes rather than for humanity's benefit", "Never actually becomes invisible", "Helps a poor woman with his power"],
+      "correctIndex": 1,
+      "explanation": "The irony: Griffin has a remarkable scientific achievement (invisibility) but wastes it on petty theft and escaping the law. His genius serves no good purpose — a commentary on science used without ethics.",
+      "difficulty": "hard",
+      "tags": ["footprints-without-feet", "irony", "theme"]
+    },
+    {
+      "id": "q_english_10_w23_s2_004",
+      "goalId": "grade10-english",
+      "question": "In 'The Hundred Dresses', what does Wanda Petronski do daily that draws mockery from classmates?",
+      "options": ["She always wears the same faded blue dress but claims to own a hundred dresses", "She never speaks to anyone", "She draws pictures of dresses during class", "She is always late to school"],
+      "correctIndex": 0,
+      "explanation": "Wanda always comes to school in the same faded blue dress but claims she has a hundred dresses at home — all lined up in her closet. This claim invites mockery from Maddie and Peggy.",
+      "difficulty": "easy",
+      "tags": ["hundred-dresses", "wanda", "plot"]
+    },
+    {
+      "id": "q_english_10_w23_s2_005",
+      "goalId": "grade10-english",
+      "question": "The moral/lesson of 'The Hundred Dresses' is best expressed as:",
+      "options": ["Stand up for the truth at all times", "Bullying and mockery cause lasting harm; empathy and courage to defend the vulnerable are vital", "Talent always wins in the end", "Never tell lies, no matter the situation"],
+      "correctIndex": 1,
+      "explanation": "The story teaches the harms of bullying and the importance of speaking up for those who are mocked. Maddie's guilt at not defending Wanda reflects the cost of passive complicity in cruelty.",
+      "difficulty": "medium",
+      "tags": ["hundred-dresses", "moral", "bullying"]
+    },
+    {
+      "id": "q_english_10_w23_s2_006",
+      "goalId": "grade10-english",
+      "question": "Identify the correct reported speech: 'He said, \"I am going to the market.\"'",
+      "options": ["He said that he is going to the market.", "He said that he was going to the market.", "He told that he was going to market.", "He said he will go to the market."],
+      "correctIndex": 1,
+      "explanation": "Present continuous 'am going' shifts to past continuous 'was going' in indirect speech. 'I' changes to 'he'. → He said that he was going to the market.",
+      "difficulty": "easy",
+      "tags": ["reported-speech", "grammar", "tense-change"]
+    },
+    {
+      "id": "q_english_10_w23_s2_007",
+      "goalId": "grade10-english",
+      "question": "The author of 'Footprints Without Feet' is:",
+      "options": ["Roald Dahl", "H.G. Wells", "Arthur Conan Doyle", "Jules Verne"],
+      "correctIndex": 1,
+      "explanation": "'Footprints Without Feet' is adapted from the novel 'The Invisible Man' (1897) by H.G. Wells — a pioneer of science fiction. He also wrote The War of the Worlds and The Time Machine.",
+      "difficulty": "easy",
+      "tags": ["footprints-without-feet", "author", "HG-Wells"]
+    },
+    {
+      "id": "q_english_10_w23_s2_008",
+      "goalId": "grade10-english",
+      "question": "A 'formal letter of complaint' should include which of the following?",
+      "options": ["Personal feelings and emotional language", "The specific problem, what you expect as resolution, formal tone, and date/address", "Casual language and abbreviations", "A postscript (P.S.) only"],
+      "correctIndex": 1,
+      "explanation": "A formal complaint letter: sender's address, date, recipient's address, subject, formal salutation, clear description of the complaint, expected action/resolution, and closing. Formal tone throughout.",
+      "difficulty": "medium",
+      "tags": ["complaint-letter", "format", "writing-skills"]
+    },
+    {
+      "id": "q_english_10_w23_s2_009",
+      "goalId": "grade10-english",
+      "question": "Identify the type of noun underlined: 'The *courage* of the soldiers impressed everyone.'",
+      "options": ["Proper noun", "Collective noun", "Abstract noun", "Material noun"],
+      "correctIndex": 2,
+      "explanation": "'Courage' is an abstract noun — it refers to a quality or concept that cannot be seen or touched. Abstract nouns name feelings, qualities, ideas: courage, honesty, freedom, love.",
+      "difficulty": "easy",
+      "tags": ["abstract-noun", "parts-of-speech", "grammar"]
+    },
+    {
+      "id": "q_english_10_w23_s2_010",
+      "goalId": "grade10-english",
+      "question": "Transformation: Change 'He is too weak to lift the box.' to positive degree.",
+      "options": ["He is very weak and cannot lift the box.", "He is not strong enough to lift the box.", "He is so weak that he cannot lift the box.", "All of the above"],
+      "correctIndex": 3,
+      "explanation": "'Too + adjective + to' can be transformed to 'so + adjective + that + subject + cannot' OR 'not + adjective + enough + to'. All three options correctly express the same meaning.",
+      "difficulty": "hard",
+      "tags": ["degree-transformation", "grammar", "too-to"]
+    },
+    {
+      "id": "q_english_10_w23_s2_011",
+      "goalId": "grade10-english",
+      "question": "The setting of 'The Hundred Dresses' is:",
+      "options": ["A small village in Poland", "An American school (elementary school) in a small town", "A city in England", "A Polish immigrant neighbourhood"],
+      "correctIndex": 1,
+      "explanation": "The story is set in an American elementary school. Wanda Petronski is a Polish immigrant whose unusual surname and poverty mark her as an outsider in the class.",
+      "difficulty": "medium",
+      "tags": ["hundred-dresses", "setting", "plot"]
+    },
+    {
+      "id": "q_english_10_w23_s2_012",
+      "goalId": "grade10-english",
+      "question": "The word 'benign' means:",
+      "options": ["Harmful and destructive", "Gentle, kindly, or not harmful (of a tumour: non-cancerous)", "Sad and melancholic", "Secretive"],
+      "correctIndex": 1,
+      "explanation": "'Benign' means gentle and kindly (of a person) or not harmful (of a condition/tumour). Antonym: malignant. E.g., 'a benign smile', 'a benign tumour'.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "benign", "word-meaning"]
+    },
+    {
+      "id": "q_english_10_w23_s2_013",
+      "goalId": "grade10-english",
+      "question": "Which tense uses the structure 'had + past participle'?",
+      "options": ["Simple past", "Present perfect", "Past perfect", "Future perfect"],
+      "correctIndex": 2,
+      "explanation": "Past perfect: had + past participle. Used for an action completed BEFORE another past action: 'By the time she arrived, he had already left.' It is the 'past of the past'.",
+      "difficulty": "medium",
+      "tags": ["past-perfect", "tense", "grammar"]
+    },
+    {
+      "id": "q_english_10_w23_s2_014",
+      "goalId": "grade10-english",
+      "question": "In 'Footprints Without Feet', where does Griffin hide after burning his landlord's house?",
+      "options": ["In a London hotel", "In the village of Iping in winter", "At a theatrical goods store", "In the London streets, entering various shops to keep warm"],
+      "correctIndex": 3,
+      "explanation": "After burning his landlord's house and shedding clothes to escape, the naked Griffin enters various London shops (a big London store) at night to keep warm and steal food and clothes.",
+      "difficulty": "medium",
+      "tags": ["footprints-without-feet", "plot", "griffin"]
+    },
+    {
+      "id": "q_english_10_w23_s2_015",
+      "goalId": "grade10-english",
+      "question": "Identify the error: 'Neither of the students have submitted their assignment.'",
+      "options": ["Neither → None", "'have' should be 'has' (neither takes singular verb)", "'their' should be 'his'", "No error"],
+      "correctIndex": 1,
+      "explanation": "'Neither' is singular and requires a singular verb: 'Neither of the students HAS submitted...' Also, 'their' is acceptable as a gender-neutral pronoun in modern usage. The main error is 'have' → 'has'.",
+      "difficulty": "hard",
+      "tags": ["subject-verb-agreement", "neither", "error-correction"]
+    }
+  ]
+}

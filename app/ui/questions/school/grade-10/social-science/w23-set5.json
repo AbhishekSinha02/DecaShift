@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-social-science",
+  "title": "Grade 10 Social Science — Political Parties & Mixed Review",
+  "description": "Political parties, democracy, and mixed review of history, geography, economics",
+  "category": "school",
+  "grade": 10,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_ss_10_w23_s5_001",
+      "goalId": "grade10-social-science",
+      "question": "Political parties are essential to democracy because they:",
+      "options": ["Ensure the ruling party wins every election", "Contest elections, form governments, pass policies, and give voters organised choices between different visions", "Remove the need for elections", "Represent only the interests of the wealthy"],
+      "correctIndex": 1,
+      "explanation": "Political parties: (1) contest elections, (2) put forward policies, (3) form and run governments, (4) play opposition role, (5) shape public opinion. Without parties, individual candidates cannot organise government.",
+      "difficulty": "easy",
+      "tags": ["political-parties", "democracy", "functions"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_002",
+      "goalId": "grade10-social-science",
+      "question": "The main challenge facing political parties in India today is:",
+      "options": ["Too many parties participating in elections", "Dynastic politics, corruption, lack of internal democracy, and criminalisation of politics", "Too few voters participating", "Excessive government regulation of parties"],
+      "correctIndex": 1,
+      "explanation": "Key challenges: dynastic succession (only family members get top positions), corruption, lack of internal democracy (party members cannot choose leaders freely), and candidates with criminal records.",
+      "difficulty": "medium",
+      "tags": ["challenges", "political-parties", "india"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_003",
+      "goalId": "grade10-social-science",
+      "question": "A 'national party' in India is recognised based on:",
+      "options": ["Having the most seats in Parliament", "Meeting Election Commission criteria — at least 6% of votes in 4+ states or winning 2% of Lok Sabha seats from 3+ states", "Being in power at the Centre", "Having offices in all state capitals"],
+      "correctIndex": 1,
+      "explanation": "The Election Commission of India recognises national parties based on vote share (≥6% in 4+ states and 4+ seats in Lok Sabha) or seats won (≥2% of LS seats from ≥3 states). Currently: BJP, INC, AAP, BSP, CPI(M), NCP, NPP.",
+      "difficulty": "hard",
+      "tags": ["national-party", "election-commission", "recognition"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_004",
+      "goalId": "grade10-social-science",
+      "question": "The right to vote in India is exercised:",
+      "options": ["Only by people with education", "By all Indian citizens aged 18 and above (universal adult franchise)", "Only by people who pay taxes", "Only by men"],
+      "correctIndex": 1,
+      "explanation": "India has Universal Adult Franchise — every citizen aged 18+ has the right to vote regardless of caste, class, religion, gender, or education. This right was granted from the 1950 Constitution (not progressive — immediate from the start).",
+      "difficulty": "easy",
+      "tags": ["universal-adult-franchise", "voting-age", "democracy"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_005",
+      "goalId": "grade10-social-science",
+      "question": "The Non-Cooperation Movement (1920-22) asked Indians to boycott:",
+      "options": ["Only British goods", "Government schools, courts, titles and honours, legislative councils, and British goods", "Only salt", "Military service only"],
+      "correctIndex": 1,
+      "explanation": "Non-Cooperation Movement: boycott of (1) government-run schools/colleges, (2) law courts, (3) British titles and honours (people returned OBE etc.), (4) legislative councils, (5) foreign goods. Also hartals (strikes).",
+      "difficulty": "medium",
+      "tags": ["non-cooperation", "boycott", "gandhi"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_006",
+      "goalId": "grade10-social-science",
+      "question": "The Mineral-based industry located near raw material sources in India is:",
+      "options": ["Textile industry (cotton mills)", "Iron and steel industry (near iron ore and coal deposits)", "Software industry", "Pharmaceutical industry"],
+      "correctIndex": 1,
+      "explanation": "Iron and steel is a weight-losing industry (raw materials are heavier than finished product) — located near iron ore, coal, limestone, and water (Jharkhand-Odisha-Chhattisgarh belt: Jamshedpur, Rourkela, Bhilai).",
+      "difficulty": "medium",
+      "tags": ["iron-steel", "raw-material", "industry-location"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_007",
+      "goalId": "grade10-social-science",
+      "question": "The Green Revolution in India primarily benefited which crops?",
+      "options": ["Cotton and jute", "Wheat and rice (through high-yielding variety seeds, fertilisers, and irrigation)", "Pulses and oilseeds", "Tea and coffee"],
+      "correctIndex": 1,
+      "explanation": "The Green Revolution (1960s-70s) introduced HYV seeds, fertilisers, and irrigation — primarily for wheat (Punjab, Haryana) and rice (Punjab, Tamil Nadu). It made India self-sufficient in foodgrains.",
+      "difficulty": "easy",
+      "tags": ["green-revolution", "wheat-rice", "agriculture"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_008",
+      "goalId": "grade10-social-science",
+      "question": "Globalisation in economics refers to:",
+      "options": ["Making all countries speak the same language", "Integration of economies through free movement of goods, services, capital, and ideas across national borders", "Only international trade in physical goods", "Colonisation of poor countries by rich ones"],
+      "correctIndex": 1,
+      "explanation": "Globalisation = integration of the world economy: trade in goods/services, movement of capital (FDI), sharing of technology, and cultural exchange across borders. Enabled by technology, cheaper transport, and liberalisation.",
+      "difficulty": "medium",
+      "tags": ["globalisation", "definition", "economics"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_009",
+      "goalId": "grade10-social-science",
+      "question": "NREGA (National Rural Employment Guarantee Act) guarantees:",
+      "options": ["Free education for all children", "100 days of wage employment per year to every rural household willing to do unskilled work", "Free housing for all BPL families", "Reservation in government jobs"],
+      "correctIndex": 1,
+      "explanation": "NREGA (2005), now MGNREGS, guarantees 100 days of unskilled manual work to every rural household per year at minimum wages. It is a demand-driven employment guarantee scheme.",
+      "difficulty": "medium",
+      "tags": ["NREGA", "employment-guarantee", "rural-development"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_010",
+      "goalId": "grade10-social-science",
+      "question": "The 'Champaran Satyagraha' (1917) was Gandhi's first in India and was against:",
+      "options": ["The salt tax", "The forced cultivation of indigo by peasants under the tinkathia system", "The partition of Bengal", "British tax on cloth"],
+      "correctIndex": 1,
+      "explanation": "In Champaran (Bihar), Gandhi led the first satyagraha in India (1917) against the tinkathia system — planters forced peasants to cultivate indigo on 3/20 of their land at a fixed low price. It was his first major success in India.",
+      "difficulty": "medium",
+      "tags": ["champaran", "satyagraha", "gandhi"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_011",
+      "goalId": "grade10-social-science",
+      "question": "Consumer rights in India are protected by the:",
+      "options": ["Indian Penal Code", "Consumer Protection Act (1986, updated 2019)", "Companies Act", "Trade Union Act"],
+      "correctIndex": 1,
+      "explanation": "The Consumer Protection Act (1986, strengthened in 2019) protects buyers of goods and services. It established consumer forums (district/state/national), and gives consumers rights to safety, information, choice, redressal, and education.",
+      "difficulty": "medium",
+      "tags": ["consumer-rights", "consumer-protection-act", "economics"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_012",
+      "goalId": "grade10-social-science",
+      "question": "The National Food Security Act (2013) ensures:",
+      "options": ["Exports of food from India", "Subsidised food (rice at ₹3/kg, wheat at ₹2/kg) to two-thirds of India's population through the PDS", "Free meals at all government offices", "Only organic farming"],
+      "correctIndex": 1,
+      "explanation": "NFSA 2013: provides highly subsidised grain to 67% of India's population — 50% of urban and 75% of rural. Poorest families (Antyodaya) get 35 kg/month; priority households get 5 kg/person/month.",
+      "difficulty": "medium",
+      "tags": ["NFSA", "food-security", "PDS"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_013",
+      "goalId": "grade10-social-science",
+      "question": "The Deccan Riots (1875) in Maharashtra were directed against:",
+      "options": ["British colonial administrators", "Local moneylenders (sowcars) by peasants crushed by debt and dispossession", "Indigo planters", "The Nizam of Hyderabad"],
+      "correctIndex": 1,
+      "explanation": "The Deccan Riots (Pune district, 1875): Maratha peasants attacked moneylenders (baniyas/sowcars), destroying account books and debt bonds. They resented exploitation through high interest and land dispossession.",
+      "difficulty": "hard",
+      "tags": ["deccan-riots", "moneylenders", "peasant-protest"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_014",
+      "goalId": "grade10-social-science",
+      "question": "Federalism in India means:",
+      "options": ["All power is with the central government", "Power is divided between the Union (Centre) and the States, with both having specified areas of authority", "States are fully independent from the Centre", "Only states make laws"],
+      "correctIndex": 1,
+      "explanation": "India's federal structure (Part XI, Constitution): Union List (97 subjects), State List (66 subjects), Concurrent List (47 shared subjects). The Centre has residual powers. India is called a 'quasi-federal' state.",
+      "difficulty": "medium",
+      "tags": ["federalism", "union-state-list", "constitution"]
+    },
+    {
+      "id": "q_ss_10_w23_s5_015",
+      "goalId": "grade10-social-science",
+      "question": "India's location advantage (time zone) in the global information technology services sector is that:",
+      "options": ["India has the cheapest technology", "India's time zone (IST = UTC+5:30) complements US/European business hours — allowing round-the-clock service", "India has the fastest internet speeds", "India is geographically central to all continents"],
+      "correctIndex": 1,
+      "explanation": "When the US East Coast ends business (5PM), it is 3:30 AM in India — so Indian IT teams work during US night, giving 24-hour service. This time zone advantage helped India's BPO/IT services boom.",
+      "difficulty": "hard",
+      "tags": ["IT-services", "time-zone", "globalisation"]
+    }
+  ]
+}

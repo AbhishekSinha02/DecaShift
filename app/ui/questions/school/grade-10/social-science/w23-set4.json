@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-social-science",
+  "title": "Grade 10 Social Science — Development (Economics)",
+  "description": "Economic development, national income, HDI, sectors of economy",
+  "category": "school",
+  "grade": 10,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_ss_10_w23_s4_001",
+      "goalId": "grade10-social-science",
+      "question": "Development means different things to different people. For a landless rural labourer, development might mean:",
+      "options": ["Building more highways", "More jobs, better wages, and security of livelihood", "A stronger military", "Opening more schools in cities"],
+      "correctIndex": 1,
+      "explanation": "Development goals differ by circumstance: a landless labourer needs employment and wages; a tribal family may need forest access; a woman may need safety and equality. Development = meeting people's real needs.",
+      "difficulty": "easy",
+      "tags": ["development", "goals", "economics"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_002",
+      "goalId": "grade10-social-science",
+      "question": "Per capita income is:",
+      "options": ["Total income of only the richest 10% of people", "Total national income / total population — average income per person", "Income of the government", "Income from agriculture only"],
+      "correctIndex": 1,
+      "explanation": "Per capita income = Total National Income / Total Population. Used by the World Bank to classify countries. Limitation: it doesn't show DISTRIBUTION — a high average can hide extreme inequality.",
+      "difficulty": "easy",
+      "tags": ["per-capita-income", "definition", "economics"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_003",
+      "goalId": "grade10-social-science",
+      "question": "The Human Development Index (HDI) measures development using:",
+      "options": ["GDP per capita only", "Three indicators: health (life expectancy), education (literacy/schooling), and standard of living (income)", "Military power and trade balance", "Agricultural output and industrial production"],
+      "correctIndex": 1,
+      "explanation": "HDI (UNDP) measures: (1) Long and healthy life (life expectancy at birth); (2) Knowledge (mean + expected years of schooling); (3) Decent standard of living (GNI per capita at PPP). Range: 0 to 1.",
+      "difficulty": "medium",
+      "tags": ["HDI", "three-indicators", "UNDP"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_004",
+      "goalId": "grade10-social-science",
+      "question": "Kerala has a high HDI despite lower per capita income than some other states because:",
+      "options": ["It exports more goods", "It has high literacy, good healthcare, and social equity — especially for women", "It receives more central government funds", "Its geography gives it natural advantages"],
+      "correctIndex": 1,
+      "explanation": "Kerala invests heavily in education and healthcare. Its literacy rate (~99%) and life expectancy are among India's highest. This shows that development is not just about income — social investment matters.",
+      "difficulty": "medium",
+      "tags": ["kerala", "HDI", "social-development"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_005",
+      "goalId": "grade10-social-science",
+      "question": "The primary sector of the economy includes:",
+      "options": ["Manufacturing and construction", "Banking and insurance", "Agriculture, forestry, fishing, and mining (extraction from nature)", "Trade and transport"],
+      "correctIndex": 2,
+      "explanation": "Primary sector: activities directly using natural resources — farming, fishing, mining, forestry, animal husbandry. Secondary sector: manufacturing. Tertiary sector: services (banking, trade, transport).",
+      "difficulty": "easy",
+      "tags": ["primary-sector", "three-sectors", "economics"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_006",
+      "goalId": "grade10-social-science",
+      "question": "Sustainable development means:",
+      "options": ["Maximising present economic growth at any cost", "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs", "Only agricultural development", "Technology-driven growth only"],
+      "correctIndex": 1,
+      "explanation": "Sustainable Development (Brundtland Commission, 1987): present development must not destroy resources/environment needed by future generations. It balances economic, social, and environmental concerns.",
+      "difficulty": "medium",
+      "tags": ["sustainable-development", "definition", "environment"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_007",
+      "goalId": "grade10-social-science",
+      "question": "The Gross Domestic Product (GDP) measures:",
+      "options": ["Only government revenue", "Total value of goods and services produced within a country in a year", "Total exports minus imports", "Total agricultural output"],
+      "correctIndex": 1,
+      "explanation": "GDP = total value of all goods and services produced within a country's borders in a given year. GNI (formerly GNP) adds income from abroad. GDP per capita = GDP ÷ population.",
+      "difficulty": "easy",
+      "tags": ["GDP", "definition", "national-income"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_008",
+      "goalId": "grade10-social-science",
+      "question": "Infant Mortality Rate (IMR) is an indicator of development because:",
+      "options": ["More infants born means higher GDP", "Low IMR indicates better healthcare, nutrition, and living conditions for all", "High IMR means more population growth", "It measures agricultural productivity"],
+      "correctIndex": 1,
+      "explanation": "IMR = number of children dying before age 1 per 1000 live births. Low IMR = good healthcare, clean water, nutrition, and maternal care. It's a sensitive measure of overall social development.",
+      "difficulty": "medium",
+      "tags": ["IMR", "infant-mortality", "development-indicator"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_009",
+      "goalId": "grade10-social-science",
+      "question": "Punjab has a high per capita income but relatively lower HDI rank compared to Kerala because:",
+      "options": ["Punjab has less agriculture", "Punjab's income growth hasn't equally translated into health/education improvements for all, unlike Kerala's model", "Kerala has higher per capita income", "Punjab is a smaller state"],
+      "correctIndex": 1,
+      "explanation": "Punjab's per capita income is high (Green Revolution agriculture) but social indicators lag — female literacy, infant mortality in some areas. Kerala prioritised human development spending, achieving better HDI despite lower income.",
+      "difficulty": "hard",
+      "tags": ["punjab", "kerala", "HDI-comparison"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_010",
+      "goalId": "grade10-social-science",
+      "question": "Public Distribution System (PDS) in India is an example of:",
+      "options": ["Free market economy", "Government intervention to ensure food security for the poor (subsidised food grains)", "Export promotion", "Agricultural privatisation"],
+      "correctIndex": 1,
+      "explanation": "PDS distributes subsidised food grains (rice, wheat) to Below-Poverty-Line households through 'ration shops'. It is a key food security measure, reducing hunger even if per capita income is low.",
+      "difficulty": "medium",
+      "tags": ["PDS", "food-security", "government-intervention"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_011",
+      "goalId": "grade10-social-science",
+      "question": "The literacy rate in India's economic context primarily matters because:",
+      "options": ["It allows people to read newspapers", "Educated people are more productive, earn better, can access healthcare information, and participate in democracy", "The government collects more taxes from educated people", "International tourists prefer literate populations"],
+      "correctIndex": 1,
+      "explanation": "Literacy is both an end (human development goal) and a means: literate people earn more, manage health better, participate in democracy, and are better able to demand their rights.",
+      "difficulty": "medium",
+      "tags": ["literacy", "human-development", "economics"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_012",
+      "goalId": "grade10-social-science",
+      "question": "The body that publishes the Human Development Report annually is:",
+      "options": ["World Bank", "International Monetary Fund (IMF)", "United Nations Development Programme (UNDP)", "World Health Organisation (WHO)"],
+      "correctIndex": 2,
+      "explanation": "The UNDP (United Nations Development Programme) publishes the annual Human Development Report and Human Development Index. It tracks development progress across 191+ countries.",
+      "difficulty": "easy",
+      "tags": ["UNDP", "HDR", "international-organisations"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_013",
+      "goalId": "grade10-social-science",
+      "question": "Underground (black) economy refers to:",
+      "options": ["Agriculture done at night", "Economic activities not reported to the government (untaxed, informal, illegal)", "Mining activities", "Energy produced from coal"],
+      "correctIndex": 1,
+      "explanation": "The underground (informal/black) economy includes unreported economic activity — street vendors, informal labour, black market transactions — not captured in official GDP. It is a challenge for accurate national income measurement.",
+      "difficulty": "hard",
+      "tags": ["informal-economy", "black-economy", "GDP"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_014",
+      "goalId": "grade10-social-science",
+      "question": "Which of the following is NOT an example of 'non-material' aspects of development?",
+      "options": ["Right to vote", "Respect and dignity", "GDP growth", "Freedom from caste discrimination"],
+      "correctIndex": 2,
+      "explanation": "Development includes non-material aspects: freedom, equality, dignity, political rights, security, and cultural values. GDP growth is a material indicator. True development encompasses both material AND non-material well-being.",
+      "difficulty": "hard",
+      "tags": ["non-material-development", "amartya-sen", "capabilities"]
+    },
+    {
+      "id": "q_ss_10_w23_s4_015",
+      "goalId": "grade10-social-science",
+      "question": "Net Attendance Ratio in education measures:",
+      "options": ["Number of schools in a district", "The percentage of children of school-going age who attend school", "Average marks scored by students", "Number of teachers per student"],
+      "correctIndex": 1,
+      "explanation": "Net Attendance Ratio = (number of children of school-going age attending school / total number of children of that age) × 100. It is a key educational development indicator.",
+      "difficulty": "medium",
+      "tags": ["net-attendance-ratio", "education", "development-indicator"]
+    }
+  ]
+}

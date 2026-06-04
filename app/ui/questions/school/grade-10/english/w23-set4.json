@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-english",
+  "title": "Grade 10 English — Formal & Informal Writing + Vocabulary",
+  "description": "Letter types, notice writing, paragraph development, advanced vocabulary",
+  "category": "school",
+  "grade": 10,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_10_w23_s4_001",
+      "goalId": "grade10-english",
+      "question": "A notice for a school event should include:",
+      "options": ["Long paragraphs of description", "Name of the organisation, date of issue, what/when/where/who, and sign-off by the issuing authority", "Personal opinions of the writer", "Informal language and contractions"],
+      "correctIndex": 1,
+      "explanation": "A notice: heading (NOTICE), organisation name, date, purpose (what), event details (when/where/who), contact info, and signature of the issuing authority. It is formal, brief, and informative.",
+      "difficulty": "medium",
+      "tags": ["notice-writing", "format", "school-notice"]
+    },
+    {
+      "id": "q_english_10_w23_s4_002",
+      "goalId": "grade10-english",
+      "question": "The word 'procrastination' means:",
+      "options": ["Being very organised", "The habit of delaying or postponing tasks that should be done", "Working very efficiently", "Being too eager to complete work"],
+      "correctIndex": 1,
+      "explanation": "'Procrastination' means the action of delaying or postponing something. 'Procrastinate' (verb). Latin: pro (forward) + crastinus (of tomorrow). 'Procrastination is the thief of time.'",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "procrastination", "word-meaning"]
+    },
+    {
+      "id": "q_english_10_w23_s4_003",
+      "goalId": "grade10-english",
+      "question": "Fill in the blank with the correct preposition: 'She is good _____ mathematics.'",
+      "options": ["in", "for", "at", "with"],
+      "correctIndex": 2,
+      "explanation": "'Good at' + subject/activity: She is good at mathematics, good at singing, good at sports. Not 'good in' (incorrect with skills/subjects in this context).",
+      "difficulty": "easy",
+      "tags": ["prepositions", "grammar", "fill-in-blank"]
+    },
+    {
+      "id": "q_english_10_w23_s4_004",
+      "goalId": "grade10-english",
+      "question": "An application letter to the headmaster asking for leave should begin with:",
+      "options": ["A casual 'Hi'", "A formal 'Dear Sir/Madam' after the address and date", "The student's name only", "The leave dates only"],
+      "correctIndex": 1,
+      "explanation": "Format: Student's address, Date, The Principal/HM, School name, Subject: Application for leave, Dear Sir/Madam, Body (reason, dates, request), Yours faithfully, Name & Class.",
+      "difficulty": "easy",
+      "tags": ["application-letter", "format", "leave-application"]
+    },
+    {
+      "id": "q_english_10_w23_s4_005",
+      "goalId": "grade10-english",
+      "question": "The word 'impetuous' means:",
+      "options": ["Cautious and careful", "Acting or done quickly without thinking; rash", "Generous and kind", "Slow and deliberate"],
+      "correctIndex": 1,
+      "explanation": "'Impetuous' means acting quickly and without thought or care; rash. E.g., 'an impetuous decision'. Synonyms: rash, hasty, impulsive. Antonym: cautious, deliberate.",
+      "difficulty": "hard",
+      "tags": ["vocabulary", "impetuous", "word-meaning"]
+    },
+    {
+      "id": "q_english_10_w23_s4_006",
+      "goalId": "grade10-english",
+      "question": "Identify the error: 'The news are very disturbing.'",
+      "options": ["'very' should be 'much'", "'are' should be 'is' — 'news' is uncountable and takes a singular verb", "'disturbing' should be 'disturbed'", "No error"],
+      "correctIndex": 1,
+      "explanation": "'News' appears plural but is grammatically singular (uncountable): 'The news IS very disturbing'. Other singular uncountable nouns: information, furniture, luggage, advice, equipment.",
+      "difficulty": "medium",
+      "tags": ["subject-verb-agreement", "uncountable-nouns", "error-correction"]
+    },
+    {
+      "id": "q_english_10_w23_s4_007",
+      "goalId": "grade10-english",
+      "question": "Identify the sentence with correct use of articles:",
+      "options": ["He is a honest man.", "She is an honest woman.", "They live in a Europe.", "I saw an one-eyed cat."],
+      "correctIndex": 1,
+      "explanation": "'An honest woman' is correct — 'an' before words beginning with a vowel SOUND. 'Honest' starts with a silent 'h', so it sounds like 'onest' → use 'an'. 'A honest man' = wrong (silent h makes it vowel sound).",
+      "difficulty": "medium",
+      "tags": ["articles", "a-an", "grammar"]
+    },
+    {
+      "id": "q_english_10_w23_s4_008",
+      "goalId": "grade10-english",
+      "question": "In an informal letter to a friend, which closing is most appropriate?",
+      "options": ["Yours faithfully", "Yours sincerely", "With love / Your friend / Best wishes", "Respectfully yours"],
+      "correctIndex": 2,
+      "explanation": "Informal letter closings: 'With love', 'Your friend', 'Best wishes', 'Take care'. 'Yours sincerely' = semi-formal. 'Yours faithfully' = formal (unknown recipient). Match the tone to the relationship.",
+      "difficulty": "easy",
+      "tags": ["informal-letter", "closing", "format"]
+    },
+    {
+      "id": "q_english_10_w23_s4_009",
+      "goalId": "grade10-english",
+      "question": "The word 'cacophony' refers to:",
+      "options": ["Beautiful, harmonious music", "A harsh, discordant mixture of sounds", "Complete silence", "A type of poetry"],
+      "correctIndex": 1,
+      "explanation": "'Cacophony' means a harsh or discordant mixture of sounds. From Greek: kakos (bad) + phone (voice/sound). Antonym: euphony (pleasing sounds). 'The cacophony of traffic was deafening.'",
+      "difficulty": "hard",
+      "tags": ["vocabulary", "cacophony", "word-meaning"]
+    },
+    {
+      "id": "q_english_10_w23_s4_010",
+      "goalId": "grade10-english",
+      "question": "The word 'eminent' means:",
+      "options": ["About to happen soon (imminent)", "Famous and respected in a particular field", "Dangerous or threatening", "Secretive"],
+      "correctIndex": 1,
+      "explanation": "'Eminent' means famous, respected, distinguished: 'an eminent scientist'. Do NOT confuse with 'imminent' (about to happen). Mnemonic: e-MINent = someone with MIN-important fame.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "eminent-vs-imminent", "word-meaning"]
+    },
+    {
+      "id": "q_english_10_w23_s4_011",
+      "goalId": "grade10-english",
+      "question": "What does 'The Hundred Dresses' tell us about the author Eleanor Estes?",
+      "options": ["She was Polish herself", "The story is semi-autobiographical — Estes felt guilty about not defending a real classmate like Wanda", "She was a famous artist", "She wrote exclusively about immigrants"],
+      "correctIndex": 1,
+      "explanation": "Eleanor Estes based the story on a real classmate, Wanda Petronski, and her own guilt at not defending her. The story explores how passive bystanders are also responsible for bullying.",
+      "difficulty": "hard",
+      "tags": ["hundred-dresses", "eleanor-estes", "background"]
+    },
+    {
+      "id": "q_english_10_w23_s4_012",
+      "goalId": "grade10-english",
+      "question": "Identify the tautology (needless repetition of meaning):",
+      "options": ["free gift", "old proverb", "Both A and B (a gift is always free; a proverb implies age)", "Neither A nor B"],
+      "correctIndex": 2,
+      "explanation": "Tautology = saying the same thing twice: 'free gift' (gifts are always free), 'old proverb' (proverbs are old/traditional), 'past history', 'advance warning', 'revert back'. These are redundant expressions.",
+      "difficulty": "hard",
+      "tags": ["tautology", "redundancy", "grammar"]
+    },
+    {
+      "id": "q_english_10_w23_s4_013",
+      "goalId": "grade10-english",
+      "question": "A 'summary' differs from a 'paraphrase' in that a summary:",
+      "options": ["Replaces difficult words with easier ones", "Condenses the main points, omitting details; paraphrase rewrites at similar length in own words", "Is longer than the original text", "Focuses only on one paragraph"],
+      "correctIndex": 1,
+      "explanation": "Summary: shorter version capturing only the main ideas (usually ¼–⅓ original length). Paraphrase: rewriting in own words at roughly the same length, changing structure but keeping all details.",
+      "difficulty": "medium",
+      "tags": ["summary-vs-paraphrase", "writing-skills", "comprehension"]
+    },
+    {
+      "id": "q_english_10_w23_s4_014",
+      "goalId": "grade10-english",
+      "question": "Choose the correct sentence:",
+      "options": ["The data is incorrect.", "The data are incorrect.", "Both are correct in modern usage", "Neither is correct"],
+      "correctIndex": 2,
+      "explanation": "'Data' is technically the plural of 'datum'. In formal/academic writing: 'data are' (plural). In everyday use: 'data is' (treated as uncountable). Both are widely accepted today. Context matters.",
+      "difficulty": "hard",
+      "tags": ["data-singular-plural", "grammar", "usage"]
+    },
+    {
+      "id": "q_english_10_w23_s4_015",
+      "goalId": "grade10-english",
+      "question": "The word 'gregarious' means:",
+      "options": ["Afraid of crowds", "Fond of company; sociable and outgoing", "Solitary and reserved", "Related to sheep (originally)"],
+      "correctIndex": 1,
+      "explanation": "'Gregarious' means fond of company, sociable. It comes from Latin 'grex' (flock/herd) — originally describing animals that move in groups. A gregarious person loves being with others.",
+      "difficulty": "medium",
+      "tags": ["vocabulary", "gregarious", "word-meaning"]
+    }
+  ]
+}

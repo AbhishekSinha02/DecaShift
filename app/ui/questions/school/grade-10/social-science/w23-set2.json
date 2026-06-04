@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-social-science",
+  "title": "Grade 10 Social Science — Civil Disobedience Movement & Salt March",
+  "description": "Gandhi's Civil Disobedience Movement, Dandi March, and its impact on Indian nationalism",
+  "category": "school",
+  "grade": 10,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_ss_10_w23_s2_001",
+      "goalId": "grade10-social-science",
+      "question": "The Civil Disobedience Movement began in 1930 with Gandhi's famous:",
+      "options": ["Non-Cooperation Movement launch", "Dandi March (Salt March) — 240-mile march to make salt at Dandi", "Quit India Movement speech", "Round Table Conference boycott"],
+      "correctIndex": 1,
+      "explanation": "The CDM began with the Dandi March (March 12 – April 6, 1930): Gandhi led a 240-mile march from Sabarmati Ashram to Dandi (coastal Gujarat) to make salt from seawater, defying the British salt tax.",
+      "difficulty": "easy",
+      "tags": ["civil-disobedience", "dandi-march", "gandhi"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_002",
+      "goalId": "grade10-social-science",
+      "question": "Why was salt chosen as the symbol of Civil Disobedience?",
+      "options": ["Salt was expensive and only the rich could afford it", "Salt was used only by the British", "Salt was used by everyone regardless of class/region — taxing it hit all Indians, making it a unifying symbol", "Salt was produced only in coastal areas"],
+      "correctIndex": 2,
+      "explanation": "Salt was a perfect symbol: every Indian needed it, so taxing salt was a burden on the poorest. It was a unifying issue across class, religion, and region — making the CDM truly mass-based.",
+      "difficulty": "medium",
+      "tags": ["salt-tax", "symbol", "civil-disobedience"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_003",
+      "goalId": "grade10-social-science",
+      "question": "The Gandhi-Irwin Pact (1931) resulted in:",
+      "options": ["India getting independence", "Gandhi agreeing to attend the Second Round Table Conference; British releasing political prisoners and withdrawing the salt ordinance", "British granting provincial autonomy", "The suspension of all nationalist movements permanently"],
+      "correctIndex": 1,
+      "explanation": "The Gandhi-Irwin Pact: Gandhi agreed to attend the 2nd Round Table Conference (London); British agreed to release political prisoners and withdraw salt ordinance. CDM was temporarily suspended.",
+      "difficulty": "medium",
+      "tags": ["gandhi-irwin-pact", "negotiation", "1931"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_004",
+      "goalId": "grade10-social-science",
+      "question": "Which groups participated LESS in the Civil Disobedience Movement compared to Non-Cooperation?",
+      "options": ["Women", "Muslim League and Dalits (who had their own concerns about representation)", "Industrial workers", "Peasant farmers"],
+      "correctIndex": 1,
+      "explanation": "The Muslim League and many Dalit groups participated less in CDM. The Muslim League wanted separate electorates; Ambedkar focused on Dalit representation. This reflected growing communal and caste tensions.",
+      "difficulty": "hard",
+      "tags": ["civil-disobedience", "limitations", "muslim-league", "dalits"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_005",
+      "goalId": "grade10-social-science",
+      "question": "What was the 'Rowlatt Act' (1919) that provoked mass protests?",
+      "options": ["An act giving Indians more rights in courts", "A colonial law allowing detention without trial for up to 2 years — called the 'Black Act' by nationalists", "An act regulating the press", "A tax on handloom cloth"],
+      "correctIndex": 1,
+      "explanation": "The Rowlatt Act (1919) allowed the British to detain and arrest any person without trial for up to 2 years. Gandhi called it the 'Black Act' and led a nationwide Satyagraha against it.",
+      "difficulty": "medium",
+      "tags": ["rowlatt-act", "1919", "protests"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_006",
+      "goalId": "grade10-social-science",
+      "question": "The Jallianwala Bagh massacre (1919) occurred in:",
+      "options": ["Bombay", "Amritsar, Punjab (General Dyer ordered troops to fire on a peaceful gathering)", "Delhi", "Lahore"],
+      "correctIndex": 1,
+      "explanation": "On April 13, 1919 (Baisakhi), General Dyer ordered troops to fire on an unarmed crowd at Jallianwala Bagh, Amritsar. Hundreds were killed. This deepened anti-British sentiment and boosted nationalism.",
+      "difficulty": "easy",
+      "tags": ["jallianwala-bagh", "amritsar", "massacre"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_007",
+      "goalId": "grade10-social-science",
+      "question": "The Quit India Movement (August 1942) was launched with the slogan:",
+      "options": ["'Vande Mataram'", "'Jai Hind'", "'Do or Die' — an immediate end to British rule in India", "'Swaraj is my birthright'"],
+      "correctIndex": 2,
+      "explanation": "Gandhi's 'Do or Die' call launched the Quit India Movement in August 1942 demanding immediate British withdrawal. The British arrested Congress leaders within hours, but the movement spread despite suppression.",
+      "difficulty": "medium",
+      "tags": ["quit-india", "do-or-die", "1942"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_008",
+      "goalId": "grade10-social-science",
+      "question": "Bhagat Singh, Sukhdev, and Rajguru were executed in:",
+      "options": ["1929", "1930", "1931", "1935"],
+      "correctIndex": 2,
+      "explanation": "Bhagat Singh, Sukhdev, and Rajguru were hanged on March 23, 1931. Their execution outraged Indians and complicated the Gandhi-Irwin Pact — many felt Gandhi should have done more to save them.",
+      "difficulty": "medium",
+      "tags": ["bhagat-singh", "execution", "1931"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_009",
+      "goalId": "grade10-social-science",
+      "question": "B.R. Ambedkar signed the Poona Pact (1932) with Gandhi because:",
+      "options": ["He wanted to join the Congress party", "Gandhi's fast unto death over separate electorates for Dalits pressured Ambedkar to accept reserved seats within joint electorates instead", "The British forced both to sign", "They agreed on all political issues"],
+      "correctIndex": 1,
+      "explanation": "The Poona Pact: Ambedkar had won separate electorates for Dalits from the British. Gandhi fasted to oppose separate electorates (fearing it would divide Hindu society). Ambedkar agreed to reserved seats in joint electorates instead.",
+      "difficulty": "hard",
+      "tags": ["poona-pact", "ambedkar", "gandhi", "dalits"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_010",
+      "goalId": "grade10-social-science",
+      "question": "The Nehru Report (1928) proposed:",
+      "options": ["Partition of India", "Dominion status for India with no separate electorates for Muslims", "Complete independence (Purna Swaraj) immediately", "A federal system with full provincial autonomy"],
+      "correctIndex": 1,
+      "explanation": "The Nehru Report (Motilal Nehru, 1928) proposed Dominion Status for India, adult franchise, and rejected separate electorates for Muslims. Muhammad Ali Jinnah rejected it, increasing communal tensions.",
+      "difficulty": "hard",
+      "tags": ["nehru-report", "1928", "communal-tensions"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_011",
+      "goalId": "grade10-social-science",
+      "question": "Purna Swaraj (Complete Independence) was declared at which Congress session?",
+      "options": ["Lucknow Session 1916", "Calcutta Session 1920", "Lahore Session 1929 (December)", "Karachi Session 1931"],
+      "correctIndex": 2,
+      "explanation": "The Lahore Session of the Indian National Congress (December 1929), presided by Jawaharlal Nehru, declared Purna Swaraj (Complete Independence) as India's goal. January 26, 1930 was celebrated as 'Independence Day'.",
+      "difficulty": "medium",
+      "tags": ["purna-swaraj", "lahore-congress", "1929"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_012",
+      "goalId": "grade10-social-science",
+      "question": "The Khilafat Movement (1919-1922) was led by:",
+      "options": ["Bal Gangadhar Tilak", "Muhammad Ali and Shaukat Ali (Ali Brothers)", "M.A. Jinnah", "Maulana Abul Kalam Azad only"],
+      "correctIndex": 1,
+      "explanation": "The Khilafat Movement was led by the Ali Brothers (Muhammad Ali and Shaukat Ali) to defend the Ottoman Caliph. Gandhi joined hands with it to unite Hindus and Muslims in the Non-Cooperation Movement.",
+      "difficulty": "medium",
+      "tags": ["khilafat-movement", "ali-brothers", "unity"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_013",
+      "goalId": "grade10-social-science",
+      "question": "Simon Commission (1927) was boycotted because:",
+      "options": ["It came too late after independence", "It had no Indian members — all seven commissioners were British", "Gandhi opposed commissions on principle", "It proposed partition of India"],
+      "correctIndex": 1,
+      "explanation": "The Simon Commission (set up to review the 1919 Government of India Act) had no Indian members. Indians greeted it with 'Simon Go Back' protests across the country. Lala Lajpat Rai was injured in lathi-charge during a protest.",
+      "difficulty": "medium",
+      "tags": ["simon-commission", "boycott", "1927"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_014",
+      "goalId": "grade10-social-science",
+      "question": "Which event caused Gandhi to withdraw the Non-Cooperation Movement in 1922?",
+      "options": ["The Gandhi-Irwin Pact", "Chauri Chaura incident — mob violence killed 22 police constables", "The Jallianwala Bagh massacre", "British granting self-government"],
+      "correctIndex": 1,
+      "explanation": "In Chauri Chaura (February 1922), a mob set fire to a police station, killing 22 constables. Gandhi called off the Non-Cooperation Movement, insisting on non-violence as a core principle.",
+      "difficulty": "easy",
+      "tags": ["chauri-chaura", "non-cooperation", "withdrawal"]
+    },
+    {
+      "id": "q_ss_10_w23_s2_015",
+      "goalId": "grade10-social-science",
+      "question": "The Subsidiary Alliance system was introduced by:",
+      "options": ["Lord Dalhousie", "Lord Cornwallis", "Lord Wellesley", "Lord Curzon"],
+      "correctIndex": 2,
+      "explanation": "Lord Wellesley introduced the Subsidiary Alliance system to extend British control — Indian rulers had to accept British troops and a Resident, pay for them, and conduct no independent foreign policy. Used to annex many states.",
+      "difficulty": "medium",
+      "tags": ["subsidiary-alliance", "wellesley", "british-expansion"]
+    }
+  ]
+}

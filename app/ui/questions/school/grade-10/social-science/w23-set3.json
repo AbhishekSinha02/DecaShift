@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-social-science",
+  "title": "Grade 10 Social Science — Water Resources",
+  "description": "Water scarcity, dams, rainwater harvesting, water management in India",
+  "category": "school",
+  "grade": 10,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_ss_10_w23_s3_001",
+      "goalId": "grade10-social-science",
+      "question": "Freshwater constitutes approximately what percentage of the Earth's total water?",
+      "options": ["97%", "50%", "2.5%", "10%"],
+      "correctIndex": 2,
+      "explanation": "Only about 2.5% of Earth's water is freshwater. Of this, most is frozen in glaciers (70%) or groundwater. Only about 0.3% of all freshwater is accessible in rivers, lakes, and atmosphere.",
+      "difficulty": "medium",
+      "tags": ["freshwater", "percentage", "water-resources"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_002",
+      "goalId": "grade10-social-science",
+      "question": "The Hirakud Dam is built on which river?",
+      "options": ["Mahanadi", "Godavari", "Krishna", "Cauvery"],
+      "correctIndex": 0,
+      "explanation": "Hirakud Dam in Odisha is built on the Mahanadi river. It is one of the longest earthen dams in the world (25.8 km). It controls floods, provides irrigation, and generates hydroelectric power.",
+      "difficulty": "medium",
+      "tags": ["hirakud-dam", "mahanadi", "dams"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_003",
+      "goalId": "grade10-social-science",
+      "question": "Multi-purpose river valley projects are called 'temples of modern India' because they:",
+      "options": ["Were built near temples", "Served multiple purposes — irrigation, power generation, flood control, water supply, tourism", "Required religious ceremonies before construction", "Are visited by millions like pilgrimage sites"],
+      "correctIndex": 1,
+      "explanation": "Nehru called dams 'temples of modern India' because they served multiple purposes: irrigation, hydroelectric power, flood control, industrial water supply, drinking water, navigation, and recreation.",
+      "difficulty": "easy",
+      "tags": ["multipurpose-dam", "nehru", "temples-of-modern-india"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_004",
+      "goalId": "grade10-social-science",
+      "question": "The Narmada Bachao Andolan was a movement against:",
+      "options": ["Water pollution in the Narmada river", "The Sardar Sarovar Dam — displacement of tribal communities and ecological impact", "Construction of roads near the Narmada", "Industrial pollution in Gujarat"],
+      "correctIndex": 1,
+      "explanation": "Narmada Bachao Andolan (Save Narmada Movement), led by Medha Patkar, opposed the Sardar Sarovar Dam project — protesting the displacement of thousands of tribal communities and submergence of forests.",
+      "difficulty": "medium",
+      "tags": ["narmada-bachao", "sardar-sarovar", "displacement"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_005",
+      "goalId": "grade10-social-science",
+      "question": "Rainwater harvesting is important because:",
+      "options": ["It is the only way to get clean drinking water", "It helps recharge groundwater, reduce flooding, and provide water in areas with seasonal rainfall", "It replaces the need for rivers completely", "It is only useful in desert areas"],
+      "correctIndex": 1,
+      "explanation": "Rainwater harvesting: collects and stores rainwater for later use. Benefits: groundwater recharge, reduces urban flooding, provides water security in rain-scarce periods, especially important in India's seasonal monsoon pattern.",
+      "difficulty": "medium",
+      "tags": ["rainwater-harvesting", "groundwater", "water-conservation"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_006",
+      "goalId": "grade10-social-science",
+      "question": "Traditional water harvesting structures 'Khadins' are found in:",
+      "options": ["Maharashtra", "Rajasthan (Jaisalmer) — embankments to harvest rainwater in fields", "Kerala (backwaters)", "Bengal (fishponds)"],
+      "correctIndex": 1,
+      "explanation": "Khadins are traditional rainwater harvesting structures in Rajasthan — earthen embankments across slopes that collect runoff and allow it to percolate. Tankas (underground tanks) are another Rajasthan tradition.",
+      "difficulty": "hard",
+      "tags": ["khadins", "rajasthan", "traditional-water-harvesting"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_007",
+      "goalId": "grade10-social-science",
+      "question": "The 'Bamboo Drip Irrigation' system is used in:",
+      "options": ["Punjab", "Rajasthan", "Meghalaya (northeast India)", "Tamil Nadu"],
+      "correctIndex": 2,
+      "explanation": "The 200-year-old Bamboo Drip Irrigation system in Meghalaya (Khasi and Jaintia Hills) uses bamboo pipes to precisely irrigate betel leaf and black pepper plants — an indigenous water-efficient technology.",
+      "difficulty": "hard",
+      "tags": ["bamboo-drip", "meghalaya", "traditional-irrigation"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_008",
+      "goalId": "grade10-social-science",
+      "question": "Water scarcity is mainly caused by:",
+      "options": ["There is not enough water on Earth", "Over-exploitation, unequal distribution, and pollution of freshwater resources", "Seasonal rains only in some areas", "People using too little water"],
+      "correctIndex": 1,
+      "explanation": "Water scarcity results from: over-exploitation (excessive pumping of groundwater), unequal distribution (rich get more), pollution (industrial, agricultural), and growing demand from population growth.",
+      "difficulty": "easy",
+      "tags": ["water-scarcity", "causes", "geography"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_009",
+      "goalId": "grade10-social-science",
+      "question": "The Tehri Dam controversy involved concerns about:",
+      "options": ["The dam's cost being too high", "Environmental impact, seismic risk (earthquake zone), and displacement of 100,000+ people", "Lack of water in the area", "Building a dam in a foreign country"],
+      "correctIndex": 1,
+      "explanation": "Tehri Dam (Uttarakhand, on Bhagirathi river) was controversial due to: displacement of tens of thousands of people, construction in a seismically active zone (Himalayan earthquake belt), and ecological damage.",
+      "difficulty": "hard",
+      "tags": ["tehri-dam", "controversy", "seismic"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_010",
+      "goalId": "grade10-social-science",
+      "question": "'Naula' is a traditional water harvesting practice of:",
+      "options": ["Kerala", "Punjab", "Uttarakhand (hill areas)", "Rajasthan"],
+      "correctIndex": 2,
+      "explanation": "Naulas are small surface-water/spring-fed structures in Uttarakhand's hill areas — stone-lined, stepped structures to collect and store spring water. Part of India's rich traditional water management heritage.",
+      "difficulty": "hard",
+      "tags": ["naula", "uttarakhand", "traditional-water-harvesting"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_011",
+      "goalId": "grade10-social-science",
+      "question": "Which state in India receives the highest rainfall but still faces water scarcity?",
+      "options": ["Rajasthan", "Meghalaya (Cherrapunji area)", "Gujarat", "Maharashtra"],
+      "correctIndex": 1,
+      "explanation": "Cherrapunji, Meghalaya receives some of the world's highest rainfall yet faces water scarcity during dry months — rainfall runs off quickly due to sloped terrain, lack of storage, and deforestation.",
+      "difficulty": "medium",
+      "tags": ["cherrapunji", "water-scarcity", "rainfall"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_012",
+      "goalId": "grade10-social-science",
+      "question": "Excessive irrigation leading to waterlogging causes:",
+      "options": ["Soil fertility to increase", "Salinisation — salts accumulate on the soil surface as water evaporates, making land infertile", "More groundwater recharge", "Flooding prevention"],
+      "correctIndex": 1,
+      "explanation": "Over-irrigation leads to waterlogging (roots drown) and salinisation — when excessive water evaporates, dissolved salts are left behind, forming a white crust that makes soil infertile. Major problem in Punjab and Haryana.",
+      "difficulty": "hard",
+      "tags": ["salinisation", "waterlogging", "irrigation-problems"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_013",
+      "goalId": "grade10-social-science",
+      "question": "The Indira Gandhi Canal (Rajasthan Canal) brings water from:",
+      "options": ["The Narmada river", "The Satluj-Beas rivers (Punjab-Haryana) to arid Rajasthan", "The Ganga river", "Underground aquifers"],
+      "correctIndex": 1,
+      "explanation": "The Indira Gandhi Canal (formerly Rajasthan Canal) — one of India's longest canals — brings water from the Harike Barrage (confluence of Satluj and Beas) in Punjab to irrigate the arid Thar Desert regions of Rajasthan.",
+      "difficulty": "medium",
+      "tags": ["indira-gandhi-canal", "rajasthan", "water-supply"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_014",
+      "goalId": "grade10-social-science",
+      "question": "The process of desalination refers to:",
+      "options": ["Adding salt to water for purification", "Removing salt from seawater to make it fit for drinking/irrigation", "Salting roads in winter", "A type of water recycling"],
+      "correctIndex": 1,
+      "explanation": "Desalination removes salt (and other dissolved minerals) from seawater to produce freshwater. Methods include reverse osmosis and distillation. Used in water-scarce coastal regions (Middle East, Israel, parts of India).",
+      "difficulty": "medium",
+      "tags": ["desalination", "seawater", "freshwater-production"]
+    },
+    {
+      "id": "q_ss_10_w23_s3_015",
+      "goalId": "grade10-social-science",
+      "question": "Which of the following is NOT a benefit of large dams?",
+      "options": ["Flood control", "Irrigation", "Displacement of local communities and ecological damage (a cost, not a benefit)", "Hydroelectric power generation"],
+      "correctIndex": 2,
+      "explanation": "Displacement of communities and ecological damage are costs/disadvantages of large dams, not benefits. This is central to debates like the Narmada Bachao Andolan. Benefits: irrigation, power, flood control.",
+      "difficulty": "medium",
+      "tags": ["dams", "disadvantages", "displacement"]
+    }
+  ]
+}

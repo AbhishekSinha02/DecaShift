@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-science",
+  "title": "Grade 10 Science — Chemical Reactions and Equations",
+  "description": "Types of chemical reactions, balancing equations, and their characteristics",
+  "category": "school",
+  "grade": 10,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_10_w23_s4_001",
+      "goalId": "grade10-science",
+      "question": "A chemical equation is balanced to satisfy:",
+      "options": ["The Law of Definite Proportions", "The Law of Conservation of Mass — atoms cannot be created or destroyed", "The Periodic Table", "Gay-Lussac's Law"],
+      "correctIndex": 1,
+      "explanation": "The Law of Conservation of Mass: total mass of reactants = total mass of products. So the number of atoms of each element must be equal on both sides. Hence equations must be balanced.",
+      "difficulty": "easy",
+      "tags": ["balancing-equations", "conservation-of-mass", "chemical-reactions"]
+    },
+    {
+      "id": "q_science_10_w23_s4_002",
+      "goalId": "grade10-science",
+      "question": "In a combination reaction, two or more substances combine to form:",
+      "options": ["Two new substances", "A single product", "An acid and a base", "Two gases"],
+      "correctIndex": 1,
+      "explanation": "Combination (synthesis) reaction: A + B → AB. Example: CaO + H₂O → Ca(OH)₂ (slaked lime). The reactants combine to give a single product.",
+      "difficulty": "easy",
+      "tags": ["combination-reaction", "synthesis", "types"]
+    },
+    {
+      "id": "q_science_10_w23_s4_003",
+      "goalId": "grade10-science",
+      "question": "Decomposition reaction is the reverse of combination. Which type of energy is often needed?",
+      "options": ["Chemical energy only", "Heat (thermal), light (photolytic), or electricity (electrolytic) — to break down a compound", "Sound energy", "Magnetic energy"],
+      "correctIndex": 1,
+      "explanation": "Decomposition: AB → A + B. Types: thermal (CaCO₃ →heat→ CaO + CO₂), photolytic (2AgBr →light→ 2Ag + Br₂), electrolytic (H₂O →electricity→ H₂ + O₂).",
+      "difficulty": "medium",
+      "tags": ["decomposition-reaction", "energy", "types"]
+    },
+    {
+      "id": "q_science_10_w23_s4_004",
+      "goalId": "grade10-science",
+      "question": "In a displacement reaction, a more reactive element displaces a less reactive element. Which is correct?",
+      "options": ["Copper displaces zinc from ZnSO₄ solution", "Zinc displaces copper from CuSO₄ solution: Zn + CuSO₄ → ZnSO₄ + Cu", "Iron displaces gold from AuCl₃ solution", "Silver displaces iron from FeSO₄"],
+      "correctIndex": 1,
+      "explanation": "Zn + CuSO₄ → ZnSO₄ + Cu. Zinc is more reactive than copper (higher in activity series), so it displaces copper from copper sulphate solution. The blue CuSO₄ solution becomes colourless.",
+      "difficulty": "medium",
+      "tags": ["displacement-reaction", "reactivity-series", "zinc-copper"]
+    },
+    {
+      "id": "q_science_10_w23_s4_005",
+      "goalId": "grade10-science",
+      "question": "Double displacement reactions involve:",
+      "options": ["One element replacing another in a compound", "Exchange of ions between two compounds to form new compounds (often producing a precipitate)", "One reactant breaking into two products", "Two elements combining to form one product"],
+      "correctIndex": 1,
+      "explanation": "Double displacement: AB + CD → AD + CB. Example: BaCl₂ + Na₂SO₄ → BaSO₄↓ + 2NaCl. Barium sulphate (BaSO₄) precipitates. Also called precipitation reactions when a precipitate forms.",
+      "difficulty": "medium",
+      "tags": ["double-displacement", "precipitation", "ion-exchange"]
+    },
+    {
+      "id": "q_science_10_w23_s4_006",
+      "goalId": "grade10-science",
+      "question": "The rusting of iron is an example of:",
+      "options": ["Decomposition reaction", "Combination (oxidation) reaction — iron reacts with oxygen and moisture", "Displacement reaction", "Double displacement"],
+      "correctIndex": 1,
+      "explanation": "Rusting: 4Fe + 3O₂ + 6H₂O → 4Fe(OH)₃ → 2Fe₂O₃·3H₂O (rust). Iron is oxidised (gains oxygen). This is a slow combination/oxidation reaction requiring both oxygen AND water.",
+      "difficulty": "easy",
+      "tags": ["rusting", "oxidation", "iron"]
+    },
+    {
+      "id": "q_science_10_w23_s4_007",
+      "goalId": "grade10-science",
+      "question": "Oxidation and reduction ALWAYS occur together — this is called:",
+      "options": ["Thermal decomposition", "Redox reaction (oxidation-reduction simultaneously)", "Neutralisation", "Precipitation"],
+      "correctIndex": 1,
+      "explanation": "Redox reactions: oxidation (loss of electrons/gain of oxygen) and reduction (gain of electrons/loss of oxygen) always occur together. One substance is oxidised while another is reduced.",
+      "difficulty": "medium",
+      "tags": ["redox", "oxidation-reduction", "definition"]
+    },
+    {
+      "id": "q_science_10_w23_s4_008",
+      "goalId": "grade10-science",
+      "question": "Rancidity of food (fats going stale) is prevented by:",
+      "options": ["Adding more water", "Using nitrogen gas atmosphere, antioxidants, or refrigeration — prevents oxidation of fats", "Adding sugar", "Heating the food"],
+      "correctIndex": 1,
+      "explanation": "Rancidity occurs when fats/oils are oxidised, producing foul taste and smell. Prevention: nitrogen/vacuum packing (removes oxygen), antioxidants (BHA, BHT), refrigeration (slows oxidation), airtight containers.",
+      "difficulty": "medium",
+      "tags": ["rancidity", "oxidation", "prevention"]
+    },
+    {
+      "id": "q_science_10_w23_s4_009",
+      "goalId": "grade10-science",
+      "question": "Balance the equation: Fe + O₂ → Fe₂O₃. The balanced form is:",
+      "options": ["Fe + O₂ → Fe₂O₃", "2Fe + 3O₂ → Fe₂O₃", "4Fe + 3O₂ → 2Fe₂O₃", "Fe + O₃ → FeO₃"],
+      "correctIndex": 2,
+      "explanation": "4Fe + 3O₂ → 2Fe₂O₃. Check: Left: 4 Fe, 6 O. Right: 4 Fe (2×2), 6 O (2×3). Balanced. ✓",
+      "difficulty": "hard",
+      "tags": ["balancing-equations", "iron-oxide", "calculation"]
+    },
+    {
+      "id": "q_science_10_w23_s4_010",
+      "goalId": "grade10-science",
+      "question": "Thermite reaction (Fe₂O₃ + 2Al → Al₂O₃ + 2Fe) is an example of:",
+      "options": ["Combination reaction", "Decomposition reaction", "Displacement reaction (Al displaces Fe)", "Precipitation reaction"],
+      "correctIndex": 2,
+      "explanation": "Thermite reaction: Aluminium (more reactive) displaces iron from iron oxide. It is a highly exothermic displacement reaction that produces temperatures over 2500°C — used in welding railway tracks.",
+      "difficulty": "hard",
+      "tags": ["thermite", "displacement", "aluminium"]
+    },
+    {
+      "id": "q_science_10_w23_s4_011",
+      "goalId": "grade10-science",
+      "question": "The symbol ↓ in a chemical equation indicates:",
+      "options": ["Gas evolution", "Precipitate formation (insoluble product)", "The reaction is reversible", "The reaction is exothermic"],
+      "correctIndex": 1,
+      "explanation": "↓ (downward arrow after formula) = precipitate — an insoluble solid formed in a solution. ↑ = gas evolved. ⇌ = reversible reaction. State symbols: (s), (l), (g), (aq) are more precise.",
+      "difficulty": "easy",
+      "tags": ["symbols", "precipitate", "chemical-notation"]
+    },
+    {
+      "id": "q_science_10_w23_s4_012",
+      "goalId": "grade10-science",
+      "question": "Photosynthesis can be written as: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. This is a type of:",
+      "options": ["Decomposition reaction", "Combination/Synthesis reaction (light energy converts CO₂ and water into glucose)", "Displacement reaction", "Double displacement"],
+      "correctIndex": 1,
+      "explanation": "Photosynthesis is an endothermic combination reaction — CO₂ and H₂O combine (using light energy from the sun) to form glucose (C₆H₁₂O₆) and oxygen. Energy is absorbed, not released.",
+      "difficulty": "medium",
+      "tags": ["photosynthesis", "combination", "light-energy"]
+    },
+    {
+      "id": "q_science_10_w23_s4_013",
+      "goalId": "grade10-science",
+      "question": "Exothermic reactions are those that:",
+      "options": ["Absorb heat from the surroundings", "Release energy (heat/light) to the surroundings", "Require electrical energy only", "Only occur at high temperatures"],
+      "correctIndex": 1,
+      "explanation": "Exothermic reactions release energy: combustion (burning), neutralisation, respiration, thermite reaction. Endothermic reactions absorb energy: photosynthesis, decomposition of CaCO₃.",
+      "difficulty": "easy",
+      "tags": ["exothermic", "energy", "types"]
+    },
+    {
+      "id": "q_science_10_w23_s4_014",
+      "goalId": "grade10-science",
+      "question": "When silver chloride (AgCl) is exposed to sunlight, it turns grey/black. This is because:",
+      "options": ["AgCl reacts with oxygen in air", "AgCl undergoes photodecomposition: 2AgCl →light→ 2Ag (grey) + Cl₂", "Sunlight paints it black", "Moisture reacts with it"],
+      "correctIndex": 1,
+      "explanation": "Photolytic decomposition: 2AgCl →light→ 2Ag + Cl₂. Silver (grey-black) is deposited. This reaction is used in black-and-white photography. AgBr has the same property.",
+      "difficulty": "medium",
+      "tags": ["photodecomposition", "silver-chloride", "photography"]
+    },
+    {
+      "id": "q_science_10_w23_s4_015",
+      "goalId": "grade10-science",
+      "question": "Which of the following is a neutralisation reaction?",
+      "options": ["CaCO₃ → CaO + CO₂", "NaOH + HCl → NaCl + H₂O", "Fe + CuSO₄ → FeSO₄ + Cu", "2H₂ + O₂ → 2H₂O"],
+      "correctIndex": 1,
+      "explanation": "Neutralisation: acid + base → salt + water. NaOH (base) + HCl (acid) → NaCl (salt) + H₂O. It is also a double displacement reaction. The pH of the product is near neutral.",
+      "difficulty": "easy",
+      "tags": ["neutralisation", "acid-base", "salt"]
+    }
+  ]
+}

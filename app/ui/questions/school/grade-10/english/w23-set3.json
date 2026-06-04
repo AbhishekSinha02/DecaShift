@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-english",
+  "title": "Grade 10 English — Poetry: Amanda! + Figures of Speech",
+  "description": "Poetry 'Amanda!' by Robin Klein, figures of speech, and writing skills",
+  "category": "school",
+  "grade": 10,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_10_w23_s3_001",
+      "goalId": "grade10-english",
+      "question": "The poem 'Amanda!' is written by:",
+      "options": ["Carol Ann Duffy", "Robin Klein", "Robert Frost", "John Keats"],
+      "correctIndex": 1,
+      "explanation": "'Amanda!' is written by Robin Klein, an Australian author best known for children's books. The poem is in First Flight (Class 10).",
+      "difficulty": "easy",
+      "tags": ["amanda", "poet", "first-flight"]
+    },
+    {
+      "id": "q_english_10_w23_s3_002",
+      "goalId": "grade10-english",
+      "question": "In 'Amanda!', the speaker (voice in parentheses/italics) is most likely:",
+      "options": ["Amanda herself dreaming", "Amanda's nagging parent or guardian issuing instructions", "A school teacher", "A sibling"],
+      "correctIndex": 1,
+      "explanation": "The poem alternates: the voice in regular text/parentheses is the nagging adult (parent/guardian) giving instructions — 'Don't hunch your shoulders...', 'Stop that lounging...'. Amanda's responses are her inner daydreams.",
+      "difficulty": "medium",
+      "tags": ["amanda", "speaker", "structure"]
+    },
+    {
+      "id": "q_english_10_w23_s3_003",
+      "goalId": "grade10-english",
+      "question": "Amanda imagines herself as which mythological creature who can do as she pleases?",
+      "options": ["A fairy in a garden", "Rapunzel in a tower — alone, hair never cut, no one to call", "A mermaid in the sea", "A goddess on Mount Olympus"],
+      "correctIndex": 1,
+      "explanation": "Amanda imagines herself as Rapunzel — alone in a tower, her long hair tangled and unshorn, with 'nobody, nobody' to call her (unlike the original Rapunzel story where the witch comes). Complete freedom.",
+      "difficulty": "medium",
+      "tags": ["amanda", "rapunzel", "imagination"]
+    },
+    {
+      "id": "q_english_10_w23_s3_004",
+      "goalId": "grade10-english",
+      "question": "The central theme of the poem 'Amanda!' is:",
+      "options": ["The importance of discipline in childhood", "The conflict between childhood freedom/imagination and adult control/restriction", "The dangers of daydreaming", "A celebration of parenthood"],
+      "correctIndex": 1,
+      "explanation": "The poem portrays a child seeking freedom in imagination to escape constant adult nagging and control. It reflects on how over-parenting/constant correction can stifle a child's spirit and joy.",
+      "difficulty": "medium",
+      "tags": ["amanda", "theme", "freedom-vs-control"]
+    },
+    {
+      "id": "q_english_10_w23_s3_005",
+      "goalId": "grade10-english",
+      "question": "What is personification? Give an example from a poem.",
+      "options": ["Comparing two things using 'like' or 'as'", "Giving human qualities to non-human things or abstract ideas", "Extreme exaggeration for effect", "The repetition of initial consonant sounds"],
+      "correctIndex": 1,
+      "explanation": "Personification gives human characteristics to non-human things: 'The stars danced in the sky', 'Death knocks at the door'. It creates vividness and makes abstract/non-human things relatable.",
+      "difficulty": "easy",
+      "tags": ["personification", "figures-of-speech", "definition"]
+    },
+    {
+      "id": "q_english_10_w23_s3_006",
+      "goalId": "grade10-english",
+      "question": "In the sentence 'The old car coughed and spluttered to life', the figure of speech is:",
+      "options": ["Simile", "Metaphor", "Personification", "Alliteration"],
+      "correctIndex": 2,
+      "explanation": "The car 'coughed and spluttered' — these are human/animal actions applied to a non-human machine. This is personification.",
+      "difficulty": "easy",
+      "tags": ["personification", "identification", "figures-of-speech"]
+    },
+    {
+      "id": "q_english_10_w23_s3_007",
+      "goalId": "grade10-english",
+      "question": "Identify the figure of speech: 'The camel is the ship of the desert.'",
+      "options": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+      "correctIndex": 1,
+      "explanation": "This is a metaphor — a direct comparison without 'like' or 'as'. The camel IS called 'the ship of the desert' (not 'like a ship'). It highlights how camels transport people and goods across deserts.",
+      "difficulty": "easy",
+      "tags": ["metaphor", "figures-of-speech", "identification"]
+    },
+    {
+      "id": "q_english_10_w23_s3_008",
+      "goalId": "grade10-english",
+      "question": "Identify the figure of speech: 'She is as brave as a lion.'",
+      "options": ["Metaphor", "Simile", "Personification", "Oxymoron"],
+      "correctIndex": 1,
+      "explanation": "This is a simile — comparison using 'as'. 'As brave as a lion' compares her bravery to a lion's using the word 'as'.",
+      "difficulty": "easy",
+      "tags": ["simile", "figures-of-speech", "identification"]
+    },
+    {
+      "id": "q_english_10_w23_s3_009",
+      "goalId": "grade10-english",
+      "question": "The word 'moody' in the poem 'Amanda!' refers to Amanda:",
+      "options": ["Being genuinely moody and bad-tempered", "Appearing sulky or unhappy because she is always being told off — but the parent worries others will think she is moody due to bad parenting", "Being upset about going to school", "Being sick"],
+      "correctIndex": 1,
+      "explanation": "The parent says 'Don't be moody, Amanda!' — ironically, Amanda's dreaminess is a response to constant nagging. The parent worries that Amanda's withdrawn expression will make others think she (the parent) is at fault.",
+      "difficulty": "hard",
+      "tags": ["amanda", "irony", "moody"]
+    },
+    {
+      "id": "q_english_10_w23_s3_010",
+      "goalId": "grade10-english",
+      "question": "The poem 'Amanda!' can best be described as:",
+      "options": ["An ode celebrating childhood", "A dramatic monologue from Amanda's perspective only", "Alternating voices — the adult's commands and Amanda's silent imaginative escapes", "A sonnet about freedom"],
+      "correctIndex": 2,
+      "explanation": "The poem has a unique two-voice structure: italicised/regular commands from the adult alternating with Amanda's internal imagined responses (being an orphan, a mermaid, Rapunzel). The contrast is the poem's power.",
+      "difficulty": "hard",
+      "tags": ["amanda", "structure", "two-voice"]
+    },
+    {
+      "id": "q_english_10_w23_s3_011",
+      "goalId": "grade10-english",
+      "question": "An 'epigram' is:",
+      "options": ["A long poem with many stanzas", "A short, witty, and pointed statement — often in verse", "The introductory paragraph of a story", "A type of metaphor"],
+      "correctIndex": 1,
+      "explanation": "An epigram is a brief, clever, and memorable saying: e.g., 'I can resist everything except temptation' (Oscar Wilde). In poetry, it is a short poem with a witty or satirical twist.",
+      "difficulty": "hard",
+      "tags": ["epigram", "literary-terms", "definition"]
+    },
+    {
+      "id": "q_english_10_w23_s3_012",
+      "goalId": "grade10-english",
+      "question": "Choose the word with correct spelling:",
+      "options": ["accomodation", "acommodation", "accommodation", "accomadation"],
+      "correctIndex": 2,
+      "explanation": "'Accommodation' — note: double 'c' and double 'm'. Common misspelling. Memory trick: 2 Cs, 2 Ms.",
+      "difficulty": "medium",
+      "tags": ["spelling", "vocabulary", "english"]
+    },
+    {
+      "id": "q_english_10_w23_s3_013",
+      "goalId": "grade10-english",
+      "question": "An onomatopoeia is:",
+      "options": ["A word that describes a colour", "A word that imitates the natural sound of the thing it refers to", "A type of rhyme scheme", "A comparison using 'like'"],
+      "correctIndex": 1,
+      "explanation": "Onomatopoeia: words that sound like what they mean — buzz, hiss, crackle, splash, murmur, roar. Using these words makes writing more vivid and auditory.",
+      "difficulty": "medium",
+      "tags": ["onomatopoeia", "figures-of-speech", "sound"]
+    },
+    {
+      "id": "q_english_10_w23_s3_014",
+      "goalId": "grade10-english",
+      "question": "The synonym of 'liberty' is:",
+      "options": ["Imprisonment", "Freedom", "Authority", "Obedience"],
+      "correctIndex": 1,
+      "explanation": "'Liberty' means freedom from control, captivity, or restrictions. Synonyms: freedom, independence, autonomy. Antonyms: imprisonment, captivity, restriction.",
+      "difficulty": "easy",
+      "tags": ["vocabulary", "synonym", "liberty"]
+    },
+    {
+      "id": "q_english_10_w23_s3_015",
+      "goalId": "grade10-english",
+      "question": "Identify the figure of speech in: 'Peter Piper picked a peck of pickled peppers.'",
+      "options": ["Hyperbole", "Metaphor", "Alliteration", "Simile"],
+      "correctIndex": 2,
+      "explanation": "Alliteration is the repetition of the same consonant sound at the beginning of adjacent words: 'P-eter P-iper P-icked a P-eck of P-ickled P-eppers'. The 'p' sound is repeated.",
+      "difficulty": "easy",
+      "tags": ["alliteration", "tongue-twister", "figures-of-speech"]
+    }
+  ]
+}

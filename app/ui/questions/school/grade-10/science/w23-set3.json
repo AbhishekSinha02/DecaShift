@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-science",
+  "title": "Grade 10 Science — Light: Reflection & Refraction",
+  "description": "Laws of reflection, mirrors, refraction, lenses, and their applications",
+  "category": "school",
+  "grade": 10,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_10_w23_s3_001",
+      "goalId": "grade10-science",
+      "question": "The angle of incidence equals the angle of reflection. This is:",
+      "options": ["Law of refraction", "First Law of Reflection", "Snell's Law", "Principle of reversibility"],
+      "correctIndex": 1,
+      "explanation": "Laws of Reflection: (1) Angle of incidence = angle of reflection (both measured from the normal). (2) The incident ray, reflected ray, and normal all lie in the same plane.",
+      "difficulty": "easy",
+      "tags": ["reflection", "laws-of-reflection", "angle"]
+    },
+    {
+      "id": "q_science_10_w23_s3_002",
+      "goalId": "grade10-science",
+      "question": "A concave mirror used as a make-up/shaving mirror forms what type of image when the face is close?",
+      "options": ["Real, inverted, diminished", "Virtual, erect, magnified", "Real, erect, magnified", "Virtual, inverted, diminished"],
+      "correctIndex": 1,
+      "explanation": "When an object is between the focus and pole of a concave mirror (u < f), the image is virtual, erect, and magnified — behind the mirror. This is why concave mirrors are used as make-up/shaving mirrors.",
+      "difficulty": "medium",
+      "tags": ["concave-mirror", "image-type", "virtual-magnified"]
+    },
+    {
+      "id": "q_science_10_w23_s3_003",
+      "goalId": "grade10-science",
+      "question": "A convex mirror always forms an image that is:",
+      "options": ["Real, inverted, diminished", "Virtual, erect, and diminished (behind the mirror)", "Real, erect, magnified", "Virtual, inverted, same size"],
+      "correctIndex": 1,
+      "explanation": "Convex mirrors always produce virtual, erect, and diminished images behind the mirror, regardless of object position. This wider field of view makes them useful as rear-view mirrors in vehicles.",
+      "difficulty": "easy",
+      "tags": ["convex-mirror", "image-properties", "rear-view"]
+    },
+    {
+      "id": "q_science_10_w23_s3_004",
+      "goalId": "grade10-science",
+      "question": "The mirror formula is: 1/f = ?",
+      "options": ["1/v − 1/u", "1/v + 1/u", "v/u", "v − u"],
+      "correctIndex": 1,
+      "explanation": "Mirror formula: 1/f = 1/v + 1/u. Where f = focal length, v = image distance, u = object distance. Sign convention (New Cartesian): distances measured from the pole; object is placed to the left (u is negative).",
+      "difficulty": "medium",
+      "tags": ["mirror-formula", "formula", "optics"]
+    },
+    {
+      "id": "q_science_10_w23_s3_005",
+      "goalId": "grade10-science",
+      "question": "Refraction of light occurs because light changes speed when:",
+      "options": ["It hits a mirror", "It passes from one medium to another medium of different optical density", "Its colour changes", "It encounters a prism"],
+      "correctIndex": 1,
+      "explanation": "Refraction: light bends when it passes from one medium to another (different optical density). Light slows down going from rarer to denser medium (e.g., air to glass) and bends toward the normal.",
+      "difficulty": "easy",
+      "tags": ["refraction", "definition", "speed-change"]
+    },
+    {
+      "id": "q_science_10_w23_s3_006",
+      "goalId": "grade10-science",
+      "question": "Snell's Law of Refraction states that n₁ sinθ₁ = n₂ sinθ₂. Here n represents:",
+      "options": ["The angle of refraction", "The refractive index of the medium", "The frequency of light", "The wavelength"],
+      "correctIndex": 1,
+      "explanation": "n = refractive index = speed of light in vacuum / speed in medium = c/v. Snell's Law: n₁ sinθ₁ = n₂ sinθ₂. A denser medium has a higher refractive index and slows light more.",
+      "difficulty": "medium",
+      "tags": ["snells-law", "refractive-index", "refraction"]
+    },
+    {
+      "id": "q_science_10_w23_s3_007",
+      "goalId": "grade10-science",
+      "question": "A convex lens is also called a _____ lens and _____ light rays.",
+      "options": ["Diverging; spreads out", "Converging; brings together (converges)", "Concave; bends inward", "Plane; reflects"],
+      "correctIndex": 1,
+      "explanation": "A convex lens (converging lens) is thicker at the centre and converges (brings together) parallel light rays to a real focal point. A concave lens (diverging) is thinner at centre and diverges light.",
+      "difficulty": "easy",
+      "tags": ["convex-lens", "converging", "optics"]
+    },
+    {
+      "id": "q_science_10_w23_s3_008",
+      "goalId": "grade10-science",
+      "question": "The power of a lens is defined as P = 1/f. If f = 0.5 m, the power is:",
+      "options": ["0.5 D", "+2 D", "−2 D", "5 D"],
+      "correctIndex": 1,
+      "explanation": "P = 1/f = 1/0.5 = +2 D (dioptres). Convex lens: f is positive → P is positive. Concave lens: f is negative → P is negative. Power unit = dioptre (D).",
+      "difficulty": "easy",
+      "tags": ["power-of-lens", "dioptres", "formula"]
+    },
+    {
+      "id": "q_science_10_w23_s3_009",
+      "goalId": "grade10-science",
+      "question": "The lens formula is: 1/f = ?",
+      "options": ["1/v − 1/u", "1/v + 1/u", "v/u", "u + v"],
+      "correctIndex": 0,
+      "explanation": "Lens formula: 1/f = 1/v − 1/u (note: DIFFERENT sign from mirror formula). Using sign convention: for a real object, u is negative. v is positive for real image, negative for virtual image.",
+      "difficulty": "medium",
+      "tags": ["lens-formula", "formula", "optics"]
+    },
+    {
+      "id": "q_science_10_w23_s3_010",
+      "goalId": "grade10-science",
+      "question": "A person with myopia (short-sightedness) can see near objects but not far ones. The corrective lens used is:",
+      "options": ["Convex lens (converging)", "Concave lens (diverging, negative power)", "Plane mirror", "Bifocal lenses only"],
+      "correctIndex": 1,
+      "explanation": "Myopia: eyeball too long; image forms in front of retina. Correction: concave (diverging) lens that diverges light before it enters the eye, shifting the image back to the retina.",
+      "difficulty": "medium",
+      "tags": ["myopia", "concave-lens", "defects-of-vision"]
+    },
+    {
+      "id": "q_science_10_w23_s3_011",
+      "goalId": "grade10-science",
+      "question": "The magnification formula for mirrors is m = ?",
+      "options": ["h_i / h_o = v/u", "h_i / h_o = −v/u", "f/u", "v−u"],
+      "correctIndex": 1,
+      "explanation": "Magnification for mirrors: m = h_i/h_o = −v/u. If m is positive: image is virtual and erect. If m is negative: image is real and inverted. |m| > 1: magnified; |m| < 1: diminished.",
+      "difficulty": "hard",
+      "tags": ["magnification", "mirror", "formula"]
+    },
+    {
+      "id": "q_science_10_w23_s3_012",
+      "goalId": "grade10-science",
+      "question": "Which mirror is used in solar furnaces?",
+      "options": ["Plane mirror", "Convex mirror", "Concave mirror", "Parabolic convex mirror"],
+      "correctIndex": 2,
+      "explanation": "Concave (parabolic) mirrors are used in solar furnaces — they converge parallel rays of sunlight to a focus, generating very high temperatures (over 3000°C). Also used in solar cookers.",
+      "difficulty": "easy",
+      "tags": ["concave-mirror", "solar-furnace", "applications"]
+    },
+    {
+      "id": "q_science_10_w23_s3_013",
+      "goalId": "grade10-science",
+      "question": "Total Internal Reflection (TIR) occurs when:",
+      "options": ["Light goes from a rare to a dense medium", "Light goes from a dense to a rare medium at an angle exceeding the critical angle", "Light hits a plane mirror at 90°", "White light is split into colours"],
+      "correctIndex": 1,
+      "explanation": "TIR: when light in a denser medium hits the boundary with a rarer medium at an angle greater than the critical angle, it is completely reflected internally. Used in optical fibres (no light escapes).",
+      "difficulty": "hard",
+      "tags": ["TIR", "critical-angle", "optical-fibre"]
+    },
+    {
+      "id": "q_science_10_w23_s3_014",
+      "goalId": "grade10-science",
+      "question": "Dispersion of light through a prism means:",
+      "options": ["White light is slowed down", "White light is split into its component colours (VIBGYOR spectrum)", "Light is absorbed by the prism", "Light is converted to heat"],
+      "correctIndex": 1,
+      "explanation": "Dispersion: a glass prism splits white light into its seven colours — Violet, Indigo, Blue, Green, Yellow, Orange, Red (VIBGYOR). Each colour has different wavelength and refracts by a different amount.",
+      "difficulty": "easy",
+      "tags": ["dispersion", "prism", "VIBGYOR"]
+    },
+    {
+      "id": "q_science_10_w23_s3_015",
+      "goalId": "grade10-science",
+      "question": "The phenomenon of the sky appearing blue is due to:",
+      "options": ["Reflection of blue light from the ocean", "Scattering of light — smaller wavelength (blue) scatters more than larger wavelengths", "The sun emitting mostly blue light", "Refraction of light at high altitude"],
+      "correctIndex": 1,
+      "explanation": "Rayleigh scattering: shorter wavelengths (violet/blue) scatter more by atmospheric particles. Blue light scatters in all directions. (Violet scatters even more but our eyes are less sensitive to violet → sky appears blue.)",
+      "difficulty": "medium",
+      "tags": ["scattering", "blue-sky", "rayleigh"]
+    }
+  ]
+}

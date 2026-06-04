@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-mathematics",
+  "title": "Grade 10 Mathematics — Similar Triangles & Basic Proportionality Theorem",
+  "description": "Similarity of triangles — BPT, criteria, and applications",
+  "category": "school",
+  "grade": 10,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_10_w23_s2_001",
+      "goalId": "grade10-mathematics",
+      "question": "The Basic Proportionality Theorem (Thales' Theorem) states that if a line is drawn parallel to one side of a triangle, it divides the other two sides in:",
+      "options": ["Equal ratio only if it passes through the midpoint", "The same ratio (proportionally)", "Ratio 1:2", "Inversely proportional ratios"],
+      "correctIndex": 1,
+      "explanation": "BPT (Thales): If a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally. If DE ∥ BC in △ABC, then AD/DB = AE/EC.",
+      "difficulty": "easy",
+      "tags": ["BPT", "thales-theorem", "similarity"]
+    },
+    {
+      "id": "q_math_10_w23_s2_002",
+      "goalId": "grade10-mathematics",
+      "question": "In △ABC, DE ∥ BC. If AD = 4 cm, DB = 6 cm, and AE = 3 cm, find EC.",
+      "options": ["3 cm", "4.5 cm", "2 cm", "6 cm"],
+      "correctIndex": 1,
+      "explanation": "By BPT: AD/DB = AE/EC → 4/6 = 3/EC → EC = (3 × 6)/4 = 4.5 cm.",
+      "difficulty": "medium",
+      "tags": ["BPT", "calculation", "similarity"]
+    },
+    {
+      "id": "q_math_10_w23_s2_003",
+      "goalId": "grade10-mathematics",
+      "question": "AAA similarity criterion states that two triangles are similar if:",
+      "options": ["All three sides are proportional", "Two angles of one triangle are equal to two angles of the other (the third follows automatically)", "Two sides are proportional", "One side and one angle are equal"],
+      "correctIndex": 1,
+      "explanation": "AA (or AAA) similarity: if two angles of one triangle equal two angles of another, the triangles are similar (the third angle is automatically equal since angles sum to 180°).",
+      "difficulty": "easy",
+      "tags": ["AA-similarity", "criteria", "triangles"]
+    },
+    {
+      "id": "q_math_10_w23_s2_004",
+      "goalId": "grade10-mathematics",
+      "question": "SSS similarity criterion states that two triangles are similar if:",
+      "options": ["All three sides are equal in length", "All three corresponding sides are proportional (in the same ratio)", "Two sides and an angle are proportional", "All angles are equal"],
+      "correctIndex": 1,
+      "explanation": "SSS similarity: AB/DE = BC/EF = CA/FD. Sides don't need to be equal, just in the same ratio. (Unlike SSS congruence which requires equal sides.)",
+      "difficulty": "medium",
+      "tags": ["SSS-similarity", "criteria", "proportional"]
+    },
+    {
+      "id": "q_math_10_w23_s2_005",
+      "goalId": "grade10-mathematics",
+      "question": "If △ABC ~ △DEF with AB = 6, DE = 9, and area of △ABC = 24 cm², the area of △DEF is:",
+      "options": ["36 cm²", "54 cm²", "16 cm²", "48 cm²"],
+      "correctIndex": 1,
+      "explanation": "Ratio of areas of similar triangles = (ratio of corresponding sides)². (AB/DE)² = (6/9)² = 4/9. Area DEF = 24 × (9/6)² = 24 × (3/2)² = 24 × 9/4 = 54 cm².",
+      "difficulty": "hard",
+      "tags": ["similar-triangles", "area-ratio", "calculation"]
+    },
+    {
+      "id": "q_math_10_w23_s2_006",
+      "goalId": "grade10-mathematics",
+      "question": "Pythagoras Theorem: In a right triangle, the square of the hypotenuse equals:",
+      "options": ["The sum of the other two sides", "The product of the other two sides", "The sum of the squares of the other two sides", "The difference of the squares of the other two sides"],
+      "correctIndex": 2,
+      "explanation": "Pythagoras Theorem: In a right-angled triangle, c² = a² + b² where c is the hypotenuse and a, b are the other two sides. This is the converse too — if c² = a² + b², the triangle is right-angled.",
+      "difficulty": "easy",
+      "tags": ["pythagoras", "right-triangle", "theorem"]
+    },
+    {
+      "id": "q_math_10_w23_s2_007",
+      "goalId": "grade10-mathematics",
+      "question": "In △ABC, ∠A = 90°, AB = 5 cm, AC = 12 cm. Find BC.",
+      "options": ["13 cm", "17 cm", "7 cm", "√119 cm"],
+      "correctIndex": 0,
+      "explanation": "BC² = AB² + AC² = 25 + 144 = 169. BC = 13 cm. (3-4-5 scaled: here 5-12-13 Pythagorean triple.)",
+      "difficulty": "easy",
+      "tags": ["pythagoras", "calculation", "right-triangle"]
+    },
+    {
+      "id": "q_math_10_w23_s2_008",
+      "goalId": "grade10-mathematics",
+      "question": "If the ratio of corresponding sides of two similar triangles is 3:5, the ratio of their perimeters is:",
+      "options": ["9:25", "3:5", "6:10", "27:125"],
+      "correctIndex": 1,
+      "explanation": "The ratio of perimeters of similar triangles equals the ratio of their corresponding sides. If sides ratio = 3:5, perimeters ratio = 3:5. (Unlike area, which is (3:5)² = 9:25.)",
+      "difficulty": "medium",
+      "tags": ["similar-triangles", "perimeter-ratio", "property"]
+    },
+    {
+      "id": "q_math_10_w23_s2_009",
+      "goalId": "grade10-mathematics",
+      "question": "SAS similarity criterion requires:",
+      "options": ["Two sides equal and included angle proportional", "Two sides proportional and the included angle equal", "Three sides proportional", "Two angles equal and adjacent side proportional"],
+      "correctIndex": 1,
+      "explanation": "SAS similarity: If two sides of one triangle are proportional to two sides of another, and the INCLUDED angles are equal, the triangles are similar.",
+      "difficulty": "medium",
+      "tags": ["SAS-similarity", "criteria", "triangles"]
+    },
+    {
+      "id": "q_math_10_w23_s2_010",
+      "goalId": "grade10-mathematics",
+      "question": "In △ABC, D is the midpoint of BC and E is the midpoint of AC. DE is parallel to AB and DE = ?",
+      "options": ["2 AB", "AB", "AB/2", "AB/4"],
+      "correctIndex": 2,
+      "explanation": "By the Midpoint Theorem, the line joining the midpoints of two sides of a triangle is parallel to the third side and HALF its length. DE ∥ AB and DE = AB/2.",
+      "difficulty": "medium",
+      "tags": ["midpoint-theorem", "parallel", "half-length"]
+    },
+    {
+      "id": "q_math_10_w23_s2_011",
+      "goalId": "grade10-mathematics",
+      "question": "A vertical pole 6 m tall casts a shadow 4 m long. At the same time, a tower casts a shadow 28 m long. The height of the tower is:",
+      "options": ["42 m", "21 m", "32 m", "48 m"],
+      "correctIndex": 0,
+      "explanation": "By AA similarity (both sun angle and right angle at ground): height/shadow = 6/4. Height of tower = (6/4) × 28 = 42 m.",
+      "difficulty": "medium",
+      "tags": ["similar-triangles", "shadow-problem", "application"]
+    },
+    {
+      "id": "q_math_10_w23_s2_012",
+      "goalId": "grade10-mathematics",
+      "question": "The diagonals of a trapezium ABCD (AB ∥ CD) intersect at O. If AB = 6 cm, CD = 3 cm, OA = 4 cm, find OC.",
+      "options": ["8 cm", "2 cm", "6 cm", "3 cm"],
+      "correctIndex": 1,
+      "explanation": "△AOB ~ △COD (AA: ∠AOB = ∠COD vertical angles; ∠ABD = ∠CDB alternate angles). Ratio = AB/CD = 6/3 = 2. OA/OC = 2 → OC = OA/2 = 4/2 = 2 cm.",
+      "difficulty": "hard",
+      "tags": ["trapezium", "similar-triangles", "diagonals"]
+    },
+    {
+      "id": "q_math_10_w23_s2_013",
+      "goalId": "grade10-mathematics",
+      "question": "In a right triangle, if the altitude is drawn to the hypotenuse, the two smaller triangles formed are each similar to:",
+      "options": ["Each other only", "The original triangle only", "Both each other and the original triangle", "No other triangles"],
+      "correctIndex": 2,
+      "explanation": "When an altitude is drawn from the right angle to the hypotenuse of a right triangle, it creates two smaller triangles. Each small triangle is similar to the other AND to the original triangle (AA similarity).",
+      "difficulty": "hard",
+      "tags": ["altitude-on-hypotenuse", "similar-triangles", "right-triangle"]
+    },
+    {
+      "id": "q_math_10_w23_s2_014",
+      "goalId": "grade10-mathematics",
+      "question": "Which of the following is a Pythagorean triple?",
+      "options": ["5, 12, 14", "7, 24, 25", "8, 15, 18", "6, 10, 13"],
+      "correctIndex": 1,
+      "explanation": "Check 7, 24, 25: 7² + 24² = 49 + 576 = 625 = 25². ✓ It is a Pythagorean triple. Others: 5² + 12² = 169 ≠ 196; 8² + 15² = 289 ≠ 324; 6² + 10² = 136 ≠ 169.",
+      "difficulty": "medium",
+      "tags": ["pythagorean-triple", "verification", "pythagoras"]
+    },
+    {
+      "id": "q_math_10_w23_s2_015",
+      "goalId": "grade10-mathematics",
+      "question": "△ABC ~ △PQR with AB = 8, PQ = 12. If the area of △ABC = 64 cm², find the area of △PQR.",
+      "options": ["96 cm²", "128 cm²", "144 cm²", "192 cm²"],
+      "correctIndex": 2,
+      "explanation": "Area ratio = (sides ratio)² = (AB/PQ)² = (8/12)² = (2/3)² = 4/9. Area of PQR = 64 × (9/4) = 144 cm².",
+      "difficulty": "hard",
+      "tags": ["area-ratio", "similar-triangles", "calculation"]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-mathematics",
+  "title": "Grade 10 Mathematics — Coordinate Geometry",
+  "description": "Distance formula, section formula, area of triangle, midpoint",
+  "category": "school",
+  "grade": 10,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_10_w23_s3_001",
+      "goalId": "grade10-mathematics",
+      "question": "The distance between points A(x₁, y₁) and B(x₂, y₂) is:",
+      "options": ["(x₂−x₁) + (y₂−y₁)", "√[(x₂−x₁)² + (y₂−y₁)²]", "(x₂−x₁)² + (y₂−y₁)²", "√[(x₂+x₁)² + (y₂+y₁)²]"],
+      "correctIndex": 1,
+      "explanation": "Distance formula: d = √[(x₂−x₁)² + (y₂−y₁)²]. Derived from Pythagoras' theorem applied to a right triangle with legs (x₂−x₁) and (y₂−y₁).",
+      "difficulty": "easy",
+      "tags": ["distance-formula", "coordinate-geometry", "formula"]
+    },
+    {
+      "id": "q_math_10_w23_s3_002",
+      "goalId": "grade10-mathematics",
+      "question": "Find the distance between A(3, 4) and B(0, 0).",
+      "options": ["7", "5", "25", "√7"],
+      "correctIndex": 1,
+      "explanation": "d = √[(3−0)² + (4−0)²] = √[9 + 16] = √25 = 5. (This is a 3-4-5 right triangle.)",
+      "difficulty": "easy",
+      "tags": ["distance-formula", "calculation", "origin"]
+    },
+    {
+      "id": "q_math_10_w23_s3_003",
+      "goalId": "grade10-mathematics",
+      "question": "The midpoint of the line segment joining A(x₁, y₁) and B(x₂, y₂) is:",
+      "options": ["(x₁−x₂, y₁−y₂)", "((x₁+x₂)/2, (y₁+y₂)/2)", "(x₁×x₂, y₁×y₂)", "(x₂−x₁, y₂−y₁)"],
+      "correctIndex": 1,
+      "explanation": "Midpoint formula: M = ((x₁+x₂)/2, (y₁+y₂)/2). The midpoint is the average of the x-coordinates and the average of the y-coordinates.",
+      "difficulty": "easy",
+      "tags": ["midpoint-formula", "coordinate-geometry", "formula"]
+    },
+    {
+      "id": "q_math_10_w23_s3_004",
+      "goalId": "grade10-mathematics",
+      "question": "The Section Formula for a point P dividing AB (A(x₁,y₁), B(x₂,y₂)) in ratio m:n internally is:",
+      "options": ["P = ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n))", "P = ((mx₁ + nx₂)/(m+n), (my₁ + ny₂)/(m+n))", "P = ((x₁+x₂)/2, (y₁+y₂)/2)", "P = (mx₂ − nx₁, my₂ − ny₁)"],
+      "correctIndex": 0,
+      "explanation": "Internal Section Formula: P = ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n)). For m=n=1 (midpoint): P = ((x₁+x₂)/2, (y₁+y₂)/2). Memory: multiply m with B's coordinates.",
+      "difficulty": "medium",
+      "tags": ["section-formula", "internal-division", "coordinate-geometry"]
+    },
+    {
+      "id": "q_math_10_w23_s3_005",
+      "goalId": "grade10-mathematics",
+      "question": "Find the midpoint of the segment joining P(−2, 3) and Q(4, −1).",
+      "options": ["(1, 1)", "(2, 2)", "(1, 0)", "(3, −2)"],
+      "correctIndex": 0,
+      "explanation": "Midpoint = ((−2+4)/2, (3+(−1))/2) = (2/2, 2/2) = (1, 1).",
+      "difficulty": "easy",
+      "tags": ["midpoint", "calculation", "coordinate-geometry"]
+    },
+    {
+      "id": "q_math_10_w23_s3_006",
+      "goalId": "grade10-mathematics",
+      "question": "Point P divides AB (A(1,2), B(7,5)) in ratio 2:1 internally. Find P.",
+      "options": ["(5, 4)", "(3, 3)", "(4, 5)", "(5, 3)"],
+      "correctIndex": 0,
+      "explanation": "P = ((2×7 + 1×1)/(2+1), (2×5 + 1×2)/(2+1)) = ((14+1)/3, (10+2)/3) = (15/3, 12/3) = (5, 4).",
+      "difficulty": "medium",
+      "tags": ["section-formula", "calculation", "internal-division"]
+    },
+    {
+      "id": "q_math_10_w23_s3_007",
+      "goalId": "grade10-mathematics",
+      "question": "The area of a triangle with vertices A(x₁,y₁), B(x₂,y₂), C(x₃,y₃) is:",
+      "options": ["(1/2)|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|", "(x₁+x₂+x₃)/3", "|x₁y₂ + x₂y₃ + x₃y₁|", "base × height"],
+      "correctIndex": 0,
+      "explanation": "Area = (1/2)|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|. The absolute value ensures a positive result. If area = 0, the three points are collinear.",
+      "difficulty": "medium",
+      "tags": ["area-of-triangle", "coordinate-geometry", "formula"]
+    },
+    {
+      "id": "q_math_10_w23_s3_008",
+      "goalId": "grade10-mathematics",
+      "question": "If the area of triangle ABC is 0, it means A, B, C are:",
+      "options": ["All at the origin", "The vertices of a right triangle", "Collinear (on the same straight line)", "Equilateral"],
+      "correctIndex": 2,
+      "explanation": "Area = 0 means the three points lie on a single straight line (collinear). No 'triangle' is formed — the points are co-linear. This is used to test for collinearity.",
+      "difficulty": "medium",
+      "tags": ["collinear", "area-zero", "coordinate-geometry"]
+    },
+    {
+      "id": "q_math_10_w23_s3_009",
+      "goalId": "grade10-mathematics",
+      "question": "The coordinates of the centroid of a triangle with vertices A(x₁,y₁), B(x₂,y₂), C(x₃,y₃) are:",
+      "options": ["((x₁+x₂)/2, (y₁+y₂)/2)", "((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3)", "(x₁×x₂×x₃, y₁×y₂×y₃)", "None of these"],
+      "correctIndex": 1,
+      "explanation": "Centroid G = ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3). The centroid is the point of intersection of medians, located 2/3 of the way from each vertex to the midpoint of the opposite side.",
+      "difficulty": "medium",
+      "tags": ["centroid", "triangle", "coordinate-geometry"]
+    },
+    {
+      "id": "q_math_10_w23_s3_010",
+      "goalId": "grade10-mathematics",
+      "question": "Find the area of triangle with vertices A(0,0), B(4,0), C(0,3).",
+      "options": ["12 sq units", "7 sq units", "6 sq units", "3.5 sq units"],
+      "correctIndex": 2,
+      "explanation": "Area = (1/2)|0(0−3) + 4(3−0) + 0(0−0)| = (1/2)|0 + 12 + 0| = 6 sq units. (Or simply: right triangle, base 4, height 3: area = ½ × 4 × 3 = 6.)",
+      "difficulty": "medium",
+      "tags": ["area-of-triangle", "calculation", "coordinate-geometry"]
+    },
+    {
+      "id": "q_math_10_w23_s3_011",
+      "goalId": "grade10-mathematics",
+      "question": "The distance of point P(3, −4) from the origin is:",
+      "options": ["1", "5", "7", "25"],
+      "correctIndex": 1,
+      "explanation": "Distance from origin = √(x² + y²) = √(9 + 16) = √25 = 5.",
+      "difficulty": "easy",
+      "tags": ["distance-from-origin", "calculation", "coordinate-geometry"]
+    },
+    {
+      "id": "q_math_10_w23_s3_012",
+      "goalId": "grade10-mathematics",
+      "question": "If point R divides PQ where P(2,3) and Q(8,9) in ratio 1:2, R's coordinates are:",
+      "options": ["(4, 5)", "(6, 7)", "(3, 4)", "(5, 6)"],
+      "correctIndex": 0,
+      "explanation": "Internal division 1:2: R = ((1×8 + 2×2)/(1+2), (1×9 + 2×3)/(1+2)) = ((8+4)/3, (9+6)/3) = (12/3, 15/3) = (4, 5).",
+      "difficulty": "medium",
+      "tags": ["section-formula", "calculation", "ratio"]
+    },
+    {
+      "id": "q_math_10_w23_s3_013",
+      "goalId": "grade10-mathematics",
+      "question": "A line segment has endpoints A(−3, 5) and B(3, 1). Its midpoint is:",
+      "options": ["(0, 3)", "(3, 3)", "(0, 6)", "(1, 3)"],
+      "correctIndex": 0,
+      "explanation": "Midpoint = ((−3+3)/2, (5+1)/2) = (0/2, 6/2) = (0, 3).",
+      "difficulty": "easy",
+      "tags": ["midpoint", "calculation", "coordinate-geometry"]
+    },
+    {
+      "id": "q_math_10_w23_s3_014",
+      "goalId": "grade10-mathematics",
+      "question": "Are the points A(1,2), B(3,6), C(5,10) collinear?",
+      "options": ["No — they form a triangle", "Yes — area of triangle ABC = 0", "Cannot be determined", "Yes — they are on a circle"],
+      "correctIndex": 1,
+      "explanation": "Area = (1/2)|1(6−10) + 3(10−2) + 5(2−6)| = (1/2)|−4 + 24 − 20| = (1/2)|0| = 0. ✓ The points are collinear.",
+      "difficulty": "hard",
+      "tags": ["collinear", "area-test", "calculation"]
+    },
+    {
+      "id": "q_math_10_w23_s3_015",
+      "goalId": "grade10-mathematics",
+      "question": "The point that divides the line segment joining A(4,−3) and B(8,5) in the ratio 3:1 internally is:",
+      "options": ["(7, 3)", "(6, 1)", "(5, −1)", "(9, 7)"],
+      "correctIndex": 0,
+      "explanation": "P = ((3×8 + 1×4)/4, (3×5 + 1×(−3))/4) = ((24+4)/4, (15−3)/4) = (28/4, 12/4) = (7, 3).",
+      "difficulty": "hard",
+      "tags": ["section-formula", "calculation", "internal-division"]
+    }
+  ]
+}

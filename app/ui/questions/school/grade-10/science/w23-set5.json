@@ -1,0 +1,163 @@
+{
+  "goalId": "grade10-science",
+  "title": "Grade 10 Science — Life Processes",
+  "description": "Nutrition, respiration, transportation, excretion in living organisms",
+  "category": "school",
+  "grade": 10,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_10_w23_s5_001",
+      "goalId": "grade10-science",
+      "question": "Autotrophs are organisms that:",
+      "options": ["Feed on dead organic matter", "Cannot make their own food", "Make their own food using sunlight or chemical energy (photosynthesis/chemosynthesis)", "Feed on other animals"],
+      "correctIndex": 2,
+      "explanation": "Autotrophs (self-feeders) make their own food: plants/algae use sunlight (photoautotrophs), some bacteria use chemical energy (chemoautotrophs). Heterotrophs cannot make their own food.",
+      "difficulty": "easy",
+      "tags": ["autotrophs", "nutrition", "photosynthesis"]
+    },
+    {
+      "id": "q_science_10_w23_s5_002",
+      "goalId": "grade10-science",
+      "question": "The overall equation for photosynthesis is:",
+      "options": ["CO₂ + H₂O + light → glucose + O₂ (simplified: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂)", "Glucose + O₂ → CO₂ + H₂O + energy", "H₂O → H₂ + O₂", "CO₂ + O₂ → carbonate"],
+      "correctIndex": 0,
+      "explanation": "Photosynthesis: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂. Takes place in chloroplasts. Chlorophyll absorbs light. O₂ is released (from water splitting). Contrast: respiration is the reverse.",
+      "difficulty": "easy",
+      "tags": ["photosynthesis", "equation", "glucose"]
+    },
+    {
+      "id": "q_science_10_w23_s5_003",
+      "goalId": "grade10-science",
+      "question": "Aerobic respiration produces how much ATP compared to anaerobic?",
+      "options": ["Same amount", "Less ATP (anaerobic is more efficient)", "Much more ATP — about 38 ATP per glucose vs. only 2 in anaerobic", "Aerobic makes zero ATP"],
+      "correctIndex": 2,
+      "explanation": "Aerobic: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~38 ATP (complete breakdown). Anaerobic: glucose → lactic acid (in muscles) or ethanol + CO₂ (in yeast) + only 2 ATP. Aerobic is ~19× more efficient.",
+      "difficulty": "medium",
+      "tags": ["aerobic-anaerobic", "ATP", "efficiency"]
+    },
+    {
+      "id": "q_science_10_w23_s5_004",
+      "goalId": "grade10-science",
+      "question": "The human heart is a four-chambered organ. The correct sequence of blood flow through the heart is:",
+      "options": ["Right atrium → Left ventricle → Lungs → Left atrium → Right ventricle → Body", "Right atrium → Right ventricle → Lungs → Left atrium → Left ventricle → Body", "Left atrium → Left ventricle → Body → Right atrium → Right ventricle → Lungs", "Both B and C are correct (same path described differently)"],
+      "correctIndex": 3,
+      "explanation": "Blood from body (deoxygenated) → Right atrium → Right ventricle → Lungs (oxygenated) → Left atrium → Left ventricle → Body. Options B and C describe the same circuit starting from different points.",
+      "difficulty": "hard",
+      "tags": ["heart", "blood-flow", "circulation"]
+    },
+    {
+      "id": "q_science_10_w23_s5_005",
+      "goalId": "grade10-science",
+      "question": "The functional unit of the kidney is the:",
+      "options": ["Bowman's capsule", "Nephron", "Collecting duct", "Ureter"],
+      "correctIndex": 1,
+      "explanation": "The nephron is the functional unit of the kidney — each kidney has about 1 million nephrons. Each nephron filters blood: glomerular filtration (Bowman's capsule), reabsorption (tubules), secretion → urine.",
+      "difficulty": "easy",
+      "tags": ["nephron", "kidney", "excretion"]
+    },
+    {
+      "id": "q_science_10_w23_s5_006",
+      "goalId": "grade10-science",
+      "question": "Dialysis (kidney machine) replicates the function of:",
+      "options": ["The liver", "The lungs", "The kidney — filtering waste from blood when kidneys fail", "The heart"],
+      "correctIndex": 2,
+      "explanation": "Dialysis artificially filters blood, removing urea and excess salts when kidneys fail (kidney failure, CKD). The patient's blood is passed through a dialysis machine that acts as an artificial kidney.",
+      "difficulty": "easy",
+      "tags": ["dialysis", "kidney-failure", "excretion"]
+    },
+    {
+      "id": "q_science_10_w23_s5_007",
+      "goalId": "grade10-science",
+      "question": "In plants, transport of water from roots to leaves occurs through:",
+      "options": ["Phloem", "Xylem (due to transpiration pull creating negative pressure)", "Diffusion only", "Active transport by the plant"],
+      "correctIndex": 1,
+      "explanation": "Xylem transports water upward. The main driving force is TRANSPIRATION PULL (cohesion-tension): water evaporating from leaves creates negative pressure that pulls water columns up from roots.",
+      "difficulty": "medium",
+      "tags": ["xylem", "transpiration-pull", "water-transport"]
+    },
+    {
+      "id": "q_science_10_w23_s5_008",
+      "goalId": "grade10-science",
+      "question": "Phloem transports:",
+      "options": ["Water from roots to leaves upward", "Mineral salts from soil", "Sugars (glucose/sucrose) from leaves to all parts of the plant (both up and down)", "Oxygen from leaves"],
+      "correctIndex": 2,
+      "explanation": "Phloem transports sugars (mainly sucrose) made in photosynthesis from leaves to other parts — upward to growing tips, downward to roots and storage organs. This is called translocation.",
+      "difficulty": "easy",
+      "tags": ["phloem", "translocation", "sugar-transport"]
+    },
+    {
+      "id": "q_science_10_w23_s5_009",
+      "goalId": "grade10-science",
+      "question": "Haemoglobin in red blood cells carries:",
+      "options": ["Carbon dioxide only", "Nutrients from digestion", "Oxygen (and some CO₂) through blood circulation", "Antibodies"],
+      "correctIndex": 2,
+      "explanation": "Haemoglobin (Hb) binds O₂ in the lungs (forms oxyhaemoglobin) and releases it at tissues. It also carries about 20% of CO₂ (the rest as bicarbonate ions in plasma). Lack of Hb = anaemia.",
+      "difficulty": "easy",
+      "tags": ["haemoglobin", "oxygen-transport", "RBC"]
+    },
+    {
+      "id": "q_science_10_w23_s5_010",
+      "goalId": "grade10-science",
+      "question": "Amoeba obtains food by the process of:",
+      "options": ["Absorption through cell wall", "Photosynthesis", "Phagocytosis — engulfing food particles with pseudopodia", "Chemosynthesis"],
+      "correctIndex": 2,
+      "explanation": "Amoeba uses phagocytosis: it extends pseudopodia (false feet) to surround and engulf food particles (bacteria, algae), forming a food vacuole. Enzymes digest the food inside the vacuole.",
+      "difficulty": "easy",
+      "tags": ["amoeba", "phagocytosis", "nutrition"]
+    },
+    {
+      "id": "q_science_10_w23_s5_011",
+      "goalId": "grade10-science",
+      "question": "The role of HCl in the stomach is:",
+      "options": ["To digest proteins directly", "To create an acidic environment that activates pepsinogen to pepsin and kills bacteria", "To absorb nutrients", "To produce bile"],
+      "correctIndex": 1,
+      "explanation": "HCl (gastric acid): (1) creates pH 1-2 acidic environment, (2) activates pepsinogen → pepsin (protein-digesting enzyme), (3) kills most swallowed bacteria, (4) denatures dietary proteins.",
+      "difficulty": "medium",
+      "tags": ["HCl", "stomach", "digestion"]
+    },
+    {
+      "id": "q_science_10_w23_s5_012",
+      "goalId": "grade10-science",
+      "question": "The excretory product in humans is mainly:",
+      "options": ["CO₂ only", "Urea (produced in the liver from amino acid breakdown)", "Glucose", "Oxygen"],
+      "correctIndex": 1,
+      "explanation": "Main nitrogenous excretory product in humans: UREA (uricotelic: birds/reptiles; ammonotelic: fish/aquatic organisms). Urea is formed in the liver (urea cycle) from ammonia (from amino acids) + CO₂.",
+      "difficulty": "medium",
+      "tags": ["urea", "excretion", "liver"]
+    },
+    {
+      "id": "q_science_10_w23_s5_013",
+      "goalId": "grade10-science",
+      "question": "Lactic acid is produced during anaerobic respiration in:",
+      "options": ["Yeast cells", "Plant roots in waterlogged soil", "Human muscle cells during intense exercise", "All cells equally"],
+      "correctIndex": 2,
+      "explanation": "In human muscles during intense exercise (insufficient O₂): glucose → lactic acid + 2 ATP. Lactic acid causes the 'burning' feeling and fatigue. In yeast: glucose → ethanol + CO₂ + 2 ATP (fermentation).",
+      "difficulty": "medium",
+      "tags": ["lactic-acid", "anaerobic", "muscle"]
+    },
+    {
+      "id": "q_science_10_w23_s5_014",
+      "goalId": "grade10-science",
+      "question": "Lymph differs from blood in that lymph:",
+      "options": ["Contains no RBCs and has less protein — it is fluid leaked from capillaries that drains back via the lymphatic system", "Flows faster than blood", "Contains more RBCs", "Is found only in the brain"],
+      "correctIndex": 0,
+      "explanation": "Lymph is colourless fluid derived from blood plasma that has leaked from capillaries into tissues. It has no RBCs, fewer proteins. The lymphatic system returns it to blood. Important in immunity (lymphocytes).",
+      "difficulty": "hard",
+      "tags": ["lymph", "lymphatic-system", "circulation"]
+    },
+    {
+      "id": "q_science_10_w23_s5_015",
+      "goalId": "grade10-science",
+      "question": "Stomata in leaves open during the day because:",
+      "options": ["Light causes guard cells to lose water (turgor decreases)", "Light causes K⁺ ions to move into guard cells, water follows by osmosis, increasing turgor and opening the pore", "CO₂ concentration increases", "Temperature decreases"],
+      "correctIndex": 1,
+      "explanation": "In light: guard cells take in K⁺ (potassium ions), water follows by osmosis → guard cells become turgid (swell) → stoma opens. At night: K⁺ moves out → guard cells become flaccid → stoma closes.",
+      "difficulty": "hard",
+      "tags": ["stomata", "guard-cells", "turgor"]
+    }
+  ]
+}
