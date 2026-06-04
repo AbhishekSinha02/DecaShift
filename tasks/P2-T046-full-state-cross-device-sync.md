@@ -1,6 +1,12 @@
 # P2-T046 — Full-State Cross-Device Sync: journey + preferences + appearance (+ offline password reset)
 
-> ## ✅ STATUS 2026-06-04 — core shipped (build `20260604a`), needs live test
+> ## ✅ STATUS 2026-06-04 — SHIPPED + TESTED WORKING (build `20260604a`)
+> **Validated 2026-06-04:** Code.gs redeployed (`getJourney` returns `{found:false}` live);
+> smoke-tested incognito → mobile, progress restores across devices. **Mostly working** —
+> a few edge cases remain (user-noted, deferred — capture specifics next session). Core
+> cross-device sync is functional; the binding launch gap is closed.
+>
+> ## ✅ build detail — core shipped (build `20260604a`)
 > **Done & pushed:** `snapshotAll`/`restoreAll` + `syncStateToDrive`/`fetchStateFromDrive`/
 > `syncStateSoon` (storage.js) · re-sync on session-end/streak/freeze + sign-out flush ·
 > restore-on-signin (re-applies theme/timer before home) · `getJourney` read-half in Code.gs ·
