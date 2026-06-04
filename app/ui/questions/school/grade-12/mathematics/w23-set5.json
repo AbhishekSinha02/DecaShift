@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-mathematics",
+  "title": "Grade 12 Mathematics — Vectors & 3D Geometry",
+  "description": "Vector algebra, dot product, cross product, lines and planes in 3D",
+  "category": "school",
+  "grade": 12,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_12_w23_s5_001",
+      "goalId": "grade12-mathematics",
+      "question": "The magnitude of vector a = aî + bĵ + ck̂ is:",
+      "options": ["a + b + c", "√(a + b + c)", "√(a² + b² + c²)", "a² + b² + c²"],
+      "correctIndex": 2,
+      "explanation": "|a| = √(a² + b² + c²). This is the 3D extension of the Pythagorean theorem. A unit vector has magnitude 1: â = a/|a|.",
+      "difficulty": "easy",
+      "tags": ["vector-magnitude", "formula", "3D"]
+    },
+    {
+      "id": "q_math_12_w23_s5_002",
+      "goalId": "grade12-mathematics",
+      "question": "The dot product (scalar product) a · b = ?",
+      "options": ["|a||b| sin θ", "|a||b| cos θ", "|a| + |b|", "|a| × |b|"],
+      "correctIndex": 1,
+      "explanation": "a · b = |a||b| cos θ = a₁b₁ + a₂b₂ + a₃b₃. It is a scalar. For perpendicular vectors: a · b = 0 (cos 90° = 0). For parallel: a · b = |a||b|.",
+      "difficulty": "easy",
+      "tags": ["dot-product", "formula", "scalar-product"]
+    },
+    {
+      "id": "q_math_12_w23_s5_003",
+      "goalId": "grade12-mathematics",
+      "question": "The cross product (vector product) a × b has magnitude:",
+      "options": ["|a||b| cos θ", "|a||b| sin θ", "|a| + |b|", "|a|²|b|"],
+      "correctIndex": 1,
+      "explanation": "|a × b| = |a||b| sin θ. Direction: perpendicular to both a and b (right-hand rule). For parallel vectors: a × b = 0 (sin 0° = 0). Area of parallelogram formed by a and b = |a × b|.",
+      "difficulty": "easy",
+      "tags": ["cross-product", "magnitude", "vector-product"]
+    },
+    {
+      "id": "q_math_12_w23_s5_004",
+      "goalId": "grade12-mathematics",
+      "question": "The angle between vectors a = î + ĵ and b = ĵ + k̂ is:",
+      "options": ["30°", "45°", "60°", "90°"],
+      "correctIndex": 2,
+      "explanation": "cos θ = (a·b)/(|a||b|). a·b = 0×0 + 1×1 + 0×0 = 1 (wait: a=(1,1,0), b=(0,1,1)). a·b = 0+1+0 = 1. |a|=√2, |b|=√2. cos θ = 1/2 → θ = 60°.",
+      "difficulty": "medium",
+      "tags": ["angle-between-vectors", "calculation", "dot-product"]
+    },
+    {
+      "id": "q_math_12_w23_s5_005",
+      "goalId": "grade12-mathematics",
+      "question": "The equation of a line through point A(a⃗) with direction vector b⃗ is:",
+      "options": ["r⃗ = b⃗ + λa⃗", "r⃗ = a⃗ + λb⃗", "r⃗ = a⃗ × b⃗ + λ", "r⃗ = λ(a⃗ + b⃗)"],
+      "correctIndex": 1,
+      "explanation": "Vector equation of a line: r⃗ = a⃗ + λb⃗ where a⃗ = position vector of a point on the line, b⃗ = direction vector, λ ∈ ℝ (parameter). Cartesian: (x−a₁)/b₁ = (y−a₂)/b₂ = (z−a₃)/b₃.",
+      "difficulty": "medium",
+      "tags": ["line-3D", "vector-equation", "direction-vector"]
+    },
+    {
+      "id": "q_math_12_w23_s5_006",
+      "goalId": "grade12-mathematics",
+      "question": "The equation of a plane with normal n⃗ passing through point a⃗ is:",
+      "options": ["r⃗ · n⃗ = a⃗ · n⃗", "r⃗ × n⃗ = a⃗", "n⃗ = r⃗ + a⃗", "r⃗ · a⃗ = n⃗"],
+      "correctIndex": 0,
+      "explanation": "Vector equation of plane: (r⃗ − a⃗)·n⃗ = 0 → r⃗·n⃗ = a⃗·n⃗. Cartesian: Ax + By + Cz = D where (A,B,C) = normal direction. Distance from origin to plane Ax+By+Cz=D: d = |D|/√(A²+B²+C²).",
+      "difficulty": "medium",
+      "tags": ["plane-3D", "normal-vector", "equation"]
+    },
+    {
+      "id": "q_math_12_w23_s5_007",
+      "goalId": "grade12-mathematics",
+      "question": "The distance between two parallel planes 2x + y − 2z = 5 and 2x + y − 2z = 11 is:",
+      "options": ["6", "2", "3", "1"],
+      "correctIndex": 1,
+      "explanation": "Distance between parallel planes ax+by+cz=d₁ and ax+by+cz=d₂: d = |d₁−d₂|/√(a²+b²+c²) = |5−11|/√(4+1+4) = 6/√9 = 6/3 = 2.",
+      "difficulty": "hard",
+      "tags": ["parallel-planes", "distance", "calculation"]
+    },
+    {
+      "id": "q_math_12_w23_s5_008",
+      "goalId": "grade12-mathematics",
+      "question": "î × ĵ = ?",
+      "options": ["0", "1", "k̂", "−k̂"],
+      "correctIndex": 2,
+      "explanation": "î × ĵ = k̂ (right-hand rule). ĵ × k̂ = î. k̂ × î = ĵ. Reversing order: ĵ × î = −k̂. î × î = 0 (parallel vectors).",
+      "difficulty": "easy",
+      "tags": ["unit-vectors", "cross-product", "ijk"]
+    },
+    {
+      "id": "q_math_12_w23_s5_009",
+      "goalId": "grade12-mathematics",
+      "question": "For non-zero vectors a⃗ and b⃗, a⃗ · b⃗ = 0 implies:",
+      "options": ["a⃗ = b⃗", "a⃗ and b⃗ are parallel", "a⃗ and b⃗ are perpendicular (orthogonal)", "a⃗ = −b⃗"],
+      "correctIndex": 2,
+      "explanation": "a⃗·b⃗ = |a||b|cosθ = 0. Since |a| ≠ 0 and |b| ≠ 0: cosθ = 0 → θ = 90°. The vectors are perpendicular.",
+      "difficulty": "easy",
+      "tags": ["perpendicular-vectors", "dot-product-zero", "condition"]
+    },
+    {
+      "id": "q_math_12_w23_s5_010",
+      "goalId": "grade12-mathematics",
+      "question": "The projection of a⃗ on b⃗ is:",
+      "options": ["a⃗ · b̂", "(a⃗·b⃗)/|b⃗|", "Both A and B (same expression since b̂ = b⃗/|b⃗|)", "a⃗ × b⃗"],
+      "correctIndex": 2,
+      "explanation": "Projection of a on b = (a⃗·b⃗)/|b⃗| = a⃗·b̂. These are equivalent (b̂ = b⃗/|b|). This is a scalar. The vector projection = [(a⃗·b⃗)/|b⃗|²]×b⃗.",
+      "difficulty": "medium",
+      "tags": ["projection", "vector", "formula"]
+    },
+    {
+      "id": "q_math_12_w23_s5_011",
+      "goalId": "grade12-mathematics",
+      "question": "Find the cross product of a⃗ = 2î − ĵ + k̂ and b⃗ = î + 2ĵ − k̂.",
+      "options": ["−î + 3ĵ + 5k̂", "î − 3ĵ − 5k̂", "3î + 3ĵ + 5k̂", "−î − 3ĵ + 5k̂"],
+      "correctIndex": 0,
+      "explanation": "a×b = |î  ĵ  k̂; 2 −1 1; 1 2 −1| = î(−1×−1 − 1×2) − ĵ(2×−1 − 1×1) + k̂(2×2 − (−1)×1) = î(1−2) − ĵ(−2−1) + k̂(4+1) = −î + 3ĵ + 5k̂.",
+      "difficulty": "hard",
+      "tags": ["cross-product", "calculation", "determinant"]
+    },
+    {
+      "id": "q_math_12_w23_s5_012",
+      "goalId": "grade12-mathematics",
+      "question": "The direction cosines of a vector a⃗ = 3î + 4ĵ + 0k̂ are:",
+      "options": ["(3/5, 4/5, 0)", "(3, 4, 0)", "(9, 16, 0)", "(3/25, 4/25, 0)"],
+      "correctIndex": 0,
+      "explanation": "|a⃗| = √(9+16+0) = 5. Direction cosines: l = 3/5, m = 4/5, n = 0. l² + m² + n² = 9/25 + 16/25 = 25/25 = 1 ✓.",
+      "difficulty": "medium",
+      "tags": ["direction-cosines", "calculation", "3D"]
+    },
+    {
+      "id": "q_math_12_w23_s5_013",
+      "goalId": "grade12-mathematics",
+      "question": "The scalar triple product a⃗·(b⃗×c⃗) represents geometrically:",
+      "options": ["Area of triangle ABC", "Volume of the parallelepiped formed by a⃗, b⃗, and c⃗", "Length of a⃗ + b⃗ + c⃗", "Dot product of three vectors"],
+      "correctIndex": 1,
+      "explanation": "Volume of parallelepiped = |a⃗·(b⃗×c⃗)|. If the scalar triple product = 0, the three vectors are coplanar (parallelepiped has zero volume).",
+      "difficulty": "hard",
+      "tags": ["scalar-triple-product", "volume", "parallelepiped"]
+    },
+    {
+      "id": "q_math_12_w23_s5_014",
+      "goalId": "grade12-mathematics",
+      "question": "Angle between two planes with normals n₁⃗ and n₂⃗ is given by:",
+      "options": ["cos θ = (n₁⃗·n₂⃗)/(|n₁⃗||n₂⃗|)", "sin θ = (n₁⃗·n₂⃗)/(|n₁⃗||n₂⃗|)", "tan θ = |n₁⃗×n₂⃗|/(n₁⃗·n₂⃗)", "θ = n₁⃗·n₂⃗"],
+      "correctIndex": 0,
+      "explanation": "Angle between planes = angle between their normal vectors: cos θ = (n₁·n₂)/(|n₁||n₂|). For perpendicular planes: n₁·n₂ = 0. For parallel planes: n₁ and n₂ are parallel.",
+      "difficulty": "medium",
+      "tags": ["angle-between-planes", "normal-vectors", "formula"]
+    },
+    {
+      "id": "q_math_12_w23_s5_015",
+      "goalId": "grade12-mathematics",
+      "question": "The shortest distance between two skew lines r⃗ = a₁⃗ + λb₁⃗ and r⃗ = a₂⃗ + μb₂⃗ is:",
+      "options": ["|(a₂⃗−a₁⃗)·(b₁⃗×b₂⃗)| / |b₁⃗×b₂⃗|", "|(a₂⃗−a₁⃗)| / |b₁⃗+b₂⃗|", "|b₁⃗×b₂⃗| / |(a₂⃗−a₁⃗)|", "|(a₁⃗−a₂⃗)| / |b₁⃗|"],
+      "correctIndex": 0,
+      "explanation": "Shortest distance between skew lines: d = |(a₂−a₁)·(b₁×b₂)| / |b₁×b₂|. If b₁×b₂ = 0, lines are parallel; use a different formula.",
+      "difficulty": "hard",
+      "tags": ["skew-lines", "shortest-distance", "formula"]
+    }
+  ]
+}

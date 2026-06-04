@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-mathematics",
+  "title": "Grade 12 Mathematics — Differential Equations",
+  "description": "Order, degree, formation, and solution of differential equations",
+  "category": "school",
+  "grade": 12,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_12_w23_s4_001",
+      "goalId": "grade12-mathematics",
+      "question": "The order of a differential equation is the order of the:",
+      "options": ["Highest power of the dependent variable", "Highest derivative present in the equation", "Number of variables", "Degree of the polynomial"],
+      "correctIndex": 1,
+      "explanation": "Order = order of the highest derivative. For y'' + 3y' − 2y = 0: order = 2. For (dy/dx)³ + y = 0: order = 1. Order determines the number of arbitrary constants in the general solution.",
+      "difficulty": "easy",
+      "tags": ["order", "differential-equation", "definition"]
+    },
+    {
+      "id": "q_math_12_w23_s4_002",
+      "goalId": "grade12-mathematics",
+      "question": "The degree of a differential equation is the power of the:",
+      "options": ["Highest derivative (after clearing fractional/negative powers)", "Independent variable", "Dependent variable", "Constant term"],
+      "correctIndex": 0,
+      "explanation": "Degree = power of the highest-order derivative (after rationalising). For (y'')² + y' = x: degree = 2. If there are fractional powers, first eliminate them. Degree is defined only when equation is a polynomial in derivatives.",
+      "difficulty": "medium",
+      "tags": ["degree", "differential-equation", "definition"]
+    },
+    {
+      "id": "q_math_12_w23_s4_003",
+      "goalId": "grade12-mathematics",
+      "question": "A general solution of a differential equation contains:",
+      "options": ["No arbitrary constants", "Exactly as many arbitrary constants as the order of the equation", "Infinitely many terms", "Only particular values of x"],
+      "correctIndex": 1,
+      "explanation": "An nth-order DE has a general solution with n arbitrary constants. A particular solution is obtained by applying initial/boundary conditions to find specific values of these constants.",
+      "difficulty": "medium",
+      "tags": ["general-solution", "arbitrary-constants", "order"]
+    },
+    {
+      "id": "q_math_12_w23_s4_004",
+      "goalId": "grade12-mathematics",
+      "question": "A separable differential equation has the form:",
+      "options": ["dy/dx = f(x) + g(y)", "dy/dx = f(x)·g(y) (can be separated as dy/g(y) = f(x)dx)", "d²y/dx² = f(x)", "dy/dx = f(x+y)"],
+      "correctIndex": 1,
+      "explanation": "Separable: dy/dx = f(x)·g(y) → dy/g(y) = f(x)dx → ∫dy/g(y) = ∫f(x)dx. Both sides integrated separately. These are the simplest to solve.",
+      "difficulty": "medium",
+      "tags": ["separable", "variable-separable", "method"]
+    },
+    {
+      "id": "q_math_12_w23_s4_005",
+      "goalId": "grade12-mathematics",
+      "question": "Solve: dy/dx = y. The general solution is:",
+      "options": ["y = x + C", "y = Ce^x", "y = Cx", "y = ln x + C"],
+      "correctIndex": 1,
+      "explanation": "dy/y = dx → ∫dy/y = ∫dx → ln|y| = x + C₁ → |y| = e^(x+C₁) = Ae^x → y = Ce^x (absorbing ±A into C).",
+      "difficulty": "medium",
+      "tags": ["separable-DE", "solution", "exponential"]
+    },
+    {
+      "id": "q_math_12_w23_s4_006",
+      "goalId": "grade12-mathematics",
+      "question": "A linear first-order DE has the standard form:",
+      "options": ["dy/dx + P(x)y = Q(x)", "dy/dx = P(x)y²", "y × dy/dx = Q(x)", "(dy/dx)² = P(x)"],
+      "correctIndex": 0,
+      "explanation": "Linear first-order DE: dy/dx + P(x)y = Q(x). Solved using integrating factor μ = e^(∫P dx). Multiplying by μ makes left side d(μy)/dx. Then integrate both sides.",
+      "difficulty": "medium",
+      "tags": ["linear-DE", "standard-form", "first-order"]
+    },
+    {
+      "id": "q_math_12_w23_s4_007",
+      "goalId": "grade12-mathematics",
+      "question": "The integrating factor for dy/dx + y/x = x² is:",
+      "options": ["x", "e^x", "1/x", "x²"],
+      "correctIndex": 0,
+      "explanation": "P(x) = 1/x. IF = e^(∫P dx) = e^(∫dx/x) = e^(ln x) = x.",
+      "difficulty": "medium",
+      "tags": ["integrating-factor", "linear-DE", "calculation"]
+    },
+    {
+      "id": "q_math_12_w23_s4_008",
+      "goalId": "grade12-mathematics",
+      "question": "A homogeneous differential equation has the form dy/dx = ?",
+      "options": ["f(x) + g(y)", "f(y/x) (function of y/x only)", "f(x)g(y)", "f(x + y)"],
+      "correctIndex": 1,
+      "explanation": "Homogeneous DE: dy/dx = f(y/x). Solved by substitution v = y/x → y = vx → dy/dx = v + x(dv/dx). This transforms it into a separable equation in v and x.",
+      "difficulty": "hard",
+      "tags": ["homogeneous-DE", "form", "substitution"]
+    },
+    {
+      "id": "q_math_12_w23_s4_009",
+      "goalId": "grade12-mathematics",
+      "question": "The order and degree of: (d²y/dx²)³ + (dy/dx)² = 0 are:",
+      "options": ["Order 1, Degree 3", "Order 2, Degree 3", "Order 3, Degree 2", "Order 2, Degree 1"],
+      "correctIndex": 1,
+      "explanation": "Highest derivative: d²y/dx² (order 2). Its power in the equation = 3 (degree 3).",
+      "difficulty": "medium",
+      "tags": ["order-degree", "identification", "DE"]
+    },
+    {
+      "id": "q_math_12_w23_s4_010",
+      "goalId": "grade12-mathematics",
+      "question": "The differential equation for y = Ae^x + Be^(−x) (where A, B are arbitrary constants) is:",
+      "options": ["dy/dx = y", "d²y/dx² − y = 0", "d²y/dx² + y = 0", "dy/dx + y = 0"],
+      "correctIndex": 1,
+      "explanation": "y = Ae^x + Be^(−x). y' = Ae^x − Be^(−x). y'' = Ae^x + Be^(−x) = y. So y'' − y = 0.",
+      "difficulty": "hard",
+      "tags": ["formation-of-DE", "eliminate-constants", "second-order"]
+    },
+    {
+      "id": "q_math_12_w23_s4_011",
+      "goalId": "grade12-mathematics",
+      "question": "Solve: dy/dx = e^x + 1. The general solution is:",
+      "options": ["y = eˣ + C", "y = eˣ + x + C", "y = eˣ − x + C", "y = xeˣ + C"],
+      "correctIndex": 1,
+      "explanation": "Integrating both sides: y = ∫(eˣ + 1)dx = eˣ + x + C.",
+      "difficulty": "easy",
+      "tags": ["direct-integration", "DE", "solution"]
+    },
+    {
+      "id": "q_math_12_w23_s4_012",
+      "goalId": "grade12-mathematics",
+      "question": "Newton's Law of Cooling is expressed as a differential equation:",
+      "options": ["dT/dt = −k(T − T₀)", "dT/dt = k(T + T₀)", "d²T/dt² = −kT", "T = T₀e^(kt)"],
+      "correctIndex": 0,
+      "explanation": "Newton's Law of Cooling: dT/dt = −k(T − T_s) where T_s = surrounding temperature. This separable DE gives T = T_s + (T₀ − T_s)e^(−kt). Temperature decays exponentially toward T_s.",
+      "difficulty": "medium",
+      "tags": ["newtons-cooling", "application", "separable"]
+    },
+    {
+      "id": "q_math_12_w23_s4_013",
+      "goalId": "grade12-mathematics",
+      "question": "A particular solution is obtained from the general solution by:",
+      "options": ["Multiplying by a constant", "Applying initial conditions (specific values of x and y) to determine the arbitrary constants", "Differentiating once more", "Adding more constants"],
+      "correctIndex": 1,
+      "explanation": "Particular solution: use initial conditions y(x₀) = y₀ to find the value(s) of arbitrary constant(s). This gives the unique solution passing through (x₀, y₀).",
+      "difficulty": "easy",
+      "tags": ["particular-solution", "initial-conditions", "DE"]
+    },
+    {
+      "id": "q_math_12_w23_s4_014",
+      "goalId": "grade12-mathematics",
+      "question": "The general solution of d²y/dx² = 6x is:",
+      "options": ["y = x³ + C", "y = x³ + Cx + D", "y = 6x² + C", "y = 3x² + C"],
+      "correctIndex": 1,
+      "explanation": "d²y/dx² = 6x. Integrating once: dy/dx = 3x² + C. Integrating again: y = x³ + Cx + D. Two arbitrary constants (C and D) because order = 2.",
+      "difficulty": "medium",
+      "tags": ["second-order-DE", "double-integration", "solution"]
+    },
+    {
+      "id": "q_math_12_w23_s4_015",
+      "goalId": "grade12-mathematics",
+      "question": "Exponential growth/decay is modelled by: dN/dt = kN. The solution is:",
+      "options": ["N = N₀ + kt", "N = N₀e^(kt)", "N = kN₀t", "N = k/t"],
+      "correctIndex": 1,
+      "explanation": "dN/dt = kN is a separable DE: dN/N = k dt → ln N = kt + C → N = N₀e^(kt). k > 0: growth; k < 0: decay. Used for population growth, radioactive decay, compound interest.",
+      "difficulty": "medium",
+      "tags": ["exponential-growth-decay", "solution", "application"]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "goalId": "grade12-mathematics",
+  "title": "Grade 12 Mathematics — Definite Integrals & Area Under Curves",
+  "description": "Fundamental theorem of calculus, definite integral evaluation, area problems",
+  "category": "school",
+  "grade": 12,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_12_w23_s3_001",
+      "goalId": "grade12-mathematics",
+      "question": "The Fundamental Theorem of Calculus states: ∫ₐᵇ f(x) dx = ?",
+      "options": ["f(b) + f(a)", "f(b) − f(a)", "F(b) − F(a) where F is any antiderivative of f", "f'(b) − f'(a)"],
+      "correctIndex": 2,
+      "explanation": "FTC: ∫ₐᵇ f(x) dx = F(b) − F(a) where F'(x) = f(x). The definite integral equals the change in any antiderivative from a to b. This connects differentiation and integration.",
+      "difficulty": "easy",
+      "tags": ["fundamental-theorem", "definite-integral", "FTC"]
+    },
+    {
+      "id": "q_math_12_w23_s3_002",
+      "goalId": "grade12-mathematics",
+      "question": "Evaluate: ∫₀² x² dx",
+      "options": ["4", "8/3", "4/3", "2"],
+      "correctIndex": 1,
+      "explanation": "∫x² dx = x³/3 + C. [x³/3]₀² = 2³/3 − 0 = 8/3.",
+      "difficulty": "easy",
+      "tags": ["definite-integral", "calculation", "power"]
+    },
+    {
+      "id": "q_math_12_w23_s3_003",
+      "goalId": "grade12-mathematics",
+      "question": "Evaluate: ∫₀^π sin x dx",
+      "options": ["0", "1", "2", "π"],
+      "correctIndex": 2,
+      "explanation": "[−cos x]₀^π = −cos π − (−cos 0) = −(−1) + 1 = 1 + 1 = 2.",
+      "difficulty": "medium",
+      "tags": ["definite-integral", "sin-x", "calculation"]
+    },
+    {
+      "id": "q_math_12_w23_s3_004",
+      "goalId": "grade12-mathematics",
+      "question": "The area between curve y = f(x) and the x-axis from x=a to x=b is:",
+      "options": ["∫ₐᵇ f(x) dx (always)", "|∫ₐᵇ f(x) dx| (if function doesn't cross x-axis)", "f(b) − f(a)", "½[f(a) + f(b)](b−a)"],
+      "correctIndex": 1,
+      "explanation": "Area = ∫ₐᵇ f(x) dx if f(x) ≥ 0. If f(x) < 0 in some region, use |∫| or split the integral. The integral can be negative if curve is below x-axis; area is always positive.",
+      "difficulty": "medium",
+      "tags": ["area-under-curve", "definite-integral", "positive-area"]
+    },
+    {
+      "id": "q_math_12_w23_s3_005",
+      "goalId": "grade12-mathematics",
+      "question": "Property: ∫ₐᵇ f(x) dx = ?",
+      "options": ["−∫ᵇₐ f(x) dx", "∫ᵇₐ f(x) dx", "∫₀ᵃ f(x) dx", "2∫ₐᵇ f(x) dx"],
+      "correctIndex": 0,
+      "explanation": "∫ₐᵇ f(x) dx = −∫ᵇₐ f(x) dx. Swapping limits changes the sign. Other properties: ∫ₐᵃ = 0; ∫ₐᶜ = ∫ₐᵇ + ∫ᵇᶜ.",
+      "difficulty": "medium",
+      "tags": ["definite-integral-properties", "sign-swap", "limits"]
+    },
+    {
+      "id": "q_math_12_w23_s3_006",
+      "goalId": "grade12-mathematics",
+      "question": "Evaluate: ∫₁² (3x² − 2x + 1) dx",
+      "options": ["5", "6", "4", "8"],
+      "correctIndex": 1,
+      "explanation": "∫(3x²−2x+1)dx = x³−x²+x. At x=2: 8−4+2=6. At x=1: 1−1+1=1. Answer = 6−1 = 5. Hmm, let me recalculate: [x³−x²+x]₁² = (8−4+2)−(1−1+1) = 6−1 = 5.",
+      "correctIndex": 0,
+      "explanation": "∫(3x²−2x+1)dx = x³−x²+x. [x³−x²+x]₁² = (8−4+2)−(1−1+1) = 6−1 = 5.",
+      "difficulty": "medium",
+      "tags": ["definite-integral", "polynomial", "calculation"]
+    },
+    {
+      "id": "q_math_12_w23_s3_007",
+      "goalId": "grade12-mathematics",
+      "question": "Area enclosed between y = x² and y = x (they intersect at x=0 and x=1) is:",
+      "options": ["1/3", "1/6", "1/2", "1/4"],
+      "correctIndex": 1,
+      "explanation": "For 0≤x≤1: x > x² (upper curve is y=x). Area = ∫₀¹(x − x²)dx = [x²/2 − x³/3]₀¹ = 1/2 − 1/3 = 1/6.",
+      "difficulty": "hard",
+      "tags": ["area-between-curves", "parabola", "calculation"]
+    },
+    {
+      "id": "q_math_12_w23_s3_008",
+      "goalId": "grade12-mathematics",
+      "question": "∫ₐᵇ c·f(x) dx = ? (c is a constant)",
+      "options": ["c/∫ₐᵇ f(x) dx", "c × ∫ₐᵇ f(x) dx", "c + ∫ₐᵇ f(x) dx", "∫ₐᵇ f(cx) dx"],
+      "correctIndex": 1,
+      "explanation": "Constant multiple rule: ∫ₐᵇ c·f(x) dx = c × ∫ₐᵇ f(x) dx. Constants can be pulled out of the integral.",
+      "difficulty": "easy",
+      "tags": ["constant-multiple", "definite-integral", "property"]
+    },
+    {
+      "id": "q_math_12_w23_s3_009",
+      "goalId": "grade12-mathematics",
+      "question": "Evaluate: ∫₀¹ eˣ dx",
+      "options": ["e − 1", "e + 1", "e", "1"],
+      "correctIndex": 0,
+      "explanation": "[eˣ]₀¹ = e¹ − e⁰ = e − 1 ≈ 1.718.",
+      "difficulty": "easy",
+      "tags": ["exponential", "definite-integral", "e-minus-1"]
+    },
+    {
+      "id": "q_math_12_w23_s3_010",
+      "goalId": "grade12-mathematics",
+      "question": "Area bounded by y = √x, x = 0, x = 4, and y = 0 is:",
+      "options": ["4", "8/3", "16/3", "2"],
+      "correctIndex": 2,
+      "explanation": "∫₀⁴ √x dx = ∫₀⁴ x^(1/2) dx = [x^(3/2)/(3/2)]₀⁴ = (2/3)[x^(3/2)]₀⁴ = (2/3)(4^(3/2)) = (2/3)(8) = 16/3.",
+      "difficulty": "medium",
+      "tags": ["area-under-curve", "square-root", "calculation"]
+    },
+    {
+      "id": "q_math_12_w23_s3_011",
+      "goalId": "grade12-mathematics",
+      "question": "For even function f(−x) = f(x): ∫₋ₐᵃ f(x) dx = ?",
+      "options": ["0", "∫₀ᵃ f(x) dx", "2∫₀ᵃ f(x) dx", "−∫₀ᵃ f(x) dx"],
+      "correctIndex": 2,
+      "explanation": "Even function symmetry: ∫₋ₐᵃ f(x)dx = 2∫₀ᵃ f(x)dx. Odd function: ∫₋ₐᵃ f(x)dx = 0. Examples: x² is even; x³ is odd.",
+      "difficulty": "medium",
+      "tags": ["even-function", "symmetry-property", "definite-integral"]
+    },
+    {
+      "id": "q_math_12_w23_s3_012",
+      "goalId": "grade12-mathematics",
+      "question": "Evaluate: ∫₋ππ sin x dx",
+      "options": ["2π", "0", "2", "π"],
+      "correctIndex": 1,
+      "explanation": "sin x is an odd function (sin(−x) = −sin x). For odd function over symmetric interval: ∫₋ₐᵃ = 0. Therefore ∫₋ππ sin x dx = 0.",
+      "difficulty": "medium",
+      "tags": ["odd-function", "symmetric-interval", "zero"]
+    },
+    {
+      "id": "q_math_12_w23_s3_013",
+      "goalId": "grade12-mathematics",
+      "question": "Area of the circle x² + y² = r² using integration is:",
+      "options": ["πr", "2πr", "πr²", "4πr²"],
+      "correctIndex": 2,
+      "explanation": "Area of circle = 4 × ∫₀ʳ √(r²−x²) dx = 4 × (πr²/4) = πr². Using the integral of semi-circle and multiplying by 4. This confirms the formula A = πr².",
+      "difficulty": "hard",
+      "tags": ["circle-area", "integration", "πr²"]
+    },
+    {
+      "id": "q_math_12_w23_s3_014",
+      "goalId": "grade12-mathematics",
+      "question": "Evaluate: ∫₀^(π/2) cos x dx",
+      "options": ["0", "1", "π/2", "2"],
+      "correctIndex": 1,
+      "explanation": "[sin x]₀^(π/2) = sin(π/2) − sin(0) = 1 − 0 = 1.",
+      "difficulty": "easy",
+      "tags": ["definite-integral", "cos-x", "pi/2"]
+    },
+    {
+      "id": "q_math_12_w23_s3_015",
+      "goalId": "grade12-mathematics",
+      "question": "The area between two curves y = f(x) and y = g(x) where f(x) ≥ g(x) for a ≤ x ≤ b is:",
+      "options": ["∫ₐᵇ f(x) dx + ∫ₐᵇ g(x) dx", "∫ₐᵇ [f(x) − g(x)] dx", "∫ₐᵇ f(x) dx × g(x) dx", "[f(b)−g(b)] × (b−a)"],
+      "correctIndex": 1,
+      "explanation": "Area between curves = ∫ₐᵇ [f(x) − g(x)] dx when f(x) ≥ g(x). This gives the area of the region sandwiched between the two curves.",
+      "difficulty": "medium",
+      "tags": ["area-between-curves", "formula", "definite-integral"]
+    }
+  ]
+}

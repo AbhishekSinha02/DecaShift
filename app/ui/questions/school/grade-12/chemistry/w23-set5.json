@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-chemistry",
+  "title": "Grade 12 Chemistry — Coordination Compounds",
+  "description": "IUPAC nomenclature, bonding theories, isomerism, and applications",
+  "category": "school",
+  "grade": 12,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chem_12_w23_s5_001",
+      "goalId": "grade12-chemistry",
+      "question": "A coordination compound consists of a:",
+      "options": ["Metal ion bonded to covalently bonded molecules only", "Central metal atom/ion surrounded by ligands (Lewis bases donating electron pairs)", "Two ionic compounds in solution", "Metal atom directly bonded to another metal"],
+      "correctIndex": 1,
+      "explanation": "Coordination compound: central metal atom/ion surrounded by ligands (molecules or ions donating electron pairs to the metal). Example: [Fe(CN)₆]⁴⁻ — Fe²⁺ is the centre; CN⁻ are ligands.",
+      "difficulty": "easy",
+      "tags": ["coordination-compound", "ligand", "central-metal"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_002",
+      "goalId": "grade12-chemistry",
+      "question": "Ligands are classified by the number of donor atoms. A bidentate ligand has:",
+      "options": ["One donor atom (e.g., Cl⁻, NH₃)", "Two donor atoms that can simultaneously bond to the metal (e.g., en = ethylenediamine, oxalate)", "Three donor atoms", "No donor atoms"],
+      "correctIndex": 1,
+      "explanation": "Bidentate: two donor atoms (e.g., ethylenediamine H₂N−CH₂−CH₂−NH₂; oxalate C₂O₄²⁻). Monodentate: one donor (Cl⁻, H₂O, NH₃). Polydentate (chelate): ≥3 donors. EDTA is hexadentate.",
+      "difficulty": "medium",
+      "tags": ["bidentate", "ligand-types", "donor-atoms"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_003",
+      "goalId": "grade12-chemistry",
+      "question": "The IUPAC name of [Co(NH₃)₅Cl]²⁺ is:",
+      "options": ["Pentaamminechloridocobalt(III) ion", "Pentaaminechlorocobalt(II) ion", "Chloropentaaminocobalt(III)", "Pentaamminechlorocobalt(II) ion"],
+      "correctIndex": 0,
+      "explanation": "IUPAC: ligands named first (alphabetically), then metal with oxidation state in Roman numerals. Ligands: 5 NH₃ (pentaammine) + 1 Cl (chlorido). Co charge: total complex = +2, Cl = −1, NH₃ = 0 → Co = +3. Name: pentaamminechloridocobalt(III).",
+      "difficulty": "hard",
+      "tags": ["IUPAC-nomenclature", "coordination", "cobalt"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_004",
+      "goalId": "grade12-chemistry",
+      "question": "Werner's coordination theory established that coordination compounds have:",
+      "options": ["Only primary valence", "Both primary valence (ionisation valence) and secondary valence (coordination number)", "No fixed coordination number", "Only secondary valence"],
+      "correctIndex": 1,
+      "explanation": "Werner: metal ions have (1) primary valence = ionic valence/oxidation state (satisfied by anions); (2) secondary valence = coordination number (satisfied by ligands around the metal). Fixed, directional. Nobel Prize 1913.",
+      "difficulty": "medium",
+      "tags": ["werner-theory", "primary-secondary-valence", "coordination-number"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_005",
+      "goalId": "grade12-chemistry",
+      "question": "The coordination number of Fe in [Fe(CN)₆]⁴⁻ is:",
+      "options": ["4", "3", "6", "8"],
+      "correctIndex": 2,
+      "explanation": "Coordination number = number of bonds from ligands to the central metal. [Fe(CN)₆]⁴⁻: 6 CN⁻ ligands each bonded through C → coordination number = 6. Fe oxidation state: overall −4, 6×(−1) = −6 from CN⁻ → Fe = +2.",
+      "difficulty": "medium",
+      "tags": ["coordination-number", "Fe-complex", "count"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_006",
+      "goalId": "grade12-chemistry",
+      "question": "Ionisation isomerism occurs in coordination compounds when:",
+      "options": ["Two compounds have the same formula but different spatial arrangements", "Ligands inside and outside the coordination sphere exchange, giving different ions in solution", "A chelate ring is formed differently", "The metal has different oxidation states"],
+      "correctIndex": 1,
+      "explanation": "Ionisation isomers: same formula, but differ in which groups are inside/outside the coordination sphere. Example: [Co(NH₃)₅Br]SO₄ (gives SO₄²⁻ in solution) vs. [Co(NH₃)₅SO₄]Br (gives Br⁻ in solution).",
+      "difficulty": "hard",
+      "tags": ["ionisation-isomers", "coordination-sphere", "isomerism"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_007",
+      "goalId": "grade12-chemistry",
+      "question": "Crystal Field Theory explains the colour of coordination compounds by:",
+      "options": ["Electronic transitions between metal and ligand orbitals", "Splitting of d orbitals due to ligand field → d-d transitions absorb visible light", "Ionic bond formation between metal and ligand", "Covalent bond breaking in the complex"],
+      "correctIndex": 1,
+      "explanation": "Crystal Field Theory (CFT): ligands exert an electrostatic field that splits d orbitals into two sets (e.g., t₂g and eg in octahedral). Electrons absorb visible light for d-d transitions; complementary colour is observed.",
+      "difficulty": "medium",
+      "tags": ["crystal-field-theory", "d-orbital-splitting", "colour"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_008",
+      "goalId": "grade12-chemistry",
+      "question": "Geometrical (cis-trans) isomerism in coordination compounds requires:",
+      "options": ["The same coordination number but different shapes", "Same formula with ligands arranged differently in space — not interconvertible without breaking bonds", "Different metal ions", "Different numbers of ligands"],
+      "correctIndex": 1,
+      "explanation": "Geometrical isomerism: same formula, different spatial arrangement of ligands. Example: cis-[Pt(NH₃)₂Cl₂] (Cl groups on same side) vs. trans-[Pt(NH₃)₂Cl₂] (Cl groups on opposite sides). Cisplatin (cis isomer) is an anticancer drug.",
+      "difficulty": "medium",
+      "tags": ["geometrical-isomerism", "cis-trans", "cisplatin"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_009",
+      "goalId": "grade12-chemistry",
+      "question": "The effective atomic number (EAN) rule predicts stable complexes when the total electron count around the metal equals:",
+      "options": ["18 (like noble gas configuration)", "36 always", "12", "8 (octet rule)"],
+      "correctIndex": 0,
+      "explanation": "18-electron rule (EAN/Sidgwick rule): stable transition metal complexes often have 18 electrons around the metal. Example: [Fe(CO)₅]: Fe(0) has 8e⁻ + 5×CO(2e⁻ each) = 18e⁻. Applies mainly to organometallic compounds.",
+      "difficulty": "hard",
+      "tags": ["18-electron-rule", "EAN", "stability"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_010",
+      "goalId": "grade12-chemistry",
+      "question": "Chelate complexes are more stable than corresponding non-chelate complexes due to:",
+      "options": ["Greater number of metal-ligand bonds", "Chelate effect — entropy gain when polydentate ligand displaces multiple monodentate ligands", "Higher charge on the metal", "Higher molecular weight"],
+      "correctIndex": 1,
+      "explanation": "Chelate effect: when a polydentate ligand (e.g., EDTA) replaces monodentate ligands, the number of free molecules increases → entropy increases → ΔG becomes more negative → greater stability. EDTA forms very stable chelates with metal ions.",
+      "difficulty": "hard",
+      "tags": ["chelate-effect", "entropy", "stability"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_011",
+      "goalId": "grade12-chemistry",
+      "question": "Haemoglobin is a coordination compound where the central metal ion is:",
+      "options": ["Fe³⁺ bonded to oxygen directly", "Fe²⁺ in a porphyrin ring that binds O₂ reversibly", "Mg²⁺", "Cu²⁺"],
+      "correctIndex": 1,
+      "explanation": "Haemoglobin: Fe²⁺ in a porphyrin (haem) group binds O₂ reversibly. In lungs: Fe²⁺−O₂ formed (oxyhaemoglobin). In tissues: O₂ released (deoxyhaemoglobin). CO binds much more strongly than O₂ (carboxyhaemoglobin = toxic).",
+      "difficulty": "medium",
+      "tags": ["haemoglobin", "Fe2+", "biological-complex"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_012",
+      "goalId": "grade12-chemistry",
+      "question": "The IUPAC name of [Cu(NH₃)₄]²⁺ is:",
+      "options": ["Tetramminecuprate(II)", "Tetraaminecopper(II)", "Tetraamminecopper(II) ion", "Tetraamminecopper(I) ion"],
+      "correctIndex": 2,
+      "explanation": "4 NH₃ ligands = tetraammine (no space); Cu²⁺ = copper(II). Complex cation: [tetraammine][copper(II)] ion. Not 'cuprate' (that's for complex anions). Charge: 4×0 + Cu = +2.",
+      "difficulty": "medium",
+      "tags": ["IUPAC-nomenclature", "copper-complex", "tetraammine"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_013",
+      "goalId": "grade12-chemistry",
+      "question": "Spectrochemical series ranks ligands by their ability to split d orbitals. Which is a STRONG field ligand?",
+      "options": ["Cl⁻", "H₂O", "CN⁻ (cyanide — very strong field)", "F⁻"],
+      "correctIndex": 2,
+      "explanation": "Spectrochemical series (weak → strong): I⁻ < Br⁻ < S²⁻ < Cl⁻ < F⁻ < OH⁻ < H₂O < NH₃ < en < CN⁻ < CO. Strong field → large splitting → low-spin complex (electrons pair). Weak field → small splitting → high-spin.",
+      "difficulty": "hard",
+      "tags": ["spectrochemical-series", "strong-field", "cyanide"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_014",
+      "goalId": "grade12-chemistry",
+      "question": "Optical isomers (enantiomers) of coordination compounds are non-superimposable mirror images. They are observed mainly in:",
+      "options": ["Tetrahedral complexes only", "Square planar complexes", "Octahedral complexes with bidentate or mixed ligands (e.g., [Co(en)₃]³⁺)", "All complexes automatically"],
+      "correctIndex": 2,
+      "explanation": "Optical isomerism: most common in octahedral complexes with bidentate ligands. [Co(en)₃]³⁺ (tris-ethylenediamine cobalt) exists as Δ (delta) and Λ (lambda) enantiomers. They rotate plane-polarised light in opposite directions.",
+      "difficulty": "hard",
+      "tags": ["optical-isomerism", "enantiomers", "bidentate"]
+    },
+    {
+      "id": "q_chem_12_w23_s5_015",
+      "goalId": "grade12-chemistry",
+      "question": "Cisplatin [Pt(NH₃)₂Cl₂] is used as an anticancer drug because:",
+      "options": ["It is highly toxic and kills all cells", "The cis isomer binds to DNA strands, preventing cell division in cancer cells", "It is the trans isomer that is medically useful", "It reacts with blood haemoglobin"],
+      "correctIndex": 1,
+      "explanation": "Cisplatin (cis-[Pt(NH₃)₂Cl₂]) is an anticancer drug: the cis arrangement allows it to crosslink two guanine bases on the same DNA strand, blocking replication. The trans isomer is NOT biologically active. Used for testicular, ovarian, bladder cancers.",
+      "difficulty": "medium",
+      "tags": ["cisplatin", "anticancer", "DNA-crosslinking"]
+    }
+  ]
+}

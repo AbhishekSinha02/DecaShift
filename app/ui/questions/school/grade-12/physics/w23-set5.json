@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-physics",
+  "title": "Grade 12 Physics — Modern Physics: Dual Nature, Atoms & Nuclei",
+  "description": "Photoelectric effect, de Broglie, atomic models, radioactivity",
+  "category": "school",
+  "grade": 12,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_12_w23_s5_001",
+      "goalId": "grade12-physics",
+      "question": "The photoelectric effect shows that light behaves as:",
+      "options": ["A wave only", "Packets of energy (photons) — particle nature of light", "A magnetic field", "Only thermal radiation"],
+      "correctIndex": 1,
+      "explanation": "Photoelectric effect (Einstein, 1905): light hits a metal surface and ejects electrons. Key features: (1) Below threshold frequency — no emission. (2) Above threshold — instantaneous emission. This proves light is quantised (photons).",
+      "difficulty": "easy",
+      "tags": ["photoelectric-effect", "photon", "particle-nature"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_002",
+      "goalId": "grade12-physics",
+      "question": "The energy of a photon with frequency f is:",
+      "options": ["hf²", "hf (where h = Planck's constant = 6.63×10⁻³⁴ J·s)", "h/f", "f/h"],
+      "correctIndex": 1,
+      "explanation": "E = hf = hc/λ. h = 6.63×10⁻³⁴ J·s. Einstein's photoelectric equation: KE_max = hf − φ (φ = work function = minimum energy to eject an electron). Threshold frequency: f₀ = φ/h.",
+      "difficulty": "easy",
+      "tags": ["photon-energy", "planck", "E=hf"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_003",
+      "goalId": "grade12-physics",
+      "question": "de Broglie wavelength of a particle with momentum p is:",
+      "options": ["hp", "h/p", "h/mv (= h/p)", "p/h"],
+      "correctIndex": 2,
+      "explanation": "de Broglie: λ = h/p = h/(mv). Particles (electrons, protons) also have wave nature. Explains quantised atomic orbits (standing wave condition). Electrons in microscopes use very small λ → high resolution.",
+      "difficulty": "easy",
+      "tags": ["de-broglie", "wavelength", "matter-waves"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_004",
+      "goalId": "grade12-physics",
+      "question": "Bohr's model of the atom quantises:",
+      "options": ["The position of the electron", "The angular momentum of the electron: L = nh/(2π) = nℏ", "The nuclear charge", "The speed of electrons"],
+      "correctIndex": 1,
+      "explanation": "Bohr's quantisation condition: angular momentum L = nh/(2π) = nℏ where n = 1, 2, 3... (quantum number). This leads to discrete energy levels: Eₙ = −13.6/n² eV for hydrogen.",
+      "difficulty": "medium",
+      "tags": ["bohr-model", "quantisation", "angular-momentum"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_005",
+      "goalId": "grade12-physics",
+      "question": "The energy of the nth level in a hydrogen atom is:",
+      "options": ["13.6 n² eV", "13.6/n eV", "−13.6/n² eV", "−13.6n eV"],
+      "correctIndex": 2,
+      "explanation": "Eₙ = −13.6/n² eV. Ground state (n=1): E₁ = −13.6 eV. n=2: E₂ = −3.4 eV. Ionisation energy = 13.6 eV. Negative sign = bound state. Photon energy emitted: ΔE = Eᵢ − Eₓ = hf.",
+      "difficulty": "medium",
+      "tags": ["hydrogen-energy-levels", "formula", "Bohr"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_006",
+      "goalId": "grade12-physics",
+      "question": "Alpha decay: ²³⁸₉₂U → ? + α (₂⁴He)",
+      "options": ["²³⁴₉₀Th", "²³⁴₉₂U", "²³⁶₉₀Th", "²³⁸₉₀Th"],
+      "correctIndex": 0,
+      "explanation": "Alpha decay: mass number decreases by 4, atomic number decreases by 2. ²³⁸₉₂U → ²³⁴₉₀Th + ₂⁴He. ²³⁴₉₀Th = Thorium-234.",
+      "difficulty": "medium",
+      "tags": ["alpha-decay", "nuclear-reaction", "conservation"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_007",
+      "goalId": "grade12-physics",
+      "question": "Beta minus (β⁻) decay involves:",
+      "options": ["Emission of a helium nucleus", "Emission of an electron and an antineutrino: n → p + e⁻ + ν̄ₑ", "Absorption of an electron", "Emission of a positron"],
+      "correctIndex": 1,
+      "explanation": "β⁻ decay: a neutron converts to a proton + electron (β particle) + antineutrino. Atomic number increases by 1; mass number unchanged. β⁺ decay: proton → neutron + positron + neutrino.",
+      "difficulty": "medium",
+      "tags": ["beta-decay", "neutron-to-proton", "antineutrino"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_008",
+      "goalId": "grade12-physics",
+      "question": "Nuclear fission is the process in which:",
+      "options": ["Two nuclei combine to form a larger nucleus", "A heavy nucleus splits into smaller nuclei + energy (E=mc²)", "Protons and neutrons separate", "Gamma rays are emitted from the nucleus"],
+      "correctIndex": 1,
+      "explanation": "Fission: heavy nucleus (e.g., ²³⁵U) absorbs a neutron and splits into smaller nuclei + neutrons + huge energy. ²³⁵U + n → ¹⁴¹Ba + ⁹²Kr + 3n + energy. Chain reaction → nuclear reactor/bomb.",
+      "difficulty": "easy",
+      "tags": ["nuclear-fission", "chain-reaction", "energy"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_009",
+      "goalId": "grade12-physics",
+      "question": "Mass defect (Δm) of a nucleus is the difference between:",
+      "options": ["Mass of nucleus and mass of protons only", "Sum of masses of constituent nucleons and actual nuclear mass: Δm = Zm_p + Nm_n − M", "Mass of electrons and protons", "Mass numbers of products and reactants"],
+      "correctIndex": 1,
+      "explanation": "Δm = Zm_p + Nm_n − M. This mass difference is converted to binding energy: BE = Δm × c². Greater BE = more stable nucleus. BE per nucleon (binding energy curve) peaks at Fe-56 (most stable).",
+      "difficulty": "medium",
+      "tags": ["mass-defect", "binding-energy", "formula"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_010",
+      "goalId": "grade12-physics",
+      "question": "Stopping potential (V₀) in the photoelectric effect is the potential that:",
+      "options": ["Accelerates photoelectrons", "Just stops the most energetic photoelectrons (eV₀ = KE_max = hf − φ)", "Determines the work function", "Is equal to the frequency of light"],
+      "correctIndex": 1,
+      "explanation": "Stopping potential V₀: the reverse potential needed to stop all photoelectrons. eV₀ = KE_max = hf − φ. V₀ depends on frequency, not intensity. Doubling intensity doubles current but NOT stopping potential.",
+      "difficulty": "medium",
+      "tags": ["stopping-potential", "photoelectric", "KE-max"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_011",
+      "goalId": "grade12-physics",
+      "question": "The half-life of a radioactive element is related to the decay constant λ by:",
+      "options": ["T₁/₂ = λ", "T₁/₂ = 0.693/λ", "T₁/₂ = 1/λ", "T₁/₂ = ln λ"],
+      "correctIndex": 1,
+      "explanation": "T₁/₂ = ln2/λ = 0.693/λ. Mean life τ = 1/λ = T₁/₂/0.693. N = N₀e^(−λt) (exponential decay law). Activity A = λN = A₀e^(−λt).",
+      "difficulty": "medium",
+      "tags": ["half-life", "decay-constant", "radioactivity"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_012",
+      "goalId": "grade12-physics",
+      "question": "The work function of a metal is 2 eV. The threshold frequency is: (h = 6.6×10⁻³⁴ J·s, 1 eV = 1.6×10⁻¹⁹ J)",
+      "options": ["4.8×10¹⁴ Hz", "2.4×10¹⁴ Hz", "9.6×10¹⁴ Hz", "1.2×10¹⁴ Hz"],
+      "correctIndex": 0,
+      "explanation": "φ = 2 eV = 2×1.6×10⁻¹⁹ = 3.2×10⁻¹⁹ J. f₀ = φ/h = 3.2×10⁻¹⁹ / 6.6×10⁻³⁴ ≈ 4.85×10¹⁴ ≈ 4.8×10¹⁴ Hz.",
+      "difficulty": "hard",
+      "tags": ["threshold-frequency", "work-function", "calculation"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_013",
+      "goalId": "grade12-physics",
+      "question": "Gamma rays emitted during nuclear decay are:",
+      "options": ["High-energy electrons", "High-energy photons (electromagnetic radiation) from the excited nucleus", "Alpha particles from the core", "Protons from fission"],
+      "correctIndex": 1,
+      "explanation": "Gamma (γ) rays: high-energy photons (λ ~ 10⁻¹¹ to 10⁻¹⁴ m). They carry no charge and no mass. Emitted when nucleus transitions from excited to ground state. Most penetrating radiation — stopped by thick lead or concrete.",
+      "difficulty": "easy",
+      "tags": ["gamma-rays", "photons", "nuclear-decay"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_014",
+      "goalId": "grade12-physics",
+      "question": "Nuclear fusion is the energy source of the Sun. It requires:",
+      "options": ["Very low temperatures", "Very high temperatures (~10⁷ K) and pressures to overcome Coulomb repulsion of nuclei", "A fission reaction first", "Radioactive material"],
+      "correctIndex": 1,
+      "explanation": "Fusion: light nuclei (e.g., H isotopes) fuse into heavier nuclei + energy. In Sun: 4H → ⁴He + energy. Requires 10⁷ K (thermal energy > Coulomb barrier). Fusion releases more energy per kg than fission. Challenge: controlled fusion on Earth.",
+      "difficulty": "medium",
+      "tags": ["nuclear-fusion", "sun", "temperature-requirement"]
+    },
+    {
+      "id": "q_physics_12_w23_s5_015",
+      "goalId": "grade12-physics",
+      "question": "The de Broglie wavelength of an electron accelerated through potential V is:",
+      "options": ["h/√(2mV)", "h/√(2meV)", "h√(2meV)", "hV/m"],
+      "correctIndex": 1,
+      "explanation": "eV = ½mv² → p = mv = √(2meV). λ = h/p = h/√(2meV). For V = 100 V: λ ≈ 1.23/√V nm = 0.123 nm (X-ray range — explains electron diffraction).",
+      "difficulty": "hard",
+      "tags": ["de-broglie", "electron", "accelerating-potential"]
+    }
+  ]
+}

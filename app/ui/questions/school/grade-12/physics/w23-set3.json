@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-physics",
+  "title": "Grade 12 Physics — Alternating Current (AC)",
+  "description": "AC generation, peak/rms values, impedance, LCR circuits, resonance, power",
+  "category": "school",
+  "grade": 12,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_12_w23_s3_001",
+      "goalId": "grade12-physics",
+      "question": "An AC voltage is expressed as V = V₀ sin(ωt). The rms voltage is:",
+      "options": ["V₀", "V₀/2", "V₀/√2", "V₀√2"],
+      "correctIndex": 2,
+      "explanation": "V_rms = V₀/√2 ≈ 0.707V₀. For Indian mains: V_rms = 230 V, so V₀ = 230√2 ≈ 325 V. RMS value is the effective value — it produces the same power as a DC voltage of the same magnitude.",
+      "difficulty": "easy",
+      "tags": ["rms-voltage", "AC", "formula"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_002",
+      "goalId": "grade12-physics",
+      "question": "Inductive reactance (XL) is:",
+      "options": ["L/ω", "ωL = 2πfL", "1/ωL", "RL"],
+      "correctIndex": 1,
+      "explanation": "XL = ωL = 2πfL. Units: ohms (Ω). Increases with frequency — an inductor offers more opposition at higher frequencies. For DC (f=0): XL = 0 (inductor is just a wire for DC).",
+      "difficulty": "easy",
+      "tags": ["inductive-reactance", "XL", "formula"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_003",
+      "goalId": "grade12-physics",
+      "question": "Capacitive reactance (XC) is:",
+      "options": ["ωC", "1/ωC = 1/(2πfC)", "C/ω", "1/(ωC²)"],
+      "correctIndex": 1,
+      "explanation": "XC = 1/(ωC) = 1/(2πfC). Decreases with frequency — capacitor blocks DC (XC = ∞ at f=0) but passes high-frequency AC easily (XC → 0 as f → ∞).",
+      "difficulty": "easy",
+      "tags": ["capacitive-reactance", "XC", "formula"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_004",
+      "goalId": "grade12-physics",
+      "question": "In a series LCR circuit, the impedance Z is:",
+      "options": ["R + XL + XC", "√(R² + XL²)", "√[R² + (XL − XC)²]", "R + XL − XC"],
+      "correctIndex": 2,
+      "explanation": "Impedance Z = √[R² + (XL − XC)²]. This accounts for the 90° phase difference between L and C. At resonance: XL = XC → Z = R (minimum impedance).",
+      "difficulty": "medium",
+      "tags": ["impedance", "LCR-series", "formula"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_005",
+      "goalId": "grade12-physics",
+      "question": "Resonance in a series LCR circuit occurs when:",
+      "options": ["R is maximum", "XL = XC (inductive reactance = capacitive reactance)", "Z is maximum", "Current is minimum"],
+      "correctIndex": 1,
+      "explanation": "Resonance: XL = XC → ωL = 1/(ωC) → ω₀ = 1/√(LC) → f₀ = 1/(2π√(LC)). At resonance: Z = R (minimum), current is maximum, power factor = 1.",
+      "difficulty": "medium",
+      "tags": ["resonance", "LCR", "condition"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_006",
+      "goalId": "grade12-physics",
+      "question": "The resonant frequency of an LCR circuit with L = 1 H and C = 1 μF is approximately:",
+      "options": ["159 Hz", "1000 Hz", "1 Hz", "31.8 Hz"],
+      "correctIndex": 0,
+      "explanation": "f₀ = 1/(2π√(LC)) = 1/(2π√(1 × 10⁻⁶)) = 1/(2π × 10⁻³) = 1000/(2π) ≈ 159 Hz.",
+      "difficulty": "hard",
+      "tags": ["resonant-frequency", "calculation", "LCR"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_007",
+      "goalId": "grade12-physics",
+      "question": "Power dissipated in an AC circuit is P = ?",
+      "options": ["V_rms × I_rms", "V₀ × I₀", "V_rms × I_rms × cos φ (power factor)", "V_rms × I_rms × sin φ"],
+      "correctIndex": 2,
+      "explanation": "P = V_rms × I_rms × cos φ where φ is the phase angle between V and I. cos φ is the power factor. Pure resistor: φ = 0, cos φ = 1, P = VI. Pure inductor/capacitor: φ = 90°, cos φ = 0, P = 0.",
+      "difficulty": "medium",
+      "tags": ["AC-power", "power-factor", "formula"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_008",
+      "goalId": "grade12-physics",
+      "question": "The power factor of a purely inductive or capacitive circuit is:",
+      "options": ["1", "0.5", "0 (no real power consumed)", "√2"],
+      "correctIndex": 2,
+      "explanation": "Ideal inductors and capacitors store and return energy — they don't dissipate it. Phase angle = 90°, cos 90° = 0. Power factor = 0 (wattless current). Only resistors dissipate power in AC circuits.",
+      "difficulty": "medium",
+      "tags": ["power-factor", "zero", "reactive-component"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_009",
+      "goalId": "grade12-physics",
+      "question": "A step-up transformer has N₁ = 100 turns and N₂ = 1000 turns. If V₁ = 220 V, V₂ is:",
+      "options": ["22 V", "2200 V", "220 V", "110 V"],
+      "correctIndex": 1,
+      "explanation": "V₂/V₁ = N₂/N₁. V₂ = 220 × (1000/100) = 2200 V. Step-up: voltage increases, current decreases. Efficiency: P_in = P_out → V₁I₁ = V₂I₂ (ideal transformer).",
+      "difficulty": "easy",
+      "tags": ["transformer", "turns-ratio", "voltage"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_010",
+      "goalId": "grade12-physics",
+      "question": "AC is used for long-distance power transmission rather than DC because:",
+      "options": ["AC is faster than DC", "AC can be easily stepped up to high voltage using transformers (less power loss P=I²R)", "DC is not produced by generators", "AC doesn't need wires"],
+      "correctIndex": 1,
+      "explanation": "Transformers work only with AC. To minimise power loss (P = I²R), current is reduced by stepping up voltage (P=VI constant). After transmission, voltage is stepped down for home use.",
+      "difficulty": "medium",
+      "tags": ["power-transmission", "AC-advantage", "transformer"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_011",
+      "goalId": "grade12-physics",
+      "question": "In a series LCR circuit at resonance, the voltage across the inductor and capacitor are each 50 V, and R = 10 Ω. The current is:",
+      "options": ["5 A", "10 A", "2.5 A", "1 A"],
+      "correctIndex": 0,
+      "explanation": "At resonance: Z = R = 10 Ω. The net voltage across L+C = 0 (they cancel: V_L and V_C are equal and opposite). So V_total = V_R. If we need current: need V_R. But if V_L = V_C = 50V and R = 10Ω: I = V_L/X_L = V_C/X_C. Without ω we need another approach. Let's say V_rms = IR = 50V (same as V_L if this was given): I = V_R/R = 50/10 = 5A.",
+      "difficulty": "hard",
+      "tags": ["resonance", "current", "LCR"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_012",
+      "goalId": "grade12-physics",
+      "question": "The frequency of AC supply in India is:",
+      "options": ["50 Hz", "60 Hz", "100 Hz", "25 Hz"],
+      "correctIndex": 0,
+      "explanation": "India uses 50 Hz AC supply at 230 V rms. The USA uses 60 Hz at 120 V. The period = 1/f = 1/50 s = 20 ms.",
+      "difficulty": "easy",
+      "tags": ["AC-frequency", "india", "50-Hz"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_013",
+      "goalId": "grade12-physics",
+      "question": "Phase difference between voltage and current in a purely resistive AC circuit is:",
+      "options": ["90°", "45°", "0° (in phase)", "180°"],
+      "correctIndex": 2,
+      "explanation": "In a pure resistor, V and I are in phase (φ = 0°). In pure inductor: I lags V by 90°. In pure capacitor: I leads V by 90°. Memory: CIVIL — Capacitor: I leads V; Inductor: V leads I.",
+      "difficulty": "easy",
+      "tags": ["phase-difference", "resistor", "AC-circuit"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_014",
+      "goalId": "grade12-physics",
+      "question": "Quality factor Q of a resonant circuit measures:",
+      "options": ["The power dissipated", "The sharpness of resonance (ratio of resonant frequency to bandwidth)", "The impedance at resonance", "The current at resonance"],
+      "correctIndex": 1,
+      "explanation": "Q = ω₀/Δω = ω₀L/R = 1/(ω₀CR). High Q = sharp resonance peak = high selectivity (useful in radio tuners). Low Q = broad resonance = more damping.",
+      "difficulty": "hard",
+      "tags": ["quality-factor", "resonance", "sharpness"]
+    },
+    {
+      "id": "q_physics_12_w23_s3_015",
+      "goalId": "grade12-physics",
+      "question": "The maximum current in an AC circuit with V_rms = 100 V and Z = 50 Ω is:",
+      "options": ["2 A", "2√2 A", "100 A", "√2 A"],
+      "correctIndex": 1,
+      "explanation": "I_rms = V_rms/Z = 100/50 = 2 A. Peak current I₀ = I_rms × √2 = 2√2 A.",
+      "difficulty": "medium",
+      "tags": ["AC-current", "peak-rms", "impedance"]
+    }
+  ]
+}

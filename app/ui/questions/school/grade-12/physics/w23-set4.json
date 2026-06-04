@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-physics",
+  "title": "Grade 12 Physics — Wave Optics",
+  "description": "Huygens' principle, interference, diffraction, and polarisation",
+  "category": "school",
+  "grade": 12,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_12_w23_s4_001",
+      "goalId": "grade12-physics",
+      "question": "Huygens' Principle states that every point on a wavefront:",
+      "options": ["Emits light perpendicular to itself", "Acts as a secondary source of spherical wavelets; the common tangent to these wavelets gives the new wavefront", "Reflects light back", "Absorbs light energy"],
+      "correctIndex": 1,
+      "explanation": "Huygens' Principle: each point on a wavefront is a secondary source of spherical wavelets. The envelope (tangent) of these secondary wavelets after time t gives the new wavefront. Used to explain reflection, refraction, diffraction.",
+      "difficulty": "easy",
+      "tags": ["huygens", "wavefront", "secondary-wavelets"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_002",
+      "goalId": "grade12-physics",
+      "question": "In Young's Double Slit Experiment, bright fringes form when the path difference is:",
+      "options": ["(2n−1)λ/2", "nλ (n = 0, ±1, ±2,...)", "λ/4", "Irregular"],
+      "correctIndex": 1,
+      "explanation": "Constructive interference (bright fringe): path difference = nλ (integer multiple of wavelength). Destructive (dark fringe): path difference = (2n−1)λ/2 (odd multiple of λ/2). n = 0: central bright fringe.",
+      "difficulty": "easy",
+      "tags": ["YDSE", "constructive-interference", "path-difference"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_003",
+      "goalId": "grade12-physics",
+      "question": "Fringe width β in YDSE (slit separation d, screen distance D, wavelength λ) is:",
+      "options": ["dλ/D", "λD/d", "λd/D", "D/(λd)"],
+      "correctIndex": 1,
+      "explanation": "Fringe width β = λD/d. Increasing D or λ increases fringe width; increasing d decreases it. Central fringe is bright. All fringes are equally spaced (equal β).",
+      "difficulty": "medium",
+      "tags": ["fringe-width", "YDSE", "formula"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_004",
+      "goalId": "grade12-physics",
+      "question": "Coherent sources are sources that:",
+      "options": ["Have the same amplitude only", "Have the same frequency and a constant phase difference", "Emit light of all wavelengths", "Are very bright"],
+      "correctIndex": 1,
+      "explanation": "Coherent sources: same frequency (or wavelength) and constant (not necessarily zero) phase difference. Required for sustained interference. In YDSE, both slits are illuminated by one source → coherent.",
+      "difficulty": "easy",
+      "tags": ["coherent-sources", "interference", "definition"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_005",
+      "goalId": "grade12-physics",
+      "question": "In diffraction at a single slit, the central maximum is _____ the secondary maxima.",
+      "options": ["Narrower than", "Same width as", "Twice as wide as", "Half as wide as"],
+      "correctIndex": 2,
+      "explanation": "Single-slit diffraction: central maximum width = 2λD/a (a = slit width). Secondary maxima: each has width λD/a. Central maximum = twice the width of secondary maxima. Also: central max is much more intense.",
+      "difficulty": "medium",
+      "tags": ["single-slit", "central-maximum", "width"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_006",
+      "goalId": "grade12-physics",
+      "question": "Polarisation of light proves that light is a:",
+      "options": ["Longitudinal wave (like sound)", "Transverse electromagnetic wave", "Particle", "Scalar quantity"],
+      "correctIndex": 1,
+      "explanation": "Polarisation is possible only for transverse waves (not longitudinal). Light can be polarised by polaroids, reflection (Brewster's angle), refraction, scattering. This proves light is a transverse EM wave.",
+      "difficulty": "easy",
+      "tags": ["polarisation", "transverse-wave", "proof"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_007",
+      "goalId": "grade12-physics",
+      "question": "Malus' Law states that the intensity of plane polarised light after passing through an analyser is:",
+      "options": ["I₀/2", "I₀ cos θ", "I₀ cos²θ", "I₀ (unchanged)"],
+      "correctIndex": 2,
+      "explanation": "Malus' Law: I = I₀ cos²θ where θ = angle between transmission axis of analyser and plane of polarisation. At θ=0°: I = I₀ (maximum). At θ=90°: I = 0 (complete extinction).",
+      "difficulty": "medium",
+      "tags": ["malus-law", "polarisation", "intensity"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_008",
+      "goalId": "grade12-physics",
+      "question": "Brewster's angle (iB) is the angle of incidence at which reflected light is:",
+      "options": ["Completely absorbed", "Completely refracted", "Completely plane polarised (perpendicular to plane of incidence)", "Completely unpolarised"],
+      "correctIndex": 2,
+      "explanation": "Brewster's angle: reflected light is 100% polarised (s-polarised). Brewster's Law: tan iB = n (refractive index). At iB, reflected and refracted rays are perpendicular.",
+      "difficulty": "medium",
+      "tags": ["brewsters-angle", "polarisation", "reflection"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_009",
+      "goalId": "grade12-physics",
+      "question": "Resolving power of an optical instrument depends on:",
+      "options": ["The brightness of the source", "The wavelength of light used — shorter λ = better resolution", "The length of the instrument", "The colour of light only"],
+      "correctIndex": 1,
+      "explanation": "Resolving power = ability to distinguish two closely spaced objects. Rayleigh criterion: θ_min = 1.22λ/D. Shorter wavelength (blue light, X-rays) = better resolution. Electron microscopes use very short λ (de Broglie wavelength).",
+      "difficulty": "medium",
+      "tags": ["resolving-power", "wavelength", "Rayleigh-criterion"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_010",
+      "goalId": "grade12-physics",
+      "question": "In YDSE, when the screen is moved farther from the slits (D increases), the fringe width:",
+      "options": ["Decreases", "Stays the same", "Increases (β = λD/d)", "Becomes non-uniform"],
+      "correctIndex": 2,
+      "explanation": "β = λD/d. Increasing D directly increases β. This is why YDSE is done at a large screen distance — to make fringes wide enough to observe.",
+      "difficulty": "easy",
+      "tags": ["fringe-width", "screen-distance", "YDSE"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_011",
+      "goalId": "grade12-physics",
+      "question": "If the YDSE experiment is conducted in water (refractive index n), fringe width compared to air:",
+      "options": ["Increases by factor n", "Decreases by factor n (wavelength in water = λ/n)", "Stays the same", "Doubles"],
+      "correctIndex": 1,
+      "explanation": "In medium with refractive index n: λ_medium = λ_air/n. Since β = λD/d: β_water = (λ/n)D/d = β_air/n. Fringe width decreases in denser medium.",
+      "difficulty": "hard",
+      "tags": ["YDSE-in-medium", "wavelength", "fringe-width"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_012",
+      "goalId": "grade12-physics",
+      "question": "Diffraction is the bending of light around:",
+      "options": ["Plane mirrors", "Obstacles or through narrow openings (comparable to wavelength of light)", "Lenses", "Prisms"],
+      "correctIndex": 1,
+      "explanation": "Diffraction: bending of light (or any wave) around obstacles or through small apertures, especially when the size of the obstacle/aperture ≈ wavelength. Explains why light bends around corners slightly.",
+      "difficulty": "easy",
+      "tags": ["diffraction", "bending", "wavelength-comparable"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_013",
+      "goalId": "grade12-physics",
+      "question": "The condition for dark fringes (minima) in single-slit diffraction is: a sinθ = ?",
+      "options": ["nλ/2", "nλ (n = ±1, ±2,...)", "(2n−1)λ/2", "nλ (n = ±1, ±2,...) / a"],
+      "correctIndex": 1,
+      "explanation": "Single-slit minima: a sinθ = nλ (n = ±1, ±2,...). Central maximum is at θ = 0. Secondary minima are at sinθ = ±λ/a, ±2λ/a, etc.",
+      "difficulty": "hard",
+      "tags": ["single-slit-minima", "condition", "diffraction"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_014",
+      "goalId": "grade12-physics",
+      "question": "Scattering of light by small particles explains why the sky is blue and sunsets are red. This is called:",
+      "options": ["Rayleigh scattering (shorter wavelengths scatter more)", "Compton scattering", "Raman scattering", "Mie scattering"],
+      "correctIndex": 0,
+      "explanation": "Rayleigh scattering: I ∝ 1/λ⁴. Blue light (λ~450nm) scatters ~5× more than red (λ~700nm). Sky appears blue. At sunset: long path through atmosphere; blue scattered away; red/orange reaches eyes.",
+      "difficulty": "medium",
+      "tags": ["rayleigh-scattering", "blue-sky", "sunset"]
+    },
+    {
+      "id": "q_physics_12_w23_s4_015",
+      "goalId": "grade12-physics",
+      "question": "LASER (Light Amplification by Stimulated Emission of Radiation) produces:",
+      "options": ["All frequencies of visible light", "Coherent, monochromatic, highly directional, and intense light", "Polarised light only", "X-rays"],
+      "correctIndex": 1,
+      "explanation": "LASER properties: (1) Coherent — fixed phase relationship; (2) Monochromatic — single wavelength; (3) Highly collimated/directional; (4) Very intense. Applications: surgery, data storage, communications, cutting.",
+      "difficulty": "medium",
+      "tags": ["laser", "properties", "coherent-monochromatic"]
+    }
+  ]
+}

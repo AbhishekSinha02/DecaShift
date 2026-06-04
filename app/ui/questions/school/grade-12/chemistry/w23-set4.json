@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-chemistry",
+  "title": "Grade 12 Chemistry — d-Block Elements (Transition Metals)",
+  "description": "Electronic configuration, properties, and compounds of transition metals",
+  "category": "school",
+  "grade": 12,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chem_12_w23_s4_001",
+      "goalId": "grade12-chemistry",
+      "question": "The d-block elements are those in which the differentiating electron enters the:",
+      "options": ["s orbital", "p orbital", "d orbital (3d to 6d subshells)", "f orbital"],
+      "correctIndex": 2,
+      "explanation": "d-block: Groups 3–12, where electrons fill d subshells (3d, 4d, 5d, 6d). Periods 4–7. Most are transition metals (have at least one ion with incomplete d subshell). Zn, Cd, Hg are d-block but NOT transition metals.",
+      "difficulty": "easy",
+      "tags": ["d-block", "definition", "electronic-configuration"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_002",
+      "goalId": "grade12-chemistry",
+      "question": "The electronic configuration of Fe (atomic number 26) is:",
+      "options": ["[Ar] 3d⁶ 4s²", "[Ar] 3d⁸", "[Ne] 3d⁶ 4s²", "[Kr] 3d⁶ 4s²"],
+      "correctIndex": 0,
+      "explanation": "[Ar] = [1s² 2s² 2p⁶ 3s² 3p⁶]. Fe = [Ar] 3d⁶ 4s². Fe²⁺ loses 4s electrons first: [Ar] 3d⁶. Fe³⁺: [Ar] 3d⁵ (half-filled d subshell = extra stability).",
+      "difficulty": "medium",
+      "tags": ["electronic-config", "iron", "Fe"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_003",
+      "goalId": "grade12-chemistry",
+      "question": "Transition metals exhibit variable valency (multiple oxidation states) because:",
+      "options": ["They have large atomic radii", "Both 3d and 4s electrons can participate in bond formation (close energy levels)", "They are all metals", "Their ionic radii are small"],
+      "correctIndex": 1,
+      "explanation": "3d and 4s subshells are close in energy — electrons from both can be removed. This allows multiple oxidation states. Example: Mn shows +2, +3, +4, +6, +7. Contrast: main group elements have fixed valency.",
+      "difficulty": "medium",
+      "tags": ["variable-valency", "d-s-levels", "transition-metals"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_004",
+      "goalId": "grade12-chemistry",
+      "question": "Transition metal compounds are often coloured because:",
+      "options": ["They have high melting points", "d-d electronic transitions absorb specific wavelengths of visible light (complementary colour observed)", "They are all ionic", "Their atomic mass is large"],
+      "correctIndex": 1,
+      "explanation": "In transition metal complexes, ligand field splitting splits d orbitals into different energy levels. Electrons absorb visible light to jump between levels (d-d transition). The complementary colour is transmitted/reflected → coloured compound.",
+      "difficulty": "medium",
+      "tags": ["coloured-compounds", "d-d-transition", "crystal-field"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_005",
+      "goalId": "grade12-chemistry",
+      "question": "Which transition metal has the highest melting point?",
+      "options": ["Iron (Fe)", "Tungsten (W) — 3422°C, highest of all metals", "Chromium (Cr)", "Titanium (Ti)"],
+      "correctIndex": 1,
+      "explanation": "Tungsten (W) has the highest melting point of all pure metals: 3422°C. Used in light bulb filaments and welding applications. High MP is due to strong metallic bonding from unpaired d-electrons.",
+      "difficulty": "medium",
+      "tags": ["tungsten", "highest-melting-point", "transition-metals"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_006",
+      "goalId": "grade12-chemistry",
+      "question": "Potassium permanganate (KMnO₄) acts as an oxidising agent. The oxidation state of Mn changes from +7 to:",
+      "options": ["+7 (no change)", "+2 (in acidic medium) or +4 (neutral/alkaline)", "+6", "+8"],
+      "correctIndex": 1,
+      "explanation": "KMnO₄ in acidic medium: MnO₄⁻ → Mn²⁺ (Mn: +7→+2, gain 5e⁻, purple to colourless). In neutral/alkaline: MnO₄⁻ → MnO₂ (+7→+4, brown precipitate). In strongly alkaline: MnO₄⁻ → MnO₄²⁻ (+7→+6).",
+      "difficulty": "medium",
+      "tags": ["KMnO4", "oxidation-states", "acidic-medium"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_007",
+      "goalId": "grade12-chemistry",
+      "question": "The anomalous electronic configuration of Cr (Z=24) is [Ar] 3d⁵ 4s¹ (not 3d⁴ 4s²) because:",
+      "options": ["Cr is an exception to the Aufbau principle", "Half-filled d subshell (3d⁵) has extra stability due to exchange energy", "The 4s orbital is empty", "Cr is a non-metal"],
+      "correctIndex": 1,
+      "explanation": "Half-filled (3d⁵) and fully-filled (3d¹⁰) d subshells have extra stability (exchange energy). So Cr promotes 1e⁻ from 4s to 3d: [Ar]3d⁵4s¹. Similarly Cu: [Ar]3d¹⁰4s¹ (not 3d⁹4s²).",
+      "difficulty": "hard",
+      "tags": ["chromium", "anomalous-configuration", "half-filled"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_008",
+      "goalId": "grade12-chemistry",
+      "question": "Transition metals are good catalysts because:",
+      "options": ["They are very large atoms", "They have variable oxidation states and can adsorb reactants on their surfaces (heterogeneous catalysis)", "They are abundant", "They don't react with anything"],
+      "correctIndex": 1,
+      "explanation": "Catalytic activity of transition metals: (1) Variable oxidation states allow them to form intermediate compounds; (2) d-electrons interact with reactants (adsorption); (3) Large surface area in finely divided form. Example: Fe in Haber process, V₂O₅ in Contact process.",
+      "difficulty": "medium",
+      "tags": ["catalysts", "variable-oxidation", "adsorption"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_009",
+      "goalId": "grade12-chemistry",
+      "question": "K₂Cr₂O₇ (potassium dichromate) in acidic solution oxidises. Cr changes from:",
+      "options": ["+6 to +3", "+3 to +6", "+6 to 0", "+4 to +6"],
+      "correctIndex": 0,
+      "explanation": "K₂Cr₂O₇: Cr is +6. When it acts as oxidising agent: Cr²O₇²⁻ → 2Cr³⁺ (+6→+3, each Cr gains 3e⁻, total 6e⁻ gained). The orange dichromate solution becomes green (Cr³⁺).",
+      "difficulty": "medium",
+      "tags": ["K2Cr2O7", "chromium", "oxidation-state-change"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_010",
+      "goalId": "grade12-chemistry",
+      "question": "Magnetic properties of transition metal ions depend on the number of:",
+      "options": ["Protons", "Unpaired electrons (more unpaired e⁻ = higher paramagnetism)", "Neutrons", "Bond pairs"],
+      "correctIndex": 1,
+      "explanation": "Paramagnetism: due to unpaired electrons (each has a magnetic moment). More unpaired e⁻ = stronger paramagnetism. Example: Fe³⁺ has [Ar]3d⁵ (5 unpaired e⁻) = strongly paramagnetic. Zn²⁺: [Ar]3d¹⁰ (all paired) = diamagnetic.",
+      "difficulty": "medium",
+      "tags": ["paramagnetism", "unpaired-electrons", "d-block"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_011",
+      "goalId": "grade12-chemistry",
+      "question": "The lanthanide contraction refers to:",
+      "options": ["The large radii of lanthanide elements", "The gradual decrease in atomic/ionic radii across the 4f series due to poor shielding of 4f electrons", "The contraction of d orbitals", "The shrinkage of f orbitals in compounds"],
+      "correctIndex": 1,
+      "explanation": "Lanthanide contraction: as atomic number increases across La-Lu, 4f electrons are added which poorly shield nuclear charge. Size decreases steadily. Consequence: 5d elements have similar radii to 4d counterparts (e.g., Zr/Hf nearly identical size).",
+      "difficulty": "hard",
+      "tags": ["lanthanide-contraction", "4f-shielding", "atomic-radius"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_012",
+      "goalId": "grade12-chemistry",
+      "question": "Which of the following is NOT a characteristic of transition metals?",
+      "options": ["High electrical conductivity", "Formation of coloured compounds", "Low melting and boiling points (like Na and K)", "Tendency to form complex ions"],
+      "correctIndex": 2,
+      "explanation": "Transition metals have HIGH melting and boiling points (due to metallic bonding involving d-electrons), unlike Na/K which melt below 100°C. All other options are correct transition metal characteristics.",
+      "difficulty": "medium",
+      "tags": ["transition-metals", "NOT-a-property", "melting-point"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_013",
+      "goalId": "grade12-chemistry",
+      "question": "The IUPAC name of K₂Cr₂O₇ is:",
+      "options": ["Potassium chromate", "Potassium dichromate", "Dipotassium heptaoxodichromate", "Chromium(VI) potassium salt"],
+      "correctIndex": 1,
+      "explanation": "K₂Cr₂O₇ = potassium dichromate. Orange crystals, strong oxidising agent, used in tanning, electroplating, and organic chemistry. In alkaline conditions: Cr₂O₇²⁻ (dichromate, orange) ⇌ 2CrO₄²⁻ (chromate, yellow).",
+      "difficulty": "easy",
+      "tags": ["K2Cr2O7", "IUPAC-name", "dichromate"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_014",
+      "goalId": "grade12-chemistry",
+      "question": "In the Contact Process for making H₂SO₄, the catalyst used is:",
+      "options": ["Iron (Fe)", "Vanadium pentoxide (V₂O₅)", "Platinum (Pt)", "Nickel (Ni)"],
+      "correctIndex": 1,
+      "explanation": "Contact Process: 2SO₂ + O₂ → 2SO₃ (catalyst V₂O₅, 450°C, 1–2 atm). SO₃ + H₂O → H₂SO₄ (via oleum). V₂O₅ works by V⁵⁺/V⁴⁺ redox cycle — variable oxidation state is key.",
+      "difficulty": "medium",
+      "tags": ["contact-process", "V2O5-catalyst", "H2SO4"]
+    },
+    {
+      "id": "q_chem_12_w23_s4_015",
+      "goalId": "grade12-chemistry",
+      "question": "The number of unpaired electrons in Fe²⁺ (with [Ar]3d⁶ configuration) is:",
+      "options": ["2", "4", "6", "0"],
+      "correctIndex": 1,
+      "explanation": "Fe²⁺: [Ar]3d⁶. d⁶ configuration: filling 5 d orbitals — 4 orbitals get 1e⁻ each, 1 orbital gets 2e⁻ (Hund's rule). Unpaired = 4. (Assuming high-spin, no ligand field splitting.) Magnetic moment ≈ 4.9 BM.",
+      "difficulty": "hard",
+      "tags": ["Fe2+", "unpaired-electrons", "d6-configuration"]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-chemistry",
+  "title": "Grade 12 Chemistry — Surface Chemistry",
+  "description": "Adsorption, colloids, emulsions, gels, and catalysis types",
+  "category": "school",
+  "grade": 12,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chem_12_w23_s3_001",
+      "goalId": "grade12-chemistry",
+      "question": "Adsorption is the process where:",
+      "options": ["A substance is absorbed into the bulk of another", "A substance accumulates on the surface of another (solid or liquid)", "Two substances react chemically at a surface", "A gas dissolves in a liquid"],
+      "correctIndex": 1,
+      "explanation": "Adsorption: accumulation of substance on a surface. Absorptate = substance adsorbed; adsorbent = surface. Absorption: substance goes into the BULK. Adsorption is a surface phenomenon.",
+      "difficulty": "easy",
+      "tags": ["adsorption", "surface", "definition"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_002",
+      "goalId": "grade12-chemistry",
+      "question": "Physisorption (physical adsorption) differs from chemisorption in that physisorption:",
+      "options": ["Involves chemical bond formation", "Is irreversible", "Involves weak van der Waals forces, is reversible, and occurs at low temperatures", "Has higher activation energy"],
+      "correctIndex": 2,
+      "explanation": "Physisorption: weak van der Waals forces, reversible, low ΔH (20–40 kJ/mol), occurs at low T, multilayer possible. Chemisorption: strong chemical bonds, irreversible, high ΔH (40–400 kJ/mol), occurs at high T, monolayer.",
+      "difficulty": "medium",
+      "tags": ["physisorption", "chemisorption", "comparison"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_003",
+      "goalId": "grade12-chemistry",
+      "question": "Freundlich adsorption isotherm is: x/m = ?",
+      "options": ["kP (linear)", "k × P^(1/n) (where n > 1 usually)", "k/P", "kP²"],
+      "correctIndex": 1,
+      "explanation": "Freundlich isotherm: x/m = kP^(1/n). x = mass adsorbed, m = mass of adsorbent, P = pressure. At low P: linear. At high P: x/m approaches constant. Empirical equation (not theoretically derived).",
+      "difficulty": "hard",
+      "tags": ["freundlich-isotherm", "adsorption", "formula"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_004",
+      "goalId": "grade12-chemistry",
+      "question": "A colloid is a dispersion where the particle size is approximately:",
+      "options": ["< 1 nm (solution)", "1–1000 nm (colloidal range)", "> 1000 nm (suspension)", "Exactly 100 nm always"],
+      "correctIndex": 1,
+      "explanation": "Colloidal particles: 1–1000 nm (1–1000 × 10⁻⁹ m). True solutions < 1 nm (ions/molecules). Suspensions > 1000 nm (particles visible, settle). Colloids don't settle due to Brownian motion.",
+      "difficulty": "medium",
+      "tags": ["colloid", "particle-size", "definition"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_005",
+      "goalId": "grade12-chemistry",
+      "question": "The Tyndall effect is the scattering of light by:",
+      "options": ["True solution particles", "Colloidal particles (large enough to scatter visible light)", "Ionic solutions", "Suspended particles only"],
+      "correctIndex": 1,
+      "explanation": "Tyndall effect: colloidal particles scatter light, making the beam visible. True solutions don't show it (particles too small). Used to distinguish colloid from true solution. Example: beam of light in foggy air.",
+      "difficulty": "easy",
+      "tags": ["tyndall-effect", "colloid", "light-scattering"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_006",
+      "goalId": "grade12-chemistry",
+      "question": "Brownian motion in colloids is caused by:",
+      "options": ["Gravity pulling particles down", "Random bombardment of colloidal particles by solvent molecules — keeps them in suspension", "Electrical charges on particles", "Temperature gradients"],
+      "correctIndex": 1,
+      "explanation": "Brownian motion: random zigzag movement of colloidal particles due to unequal bombardment by solvent molecules. It prevents settling (sedimentation). First observed by Robert Brown (1827) with pollen grains.",
+      "difficulty": "medium",
+      "tags": ["brownian-motion", "colloid", "suspension"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_007",
+      "goalId": "grade12-chemistry",
+      "question": "Coagulation (precipitation) of a colloid is caused by:",
+      "options": ["Adding more solvent", "Adding electrolytes — oppositely charged ions neutralise colloidal charge, causing aggregation", "Cooling the colloid", "Diluting with water"],
+      "correctIndex": 1,
+      "explanation": "Colloidal particles are stabilised by similar charges (repel each other). Adding an electrolyte provides oppositely charged ions → neutralises charge → particles attract → coagulate. Hardy-Schulze rule: higher valence ion = more effective coagulation.",
+      "difficulty": "medium",
+      "tags": ["coagulation", "electrolyte", "hardy-schulze"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_008",
+      "goalId": "grade12-chemistry",
+      "question": "An emulsion is a colloid of:",
+      "options": ["Gas in liquid (foam)", "Solid in liquid (sol)", "Liquid in liquid (oil-in-water or water-in-oil)", "Gas in gas (not a colloid)"],
+      "correctIndex": 2,
+      "explanation": "Emulsion: liquid dispersed in liquid. Oil-in-water (O/W): e.g., milk, mayonnaise, cream. Water-in-oil (W/O): e.g., butter, cold cream. Emulsifying agents (soaps) stabilise emulsions.",
+      "difficulty": "medium",
+      "tags": ["emulsion", "liquid-liquid", "definition"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_009",
+      "goalId": "grade12-chemistry",
+      "question": "Homogeneous catalysis means:",
+      "options": ["Catalyst and reactants are in different phases", "Catalyst and reactants are in the SAME phase", "Catalyst is not used up", "The rate increases only at high temperature"],
+      "correctIndex": 1,
+      "explanation": "Homogeneous catalysis: catalyst and reactants in same phase. Example: H₂SO₄ (aq) catalysing ester hydrolysis in solution; NO(g) catalysing SO₂ oxidation in gas phase. Heterogeneous: different phases (Ni solid + gas reactants).",
+      "difficulty": "easy",
+      "tags": ["homogeneous-catalysis", "same-phase", "definition"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_010",
+      "goalId": "grade12-chemistry",
+      "question": "Enzyme catalysis is an example of:",
+      "options": ["Homogeneous catalysis", "Heterogeneous catalysis", "Biological/enzymatic catalysis — extremely specific, efficient at body temperature", "Photo-catalysis"],
+      "correctIndex": 2,
+      "explanation": "Enzymes are biological catalysts (proteins). Features: high specificity (one enzyme, one substrate — lock-and-key), very efficient, mild conditions (37°C, neutral pH). Example: amylase digests starch.",
+      "difficulty": "easy",
+      "tags": ["enzyme-catalysis", "biological", "specificity"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_011",
+      "goalId": "grade12-chemistry",
+      "question": "Peptization is the process of:",
+      "options": ["Coagulating a colloid", "Converting a fresh precipitate back into a colloid by adding a small amount of electrolyte", "Making a colloid from a solution", "Emulsifying oils"],
+      "correctIndex": 1,
+      "explanation": "Peptization: a precipitate is converted into a colloid (sol) by adding a small amount of electrolyte (the peptizing agent). The electrolyte ions are preferentially adsorbed, giving particles similar charges that repel.",
+      "difficulty": "hard",
+      "tags": ["peptization", "precipitate-to-colloid", "definition"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_012",
+      "goalId": "grade12-chemistry",
+      "question": "The charge on As₂S₃ sol (prepared in excess H₂S) is:",
+      "options": ["Positive", "Negative (adsorbs S²⁻ ions from H₂S)", "Neutral", "Variable"],
+      "correctIndex": 1,
+      "explanation": "As₂S₃ sol prepared in H₂S: excess S²⁻ ions are adsorbed → negatively charged particles. Contrast: Fe(OH)₃ sol in FeCl₃ adsorbs Fe³⁺ → positively charged. Charge determines coagulation behaviour.",
+      "difficulty": "hard",
+      "tags": ["As2S3-sol", "negative-charge", "adsorption"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_013",
+      "goalId": "grade12-chemistry",
+      "question": "Lyophilic colloids ('solvent-loving') are characterised by:",
+      "options": ["Easy coagulation by electrolytes", "Strong interaction with solvent — stable, reversible (can be reconstituted after drying)", "No interaction with solvent", "Always being negative"],
+      "correctIndex": 1,
+      "explanation": "Lyophilic: strong affinity for solvent (hydrophilic in water). Stable, not easily coagulated. Examples: starch, gelatin, gum arabic. Lyophobic: weak affinity, easily coagulated (gold sol, Fe(OH)₃ sol).",
+      "difficulty": "medium",
+      "tags": ["lyophilic", "lyophobic", "colloid-stability"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_014",
+      "goalId": "grade12-chemistry",
+      "question": "Langmuir adsorption isotherm assumes:",
+      "options": ["Multilayer adsorption on heterogeneous surface", "Monolayer adsorption on uniform surface — fixed number of identical adsorption sites", "Physisorption only", "No saturation"],
+      "correctIndex": 1,
+      "explanation": "Langmuir isotherm: monolayer adsorption on uniform surface with identical sites; no interactions between adsorbed molecules; fixed number of sites. θ = bP/(1+bP) where θ = fraction of sites occupied.",
+      "difficulty": "hard",
+      "tags": ["langmuir-isotherm", "monolayer", "uniform-surface"]
+    },
+    {
+      "id": "q_chem_12_w23_s3_015",
+      "goalId": "grade12-chemistry",
+      "question": "The cleansing action of soap is due to:",
+      "options": ["Its acidic nature dissolving grease", "Its amphiphilic structure — hydrophobic tail dissolves in oil; hydrophilic head stays in water forming micelles", "Its alkaline nature saponifying fats", "Physical scrubbing action"],
+      "correctIndex": 1,
+      "explanation": "Soap (sodium/potassium fatty acid salt): hydrophobic tail (fatty acid chain) dissolves in oil/grease; hydrophilic head (−COO⁻Na⁺) stays in water. Oil droplets surrounded by soap molecules (micelles) → emulsified and washed away.",
+      "difficulty": "medium",
+      "tags": ["soap", "micelle", "emulsification"]
+    }
+  ]
+}

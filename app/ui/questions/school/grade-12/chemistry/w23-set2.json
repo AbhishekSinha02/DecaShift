@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-chemistry",
+  "title": "Grade 12 Chemistry — Chemical Kinetics: Rate Law Numericals",
+  "description": "Order of reaction, rate constant calculations, half-life, integrated rate laws",
+  "category": "school",
+  "grade": 12,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chem_12_w23_s2_001",
+      "goalId": "grade12-chemistry",
+      "question": "For a first-order reaction, the half-life (t₁/₂) is:",
+      "options": ["k/0.693", "0.693/k", "[A]₀/2k", "k/[A]₀"],
+      "correctIndex": 1,
+      "explanation": "First-order t₁/₂ = 0.693/k = ln2/k. It is INDEPENDENT of initial concentration — a unique property of first-order reactions. Each half-life, concentration halves.",
+      "difficulty": "easy",
+      "tags": ["half-life", "first-order", "formula"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_002",
+      "goalId": "grade12-chemistry",
+      "question": "The half-life of a second-order reaction is:",
+      "options": ["0.693/k", "1/(k[A]₀)", "k/[A]₀", "2/(k[A]₀)"],
+      "correctIndex": 1,
+      "explanation": "Second-order t₁/₂ = 1/(k[A]₀). It DEPENDS on initial concentration (unlike first-order). Each successive half-life is longer (as [A] decreases, t₁/₂ increases).",
+      "difficulty": "medium",
+      "tags": ["half-life", "second-order", "formula"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_003",
+      "goalId": "grade12-chemistry",
+      "question": "A first-order reaction has k = 0.0693 min⁻¹. Its half-life is:",
+      "options": ["0.693 min", "10 min", "100 min", "6.93 min"],
+      "correctIndex": 1,
+      "explanation": "t₁/₂ = 0.693/k = 0.693/0.0693 = 10 min.",
+      "difficulty": "easy",
+      "tags": ["half-life", "calculation", "first-order"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_004",
+      "goalId": "grade12-chemistry",
+      "question": "The integrated rate law for a first-order reaction is:",
+      "options": ["[A] = [A]₀ − kt", "ln[A] = ln[A]₀ − kt (or ln([A]₀/[A]) = kt)", "1/[A] = 1/[A]₀ + kt", "[A]² = [A]₀² − kt"],
+      "correctIndex": 1,
+      "explanation": "First-order integrated: ln[A] = ln[A]₀ − kt. Equivalently: [A] = [A]₀e^(−kt). A plot of ln[A] vs t gives a straight line with slope = −k.",
+      "difficulty": "medium",
+      "tags": ["integrated-rate-law", "first-order", "ln"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_005",
+      "goalId": "grade12-chemistry",
+      "question": "If [A]₀ = 0.1 M for a first-order reaction with k = 0.1 min⁻¹, the concentration after 10 min is:",
+      "options": ["0 M", "0.05 M", "0.1e⁻¹ ≈ 0.0368 M", "0.01 M"],
+      "correctIndex": 2,
+      "explanation": "[A] = [A]₀e^(−kt) = 0.1 × e^(−0.1×10) = 0.1 × e^(−1) = 0.1/e ≈ 0.1 × 0.368 = 0.0368 M.",
+      "difficulty": "hard",
+      "tags": ["first-order", "concentration-calculation", "exponential"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_006",
+      "goalId": "grade12-chemistry",
+      "question": "The Arrhenius equation relating rate constant k to temperature T is:",
+      "options": ["k = Ae^(Ea/RT)", "k = Ae^(−Ea/RT)", "ln k = Ea/RT + ln A", "k = RT/Ea × A"],
+      "correctIndex": 1,
+      "explanation": "Arrhenius: k = Ae^(−Ea/RT). A = pre-exponential factor (frequency factor), Ea = activation energy, R = 8.314 J/(mol·K), T = temperature in K. As T increases → k increases exponentially.",
+      "difficulty": "medium",
+      "tags": ["arrhenius-equation", "rate-constant", "temperature"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_007",
+      "goalId": "grade12-chemistry",
+      "question": "How is activation energy Ea obtained from Arrhenius equation?",
+      "options": ["From a plot of k vs T", "From slope of ln k vs 1/T graph: slope = −Ea/R", "From the intercept of rate vs concentration", "From the half-life"],
+      "correctIndex": 1,
+      "explanation": "ln k = ln A − Ea/(RT). Plot ln k vs 1/T: slope = −Ea/R → Ea = −slope × R. The y-intercept = ln A. This gives Ea experimentally.",
+      "difficulty": "medium",
+      "tags": ["activation-energy", "arrhenius", "graphical-method"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_008",
+      "goalId": "grade12-chemistry",
+      "question": "The units of rate constant k depend on the order of reaction. For a second-order reaction, units of k are:",
+      "options": ["s⁻¹", "mol L⁻¹ s⁻¹", "L mol⁻¹ s⁻¹", "mol² L⁻² s⁻¹"],
+      "correctIndex": 2,
+      "explanation": "Rate = k[A]^n. For n=1 (first order): k = s⁻¹. For n=2: k = L mol⁻¹ s⁻¹ (or M⁻¹s⁻¹). For n=0 (zero order): k = mol L⁻¹ s⁻¹.",
+      "difficulty": "medium",
+      "tags": ["rate-constant-units", "second-order", "dimensional-analysis"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_009",
+      "goalId": "grade12-chemistry",
+      "question": "The half-life of ²⁰⁸Tl (a radioactive isotope) is 3.1 minutes. Starting with 100 g, how much remains after 12.4 minutes?",
+      "options": ["25 g", "6.25 g", "12.5 g", "50 g"],
+      "correctIndex": 1,
+      "explanation": "n = 12.4/3.1 = 4 half-lives. Amount remaining = 100 × (1/2)⁴ = 100/16 = 6.25 g.",
+      "difficulty": "medium",
+      "tags": ["radioactive-decay", "half-life", "n-half-lives"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_010",
+      "goalId": "grade12-chemistry",
+      "question": "Determine the order from: Rate = k[A][B]². The overall order is:",
+      "options": ["1", "2", "3", "4"],
+      "correctIndex": 2,
+      "explanation": "Overall order = sum of all exponents = 1 (for [A]) + 2 (for [B]²) = 3. Order with respect to A = 1, order with respect to B = 2.",
+      "difficulty": "easy",
+      "tags": ["reaction-order", "rate-law", "overall-order"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_011",
+      "goalId": "grade12-chemistry",
+      "question": "Zero-order reaction: how does concentration change with time?",
+      "options": ["Exponentially", "Linearly: [A] = [A]₀ − kt", "As 1/[A] = 1/[A]₀ + kt", "Remains constant"],
+      "correctIndex": 1,
+      "explanation": "Zero-order: rate = k (constant). [A] = [A]₀ − kt. Plot of [A] vs t is a straight line with slope = −k. t₁/₂ = [A]₀/2k (depends on initial concentration).",
+      "difficulty": "medium",
+      "tags": ["zero-order", "integrated-rate-law", "linear"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_012",
+      "goalId": "grade12-chemistry",
+      "question": "A catalyst increases reaction rate by:",
+      "options": ["Increasing temperature", "Providing an alternative pathway with LOWER activation energy (Ea)", "Increasing the concentration of reactants", "Changing the equilibrium constant"],
+      "correctIndex": 1,
+      "explanation": "A catalyst lowers Ea (activation energy) → exponentially more molecules have energy ≥ Ea at room temperature → faster reaction. Catalyst is not consumed. Kc is unchanged; rate of both forward and reverse increases.",
+      "difficulty": "easy",
+      "tags": ["catalyst", "activation-energy", "lower-Ea"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_013",
+      "goalId": "grade12-chemistry",
+      "question": "The temperature dependence rule: For every 10°C rise in temperature, the rate approximately:",
+      "options": ["Stays the same", "Halves", "Doubles (rule of thumb)", "Increases by 10%"],
+      "correctIndex": 2,
+      "explanation": "Van't Hoff rule (approximate): for every 10°C rise, rate roughly doubles (temperature coefficient ≈ 2). This is because k increases exponentially with T (Arrhenius equation).",
+      "difficulty": "easy",
+      "tags": ["temperature-coefficient", "rate", "doubling"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_014",
+      "goalId": "grade12-chemistry",
+      "question": "For the reaction A → products, rate at t=0 is 0.01 M/s with [A]₀ = 0.1 M. Rate at [A] = 0.05 M is 0.005 M/s. The order of reaction is:",
+      "options": ["0", "1", "2", "3"],
+      "correctIndex": 1,
+      "explanation": "Rate₁/Rate₂ = ([A]₁/[A]₂)^n. 0.01/0.005 = (0.1/0.05)^n → 2 = 2^n → n = 1. First-order reaction.",
+      "difficulty": "hard",
+      "tags": ["order-determination", "rate-comparison", "calculation"]
+    },
+    {
+      "id": "q_chem_12_w23_s2_015",
+      "goalId": "grade12-chemistry",
+      "question": "The fraction of molecules having kinetic energy ≥ Ea at temperature T is proportional to:",
+      "options": ["e^(Ea/RT)", "e^(−Ea/RT)", "RT/Ea", "Ea/T"],
+      "correctIndex": 1,
+      "explanation": "Maxwell-Boltzmann: fraction of molecules with E ≥ Ea = e^(−Ea/RT). As T increases, this fraction increases exponentially. As Ea decreases, this fraction increases exponentially — both explain faster reactions.",
+      "difficulty": "hard",
+      "tags": ["maxwell-boltzmann", "fraction", "Boltzmann-factor"]
+    }
+  ]
+}

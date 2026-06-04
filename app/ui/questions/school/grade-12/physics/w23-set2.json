@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-physics",
+  "title": "Grade 12 Physics — Electromagnetic Induction",
+  "description": "Faraday's laws, Lenz's law, motional EMF, inductance, and applications",
+  "category": "school",
+  "grade": 12,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_12_w23_s2_001",
+      "goalId": "grade12-physics",
+      "question": "Faraday's First Law of Electromagnetic Induction states that an EMF is induced in a conductor whenever:",
+      "options": ["Current flows through it", "The magnetic flux through it changes", "It is placed near a magnet", "It carries a charge"],
+      "correctIndex": 1,
+      "explanation": "Faraday's First Law: EMF is induced whenever the magnetic flux through a circuit changes. No change in flux = no induced EMF. Key: it's the CHANGE that matters, not the magnitude of flux.",
+      "difficulty": "easy",
+      "tags": ["faradays-first-law", "EMI", "magnetic-flux"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_002",
+      "goalId": "grade12-physics",
+      "question": "Faraday's Second Law: The induced EMF is:",
+      "options": ["Equal to the magnetic field strength", "Equal to the rate of change of magnetic flux: ε = −dΦ/dt", "Equal to current × resistance", "Proportional to the area of the coil"],
+      "correctIndex": 1,
+      "explanation": "ε = −dΦ/dt (Faraday's 2nd Law). The negative sign is from Lenz's Law. For N turns: ε = −N dΦ/dt.",
+      "difficulty": "easy",
+      "tags": ["faradays-second-law", "induced-EMF", "formula"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_003",
+      "goalId": "grade12-physics",
+      "question": "Lenz's Law states that the direction of induced current is such that it:",
+      "options": ["Always flows clockwise", "Opposes the change that caused it (Conservation of Energy)", "Reinforces the change in flux", "Flows in the direction of external field"],
+      "correctIndex": 1,
+      "explanation": "Lenz's Law: induced current creates a magnetic field that OPPOSES the change in flux. This is consistent with conservation of energy (you must do work to change the flux). The negative sign in ε = −dΦ/dt.",
+      "difficulty": "medium",
+      "tags": ["lenz-law", "opposition", "conservation"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_004",
+      "goalId": "grade12-physics",
+      "question": "A conductor of length L moves with velocity v in a magnetic field B (perpendicular). The motional EMF is:",
+      "options": ["BL/v", "BLv", "BL²v", "B/Lv"],
+      "correctIndex": 1,
+      "explanation": "Motional EMF: ε = BLv. (F = qvB on free charges → charge separation → EMF.) This is the principle of electric generators.",
+      "difficulty": "medium",
+      "tags": ["motional-EMF", "formula", "BLv"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_005",
+      "goalId": "grade12-physics",
+      "question": "Self-inductance (L) is defined such that the induced EMF in a coil is:",
+      "options": ["ε = LI", "ε = −L(dI/dt)", "ε = L/I", "ε = L × B"],
+      "correctIndex": 1,
+      "explanation": "Self-inductance: ε = −L(dI/dt). L is the self-inductance (unit: Henry, H). A coil resists CHANGES in current flowing through itself. Greater L = greater opposition to current change.",
+      "difficulty": "medium",
+      "tags": ["self-inductance", "formula", "L"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_006",
+      "goalId": "grade12-physics",
+      "question": "Energy stored in an inductor with inductance L and current I is:",
+      "options": ["LI", "LI²", "½LI²", "L/I"],
+      "correctIndex": 2,
+      "explanation": "Energy in inductor: U = ½LI². Analogous to energy in capacitor: U = ½CV². Both store energy: inductor in magnetic field, capacitor in electric field.",
+      "difficulty": "easy",
+      "tags": ["inductor-energy", "formula", "½LI²"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_007",
+      "goalId": "grade12-physics",
+      "question": "Eddy currents are induced in:",
+      "options": ["Only coils and wires", "Conducting materials (solid metal blocks) when flux through them changes — circular induced currents", "Insulators only", "Only when current is AC"],
+      "correctIndex": 1,
+      "explanation": "Eddy currents: induced in solid conducting masses (metal plates, transformer cores) when magnetic flux changes. They cause heating (loss) and opposing force. Minimised by lamination of iron cores.",
+      "difficulty": "medium",
+      "tags": ["eddy-currents", "solid-conductors", "EMI"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_008",
+      "goalId": "grade12-physics",
+      "question": "An AC generator converts:",
+      "options": ["Electrical energy to mechanical energy", "Mechanical energy to electrical energy (using electromagnetic induction)", "Chemical energy to electrical energy", "Light energy to electrical energy"],
+      "correctIndex": 1,
+      "explanation": "AC generator (alternator): mechanical rotation of a coil in a magnetic field induces alternating EMF (Faraday's law). Motor does the reverse: electrical → mechanical.",
+      "difficulty": "easy",
+      "tags": ["AC-generator", "mechanical-to-electrical", "EMI"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_009",
+      "goalId": "grade12-physics",
+      "question": "Mutual inductance M between two coils satisfies: ε₂ = ?",
+      "options": ["M × I₁", "−M(dI₁/dt)", "M/I₁", "M × B"],
+      "correctIndex": 1,
+      "explanation": "Mutual inductance: ε₂ = −M(dI₁/dt). Changing current in coil 1 induces EMF in coil 2. M depends on geometry, number of turns, and magnetic coupling. Unit: Henry (H). Basis of transformers.",
+      "difficulty": "medium",
+      "tags": ["mutual-inductance", "transformer", "formula"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_010",
+      "goalId": "grade12-physics",
+      "question": "A coil of 100 turns has a flux change from 0 to 2 Wb in 4 s. The induced EMF is:",
+      "options": ["50 V", "200 V", "8 V", "0.5 V"],
+      "correctIndex": 0,
+      "explanation": "ε = N × ΔΦ/Δt = 100 × (2−0)/4 = 100 × 0.5 = 50 V.",
+      "difficulty": "medium",
+      "tags": ["EMF-calculation", "faradays-law", "N-turns"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_011",
+      "goalId": "grade12-physics",
+      "question": "The self-inductance of a solenoid (N turns, length l, cross-section area A) is:",
+      "options": ["NμA/l", "μ₀N²A/l", "μ₀NA/l", "N²/μ₀Al"],
+      "correctIndex": 1,
+      "explanation": "L = μ₀N²A/l = μ₀n²Al (n = N/l turns per unit length). Increasing N or A or decreasing l increases L. Iron core: multiply by μᵣ.",
+      "difficulty": "hard",
+      "tags": ["solenoid-inductance", "formula", "self-inductance"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_012",
+      "goalId": "grade12-physics",
+      "question": "Applications of electromagnetic induction include:",
+      "options": ["Only generators", "Generators, transformers, induction motors, eddy-current brakes, metal detectors, wireless charging", "Only transformers", "Only induction cookers"],
+      "correctIndex": 1,
+      "explanation": "EMI applications: AC generators (power plants), transformers (voltage conversion), induction motors, electromagnetic brakes, metal detectors, magnetic levitation, induction cookers, wireless charging (Qi).",
+      "difficulty": "easy",
+      "tags": ["EMI-applications", "generators", "transformers"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_013",
+      "goalId": "grade12-physics",
+      "question": "The back-EMF in a motor is due to:",
+      "options": ["The resistance of the motor coil", "Electromagnetic induction — the rotating coil itself generates an EMF opposing the applied voltage", "The power supply voltage", "Friction in the motor bearings"],
+      "correctIndex": 1,
+      "explanation": "Back-EMF (counter-EMF): as the motor armature spins, it acts as a generator, inducing an EMF opposing the supply (Lenz's Law). Back-EMF limits current: I = (V − ε_back)/R. At startup: back-EMF=0, current is highest.",
+      "difficulty": "hard",
+      "tags": ["back-EMF", "motor", "lenz-law"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_014",
+      "goalId": "grade12-physics",
+      "question": "Magnetic flux Φ through a surface is defined as:",
+      "options": ["B × A (always)", "B · A = BA cos θ (dot product of B and area vector)", "B/A", "B²A"],
+      "correctIndex": 1,
+      "explanation": "Φ = B · A = BA cos θ where θ is the angle between the magnetic field B and the area normal vector. Maximum flux when B perpendicular to surface (θ=0°); zero when B parallel to surface (θ=90°). Unit: Weber (Wb).",
+      "difficulty": "medium",
+      "tags": ["magnetic-flux", "formula", "BA-cosθ"]
+    },
+    {
+      "id": "q_physics_12_w23_s2_015",
+      "goalId": "grade12-physics",
+      "question": "Henry (H) as the unit of inductance means:",
+      "options": ["1 H = 1 J/s", "1 H = 1 V·s/A = 1 Ω·s", "1 H = 1 A/V", "1 H = 1 Wb/A"],
+      "correctIndex": 3,
+      "explanation": "1 Henry = 1 Wb/A = 1 V·s/A = 1 Ω·s. Named after Joseph Henry. From ε = −L(dI/dt): L = |ε/(dI/dt)| = V/(A/s) = V·s/A = Ω·s. Also Φ = LI/N → L = NΦ/I = Wb/A.",
+      "difficulty": "hard",
+      "tags": ["henry", "unit", "inductance"]
+    }
+  ]
+}

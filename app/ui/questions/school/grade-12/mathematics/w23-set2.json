@@ -1,0 +1,163 @@
+{
+  "goalId": "grade12-mathematics",
+  "title": "Grade 12 Mathematics — Integrals (Indefinite)",
+  "description": "Integration as antiderivative, standard integrals, substitution method",
+  "category": "school",
+  "grade": 12,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_12_w23_s2_001",
+      "goalId": "grade12-mathematics",
+      "question": "The integral ∫xⁿ dx = ? (n ≠ −1)",
+      "options": ["nxⁿ⁻¹", "xⁿ⁺¹/(n+1) + C", "xⁿ/n + C", "xⁿ⁺¹ + C"],
+      "correctIndex": 1,
+      "explanation": "∫xⁿ dx = xⁿ⁺¹/(n+1) + C (Power Rule for integration). This is the reverse of d/dx(xⁿ⁺¹/(n+1)) = xⁿ. '+C' is the constant of integration (representing all antiderivatives).",
+      "difficulty": "easy",
+      "tags": ["power-rule", "integration", "formula"]
+    },
+    {
+      "id": "q_math_12_w23_s2_002",
+      "goalId": "grade12-mathematics",
+      "question": "∫cos x dx = ?",
+      "options": ["−sin x + C", "sin x + C", "−cos x + C", "tan x + C"],
+      "correctIndex": 1,
+      "explanation": "∫cos x dx = sin x + C. Verify: d/dx(sin x) = cos x. ✓ Other standard integrals: ∫sin x dx = −cos x + C; ∫sec²x dx = tan x + C.",
+      "difficulty": "easy",
+      "tags": ["standard-integrals", "cos-x", "trigonometric"]
+    },
+    {
+      "id": "q_math_12_w23_s2_003",
+      "goalId": "grade12-mathematics",
+      "question": "∫eˣ dx = ?",
+      "options": ["eˣ/x + C", "eˣ + C", "xeˣ + C", "eˣ⁻¹ + C"],
+      "correctIndex": 1,
+      "explanation": "∫eˣ dx = eˣ + C. The exponential function is its own derivative AND its own antiderivative (unique property). ∫aˣ dx = aˣ/ln a + C (for constant a > 0, a ≠ 1).",
+      "difficulty": "easy",
+      "tags": ["exponential-integral", "eˣ", "standard"]
+    },
+    {
+      "id": "q_math_12_w23_s2_004",
+      "goalId": "grade12-mathematics",
+      "question": "∫1/x dx = ? (x ≠ 0)",
+      "options": ["1/x² + C", "ln|x| + C", "x⁻¹ + C", "−1/x² + C"],
+      "correctIndex": 1,
+      "explanation": "∫(1/x) dx = ln|x| + C. This is the special case of the power rule (n = −1), which is excluded from ∫xⁿdx formula. Verify: d/dx(ln|x|) = 1/x. ✓",
+      "difficulty": "easy",
+      "tags": ["ln-x", "reciprocal-integral", "formula"]
+    },
+    {
+      "id": "q_math_12_w23_s2_005",
+      "goalId": "grade12-mathematics",
+      "question": "Evaluate: ∫(3x² + 2x + 1) dx",
+      "options": ["6x + 2 + C", "x³ + x² + x + C", "9x + 2 + C", "3x³ + x² + x + C"],
+      "correctIndex": 1,
+      "explanation": "∫(3x²+2x+1)dx = 3x³/3 + 2x²/2 + x + C = x³ + x² + x + C. Each term integrated separately.",
+      "difficulty": "medium",
+      "tags": ["polynomial-integration", "calculation", "sum-rule"]
+    },
+    {
+      "id": "q_math_12_w23_s2_006",
+      "goalId": "grade12-mathematics",
+      "question": "Substitution method: ∫f(g(x))g'(x) dx. Let u = g(x), then the integral becomes:",
+      "options": ["∫f(u) × g'(x) du", "∫f(u) du", "∫g'(x) du", "f(g(x)) + C"],
+      "correctIndex": 1,
+      "explanation": "Substitution (u-substitution): let u = g(x), du = g'(x)dx. Then ∫f(g(x))g'(x)dx = ∫f(u)du. Simplifies the integral to a standard form.",
+      "difficulty": "medium",
+      "tags": ["substitution-method", "u-substitution", "technique"]
+    },
+    {
+      "id": "q_math_12_w23_s2_007",
+      "goalId": "grade12-mathematics",
+      "question": "Evaluate: ∫2x(x² + 1)⁵ dx",
+      "options": ["2(x² + 1)⁵ + C", "(x² + 1)⁶/6 + C", "10x(x² + 1)⁴ + C", "x(x² + 1)⁶ + C"],
+      "correctIndex": 1,
+      "explanation": "Let u = x²+1, du = 2x dx. ∫u⁵ du = u⁶/6 + C = (x²+1)⁶/6 + C.",
+      "difficulty": "medium",
+      "tags": ["substitution", "calculation", "power-function"]
+    },
+    {
+      "id": "q_math_12_w23_s2_008",
+      "goalId": "grade12-mathematics",
+      "question": "∫sec²x dx = ?",
+      "options": ["sin x + C", "cos x + C", "tan x + C", "2sec x tan x + C"],
+      "correctIndex": 2,
+      "explanation": "∫sec²x dx = tan x + C. Verify: d/dx(tan x) = sec²x. ✓ Other results: ∫sec x tan x dx = sec x + C; ∫cosec²x dx = −cot x + C.",
+      "difficulty": "easy",
+      "tags": ["sec-squared", "standard-integral", "trigonometric"]
+    },
+    {
+      "id": "q_math_12_w23_s2_009",
+      "goalId": "grade12-mathematics",
+      "question": "∫dx/(1 + x²) = ?",
+      "options": ["ln(1+x²) + C", "tan⁻¹x + C (arctan x + C)", "1/(1+x²)² + C", "x + C"],
+      "correctIndex": 1,
+      "explanation": "∫dx/(1+x²) = tan⁻¹x + C. This is the integral leading to the arctan (inverse tangent) function. Similarly: ∫dx/√(1−x²) = sin⁻¹x + C.",
+      "difficulty": "medium",
+      "tags": ["arctan", "inverse-trig", "standard-integral"]
+    },
+    {
+      "id": "q_math_12_w23_s2_010",
+      "goalId": "grade12-mathematics",
+      "question": "Integration by parts formula: ∫u dv = ?",
+      "options": ["uv + ∫v du", "uv − ∫v du", "∫u v dx", "du × dv"],
+      "correctIndex": 1,
+      "explanation": "Integration by Parts: ∫u dv = uv − ∫v du. Choose u as the function that simplifies on differentiation (ILATE: Inverse trig, Logarithm, Algebraic, Trigonometric, Exponential).",
+      "difficulty": "medium",
+      "tags": ["integration-by-parts", "formula", "technique"]
+    },
+    {
+      "id": "q_math_12_w23_s2_011",
+      "goalId": "grade12-mathematics",
+      "question": "Evaluate ∫x eˣ dx using integration by parts.",
+      "options": ["x eˣ + eˣ + C", "x eˣ − eˣ + C", "eˣ + C", "x² eˣ/2 + C"],
+      "correctIndex": 1,
+      "explanation": "Let u = x (→ du = dx), dv = eˣ dx (→ v = eˣ). ∫x eˣ dx = x eˣ − ∫eˣ dx = x eˣ − eˣ + C = eˣ(x−1) + C.",
+      "difficulty": "hard",
+      "tags": ["integration-by-parts", "calculation", "x-eˣ"]
+    },
+    {
+      "id": "q_math_12_w23_s2_012",
+      "goalId": "grade12-mathematics",
+      "question": "∫sin x dx = ?",
+      "options": ["cos x + C", "−cos x + C", "sin x + C", "tan x + C"],
+      "correctIndex": 1,
+      "explanation": "∫sin x dx = −cos x + C. Verify: d/dx(−cos x) = sin x. ✓",
+      "difficulty": "easy",
+      "tags": ["sin-integral", "standard", "trigonometric"]
+    },
+    {
+      "id": "q_math_12_w23_s2_013",
+      "goalId": "grade12-mathematics",
+      "question": "Evaluate: ∫(2x + 3)/(x² + 3x + 5) dx",
+      "options": ["2ln|x² + 3x + 5| + C", "ln|x² + 3x + 5| + C", "1/(x² + 3x + 5) + C", "(2x+3)² + C"],
+      "correctIndex": 1,
+      "explanation": "Notice the numerator (2x+3) is the derivative of the denominator (x²+3x+5). So ∫f'(x)/f(x) dx = ln|f(x)| + C. → ln|x²+3x+5| + C.",
+      "difficulty": "hard",
+      "tags": ["f-prime-over-f", "logarithmic-integral", "technique"]
+    },
+    {
+      "id": "q_math_12_w23_s2_014",
+      "goalId": "grade12-mathematics",
+      "question": "∫dx/√(1−x²) = ?",
+      "options": ["cos⁻¹x + C", "sin⁻¹x + C (arcsin)", "tan⁻¹x + C", "−√(1−x²) + C"],
+      "correctIndex": 1,
+      "explanation": "∫dx/√(1−x²) = sin⁻¹x + C. This is the integral definition of arcsin. Domain: −1 < x < 1.",
+      "difficulty": "medium",
+      "tags": ["arcsin", "inverse-trig", "standard-integral"]
+    },
+    {
+      "id": "q_math_12_w23_s2_015",
+      "goalId": "grade12-mathematics",
+      "question": "The constant of integration C in ∫f(x) dx = F(x) + C represents:",
+      "options": ["A specific numerical value", "The fact that there are infinitely many antiderivatives (differing by a constant)", "An error in the calculation", "The initial condition"],
+      "correctIndex": 1,
+      "explanation": "Any constant C satisfies d/dx(F(x)+C) = f(x). So there are infinitely many antiderivatives, all differing by a constant. To find a specific one, you need an initial condition (boundary condition).",
+      "difficulty": "medium",
+      "tags": ["constant-of-integration", "antiderivative", "family"]
+    }
+  ]
+}
