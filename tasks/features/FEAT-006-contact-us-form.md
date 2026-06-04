@@ -3,8 +3,16 @@
 > **Priority:** 🟠 P2 (useful for the Lucknow pilot feedback loop; not launch-blocking)
 > **Size:** S–M (~1 session) · **Risk:** Low — fully additive, isolated in its own module +
 > a new Settings sub-screen + a new Apps Script action. Touches **no existing flow**.
-> **Status:** 📝 PLAN — **decisions LOCKED 2026-06-04** (see "Decisions — RESOLVED").
-> Awaiting final "build it" go-ahead. **No app code until then.**
+> ## ✅ STATUS 2026-06-04 — BUILT + SHIPPED (build `20260604c`, all 5 steps)
+> Code pushed across 5 atomic commits: Code.gs `saveContact`/`getContacts` · storage.js
+> `submitContact` · `app-contact.js` module · Settings tile + sub-screen · scoped CSS ·
+> flag `FEATURES.contactForm = true`. Syntax-checked.
+> **⚠️ REMAINING before it persists to Drive:** (1) **manual Apps Script redeploy** of
+> `Code.gs` (edit existing deployment → New version) — until then the form shows a graceful
+> retry; (2) smoke test: open Settings → 💬 Help & Feedback → submit each type → confirm
+> `users/{userId}/contact/msg_*.json` lands + `?action=getContacts` returns it.
+>
+> Original plan + locked decisions below for reference.
 
 ---
 
