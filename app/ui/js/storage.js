@@ -293,6 +293,27 @@ const Storage = (() => {
     }
   }
 
+  // ── Contact / Help & Feedback (FEAT-006) ────────────────────────────────────
+  // Awaited (unlike the fire-and-forget syncs) with a timeout, because the user is
+  // waiting on a "sent ✓" confirmation. Writes to users/{userId}/contact/ server-side.
+  async function submitContact(payload, timeoutMs = 8000) {
+    if (!APPS_SCRIPT_URL) return { success: false };
+    const ctrl  = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+    try {
+      const r = await fetch(APPS_SCRIPT_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain' },
+        body: JSON.stringify({ action: 'saveContact', payload })
+      });
+      return await r.json();
+    } catch (_) {
+      return { success: false };
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
   // ── Export ────────────────────────────────────────────────────────────────
 
   function exportAsJSON(sessions) {
@@ -318,6 +339,7 @@ const Storage = (() => {
     saveSession, loadSessions, getLastSessionForGoal, clearSessionsForGoal,
     loadStreak, saveStreak, updateStreak, grantFreeze,
     snapshotAll, restoreAll, syncStateToDrive, syncStateSoon, fetchStateFromDrive,
+    submitContact,
     exportAsJSON, exportAsCSV
   };
 })();

@@ -9,7 +9,8 @@ console.log('%cDonnibo build ' + BUILD, 'color:#3b82f6;font-weight:bold');
 
 // Feature flags — large features stay dormant behind a flag until wired + tested.
 const FEATURES = {
-  fullSync: true   // P2-T046: full-state cross-device sync (journey + prefs + appearance)
+  fullSync: true,     // P2-T046: full-state cross-device sync (journey + prefs + appearance)
+  contactForm: false  // FEAT-006: Help & Feedback form (dormant until wired + tested)
 };
 window.FEATURES = FEATURES;
 

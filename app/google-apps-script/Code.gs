@@ -39,6 +39,9 @@ function doGet(e) {
   if (e && e.parameter && e.parameter.action === 'getJourney') {
     return _json(getJourney(e.parameter.userId));
   }
+  if (e && e.parameter && e.parameter.action === 'getContacts') {
+    return _json(getContacts(e.parameter.date));   // admin triage (FEAT-006)
+  }
   return _json({ status: 'DecaShift API running', version: '3.0' });
 }
 
@@ -52,6 +55,7 @@ function doPost(e) {
     if (action === 'saveSession') return _json(saveSession(data));
     if (action === 'saveJourney') return _json(saveJourney(data));
     if (action === 'saveAccount') return _json(saveAccount(data));
+    if (action === 'saveContact') return _json(saveContact(data));
 
     return _json({ success: false, error: 'Unknown action: ' + action });
   } catch (err) {
@@ -118,6 +122,39 @@ function getJourney(userId) {
   if (!iter.hasNext()) return { found: false };
   const journey = JSON.parse(iter.next().getBlob().getDataAsString());
   return { found: true, journey };
+}
+
+// ── Contact / Help & Feedback (FEAT-006) — write-once in the user's own folder ─
+// Everything about a kid lives under users/{userId}/ — profile, journey, plan AND
+// their feedback/concerns — so one userId finds it all. No central copy; triage is
+// the getContacts scan below. Date-stamped filename so a script can fetch by day.
+
+function saveContact(c) {
+  const folder = _subFolder(_userFolder(c.userId), 'contact');
+  const d      = c.date || new Date().toISOString().slice(0, 10);
+  const name   = 'msg_' + d + '_' + Date.now() + '.json';
+  folder.createFile(name, JSON.stringify(c, null, 2), MimeType.PLAIN_TEXT);
+  return { success: true };   // no central copy by design — getContacts() does triage
+}
+
+// Admin triage — gather feedback across ALL users, newest first, optionally one day.
+// Trivial at pilot scale (<5k users). Run from the founder's browser:
+//   <APPS_SCRIPT_URL>?action=getContacts&date=2026-06-04
+function getContacts(date) {
+  const users = _subFolder(_rootFolder(), 'users').getFolders();
+  const items = [];
+  while (users.hasNext()) {
+    const cf = users.next().getFoldersByName('contact');
+    if (!cf.hasNext()) continue;
+    const files = cf.next().getFiles();
+    while (files.hasNext()) {
+      const f = files.next();
+      if (date && f.getName().indexOf('msg_' + date) !== 0) continue;
+      try { items.push(JSON.parse(f.getBlob().getDataAsString())); } catch (_) {}
+    }
+  }
+  items.sort(function (a, b) { return (b.submittedAt || '').localeCompare(a.submittedAt || ''); });
+  return { count: items.length, items: items };
 }
 
 // ── Session — one file per session, write-once, inside the user's folder ───────
