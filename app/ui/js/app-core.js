@@ -110,6 +110,7 @@ async function init() {
     _deferredInstallPrompt = e;
   });
   if (typeof Challenge !== 'undefined') Challenge.capture();  // E-013: stash ?ch= before routing
+  await _resolveBrand();   // FEAT-005 item 5: set brand before any screen renders
   _loadScreen('landing');
   _loadScreen('home');
   _loadScreen('paywall');
@@ -149,6 +150,70 @@ async function _dismissPaywall() {
   sessionStorage.setItem('ds_paywall_dismissed', '1');
   await _showScreen('home');
   _renderHome();
+}
+
+// ── Brand (FEAT-005 item 5: cities = config, not clones) ────────────────────────
+// One codebase serves every city. The active brand is resolved from the hostname
+// (brand/brands.json). 'default' mirrors today's Donnibo look, so the production
+// host is a no-op — only a matched city diverges. Test before a real domain exists
+// with ?city=<id> (persisted to localStorage ds_city).
+let BRAND = null;
+
+async function _resolveBrand() {
+  let cfg;
+  try {
+    const r = await fetch('brand/brands.json?v=' + BUILD);
+    cfg = await r.json();
+  } catch (_) { return; }          // offline / missing → keep static HTML defaults
+  if (!cfg || !cfg.default) return;
+
+  const qsCity = new URLSearchParams(location.search).get('city');
+  if (qsCity) localStorage.setItem('ds_city', qsCity);
+  const override = qsCity || localStorage.getItem('ds_city');
+
+  let picked = cfg.default;
+  let isCity = false;
+  if (override && cfg.cities) {
+    const m = Object.values(cfg.cities).find(c => c.brandId === override);
+    if (m) { picked = m; isCity = true; }
+  } else if (cfg.cities && cfg.cities[location.hostname]) {
+    picked = cfg.cities[location.hostname];
+    isCity = true;
+  }
+  BRAND = Object.assign({}, cfg.default, picked);  // default backfills any missing field
+  BRAND.isCity = isCity;
+  window.BRAND = BRAND;
+  _applyBrandGlobals();
+}
+
+// document-level brand. The accent override is applied ONLY for a real city, so the
+// default host keeps its per-theme accents (dawnbreak gold / ocean blue) untouched.
+// For a city, the brand accent intentionally overrides the theme accent so the city
+// stays visually consistent across themes; theme still controls bg/surfaces.
+function _applyBrandGlobals() {
+  if (!BRAND) return;
+  if (BRAND.isCity) {
+    const root = document.documentElement;
+    root.style.setProperty('--accent', BRAND.accent);
+    root.style.setProperty('--accent-dim', BRAND.accentDim);
+    document.title = BRAND.brandName + ' — ' + BRAND.tagline;
+    const meta = document.querySelector('meta[name="apple-mobile-web-app-title"]');
+    if (meta) meta.content = BRAND.brandName;
+  }
+}
+
+// patch a freshly-loaded screen's DOM via data-brand-* hooks. Static HTML keeps
+// "Donnibo" as the fallback, so this is a no-op on the default brand.
+function _applyBrand(root) {
+  if (!BRAND || !root) return;
+  root.querySelectorAll('[data-brand-name]').forEach(el    => { el.textContent = BRAND.brandName; });
+  root.querySelectorAll('[data-brand-tagline]').forEach(el => { el.textContent = BRAND.tagline; });
+  root.querySelectorAll('[data-brand-origin]').forEach(el  => { el.textContent = BRAND.origin; });
+  root.querySelectorAll('[data-brand-logo]').forEach(el    => { el.src = BRAND.logo; el.alt = BRAND.brandName; });
+  root.querySelectorAll('[data-brand-whatsapp]').forEach(el => {
+    const text = el.getAttribute('data-brand-whatsapp');
+    el.href = 'https://wa.me/' + BRAND.whatsapp + (text ? '?text=' + encodeURIComponent(text) : '');
+  });
 }
 
 // ── Theme ─────────────────────────────────────────────────────────────────────
@@ -453,6 +518,7 @@ async function _loadScreen(name) {
   }
   if (_screenHTML[name]) {
     document.body.insertAdjacentHTML('beforeend', _screenHTML[name]);
+    _applyBrand(document.getElementById('screen-' + name));  // FEAT-005 item 5
   }
 }
 

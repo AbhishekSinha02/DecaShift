@@ -1,0 +1,27 @@
+{
+  "_doc": "FEAT-005 item 5 — brand config by hostname. Cities = config, not clones. The app resolves the active brand from window.location.hostname (see _resolveBrand in app-core.js). 'default' MUST mirror today's Donnibo look so the production host is a no-op. Add a city by adding one entry under 'cities' keyed by its exact hostname — no code copy. Test before a real domain exists with ?city=<id> (or localStorage ds_city=<id>).",
+  "default": {
+    "brandId": "donnibo",
+    "brandName": "Donnibo",
+    "tagline": "See yourself grow.",
+    "logo": "assets/icon.svg",
+    "accent": "#3b82f6",
+    "accentDim": "rgba(59, 130, 246, 0.12)",
+    "origin": "Made in Pune 🇮🇳",
+    "whatsapp": "917415827596",
+    "coupon": ""
+  },
+  "cities": {
+    "lucknow.dailymath30.com": {
+      "brandId": "lucknow",
+      "brandName": "Donnibo Lucknow",
+      "tagline": "See yourself grow.",
+      "logo": "assets/icon.svg",
+      "accent": "#f59e0b",
+      "accentDim": "rgba(245, 158, 11, 0.12)",
+      "origin": "Made in Lucknow 🇮🇳",
+      "whatsapp": "917415827596",
+      "coupon": "LUCKNOW500"
+    }
+  }
+}

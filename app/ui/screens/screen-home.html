@@ -2,7 +2,7 @@
 
     <!-- E-002: laptop left nav rail (≥1024px) — reuses drawer handlers, hidden on phone/tablet -->
     <nav class="home-nav-rail" aria-label="Primary">
-      <img src="assets/icon.svg" class="rail-logo" alt="Donnibo">
+      <img src="assets/icon.svg" class="rail-logo" alt="Donnibo" data-brand-logo>
       <button class="rail-item" onclick="_goHome()">
         <span class="rail-icon">🏠</span><span class="rail-label">Home</span>
       </button>
@@ -29,8 +29,8 @@
 
     <header class="app-header">
       <div class="app-header-brand" onclick="_goHome()" style="cursor:pointer">
-        <img src="assets/icon.svg" class="app-logo" alt="Donnibo">
-        <span class="app-brand-name">Donnibo</span>
+        <img src="assets/icon.svg" class="app-logo" alt="Donnibo" data-brand-logo>
+        <span class="app-brand-name" data-brand-name>Donnibo</span>
       </div>
       <div class="app-header-meta" id="app-header-meta"></div>
       <div class="app-header-right">
@@ -120,8 +120,8 @@
       <div class="drawer-panel">
         <div class="drawer-header">
           <div class="drawer-brand">
-            <img src="assets/icon.svg" class="drawer-logo" alt="Donnibo">
-            <span class="drawer-brand-name">Donnibo</span>
+            <img src="assets/icon.svg" class="drawer-logo" alt="Donnibo" data-brand-logo>
+            <span class="drawer-brand-name" data-brand-name>Donnibo</span>
           </div>
           <button class="drawer-close" onclick="_closeDrawer()" aria-label="Close menu">✕</button>
         </div>
