@@ -37,6 +37,11 @@
               <span class="settings-tile-label">My Progress</span>
               <span class="settings-tile-arrow">›</span>
             </button>
+            <button class="settings-tile hidden" id="settings-tile-contact" onclick="openSettingsSection('contact')">
+              <span class="settings-tile-icon">💬</span>
+              <span class="settings-tile-label">Help &amp; Feedback</span>
+              <span class="settings-tile-arrow">›</span>
+            </button>
             <button class="settings-tile" onclick="openSettingsSection('help')">
               <span class="settings-tile-icon">ℹ️</span>
               <span class="settings-tile-label">About &amp; Help</span>
@@ -244,6 +249,51 @@
         <div id="settings-sub-progress" class="settings-sub hidden">
           <span class="settings-sub-title">My Progress</span>
           <div id="progress-content"></div>
+        </div>
+
+        <!-- ── Sub-screen: Help & Feedback (FEAT-006) ─────────── -->
+        <div id="settings-sub-contact" class="settings-sub hidden">
+          <span class="settings-sub-title">Help &amp; Feedback</span>
+          <p class="settings-section-desc" style="margin-bottom:14px">Tell us anything — what you love, an idea, a bug, or a concern. We read every message.</p>
+
+          <div id="contact-form-fields">
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" placeholder="Your name" autocomplete="off">
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" placeholder="you@example.com" autocomplete="off" inputmode="email">
+            </div>
+            <div class="form-group">
+              <label for="contact-phone">Phone <span class="optional">(optional)</span></label>
+              <input type="tel" id="contact-phone" placeholder="10-digit mobile" autocomplete="off" inputmode="numeric">
+            </div>
+            <div class="form-group">
+              <label>What's this about?</label>
+              <div class="contact-type-chips" id="contact-type-chips">
+                <button type="button" class="contact-chip" data-type="appreciation" onclick="_selectContactType(this)">💛 Appreciation</button>
+                <button type="button" class="contact-chip" data-type="suggestion"   onclick="_selectContactType(this)">💡 Suggestion</button>
+                <button type="button" class="contact-chip" data-type="bug"          onclick="_selectContactType(this)">🐞 Bug / Issue</button>
+                <button type="button" class="contact-chip" data-type="complaint"    onclick="_selectContactType(this)">😕 Complaint</button>
+                <button type="button" class="contact-chip" data-type="content"      onclick="_selectContactType(this)">📚 Content / Question</button>
+                <button type="button" class="contact-chip" data-type="billing"      onclick="_selectContactType(this)">💳 Billing / Plan</button>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" rows="5" placeholder="Write your message…"></textarea>
+            </div>
+            <span class="field-error" id="contact-err"></span>
+            <button class="btn btn-primary btn-full" id="contact-send-btn" onclick="_submitContactForm()">Send →</button>
+          </div>
+
+          <div id="contact-success" class="contact-success hidden">
+            <div class="contact-success-icon">✅</div>
+            <p class="contact-success-title">Thanks — we've got your message.</p>
+            <p class="contact-success-sub">We read every one and will get back to you.</p>
+            <button class="btn btn-ghost btn-sm" onclick="_resetContactForm()">Send another</button>
+          </div>
         </div>
 
       </div><!-- /settings-modal-content -->
