@@ -2858,3 +2858,40 @@
 @media (prefers-reduced-motion: reduce) {
   .skeleton::after { animation: none; }
 }
+
+/* ════════════════════════════════════════════════════════════════
+   FEAT-006 — Help & Feedback (Contact) form
+   ════════════════════════════════════════════════════════════════ */
+.contact-type-chips {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.contact-chip {
+  font-family: var(--font-body); font-size: var(--fs-sm); font-weight: 600;
+  color: var(--text); background: var(--surface-2);
+  border: 1px solid var(--border); border-radius: 999px;
+  padding: 7px 13px; cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+}
+.contact-chip:hover  { border-color: var(--accent); }
+.contact-chip:active { transform: scale(0.97); }
+.contact-chip.active {
+  color: var(--accent); background: var(--accent-dim);
+  border-color: var(--accent);
+}
+#contact-message { resize: vertical; min-height: 96px; }
+
+.contact-success {
+  text-align: center; padding: 26px 12px 10px;
+  animation: navForward 0.28s ease both;
+}
+.contact-success-icon  { font-size: 42px; line-height: 1; margin-bottom: 10px; }
+.contact-success-title {
+  font-family: var(--font-head); font-weight: 800; font-size: var(--fs-h3);
+  color: var(--text); margin: 0 0 6px;
+}
+.contact-success-sub {
+  font-size: var(--fs-sm); color: var(--muted); margin: 0 0 18px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .contact-success { animation: none; }
+}
