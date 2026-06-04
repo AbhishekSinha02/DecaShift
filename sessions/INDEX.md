@@ -68,10 +68,10 @@
 
 | # | Priority | Focus |
 |---|---|---|
-| C4 | 🔴 P1 | **PENDING-content-w24-all-grades.md** — W24 Math grades 2–8 (35 files, start here) |
-| C5 | 🟠 P2 | Same file → W24 Science grades 2–8 (35 files) |
-| C6 | 🟠 P2 | Same file → W24 Hindi + French grades 2–8 (70 files) |
-| C7 | 🔵 P3 | Same file → W24 grades 9–12 set2–set5 (56 files) |
+| ~~C4~~ | ✅ **DONE 2026-06-04** (commit `446ac80`) | **W24 Math grades 2–8 — 35 files, 525q. G2 Measurement · G3 Fractions · G4 Decimals · G5 SI · G6 Geometry · G7 SI+CI · G8 Cubes.** |
+| **C5** | 🔴 **P1 NEXT** | **PENDING-content-w24-science.md** — W24 Science grades 2–8 (35 files, 525q). Self-contained. Say "start questions generation". |
+| C6 | 🟠 P2 | PENDING-content-w24-all-grades.md → W24 Hindi + French grades 2–8 (70 files) |
+| C7 | 🔵 P3 | PENDING-content-w24-all-grades.md → W24 grades 9–12 set2–set5 (56 files) |
 
 ---
 

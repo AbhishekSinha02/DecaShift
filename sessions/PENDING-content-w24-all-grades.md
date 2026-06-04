@@ -16,8 +16,8 @@ Everything below is **new work**.
 
 | Priority | Scope | Files | ~Questions |
 |----------|-------|-------|-----------|
-| **C4 — P1** | Grades 2–8 **Math** W24 (5 days × 7 grades) | 35 | 525 |
-| **C5 — P2** | Grades 2–8 **Science** W24 | 35 | 525 |
+| ~~C4 — P1~~ | ~~Grades 2–8 **Math** W24~~ | ~~35~~ | ~~525~~ | **✅ DONE 2026-06-04, commit `446ac80`** |
+| **C5 — P2** | Grades 2–8 **Science** W24 | 35 | 525 | **→ See `PENDING-content-w24-science.md`** |
 | **C6 — P2** | Grades 2–8 **Hindi** W24 | 35 | 525 |
 | **C6 — P2** | Grades 2–8 **French** W24 | 35 | 525 |
 | **C7 — P3** | Grades 9–12 **set2–set5** W24 (all subjects) | 56 | 840 |
