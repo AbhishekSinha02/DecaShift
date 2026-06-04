@@ -3,8 +3,8 @@
 > **Priority:** 🟠 P2 (useful for the Lucknow pilot feedback loop; not launch-blocking)
 > **Size:** S–M (~1 session) · **Risk:** Low — fully additive, isolated in its own module +
 > a new Settings sub-screen + a new Apps Script action. Touches **no existing flow**.
-> **Status:** 📝 PLAN — awaiting user approval. **No code until approved.**
-> **Decision needed:** see "Decisions for approval" below (label, required fields, central inbox).
+> **Status:** 📝 PLAN — **decisions LOCKED 2026-06-04** (see "Decisions — RESOLVED").
+> Awaiting final "build it" go-ahead. **No app code until then.**
 
 ---
 
@@ -30,7 +30,7 @@ Clean, on-brand UI; zero impact on quiz/journey/sync.
 
 **Placement:** a new tile in the Settings menu (same pattern as My Profile / My Plan):
 ```
-✉️  Contact Us            ›
+💬  Help & Feedback        ›
 ```
 Opens `settings-sub-contact`. (Settings already has the tile + sub-screen scaffold and a pinned
 Back/Close footer — we reuse it, so the look is automatically consistent.)
@@ -39,11 +39,26 @@ Back/Close footer — we reuse it, so the look is automatically consistent.)
 | Field | Control | Default / prefill | Validation |
 |---|---|---|---|
 | Name | text input | prefill `state.user.name` | required, non-empty |
-| Email | email input | prefill `state.user.email` if present (legacy), else blank | required, basic `x@y.z` format |
-| Phone | tel input | blank | required, 10-digit (lenient: strip spaces/+91) |
-| Type | segmented control (3 chips) | **Feedback** selected | required (always has a value) |
+| Email | email input | prefill `state.user.email` if present (legacy), else blank | **required**, basic `x@y.z` format |
+| Phone | tel input | blank | **optional**; if entered, 10-digit (lenient: strip spaces/+91) |
+| Type | mood chips (6, see below) | none preselected (forces a real choice) | required |
 | Message | textarea (5 rows) | blank | required, min ~10 chars |
 | — | **Send →** primary button | — | disabled while sending |
+
+**Type chips — capture the user's mood, not just a category** (your call: read the user's feeling
+instead of guessing; 6 options, mood-bearing first, then practical routing):
+| Chip | stored `type` | reads as |
+|---|---|---|
+| 💛 Appreciation | `appreciation` | positive — "love it / keep going" |
+| 💡 Suggestion | `suggestion` | soft — wants us to grow / an enhancement |
+| 🐞 Bug / Issue | `bug` | something broke |
+| 😕 Complaint | `complaint` | negative — didn't like something |
+| 📚 Content / Question | `content` | about a question, topic, or how-to |
+| 💳 Billing / Plan | `billing` | payment / subscription |
+
+> The mood-bearing chips (appreciation / suggestion / complaint) let us read sentiment at a glance;
+> the practical ones (bug / content / billing) route the work. Kept at 6 (your 5–7 guideline) so the
+> list stays scannable on a ₹8k phone.
 
 **States:** inline field errors (existing `_showError` pattern) · button shows "Sending…" while in
 flight · on success the form is replaced by a clean confirmation ("Thanks — we've got your message
@@ -58,9 +73,12 @@ want later — a nice side benefit, but out of scope here.)
 
 ## Data model
 
-**Primary write — the user's own folder (per requirement):**
+**Single source of truth — the kid's own folder (your call: everything about a child in ONE place).**
+No central duplicate. A non-technical operator who knows the `userId` finds the child's profile,
+journey, plan **and** their feedback/concerns all under `users/{userId}/`. **Date-stamped** so a
+script can fetch by day:
 ```
-users/{userId}/contact/msg_{timestamp}.json     ← one file per submission, write-once
+users/{userId}/contact/msg_{YYYY-MM-DD}_{HHmmss}_{rand}.json   ← one file per submission, write-once
 ```
 Payload:
 ```json
@@ -70,34 +88,61 @@ Payload:
   "name":    "Rahul",
   "email":   "parent@example.com",
   "phone":   "9876543210",
-  "type":    "feedback | issue | concern",
+  "type":    "appreciation | suggestion | bug | complaint | content | billing",
   "message": "….",
   "build":   "20260604a",
+  "date":    "2026-06-04",
   "submittedAt": "2026-06-04T12:34:56Z"
 }
 ```
 Write-once (one file per submission, like `sessions/`) → no read-modify-write race, no overwrites.
 
-**Central trail (recommended, near-free):** `saveContact` also calls the existing `_writeLog({
-event:'contact', userId, type })` so every submission leaves a line in the central `logs/` folder.
-Without this, messages are scattered across hundreds of per-user folders and the founder can't triage
-them. With it, the user-folder copy is the record of truth **and** there's one place to scan. (This
-is a Decision below — say the word and I include it.)
+**Triage = one fetch script, NOT a scattered central copy** (your reasoning: a central inbox splits
+the concern away from the child's journey/plan; keep it with the kid and let a script gather them).
+At ≤5k users a scan is trivial. Provide an **admin read action** `getContacts` (doGet, optional
+`date=YYYY-MM-DD`) that walks every `users/*/contact/` folder and returns all submissions, newest
+first, optionally filtered to one day:
+```
+<APPS_SCRIPT_URL>?action=getContacts&date=2026-06-04   → { count, items: [ {userId, type, message, …} ] }
+```
+(Run it from the founder's browser/sheet. Optionally a future `key=` guard so it isn't public —
+see Out of scope.)
 
 ## Apps Script (`Code.gs`) — additive
 
 ```js
 // doPost: add one branch
 if (action === 'saveContact') return _json(saveContact(data));
+// doGet: add one branch (admin triage)
+if (e.parameter.action === 'getContacts') return _json(getContacts(e.parameter.date));
 
 function saveContact(c) {
   const folder = _subFolder(_userFolder(c.userId), 'contact');
-  folder.createFile('msg_' + Date.now() + '.json', JSON.stringify(c, null, 2), MimeType.PLAIN_TEXT);
-  _writeLog({ event: 'contact', userId: c.userId, type: c.type });   // central trail (optional)
-  return { success: true };
+  const d = (c.date || new Date().toISOString().slice(0, 10));
+  const name = 'msg_' + d + '_' + Date.now() + '.json';
+  folder.createFile(name, JSON.stringify(c, null, 2), MimeType.PLAIN_TEXT);
+  return { success: true };   // NO central mirror — kept only in the kid's folder, by design
+}
+
+// Admin: gather feedback across ALL users (optionally one day). Trivial at pilot scale.
+function getContacts(date) {
+  const users = _subFolder(_rootFolder(), 'users').getFolders();
+  const items = [];
+  while (users.hasNext()) {
+    const cf = users.next().getFoldersByName('contact');
+    if (!cf.hasNext()) continue;
+    const files = cf.next().getFiles();
+    while (files.hasNext()) {
+      const f = files.next();
+      if (date && f.getName().indexOf('msg_' + date) !== 0) continue;
+      items.push(JSON.parse(f.getBlob().getDataAsString()));
+    }
+  }
+  items.sort((a, b) => (b.submittedAt || '').localeCompare(a.submittedAt || ''));
+  return { count: items.length, items };
 }
 ```
-⚠️ **Manual redeploy** of the Apps Script project required for the new action to go live (same as
+⚠️ **Manual redeploy** of the Apps Script project required for the new actions to go live (same as
 `getJourney` — edit the existing deployment → New version to keep the URL stable). The form fails
 gracefully ("couldn't send, try again") until then; nothing else breaks.
 
@@ -123,8 +168,8 @@ async function submitContact(payload, timeoutMs = 8000) {
 
 ## Atomic implementation steps (each commits with the app fully working)
 
-1. **Code.gs** `saveContact` + **storage.js** `submitContact` wrapper (no caller yet) +
-   `FEATURES.contactForm = false`. Commit. *(App unchanged — dormant.)*
+1. **Code.gs** `saveContact` + `getContacts` (admin) + **storage.js** `submitContact` wrapper
+   (no caller yet) + `FEATURES.contactForm = false`. Commit. *(App unchanged — dormant.)*
 2. **screen-settings.html** — add the `✉️ Contact Us` tile (gated: only rendered/handled when the
    flag is on) + the `settings-sub-contact` markup (fields above). Commit.
 3. **app-contact.js** — `_initContactSection()` (prefill + reset), `_submitContactForm()`
@@ -140,25 +185,29 @@ async function submitContact(payload, timeoutMs = 8000) {
 - Signed-in user opens Settings → Contact Us, sees name/email prefilled, picks a Type, writes a
   message, hits Send → sees a clean "Thanks" confirmation.
 - A `users/{userId}/contact/msg_{ts}.json` file appears with all fields + timestamp + build.
-- Validation blocks empty/invalid email/phone/message with inline errors; typed message survives a
-  failed send.
+- Validation blocks empty name, empty/invalid email, empty message (and invalid phone *if entered*)
+  with inline errors; typed message survives a failed send.
+- `getContacts` (and `getContacts&date=…`) returns submissions across all users for founder triage.
 - Flag off → app is byte-for-byte today's behaviour. No quiz/journey/sync path is touched.
 - Apps Script unreachable → friendly retry, no crash.
 
-## Decisions for approval
+## Decisions — RESOLVED (2026-06-04)
 
-1. **Label:** **"Contact Us"** (recommended) vs "Feedback" vs "Help & Feedback". I lean **Contact Us**
-   because there's already a `Feedback` module (sound/haptics) — reusing the word would be confusing.
-2. **Required vs optional:** make **Email + Phone required** (recommended, so you can actually reply),
-   or allow either to be optional?
-3. **Central trail in `logs/`:** include the one-line `_writeLog` mirror (recommended — lets you
-   triage all messages in one place) or store **only** in the per-user folder as you specified?
-4. **Type options:** Feedback / Issue / Concern (as you listed) — add "Other"? (recommended: keep 3,
-   it's cleaner; "Concern" already absorbs the long tail.)
+1. **Label → "Help & Feedback"** (💬). User chose this over "Contact Us".
+2. **Email required, Phone optional.** Email is enough to reply; phone is a bonus, lower friction.
+3. **Per-user folder is the ONLY home — no central copy.** User's reasoning: the `userId` folder is
+   the single source of truth for everything about a child (profile + journey + plan + concerns), so
+   a non-tech operator just needs the userId. Triage is solved by **one fetch script** (`getContacts`,
+   optionally `date`-filtered), not by scattering data. Submissions are **date-stamped** for that.
+4. **6 mood-bearing Type chips** (appreciation / suggestion / bug / complaint / content / billing) —
+   capture the user's actual mood/feeling rather than collapsing into 3 generic buckets. (User:
+   understanding the user as much as possible is core to product design.)
 
 ## Out of scope (later)
 
 - In-app reply / ticketing / status tracking (this is one-way send for the pilot).
 - Email notification to the founder on submit (could add a MailApp.sendEmail in `saveContact` later).
+- **Securing `getContacts`** with a secret `key=` param (it's an admin read of all feedback; for the
+  pilot it's an obscure URL, but add a key guard before it matters).
 - Attachments / screenshots.
 - Rate-limiting / spam protection (low risk while login-gated + pilot-scale).
