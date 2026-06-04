@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-math-w24-wed",
+  "title": "Grade 7 Math — Wed, Jun 11",
+  "description": "Simple & Compound Interest — Day 3 of 5: Practice comparing SI and CI",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-7", "weekly", "simple-interest", "compound-interest", "comparison"],
+  "questions": [
+    { "id": "g7m-w24-wed-001", "question": "P = ₹8000, R = 5%, T = 2 years. Calculate SI.", "options": ["₹400", "₹800", "₹80", "₹1600"], "correctIndex": 1, "explanation": "SI = (8000 × 5 × 2) ÷ 100 = ₹800.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g7m-w24-wed-002", "question": "P = ₹8000, R = 5%, T = 2 years. A (CI) = ₹8000 × (1.05)². (1.05²=1.1025). A = ___.", "options": ["₹8400", "₹8800", "₹8820", "₹8802"], "correctIndex": 2, "explanation": "A = 8000 × 1.1025 = ₹8820.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-wed-003", "question": "For the above (P=₹8000, R=5%, T=2): CI = ___.", "options": ["₹800", "₹810", "₹820", "₹840"], "correctIndex": 2, "explanation": "CI = A − P = 8820 − 8000 = ₹820.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-wed-004", "question": "Difference CI − SI (above) = ___.", "options": ["₹0", "₹10", "₹20", "₹40"], "correctIndex": 2, "explanation": "CI = ₹820, SI = ₹800. Difference = ₹20.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-wed-005", "question": "Verify: CI − SI = P(R/100)² = 8000 × (0.05)² = ___.", "options": ["₹20", "₹40", "₹2", "₹200"], "correctIndex": 0, "explanation": "8000 × 0.0025 = ₹20. Confirmed!", "tags": ["compound-interest", "vs-si", "formula"] },
+    { "id": "g7m-w24-wed-006", "question": "P = ₹6000, R = 10%, T = 2 years. SI = ___.", "options": ["₹600", "₹1200", "₹1260", "₹1320"], "correctIndex": 1, "explanation": "SI = (6000 × 10 × 2) ÷ 100 = ₹1200.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g7m-w24-wed-007", "question": "P = ₹6000, R = 10%, T = 2 years. CI = ___.", "options": ["₹1200", "₹1260", "₹1300", "₹1320"], "correctIndex": 1, "explanation": "A = 6000 × 1.21 = ₹7260. CI = 7260 − 6000 = ₹1260.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-wed-008", "question": "For P=₹6000, R=10%, T=2 yr: CI − SI = ___.", "options": ["₹0", "₹60", "₹120", "₹600"], "correctIndex": 1, "explanation": "1260 − 1200 = ₹60. Or: P(R/100)² = 6000 × 0.01 = ₹60.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-wed-009", "question": "Which person earns MORE interest from a bank — one with SI or one with CI (same P, R, T > 1 year)?", "options": ["SI", "CI", "Same", "Depends on the bank"], "correctIndex": 1, "explanation": "CI is always more than SI for T > 1 year. For savings, CI is better for the depositor.", "tags": ["compound-interest", "vs-si", "real-life"] },
+    { "id": "g7m-w24-wed-010", "question": "Which is worse for a BORROWER — SI or CI loan?", "options": ["SI loan (pay more)", "CI loan (pay more)", "Both cost the same", "Depends on the bank"], "correctIndex": 1, "explanation": "CI accumulates faster, so a CI loan costs the borrower more interest than an SI loan.", "tags": ["compound-interest", "real-life"] },
+    { "id": "g7m-w24-wed-011", "question": "P = ₹15000, R = 8%, T = 2 years. SI = ___.", "options": ["₹1200", "₹2400", "₹2592", "₹3000"], "correctIndex": 1, "explanation": "SI = (15000 × 8 × 2) ÷ 100 = ₹2400.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g7m-w24-wed-012", "question": "P = ₹15000, R = 8%, T = 2 years. CI − SI = ___.", "options": ["₹96", "₹192", "₹96", "₹960"], "correctIndex": 1, "explanation": "CI − SI = P(R/100)² = 15000 × (0.08)² = 15000 × 0.0064 = ₹96.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-wed-013", "question": "A person takes a ₹20000 loan at 10% per year. After 2 years with CI, how much does he owe?", "options": ["₹22000", "₹24000", "₹24200", "₹22200"], "correctIndex": 2, "explanation": "A = 20000 × 1.21 = ₹24200.", "tags": ["compound-interest", "word-problem"] },
+    { "id": "g7m-w24-wed-014", "question": "How much more does he owe with CI than SI (above example)?", "options": ["₹0", "₹200", "₹400", "₹2200"], "correctIndex": 1, "explanation": "SI amount: 20000 + (20000×10×2÷100) = ₹24000. CI amount: ₹24200. Difference = ₹200.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-wed-015", "question": "P = ₹4000, R = 5%, T = 3 years. SI = ___.", "options": ["₹200", "₹400", "₹600", "₹800"], "correctIndex": 2, "explanation": "SI = (4000 × 5 × 3) ÷ 100 = ₹600.", "tags": ["simple-interest", "calculation"] }
+  ]
+}

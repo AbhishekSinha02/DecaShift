@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-math-w24-fri",
+  "title": "Grade 7 Math — Fri, Jun 13",
+  "description": "Simple & Compound Interest — Day 5 of 5: Synthesis and mixed problems",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "fri",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-7", "weekly", "simple-interest", "compound-interest", "mixed"],
+  "questions": [
+    { "id": "g7m-w24-fri-001", "question": "Kavya invests ₹12000 at 5% CI annually for 2 years. A = 12000 × 1.1025 = ___.", "options": ["₹12600", "₹13200", "₹13230", "₹12600"], "correctIndex": 2, "explanation": "A = 12000 × 1.1025 = ₹13230.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-fri-002", "question": "Ramesh lends ₹7500 at 6% SI for 4 years. Interest = ___.", "options": ["₹450", "₹900", "₹1800", "₹1200"], "correctIndex": 2, "explanation": "SI = (7500 × 6 × 4) ÷ 100 = ₹1800.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g7m-w24-fri-003", "question": "A sum doubles in 10 years at SI. What is the rate?", "options": ["5%", "10%", "12%", "20%"], "correctIndex": 1, "explanation": "If P doubles: SI = P. P = (P × R × 10) ÷ 100. 1 = R × 10 ÷ 100. R = 10%.", "tags": ["simple-interest", "finding-rate"] },
+    { "id": "g7m-w24-fri-004", "question": "₹4000 at 10% CI for 2 years. CI = ___.", "options": ["₹800", "₹840", "₹400", "₹80"], "correctIndex": 1, "explanation": "A = 4000 × 1.21 = ₹4840. CI = 4840 − 4000 = ₹840.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-fri-005", "question": "Which option benefits a saver MORE?", "options": ["SI at 10%", "CI at 10% (annual)", "CI at 10% (half-yearly)", "All give the same return"], "correctIndex": 2, "explanation": "More frequent compounding = more interest. Half-yearly CI > Annual CI > SI.", "tags": ["compound-interest", "concept"] },
+    { "id": "g7m-w24-fri-006", "question": "The difference CI − SI for 2 years at 8% for P = ₹25000 is ___.", "options": ["₹100", "₹160", "₹200", "₹256"], "correctIndex": 1, "explanation": "CI − SI = P(R/100)² = 25000 × (0.08)² = 25000 × 0.0064 = ₹160.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-fri-007", "question": "Priya borrowed ₹15000 at 10% SI. She pays back ₹18000. For how many years?", "options": ["1", "2", "3", "4"], "correctIndex": 1, "explanation": "SI = 18000 − 15000 = ₹3000. T = (3000 × 100) ÷ (15000 × 10) = 2 years.", "tags": ["simple-interest", "finding-time"] },
+    { "id": "g7m-w24-fri-008", "question": "A TV costs ₹30000. It depreciates 20% per year (CI-style). After 2 years its value = ___.", "options": ["₹18000", "₹19200", "₹24000", "₹18600"], "correctIndex": 1, "explanation": "V = 30000 × (0.8)² = 30000 × 0.64 = ₹19200.", "tags": ["compound-interest", "depreciation"] },
+    { "id": "g7m-w24-fri-009", "question": "P = ₹6000 at 10% CI for 3 years. A = 6000 × 1.331 = ___.", "options": ["₹7800", "₹7986", "₹7200", "₹7961"], "correctIndex": 1, "explanation": "A = 6000 × 1.331 = ₹7986.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-fri-010", "question": "CI for above (P=₹6000, 10%, 3yr) = ___. SI for same = ___. Difference = ___.", "options": ["₹1986, ₹1800, ₹186", "₹1800, ₹1986, ₹186", "₹1800, ₹1800, ₹0", "₹1986, ₹1800, ₹18"], "correctIndex": 0, "explanation": "CI = 7986 − 6000 = ₹1986. SI = (6000×10×3)÷100 = ₹1800. Difference = ₹186.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-fri-011", "question": "At what rate CI will ₹1000 become ₹1210 in 2 years?", "options": ["5%", "8%", "10%", "12%"], "correctIndex": 2, "explanation": "1210 = 1000(1+R/100)². (1+R/100)² = 1.21 = (1.1)². So R/100 = 0.1 → R = 10%.", "tags": ["compound-interest", "finding-rate"] },
+    { "id": "g7m-w24-fri-012", "question": "A trader borrows ₹5000 at 12% SI for 6 months. Interest = ___. (Hint: T = 6/12 = 0.5 yr)", "options": ["₹600", "₹300", "₹60", "₹60"], "correctIndex": 1, "explanation": "SI = (5000 × 12 × 0.5) ÷ 100 = 30000 ÷ 100 = ₹300.", "tags": ["simple-interest", "fractional-time"] },
+    { "id": "g7m-w24-fri-013", "question": "What is the principal if CI at 10% for 2 years is ₹420?", "options": ["₹1000", "₹2000", "₹4200", "₹420"], "correctIndex": 1, "explanation": "CI = P × 0.21. 420 = P × 0.21. P = 420 ÷ 0.21 = ₹2000.", "tags": ["compound-interest", "finding-principal"] },
+    { "id": "g7m-w24-fri-014", "question": "A city's population is 500000. It grows at 2% per year (CI). After 2 years = ___.", "options": ["520000", "520200", "520000", "520400"], "correctIndex": 1, "explanation": "A = 500000 × (1.02)² = 500000 × 1.0404 = 520200.", "tags": ["compound-interest", "real-life"] },
+    { "id": "g7m-w24-fri-015", "question": "The key difference between SI and CI is ___.", "options": ["SI uses percentage; CI does not", "CI calculates interest on principal + past interest; SI only on original principal", "SI is always annual; CI can be monthly", "CI is only used by banks"], "correctIndex": 1, "explanation": "The core distinction: CI compounds (earns interest on past interest); SI always uses only the original principal.", "tags": ["compound-interest", "vs-si", "concept"] }
+  ]
+}

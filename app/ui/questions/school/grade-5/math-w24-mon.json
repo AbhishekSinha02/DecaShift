@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w24-mon",
+  "title": "Grade 5 Math — Mon, Jun 09",
+  "description": "Simple Interest — Day 1 of 5: Key terms — principal, rate, time",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "simple-interest", "principal"],
+  "questions": [
+    { "id": "g5m-w24-mon-001", "question": "What is 'interest' in terms of money?", "options": ["Money you lose", "Extra money paid for using borrowed money", "The total amount in a bank", "A type of tax"], "correctIndex": 1, "explanation": "Interest is the extra money you pay when you borrow money, or earn when you keep money in a bank.", "tags": ["simple-interest", "concept"] },
+    { "id": "g5m-w24-mon-002", "question": "What is the 'principal' in simple interest?", "options": ["The interest earned", "The original amount of money borrowed or deposited", "The total amount after interest", "The time period"], "correctIndex": 1, "explanation": "The principal (P) is the original amount of money that was borrowed or deposited.", "tags": ["simple-interest", "principal"] },
+    { "id": "g5m-w24-mon-003", "question": "Riya borrowed ₹5000 from a bank. What is the principal?", "options": ["The bank", "₹5000", "The interest she will pay", "The time period"], "correctIndex": 1, "explanation": "The amount Riya borrowed (₹5000) is the principal.", "tags": ["simple-interest", "principal"] },
+    { "id": "g5m-w24-mon-004", "question": "What does 'rate of interest' mean?", "options": ["How long money is borrowed for", "The original amount", "The percentage of interest per year", "The total money paid back"], "correctIndex": 2, "explanation": "The rate (R) is the percentage of interest charged or earned per year (per annum).", "tags": ["simple-interest", "rate"] },
+    { "id": "g5m-w24-mon-005", "question": "A bank offers 5% per year interest. What is the 'rate' here?", "options": ["The bank", "5%", "1 year", "The principal"], "correctIndex": 1, "explanation": "5% is the rate of interest — the percentage per year.", "tags": ["simple-interest", "rate"] },
+    { "id": "g5m-w24-mon-006", "question": "What does 'time' mean in simple interest?", "options": ["The speed of calculation", "How many months in a year", "The number of years money is borrowed or saved", "The rate of interest"], "correctIndex": 2, "explanation": "Time (T) is the number of years (or period) for which the money is borrowed or invested.", "tags": ["simple-interest", "time"] },
+    { "id": "g5m-w24-mon-007", "question": "Ajay deposits money in a bank for 3 years. What is the 'time' here?", "options": ["The bank", "The amount deposited", "3 years", "The interest rate"], "correctIndex": 2, "explanation": "3 years is the time period (T).", "tags": ["simple-interest", "time"] },
+    { "id": "g5m-w24-mon-008", "question": "In simple interest, the interest each year is ___.", "options": ["Different every year", "The same every year", "Always zero", "Only paid once"], "correctIndex": 1, "explanation": "In simple interest, the same amount of interest is earned or paid every year — it stays constant.", "tags": ["simple-interest", "concept"] },
+    { "id": "g5m-w24-mon-009", "question": "The formula for Simple Interest is SI = ___.", "options": ["P + R + T", "(P × R × T) ÷ 100", "P × R × 100 ÷ T", "(P + T) × R"], "correctIndex": 1, "explanation": "Simple Interest = (P × R × T) ÷ 100, where P = Principal, R = Rate%, T = Time (years).", "tags": ["simple-interest", "formula"] },
+    { "id": "g5m-w24-mon-010", "question": "What three things do you need to calculate Simple Interest?", "options": ["Principal, Rate, Time", "Principal, Profit, Tax", "Income, Expense, Profit", "Amount, Discount, GST"], "correctIndex": 0, "explanation": "You need Principal (P), Rate (R), and Time (T) to find Simple Interest.", "tags": ["simple-interest", "formula"] },
+    { "id": "g5m-w24-mon-011", "question": "If P = ₹1000, R = 10%, T = 1 year, the interest is ___%  of P.", "options": ["1%", "10%", "100%", "0.1%"], "correctIndex": 1, "explanation": "At 10% per year for 1 year, the interest = 10% of ₹1000 = ₹100.", "tags": ["simple-interest", "rate"] },
+    { "id": "g5m-w24-mon-012", "question": "A shopkeeper lends ₹2000 at 8% per year for 2 years. Identify the principal.", "options": ["8%", "2 years", "₹2000", "The interest"], "correctIndex": 2, "explanation": "₹2000 is the original amount lent — the principal (P).", "tags": ["simple-interest", "principal"] },
+    { "id": "g5m-w24-mon-013", "question": "What is the 'Amount' after borrowing?", "options": ["Amount = SI only", "Amount = Principal − SI", "Amount = Principal + SI", "Amount = Rate × Time"], "correctIndex": 2, "explanation": "Amount (A) = Principal + Simple Interest. It is the total to be paid back.", "tags": ["simple-interest", "amount"] },
+    { "id": "g5m-w24-mon-014", "question": "Priya deposited ₹4000 at 5% per year. After 1 year what is her simple interest?", "options": ["₹20", "₹200", "₹2000", "₹40"], "correctIndex": 1, "explanation": "SI = (4000 × 5 × 1) ÷ 100 = 20000 ÷ 100 = ₹200.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-mon-015", "question": "The 'per annum' (p.a.) in interest means ___.", "options": ["Per day", "Per month", "Per year", "Per hundred"], "correctIndex": 2, "explanation": "'Per annum' is Latin for 'per year'. Interest rates are usually given per year.", "tags": ["simple-interest", "terminology"] }
+  ]
+}

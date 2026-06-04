@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w24-tue",
+  "title": "Grade 4 Math — Tue, Jun 10",
+  "description": "Decimals — Day 2 of 5: Hundredths and decimal place value",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "decimals", "hundredths", "place-value"],
+  "questions": [
+    { "id": "g4m-w24-tue-001", "question": "In 3.47, what does the 7 represent?", "options": ["7 ones", "7 tenths", "7 hundredths", "7 tens"], "correctIndex": 2, "explanation": "In 3.47, the second digit after the decimal point (7) is in the hundredths place.", "tags": ["decimals", "hundredths", "place-value"] },
+    { "id": "g4m-w24-tue-002", "question": "0.01 equals ___.", "options": ["1/10", "1/100", "10/1", "1/1000"], "correctIndex": 1, "explanation": "0.01 = 1 hundredth = 1/100.", "tags": ["decimals", "hundredths"] },
+    { "id": "g4m-w24-tue-003", "question": "In 5.63, which digit is in the tenths place?", "options": ["5", "6", "3", "63"], "correctIndex": 1, "explanation": "The first digit after the decimal (6) is in the tenths place.", "tags": ["decimals", "tenths", "place-value"] },
+    { "id": "g4m-w24-tue-004", "question": "7/100 as a decimal is ___.", "options": ["7.0", "0.7", "0.07", "70"], "correctIndex": 2, "explanation": "7/100 = 7 hundredths = 0.07.", "tags": ["decimals", "hundredths", "conversion"] },
+    { "id": "g4m-w24-tue-005", "question": "In 2.58, the digit 5 is in the ___ place.", "options": ["ones", "tenths", "hundredths", "thousands"], "correctIndex": 1, "explanation": "5 is the first digit after the decimal point — it's in the tenths place.", "tags": ["decimals", "place-value"] },
+    { "id": "g4m-w24-tue-006", "question": "Which is GREATER — 0.42 or 0.38?", "options": ["0.38", "0.42", "Both are equal", "Cannot tell"], "correctIndex": 1, "explanation": "Compare tenths: 4 > 3, so 0.42 > 0.38.", "tags": ["decimals", "comparing"] },
+    { "id": "g4m-w24-tue-007", "question": "0.35 has ___ tenths and ___ hundredths.", "options": ["5 tenths, 3 hundredths", "3 tenths, 5 hundredths", "35 tenths, 0 hundredths", "0 tenths, 35 hundredths"], "correctIndex": 1, "explanation": "0.35: the 3 is in the tenths place, the 5 is in the hundredths place.", "tags": ["decimals", "place-value"] },
+    { "id": "g4m-w24-tue-008", "question": "Write 'four hundredths' as a decimal.", "options": ["4.00", "0.4", "0.04", "40.0"], "correctIndex": 2, "explanation": "Four hundredths = 4/100 = 0.04.", "tags": ["decimals", "hundredths", "writing"] },
+    { "id": "g4m-w24-tue-009", "question": "Which is LESS — 0.5 or 0.50?", "options": ["0.5", "0.50", "Both are equal", "Cannot tell"], "correctIndex": 2, "explanation": "0.5 = 0.50. Adding a trailing zero after the decimal doesn't change the value.", "tags": ["decimals", "place-value"] },
+    { "id": "g4m-w24-tue-010", "question": "In 9.04, the digit 4 represents ___.", "options": ["4 ones", "4 tenths", "4 hundredths", "4 tens"], "correctIndex": 2, "explanation": "In 9.04, the '0' is in the tenths place and '4' is in the hundredths place.", "tags": ["decimals", "hundredths"] },
+    { "id": "g4m-w24-tue-011", "question": "What is the value of the underlined digit in 6.7_3_?", "options": ["3 ones", "3 tenths", "3 hundredths", "3 tens"], "correctIndex": 2, "explanation": "In 6.73, the digit 3 is in the hundredths place (second digit after decimal point).", "tags": ["decimals", "hundredths", "place-value"] },
+    { "id": "g4m-w24-tue-012", "question": "0.09 is the same as ___.", "options": ["9 tenths", "9 hundredths", "9 ones", "9 tens"], "correctIndex": 1, "explanation": "0.09 = 9 hundredths = 9/100.", "tags": ["decimals", "hundredths"] },
+    { "id": "g4m-w24-tue-013", "question": "Which is greatest?", "options": ["0.9", "0.09", "0.99", "0.19"], "correctIndex": 2, "explanation": "Compare: 0.99 > 0.9 > 0.19 > 0.09.", "tags": ["decimals", "comparing"] },
+    { "id": "g4m-w24-tue-014", "question": "6.07 — what is the place value of 0?", "options": ["Ones", "Tenths", "Hundredths", "Tens"], "correctIndex": 1, "explanation": "In 6.07, '0' is the first digit after the decimal point — it's in the tenths place.", "tags": ["decimals", "place-value"] },
+    { "id": "g4m-w24-tue-015", "question": "15 hundredths as a decimal is ___.", "options": ["15.0", "1.5", "0.15", "0.015"], "correctIndex": 2, "explanation": "15 hundredths = 15/100 = 0.15.", "tags": ["decimals", "hundredths", "conversion"] }
+  ]
+}

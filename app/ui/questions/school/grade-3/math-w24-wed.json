@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w24-wed",
+  "title": "Grade 3 Math — Wed, Jun 11",
+  "description": "Fractions — Day 3 of 5: Thirds (1/3) and other unit fractions",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "fractions", "thirds"],
+  "questions": [
+    { "id": "g3m-w24-wed-001", "question": "A third of 9 is ___.", "options": ["2", "3", "4", "6"], "correctIndex": 1, "explanation": "One third (1/3) means divide by 3. 9 ÷ 3 = 3.", "tags": ["fractions", "third"] },
+    { "id": "g3m-w24-wed-002", "question": "A third of 15 is ___.", "options": ["3", "4", "5", "6"], "correctIndex": 2, "explanation": "15 ÷ 3 = 5.", "tags": ["fractions", "third"] },
+    { "id": "g3m-w24-wed-003", "question": "A cake is cut into 3 equal slices. Amit eats 1 slice. What fraction does he eat?", "options": ["1/2", "1/4", "1/3", "3/1"], "correctIndex": 2, "explanation": "Amit eats 1 out of 3 equal slices = 1/3.", "tags": ["fractions", "third"] },
+    { "id": "g3m-w24-wed-004", "question": "A third of 24 is ___.", "options": ["6", "8", "12", "3"], "correctIndex": 1, "explanation": "24 ÷ 3 = 8.", "tags": ["fractions", "third"] },
+    { "id": "g3m-w24-wed-005", "question": "How many thirds make 1 whole?", "options": ["1", "2", "3", "4"], "correctIndex": 2, "explanation": "3/3 = 1 whole. Three thirds make one complete whole.", "tags": ["fractions", "whole"] },
+    { "id": "g3m-w24-wed-006", "question": "A third of 30 is ___.", "options": ["3", "6", "9", "10"], "correctIndex": 3, "explanation": "30 ÷ 3 = 10.", "tags": ["fractions", "third"] },
+    { "id": "g3m-w24-wed-007", "question": "Ritu has 18 beads. She uses 1/3 of them for a necklace. How many beads does she use?", "options": ["3", "6", "9", "12"], "correctIndex": 1, "explanation": "1/3 of 18 = 18 ÷ 3 = 6 beads.", "tags": ["fractions", "third", "word-problem"] },
+    { "id": "g3m-w24-wed-008", "question": "Which fraction is 'one fifth'?", "options": ["5/1", "1/4", "1/5", "5/5"], "correctIndex": 2, "explanation": "One fifth means 1 part out of 5 equal parts = 1/5.", "tags": ["fractions", "fifth"] },
+    { "id": "g3m-w24-wed-009", "question": "A fifth of 20 is ___.", "options": ["2", "4", "5", "10"], "correctIndex": 1, "explanation": "20 ÷ 5 = 4.", "tags": ["fractions", "fifth"] },
+    { "id": "g3m-w24-wed-010", "question": "A fifth of 35 is ___.", "options": ["5", "7", "8", "10"], "correctIndex": 1, "explanation": "35 ÷ 5 = 7.", "tags": ["fractions", "fifth"] },
+    { "id": "g3m-w24-wed-011", "question": "Which is smallest?", "options": ["1/2", "1/3", "1/4", "1/5"], "correctIndex": 3, "explanation": "The bigger the denominator, the smaller the piece. 1/5 is the smallest.", "tags": ["fractions", "comparing"] },
+    { "id": "g3m-w24-wed-012", "question": "Gopal has 21 mangoes. He gives 1/3 to his neighbour. How many does he give?", "options": ["3", "5", "7", "9"], "correctIndex": 2, "explanation": "1/3 of 21 = 21 ÷ 3 = 7 mangoes.", "tags": ["fractions", "third", "word-problem"] },
+    { "id": "g3m-w24-wed-013", "question": "How many fifths make 1 whole?", "options": ["1", "4", "5", "10"], "correctIndex": 2, "explanation": "5/5 = 1 whole. Five fifths make one complete whole.", "tags": ["fractions", "whole"] },
+    { "id": "g3m-w24-wed-014", "question": "2 thirds written as a fraction is ___.", "options": ["3/2", "2/2", "2/3", "1/3"], "correctIndex": 2, "explanation": "Two thirds = 2 parts out of 3 equal parts = 2/3.", "tags": ["fractions", "third"] },
+    { "id": "g3m-w24-wed-015", "question": "A third of 27 is ___.", "options": ["3", "7", "8", "9"], "correctIndex": 3, "explanation": "27 ÷ 3 = 9.", "tags": ["fractions", "third"] }
+  ]
+}

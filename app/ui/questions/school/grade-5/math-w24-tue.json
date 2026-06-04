@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w24-tue",
+  "title": "Grade 5 Math — Tue, Jun 10",
+  "description": "Simple Interest — Day 2 of 5: Applying the SI formula",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "simple-interest", "formula", "calculation"],
+  "questions": [
+    { "id": "g5m-w24-tue-001", "question": "SI = (P × R × T) ÷ 100. If P = ₹1000, R = 5%, T = 2 years, then SI = ___.", "options": ["₹50", "₹100", "₹500", "₹200"], "correctIndex": 1, "explanation": "SI = (1000 × 5 × 2) ÷ 100 = 10000 ÷ 100 = ₹100.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-tue-002", "question": "P = ₹2000, R = 10%, T = 1 year. SI = ___.", "options": ["₹20", "₹200", "₹2000", "₹220"], "correctIndex": 1, "explanation": "SI = (2000 × 10 × 1) ÷ 100 = 20000 ÷ 100 = ₹200.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-tue-003", "question": "P = ₹500, R = 4%, T = 3 years. SI = ___.", "options": ["₹6", "₹60", "₹600", "₹50"], "correctIndex": 1, "explanation": "SI = (500 × 4 × 3) ÷ 100 = 6000 ÷ 100 = ₹60.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-tue-004", "question": "P = ₹3000, R = 6%, T = 2 years. SI = ___.", "options": ["₹180", "₹360", "₹36", "₹3600"], "correctIndex": 1, "explanation": "SI = (3000 × 6 × 2) ÷ 100 = 36000 ÷ 100 = ₹360.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-tue-005", "question": "Manu borrows ₹1500 at 8% per annum for 1 year. How much interest does he pay?", "options": ["₹12", "₹120", "₹1200", "₹180"], "correctIndex": 1, "explanation": "SI = (1500 × 8 × 1) ÷ 100 = 12000 ÷ 100 = ₹120.", "tags": ["simple-interest", "word-problem"] },
+    { "id": "g5m-w24-tue-006", "question": "P = ₹800, R = 5%, T = 5 years. SI = ___.", "options": ["₹20", "₹40", "₹200", "₹2000"], "correctIndex": 2, "explanation": "SI = (800 × 5 × 5) ÷ 100 = 20000 ÷ 100 = ₹200.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-tue-007", "question": "What is the Amount if P = ₹2000 and SI = ₹300?", "options": ["₹1700", "₹2300", "₹2600", "₹300"], "correctIndex": 1, "explanation": "Amount = P + SI = ₹2000 + ₹300 = ₹2300.", "tags": ["simple-interest", "amount"] },
+    { "id": "g5m-w24-tue-008", "question": "P = ₹10000, R = 3%, T = 4 years. SI = ___.", "options": ["₹120", "₹1200", "₹12000", "₹300"], "correctIndex": 1, "explanation": "SI = (10000 × 3 × 4) ÷ 100 = 120000 ÷ 100 = ₹1200.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-tue-009", "question": "Kavita deposits ₹6000 at 5% per year for 2 years. How much does she earn as interest?", "options": ["₹60", "₹300", "₹600", "₹60"], "correctIndex": 2, "explanation": "SI = (6000 × 5 × 2) ÷ 100 = 60000 ÷ 100 = ₹600.", "tags": ["simple-interest", "word-problem"] },
+    { "id": "g5m-w24-tue-010", "question": "P = ₹4000, R = 7%, T = 2 years. Amount = ___.", "options": ["₹560", "₹4056", "₹4560", "₹4070"], "correctIndex": 2, "explanation": "SI = (4000 × 7 × 2) ÷ 100 = ₹560. Amount = 4000 + 560 = ₹4560.", "tags": ["simple-interest", "amount"] },
+    { "id": "g5m-w24-tue-011", "question": "If the rate doubles but P and T stay the same, the interest ___.", "options": ["Stays the same", "Halves", "Doubles", "Triples"], "correctIndex": 2, "explanation": "SI is directly proportional to R. If R doubles, SI doubles.", "tags": ["simple-interest", "concept"] },
+    { "id": "g5m-w24-tue-012", "question": "P = ₹1200, R = 5%, T = 1 year. SI = ___.", "options": ["₹6", "₹60", "₹600", "₹120"], "correctIndex": 1, "explanation": "SI = (1200 × 5 × 1) ÷ 100 = 6000 ÷ 100 = ₹60.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-tue-013", "question": "Which step is FIRST when using the SI formula?", "options": ["Divide by 100", "Add P, R, T", "Multiply P × R × T", "Subtract SI from P"], "correctIndex": 2, "explanation": "First multiply P × R × T, then divide by 100. SI = (P × R × T) ÷ 100.", "tags": ["simple-interest", "formula"] },
+    { "id": "g5m-w24-tue-014", "question": "P = ₹750, R = 4%, T = 2 years. SI = ___.", "options": ["₹30", "₹60", "₹600", "₹6"], "correctIndex": 1, "explanation": "SI = (750 × 4 × 2) ÷ 100 = 6000 ÷ 100 = ₹60.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-tue-015", "question": "Gopal borrows ₹5000 at 6% per year for 3 years. What is the total amount he must repay?", "options": ["₹900", "₹5900", "₹5600", "₹5006"], "correctIndex": 1, "explanation": "SI = (5000 × 6 × 3) ÷ 100 = ₹900. Amount = 5000 + 900 = ₹5900.", "tags": ["simple-interest", "amount", "word-problem"] }
+  ]
+}

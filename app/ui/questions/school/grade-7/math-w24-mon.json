@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-math-w24-mon",
+  "title": "Grade 7 Math — Mon, Jun 09",
+  "description": "Simple & Compound Interest — Day 1 of 5: Review SI; introducing CI",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-7", "weekly", "simple-interest", "compound-interest", "intro"],
+  "questions": [
+    { "id": "g7m-w24-mon-001", "question": "SI formula is SI = ___.", "options": ["P + R × T", "(P × R × T) ÷ 100", "P × (1 + R/100)^T", "A − P"], "correctIndex": 1, "explanation": "Simple Interest = (P × R × T) ÷ 100.", "tags": ["simple-interest", "formula"] },
+    { "id": "g7m-w24-mon-002", "question": "P = ₹5000, R = 8%, T = 3 years. SI = ___.", "options": ["₹120", "₹1200", "₹400", "₹500"], "correctIndex": 1, "explanation": "SI = (5000 × 8 × 3) ÷ 100 = 120000 ÷ 100 = ₹1200.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g7m-w24-mon-003", "question": "In SI, interest earned each year is ___.", "options": ["Different — grows each year", "The same — fixed amount", "Zero after first year", "Doubles each year"], "correctIndex": 1, "explanation": "In simple interest the same fixed amount of interest is added each year.", "tags": ["simple-interest", "concept"] },
+    { "id": "g7m-w24-mon-004", "question": "In Compound Interest (CI), interest is calculated on ___.", "options": ["Only the original principal", "Principal plus accumulated interest", "Only the interest earned", "The future value minus the principal"], "correctIndex": 1, "explanation": "CI is calculated on the principal PLUS all the interest earned so far. This is 'interest on interest'.", "tags": ["compound-interest", "concept"] },
+    { "id": "g7m-w24-mon-005", "question": "If P = ₹1000 at 10% per year for 2 years (SI), how much interest is earned?", "options": ["₹100", "₹200", "₹210", "₹300"], "correctIndex": 1, "explanation": "SI = (1000 × 10 × 2) ÷ 100 = ₹200.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g7m-w24-mon-006", "question": "For P = ₹1000 at 10% per year (CI, annually), interest in Year 1 = ___.", "options": ["₹10", "₹100", "₹110", "₹1100"], "correctIndex": 1, "explanation": "Year 1: 10% of ₹1000 = ₹100.", "tags": ["compound-interest", "year1"] },
+    { "id": "g7m-w24-mon-007", "question": "After Year 1 of CI (P=₹1000, R=10%), the new principal for Year 2 is ___.", "options": ["₹1000", "₹1010", "₹1100", "₹1200"], "correctIndex": 2, "explanation": "Amount after Year 1 = 1000 + 100 = ₹1100. This becomes the principal for Year 2.", "tags": ["compound-interest", "concept"] },
+    { "id": "g7m-w24-mon-008", "question": "For CI Year 2 (new principal ₹1100, R=10%), interest = ___.", "options": ["₹100", "₹110", "₹120", "₹210"], "correctIndex": 1, "explanation": "10% of ₹1100 = ₹110. One key difference from SI (which would be ₹100).", "tags": ["compound-interest", "year2"] },
+    { "id": "g7m-w24-mon-009", "question": "After 2 years, CI on ₹1000 at 10% = ___.", "options": ["₹200", "₹210", "₹220", "₹100"], "correctIndex": 1, "explanation": "Year 1 interest: ₹100. Year 2 interest: ₹110. Total CI = ₹210.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-mon-010", "question": "For same P, R, T — which is MORE: SI or CI?", "options": ["SI is always more", "CI is always more (for T > 1)", "They are always equal", "Depends on the rate"], "correctIndex": 1, "explanation": "CI is always greater than SI for T > 1 year because CI includes 'interest on interest'.", "tags": ["compound-interest", "vs-si", "concept"] },
+    { "id": "g7m-w24-mon-011", "question": "CI − SI for same P, R, T is called ___.", "options": ["Net interest", "Difference of interest", "Surplus", "Both A and B are used"], "correctIndex": 1, "explanation": "The difference (CI − SI) shows how much more compound interest earns over simple interest.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-mon-012", "question": "P = ₹2000 at 5% per year for 1 year. Is CI equal to SI?", "options": ["Yes — for 1 year CI = SI", "No — CI is always more", "No — SI is always more", "Depends on the bank"], "correctIndex": 0, "explanation": "For exactly 1 year, CI = SI because there is no 'previous interest' to compound on.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-mon-013", "question": "Amount (A) = ___.", "options": ["A = P − SI", "A = P + SI (or P + CI)", "A = SI only", "A = P × R × T"], "correctIndex": 1, "explanation": "Amount = Principal + Interest (whether simple or compound).", "tags": ["simple-interest", "amount"] },
+    { "id": "g7m-w24-mon-014", "question": "P = ₹10000 at 6% per year. After 2 years SI = ___.", "options": ["₹600", "₹1200", "₹1236", "₹600"], "correctIndex": 1, "explanation": "SI = (10000 × 6 × 2) ÷ 100 = ₹1200.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g7m-w24-mon-015", "question": "Which type of interest grows faster over many years?", "options": ["Simple interest", "Compound interest", "Both grow at the same rate", "Depends on the principal"], "correctIndex": 1, "explanation": "Compound interest grows exponentially (faster and faster) while SI grows linearly (same amount each year).", "tags": ["compound-interest", "concept"] }
+  ]
+}

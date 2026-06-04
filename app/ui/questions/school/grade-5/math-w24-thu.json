@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w24-thu",
+  "title": "Grade 5 Math — Thu, Jun 12",
+  "description": "Simple Interest — Day 4 of 5: Real-life applications",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "simple-interest", "application"],
+  "questions": [
+    { "id": "g5m-w24-thu-001", "question": "Sita keeps ₹8000 in a savings account at 6% per year for 4 years. What is her total SI?", "options": ["₹192", "₹1920", "₹1080", "₹480"], "correctIndex": 1, "explanation": "SI = (8000 × 6 × 4) ÷ 100 = 192000 ÷ 100 = ₹1920.", "tags": ["simple-interest", "word-problem"] },
+    { "id": "g5m-w24-thu-002", "question": "Ramesh needs to repay ₹5500 after 1 year on a ₹5000 loan. What was the rate of interest?", "options": ["5%", "10%", "11%", "1%"], "correctIndex": 1, "explanation": "SI = 5500 − 5000 = ₹500. R = (500 × 100) ÷ (5000 × 1) = 10%.", "tags": ["simple-interest", "finding-rate", "word-problem"] },
+    { "id": "g5m-w24-thu-003", "question": "A shopkeeper lends ₹10000 at 9% per year. He earns ₹2700 as interest. For how many years was the money lent?", "options": ["1", "2", "3", "4"], "correctIndex": 2, "explanation": "T = (SI × 100) ÷ (P × R) = (2700 × 100) ÷ (10000 × 9) = 270000 ÷ 90000 = 3 years.", "tags": ["simple-interest", "finding-time"] },
+    { "id": "g5m-w24-thu-004", "question": "Meena borrowed ₹4500 at 8% per year for 2 years. How much does she pay back in total?", "options": ["₹720", "₹5220", "₹4720", "₹5400"], "correctIndex": 1, "explanation": "SI = (4500 × 8 × 2) ÷ 100 = ₹720. Amount = 4500 + 720 = ₹5220.", "tags": ["simple-interest", "amount", "word-problem"] },
+    { "id": "g5m-w24-thu-005", "question": "Banks give more interest for ___ time periods.", "options": ["Shorter", "Longer", "The time doesn't matter", "Fixed at 1 year only"], "correctIndex": 1, "explanation": "Since SI increases with time (T), longer deposits earn more interest.", "tags": ["simple-interest", "concept"] },
+    { "id": "g5m-w24-thu-006", "question": "Vijay invested ₹20000 at 7.5% per year for 2 years. What is the interest earned?", "options": ["₹150", "₹1500", "₹3000", "₹15000"], "correctIndex": 2, "explanation": "SI = (20000 × 7.5 × 2) ÷ 100 = 300000 ÷ 100 = ₹3000.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-thu-007", "question": "If the principal is ₹0, what is the simple interest (any rate, any time)?", "options": ["₹100", "₹1", "₹0", "Cannot say"], "correctIndex": 2, "explanation": "SI = (0 × R × T) ÷ 100 = ₹0. No principal means no interest.", "tags": ["simple-interest", "concept"] },
+    { "id": "g5m-w24-thu-008", "question": "Ranjit borrowed money and paid ₹450 as interest at 9% per year for 2 years. What was the principal?", "options": ["₹500", "₹1500", "₹2500", "₹810"], "correctIndex": 2, "explanation": "P = (SI × 100) ÷ (R × T) = (450 × 100) ÷ (9 × 2) = 45000 ÷ 18 = ₹2500.", "tags": ["simple-interest", "finding-principal"] },
+    { "id": "g5m-w24-thu-009", "question": "P = ₹6000 at 5% for T years gives SI = ₹900. What is T?", "options": ["1 year", "2 years", "3 years", "4 years"], "correctIndex": 2, "explanation": "T = (SI × 100) ÷ (P × R) = (900 × 100) ÷ (6000 × 5) = 90000 ÷ 30000 = 3 years.", "tags": ["simple-interest", "finding-time"] },
+    { "id": "g5m-w24-thu-010", "question": "A person gets ₹400 as interest at 4% for 2 years. What was the principal?", "options": ["₹400", "₹1000", "₹5000", "₹8000"], "correctIndex": 2, "explanation": "P = (SI × 100) ÷ (R × T) = (400 × 100) ÷ (4 × 2) = 40000 ÷ 8 = ₹5000.", "tags": ["simple-interest", "finding-principal"] },
+    { "id": "g5m-w24-thu-011", "question": "Which is better for the borrower — 6% for 2 years or 4% for 3 years (same P)?", "options": ["6% for 2 years (less interest)", "4% for 3 years (less interest)", "Both are the same", "Depends on the principal"], "correctIndex": 0, "explanation": "For P=₹100: 6%×2=12; 4%×3=12. They're equal! But for a general case, check both.", "tags": ["simple-interest", "comparing"] },
+    { "id": "g5m-w24-thu-012", "question": "Lata borrowed ₹7000 at 6% per year. After how many years will the SI be ₹2100?", "options": ["3 years", "4 years", "5 years", "6 years"], "correctIndex": 2, "explanation": "T = (2100 × 100) ÷ (7000 × 6) = 210000 ÷ 42000 = 5 years.", "tags": ["simple-interest", "finding-time"] },
+    { "id": "g5m-w24-thu-013", "question": "At what rate per year will ₹1500 become ₹1800 in 4 years?", "options": ["3%", "4%", "5%", "6%"], "correctIndex": 2, "explanation": "SI = 1800 − 1500 = ₹300. R = (300 × 100) ÷ (1500 × 4) = 30000 ÷ 6000 = 5%.", "tags": ["simple-interest", "finding-rate"] },
+    { "id": "g5m-w24-thu-014", "question": "A post office gives 8% simple interest per year. If Mohan deposits ₹2500, after 2 years the amount is ___.", "options": ["₹200", "₹400", "₹2900", "₹2700"], "correctIndex": 2, "explanation": "SI = (2500 × 8 × 2) ÷ 100 = ₹400. Amount = 2500 + 400 = ₹2900.", "tags": ["simple-interest", "amount"] },
+    { "id": "g5m-w24-thu-015", "question": "The interest on ₹3600 for 2 years is ₹576. The rate of interest is ___.", "options": ["6%", "8%", "10%", "12%"], "correctIndex": 1, "explanation": "R = (576 × 100) ÷ (3600 × 2) = 57600 ÷ 7200 = 8%.", "tags": ["simple-interest", "finding-rate"] }
+  ]
+}

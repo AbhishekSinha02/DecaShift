@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w24-tue",
+  "title": "Grade 6 Math — Tue, Jun 10",
+  "description": "Basic Geometry — Day 2 of 5: Angles — parts, types and measurement",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-6", "weekly", "geometry", "angles", "types"],
+  "questions": [
+    { "id": "g6m-w24-tue-001", "question": "An angle is formed by ___.", "options": ["Two parallel lines", "Two rays with a common endpoint", "A line and a circle", "Three points on a circle"], "correctIndex": 1, "explanation": "An angle is formed when two rays share the same starting point (vertex).", "tags": ["angles", "concept"] },
+    { "id": "g6m-w24-tue-002", "question": "The common endpoint of the two rays that form an angle is called the ___.", "options": ["Arm", "Vertex", "Base", "Side"], "correctIndex": 1, "explanation": "The shared starting point is called the vertex of the angle.", "tags": ["angles", "vertex"] },
+    { "id": "g6m-w24-tue-003", "question": "An angle less than 90° is called ___.", "options": ["Obtuse", "Right", "Acute", "Straight"], "correctIndex": 2, "explanation": "Acute angles measure between 0° and 90°.", "tags": ["angles", "acute"] },
+    { "id": "g6m-w24-tue-004", "question": "An angle exactly equal to 90° is called ___.", "options": ["Acute", "Right angle", "Obtuse", "Reflex"], "correctIndex": 1, "explanation": "A right angle is exactly 90° — like the corner of a square.", "tags": ["angles", "right-angle"] },
+    { "id": "g6m-w24-tue-005", "question": "An angle greater than 90° but less than 180° is called ___.", "options": ["Acute", "Right", "Obtuse", "Straight"], "correctIndex": 2, "explanation": "Obtuse angles measure between 90° and 180°.", "tags": ["angles", "obtuse"] },
+    { "id": "g6m-w24-tue-006", "question": "An angle of exactly 180° is called ___.", "options": ["Reflex", "Obtuse", "Right", "Straight angle"], "correctIndex": 3, "explanation": "A straight angle is 180° — it forms a straight line.", "tags": ["angles", "straight"] },
+    { "id": "g6m-w24-tue-007", "question": "An angle greater than 180° but less than 360° is called ___.", "options": ["Obtuse", "Right", "Reflex angle", "Complete angle"], "correctIndex": 2, "explanation": "A reflex angle is more than 180° but less than 360°.", "tags": ["angles", "reflex"] },
+    { "id": "g6m-w24-tue-008", "question": "An angle of 360° is called ___.", "options": ["Straight", "Reflex", "Complete (full turn)", "Right"], "correctIndex": 2, "explanation": "360° is a complete angle — one full rotation.", "tags": ["angles", "complete"] },
+    { "id": "g6m-w24-tue-009", "question": "Which type of angle does the letter 'L' look like?", "options": ["Acute", "Right angle", "Obtuse", "Reflex"], "correctIndex": 1, "explanation": "The letter L has two lines meeting at exactly 90° — a right angle.", "tags": ["angles", "right-angle"] },
+    { "id": "g6m-w24-tue-010", "question": "A clock shows 3:00. The angle between the hands is ___.", "options": ["Acute (45°)", "Right angle (90°)", "Straight (180°)", "Obtuse (120°)"], "correctIndex": 1, "explanation": "At 3:00, the hour hand points to 3 and minute hand to 12. The angle between them is exactly 90°.", "tags": ["angles", "right-angle", "real-life"] },
+    { "id": "g6m-w24-tue-011", "question": "What instrument is used to measure angles?", "options": ["Ruler", "Compass", "Protractor", "Set square"], "correctIndex": 2, "explanation": "A protractor is used to measure angles in degrees.", "tags": ["angles", "tools"] },
+    { "id": "g6m-w24-tue-012", "question": "An angle of 35° is ___.", "options": ["Obtuse", "Right", "Acute", "Reflex"], "correctIndex": 2, "explanation": "35° < 90°, so it is an acute angle.", "tags": ["angles", "acute"] },
+    { "id": "g6m-w24-tue-013", "question": "An angle of 125° is ___.", "options": ["Acute", "Right", "Obtuse", "Straight"], "correctIndex": 2, "explanation": "125° is between 90° and 180°, so it is an obtuse angle.", "tags": ["angles", "obtuse"] },
+    { "id": "g6m-w24-tue-014", "question": "How many degrees are in a right angle?", "options": ["45°", "90°", "180°", "360°"], "correctIndex": 1, "explanation": "A right angle is exactly 90°.", "tags": ["angles", "right-angle"] },
+    { "id": "g6m-w24-tue-015", "question": "The arms of an angle are its ___.", "options": ["Two rays forming the angle", "Two endpoints", "Two sides of a line segment", "Two parallel lines"], "correctIndex": 0, "explanation": "The two rays that form an angle are called its arms (sides).", "tags": ["angles", "concept"] }
+  ]
+}

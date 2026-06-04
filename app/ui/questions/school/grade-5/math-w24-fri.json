@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w24-fri",
+  "title": "Grade 5 Math — Fri, Jun 13",
+  "description": "Simple Interest — Day 5 of 5: Mixed SI synthesis and challenge",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "fri",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "simple-interest", "mixed", "synthesis"],
+  "questions": [
+    { "id": "g5m-w24-fri-001", "question": "Deepak borrows ₹6000 at 7% per year for 3 years. What is the total amount he repays?", "options": ["₹1260", "₹6126", "₹7260", "₹6700"], "correctIndex": 2, "explanation": "SI = (6000 × 7 × 3) ÷ 100 = ₹1260. Amount = 6000 + 1260 = ₹7260.", "tags": ["simple-interest", "amount", "word-problem"] },
+    { "id": "g5m-w24-fri-002", "question": "In 5 years at 8% per year, the SI on ₹P is ₹2000. What is P?", "options": ["₹2000", "₹4000", "₹5000", "₹1600"], "correctIndex": 2, "explanation": "P = (SI × 100) ÷ (R × T) = (2000 × 100) ÷ (8 × 5) = 200000 ÷ 40 = ₹5000.", "tags": ["simple-interest", "finding-principal"] },
+    { "id": "g5m-w24-fri-003", "question": "Simple interest at 10% for 1 year on ₹1000 is ___. For 2 years it is ___.", "options": ["₹100 and ₹100", "₹100 and ₹200", "₹10 and ₹20", "₹200 and ₹400"], "correctIndex": 1, "explanation": "Year 1: SI = ₹100. Year 2: another ₹100. Total for 2 years = ₹200. Same interest each year.", "tags": ["simple-interest", "concept"] },
+    { "id": "g5m-w24-fri-004", "question": "P = ₹4000, R = 6%, Amount = ₹4720. For how many years was the money kept?", "options": ["1", "2", "3", "4"], "correctIndex": 2, "explanation": "SI = 4720 − 4000 = ₹720. T = (720 × 100) ÷ (4000 × 6) = 72000 ÷ 24000 = 3 years.", "tags": ["simple-interest", "finding-time"] },
+    { "id": "g5m-w24-fri-005", "question": "Reena deposited ₹12000. After 5 years at a certain rate she received ₹15000. What was the rate?", "options": ["3%", "4%", "5%", "6%"], "correctIndex": 2, "explanation": "SI = 15000 − 12000 = ₹3000. R = (3000 × 100) ÷ (12000 × 5) = 300000 ÷ 60000 = 5%.", "tags": ["simple-interest", "finding-rate"] },
+    { "id": "g5m-w24-fri-006", "question": "Which is the correct expanded formula for Amount (A)?", "options": ["A = P − SI", "A = P + SI = P + PRT/100", "A = P × R × T", "A = P/100 + R"], "correctIndex": 1, "explanation": "Amount = Principal + Simple Interest = P + (P×R×T÷100).", "tags": ["simple-interest", "formula"] },
+    { "id": "g5m-w24-fri-007", "question": "P = ₹2500, T = 4 years, SI = ₹500. Rate = ___.", "options": ["4%", "5%", "8%", "2%"], "correctIndex": 1, "explanation": "R = (500 × 100) ÷ (2500 × 4) = 50000 ÷ 10000 = 5%.", "tags": ["simple-interest", "finding-rate"] },
+    { "id": "g5m-w24-fri-008", "question": "Two people invest the same amount for the same time. Person A gets 8% interest; person B gets 12%. Whose SI is higher?", "options": ["Person A", "Person B", "Both equal", "Cannot tell"], "correctIndex": 1, "explanation": "Higher rate = higher SI (P and T are the same). Person B at 12% earns more.", "tags": ["simple-interest", "comparing"] },
+    { "id": "g5m-w24-fri-009", "question": "Suresh deposits ₹10000 and wants to earn ₹3000 in 3 years. What rate does he need?", "options": ["3%", "8%", "10%", "12%"], "correctIndex": 2, "explanation": "R = (3000 × 100) ÷ (10000 × 3) = 300000 ÷ 30000 = 10%.", "tags": ["simple-interest", "finding-rate"] },
+    { "id": "g5m-w24-fri-010", "question": "SI on ₹800 at 5% for 1.5 years = ___.", "options": ["₹30", "₹60", "₹6", "₹80"], "correctIndex": 1, "explanation": "SI = (800 × 5 × 1.5) ÷ 100 = 6000 ÷ 100 = ₹60.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-fri-011", "question": "How long for ₹500 to earn ₹100 at 4% per year?", "options": ["3 years", "4 years", "5 years", "6 years"], "correctIndex": 2, "explanation": "T = (100 × 100) ÷ (500 × 4) = 10000 ÷ 2000 = 5 years.", "tags": ["simple-interest", "finding-time"] },
+    { "id": "g5m-w24-fri-012", "question": "Aryan borrowed money and repaid ₹6600 after 1 year at 10% per year. What did he borrow?", "options": ["₹6000", "₹6500", "₹6100", "₹5000"], "correctIndex": 0, "explanation": "Let P = principal. Amount = P + P×10×1÷100 = P + P/10 = 11P/10 = 6600. So P = 6600 × 10/11 = ₹6000.", "tags": ["simple-interest", "finding-principal"] },
+    { "id": "g5m-w24-fri-013", "question": "P = ₹3000, R = 5%, T = 4 years. SI = ___. Amount = ___.", "options": ["₹300 and ₹3300", "₹600 and ₹3600", "₹300 and ₹3600", "₹600 and ₹3000"], "correctIndex": 1, "explanation": "SI = (3000×5×4)÷100 = ₹600. Amount = 3000 + 600 = ₹3600.", "tags": ["simple-interest", "amount"] },
+    { "id": "g5m-w24-fri-014", "question": "Nalini lent equal amounts to two friends. She charged 6% to one and 8% to the other, both for 2 years. Who paid more interest?", "options": ["The 6% friend", "The 8% friend", "Both paid equal", "Depends on time"], "correctIndex": 1, "explanation": "Higher rate = more SI (P and T are the same). The 8% friend pays more.", "tags": ["simple-interest", "comparing"] },
+    { "id": "g5m-w24-fri-015", "question": "P = ₹5000, R = 6%, T = 3 years. After 3 years, how much MORE than the original amount does Priya get back?", "options": ["₹500", "₹900", "₹1000", "₹9000"], "correctIndex": 1, "explanation": "SI = (5000 × 6 × 3) ÷ 100 = ₹900. She gets back ₹900 MORE than her original ₹5000.", "tags": ["simple-interest", "concept"] }
+  ]
+}

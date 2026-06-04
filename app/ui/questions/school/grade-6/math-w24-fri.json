@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w24-fri",
+  "title": "Grade 6 Math — Fri, Jun 13",
+  "description": "Basic Geometry — Day 5 of 5: Mixed — lines and angles synthesis",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "fri",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-6", "weekly", "geometry", "mixed"],
+  "questions": [
+    { "id": "g6m-w24-fri-001", "question": "A transversal crosses two parallel lines. The alternate interior angles are ___.", "options": ["Supplementary", "Equal", "Complementary", "Always 90°"], "correctIndex": 1, "explanation": "When a transversal cuts parallel lines, alternate interior angles are equal.", "tags": ["geometry", "parallel", "transversal"] },
+    { "id": "g6m-w24-fri-002", "question": "Co-interior angles (same-side interior angles) formed by a transversal across parallel lines sum to ___.", "options": ["90°", "180°", "270°", "360°"], "correctIndex": 1, "explanation": "Co-interior (also called consecutive interior) angles are supplementary — they add to 180°.", "tags": ["geometry", "parallel", "transversal"] },
+    { "id": "g6m-w24-fri-003", "question": "Corresponding angles (formed when a transversal cuts parallel lines) are ___.", "options": ["Supplementary", "Complementary", "Equal", "Reflex"], "correctIndex": 2, "explanation": "Corresponding angles are in the same position at each intersection — they are equal.", "tags": ["geometry", "parallel", "transversal"] },
+    { "id": "g6m-w24-fri-004", "question": "Find the missing angle: Two parallel lines cut by a transversal. One co-interior angle is 65°. The other is ___.", "options": ["65°", "90°", "115°", "125°"], "correctIndex": 2, "explanation": "Co-interior angles add to 180°. 180° − 65° = 115°.", "tags": ["angles", "parallel", "transversal"] },
+    { "id": "g6m-w24-fri-005", "question": "Angles around a point total 360°. If 4 equal angles meet at a point, each is ___.", "options": ["45°", "60°", "90°", "120°"], "correctIndex": 2, "explanation": "360° ÷ 4 = 90° each.", "tags": ["angles", "full-rotation"] },
+    { "id": "g6m-w24-fri-006", "question": "Which of these is a pair of parallel lines?", "options": ["Opposite sides of a rectangle", "Diagonals of a square", "Adjacent sides of a triangle", "Radii of a circle"], "correctIndex": 0, "explanation": "Opposite sides of a rectangle are parallel to each other.", "tags": ["geometry", "parallel"] },
+    { "id": "g6m-w24-fri-007", "question": "Lines AB and CD are perpendicular. The angle between them is ___.", "options": ["45°", "60°", "90°", "180°"], "correctIndex": 2, "explanation": "Perpendicular lines meet at exactly 90°.", "tags": ["geometry", "perpendicular"] },
+    { "id": "g6m-w24-fri-008", "question": "A triangle has one 90° angle and one 55° angle. The third angle is ___.", "options": ["25°", "35°", "45°", "55°"], "correctIndex": 1, "explanation": "180° − 90° − 55° = 35°.", "tags": ["triangles", "missing-angle"] },
+    { "id": "g6m-w24-fri-009", "question": "Two lines cross. One angle is 70°. What are the other three angles (vertically opposite + supplementary)?", "options": ["70°, 110°, 110°", "70°, 70°, 70°", "110°, 110°, 90°", "70°, 90°, 90°"], "correctIndex": 0, "explanation": "Vertically opposite = 70°. Adjacent supplementary = 180°−70° = 110°. Two of them. So: 70°, 110°, 110°.", "tags": ["angles", "vertically-opposite", "supplementary"] },
+    { "id": "g6m-w24-fri-010", "question": "How many degrees does the minute hand of a clock turn in 30 minutes?", "options": ["90°", "120°", "180°", "270°"], "correctIndex": 2, "explanation": "The minute hand completes 360° in 60 minutes. In 30 minutes it turns 180° (a straight angle).", "tags": ["angles", "real-life"] },
+    { "id": "g6m-w24-fri-011", "question": "If one angle of a pair of supplementary angles is twice the other, the angles are ___.", "options": ["60° and 120°", "45° and 90°", "90° and 90°", "30° and 150°"], "correctIndex": 0, "explanation": "Let x + 2x = 180°. 3x = 180°. x = 60°. Angles: 60° and 120°.", "tags": ["angles", "supplementary", "algebra"] },
+    { "id": "g6m-w24-fri-012", "question": "If one angle of a pair of complementary angles is three times the other, the angles are ___.", "options": ["20° and 60°", "22.5° and 67.5°", "30° and 60°", "20° and 70°"], "correctIndex": 1, "explanation": "x + 3x = 90°. 4x = 90°. x = 22.5°. Angles: 22.5° and 67.5°.", "tags": ["angles", "complementary", "algebra"] },
+    { "id": "g6m-w24-fri-013", "question": "The exterior angle of a triangle equals ___.", "options": ["The sum of the adjacent interior angles", "The sum of the two non-adjacent interior angles", "180° minus the interior angle next to it", "90°"], "correctIndex": 1, "explanation": "The exterior angle of a triangle equals the sum of the two remote (non-adjacent) interior angles.", "tags": ["triangles", "exterior-angle"] },
+    { "id": "g6m-w24-fri-014", "question": "A triangle has interior angles 50° and 70°. Its exterior angle at the third vertex is ___.", "options": ["60°", "120°", "130°", "110°"], "correctIndex": 1, "explanation": "Exterior angle = 50° + 70° = 120°.", "tags": ["triangles", "exterior-angle"] },
+    { "id": "g6m-w24-fri-015", "question": "Which statement is always true?", "options": ["All triangles have at least one obtuse angle", "All right angles are equal", "Supplementary angles are always adjacent", "Parallel lines eventually meet"], "correctIndex": 1, "explanation": "All right angles are always exactly 90°. The other statements are false.", "tags": ["geometry", "concept"] }
+  ]
+}

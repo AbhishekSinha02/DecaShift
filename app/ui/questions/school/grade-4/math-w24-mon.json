@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w24-mon",
+  "title": "Grade 4 Math — Mon, Jun 09",
+  "description": "Decimals — Day 1 of 5: What is a decimal? Tenths",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "decimals", "tenths"],
+  "questions": [
+    { "id": "g4m-w24-mon-001", "question": "What is a decimal number?", "options": ["A number with only zeros", "A number that shows a part of a whole using a dot", "A very large number", "A number used only in science"], "correctIndex": 1, "explanation": "A decimal number uses a dot (decimal point) to show parts of a whole that are smaller than 1.", "tags": ["decimals", "concept"] },
+    { "id": "g4m-w24-mon-002", "question": "In the decimal 4.7, what does the 7 represent?", "options": ["7 ones", "7 tens", "7 tenths", "7 hundredths"], "correctIndex": 2, "explanation": "After the decimal point, the first digit is in the tenths place. So 7 = 7 tenths = 7/10.", "tags": ["decimals", "tenths", "place-value"] },
+    { "id": "g4m-w24-mon-003", "question": "0.1 is the same as ___.", "options": ["1/100", "1/10", "1/1000", "10/1"], "correctIndex": 1, "explanation": "0.1 means one tenth = 1/10.", "tags": ["decimals", "tenths"] },
+    { "id": "g4m-w24-mon-004", "question": "3/10 written as a decimal is ___.", "options": ["3.0", "0.3", "0.03", "30"], "correctIndex": 1, "explanation": "3/10 = 3 tenths = 0.3.", "tags": ["decimals", "tenths", "conversion"] },
+    { "id": "g4m-w24-mon-005", "question": "Which decimal shows 'five tenths'?", "options": ["5.0", "0.05", "0.5", "50.0"], "correctIndex": 2, "explanation": "Five tenths = 5/10 = 0.5.", "tags": ["decimals", "tenths"] },
+    { "id": "g4m-w24-mon-006", "question": "In 8.3, which digit is in the ones place?", "options": ["3", "8", "0", "Neither"], "correctIndex": 1, "explanation": "In 8.3, the digit before the decimal point (8) is in the ones place.", "tags": ["decimals", "place-value"] },
+    { "id": "g4m-w24-mon-007", "question": "0.7 is the same as how many tenths?", "options": ["7", "0.7", "70", "700"], "correctIndex": 0, "explanation": "0.7 = 7 tenths.", "tags": ["decimals", "tenths"] },
+    { "id": "g4m-w24-mon-008", "question": "Which is GREATER — 0.8 or 0.5?", "options": ["0.5", "0.8", "Both are equal", "Cannot tell"], "correctIndex": 1, "explanation": "8 tenths > 5 tenths, so 0.8 > 0.5.", "tags": ["decimals", "comparing"] },
+    { "id": "g4m-w24-mon-009", "question": "A pencil is 14.5 cm long. The 5 after the decimal is 5 ___.", "options": ["ones", "tens", "tenths", "hundredths"], "correctIndex": 2, "explanation": "The first digit after the decimal point is always in the tenths place.", "tags": ["decimals", "tenths", "place-value"] },
+    { "id": "g4m-w24-mon-010", "question": "Write 'two and three tenths' as a decimal.", "options": ["23.0", "2.3", "0.23", "3.2"], "correctIndex": 1, "explanation": "Two and three tenths = 2 + 3/10 = 2.3.", "tags": ["decimals", "tenths", "writing"] },
+    { "id": "g4m-w24-mon-011", "question": "9/10 as a decimal is ___.", "options": ["9.1", "0.09", "0.9", "9.0"], "correctIndex": 2, "explanation": "9/10 = 9 tenths = 0.9.", "tags": ["decimals", "tenths", "conversion"] },
+    { "id": "g4m-w24-mon-012", "question": "Which decimal is between 0.3 and 0.5?", "options": ["0.2", "0.6", "0.4", "0.7"], "correctIndex": 2, "explanation": "0.4 is between 0.3 and 0.5 on the number line.", "tags": ["decimals", "number-line"] },
+    { "id": "g4m-w24-mon-013", "question": "The decimal point separates ___ from ___.", "options": ["Tens from ones", "Ones from tenths", "Hundreds from tens", "Fractions from decimals"], "correctIndex": 1, "explanation": "The decimal point separates whole-number places (ones and above) from fractional places (tenths and below).", "tags": ["decimals", "concept"] },
+    { "id": "g4m-w24-mon-014", "question": "0.6 + 0.3 = ___.", "options": ["0.63", "0.9", "9.0", "0.09"], "correctIndex": 1, "explanation": "6 tenths + 3 tenths = 9 tenths = 0.9.", "tags": ["decimals", "addition"] },
+    { "id": "g4m-w24-mon-015", "question": "Which decimal number comes just after 2.6 on the number line?", "options": ["2.5", "2.7", "3.6", "3.0"], "correctIndex": 1, "explanation": "Going forward by one tenth from 2.6 gives 2.7.", "tags": ["decimals", "number-line"] }
+  ]
+}

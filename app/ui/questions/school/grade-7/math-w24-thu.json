@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-math-w24-thu",
+  "title": "Grade 7 Math — Thu, Jun 12",
+  "description": "Simple & Compound Interest — Day 4 of 5: CI compounded half-yearly and applications",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-7", "weekly", "compound-interest", "half-yearly", "application"],
+  "questions": [
+    { "id": "g7m-w24-thu-001", "question": "When CI is compounded half-yearly (twice a year), the rate per period is ___.", "options": ["R", "R/2", "2R", "R × 2"], "correctIndex": 1, "explanation": "Half-yearly means 2 periods per year. Rate per period = R/2.", "tags": ["compound-interest", "half-yearly"] },
+    { "id": "g7m-w24-thu-002", "question": "For CI compounded half-yearly for T years, the number of periods n = ___.", "options": ["T", "T/2", "2T", "4T"], "correctIndex": 2, "explanation": "Two periods per year × T years = 2T total compounding periods.", "tags": ["compound-interest", "half-yearly"] },
+    { "id": "g7m-w24-thu-003", "question": "P = ₹10000, R = 10% per year, compounded half-yearly for 1 year. Rate per half-year = ___.", "options": ["10%", "5%", "2.5%", "20%"], "correctIndex": 1, "explanation": "Half-yearly rate = 10 ÷ 2 = 5%.", "tags": ["compound-interest", "half-yearly"] },
+    { "id": "g7m-w24-thu-004", "question": "P=₹10000, R=10%/yr, compounded half-yearly for 1 year. Periods = ___.", "options": ["1", "2", "4", "10"], "correctIndex": 1, "explanation": "1 year × 2 half-years per year = 2 periods.", "tags": ["compound-interest", "half-yearly"] },
+    { "id": "g7m-w24-thu-005", "question": "P=₹10000, R=10%/yr, half-yearly, 1 year. A = 10000 × (1.05)² = ___.", "options": ["₹11000", "₹11025", "₹10500", "₹11050"], "correctIndex": 1, "explanation": "A = 10000 × 1.05 × 1.05 = 10000 × 1.1025 = ₹11025.", "tags": ["compound-interest", "half-yearly", "calculation"] },
+    { "id": "g7m-w24-thu-006", "question": "Compare half-yearly CI (₹1025) vs annual CI (₹1000) for P=₹10000, R=10%, T=1yr. Which is more?", "options": ["Annual CI", "Half-yearly CI", "Both are equal", "Cannot compare"], "correctIndex": 1, "explanation": "Half-yearly CI = ₹1025 > Annual CI = ₹1000. More frequent compounding = more interest.", "tags": ["compound-interest", "half-yearly", "vs-annual"] },
+    { "id": "g7m-w24-thu-007", "question": "More frequent compounding means ___ interest earned.", "options": ["Less", "The same", "More", "Exactly double"], "correctIndex": 2, "explanation": "The more frequently interest is compounded (monthly > quarterly > half-yearly > annual), the more interest accumulates.", "tags": ["compound-interest", "concept"] },
+    { "id": "g7m-w24-thu-008", "question": "P = ₹8000, R = 10% per year, CI annually, T = 3 years. A = 8000 × (1.1)³. (1.1)³ = 1.331. A = ___.", "options": ["₹8800", "₹9800", "₹10648", "₹10000"], "correctIndex": 2, "explanation": "A = 8000 × 1.331 = ₹10648.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-thu-009", "question": "P = ₹8000, R = 10%/yr, T = 3 yr (CI). CI = ___.", "options": ["₹2000", "₹2400", "₹2648", "₹3000"], "correctIndex": 2, "explanation": "CI = A − P = 10648 − 8000 = ₹2648.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-thu-010", "question": "For P=₹8000, R=10%, T=3yr. SI = ___.", "options": ["₹2000", "₹2400", "₹2648", "₹3000"], "correctIndex": 1, "explanation": "SI = (8000 × 10 × 3) ÷ 100 = ₹2400.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g7m-w24-thu-011", "question": "CI − SI for P=₹8000, R=10%, T=3yr = ___.", "options": ["₹248", "₹268", "₹2648", "₹400"], "correctIndex": 0, "explanation": "2648 − 2400 = ₹248.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-thu-012", "question": "A population of 1000 grows at 5% per year (compounded). After 2 years the population = ___.", "options": ["1100", "1102.5", "1102", "1050"], "correctIndex": 1, "explanation": "A = 1000 × (1.05)² = 1000 × 1.1025 = 1102.5 ≈ 1103 people.", "tags": ["compound-interest", "real-life"] },
+    { "id": "g7m-w24-thu-013", "question": "The price of a machine is ₹20000. It depreciates at 10% per year (CI-style). After 2 years its value = ___.", "options": ["₹16200", "₹18000", "₹16000", "₹18200"], "correctIndex": 0, "explanation": "Depreciation formula: V = P(1 − R/100)². V = 20000 × (0.9)² = 20000 × 0.81 = ₹16200.", "tags": ["compound-interest", "depreciation"] },
+    { "id": "g7m-w24-thu-014", "question": "The formula for depreciation (reduction in value) uses (1 − R/100) because ___.", "options": ["Value increases each year", "Value decreases each year", "Rate is negative", "It is SI not CI"], "correctIndex": 1, "explanation": "We subtract R/100 since the value is going DOWN each year.", "tags": ["compound-interest", "depreciation"] },
+    { "id": "g7m-w24-thu-015", "question": "P = ₹5000, R = 12% per year, CI annually, T = 2 yr. (1.12)² = 1.2544. CI = ___.", "options": ["₹1200", "₹1244", "₹1272", "₹2544"], "correctIndex": 2, "explanation": "A = 5000 × 1.2544 = ₹6272. CI = 6272 − 5000 = ₹1272.", "tags": ["compound-interest", "calculation"] }
+  ]
+}

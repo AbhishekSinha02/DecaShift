@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w24-wed",
+  "title": "Grade 4 Math — Wed, Jun 11",
+  "description": "Decimals — Day 3 of 5: Reading, writing and ordering decimals",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "decimals", "ordering", "reading"],
+  "questions": [
+    { "id": "g4m-w24-wed-001", "question": "How do you read 3.5?", "options": ["Thirty five", "Three point five", "Three and five tenths", "Both B and C"], "correctIndex": 3, "explanation": "3.5 can be read as 'three point five' or 'three and five tenths'. Both are correct.", "tags": ["decimals", "reading"] },
+    { "id": "g4m-w24-wed-002", "question": "Which decimal is greatest?", "options": ["1.5", "1.45", "1.50", "1.04"], "correctIndex": 0, "explanation": "Compare: 1.5 = 1.50 > 1.45 > 1.04. (1.5 and 1.50 are equal; 1.5 and 1.50 tie for greatest.)", "tags": ["decimals", "ordering"] },
+    { "id": "g4m-w24-wed-003", "question": "Order from smallest to largest: 0.8, 0.08, 0.80", "options": ["0.8, 0.80, 0.08", "0.08, 0.8, 0.80", "0.08, 0.80, 0.8", "All are equal"], "correctIndex": 1, "explanation": "0.08 < 0.8 = 0.80. So order: 0.08, 0.8, 0.80 (the last two are equal).", "tags": ["decimals", "ordering"] },
+    { "id": "g4m-w24-wed-004", "question": "Which decimal is least?", "options": ["0.6", "0.16", "0.61", "0.066"], "correctIndex": 3, "explanation": "0.066 < 0.16 < 0.6 < 0.61.", "tags": ["decimals", "ordering"] },
+    { "id": "g4m-w24-wed-005", "question": "Write 'twelve and eight hundredths' as a decimal.", "options": ["12.8", "12.08", "128", "0.128"], "correctIndex": 1, "explanation": "Twelve = 12; eight hundredths = 0.08. Together: 12.08.", "tags": ["decimals", "writing"] },
+    { "id": "g4m-w24-wed-006", "question": "Which number is between 4.3 and 4.5?", "options": ["4.2", "4.4", "4.6", "3.4"], "correctIndex": 1, "explanation": "4.4 is between 4.3 and 4.5 on the number line.", "tags": ["decimals", "ordering"] },
+    { "id": "g4m-w24-wed-007", "question": "7.2 has ___ ones and ___ tenths.", "options": ["2 ones, 7 tenths", "7 ones, 2 tenths", "72 ones, 0 tenths", "0 ones, 72 tenths"], "correctIndex": 1, "explanation": "In 7.2: 7 is in the ones place, 2 is in the tenths place.", "tags": ["decimals", "place-value"] },
+    { "id": "g4m-w24-wed-008", "question": "Which is correct?", "options": ["0.6 < 0.06", "0.6 = 0.06", "0.6 > 0.06", "Cannot compare"], "correctIndex": 2, "explanation": "0.6 = 6 tenths = 0.60. 0.06 = 6 hundredths. 0.60 > 0.06.", "tags": ["decimals", "comparing"] },
+    { "id": "g4m-w24-wed-009", "question": "Arjun ran 2.45 km and Sneha ran 2.54 km. Who ran more?", "options": ["Arjun", "Sneha", "Both ran the same", "Cannot tell"], "correctIndex": 1, "explanation": "Tenths: 4 vs 5 — Sneha's 5 tenths > Arjun's 4 tenths. Sneha ran more.", "tags": ["decimals", "comparing", "word-problem"] },
+    { "id": "g4m-w24-wed-010", "question": "Which decimal is equivalent to 1/2?", "options": ["0.2", "0.12", "0.5", "2.0"], "correctIndex": 2, "explanation": "1/2 = 5/10 = 0.5.", "tags": ["decimals", "fractions", "conversion"] },
+    { "id": "g4m-w24-wed-011", "question": "Three and seven hundredths = ___.", "options": ["3.7", "37", "3.07", "0.37"], "correctIndex": 2, "explanation": "Three = 3; seven hundredths = 0.07. Together: 3.07.", "tags": ["decimals", "writing"] },
+    { "id": "g4m-w24-wed-012", "question": "Which is closest to 1?", "options": ["0.1", "0.9", "0.99", "1.1"], "correctIndex": 2, "explanation": "0.99 is just 0.01 below 1. 1.1 is 0.1 above 1. 0.99 is closer to 1.", "tags": ["decimals", "comparing"] },
+    { "id": "g4m-w24-wed-013", "question": "A bottle holds 1.75 L. The '5' is in which place?", "options": ["Ones", "Tenths", "Hundredths", "Thousands"], "correctIndex": 2, "explanation": "1.75: 1 = ones, 7 = tenths, 5 = hundredths.", "tags": ["decimals", "place-value"] },
+    { "id": "g4m-w24-wed-014", "question": "Which set is in correct ascending (smallest to largest) order?", "options": ["0.5, 0.25, 0.1", "0.1, 0.25, 0.5", "0.25, 0.1, 0.5", "0.5, 0.1, 0.25"], "correctIndex": 1, "explanation": "Ascending: 0.1 < 0.25 < 0.5.", "tags": ["decimals", "ordering"] },
+    { "id": "g4m-w24-wed-015", "question": "A price tag says ₹24.50. The 5 is in which place?", "options": ["Tens", "Ones", "Tenths", "Hundredths"], "correctIndex": 2, "explanation": "In 24.50: 2=tens, 4=ones, 5=tenths, 0=hundredths.", "tags": ["decimals", "place-value", "real-life"] }
+  ]
+}

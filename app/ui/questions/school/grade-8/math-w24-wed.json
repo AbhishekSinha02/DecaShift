@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-math-w24-wed",
+  "title": "Grade 8 Math — Wed, Jun 11",
+  "description": "Cubes & Cube Roots — Day 3 of 5: Cube root by prime factorisation (simple cases)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-8", "weekly", "cube-roots", "prime-factorisation"],
+  "questions": [
+    { "id": "g8m-w24-wed-001", "question": "The cube root of n (∛n) is the number m such that ___.", "options": ["m × 3 = n", "m² = n", "m³ = n", "m + m + m = n"], "correctIndex": 2, "explanation": "Cube root: ∛n = m means m³ = n.", "tags": ["cube-roots", "concept"] },
+    { "id": "g8m-w24-wed-002", "question": "∛8 = ___.", "options": ["2", "4", "3", "8"], "correctIndex": 0, "explanation": "2³ = 8. So ∛8 = 2.", "tags": ["cube-roots", "calculation"] },
+    { "id": "g8m-w24-wed-003", "question": "∛27 = ___.", "options": ["2", "3", "4", "9"], "correctIndex": 1, "explanation": "3³ = 27. So ∛27 = 3.", "tags": ["cube-roots", "calculation"] },
+    { "id": "g8m-w24-wed-004", "question": "∛125 = ___.", "options": ["4", "5", "6", "25"], "correctIndex": 1, "explanation": "5³ = 125. So ∛125 = 5.", "tags": ["cube-roots", "calculation"] },
+    { "id": "g8m-w24-wed-005", "question": "To find ∛216 by prime factorisation: 216 = 2 × 2 × 2 × 3 × 3 × 3. Form groups of 3: {2,2,2} and {3,3,3}. ∛216 = ___.", "options": ["4", "5", "6", "8"], "correctIndex": 2, "explanation": "One group of 2s gives 2, one group of 3s gives 3. ∛216 = 2 × 3 = 6.", "tags": ["cube-roots", "prime-factorisation"] },
+    { "id": "g8m-w24-wed-006", "question": "Find ∛343. 343 = 7 × 7 × 7. So ∛343 = ___.", "options": ["3", "7", "9", "49"], "correctIndex": 1, "explanation": "343 = 7³. ∛343 = 7.", "tags": ["cube-roots", "prime-factorisation"] },
+    { "id": "g8m-w24-wed-007", "question": "Prime factorisation of 512: 512 = 2⁹ = 2³ × 2³ × 2³. ∛512 = ___.", "options": ["4", "6", "8", "16"], "correctIndex": 2, "explanation": "∛512 = ∛(2³ × 2³ × 2³) = 2 × 2 × 2 = 8.", "tags": ["cube-roots", "prime-factorisation"] },
+    { "id": "g8m-w24-wed-008", "question": "For ∛n by prime factorisation, we group the prime factors in sets of ___.", "options": ["2", "3", "4", "5"], "correctIndex": 1, "explanation": "For cube roots, form groups of 3 identical prime factors. Each group contributes one factor to the root.", "tags": ["cube-roots", "prime-factorisation"] },
+    { "id": "g8m-w24-wed-009", "question": "∛1000 = ___.", "options": ["5", "10", "100", "50"], "correctIndex": 1, "explanation": "10³ = 1000. So ∛1000 = 10.", "tags": ["cube-roots", "calculation"] },
+    { "id": "g8m-w24-wed-010", "question": "Is 54 a perfect cube? 54 = 2 × 3³. (Check: one group of 3s but only one 2.)", "options": ["Yes", "No — not a perfect cube", "Yes (approximate)", "Cannot determine"], "correctIndex": 1, "explanation": "54 = 2 × 3 × 3 × 3. The 2 is unpaired (no group of three 2s). Not a perfect cube.", "tags": ["cube-roots", "perfect-cube"] },
+    { "id": "g8m-w24-wed-011", "question": "What is the smallest number 54 must be multiplied by to make it a perfect cube?", "options": ["2", "4", "6", "8"], "correctIndex": 1, "explanation": "54 = 2 × 3³. Need two more 2s to form 2³. 54 × 4 = 216 = 6³.", "tags": ["cube-roots", "smallest-multiplier"] },
+    { "id": "g8m-w24-wed-012", "question": "∛-64 = ___.", "options": ["−4", "4", "−8", "8"], "correctIndex": 0, "explanation": "(-4)³ = -64. So ∛-64 = -4.", "tags": ["cube-roots", "negative"] },
+    { "id": "g8m-w24-wed-013", "question": "∛(a³b³) = ___.", "options": ["ab", "a²b²", "a³b³", "a+b"], "correctIndex": 0, "explanation": "∛(a³b³) = ∛a³ × ∛b³ = a × b = ab.", "tags": ["cube-roots", "algebra"] },
+    { "id": "g8m-w24-wed-014", "question": "Find the cube root of 729. 729 = 3⁶ = (3²)³. So ∛729 = ___.", "options": ["3", "9", "27", "6"], "correctIndex": 1, "explanation": "729 = 9³ (also = 3⁶). ∛729 = 9.", "tags": ["cube-roots", "calculation"] },
+    { "id": "g8m-w24-wed-015", "question": "A cube has volume 1000 cm³. Its side = ___.", "options": ["10 cm", "100 cm", "5 cm", "50 cm"], "correctIndex": 0, "explanation": "Side = ∛Volume = ∛1000 = 10 cm.", "tags": ["cube-roots", "real-life"] }
+  ]
+}

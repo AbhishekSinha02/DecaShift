@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-math-w24-fri",
+  "title": "Grade 8 Math — Fri, Jun 13",
+  "description": "Cubes & Cube Roots — Day 5 of 5: Synthesis, identities and applications",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 24,
+  "weekDay": "fri",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-8", "weekly", "cubes", "cube-roots", "mixed"],
+  "questions": [
+    { "id": "g8m-w24-fri-001", "question": "(a − b)³ = ___.", "options": ["a³ − b³", "a³ − b³ − 3ab(a−b)", "a³ − 3a²b + 3ab² − b³", "a³ + b³ − 3ab"], "correctIndex": 2, "explanation": "(a−b)³ = a³ − 3a²b + 3ab² − b³.", "tags": ["cubes", "identity"] },
+    { "id": "g8m-w24-fri-002", "question": "Using the identity, expand (2 + 3)³.", "options": ["8 + 27", "125", "35", "6³ = 216"], "correctIndex": 1, "explanation": "(2+3)³ = 5³ = 125. The identity gives the same answer as computing 5³ directly.", "tags": ["cubes", "identity"] },
+    { "id": "g8m-w24-fri-003", "question": "a³ + b³ = (a + b)(a² − ab + b²). Using this, factorise x³ + 8.", "options": ["(x+2)(x²+2x+4)", "(x+2)(x²−2x+4)", "(x−2)(x²+2x+4)", "(x+8)(x²−8)"], "correctIndex": 1, "explanation": "x³ + 8 = x³ + 2³ = (x+2)(x² − 2x + 4).", "tags": ["cubes", "factorisation", "sum-of-cubes"] },
+    { "id": "g8m-w24-fri-004", "question": "a³ − b³ = (a − b)(a² + ab + b²). Factorise 27 − x³.", "options": ["(3−x)(9−3x+x²)", "(3−x)(9+3x+x²)", "(x−3)(9+3x+x²)", "(3+x)(9−3x+x²)"], "correctIndex": 1, "explanation": "27 − x³ = 3³ − x³ = (3−x)(9 + 3x + x²).", "tags": ["cubes", "factorisation", "difference-of-cubes"] },
+    { "id": "g8m-w24-fri-005", "question": "∛(0.008) = ___. (0.008 = 8/1000)", "options": ["0.02", "0.2", "0.002", "2"], "correctIndex": 1, "explanation": "∛(0.008) = ∛(8/1000) = ∛8 / ∛1000 = 2/10 = 0.2.", "tags": ["cube-roots", "decimals"] },
+    { "id": "g8m-w24-fri-006", "question": "The volume of a cuboid is 3375 cm³. If it is a cube, what is the side length?", "options": ["12 cm", "15 cm", "18 cm", "25 cm"], "correctIndex": 1, "explanation": "Side = ∛3375 = 15 (since 15³ = 3375).", "tags": ["cube-roots", "real-life"] },
+    { "id": "g8m-w24-fri-007", "question": "If x³ = 512, then x = ___.", "options": ["6", "7", "8", "9"], "correctIndex": 2, "explanation": "∛512 = 8. So x = 8.", "tags": ["cube-roots", "equation"] },
+    { "id": "g8m-w24-fri-008", "question": "Which of these equals 2³ × 3³?", "options": ["6³", "5³", "216", "Both A and C"], "correctIndex": 3, "explanation": "2³ × 3³ = (2×3)³ = 6³ = 216. Both A and C are correct.", "tags": ["cubes", "properties"] },
+    { "id": "g8m-w24-fri-009", "question": "The difference between the cubes of two consecutive integers 4 and 5 is ___.", "options": ["1", "61", "9", "125"], "correctIndex": 1, "explanation": "5³ − 4³ = 125 − 64 = 61.", "tags": ["cubes", "calculation"] },
+    { "id": "g8m-w24-fri-010", "question": "Simplify: ∛(216a³b⁶) = ___.", "options": ["6a³b⁶", "6ab²", "36ab³", "6a³b²"], "correctIndex": 1, "explanation": "∛216 = 6, ∛a³ = a, ∛b⁶ = ∛(b²)³ = b². Answer: 6ab².", "tags": ["cube-roots", "algebra"] },
+    { "id": "g8m-w24-fri-011", "question": "How many perfect cubes are there from 100 to 1000 (inclusive)?", "options": ["3", "4", "5", "6"], "correctIndex": 2, "explanation": "5³=125, 6³=216, 7³=343, 8³=512, 9³=729. (Not 10³=1000 as 1000 is included, so 5 cubes: 125,216,343,512,729)", "tags": ["cubes", "counting"] },
+    { "id": "g8m-w24-fri-012", "question": "Verify: 1³ + 2³ + 3³ = (1+2+3)²? LHS = 1+8+27 = ___.", "options": ["36", "6", "216", "12"], "correctIndex": 0, "explanation": "1³+2³+3³ = 1+8+27 = 36. RHS = (1+2+3)² = 6² = 36. Confirmed!", "tags": ["cubes", "pattern"] },
+    { "id": "g8m-w24-fri-013", "question": "Using the pattern 1³+2³+3³ = (1+2+3)², what is 1³+2³+3³+4³?", "options": ["100", "144", "36", "64"], "correctIndex": 0, "explanation": "(1+2+3+4)² = 10² = 100.", "tags": ["cubes", "pattern"] },
+    { "id": "g8m-w24-fri-014", "question": "Is there a real cube root for every real number (positive, negative, or zero)?", "options": ["Only positive numbers", "Only positive and zero", "Yes — every real number has exactly one real cube root", "No — negative numbers have no cube root"], "correctIndex": 2, "explanation": "Unlike square roots, cube roots exist for all real numbers including negatives. e.g. ∛(-8) = -2.", "tags": ["cube-roots", "concept"] },
+    { "id": "g8m-w24-fri-015", "question": "Complete the table: 11³ = ___.", "options": ["1111", "1221", "1331", "1441"], "correctIndex": 2, "explanation": "11³ = 11 × 11 × 11 = 121 × 11 = 1331.", "tags": ["cubes", "calculation"] }
+  ]
+}

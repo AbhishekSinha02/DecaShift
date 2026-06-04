@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w24-mon",
+  "title": "Grade 2 Math — Mon, Jun 09",
+  "description": "Measurement — Day 1 of 5: Units of length (cm, m, km)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "measurement", "length"],
+  "questions": [
+    { "id": "g2m-w24-mon-001", "question": "Which unit do we use to measure the length of a pencil?", "options": ["Kilometre (km)", "Centimetre (cm)", "Litre (L)", "Kilogram (kg)"], "correctIndex": 1, "explanation": "A pencil is a small object. We measure small lengths in centimetres (cm).", "tags": ["measurement", "length", "cm"] },
+    { "id": "g2m-w24-mon-002", "question": "Which unit is used to measure the length of a room?", "options": ["Centimetre (cm)", "Gram (g)", "Metre (m)", "Millilitre (mL)"], "correctIndex": 2, "explanation": "A room is bigger than a pencil. We use metres (m) for bigger lengths.", "tags": ["measurement", "length", "m"] },
+    { "id": "g2m-w24-mon-003", "question": "The distance from Delhi to Lucknow is about 500 ___.", "options": ["cm", "m", "km", "g"], "correctIndex": 2, "explanation": "Very long distances between cities are measured in kilometres (km).", "tags": ["measurement", "length", "km"] },
+    { "id": "g2m-w24-mon-004", "question": "A thumbnail is about 1 ___ wide.", "options": ["metre", "kilometre", "centimetre", "kilogram"], "correctIndex": 2, "explanation": "A thumbnail is very small — it is about 1 centimetre wide.", "tags": ["measurement", "length", "cm"] },
+    { "id": "g2m-w24-mon-005", "question": "Which is the shortest unit of the three?", "options": ["Kilometre", "Metre", "Centimetre", "All are equal"], "correctIndex": 2, "explanation": "Centimetre is the shortest. 100 cm = 1 m; 1000 m = 1 km.", "tags": ["measurement", "length", "units"] },
+    { "id": "g2m-w24-mon-006", "question": "A cricket pitch is 20 ___ long.", "options": ["km", "cm", "m", "kg"], "correctIndex": 2, "explanation": "A cricket pitch is about 20 metres — longer than a room but much shorter than a kilometre.", "tags": ["measurement", "length", "m"] },
+    { "id": "g2m-w24-mon-007", "question": "How many centimetres are in 1 metre?", "options": ["10", "100", "1000", "50"], "correctIndex": 1, "explanation": "1 metre = 100 centimetres. Think of a metre ruler with 100 small divisions.", "tags": ["measurement", "length", "conversion"] },
+    { "id": "g2m-w24-mon-008", "question": "A book is 25 ___ thick.", "options": ["km", "m", "cm", "L"], "correctIndex": 2, "explanation": "A book is a small object. Its thickness is measured in centimetres.", "tags": ["measurement", "length", "cm"] },
+    { "id": "g2m-w24-mon-009", "question": "Which tool do we use to measure length?", "options": ["Weighing scale", "Measuring cup", "Ruler", "Clock"], "correctIndex": 2, "explanation": "A ruler has centimetre markings and is used to measure length.", "tags": ["measurement", "tools"] },
+    { "id": "g2m-w24-mon-010", "question": "The height of a tall building is measured in ___.", "options": ["cm", "g", "m", "mL"], "correctIndex": 2, "explanation": "Buildings are several metres tall. We use metres (m) to measure their height.", "tags": ["measurement", "length", "m"] },
+    { "id": "g2m-w24-mon-011", "question": "Which is LONGEST?", "options": ["1 cm", "1 m", "1 km", "All the same"], "correctIndex": 2, "explanation": "1 km = 1000 m = 100,000 cm. Kilometre is the longest.", "tags": ["measurement", "length", "units"] },
+    { "id": "g2m-w24-mon-012", "question": "A caterpillar is about 4 ___ long.", "options": ["m", "km", "cm", "kg"], "correctIndex": 2, "explanation": "A caterpillar is tiny — only a few centimetres long.", "tags": ["measurement", "length", "cm"] },
+    { "id": "g2m-w24-mon-013", "question": "Riya's school is 2 ___ from her house.", "options": ["cm", "g", "km", "mL"], "correctIndex": 2, "explanation": "The distance between two places is measured in kilometres.", "tags": ["measurement", "length", "km"] },
+    { "id": "g2m-w24-mon-014", "question": "A door is about 2 ___ tall.", "options": ["cm", "km", "m", "g"], "correctIndex": 2, "explanation": "A door is about 2 metres tall — much taller than your ruler but not as far as a kilometre.", "tags": ["measurement", "length", "m"] },
+    { "id": "g2m-w24-mon-015", "question": "Which unit would you use to measure a football field?", "options": ["cm", "m", "km", "g"], "correctIndex": 1, "explanation": "A football field is about 100 metres long. We use metres, not km (too far) or cm (too small).", "tags": ["measurement", "length", "m"] }
+  ]
+}

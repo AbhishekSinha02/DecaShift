@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w24-mon",
+  "title": "Grade 6 Math — Mon, Jun 09",
+  "description": "Basic Geometry — Day 1 of 5: Types of lines and line segments",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-6", "weekly", "geometry", "lines"],
+  "questions": [
+    { "id": "g6m-w24-mon-001", "question": "Which of these has no endpoints and extends in both directions forever?", "options": ["Line segment", "Ray", "Line", "Angle"], "correctIndex": 2, "explanation": "A line has no endpoints and extends infinitely in both directions.", "tags": ["geometry", "lines"] },
+    { "id": "g6m-w24-mon-002", "question": "A line segment has ___.", "options": ["No endpoints", "One endpoint", "Two endpoints", "Infinite length"], "correctIndex": 2, "explanation": "A line segment has two endpoints — it has a fixed, measurable length.", "tags": ["geometry", "line-segment"] },
+    { "id": "g6m-w24-mon-003", "question": "A ray has ___.", "options": ["Two endpoints", "One endpoint and goes on forever in one direction", "No endpoints", "A fixed length"], "correctIndex": 1, "explanation": "A ray has one starting endpoint and extends infinitely in one direction.", "tags": ["geometry", "ray"] },
+    { "id": "g6m-w24-mon-004", "question": "The edge of a ruler is an example of a ___.", "options": ["Ray", "Curved line", "Line segment", "Circle"], "correctIndex": 2, "explanation": "The edge of a ruler has two ends — it is a line segment.", "tags": ["geometry", "line-segment"] },
+    { "id": "g6m-w24-mon-005", "question": "Two lines that never meet (always the same distance apart) are called ___.", "options": ["Perpendicular lines", "Parallel lines", "Intersecting lines", "Curved lines"], "correctIndex": 1, "explanation": "Parallel lines run side by side and never intersect. Train tracks are an example.", "tags": ["geometry", "parallel"] },
+    { "id": "g6m-w24-mon-006", "question": "Two lines that cross each other are called ___.", "options": ["Parallel lines", "Intersecting lines", "Concurrent lines", "Collinear points"], "correctIndex": 1, "explanation": "Intersecting lines are lines that meet or cross at a point.", "tags": ["geometry", "intersecting"] },
+    { "id": "g6m-w24-mon-007", "question": "A sunbeam coming from the sun is best described as a ___.", "options": ["Line segment", "Line", "Ray", "Curve"], "correctIndex": 2, "explanation": "A sunbeam starts at the sun (one endpoint) and travels on in one direction — a ray.", "tags": ["geometry", "ray"] },
+    { "id": "g6m-w24-mon-008", "question": "Which symbol represents a line passing through points A and B?", "options": ["AB with one arrow →", "AB with two arrows ↔", "AB with a bar above (segment)", "AB with an arc"], "correctIndex": 1, "explanation": "A line through A and B is written with arrows on both ends (↔) showing it extends in both directions.", "tags": ["geometry", "notation"] },
+    { "id": "g6m-w24-mon-009", "question": "How many lines can pass through TWO given points?", "options": ["None", "Exactly one", "Two", "Infinite"], "correctIndex": 1, "explanation": "Through any two given points, exactly one straight line can be drawn.", "tags": ["geometry", "lines", "axiom"] },
+    { "id": "g6m-w24-mon-010", "question": "Lines that meet at a right angle (90°) are called ___.", "options": ["Parallel", "Skew", "Perpendicular", "Transversal"], "correctIndex": 2, "explanation": "Perpendicular lines meet at exactly 90°.", "tags": ["geometry", "perpendicular"] },
+    { "id": "g6m-w24-mon-011", "question": "The edges of a square are ___.", "options": ["Rays", "Lines", "Line segments", "Curves"], "correctIndex": 2, "explanation": "The sides of a square are straight and have fixed endpoints — they are line segments.", "tags": ["geometry", "line-segment"] },
+    { "id": "g6m-w24-mon-012", "question": "Collinear points are ___.", "options": ["Points on the same circle", "Points on the same line", "Points forming a triangle", "Points on parallel lines"], "correctIndex": 1, "explanation": "Collinear points all lie on the same straight line.", "tags": ["geometry", "collinear"] },
+    { "id": "g6m-w24-mon-013", "question": "Which has the greater length — a line or a line segment?", "options": ["Line segment", "Line", "Both are equal", "Depends on the ruler"], "correctIndex": 1, "explanation": "A line is infinite (no end). A line segment has a fixed finite length. A line is infinitely longer.", "tags": ["geometry", "lines"] },
+    { "id": "g6m-w24-mon-014", "question": "A straight road and the lines marking its lanes are ___.", "options": ["Intersecting", "Perpendicular", "Parallel", "Curved"], "correctIndex": 2, "explanation": "Lane markings run alongside and never cross the road — they are parallel.", "tags": ["geometry", "parallel"] },
+    { "id": "g6m-w24-mon-015", "question": "How many line segments are there in a triangle?", "options": ["2", "3", "4", "6"], "correctIndex": 1, "explanation": "A triangle has 3 sides, each of which is a line segment.", "tags": ["geometry", "line-segment", "triangle"] }
+  ]
+}

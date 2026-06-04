@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-math-w24-mon",
+  "title": "Grade 8 Math — Mon, Jun 09",
+  "description": "Cubes & Cube Roots — Day 1 of 5: What is a cube? Perfect cubes 1–10",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-8", "weekly", "cubes", "perfect-cubes"],
+  "questions": [
+    { "id": "g8m-w24-mon-001", "question": "The cube of a number n is ___.", "options": ["n + n + n", "n × n", "n × n × n", "n²"], "correctIndex": 2, "explanation": "The cube of n means n multiplied by itself 3 times: n³ = n × n × n.", "tags": ["cubes", "concept"] },
+    { "id": "g8m-w24-mon-002", "question": "2³ = ___.", "options": ["6", "4", "8", "16"], "correctIndex": 2, "explanation": "2³ = 2 × 2 × 2 = 8.", "tags": ["cubes", "calculation"] },
+    { "id": "g8m-w24-mon-003", "question": "3³ = ___.", "options": ["9", "27", "6", "18"], "correctIndex": 1, "explanation": "3³ = 3 × 3 × 3 = 27.", "tags": ["cubes", "calculation"] },
+    { "id": "g8m-w24-mon-004", "question": "4³ = ___.", "options": ["16", "48", "64", "12"], "correctIndex": 2, "explanation": "4³ = 4 × 4 × 4 = 64.", "tags": ["cubes", "calculation"] },
+    { "id": "g8m-w24-mon-005", "question": "5³ = ___.", "options": ["25", "15", "125", "500"], "correctIndex": 2, "explanation": "5³ = 5 × 5 × 5 = 125.", "tags": ["cubes", "calculation"] },
+    { "id": "g8m-w24-mon-006", "question": "A perfect cube is a number that can be expressed as n³ for some integer n. Which is a perfect cube?", "options": ["10", "18", "27", "50"], "correctIndex": 2, "explanation": "27 = 3³. 10, 18, and 50 are not perfect cubes.", "tags": ["cubes", "perfect-cube"] },
+    { "id": "g8m-w24-mon-007", "question": "6³ = ___.", "options": ["18", "36", "216", "36"], "correctIndex": 2, "explanation": "6³ = 6 × 6 × 6 = 216.", "tags": ["cubes", "calculation"] },
+    { "id": "g8m-w24-mon-008", "question": "7³ = ___.", "options": ["49", "147", "343", "21"], "correctIndex": 2, "explanation": "7³ = 7 × 7 × 7 = 343.", "tags": ["cubes", "calculation"] },
+    { "id": "g8m-w24-mon-009", "question": "8³ = ___.", "options": ["24", "64", "512", "256"], "correctIndex": 2, "explanation": "8³ = 8 × 8 × 8 = 512.", "tags": ["cubes", "calculation"] },
+    { "id": "g8m-w24-mon-010", "question": "9³ = ___.", "options": ["81", "729", "243", "27"], "correctIndex": 1, "explanation": "9³ = 9 × 9 × 9 = 729.", "tags": ["cubes", "calculation"] },
+    { "id": "g8m-w24-mon-011", "question": "10³ = ___.", "options": ["100", "300", "1000", "10000"], "correctIndex": 2, "explanation": "10³ = 10 × 10 × 10 = 1000.", "tags": ["cubes", "calculation"] },
+    { "id": "g8m-w24-mon-012", "question": "Which of these is NOT a perfect cube?", "options": ["8", "27", "64", "100"], "correctIndex": 3, "explanation": "8 = 2³, 27 = 3³, 64 = 4³. 100 is not a perfect cube.", "tags": ["cubes", "perfect-cube"] },
+    { "id": "g8m-w24-mon-013", "question": "A physical cube has side length 5 cm. Its volume = ___.", "options": ["15 cm³", "25 cm³", "125 cm³", "50 cm³"], "correctIndex": 2, "explanation": "Volume of a cube = side³ = 5³ = 125 cm³.", "tags": ["cubes", "real-life"] },
+    { "id": "g8m-w24-mon-014", "question": "Which number when cubed gives 1000?", "options": ["10", "100", "5", "12"], "correctIndex": 0, "explanation": "10³ = 1000.", "tags": ["cubes", "perfect-cube"] },
+    { "id": "g8m-w24-mon-015", "question": "List the perfect cubes between 1 and 100: 1, 8, 27, 64 — and the next one is ___.", "options": ["100", "125", "216", "81"], "correctIndex": 1, "explanation": "5³ = 125. That's the next perfect cube after 64 (4³).", "tags": ["cubes", "perfect-cube"] }
+  ]
+}

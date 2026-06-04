@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-math-w24-thu",
+  "title": "Grade 8 Math — Thu, Jun 12",
+  "description": "Cubes & Cube Roots — Day 4 of 5: Cube roots of larger numbers; making perfect cubes",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-8", "weekly", "cube-roots", "applications"],
+  "questions": [
+    { "id": "g8m-w24-thu-001", "question": "∛1728 = ___. (Hint: 1728 = 12³)", "options": ["12", "14", "16", "18"], "correctIndex": 0, "explanation": "12³ = 1728. So ∛1728 = 12.", "tags": ["cube-roots", "calculation"] },
+    { "id": "g8m-w24-thu-002", "question": "∛2197 = ___. (Hint: 13³ = 2197)", "options": ["11", "12", "13", "14"], "correctIndex": 2, "explanation": "13³ = 2197. So ∛2197 = 13.", "tags": ["cube-roots", "calculation"] },
+    { "id": "g8m-w24-thu-003", "question": "The prime factorisation of 2744 is 2³ × 7³. ∛2744 = ___.", "options": ["7", "14", "21", "2"], "correctIndex": 1, "explanation": "∛2744 = ∛(2³ × 7³) = 2 × 7 = 14.", "tags": ["cube-roots", "prime-factorisation"] },
+    { "id": "g8m-w24-thu-004", "question": "The smallest number by which 24 must be multiplied to make it a perfect cube: 24 = 2³ × 3. Missing: 3². Multiply by ___.", "options": ["2", "3", "9", "18"], "correctIndex": 2, "explanation": "24 = 2³ × 3. Need 3² = 9 more to make 3³. 24 × 9 = 216 = 6³.", "tags": ["cube-roots", "smallest-multiplier"] },
+    { "id": "g8m-w24-thu-005", "question": "The smallest number by which 81 must be divided to make it a perfect cube: 81 = 3⁴. Divide by ___.", "options": ["3", "9", "27", "81"], "correctIndex": 0, "explanation": "81 = 3⁴. For a perfect cube, need 3³. So divide by 3¹ = 3. 81 ÷ 3 = 27 = 3³.", "tags": ["cube-roots", "smallest-divisor"] },
+    { "id": "g8m-w24-thu-006", "question": "How many cubes of side 2 cm fit exactly into a cube of side 8 cm?", "options": ["4", "16", "64", "8"], "correctIndex": 2, "explanation": "Volume of big cube = 8³ = 512 cm³. Volume of small cube = 2³ = 8 cm³. 512 ÷ 8 = 64.", "tags": ["cubes", "real-life"] },
+    { "id": "g8m-w24-thu-007", "question": "Which is greater — ∛64 or √64?", "options": ["∛64 (= 4)", "√64 (= 8)", "Both are equal", "Cannot compare"], "correctIndex": 1, "explanation": "∛64 = 4 (since 4³=64). √64 = 8 (since 8²=64). 8 > 4, so √64 is greater.", "tags": ["cube-roots", "vs-square-root"] },
+    { "id": "g8m-w24-thu-008", "question": "∛(8 × 27) = ___.", "options": ["6", "9", "12", "3"], "correctIndex": 0, "explanation": "∛(8 × 27) = ∛8 × ∛27 = 2 × 3 = 6.", "tags": ["cube-roots", "properties"] },
+    { "id": "g8m-w24-thu-009", "question": "∛(64/125) = ___.", "options": ["4/5", "3/5", "8/25", "2/5"], "correctIndex": 0, "explanation": "∛64 = 4; ∛125 = 5. ∛(64/125) = 4/5.", "tags": ["cube-roots", "fractions"] },
+    { "id": "g8m-w24-thu-010", "question": "What is the smallest natural number by which 250 must be multiplied to get a perfect cube? 250 = 2 × 5³.", "options": ["2", "4", "5", "25"], "correctIndex": 1, "explanation": "250 = 2 × 5³. Need 2² = 4 more to form 2³. 250 × 4 = 1000 = 10³.", "tags": ["cube-roots", "smallest-multiplier"] },
+    { "id": "g8m-w24-thu-011", "question": "What must 500 be divided by to give a perfect cube? 500 = 2² × 5³.", "options": ["2", "4", "5", "10"], "correctIndex": 1, "explanation": "500 = 2² × 5³. Dividing by 4 (= 2²) gives 5³ = 125, a perfect cube.", "tags": ["cube-roots", "smallest-divisor"] },
+    { "id": "g8m-w24-thu-012", "question": "Estimate ∛90: it lies between ___ and ___ (consecutive integers).", "options": ["3 and 4", "4 and 5", "5 and 6", "6 and 7"], "correctIndex": 1, "explanation": "4³=64, 5³=125. Since 64 < 90 < 125, ∛90 is between 4 and 5.", "tags": ["cube-roots", "estimation"] },
+    { "id": "g8m-w24-thu-013", "question": "Estimate ∛500: it lies between ___.", "options": ["5 and 6", "6 and 7", "7 and 8", "8 and 9"], "correctIndex": 2, "explanation": "7³=343, 8³=512. 343 < 500 < 512, so ∛500 is between 7 and 8.", "tags": ["cube-roots", "estimation"] },
+    { "id": "g8m-w24-thu-014", "question": "If ∛x = 11, what is x?", "options": ["33", "121", "1331", "11000"], "correctIndex": 2, "explanation": "x = 11³ = 11 × 11 × 11 = 1331.", "tags": ["cubes", "reverse"] },
+    { "id": "g8m-w24-thu-015", "question": "If ∛x = 15, what is x?", "options": ["45", "225", "3375", "1500"], "correctIndex": 2, "explanation": "x = 15³ = 15 × 15 × 15 = 3375.", "tags": ["cubes", "reverse"] }
+  ]
+}

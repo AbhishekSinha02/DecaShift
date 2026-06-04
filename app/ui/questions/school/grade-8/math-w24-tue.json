@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-math-w24-tue",
+  "title": "Grade 8 Math — Tue, Jun 10",
+  "description": "Cubes & Cube Roots — Day 2 of 5: Properties of perfect cubes",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-8", "weekly", "cubes", "properties"],
+  "questions": [
+    { "id": "g8m-w24-tue-001", "question": "The cube of an even number is ___.", "options": ["Always odd", "Always even", "Sometimes odd, sometimes even", "Always zero"], "correctIndex": 1, "explanation": "Even × Even × Even = Even. e.g., 2³=8, 4³=64.", "tags": ["cubes", "properties"] },
+    { "id": "g8m-w24-tue-002", "question": "The cube of an odd number is ___.", "options": ["Always even", "Always odd", "Sometimes even", "Always a perfect square"], "correctIndex": 1, "explanation": "Odd × Odd × Odd = Odd. e.g., 3³=27, 5³=125.", "tags": ["cubes", "properties"] },
+    { "id": "g8m-w24-tue-003", "question": "The cube of a negative number is ___.", "options": ["Always positive", "Always negative", "Always zero", "Can be positive or negative"], "correctIndex": 1, "explanation": "(-n)³ = -n³. e.g., (-2)³ = -8. Negative.", "tags": ["cubes", "negative"] },
+    { "id": "g8m-w24-tue-004", "question": "(-3)³ = ___.", "options": ["-27", "27", "-9", "9"], "correctIndex": 0, "explanation": "(-3) × (-3) × (-3) = 9 × (-3) = -27.", "tags": ["cubes", "negative"] },
+    { "id": "g8m-w24-tue-005", "question": "A number ends in digit 2. Its cube ends in ___.", "options": ["2", "4", "8", "6"], "correctIndex": 2, "explanation": "2³ = 8. Numbers ending in 2 always have cubes ending in 8.", "tags": ["cubes", "unit-digit"] },
+    { "id": "g8m-w24-tue-006", "question": "A number ends in digit 3. Its cube ends in ___.", "options": ["3", "7", "9", "1"], "correctIndex": 1, "explanation": "3³ = 27. Numbers ending in 3 have cubes ending in 7.", "tags": ["cubes", "unit-digit"] },
+    { "id": "g8m-w24-tue-007", "question": "A number ends in digit 5. Its cube ends in ___.", "options": ["5", "0", "25", "125"], "correctIndex": 0, "explanation": "5³ = 125. Numbers ending in 5 always have cubes ending in 5.", "tags": ["cubes", "unit-digit"] },
+    { "id": "g8m-w24-tue-008", "question": "A number ends in 0. Its cube ends in ___.", "options": ["0", "1", "5", "8"], "correctIndex": 0, "explanation": "10³ = 1000. Numbers ending in 0 have cubes ending in 0.", "tags": ["cubes", "unit-digit"] },
+    { "id": "g8m-w24-tue-009", "question": "The number 1 is a perfect cube because 1³ = 1. What is (-1)³?", "options": ["1", "-1", "0", "3"], "correctIndex": 1, "explanation": "(-1)³ = (-1) × (-1) × (-1) = 1 × (-1) = -1.", "tags": ["cubes", "negative"] },
+    { "id": "g8m-w24-tue-010", "question": "Is 125 a perfect cube?", "options": ["Yes (5³)", "No", "Yes (but not obvious)", "Only if 5 is prime"], "correctIndex": 0, "explanation": "125 = 5 × 5 × 5 = 5³. It is a perfect cube.", "tags": ["cubes", "perfect-cube"] },
+    { "id": "g8m-w24-tue-011", "question": "Is 200 a perfect cube?", "options": ["Yes", "No", "Yes (only approximately)", "Depends on definition"], "correctIndex": 1, "explanation": "5³=125, 6³=216. 200 is between them, so 200 is NOT a perfect cube.", "tags": ["cubes", "perfect-cube"] },
+    { "id": "g8m-w24-tue-012", "question": "If a cube has a volume of 216 cm³, its side length is ___.", "options": ["14 cm", "6 cm", "4 cm", "8 cm"], "correctIndex": 1, "explanation": "Side = cube root of volume = ∛216 = 6 (since 6³ = 216).", "tags": ["cubes", "real-life"] },
+    { "id": "g8m-w24-tue-013", "question": "How many perfect cubes are there between 1 and 1000 (inclusive)?", "options": ["5", "8", "10", "12"], "correctIndex": 2, "explanation": "1³, 2³, ..., 10³ = 1 to 1000. There are 10 perfect cubes.", "tags": ["cubes", "counting"] },
+    { "id": "g8m-w24-tue-014", "question": "The cube of a fraction: (1/2)³ = ___.", "options": ["1/2", "3/2", "1/8", "1/6"], "correctIndex": 2, "explanation": "(1/2)³ = 1/2 × 1/2 × 1/2 = 1/8.", "tags": ["cubes", "fractions"] },
+    { "id": "g8m-w24-tue-015", "question": "Which identity relates the cube of a sum? (a+b)³ = ___.", "options": ["a³ + b³", "a³ + b³ + 3ab(a+b)", "a³ + b³ + 2ab", "a³ + 3a²b + 3ab² + b³"], "correctIndex": 3, "explanation": "(a+b)³ = a³ + 3a²b + 3ab² + b³. This is the binomial expansion.", "tags": ["cubes", "identity"] }
+  ]
+}

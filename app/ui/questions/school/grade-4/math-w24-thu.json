@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w24-thu",
+  "title": "Grade 4 Math — Thu, Jun 12",
+  "description": "Decimals — Day 4 of 5: Adding decimals",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "decimals", "addition"],
+  "questions": [
+    { "id": "g4m-w24-thu-001", "question": "0.3 + 0.4 = ___.", "options": ["0.07", "0.34", "0.7", "7.0"], "correctIndex": 2, "explanation": "3 tenths + 4 tenths = 7 tenths = 0.7.", "tags": ["decimals", "addition"] },
+    { "id": "g4m-w24-thu-002", "question": "1.5 + 2.3 = ___.", "options": ["3.8", "3.08", "32.8", "0.38"], "correctIndex": 0, "explanation": "Ones: 1+2=3. Tenths: 5+3=8. Answer: 3.8.", "tags": ["decimals", "addition"] },
+    { "id": "g4m-w24-thu-003", "question": "2.4 + 3.6 = ___.", "options": ["5.10", "6.0", "5.0", "6.10"], "correctIndex": 1, "explanation": "Tenths: 4+6=10 tenths = 1 one (carry). Ones: 2+3+1=6. Answer: 6.0.", "tags": ["decimals", "addition", "carrying"] },
+    { "id": "g4m-w24-thu-004", "question": "0.25 + 0.30 = ___.", "options": ["0.055", "0.55", "5.5", "0.055"], "correctIndex": 1, "explanation": "Hundredths: 5+0=5. Tenths: 2+3=5. Answer: 0.55.", "tags": ["decimals", "addition"] },
+    { "id": "g4m-w24-thu-005", "question": "Pooja bought mangoes for ₹12.50 and bananas for ₹8.25. How much did she spend?", "options": ["₹20.25", "₹20.75", "₹21.00", "₹20.05"], "correctIndex": 1, "explanation": "₹12.50 + ₹8.25: Hundredths 0+5=5, Tenths 5+2=7, Ones 2+8=10→carry 1. 12+8+1=21. Wait: 12.50+8.25=20.75.", "tags": ["decimals", "addition", "word-problem"] },
+    { "id": "g4m-w24-thu-006", "question": "4.7 + 2.6 = ___.", "options": ["6.13", "7.3", "7.13", "6.3"], "correctIndex": 1, "explanation": "Tenths: 7+6=13 tenths = 1 one + 3 tenths (carry). Ones: 4+2+1=7. Answer: 7.3.", "tags": ["decimals", "addition", "carrying"] },
+    { "id": "g4m-w24-thu-007", "question": "3.00 + 0.75 = ___.", "options": ["3.075", "3.75", "37.5", "0.375"], "correctIndex": 1, "explanation": "3.00 + 0.75 = 3.75.", "tags": ["decimals", "addition"] },
+    { "id": "g4m-w24-thu-008", "question": "0.6 + 0.6 = ___.", "options": ["0.12", "1.2", "1.02", "12"], "correctIndex": 1, "explanation": "6 tenths + 6 tenths = 12 tenths = 1.2.", "tags": ["decimals", "addition"] },
+    { "id": "g4m-w24-thu-009", "question": "Ramu walked 1.4 km in the morning and 2.3 km in the evening. How far did he walk?", "options": ["3.5 km", "3.7 km", "4.7 km", "2.7 km"], "correctIndex": 1, "explanation": "1.4 + 2.3 = 3.7 km.", "tags": ["decimals", "addition", "word-problem"] },
+    { "id": "g4m-w24-thu-010", "question": "5.08 + 1.21 = ___.", "options": ["6.29", "6.39", "7.29", "6.029"], "correctIndex": 0, "explanation": "Hundredths: 8+1=9. Tenths: 0+2=2. Ones: 5+1=6. Answer: 6.29.", "tags": ["decimals", "addition"] },
+    { "id": "g4m-w24-thu-011", "question": "9.9 + 0.1 = ___.", "options": ["9.10", "10.0", "10.10", "9.01"], "correctIndex": 1, "explanation": "9 tenths + 1 tenth = 10 tenths = 1 one. 9+1=10.0.", "tags": ["decimals", "addition", "carrying"] },
+    { "id": "g4m-w24-thu-012", "question": "The rule for adding decimals is to line up the ___ points.", "options": ["ones", "decimal", "hundredths", "tenths"], "correctIndex": 1, "explanation": "Always align decimal points when adding (or subtracting) decimals so place values line up correctly.", "tags": ["decimals", "addition", "concept"] },
+    { "id": "g4m-w24-thu-013", "question": "0.35 + 0.65 = ___.", "options": ["0.90", "1.0", "0.100", "10"], "correctIndex": 1, "explanation": "Hundredths: 5+5=10→carry 1. Tenths: 3+6+1=10→carry 1. Ones: 0+0+1=1. Answer: 1.0.", "tags": ["decimals", "addition"] },
+    { "id": "g4m-w24-thu-014", "question": "A jar holds 0.75 L of juice. You add 0.25 L more. How much is in the jar now?", "options": ["0.10 L", "1.0 L", "1.75 L", "0.100 L"], "correctIndex": 1, "explanation": "0.75 + 0.25 = 1.00 L = 1 L.", "tags": ["decimals", "addition", "word-problem"] },
+    { "id": "g4m-w24-thu-015", "question": "2.15 + 3.84 = ___.", "options": ["5.99", "5.09", "6.99", "5.89"], "correctIndex": 0, "explanation": "Hundredths: 5+4=9. Tenths: 1+8=9. Ones: 2+3=5. Answer: 5.99.", "tags": ["decimals", "addition"] }
+  ]
+}

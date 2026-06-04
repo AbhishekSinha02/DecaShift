@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w24-fri",
+  "title": "Grade 4 Math — Fri, Jun 13",
+  "description": "Decimals — Day 5 of 5: Subtracting decimals and mixed practice",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "fri",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "decimals", "subtraction", "mixed"],
+  "questions": [
+    { "id": "g4m-w24-fri-001", "question": "0.9 − 0.4 = ___.", "options": ["0.05", "0.5", "5.0", "0.13"], "correctIndex": 1, "explanation": "9 tenths − 4 tenths = 5 tenths = 0.5.", "tags": ["decimals", "subtraction"] },
+    { "id": "g4m-w24-fri-002", "question": "3.8 − 1.5 = ___.", "options": ["1.3", "2.3", "2.13", "5.3"], "correctIndex": 1, "explanation": "Tenths: 8−5=3. Ones: 3−1=2. Answer: 2.3.", "tags": ["decimals", "subtraction"] },
+    { "id": "g4m-w24-fri-003", "question": "5.0 − 2.7 = ___.", "options": ["2.3", "3.3", "2.7", "3.7"], "correctIndex": 0, "explanation": "5.0 − 2.7: borrow 1 from ones. 10 tenths − 7 tenths = 3 tenths. 4−2=2. Answer: 2.3.", "tags": ["decimals", "subtraction", "borrowing"] },
+    { "id": "g4m-w24-fri-004", "question": "Raju had ₹10.00. He spent ₹4.50. How much is left?", "options": ["₹4.50", "₹5.50", "₹5.00", "₹6.50"], "correctIndex": 1, "explanation": "₹10.00 − ₹4.50 = ₹5.50.", "tags": ["decimals", "subtraction", "word-problem"] },
+    { "id": "g4m-w24-fri-005", "question": "7.6 − 3.9 = ___.", "options": ["3.7", "4.3", "4.7", "3.3"], "correctIndex": 0, "explanation": "7.6 − 3.9: borrow. 16 tenths − 9 tenths = 7 tenths. 6 − 3 − 1(borrow) = 2? No: 7−1=6, 6−3=3. Answer: 3.7.", "tags": ["decimals", "subtraction"] },
+    { "id": "g4m-w24-fri-006", "question": "1.00 − 0.35 = ___.", "options": ["0.75", "0.65", "0.35", "0.55"], "correctIndex": 1, "explanation": "1.00 − 0.35 = 0.65. Hundredths: 0−5 borrow → 10−5=5. Tenths: 9−3=6? Actually 1.00−0.35: 100−35=65 hundredths = 0.65.", "tags": ["decimals", "subtraction"] },
+    { "id": "g4m-w24-fri-007", "question": "A rope is 5.50 m long. After cutting off 2.25 m, how much is left?", "options": ["2.75 m", "3.25 m", "3.75 m", "2.25 m"], "correctIndex": 1, "explanation": "5.50 − 2.25 = 3.25 m.", "tags": ["decimals", "subtraction", "word-problem"] },
+    { "id": "g4m-w24-fri-008", "question": "Which is the decimal for 3/4?", "options": ["3.4", "0.34", "0.75", "7.5"], "correctIndex": 2, "explanation": "3/4 = 75/100 = 0.75.", "tags": ["decimals", "fractions", "conversion"] },
+    { "id": "g4m-w24-fri-009", "question": "4.25 + 1.50 − 2.00 = ___.", "options": ["3.75", "2.75", "4.75", "3.25"], "correctIndex": 0, "explanation": "4.25 + 1.50 = 5.75. 5.75 − 2.00 = 3.75.", "tags": ["decimals", "mixed-operations"] },
+    { "id": "g4m-w24-fri-010", "question": "Which decimal is equal to 1/4?", "options": ["0.14", "0.4", "0.25", "2.5"], "correctIndex": 2, "explanation": "1/4 = 25/100 = 0.25.", "tags": ["decimals", "fractions", "conversion"] },
+    { "id": "g4m-w24-fri-011", "question": "8.00 − 0.08 = ___.", "options": ["7.02", "7.92", "7.2", "0.792"], "correctIndex": 1, "explanation": "8.00 − 0.08 = 7.92.", "tags": ["decimals", "subtraction"] },
+    { "id": "g4m-w24-fri-012", "question": "A thermometer reads 38.5°C in the morning and 39.2°C in the afternoon. What is the increase?", "options": ["0.3°C", "0.7°C", "1.3°C", "0.7°C"], "correctIndex": 1, "explanation": "39.2 − 38.5 = 0.7°C.", "tags": ["decimals", "subtraction", "word-problem"] },
+    { "id": "g4m-w24-fri-013", "question": "Neha's pencil was 16.5 cm. She sharpened it and now it is 15.8 cm. How much was sharpened off?", "options": ["0.3 cm", "0.5 cm", "0.7 cm", "1.3 cm"], "correctIndex": 2, "explanation": "16.5 − 15.8 = 0.7 cm was sharpened off.", "tags": ["decimals", "subtraction", "word-problem"] },
+    { "id": "g4m-w24-fri-014", "question": "0.50 is the same as ___.", "options": ["5", "0.5", "1/5", "5/10 and 50/100"], "correctIndex": 3, "explanation": "0.50 = 0.5 = 5/10 = 50/100. They all represent the same value.", "tags": ["decimals", "equivalent"] },
+    { "id": "g4m-w24-fri-015", "question": "The sum of 2.3 and 4.7 is ___. The difference is ___.", "options": ["7.0 and 2.4", "7.0 and 2.4", "6.0 and 2.4", "7.0 and 3.0"], "correctIndex": 0, "explanation": "Sum: 2.3+4.7=7.0. Difference: 4.7−2.3=2.4.", "tags": ["decimals", "mixed-operations"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w24-tue",
+  "title": "Grade 3 Math — Tue, Jun 10",
+  "description": "Fractions — Day 2 of 5: Halves (1/2) and quarters (1/4)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "fractions", "halves", "quarters"],
+  "questions": [
+    { "id": "g3m-w24-tue-001", "question": "Half of 10 is ___.", "options": ["2", "4", "5", "8"], "correctIndex": 2, "explanation": "Half means dividing by 2. 10 ÷ 2 = 5.", "tags": ["fractions", "half"] },
+    { "id": "g3m-w24-tue-002", "question": "A quarter of 12 is ___.", "options": ["3", "4", "6", "2"], "correctIndex": 0, "explanation": "A quarter (1/4) means dividing by 4. 12 ÷ 4 = 3.", "tags": ["fractions", "quarter"] },
+    { "id": "g3m-w24-tue-003", "question": "Half of 18 is ___.", "options": ["4", "6", "8", "9"], "correctIndex": 3, "explanation": "18 ÷ 2 = 9.", "tags": ["fractions", "half"] },
+    { "id": "g3m-w24-tue-004", "question": "A quarter of 20 is ___.", "options": ["4", "5", "10", "8"], "correctIndex": 1, "explanation": "20 ÷ 4 = 5.", "tags": ["fractions", "quarter"] },
+    { "id": "g3m-w24-tue-005", "question": "Kavya has 16 stickers. She gives half to her friend. How many does she give away?", "options": ["4", "6", "8", "12"], "correctIndex": 2, "explanation": "Half of 16 = 16 ÷ 2 = 8 stickers.", "tags": ["fractions", "half", "word-problem"] },
+    { "id": "g3m-w24-tue-006", "question": "A quarter of 40 is ___.", "options": ["4", "8", "10", "20"], "correctIndex": 2, "explanation": "40 ÷ 4 = 10.", "tags": ["fractions", "quarter"] },
+    { "id": "g3m-w24-tue-007", "question": "2 quarters = ___.", "options": ["1/4", "1/2", "3/4", "1 whole"], "correctIndex": 1, "explanation": "2 quarters = 2/4 = 1/2 (half). Two quarter-pieces make one half.", "tags": ["fractions", "equivalent"] },
+    { "id": "g3m-w24-tue-008", "question": "Half of 30 is ___.", "options": ["10", "12", "15", "20"], "correctIndex": 2, "explanation": "30 ÷ 2 = 15.", "tags": ["fractions", "half"] },
+    { "id": "g3m-w24-tue-009", "question": "Ravi has 24 mangoes. A quarter of them are ripe. How many are ripe?", "options": ["4", "6", "8", "12"], "correctIndex": 1, "explanation": "1/4 of 24 = 24 ÷ 4 = 6 mangoes.", "tags": ["fractions", "quarter", "word-problem"] },
+    { "id": "g3m-w24-tue-010", "question": "4 quarters make ___ whole.", "options": ["1", "2", "3", "4"], "correctIndex": 0, "explanation": "4/4 = 1 whole. Four quarter-pieces make one complete whole.", "tags": ["fractions", "whole"] },
+    { "id": "g3m-w24-tue-011", "question": "Half of 50 is ___.", "options": ["5", "10", "20", "25"], "correctIndex": 3, "explanation": "50 ÷ 2 = 25.", "tags": ["fractions", "half"] },
+    { "id": "g3m-w24-tue-012", "question": "A quarter of 100 is ___.", "options": ["10", "20", "25", "50"], "correctIndex": 2, "explanation": "100 ÷ 4 = 25.", "tags": ["fractions", "quarter"] },
+    { "id": "g3m-w24-tue-013", "question": "Seema has ₹40. She spends half of it. How much does she spend?", "options": ["₹10", "₹20", "₹30", "₹40"], "correctIndex": 1, "explanation": "Half of ₹40 = 40 ÷ 2 = ₹20.", "tags": ["fractions", "half", "word-problem"] },
+    { "id": "g3m-w24-tue-014", "question": "Which is bigger — 1/2 or 1/4?", "options": ["1/4", "1/2", "Both are equal", "Cannot tell"], "correctIndex": 1, "explanation": "1/2 is bigger. When you cut something into 2 pieces, each piece is bigger than when cut into 4 pieces.", "tags": ["fractions", "comparing"] },
+    { "id": "g3m-w24-tue-015", "question": "A quarter of 32 is ___.", "options": ["4", "6", "8", "16"], "correctIndex": 2, "explanation": "32 ÷ 4 = 8.", "tags": ["fractions", "quarter"] }
+  ]
+}

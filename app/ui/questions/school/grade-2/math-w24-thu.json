@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w24-thu",
+  "title": "Grade 2 Math — Thu, Jun 12",
+  "description": "Measurement — Day 4 of 5: Capacity units (mL and L)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "measurement", "capacity"],
+  "questions": [
+    { "id": "g2m-w24-thu-001", "question": "Which unit measures how much liquid a container holds?", "options": ["kg", "km", "Litre (L)", "cm"], "correctIndex": 2, "explanation": "Capacity (how much a container holds) is measured in litres (L) or millilitres (mL).", "tags": ["measurement", "capacity", "L"] },
+    { "id": "g2m-w24-thu-002", "question": "A medicine dropper holds about 5 ___.", "options": ["L", "kg", "m", "mL"], "correctIndex": 3, "explanation": "A medicine dropper holds a tiny amount — about 5 millilitres (mL).", "tags": ["measurement", "capacity", "mL"] },
+    { "id": "g2m-w24-thu-003", "question": "1 litre = ___ millilitres.", "options": ["10 mL", "100 mL", "1000 mL", "500 mL"], "correctIndex": 2, "explanation": "1 L = 1000 mL. Just as 1 kg = 1000 g, 1 litre = 1000 millilitres.", "tags": ["measurement", "capacity", "conversion"] },
+    { "id": "g2m-w24-thu-004", "question": "A bucket of water holds about 10 ___.", "options": ["mL", "g", "cm", "L"], "correctIndex": 3, "explanation": "A bucket holds a lot of water — about 10 litres (L).", "tags": ["measurement", "capacity", "L"] },
+    { "id": "g2m-w24-thu-005", "question": "A teaspoon holds about 5 ___.", "options": ["L", "kg", "mL", "m"], "correctIndex": 2, "explanation": "A teaspoon holds a tiny amount — about 5 mL.", "tags": ["measurement", "capacity", "mL"] },
+    { "id": "g2m-w24-thu-006", "question": "Which holds MORE — 1 L or 200 mL?", "options": ["200 mL", "1 L", "Both hold the same", "Cannot say"], "correctIndex": 1, "explanation": "1 L = 1000 mL. 1000 mL > 200 mL, so 1 L holds more.", "tags": ["measurement", "capacity", "comparison"] },
+    { "id": "g2m-w24-thu-007", "question": "A water bottle holds 500 mL. How many bottles fill 1 L?", "options": ["1", "2", "3", "4"], "correctIndex": 1, "explanation": "1 L = 1000 mL. 1000 ÷ 500 = 2. You need 2 bottles to fill 1 litre.", "tags": ["measurement", "capacity", "division"] },
+    { "id": "g2m-w24-thu-008", "question": "Which tool do we use to measure liquids?", "options": ["Ruler", "Weighing scale", "Measuring jug", "Thermometer"], "correctIndex": 2, "explanation": "A measuring jug has mL and L markings to measure how much liquid is inside.", "tags": ["measurement", "tools"] },
+    { "id": "g2m-w24-thu-009", "question": "3 L = ___ mL.", "options": ["3 mL", "30 mL", "300 mL", "3000 mL"], "correctIndex": 3, "explanation": "1 L = 1000 mL. 3 L = 3 × 1000 = 3000 mL.", "tags": ["measurement", "capacity", "conversion"] },
+    { "id": "g2m-w24-thu-010", "question": "A small juice box holds 200 mL. Mum's juice carton holds 1 L. How much more is in Mum's carton?", "options": ["200 mL more", "500 mL more", "800 mL more", "1000 mL more"], "correctIndex": 2, "explanation": "1 L = 1000 mL. 1000 − 200 = 800 mL more in Mum's carton.", "tags": ["measurement", "capacity", "subtraction"] },
+    { "id": "g2m-w24-thu-011", "question": "2000 mL = ___ L.", "options": ["200 L", "20 L", "2 L", "0.2 L"], "correctIndex": 2, "explanation": "1000 mL = 1 L. 2000 mL = 2 L.", "tags": ["measurement", "capacity", "conversion"] },
+    { "id": "g2m-w24-thu-012", "question": "Which would you use to measure milk for a recipe — mL or km?", "options": ["mL (millilitres)", "km (kilometres)", "Both work", "Neither works"], "correctIndex": 0, "explanation": "mL measures liquid. km measures distance. For milk, we use mL.", "tags": ["measurement", "capacity"] },
+    { "id": "g2m-w24-thu-013", "question": "A big pot holds 5 L of water. How many mL is that?", "options": ["50 mL", "500 mL", "5000 mL", "50000 mL"], "correctIndex": 2, "explanation": "1 L = 1000 mL. 5 L = 5 × 1000 = 5000 mL.", "tags": ["measurement", "capacity", "conversion"] },
+    { "id": "g2m-w24-thu-014", "question": "Half a litre is equal to ___ mL.", "options": ["50 mL", "100 mL", "250 mL", "500 mL"], "correctIndex": 3, "explanation": "1 L = 1000 mL. Half of 1000 = 500 mL.", "tags": ["measurement", "capacity", "conversion"] },
+    { "id": "g2m-w24-thu-015", "question": "Which holds LESS — a cup (250 mL) or a bottle (1 L)?", "options": ["The cup", "The bottle", "Both hold the same", "Cannot say"], "correctIndex": 0, "explanation": "250 mL < 1000 mL (1 L). The cup holds less.", "tags": ["measurement", "capacity", "comparison"] }
+  ]
+}

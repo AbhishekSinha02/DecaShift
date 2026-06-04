@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w24-wed",
+  "title": "Grade 6 Math — Wed, Jun 11",
+  "description": "Basic Geometry — Day 3 of 5: Measuring angles; complementary and supplementary",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-6", "weekly", "geometry", "angles", "complementary", "supplementary"],
+  "questions": [
+    { "id": "g6m-w24-wed-001", "question": "Two angles that add up to 90° are called ___.", "options": ["Supplementary angles", "Vertically opposite", "Complementary angles", "Adjacent angles"], "correctIndex": 2, "explanation": "Complementary angles sum to 90°.", "tags": ["angles", "complementary"] },
+    { "id": "g6m-w24-wed-002", "question": "Two angles that add up to 180° are called ___.", "options": ["Complementary", "Vertically opposite", "Supplementary angles", "Reflex angles"], "correctIndex": 2, "explanation": "Supplementary angles sum to 180°.", "tags": ["angles", "supplementary"] },
+    { "id": "g6m-w24-wed-003", "question": "If one angle is 35°, its complement is ___.", "options": ["35°", "55°", "65°", "145°"], "correctIndex": 1, "explanation": "Complement = 90° − 35° = 55°.", "tags": ["angles", "complementary"] },
+    { "id": "g6m-w24-wed-004", "question": "If one angle is 110°, its supplement is ___.", "options": ["70°", "80°", "90°", "250°"], "correctIndex": 0, "explanation": "Supplement = 180° − 110° = 70°.", "tags": ["angles", "supplementary"] },
+    { "id": "g6m-w24-wed-005", "question": "Which pair of angles are complementary?", "options": ["40° and 50°", "60° and 40°", "90° and 90°", "30° and 60°"], "correctIndex": 3, "explanation": "30° + 60° = 90°. They are complementary.", "tags": ["angles", "complementary"] },
+    { "id": "g6m-w24-wed-006", "question": "Which pair of angles are supplementary?", "options": ["45° and 45°", "130° and 50°", "60° and 50°", "90° and 45°"], "correctIndex": 1, "explanation": "130° + 50° = 180°. They are supplementary.", "tags": ["angles", "supplementary"] },
+    { "id": "g6m-w24-wed-007", "question": "Angles on a straight line add up to ___.", "options": ["90°", "180°", "270°", "360°"], "correctIndex": 1, "explanation": "A straight line is a straight angle = 180°. Any angles formed on it must total 180°.", "tags": ["angles", "straight-line"] },
+    { "id": "g6m-w24-wed-008", "question": "If two adjacent angles on a straight line are equal, each is ___.", "options": ["45°", "60°", "90°", "180°"], "correctIndex": 2, "explanation": "Equal angles on a straight line: each = 180° ÷ 2 = 90° (right angles).", "tags": ["angles", "straight-line"] },
+    { "id": "g6m-w24-wed-009", "question": "Angles around a point add up to ___.", "options": ["90°", "180°", "270°", "360°"], "correctIndex": 3, "explanation": "All angles around a complete point sum to 360°.", "tags": ["angles", "full-rotation"] },
+    { "id": "g6m-w24-wed-010", "question": "An angle of 75° has a complement of ___.", "options": ["15°", "25°", "105°", "110°"], "correctIndex": 0, "explanation": "90° − 75° = 15°.", "tags": ["angles", "complementary"] },
+    { "id": "g6m-w24-wed-011", "question": "An angle of 45° has a supplement of ___.", "options": ["45°", "90°", "135°", "145°"], "correctIndex": 2, "explanation": "180° − 45° = 135°.", "tags": ["angles", "supplementary"] },
+    { "id": "g6m-w24-wed-012", "question": "Three angles on a straight line measure 60°, 70°, and x°. What is x?", "options": ["40°", "50°", "60°", "70°"], "correctIndex": 1, "explanation": "60° + 70° + x = 180°. 130° + x = 180°. x = 50°.", "tags": ["angles", "straight-line", "missing-angle"] },
+    { "id": "g6m-w24-wed-013", "question": "Vertically opposite angles (formed when two lines cross) are ___.", "options": ["Supplementary", "Equal", "Complementary", "Always 90°"], "correctIndex": 1, "explanation": "When two lines cross, opposite angles are equal — these are called vertically opposite angles.", "tags": ["angles", "vertically-opposite"] },
+    { "id": "g6m-w24-wed-014", "question": "Two lines cross. One angle formed is 65°. What is the vertically opposite angle?", "options": ["25°", "65°", "115°", "125°"], "correctIndex": 1, "explanation": "Vertically opposite angles are equal. So the opposite angle is also 65°.", "tags": ["angles", "vertically-opposite"] },
+    { "id": "g6m-w24-wed-015", "question": "Two angles on a straight line measure (2x)° and (3x)°. Find x.", "options": ["18°", "30°", "36°", "45°"], "correctIndex": 2, "explanation": "2x + 3x = 180°. 5x = 180°. x = 36°.", "tags": ["angles", "straight-line", "algebra"] }
+  ]
+}

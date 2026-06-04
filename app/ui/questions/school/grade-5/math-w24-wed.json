@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w24-wed",
+  "title": "Grade 5 Math — Wed, Jun 11",
+  "description": "Simple Interest — Day 3 of 5: Practice with varied problems",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "simple-interest", "practice"],
+  "questions": [
+    { "id": "g5m-w24-wed-001", "question": "P = ₹9000, R = 5%, T = 2 years. SI = ___.", "options": ["₹90", "₹450", "₹900", "₹9000"], "correctIndex": 2, "explanation": "SI = (9000 × 5 × 2) ÷ 100 = 90000 ÷ 100 = ₹900.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-wed-002", "question": "Deepa deposits ₹7500 at 4% per year. After 3 years, how much interest does she earn?", "options": ["₹300", "₹750", "₹900", "₹3000"], "correctIndex": 2, "explanation": "SI = (7500 × 4 × 3) ÷ 100 = 90000 ÷ 100 = ₹900.", "tags": ["simple-interest", "word-problem"] },
+    { "id": "g5m-w24-wed-003", "question": "If P = ₹2000, T = 2 years and SI = ₹200, what is the rate?", "options": ["2%", "5%", "10%", "4%"], "correctIndex": 1, "explanation": "R = (SI × 100) ÷ (P × T) = (200 × 100) ÷ (2000 × 2) = 20000 ÷ 4000 = 5%.", "tags": ["simple-interest", "finding-rate"] },
+    { "id": "g5m-w24-wed-004", "question": "P = ₹3500, R = 8%, T = 1 year. What is the Amount?", "options": ["₹280", "₹3780", "₹3280", "₹35080"], "correctIndex": 1, "explanation": "SI = (3500 × 8 × 1) ÷ 100 = ₹280. Amount = 3500 + 280 = ₹3780.", "tags": ["simple-interest", "amount"] },
+    { "id": "g5m-w24-wed-005", "question": "A farmer borrows ₹12000 at 6% per year for 2 years. How much interest does he pay?", "options": ["₹720", "₹1440", "₹1200", "₹7200"], "correctIndex": 1, "explanation": "SI = (12000 × 6 × 2) ÷ 100 = 144000 ÷ 100 = ₹1440.", "tags": ["simple-interest", "word-problem"] },
+    { "id": "g5m-w24-wed-006", "question": "P = ₹5000, R = 10%, T = 3 years. SI = ___.", "options": ["₹150", "₹500", "₹1500", "₹5000"], "correctIndex": 2, "explanation": "SI = (5000 × 10 × 3) ÷ 100 = 150000 ÷ 100 = ₹1500.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-wed-007", "question": "The interest on ₹4000 at 5% per year for 1 year is the same as ___ % of ₹4000.", "options": ["1%", "5%", "50%", "500%"], "correctIndex": 1, "explanation": "At R = 5%, T = 1 year, SI = 5% of principal. So SI = 5% of ₹4000 = ₹200.", "tags": ["simple-interest", "concept"] },
+    { "id": "g5m-w24-wed-008", "question": "P = ₹800, R = 15%, T = 1 year. SI = ___.", "options": ["₹12", "₹80", "₹120", "₹150"], "correctIndex": 2, "explanation": "SI = (800 × 15 × 1) ÷ 100 = 12000 ÷ 100 = ₹120.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-wed-009", "question": "Riya and Priya both deposit ₹2000. Riya gets 6% for 2 years; Priya gets 4% for 3 years. Who earns more interest?", "options": ["Riya", "Priya", "Both earn equal", "Cannot tell"], "correctIndex": 2, "explanation": "Riya: SI = (2000×6×2)÷100 = ₹240. Priya: SI = (2000×4×3)÷100 = ₹240. Both earn ₹240!", "tags": ["simple-interest", "comparing", "word-problem"] },
+    { "id": "g5m-w24-wed-010", "question": "P = ₹15000, R = 4%, T = 5 years. SI = ___.", "options": ["₹300", "₹3000", "₹1500", "₹750"], "correctIndex": 1, "explanation": "SI = (15000 × 4 × 5) ÷ 100 = 300000 ÷ 100 = ₹3000.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-wed-011", "question": "If T doubles (and P, R stay the same), interest ___.", "options": ["Stays the same", "Halves", "Doubles", "Triples"], "correctIndex": 2, "explanation": "SI is directly proportional to T. If T doubles, SI doubles.", "tags": ["simple-interest", "concept"] },
+    { "id": "g5m-w24-wed-012", "question": "P = ₹6000, R = 8%, T = 2.5 years. SI = ___.", "options": ["₹120", "₹1200", "₹480", "₹800"], "correctIndex": 1, "explanation": "SI = (6000 × 8 × 2.5) ÷ 100 = 120000 ÷ 100 = ₹1200.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g5m-w24-wed-013", "question": "Anand borrowed ₹3000 and paid ₹3450 after 1 year. What was the rate of interest?", "options": ["5%", "10%", "15%", "20%"], "correctIndex": 2, "explanation": "SI = 3450 − 3000 = ₹450. R = (SI × 100) ÷ (P × T) = (450 × 100) ÷ (3000 × 1) = 15%.", "tags": ["simple-interest", "finding-rate"] },
+    { "id": "g5m-w24-wed-014", "question": "P = ₹1600, R = 5%, T = 2 years. Amount = ___.", "options": ["₹160", "₹1760", "₹1860", "₹1920"], "correctIndex": 1, "explanation": "SI = (1600 × 5 × 2) ÷ 100 = ₹160. Amount = 1600 + 160 = ₹1760.", "tags": ["simple-interest", "amount"] },
+    { "id": "g5m-w24-wed-015", "question": "Which gives MORE SI — P=₹1000 at 10% for 2 yr, or P=₹2000 at 5% for 2 yr?", "options": ["First (₹1000 at 10%)", "Second (₹2000 at 5%)", "Both give equal SI", "Cannot tell"], "correctIndex": 2, "explanation": "First: SI=(1000×10×2)÷100=₹200. Second: SI=(2000×5×2)÷100=₹200. Both give ₹200!", "tags": ["simple-interest", "comparing"] }
+  ]
+}

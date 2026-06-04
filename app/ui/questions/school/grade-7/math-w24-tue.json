@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-math-w24-tue",
+  "title": "Grade 7 Math — Tue, Jun 10",
+  "description": "Simple & Compound Interest — Day 2 of 5: CI formula and calculation",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-7", "weekly", "compound-interest", "formula"],
+  "questions": [
+    { "id": "g7m-w24-tue-001", "question": "The CI formula for Amount is A = ___.", "options": ["P(1 + R/100)^T", "P × R × T ÷ 100", "P + R × T", "P(1 − R/100)^T"], "correctIndex": 0, "explanation": "Amount with CI: A = P(1 + R/100)^T, where T is the number of years.", "tags": ["compound-interest", "formula"] },
+    { "id": "g7m-w24-tue-002", "question": "CI = A − ___.", "options": ["R", "T", "P", "SI"], "correctIndex": 2, "explanation": "Compound Interest = Amount − Principal. CI = A − P.", "tags": ["compound-interest", "formula"] },
+    { "id": "g7m-w24-tue-003", "question": "P = ₹1000, R = 10%, T = 2 years (CI). A = ___.", "options": ["₹1200", "₹1210", "₹1100", "₹1020"], "correctIndex": 1, "explanation": "A = 1000(1 + 10/100)² = 1000 × 1.1 × 1.1 = 1000 × 1.21 = ₹1210.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-tue-004", "question": "P = ₹2000, R = 5%, T = 2 years (CI). A = ___.", "options": ["₹2200", "₹2205", "₹2100", "₹2050"], "correctIndex": 1, "explanation": "A = 2000 × 1.05² = 2000 × 1.1025 = ₹2205.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-tue-005", "question": "For P = ₹2000, R = 5%, T = 2 years — CI = ___.", "options": ["₹200", "₹205", "₹100", "₹210"], "correctIndex": 1, "explanation": "A = ₹2205. CI = A − P = 2205 − 2000 = ₹205.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-tue-006", "question": "P = ₹5000, R = 8%, T = 2 years (CI). A = ₹5000 × (1.08)². (1.08)² = 1.1664. A = ___.", "options": ["₹5800", "₹5832", "₹5400", "₹5664"], "correctIndex": 1, "explanation": "A = 5000 × 1.1664 = ₹5832.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-tue-007", "question": "P = ₹4000, R = 10%, T = 1 year (CI). A = ___.", "options": ["₹4000", "₹4400", "₹4100", "₹4040"], "correctIndex": 1, "explanation": "A = 4000 × 1.1 = ₹4400. (For T=1, CI = SI.)", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-tue-008", "question": "For P = ₹5000, R = 8%, T = 2 years: SI = ___.", "options": ["₹400", "₹800", "₹832", "₹1600"], "correctIndex": 1, "explanation": "SI = (5000 × 8 × 2) ÷ 100 = ₹800.", "tags": ["simple-interest", "calculation"] },
+    { "id": "g7m-w24-tue-009", "question": "For P = ₹5000, R = 8%, T = 2 years: CI − SI = ___.", "options": ["₹0", "₹32", "₹64", "₹100"], "correctIndex": 1, "explanation": "CI = ₹832 (from previous). SI = ₹800. Difference = 832 − 800 = ₹32.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-tue-010", "question": "The difference CI − SI for 2 years equals ___.", "options": ["P × (R/100)²", "P × (R/100) × 2", "SI × R/100", "Both A and C"], "correctIndex": 3, "explanation": "CI − SI for 2 years = P(R/100)². This also equals SI × R/100 (the interest on the first year's SI).", "tags": ["compound-interest", "vs-si", "formula"] },
+    { "id": "g7m-w24-tue-011", "question": "P = ₹10000, R = 10%, T = 2 years. CI − SI = ___.", "options": ["₹0", "₹100", "₹200", "₹1000"], "correctIndex": 1, "explanation": "CI − SI = P(R/100)² = 10000 × (0.1)² = 10000 × 0.01 = ₹100.", "tags": ["compound-interest", "vs-si"] },
+    { "id": "g7m-w24-tue-012", "question": "At what rate does money 'double' the fastest — SI or CI?", "options": ["SI", "CI", "They double at the same time", "Depends on the principal"], "correctIndex": 1, "explanation": "CI grows exponentially so money doubles faster with CI than with SI.", "tags": ["compound-interest", "concept"] },
+    { "id": "g7m-w24-tue-013", "question": "P = ₹3000, R = 10%, T = 2 years (CI). A = ___.", "options": ["₹3300", "₹3600", "₹3630", "₹3003"], "correctIndex": 2, "explanation": "A = 3000 × 1.21 = ₹3630. (1.1² = 1.21)", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-tue-014", "question": "P = ₹3000, R = 10%, T = 2 years. CI = ___.", "options": ["₹300", "₹600", "₹630", "₹60"], "correctIndex": 2, "explanation": "CI = A − P = 3630 − 3000 = ₹630.", "tags": ["compound-interest", "calculation"] },
+    { "id": "g7m-w24-tue-015", "question": "For 2 years of CI, the formula expands to A = P + P(R/100) + P(R/100)² + ___.", "options": ["P(R/100)³", "P(R/100)²(R/100)", "Nothing more — that's the full expansion", "P × 2 × R/100"], "correctIndex": 2, "explanation": "A = P(1+R/100)² = P + 2P(R/100) + P(R/100)². That's the complete expansion for 2 years.", "tags": ["compound-interest", "formula"] }
+  ]
+}

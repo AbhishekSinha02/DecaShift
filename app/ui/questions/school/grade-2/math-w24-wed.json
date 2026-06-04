@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w24-wed",
+  "title": "Grade 2 Math — Wed, Jun 11",
+  "description": "Measurement — Day 3 of 5: Weight units (g and kg)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "measurement", "weight"],
+  "questions": [
+    { "id": "g2m-w24-wed-001", "question": "Which unit do we use to measure the weight of a bag of rice?", "options": ["Centimetre", "Kilogram (kg)", "Litre", "Kilometre"], "correctIndex": 1, "explanation": "A heavy bag of rice is weighed in kilograms (kg).", "tags": ["measurement", "weight", "kg"] },
+    { "id": "g2m-w24-wed-002", "question": "What unit would you use to weigh a feather?", "options": ["kg", "km", "g (gram)", "L"], "correctIndex": 2, "explanation": "A feather is very light. We use grams (g) for very light objects.", "tags": ["measurement", "weight", "g"] },
+    { "id": "g2m-w24-wed-003", "question": "1 kilogram = ___ grams.", "options": ["10 g", "100 g", "1000 g", "500 g"], "correctIndex": 2, "explanation": "1 kg = 1000 g. Kilo means 1000.", "tags": ["measurement", "weight", "conversion"] },
+    { "id": "g2m-w24-wed-004", "question": "A watermelon weighs about 2 ___.", "options": ["g", "km", "kg", "cm"], "correctIndex": 2, "explanation": "A watermelon is heavy. It weighs about 2 kilograms (kg).", "tags": ["measurement", "weight", "kg"] },
+    { "id": "g2m-w24-wed-005", "question": "A biscuit weighs about 15 ___.", "options": ["kg", "km", "m", "g"], "correctIndex": 3, "explanation": "A small biscuit is very light — about 15 grams.", "tags": ["measurement", "weight", "g"] },
+    { "id": "g2m-w24-wed-006", "question": "Which is heavier — 1 kg or 500 g?", "options": ["500 g", "1 kg", "Both are equal", "Cannot say"], "correctIndex": 1, "explanation": "1 kg = 1000 g. 1000 g > 500 g, so 1 kg is heavier.", "tags": ["measurement", "weight", "comparison"] },
+    { "id": "g2m-w24-wed-007", "question": "Which tool is used to measure weight?", "options": ["Ruler", "Measuring tape", "Weighing scale", "Measuring jug"], "correctIndex": 2, "explanation": "A weighing scale shows how heavy an object is in grams or kilograms.", "tags": ["measurement", "tools"] },
+    { "id": "g2m-w24-wed-008", "question": "A school bag weighs 3 kg. How many grams is that?", "options": ["3 g", "30 g", "300 g", "3000 g"], "correctIndex": 3, "explanation": "1 kg = 1000 g. 3 kg = 3 × 1000 = 3000 g.", "tags": ["measurement", "weight", "conversion"] },
+    { "id": "g2m-w24-wed-009", "question": "2000 g = ___ kg.", "options": ["20 kg", "200 kg", "2 kg", "0.2 kg"], "correctIndex": 2, "explanation": "1000 g = 1 kg. 2000 g = 2 kg.", "tags": ["measurement", "weight", "conversion"] },
+    { "id": "g2m-w24-wed-010", "question": "Ananya's cat weighs 4 kg. Her kitten weighs 500 g. Which is heavier?", "options": ["The cat", "The kitten", "Both weigh the same", "Cannot tell"], "correctIndex": 0, "explanation": "4 kg = 4000 g. 4000 g > 500 g, so the cat is heavier.", "tags": ["measurement", "weight", "comparison"] },
+    { "id": "g2m-w24-wed-011", "question": "Half a kilogram is equal to ___ grams.", "options": ["50 g", "100 g", "500 g", "5000 g"], "correctIndex": 2, "explanation": "1 kg = 1000 g. Half of 1000 = 500 g.", "tags": ["measurement", "weight", "conversion"] },
+    { "id": "g2m-w24-wed-012", "question": "A big pumpkin weighs 5 kg. How many grams is that?", "options": ["500 g", "5000 g", "50 g", "50000 g"], "correctIndex": 1, "explanation": "1 kg = 1000 g. 5 kg = 5 × 1000 = 5000 g.", "tags": ["measurement", "weight", "conversion"] },
+    { "id": "g2m-w24-wed-013", "question": "Which of these would you weigh in grams?", "options": ["A person", "A sack of wheat", "A coin", "A car"], "correctIndex": 2, "explanation": "A coin is very light — we weigh it in grams. Heavy things like people, wheat sacks, and cars use kg.", "tags": ["measurement", "weight", "g"] },
+    { "id": "g2m-w24-wed-014", "question": "Ravi bought 1 kg of sugar and 500 g of salt. What is the total weight in grams?", "options": ["1500 g", "150 g", "500 g", "1000 g"], "correctIndex": 0, "explanation": "1 kg = 1000 g. 1000 g + 500 g = 1500 g total.", "tags": ["measurement", "weight", "addition"] },
+    { "id": "g2m-w24-wed-015", "question": "Which unit tells you HOW HEAVY something is?", "options": ["cm", "km", "L", "g or kg"], "correctIndex": 3, "explanation": "We use grams (g) and kilograms (kg) to measure how heavy something is — this is weight.", "tags": ["measurement", "weight"] }
+  ]
+}

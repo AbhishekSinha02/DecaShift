@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w24-thu",
+  "title": "Grade 6 Math — Thu, Jun 12",
+  "description": "Basic Geometry — Day 4 of 5: Drawing angles; angles in triangles",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-6", "weekly", "geometry", "angles", "triangles"],
+  "questions": [
+    { "id": "g6m-w24-thu-001", "question": "The sum of all angles in a triangle is ___.", "options": ["90°", "180°", "270°", "360°"], "correctIndex": 1, "explanation": "The three interior angles of any triangle always add up to 180°.", "tags": ["geometry", "triangles", "angle-sum"] },
+    { "id": "g6m-w24-thu-002", "question": "A triangle has angles 60° and 70°. What is the third angle?", "options": ["40°", "50°", "60°", "70°"], "correctIndex": 1, "explanation": "60° + 70° + x = 180°. x = 180° − 130° = 50°.", "tags": ["triangles", "missing-angle"] },
+    { "id": "g6m-w24-thu-003", "question": "Can a triangle have two right angles?", "options": ["Yes", "No", "Only in special cases", "Only for right triangles"], "correctIndex": 1, "explanation": "Two right angles = 180°. The third angle would be 0°, which is impossible. No triangle can have two right angles.", "tags": ["triangles", "concept"] },
+    { "id": "g6m-w24-thu-004", "question": "An equilateral triangle has three equal angles. What is each angle?", "options": ["45°", "60°", "90°", "120°"], "correctIndex": 1, "explanation": "Equilateral means all 3 angles are equal. 180° ÷ 3 = 60° each.", "tags": ["triangles", "equilateral"] },
+    { "id": "g6m-w24-thu-005", "question": "A right-angled triangle has one 90° angle. The other two angles add up to ___.", "options": ["45°", "90°", "180°", "270°"], "correctIndex": 1, "explanation": "Total = 180°. 180° − 90° = 90°. The other two angles together make 90°.", "tags": ["triangles", "right-angle"] },
+    { "id": "g6m-w24-thu-006", "question": "In a triangle, two angles are 45° each. What type of triangle is it?", "options": ["Equilateral", "Scalene", "Right-angled isosceles", "Obtuse"], "correctIndex": 2, "explanation": "Two 45° angles; third = 180 − 45 − 45 = 90°. It has a right angle and two equal angles — right-angled isosceles.", "tags": ["triangles", "classification"] },
+    { "id": "g6m-w24-thu-007", "question": "To draw an angle of 60° with a protractor, place the centre at the ___ of the angle.", "options": ["Arm", "Vertex", "Midpoint", "Base"], "correctIndex": 1, "explanation": "Place the centre (midpoint hole) of the protractor at the vertex — the point where the angle is formed.", "tags": ["geometry", "protractor"] },
+    { "id": "g6m-w24-thu-008", "question": "Which angle cannot exist in a triangle?", "options": ["35°", "85°", "95°", "All can exist"], "correctIndex": 3, "explanation": "Any single angle less than 180° can be in a triangle (as long as all three add to 180°). All three options can exist.", "tags": ["triangles", "concept"] },
+    { "id": "g6m-w24-thu-009", "question": "A triangle has angles in the ratio 1:2:3. The largest angle is ___.", "options": ["30°", "60°", "90°", "120°"], "correctIndex": 2, "explanation": "Parts = 1+2+3 = 6. Each part = 180÷6 = 30°. Largest = 3×30 = 90°.", "tags": ["triangles", "angle-sum", "ratio"] },
+    { "id": "g6m-w24-thu-010", "question": "An obtuse triangle has ___.", "options": ["Three obtuse angles", "No right angles and one obtuse angle", "All right angles", "Two obtuse angles"], "correctIndex": 1, "explanation": "An obtuse triangle has exactly one angle greater than 90°. Having two would exceed 180°.", "tags": ["triangles", "obtuse"] },
+    { "id": "g6m-w24-thu-011", "question": "Two angles of a triangle are 80° and 60°. The triangle is ___.", "options": ["Right-angled (90°)", "Acute (40°)", "Obtuse (need >90°)", "Equilateral"], "correctIndex": 1, "explanation": "Third angle = 180 − 80 − 60 = 40°. All angles (40°, 60°, 80°) are less than 90° — acute triangle.", "tags": ["triangles", "classification"] },
+    { "id": "g6m-w24-thu-012", "question": "If one angle of a triangle is 120°, the triangle is ___.", "options": ["Right-angled", "Acute", "Obtuse", "Equilateral"], "correctIndex": 2, "explanation": "120° > 90°. The triangle has an obtuse angle, making it an obtuse triangle.", "tags": ["triangles", "obtuse"] },
+    { "id": "g6m-w24-thu-013", "question": "When you use a protractor, which scale do you read — inner or outer?", "options": ["Always inner", "Always outer", "It depends on the direction you drew the angle", "Both give the same reading"], "correctIndex": 2, "explanation": "Protractors have two scales. Which one you use depends on which direction (clockwise or counter-clockwise) you measure from.", "tags": ["geometry", "protractor"] },
+    { "id": "g6m-w24-thu-014", "question": "The sum of all INTERIOR angles of a quadrilateral (4-sided figure) is ___.", "options": ["180°", "270°", "360°", "540°"], "correctIndex": 2, "explanation": "A quadrilateral can be split into 2 triangles. 2 × 180° = 360°.", "tags": ["geometry", "quadrilateral"] },
+    { "id": "g6m-w24-thu-015", "question": "In a square, each interior angle is ___.", "options": ["45°", "60°", "90°", "120°"], "correctIndex": 2, "explanation": "A square has 4 equal angles. 360° ÷ 4 = 90° each.", "tags": ["geometry", "quadrilateral", "square"] }
+  ]
+}

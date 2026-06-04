@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w24-fri",
+  "title": "Grade 2 Math — Fri, Jun 13",
+  "description": "Measurement — Day 5 of 5: Mixed — length, weight and capacity",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "fri",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "measurement", "mixed"],
+  "questions": [
+    { "id": "g2m-w24-fri-001", "question": "We measure length in ___, weight in ___, and capacity in ___.", "options": ["cm/m — kg/g — L/mL", "L — g — m", "kg — L — cm", "mL — cm — kg"], "correctIndex": 0, "explanation": "Length: cm, m, km. Weight: g, kg. Capacity (liquids): mL, L.", "tags": ["measurement", "units", "mixed"] },
+    { "id": "g2m-w24-fri-002", "question": "What unit would you use to measure how much water is in a pond?", "options": ["cm", "g", "L", "km"], "correctIndex": 2, "explanation": "Water volume is measured in litres (L). Ponds hold a lot of litres.", "tags": ["measurement", "capacity"] },
+    { "id": "g2m-w24-fri-003", "question": "Rohan's bag weighs 2000 g. How many kg is that?", "options": ["20 kg", "200 kg", "2 kg", "0.2 kg"], "correctIndex": 2, "explanation": "1000 g = 1 kg. 2000 g = 2 kg.", "tags": ["measurement", "weight", "conversion"] },
+    { "id": "g2m-w24-fri-004", "question": "A swimming pool is 25 ___ long.", "options": ["cm", "g", "m", "mL"], "correctIndex": 2, "explanation": "A swimming pool is about 25 metres long. We use metres for medium-sized distances.", "tags": ["measurement", "length", "m"] },
+    { "id": "g2m-w24-fri-005", "question": "A mango weighs 200 ___.", "options": ["km", "L", "g", "m"], "correctIndex": 2, "explanation": "A mango is small and light — we measure it in grams (g).", "tags": ["measurement", "weight", "g"] },
+    { "id": "g2m-w24-fri-006", "question": "500 cm = ___ m.", "options": ["5 m", "50 m", "500 m", "5000 m"], "correctIndex": 0, "explanation": "100 cm = 1 m. 500 ÷ 100 = 5 m.", "tags": ["measurement", "length", "conversion"] },
+    { "id": "g2m-w24-fri-007", "question": "Priya drank 250 mL of juice. Her mum drank 1 L. How much more did Mum drink?", "options": ["250 mL", "500 mL", "750 mL", "1000 mL"], "correctIndex": 2, "explanation": "1 L = 1000 mL. 1000 − 250 = 750 mL more.", "tags": ["measurement", "capacity", "subtraction"] },
+    { "id": "g2m-w24-fri-008", "question": "A pencil box is 20 cm long. A book is 30 cm long. Together, how long are they?", "options": ["10 cm", "50 cm", "500 cm", "5 cm"], "correctIndex": 1, "explanation": "20 cm + 30 cm = 50 cm.", "tags": ["measurement", "length", "addition"] },
+    { "id": "g2m-w24-fri-009", "question": "Which is the odd one out for measuring weight?", "options": ["gram", "kilogram", "litre", "All measure weight"], "correctIndex": 2, "explanation": "Gram and kilogram measure weight. Litre measures capacity (liquid volume).", "tags": ["measurement", "units"] },
+    { "id": "g2m-w24-fri-010", "question": "Mom bought 3 kg of tomatoes and 2 kg of onions. What is the total weight?", "options": ["1 kg", "5 kg", "6 kg", "23 kg"], "correctIndex": 1, "explanation": "3 kg + 2 kg = 5 kg total.", "tags": ["measurement", "weight", "addition"] },
+    { "id": "g2m-w24-fri-011", "question": "Which CANNOT be measured in metres?", "options": ["Height of a person", "Length of a road", "Weight of a box", "Width of a door"], "correctIndex": 2, "explanation": "Metres measure length and distance. Weight is measured in kg or g, not metres.", "tags": ["measurement", "units"] },
+    { "id": "g2m-w24-fri-012", "question": "A milk carton holds 1 L. A small cup holds 200 mL. How many cups fill the carton?", "options": ["2", "4", "5", "10"], "correctIndex": 2, "explanation": "1 L = 1000 mL. 1000 ÷ 200 = 5 cups.", "tags": ["measurement", "capacity", "division"] },
+    { "id": "g2m-w24-fri-013", "question": "The distance from one end of a classroom to the other is best measured in ___.", "options": ["km", "g", "m", "mL"], "correctIndex": 2, "explanation": "A classroom is about 8–10 metres across. Metres are the right unit.", "tags": ["measurement", "length"] },
+    { "id": "g2m-w24-fri-014", "question": "Which weighs MORE — 1500 g or 1 kg?", "options": ["1 kg", "1500 g", "Both weigh the same", "Cannot say"], "correctIndex": 1, "explanation": "1 kg = 1000 g. 1500 g > 1000 g, so 1500 g is heavier.", "tags": ["measurement", "weight", "comparison"] },
+    { "id": "g2m-w24-fri-015", "question": "Ritu walked 2 km to school. In metres, that is ___.", "options": ["2 m", "20 m", "200 m", "2000 m"], "correctIndex": 3, "explanation": "1 km = 1000 m. 2 km = 2 × 1000 = 2000 m.", "tags": ["measurement", "length", "conversion"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w24-mon",
+  "title": "Grade 3 Math — Mon, Jun 09",
+  "description": "Fractions — Day 1 of 5: What is a fraction? Equal parts",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "fractions", "equal-parts"],
+  "questions": [
+    { "id": "g3m-w24-mon-001", "question": "What is a fraction?", "options": ["A whole number", "A part of a whole", "A very big number", "A type of shape"], "correctIndex": 1, "explanation": "A fraction represents a part of a whole. When a whole is divided into equal parts, each part is a fraction.", "tags": ["fractions", "concept"] },
+    { "id": "g3m-w24-mon-002", "question": "For a fraction to work, the parts must be ___.", "options": ["Different sizes", "Equal sizes", "Very small", "Very big"], "correctIndex": 1, "explanation": "All parts must be equal in size. If you cut a cake unevenly, the pieces are not proper fractions of the whole.", "tags": ["fractions", "equal-parts"] },
+    { "id": "g3m-w24-mon-003", "question": "A pizza is cut into 4 equal pieces. You eat 1 piece. What fraction did you eat?", "options": ["1/2", "1/3", "1/4", "4/1"], "correctIndex": 2, "explanation": "4 equal pieces total. You ate 1. So you ate 1 out of 4 = 1/4.", "tags": ["fractions", "1/4"] },
+    { "id": "g3m-w24-mon-004", "question": "In the fraction 3/5, what does the bottom number (5) tell us?", "options": ["How many parts are eaten", "How many equal parts the whole is divided into", "The size of each part", "The total"], "correctIndex": 1, "explanation": "The bottom number (denominator) tells us how many equal parts the whole is divided into.", "tags": ["fractions", "denominator"] },
+    { "id": "g3m-w24-mon-005", "question": "In the fraction 3/5, what does the top number (3) tell us?", "options": ["Total parts", "Parts we have or are talking about", "Size of the whole", "Number of groups"], "correctIndex": 1, "explanation": "The top number (numerator) tells us how many parts we are considering.", "tags": ["fractions", "numerator"] },
+    { "id": "g3m-w24-mon-006", "question": "A chocolate bar is cut into 6 equal pieces. Aryan eats 2 pieces. What fraction did he eat?", "options": ["2/4", "6/2", "2/6", "4/6"], "correctIndex": 2, "explanation": "Aryan ate 2 out of 6 equal pieces = 2/6.", "tags": ["fractions", "writing"] },
+    { "id": "g3m-w24-mon-007", "question": "Which picture shows 1/2?", "options": ["A circle with 1 part shaded out of 3", "A circle with 1 part shaded out of 2", "A circle with 2 parts shaded out of 3", "A circle with 3 parts shaded out of 4"], "correctIndex": 1, "explanation": "1/2 means 1 part out of 2 equal parts.", "tags": ["fractions", "1/2"] },
+    { "id": "g3m-w24-mon-008", "question": "A square is divided into 8 equal parts. 3 parts are shaded. What fraction is shaded?", "options": ["8/3", "3/8", "5/8", "3/5"], "correctIndex": 1, "explanation": "3 shaded parts out of 8 equal parts = 3/8.", "tags": ["fractions", "writing"] },
+    { "id": "g3m-w24-mon-009", "question": "Which fraction means 'half'?", "options": ["1/4", "1/3", "1/2", "2/3"], "correctIndex": 2, "explanation": "Half means 1 out of 2 equal parts = 1/2.", "tags": ["fractions", "1/2"] },
+    { "id": "g3m-w24-mon-010", "question": "An orange is divided into 10 equal segments. Priya eats 4 segments. What fraction is left?", "options": ["4/10", "6/10", "10/4", "10/6"], "correctIndex": 1, "explanation": "4 eaten, so 10 − 4 = 6 left. 6 out of 10 = 6/10.", "tags": ["fractions", "remaining"] },
+    { "id": "g3m-w24-mon-011", "question": "The fraction 1/1 means ___.", "options": ["Nothing", "Half", "The whole thing", "A quarter"], "correctIndex": 2, "explanation": "1 out of 1 equal part is the complete whole — 100% of it.", "tags": ["fractions", "whole"] },
+    { "id": "g3m-w24-mon-012", "question": "A ribbon is cut into 5 equal pieces. Meera takes 1 piece. She has ___ of the ribbon.", "options": ["1/4", "5/1", "1/5", "4/5"], "correctIndex": 2, "explanation": "Meera took 1 out of 5 equal pieces = 1/5.", "tags": ["fractions", "1/5"] },
+    { "id": "g3m-w24-mon-013", "question": "Which of these is NOT a fraction?", "options": ["1/2", "3/4", "5", "2/7"], "correctIndex": 2, "explanation": "5 is a whole number, not a fraction. Fractions have a numerator and denominator separated by a line.", "tags": ["fractions", "concept"] },
+    { "id": "g3m-w24-mon-014", "question": "A shape has 4 equal parts. 4 parts are shaded. What fraction is shaded?", "options": ["0/4", "1/4", "4/4", "4/0"], "correctIndex": 2, "explanation": "All 4 out of 4 parts are shaded = 4/4, which equals the whole (1).", "tags": ["fractions", "whole"] },
+    { "id": "g3m-w24-mon-015", "question": "Read this fraction: 7/10. What is the numerator?", "options": ["10", "7", "17", "3"], "correctIndex": 1, "explanation": "In 7/10, the top number is 7. The top number is called the numerator.", "tags": ["fractions", "numerator"] }
+  ]
+}

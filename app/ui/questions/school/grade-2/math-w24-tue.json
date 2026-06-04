@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w24-tue",
+  "title": "Grade 2 Math — Tue, Jun 10",
+  "description": "Measurement — Day 2 of 5: Comparing lengths; cm and m",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "measurement", "length", "comparison"],
+  "questions": [
+    { "id": "g2m-w24-tue-001", "question": "A ribbon is 80 cm long. Another ribbon is 1 m long. Which is longer?", "options": ["80 cm ribbon", "1 m ribbon", "Both are equal", "Cannot say"], "correctIndex": 1, "explanation": "1 m = 100 cm. 100 cm > 80 cm, so the 1 m ribbon is longer.", "tags": ["measurement", "comparison"] },
+    { "id": "g2m-w24-tue-002", "question": "Aman is 120 cm tall. His sister is 1 m tall. Who is taller?", "options": ["Aman", "His sister", "Both are the same height", "Cannot say"], "correctIndex": 0, "explanation": "1 m = 100 cm. 120 cm > 100 cm, so Aman is taller.", "tags": ["measurement", "comparison"] },
+    { "id": "g2m-w24-tue-003", "question": "200 cm is equal to ___ m.", "options": ["1 m", "2 m", "20 m", "200 m"], "correctIndex": 1, "explanation": "100 cm = 1 m. So 200 cm = 2 m.", "tags": ["measurement", "conversion"] },
+    { "id": "g2m-w24-tue-004", "question": "3 m is equal to ___ cm.", "options": ["3 cm", "30 cm", "300 cm", "3000 cm"], "correctIndex": 2, "explanation": "1 m = 100 cm. 3 m = 3 × 100 = 300 cm.", "tags": ["measurement", "conversion"] },
+    { "id": "g2m-w24-tue-005", "question": "A bed is 190 cm long. Is it longer or shorter than 2 m?", "options": ["Longer than 2 m", "Shorter than 2 m", "Exactly 2 m", "Cannot say"], "correctIndex": 1, "explanation": "2 m = 200 cm. 190 cm < 200 cm, so the bed is shorter than 2 m.", "tags": ["measurement", "comparison"] },
+    { "id": "g2m-w24-tue-006", "question": "Which is shorter — 50 cm or half a metre?", "options": ["50 cm", "Half a metre", "Both are equal", "Cannot say"], "correctIndex": 2, "explanation": "Half a metre = 50 cm. They are exactly the same length.", "tags": ["measurement", "comparison"] },
+    { "id": "g2m-w24-tue-007", "question": "A rope is 5 m long. How many cm is that?", "options": ["5 cm", "50 cm", "500 cm", "5000 cm"], "correctIndex": 2, "explanation": "1 m = 100 cm. 5 m = 5 × 100 = 500 cm.", "tags": ["measurement", "conversion"] },
+    { "id": "g2m-w24-tue-008", "question": "Priya's table is 100 cm long. Raj's table is 1 m long. Whose table is longer?", "options": ["Priya's", "Raj's", "Both tables are the same length", "Cannot compare"], "correctIndex": 2, "explanation": "1 m = 100 cm. Both tables are exactly the same length.", "tags": ["measurement", "comparison"] },
+    { "id": "g2m-w24-tue-009", "question": "A hallway is 4 m long. How long is that in cm?", "options": ["4 cm", "40 cm", "400 cm", "4000 cm"], "correctIndex": 2, "explanation": "1 m = 100 cm. 4 m = 4 × 100 = 400 cm.", "tags": ["measurement", "conversion"] },
+    { "id": "g2m-w24-tue-010", "question": "600 cm = ___ m.", "options": ["6 m", "60 m", "600 m", "0.6 m"], "correctIndex": 0, "explanation": "100 cm = 1 m. 600 ÷ 100 = 6 m.", "tags": ["measurement", "conversion"] },
+    { "id": "g2m-w24-tue-011", "question": "A wall is 250 cm high. Is it more than 2 m or less than 2 m?", "options": ["Less than 2 m", "More than 2 m", "Exactly 2 m", "Same as 2 m"], "correctIndex": 1, "explanation": "2 m = 200 cm. 250 cm > 200 cm, so the wall is more than 2 m.", "tags": ["measurement", "comparison"] },
+    { "id": "g2m-w24-tue-012", "question": "A pencil is 15 cm. A pen is 16 cm. Which is shorter?", "options": ["The pencil", "The pen", "Both are the same", "Cannot tell"], "correctIndex": 0, "explanation": "15 cm < 16 cm. The pencil (15 cm) is shorter.", "tags": ["measurement", "comparison"] },
+    { "id": "g2m-w24-tue-013", "question": "How many 50 cm pieces can be cut from a 1 m rope?", "options": ["1", "2", "3", "4"], "correctIndex": 1, "explanation": "1 m = 100 cm. 100 ÷ 50 = 2. Two 50 cm pieces.", "tags": ["measurement", "division"] },
+    { "id": "g2m-w24-tue-014", "question": "Which is longer — 99 cm or 1 m?", "options": ["99 cm", "1 m", "They are the same", "Cannot say"], "correctIndex": 1, "explanation": "1 m = 100 cm. 100 cm > 99 cm, so 1 m is longer.", "tags": ["measurement", "comparison"] },
+    { "id": "g2m-w24-tue-015", "question": "Meena jumped 150 cm. Tina jumped 2 m. Who jumped farther?", "options": ["Meena", "Tina", "Both jumped the same", "Cannot tell"], "correctIndex": 1, "explanation": "2 m = 200 cm. 200 cm > 150 cm, so Tina jumped farther.", "tags": ["measurement", "comparison"] }
+  ]
+}
