@@ -328,7 +328,49 @@ function _initProgressSection() {
     <div class="progress-streak-line">🔥 ${streak.current} day run &nbsp;·&nbsp; Best: ${streak.best} days</div>
     <button class="btn btn-share btn-full" style="margin-top:16px" onclick="_shareWeekProgress(${weekNum})">
       Share Week ${weekNum} Report →
-    </button>`;
+    </button>
+    <div class="backup-block" style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border,#262b38)">
+      <p class="text-muted" style="font-size:12px;margin:0 0 10px">Back up your full journey — XP, streak, badges, history — to a file you can keep or move to a new phone.</p>
+      <button class="btn btn-secondary btn-full" onclick="exportProgressBackup()">Export backup</button>
+      <label class="btn btn-secondary btn-full" style="margin-top:8px;display:block;text-align:center;cursor:pointer">
+        Restore from file
+        <input type="file" accept="application/json" onchange="importProgressBackup(this)" style="display:none">
+      </label>
+      <p id="backup-msg" class="text-muted" style="font-size:12px;margin:8px 0 0;text-align:center"></p>
+    </div>`;
+}
+
+// ── Manual backup / restore (P2-T046 fallback — works even if Drive is down) ──
+
+function exportProgressBackup() {
+  const blob = Storage.snapshotAll();
+  const who  = (state.user && state.user.loginId) ? state.user.loginId : 'donnibo';
+  const name = `${who}-backup-${new Date().toISOString().slice(0, 10)}.json`;
+  const file = new Blob([JSON.stringify(blob, null, 2)], { type: 'application/json' });
+  const a    = Object.assign(document.createElement('a'), { href: URL.createObjectURL(file), download: name });
+  a.click(); URL.revokeObjectURL(a.href);
+}
+
+function importProgressBackup(input) {
+  const file = input.files && input.files[0];
+  if (!file) return;
+  const msg    = document.getElementById('backup-msg');
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const blob = JSON.parse(reader.result);
+      if (!Storage.restoreAll(blob)) throw new Error('bad file');
+      if (typeof _initTheme === 'function') _initTheme();
+      state.timerEnabled = localStorage.getItem('decashift_timer') !== 'off';
+      if (typeof FEATURES !== 'undefined' && FEATURES.fullSync) Storage.syncStateToDrive();
+      _renderHome();
+      if (msg) msg.textContent = 'Progress restored ✓';
+    } catch (_) {
+      if (msg) msg.textContent = 'That file could not be read.';
+    }
+  };
+  reader.readAsText(file);
+  input.value = '';
 }
 
 function _shareWeekProgress(weekNum) {

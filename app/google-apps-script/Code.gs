@@ -36,6 +36,9 @@ function doGet(e) {
     // client sends loginIdHash (User ID hash); keep emailHash as legacy fallback
     return _json(getAccount(e.parameter.loginIdHash || e.parameter.emailHash));
   }
+  if (e && e.parameter && e.parameter.action === 'getJourney') {
+    return _json(getJourney(e.parameter.userId));
+  }
   return _json({ status: 'DecaShift API running', version: '3.0' });
 }
 
@@ -105,6 +108,16 @@ function saveJourney(payload) {
   _writeFile(folder, 'journey.json', JSON.stringify(payload, null, 2));
   _writeLog({ event: 'journey_saved', userId: payload.userId });
   return { success: true };
+}
+
+// Read-half (P2-T046) — mirror of getAccount. Returns the journey blob or {found:false}.
+function getJourney(userId) {
+  if (!userId) return { found: false };
+  const folder = _userFolder(userId);
+  const iter   = folder.getFilesByName('journey.json');
+  if (!iter.hasNext()) return { found: false };
+  const journey = JSON.parse(iter.next().getBlob().getDataAsString());
+  return { found: true, journey };
 }
 
 // ── Session — one file per session, write-once, inside the user's folder ───────

@@ -345,8 +345,24 @@ async function _handleSignin(e) {
     Storage.syncUserToRemote(user).catch(() => {});
   }
 
-  btn.disabled = false; btn.textContent = 'Sign In →';
   state.user = user;
+
+  // P2-T046: restore the full journey (XP/avatar/streak/stickers/mastery/history/
+  // prefs/appearance) from Drive so a fresh device shows the user's real progress,
+  // not a reset-looking child. Local-first: a miss/timeout just keeps local state.
+  if (FEATURES.fullSync) {
+    btn.textContent = 'Restoring your progress…';
+    try {
+      const blob = await Storage.fetchStateFromDrive(user.userId);
+      if (blob) {
+        Storage.restoreAll(blob);
+        if (typeof _initTheme === 'function') _initTheme();   // re-apply restored theme
+        state.timerEnabled = localStorage.getItem('decashift_timer') !== 'off';
+      }
+    } catch (_) { /* offline — keep local state, app still works */ }
+  }
+
+  btn.disabled = false; btn.textContent = 'Sign In →';
   sessionStorage.removeItem('ds_manifest_cache');
   await _loadManifest();
   await _loadCurriculum(user);
@@ -368,6 +384,10 @@ async function signOut() {
     const acct = Storage.findAccount(u.loginId);
     if (acct) Storage.saveAccount(acct.loginId, acct.passwordHash, acct.userId, u);
   }
+  // P2-T046: flush the latest journey to Drive before clearing, so the next
+  // sign-in (any device) restores current progress. Fire-and-forget — no SPA
+  // navigation here, so the in-flight request still completes.
+  if (FEATURES.fullSync) Storage.syncStateToDrive();
   Storage.clearSession();
   sessionStorage.removeItem('ds_manifest_cache');
   state.user      = null;

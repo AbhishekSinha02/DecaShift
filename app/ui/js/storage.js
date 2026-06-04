@@ -123,6 +123,10 @@ const Storage = (() => {
         body: JSON.stringify({ action: 'saveSession', payload: session })
       }).catch(() => {});
     }
+
+    // Quiz/drill end mutates XP, streak, stickers, box, mastery, history at once —
+    // the natural moment to push the full journey blob (P2-T046, debounced).
+    syncStateSoon();
   }
 
   function loadSessions() {
@@ -191,6 +195,7 @@ const Storage = (() => {
     }
 
     saveStreak(streak);
+    syncStateSoon();   // streak advanced — re-sync (P2-T046)
     return streak;
   }
 
@@ -199,7 +204,93 @@ const Storage = (() => {
     const s = loadStreak();
     s.freezes = Math.min(2, (s.freezes || 0) + 1);
     saveStreak(s);
+    syncStateSoon();   // freeze banked — re-sync (P2-T046)
     return s.freezes;
+  }
+
+  // ── Full-state sync (P2-T046) — journey + preferences + appearance ──────────
+  // The user's progress is siloed in localStorage per device×browser. These bundle
+  // every "see yourself grow" key into one blob written to Drive (users/{userId}/
+  // journey.json via `saveJourney`) and restored on a fresh device at sign-in.
+  //
+  // Account/identity keys (decashift_user/_user_id/_accounts) are synced separately
+  // by saveAccount and are NOT included here. Device-only keys (install/iOS-guide
+  // prompts, ds_rows_inited, ds_city) deliberately do NOT travel. Entries ending in
+  // '*' match by prefix (date-stamped / suffixed keys). Audited from live code 2026-06-04.
+  const SYNC_KEYS = [
+    // progress / journey
+    'decashift_sessions', 'decashift_streak',
+    'donnibo_xp_v1', 'ds_avatar',
+    'donnibo_collectibles', 'donnibo_stickers_seen',
+    'donnibo_box_state', 'donnibo_album_done',
+    'ds_drill_records',
+    'ds_quest_*', 'ds_gk_done_*', 'ds_reward_card*',
+    // preferences / appearance
+    'decashift_theme', 'decashift_timer', 'ds_last_subject',
+    'decashift_onboarded', 'donnibo_feedback'
+  ];
+
+  function _isSyncKey(k) {
+    return SYNC_KEYS.some(p => p.endsWith('*') ? k.startsWith(p.slice(0, -1)) : k === p);
+  }
+
+  // Pure read — bundle every syncable key. No behaviour change.
+  function snapshotAll() {
+    const keys = {};
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && _isSyncKey(k)) keys[k] = localStorage.getItem(k);
+    }
+    const u = loadUser();
+    return { version: 1, savedAt: new Date().toISOString(), userId: u && u.userId, keys };
+  }
+
+  // v1 = last-write-wins, whole-blob (per-key merge is DEFERRED — see task). Writes
+  // each allow-listed key back; skips unknown keys; never throws on quota/missing.
+  function restoreAll(blob) {
+    if (!blob || !blob.keys) return false;
+    for (const k in blob.keys) {
+      if (!_isSyncKey(k)) continue;
+      try { localStorage.setItem(k, blob.keys[k]); } catch (_) {}
+    }
+    return true;
+  }
+
+  // Push the full snapshot to Drive (journey.json). Silent, fire-and-forget.
+  function syncStateToDrive() {
+    if (!APPS_SCRIPT_URL) return Promise.resolve({ success: false });
+    const blob = snapshotAll();
+    if (!blob.userId) return Promise.resolve({ success: false });  // not signed in
+    return fetch(APPS_SCRIPT_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/plain' },
+      body: JSON.stringify({ action: 'saveJourney', payload: blob })
+    }).then(() => ({ success: true })).catch(() => ({ success: false }));
+  }
+
+  // Debounced push — coalesces the burst of key writes at quiz/drill end into one POST.
+  let _syncTimer = null;
+  function syncStateSoon(delay = 2500) {
+    if (typeof window !== 'undefined' && !(window.FEATURES && window.FEATURES.fullSync)) return;
+    clearTimeout(_syncTimer);
+    _syncTimer = setTimeout(() => { syncStateToDrive(); }, delay);
+  }
+
+  // Read the journey blob back. Times out like fetchAccountFromDrive so a slow/
+  // unreachable endpoint never hangs sign-in; returns null on any failure (local-first).
+  async function fetchStateFromDrive(userId, timeoutMs = 8000) {
+    if (!APPS_SCRIPT_URL || !userId) return null;
+    const ctrl  = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+    try {
+      const r    = await fetch(APPS_SCRIPT_URL + '?action=getJourney&userId=' + encodeURIComponent(userId), { signal: ctrl.signal });
+      const data = await r.json();
+      return data.found ? data.journey : null;
+    } catch (_) {
+      return null;
+    } finally {
+      clearTimeout(timer);
+    }
   }
 
   // ── Export ────────────────────────────────────────────────────────────────
@@ -226,6 +317,7 @@ const Storage = (() => {
     syncUserToRemote,
     saveSession, loadSessions, getLastSessionForGoal, clearSessionsForGoal,
     loadStreak, saveStreak, updateStreak, grantFreeze,
+    snapshotAll, restoreAll, syncStateToDrive, syncStateSoon, fetchStateFromDrive,
     exportAsJSON, exportAsCSV
   };
 })();

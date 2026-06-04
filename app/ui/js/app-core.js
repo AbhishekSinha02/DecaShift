@@ -3,9 +3,15 @@
 // Build stamp — bump together with the ?v= query strings in index.html. Lets us
 // confirm which code is actually live (stale CDN/browser cache vs latest deploy):
 // open DevTools console → look for this line, or type DONNIBO_BUILD.
-const BUILD = '20260603b';
+const BUILD = '20260604a';
 window.DONNIBO_BUILD = BUILD;
 console.log('%cDonnibo build ' + BUILD, 'color:#3b82f6;font-weight:bold');
+
+// Feature flags — large features stay dormant behind a flag until wired + tested.
+const FEATURES = {
+  fullSync: true   // P2-T046: full-state cross-device sync (journey + prefs + appearance)
+};
+window.FEATURES = FEATURES;
 
 const CONFIG = {
   owner:         'AbhishekSinha02',
