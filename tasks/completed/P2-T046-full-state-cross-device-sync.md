@@ -1,10 +1,10 @@
 # P2-T046 — Full-State Cross-Device Sync: journey + preferences + appearance (+ offline password reset)
 
-> ## ✅ STATUS 2026-06-04 — SHIPPED + TESTED WORKING (build `20260604a`)
-> **Validated 2026-06-04:** Code.gs redeployed (`getJourney` returns `{found:false}` live);
-> smoke-tested incognito → mobile, progress restores across devices. **Mostly working** —
-> a few edge cases remain (user-noted, deferred — capture specifics next session). Core
-> cross-device sync is functional; the binding launch gap is closed.
+> ## ✅ DONE — COMPLETED 2026-06-04 (build `20260604g`, tag `v6.1-stable`)
+> Shipped, redeployed, and **verified working across devices** (incognito → mobile, progress
+> restores). The binding launch gap (journey lost on device switch) is **closed**. A few minor
+> edge cases were user-noted and deferred (per-key merge / mobile timeout polish) — NOT blocking.
+> Merged into `v6.0` cold backup.
 >
 > ## ✅ build detail — core shipped (build `20260604a`)
 > **Done & pushed:** `snapshotAll`/`restoreAll` + `syncStateToDrive`/`fetchStateFromDrive`/

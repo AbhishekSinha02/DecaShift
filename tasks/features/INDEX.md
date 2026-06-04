@@ -10,4 +10,4 @@
 | FEAT-003 | ✅ Done | Lazy loading — only load Daily Sprint on sign-in | — | — | [→](FEAT-003-lazy-subject-tab-loading.md) |
 | FEAT-002 | ✅ Done | User ID replaces Email as login key | — | — | [→](FEAT-002-userid-replaces-email-login.md) |
 | FEAT-001 | 🟠 P2 | Week architecture Mon–Sun (Sat exam, Sun catch-up) | 1 code + 1 content session/grade | ✅ Yes — exam content format + Saturday gate | [→](FEAT-001-week-architecture-mon-sun.md) |
-| ~~FEAT-006~~ | ✅ **BUILT 2026-06-04** (build `20260604c`) | **Help & Feedback form** — `app-contact.js` + Settings tile + 6 mood chips + `saveContact`/`getContacts`. ⚠️ needs manual Apps Script redeploy + smoke test. | — | — | [→](FEAT-006-contact-us-form.md) |
+| ~~FEAT-006~~ | ✅ **DONE 2026-06-04** (build `20260604g`) | **Help & Feedback form** — `app-contact.js` + Settings tile + 6 mood chips + `saveContact`/`getContacts`. Verified working; folder `Name_loginId_userId`. | — | — | [→](completed/FEAT-006-contact-us-form.md) |

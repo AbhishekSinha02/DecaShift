@@ -20,7 +20,8 @@
 
 | # | Priority | File | Focus |
 |---|---|---|---|
-| ~~1~~ | ✅ **DONE + TESTED 2026-06-04** (build `20260604a`) | **tasks/P2-T046-full-state-cross-device-sync.md** | **Full-state sync SHIPPED + validated: Code.gs redeployed (`getJourney` live), smoke-tested incognito→mobile, progress restores across devices. A few edge cases remain (user-noted, deferred). Deferred: `mustChangePassword` forced screen + per-key merge. Binding launch gap CLOSED.** |
+| ~~1~~ | ✅ **DONE + VERIFIED 2026-06-04** (build `20260604g`, tag `v6.1-stable`) | **tasks/completed/P2-T046-…** | **Full-state cross-device sync COMPLETE + merged to `v6.0`. Verified incognito→mobile. Also this session: FEAT-006 Help & Feedback (✅ completed), folder naming `Name_loginId_userId` (userId stays the key). Deferred (not blocking): per-key merge, `mustChangePassword` screen.** |
+| ~~—~~ | ✅ **DONE 2026-06-04** | **tasks/features/completed/FEAT-006-…** | **Help & Feedback contact form — isolated `app-contact.js` + Settings tile + 6 mood chips + `saveContact`/`getContacts` triage. Verified working.** |
 | ~~1~~ | ✅ **Phase 1 DONE 2026-06-04** | ~~PENDING-test-feedback-then-multicity.md~~ | **FEAT-005 per-user folder TESTED + LIVE** at `dailymath30.com/DecaShift/app/ui/` (build 20260603b, new Apps Script URL). Fixed the real blocker: nested `.github.io` gitlink broke every Pages build (`183854e`) + `.nojekyll`. Brand config (FEAT-005 item 5) shipped, path-based. **Phase 2 (multi-city deploy) stays GitHub Pages path-based per user — NOT Cloudflare.** See [[project_deploy_architecture]]. |
 | **2** | 🔴 **P0** | **PENDING-g2-journey-freeze-paywall.md → ENH-011** | **G2: Journey-freeze paywall + Razorpay — THE binding GTM blocker; contains the subscription strategy. Build flag-gated, atomic. (Not deprioritized — sequenced after user's test+multi-city focus.)** |
 | 2 | 🔴 P1 | enhancements/INDEX.md → ENH-001 | Wrong answer review after quiz (~1 session) — result screen now renders post-BUG-030 |
@@ -81,11 +82,12 @@
 
 ---
 
-## Completed Sessions (22 done)
+## Completed Sessions (23 done)
 See `sessions/completed/` for full session files. Summary only here.
 
 | Date | What | Commit |
 |---|---|---|
+| 2026-06-04 | P2-T046 full-state cross-device sync + FEAT-006 Help & Feedback + folder naming `Name_loginId_userId`; v6.1-stable; v5.0-dev→v6.0 backup | `v6.1-stable` |
 | 2026-06-03 | BUG-025/015 fixed; row polish; FEAT-001; v4.3→v4.4 | `005420f` |
 | 2026-06-03 | UX audit Gr.5+11; 7 bugs + 8 enhancements; BUG-014/020/ENH-005 fixed | `302190c` |
 | 2026-06-02 | Daily Sprint tab; past practice grouping; BUG-022/023/024 fixed | `17ba8fa` |
