@@ -284,12 +284,12 @@ const Storage = (() => {
 
   // Read the journey blob back. Times out like fetchAccountFromDrive so a slow/
   // unreachable endpoint never hangs sign-in; returns null on any failure (local-first).
-  async function fetchStateFromDrive(loginId, timeoutMs = 8000) {
-    if (!APPS_SCRIPT_URL || !loginId) return null;
+  async function fetchStateFromDrive(userId, timeoutMs = 8000) {
+    if (!APPS_SCRIPT_URL || !userId) return null;
     const ctrl  = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), timeoutMs);
     try {
-      const r    = await fetch(APPS_SCRIPT_URL + '?action=getJourney&loginId=' + encodeURIComponent(loginId), { signal: ctrl.signal });
+      const r    = await fetch(APPS_SCRIPT_URL + '?action=getJourney&userId=' + encodeURIComponent(userId), { signal: ctrl.signal });
       const data = await r.json();
       return data.found ? data.journey : null;
     } catch (_) {
