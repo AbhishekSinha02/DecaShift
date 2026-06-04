@@ -1,5 +1,23 @@
 # P2-T046 — Full-State Cross-Device Sync: journey + preferences + appearance (+ offline password reset)
 
+> ## ✅ STATUS 2026-06-04 — core shipped (build `20260604a`), needs live test
+> **Done & pushed:** `snapshotAll`/`restoreAll` + `syncStateToDrive`/`fetchStateFromDrive`/
+> `syncStateSoon` (storage.js) · re-sync on session-end/streak/freeze + sign-out flush ·
+> restore-on-signin (re-applies theme/timer before home) · `getJourney` read-half in Code.gs ·
+> Settings → My Progress **Export backup / Restore from file** · flag `FEATURES.fullSync=true`.
+> Snapshot/restore round-trip verified in Node. Offline-password-reset **support runbook**
+> written (`docs/support-password-reset.md`); in-app change-password already exists + syncs.
+>
+> **⚠️ REMAINING before this can be ticked off:**
+> 1. **Manual Apps Script redeploy** of `Code.gs` (edit existing deployment → New version to keep
+>    the URL stable) — the **`getJourney` read path is dead until this is done**; `saveJourney`
+>    write path already deployed (v3), so writes work now.
+> 2. **Smoke test (plan step 7):** signup → earn XP/sticker/streak → sign out → sign in on a
+>    second browser profile → progress restored. Verify `DONNIBO_BUILD=20260604a` live first.
+> 3. **(Deferred sub-item)** `mustChangePassword` forced-change screen — self-service change in
+>    Settings works today, so not launch-blocking. Per-key merge / two-device merge also deferred
+>    (see Low-priority polish below).
+
 > **Priority:** ★ HIGHEST (Launch Critical) — **NEXT SESSION (user-set 2026-06-04).** Sync the
 > COMPLETE user journey, preferences, and appearance/theme prefs to Drive. Phase 1 (FEAT-005
 > per-user folder) is tested and live, so this is now the binding gap: today the journey is
