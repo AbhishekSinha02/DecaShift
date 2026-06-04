@@ -62,6 +62,7 @@
 ## Pending Queue — Content
 
 > W21/W22/W23 complete (all subjects). W24 = nothing yet.
+> **W23 grade 9-12 now has 5 sets per subject** (set1–set5, ~15q each = ~75q/subject/week) — no free/pro gating defined yet. Grades 2–8 use daily files (5 days × ~10q).
 > Full 3-month plan: `tasks/marketing/CONTENT-GEN-3MONTH-PLAN.md`
 > Run just-in-time (~2 weeks ahead). Say **"start questions generation"** → auto-executes.
 
