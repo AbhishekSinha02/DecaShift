@@ -3,7 +3,7 @@
 > Completed sessions → `sessions/completed/`
 > **Do NOT load completed/ when looking for next task — everything actionable is below.**
 > Say **"start the session"** → Claude reads this INDEX → runs Priority 1 from pending queue.
-> **Branching: work on `main` only** (daily dev + deployed via custom domain). `v5.0-dev` is a cold backup — never develop on it. No feature branches. See CLAUDE.md → Branching & Deployment Strategy.
+> **Branching: work on `main` only** (daily dev + deployed via custom domain). `v6.0` is THE single cold backup (replaced `v5.0-dev`, deleted 2026-06-04) — never develop on it; one and only one cold backup. No feature branches. See CLAUDE.md → Branching & Deployment Strategy.
 
 ---
 

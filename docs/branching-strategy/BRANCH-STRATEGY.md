@@ -1,3 +1,8 @@
+> ⚠️ **SUPERSEDED — HISTORICAL ONLY, DO NOT FOLLOW.** Describes an old two-track
+> feature-branch + PR model no longer in use. **Current rule: develop on `main` only;
+> `v6.0` is THE single cold backup (one and only one); no feature branches, no PRs.**
+> Source of truth: CLAUDE.md → "Branching & Deployment Strategy".
+
 # Git Branch Strategy — Donnibo v4.3 → v5.0
 **Created:** 2026-06-01  
 **Branching Model:** Main + Feature Branches (Two parallel tracks)

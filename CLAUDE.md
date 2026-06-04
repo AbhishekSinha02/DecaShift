@@ -353,8 +353,9 @@ generateSessionId()       → crypto.randomUUID() each session
   (no approval needed — see the git-push standing instruction). This **overrides**
   any default "branch before committing on the default branch" behaviour: here the
   user explicitly wants direct-to-`main` development.
-- **`v5.0-dev`** = a **cold backup branch only**. Not worked on. Periodically merge
-  `main → v5.0-dev` as a snapshot (e.g. at a tagged milestone), then return to
+- **`v6.0`** = **THE single cold backup branch** (replaced `v5.0-dev`, which was deleted
+  2026-06-04). **One and only one cold backup exists at a time.** Not worked on. Periodically
+  merge `main → v6.0` as a snapshot (only after features are **tested**), then return to
   `main`. Never develop on it.
 - **Tags** mark milestones on `main` (convention `vX.Y` / `vX.Y-stable`, e.g. `v4.5`).
 - Do **not** spin up multiple branches, PRs, or parallel work streams. One branch.

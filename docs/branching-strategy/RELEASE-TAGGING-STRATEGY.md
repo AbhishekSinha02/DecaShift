@@ -1,3 +1,9 @@
+> ⚠️ **SUPERSEDED — HISTORICAL ONLY, DO NOT FOLLOW.** Describes an old multi-branch
+> model no longer in use. **Current rule: develop on `main` only; `v6.0` is THE single
+> cold backup (one and only one); milestone tags on `main` use the `-stable` suffix
+> (e.g. `v6.0-stable`) to avoid the branch/tag name clash.**
+> Source of truth: CLAUDE.md → "Branching & Deployment Strategy".
+
 # Release Tagging Strategy — Donnibo v4.3
 **Created:** 2026-06-01  
 **Purpose:** Multiple restore points + untouched backup for maximum safety  

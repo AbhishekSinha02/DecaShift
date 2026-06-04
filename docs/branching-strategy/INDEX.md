@@ -1,3 +1,8 @@
+> ⚠️ **SUPERSEDED — HISTORICAL ONLY, DO NOT FOLLOW.** This folder documents an old
+> two-track feature-branch + PR model no longer in use. **Current rule: develop on
+> `main` only; `v6.0` is THE single cold backup (one and only one); no feature
+> branches, no PRs.** Source of truth: CLAUDE.md → "Branching & Deployment Strategy".
+
 # Branching Strategy Documentation — Complete Index
 **Created:** 2026-06-01  
 **Updated:** 2026-06-01 (Context 86% utilization)  
