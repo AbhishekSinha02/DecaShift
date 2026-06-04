@@ -117,10 +117,14 @@ const Storage = (() => {
     localStorage.setItem(KEYS.SESSIONS, JSON.stringify(sessions));
 
     if (APPS_SCRIPT_URL) {
+      // Carry loginId + name so the server can name/find the user folder (Name_loginId)
+      // without the opaque userId. Remote-only — local session schema is untouched.
+      const u = loadUser() || {};
+      const payload = Object.assign({}, session, { loginId: u.loginId, name: u.name });
       fetch(APPS_SCRIPT_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'text/plain' },
-        body: JSON.stringify({ action: 'saveSession', payload: session })
+        body: JSON.stringify({ action: 'saveSession', payload })
       }).catch(() => {});
     }
 
@@ -241,8 +245,10 @@ const Storage = (() => {
       const k = localStorage.key(i);
       if (k && _isSyncKey(k)) keys[k] = localStorage.getItem(k);
     }
-    const u = loadUser();
-    return { version: 1, savedAt: new Date().toISOString(), userId: u && u.userId, keys };
+    const u = loadUser() || {};
+    // loginId + name let the server key/name the folder as Name_loginId.
+    return { version: 1, savedAt: new Date().toISOString(),
+             userId: u.userId, loginId: u.loginId, name: u.name, keys };
   }
 
   // v1 = last-write-wins, whole-blob (per-key merge is DEFERRED — see task). Writes
@@ -278,12 +284,12 @@ const Storage = (() => {
 
   // Read the journey blob back. Times out like fetchAccountFromDrive so a slow/
   // unreachable endpoint never hangs sign-in; returns null on any failure (local-first).
-  async function fetchStateFromDrive(userId, timeoutMs = 8000) {
-    if (!APPS_SCRIPT_URL || !userId) return null;
+  async function fetchStateFromDrive(loginId, timeoutMs = 8000) {
+    if (!APPS_SCRIPT_URL || !loginId) return null;
     const ctrl  = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), timeoutMs);
     try {
-      const r    = await fetch(APPS_SCRIPT_URL + '?action=getJourney&userId=' + encodeURIComponent(userId), { signal: ctrl.signal });
+      const r    = await fetch(APPS_SCRIPT_URL + '?action=getJourney&loginId=' + encodeURIComponent(loginId), { signal: ctrl.signal });
       const data = await r.json();
       return data.found ? data.journey : null;
     } catch (_) {

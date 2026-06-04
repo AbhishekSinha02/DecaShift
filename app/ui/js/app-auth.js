@@ -353,7 +353,7 @@ async function _handleSignin(e) {
   if (FEATURES.fullSync) {
     btn.textContent = 'Restoring your progress…';
     try {
-      const blob = await Storage.fetchStateFromDrive(user.userId);
+      const blob = await Storage.fetchStateFromDrive(user.loginId);
       if (blob) {
         Storage.restoreAll(blob);
         if (typeof _initTheme === 'function') _initTheme();   // re-apply restored theme

@@ -37,7 +37,7 @@ function doGet(e) {
     return _json(getAccount(e.parameter.loginIdHash || e.parameter.emailHash));
   }
   if (e && e.parameter && e.parameter.action === 'getJourney') {
-    return _json(getJourney(e.parameter.userId));
+    return _json(getJourney(e.parameter.loginId));
   }
   if (e && e.parameter && e.parameter.action === 'getContacts') {
     return _json(getContacts(e.parameter.date));   // admin triage (FEAT-006)
@@ -88,7 +88,7 @@ function getAccount(loginIdHash) {
 // ── User — one FOLDER per user; profile + entitlement split into files ─────────
 
 function saveUser(user) {
-  const folder = _userFolder(user.userId, user.name);
+  const folder = _userFolder(user.loginId, user.name);
   // entitlement is persisted as its own file; everything else is the profile
   const entitlement = user.entitlement || null;
   const profile     = Object.assign({}, user);
@@ -108,16 +108,16 @@ function saveUser(user) {
 // Ready for P2-T046 cross-device sync; safe no-op shape until the client sends it.
 
 function saveJourney(payload) {
-  const folder = _userFolder(payload.userId);
+  const folder = _userFolder(payload.loginId, payload.name);
   _writeFile(folder, 'journey.json', JSON.stringify(payload, null, 2));
-  _writeLog({ event: 'journey_saved', userId: payload.userId });
+  _writeLog({ event: 'journey_saved', loginId: payload.loginId });
   return { success: true };
 }
 
 // Read-half (P2-T046) — mirror of getAccount. Returns the journey blob or {found:false}.
-function getJourney(userId) {
-  if (!userId) return { found: false };
-  const folder = _userFolder(userId);
+function getJourney(loginId) {
+  if (!loginId) return { found: false };
+  const folder = _userFolder(loginId);
   const iter   = folder.getFilesByName('journey.json');
   if (!iter.hasNext()) return { found: false };
   const journey = JSON.parse(iter.next().getBlob().getDataAsString());
@@ -130,7 +130,7 @@ function getJourney(userId) {
 // the getContacts scan below. Date-stamped filename so a script can fetch by day.
 
 function saveContact(c) {
-  const folder = _subFolder(_userFolder(c.userId, c.name), 'contact');
+  const folder = _subFolder(_userFolder(c.loginId, c.name), 'contact');
   const d      = c.date || new Date().toISOString().slice(0, 10);
   const name   = 'msg_' + d + '_' + Date.now() + '.json';
   folder.createFile(name, JSON.stringify(c, null, 2), MimeType.PLAIN_TEXT);
@@ -160,7 +160,7 @@ function getContacts(date) {
 // ── Session — one file per session, write-once, inside the user's folder ───────
 
 function saveSession(session) {
-  const sessionsFolder = _subFolder(_userFolder(session.userId, session.name), 'sessions');
+  const sessionsFolder = _subFolder(_userFolder(session.loginId, session.name), 'sessions');
   const filename       = 'sess_' + session.sessionId + '.json';
   sessionsFolder.createFile(filename, JSON.stringify(session, null, 2), MimeType.PLAIN_TEXT);
 
@@ -190,13 +190,13 @@ function _subFolder(parent, name) {
   return iter.hasNext() ? iter.next() : parent.createFolder(name);
 }
 
-// the per-student folder: users/{userId (Name)}/ — keyed by userId (stable) with the
-// child's name appended for quick human scanning. Resolved via a cached folderId (fast
-// hot path) so the readable name never breaks lookups; falls back to a userId scan when
-// the cache is cold, creates once if truly absent, and renames to add the name once known.
-function _userFolder(userId, name) {
+// the per-student folder: users/{Name_loginId}/ — keyed by loginId (the human User ID,
+// unique per signup), named with the child's name for quick scanning. loginId is the
+// last token, so the folder is locatable by it. Cached folderId = fast hot path; cold
+// cache falls back to a name scan; created once if absent; renamed once the name is known.
+function _userFolder(loginId, name) {
   const props    = PropertiesService.getScriptProperties();
-  const cacheKey = 'uf_' + userId;
+  const cacheKey = 'uf_' + loginId;
   let folder = null;
 
   const cachedId = props.getProperty(cacheKey);
@@ -205,31 +205,27 @@ function _userFolder(userId, name) {
   }
   if (!folder) {
     const usersRoot = _subFolder(_rootFolder(), 'users');
-    const exact = usersRoot.getFoldersByName(userId);          // legacy bare-userId folder
-    if (exact.hasNext()) {
-      folder = exact.next();
-    } else {
-      const all = usersRoot.getFolders();                      // already-renamed "userId (Name)"
-      while (all.hasNext()) {
-        const f = all.next();
-        if (f.getName().indexOf(userId) === 0) { folder = f; break; }
-      }
+    const all = usersRoot.getFolders();
+    const suffix = '_' + loginId;
+    while (all.hasNext()) {                                     // match "Name_loginId" or bare "loginId"
+      const f = all.next(), n = f.getName();
+      if (n === loginId || n.slice(-suffix.length) === suffix) { folder = f; break; }
     }
     if (!folder) {
-      folder = usersRoot.createFolder(name ? userId + ' (' + _safeName(name) + ')' : userId);
+      folder = usersRoot.createFolder(name ? _safeName(name) + '_' + loginId : loginId);
     }
     props.setProperty(cacheKey, folder.getId());               // cache so future lookups are O(1)
   }
-  if (name) {                                                  // upgrade the label once we know it
-    const desired = userId + ' (' + _safeName(name) + ')';
+  if (name) {                                                  // set/refresh the readable label
+    const desired = _safeName(name) + '_' + loginId;
     if (folder.getName() !== desired) { try { folder.setName(desired); } catch (_) {} }
   }
   return folder;
 }
 
-// folder-name-safe display name (strip slashes, collapse spaces, cap length)
+// folder-name-safe: drop slashes, spaces → underscore, cap length (e.g. "Rio Luke" → "Rio_Luke")
 function _safeName(name) {
-  return String(name).replace(/[\\\/]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 40);
+  return String(name).replace(/[\\\/]/g, ' ').trim().replace(/\s+/g, '_').slice(0, 40);
 }
 
 // create-or-overwrite a file by name in a folder
