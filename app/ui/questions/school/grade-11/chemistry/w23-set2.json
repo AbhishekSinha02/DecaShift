@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-chemistry",
+  "title": "Grade 11 Chemistry — Gas Laws: Numericals & Real Gases",
+  "description": "Boyle's, Charles', Avogadro's laws, ideal gas equation, van der Waals",
+  "category": "school",
+  "grade": 11,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chem_11_w23_s2_001",
+      "goalId": "grade11-chemistry",
+      "question": "Boyle's Law states: at constant temperature, pressure is _____ to volume.",
+      "options": ["Directly proportional", "Inversely proportional (P ∝ 1/V or PV = constant)", "Independent of", "Exponentially related to"],
+      "correctIndex": 1,
+      "explanation": "Boyle's Law: PV = constant (at constant T and n). If pressure doubles, volume halves. P₁V₁ = P₂V₂. Named after Robert Boyle (1662).",
+      "difficulty": "easy",
+      "tags": ["boyles-law", "pressure-volume", "gas-laws"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_002",
+      "goalId": "grade11-chemistry",
+      "question": "A gas at 2 atm occupies 3 L. At constant T, when pressure becomes 1.5 atm, the volume is:",
+      "options": ["2.25 L", "4 L", "6 L", "1.5 L"],
+      "correctIndex": 1,
+      "explanation": "Boyle's Law: P₁V₁ = P₂V₂. 2 × 3 = 1.5 × V₂. V₂ = 6/1.5 = 4 L.",
+      "difficulty": "easy",
+      "tags": ["boyles-law", "calculation", "gas-laws"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_003",
+      "goalId": "grade11-chemistry",
+      "question": "Charles' Law states: at constant pressure, volume is _____ proportional to absolute temperature (K).",
+      "options": ["Inversely", "Directly (V/T = constant)", "Not related", "Quadratically"],
+      "correctIndex": 1,
+      "explanation": "Charles' Law: V/T = constant (at constant P and n). V₁/T₁ = V₂/T₂. MUST use Kelvin temperature. Named after Jacques Charles (1787).",
+      "difficulty": "easy",
+      "tags": ["charles-law", "volume-temperature", "gas-laws"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_004",
+      "goalId": "grade11-chemistry",
+      "question": "A gas at 27°C occupies 2 L. At constant pressure, its volume at 127°C is:",
+      "options": ["4 L", "8/3 L", "3 L", "2.67 L"],
+      "correctIndex": 3,
+      "explanation": "Convert: T₁ = 27+273 = 300 K, T₂ = 127+273 = 400 K. Charles' Law: V₂ = V₁T₂/T₁ = 2 × 400/300 = 8/3 ≈ 2.67 L.",
+      "difficulty": "medium",
+      "tags": ["charles-law", "calculation", "temperature-conversion"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_005",
+      "goalId": "grade11-chemistry",
+      "question": "The Ideal Gas Equation is:",
+      "options": ["PV = nRT", "PV = RT", "P = nRT/V", "Both A and C (same equation rearranged)"],
+      "correctIndex": 3,
+      "explanation": "PV = nRT where P = pressure, V = volume, n = moles, R = 8.314 J/(mol·K), T = temperature in Kelvin. Rearranged: P = nRT/V. Both forms are the same ideal gas equation.",
+      "difficulty": "easy",
+      "tags": ["ideal-gas-equation", "PV=nRT", "gas-laws"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_006",
+      "goalId": "grade11-chemistry",
+      "question": "At STP (0°C, 1 atm), 1 mole of an ideal gas occupies:",
+      "options": ["22.4 L", "24 L", "11.2 L", "1 L"],
+      "correctIndex": 0,
+      "explanation": "Molar volume at STP = 22.4 L/mol. This is a fundamental result from PV = nRT: V = nRT/P = 1×0.0821×273/1 ≈ 22.4 L. (New IUPAC STP = 0°C, 100 kPa → 22.7 L; old STP = 22.4 L).",
+      "difficulty": "easy",
+      "tags": ["molar-volume", "STP", "ideal-gas"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_007",
+      "goalId": "grade11-chemistry",
+      "question": "Dalton's Law of Partial Pressures states:",
+      "options": ["Total pressure equals pressure of the largest component", "P_total = P₁ + P₂ + P₃ + ... (sum of partial pressures of all gases in a mixture)", "Pressure of a gas equals its mole fraction", "P_total = average of partial pressures"],
+      "correctIndex": 1,
+      "explanation": "Dalton's Law: the total pressure of a gas mixture equals the sum of partial pressures. Partial pressure of a component = mole fraction × total pressure: Pᵢ = xᵢ × P_total.",
+      "difficulty": "medium",
+      "tags": ["daltons-law", "partial-pressure", "gas-mixtures"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_008",
+      "goalId": "grade11-chemistry",
+      "question": "Graham's Law of Effusion states that the rate of effusion is:",
+      "options": ["Proportional to molar mass", "Inversely proportional to the square root of molar mass", "Equal for all gases at same temperature", "Proportional to temperature"],
+      "correctIndex": 1,
+      "explanation": "Graham's Law: r ∝ 1/√M. Lighter gases effuse faster. Ratio: r₁/r₂ = √(M₂/M₁). Example: H₂ effuses 4× faster than O₂ (√(32/2) = √16 = 4).",
+      "difficulty": "medium",
+      "tags": ["grahams-law", "effusion", "molar-mass"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_009",
+      "goalId": "grade11-chemistry",
+      "question": "Real gases deviate from ideal behaviour at:",
+      "options": ["High temperature and low pressure", "Low temperature and high pressure (molecules closer, interactions matter)", "Any conditions equally", "Only for noble gases"],
+      "correctIndex": 1,
+      "explanation": "At high P and low T, gases deviate most from ideal: (1) At high P, molecules are compressed close together — volume of molecules is significant. (2) At low T, intermolecular forces become important.",
+      "difficulty": "medium",
+      "tags": ["real-gases", "deviation", "conditions"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_010",
+      "goalId": "grade11-chemistry",
+      "question": "The van der Waals equation for real gases is: (P + an²/V²)(V − nb) = nRT. The 'an²/V²' term corrects for:",
+      "options": ["Volume of gas molecules", "Intermolecular attractions (real pressure is less than ideal due to attractions)", "Temperature effects", "Number of moles"],
+      "correctIndex": 1,
+      "explanation": "'an²/V²' is the pressure correction — molecules attract each other so actual pressure on container walls is LESS than ideal. 'a' measures strength of intermolecular attractions. 'nb' corrects for molecular volume.",
+      "difficulty": "hard",
+      "tags": ["van-der-waals", "pressure-correction", "real-gases"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_011",
+      "goalId": "grade11-chemistry",
+      "question": "Avogadro's Law states that equal volumes of all gases at the same T and P contain:",
+      "options": ["The same mass of gas", "The same number of molecules", "The same number of atoms", "Molecules with the same kinetic energy only"],
+      "correctIndex": 1,
+      "explanation": "Avogadro's Law: equal volumes of gases at same T and P contain equal numbers of molecules (regardless of their chemical nature). This led to the concept of the mole and molar volume.",
+      "difficulty": "easy",
+      "tags": ["avogadros-law", "equal-volumes", "molecules"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_012",
+      "goalId": "grade11-chemistry",
+      "question": "Root mean square (rms) speed of gas molecules is: urms = ?",
+      "options": ["√(3RT/M)", "√(2RT/M)", "√(8RT/πM)", "3kT/2m"],
+      "correctIndex": 0,
+      "explanation": "urms = √(3RT/M) where R = gas constant, T = temperature (K), M = molar mass (kg/mol). Other speed expressions: u_avg = √(8RT/πM), u_mp = √(2RT/M). urms > u_avg > u_mp.",
+      "difficulty": "hard",
+      "tags": ["rms-speed", "kinetic-theory", "formula"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_013",
+      "goalId": "grade11-chemistry",
+      "question": "The kinetic energy of 1 mole of an ideal gas at temperature T is:",
+      "options": ["kT", "3/2 RT", "3/2 kT", "RT"],
+      "correctIndex": 1,
+      "explanation": "Average KE per mole = (3/2)RT. Average KE per molecule = (3/2)kT (k = Boltzmann constant = R/Nₐ). This is why temperature is a measure of average kinetic energy.",
+      "difficulty": "medium",
+      "tags": ["kinetic-energy", "temperature", "mole"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_014",
+      "goalId": "grade11-chemistry",
+      "question": "A 2 L container holds gas at 3 atm, 300 K. The same gas at 2 atm in a 3 L container has temperature:",
+      "options": ["200 K", "300 K", "600 K", "450 K"],
+      "correctIndex": 1,
+      "explanation": "Combined gas law: P₁V₁/T₁ = P₂V₂/T₂. 3×2/300 = 2×3/T₂ → 6/300 = 6/T₂ → T₂ = 300 K.",
+      "difficulty": "medium",
+      "tags": ["combined-gas-law", "calculation", "gas-laws"]
+    },
+    {
+      "id": "q_chem_11_w23_s2_015",
+      "goalId": "grade11-chemistry",
+      "question": "The compressibility factor Z = PV/nRT. For an ideal gas, Z = ?",
+      "options": ["0", "1", "∞", "Depends on temperature"],
+      "correctIndex": 1,
+      "explanation": "For ideal gas: PV = nRT → Z = PV/nRT = 1. For real gases: Z > 1 at high pressure (molecular volume effect dominates) or Z < 1 at moderate pressure (attractive forces dominate).",
+      "difficulty": "medium",
+      "tags": ["compressibility-factor", "Z", "real-vs-ideal"]
+    }
+  ]
+}

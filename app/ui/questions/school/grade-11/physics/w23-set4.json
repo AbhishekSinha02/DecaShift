@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-physics",
+  "title": "Grade 11 Physics — Centre of Mass, Momentum & Rotational Motion",
+  "description": "Centre of mass, angular quantities, torque, moment of inertia",
+  "category": "school",
+  "grade": 11,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_11_w23_s4_001",
+      "goalId": "grade11-physics",
+      "question": "The centre of mass of a system is the point where:",
+      "options": ["The heaviest mass is located", "The entire mass of the system can be considered to be concentrated for translational motion", "Gravity acts from the ground", "Speed is always maximum"],
+      "correctIndex": 1,
+      "explanation": "Centre of mass (CM): the average position of mass distribution. For external forces, the system behaves as if its entire mass M is at the CM. x_cm = Σmᵢxᵢ / Σmᵢ.",
+      "difficulty": "easy",
+      "tags": ["centre-of-mass", "definition", "system"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_002",
+      "goalId": "grade11-physics",
+      "question": "Angular velocity (ω) and linear velocity (v) are related by:",
+      "options": ["v = ω/r", "v = ωr", "ω = vr", "v = ω²r"],
+      "correctIndex": 1,
+      "explanation": "v = ωr. Linear velocity = angular velocity × radius. Unit of ω = rad/s. Similarly: linear acceleration a = αr (α = angular acceleration), arc length s = rθ.",
+      "difficulty": "easy",
+      "tags": ["angular-velocity", "linear-velocity", "relation"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_003",
+      "goalId": "grade11-physics",
+      "question": "Torque (τ) is defined as:",
+      "options": ["Force × mass", "Force × velocity", "r × F = rF sinθ (moment of force)", "Moment of inertia / angular acceleration"],
+      "correctIndex": 2,
+      "explanation": "Torque τ = r × F (cross product). Magnitude: τ = rF sinθ (θ = angle between r and F). Torque is the rotational equivalent of force. SI unit: N·m.",
+      "difficulty": "easy",
+      "tags": ["torque", "definition", "moment-of-force"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_004",
+      "goalId": "grade11-physics",
+      "question": "Moment of Inertia (I) is the rotational analog of:",
+      "options": ["Force", "Mass (inertia to rotational motion: τ = Iα, analogous to F = ma)", "Velocity", "Momentum"],
+      "correctIndex": 1,
+      "explanation": "I = Σmᵢrᵢ² (depends on mass distribution AND distance from axis). Newton's 2nd law for rotation: τ = Iα (analogous to F = ma). More mass farther from axis → larger I.",
+      "difficulty": "medium",
+      "tags": ["moment-of-inertia", "analogy", "rotation"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_005",
+      "goalId": "grade11-physics",
+      "question": "The moment of inertia of a solid sphere about its diameter is:",
+      "options": ["MR²", "2MR²/3", "2MR²/5", "MR²/2"],
+      "correctIndex": 2,
+      "explanation": "I for solid sphere (about diameter) = (2/5)MR². Hollow sphere: (2/3)MR². Solid cylinder (axis): MR²/2. Thin ring (axis through centre, perpendicular to plane): MR².",
+      "difficulty": "hard",
+      "tags": ["moment-of-inertia", "solid-sphere", "standard-values"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_006",
+      "goalId": "grade11-physics",
+      "question": "The Law of Conservation of Angular Momentum states that if no external torque acts, angular momentum:",
+      "options": ["Increases with time", "Decreases with time", "Remains constant (L = Iω = constant)", "Equals zero"],
+      "correctIndex": 2,
+      "explanation": "L = Iω = constant (when τ_net = 0). A spinning skater pulls arms in → I decreases → ω increases (L conserved). Earth's orbit: closer to sun → faster (Kepler's 2nd law = conservation of angular momentum).",
+      "difficulty": "medium",
+      "tags": ["angular-momentum", "conservation", "law"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_007",
+      "goalId": "grade11-physics",
+      "question": "Rolling without slipping means:",
+      "options": ["The object slides on the surface", "The contact point has zero velocity — v_cm = ωR", "The angular velocity is zero", "Only spinning, no translation"],
+      "correctIndex": 1,
+      "explanation": "Rolling without slipping: v_cm = ωR. The contact point has zero velocity (instantaneously). Total KE = ½mv² + ½Iω² (translational + rotational KE).",
+      "difficulty": "medium",
+      "tags": ["rolling", "slipping", "pure-rolling"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_008",
+      "goalId": "grade11-physics",
+      "question": "The Parallel Axis Theorem states: I = I_cm + ?",
+      "options": ["Md²", "M/d²", "I_cm × d", "Md"],
+      "correctIndex": 0,
+      "explanation": "Parallel Axis Theorem: I = I_cm + Md². Where I_cm = moment of inertia about axis through CM, d = distance between parallel axes, M = total mass. Always I ≥ I_cm.",
+      "difficulty": "hard",
+      "tags": ["parallel-axis-theorem", "formula", "moment-of-inertia"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_009",
+      "goalId": "grade11-physics",
+      "question": "Angular momentum L = ?",
+      "options": ["Iω (moment of inertia × angular velocity)", "mω", "Iα", "ω/I"],
+      "correctIndex": 0,
+      "explanation": "L = Iω = r × p (cross product of position and linear momentum). SI unit: kg·m²/s. Angular impulse = change in angular momentum: τ × t = ΔL.",
+      "difficulty": "easy",
+      "tags": ["angular-momentum", "formula", "L=Iω"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_010",
+      "goalId": "grade11-physics",
+      "question": "The centre of mass of two particles m₁ at x₁ and m₂ at x₂ is at:",
+      "options": ["(x₁ + x₂)/2", "(m₁x₁ + m₂x₂)/(m₁ + m₂)", "m₁x₁ + m₂x₂", "(x₁ + x₂) × (m₁ + m₂)"],
+      "correctIndex": 1,
+      "explanation": "x_cm = (m₁x₁ + m₂x₂)/(m₁+m₂). For equal masses: x_cm = (x₁+x₂)/2 (midpoint). The CM is closer to the heavier mass.",
+      "difficulty": "easy",
+      "tags": ["centre-of-mass", "formula", "two-particles"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_011",
+      "goalId": "grade11-physics",
+      "question": "When a diver pulls their arms and legs close during a somersault, they spin faster because:",
+      "options": ["Their mass increases", "Angular momentum is conserved: I decreases → ω increases", "Torque increases", "Gravity acts more strongly"],
+      "correctIndex": 1,
+      "explanation": "Pulling limbs in reduces moment of inertia I. Since L = Iω = constant (no external torque), ω must increase. This is conservation of angular momentum in action.",
+      "difficulty": "medium",
+      "tags": ["angular-momentum-conservation", "diver", "example"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_012",
+      "goalId": "grade11-physics",
+      "question": "A wheel (I = 2 kg·m²) has angular acceleration 3 rad/s² applied by a torque. The torque is:",
+      "options": ["2/3 N·m", "6 N·m", "5 N·m", "1.5 N·m"],
+      "correctIndex": 1,
+      "explanation": "τ = Iα = 2 × 3 = 6 N·m.",
+      "difficulty": "easy",
+      "tags": ["torque", "calculation", "τ=Iα"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_013",
+      "goalId": "grade11-physics",
+      "question": "Rotational kinetic energy is:",
+      "options": ["½mv²", "½Iω²", "Iα", "Iω"],
+      "correctIndex": 1,
+      "explanation": "Rotational KE = ½Iω². Analogous to translational KE = ½mv². Total KE of rolling body = ½mv² + ½Iω².",
+      "difficulty": "easy",
+      "tags": ["rotational-KE", "formula", "½Iω²"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_014",
+      "goalId": "grade11-physics",
+      "question": "The equations of angular motion (uniform angular acceleration) are analogous to linear equations. Angular: ω = ω₀ + αt, θ = ω₀t + ½αt², ω² = ω₀² + 2αθ. These are used when:",
+      "options": ["Only when circular motion is uniform", "When angular acceleration α is constant", "Only for small angles", "When moment of inertia is zero"],
+      "correctIndex": 1,
+      "explanation": "Angular equations of motion apply when α (angular acceleration) is constant — perfectly analogous to linear kinematics. They relate ω (angular velocity), α, θ (angular displacement), and t.",
+      "difficulty": "medium",
+      "tags": ["angular-kinematics", "equations-of-motion", "uniform-α"]
+    },
+    {
+      "id": "q_physics_11_w23_s4_015",
+      "goalId": "grade11-physics",
+      "question": "The moment of inertia of a uniform thin rod (length L, mass M) about one end is:",
+      "options": ["ML²/12", "ML²/3", "ML²/4", "ML²/6"],
+      "correctIndex": 1,
+      "explanation": "Thin rod about one end: I = ML²/3. About centre (perpendicular): I_cm = ML²/12. By parallel axis theorem: I_end = ML²/12 + M(L/2)² = ML²/12 + ML²/4 = ML²/3. ✓",
+      "difficulty": "hard",
+      "tags": ["thin-rod", "moment-of-inertia", "end-axis"]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-chemistry",
+  "title": "Grade 11 Chemistry — Redox Reactions & Electrochemistry Basics",
+  "description": "Oxidation states, oxidation-reduction, balancing redox equations, electrochemical cells",
+  "category": "school",
+  "grade": 11,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chem_11_w23_s5_001",
+      "goalId": "grade11-chemistry",
+      "question": "Oxidation is defined as:",
+      "options": ["Gain of electrons (or gain of oxygen, or loss of hydrogen)", "Loss of electrons (or loss of hydrogen, or gain of oxygen)", "Gain of protons", "Decrease in oxidation state"],
+      "correctIndex": 1,
+      "explanation": "Oxidation = loss of electrons (LEO: Loss of Electrons = Oxidation). OR: gain of oxygen, loss of hydrogen, increase in oxidation state. GER = Gain of Electrons = Reduction.",
+      "difficulty": "easy",
+      "tags": ["oxidation", "definition", "LEO"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_002",
+      "goalId": "grade11-chemistry",
+      "question": "In the reaction: Zn + Cu²⁺ → Zn²⁺ + Cu, which species is oxidised?",
+      "options": ["Cu²⁺", "Zn (Zn → Zn²⁺, loses 2e⁻, oxidation state 0 → +2)", "Cu", "Both are oxidised"],
+      "correctIndex": 1,
+      "explanation": "Zn: 0 → +2 (loses 2e⁻) = oxidised. Cu²⁺: +2 → 0 (gains 2e⁻) = reduced. Zn is the reducing agent (causes Cu²⁺ to be reduced). Cu²⁺ is the oxidising agent (causes Zn to be oxidised).",
+      "difficulty": "easy",
+      "tags": ["oxidation-reduction", "identification", "oxidation-state"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_003",
+      "goalId": "grade11-chemistry",
+      "question": "The oxidation state of sulphur in H₂SO₄ is:",
+      "options": ["+4", "+6", "−2", "+2"],
+      "correctIndex": 1,
+      "explanation": "H₂SO₄: H = +1 (×2 = +2), O = −2 (×4 = −8). Sum = 0: 2 + S − 8 = 0 → S = +6.",
+      "difficulty": "medium",
+      "tags": ["oxidation-state", "H2SO4", "calculation"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_004",
+      "goalId": "grade11-chemistry",
+      "question": "The oxidation state of Mn in KMnO₄ is:",
+      "options": ["+2", "+4", "+6", "+7"],
+      "correctIndex": 3,
+      "explanation": "KMnO₄: K = +1, O = −2 (×4 = −8). Sum = 0: 1 + Mn − 8 = 0 → Mn = +7. KMnO₄ is a strong oxidising agent (purple colour).",
+      "difficulty": "medium",
+      "tags": ["oxidation-state", "KMnO4", "manganese"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_005",
+      "goalId": "grade11-chemistry",
+      "question": "In an electrochemical (galvanic) cell, oxidation occurs at the:",
+      "options": ["Cathode (positive electrode)", "Anode (negative electrode in galvanic cell)", "Salt bridge", "Electrolyte"],
+      "correctIndex": 1,
+      "explanation": "Galvanic cell: ANODE = oxidation (negative electrode); CATHODE = reduction (positive electrode). Mnemonic: ANOX (Anode = Oxidation); REDCAT (Reduction = Cathode).",
+      "difficulty": "medium",
+      "tags": ["galvanic-cell", "anode-cathode", "electrochemistry"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_006",
+      "goalId": "grade11-chemistry",
+      "question": "The standard electrode potential (E°) of the standard hydrogen electrode (SHE) is:",
+      "options": ["+1 V", "−1 V", "0 V (reference electrode)", "depends on temperature"],
+      "correctIndex": 2,
+      "explanation": "The Standard Hydrogen Electrode (SHE): H₂(g) → 2H⁺(aq) + 2e⁻, E° = 0.00 V (defined). All other electrode potentials are measured relative to SHE.",
+      "difficulty": "easy",
+      "tags": ["SHE", "standard-electrode-potential", "reference"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_007",
+      "goalId": "grade11-chemistry",
+      "question": "A disproportionation reaction is one in which the same element is simultaneously:",
+      "options": ["Oxidised and reduced", "Only oxidised", "Only reduced", "Neither oxidised nor reduced"],
+      "correctIndex": 0,
+      "explanation": "Disproportionation: same element is BOTH oxidised AND reduced. Example: Cl₂ + 2NaOH → NaCl + NaOCl + H₂O. Cl goes from 0 → −1 (reduced, in NaCl) AND 0 → +1 (oxidised, in NaOCl).",
+      "difficulty": "hard",
+      "tags": ["disproportionation", "redox", "definition"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_008",
+      "goalId": "grade11-chemistry",
+      "question": "The EMF of a galvanic cell is: E_cell = ?",
+      "options": ["E_cathode − E_anode", "E_anode − E_cathode", "E_cathode + E_anode", "E_cathode × E_anode"],
+      "correctIndex": 0,
+      "explanation": "E_cell = E_cathode (reduction) − E_anode (reduction). A positive E_cell indicates a spontaneous reaction. For Zn-Cu cell: E_cell = +0.34 − (−0.76) = +1.10 V.",
+      "difficulty": "medium",
+      "tags": ["EMF", "cell-potential", "formula"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_009",
+      "goalId": "grade11-chemistry",
+      "question": "The role of the salt bridge in a galvanic cell is to:",
+      "options": ["Provide electrons to the circuit", "Complete the electrical circuit by allowing ion flow, maintaining electrical neutrality in both half-cells", "Store electricity", "Generate heat"],
+      "correctIndex": 1,
+      "explanation": "Salt bridge (KCl, KNO₃ in agar): allows ions to flow between half-cells to maintain electrical neutrality. Without it, the cell would stop working (one half-cell becomes negatively charged, the other positive).",
+      "difficulty": "medium",
+      "tags": ["salt-bridge", "function", "galvanic-cell"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_010",
+      "goalId": "grade11-chemistry",
+      "question": "The oxidation state of N in NH₃ is:",
+      "options": ["+3", "−3", "0", "+1"],
+      "correctIndex": 1,
+      "explanation": "NH₃: H = +1 (×3 = +3). Sum = 0: N + 3 = 0 → N = −3. In HNO₃: N is +5. In NO: N is +2. Nitrogen has multiple oxidation states (−3 to +5).",
+      "difficulty": "medium",
+      "tags": ["oxidation-state", "NH3", "nitrogen"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_011",
+      "goalId": "grade11-chemistry",
+      "question": "In electrolysis, which reaction occurs at the cathode?",
+      "options": ["Oxidation", "Reduction (cations gain electrons and are deposited/reduced)", "Neutral species form", "Salt bridge activity"],
+      "correctIndex": 1,
+      "explanation": "Electrolysis cathode = reduction (cations migrate to cathode and gain electrons). Anode = oxidation (anions lose electrons). In CuSO₄ electrolysis: Cu²⁺ + 2e⁻ → Cu at cathode; Cu → Cu²⁺ + 2e⁻ at anode.",
+      "difficulty": "medium",
+      "tags": ["electrolysis", "cathode-reduction", "electrochemistry"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_012",
+      "goalId": "grade11-chemistry",
+      "question": "Faraday's First Law of Electrolysis states that the mass deposited (m) is:",
+      "options": ["Proportional to time (m ∝ t)", "Proportional to charge passed (m ∝ Q = It)", "Inversely proportional to current", "Dependent only on temperature"],
+      "correctIndex": 1,
+      "explanation": "Faraday's 1st Law: m = (M/nF) × Q = (M × I × t)/(nF). Where M = molar mass, n = electrons transferred, F = 96,485 C/mol (Faraday's constant), I = current, t = time.",
+      "difficulty": "medium",
+      "tags": ["faradays-law", "electrolysis", "mass-deposited"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_013",
+      "goalId": "grade11-chemistry",
+      "question": "Oxidising agents are substances that:",
+      "options": ["Get oxidised themselves", "Get reduced (gain electrons) and thereby oxidise the other substance", "Increase the pH of solution", "Only appear in acidic conditions"],
+      "correctIndex": 1,
+      "explanation": "Oxidising agents accept electrons (are themselves reduced). Examples: O₂, KMnO₄, K₂Cr₂O₇, F₂, H₂O₂. Reducing agents donate electrons (are oxidised). Examples: H₂, C, Na, reducing metals.",
+      "difficulty": "easy",
+      "tags": ["oxidising-agent", "definition", "reduction"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_014",
+      "goalId": "grade11-chemistry",
+      "question": "The change in oxidation state of Cr in K₂Cr₂O₇ when it acts as an oxidising agent is:",
+      "options": ["+6 → +3 (reduction by 3 for each Cr)", "+3 → +6", "+6 → 0", "+6 → +7"],
+      "correctIndex": 0,
+      "explanation": "In K₂Cr₂O₇: Cr = +6 (strong oxidising agent). When reduced: Cr³⁺ (green). Change: +6 → +3. Each Cr gains 3e⁻. Two Cr per formula unit: total 6e⁻ gained.",
+      "difficulty": "hard",
+      "tags": ["K2Cr2O7", "oxidation-state-change", "redox"]
+    },
+    {
+      "id": "q_chem_11_w23_s5_015",
+      "goalId": "grade11-chemistry",
+      "question": "Corrosion of iron (rusting) is an electrochemical process because:",
+      "options": ["Heat is generated", "Iron acts as anode (oxidised to Fe²⁺) and oxygen acts at cathode (reduced), with water as electrolyte", "Iron reacts directly with CO₂", "Rusting only occurs at high temperatures"],
+      "correctIndex": 1,
+      "explanation": "Rusting is an electrochemical process: Fe(anode) → Fe²⁺ + 2e⁻ (oxidation); O₂ + 2H₂O + 4e⁻ → 4OH⁻ (cathode, reduction). Fe²⁺ + OH⁻ → Fe(OH)₂ → Fe₂O₃·nH₂O (rust). Water + O₂ are needed.",
+      "difficulty": "hard",
+      "tags": ["rusting", "electrochemical", "iron-corrosion"]
+    }
+  ]
+}

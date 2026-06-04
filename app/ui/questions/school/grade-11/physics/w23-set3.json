@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-physics",
+  "title": "Grade 11 Physics — Work, Energy and Power",
+  "description": "Work-energy theorem, conservation of energy, power, and collisions",
+  "category": "school",
+  "grade": 11,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_11_w23_s3_001",
+      "goalId": "grade11-physics",
+      "question": "Work done by a force F on a displacement d is: W = ?",
+      "options": ["F + d", "F × d (always)", "F d cos θ (where θ is angle between F and d)", "F / d"],
+      "correctIndex": 2,
+      "explanation": "W = F·d·cos θ (dot product). When force is parallel to displacement: W = Fd (cos 0° = 1). Perpendicular: W = 0 (cos 90° = 0). Opposite: W = −Fd (cos 180° = −1).",
+      "difficulty": "easy",
+      "tags": ["work", "formula", "dot-product"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_002",
+      "goalId": "grade11-physics",
+      "question": "The Work-Energy Theorem states:",
+      "options": ["Work done = change in potential energy", "Net work done on an object = change in its kinetic energy (W_net = ΔKE)", "Work done = force × time", "Work done = power × force"],
+      "correctIndex": 1,
+      "explanation": "Work-Energy Theorem: W_net = KE_final − KE_initial = ΔKE. All work done by all forces on the object equals the change in its kinetic energy. Derivation: use F=ma and v²=u²+2as.",
+      "difficulty": "easy",
+      "tags": ["work-energy-theorem", "kinetic-energy", "definition"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_003",
+      "goalId": "grade11-physics",
+      "question": "A 4 kg block is pushed 5 m by a 20 N force on a frictionless surface. The kinetic energy gained is:",
+      "options": ["100 J", "25 J", "400 J", "4 J"],
+      "correctIndex": 0,
+      "explanation": "W = Fd cos0° = 20 × 5 = 100 J. By Work-Energy Theorem: ΔKE = 100 J.",
+      "difficulty": "easy",
+      "tags": ["work-energy", "calculation", "KE-gained"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_004",
+      "goalId": "grade11-physics",
+      "question": "The potential energy stored in a spring compressed by x is: (k = spring constant)",
+      "options": ["kx", "kx²", "½kx²", "2kx²"],
+      "correctIndex": 2,
+      "explanation": "Elastic potential energy: PE = ½kx². By Hooke's Law, F = kx. Work done against this force from 0 to x: W = ∫kx dx = ½kx².",
+      "difficulty": "easy",
+      "tags": ["spring-PE", "elastic-potential-energy", "formula"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_005",
+      "goalId": "grade11-physics",
+      "question": "Conservation of mechanical energy applies when:",
+      "options": ["All forces do work", "Only conservative forces act (no friction or air resistance)", "An object is in free fall only", "Speed is constant"],
+      "correctIndex": 1,
+      "explanation": "Mechanical energy (KE + PE) is conserved when only CONSERVATIVE forces (gravity, spring) act. Non-conservative forces (friction) convert mechanical energy to heat, causing mechanical energy to decrease.",
+      "difficulty": "medium",
+      "tags": ["conservation-of-energy", "conservative-forces", "condition"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_006",
+      "goalId": "grade11-physics",
+      "question": "A 2 kg ball falls from height 5 m. Its speed just before hitting the ground is: (g = 10 m/s²)",
+      "options": ["5 m/s", "10 m/s", "√100 = 10 m/s", "50 m/s"],
+      "correctIndex": 1,
+      "explanation": "By energy conservation: mgh = ½mv² → v² = 2gh = 2×10×5 = 100 → v = 10 m/s.",
+      "difficulty": "easy",
+      "tags": ["energy-conservation", "free-fall", "calculation"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_007",
+      "goalId": "grade11-physics",
+      "question": "Power is defined as:",
+      "options": ["Force × distance", "Work done / time (rate of doing work)", "Energy × time", "Force / velocity"],
+      "correctIndex": 1,
+      "explanation": "Power P = W/t = work done per unit time. Also P = F·v (force × velocity). SI unit: Watt (W) = 1 J/s. Horsepower: 1 hp = 746 W.",
+      "difficulty": "easy",
+      "tags": ["power", "definition", "formula"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_008",
+      "goalId": "grade11-physics",
+      "question": "A motor lifts 100 kg by 10 m in 20 s. The power of the motor is: (g = 10 m/s²)",
+      "options": ["50 W", "500 W", "5000 W", "1000 W"],
+      "correctIndex": 1,
+      "explanation": "Work = mgh = 100 × 10 × 10 = 10,000 J. Power = W/t = 10,000/20 = 500 W.",
+      "difficulty": "medium",
+      "tags": ["power", "calculation", "lifting"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_009",
+      "goalId": "grade11-physics",
+      "question": "In a perfectly elastic collision:",
+      "options": ["Only momentum is conserved", "Only kinetic energy is conserved", "Both momentum and kinetic energy are conserved", "Neither is conserved"],
+      "correctIndex": 2,
+      "explanation": "Elastic collision: BOTH momentum AND kinetic energy are conserved. Inelastic collision: only momentum is conserved; KE decreases (converted to heat, sound). Perfectly inelastic: objects stick together.",
+      "difficulty": "medium",
+      "tags": ["elastic-collision", "conservation", "types"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_010",
+      "goalId": "grade11-physics",
+      "question": "In a perfectly inelastic collision between equal masses (m) where one is at rest:",
+      "options": ["Both objects bounce back", "They move together with half the initial velocity", "The moving object stops", "Both objects accelerate"],
+      "correctIndex": 1,
+      "explanation": "By momentum conservation: mv = (m+m)v' → v' = v/2. Equal masses in perfectly inelastic collision: combined object moves with v/2. KE after = ½(2m)(v/2)² = mv²/4 = KE_before/2 (50% loss).",
+      "difficulty": "medium",
+      "tags": ["inelastic-collision", "equal-masses", "momentum"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_011",
+      "goalId": "grade11-physics",
+      "question": "A force does negative work when:",
+      "options": ["Force and displacement are parallel", "Force and displacement are perpendicular", "Force acts opposite to displacement (angle = 180°)", "Mass is very large"],
+      "correctIndex": 2,
+      "explanation": "W = Fd cos θ. When θ = 180°: W = Fd cos180° = −Fd (negative). Example: friction always does negative work on moving objects (opposes displacement).",
+      "difficulty": "easy",
+      "tags": ["negative-work", "angle-180", "friction"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_012",
+      "goalId": "grade11-physics",
+      "question": "The kinetic energy of a body of mass m moving with velocity v is:",
+      "options": ["mv", "mv²", "½mv²", "2mv²"],
+      "correctIndex": 2,
+      "explanation": "KE = ½mv². Derives from work-energy theorem: F = ma, v² = u²+2as → W = Fs = mas = ½mv². Unit: Joule (J).",
+      "difficulty": "easy",
+      "tags": ["kinetic-energy", "formula", "½mv²"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_013",
+      "goalId": "grade11-physics",
+      "question": "If the momentum of a body is doubled, its kinetic energy becomes:",
+      "options": ["Double", "4 times", "Half", "Same"],
+      "correctIndex": 1,
+      "explanation": "KE = p²/2m. If p → 2p: KE_new = (2p)²/2m = 4p²/2m = 4 KE. Doubling momentum quadruples kinetic energy.",
+      "difficulty": "hard",
+      "tags": ["momentum-KE-relation", "scaling", "kinetic-energy"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_014",
+      "goalId": "grade11-physics",
+      "question": "A 60 kg person climbs stairs (height 4 m) in 8 s. The power exerted is: (g = 10 m/s²)",
+      "options": ["300 W", "400 W", "200 W", "600 W"],
+      "correctIndex": 0,
+      "explanation": "W = mgh = 60 × 10 × 4 = 2400 J. P = W/t = 2400/8 = 300 W.",
+      "difficulty": "medium",
+      "tags": ["power", "human-body", "calculation"]
+    },
+    {
+      "id": "q_physics_11_w23_s3_015",
+      "goalId": "grade11-physics",
+      "question": "A bullet of mass 20 g moving at 500 m/s embeds in a block of 980 g at rest. The common velocity is:",
+      "options": ["10 m/s", "50 m/s", "100 m/s", "500 m/s"],
+      "correctIndex": 0,
+      "explanation": "Momentum conservation: 0.02 × 500 = (0.02 + 0.98) × v → 10 = 1 × v → v = 10 m/s.",
+      "difficulty": "medium",
+      "tags": ["inelastic-collision", "bullet-block", "momentum"]
+    }
+  ]
+}

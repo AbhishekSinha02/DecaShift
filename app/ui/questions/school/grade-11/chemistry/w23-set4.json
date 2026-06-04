@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-chemistry",
+  "title": "Grade 11 Chemistry — Chemical Equilibrium",
+  "description": "Equilibrium constant, Le Chatelier's principle, acids and bases",
+  "category": "school",
+  "grade": 11,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chem_11_w23_s4_001",
+      "goalId": "grade11-chemistry",
+      "question": "Chemical equilibrium is established when:",
+      "options": ["The reaction stops completely", "The rate of forward reaction equals the rate of reverse reaction", "All reactants are consumed", "Temperature becomes constant"],
+      "correctIndex": 1,
+      "explanation": "At equilibrium: rate_forward = rate_reverse. Concentrations are constant (not zero). The equilibrium is dynamic — both reactions continue at equal rates.",
+      "difficulty": "easy",
+      "tags": ["equilibrium", "definition", "dynamic"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_002",
+      "goalId": "grade11-chemistry",
+      "question": "For the reaction aA + bB ⇌ cC + dD, the equilibrium constant Kc is:",
+      "options": ["[A]^a[B]^b / [C]^c[D]^d", "[C]^c[D]^d / [A]^a[B]^b", "[C+D] / [A+B]", "Products/Reactants (mole fractions)"],
+      "correctIndex": 1,
+      "explanation": "Kc = [C]^c[D]^d / [A]^a[B]^b (Law of Mass Action). Square brackets = molar concentrations at equilibrium. Pure solids and liquids are excluded from Kc expression.",
+      "difficulty": "medium",
+      "tags": ["Kc", "equilibrium-constant", "formula"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_003",
+      "goalId": "grade11-chemistry",
+      "question": "If Kc >> 1 (very large), the reaction at equilibrium:",
+      "options": ["Favours reactants (mostly unreacted)", "Favours products (mostly converted to products)", "Is at exactly 50% completion", "Does not reach equilibrium"],
+      "correctIndex": 1,
+      "explanation": "Kc >> 1: reaction goes nearly to completion — products are heavily favoured. Kc << 1: reactants are favoured (little product formed). Kc ≈ 1: significant amounts of both.",
+      "difficulty": "medium",
+      "tags": ["Kc-interpretation", "equilibrium", "products-vs-reactants"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_004",
+      "goalId": "grade11-chemistry",
+      "question": "Le Chatelier's Principle states that if a system at equilibrium is disturbed:",
+      "options": ["The equilibrium is destroyed", "The system shifts to counteract the disturbance and reach a new equilibrium", "Temperature always changes", "The Kc value changes"],
+      "correctIndex": 1,
+      "explanation": "Le Chatelier's Principle: a system at equilibrium responds to a disturbance by shifting to OPPOSE the change. Note: changing T changes Kc; changing concentration or pressure shifts equilibrium but Kc stays the same.",
+      "difficulty": "easy",
+      "tags": ["le-chatelier", "equilibrium-shift", "principle"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_005",
+      "goalId": "grade11-chemistry",
+      "question": "For N₂ + 3H₂ ⇌ 2NH₃ (Haber Process), increasing pressure shifts equilibrium:",
+      "options": ["To the left (toward more moles of gas)", "To the right (toward fewer moles of gas — 4 moles → 2 moles)", "No shift (pressure doesn't affect gas equilibria)", "Equilibrium is destroyed"],
+      "correctIndex": 1,
+      "explanation": "Increasing pressure favours the side with fewer moles of gas: 4 moles (1N₂ + 3H₂) → 2 moles (2NH₃). Equilibrium shifts right, producing more ammonia. Hence high pressure is used in the Haber Process.",
+      "difficulty": "medium",
+      "tags": ["haber-process", "pressure-effect", "le-chatelier"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_006",
+      "goalId": "grade11-chemistry",
+      "question": "Arrhenius definition of an acid is:",
+      "options": ["A proton donor", "A substance that produces H⁺ ions in aqueous solution", "An electron pair acceptor", "A substance that reacts with bases"],
+      "correctIndex": 1,
+      "explanation": "Arrhenius acid: produces H⁺ (hydrogen ions) in water. Arrhenius base: produces OH⁻. Limited to aqueous solutions. Brønsted-Lowry is broader: acid = proton donor, base = proton acceptor.",
+      "difficulty": "easy",
+      "tags": ["arrhenius-acid", "definition", "acid-base"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_007",
+      "goalId": "grade11-chemistry",
+      "question": "The pH of a solution with [H⁺] = 10⁻³ mol/L is:",
+      "options": ["3", "−3", "11", "7"],
+      "correctIndex": 0,
+      "explanation": "pH = −log[H⁺] = −log(10⁻³) = 3. pH < 7: acidic. pH = 7: neutral. pH > 7: basic. pOH = 14 − pH = 11.",
+      "difficulty": "easy",
+      "tags": ["pH", "calculation", "acid-base"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_008",
+      "goalId": "grade11-chemistry",
+      "question": "A buffer solution resists changes in pH when:",
+      "options": ["Temperature changes", "Small amounts of acid or base are added to it", "It is diluted with water", "A catalyst is added"],
+      "correctIndex": 1,
+      "explanation": "A buffer resists pH change when small amounts of acid/base are added. A buffer contains: (1) weak acid + its conjugate base (salt), e.g., CH₃COOH + CH₃COONa. Used in biological systems (blood pH 7.4).",
+      "difficulty": "medium",
+      "tags": ["buffer", "pH", "definition"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_009",
+      "goalId": "grade11-chemistry",
+      "question": "The reaction quotient Q is used to:",
+      "options": ["Calculate the rate of reaction", "Determine which direction a reaction will proceed to reach equilibrium (compare Q to K)", "Measure the enthalpy change", "Find the activation energy"],
+      "correctIndex": 1,
+      "explanation": "Q = Kc expression calculated with CURRENT concentrations (not necessarily equilibrium). If Q < K: forward reaction proceeds. Q > K: reverse reaction proceeds. Q = K: at equilibrium.",
+      "difficulty": "hard",
+      "tags": ["reaction-quotient", "Q-vs-K", "equilibrium-direction"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_010",
+      "goalId": "grade11-chemistry",
+      "question": "Increasing temperature for an exothermic reaction shifts equilibrium:",
+      "options": ["To the right (more products)", "To the left (reverse reaction favoured — to absorb added heat)", "No shift (temperature doesn't affect equilibrium)", "Increases Kc"],
+      "correctIndex": 1,
+      "explanation": "For exothermic reaction: heat is a product. Adding heat (increasing T) shifts equilibrium LEFT (Le Chatelier). This DECREASES Kc. For endothermic reactions, increasing T shifts right and increases Kc.",
+      "difficulty": "medium",
+      "tags": ["temperature-effect", "exothermic", "le-chatelier"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_011",
+      "goalId": "grade11-chemistry",
+      "question": "The solubility product (Ksp) of AgCl is:",
+      "options": ["[Ag⁺][Cl⁻][AgCl]", "[Ag⁺][Cl⁻] (product of ionic concentrations at saturation)", "[AgCl] / ([Ag⁺][Cl⁻])", "1 / [Ag⁺][Cl⁻]"],
+      "correctIndex": 1,
+      "explanation": "AgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq). Ksp = [Ag⁺][Cl⁻]. Pure solid (AgCl) is excluded from expression. If ionic product > Ksp: precipitation occurs. If < Ksp: unsaturated (no precipitate).",
+      "difficulty": "medium",
+      "tags": ["solubility-product", "Ksp", "ionic-equilibrium"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_012",
+      "goalId": "grade11-chemistry",
+      "question": "Adding a catalyst to a reaction at equilibrium:",
+      "options": ["Shifts equilibrium toward products", "Does not shift equilibrium — speeds up both forward and reverse reactions equally", "Increases Kc", "Decreases temperature"],
+      "correctIndex": 1,
+      "explanation": "A catalyst speeds up BOTH forward AND reverse reactions equally — it does not change the equilibrium position or Kc. It only helps the system REACH equilibrium faster. Industrial importance: Haber process (Fe catalyst).",
+      "difficulty": "medium",
+      "tags": ["catalyst", "equilibrium", "no-shift"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_013",
+      "goalId": "grade11-chemistry",
+      "question": "The relationship between Kc and Kp for a gas reaction is: Kp = ?",
+      "options": ["Kc × RT", "Kc × (RT)^Δn", "Kc / RT", "Kc + Δn"],
+      "correctIndex": 1,
+      "explanation": "Kp = Kc(RT)^Δn where Δn = (moles of gaseous products) − (moles of gaseous reactants). R = 0.0821 L·atm/(mol·K). If Δn = 0: Kp = Kc.",
+      "difficulty": "hard",
+      "tags": ["Kp-Kc-relation", "formula", "Δn"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_014",
+      "goalId": "grade11-chemistry",
+      "question": "Lewis acids are:",
+      "options": ["H⁺ donors", "OH⁻ producers", "Electron pair acceptors (can accept electron pairs from Lewis bases)", "Proton donors"],
+      "correctIndex": 2,
+      "explanation": "Lewis acid: electron pair acceptor (e.g., BF₃, AlCl₃, H⁺, FeCl₃). Lewis base: electron pair donor (e.g., NH₃, H₂O, OH⁻). Lewis concept is the broadest acid-base theory.",
+      "difficulty": "medium",
+      "tags": ["lewis-acid", "definition", "electron-pair"]
+    },
+    {
+      "id": "q_chem_11_w23_s4_015",
+      "goalId": "grade11-chemistry",
+      "question": "Common ion effect: adding NaCl to a saturated AgCl solution will:",
+      "options": ["Dissolve more AgCl (increase solubility)", "Precipitate more AgCl (decrease solubility — Cl⁻ shifts equilibrium left)", "Have no effect", "Increase Ksp of AgCl"],
+      "correctIndex": 1,
+      "explanation": "Common ion effect: adding Cl⁻ (from NaCl) to AgCl(s) ⇌ Ag⁺ + Cl⁻ shifts equilibrium LEFT (Le Chatelier). More AgCl precipitates. Solubility decreases. Ksp is unchanged (only depends on T).",
+      "difficulty": "hard",
+      "tags": ["common-ion-effect", "solubility", "le-chatelier"]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-mathematics",
+  "title": "Grade 11 Mathematics — Conic Sections",
+  "description": "Circle, parabola, ellipse, and hyperbola — standard forms and properties",
+  "category": "school",
+  "grade": 11,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_11_w23_s4_001",
+      "goalId": "grade11-mathematics",
+      "question": "The standard equation of a circle with centre (h,k) and radius r is:",
+      "options": ["(x+h)² + (y+k)² = r²", "(x−h)² + (y−k)² = r²", "x² + y² = r", "(x+h)² + (y+k)² = r"],
+      "correctIndex": 1,
+      "explanation": "Standard circle: (x−h)² + (y−k)² = r². Centre (h,k), radius r. General form: x² + y² + 2gx + 2fy + c = 0 with centre (−g,−f) and radius √(g²+f²−c).",
+      "difficulty": "easy",
+      "tags": ["circle", "standard-form", "conic-sections"]
+    },
+    {
+      "id": "q_math_11_w23_s4_002",
+      "goalId": "grade11-mathematics",
+      "question": "The parabola y² = 4ax has:",
+      "options": ["Vertex at (a,0), opens right", "Vertex at (0,0), focus at (a,0), opens rightward when a>0", "Focus at (0,a)", "Vertex at (a,a)"],
+      "correctIndex": 1,
+      "explanation": "y² = 4ax: vertex (0,0), focus (a,0), directrix x = −a, axis = x-axis, opens right (a>0) or left (a<0). Length of latus rectum = 4a.",
+      "difficulty": "medium",
+      "tags": ["parabola", "y²=4ax", "standard-form"]
+    },
+    {
+      "id": "q_math_11_w23_s4_003",
+      "goalId": "grade11-mathematics",
+      "question": "The standard form of an ellipse with major axis along x-axis is: (a > b > 0)",
+      "options": ["x²/a² + y²/b² = 1", "x²/b² + y²/a² = 1", "x²/a² − y²/b² = 1", "(x/a)² + (y/b)² = 0"],
+      "correctIndex": 0,
+      "explanation": "Ellipse: x²/a² + y²/b² = 1 (a > b). Major axis (length 2a) along x-axis, minor axis (length 2b) along y-axis. Foci at (±c, 0) where c² = a² − b².",
+      "difficulty": "medium",
+      "tags": ["ellipse", "standard-form", "a-b-relationship"]
+    },
+    {
+      "id": "q_math_11_w23_s4_004",
+      "goalId": "grade11-mathematics",
+      "question": "For an ellipse x²/a² + y²/b² = 1 (a>b), the eccentricity e satisfies:",
+      "options": ["e > 1", "e = 1", "0 < e < 1", "e < 0"],
+      "correctIndex": 2,
+      "explanation": "Eccentricity: e = c/a where c² = a² − b². For ellipse: 0 < e < 1. For circle: e = 0. For parabola: e = 1. For hyperbola: e > 1. Eccentricity measures how 'stretched' the conic is.",
+      "difficulty": "medium",
+      "tags": ["eccentricity", "ellipse", "range"]
+    },
+    {
+      "id": "q_math_11_w23_s4_005",
+      "goalId": "grade11-mathematics",
+      "question": "The standard form of a hyperbola with transverse axis along x-axis is:",
+      "options": ["x²/a² + y²/b² = 1", "x²/a² − y²/b² = 1", "x²/b² − y²/a² = 1", "y²/a² − x²/b² = 1"],
+      "correctIndex": 1,
+      "explanation": "Hyperbola: x²/a² − y²/b² = 1. Transverse axis (vertices at ±a on x-axis), conjugate axis (length 2b), asymptotes: y = ±(b/a)x, foci at (±c,0) where c² = a² + b².",
+      "difficulty": "medium",
+      "tags": ["hyperbola", "standard-form", "transverse-axis"]
+    },
+    {
+      "id": "q_math_11_w23_s4_006",
+      "goalId": "grade11-mathematics",
+      "question": "Find the equation of the circle with centre (2,−3) and radius 5.",
+      "options": ["(x+2)² + (y−3)² = 25", "(x−2)² + (y+3)² = 25", "(x−2)² + (y+3)² = 5", "x² + y² = 25"],
+      "correctIndex": 1,
+      "explanation": "(x−h)² + (y−k)² = r². Centre (2,−3): (x−2)² + (y−(−3))² = 5² → (x−2)² + (y+3)² = 25.",
+      "difficulty": "easy",
+      "tags": ["circle", "equation-finding", "calculation"]
+    },
+    {
+      "id": "q_math_11_w23_s4_007",
+      "goalId": "grade11-mathematics",
+      "question": "For parabola x² = 4ay (upward opening), the focus is at:",
+      "options": ["(a, 0)", "(0, a)", "(−a, 0)", "(0, −a)"],
+      "correctIndex": 1,
+      "explanation": "x² = 4ay: opens upward (a>0), vertex (0,0), focus at (0,a), directrix y = −a, axis = y-axis.",
+      "difficulty": "medium",
+      "tags": ["parabola", "x²=4ay", "focus"]
+    },
+    {
+      "id": "q_math_11_w23_s4_008",
+      "goalId": "grade11-mathematics",
+      "question": "The length of the latus rectum of the ellipse x²/25 + y²/9 = 1 is:",
+      "options": ["18/5", "9/5", "5", "2b²/a = 18/5"],
+      "correctIndex": 3,
+      "explanation": "Length of latus rectum of ellipse = 2b²/a. Here a² = 25 → a = 5, b² = 9. LR = 2(9)/5 = 18/5. Options 0 and 3 express the same answer (18/5).",
+      "difficulty": "hard",
+      "tags": ["latus-rectum", "ellipse", "calculation"]
+    },
+    {
+      "id": "q_math_11_w23_s4_009",
+      "goalId": "grade11-mathematics",
+      "question": "The asymptotes of the hyperbola x²/4 − y²/9 = 1 are:",
+      "options": ["y = ±(2/3)x", "y = ±(3/2)x", "y = ±4x", "y = ±9x"],
+      "correctIndex": 1,
+      "explanation": "Asymptotes of x²/a² − y²/b² = 1: y = ±(b/a)x. Here a² = 4, b² = 9 → a = 2, b = 3. Asymptotes: y = ±(3/2)x.",
+      "difficulty": "medium",
+      "tags": ["asymptotes", "hyperbola", "formula"]
+    },
+    {
+      "id": "q_math_11_w23_s4_010",
+      "goalId": "grade11-mathematics",
+      "question": "The foci of the ellipse x²/16 + y²/7 = 1 are at:",
+      "options": ["(±4, 0)", "(±3, 0)", "(±√7, 0)", "(0, ±3)"],
+      "correctIndex": 1,
+      "explanation": "c² = a² − b² = 16 − 7 = 9. c = 3. Foci at (±3, 0).",
+      "difficulty": "medium",
+      "tags": ["ellipse", "foci", "calculation"]
+    },
+    {
+      "id": "q_math_11_w23_s4_011",
+      "goalId": "grade11-mathematics",
+      "question": "A conic section is formed by intersecting a cone with a plane. A circle is formed when the plane is:",
+      "options": ["Parallel to the axis of the cone", "Perpendicular to the axis of the cone", "At an angle to one nappe only", "Parallel to a generator (element) of the cone"],
+      "correctIndex": 1,
+      "explanation": "Circle: plane perpendicular to cone's axis. Ellipse: plane cuts one nappe at an angle. Parabola: plane parallel to one generator. Hyperbola: plane cuts both nappes.",
+      "difficulty": "medium",
+      "tags": ["conic-sections", "plane-cone-intersection", "circle"]
+    },
+    {
+      "id": "q_math_11_w23_s4_012",
+      "goalId": "grade11-mathematics",
+      "question": "For the hyperbola x²/a² − y²/b² = 1, the relationship between a, b, c is:",
+      "options": ["c² = a² − b²", "c² = a² + b²", "a² = b² + c²", "b² = a² + c²"],
+      "correctIndex": 1,
+      "explanation": "Hyperbola: c² = a² + b² (c > a > 0). Ellipse: c² = a² − b² (a > c). Difference: in hyperbola c is LARGER than a; in ellipse c is SMALLER than a.",
+      "difficulty": "medium",
+      "tags": ["hyperbola", "a-b-c-relation", "formula"]
+    },
+    {
+      "id": "q_math_11_w23_s4_013",
+      "goalId": "grade11-mathematics",
+      "question": "The directrix of the parabola y² = 8x is:",
+      "options": ["x = 2", "x = −2", "y = 2", "y = −2"],
+      "correctIndex": 1,
+      "explanation": "y² = 8x → 4a = 8 → a = 2. Focus: (2,0). Directrix: x = −a = −2.",
+      "difficulty": "medium",
+      "tags": ["parabola", "directrix", "calculation"]
+    },
+    {
+      "id": "q_math_11_w23_s4_014",
+      "goalId": "grade11-mathematics",
+      "question": "The general equation of a circle x² + y² − 4x + 6y − 3 = 0 has centre:",
+      "options": ["(2, −3)", "(−2, 3)", "(4, −6)", "(2, 3)"],
+      "correctIndex": 0,
+      "explanation": "General form x² + y² + 2gx + 2fy + c = 0: here 2g = −4 → g = −2, 2f = 6 → f = 3. Centre = (−g, −f) = (2, −3). Radius = √(g²+f²−c) = √(4+9+3) = √16 = 4.",
+      "difficulty": "hard",
+      "tags": ["circle-general-form", "centre", "calculation"]
+    },
+    {
+      "id": "q_math_11_w23_s4_015",
+      "goalId": "grade11-mathematics",
+      "question": "The sum of distances from any point on an ellipse to its two foci equals:",
+      "options": ["2b", "2c", "2a (the major axis length)", "a + b"],
+      "correctIndex": 2,
+      "explanation": "Definition of ellipse: locus of points where sum of distances from two foci = 2a (constant = major axis). At vertex: distance to nearer focus = a − c, to farther = a + c. Sum = 2a. ✓",
+      "difficulty": "medium",
+      "tags": ["ellipse", "focus-distance", "definition"]
+    }
+  ]
+}

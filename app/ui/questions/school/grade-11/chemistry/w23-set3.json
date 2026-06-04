@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-chemistry",
+  "title": "Grade 11 Chemistry — Chemical Thermodynamics",
+  "description": "System, surroundings, enthalpy, entropy, Gibbs free energy",
+  "category": "school",
+  "grade": 11,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chem_11_w23_s3_001",
+      "goalId": "grade11-chemistry",
+      "question": "In thermodynamics, the 'system' is:",
+      "options": ["The entire universe", "The portion of the universe under study", "The container holding the chemicals", "The temperature-measuring device"],
+      "correctIndex": 1,
+      "explanation": "System = the part of the universe under study. Surroundings = everything else. Universe = system + surroundings. An open system exchanges both matter and energy; closed system exchanges only energy; isolated system exchanges neither.",
+      "difficulty": "easy",
+      "tags": ["system", "surroundings", "thermodynamics-basics"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_002",
+      "goalId": "grade11-chemistry",
+      "question": "Enthalpy (H) is defined as:",
+      "options": ["H = U + PV (internal energy + pressure × volume)", "H = q + w (heat + work)", "H = TS (entropy × temperature)", "H = G + TS"],
+      "correctIndex": 0,
+      "explanation": "Enthalpy H = U + PV. At constant pressure, ΔH = qₚ (heat at constant pressure). Most chemical reactions in labs occur at constant atmospheric pressure, so ΔH is the heat of reaction.",
+      "difficulty": "medium",
+      "tags": ["enthalpy", "definition", "H=U+PV"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_003",
+      "goalId": "grade11-chemistry",
+      "question": "An exothermic reaction has:",
+      "options": ["ΔH > 0 (positive)", "ΔH < 0 (negative) — heat is released to surroundings", "ΔH = 0", "ΔG = 0"],
+      "correctIndex": 1,
+      "explanation": "Exothermic: ΔH < 0. Products have less energy than reactants. Heat is released. Examples: combustion, neutralisation, respiration. Endothermic: ΔH > 0 (heat absorbed, products have more energy).",
+      "difficulty": "easy",
+      "tags": ["exothermic", "enthalpy-sign", "thermodynamics"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_004",
+      "goalId": "grade11-chemistry",
+      "question": "Hess's Law states that the enthalpy change of a reaction is:",
+      "options": ["Always positive", "The same regardless of the pathway taken (only depends on initial and final states)", "Equal to the activation energy", "Proportional to the temperature"],
+      "correctIndex": 1,
+      "explanation": "Hess's Law: ΔH is a state function — independent of the path. If a reaction can be written as a series of steps, ΔH_total = ΔH₁ + ΔH₂ + ... (even for steps that can't be measured directly).",
+      "difficulty": "medium",
+      "tags": ["hess-law", "state-function", "enthalpy"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_005",
+      "goalId": "grade11-chemistry",
+      "question": "Standard enthalpy of formation (ΔH°f) is the enthalpy change when:",
+      "options": ["1 mol of compound decomposes to elements", "1 mol of compound is formed from its constituent elements in their standard states", "A reaction reaches equilibrium", "Temperature changes by 1 K"],
+      "correctIndex": 1,
+      "explanation": "ΔH°f = enthalpy change for forming 1 mole of compound from elements in their standard states (25°C, 1 atm). By definition, ΔH°f of any element in its standard state = 0.",
+      "difficulty": "medium",
+      "tags": ["enthalpy-of-formation", "standard-state", "definition"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_006",
+      "goalId": "grade11-chemistry",
+      "question": "Entropy (S) is a measure of:",
+      "options": ["Enthalpy of the system", "Disorder or randomness of a system", "Temperature of the system", "Concentration of reactants"],
+      "correctIndex": 1,
+      "explanation": "Entropy (S) measures disorder or randomness. Higher entropy = more disorder. S increases: solid→liquid→gas; mixing; dissolving. The Second Law: entropy of the universe always increases (ΔS_universe > 0).",
+      "difficulty": "easy",
+      "tags": ["entropy", "disorder", "definition"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_007",
+      "goalId": "grade11-chemistry",
+      "question": "Gibbs Free Energy is defined as G = H − TS. A reaction is spontaneous when:",
+      "options": ["ΔG > 0", "ΔG = 0 (equilibrium)", "ΔG < 0 (negative)", "ΔH < 0 always"],
+      "correctIndex": 2,
+      "explanation": "ΔG < 0: spontaneous (thermodynamically favourable). ΔG > 0: non-spontaneous. ΔG = 0: equilibrium. A reaction can be spontaneous even if ΔH > 0, provided ΔS is large enough at high T.",
+      "difficulty": "medium",
+      "tags": ["gibbs-free-energy", "spontaneous", "ΔG"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_008",
+      "goalId": "grade11-chemistry",
+      "question": "The First Law of Thermodynamics states:",
+      "options": ["Entropy of the universe always increases", "Energy cannot be created or destroyed (ΔU = q + w)", "All processes approach equilibrium", "At absolute zero, entropy is zero"],
+      "correctIndex": 1,
+      "explanation": "First Law: ΔU = q + w (internal energy change = heat added + work done on system). This is energy conservation. Second Law: ΔS_universe > 0. Third Law: S = 0 at 0 K for perfect crystal.",
+      "difficulty": "easy",
+      "tags": ["first-law", "thermodynamics", "energy-conservation"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_009",
+      "goalId": "grade11-chemistry",
+      "question": "Bond enthalpy is the energy required to:",
+      "options": ["Form a bond between two atoms", "Break one mole of a particular type of bond in gaseous molecules", "Dissolve a compound in water", "React 1 mole of compound"],
+      "correctIndex": 1,
+      "explanation": "Bond enthalpy (bond dissociation energy) = energy to break 1 mole of bonds in gaseous molecules. Bond breaking = endothermic. Bond forming = exothermic. ΔH_rxn ≈ Σ(bonds broken) − Σ(bonds formed).",
+      "difficulty": "medium",
+      "tags": ["bond-enthalpy", "bond-breaking", "definition"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_010",
+      "goalId": "grade11-chemistry",
+      "question": "Enthalpy of combustion is always:",
+      "options": ["Positive (endothermic)", "Negative (exothermic — heat is released during burning)", "Zero", "Equal to bond enthalpy"],
+      "correctIndex": 1,
+      "explanation": "Combustion is always exothermic (ΔH < 0). The enthalpy of combustion of carbon (coal) is −393.5 kJ/mol (forms CO₂). Fuels are valued for their large negative enthalpies of combustion.",
+      "difficulty": "easy",
+      "tags": ["combustion-enthalpy", "exothermic", "sign"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_011",
+      "goalId": "grade11-chemistry",
+      "question": "If ΔH = −100 kJ and ΔS = −0.2 kJ/K at 300 K, is the reaction spontaneous?",
+      "options": ["Yes — ΔG = ΔH − TΔS = −100 − (300)(−0.2) = −100 + 60 = −40 kJ < 0", "No — ΔG > 0", "It depends on pressure", "Cannot determine"],
+      "correctIndex": 0,
+      "explanation": "ΔG = ΔH − TΔS = −100 − (300)(−0.2) = −100 + 60 = −40 kJ. Since ΔG < 0, the reaction is spontaneous at 300 K.",
+      "difficulty": "hard",
+      "tags": ["gibbs-energy", "calculation", "spontaneity"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_012",
+      "goalId": "grade11-chemistry",
+      "question": "Lattice enthalpy is the energy required to:",
+      "options": ["Form 1 mole of ionic solid from its gaseous ions", "Completely separate 1 mole of ionic solid into its gaseous ions", "Dissolve 1 mole of salt in water", "Melt 1 mole of ionic solid"],
+      "correctIndex": 1,
+      "explanation": "Lattice enthalpy = energy to convert 1 mol ionic solid into isolated gaseous ions. It is always endothermic (large positive value). Greater lattice enthalpy = stronger ionic bond.",
+      "difficulty": "hard",
+      "tags": ["lattice-enthalpy", "ionic-solid", "definition"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_013",
+      "goalId": "grade11-chemistry",
+      "question": "An isolated system obeys: ΔU = ?",
+      "options": ["q only", "w only", "0 (no heat or work exchange)", "q + w"],
+      "correctIndex": 2,
+      "explanation": "An isolated system exchanges neither heat nor work with surroundings: q = 0 and w = 0. Therefore ΔU = 0. Internal energy of an isolated system is constant (First Law).",
+      "difficulty": "medium",
+      "tags": ["isolated-system", "internal-energy", "first-law"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_014",
+      "goalId": "grade11-chemistry",
+      "question": "At constant pressure, if a gas expands by ΔV, the work done BY the system is:",
+      "options": ["PΔV (positive — work done by system)", "−PΔV", "ΔU/ΔV", "0"],
+      "correctIndex": 0,
+      "explanation": "Work done by system = PΔV (expansion, positive — system does work on surroundings). Work done on system = −PΔV. First Law: ΔU = q − PΔV (heat absorbed minus work done by system).",
+      "difficulty": "medium",
+      "tags": ["PdV-work", "expansion", "first-law"]
+    },
+    {
+      "id": "q_chem_11_w23_s3_015",
+      "goalId": "grade11-chemistry",
+      "question": "The standard enthalpy of neutralisation of a strong acid with a strong base is approximately:",
+      "options": ["0 kJ/mol", "+57.3 kJ/mol", "−57.3 kJ/mol", "−400 kJ/mol"],
+      "correctIndex": 2,
+      "explanation": "Strong acid + strong base neutralisation: H⁺(aq) + OH⁻(aq) → H₂O(l), ΔH ≈ −57.3 kJ/mol. This is constant because fully dissociated acids and bases, regardless of identity.",
+      "difficulty": "medium",
+      "tags": ["neutralisation-enthalpy", "strong-acid-base", "value"]
+    }
+  ]
+}

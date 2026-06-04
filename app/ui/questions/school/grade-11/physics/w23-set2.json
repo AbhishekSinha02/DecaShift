@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-physics",
+  "title": "Grade 11 Physics — Applications of Newton's Laws & Friction",
+  "description": "Connected bodies, inclined planes, friction types, and circular motion forces",
+  "category": "school",
+  "grade": 11,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_11_w23_s2_001",
+      "goalId": "grade11-physics",
+      "question": "Two masses m₁ = 5 kg and m₂ = 3 kg are connected by a string over a frictionless pulley (Atwood machine). The acceleration is:",
+      "options": ["g/2", "(m₁−m₂)g/(m₁+m₂) = 2g/8 = g/4", "g", "2g"],
+      "correctIndex": 1,
+      "explanation": "Atwood machine: a = (m₁−m₂)g/(m₁+m₂) = (5−3)×10/(5+3) = 20/8 = 2.5 m/s². In terms of g: a = 2g/8 = g/4.",
+      "difficulty": "medium",
+      "tags": ["atwood-machine", "connected-masses", "newtons-law"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_002",
+      "goalId": "grade11-physics",
+      "question": "A block of mass 5 kg on a frictionless inclined plane (angle 30°) accelerates down. The acceleration is: (g = 10 m/s²)",
+      "options": ["10 m/s²", "5 m/s²", "8.66 m/s²", "2.5 m/s²"],
+      "correctIndex": 1,
+      "explanation": "On a frictionless incline: a = g sinθ = 10 × sin30° = 10 × 0.5 = 5 m/s². The normal force = mg cosθ (perpendicular to slope).",
+      "difficulty": "medium",
+      "tags": ["inclined-plane", "frictionless", "acceleration"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_003",
+      "goalId": "grade11-physics",
+      "question": "Static friction is the friction that:",
+      "options": ["Acts when the object is in motion", "Acts on a stationary object about to move, opposing the applied force (up to maximum value μₛN)", "Is always less than kinetic friction", "Acts only on rough surfaces in motion"],
+      "correctIndex": 1,
+      "explanation": "Static friction prevents relative motion between surfaces at rest. It increases with applied force up to a maximum f_s = μₛN (μₛ = coefficient of static friction). Beyond this, kinetic friction takes over.",
+      "difficulty": "easy",
+      "tags": ["static-friction", "definition", "friction-types"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_004",
+      "goalId": "grade11-physics",
+      "question": "Kinetic friction is typically _____ static friction for the same surfaces.",
+      "options": ["Greater than", "Equal to", "Less than (μₖ < μₛ)", "10 times smaller than"],
+      "correctIndex": 2,
+      "explanation": "μₖ (kinetic) < μₛ (static) for the same pair of surfaces. This is why it is harder to START sliding an object than to KEEP it sliding once moving.",
+      "difficulty": "easy",
+      "tags": ["kinetic-vs-static-friction", "coefficients", "comparison"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_005",
+      "goalId": "grade11-physics",
+      "question": "A 10 kg block on a rough surface (μₖ = 0.3) is pushed with 50 N. Kinetic friction force is: (g = 10 m/s²)",
+      "options": ["50 N", "30 N", "20 N", "3 N"],
+      "correctIndex": 1,
+      "explanation": "Normal force N = mg = 10 × 10 = 100 N. Kinetic friction fₖ = μₖ × N = 0.3 × 100 = 30 N.",
+      "difficulty": "easy",
+      "tags": ["kinetic-friction", "calculation", "formula"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_006",
+      "goalId": "grade11-physics",
+      "question": "A block on an incline of angle θ is on the verge of sliding. The coefficient of static friction is:",
+      "options": ["sin θ / cos θ = tan θ", "cos θ", "sin θ", "1/tan θ"],
+      "correctIndex": 0,
+      "explanation": "At the verge of sliding on incline: f_s = mg sinθ and N = mg cosθ. μₛ = f_s/N = (mg sinθ)/(mg cosθ) = tan θ. This angle is called the 'angle of friction'.",
+      "difficulty": "medium",
+      "tags": ["angle-of-friction", "inclined-plane", "static-friction"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_007",
+      "goalId": "grade11-physics",
+      "question": "The centripetal force for a car going around a banked curve is provided by:",
+      "options": ["Friction only", "The horizontal component of the normal force (and friction for speeds away from optimal)", "Gravity only", "Engine thrust"],
+      "correctIndex": 1,
+      "explanation": "On a banked curve: the normal force N acts perpendicular to the banked road. Its horizontal component N sinθ provides centripetal force. This allows cars to turn without friction at the optimal speed.",
+      "difficulty": "medium",
+      "tags": ["banked-curve", "centripetal", "normal-force"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_008",
+      "goalId": "grade11-physics",
+      "question": "Two blocks of mass 3 kg and 5 kg are in contact on a frictionless surface. A force of 16 N is applied on the 3 kg block. The contact force between the blocks is:",
+      "options": ["6 N", "10 N", "16 N", "8 N"],
+      "correctIndex": 1,
+      "explanation": "System acceleration: a = 16/(3+5) = 2 m/s². Contact force on 5 kg block: F = ma = 5 × 2 = 10 N. (The contact force accelerates only the 5 kg block.)",
+      "difficulty": "medium",
+      "tags": ["contact-force", "system-of-masses", "newtons-law"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_009",
+      "goalId": "grade11-physics",
+      "question": "Pseudo force (fictitious force) arises in:",
+      "options": ["Inertial frames of reference", "Non-inertial (accelerating) frames of reference", "Vacuum only", "Zero-gravity environments"],
+      "correctIndex": 1,
+      "explanation": "In a non-inertial frame (accelerating reference frame), Newton's laws appear violated. To apply them, we add a pseudo force = −ma (opposite to the frame's acceleration). Examples: force felt in a braking car.",
+      "difficulty": "hard",
+      "tags": ["pseudo-force", "non-inertial-frame", "reference-frame"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_010",
+      "goalId": "grade11-physics",
+      "question": "The minimum speed at the top of a vertical circular loop for a body to maintain contact is: (radius R)",
+      "options": ["√(gR)", "√(2gR)", "√(5gR)", "gR"],
+      "correctIndex": 0,
+      "explanation": "At the top of the loop: minimum speed v_min = √(gR). At this speed, centripetal force = gravity (N = 0, just losing contact). Minimum speed at bottom of loop = √(5gR).",
+      "difficulty": "hard",
+      "tags": ["vertical-circular-motion", "minimum-speed", "centripetal"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_011",
+      "goalId": "grade11-physics",
+      "question": "Rolling friction is _____ sliding friction because:",
+      "options": ["Greater than; rolling deforms surfaces more", "Less than; only small deformation occurs at the rolling contact point", "Equal to; friction depends only on surface roughness", "Unrelated to; they follow different laws"],
+      "correctIndex": 1,
+      "explanation": "Rolling friction << sliding friction. In rolling, only the contact point momentarily deforms — much less energy is lost. This is why wheels were invented: replacing sliding with rolling massively reduces friction.",
+      "difficulty": "medium",
+      "tags": ["rolling-friction", "comparison", "friction-types"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_012",
+      "goalId": "grade11-physics",
+      "question": "A block of mass 2 kg on a rough incline (30°, μₖ = 0.2) is sliding down. Net acceleration is: (g = 10 m/s²)",
+      "options": ["5 m/s²", "3.27 m/s²", "7.27 m/s²", "1.73 m/s²"],
+      "correctIndex": 1,
+      "explanation": "Down the slope: net force = mg sinθ − μₖmg cosθ = mg(sin30° − 0.2cos30°) = 2×10×(0.5 − 0.2×0.866) = 20×(0.5−0.173) = 20×0.327 = 6.54 N. a = 6.54/2 = 3.27 m/s².",
+      "difficulty": "hard",
+      "tags": ["rough-incline", "kinetic-friction", "acceleration"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_013",
+      "goalId": "grade11-physics",
+      "question": "The angle of banking θ for a road curve of radius R at optimal speed v is:",
+      "options": ["tan θ = v/Rg", "tan θ = v²/Rg", "tan θ = Rg/v²", "tan θ = gv²/R"],
+      "correctIndex": 1,
+      "explanation": "Optimal banking: tan θ = v²/Rg. At this speed, no friction is needed. Example: v = 20 m/s, R = 100 m, g = 10: tan θ = 400/1000 = 0.4 → θ ≈ 21.8°.",
+      "difficulty": "medium",
+      "tags": ["banking-angle", "formula", "circular-motion"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_014",
+      "goalId": "grade11-physics",
+      "question": "If a person pushes a wall, the wall pushes back with equal and opposite force. This is Newton's:",
+      "options": ["First Law", "Second Law", "Third Law (action-reaction pairs)", "Law of Gravitation"],
+      "correctIndex": 2,
+      "explanation": "Newton's Third Law: for every action, there is an equal and opposite reaction. Action-reaction pairs act on DIFFERENT bodies — person pushes wall (action on wall), wall pushes person (reaction on person).",
+      "difficulty": "easy",
+      "tags": ["third-law", "action-reaction", "newtons-laws"]
+    },
+    {
+      "id": "q_physics_11_w23_s2_015",
+      "goalId": "grade11-physics",
+      "question": "A 1000 kg car rounds a flat circular track (radius 50 m) at 20 m/s. Centripetal force needed is:",
+      "options": ["400 N", "4000 N", "8000 N", "2000 N"],
+      "correctIndex": 2,
+      "explanation": "Centripetal force F = mv²/r = 1000 × (20)² / 50 = 1000 × 400/50 = 8000 N. This force must be provided by friction on a flat track.",
+      "difficulty": "medium",
+      "tags": ["centripetal-force", "calculation", "circular-motion"]
+    }
+  ]
+}

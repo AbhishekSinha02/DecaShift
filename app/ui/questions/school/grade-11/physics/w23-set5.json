@@ -1,0 +1,163 @@
+{
+  "goalId": "grade11-physics",
+  "title": "Grade 11 Physics — Gravitation",
+  "description": "Newton's law of gravitation, gravitational field, escape velocity, orbital motion",
+  "category": "school",
+  "grade": 11,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_11_w23_s5_001",
+      "goalId": "grade11-physics",
+      "question": "Newton's Law of Universal Gravitation states the force between two masses m₁ and m₂ separated by distance r is:",
+      "options": ["F = Gm₁m₂/r (inversely proportional to r)", "F = Gm₁m₂/r² (inverse square law)", "F = Gm₁m₂r", "F = (m₁+m₂)/Gr²"],
+      "correctIndex": 1,
+      "explanation": "F = Gm₁m₂/r². G = 6.67×10⁻¹¹ N·m²/kg² (Universal Gravitational Constant). Force is attractive, acts along the line joining the masses, and follows the inverse square law.",
+      "difficulty": "easy",
+      "tags": ["gravitation", "newtons-law", "inverse-square"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_002",
+      "goalId": "grade11-physics",
+      "question": "The acceleration due to gravity at the surface of Earth (g) is:",
+      "options": ["GM/R", "GM/R²", "G/R²", "MR²/G"],
+      "correctIndex": 1,
+      "explanation": "g = GM/R² where M = Earth's mass, R = Earth's radius. g ≈ 9.8 m/s² at surface. At height h: g' = g(R/(R+h))². At depth d: g' = g(1 − d/R).",
+      "difficulty": "easy",
+      "tags": ["acceleration-due-to-gravity", "formula", "g"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_003",
+      "goalId": "grade11-physics",
+      "question": "Escape velocity from Earth's surface is approximately:",
+      "options": ["7.9 km/s (orbital speed)", "11.2 km/s", "3 km/s", "30 km/s"],
+      "correctIndex": 1,
+      "explanation": "Escape velocity v_e = √(2gR) = √(2GM/R) ≈ 11.2 km/s. This is the minimum speed needed to escape Earth's gravity. Orbital speed = 7.9 km/s (for low orbit).",
+      "difficulty": "medium",
+      "tags": ["escape-velocity", "value", "formula"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_004",
+      "goalId": "grade11-physics",
+      "question": "Kepler's Third Law states: T² ∝ ?",
+      "options": ["r (orbital radius)", "r² (radius squared)", "r³ (cube of semi-major axis)", "1/r"],
+      "correctIndex": 2,
+      "explanation": "Kepler's Third Law: T² ∝ a³ (period squared is proportional to cube of semi-major axis). T²/a³ = constant for all planets orbiting the same star. Derived from gravitational force = centripetal force.",
+      "difficulty": "medium",
+      "tags": ["keplers-third-law", "T²=r³", "orbital-period"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_005",
+      "goalId": "grade11-physics",
+      "question": "Gravitational potential energy between two masses is:",
+      "options": ["GMm/r (positive)", "−GMm/r (negative)", "GMm/r²", "mgh always"],
+      "correctIndex": 1,
+      "explanation": "U = −GMm/r. Negative because: work is done by gravity when masses approach (energy released). U = 0 at r = ∞. As r decreases, U becomes more negative (energy released/binding energy increases).",
+      "difficulty": "medium",
+      "tags": ["gravitational-PE", "negative", "formula"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_006",
+      "goalId": "grade11-physics",
+      "question": "A geostationary satellite orbits at approximately:",
+      "options": ["200 km", "400 km (ISS)", "36,000 km (with T = 24 h, rotates with Earth)", "384,000 km (moon)"],
+      "correctIndex": 2,
+      "explanation": "Geostationary orbit: ~36,000 km above equator, period = 24 hours. The satellite appears stationary relative to Earth. Used for communication, weather, GPS. Must be in equatorial plane.",
+      "difficulty": "medium",
+      "tags": ["geostationary", "orbit", "36000-km"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_007",
+      "goalId": "grade11-physics",
+      "question": "Weightlessness in a satellite is because:",
+      "options": ["There is no gravity in space", "The satellite and astronaut are both in free fall — both fall at the same acceleration", "The satellite moves too fast for gravity to act", "Gravity is balanced by centrifugal force in the satellite's frame"],
+      "correctIndex": 1,
+      "explanation": "In orbit, both the satellite and everything inside are in free fall — they accelerate toward Earth at the same rate (g_orbit). There is no normal force → apparent weightlessness. Gravity still acts!",
+      "difficulty": "hard",
+      "tags": ["weightlessness", "free-fall", "satellite"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_008",
+      "goalId": "grade11-physics",
+      "question": "The orbital velocity of a satellite at radius r from Earth's centre is:",
+      "options": ["√(GM/r)", "√(2GM/r)", "GM/r", "√(GMr)"],
+      "correctIndex": 0,
+      "explanation": "Setting gravitational force = centripetal force: GMm/r² = mv²/r → v = √(GM/r). Note: escape velocity = √(2GM/R) = √2 × orbital velocity at surface.",
+      "difficulty": "medium",
+      "tags": ["orbital-velocity", "formula", "satellite"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_009",
+      "goalId": "grade11-physics",
+      "question": "Gravitational field strength at a point is defined as:",
+      "options": ["The force between any two masses", "Force per unit mass (g = F/m) — acceleration due to gravity at that point", "Potential energy per unit mass", "Gm/r"],
+      "correctIndex": 1,
+      "explanation": "Gravitational field strength g = F/m = GM/r². It is the force experienced per unit mass placed at that point. Units: N/kg = m/s². Also equal to acceleration due to gravity.",
+      "difficulty": "medium",
+      "tags": ["gravitational-field", "force-per-mass", "definition"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_010",
+      "goalId": "grade11-physics",
+      "question": "g at a height h above Earth's surface is approximately (for h << R):",
+      "options": ["g(1 − 2h/R)", "g(1 + 2h/R)", "g(R/(R+h))", "g/h²"],
+      "correctIndex": 0,
+      "explanation": "g' = GM/(R+h)² ≈ g(1 − 2h/R) for h << R (binomial approximation). Exact: g' = g×R²/(R+h)². g decreases with altitude.",
+      "difficulty": "hard",
+      "tags": ["g-at-height", "approximation", "variation"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_011",
+      "goalId": "grade11-physics",
+      "question": "Kepler's Second Law (equal areas in equal times) is a consequence of:",
+      "options": ["Conservation of energy", "Conservation of linear momentum", "Conservation of angular momentum", "Newton's Third Law"],
+      "correctIndex": 2,
+      "explanation": "Kepler's 2nd Law: a planet sweeps equal areas in equal intervals of time. This results from conservation of angular momentum — gravity provides no torque (force along r), so L = mr²ω = constant.",
+      "difficulty": "hard",
+      "tags": ["keplers-second-law", "angular-momentum", "conservation"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_012",
+      "goalId": "grade11-physics",
+      "question": "The gravitational potential at distance r from mass M is:",
+      "options": ["GM/r", "−GM/r", "GMm/r", "−GMm/r"],
+      "correctIndex": 1,
+      "explanation": "Gravitational potential V = −GM/r (per unit mass). Note: GPE = mV = −GMm/r. Potential is always negative (energy must be added to move mass to infinity). V increases (becomes less negative) with distance.",
+      "difficulty": "medium",
+      "tags": ["gravitational-potential", "formula", "per-unit-mass"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_013",
+      "goalId": "grade11-physics",
+      "question": "If Earth were to shrink to half its radius while mass stays the same, g at the surface would:",
+      "options": ["Halve", "Double", "Quadruple (×4)", "Remain the same"],
+      "correctIndex": 2,
+      "explanation": "g = GM/R². If R → R/2: g_new = GM/(R/2)² = GM × 4/R² = 4g. Quadruples. This is why white dwarfs and neutron stars have enormous surface gravity despite similar or smaller mass than sun.",
+      "difficulty": "hard",
+      "tags": ["g-variation", "radius-change", "scaling"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_014",
+      "goalId": "grade11-physics",
+      "question": "The total energy of a satellite in circular orbit is:",
+      "options": ["Positive (satellite is bound)", "Negative (bound orbit: KE + PE = −GMm/2r)", "Zero", "Equal to its kinetic energy"],
+      "correctIndex": 1,
+      "explanation": "Total energy E = KE + PE = ½mv² + (−GMm/r) = GMm/2r − GMm/r = −GMm/2r (negative = bound state). To escape, you need to add energy to make E = 0.",
+      "difficulty": "hard",
+      "tags": ["total-energy-orbit", "bound-state", "satellite"]
+    },
+    {
+      "id": "q_physics_11_w23_s5_015",
+      "goalId": "grade11-physics",
+      "question": "Gravitational force is always:",
+      "options": ["Repulsive between unlike masses", "Attractive — mass always attracts mass (no negative mass)", "Both attractive and repulsive depending on charge", "Zero at large distances"],
+      "correctIndex": 1,
+      "explanation": "Gravity is ALWAYS attractive — unlike electric/magnetic forces, there is no 'antigravity'. Gravitational force becomes very small at large distances (∝1/r²) but never exactly zero.",
+      "difficulty": "easy",
+      "tags": ["gravitation", "always-attractive", "property"]
+    }
+  ]
+}

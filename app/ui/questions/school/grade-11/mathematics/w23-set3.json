@@ -1,0 +1,165 @@
+{
+  "goalId": "grade11-mathematics",
+  "title": "Grade 11 Mathematics — Straight Lines",
+  "description": "Slope, equations of lines, distance, angles between lines",
+  "category": "school",
+  "grade": 11,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 23,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_math_11_w23_s3_001",
+      "goalId": "grade11-mathematics",
+      "question": "The slope (gradient) of a line passing through (x₁,y₁) and (x₂,y₂) is:",
+      "options": ["(x₂−x₁)/(y₂−y₁)", "(y₂−y₁)/(x₂−x₁)", "(y₁+y₂)/(x₁+x₂)", "(x₁−x₂)/(y₂−y₁)"],
+      "correctIndex": 1,
+      "explanation": "Slope m = (y₂−y₁)/(x₂−x₁) = rise/run. The slope measures the steepness — change in y per unit change in x. A horizontal line has m=0; vertical line has undefined slope.",
+      "difficulty": "easy",
+      "tags": ["slope", "two-points", "formula"]
+    },
+    {
+      "id": "q_math_11_w23_s3_002",
+      "goalId": "grade11-mathematics",
+      "question": "The equation of a line with slope m and y-intercept c is:",
+      "options": ["y = mx + c (slope-intercept form)", "x = my + c", "y − y₁ = m(x − x₁)", "Both A and C (different but equivalent forms)"],
+      "correctIndex": 0,
+      "explanation": "Slope-intercept form: y = mx + c. Here m = slope, c = y-intercept (where line crosses y-axis). Point-slope form: y − y₁ = m(x − x₁). Standard form: ax + by + c = 0.",
+      "difficulty": "easy",
+      "tags": ["slope-intercept", "equation-of-line", "formula"]
+    },
+    {
+      "id": "q_math_11_w23_s3_003",
+      "goalId": "grade11-mathematics",
+      "question": "Find the slope of the line 3x + 4y − 12 = 0.",
+      "options": ["3/4", "−3/4", "4/3", "3"],
+      "correctIndex": 1,
+      "explanation": "Rearrange to y = mx + c: 4y = −3x + 12 → y = −(3/4)x + 3. Slope m = −3/4.",
+      "difficulty": "easy",
+      "tags": ["slope-from-equation", "calculation", "straight-lines"]
+    },
+    {
+      "id": "q_math_11_w23_s3_004",
+      "goalId": "grade11-mathematics",
+      "question": "Two lines are parallel if and only if their slopes are:",
+      "options": ["Equal (m₁ = m₂)", "Negative reciprocals (m₁ × m₂ = −1)", "Sum equals zero", "Product equals 1"],
+      "correctIndex": 0,
+      "explanation": "Parallel lines: same slope (m₁ = m₂), different y-intercepts. Perpendicular lines: m₁ × m₂ = −1 (slopes are negative reciprocals). Coincident lines: same slope AND same y-intercept.",
+      "difficulty": "easy",
+      "tags": ["parallel-lines", "slopes", "condition"]
+    },
+    {
+      "id": "q_math_11_w23_s3_005",
+      "goalId": "grade11-mathematics",
+      "question": "The equation of the line through (2,3) with slope 4 is:",
+      "options": ["y = 4x + 3", "y − 3 = 4(x − 2) → y = 4x − 5", "4y = x + 3", "y = 4x + 2"],
+      "correctIndex": 1,
+      "explanation": "Point-slope form: y − y₁ = m(x − x₁). y − 3 = 4(x − 2) = 4x − 8. y = 4x − 5.",
+      "difficulty": "medium",
+      "tags": ["point-slope", "equation-of-line", "calculation"]
+    },
+    {
+      "id": "q_math_11_w23_s3_006",
+      "goalId": "grade11-mathematics",
+      "question": "The distance from point (x₁, y₁) to line ax + by + c = 0 is:",
+      "options": ["|ax₁ + by₁ + c| / √(a² + b²)", "(ax₁ + by₁ + c) / (a + b)", "|ax₁ + by₁| / c", "√(a² + b²) / |c|"],
+      "correctIndex": 0,
+      "explanation": "Distance from point (x₁,y₁) to line ax+by+c=0: d = |ax₁+by₁+c| / √(a²+b²). The absolute value ensures positive distance.",
+      "difficulty": "medium",
+      "tags": ["distance-from-line", "formula", "straight-lines"]
+    },
+    {
+      "id": "q_math_11_w23_s3_007",
+      "goalId": "grade11-mathematics",
+      "question": "Find the distance from point (3, 4) to line 3x − 4y + 5 = 0.",
+      "options": ["1", "2", "3/5", "8/5"],
+      "correctIndex": 1,
+      "explanation": "d = |3(3) − 4(4) + 5| / √(9+16) = |9−16+5| / √25 = |−2| / 5 = 2/5. Wait: 9-16+5 = -2, |-2|/5 = 2/5. Let me recalculate: 3(3)=9, 4(4)=16, so 9-16+5=-2, |-2|=2, √(9+16)=5, d=2/5.",
+      "correctIndex": 3,
+      "explanation": "d = |3(3) − 4(4) + 5| / √(3²+(−4)²) = |9−16+5| / √25 = |−2| / 5 = 2/5.",
+      "difficulty": "medium",
+      "tags": ["distance-from-line", "calculation", "formula"]
+    },
+    {
+      "id": "q_math_11_w23_s3_008",
+      "goalId": "grade11-mathematics",
+      "question": "Two perpendicular lines have slopes m₁ and m₂. The condition is:",
+      "options": ["m₁ = m₂", "m₁ + m₂ = 0", "m₁ × m₂ = −1", "m₁/m₂ = 1"],
+      "correctIndex": 2,
+      "explanation": "Perpendicular lines: m₁ × m₂ = −1. If m₁ = 2, then m₂ = −1/2. Exception: a horizontal line (m=0) is perpendicular to a vertical line (undefined slope).",
+      "difficulty": "easy",
+      "tags": ["perpendicular-lines", "slopes", "condition"]
+    },
+    {
+      "id": "q_math_11_w23_s3_009",
+      "goalId": "grade11-mathematics",
+      "question": "The intercept form of a line with x-intercept a and y-intercept b is:",
+      "options": ["y = ax + b", "x/a + y/b = 1", "ax + by = 1", "x/b + y/a = 1"],
+      "correctIndex": 1,
+      "explanation": "Intercept form: x/a + y/b = 1. Verify: at y=0, x=a ✓; at x=0, y=b ✓. This form is useful when intercepts are given.",
+      "difficulty": "medium",
+      "tags": ["intercept-form", "equation-of-line", "formula"]
+    },
+    {
+      "id": "q_math_11_w23_s3_010",
+      "goalId": "grade11-mathematics",
+      "question": "The angle θ between two lines with slopes m₁ and m₂ satisfies:",
+      "options": ["tan θ = (m₁ + m₂)/(1 + m₁m₂)", "tan θ = (m₁ − m₂)/(1 + m₁m₂)", "tan θ = m₁ − m₂", "tan θ = m₁/m₂"],
+      "correctIndex": 1,
+      "explanation": "Angle between lines: tan θ = |(m₁ − m₂)/(1 + m₁m₂)| (use absolute value for acute angle). If 1 + m₁m₂ = 0, lines are perpendicular (θ = 90°).",
+      "difficulty": "hard",
+      "tags": ["angle-between-lines", "formula", "tangent"]
+    },
+    {
+      "id": "q_math_11_w23_s3_011",
+      "goalId": "grade11-mathematics",
+      "question": "Lines 2x + 3y = 6 and 4x + 6y = 12 are:",
+      "options": ["Parallel (different intercepts)", "Perpendicular", "Coincident (same line)", "Intersecting at 90°"],
+      "correctIndex": 2,
+      "explanation": "2x+3y=6 and 4x+6y=12: divide second by 2: 2x+3y=6 — same equation. Coincident lines (infinitely many solutions).",
+      "difficulty": "medium",
+      "tags": ["coincident-lines", "identification", "systems"]
+    },
+    {
+      "id": "q_math_11_w23_s3_012",
+      "goalId": "grade11-mathematics",
+      "question": "The x-intercept of the line 2x + 3y = 12 is:",
+      "options": ["4", "6", "3", "12"],
+      "correctIndex": 1,
+      "explanation": "x-intercept: set y = 0. 2x + 3(0) = 12 → 2x = 12 → x = 6. Point: (6, 0).",
+      "difficulty": "easy",
+      "tags": ["x-intercept", "calculation", "straight-lines"]
+    },
+    {
+      "id": "q_math_11_w23_s3_013",
+      "goalId": "grade11-mathematics",
+      "question": "A line passing through (0, 0) with slope 3/4 has equation:",
+      "options": ["4y = 3x", "3y = 4x", "y = 3x/4", "A and C are the same"],
+      "correctIndex": 3,
+      "explanation": "y = mx + c with c=0 (passes through origin): y = (3/4)x → 4y = 3x. Options A and C are the same (both correct).",
+      "difficulty": "easy",
+      "tags": ["line-through-origin", "equation", "slope"]
+    },
+    {
+      "id": "q_math_11_w23_s3_014",
+      "goalId": "grade11-mathematics",
+      "question": "Three points A(1,2), B(3,6), C(2,4) are collinear. This is verified by:",
+      "options": ["Sum of coordinates is equal", "Slopes AB = slope BC = slope AC (all equal)", "AB + BC = AC", "Area of triangle ABC = 0"],
+      "correctIndex": 3,
+      "explanation": "Both slope equality and area = 0 verify collinearity. Area = (1/2)|1(6-4)+3(4-2)+2(2-6)| = (1/2)|2+6-8| = 0 ✓. Slope AB = 4/2 = 2, BC = 2/1 = 2, AC = 2/1 = 2 ✓.",
+      "difficulty": "medium",
+      "tags": ["collinear", "verification", "area-method"]
+    },
+    {
+      "id": "q_math_11_w23_s3_015",
+      "goalId": "grade11-mathematics",
+      "question": "The distance between parallel lines 3x + 4y − 8 = 0 and 3x + 4y + 7 = 0 is:",
+      "options": ["3", "1", "15/5 = 3", "5"],
+      "correctIndex": 0,
+      "explanation": "Distance between parallel lines ax+by+c₁=0 and ax+by+c₂=0: d = |c₁−c₂|/√(a²+b²) = |−8−7|/√(9+16) = 15/5 = 3.",
+      "difficulty": "hard",
+      "tags": ["parallel-lines-distance", "formula", "calculation"]
+    }
+  ]
+}
