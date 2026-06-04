@@ -19,6 +19,9 @@ async function _ensureSettingsInDOM() {
 async function openSettings() {
   await _ensureSettingsInDOM();
   document.getElementById('user-menu').classList.add('hidden');
+  // FEAT-006: reveal the Help & Feedback tile only when the feature is on.
+  const ct = document.getElementById('settings-tile-contact');
+  if (ct) ct.classList.toggle('hidden', !(window.FEATURES && FEATURES.contactForm));
   backToSettingsMenu();
   document.getElementById('settings-modal').classList.remove('hidden');
 }
@@ -46,6 +49,7 @@ function openSettingsSection(name) {
   if (name === 'security')   _initSecuritySection();
   if (name === 'plan')       _initPlanSection();
   if (name === 'progress')   _initProgressSection();
+  if (name === 'contact' && typeof _initContactSection === 'function') _initContactSection();
 }
 
 function backToSettingsMenu() {
