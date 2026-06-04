@@ -88,7 +88,7 @@ function getAccount(loginIdHash) {
 // ── User — one FOLDER per user; profile + entitlement split into files ─────────
 
 function saveUser(user) {
-  const folder = _userFolder(user.userId);
+  const folder = _userFolder(user.userId, user.name);
   // entitlement is persisted as its own file; everything else is the profile
   const entitlement = user.entitlement || null;
   const profile     = Object.assign({}, user);
@@ -130,7 +130,7 @@ function getJourney(userId) {
 // the getContacts scan below. Date-stamped filename so a script can fetch by day.
 
 function saveContact(c) {
-  const folder = _subFolder(_userFolder(c.userId), 'contact');
+  const folder = _subFolder(_userFolder(c.userId, c.name), 'contact');
   const d      = c.date || new Date().toISOString().slice(0, 10);
   const name   = 'msg_' + d + '_' + Date.now() + '.json';
   folder.createFile(name, JSON.stringify(c, null, 2), MimeType.PLAIN_TEXT);
@@ -160,7 +160,7 @@ function getContacts(date) {
 // ── Session — one file per session, write-once, inside the user's folder ───────
 
 function saveSession(session) {
-  const sessionsFolder = _subFolder(_userFolder(session.userId), 'sessions');
+  const sessionsFolder = _subFolder(_userFolder(session.userId, session.name), 'sessions');
   const filename       = 'sess_' + session.sessionId + '.json';
   sessionsFolder.createFile(filename, JSON.stringify(session, null, 2), MimeType.PLAIN_TEXT);
 
@@ -190,9 +190,46 @@ function _subFolder(parent, name) {
   return iter.hasNext() ? iter.next() : parent.createFolder(name);
 }
 
-// the per-student folder: users/{userId}/
-function _userFolder(userId) {
-  return _subFolder(_subFolder(_rootFolder(), 'users'), userId);
+// the per-student folder: users/{userId (Name)}/ — keyed by userId (stable) with the
+// child's name appended for quick human scanning. Resolved via a cached folderId (fast
+// hot path) so the readable name never breaks lookups; falls back to a userId scan when
+// the cache is cold, creates once if truly absent, and renames to add the name once known.
+function _userFolder(userId, name) {
+  const props    = PropertiesService.getScriptProperties();
+  const cacheKey = 'uf_' + userId;
+  let folder = null;
+
+  const cachedId = props.getProperty(cacheKey);
+  if (cachedId) {
+    try { folder = DriveApp.getFolderById(cachedId); } catch (_) { folder = null; }
+  }
+  if (!folder) {
+    const usersRoot = _subFolder(_rootFolder(), 'users');
+    const exact = usersRoot.getFoldersByName(userId);          // legacy bare-userId folder
+    if (exact.hasNext()) {
+      folder = exact.next();
+    } else {
+      const all = usersRoot.getFolders();                      // already-renamed "userId (Name)"
+      while (all.hasNext()) {
+        const f = all.next();
+        if (f.getName().indexOf(userId) === 0) { folder = f; break; }
+      }
+    }
+    if (!folder) {
+      folder = usersRoot.createFolder(name ? userId + ' (' + _safeName(name) + ')' : userId);
+    }
+    props.setProperty(cacheKey, folder.getId());               // cache so future lookups are O(1)
+  }
+  if (name) {                                                  // upgrade the label once we know it
+    const desired = userId + ' (' + _safeName(name) + ')';
+    if (folder.getName() !== desired) { try { folder.setName(desired); } catch (_) {} }
+  }
+  return folder;
+}
+
+// folder-name-safe display name (strip slashes, collapse spaces, cap length)
+function _safeName(name) {
+  return String(name).replace(/[\\\/]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 40);
 }
 
 // create-or-overwrite a file by name in a folder
