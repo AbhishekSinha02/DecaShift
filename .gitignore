@@ -1,1 +1,4 @@
 ReviewPoints.txt
+# Separate live-site repo that lives inside this folder — must NOT be tracked
+# here (it was accidentally committed as a gitlink/submodule and broke Pages).
+AbhishekSinha02.github.io/
