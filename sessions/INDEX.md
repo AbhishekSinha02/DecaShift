@@ -68,9 +68,10 @@
 
 | # | Priority | Focus |
 |---|---|---|
-| C4 | 🔴 P1 | W24 Science — all grades |
-| C5 | 🟠 P2 | W24 Math — all grades |
-| C6 | 🟠 P2 | W24 Hindi + French — all grades |
+| C4 | 🔴 P1 | **PENDING-content-w24-all-grades.md** — W24 Math grades 2–8 (35 files, start here) |
+| C5 | 🟠 P2 | Same file → W24 Science grades 2–8 (35 files) |
+| C6 | 🟠 P2 | Same file → W24 Hindi + French grades 2–8 (70 files) |
+| C7 | 🔵 P3 | Same file → W24 grades 9–12 set2–set5 (56 files) |
 
 ---
 
