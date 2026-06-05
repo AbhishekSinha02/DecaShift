@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-4-french-w25-fri",
+  "title": "Grade 4 French — Fri, Jun 20",
+  "description": "La ville — Day 5 of 5: Week review — city dialogue",
+  "subject": "french",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "la-ville",
+  "tags": ["french", "grade-4", "weekly", "ville", "review"],
+  "questions": [
+    { "id": "g4f-w25-fri-001", "question": "What is 'the train station' in French?", "options": ["La bibliothèque", "Le marché", "La gare", "L'hôpital"], "correctIndex": 2, "explanation": "La gare = the train station.", "tags": ["vocabulary-review"] },
+    { "id": "g4f-w25-fri-002", "question": "How do you say 'where is the bakery?'", "options": ["Comment est la boulangerie?", "Quand est la boulangerie?", "Où est la boulangerie?", "Qu'est-ce que la boulangerie?"], "correctIndex": 2, "explanation": "Où est la boulangerie? = Where is the bakery?", "tags": ["directions-review"] },
+    { "id": "g4f-w25-fri-003", "question": "Give directions: 'Go straight, then turn left.'", "options": ["Tournez à gauche, puis allez tout droit.", "Allez tout droit, puis tournez à gauche.", "Tournez à droite, puis allez tout droit.", "Prenez la première rue à droite."], "correctIndex": 1, "explanation": "Allez tout droit (go straight), puis (then) tournez à gauche (turn left).", "tags": ["directions-review"] },
+    { "id": "g4f-w25-fri-004", "question": "How do you say 'I go by car'?", "options": ["Je vais à voiture.", "Je vais en voiture.", "Je vais avec la voiture.", "Je vais par la voiture."], "correctIndex": 1, "explanation": "Je vais en voiture. Motorised transport = en.", "tags": ["transport-review"] },
+    { "id": "g4f-w25-fri-005", "question": "Fill in: 'Nous allons ___ musée.' (le musée)", "options": ["à la", "à l'", "au", "aux"], "correctIndex": 2, "explanation": "Le musée (masc.) → au musée. À + le = au.", "tags": ["grammar-review"] },
+    { "id": "g4f-w25-fri-006", "question": "Fill in: 'Elle va ___ école.' (l'école)", "options": ["au", "à la", "à l'", "aux"], "correctIndex": 2, "explanation": "L'école starts with a vowel → à l'école.", "tags": ["grammar-review"] },
+    { "id": "g4f-w25-fri-007", "question": "Where do you buy medicines?", "options": ["À la boulangerie", "À la bibliothèque", "À la pharmacie", "Au musée"], "correctIndex": 2, "explanation": "À la pharmacie = at the pharmacy. Medicines are bought here.", "tags": ["vocabulary-review"] },
+    { "id": "g4f-w25-fri-008", "question": "\"C'est en face de la poste\" means:", "options": ["It is next to the post office.", "It is behind the post office.", "It is opposite the post office.", "It is far from the post office."], "correctIndex": 2, "explanation": "En face de = opposite. C'est en face de la poste = It is opposite the post office.", "tags": ["directions-review"] },
+    { "id": "g4f-w25-fri-009", "question": "Translate: 'My sister goes to the market by bicycle.'", "options": ["Ma sœur va au marché en bus.", "Ma sœur va à la marché à vélo.", "Ma sœur va au marché à vélo.", "Ma sœur va à l'marché à vélo."], "correctIndex": 2, "explanation": "Le marché (masc.) → au marché. À vélo = by bicycle. Ma sœur va au marché à vélo.", "tags": ["translate"] },
+    { "id": "g4f-w25-fri-010", "question": "Translate: 'Turn right at the crossroads, then go straight.'", "options": ["Tournez à gauche au carrefour, puis allez tout droit.", "Tournez à droite au carrefour, puis allez tout droit.", "Allez tout droit, puis tournez à droite.", "Prenez la première rue à droite, puis à gauche."], "correctIndex": 1, "explanation": "Tournez à droite (turn right) au carrefour (at the crossroads), puis allez tout droit (then go straight).", "tags": ["directions"] },
+    { "id": "g4f-w25-fri-011", "question": "Which transport is described as 'en métro'?", "options": ["By train", "By underground / subway", "By bicycle", "On foot"], "correctIndex": 1, "explanation": "En métro = by underground (subway). The Paris métro is a famous urban rail system.", "tags": ["transport"] },
+    { "id": "g4f-w25-fri-012", "question": "Complete the city description: 'Dans ma ville, il y a une gare, ___ musée et ___ bibliothèque.'", "options": ["un / une", "une / un", "des / des", "le / la"], "correctIndex": 0, "explanation": "Un musée (masc.), une bibliothèque (fem.). Dans ma ville, il y a une gare, un musée et une bibliothèque.", "tags": ["grammar"] },
+    { "id": "g4f-w25-fri-013", "question": "Read the dialogue and answer: 'Où est l'hôpital? — Prenez la deuxième rue à droite, c'est à côté de la pharmacie.' How far is the hospital?", "options": ["Far — take a bus", "Take the second road on the right — it is next to the pharmacy", "Go straight — it is opposite the pharmacy", "Turn left — it is far from the pharmacy"], "correctIndex": 1, "explanation": "Prenez la deuxième rue à droite = take the second road on the right. C'est à côté de la pharmacie = it is next to the pharmacy.", "tags": ["comprehension"] },
+    { "id": "g4f-w25-fri-014", "question": "Which is INCORRECT?", "options": ["Je vais à la boulangerie.", "Il va au marché.", "Nous allons à l'école.", "Elle va à le musée."], "correctIndex": 3, "explanation": "À + le = au (not 'à le'). Correct: Elle va au musée. 'À le' is never used — it contracts to 'au'.", "tags": ["error-finding"] },
+    { "id": "g4f-w25-fri-015", "question": "WEEK STAR: Write a mini city dialogue — 'Excuse me, where is the library? Go straight, then turn left. It is opposite the school. Thank you!'", "options": ["Excusez-moi, où est la bibliothèque? Allez tout droit, puis tournez à gauche. C'est en face de l'école. Merci!", "Excusez-moi, où est la bibliothèque? Tournez à droite, puis allez tout droit. C'est à côté de l'école. Merci!", "Excusez-moi, où est la bibliothèque? Allez tout droit, puis tournez à droite. C'est derrière l'école. Merci!", "Excusez-moi, où va la bibliothèque? Allez tout droit, puis à gauche. C'est en face de l'école. Merci!"], "correctIndex": 0, "explanation": "Excusez-moi (excuse me), où est la bibliothèque? (where is the library?), Allez tout droit (go straight), puis tournez à gauche (then turn left), C'est en face de l'école (it's opposite the school), Merci (thank you).", "tags": ["extended-dialogue"] }
+  ]
+}

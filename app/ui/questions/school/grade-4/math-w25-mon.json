@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w25-mon",
+  "title": "Grade 4 Math — Mon, Jun 16",
+  "description": "Geometry — Day 1 of 5: Types of lines",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "geometry", "lines"],
+  "questions": [
+    { "id": "g4m-w25-mon-001", "question": "A straight line extends in both directions without end. How many endpoints does it have?", "options": ["One", "Two", "None — it goes on forever in both directions", "Four"], "correctIndex": 2, "explanation": "A line has no endpoints — it extends infinitely in both directions. A line segment has two endpoints.", "tags": ["line-segment"] },
+    { "id": "g4m-w25-mon-002", "question": "A line segment has:", "options": ["No endpoints", "One endpoint (a ray)", "Two endpoints (a fixed length)", "Infinite length"], "correctIndex": 2, "explanation": "A line segment has two endpoints and a definite length. AB is a line segment from point A to point B.", "tags": ["line-segment"] },
+    { "id": "g4m-w25-mon-003", "question": "A ray has:", "options": ["Two endpoints", "One starting point and goes on forever in one direction", "No endpoints", "A fixed length"], "correctIndex": 1, "explanation": "A ray starts at one point (the endpoint) and extends infinitely in one direction. Like a ray of light from a source.", "tags": ["ray"] },
+    { "id": "g4m-w25-mon-004", "question": "Parallel lines are lines that:", "options": ["Meet at a right angle", "Never meet and are always the same distance apart", "Cross each other at any angle", "Are curved"], "correctIndex": 1, "explanation": "Parallel lines never intersect (meet) and remain the same distance apart. Like railway tracks.", "tags": ["parallel"] },
+    { "id": "g4m-w25-mon-005", "question": "Which is a real-life example of parallel lines?", "options": ["The two arms of a compass", "Railway tracks", "The hands of a clock", "A cross (+) shape"], "correctIndex": 1, "explanation": "Railway tracks are parallel — they never meet and stay the same distance apart.", "tags": ["parallel"] },
+    { "id": "g4m-w25-mon-006", "question": "Perpendicular lines are lines that:", "options": ["Never meet", "Meet at exactly 90° (a right angle)", "Meet at 45°", "Are curved"], "correctIndex": 1, "explanation": "Perpendicular lines meet at exactly 90° (a right angle). Like the corner of a square or the letter L.", "tags": ["perpendicular"] },
+    { "id": "g4m-w25-mon-007", "question": "Which is a real-life example of perpendicular lines?", "options": ["The parallel bars in a fence", "The edges of a page (where horizontal meets vertical)", "Train tracks", "A circle's diameter"], "correctIndex": 1, "explanation": "The edges of a page meet at 90° (right angles) — they are perpendicular to each other.", "tags": ["perpendicular"] },
+    { "id": "g4m-w25-mon-008", "question": "Intersecting lines are lines that:", "options": ["Never meet", "Meet at exactly 90° only", "Cross (meet) each other at any angle", "Are parallel"], "correctIndex": 2, "explanation": "Intersecting lines cross each other at some point. They can meet at any angle (if 90°, they are perpendicular — a special case).", "tags": ["intersecting"] },
+    { "id": "g4m-w25-mon-009", "question": "Are perpendicular lines also intersecting lines?", "options": ["No — they are completely different", "Yes — perpendicular lines intersect at 90°, which is a special case of intersecting", "No — they are parallel", "Yes, but only sometimes"], "correctIndex": 1, "explanation": "Perpendicular lines DO intersect — at a right angle. Perpendicular is a special case of intersecting.", "tags": ["relationship"] },
+    { "id": "g4m-w25-mon-010", "question": "A curved line:", "options": ["Is always a circle", "Bends and is not straight", "Cannot be drawn", "Is the same as a straight line"], "correctIndex": 1, "explanation": "A curved line bends — it is not straight. A circle, an arc, and a wavy line are all curved lines.", "tags": ["curved"] },
+    { "id": "g4m-w25-mon-011", "question": "Which of these is a straight line?", "options": ["A circle", "A wavy line", "The edge of a ruler", "A smile on a face"], "correctIndex": 2, "explanation": "The edge of a ruler is straight. Circles and wavy lines are curved.", "tags": ["identify"] },
+    { "id": "g4m-w25-mon-012", "question": "Look at the letter 'H'. What type of lines are the two vertical bars?", "options": ["Perpendicular", "Intersecting at 45°", "Parallel to each other", "Curved"], "correctIndex": 2, "explanation": "The two vertical bars of 'H' are parallel — they never meet and are the same distance apart.", "tags": ["identify"] },
+    { "id": "g4m-w25-mon-013", "question": "Look at the letter 'T'. What is the relationship between the horizontal and vertical bars?", "options": ["Parallel", "Perpendicular (meet at 90°)", "Intersecting at 45°", "Curved"], "correctIndex": 1, "explanation": "In 'T', the horizontal bar sits on the vertical bar at a right angle (90°) — they are perpendicular.", "tags": ["identify"] },
+    { "id": "g4m-w25-mon-014", "question": "A point is:", "options": ["A very small line", "An exact location in space — no size or shape", "A tiny dot that has area", "The same as a line"], "correctIndex": 1, "explanation": "A point is an exact location in space. It has no length, width, or height. It is represented by a dot and named with a capital letter (A, B, C...).", "tags": ["point"] },
+    { "id": "g4m-w25-mon-015", "question": "How many straight lines can be drawn through two given points?", "options": ["One only", "Two", "Many", "None"], "correctIndex": 0, "explanation": "Through any two points, exactly one straight line can be drawn. This is a fundamental geometry rule.", "tags": ["concept"] }
+  ]
+}

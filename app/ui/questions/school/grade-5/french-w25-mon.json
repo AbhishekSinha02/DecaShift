@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-5-french-w25-mon",
+  "title": "Grade 5 French — Mon, Jun 16",
+  "description": "Le corps humain — Day 1 of 5: Les parties du corps (body parts vocabulary)",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "le-corps",
+  "tags": ["french", "grade-5", "weekly", "corps", "vocabulary"],
+  "questions": [
+    { "id": "g5f-w25-mon-001", "question": "\"Le corps\" means:", "options": ["The heart", "The body", "The head", "The face"], "correctIndex": 1, "explanation": "Le corps = the body. Le corps humain = the human body.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-002", "question": "\"La tête\" means:", "options": ["The hand", "The foot", "The head", "The arm"], "correctIndex": 2, "explanation": "La tête = the head. La tête is feminine.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-003", "question": "\"Le bras\" means:", "options": ["The leg", "The arm", "The shoulder", "The hand"], "correctIndex": 1, "explanation": "Le bras = the arm. Le bras is masculine. Two arms = deux bras (no plural s change, the s is already there).", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-004", "question": "\"La jambe\" means:", "options": ["The arm", "The knee", "The leg", "The foot"], "correctIndex": 2, "explanation": "La jambe = the leg (the whole leg). La jambe is feminine.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-005", "question": "\"La main\" means:", "options": ["The foot", "The finger", "The arm", "The hand"], "correctIndex": 3, "explanation": "La main = the hand. La main is feminine. Two hands = les deux mains.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-006", "question": "\"Le pied\" means:", "options": ["The hand", "The leg", "The foot", "The toe"], "correctIndex": 2, "explanation": "Le pied = the foot. Le pied is masculine.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-007", "question": "\"Le visage\" / \"la figure\" means:", "options": ["The body", "The face", "The nose", "The mouth"], "correctIndex": 1, "explanation": "Le visage (or la figure) = the face. You can use both words.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-008", "question": "\"L'épaule\" means:", "options": ["The elbow", "The knee", "The shoulder", "The back"], "correctIndex": 2, "explanation": "L'épaule = the shoulder. Feminine noun, starts with a vowel → l'épaule.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-009", "question": "\"Le genou\" means:", "options": ["The elbow", "The knee", "The ankle", "The hip"], "correctIndex": 1, "explanation": "Le genou = the knee. Plural: les genoux (irregular — genou → genoux).", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-010", "question": "\"Le dos\" means:", "options": ["The chest", "The stomach", "The back (of the body)", "The neck"], "correctIndex": 2, "explanation": "Le dos = the back. 'J'ai mal au dos' = I have backache.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-011", "question": "\"Le cou\" means:", "options": ["The elbow", "The knee", "The leg", "The neck"], "correctIndex": 3, "explanation": "Le cou = the neck. Short word, masculine.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-012", "question": "\"Le ventre\" means:", "options": ["The chest", "The stomach / belly", "The back", "The hip"], "correctIndex": 1, "explanation": "Le ventre = the stomach / belly. J'ai mal au ventre = I have a stomach ache.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-mon-013", "question": "Which of these is feminine?", "options": ["Le bras", "Le pied", "La main", "Le dos"], "correctIndex": 2, "explanation": "La main is feminine. Le bras, le pied, le dos are all masculine.", "tags": ["gender"] },
+    { "id": "g5f-w25-mon-014", "question": "How do you say 'I have two arms and two legs'?", "options": ["J'ai deux bras et deux jambes.", "J'ai un bras et un jambe.", "J'ai deux bras et deux pied.", "J'ai des bras et des jambe."], "correctIndex": 0, "explanation": "Deux bras (bras doesn't change in plural — already ends in -s). Deux jambes (fem. plural). J'ai deux bras et deux jambes.", "tags": ["usage"] },
+    { "id": "g5f-w25-mon-015", "question": "Point to your knee and say it in French: 'This is my ___.'", "options": ["C'est mon épaule.", "C'est mon genou.", "C'est ma jambe.", "C'est mon pied."], "correctIndex": 1, "explanation": "C'est mon genou = This is my knee. Genou is masculine → mon (not ma).", "tags": ["usage"] }
+  ]
+}

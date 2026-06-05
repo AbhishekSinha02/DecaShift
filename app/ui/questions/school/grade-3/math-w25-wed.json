@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w25-wed",
+  "title": "Grade 3 Math — Wed, Jun 18",
+  "description": "Decimals — Day 3 of 5: Comparing and ordering decimals",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "decimals", "comparing"],
+  "questions": [
+    { "id": "g3m-w25-wed-001", "question": "To compare decimals, first compare the ___ part.", "options": ["decimal", "tenths", "ones (whole number)", "hundredths"], "correctIndex": 2, "explanation": "When comparing decimals, first compare the whole number (ones) part. Only if they are equal, compare the tenths, then hundredths.", "tags": ["decimals", "comparison-rule"] },
+    { "id": "g3m-w25-wed-002", "question": "Which is greater: 3.7 or 2.9?", "options": ["2.9", "3.7", "They are equal", "Cannot tell"], "correctIndex": 1, "explanation": "3 > 2, so 3.7 > 2.9 (the whole number part decides).", "tags": ["decimals", "comparing"] },
+    { "id": "g3m-w25-wed-003", "question": "Which is greater: 4.5 or 4.8?", "options": ["4.5", "4.8", "Both equal", "Impossible to say"], "correctIndex": 1, "explanation": "Whole number parts are equal (4 = 4). Compare tenths: 8 > 5. So 4.8 > 4.5.", "tags": ["decimals", "comparing"] },
+    { "id": "g3m-w25-wed-004", "question": "Which is greater: 0.45 or 0.54?", "options": ["0.45", "0.54", "Both equal", "Depends on rounding"], "correctIndex": 1, "explanation": "Both have 0 in ones. Compare tenths: 5 > 4. So 0.54 > 0.45.", "tags": ["decimals", "comparing"] },
+    { "id": "g3m-w25-wed-005", "question": "Which is smaller: 1.07 or 1.70?", "options": ["1.07", "1.70", "Both equal", "Need more info"], "correctIndex": 0, "explanation": "Both have 1 in ones. Compare tenths: 0 < 7. So 1.07 < 1.70.", "tags": ["decimals", "comparing"] },
+    { "id": "g3m-w25-wed-006", "question": "Arrange in ascending order (smallest to largest): 0.5, 0.3, 0.8, 0.1", "options": ["0.8, 0.5, 0.3, 0.1", "0.1, 0.3, 0.5, 0.8", "0.3, 0.5, 0.1, 0.8", "0.5, 0.3, 0.8, 0.1"], "correctIndex": 1, "explanation": "0.1 < 0.3 < 0.5 < 0.8. Compare tenths: 1 < 3 < 5 < 8.", "tags": ["decimals", "ordering"] },
+    { "id": "g3m-w25-wed-007", "question": "Arrange in descending order (largest to smallest): 2.3, 2.7, 2.1, 2.5", "options": ["2.1, 2.3, 2.5, 2.7", "2.7, 2.5, 2.3, 2.1", "2.7, 2.3, 2.5, 2.1", "2.5, 2.7, 2.3, 2.1"], "correctIndex": 1, "explanation": "2.7 > 2.5 > 2.3 > 2.1 (all have 2 in ones; compare tenths: 7 > 5 > 3 > 1).", "tags": ["decimals", "ordering"] },
+    { "id": "g3m-w25-wed-008", "question": "Use < or >: 0.6 ___ 0.60", "options": ["0.6 < 0.60", "0.6 > 0.60", "0.6 = 0.60", "Cannot compare"], "correctIndex": 2, "explanation": "0.6 = 0.60 (trailing zero doesn't change value). They are equal.", "tags": ["decimals", "equality"] },
+    { "id": "g3m-w25-wed-009", "question": "Which is the largest? 1.09, 1.9, 0.99, 1.90", "options": ["1.09", "0.99", "1.9 and 1.90 are equal and largest", "1.09 is largest"], "correctIndex": 2, "explanation": "1.9 = 1.90 (trailing zero). Both equal 1.9, which is larger than 1.09 (same ones, but tenths 9>0) and 0.99.", "tags": ["decimals", "comparing"] },
+    { "id": "g3m-w25-wed-010", "question": "Which decimal comes between 0.5 and 0.7?", "options": ["0.4", "0.8", "0.6", "0.75"], "correctIndex": 2, "explanation": "0.6 is between 0.5 and 0.7. On a number line: 0.5 → 0.6 → 0.7.", "tags": ["decimals", "between"] },
+    { "id": "g3m-w25-wed-011", "question": "Priya's height is 1.35 m. Riya's height is 1.53 m. Who is taller?", "options": ["Priya", "Riya", "Both are the same height", "Cannot say"], "correctIndex": 1, "explanation": "Both have 1 in ones. Compare tenths: 5 > 3. So 1.53 > 1.35. Riya is taller.", "tags": ["decimals", "word-problem"] },
+    { "id": "g3m-w25-wed-012", "question": "A shopkeeper has weights: 0.50 kg, 0.05 kg, and 0.5 kg. How many are equal?", "options": ["None", "All three are equal", "0.50 kg and 0.5 kg are equal", "0.5 kg and 0.05 kg are equal"], "correctIndex": 2, "explanation": "0.50 = 0.5 (trailing zero). But 0.05 ≠ 0.5 (0.05 = 5 hundredths, 0.5 = 5 tenths).", "tags": ["decimals", "equality"] },
+    { "id": "g3m-w25-wed-013", "question": "Tick the correct sign: 3.04 ___ 3.40", "options": ["3.04 > 3.40", "3.04 = 3.40", "3.04 < 3.40", "Impossible to compare"], "correctIndex": 2, "explanation": "Both have 3 in ones. Compare tenths: 0 < 4. So 3.04 < 3.40.", "tags": ["decimals", "comparing"] },
+    { "id": "g3m-w25-wed-014", "question": "A 100 m race: Kiran finishes in 12.5 s; Mohan in 12.48 s. Who is faster?", "options": ["Kiran (12.5 s)", "Mohan (12.48 s) — lower time = faster", "Both equal", "Cannot say"], "correctIndex": 1, "explanation": "12.48 < 12.5 (tenths: 4<5). Lower time means faster. Mohan is faster.", "tags": ["decimals", "word-problem"] },
+    { "id": "g3m-w25-wed-015", "question": "Write THREE decimals between 2.0 and 2.1:", "options": ["2.01, 2.05, 2.09", "2.11, 2.15, 2.19", "2.0, 2.05, 2.1", "2.1, 2.2, 2.3"], "correctIndex": 0, "explanation": "Between 2.0 and 2.1: 2.01, 2.02 ... 2.09. Three examples: 2.01, 2.05, 2.09.", "tags": ["decimals", "between"] }
+  ]
+}

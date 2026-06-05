@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w25-fri",
+  "title": "Grade 4 Science — Fri, Jun 20",
+  "description": "Skeletal System — Day 5 of 5: Mixed review — full system",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "skeletal-system", "review"],
+  "questions": [
+    { "id": "g4s-w25-fri-001", "question": "How many bones does an adult human have?", "options": ["106", "150", "206", "300"], "correctIndex": 2, "explanation": "An adult human body has 206 bones.", "tags": ["review"] },
+    { "id": "g4s-w25-fri-002", "question": "Which bones protect the heart and lungs?", "options": ["Skull", "Pelvis", "Spine", "Ribcage (ribs + sternum)"], "correctIndex": 3, "explanation": "The ribcage (12 pairs of ribs and the sternum) protects the heart and lungs.", "tags": ["review"] },
+    { "id": "g4s-w25-fri-003", "question": "The femur is:", "options": ["The skull", "The longest bone — the thigh bone", "The shin bone", "The arm bone"], "correctIndex": 1, "explanation": "The femur (thigh bone) is the longest and strongest bone in the human body.", "tags": ["review"] },
+    { "id": "g4s-w25-fri-004", "question": "Match: Elbow joint → type of joint:", "options": ["Ball-and-socket", "Pivot", "Fixed", "Hinge"], "correctIndex": 3, "explanation": "The elbow is a hinge joint — it bends and straightens in one direction.", "tags": ["joints-review"] },
+    { "id": "g4s-w25-fri-005", "question": "Match: Shoulder joint → type of joint:", "options": ["Hinge", "Pivot", "Ball-and-socket", "Fixed"], "correctIndex": 2, "explanation": "The shoulder is a ball-and-socket joint — it moves in all directions.", "tags": ["joints-review"] },
+    { "id": "g4s-w25-fri-006", "question": "Match: Skull bones → type of joint:", "options": ["Hinge", "Pivot", "Ball-and-socket", "Fixed (immoveable)"], "correctIndex": 3, "explanation": "The skull bones are joined by fixed/immoveable joints (sutures) to protect the brain.", "tags": ["joints-review"] },
+    { "id": "g4s-w25-fri-007", "question": "Tendons connect:", "options": ["Bone to bone", "Muscle to muscle", "Muscle to bone", "Cartilage to bone"], "correctIndex": 2, "explanation": "Tendons connect muscle to bone. Ligaments connect bone to bone.", "tags": ["review"] },
+    { "id": "g4s-w25-fri-008", "question": "Cartilage at joints acts as:", "options": ["A bone producer", "A shock absorber reducing friction", "A blood vessel", "A muscle helper"], "correctIndex": 1, "explanation": "Cartilage cushions joints, reducing friction and absorbing shock so bones don't grind together.", "tags": ["review"] },
+    { "id": "g4s-w25-fri-009", "question": "The heart is made of ___ muscle:", "options": ["Skeletal", "Smooth", "Cardiac", "Voluntary"], "correctIndex": 2, "explanation": "Cardiac muscle is unique to the heart. It beats involuntarily and never stops.", "tags": ["muscles-review"] },
+    { "id": "g4s-w25-fri-010", "question": "Walking uses ___ muscles:", "options": ["Involuntary (cardiac)", "Voluntary (skeletal)", "Smooth (intestines)", "Cardiac only"], "correctIndex": 1, "explanation": "Walking is voluntary — we consciously decide to walk. Skeletal (voluntary) muscles of the legs are used.", "tags": ["muscles-review"] },
+    { "id": "g4s-w25-fri-011", "question": "Muscles only PULL bones. What provides the pulling action?", "options": ["Muscles push from behind", "Muscles contract (shorten) and pull via tendons", "Ligaments pull", "Cartilage springs back"], "correctIndex": 1, "explanation": "Muscles contract (shorten) and the tendons attached to bones transmit the pulling force, causing the bone to move.", "tags": ["muscles-review"] },
+    { "id": "g4s-w25-fri-012", "question": "Which food group is most important for building strong bones?", "options": ["Sugars and sweets", "Fats and oils", "Calcium-rich foods (milk, cheese, green vegetables)", "Carbohydrates only"], "correctIndex": 2, "explanation": "Calcium-rich foods build and maintain strong bones. Vitamin D (from sunlight) helps the body absorb calcium.", "tags": ["nutrition"] },
+    { "id": "g4s-w25-fri-013", "question": "Bone marrow produces:", "options": ["Digestive juices", "Blood cells (red, white blood cells and platelets)", "Hormones", "Cartilage"], "correctIndex": 1, "explanation": "Red bone marrow produces blood cells. Red blood cells carry oxygen; white blood cells fight infection; platelets help blood clot.", "tags": ["bone-marrow"] },
+    { "id": "g4s-w25-fri-014", "question": "Which of the following is NOT a function of the skeleton?", "options": ["Supporting the body", "Protecting internal organs", "Digesting food", "Helping the body move"], "correctIndex": 2, "explanation": "Digestion is not a function of the skeleton. The skeleton supports, protects organs, produces blood cells, and assists movement.", "tags": ["functions"] },
+    { "id": "g4s-w25-fri-015", "question": "WEEK STAR: A child breaks the bone at the thigh. Which bone is injured, and which system does it belong to?", "options": ["Tibia — muscular system", "Femur — skeletal system", "Humerus — skeletal system", "Patella — muscular system"], "correctIndex": 1, "explanation": "The thigh bone is the femur, part of the skeletal system. It is the longest bone in the body.", "tags": ["synthesis"] }
+  ]
+}

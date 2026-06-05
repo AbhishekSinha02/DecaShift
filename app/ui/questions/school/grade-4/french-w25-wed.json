@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-4-french-w25-wed",
+  "title": "Grade 4 French — Wed, Jun 18",
+  "description": "La ville — Day 3 of 5: Les moyens de transport (means of transport)",
+  "subject": "french",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "la-ville",
+  "tags": ["french", "grade-4", "weekly", "ville", "transport"],
+  "questions": [
+    { "id": "g4f-w25-wed-001", "question": "\"Le bus\" means:", "options": ["The car", "The bus", "The bicycle", "The train"], "correctIndex": 1, "explanation": "Le bus = the bus. Same word as English! Most French cities have a bus network.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-wed-002", "question": "\"Le vélo\" means:", "options": ["The motorbike", "The bus", "The bicycle", "The car"], "correctIndex": 2, "explanation": "Le vélo = the bicycle. Short for vélocipède. Common in French cities — many have bike-sharing schemes.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-wed-003", "question": "\"La voiture\" means:", "options": ["The bicycle", "The bus", "The car", "The train"], "correctIndex": 2, "explanation": "La voiture = the car. La voiture is feminine.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-wed-004", "question": "\"Le métro\" means:", "options": ["The bus", "The underground / subway / metro", "The bicycle", "The taxi"], "correctIndex": 1, "explanation": "Le métro = the underground / subway. Paris has a famous metro network with 16 lines.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-wed-005", "question": "\"Le train\" means:", "options": ["The tram", "The truck", "The train", "The taxi"], "correctIndex": 2, "explanation": "Le train = the train. Same word as English! SNCF operates France's rail network.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-wed-006", "question": "\"À pied\" means:", "options": ["By bicycle", "On foot / walking", "By car", "By bus"], "correctIndex": 1, "explanation": "À pied = on foot. Pied = foot. Je vais à l'école à pied = I go to school on foot.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-wed-007", "question": "How do you say 'I travel by bus' in French?", "options": ["Je voyage en vélo.", "Je voyage à pied.", "Je voyage en bus.", "Je voyage par le bus."], "correctIndex": 2, "explanation": "Je voyage en bus. With motorised transport, use 'en' (en bus, en voiture, en train, en métro). Exception: à pied, à vélo.", "tags": ["en-vs-a"] },
+    { "id": "g4f-w25-wed-008", "question": "Complete: 'Je vais à l'école ___ vélo.' (by bicycle)", "options": ["en", "à", "par", "avec"], "correctIndex": 1, "explanation": "À vélo = by bicycle. Vélo is non-motorised, so use 'à': à vélo, à pied. (Some modern usage also accepts 'en vélo'.)", "tags": ["en-vs-a"] },
+    { "id": "g4f-w25-wed-009", "question": "Which preposition is used with motorised transport?", "options": ["à", "en", "par", "de"], "correctIndex": 1, "explanation": "'En' is used with motorised vehicles: en voiture, en bus, en train, en avion, en métro.", "tags": ["grammar"] },
+    { "id": "g4f-w25-wed-010", "question": "\"L'avion\" means:", "options": ["The helicopter", "The plane / aeroplane", "The bus", "The train"], "correctIndex": 1, "explanation": "L'avion = the plane. Je prends l'avion = I take the plane.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-wed-011", "question": "How do you say 'He travels by car'?", "options": ["Il voyage à voiture.", "Il voyage en voiture.", "Il voyage par voiture.", "Il voyage avec voiture."], "correctIndex": 1, "explanation": "Il voyage en voiture. Motorised transport = en. La voiture (fem.) = car.", "tags": ["usage"] },
+    { "id": "g4f-w25-wed-012", "question": "Which is the most eco-friendly transport?", "options": ["La voiture", "L'avion", "Le bus", "Le vélo ou à pied"], "correctIndex": 3, "explanation": "Le vélo (bicycle) and à pied (walking) produce zero carbon emissions — the most eco-friendly options.", "tags": ["environment"] },
+    { "id": "g4f-w25-wed-013", "question": "Translate: 'My father goes to work by train.'", "options": ["Mon père va au travail en voiture.", "Mon père va au travail en train.", "Mon père va au travail à pied.", "Mon père va au travail en métro."], "correctIndex": 1, "explanation": "Mon père va au travail en train. En train = by train.", "tags": ["translate"] },
+    { "id": "g4f-w25-wed-014", "question": "Paris is famous for which underground transport?", "options": ["Le tramway", "Le métro parisien", "Le bus uniquement", "La voiture"], "correctIndex": 1, "explanation": "Le métro parisien is one of the most famous urban transit systems in the world, opened in 1900.", "tags": ["culture"] },
+    { "id": "g4f-w25-wed-015", "question": "Complete the survey about how students get to school — choose the correct form: 'Trois élèves viennent en ___, deux à ___.' (bus / pied)", "options": ["bus / pied", "le bus / le pied", "en bus / en pied", "par bus / par pied"], "correctIndex": 0, "explanation": "Trois élèves viennent en bus, deux à pied. En bus (motorised); à pied (non-motorised walking).", "tags": ["grammar"] }
+  ]
+}

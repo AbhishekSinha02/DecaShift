@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w25-wed",
+  "title": "Grade 2 Math — Wed, Jun 18",
+  "description": "Time — Day 3 of 5: Minutes — 5-minute intervals",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "time", "minutes"],
+  "questions": [
+    { "id": "g2m-w25-wed-001", "question": "Each number on the clock face stands for ___ minutes.", "options": ["1", "5", "10", "15"], "correctIndex": 1, "explanation": "Each number on the clock = 5 minutes. 1→5, 2→10, 3→15, 4→20, 5→25, 6→30.", "tags": ["clock", "5-minutes"] },
+    { "id": "g2m-w25-wed-002", "question": "The minute hand is on 4. How many minutes is that?", "options": ["4", "15", "20", "25"], "correctIndex": 2, "explanation": "Minute hand on 4 = 4 × 5 = 20 minutes.", "tags": ["clock", "5-minutes"] },
+    { "id": "g2m-w25-wed-003", "question": "The minute hand is on 7. How many minutes is that?", "options": ["7", "35", "40", "30"], "correctIndex": 1, "explanation": "Minute hand on 7 = 7 × 5 = 35 minutes.", "tags": ["clock", "5-minutes"] },
+    { "id": "g2m-w25-wed-004", "question": "The hour hand is on 10 and the minute hand is on 2. What time is it?", "options": ["10:02", "10:10", "10:12", "10:20"], "correctIndex": 1, "explanation": "Minute hand on 2 = 2 × 5 = 10 minutes. Time = 10:10.", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-wed-005", "question": "The hour hand is on 6 and the minute hand is on 5. What time is it?", "options": ["6:05", "6:25", "5:06", "6:50"], "correctIndex": 1, "explanation": "Minute hand on 5 = 5 × 5 = 25 minutes. Time = 6:25.", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-wed-006", "question": "What time is 8:40?", "options": ["Hour on 8, minute on 8", "Hour between 8 and 9, minute on 8", "Hour on 4, minute on 8", "Hour on 8, minute on 40"], "correctIndex": 1, "explanation": "8:40 → minute hand on 8 (40 min). The hour hand is between 8 and 9 (since 40 minutes into the 8 o'clock hour).", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-wed-007", "question": "How many minutes are in 1 hour?", "options": ["12", "60", "24", "30"], "correctIndex": 1, "explanation": "1 hour = 60 minutes. The minute hand goes all the way around once in 60 minutes.", "tags": ["time", "minutes"] },
+    { "id": "g2m-w25-wed-008", "question": "The minute hand is on 11. How many minutes is that?", "options": ["55", "11", "50", "45"], "correctIndex": 0, "explanation": "Minute hand on 11 = 11 × 5 = 55 minutes.", "tags": ["clock", "5-minutes"] },
+    { "id": "g2m-w25-wed-009", "question": "7:55 — where is the minute hand?", "options": ["On 7", "On 11", "On 55", "On 12"], "correctIndex": 1, "explanation": "55 ÷ 5 = 11. Minute hand is on 11. (7:55 = 5 minutes to 8.)", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-wed-010", "question": "Nisha's bus comes at 3:50. In 10 more minutes it will be ___.", "options": ["3:55", "4:00", "4:10", "3:40"], "correctIndex": 1, "explanation": "3:50 + 10 minutes = 4:00.", "tags": ["time", "addition"] },
+    { "id": "g2m-w25-wed-011", "question": "From 2:20 to 2:45 is ___ minutes.", "options": ["10", "20", "25", "30"], "correctIndex": 2, "explanation": "2:45 − 2:20 = 25 minutes.", "tags": ["time", "duration"] },
+    { "id": "g2m-w25-wed-012", "question": "A cartoon lasts 30 minutes. It starts at 5:15. It ends at ___.", "options": ["5:30", "5:45", "6:00", "5:20"], "correctIndex": 1, "explanation": "5:15 + 30 minutes = 5:45.", "tags": ["time", "word-problem"] },
+    { "id": "g2m-w25-wed-013", "question": "Which time has the minute hand on 10?", "options": ["5:10", "9:50", "9:10", "10:50"], "correctIndex": 1, "explanation": "Minute hand on 10 = 50 minutes. 9:50 has the minute hand on 10.", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-wed-014", "question": "From 1:00 to 1:35 is ___ minutes.", "options": ["30", "35", "40", "25"], "correctIndex": 1, "explanation": "1:35 − 1:00 = 35 minutes.", "tags": ["time", "duration"] },
+    { "id": "g2m-w25-wed-015", "question": "Raj studies for 20 minutes starting at 4:40. He finishes at ___.", "options": ["4:50", "5:00", "4:55", "5:10"], "correctIndex": 1, "explanation": "4:40 + 20 minutes = 5:00.", "tags": ["time", "word-problem"] }
+  ]
+}

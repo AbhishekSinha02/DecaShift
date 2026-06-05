@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w25-tue",
+  "title": "Grade 3 Math — Tue, Jun 17",
+  "description": "Decimals — Day 2 of 5: Hundredths place, reading and writing",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "decimals", "hundredths"],
+  "questions": [
+    { "id": "g3m-w25-tue-001", "question": "In the number 4.35, what does the digit 5 represent?", "options": ["5 tenths", "5 ones", "5 hundredths", "5 tens"], "correctIndex": 2, "explanation": "In 4.35, the second digit after the decimal is in the hundredths place. 5 = 5 hundredths = 5/100.", "tags": ["decimals", "hundredths"] },
+    { "id": "g3m-w25-tue-002", "question": "How do you read 0.25?", "options": ["Twenty-five", "Two point five", "Twenty-five hundredths", "Two and five"], "correctIndex": 2, "explanation": "0.25 = 25 hundredths = 25/100. We can also say 'zero point two five'.", "tags": ["decimals", "reading"] },
+    { "id": "g3m-w25-tue-003", "question": "1/100 written as a decimal is:", "options": ["0.1", "1.0", "0.01", "100"], "correctIndex": 2, "explanation": "1/100 = one hundredth = 0.01. The 1 is in the second decimal place (hundredths).", "tags": ["decimals", "hundredths"] },
+    { "id": "g3m-w25-tue-004", "question": "How many hundredths are in 1 whole?", "options": ["10", "1000", "100", "10000"], "correctIndex": 2, "explanation": "1 = 100 hundredths (100/100 = 1).", "tags": ["decimals", "hundredths"] },
+    { "id": "g3m-w25-tue-005", "question": "Write 37 hundredths as a decimal:", "options": ["37.0", "3.7", "0.37", "0.037"], "correctIndex": 2, "explanation": "37 hundredths = 37/100 = 0.37. The 3 is in the tenths place, 7 in the hundredths place.", "tags": ["decimals", "writing"] },
+    { "id": "g3m-w25-tue-006", "question": "In 6.48, write the place value of each digit:", "options": ["6=ones, 4=tenths, 8=hundredths", "6=tens, 4=ones, 8=tenths", "6=hundreds, 4=tens, 8=ones", "6=ones, 4=hundredths, 8=tenths"], "correctIndex": 0, "explanation": "6.48: 6 = ones, 4 = tenths (first decimal place), 8 = hundredths (second decimal place).", "tags": ["decimals", "place-value"] },
+    { "id": "g3m-w25-tue-007", "question": "Which is more: 1 tenth or 1 hundredth?", "options": ["1 hundredth is more", "1 tenth is more", "They are equal", "Cannot compare"], "correctIndex": 1, "explanation": "1/10 = 0.1; 1/100 = 0.01. 0.1 > 0.01. One tenth is 10 times bigger than one hundredth.", "tags": ["decimals", "comparing"] },
+    { "id": "g3m-w25-tue-008", "question": "₹5.75 means:", "options": ["5 rupees 7 paise", "5 rupees and 75 paise", "57 rupees 5 paise", "5 rupees 750 paise"], "correctIndex": 1, "explanation": "In Indian currency, ₹5.75 = 5 rupees and 75 paise. The decimal shows paise (hundredths of a rupee).", "tags": ["decimals", "money"] },
+    { "id": "g3m-w25-tue-009", "question": "Write 0.06 in words:", "options": ["Six tenths", "Six hundredths", "Sixty hundredths", "Six ones"], "correctIndex": 1, "explanation": "0.06 = 6 hundredths. The 6 is in the second decimal place (hundredths).", "tags": ["decimals", "reading"] },
+    { "id": "g3m-w25-tue-010", "question": "0.40 and 0.4 are:", "options": ["Different — 0.40 is bigger", "The same (equal)", "Different — 0.4 is bigger", "Not comparable"], "correctIndex": 1, "explanation": "0.40 = 40/100 = 4/10 = 0.4. Trailing zeros after the decimal point don't change the value.", "tags": ["decimals", "equivalence"] },
+    { "id": "g3m-w25-tue-011", "question": "A 100 cm ruler: 47 cm is what decimal of a metre?", "options": ["0.047 m", "4.7 m", "0.47 m", "47 m"], "correctIndex": 2, "explanation": "47 cm out of 100 cm = 47/100 = 0.47 m. 1 m = 100 cm, so cm → m means dividing by 100.", "tags": ["decimals", "real-life"] },
+    { "id": "g3m-w25-tue-012", "question": "Expand 7.53 in terms of place value:", "options": ["7 + 5/10 + 3/100", "7 + 53/100", "7 + 0.53", "All of the above are correct"], "correctIndex": 3, "explanation": "7.53 = 7 ones + 5 tenths + 3 hundredths = 7 + 5/10 + 3/100 = 7 + 0.53. All three representations are equivalent.", "tags": ["decimals", "expansion"] },
+    { "id": "g3m-w25-tue-013", "question": "Fill in: 0.__ + 0.0__ = 0.38. The blanks are:", "options": ["3 and 8", "38 and 0", "0.3 and 0.08", "3 and 80"], "correctIndex": 0, "explanation": "0.3 (3 tenths) + 0.08 (8 hundredths) = 0.38. The tenths digit is 3, hundredths digit is 8.", "tags": ["decimals", "place-value"] },
+    { "id": "g3m-w25-tue-014", "question": "Which decimal represents 'nine hundredths'?", "options": ["0.9", "9.0", "0.09", "0.009"], "correctIndex": 2, "explanation": "Nine hundredths = 9/100 = 0.09. The 9 is in the hundredths place (second after decimal).", "tags": ["decimals", "hundredths"] },
+    { "id": "g3m-w25-tue-015", "question": "Arjun's pencil is 0.15 m long. That is ___ cm.", "options": ["1.5 cm", "15 cm", "150 cm", "0.015 cm"], "correctIndex": 1, "explanation": "0.15 m = 15/100 m = 15 cm (since 1 m = 100 cm, multiply by 100).", "tags": ["decimals", "conversion"] }
+  ]
+}

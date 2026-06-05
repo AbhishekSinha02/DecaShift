@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w25-mon",
+  "title": "Grade 5 Math — Mon, Jun 16",
+  "description": "Data Handling — Day 1 of 5: Data collection, tally marks, and frequency tables",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "data-handling", "tally-marks"],
+  "questions": [
+    { "id": "g5m-w25-mon-001", "question": "Data is:", "options": ["A type of graph", "A collection of facts and numbers gathered for a specific purpose", "Only numbers, never words", "A mathematical operation"], "correctIndex": 1, "explanation": "Data is a collection of facts or numbers gathered about something. For example: marks of students, temperature readings, favourite sports.", "tags": ["definition"] },
+    { "id": "g5m-w25-mon-002", "question": "Raw data is:", "options": ["Data that has been organised in a table", "Data before it is organised — just as it is collected", "Data shown in a graph", "Data that is wrong"], "correctIndex": 1, "explanation": "Raw data is unorganised data — just as collected. Example: 5, 3, 7, 3, 5, 5, 7, 2, 3 (the marks before sorting).", "tags": ["raw-data"] },
+    { "id": "g5m-w25-mon-003", "question": "Tally marks are used to:", "options": ["Draw graphs", "Count items quickly by making marks in groups of 5", "Measure length", "Find averages"], "correctIndex": 1, "explanation": "Tally marks are a quick way to count. We make 4 vertical marks and then cross with a diagonal for the 5th. |||| ̶ = 5.", "tags": ["tally"] },
+    { "id": "g5m-w25-mon-004", "question": "The tally marks |||| (4 strokes + 1 diagonal cross) represent:", "options": ["4", "5", "6", "10"], "correctIndex": 1, "explanation": "Four vertical marks plus one diagonal cross = 5. This grouping makes counting faster.", "tags": ["tally"] },
+    { "id": "g5m-w25-mon-005", "question": "If the tally for 'Blue' is |||| |||| |, how many students chose blue?", "options": ["9", "10", "11", "12"], "correctIndex": 2, "explanation": "|||| = 5, |||| = 5, | = 1. Total = 5 + 5 + 1 = 11 students.", "tags": ["tally"] },
+    { "id": "g5m-w25-mon-006", "question": "A frequency table shows:", "options": ["A picture of the data", "How often each item/value occurs", "The average of the data", "A bar for each item"], "correctIndex": 1, "explanation": "A frequency table organises data by showing each category and its frequency (how many times it appears).", "tags": ["frequency-table"] },
+    { "id": "g5m-w25-mon-007", "question": "A class survey shows: Cricket — 12, Football — 8, Badminton — 10, Tennis — 5. What is the total number of students?", "options": ["30", "35", "40", "45"], "correctIndex": 1, "explanation": "Total = 12 + 8 + 10 + 5 = 35 students.", "tags": ["frequency-table"] },
+    { "id": "g5m-w25-mon-008", "question": "From the sports survey (Cricket-12, Football-8, Badminton-10, Tennis-5): Which sport is most popular?", "options": ["Football", "Cricket", "Badminton", "Tennis"], "correctIndex": 1, "explanation": "Cricket has the highest frequency (12) → it is the most popular sport.", "tags": ["interpret"] },
+    { "id": "g5m-w25-mon-009", "question": "From the sports survey (Cricket-12, Football-8, Badminton-10, Tennis-5): Which sport is least popular?", "options": ["Football", "Cricket", "Badminton", "Tennis"], "correctIndex": 3, "explanation": "Tennis has the lowest frequency (5) → it is the least popular sport.", "tags": ["interpret"] },
+    { "id": "g5m-w25-mon-010", "question": "The marks scored by 10 students: 7, 5, 7, 8, 5, 7, 6, 8, 5, 7. How many students scored 7?", "options": ["2", "3", "4", "5"], "correctIndex": 2, "explanation": "Counting 7s: 7, 7, 7, 7 → 4 students scored 7.", "tags": ["frequency"] },
+    { "id": "g5m-w25-mon-011", "question": "From the same dataset (7, 5, 7, 8, 5, 7, 6, 8, 5, 7): How many students scored 5?", "options": ["2", "3", "4", "5"], "correctIndex": 1, "explanation": "5 appears at positions 2, 5, 9 → 3 students scored 5.", "tags": ["frequency"] },
+    { "id": "g5m-w25-mon-012", "question": "Why is a tally mark method useful when collecting data in real time (e.g. counting cars on a road)?", "options": ["It draws beautiful graphs", "It allows quick one-by-one recording without stopping to count", "It automatically calculates the mean", "It requires a calculator"], "correctIndex": 1, "explanation": "Tally marks let you record each item as it comes, without stopping to count. Fast and accurate for real-time data collection.", "tags": ["application"] },
+    { "id": "g5m-w25-mon-013", "question": "A frequency table has columns: Colour / Tally / Frequency. 'Frequency' means:", "options": ["The tally marks themselves", "The total count for each category", "The colour name", "The percentage"], "correctIndex": 1, "explanation": "Frequency = the total number of times each category appears. It is the final count after adding the tally marks.", "tags": ["frequency-table"] },
+    { "id": "g5m-w25-mon-014", "question": "A vegetable survey at a market: Tomato — 25, Potato — 30, Onion — 20, Carrot — 15. What fraction of vegetables sold were potatoes?", "options": ["1/4", "3/10", "1/3", "2/5"], "correctIndex": 1, "explanation": "Total = 25+30+20+15 = 90. Potato = 30. Fraction = 30/90 = 1/3. Wait: 30/90 = 1/3. Let me re-check: 30/90 = 1/3. So correct answer is 1/3 which is option C.", "tags": ["fraction-of-data"] },
+    { "id": "g5m-w25-mon-015", "question": "The steps to make a frequency table are: (1) List categories, (2) ___, (3) Count tallies and write frequency.", "options": ["Draw a bar graph", "Mark tally for each data point as you read it", "Calculate the mean", "Find the range"], "correctIndex": 1, "explanation": "Steps: 1 — List categories. 2 — Make a tally mark for each data point. 3 — Count tallies and write total frequency.", "tags": ["process"] }
+  ]
+}

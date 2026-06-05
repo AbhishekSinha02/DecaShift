@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w25-fri",
+  "title": "Grade 2 Math — Fri, Jun 20",
+  "description": "Time — Day 5 of 5: Mixed review — reading clock, AM/PM, duration",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "time", "mixed"],
+  "questions": [
+    { "id": "g2m-w25-fri-001", "question": "Read the clock: hour hand on 9, minute hand on 12. The time is ___.", "options": ["9:30", "12:09", "9:00", "12:00"], "correctIndex": 2, "explanation": "Hour hand on 9, minute hand on 12 = 9 o'clock = 9:00.", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-fri-002", "question": "Read the clock: hour hand between 1 and 2, minute hand on 6. The time is ___.", "options": ["1:30", "2:30", "6:30", "1:06"], "correctIndex": 0, "explanation": "Hour hand between 1 and 2, minute hand on 6 = half past 1 = 1:30.", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-fri-003", "question": "Read the clock: hour hand on 5, minute hand on 3. The time is ___.", "options": ["5:03", "3:25", "5:15", "5:25"], "correctIndex": 2, "explanation": "Minute hand on 3 = 15 minutes = quarter past. Hour hand on 5 = 5:15.", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-fri-004", "question": "Read the clock: hour hand near 7, minute hand on 9. The time is ___.", "options": ["9:07", "7:09", "7:45", "9:45"], "correctIndex": 2, "explanation": "Minute hand on 9 = 45 minutes = quarter to next hour. Hour hand near 7 = 7:45 (quarter to 8).", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-fri-005", "question": "Arrange in order (earliest to latest): 7:45 AM · 7:15 AM · 8:00 AM · 7:30 AM", "options": ["7:15 → 7:30 → 7:45 → 8:00", "7:45 → 7:30 → 7:15 → 8:00", "8:00 → 7:45 → 7:30 → 7:15", "7:30 → 7:15 → 7:45 → 8:00"], "correctIndex": 0, "explanation": "7:15 AM → 7:30 AM → 7:45 AM → 8:00 AM (earliest to latest).", "tags": ["time", "ordering"] },
+    { "id": "g2m-w25-fri-006", "question": "What time is 'a quarter to 3'?", "options": ["3:15", "3:45", "2:45", "2:15"], "correctIndex": 2, "explanation": "Quarter to 3 = 15 minutes before 3 = 2:45.", "tags": ["clock", "quarter-to"] },
+    { "id": "g2m-w25-fri-007", "question": "A football match is 1 hour 30 minutes long. It starts at 4:00 PM. It ends at ___.", "options": ["5:00 PM", "4:30 PM", "5:30 PM", "6:00 PM"], "correctIndex": 2, "explanation": "4:00 PM + 1 hour = 5:00 PM. 5:00 PM + 30 minutes = 5:30 PM.", "tags": ["time", "word-problem"] },
+    { "id": "g2m-w25-fri-008", "question": "School lunch is from 12:30 PM to 1:00 PM. How long is lunch?", "options": ["15 minutes", "30 minutes", "1 hour", "45 minutes"], "correctIndex": 1, "explanation": "12:30 to 1:00 = 30 minutes.", "tags": ["time", "duration"] },
+    { "id": "g2m-w25-fri-009", "question": "Is 11:59 an AM or PM time?", "options": ["AM", "PM", "It could be either", "Neither"], "correctIndex": 2, "explanation": "11:59 is AM if it is morning (just before noon) or PM if it is night (just before midnight). We need to know which one.", "tags": ["am-pm"] },
+    { "id": "g2m-w25-fri-010", "question": "Neha practices piano from 5:15 PM to 5:45 PM. How long does she practice?", "options": ["15 minutes", "45 minutes", "30 minutes", "1 hour"], "correctIndex": 2, "explanation": "5:15 to 5:45 = 30 minutes.", "tags": ["time", "duration"] },
+    { "id": "g2m-w25-fri-011", "question": "How many minutes are in 2 hours?", "options": ["60", "100", "120", "90"], "correctIndex": 2, "explanation": "1 hour = 60 minutes. 2 hours = 2 × 60 = 120 minutes.", "tags": ["time", "conversion"] },
+    { "id": "g2m-w25-fri-012", "question": "Ravi's class starts at 9:00 AM and his recess is at 10:30 AM. How long does he study before recess?", "options": ["30 minutes", "1 hour", "1 hour 30 minutes", "2 hours"], "correctIndex": 2, "explanation": "9:00 AM to 10:30 AM = 1 hour 30 minutes.", "tags": ["time", "word-problem"] },
+    { "id": "g2m-w25-fri-013", "question": "The minute hand is on 8. How many minutes past the hour is it?", "options": ["8", "40", "45", "80"], "correctIndex": 1, "explanation": "Minute hand on 8 = 8 × 5 = 40 minutes.", "tags": ["clock", "5-minutes"] },
+    { "id": "g2m-w25-fri-014", "question": "Which shows 'quarter past 10'?", "options": ["10:45", "10:00", "10:30", "10:15"], "correctIndex": 3, "explanation": "Quarter past 10 = 10:15.", "tags": ["clock", "quarter-past"] },
+    { "id": "g2m-w25-fri-015", "question": "Sana slept 9 hours. She woke up at 7:00 AM. What time did she go to sleep?", "options": ["9:00 PM", "10:00 PM", "8:00 PM", "11:00 PM"], "correctIndex": 1, "explanation": "7:00 AM − 9 hours = 10:00 PM (previous night).", "tags": ["time", "word-problem"] }
+  ]
+}

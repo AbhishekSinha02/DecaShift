@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-3-french-w25-wed",
+  "title": "Grade 3 French — Wed, Jun 18",
+  "description": "La maison — Day 3 of 5: Prépositions de lieu (prepositions of place)",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "la-maison",
+  "tags": ["french", "grade-3", "weekly", "maison", "prepositions"],
+  "questions": [
+    { "id": "g3f-w25-wed-001", "question": "\"Dans\" means:", "options": ["On", "Under", "In / Inside", "In front of"], "correctIndex": 2, "explanation": "Dans = in / inside. Je suis dans la chambre = I am in the bedroom.", "tags": ["preposition"] },
+    { "id": "g3f-w25-wed-002", "question": "\"Sur\" means:", "options": ["Under", "On / On top of", "Next to", "Behind"], "correctIndex": 1, "explanation": "Sur = on / on top of. Le livre est sur la table = The book is on the table.", "tags": ["preposition"] },
+    { "id": "g3f-w25-wed-003", "question": "\"Sous\" means:", "options": ["On", "In front of", "Under / Beneath", "Between"], "correctIndex": 2, "explanation": "Sous = under / beneath. Le chat est sous le lit = The cat is under the bed.", "tags": ["preposition"] },
+    { "id": "g3f-w25-wed-004", "question": "\"À côté de\" means:", "options": ["In front of", "Behind", "Next to", "Under"], "correctIndex": 2, "explanation": "À côté de = next to. La chaise est à côté de la table = The chair is next to the table.", "tags": ["preposition"] },
+    { "id": "g3f-w25-wed-005", "question": "\"Devant\" means:", "options": ["Behind", "Next to", "In front of", "Above"], "correctIndex": 2, "explanation": "Devant = in front of. Il y a un jardin devant la maison = There is a garden in front of the house.", "tags": ["preposition"] },
+    { "id": "g3f-w25-wed-006", "question": "\"Derrière\" means:", "options": ["In front of", "Next to", "Under", "Behind"], "correctIndex": 3, "explanation": "Derrière = behind. Le garage est derrière la maison = The garage is behind the house.", "tags": ["preposition"] },
+    { "id": "g3f-w25-wed-007", "question": "\"Le chat est ___ le lit.\" The cat is under the bed:", "options": ["sur", "sous", "dans", "devant"], "correctIndex": 1, "explanation": "Under = sous. Le chat est sous le lit.", "tags": ["fill-blank"] },
+    { "id": "g3f-w25-wed-008", "question": "\"Le livre est ___ la table.\" The book is on the table:", "options": ["sous", "derrière", "sur", "à côté de"], "correctIndex": 2, "explanation": "On = sur. Le livre est sur la table.", "tags": ["fill-blank"] },
+    { "id": "g3f-w25-wed-009", "question": "\"La chaise est ___ la table.\" The chair is next to the table:", "options": ["sous", "devant", "sur", "à côté de"], "correctIndex": 3, "explanation": "Next to = à côté de. La chaise est à côté de la table.", "tags": ["fill-blank"] },
+    { "id": "g3f-w25-wed-010", "question": "\"Le jardin est ___ la maison.\" The garden is in front of the house:", "options": ["derrière", "devant", "dans", "sur"], "correctIndex": 1, "explanation": "In front of = devant. Le jardin est devant la maison.", "tags": ["fill-blank"] },
+    { "id": "g3f-w25-wed-011", "question": "\"Mon sac est ___ la chaise.\" My bag is behind the chair:", "options": ["devant", "sous", "derrière", "sur"], "correctIndex": 2, "explanation": "Behind = derrière. Mon sac est derrière la chaise.", "tags": ["fill-blank"] },
+    { "id": "g3f-w25-wed-012", "question": "Where is the ball? 'La balle est dans la boîte.' Translation:", "options": ["The ball is on the box.", "The ball is under the box.", "The ball is in the box.", "The ball is next to the box."], "correctIndex": 2, "explanation": "Dans = in. La balle est dans la boîte = The ball is in the box.", "tags": ["translate"] },
+    { "id": "g3f-w25-wed-013", "question": "Translate: 'The lamp is on the table.'", "options": ["La lampe est sous la table.", "La lampe est sur la table.", "La lampe est dans la table.", "La lampe est devant la table."], "correctIndex": 1, "explanation": "On = sur. La lampe est sur la table.", "tags": ["translate"] },
+    { "id": "g3f-w25-wed-014", "question": "Which sentence is correct? 'The cat is in front of the door.'", "options": ["Le chat est derrière la porte.", "Le chat est sous la porte.", "Le chat est devant la porte.", "Le chat est dans la porte."], "correctIndex": 2, "explanation": "In front of = devant. Le chat est devant la porte.", "tags": ["translate"] },
+    { "id": "g3f-w25-wed-015", "question": "Describe this scene: teddy bear — ON the bed, shoes — UNDER the bed:", "options": ["Le nounours est sous le lit. Les chaussures sont sur le lit.", "Le nounours est dans le lit. Les chaussures sont à côté du lit.", "Le nounours est sur le lit. Les chaussures sont sous le lit.", "Le nounours est devant le lit. Les chaussures sont derrière le lit."], "correctIndex": 2, "explanation": "Le nounours (teddy) est sur le lit (on the bed). Les chaussures (shoes) sont sous le lit (under the bed).", "tags": ["describe"] }
+  ]
+}

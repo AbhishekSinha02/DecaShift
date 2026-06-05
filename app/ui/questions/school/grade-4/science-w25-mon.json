@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w25-mon",
+  "title": "Grade 4 Science — Mon, Jun 16",
+  "description": "Skeletal System — Day 1 of 5: Bones — structure and functions",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "skeletal-system", "bones"],
+  "questions": [
+    { "id": "g4s-w25-mon-001", "question": "The skeletal system is made up of:", "options": ["Muscles and fat", "All the bones in the body", "Skin and tissues", "Blood and vessels"], "correctIndex": 1, "explanation": "The skeletal system consists of all the bones in the body. The human adult body has 206 bones.", "tags": ["definition"] },
+    { "id": "g4s-w25-mon-002", "question": "How many bones does an adult human body have?", "options": ["106", "206", "306", "406"], "correctIndex": 1, "explanation": "An adult human body has 206 bones. Babies are born with about 270–300 bones that fuse as they grow.", "tags": ["facts"] },
+    { "id": "g4s-w25-mon-003", "question": "The study of bones is called:", "options": ["Biology", "Osteology", "Cardiology", "Zoology"], "correctIndex": 1, "explanation": "Osteology is the scientific study of bones. Osteo = bone (Greek).", "tags": ["facts"] },
+    { "id": "g4s-w25-mon-004", "question": "The main function of the skeleton is to:", "options": ["Only produce blood", "Support the body, protect organs, and help movement", "Digest food", "Pump blood"], "correctIndex": 1, "explanation": "The skeleton has three main functions: (1) support — gives the body shape; (2) protection — shields organs; (3) movement — muscles pull on bones.", "tags": ["functions"] },
+    { "id": "g4s-w25-mon-005", "question": "Which organ does the skull (cranium) protect?", "options": ["Heart", "Lungs", "Liver", "Brain"], "correctIndex": 3, "explanation": "The skull (cranium) surrounds and protects the brain. Without the skull, the brain would be vulnerable to injury.", "tags": ["protection"] },
+    { "id": "g4s-w25-mon-006", "question": "Which bones protect the heart and lungs?", "options": ["Skull", "Pelvis", "Ribcage (ribs and sternum)", "Vertebral column"], "correctIndex": 2, "explanation": "The ribcage — 12 pairs of ribs and the sternum (breastbone) — forms a protective cage around the heart and lungs.", "tags": ["protection"] },
+    { "id": "g4s-w25-mon-007", "question": "The vertebral column (spine/backbone) protects:", "options": ["The brain", "The lungs", "The spinal cord", "The heart"], "correctIndex": 2, "explanation": "The vertebral column (spine) surrounds and protects the spinal cord — the main nerve highway of the body.", "tags": ["protection"] },
+    { "id": "g4s-w25-mon-008", "question": "Bones are made mainly of:", "options": ["Iron and water", "Calcium and phosphorus (making them hard and strong)", "Cotton and fibre", "Keratin and protein only"], "correctIndex": 1, "explanation": "Bones are made primarily of calcium and phosphorus, which make them hard. Milk, yogurt, and leafy vegetables supply calcium for strong bones.", "tags": ["composition"] },
+    { "id": "g4s-w25-mon-009", "question": "The soft, jelly-like substance inside large bones that produces blood cells is called:", "options": ["Calcium", "Bone marrow", "Cartilage", "Ligament"], "correctIndex": 1, "explanation": "Bone marrow is found inside large bones (like the femur). Red bone marrow produces red blood cells, white blood cells, and platelets.", "tags": ["bone-marrow"] },
+    { "id": "g4s-w25-mon-010", "question": "Which of these foods helps build strong bones?", "options": ["Cold drinks", "Chips and fried food", "Milk, cheese, and leafy vegetables", "Sweets and candy"], "correctIndex": 2, "explanation": "Milk, cheese, yogurt, and green leafy vegetables are rich in calcium — essential for strong bones.", "tags": ["nutrition"] },
+    { "id": "g4s-w25-mon-011", "question": "Cartilage is:", "options": ["A type of muscle", "Flexible connective tissue found at joint ends and in the nose and ears", "A bone disease", "A type of blood cell"], "correctIndex": 1, "explanation": "Cartilage is softer and more flexible than bone. It covers the ends of bones at joints to reduce friction, and forms your nose and ears.", "tags": ["cartilage"] },
+    { "id": "g4s-w25-mon-012", "question": "Why do babies have more bones than adults?", "options": ["Adults lose bones from disease", "Many small bones fuse together as the body grows", "Adults have more cartilage", "Babies eat more calcium"], "correctIndex": 1, "explanation": "Babies start with about 270–300 bones, many of which are cartilage. As they grow, bones harden (ossify) and small bones fuse, resulting in 206 bones in adults.", "tags": ["bone-growth"] },
+    { "id": "g4s-w25-mon-013", "question": "The smallest bone in the human body is found in the:", "options": ["Foot", "Hand", "Ear (the stirrup/stapes)", "Spine"], "correctIndex": 2, "explanation": "The stapes (stirrup) in the middle ear is the smallest bone in the human body — only about 3 mm long.", "tags": ["facts"] },
+    { "id": "g4s-w25-mon-014", "question": "The largest bone in the human body is the:", "options": ["Spine", "Skull", "Femur (thigh bone)", "Humerus (upper arm)"], "correctIndex": 2, "explanation": "The femur (thigh bone) is the longest and strongest bone in the body.", "tags": ["facts"] },
+    { "id": "g4s-w25-mon-015", "question": "Without a skeleton, the human body would:", "options": ["Be stronger and more flexible", "Collapse — it would have no support or shape", "Still stand upright", "Move faster"], "correctIndex": 1, "explanation": "Without bones, the body would have no support — it would be a shapeless mass like a jellyfish. The skeleton is the body's framework.", "tags": ["importance"] }
+  ]
+}

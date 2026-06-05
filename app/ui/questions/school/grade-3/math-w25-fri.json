@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w25-fri",
+  "title": "Grade 3 Math — Fri, Jun 20",
+  "description": "Decimals — Day 5 of 5: Mixed — fractions to decimals, word problems",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "decimals", "mixed"],
+  "questions": [
+    { "id": "g3m-w25-fri-001", "question": "1/2 as a decimal is ___.", "options": ["0.12", "1.2", "0.5", "0.2"], "correctIndex": 2, "explanation": "1/2 = 5/10 = 0.5.", "tags": ["fraction-decimal"] },
+    { "id": "g3m-w25-fri-002", "question": "1/4 as a decimal is ___.", "options": ["0.14", "0.4", "0.25", "2.5"], "correctIndex": 2, "explanation": "1/4 = 25/100 = 0.25.", "tags": ["fraction-decimal"] },
+    { "id": "g3m-w25-fri-003", "question": "3/4 as a decimal is ___.", "options": ["0.34", "0.75", "3.4", "0.3"], "correctIndex": 1, "explanation": "3/4 = 75/100 = 0.75.", "tags": ["fraction-decimal"] },
+    { "id": "g3m-w25-fri-004", "question": "Which fraction equals 0.2?", "options": ["2/100", "2/10 = 1/5", "2/1000", "1/2"], "correctIndex": 1, "explanation": "0.2 = 2/10 = 1/5. Two tenths is the same as one fifth.", "tags": ["decimal-fraction"] },
+    { "id": "g3m-w25-fri-005", "question": "Which fraction equals 0.50?", "options": ["5/100", "50/10", "50/100 = 1/2", "5/1000"], "correctIndex": 2, "explanation": "0.50 = 50/100 = 1/2.", "tags": ["decimal-fraction"] },
+    { "id": "g3m-w25-fri-006", "question": "Arrange: 0.25, 1/2, 3/4, 0.1 from smallest to largest:", "options": ["0.1, 0.25, 1/2, 3/4", "3/4, 1/2, 0.25, 0.1", "0.25, 0.1, 1/2, 3/4", "1/2, 0.1, 0.25, 3/4"], "correctIndex": 0, "explanation": "0.1 < 0.25 < 0.5 (=1/2) < 0.75 (=3/4). So: 0.1 → 0.25 → 1/2 → 3/4.", "tags": ["ordering", "mixed"] },
+    { "id": "g3m-w25-fri-007", "question": "Meera bought 1.5 m of red cloth and 0.75 m of blue cloth. How much cloth in all?", "options": ["2.15 m", "2.25 m", "2.5 m", "1.75 m"], "correctIndex": 1, "explanation": "1.5 + 0.75 = 1.50 + 0.75 = 2.25 m.", "tags": ["decimals", "word-problem"] },
+    { "id": "g3m-w25-fri-008", "question": "A water tank holds 3.5 L. Another holds 2.75 L. Together they hold ___ L.", "options": ["5.75 L", "6.25 L", "6.15 L", "5.25 L"], "correctIndex": 1, "explanation": "3.5 + 2.75 = 3.50 + 2.75 = 6.25 L.", "tags": ["decimals", "word-problem"] },
+    { "id": "g3m-w25-fri-009", "question": "Which decimal is NOT equivalent to 1/2?", "options": ["0.5", "0.50", "0.500", "0.05"], "correctIndex": 3, "explanation": "0.05 = 5/100 = 1/20. It is NOT the same as 1/2 (which is 0.5). All others (0.5, 0.50, 0.500) equal 1/2.", "tags": ["equivalence"] },
+    { "id": "g3m-w25-fri-010", "question": "Write 3.4 as a mixed number (whole + fraction):", "options": ["3 + 4/100", "3 + 4/10", "34/10", "All of the above"], "correctIndex": 3, "explanation": "3.4 = 3 + 4/10 = 34/10. All three forms are correct.", "tags": ["fraction-decimal"] },
+    { "id": "g3m-w25-fri-011", "question": "What decimal is halfway between 0.4 and 0.6?", "options": ["0.5", "0.45", "0.55", "0.4"], "correctIndex": 0, "explanation": "Halfway between 0.4 and 0.6 = (0.4 + 0.6) ÷ 2 = 1.0 ÷ 2 = 0.5.", "tags": ["decimals", "midpoint"] },
+    { "id": "g3m-w25-fri-012", "question": "Jay walked 0.5 km, then 0.25 km, then 0.25 km. Total distance = ___.", "options": ["0.75 km", "1.0 km", "0.5 km", "1.25 km"], "correctIndex": 1, "explanation": "0.5 + 0.25 + 0.25 = 1.0 km. He walked exactly 1 km in total.", "tags": ["decimals", "word-problem"] },
+    { "id": "g3m-w25-fri-013", "question": "2.5 = 2 + ___.", "options": ["0.5", "5/100", "5", "50"], "correctIndex": 0, "explanation": "2.5 = 2 + 0.5 (2 ones + 5 tenths). 0.5 is the fractional part.", "tags": ["decimals", "place-value"] },
+    { "id": "g3m-w25-fri-014", "question": "A shopkeeper weighs 1.25 kg of flour and 0.75 kg of sugar. Which is heavier, and by how much?", "options": ["Flour is heavier by 0.5 kg", "Sugar is heavier by 0.5 kg", "Both equal", "Sugar is heavier by 0.25 kg"], "correctIndex": 0, "explanation": "1.25 − 0.75 = 0.5 kg. Flour (1.25 kg) is heavier than sugar (0.75 kg) by 0.5 kg.", "tags": ["decimals", "word-problem"] },
+    { "id": "g3m-w25-fri-015", "question": "WEEK SUMMARY: Which statement about decimals is correct?", "options": ["0.1 is greater than 1.0", "Tenths come BEFORE hundredths (closer to the decimal point)", "0.50 ≠ 0.5", "1/2 = 0.25"], "correctIndex": 1, "explanation": "Tenths (1 decimal place) come before hundredths (2 decimal places). 0.1 = 1 tenth; 0.01 = 1 hundredth. 0.50 = 0.5 (equal). 1/2 = 0.5.", "tags": ["decimals", "summary"] }
+  ]
+}

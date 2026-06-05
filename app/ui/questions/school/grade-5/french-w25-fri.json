@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-5-french-w25-fri",
+  "title": "Grade 5 French — Fri, Jun 20",
+  "description": "Le corps humain — Day 5 of 5: Révision de la semaine (week review)",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "le-corps",
+  "tags": ["french", "grade-5", "weekly", "corps", "review"],
+  "questions": [
+    { "id": "g5f-w25-fri-001", "question": "Give the French word for 'shoulder':", "options": ["Le genou", "Le coude", "L'épaule", "Le poignet"], "correctIndex": 2, "explanation": "L'épaule = the shoulder. Feminine noun starting with vowel → l'épaule.", "tags": ["body-parts"] },
+    { "id": "g5f-w25-fri-002", "question": "Give the French word for 'knee':", "options": ["Le dos", "Le genou", "La cheville", "Le coude"], "correctIndex": 1, "explanation": "Le genou = the knee. Plural: les genoux (irregular).", "tags": ["body-parts"] },
+    { "id": "g5f-w25-fri-003", "question": "\"J'ai mal au dos\" means:", "options": ["I have a headache.", "I have a backache.", "I have a sore arm.", "I have sore legs."], "correctIndex": 1, "explanation": "J'ai mal au dos = I have a backache. Au = à + le (masculine).", "tags": ["avoir-mal"] },
+    { "id": "g5f-w25-fri-004", "question": "\"J'ai mal aux épaules\" means:", "options": ["My shoulder hurts.", "My knees hurt.", "My shoulders hurt.", "My elbows hurt."], "correctIndex": 2, "explanation": "J'ai mal aux épaules = My shoulders hurt. Aux = à + les (plural). Note: épaules is plural.", "tags": ["avoir-mal"] },
+    { "id": "g5f-w25-fri-005", "question": "At the doctor's: How do you say 'I have been sick for three days'?", "options": ["J'ai été malade pour trois jours.", "Je suis malade depuis trois jours.", "Je suis malade il y a trois jours.", "J'ai malade trois jours."], "correctIndex": 1, "explanation": "Je suis malade depuis trois jours = I have been sick for three days. Depuis + duration for ongoing state.", "tags": ["doctor-phrases"] },
+    { "id": "g5f-w25-fri-006", "question": "The doctor says: 'Tirez la langue, s'il vous plaît.' This means:", "options": ["Open your mouth.", "Breathe deeply.", "Stick out your tongue, please.", "Show me your arm."], "correctIndex": 2, "explanation": "Tirez la langue = stick out your tongue. La langue = the tongue. Tirez = extend/stick out (formal command).", "tags": ["doctor-phrases"] },
+    { "id": "g5f-w25-fri-007", "question": "Which sentence uses the correct avoir mal à form?", "options": ["J'ai mal à le bras.", "J'ai mal à les pieds.", "J'ai mal au bras et aux pieds.", "J'ai mal à la les genoux."], "correctIndex": 2, "explanation": "J'ai mal au bras (à + le = au) et aux pieds (à + les = aux). Correct contractions applied.", "tags": ["grammar"] },
+    { "id": "g5f-w25-fri-008", "question": "What is the French word for 'cough' (symptom verb)?", "options": ["J'éternue", "Je tousse", "Je vomis", "Je tremble"], "correctIndex": 1, "explanation": "Je tousse = I cough. Tousser = to cough. La toux = the cough (noun form).", "tags": ["symptoms"] },
+    { "id": "g5f-w25-fri-009", "question": "Which sense matches 'les oreilles'?", "options": ["La vue (sight)", "Le toucher (touch)", "L'ouïe (hearing)", "L'odorat (smell)"], "correctIndex": 2, "explanation": "Les oreilles = the ears → L'ouïe = hearing. Entendre avec les oreilles.", "tags": ["five-senses"] },
+    { "id": "g5f-w25-fri-010", "question": "Which sense matches 'le nez'?", "options": ["Le goût (taste)", "L'odorat (smell)", "La vue (sight)", "Le toucher (touch)"], "correctIndex": 1, "explanation": "Le nez = the nose → L'odorat = smell. Sentir avec le nez.", "tags": ["five-senses"] },
+    { "id": "g5f-w25-fri-011", "question": "Complete the doctor's dialogue: Patient: 'Je ___ pas bien. J'ai ___ à la tête.' Doctor: 'Vous avez de la fièvre?'", "options": ["suis / malade", "ne me sens / mal", "me sens / bien", "suis / fièvre"], "correctIndex": 1, "explanation": "Je ne me sens pas bien. J'ai mal à la tête. = I don't feel well. I have a headache.", "tags": ["dialogue"] },
+    { "id": "g5f-w25-fri-012", "question": "How do you describe using 3 senses in one sentence: 'I see with my eyes, I hear with my ears and I smell with my nose.'", "options": ["Je vois avec les yeux, j'entends avec les oreilles et je sens avec le nez.", "Je vois mes yeux, j'entends mes oreilles et je sens mon nez.", "Je regarde avec les yeux, j'écoute les oreilles et je touche le nez.", "Je vois les yeux, j'entends les oreilles et je sens au nez."], "correctIndex": 0, "explanation": "Voir avec les yeux / entendre avec les oreilles / sentir avec le nez. Correct preposition = avec.", "tags": ["synthesis"] },
+    { "id": "g5f-w25-fri-013", "question": "Translate: 'The doctor writes a prescription and says I must rest.'", "options": ["Le médecin lit une ordonnance et dit que je dois dormir.", "Le médecin écrit une ordonnance et dit que je dois me reposer.", "Le médecin donne un médicament et dit que je dois manger.", "Le médecin prend une ordonnance et dit que je dois partir."], "correctIndex": 1, "explanation": "Écrire une ordonnance = to write a prescription. Devoir = must. Se reposer = to rest.", "tags": ["translate"] },
+    { "id": "g5f-w25-fri-014", "question": "Which of these is a complete medical consultation exchange?", "options": ["Bonjour. J'ai mal. Voici un médicament.", "Bonjour. Qu'est-ce qui ne va pas? J'ai mal à la gorge depuis deux jours. Ouvrez la bouche. Voici une ordonnance.", "Bonjour médecin. Je suis fatigué. Allez dormir.", "Où avez-vous mal? J'ai faim. Mangez."], "correctIndex": 1, "explanation": "A full medical exchange: greeting → what's wrong → symptom + duration → examination → prescription.", "tags": ["dialogue"] },
+    { "id": "g5f-w25-fri-015", "question": "Week summary — which topic was NOT covered this week in Grade 5 French?", "options": ["Les parties du corps", "Avoir mal à + body part", "Chez le médecin", "Les animaux de la ferme"], "correctIndex": 3, "explanation": "This week covered: body parts (Mon), avoir mal à (Tue), chez le médecin (Wed), les cinq sens (Thu), review (Fri). Les animaux de la ferme (farm animals) was not this week's topic.", "tags": ["week-review"] }
+  ]
+}

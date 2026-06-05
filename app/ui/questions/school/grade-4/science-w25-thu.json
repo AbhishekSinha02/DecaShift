@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w25-thu",
+  "title": "Grade 4 Science — Thu, Jun 19",
+  "description": "Skeletal System — Day 4 of 5: Muscular system — muscles, tendons, voluntary vs involuntary",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "skeletal-system", "muscles"],
+  "questions": [
+    { "id": "g4s-w25-thu-001", "question": "The muscular system works together with the skeletal system to:", "options": ["Digest food", "Produce blood", "Allow the body to move", "Regulate temperature only"], "correctIndex": 2, "explanation": "Muscles attach to bones and pull on them when they contract (shorten). This is how the body moves.", "tags": ["definition"] },
+    { "id": "g4s-w25-thu-002", "question": "The human body has approximately how many muscles?", "options": ["100", "300", "More than 600", "20"], "correctIndex": 2, "explanation": "The human body has over 600 muscles! They make up about 40% of body weight.", "tags": ["facts"] },
+    { "id": "g4s-w25-thu-003", "question": "VOLUNTARY muscles are muscles that:", "options": ["Work automatically without thinking", "Can be controlled consciously (we decide when to use them)", "Only work during sleep", "Are found only in the heart"], "correctIndex": 1, "explanation": "Voluntary muscles are under conscious control. We decide to move them — like lifting an arm or walking.", "tags": ["voluntary"] },
+    { "id": "g4s-w25-thu-004", "question": "Which is an example of a VOLUNTARY muscle?", "options": ["Heart muscle", "Stomach muscles (digestion)", "Bicep in the arm (lifting things)", "Diaphragm working automatically"], "correctIndex": 2, "explanation": "The bicep (arm muscle) is voluntary — you consciously decide to lift your arm. Heart and stomach muscles are involuntary.", "tags": ["voluntary"] },
+    { "id": "g4s-w25-thu-005", "question": "INVOLUNTARY muscles are muscles that:", "options": ["We control consciously", "Work automatically without conscious thought", "Are found only in arms and legs", "Stop working when we sleep"], "correctIndex": 1, "explanation": "Involuntary muscles work automatically — we do not control them consciously. Examples: heart, stomach, intestines.", "tags": ["involuntary"] },
+    { "id": "g4s-w25-thu-006", "question": "Which is an example of an INVOLUNTARY muscle?", "options": ["Arm muscle (bicep)", "Leg muscle (quadricep)", "Stomach muscle that churns food during digestion", "Eye muscle when we blink voluntarily"], "correctIndex": 2, "explanation": "Stomach muscles work involuntarily — they churn food automatically during digestion without us thinking about it.", "tags": ["involuntary"] },
+    { "id": "g4s-w25-thu-007", "question": "The heart is made of a special type of muscle called:", "options": ["Skeletal muscle", "Smooth muscle", "Cardiac muscle", "Voluntary muscle"], "correctIndex": 2, "explanation": "The heart is made of cardiac muscle — a special type found only in the heart. It beats automatically without stopping.", "tags": ["cardiac"] },
+    { "id": "g4s-w25-thu-008", "question": "Smooth muscle is found in:", "options": ["Arms and legs", "The heart", "The walls of internal organs like the stomach, intestines, and blood vessels", "The face only"], "correctIndex": 2, "explanation": "Smooth muscle lines the walls of internal organs (stomach, intestines, blood vessels). It works involuntarily to move food, blood, etc.", "tags": ["smooth"] },
+    { "id": "g4s-w25-thu-009", "question": "Skeletal muscle (striated muscle) is:", "options": ["Found in the heart", "Found in internal organs", "Attached to bones — voluntary and controls body movement", "Found only in the face"], "correctIndex": 2, "explanation": "Skeletal muscle attaches to bones and is under voluntary control. It is the main type of muscle that moves our limbs.", "tags": ["skeletal-muscle"] },
+    { "id": "g4s-w25-thu-010", "question": "Tendons are:", "options": ["Tough bands connecting bone to bone", "Soft tissues that produce blood", "Strong cords connecting muscle to bone", "Types of cartilage"], "correctIndex": 2, "explanation": "Tendons are strong, cord-like connective tissues that connect muscles to bones. When muscles contract, tendons pull the bones to create movement.", "tags": ["tendons"] },
+    { "id": "g4s-w25-thu-011", "question": "What is the difference between a tendon and a ligament?", "options": ["They are the same thing", "Tendon = muscle to bone; Ligament = bone to bone", "Tendon = bone to bone; Ligament = muscle to bone", "Tendons are in the heart; ligaments are in the legs"], "correctIndex": 1, "explanation": "Tendon: connects MUSCLE to BONE. Ligament: connects BONE to BONE. Easy memory: Ten-don → muscle to bone (ten-don).", "tags": ["tendon-ligament"] },
+    { "id": "g4s-w25-thu-012", "question": "When a muscle contracts (shortens), it:", "options": ["Pushes the bone away", "Pulls the bone towards it, causing movement", "Has no effect on bones", "Stretches the bone"], "correctIndex": 1, "explanation": "Muscles only PULL — they cannot push. When a bicep contracts, it pulls the forearm up towards the shoulder.", "tags": ["muscle-action"] },
+    { "id": "g4s-w25-thu-013", "question": "Muscles work in pairs. When the bicep contracts (lifts the forearm), the tricep must:", "options": ["Also contract", "Relax (lengthen)", "Disappear", "Contract twice as hard"], "correctIndex": 1, "explanation": "Muscles work in antagonistic pairs. When the bicep contracts, the tricep relaxes. When the tricep contracts (to straighten the arm), the bicep relaxes.", "tags": ["antagonistic-pairs"] },
+    { "id": "g4s-w25-thu-014", "question": "Exercise makes muscles:", "options": ["Weaker over time", "Smaller", "Stronger and larger", "Disappear"], "correctIndex": 2, "explanation": "Regular exercise causes muscle fibres to grow thicker and stronger. This is why athletes have larger, stronger muscles than sedentary people.", "tags": ["muscle-health"] },
+    { "id": "g4s-w25-thu-015", "question": "Which of the three muscle types is found ONLY in the heart?", "options": ["Skeletal muscle", "Smooth muscle", "Cardiac muscle", "Voluntary muscle"], "correctIndex": 2, "explanation": "Cardiac muscle is unique to the heart. It beats continuously without rest for an entire lifetime — involuntary, striated, and never tires.", "tags": ["cardiac"] }
+  ]
+}

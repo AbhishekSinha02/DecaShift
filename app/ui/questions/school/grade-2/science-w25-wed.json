@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w25-wed",
+  "title": "Grade 2 Science — Wed, Jun 18",
+  "description": "Our Food — Day 3 of 5: Types of tastes and how we sense food",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "food", "taste"],
+  "questions": [
+    { "id": "g2s-w25-wed-001", "question": "The organ we use to taste food is the:", "options": ["Nose", "Eyes", "Tongue", "Ears"], "correctIndex": 2, "explanation": "We taste food using the tongue. Tiny bumps on the tongue called taste buds detect different tastes.", "tags": ["taste", "senses"] },
+    { "id": "g2s-w25-wed-002", "question": "Sugar has a ___ taste.", "options": ["Sour", "Bitter", "Salty", "Sweet"], "correctIndex": 3, "explanation": "Sugar tastes sweet. Honey, ripe fruits, and jaggery also have a sweet taste.", "tags": ["taste", "sweet"] },
+    { "id": "g2s-w25-wed-003", "question": "Lemon juice has a ___ taste.", "options": ["Sweet", "Sour", "Bitter", "Salty"], "correctIndex": 1, "explanation": "Lemon juice tastes sour. Tamarind (imli), raw mango, and curd also have a sour taste.", "tags": ["taste", "sour"] },
+    { "id": "g2s-w25-wed-004", "question": "Salt has a ___ taste.", "options": ["Sweet", "Sour", "Salty", "Bitter"], "correctIndex": 2, "explanation": "Salt tastes salty. We add salt to food to make it taste better.", "tags": ["taste", "salty"] },
+    { "id": "g2s-w25-wed-005", "question": "Neem leaves and bitter gourd (karela) taste:", "options": ["Sweet", "Sour", "Salty", "Bitter"], "correctIndex": 3, "explanation": "Neem and karela (bitter gourd) taste bitter. Bitterness is a warning taste — many poisonous plants are bitter.", "tags": ["taste", "bitter"] },
+    { "id": "g2s-w25-wed-006", "question": "Green chilli has a ___ taste.", "options": ["Sour", "Bitter", "Spicy (hot)", "Sweet"], "correctIndex": 2, "explanation": "Green chilli is spicy (hot). The spicy taste comes from a substance called capsaicin.", "tags": ["taste", "spicy"] },
+    { "id": "g2s-w25-wed-007", "question": "Milk has a ___ taste.", "options": ["Sour", "Sweet (mild)", "Bitter", "Salty"], "correctIndex": 1, "explanation": "Fresh milk has a mild, slightly sweet taste. When milk turns sour (curd), the taste changes.", "tags": ["taste", "sweet"] },
+    { "id": "g2s-w25-wed-008", "question": "When we have a cold and our nose is blocked, food tastes:", "options": ["Sweeter", "The same", "Less tasty (dull)", "Spicier"], "correctIndex": 2, "explanation": "Smell and taste work together. When the nose is blocked, we cannot smell food, so it tastes dull.", "tags": ["taste", "smell"] },
+    { "id": "g2s-w25-wed-009", "question": "Which of these is a sour food?", "options": ["Jaggery (gur)", "Tamarind (imli)", "Salt", "Chilli"], "correctIndex": 1, "explanation": "Tamarind (imli) is sour. It is used in chutneys and curries for its sour taste.", "tags": ["taste", "sour"] },
+    { "id": "g2s-w25-wed-010", "question": "Match: Ripe banana is ___ and raw banana is ___.", "options": ["Bitter and sour", "Sweet and bitter/raw-tasting", "Sour and sweet", "Salty and sour"], "correctIndex": 1, "explanation": "Ripe bananas are sweet (sugar forms as they ripen). Raw (unripe) bananas are starchy and slightly bitter.", "tags": ["taste", "mixed"] },
+    { "id": "g2s-w25-wed-011", "question": "Coffee and dark chocolate taste ___.", "options": ["Sweet", "Sour", "Bitter", "Salty"], "correctIndex": 2, "explanation": "Coffee and dark chocolate have a bitter taste. Sugar is usually added to make them sweeter.", "tags": ["taste", "bitter"] },
+    { "id": "g2s-w25-wed-012", "question": "How many basic tastes does the tongue detect?", "options": ["2", "3", "5", "10"], "correctIndex": 2, "explanation": "Scientists say there are 5 basic tastes: sweet, sour, salty, bitter, and umami (savoury). For Grade 2 we focus on sweet, sour, salty, bitter, and spicy.", "tags": ["taste", "basics"] },
+    { "id": "g2s-w25-wed-013", "question": "Pickles (achar) usually taste ___ and ___.", "options": ["Sweet and mild", "Sour and spicy", "Bitter and sweet", "Salty only"], "correctIndex": 1, "explanation": "Pickles are usually sour (from vinegar or lemon) and spicy (from chillies and spices). They also have salt.", "tags": ["taste", "mixed"] },
+    { "id": "g2s-w25-wed-014", "question": "The sense we use to smell food is located in our:", "options": ["Tongue", "Eyes", "Nose", "Ears"], "correctIndex": 2, "explanation": "We smell food using the nose. The nose helps us enjoy the aroma of food before we even taste it.", "tags": ["taste", "smell"] },
+    { "id": "g2s-w25-wed-015", "question": "Amla (gooseberry) is famous for tasting:", "options": ["Sweet only", "Sour first then slightly sweet", "Bitter only", "Salty"], "correctIndex": 1, "explanation": "Amla tastes very sour first, then leaves a slightly sweet aftertaste. It is rich in Vitamin C.", "tags": ["taste", "sour"] }
+  ]
+}

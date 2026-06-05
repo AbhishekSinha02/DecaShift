@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w25-tue",
+  "title": "Grade 2 Math — Tue, Jun 17",
+  "description": "Time — Day 2 of 5: Quarter past and quarter to",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "time", "quarter"],
+  "questions": [
+    { "id": "g2m-w25-tue-001", "question": "When the minute hand points to 3, we say ___.", "options": ["quarter to", "half past", "quarter past", "o'clock"], "correctIndex": 2, "explanation": "Minute hand at 3 = 15 minutes past the hour = 'quarter past'.", "tags": ["clock", "quarter-past"] },
+    { "id": "g2m-w25-tue-002", "question": "Quarter past 4 in numbers is ___.", "options": ["4:00", "4:30", "4:15", "3:45"], "correctIndex": 2, "explanation": "Quarter past 4 = 4:15. 'Quarter' means 15 minutes.", "tags": ["clock", "quarter-past"] },
+    { "id": "g2m-w25-tue-003", "question": "When the minute hand points to 9, we say ___.", "options": ["quarter past", "half past", "o'clock", "quarter to"], "correctIndex": 3, "explanation": "Minute hand at 9 = 45 minutes past = 15 minutes BEFORE the next hour = 'quarter to'.", "tags": ["clock", "quarter-to"] },
+    { "id": "g2m-w25-tue-004", "question": "Quarter to 6 in numbers is ___.", "options": ["6:15", "6:45", "5:45", "5:15"], "correctIndex": 2, "explanation": "Quarter to 6 = 5:45. It is 15 minutes BEFORE 6 o'clock.", "tags": ["clock", "quarter-to"] },
+    { "id": "g2m-w25-tue-005", "question": "How many minutes is 'a quarter'?", "options": ["10", "20", "15", "30"], "correctIndex": 2, "explanation": "A quarter = 15 minutes. Quarter past = 15 min after; quarter to = 15 min before the hour.", "tags": ["clock", "quarter"] },
+    { "id": "g2m-w25-tue-006", "question": "The hour hand is on 2 and the minute hand is on 3. What time is it?", "options": ["2:30", "2:15", "3:10", "2:03"], "correctIndex": 1, "explanation": "Hour hand on 2, minute hand on 3 = 15 minutes past 2 = 2:15 = quarter past 2.", "tags": ["clock", "quarter-past"] },
+    { "id": "g2m-w25-tue-007", "question": "The hour hand is near 8 and the minute hand is on 9. What time is it?", "options": ["8:09", "8:45", "9:45", "7:45"], "correctIndex": 1, "explanation": "Hour hand near 8 (has almost reached 8), minute hand on 9 = 8:45 = quarter to 9.", "tags": ["clock", "quarter-to"] },
+    { "id": "g2m-w25-tue-008", "question": "Aanya's dance class is at quarter past 5. That is ___.", "options": ["5:00", "5:30", "5:45", "5:15"], "correctIndex": 3, "explanation": "Quarter past 5 = 5:15.", "tags": ["clock", "real-life"] },
+    { "id": "g2m-w25-tue-009", "question": "What comes between half past 3 and 4 o'clock?", "options": ["Quarter past 3", "Quarter to 4", "Quarter to 3", "Quarter past 4"], "correctIndex": 1, "explanation": "3:30 (half past 3), then 3:45 (quarter to 4), then 4:00 (4 o'clock).", "tags": ["clock", "order"] },
+    { "id": "g2m-w25-tue-010", "question": "Arrange in order: (A) 7:00  (B) 7:15  (C) 7:30  (D) 7:45", "options": ["A, B, C, D", "D, C, B, A", "B, A, D, C", "C, B, A, D"], "correctIndex": 0, "explanation": "7:00 → 7:15 → 7:30 → 7:45 (o'clock → quarter past → half past → quarter to 8).", "tags": ["clock", "ordering"] },
+    { "id": "g2m-w25-tue-011", "question": "Rohan finishes homework at quarter to 7. He finishes at ___.", "options": ["7:15", "6:45", "7:45", "6:15"], "correctIndex": 1, "explanation": "Quarter to 7 = 6:45. 15 minutes before 7:00.", "tags": ["clock", "word-problem"] },
+    { "id": "g2m-w25-tue-012", "question": "3:15 is the same as ___.", "options": ["quarter to 3", "half past 3", "quarter past 3", "3 o'clock"], "correctIndex": 2, "explanation": "3:15 = 15 minutes after 3 = quarter past 3.", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-tue-013", "question": "10:45 is the same as ___.", "options": ["quarter past 10", "half past 10", "quarter to 10", "quarter to 11"], "correctIndex": 3, "explanation": "10:45 = 45 minutes after 10 = 15 minutes before 11 = quarter to 11.", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-tue-014", "question": "Which is the latest time?", "options": ["quarter past 2", "half past 2", "quarter to 3", "2 o'clock"], "correctIndex": 2, "explanation": "2:00 → 2:15 → 2:30 → 2:45 (quarter to 3 is the latest).", "tags": ["clock", "comparing"] },
+    { "id": "g2m-w25-tue-015", "question": "From 3:45 to 4:00 is ___ minutes.", "options": ["30", "45", "15", "10"], "correctIndex": 2, "explanation": "Quarter to 4 (3:45) to 4 o'clock = 15 minutes. One quarter of an hour.", "tags": ["clock", "duration"] }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-4-french-w25-thu",
+  "title": "Grade 4 French — Thu, Jun 19",
+  "description": "La ville — Day 4 of 5: Aller à... (going places) — à la / au / à l'",
+  "subject": "french",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "la-ville",
+  "tags": ["french", "grade-4", "weekly", "ville", "aller-a"],
+  "questions": [
+    { "id": "g4f-w25-thu-001", "question": "The verb \"aller\" means:", "options": ["To have", "To be", "To go", "To do"], "correctIndex": 2, "explanation": "Aller = to go. It is an irregular verb and very common in French. Je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont.", "tags": ["aller"] },
+    { "id": "g4f-w25-thu-002", "question": "Complete: 'Je ___ à l'école.' (I go to school)", "options": ["suis", "ai", "fais", "vais"], "correctIndex": 3, "explanation": "Je vais = I go. Aller conjugation: je vais, tu vas, il va, nous allons, vous allez, ils vont.", "tags": ["conjugation"] },
+    { "id": "g4f-w25-thu-003", "question": "With a MASCULINE place, 'à + le' becomes:", "options": ["à la", "à l'", "au", "des"], "correctIndex": 2, "explanation": "À + le = au (contraction). Je vais au marché. Le marché (masc.) → au marché.", "tags": ["a-au-ala"] },
+    { "id": "g4f-w25-thu-004", "question": "With a FEMININE place, 'à + la' becomes:", "options": ["au", "à l'", "à la", "aux"], "correctIndex": 2, "explanation": "À + la = à la (no contraction). Je vais à la boulangerie. La boulangerie (fem.) → à la boulangerie.", "tags": ["a-au-ala"] },
+    { "id": "g4f-w25-thu-005", "question": "With a place starting with a VOWEL, 'à + l'' becomes:", "options": ["au", "à la", "à l'", "aux"], "correctIndex": 2, "explanation": "À + l' = à l' (before vowel). Je vais à l'hôpital, à l'école. The vowel causes elision.", "tags": ["a-au-ala"] },
+    { "id": "g4f-w25-thu-006", "question": "Fill in: 'Je vais ___ marché.' (le marché — masc.)", "options": ["à la", "à l'", "au", "à le"], "correctIndex": 2, "explanation": "Le marché → au marché. À + le = au.", "tags": ["apply"] },
+    { "id": "g4f-w25-thu-007", "question": "Fill in: 'Elle va ___ pharmacie.' (la pharmacie — fem.)", "options": ["au", "à l'", "à la", "aux"], "correctIndex": 2, "explanation": "La pharmacie → à la pharmacie.", "tags": ["apply"] },
+    { "id": "g4f-w25-thu-008", "question": "Fill in: 'Nous allons ___ hôpital.' (l'hôpital — vowel)", "options": ["au", "à la", "à l'", "aux"], "correctIndex": 2, "explanation": "L'hôpital → à l'hôpital. Hôpital starts with a vowel → à l'.", "tags": ["apply"] },
+    { "id": "g4f-w25-thu-009", "question": "Fill in: 'Il va ___ école.' (l'école — vowel, fem.)", "options": ["au", "à la", "à l'", "aux"], "correctIndex": 2, "explanation": "L'école → à l'école. École starts with a vowel → à l'.", "tags": ["apply"] },
+    { "id": "g4f-w25-thu-010", "question": "How do you say 'They go to the train station'?", "options": ["Ils vont à la gare.", "Ils vont au gare.", "Ils vont à l'gare.", "Ils vont à les gares."], "correctIndex": 0, "explanation": "La gare (feminine) → à la gare. Ils vont à la gare.", "tags": ["translate"] },
+    { "id": "g4f-w25-thu-011", "question": "How do you say 'We go to the market'?", "options": ["Nous allons à la marché.", "Nous allons au marché.", "Nous allons à l'marché.", "Nous allons aux marchés."], "correctIndex": 1, "explanation": "Le marché (masculine) → au marché. Nous allons au marché.", "tags": ["translate"] },
+    { "id": "g4f-w25-thu-012", "question": "Translate: 'My brother goes to the museum by bus.'", "options": ["Mon frère va au musée en bus.", "Mon frère va à le musée en bus.", "Mon frère va à la musée en bus.", "Mon frère va à l'musée en bus."], "correctIndex": 0, "explanation": "Le musée (masc.) → au musée. En bus (by bus). Mon frère va au musée en bus.", "tags": ["translate"] },
+    { "id": "g4f-w25-thu-013", "question": "Translate: 'She goes to the library on foot.'", "options": ["Elle va au bibliothèque à pied.", "Elle va à la bibliothèque à pied.", "Elle va à l'bibliothèque à pied.", "Elle va à les bibliothèques à pied."], "correctIndex": 1, "explanation": "La bibliothèque (fem.) → à la bibliothèque. À pied = on foot.", "tags": ["translate"] },
+    { "id": "g4f-w25-thu-014", "question": "Which is correct? 'I go to the bakery every morning.'", "options": ["Je vais au boulangerie chaque matin.", "Je vais à la boulangerie chaque matin.", "Je vais à l'boulangerie chaque matin.", "Je vais aux boulangerie chaque matin."], "correctIndex": 1, "explanation": "La boulangerie (fem.) → à la boulangerie. Chaque matin = every morning.", "tags": ["correct-sentence"] },
+    { "id": "g4f-w25-thu-015", "question": "Summary: Complete the rule: 'To go to a place: masc. → ___; fem. → ___; vowel → ___.'", "options": ["au / à la / à l'", "à la / au / à l'", "à l' / au / à la", "aux / à la / au"], "correctIndex": 0, "explanation": "Masc. place → au (le marché → au marché). Fem. place → à la (la gare → à la gare). Vowel start → à l' (l'école → à l'école).", "tags": ["summary"] }
+  ]
+}

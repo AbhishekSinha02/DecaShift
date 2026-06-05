@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-5-french-w25-wed",
+  "title": "Grade 5 French — Wed, Jun 18",
+  "description": "Le corps humain — Day 3 of 5: Chez le médecin (at the doctor's)",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "le-corps",
+  "tags": ["french", "grade-5", "weekly", "corps", "medecin"],
+  "questions": [
+    { "id": "g5f-w25-wed-001", "question": "\"Le médecin\" means:", "options": ["The nurse", "The doctor", "The hospital", "The pharmacy"], "correctIndex": 1, "explanation": "Le médecin = the doctor. Le médecin examines patients and prescribes medicine.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-wed-002", "question": "\"Qu'est-ce qui ne va pas?\" means:", "options": ["How are you?", "What is wrong? / What's the matter?", "Where does it hurt?", "What did you eat?"], "correctIndex": 1, "explanation": "Qu'est-ce qui ne va pas? = What's wrong? What's the matter? A doctor asks this first.", "tags": ["doctor-phrases"] },
+    { "id": "g5f-w25-wed-003", "question": "How do you say 'I am sick' in French?", "options": ["Je suis fatigué.", "Je suis malade.", "Je suis triste.", "Je suis absent."], "correctIndex": 1, "explanation": "Je suis malade = I am sick. Malade (adj.) = sick / ill. Does not change for masc./fem. (same form).", "tags": ["doctor-phrases"] },
+    { "id": "g5f-w25-wed-004", "question": "\"J'ai de la fièvre\" means:", "options": ["I have a headache.", "I am cold.", "I have a fever.", "I have a cough."], "correctIndex": 2, "explanation": "J'ai de la fièvre = I have a fever. La fièvre = the fever. De la = partitive article (some fever).", "tags": ["symptoms"] },
+    { "id": "g5f-w25-wed-005", "question": "\"Je tousse\" means:", "options": ["I sneeze", "I cough", "I vomit", "I sweat"], "correctIndex": 1, "explanation": "Je tousse = I cough. Tousser = to cough. La toux = the cough (noun).", "tags": ["symptoms"] },
+    { "id": "g5f-w25-wed-006", "question": "\"J'éternue\" means:", "options": ["I cough", "I shiver", "I sneeze", "I faint"], "correctIndex": 2, "explanation": "J'éternue = I sneeze. Éternuer = to sneeze. 'À tes souhaits!' = 'Bless you!' in French.", "tags": ["symptoms"] },
+    { "id": "g5f-w25-wed-007", "question": "\"Un médicament\" means:", "options": ["A doctor", "A nurse", "Medicine / a medication", "A hospital"], "correctIndex": 2, "explanation": "Un médicament = a medicine / medication. Prendre un médicament = to take a medicine.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-wed-008", "question": "\"Une ordonnance\" means:", "options": ["An injection", "A prescription", "A diagnosis", "A bandage"], "correctIndex": 1, "explanation": "Une ordonnance = a prescription. The doctor writes an ordonnance for medicines.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-wed-009", "question": "Complete the doctor's dialogue: 'Ouvrez la bouche, s'il vous plaît.' This means:", "options": ["Breathe deeply, please.", "Open your mouth, please.", "Show me your hand, please.", "Lie down, please."], "correctIndex": 1, "explanation": "Ouvrez la bouche = open your mouth. La bouche = the mouth. S'il vous plaît = please (formal).", "tags": ["doctor-phrases"] },
+    { "id": "g5f-w25-wed-010", "question": "The doctor says: 'Vous devez vous reposer et boire beaucoup d'eau.' What is the advice?", "options": ["Take medicine and go to hospital.", "You must rest and drink lots of water.", "You must exercise and eat well.", "You must go to school."], "correctIndex": 1, "explanation": "Vous devez = you must; vous reposer = rest; boire = drink; beaucoup d'eau = lots of water.", "tags": ["comprehension"] },
+    { "id": "g5f-w25-wed-011", "question": "How do you say 'Since when have you been sick?' (depuis quand = since when)?", "options": ["Pourquoi êtes-vous malade?", "Depuis quand êtes-vous malade?", "Combien êtes-vous malade?", "Où êtes-vous malade?"], "correctIndex": 1, "explanation": "Depuis quand êtes-vous malade? = Since when have you been sick? Depuis = since.", "tags": ["doctor-phrases"] },
+    { "id": "g5f-w25-wed-012", "question": "Patient says: 'Je suis malade depuis deux jours.' This means:", "options": ["I have been sick for two weeks.", "I have been sick for two days.", "I will be sick for two days.", "I was sick two days ago."], "correctIndex": 1, "explanation": "Depuis deux jours = for two days. Depuis + duration = how long something has been going on.", "tags": ["depuis"] },
+    { "id": "g5f-w25-wed-013", "question": "\"Il faut prendre ce médicament trois fois par jour\" means:", "options": ["Take this medicine once a day.", "You must take this medicine three times a day.", "This medicine is taken three days.", "Take medicine in the morning only."], "correctIndex": 1, "explanation": "Il faut = it is necessary / you must. Trois fois par jour = three times a day.", "tags": ["doctor-instructions"] },
+    { "id": "g5f-w25-wed-014", "question": "How do you say 'I have an appointment with the doctor'? (un rendez-vous = an appointment)", "options": ["J'ai un rendez-vous avec le médecin.", "Je vais au médecin maintenant.", "Le médecin est ici.", "J'ai besoin du médecin."], "correctIndex": 0, "explanation": "J'ai un rendez-vous avec le médecin = I have an appointment with the doctor.", "tags": ["appointment"] },
+    { "id": "g5f-w25-wed-015", "question": "Role-play: 'Bonjour docteur. Je ne me sens pas bien. J'ai mal à la gorge et j'ai de la fièvre.' The patient is saying:", "options": ["Hello doctor. I have a headache and a cough.", "Hello doctor. I don't feel well. I have a sore throat and a fever.", "Hello doctor. I have a stomach ache and I am sneezing.", "Hello doctor. I have a sore back and I am tired."], "correctIndex": 1, "explanation": "Je ne me sens pas bien = I don't feel well. Mal à la gorge = sore throat. De la fièvre = fever.", "tags": ["dialogue"] }
+  ]
+}

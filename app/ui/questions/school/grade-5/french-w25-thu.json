@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-5-french-w25-thu",
+  "title": "Grade 5 French — Thu, Jun 19",
+  "description": "Le corps humain — Day 4 of 5: Les cinq sens (the five senses)",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "le-corps",
+  "tags": ["french", "grade-5", "weekly", "corps", "cinq-sens"],
+  "questions": [
+    { "id": "g5f-w25-thu-001", "question": "\"Les cinq sens\" means:", "options": ["The five fingers", "The five senses", "The five body parts", "The five feelings"], "correctIndex": 1, "explanation": "Les cinq sens = the five senses. Les sens (plural of le sens) = the senses.", "tags": ["vocabulary"] },
+    { "id": "g5f-w25-thu-002", "question": "What are the five senses in French? (Choose the correct set)", "options": ["voir, entendre, toucher, sentir, goûter", "parler, écouter, regarder, manger, boire", "voir, marcher, dormir, manger, parler", "toucher, tenir, courir, sentir, danser"], "correctIndex": 0, "explanation": "Les cinq sens: voir (sight), entendre (hearing), toucher (touch), sentir (smell), goûter (taste).", "tags": ["five-senses"] },
+    { "id": "g5f-w25-thu-003", "question": "\"Voir\" is the sense of:", "options": ["Hearing", "Taste", "Sight", "Touch"], "correctIndex": 2, "explanation": "Voir = to see. La vue = sight. L'organe = les yeux (the eyes). Je vois avec mes yeux.", "tags": ["sight"] },
+    { "id": "g5f-w25-thu-004", "question": "What organ do we use to hear? Complete: 'J'entends avec ___.'", "options": ["les yeux", "le nez", "les oreilles", "la langue"], "correctIndex": 2, "explanation": "J'entends avec les oreilles = I hear with my ears. Entendre = to hear; les oreilles = the ears.", "tags": ["hearing"] },
+    { "id": "g5f-w25-thu-005", "question": "\"Sentir\" as a sense means:", "options": ["To feel emotions", "To smell", "To taste", "To touch"], "correctIndex": 1, "explanation": "Sentir = to smell (as a sense). Je sens avec le nez. Note: sentir also means 'to feel' in other contexts.", "tags": ["smell"] },
+    { "id": "g5f-w25-thu-006", "question": "Complete: 'Je goûte avec ___.'", "options": ["les yeux", "le nez", "les mains", "la langue"], "correctIndex": 3, "explanation": "Je goûte avec la langue = I taste with my tongue. Goûter = to taste; la langue = the tongue.", "tags": ["taste"] },
+    { "id": "g5f-w25-thu-007", "question": "Complete: 'Je touche avec ___.'", "options": ["les yeux", "les mains / les doigts", "le nez", "la bouche"], "correctIndex": 1, "explanation": "Je touche avec les mains / les doigts = I touch with my hands / fingers. Touch is our skin sense.", "tags": ["touch"] },
+    { "id": "g5f-w25-thu-008", "question": "Match: 'La vue' → organ used:", "options": ["Le nez", "Les oreilles", "Les yeux", "La langue"], "correctIndex": 2, "explanation": "La vue (sight) → les yeux (the eyes). Voir avec les yeux.", "tags": ["matching"] },
+    { "id": "g5f-w25-thu-009", "question": "Match: 'L'ouïe' → organ used:", "options": ["Les yeux", "Les oreilles", "Le nez", "Les mains"], "correctIndex": 1, "explanation": "L'ouïe = hearing. Entendre avec les oreilles.", "tags": ["matching"] },
+    { "id": "g5f-w25-thu-010", "question": "Match: 'L'odorat' → organ used:", "options": ["La langue", "Les mains", "Le nez", "Les oreilles"], "correctIndex": 2, "explanation": "L'odorat = smell. Sentir avec le nez.", "tags": ["matching"] },
+    { "id": "g5f-w25-thu-011", "question": "Match: 'Le goût' → organ used:", "options": ["Les yeux", "Le nez", "Les oreilles", "La langue"], "correctIndex": 3, "explanation": "Le goût = taste. Goûter avec la langue.", "tags": ["matching"] },
+    { "id": "g5f-w25-thu-012", "question": "Match: 'Le toucher' → organ used:", "options": ["Les yeux", "La langue", "La peau / les mains", "Le nez"], "correctIndex": 2, "explanation": "Le toucher = touch. Toucher avec la peau (skin) / les mains.", "tags": ["matching"] },
+    { "id": "g5f-w25-thu-013", "question": "\"J'entends de la musique\" means:", "options": ["I see music notes.", "I hear music.", "I feel the music.", "I like music."], "correctIndex": 1, "explanation": "J'entends de la musique = I hear music. Entendre = to hear. De la musique = some music.", "tags": ["usage"] },
+    { "id": "g5f-w25-thu-014", "question": "Describe what sense is used: 'Je sens les fleurs dans le jardin.'", "options": ["Touch — touching the flowers", "Sight — seeing the flowers", "Smell — smelling the flowers", "Taste — tasting the flowers"], "correctIndex": 2, "explanation": "Sentir les fleurs = to smell the flowers. L'odorat / le nez is the organ used.", "tags": ["comprehension"] },
+    { "id": "g5f-w25-thu-015", "question": "Complete the description of all 5 senses with the correct verb: 'Nous ___ avec les yeux, ___ avec les oreilles, ___ avec la langue, ___ avec le nez et ___ avec les mains.'", "options": ["voyons / entendons / goûtons / sentons / touchons", "sentons / voyons / entendons / touchons / goûtons", "entendons / voyons / sentons / goûtons / touchons", "touchons / sentons / goûtons / voyons / entendons"], "correctIndex": 0, "explanation": "Voyons (voir, yeux) / entendons (entendre, oreilles) / goûtons (goûter, langue) / sentons (sentir, nez) / touchons (toucher, mains).", "tags": ["synthesis"] }
+  ]
+}

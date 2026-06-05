@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w25-tue",
+  "title": "Grade 4 Science — Tue, Jun 17",
+  "description": "Skeletal System — Day 2 of 5: Major bones of the body",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "skeletal-system", "major-bones"],
+  "questions": [
+    { "id": "g4s-w25-tue-001", "question": "The skull is also called the:", "options": ["Pelvis", "Cranium", "Femur", "Sternum"], "correctIndex": 1, "explanation": "The skull is also called the cranium. It protects the brain and gives shape to the face.", "tags": ["skull"] },
+    { "id": "g4s-w25-tue-002", "question": "The spine (backbone) is made of small bones called:", "options": ["Ribs", "Vertebrae (singular: vertebra)", "Carpals", "Tarsals"], "correctIndex": 1, "explanation": "The spine is made of 33 small bones called vertebrae. They stack on top of each other with cartilage discs in between.", "tags": ["spine"] },
+    { "id": "g4s-w25-tue-003", "question": "How many vertebrae does the human spine have?", "options": ["12", "24", "33 (in childhood; some fuse to ~26 in adults)", "7"], "correctIndex": 2, "explanation": "The spine has 33 vertebrae in children. Some fuse in adulthood, leaving about 26 bones. They are grouped: cervical (7), thoracic (12), lumbar (5), sacrum, coccyx.", "tags": ["spine"] },
+    { "id": "g4s-w25-tue-004", "question": "The sternum is:", "options": ["A leg bone", "The breastbone — the flat bone in the centre of the chest", "A skull bone", "A wrist bone"], "correctIndex": 1, "explanation": "The sternum (breastbone) is the flat bone in the front of the chest. The ribs attach to it. Together they form the ribcage.", "tags": ["ribcage"] },
+    { "id": "g4s-w25-tue-005", "question": "How many pairs of ribs does a human body have?", "options": ["10 pairs", "12 pairs", "14 pairs", "8 pairs"], "correctIndex": 1, "explanation": "Humans have 12 pairs of ribs (24 ribs total). 10 pairs attach to the sternum; the last 2 pairs are 'floating ribs' with no front attachment.", "tags": ["ribcage"] },
+    { "id": "g4s-w25-tue-006", "question": "The pelvis is:", "options": ["A shoulder bone", "A skull bone", "The bowl-shaped set of bones at the base of the spine that supports the lower body and protects pelvic organs", "A hand bone"], "correctIndex": 2, "explanation": "The pelvis (hip bone area) supports body weight, protects the bladder and reproductive organs, and connects the legs to the trunk.", "tags": ["pelvis"] },
+    { "id": "g4s-w25-tue-007", "question": "The femur is:", "options": ["The shin bone", "The thigh bone — the longest bone in the body", "The upper arm bone", "The ankle bone"], "correctIndex": 1, "explanation": "The femur is the thigh bone — from the hip to the knee. It is the longest and strongest bone in the human body.", "tags": ["limb-bones"] },
+    { "id": "g4s-w25-tue-008", "question": "The tibia is:", "options": ["The thigh bone", "The upper arm bone", "The shin bone — the larger bone of the lower leg", "The forearm bone"], "correctIndex": 2, "explanation": "The tibia (shinbone) is the larger bone of the lower leg (knee to ankle). The smaller bone beside it is the fibula.", "tags": ["limb-bones"] },
+    { "id": "g4s-w25-tue-009", "question": "The humerus is:", "options": ["The forearm bone", "The thigh bone", "The upper arm bone (shoulder to elbow)", "The collar bone"], "correctIndex": 2, "explanation": "The humerus is the upper arm bone, running from the shoulder to the elbow.", "tags": ["limb-bones"] },
+    { "id": "g4s-w25-tue-010", "question": "The clavicle is:", "options": ["The collar bone — connecting the shoulder blade to the sternum", "The knee cap", "The heel bone", "The skull bone"], "correctIndex": 0, "explanation": "The clavicle (collar bone) connects the scapula (shoulder blade) to the sternum. You can feel it just below your neck.", "tags": ["shoulder-bones"] },
+    { "id": "g4s-w25-tue-011", "question": "The scapula is the:", "options": ["Knee cap", "Shoulder blade — flat triangular bone on the upper back", "Hip bone", "Heel bone"], "correctIndex": 1, "explanation": "The scapula (shoulder blade) is the flat, triangular bone on the upper back. It connects the arm to the body.", "tags": ["shoulder-bones"] },
+    { "id": "g4s-w25-tue-012", "question": "The patella is the:", "options": ["Ankle bone", "Wrist bone", "Kneecap — the triangular bone at the front of the knee", "Heel bone"], "correctIndex": 2, "explanation": "The patella (kneecap) is the small triangular bone at the front of the knee. It protects the knee joint.", "tags": ["limb-bones"] },
+    { "id": "g4s-w25-tue-013", "question": "Small bones in the wrist are called:", "options": ["Tarsals", "Carpals", "Phalanges", "Metatarsals"], "correctIndex": 1, "explanation": "Carpals are the 8 small bones of the wrist. Tarsals are the ankle bones. Phalanges are finger/toe bones.", "tags": ["hand-foot"] },
+    { "id": "g4s-w25-tue-014", "question": "Finger bones and toe bones are called:", "options": ["Carpals", "Tarsals", "Metacarpals", "Phalanges"], "correctIndex": 3, "explanation": "Phalanges are the bones of the fingers and toes. Each finger has 3 phalanges; the thumb has 2.", "tags": ["hand-foot"] },
+    { "id": "g4s-w25-tue-015", "question": "Which bone protects the brain?", "options": ["Sternum", "Pelvis", "Femur", "Skull (cranium)"], "correctIndex": 3, "explanation": "The skull (cranium) is a dome of bones that completely surrounds and protects the brain.", "tags": ["review"] }
+  ]
+}

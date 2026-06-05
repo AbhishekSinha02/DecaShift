@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-5-french-w25-tue",
+  "title": "Grade 5 French — Tue, Jun 17",
+  "description": "Le corps humain — Day 2 of 5: Avoir mal à... (expressing pain/aches)",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "le-corps",
+  "tags": ["french", "grade-5", "weekly", "corps", "avoir-mal"],
+  "questions": [
+    { "id": "g5f-w25-tue-001", "question": "\"Avoir mal à\" means:", "options": ["To have a body part", "To have pain in... / to have an ache", "To feel well", "To go to the doctor"], "correctIndex": 1, "explanation": "Avoir mal à = to have pain in... J'ai mal à la tête = I have a headache. This structure is used for all body pains.", "tags": ["avoir-mal"] },
+    { "id": "g5f-w25-tue-002", "question": "How do you say 'I have a headache'?", "options": ["J'ai mal de la tête.", "J'ai mal à la tête.", "J'ai mal au tête.", "J'ai mal à le tête."], "correctIndex": 1, "explanation": "J'ai mal à la tête. La tête is feminine → à la tête (no contraction). À + la = à la.", "tags": ["avoir-mal"] },
+    { "id": "g5f-w25-tue-003", "question": "How do you say 'I have a stomach ache'?", "options": ["J'ai mal à le ventre.", "J'ai mal au ventre.", "J'ai mal à la ventre.", "J'ai mal des ventres."], "correctIndex": 1, "explanation": "J'ai mal au ventre. Le ventre is masculine → à + le = au ventre.", "tags": ["avoir-mal"] },
+    { "id": "g5f-w25-tue-004", "question": "How do you say 'I have a sore arm'?", "options": ["J'ai mal à la bras.", "J'ai mal des bras.", "J'ai mal au bras.", "J'ai mal à les bras."], "correctIndex": 2, "explanation": "J'ai mal au bras. Le bras is masculine → à + le = au bras.", "tags": ["avoir-mal"] },
+    { "id": "g5f-w25-tue-005", "question": "How do you say 'I have a sore throat'? (la gorge = the throat)", "options": ["J'ai mal au gorge.", "J'ai mal à la gorge.", "J'ai mal de gorge.", "J'ai mal la gorge."], "correctIndex": 1, "explanation": "La gorge is feminine → à la gorge. J'ai mal à la gorge.", "tags": ["avoir-mal"] },
+    { "id": "g5f-w25-tue-006", "question": "How do you say 'My feet hurt'?", "options": ["J'ai mal à les pieds.", "J'ai mal au pied.", "J'ai mal aux pieds.", "J'ai mal de pieds."], "correctIndex": 2, "explanation": "Les pieds (plural, masc.) → à + les = aux pieds. J'ai mal aux pieds.", "tags": ["avoir-mal-plural"] },
+    { "id": "g5f-w25-tue-007", "question": "Complete the rule: à + le = ___; à + la = ___; à + les = ___", "options": ["au / à la / aux", "à la / au / aux", "aux / à la / au", "à le / à la / à les"], "correctIndex": 0, "explanation": "à + le = au; à + la = à la; à + les = aux. These contractions apply with avoir mal à.", "tags": ["grammar"] },
+    { "id": "g5f-w25-tue-008", "question": "How do you say 'She has a sore back'?", "options": ["Elle a mal à la dos.", "Elle a mal au dos.", "Elle a mal des dos.", "Elle a mal de son dos."], "correctIndex": 1, "explanation": "Le dos (masculine) → au dos. Elle a mal au dos.", "tags": ["avoir-mal"] },
+    { "id": "g5f-w25-tue-009", "question": "How do you ask someone 'Where does it hurt?'?", "options": ["Comment ça va?", "Où as-tu mal?", "Qu'est-ce que tu fais?", "Quand tu es malade?"], "correctIndex": 1, "explanation": "Où as-tu mal? = Where does it hurt? Où = where; as-tu = do you have (inversion); mal = pain.", "tags": ["asking"] },
+    { "id": "g5f-w25-tue-010", "question": "Complete the dialogue: 'Où as-tu mal?' → 'J'ai mal ___ genoux.' (my knees hurt)", "options": ["à les", "au", "à la", "aux"], "correctIndex": 3, "explanation": "Les genoux (plural, masc.) → aux genoux. J'ai mal aux genoux.", "tags": ["dialogue"] },
+    { "id": "g5f-w25-tue-011", "question": "How do you say 'I have an earache'? (l'oreille = the ear, fem.)", "options": ["J'ai mal au oreille.", "J'ai mal à l'oreille.", "J'ai mal à la oreille.", "J'ai mal des oreilles."], "correctIndex": 1, "explanation": "L'oreille starts with a vowel → à l'oreille. J'ai mal à l'oreille.", "tags": ["avoir-mal"] },
+    { "id": "g5f-w25-tue-012", "question": "How do you say 'I do not feel well'?", "options": ["Je suis malade.", "Je ne me sens pas bien.", "J'ai faim.", "Je n'ai pas faim."], "correctIndex": 1, "explanation": "Je ne me sens pas bien = I don't feel well. You could also say 'Je suis malade' (I am sick) or 'Je me sens mal'.", "tags": ["well-being"] },
+    { "id": "g5f-w25-tue-013", "question": "Translate: 'My brother has a sore leg and sore feet.'", "options": ["Mon frère a mal à la jambe et aux pieds.", "Mon frère a mal au jambe et au pied.", "Mon frère a mal à le jambe et à les pieds.", "Mon frère a mal de jambe et de pieds."], "correctIndex": 0, "explanation": "La jambe (fem.) → à la jambe. Les pieds (masc. pl.) → aux pieds. Mon frère a mal à la jambe et aux pieds.", "tags": ["translate"] },
+    { "id": "g5f-w25-tue-014", "question": "How do you say 'I have a toothache'? (la dent = tooth)", "options": ["J'ai mal à la dent.", "J'ai mal aux dents.", "Both are correct (singular or plural)", "J'ai mal au dent."], "correctIndex": 2, "explanation": "Both are correct: J'ai mal à la dent (one tooth) or J'ai mal aux dents (teeth in general, more common for toothache).", "tags": ["avoir-mal"] },
+    { "id": "g5f-w25-tue-015", "question": "Full conversation: 'Tu as l'air malade. Où as-tu mal?' → 'J'ai mal à la tête et au ventre.' What is the person saying?", "options": ["I have a sore back and sore legs.", "I have a headache and a stomach ache.", "I have a sore throat and sore arms.", "I have a sore neck and sore feet."], "correctIndex": 1, "explanation": "J'ai mal à la tête = I have a headache. J'ai mal au ventre = I have a stomach ache.", "tags": ["comprehension"] }
+  ]
+}

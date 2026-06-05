@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w25-mon",
+  "title": "Grade 3 Math — Mon, Jun 16",
+  "description": "Decimals — Day 1 of 5: Introduction to tenths",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "decimals", "tenths"],
+  "questions": [
+    { "id": "g3m-w25-mon-001", "question": "A decimal number is a number that has a ___.", "options": ["fraction bar", "decimal point", "percentage sign", "square root"], "correctIndex": 1, "explanation": "A decimal number has a decimal point (.) separating the whole number part from the fractional part.", "tags": ["decimals", "introduction"] },
+    { "id": "g3m-w25-mon-002", "question": "In the number 3.7, what does the digit 7 represent?", "options": ["7 ones", "7 tens", "7 tenths", "7 hundredths"], "correctIndex": 2, "explanation": "In 3.7, the digit after the decimal point is in the tenths place. 7 tenths = 7/10.", "tags": ["decimals", "tenths"] },
+    { "id": "g3m-w25-mon-003", "question": "How do you read the decimal 0.5?", "options": ["Five", "Zero point five = five tenths", "Fifty", "Point five hundred"], "correctIndex": 1, "explanation": "0.5 is read as 'zero point five' = five tenths = 5/10 = 1/2.", "tags": ["decimals", "reading"] },
+    { "id": "g3m-w25-mon-004", "question": "1/10 written as a decimal is:", "options": ["1.0", "10", "0.1", "0.01"], "correctIndex": 2, "explanation": "1/10 = one tenth = 0.1. The 1 goes in the tenths place (first place after decimal).", "tags": ["decimals", "tenths"] },
+    { "id": "g3m-w25-mon-005", "question": "How many tenths are in the whole number 1?", "options": ["1", "10", "100", "1000"], "correctIndex": 1, "explanation": "1 whole = 10 tenths (10/10 = 1). So 1 = 1.0.", "tags": ["decimals", "tenths"] },
+    { "id": "g3m-w25-mon-006", "question": "Write 6 tenths as a decimal:", "options": ["6.0", "60", "0.6", "0.06"], "correctIndex": 2, "explanation": "6 tenths = 6/10 = 0.6. Six tenths goes in the first decimal place.", "tags": ["decimals", "tenths"] },
+    { "id": "g3m-w25-mon-007", "question": "What is the value of the decimal 2.4?", "options": ["2 and 40 hundredths", "2 and 4 tenths", "24 tenths", "2 and 4 ones"], "correctIndex": 1, "explanation": "2.4 = 2 ones + 4 tenths. We read it as 'two point four'.", "tags": ["decimals", "place-value"] },
+    { "id": "g3m-w25-mon-008", "question": "A piece of ribbon is 1.5 m long. That means it is 1 metre and ___ tenths of a metre.", "options": ["0", "5", "15", "50"], "correctIndex": 1, "explanation": "1.5 = 1 whole + 5 tenths. The ribbon is 1 metre and 5 tenths (half) of a metre.", "tags": ["decimals", "real-life"] },
+    { "id": "g3m-w25-mon-009", "question": "Which is the same as 3/10?", "options": ["3.0", "30", "0.03", "0.3"], "correctIndex": 3, "explanation": "3/10 = 3 tenths = 0.3.", "tags": ["decimals", "conversion"] },
+    { "id": "g3m-w25-mon-010", "question": "Fill in the blank: 0.8 = ___ tenths.", "options": ["0.08", "8", "80", "0.8"], "correctIndex": 1, "explanation": "0.8 = 8 tenths. The 8 is in the tenths place.", "tags": ["decimals", "tenths"] },
+    { "id": "g3m-w25-mon-011", "question": "A pizza is cut into 10 equal slices. Riya eats 3 slices. What decimal fraction did she eat?", "options": ["3.0", "0.03", "0.3", "3/100"], "correctIndex": 2, "explanation": "3 out of 10 slices = 3/10 = 0.3. She ate 0.3 of the pizza.", "tags": ["decimals", "word-problem"] },
+    { "id": "g3m-w25-mon-012", "question": "Which decimal is greater: 0.7 or 0.3?", "options": ["0.3", "They are equal", "0.7", "Cannot compare"], "correctIndex": 2, "explanation": "0.7 = 7 tenths; 0.3 = 3 tenths. 7 tenths > 3 tenths. So 0.7 > 0.3.", "tags": ["decimals", "comparing"] },
+    { "id": "g3m-w25-mon-013", "question": "Asha scored 8.6 on a test. The 6 is in the ___ place.", "options": ["ones", "tens", "tenths", "hundredths"], "correctIndex": 2, "explanation": "In 8.6, the digit after the decimal point is in the tenths place. 6 is in the tenths place.", "tags": ["decimals", "place-value"] },
+    { "id": "g3m-w25-mon-014", "question": "0.5 is the same as which fraction?", "options": ["1/10", "1/4", "1/2", "1/5"], "correctIndex": 2, "explanation": "0.5 = 5/10 = 1/2. Half a whole number as a decimal is 0.5.", "tags": ["decimals", "conversion"] },
+    { "id": "g3m-w25-mon-015", "question": "How is the decimal point related to the place-value system?", "options": ["It separates thousands from hundreds", "It separates the whole number part from the fractional part", "It is only used in currency", "It replaces the fraction bar"], "correctIndex": 1, "explanation": "The decimal point separates whole numbers (left) from fractional parts (right). Digits to the right are tenths, hundredths, etc.", "tags": ["decimals", "concept"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w25-thu",
+  "title": "Grade 2 Science — Thu, Jun 19",
+  "description": "Our Food — Day 4 of 5: Healthy foods and junk food",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "food", "healthy"],
+  "questions": [
+    { "id": "g2s-w25-thu-001", "question": "Which of these is a HEALTHY food?", "options": ["Chips (crisps)", "Fresh fruits like apple or banana", "Cold drink (soda)", "Candy"], "correctIndex": 1, "explanation": "Fresh fruits are healthy — they give us vitamins, minerals, and natural sugars. Chips, cold drinks, and candy are junk foods.", "tags": ["healthy-food"] },
+    { "id": "g2s-w25-thu-002", "question": "Junk food is food that has too much:", "options": ["Water and fibre", "Sugar, salt, and oil (fat)", "Vitamins and minerals", "Protein"], "correctIndex": 1, "explanation": "Junk food has too much sugar, salt, and oil (fat) and very few nutrients. It is tasty but not healthy.", "tags": ["junk-food"] },
+    { "id": "g2s-w25-thu-003", "question": "Why should we eat vegetables every day?", "options": ["They have too much fat", "They give us vitamins and minerals that keep us healthy", "They taste very sweet", "They are expensive so they are nutritious"], "correctIndex": 1, "explanation": "Vegetables are rich in vitamins and minerals that protect us from diseases and keep our bodies working well.", "tags": ["healthy-food", "vegetables"] },
+    { "id": "g2s-w25-thu-004", "question": "Which drink is the healthiest?", "options": ["Cola (soda)", "Water", "Packaged fruit juice with added sugar", "Energy drink"], "correctIndex": 1, "explanation": "Water is the healthiest drink. Our body is about 70% water. We need 6–8 glasses of clean water every day.", "tags": ["healthy-food", "water"] },
+    { "id": "g2s-w25-thu-005", "question": "Eating too much junk food can cause:", "options": ["Strong muscles", "Weight gain and tooth decay", "Better eyesight", "Faster growth"], "correctIndex": 1, "explanation": "Too much sugar and fat in junk food leads to weight gain and tooth decay. It can also cause tummy problems.", "tags": ["junk-food"] },
+    { "id": "g2s-w25-thu-006", "question": "Which of these is a healthy breakfast?", "options": ["Biscuits and soda", "Upma with vegetables + glass of milk", "Chips and cola", "Only biscuits"], "correctIndex": 1, "explanation": "Upma (made from semolina) + vegetables + milk gives carbohydrates, vitamins, and calcium — a complete healthy breakfast.", "tags": ["healthy-food", "breakfast"] },
+    { "id": "g2s-w25-thu-007", "question": "Skipping meals (not eating on time) is:", "options": ["A good habit — saves time", "Unhealthy — the body does not get energy on time", "Healthy — the body rests", "Fine as long as you eat once a day"], "correctIndex": 1, "explanation": "Skipping meals is unhealthy. The body needs regular food to get energy for thinking and playing.", "tags": ["healthy-habits"] },
+    { "id": "g2s-w25-thu-008", "question": "Dal, rice, vegetables, curd, and salad together make a ___.", "options": ["Junk food plate", "Balanced meal", "Snack", "Dessert plate"], "correctIndex": 1, "explanation": "A balanced meal has all food groups — carbohydrates (rice), protein (dal), vitamins (vegetables), and calcium (curd).", "tags": ["balanced-diet"] },
+    { "id": "g2s-w25-thu-009", "question": "Which snack is HEALTHIER than chips?", "options": ["Potato chips", "Biscuits with cream", "Roasted chana (chickpeas)", "Candy bar"], "correctIndex": 2, "explanation": "Roasted chana (chickpeas) is rich in protein and fibre. It is much healthier than chips, biscuits, or candy.", "tags": ["healthy-food", "snacks"] },
+    { "id": "g2s-w25-thu-010", "question": "How many times a day should we eat?", "options": ["Once is enough", "Twice a day", "3 meals + 1–2 healthy snacks", "As many times as we want"], "correctIndex": 2, "explanation": "Children should eat 3 main meals (breakfast, lunch, dinner) and 1–2 healthy snacks to keep energy levels up all day.", "tags": ["healthy-habits"] },
+    { "id": "g2s-w25-thu-011", "question": "Why is washing our hands before eating important?", "options": ["It makes food taste better", "It removes germs and prevents illness", "It cools our hands", "No reason — it is just a habit"], "correctIndex": 1, "explanation": "Our hands carry germs (bacteria) that can make us sick. Washing hands with soap removes germs before we touch food.", "tags": ["healthy-habits", "hygiene"] },
+    { "id": "g2s-w25-thu-012", "question": "Which of these foods helps us grow strong bones and teeth?", "options": ["Cola (soda)", "Chips", "Milk and dairy products", "Candy"], "correctIndex": 2, "explanation": "Milk, curd, and paneer are rich in calcium, which is essential for strong bones and healthy teeth.", "tags": ["healthy-food", "calcium"] },
+    { "id": "g2s-w25-thu-013", "question": "Fruits and vegetables are called 'protective foods' because they:", "options": ["Taste very sweet", "Protect us from diseases with their vitamins and minerals", "Protect us from cold weather", "Are expensive and rare"], "correctIndex": 1, "explanation": "Fruits and vegetables contain vitamins (A, C, B) and minerals that protect the body from illness. They boost our immunity.", "tags": ["healthy-food", "vitamins"] },
+    { "id": "g2s-w25-thu-014", "question": "What is the main problem with drinking too many cold drinks (soda)?", "options": ["They contain too much water", "Too much sugar causes weight gain and tooth decay", "They are too cold to digest", "They contain no water"], "correctIndex": 1, "explanation": "Cold drinks are loaded with sugar. Regular consumption leads to weight gain, tooth decay, and risk of diabetes.", "tags": ["junk-food"] },
+    { "id": "g2s-w25-thu-015", "question": "Which of these children is following HEALTHY eating habits?", "options": ["Ravi who eats chips for every meal", "Priya who eats fruits, vegetables, dal, and rice daily", "Mohan who only drinks cold drinks", "Sita who skips breakfast every day"], "correctIndex": 1, "explanation": "Priya eats a balanced diet — fruits, vegetables, dal (protein), and rice (carbohydrate). This is the healthiest habit.", "tags": ["healthy-habits"] }
+  ]
+}

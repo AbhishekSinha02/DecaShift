@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w25-mon",
+  "title": "Grade 2 Math — Mon, Jun 16",
+  "description": "Time — Day 1 of 5: Reading o'clock and half past",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "time", "clock"],
+  "questions": [
+    { "id": "g2m-w25-mon-001", "question": "The short hand on a clock is called the ___.", "options": ["minute hand", "second hand", "hour hand", "long hand"], "correctIndex": 2, "explanation": "The short hand is the hour hand. It points to the hour. The long hand is the minute hand.", "tags": ["clock", "parts"] },
+    { "id": "g2m-w25-mon-002", "question": "When the minute hand points to 12, the time is ___.", "options": ["half past something", "quarter past something", "o'clock", "quarter to something"], "correctIndex": 2, "explanation": "When the minute hand is at 12, we say o'clock. For example: 3 o'clock, 7 o'clock.", "tags": ["clock", "oclock"] },
+    { "id": "g2m-w25-mon-003", "question": "The hour hand is on 5 and the minute hand is on 12. What time is it?", "options": ["12 o'clock", "5 o'clock", "5:30", "12:05"], "correctIndex": 1, "explanation": "Hour hand on 5, minute hand on 12 = 5 o'clock.", "tags": ["clock", "oclock"] },
+    { "id": "g2m-w25-mon-004", "question": "When the minute hand points to 6, we say ___.", "options": ["o'clock", "quarter past", "quarter to", "half past"], "correctIndex": 3, "explanation": "When the minute hand is at 6, we say 'half past'. Half an hour (30 minutes) has passed.", "tags": ["clock", "half-past"] },
+    { "id": "g2m-w25-mon-005", "question": "The hour hand is between 3 and 4, and the minute hand is on 6. What time is it?", "options": ["3 o'clock", "4:30", "3:30", "6:30"], "correctIndex": 2, "explanation": "Hour hand between 3 and 4, minute hand on 6 = half past 3 = 3:30.", "tags": ["clock", "half-past"] },
+    { "id": "g2m-w25-mon-006", "question": "How many minutes are in half an hour?", "options": ["15", "45", "30", "60"], "correctIndex": 2, "explanation": "Half an hour = 30 minutes. One full hour = 60 minutes.", "tags": ["clock", "half-hour"] },
+    { "id": "g2m-w25-mon-007", "question": "School starts at 8 o'clock. In numbers that is ___.", "options": ["8:15", "8:00", "8:30", "0:08"], "correctIndex": 1, "explanation": "8 o'clock = 8:00. When there are no extra minutes, we write :00.", "tags": ["clock", "oclock"] },
+    { "id": "g2m-w25-mon-008", "question": "Half past 7 in numbers is ___.", "options": ["7:00", "7:15", "7:30", "6:30"], "correctIndex": 2, "explanation": "Half past 7 = 7:30. The minute hand is on 6 (30 minutes).", "tags": ["clock", "half-past"] },
+    { "id": "g2m-w25-mon-009", "question": "The minute hand makes one full round in ___.", "options": ["30 minutes", "60 minutes (1 hour)", "24 hours", "15 minutes"], "correctIndex": 1, "explanation": "The minute hand takes 60 minutes (1 hour) to go all the way around the clock.", "tags": ["clock", "minutes"] },
+    { "id": "g2m-w25-mon-010", "question": "Half past 11 means ___.", "options": ["11:45", "11:15", "11:30", "10:30"], "correctIndex": 2, "explanation": "Half past 11 = 11:30. 'Half past' always means 30 minutes past the hour.", "tags": ["clock", "half-past"] },
+    { "id": "g2m-w25-mon-011", "question": "Ravi eats lunch at half past 12. He eats at ___.", "options": ["12:00", "12:15", "12:30", "1:00"], "correctIndex": 2, "explanation": "Half past 12 = 12:30.", "tags": ["clock", "real-life"] },
+    { "id": "g2m-w25-mon-012", "question": "Which time shows 9 o'clock?", "options": ["9:30", "9:00", "9:15", "6:09"], "correctIndex": 1, "explanation": "9 o'clock is written as 9:00 — zero extra minutes.", "tags": ["clock", "oclock"] },
+    { "id": "g2m-w25-mon-013", "question": "A film starts at 4:30. Another way to say this is ___.", "options": ["4 o'clock", "quarter past 4", "half past 4", "quarter to 4"], "correctIndex": 2, "explanation": "4:30 = half past 4. The minute hand is at 6.", "tags": ["clock", "reading"] },
+    { "id": "g2m-w25-mon-014", "question": "How many hours are in one day?", "options": ["12", "24", "60", "48"], "correctIndex": 1, "explanation": "There are 24 hours in one day — 12 daytime hours and 12 night-time hours.", "tags": ["time", "hours"] },
+    { "id": "g2m-w25-mon-015", "question": "Priya's yoga class is 30 minutes long. She starts at 6:00. She finishes at ___.", "options": ["6:15", "6:30", "7:00", "5:30"], "correctIndex": 1, "explanation": "6:00 + 30 minutes = 6:30. Half past 6.", "tags": ["clock", "word-problem"] }
+  ]
+}

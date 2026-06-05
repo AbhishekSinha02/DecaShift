@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-3-french-w25-thu",
+  "title": "Grade 3 French — Thu, Jun 19",
+  "description": "La maison — Day 4 of 5: Décrire sa maison (describing your house)",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "la-maison",
+  "tags": ["french", "grade-3", "weekly", "maison", "describe"],
+  "questions": [
+    { "id": "g3f-w25-thu-001", "question": "How do you say 'My house has...' in French?", "options": ["Ma maison est...", "Ma maison a...", "Ma maison fait...", "Ma maison va..."], "correctIndex": 1, "explanation": "Ma maison a... = My house has... 'Avoir' (to have) is used here. a = he/she/it has.", "tags": ["structure"] },
+    { "id": "g3f-w25-thu-002", "question": "How do you say 'There is a garden' in French?", "options": ["Il y a une jardin.", "Il y a un jardin.", "Il y a des jardin.", "Il y a le jardin."], "correctIndex": 1, "explanation": "Il y a un jardin. Jardin is masculine, so 'un' (indefinite article for masc.).", "tags": ["il-y-a"] },
+    { "id": "g3f-w25-thu-003", "question": "Complete: 'Ma maison a ___ chambres et ___ salon.'", "options": ["deux / un", "deux / une", "un / une", "des / un"], "correctIndex": 0, "explanation": "Chambres are feminine but numbers don't use un/une. Deux chambres et un salon. Salon is masculine = un.", "tags": ["structure"] },
+    { "id": "g3f-w25-thu-004", "question": "How do you say 'In my bedroom, there is a bed.'?", "options": ["Dans ma chambre, il y a un lit.", "Dans ma chambre, il y a une lit.", "Dans ma chambre, il y a des lit.", "Dans mon chambre, il y a un lit."], "correctIndex": 0, "explanation": "Dans ma chambre (chambre is fem. = ma), il y a un lit (lit is masc. = un).", "tags": ["structure"] },
+    { "id": "g3f-w25-thu-005", "question": "\"Il y a\" can mean 'there are' (plural). 'There are chairs in the dining room.':", "options": ["Il y a une chaise dans la salle à manger.", "Il y a des chaises dans la salle à manger.", "Il y a les chaises dans la salle à manger.", "Il y a un chaises dans la salle à manger."], "correctIndex": 1, "explanation": "Des chaises = some chairs (plural). Il y a des chaises dans la salle à manger.", "tags": ["il-y-a-plural"] },
+    { "id": "g3f-w25-thu-006", "question": "Which is the correct way to say 'I have a big house.'?", "options": ["J'ai une grande maison.", "J'ai un grande maison.", "J'ai une grands maison.", "J'ai des grande maison."], "correctIndex": 0, "explanation": "J'ai une grande maison. Maison (fem.) → une; grande (fem. adj.) agrees with maison.", "tags": ["description"] },
+    { "id": "g3f-w25-thu-007", "question": "\"Petit(e)\" means:", "options": ["Big", "Beautiful", "Small / little", "New"], "correctIndex": 2, "explanation": "Petit (masc.) / Petite (fem.) = small / little. Une petite maison = a small house.", "tags": ["adjective"] },
+    { "id": "g3f-w25-thu-008", "question": "\"Grand(e)\" means:", "options": ["Small", "Old", "Big / large / tall", "Pretty"], "correctIndex": 2, "explanation": "Grand (masc.) / Grande (fem.) = big / large / tall. Un grand salon = a big living room.", "tags": ["adjective"] },
+    { "id": "g3f-w25-thu-009", "question": "Choose the correct adjective: 'A beautiful garden' — un ___ jardin:", "options": ["belle jardin", "beau jardin", "beaux jardin", "bel jardin (before h-aspiré)"], "correctIndex": 1, "explanation": "Beau (masc.) / Belle (fem.) = beautiful. Un beau jardin = a beautiful garden.", "tags": ["adjective"] },
+    { "id": "g3f-w25-thu-010", "question": "How do you say 'My house is white.'?", "options": ["Ma maison est blanc.", "Ma maison est blanche.", "Ma maison est blancs.", "Mon maison est blanche."], "correctIndex": 1, "explanation": "Ma maison est blanche. Maison is feminine, so blanc (masc.) becomes blanche (fem.).", "tags": ["adjective-agreement"] },
+    { "id": "g3f-w25-thu-011", "question": "Translate: 'Our house has a kitchen, a living room, and two bedrooms.'", "options": ["Notre maison a une cuisine, un salon et deux chambre.", "Notre maison a une cuisine, un salon et deux chambres.", "Notre maison a une cuisine, une salon et deux chambres.", "Notre maison a des cuisine, des salon et deux chambres."], "correctIndex": 1, "explanation": "Une cuisine (fem.), un salon (masc.), deux chambres (chambres is fem. plural). Notre maison a une cuisine, un salon et deux chambres.", "tags": ["translate"] },
+    { "id": "g3f-w25-thu-012", "question": "\"Voici\" means:", "options": ["Over there", "Here is / this is (introducing something near)", "I have", "Where is"], "correctIndex": 1, "explanation": "Voici = here is / this is (for something near). Voici ma chambre = Here is my bedroom.", "tags": ["vocabulary"] },
+    { "id": "g3f-w25-thu-013", "question": "Complete the house description: 'Voici ma maison. ___ y a un salon, une cuisine et trois chambres.'", "options": ["Elle", "On", "Il", "Nous"], "correctIndex": 2, "explanation": "Il y a = there is / there are. Il y a un salon... Complete: Voici ma maison. Il y a un salon, une cuisine et trois chambres.", "tags": ["il-y-a"] },
+    { "id": "g3f-w25-thu-014", "question": "Describe Priya's house: 'Her house is small but beautiful.' → ___", "options": ["Sa maison est petite mais belle.", "Sa maison est petit mais beau.", "Son maison est petite mais belle.", "Sa maison est petits mais belles."], "correctIndex": 0, "explanation": "Sa maison (fem.) est petite (fem. adj.) mais belle (fem. adj.). All adjectives agree with maison (feminine).", "tags": ["description"] },
+    { "id": "g3f-w25-thu-015", "question": "Write a mini house description: 'My house has a garden. In the garden there is a big tree.'", "options": ["Ma maison a un jardin. Dans le jardin, il y a un grand arbre.", "Ma maison a une jardin. Dans le jardin, il y a une grand arbre.", "Ma maison a un jardin. Dans le jardin, il y a un grande arbre.", "Mon maison a un jardin. Dans le jardin, il y a un grand arbre."], "correctIndex": 0, "explanation": "Jardin (masc.) = un jardin. Arbre (masc.) = un arbre; grand (masc. adj.) = grand. Ma maison a un jardin. Dans le jardin, il y a un grand arbre.", "tags": ["description"] }
+  ]
+}

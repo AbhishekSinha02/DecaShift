@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w25-fri",
+  "title": "Grade 5 Math — Fri, Jun 20",
+  "description": "Data Handling — Day 5 of 5: Mixed synthesis — full week review",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "data-handling", "review"],
+  "questions": [
+    { "id": "g5m-w25-fri-001", "question": "In a tally mark, one group of five is represented as:", "options": ["IIIII", "||||  crossed with one stroke", "Five dots", "A circle"], "correctIndex": 1, "explanation": "Four vertical strokes and one diagonal crossing them = 5. This is the standard tally mark for 5.", "tags": ["review"] },
+    { "id": "g5m-w25-fri-002", "question": "A pictograph uses key: ★ = 10. A row has 4½ stars. The value is:", "options": ["40", "45", "50", "35"], "correctIndex": 1, "explanation": "4 stars × 10 = 40; ½ star × 10 = 5. Total = 45.", "tags": ["pictograph-review"] },
+    { "id": "g5m-w25-fri-003", "question": "In a bar graph, what does the height of a bar represent?", "options": ["The category name", "The frequency or value for that category", "The colour used", "The total of all bars"], "correctIndex": 1, "explanation": "The height of each bar corresponds to the value/frequency for that category as read on the y-axis.", "tags": ["bar-graph-review"] },
+    { "id": "g5m-w25-fri-004", "question": "Find the MEAN: 12, 18, 14, 16, 20", "options": ["15", "16", "17", "18"], "correctIndex": 1, "explanation": "Sum = 12+18+14+16+20 = 80. Mean = 80 ÷ 5 = 16.", "tags": ["mean-review"] },
+    { "id": "g5m-w25-fri-005", "question": "Find the MEDIAN: 11, 5, 9, 3, 7 (5 values)", "options": ["7", "9", "5", "11"], "correctIndex": 0, "explanation": "Arrange: 3, 5, 7, 9, 11. Middle value (3rd) = 7. Median = 7.", "tags": ["median-review"] },
+    { "id": "g5m-w25-fri-006", "question": "Find the MODE: 2, 5, 3, 5, 2, 5, 3, 2, 5", "options": ["2", "3", "5", "No mode"], "correctIndex": 2, "explanation": "5 appears 4 times; 2 appears 3 times; 3 appears 2 times. Mode = 5.", "tags": ["mode-review"] },
+    { "id": "g5m-w25-fri-007", "question": "Bar graph: Trees planted — Oak=40, Pine=60, Mango=50, Neem=30. What is the mean number of trees planted?", "options": ["40", "45", "50", "55"], "correctIndex": 1, "explanation": "Sum = 40+60+50+30 = 180. Mean = 180 ÷ 4 = 45.", "tags": ["apply"] },
+    { "id": "g5m-w25-fri-008", "question": "Same tree data (Oak=40, Pine=60, Mango=50, Neem=30). What is the median?", "options": ["40", "45", "50", "55"], "correctIndex": 1, "explanation": "Arrange: 30, 40, 50, 60. Two middle values: 40 and 50. Median = (40+50)÷2 = 45.", "tags": ["apply"] },
+    { "id": "g5m-w25-fri-009", "question": "If 5 students scored an average (mean) of 70, what is the total of all their scores?", "options": ["300", "350", "375", "400"], "correctIndex": 1, "explanation": "Mean = Total ÷ Count → Total = Mean × Count = 70 × 5 = 350.", "tags": ["reverse-mean"] },
+    { "id": "g5m-w25-fri-010", "question": "Which average is BEST to use when comparing the 'most common' shoe size?", "options": ["Mean", "Median", "Mode", "Range"], "correctIndex": 2, "explanation": "Mode is best for 'most common' — it tells you which item occurs most frequently. Shoe sizes are categorical, so mode is appropriate.", "tags": ["which-average"] },
+    { "id": "g5m-w25-fri-011", "question": "Which average might be distorted by one very large value?", "options": ["Mode", "Median", "Mean", "Range"], "correctIndex": 2, "explanation": "An outlier (extreme value) pulls the mean toward it, making it unrepresentative. Median is not affected much by outliers.", "tags": ["outlier"] },
+    { "id": "g5m-w25-fri-012", "question": "Frequency table: Colour — Red:5, Blue:8, Green:3, Yellow:4. Draw a bar graph — which bar would be TALLEST?", "options": ["Red", "Blue", "Green", "Yellow"], "correctIndex": 1, "explanation": "Blue has the highest frequency (8) → tallest bar.", "tags": ["bar-graph"] },
+    { "id": "g5m-w25-fri-013", "question": "Same colour data (Red:5, Blue:8, Green:3, Yellow:4). If the scale goes up by 2 (0, 2, 4, 6, 8), which value doesn't land exactly on a gridline?", "options": ["Red (5)", "Blue (8)", "Green (4 — no, 4 is on gridline)", "Yellow (4)"], "correctIndex": 0, "explanation": "Scale 0, 2, 4, 6, 8. Red = 5 falls between 4 and 6 — it does not land on a gridline. The bar must be drawn halfway between.", "tags": ["scale"] },
+    { "id": "g5m-w25-fri-014", "question": "A dataset has values: 10, 20, 30, 100. The mean is 40. Does the mean represent the data well?", "options": ["Yes — the mean is always the best measure", "No — the outlier 100 pulls the mean up to 40, which isn't representative of most values", "Yes — 40 is in the middle", "No — the mean is wrong"], "correctIndex": 1, "explanation": "Mean = (10+20+30+100)÷4 = 160÷4 = 40. But 3 out of 4 values are below 40. The outlier 100 distorts the mean. Median = (20+30)÷2 = 25 would be more representative.", "tags": ["evaluate"] },
+    { "id": "g5m-w25-fri-015", "question": "WEEK STAR: A class of 6 students scored: 55, 65, 70, 70, 75, 85. Find: (a) mean, (b) median, (c) mode.", "options": ["Mean=70, Median=70, Mode=70", "Mean=70, Median=68, Mode=70", "Mean=65, Median=70, Mode=70", "Mean=70, Median=72.5, Mode=70"], "correctIndex": 0, "explanation": "(a) Mean: Sum=55+65+70+70+75+85=420. Mean=420÷6=70. (b) Median: 6 values, middle two = 70,70. Median=(70+70)÷2=70. (c) Mode: 70 appears twice. Mode=70. All three = 70!", "tags": ["synthesis"] }
+  ]
+}

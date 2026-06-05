@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-3-french-w25-fri",
+  "title": "Grade 3 French — Fri, Jun 20",
+  "description": "La maison — Day 5 of 5: Week review — full house description",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "la-maison",
+  "tags": ["french", "grade-3", "weekly", "maison", "review"],
+  "questions": [
+    { "id": "g3f-w25-fri-001", "question": "What is 'the bedroom' in French?", "options": ["La cuisine", "La chambre", "Le salon", "La salle à manger"], "correctIndex": 1, "explanation": "La chambre = the bedroom.", "tags": ["vocabulary-review"] },
+    { "id": "g3f-w25-fri-002", "question": "What is 'the living room' in French?", "options": ["La chambre", "La salle à manger", "Le salon", "La salle de bains"], "correctIndex": 2, "explanation": "Le salon = the living room.", "tags": ["vocabulary-review"] },
+    { "id": "g3f-w25-fri-003", "question": "Where is the cat? 'Le chat est ___ le canapé.' (ON the sofa)", "options": ["sous", "dans", "sur", "devant"], "correctIndex": 2, "explanation": "Sur = on. Le chat est sur le canapé = The cat is on the sofa.", "tags": ["preposition-review"] },
+    { "id": "g3f-w25-fri-004", "question": "Where are the shoes? 'Les chaussures sont ___ le lit.' (UNDER the bed)", "options": ["devant", "sur", "à côté de", "sous"], "correctIndex": 3, "explanation": "Sous = under. Les chaussures sont sous le lit.", "tags": ["preposition-review"] },
+    { "id": "g3f-w25-fri-005", "question": "Where is the garden? 'Le jardin est ___ la maison.' (IN FRONT OF the house)", "options": ["derrière", "dans", "devant", "sur"], "correctIndex": 2, "explanation": "Devant = in front of. Le jardin est devant la maison.", "tags": ["preposition-review"] },
+    { "id": "g3f-w25-fri-006", "question": "What furniture belongs in 'la chambre' (bedroom)?", "options": ["Le réfrigérateur et la cuisinière", "Le canapé et la télévision", "Le lit et l'armoire", "La baignoire et le lavabo"], "correctIndex": 2, "explanation": "In the bedroom: le lit (bed) and l'armoire (wardrobe).", "tags": ["room-furniture"] },
+    { "id": "g3f-w25-fri-007", "question": "How do you say 'There is a window in my bedroom.'?", "options": ["Il y a une fenêtre dans ma chambre.", "Il y a un fenêtre dans ma chambre.", "Il y a des fenêtre dans ma chambre.", "Il y a la fenêtre dans ma chambre."], "correctIndex": 0, "explanation": "La fenêtre is feminine → une fenêtre. Il y a une fenêtre dans ma chambre.", "tags": ["il-y-a"] },
+    { "id": "g3f-w25-fri-008", "question": "Choose the correct sentence: 'My kitchen is small.'", "options": ["Ma cuisine est petit.", "Ma cuisine est petite.", "Mon cuisine est petite.", "Ma cuisine est petits."], "correctIndex": 1, "explanation": "Ma cuisine (fem.) est petite (fem. adj.). Adjective agrees with the noun.", "tags": ["adjective-agreement"] },
+    { "id": "g3f-w25-fri-009", "question": "Translate: 'The book is next to the door.'", "options": ["Le livre est sous la porte.", "Le livre est devant la porte.", "Le livre est à côté de la porte.", "Le livre est derrière la porte."], "correctIndex": 2, "explanation": "Next to = à côté de. Le livre est à côté de la porte.", "tags": ["preposition-review"] },
+    { "id": "g3f-w25-fri-010", "question": "Complete the description: 'Voici ma maison. Elle est ___. Il y a quatre pièces.' (big)", "options": ["grand", "grande", "grands", "grandes"], "correctIndex": 1, "explanation": "Elle (la maison) est grande. Maison is feminine → grande (fem. form of grand).", "tags": ["adjective-agreement"] },
+    { "id": "g3f-w25-fri-011", "question": "Which is correct for 'a beautiful house'?", "options": ["un beau maison", "une beau maison", "une belle maison", "une beaux maison"], "correctIndex": 2, "explanation": "Maison (fem.) → une belle maison. Belle is the feminine form of beau.", "tags": ["adjective-agreement"] },
+    { "id": "g3f-w25-fri-012", "question": "Match: La chambre → ___", "options": ["Cooking is done here", "The family watches TV here", "This is where you sleep", "Cars are parked here"], "correctIndex": 2, "explanation": "La chambre = bedroom → this is where you sleep.", "tags": ["room-function"] },
+    { "id": "g3f-w25-fri-013", "question": "Rearrange: 'ma / dans / chambre / un / il / lit / a / y' → correct sentence:", "options": ["Dans ma chambre, il y a un lit.", "Ma chambre dans il y a un lit.", "Il y a un lit dans chambre ma.", "Un lit y a il dans ma chambre."], "correctIndex": 0, "explanation": "Dans ma chambre, il y a un lit. = In my bedroom, there is a bed.", "tags": ["sentence-order"] },
+    { "id": "g3f-w25-fri-014", "question": "Complete the mini tour: 'Voici ma maison. Là, c'est ___ salon. Et là, c'est ___ cuisine.'", "options": ["un / une", "le / la", "la / le", "une / un"], "correctIndex": 1, "explanation": "Là, c'est le salon (masc.). Et là, c'est la cuisine (fem.). With 'c'est', use definite articles le/la.", "tags": ["article"] },
+    { "id": "g3f-w25-fri-015", "question": "WEEK STAR — Write your house in French: 'My house has a garden. In the garden there is a tree. In my bedroom, there is a bed and a wardrobe.'", "options": ["Ma maison a un jardin. Dans le jardin, il y a un arbre. Dans ma chambre, il y a un lit et une armoire.", "Ma maison a une jardin. Dans le jardin, il y a une arbre. Dans ma chambre, il y a une lit et un armoire.", "Mon maison a un jardin. Dans le jardin, il y a un arbre. Dans ma chambre, il y a un lit et une armoire.", "Ma maison a un jardin. Dans le jardin, il y a un arbre. Dans mon chambre, il y a un lit et une armoire."], "correctIndex": 0, "explanation": "Ma maison (fem.) a un jardin (masc.). Dans le jardin, il y a un arbre (masc.). Dans ma chambre (fem.), il y a un lit (masc.) et une armoire (fem.).", "tags": ["extended-writing"] }
+  ]
+}

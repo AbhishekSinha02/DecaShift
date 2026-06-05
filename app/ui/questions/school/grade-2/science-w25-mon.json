@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w25-mon",
+  "title": "Grade 2 Science — Mon, Jun 16",
+  "description": "Our Food — Day 1 of 5: Food from plants",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "food", "plants"],
+  "questions": [
+    { "id": "g2s-w25-mon-001", "question": "Rice, wheat, and maize are examples of:", "options": ["Fruits", "Grains (cereals)", "Vegetables", "Pulses"], "correctIndex": 1, "explanation": "Rice, wheat, and maize are grains (cereals). They are seeds of grass plants and are our main source of carbohydrates.", "tags": ["food", "grains"] },
+    { "id": "g2s-w25-mon-002", "question": "Which of these is a fruit?", "options": ["Spinach", "Carrot", "Mango", "Onion"], "correctIndex": 2, "explanation": "A mango is a fruit — it grows from the flower of a mango tree and contains seeds inside.", "tags": ["food", "fruits"] },
+    { "id": "g2s-w25-mon-003", "question": "Which of these is a vegetable (root)?", "options": ["Apple", "Banana", "Carrot", "Tomato"], "correctIndex": 2, "explanation": "A carrot is the root of the carrot plant. We eat the underground root.", "tags": ["food", "vegetables"] },
+    { "id": "g2s-w25-mon-004", "question": "Dal (lentils) comes from:", "options": ["Animals", "Seeds of pulse plants", "Fruit trees", "Roots"], "correctIndex": 1, "explanation": "Dal comes from pulse plants (legumes) like moong, masoor, and chana. We eat their dried seeds.", "tags": ["food", "pulses"] },
+    { "id": "g2s-w25-mon-005", "question": "Which part of the plant do we eat when we eat rice?", "options": ["Root", "Leaf", "Stem", "Seed"], "correctIndex": 3, "explanation": "Rice is the seed of the rice plant. We eat seeds when we eat rice, wheat, maize, and dal.", "tags": ["food", "plant-parts"] },
+    { "id": "g2s-w25-mon-006", "question": "Mustard oil and coconut oil are made from:", "options": ["Animal fat", "Plant seeds", "Leaves of trees", "River water"], "correctIndex": 1, "explanation": "Mustard oil comes from mustard seeds and coconut oil from coconuts. Many cooking oils come from plant seeds.", "tags": ["food", "oils"] },
+    { "id": "g2s-w25-mon-007", "question": "Spinach and cabbage are examples of:", "options": ["Grains", "Fruits", "Leafy vegetables", "Roots"], "correctIndex": 2, "explanation": "Spinach (palak) and cabbage are leafy vegetables — we eat the leaves of the plant.", "tags": ["food", "leafy-veg"] },
+    { "id": "g2s-w25-mon-008", "question": "Sugar comes from which plant?", "options": ["Neem", "Sugarcane", "Rose", "Cactus"], "correctIndex": 1, "explanation": "Sugar is made from the sweet juice extracted from sugarcane stems.", "tags": ["food", "sugar"] },
+    { "id": "g2s-w25-mon-009", "question": "Groundnuts (peanuts) are seeds we eat. They grow ___.", "options": ["On trees", "Underground (below the soil)", "On climbing vines", "In water"], "correctIndex": 1, "explanation": "Groundnuts are legumes that produce their pods underground. The nuts (seeds) are found below the soil.", "tags": ["food", "seeds"] },
+    { "id": "g2s-w25-mon-010", "question": "Which of these gives us food from its flower?", "options": ["Cauliflower and broccoli", "Carrot and radish", "Mango and banana", "Rice and wheat"], "correctIndex": 0, "explanation": "Cauliflower and broccoli are flowers of their plants that we eat as vegetables.", "tags": ["food", "flowers"] },
+    { "id": "g2s-w25-mon-011", "question": "Turmeric and ginger that we use in cooking are:", "options": ["Roots/stems of plants", "Fruits", "Grains", "Leaves"], "correctIndex": 0, "explanation": "Turmeric and ginger are underground stems (rhizomes) of plants. They are used as spices.", "tags": ["food", "spices"] },
+    { "id": "g2s-w25-mon-012", "question": "Fruits grow from ___.", "options": ["Roots", "Leaves", "Flowers", "Stems"], "correctIndex": 2, "explanation": "Fruits develop from the flowers of a plant after pollination. They contain the seeds of the plant.", "tags": ["food", "fruits"] },
+    { "id": "g2s-w25-mon-013", "question": "Which of these is a pulse (dal)?", "options": ["Rice", "Wheat", "Chana (chickpea)", "Potato"], "correctIndex": 2, "explanation": "Chana (chickpea) is a pulse — a protein-rich seed of a legume plant. Other pulses: moong, masoor, urad.", "tags": ["food", "pulses"] },
+    { "id": "g2s-w25-mon-014", "question": "Tea leaves are used to make tea. We get them from:", "options": ["The roots of the tea tree", "The leaves of the tea plant", "The flowers of the tea plant", "The seeds of the tea plant"], "correctIndex": 1, "explanation": "Tea is made from the dried leaves of the tea plant (Camellia sinensis).", "tags": ["food", "leaves"] },
+    { "id": "g2s-w25-mon-015", "question": "Which of these foods does NOT come from a plant?", "options": ["Mango juice", "Bread (made from wheat)", "Egg", "Rice"], "correctIndex": 2, "explanation": "Eggs come from hens (animals), not plants. Mango juice (fruit), bread (wheat grain), and rice are all from plants.", "tags": ["food", "mixed"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-math-w25-thu",
+  "title": "Grade 2 Math — Thu, Jun 19",
+  "description": "Time — Day 4 of 5: AM and PM, time in daily life",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-2", "weekly", "time", "am-pm"],
+  "questions": [
+    { "id": "g2m-w25-thu-001", "question": "AM means ___.", "options": ["afternoon and midnight", "times from midnight to noon", "times from noon to midnight", "always morning"], "correctIndex": 1, "explanation": "AM = times from 12 midnight to 12 noon (morning hours).", "tags": ["am-pm"] },
+    { "id": "g2m-w25-thu-002", "question": "PM means ___.", "options": ["times from midnight to noon", "times from noon to midnight (afternoon and evening)", "only night-time", "p.m. = past morning"], "correctIndex": 1, "explanation": "PM = times from 12 noon to 12 midnight (afternoon, evening, night).", "tags": ["am-pm"] },
+    { "id": "g2m-w25-thu-003", "question": "Priya wakes up at 6:30 ___.", "options": ["PM (she wakes at night)", "AM (she wakes in the morning)", "neither", "Both AM and PM"], "correctIndex": 1, "explanation": "Waking up in the morning = AM. 6:30 AM is morning time.", "tags": ["am-pm", "real-life"] },
+    { "id": "g2m-w25-thu-004", "question": "Dinner is at 8:00 PM. That is in the ___.", "options": ["morning", "afternoon", "evening or night", "midnight"], "correctIndex": 2, "explanation": "8:00 PM is in the evening. PM covers afternoon through night.", "tags": ["am-pm", "real-life"] },
+    { "id": "g2m-w25-thu-005", "question": "School starts at 8:00 AM and ends at 2:30 PM. How long is the school day?", "options": ["4 hours", "6 hours 30 minutes", "6 hours", "7 hours"], "correctIndex": 1, "explanation": "8:00 AM to 2:00 PM = 6 hours. Plus 30 more minutes = 6 hours 30 minutes.", "tags": ["am-pm", "duration"] },
+    { "id": "g2m-w25-thu-006", "question": "Which activity happens at PM?", "options": ["Brushing teeth before bed at 9:00", "Waking up at 6:00", "Having breakfast at 7:30", "Going to school at 8:00"], "correctIndex": 0, "explanation": "9:00 PM is night-time. Brushing teeth before bed is a PM activity.", "tags": ["am-pm", "real-life"] },
+    { "id": "g2m-w25-thu-007", "question": "Midday (12 noon) is ___.", "options": ["12 AM", "12 PM", "Neither AM nor PM", "Both AM and PM"], "correctIndex": 1, "explanation": "12 noon is 12 PM. It marks the end of AM and the start of PM.", "tags": ["am-pm", "noon"] },
+    { "id": "g2m-w25-thu-008", "question": "Midnight is ___.", "options": ["12 PM", "12 AM", "0 AM", "24:00 PM"], "correctIndex": 1, "explanation": "Midnight (12 midnight) is 12 AM. It marks the end of PM and the start of AM.", "tags": ["am-pm", "midnight"] },
+    { "id": "g2m-w25-thu-009", "question": "A child goes to sleep at 9:00 PM and wakes up at 6:00 AM. How many hours did the child sleep?", "options": ["7 hours", "8 hours", "9 hours", "15 hours"], "correctIndex": 2, "explanation": "9 PM to 6 AM: 9 PM to 12 AM = 3 hours; 12 AM to 6 AM = 6 hours. Total = 9 hours.", "tags": ["am-pm", "duration"] },
+    { "id": "g2m-w25-thu-010", "question": "Arrange the times in order from earliest to latest: (A) 7:00 AM  (B) 12:00 PM  (C) 3:00 PM  (D) 6:00 AM", "options": ["A, B, C, D", "D, A, B, C", "B, A, D, C", "A, D, B, C"], "correctIndex": 1, "explanation": "6:00 AM → 7:00 AM → 12:00 PM → 3:00 PM. Earlier AM first.", "tags": ["am-pm", "ordering"] },
+    { "id": "g2m-w25-thu-011", "question": "Anita has lunch at 1:15 PM. Lunch is in the ___.", "options": ["morning", "afternoon", "midnight", "night"], "correctIndex": 1, "explanation": "1:15 PM is early afternoon. PM hours start at noon.", "tags": ["am-pm", "real-life"] },
+    { "id": "g2m-w25-thu-012", "question": "If a movie starts at 7:00 PM and is 2 hours long, it ends at ___.", "options": ["8:00 PM", "9:00 PM", "7:02 PM", "9:00 AM"], "correctIndex": 1, "explanation": "7:00 PM + 2 hours = 9:00 PM.", "tags": ["am-pm", "word-problem"] },
+    { "id": "g2m-w25-thu-013", "question": "Which time is an AM time?", "options": ["5:00 PM", "11:30 AM", "12:30 PM", "8:00 PM"], "correctIndex": 1, "explanation": "11:30 AM is before noon — an AM time.", "tags": ["am-pm"] },
+    { "id": "g2m-w25-thu-014", "question": "Rohan naps from 2:00 PM to 3:30 PM. How long is his nap?", "options": ["30 minutes", "1 hour", "1 hour 30 minutes", "2 hours"], "correctIndex": 2, "explanation": "2:00 PM to 3:30 PM = 1 hour and 30 minutes.", "tags": ["am-pm", "duration"] },
+    { "id": "g2m-w25-thu-015", "question": "There are ___ hours from 12 midnight to 12 noon.", "options": ["6", "12", "24", "8"], "correctIndex": 1, "explanation": "Midnight (12 AM) to noon (12 PM) = 12 hours. These are the AM hours.", "tags": ["am-pm", "hours"] }
+  ]
+}

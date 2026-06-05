@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w25-tue",
+  "title": "Grade 2 Science — Tue, Jun 17",
+  "description": "Our Food — Day 2 of 5: Food from animals",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "food", "animals"],
+  "questions": [
+    { "id": "g2s-w25-tue-001", "question": "We get milk from:", "options": ["Hens", "Cows and buffaloes", "Fish", "Bees"], "correctIndex": 1, "explanation": "We get milk from cows, buffaloes, goats, and camels. Milk is rich in calcium and protein.", "tags": ["food", "milk"] },
+    { "id": "g2s-w25-tue-002", "question": "Eggs that we eat usually come from:", "options": ["Cows", "Fish", "Hens (poultry)", "Goats"], "correctIndex": 2, "explanation": "Most eggs we eat come from hens. Duck and quail eggs are also eaten in some places.", "tags": ["food", "eggs"] },
+    { "id": "g2s-w25-tue-003", "question": "Honey is made by:", "options": ["Ants", "Bees", "Butterflies", "Wasps"], "correctIndex": 1, "explanation": "Honey bees collect nectar from flowers and make honey in their hives. Honey is a natural sweetener.", "tags": ["food", "honey"] },
+    { "id": "g2s-w25-tue-004", "question": "Which food is made from milk?", "options": ["Bread", "Curd (dahi)", "Rice", "Dal"], "correctIndex": 1, "explanation": "Curd (dahi) is made from milk by adding a small amount of curd to warm milk and letting it set. Butter, cheese, and paneer are also milk products.", "tags": ["food", "milk-products"] },
+    { "id": "g2s-w25-tue-005", "question": "Fish and prawns are food that comes from:", "options": ["Forests", "Water (rivers, sea)", "Farms on land", "Deserts"], "correctIndex": 1, "explanation": "Fish and prawns live in water — rivers, lakes, and the sea. They are a rich source of protein.", "tags": ["food", "water-animals"] },
+    { "id": "g2s-w25-tue-006", "question": "Ghee (clarified butter) is made from:", "options": ["Sugarcane", "Coconut", "Milk/butter", "Groundnuts"], "correctIndex": 2, "explanation": "Ghee is made by heating butter (which comes from milk) until the water evaporates, leaving pure fat.", "tags": ["food", "milk-products"] },
+    { "id": "g2s-w25-tue-007", "question": "Which of these is an animal food product?", "options": ["Wheat flour", "Mustard oil", "Cheese (paneer)", "Sugar"], "correctIndex": 2, "explanation": "Paneer (cottage cheese) is made from milk — an animal product. Wheat, mustard, and sugarcane are plants.", "tags": ["food", "animal-products"] },
+    { "id": "g2s-w25-tue-008", "question": "Silk thread for making silk cloth comes from:", "options": ["Cotton plants", "Silkworms", "Sheep", "Spiders"], "correctIndex": 1, "explanation": "Silkworms spin a cocoon made of one long silk thread. Silk is a natural fibre from an animal.", "tags": ["food", "animal-products"] },
+    { "id": "g2s-w25-tue-009", "question": "Which gives us both milk AND meat?", "options": ["Hens (chickens)", "Cows", "Fish", "Bees"], "correctIndex": 1, "explanation": "Cows give us milk (dairy product) and are also a source of meat (in non-vegetarian diets). Hens give eggs and chicken meat.", "tags": ["food", "animals"] },
+    { "id": "g2s-w25-tue-010", "question": "Why is milk important for growing children?", "options": ["It gives energy from sugar only", "It is rich in calcium, which makes bones and teeth strong", "It only quenches thirst", "It makes children taller instantly"], "correctIndex": 1, "explanation": "Milk is rich in calcium and protein. Calcium is essential for building strong bones and teeth in growing children.", "tags": ["food", "nutrition"] },
+    { "id": "g2s-w25-tue-011", "question": "Butter is made by churning ___.", "options": ["Milk/cream", "Curd alone", "Ghee", "Water"], "correctIndex": 0, "explanation": "Butter is made by churning cream (the fat layer on top of milk) until the fat separates.", "tags": ["food", "milk-products"] },
+    { "id": "g2s-w25-tue-012", "question": "Which animal gives us wool for making warm clothes?", "options": ["Cow", "Hen", "Sheep", "Buffalo"], "correctIndex": 2, "explanation": "Wool comes from sheep. Their thick fleece is sheared, cleaned, and spun into yarn for sweaters and blankets.", "tags": ["food", "animals"] },
+    { "id": "g2s-w25-tue-013", "question": "A person who eats both plant food and animal food is called a:", "options": ["Herbivore", "Carnivore", "Omnivore", "Vegan"], "correctIndex": 2, "explanation": "Omnivores eat both plants and animals. Humans are omnivores. Herbivores eat only plants; carnivores eat only animals.", "tags": ["food", "omnivore"] },
+    { "id": "g2s-w25-tue-014", "question": "Prawn, crab, and lobster are all ___.", "options": ["Insects", "Sea animals we eat", "Land animals", "Birds"], "correctIndex": 1, "explanation": "Prawns, crabs, and lobsters are crustaceans — sea animals that are eaten as food in coastal areas.", "tags": ["food", "seafood"] },
+    { "id": "g2s-w25-tue-015", "question": "Which two products come from cows?", "options": ["Eggs and honey", "Milk and dung (used as fuel/fertiliser)", "Wool and silk", "Honey and butter"], "correctIndex": 1, "explanation": "Cows give us milk (for dairy products) and cow dung, which is used as natural fertiliser and dried as fuel in villages.", "tags": ["food", "animals"] }
+  ]
+}

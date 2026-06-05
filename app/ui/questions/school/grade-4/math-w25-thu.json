@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w25-thu",
+  "title": "Grade 4 Math — Thu, Jun 19",
+  "description": "Geometry — Day 4 of 5: Types of triangles",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "geometry", "triangles"],
+  "questions": [
+    { "id": "g4m-w25-thu-001", "question": "A triangle has:", "options": ["3 sides and 3 angles", "4 sides and 4 angles", "3 sides and 4 angles", "2 sides and 3 angles"], "correctIndex": 0, "explanation": "A triangle has exactly 3 sides and 3 angles. The sum of all angles in a triangle is always 180°.", "tags": ["definition"] },
+    { "id": "g4m-w25-thu-002", "question": "The sum of all angles in any triangle is:", "options": ["90°", "180°", "270°", "360°"], "correctIndex": 1, "explanation": "The sum of angles in any triangle = 180°. This is always true, no matter what type of triangle.", "tags": ["angle-sum"] },
+    { "id": "g4m-w25-thu-003", "question": "An EQUILATERAL triangle has:", "options": ["All 3 sides different; all 3 angles different", "2 equal sides; 2 equal angles", "All 3 sides equal; all 3 angles equal (each 60°)", "No equal sides"], "correctIndex": 2, "explanation": "Equilateral = all equal. All 3 sides equal, all 3 angles = 60°. Equi = equal, lateral = sides.", "tags": ["equilateral"] },
+    { "id": "g4m-w25-thu-004", "question": "Each angle of an equilateral triangle is:", "options": ["45°", "90°", "60°", "120°"], "correctIndex": 2, "explanation": "All three angles are equal and sum to 180°. 180° ÷ 3 = 60° each.", "tags": ["equilateral"] },
+    { "id": "g4m-w25-thu-005", "question": "An ISOSCELES triangle has:", "options": ["All sides different", "All sides equal", "Exactly 2 equal sides (and the angles opposite the equal sides are also equal)", "No equal sides or angles"], "correctIndex": 2, "explanation": "Isosceles = 2 equal sides. The angles opposite (across from) the 2 equal sides are also equal.", "tags": ["isosceles"] },
+    { "id": "g4m-w25-thu-006", "question": "A SCALENE triangle has:", "options": ["All sides equal", "2 equal sides", "All 3 sides different lengths (and all 3 angles different)", "At least one right angle"], "correctIndex": 2, "explanation": "Scalene = unequal. All 3 sides are different, so all 3 angles are different too.", "tags": ["scalene"] },
+    { "id": "g4m-w25-thu-007", "question": "A triangle with sides 5 cm, 5 cm, and 5 cm is:", "options": ["Isosceles", "Scalene", "Equilateral", "Right triangle"], "correctIndex": 2, "explanation": "All 3 sides equal → equilateral triangle.", "tags": ["classify-sides"] },
+    { "id": "g4m-w25-thu-008", "question": "A triangle with sides 4 cm, 4 cm, and 7 cm is:", "options": ["Equilateral", "Isosceles", "Scalene", "Right triangle"], "correctIndex": 1, "explanation": "Two sides equal (4 cm = 4 cm) → isosceles triangle.", "tags": ["classify-sides"] },
+    { "id": "g4m-w25-thu-009", "question": "A triangle with sides 3 cm, 5 cm, and 7 cm is:", "options": ["Equilateral", "Isosceles", "Scalene", "Right triangle"], "correctIndex": 2, "explanation": "All sides different → scalene triangle.", "tags": ["classify-sides"] },
+    { "id": "g4m-w25-thu-010", "question": "A RIGHT TRIANGLE has:", "options": ["All angles acute", "One angle equal to 90°", "All angles equal to 60°", "One angle greater than 180°"], "correctIndex": 1, "explanation": "A right triangle has exactly one 90° angle. The other two angles are acute and sum to 90°.", "tags": ["right-triangle"] },
+    { "id": "g4m-w25-thu-011", "question": "An ACUTE triangle has:", "options": ["One angle greater than 90°", "One angle equal to 90°", "All three angles less than 90°", "All angles equal to 60°"], "correctIndex": 2, "explanation": "An acute triangle has all three angles less than 90°. An equilateral triangle is always acute.", "tags": ["acute-triangle"] },
+    { "id": "g4m-w25-thu-012", "question": "An OBTUSE triangle has:", "options": ["One angle equal to 90°", "All angles less than 90°", "One angle greater than 90°", "All angles equal to 120°"], "correctIndex": 2, "explanation": "An obtuse triangle has one angle greater than 90°. Since angle sum = 180°, only one angle can be obtuse.", "tags": ["obtuse-triangle"] },
+    { "id": "g4m-w25-thu-013", "question": "A triangle has angles 90°, 45°, and 45°. Classify it BY ANGLES:", "options": ["Acute triangle", "Obtuse triangle", "Right triangle", "Equilateral triangle"], "correctIndex": 2, "explanation": "It has one 90° angle → right triangle. (By sides, since two angles are equal, it is also isosceles.)", "tags": ["classify-angles"] },
+    { "id": "g4m-w25-thu-014", "question": "In a triangle, two angles are 70° and 60°. What is the third angle?", "options": ["180°", "50°", "130°", "90°"], "correctIndex": 1, "explanation": "Angle sum = 180°. Third angle = 180° − 70° − 60° = 50°.", "tags": ["missing-angle"] },
+    { "id": "g4m-w25-thu-015", "question": "A triangle has all angles less than 90° and all sides equal. It is classified as:", "options": ["Obtuse scalene", "Right isosceles", "Acute equilateral", "Obtuse isosceles"], "correctIndex": 2, "explanation": "All angles equal (60°, all acute) → acute triangle. All sides equal → equilateral. So: acute equilateral triangle.", "tags": ["double-classify"] }
+  ]
+}

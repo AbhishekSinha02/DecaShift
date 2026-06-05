@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w25-wed",
+  "title": "Grade 3 Science — Wed, Jun 18",
+  "description": "Water — Day 3 of 5: States of water (solid, liquid, gas)",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "water", "states"],
+  "questions": [
+    { "id": "g3s-w25-wed-001", "question": "Water exists in ___ states in nature.", "options": ["Two", "Three", "Four", "Five"], "correctIndex": 1, "explanation": "Water exists in three states: solid (ice), liquid (water), and gas (water vapour/steam).", "tags": ["water", "states"] },
+    { "id": "g3s-w25-wed-002", "question": "Ice is water in its ___ state.", "options": ["Liquid", "Gaseous", "Solid", "Mixed"], "correctIndex": 2, "explanation": "Ice is the solid form of water. Water freezes (turns to ice) at 0°C.", "tags": ["water", "solid"] },
+    { "id": "g3s-w25-wed-003", "question": "Water vapour (steam) is water in its ___ state.", "options": ["Solid", "Liquid", "Gaseous", "Semi-solid"], "correctIndex": 2, "explanation": "Water vapour is the gaseous form of water. Water turns to vapour (boils) at 100°C and slowly evaporates even at lower temperatures.", "tags": ["water", "gas"] },
+    { "id": "g3s-w25-wed-004", "question": "When ice melts, it changes from solid to ___.", "options": ["Gas", "Liquid", "Plasma", "Air"], "correctIndex": 1, "explanation": "Ice melts and becomes liquid water. This happens when temperature rises above 0°C.", "tags": ["water", "melting"] },
+    { "id": "g3s-w25-wed-005", "question": "The process of liquid water turning into water vapour is called:", "options": ["Melting", "Condensation", "Evaporation", "Freezing"], "correctIndex": 2, "explanation": "Evaporation is the process of liquid water turning into water vapour (gas). It happens on the surface of water, even at room temperature.", "tags": ["water", "evaporation"] },
+    { "id": "g3s-w25-wed-006", "question": "At what temperature does water freeze (turn to ice)?", "options": ["10°C", "0°C", "100°C", "−100°C"], "correctIndex": 1, "explanation": "Water freezes at 0°C (the freezing point). Below 0°C, liquid water turns to ice.", "tags": ["water", "freezing"] },
+    { "id": "g3s-w25-wed-007", "question": "At what temperature does water boil (turn to steam quickly)?", "options": ["50°C", "0°C", "37°C", "100°C"], "correctIndex": 3, "explanation": "Water boils at 100°C (at sea level). At this temperature, liquid water rapidly turns to water vapour/steam.", "tags": ["water", "boiling"] },
+    { "id": "g3s-w25-wed-008", "question": "When water vapour in the air cools, it turns back to liquid. This is called:", "options": ["Evaporation", "Melting", "Condensation", "Freezing"], "correctIndex": 2, "explanation": "Condensation is when water vapour cools and turns back to liquid water. This is how droplets form on a cold glass or how clouds form.", "tags": ["water", "condensation"] },
+    { "id": "g3s-w25-wed-009", "question": "Dew drops on grass in the morning are formed by:", "options": ["Rain falling in the night", "Evaporation", "Condensation of water vapour on cool surfaces", "Underground water coming up"], "correctIndex": 2, "explanation": "At night, grass cools down. Water vapour in the air condenses (turns to liquid) on the cool grass blades, forming dew drops.", "tags": ["water", "condensation"] },
+    { "id": "g3s-w25-wed-010", "question": "Clouds are made of:", "options": ["Solid ice only", "Tiny water droplets and/or ice crystals", "Water vapour only", "Dust only"], "correctIndex": 1, "explanation": "Clouds are formed when water vapour rises, cools, and condenses into tiny water droplets or ice crystals that float in the air.", "tags": ["water", "clouds"] },
+    { "id": "g3s-w25-wed-011", "question": "When you take a bottle of cold water out of the fridge, water droplets form on the outside. Why?", "options": ["Water leaks through the bottle", "The cold bottle cools the air around it → water vapour condenses", "The bottle absorbs water from the air", "Rainwater falls on the bottle"], "correctIndex": 1, "explanation": "The cold bottle chills the air touching it. Water vapour in that air cools below condensation point and turns back to liquid on the bottle's surface.", "tags": ["water", "condensation"] },
+    { "id": "g3s-w25-wed-012", "question": "Wet clothes on a clothesline dry because:", "options": ["The wind blows the water away", "Water evaporates from the clothes into the air", "The sun absorbs the clothes", "Heat breaks the water molecules"], "correctIndex": 1, "explanation": "Heat and wind cause water to evaporate from wet clothes. The water molecules escape as water vapour into the air, leaving the clothes dry.", "tags": ["water", "evaporation"] },
+    { "id": "g3s-w25-wed-013", "question": "Match: solid → liquid is ___, liquid → gas is ___, gas → liquid is ___.", "options": ["melting / evaporation / condensation", "evaporation / melting / condensation", "condensation / melting / evaporation", "freezing / evaporation / melting"], "correctIndex": 0, "explanation": "Solid → liquid = melting; liquid → gas = evaporation; gas → liquid = condensation.", "tags": ["water", "changes"] },
+    { "id": "g3s-w25-wed-014", "question": "Snow is made of:", "options": ["Liquid water drops", "Water vapour", "Frozen water crystals (solid)", "Mud and water"], "correctIndex": 2, "explanation": "Snow is made of tiny ice crystals — water frozen at very low temperatures in clouds. Each snowflake is a unique ice crystal.", "tags": ["water", "solid"] },
+    { "id": "g3s-w25-wed-015", "question": "A teapot of water is heated. First you see steam; then if the steam touches a cold lid, droplets form. This shows:", "options": ["Water only evaporates", "Evaporation (steam) AND condensation (droplets) — both happen", "Condensation only", "Water creates new water"], "correctIndex": 1, "explanation": "Boiling water → steam (evaporation). Steam hitting the cold lid → droplets (condensation). Both changes of state happen in sequence.", "tags": ["water", "changes"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w25-mon",
+  "title": "Grade 3 Science — Mon, Jun 16",
+  "description": "Water — Day 1 of 5: Sources of water",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "water", "sources"],
+  "questions": [
+    { "id": "g3s-w25-mon-001", "question": "The most important source of freshwater for rivers, lakes, and ponds is:", "options": ["Factories", "Oceans", "Rain (rainfall)", "Underground pipes"], "correctIndex": 2, "explanation": "Rain is the primary source of freshwater. Rainwater fills rivers, lakes, and ponds and seeps underground.", "tags": ["water", "rain"] },
+    { "id": "g3s-w25-mon-002", "question": "Water that is found underground is called:", "options": ["Surface water", "River water", "Groundwater", "Ocean water"], "correctIndex": 2, "explanation": "Water stored underground in rock and soil is called groundwater. Wells and tube-wells draw this water.", "tags": ["water", "groundwater"] },
+    { "id": "g3s-w25-mon-003", "question": "Which is NOT a freshwater source?", "options": ["River", "Lake", "Ocean", "Well"], "correctIndex": 2, "explanation": "Oceans contain salt water, not freshwater. Rivers, lakes, and wells contain freshwater.", "tags": ["water", "freshwater"] },
+    { "id": "g3s-w25-mon-004", "question": "Glaciers are found in high mountains. They are a source of freshwater because:", "options": ["They are made of ice that melts into rivers", "They are made of salt water", "They are rivers themselves", "They produce rain"], "correctIndex": 0, "explanation": "Glaciers are huge masses of ice in mountains. They slowly melt and feed rivers with freshwater year-round.", "tags": ["water", "glaciers"] },
+    { "id": "g3s-w25-mon-005", "question": "A well is dug to reach:", "options": ["River water", "Ocean water", "Groundwater", "Rainwater only"], "correctIndex": 2, "explanation": "Wells are dug down into the earth to reach groundwater stored in rocks and soil below the surface.", "tags": ["water", "wells"] },
+    { "id": "g3s-w25-mon-006", "question": "Which body of water covers the largest part of Earth?", "options": ["Rivers", "Lakes", "Ponds", "Oceans"], "correctIndex": 3, "explanation": "Oceans cover about 71% of the Earth's surface. The Pacific, Atlantic, Indian, Arctic, and Southern are the five oceans.", "tags": ["water", "oceans"] },
+    { "id": "g3s-w25-mon-007", "question": "Tap water in Indian cities comes from:", "options": ["Directly from the ocean", "Treated water from rivers and reservoirs", "Underground wells only", "Rainwater collected in homes"], "correctIndex": 1, "explanation": "City tap water is usually taken from rivers or reservoirs, treated (cleaned), and pumped to homes.", "tags": ["water", "tap-water"] },
+    { "id": "g3s-w25-mon-008", "question": "A reservoir is:", "options": ["A type of underground well", "A large lake made by humans to store water", "A natural spring", "An ocean area"], "correctIndex": 1, "explanation": "A reservoir is a large, man-made lake (usually behind a dam) that stores water for drinking, irrigation, and power.", "tags": ["water", "reservoir"] },
+    { "id": "g3s-w25-mon-009", "question": "Which Indian river is the longest and an important source of water for millions of people?", "options": ["Yamuna", "Narmada", "Ganga (Ganges)", "Godavari"], "correctIndex": 2, "explanation": "The Ganga (Ganges) is the longest river in India and provides water to hundreds of millions of people across north India.", "tags": ["water", "rivers"] },
+    { "id": "g3s-w25-mon-010", "question": "Natural springs are:", "options": ["Pipes laid by humans", "Places where groundwater comes out of the earth naturally", "Man-made reservoirs", "Waterfalls"], "correctIndex": 1, "explanation": "Springs occur where groundwater naturally seeps out of the ground. People have used springs for drinking water for thousands of years.", "tags": ["water", "springs"] },
+    { "id": "g3s-w25-mon-011", "question": "Why is rainwater important for farmers?", "options": ["It is not important", "It waters crops and fills ponds that animals drink from", "It is used only for washing", "It causes floods only"], "correctIndex": 1, "explanation": "Rainwater is essential for agriculture — it waters crops and fills ponds, lakes, and wells that farmers and animals depend on.", "tags": ["water", "agriculture"] },
+    { "id": "g3s-w25-mon-012", "question": "About ___ % of Earth's water is freshwater (usable for drinking).", "options": ["71%", "50%", "3%", "25%"], "correctIndex": 2, "explanation": "Only about 3% of Earth's water is freshwater. Most of it (2%) is frozen in glaciers. Less than 1% is available for drinking.", "tags": ["water", "facts"] },
+    { "id": "g3s-w25-mon-013", "question": "Which ancient method collects rainwater during the rainy season for use in dry months?", "options": ["Drilling deep wells", "Rainwater harvesting (tankas/stepwells)", "Building factories near rivers", "Using only bottled water"], "correctIndex": 1, "explanation": "Rainwater harvesting collects and stores rainwater in tanks (tankas) or stepwells (baoli). India has used this for thousands of years.", "tags": ["water", "conservation"] },
+    { "id": "g3s-w25-mon-014", "question": "Which state in India is known for traditional stepwells (baoli) that store rainwater?", "options": ["Rajasthan", "Kerala", "West Bengal", "Assam"], "correctIndex": 0, "explanation": "Rajasthan is famous for its baolis (stepwells) and tankas (underground water tanks) — traditional water conservation methods in a water-scarce desert region.", "tags": ["water", "india"] },
+    { "id": "g3s-w25-mon-015", "question": "If rainfall is too low for many years, what problem does a region face?", "options": ["Floods", "Drought (shortage of water)", "Too much groundwater", "Earthquakes"], "correctIndex": 1, "explanation": "Low rainfall over many years causes drought — a serious water shortage that affects drinking water, crops, and animals.", "tags": ["water", "drought"] }
+  ]
+}

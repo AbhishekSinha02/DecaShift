@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-math-w25-tue",
+  "title": "Grade 5 Math — Tue, Jun 17",
+  "description": "Data Handling — Day 2 of 5: Pictographs — reading and interpreting",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-5", "weekly", "data-handling", "pictograph"],
+  "questions": [
+    { "id": "g5m-w25-tue-001", "question": "A pictograph is:", "options": ["A table of frequencies", "A graph that uses pictures/symbols to represent data", "A type of tally mark", "A pie chart"], "correctIndex": 1, "explanation": "A pictograph (picture graph) uses pictures or symbols to show data. A key tells you how many each symbol represents.", "tags": ["definition"] },
+    { "id": "g5m-w25-tue-002", "question": "In a pictograph, the KEY (or scale) tells you:", "options": ["The title of the graph", "How many units each symbol represents", "The colour of the symbols", "The number of rows"], "correctIndex": 1, "explanation": "The key is essential in a pictograph. It shows the value of each symbol. Example: ★ = 5 students.", "tags": ["key"] },
+    { "id": "g5m-w25-tue-003", "question": "A pictograph shows: Mango 🥭🥭🥭, Banana 🍌🍌🍌🍌🍌, Apple 🍎🍎. Key: each symbol = 4 fruits. How many mangoes?", "options": ["3", "8", "12", "16"], "correctIndex": 2, "explanation": "Mango: 3 symbols × 4 = 12 mangoes.", "tags": ["read"] },
+    { "id": "g5m-w25-tue-004", "question": "Same pictograph (Key: symbol = 4). How many bananas?", "options": ["5", "10", "20", "25"], "correctIndex": 2, "explanation": "Banana: 5 symbols × 4 = 20 bananas.", "tags": ["read"] },
+    { "id": "g5m-w25-tue-005", "question": "Same pictograph (Mango=12, Banana=20, Apple=2×4=8). What is the total number of fruits?", "options": ["30", "35", "40", "45"], "correctIndex": 2, "explanation": "Total = 12 + 20 + 8 = 40 fruits.", "tags": ["calculate"] },
+    { "id": "g5m-w25-tue-006", "question": "In a pictograph, if a half symbol (½) is shown, it represents:", "options": ["The full value", "Half the key value", "Zero", "Double the key value"], "correctIndex": 1, "explanation": "A half symbol = half the key value. If key = 10, then ½ symbol = 5.", "tags": ["half-symbol"] },
+    { "id": "g5m-w25-tue-007", "question": "Pictograph of books read in a week: Mon ★★★, Tue ★★★★, Wed ★★½, Thu ★★★★★, Fri ★★★. Key: ★ = 2 books. How many books on Wednesday?", "options": ["4", "5", "6", "7"], "correctIndex": 1, "explanation": "Wed: 2½ stars = 2 × 2 + ½ × 2 = 4 + 1 = 5 books.", "tags": ["half-symbol"] },
+    { "id": "g5m-w25-tue-008", "question": "Same books pictograph (★=2 books). Which day had the most books read?", "options": ["Monday", "Tuesday", "Thursday", "Friday"], "correctIndex": 2, "explanation": "Thu: 5 stars × 2 = 10 books. That is the highest.", "tags": ["interpret"] },
+    { "id": "g5m-w25-tue-009", "question": "Same books pictograph (★=2). Total books Mon–Fri: Mon=3★, Tue=4★, Wed=2½★, Thu=5★, Fri=3★. Total?", "options": ["30", "35", "35", "37"], "correctIndex": 2, "explanation": "Total stars = 3+4+2.5+5+3 = 17.5 stars. × 2 = 35 books.", "tags": ["calculate"] },
+    { "id": "g5m-w25-tue-010", "question": "A pictograph shows ice cream sales: Vanilla 🍦🍦🍦🍦, Chocolate 🍦🍦🍦🍦🍦🍦, Strawberry 🍦🍦. Key: 🍦 = 10 cups. How many more chocolate than vanilla?", "options": ["10", "20", "30", "40"], "correctIndex": 1, "explanation": "Vanilla = 4 × 10 = 40. Chocolate = 6 × 10 = 60. Difference = 60 − 40 = 20.", "tags": ["difference"] },
+    { "id": "g5m-w25-tue-011", "question": "Ice cream pictograph (vanilla=40, chocolate=60, strawberry=2×10=20). What fraction of total sales is strawberry?", "options": ["1/4", "1/6", "1/5", "1/3"], "correctIndex": 2, "explanation": "Total = 40 + 60 + 20 = 120. Strawberry = 20. Fraction = 20/120 = 1/6. Hmm: 20/120 = 1/6. But option B is 1/6. The correct answer is B = 1/6.", "tags": ["fraction"] },
+    { "id": "g5m-w25-tue-012", "question": "What is the ADVANTAGE of a pictograph over a frequency table?", "options": ["More accurate numbers", "Easier to read at a glance — visual impact", "Works for all data types", "Shows exact totals automatically"], "correctIndex": 1, "explanation": "Pictographs are visually appealing and easy to read quickly. However, they may not show exact numbers for large datasets.", "tags": ["evaluate"] },
+    { "id": "g5m-w25-tue-013", "question": "If you want to show that sales DOUBLED from last year, a pictograph would show:", "options": ["The same number of symbols", "Twice as many symbols (or larger symbols)", "Half the symbols", "Different colours"], "correctIndex": 1, "explanation": "To show doubled data, use twice as many symbols (assuming the key stays the same).", "tags": ["interpret"] },
+    { "id": "g5m-w25-tue-014", "question": "A pictograph key says: 🌟 = 100 students. If there are 350 students in a row, how many symbols (including half)?", "options": ["3", "3½", "4", "35"], "correctIndex": 1, "explanation": "350 ÷ 100 = 3.5 = 3 full symbols and 1 half symbol.", "tags": ["drawing"] },
+    { "id": "g5m-w25-tue-015", "question": "Which of the following is TRUE about pictographs?", "options": ["Each symbol always represents exactly 1 item", "The key is optional", "The key tells how many units each symbol represents", "Pictographs never use half-symbols"], "correctIndex": 2, "explanation": "The key is essential — it tells how many units each symbol represents. Symbols can represent any number, and half-symbols are commonly used.", "tags": ["true-false"] }
+  ]
+}

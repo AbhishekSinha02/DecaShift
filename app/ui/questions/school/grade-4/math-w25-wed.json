@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w25-wed",
+  "title": "Grade 4 Math — Wed, Jun 18",
+  "description": "Geometry — Day 3 of 5: Acute, obtuse, and reflex angles",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "geometry", "angle-types"],
+  "questions": [
+    { "id": "g4m-w25-wed-001", "question": "An acute angle is an angle that measures:", "options": ["Exactly 90°", "Between 90° and 180°", "More than 180°", "Between 0° and 90° (less than 90°)"], "correctIndex": 3, "explanation": "An acute angle is less than 90°. Think 'cute and small'. Examples: 30°, 45°, 60°, 89°.", "tags": ["acute"] },
+    { "id": "g4m-w25-wed-002", "question": "An obtuse angle is an angle that measures:", "options": ["Less than 90°", "Exactly 90°", "Between 90° and 180°", "More than 180°"], "correctIndex": 2, "explanation": "An obtuse angle is between 90° and 180°. It is wider than a right angle but less than a straight line.", "tags": ["obtuse"] },
+    { "id": "g4m-w25-wed-003", "question": "A reflex angle is an angle that measures:", "options": ["Less than 90°", "Exactly 180°", "Between 90° and 180°", "More than 180° (up to 360°)"], "correctIndex": 3, "explanation": "A reflex angle is greater than 180° but less than 360°. It goes more than halfway around.", "tags": ["reflex"] },
+    { "id": "g4m-w25-wed-004", "question": "Classify 45°:", "options": ["Right angle", "Obtuse", "Reflex", "Acute"], "correctIndex": 3, "explanation": "45° is less than 90° → acute angle.", "tags": ["classify"] },
+    { "id": "g4m-w25-wed-005", "question": "Classify 120°:", "options": ["Acute", "Right angle", "Obtuse", "Reflex"], "correctIndex": 2, "explanation": "120° is between 90° and 180° → obtuse angle.", "tags": ["classify"] },
+    { "id": "g4m-w25-wed-006", "question": "Classify 270°:", "options": ["Acute", "Obtuse", "Straight", "Reflex"], "correctIndex": 3, "explanation": "270° is greater than 180° → reflex angle.", "tags": ["classify"] },
+    { "id": "g4m-w25-wed-007", "question": "Classify 90°:", "options": ["Acute", "Right angle", "Obtuse", "Reflex"], "correctIndex": 1, "explanation": "Exactly 90° = right angle.", "tags": ["classify"] },
+    { "id": "g4m-w25-wed-008", "question": "Classify 180°:", "options": ["Right angle", "Obtuse", "Straight angle", "Reflex"], "correctIndex": 2, "explanation": "Exactly 180° = straight angle. It looks like a straight line.", "tags": ["classify"] },
+    { "id": "g4m-w25-wed-009", "question": "The angle between the hour and minute hand at 2 o'clock is 60°. What type of angle is this?", "options": ["Right angle", "Obtuse", "Reflex", "Acute"], "correctIndex": 3, "explanation": "60° is less than 90° → acute angle.", "tags": ["real-life"] },
+    { "id": "g4m-w25-wed-010", "question": "The angle between the hour and minute hand at 9 o'clock is 90°. This is a:", "options": ["Acute angle", "Right angle", "Obtuse angle", "Reflex angle"], "correctIndex": 1, "explanation": "At 9 o'clock, the hands are at 90° = right angle.", "tags": ["real-life"] },
+    { "id": "g4m-w25-wed-011", "question": "Which triangle has an obtuse angle?", "options": ["An equilateral triangle (all 60°)", "A right triangle (one 90° angle)", "A triangle with angles 30°, 40°, 110°", "A triangle with angles 60°, 60°, 60°"], "correctIndex": 2, "explanation": "A triangle with 110° has one obtuse angle (> 90°). This is an obtuse triangle.", "tags": ["apply"] },
+    { "id": "g4m-w25-wed-012", "question": "Is it possible for a triangle to have two obtuse angles?", "options": ["Yes, always", "Yes, sometimes", "No — three angles must add up to 180°, and two obtuse angles would exceed 180°", "Yes, if one angle is acute"], "correctIndex": 2, "explanation": "Two obtuse angles > 90° + 90° = 180°. Since all three angles of a triangle sum to 180°, you cannot have two obtuse angles.", "tags": ["reasoning"] },
+    { "id": "g4m-w25-wed-013", "question": "A pizza slice cut at 30° from the centre has what type of angle?", "options": ["Obtuse", "Right", "Reflex", "Acute"], "correctIndex": 3, "explanation": "30° < 90° → acute angle. A narrow pizza slice has an acute angle at the tip.", "tags": ["real-life"] },
+    { "id": "g4m-w25-wed-014", "question": "Order from smallest to largest: Right angle, Acute angle, Obtuse angle, Reflex angle:", "options": ["Right → Acute → Obtuse → Reflex", "Acute → Right → Obtuse → Reflex", "Reflex → Obtuse → Right → Acute", "Obtuse → Acute → Right → Reflex"], "correctIndex": 1, "explanation": "Acute (< 90°) → Right (= 90°) → Obtuse (90°–180°) → Reflex (180°–360°). This is the correct order.", "tags": ["order"] },
+    { "id": "g4m-w25-wed-015", "question": "A reflex angle and its corresponding angle (the part not covered) together make:", "options": ["90°", "180°", "270°", "360°"], "correctIndex": 3, "explanation": "A reflex angle + its corresponding angle = 360° (a full rotation). For example, 270° reflex + 90° = 360°.", "tags": ["relationship"] }
+  ]
+}

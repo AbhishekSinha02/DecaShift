@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-4-french-w25-tue",
+  "title": "Grade 4 French — Tue, Jun 17",
+  "description": "La ville — Day 2 of 5: Demander son chemin (asking for directions)",
+  "subject": "french",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "la-ville",
+  "tags": ["french", "grade-4", "weekly", "ville", "directions"],
+  "questions": [
+    { "id": "g4f-w25-tue-001", "question": "How do you ask 'Where is the pharmacy?' in French?", "options": ["Comment est la pharmacie?", "Où est la pharmacie?", "Qu'est-ce que la pharmacie?", "Quand est la pharmacie?"], "correctIndex": 1, "explanation": "Où est... = Where is...? Où = where. Où est la pharmacie? = Where is the pharmacy?", "tags": ["asking-directions"] },
+    { "id": "g4f-w25-tue-002", "question": "\"Allez tout droit\" means:", "options": ["Turn left", "Turn right", "Go straight ahead", "Stop here"], "correctIndex": 2, "explanation": "Allez tout droit = go straight ahead. Tout droit = straight ahead. Allez = you go (imperative).", "tags": ["directions"] },
+    { "id": "g4f-w25-tue-003", "question": "\"Tournez à gauche\" means:", "options": ["Go straight", "Turn right", "Turn left", "Take the first road"], "correctIndex": 2, "explanation": "Tournez à gauche = turn left. Gauche = left. Tournez = turn (imperative).", "tags": ["directions"] },
+    { "id": "g4f-w25-tue-004", "question": "\"Tournez à droite\" means:", "options": ["Turn left", "Go straight", "Turn right", "Go back"], "correctIndex": 2, "explanation": "Tournez à droite = turn right. Droite = right. Remember: droite = right, gauche = left.", "tags": ["directions"] },
+    { "id": "g4f-w25-tue-005", "question": "\"Prenez la première rue à gauche\" means:", "options": ["Take the second road on the right", "Take the first road on the left", "Go straight and turn left", "Take the last road on the left"], "correctIndex": 1, "explanation": "Prenez = take; la première = the first; rue = road/street; à gauche = on the left.", "tags": ["directions"] },
+    { "id": "g4f-w25-tue-006", "question": "\"C'est à côté de la gare\" means:", "options": ["It is far from the station", "It is in front of the station", "It is next to the station", "It is behind the station"], "correctIndex": 2, "explanation": "C'est à côté de = it is next to. La gare = the station. C'est à côté de la gare.", "tags": ["directions"] },
+    { "id": "g4f-w25-tue-007", "question": "\"C'est en face de\" means:", "options": ["It is next to", "It is opposite / facing", "It is behind", "It is above"], "correctIndex": 1, "explanation": "En face de = opposite / across from. La pharmacie est en face de la boulangerie = The pharmacy is opposite the bakery.", "tags": ["directions"] },
+    { "id": "g4f-w25-tue-008", "question": "\"C'est loin\" means:", "options": ["It is near", "It is there", "It is far", "It is straight ahead"], "correctIndex": 2, "explanation": "Loin = far. C'est loin = it is far (away). The opposite is C'est près = it is near.", "tags": ["directions"] },
+    { "id": "g4f-w25-tue-009", "question": "Complete the dialogue: 'Excusez-moi, ___ est la mairie?' → 'Tournez à droite, puis allez tout droit.'", "options": ["Comment", "Quand", "Où", "Pourquoi"], "correctIndex": 2, "explanation": "Où est la mairie? = Where is the town hall? Où = where.", "tags": ["dialogue"] },
+    { "id": "g4f-w25-tue-010", "question": "\"Vous êtes ici\" means:", "options": ["You are going here", "You are here (on a map)", "Here is the exit", "Are you here?"], "correctIndex": 1, "explanation": "Vous êtes ici = You are here. Common on maps and signboards. Ici = here.", "tags": ["directions"] },
+    { "id": "g4f-w25-tue-011", "question": "Give directions: 'Go straight, then turn left.' →", "options": ["Allez tout droit, puis tournez à droite.", "Tournez à gauche, puis allez tout droit.", "Allez tout droit, puis tournez à gauche.", "Prenez la rue à droite, puis tout droit."], "correctIndex": 2, "explanation": "Allez tout droit (go straight), puis (then) tournez à gauche (turn left).", "tags": ["give-directions"] },
+    { "id": "g4f-w25-tue-012", "question": "Give directions: 'Take the second road on the right.' →", "options": ["Prenez la première rue à droite.", "Prenez la deuxième rue à droite.", "Prenez la deuxième rue à gauche.", "Allez tout droit à droite."], "correctIndex": 1, "explanation": "Prenez (take) la deuxième (the second) rue (road) à droite (on the right).", "tags": ["give-directions"] },
+    { "id": "g4f-w25-tue-013", "question": "\"C'est près d'ici\" means:", "options": ["It is far from here", "It is here already", "It is near here / close by", "It is on the right"], "correctIndex": 2, "explanation": "Près = near. Près d'ici = near here. C'est près d'ici = It is close by.", "tags": ["directions"] },
+    { "id": "g4f-w25-tue-014", "question": "\"Au carrefour\" means:", "options": ["At the traffic light", "At the roundabout", "At the crossroads / intersection", "At the corner"], "correctIndex": 2, "explanation": "Au carrefour = at the crossroads / intersection. Common landmark in directions.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-tue-015", "question": "Full dialogue: 'Excusez-moi, où est l'hôpital?' → 'Allez tout droit, tournez à droite au carrefour. C'est en face de la pharmacie.' What does this mean?", "options": ["Go left, then straight. It is next to the pharmacy.", "Go straight, turn right at the crossroads. It is opposite the pharmacy.", "Take the first road left. It is behind the pharmacy.", "Go straight. It is near the pharmacy."], "correctIndex": 1, "explanation": "Allez tout droit = go straight; tournez à droite = turn right; au carrefour = at the crossroads; c'est en face de = it is opposite.", "tags": ["dialogue"] }
+  ]
+}

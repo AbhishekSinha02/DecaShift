@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-4-french-w25-mon",
+  "title": "Grade 4 French — Mon, Jun 16",
+  "description": "La ville — Day 1 of 5: Les bâtiments et les lieux (buildings and places)",
+  "subject": "french",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "la-ville",
+  "tags": ["french", "grade-4", "weekly", "ville", "buildings"],
+  "questions": [
+    { "id": "g4f-w25-mon-001", "question": "\"La ville\" means:", "options": ["The village", "The city / town", "The countryside", "The school"], "correctIndex": 1, "explanation": "La ville = the city / town. La village = the village. La campagne = the countryside.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-mon-002", "question": "\"La pharmacie\" means:", "options": ["The bakery", "The school", "The pharmacy / chemist", "The hospital"], "correctIndex": 2, "explanation": "La pharmacie = the pharmacy. You buy medicines there. Related to English 'pharmacy'.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-mon-003", "question": "\"La boulangerie\" means:", "options": ["The butcher's", "The bakery (where bread is made and sold)", "The bookshop", "The library"], "correctIndex": 1, "explanation": "La boulangerie = the bakery. Pain (bread) is bought here. Boulanger = baker.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-mon-004", "question": "\"L'hôpital\" means:", "options": ["The hotel", "The school", "The hospital", "The post office"], "correctIndex": 2, "explanation": "L'hôpital = the hospital. Article becomes l' before a vowel sound. Related to English 'hospital'.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-mon-005", "question": "\"La poste\" (or \"le bureau de poste\") means:", "options": ["The post office", "The police station", "The train station", "The market"], "correctIndex": 0, "explanation": "La poste = the post office. You send letters and parcels here.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-mon-006", "question": "\"La gare\" means:", "options": ["The garage", "The supermarket", "The train station", "The car park"], "correctIndex": 2, "explanation": "La gare = the train station. Trains arrive and depart here.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-mon-007", "question": "\"Le marché\" means:", "options": ["The shop", "The market (outdoor market)", "The museum", "The cinema"], "correctIndex": 1, "explanation": "Le marché = the market. In France, outdoor markets sell fresh food, flowers, and clothes.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-mon-008", "question": "\"La bibliothèque\" means:", "options": ["The bookshop (to buy)", "The library (to borrow books)", "The museum", "The school"], "correctIndex": 1, "explanation": "La bibliothèque = the library (borrow books). La librairie = the bookshop (buy books). Don't confuse them!", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-mon-009", "question": "\"Le musée\" means:", "options": ["The music school", "The museum", "The cinema", "The park"], "correctIndex": 1, "explanation": "Le musée = the museum. Related to 'museum' in English.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-mon-010", "question": "Where do you go to buy bread in France?", "options": ["L'hôpital", "La pharmacie", "La boulangerie", "La bibliothèque"], "correctIndex": 2, "explanation": "You go to la boulangerie to buy bread (pain) and pastries (viennoiseries).", "tags": ["usage"] },
+    { "id": "g4f-w25-mon-011", "question": "Where do you go when you are ill?", "options": ["La gare", "La bibliothèque", "Le marché", "La pharmacie ou l'hôpital"], "correctIndex": 3, "explanation": "When ill: la pharmacie (for medicines, minor illness) or l'hôpital (for serious illness).", "tags": ["usage"] },
+    { "id": "g4f-w25-mon-012", "question": "\"La mairie\" means:", "options": ["The mayor's office / town hall", "The market", "The fire station", "The museum"], "correctIndex": 0, "explanation": "La mairie = the town hall (where the mayor works). Many official French documents are obtained here.", "tags": ["vocabulary"] },
+    { "id": "g4f-w25-mon-013", "question": "Which article do you use with \"école\" (school)?", "options": ["Le", "La", "L' (before vowel)", "Les"], "correctIndex": 2, "explanation": "École starts with a vowel 'é' → l'école. The article contracts to l' before a vowel or h-muet.", "tags": ["grammar-article"] },
+    { "id": "g4f-w25-mon-014", "question": "Complete: \"Dans ma ville, il y a ___ hôpital et ___ bibliothèque.\"", "options": ["un / une", "une / un", "des / des", "le / la"], "correctIndex": 0, "explanation": "L'hôpital = masculine → un hôpital. La bibliothèque = feminine → une bibliothèque. Un hôpital et une bibliothèque.", "tags": ["grammar-article"] },
+    { "id": "g4f-w25-mon-015", "question": "How do you say 'I am going to the market' in French?", "options": ["Je vais au marché.", "Je vais le marché.", "Je vais à le marché.", "Je vais du marché."], "correctIndex": 0, "explanation": "Je vais au marché. À + le = au (contraction). Marché is masculine, so à + le = au.", "tags": ["usage"] }
+  ]
+}

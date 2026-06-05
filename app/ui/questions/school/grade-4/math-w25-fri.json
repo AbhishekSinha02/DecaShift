@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-math-w25-fri",
+  "title": "Grade 4 Math — Fri, Jun 20",
+  "description": "Geometry — Day 5 of 5: Mixed review — lines, angles, and triangles",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-4", "weekly", "geometry", "review"],
+  "questions": [
+    { "id": "g4m-w25-fri-001", "question": "Lines that never meet and are always the same distance apart are called:", "options": ["Perpendicular", "Intersecting", "Parallel", "Curved"], "correctIndex": 2, "explanation": "Parallel lines never intersect and are equidistant. E.g. railway tracks.", "tags": ["lines-review"] },
+    { "id": "g4m-w25-fri-002", "question": "Lines that meet at exactly 90° are:", "options": ["Parallel", "Skew", "Perpendicular", "Curved"], "correctIndex": 2, "explanation": "Perpendicular lines meet at right angles (90°).", "tags": ["lines-review"] },
+    { "id": "g4m-w25-fri-003", "question": "An angle of 75° is classified as:", "options": ["Right", "Obtuse", "Reflex", "Acute"], "correctIndex": 3, "explanation": "75° < 90° → acute angle.", "tags": ["angle-review"] },
+    { "id": "g4m-w25-fri-004", "question": "An angle of 165° is classified as:", "options": ["Acute", "Right", "Obtuse", "Reflex"], "correctIndex": 2, "explanation": "165° is between 90° and 180° → obtuse angle.", "tags": ["angle-review"] },
+    { "id": "g4m-w25-fri-005", "question": "An angle of 300° is classified as:", "options": ["Acute", "Obtuse", "Straight", "Reflex"], "correctIndex": 3, "explanation": "300° > 180° → reflex angle.", "tags": ["angle-review"] },
+    { "id": "g4m-w25-fri-006", "question": "A triangle with all sides 6 cm and all angles 60° is:", "options": ["Isosceles", "Scalene", "Right", "Equilateral"], "correctIndex": 3, "explanation": "All sides equal, all angles 60° → equilateral triangle.", "tags": ["triangle-review"] },
+    { "id": "g4m-w25-fri-007", "question": "A triangle with sides 5 cm, 8 cm, and 5 cm and angles 50°, 80°, 50° is:", "options": ["Scalene", "Equilateral", "Isosceles", "Right"], "correctIndex": 2, "explanation": "Two equal sides (5 cm) and two equal angles (50°) → isosceles triangle.", "tags": ["triangle-review"] },
+    { "id": "g4m-w25-fri-008", "question": "In a right triangle, the two non-right angles must sum to:", "options": ["180°", "90°", "45°", "135°"], "correctIndex": 1, "explanation": "Right angle = 90°. Remaining angles = 180° − 90° = 90°. So the other two angles sum to 90°.", "tags": ["right-triangle"] },
+    { "id": "g4m-w25-fri-009", "question": "The letter 'X' is formed by two straight lines. What type of lines are these?", "options": ["Parallel", "Perpendicular", "Intersecting (but not perpendicular)", "Curved"], "correctIndex": 2, "explanation": "The two lines in 'X' cross each other but not at 90° — they are intersecting lines (not perpendicular).", "tags": ["lines-identify"] },
+    { "id": "g4m-w25-fri-010", "question": "A square has how many pairs of parallel sides?", "options": ["None", "One pair", "Two pairs", "Four pairs"], "correctIndex": 2, "explanation": "A square has 2 pairs of parallel sides: top and bottom parallel, left and right parallel.", "tags": ["apply"] },
+    { "id": "g4m-w25-fri-011", "question": "Find the missing angle: A triangle has angles 55° and 85°. The third angle is:", "options": ["30°", "40°", "50°", "60°"], "correctIndex": 1, "explanation": "180° − 55° − 85° = 40°.", "tags": ["missing-angle"] },
+    { "id": "g4m-w25-fri-012", "question": "A triangle with angles 100°, 40°, and 40° is classified as:", "options": ["Acute isosceles", "Obtuse isosceles", "Right scalene", "Equilateral"], "correctIndex": 1, "explanation": "One angle > 90° (100°) → obtuse. Two equal angles (40° = 40°) → isosceles. So: obtuse isosceles.", "tags": ["double-classify"] },
+    { "id": "g4m-w25-fri-013", "question": "How many right angles does a regular clock face have from 12 to 3, 3 to 6, 6 to 9, 9 to 12?", "options": ["2", "3", "4", "6"], "correctIndex": 2, "explanation": "Each quarter turn (12→3, 3→6, 6→9, 9→12) is 90°. Four such turns = 4 right angles = 360°.", "tags": ["real-life"] },
+    { "id": "g4m-w25-fri-014", "question": "Which of the following shapes has NO right angles?", "options": ["Square", "Rectangle", "Equilateral triangle", "Right triangle"], "correctIndex": 2, "explanation": "Equilateral triangle has all angles = 60° (acute). No right angles. Squares, rectangles, and right triangles all have 90° angles.", "tags": ["identify"] },
+    { "id": "g4m-w25-fri-015", "question": "WEEK STAR: A triangle has one angle that is a right angle and the other two angles are equal. What are the other two angles?", "options": ["30° each", "45° each", "60° each", "90° each"], "correctIndex": 1, "explanation": "Right angle = 90°. Remaining = 180° − 90° = 90°. Split equally: 90° ÷ 2 = 45° each. This is a right isosceles triangle.", "tags": ["synthesis"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w25-fri",
+  "title": "Grade 2 Science — Fri, Jun 20",
+  "description": "Our Food — Day 5 of 5: Mixed review — food sources, taste, healthy eating",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "food", "mixed"],
+  "questions": [
+    { "id": "g2s-w25-fri-001", "question": "Name a food that comes from a plant AND a food that comes from an animal:", "options": ["Rice (plant) and egg (animal)", "Egg (plant) and rice (animal)", "Milk (plant) and mango (animal)", "Honey (plant) and wheat (animal)"], "correctIndex": 0, "explanation": "Rice comes from the rice plant (seed). Eggs come from hens (animals). Both are common, nutritious foods.", "tags": ["food", "review"] },
+    { "id": "g2s-w25-fri-002", "question": "Which part of the plant do we eat when we eat wheat chapati?", "options": ["Root", "Leaf", "Seed (grain)", "Flower"], "correctIndex": 2, "explanation": "Wheat grains are seeds. Chapati flour is made by grinding wheat seeds.", "tags": ["food", "plant-parts"] },
+    { "id": "g2s-w25-fri-003", "question": "Lemon tastes ___. Sugar tastes ___. Salt tastes ___.", "options": ["Sweet / Sour / Salty", "Sour / Sweet / Salty", "Sour / Salty / Sweet", "Bitter / Sweet / Sour"], "correctIndex": 1, "explanation": "Lemon = sour; Sugar = sweet; Salt = salty. These are three of the five basic tastes.", "tags": ["taste", "review"] },
+    { "id": "g2s-w25-fri-004", "question": "Milk is an animal food product. Which of these is made from milk?", "options": ["Bread", "Curd (dahi)", "Rice", "Dal"], "correctIndex": 1, "explanation": "Curd (dahi) is made from milk — a classic Indian milk product. Also: butter, ghee, paneer, cheese.", "tags": ["food", "milk-products"] },
+    { "id": "g2s-w25-fri-005", "question": "Which of these is a leafy vegetable?", "options": ["Mango", "Carrot", "Spinach (palak)", "Potato"], "correctIndex": 2, "explanation": "Spinach (palak) is a leafy vegetable. We eat its leaves. Mango is a fruit, carrot is a root, potato is a stem.", "tags": ["food", "vegetables"] },
+    { "id": "g2s-w25-fri-006", "question": "Why do we need to eat a VARIETY of foods?", "options": ["To spend more money", "Because different foods give different nutrients our body needs", "For taste only", "Because one food has all nutrients"], "correctIndex": 1, "explanation": "No single food has all the nutrients we need. Eating a variety ensures we get carbohydrates, proteins, fats, vitamins, and minerals.", "tags": ["balanced-diet", "review"] },
+    { "id": "g2s-w25-fri-007", "question": "Honey is made by bees from:", "options": ["Water", "Fruit juice", "Nectar collected from flowers", "Tree sap"], "correctIndex": 2, "explanation": "Bees collect nectar from flowers and convert it into honey inside the beehive. Honey is a natural sweetener.", "tags": ["food", "honey"] },
+    { "id": "g2s-w25-fri-008", "question": "Which of these is a junk food?", "options": ["Dal and rice", "Boiled egg", "Fresh apple", "Fried chips"], "correctIndex": 3, "explanation": "Fried chips are junk food — they have too much oil and salt and very few nutrients.", "tags": ["junk-food", "review"] },
+    { "id": "g2s-w25-fri-009", "question": "Match the food to its source: Egg → ___, Mango → ___, Milk → ___", "options": ["Hen / Mango tree / Cow", "Cow / Hen / Mango tree", "Bee / Cow / Hen", "Hen / Cow / Mango tree"], "correctIndex": 0, "explanation": "Egg → hen; Mango → mango tree; Milk → cow (also buffalo, goat).", "tags": ["food", "sources"] },
+    { "id": "g2s-w25-fri-010", "question": "The tongue helps us taste. The nose helps us:", "options": ["Taste bitter foods only", "Smell food (which adds to the taste experience)", "Chew food", "Swallow food"], "correctIndex": 1, "explanation": "The nose helps us smell food. Smell and taste together give us the full flavour experience.", "tags": ["senses", "food"] },
+    { "id": "g2s-w25-fri-011", "question": "Which two foods are both from plants?", "options": ["Egg and milk", "Rice and wheat", "Honey and egg", "Fish and chicken"], "correctIndex": 1, "explanation": "Rice and wheat are both grains — seeds of grass plants. Egg and milk come from animals.", "tags": ["food", "plant-sources"] },
+    { "id": "g2s-w25-fri-012", "question": "Pulses (like moong, chana, masoor) are important because they give us:", "options": ["Fat", "Protein (body-building food)", "Only carbohydrates", "Vitamin C only"], "correctIndex": 1, "explanation": "Pulses (dal) are rich in protein. Protein helps build muscles and repair the body. They are called body-building foods.", "tags": ["food", "nutrition"] },
+    { "id": "g2s-w25-fri-013", "question": "Which habit keeps food safe to eat?", "options": ["Eating with dirty hands", "Leaving cooked food open in the sun", "Covering food and storing it properly", "Eating very old food"], "correctIndex": 2, "explanation": "Covering and properly storing food prevents it from being contaminated by flies, dust, and bacteria.", "tags": ["food", "hygiene"] },
+    { "id": "g2s-w25-fri-014", "question": "An omnivore is an animal that eats:", "options": ["Only plants", "Only animals", "Both plants and animals", "Only seeds"], "correctIndex": 2, "explanation": "Omnivores eat both plant and animal food. Humans are omnivores. Bears, crows, and dogs are also omnivores.", "tags": ["food", "omnivore"] },
+    { "id": "g2s-w25-fri-015", "question": "What is the BEST drink for our body every day?", "options": ["Cola", "Packaged fruit drink", "Water", "Coconut milk only"], "correctIndex": 2, "explanation": "Water is the best drink. Our body needs 6–8 glasses daily to stay hydrated, digest food, and flush out waste.", "tags": ["food", "water"] }
+  ]
+}

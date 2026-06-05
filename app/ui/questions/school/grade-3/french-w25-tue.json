@@ -1,0 +1,33 @@
+{
+  "goalId": "grade-3-french-w25-tue",
+  "title": "Grade 3 French — Tue, Jun 17",
+  "description": "La maison — Day 2 of 5: Les meubles (furniture)",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "conceptId": "la-maison",
+  "tags": ["french", "grade-3", "weekly", "maison", "meubles"],
+  "questions": [
+    { "id": "g3f-w25-tue-001", "question": "\"Les meubles\" means:", "options": ["The walls", "The furniture (tables, chairs, beds, etc.)", "The rooms", "The windows"], "correctIndex": 1, "explanation": "Les meubles = the furniture. 'Les' is the plural definite article.", "tags": ["vocabulary"] },
+    { "id": "g3f-w25-tue-002", "question": "\"Le lit\" means:", "options": ["The table", "The chair", "The bed", "The wardrobe"], "correctIndex": 2, "explanation": "Le lit = the bed. Le = masculine article.", "tags": ["vocabulary"] },
+    { "id": "g3f-w25-tue-003", "question": "\"La table\" means:", "options": ["The chair", "The table", "The desk", "The sofa"], "correctIndex": 1, "explanation": "La table = the table. La = feminine article. Same word as English!", "tags": ["vocabulary"] },
+    { "id": "g3f-w25-tue-004", "question": "\"La chaise\" means:", "options": ["The sofa", "The armchair", "The chair", "The table"], "correctIndex": 2, "explanation": "La chaise = the chair (a regular dining/study chair).", "tags": ["vocabulary"] },
+    { "id": "g3f-w25-tue-005", "question": "\"Le canapé\" means:", "options": ["The armchair", "The sofa / couch", "The bed", "The rug"], "correctIndex": 1, "explanation": "Le canapé = the sofa / couch. Found in the salon (living room).", "tags": ["vocabulary"] },
+    { "id": "g3f-w25-tue-006", "question": "\"L'armoire\" means:", "options": ["The wardrobe / large cupboard", "The mirror", "The window", "The lamp"], "correctIndex": 0, "explanation": "L'armoire = the wardrobe or large cupboard. It starts with a vowel, so l' is used.", "tags": ["vocabulary"] },
+    { "id": "g3f-w25-tue-007", "question": "\"La fenêtre\" means:", "options": ["The door", "The window", "The floor", "The ceiling"], "correctIndex": 1, "explanation": "La fenêtre = the window. The ê indicates a dropped 's' from old French (fenestre).", "tags": ["vocabulary"] },
+    { "id": "g3f-w25-tue-008", "question": "\"La porte\" means:", "options": ["The window", "The wall", "The door", "The gate"], "correctIndex": 2, "explanation": "La porte = the door.", "tags": ["vocabulary"] },
+    { "id": "g3f-w25-tue-009", "question": "Which furniture would you find in \"la chambre\" (bedroom)?", "options": ["Le canapé et la table à manger", "Le lit et l'armoire", "Le four et le réfrigérateur", "La baignoire et le lavabo"], "correctIndex": 1, "explanation": "In a bedroom: le lit (the bed) and l'armoire (the wardrobe). The others belong in salon, cuisine, and salle de bains.", "tags": ["room-match"] },
+    { "id": "g3f-w25-tue-010", "question": "Which furniture belongs in \"la cuisine\" (kitchen)?", "options": ["Le lit et l'armoire", "Le canapé et la télévision", "La table, les chaises et le réfrigérateur", "La baignoire et le miroir"], "correctIndex": 2, "explanation": "In the kitchen: la table (table), les chaises (chairs), le réfrigérateur (fridge).", "tags": ["room-match"] },
+    { "id": "g3f-w25-tue-011", "question": "\"Le réfrigérateur\" means:", "options": ["The oven", "The refrigerator / fridge", "The microwave", "The washing machine"], "correctIndex": 1, "explanation": "Le réfrigérateur = the refrigerator. Often shortened to 'le frigo' in everyday French.", "tags": ["vocabulary"] },
+    { "id": "g3f-w25-tue-012", "question": "Complete the sentence: \"Dans le salon, il y a un canapé et ___ télévision.\"", "options": ["un", "une", "des", "le"], "correctIndex": 1, "explanation": "La télévision is feminine, so 'une' télévision. Il y a une télévision = there is a television.", "tags": ["grammar-article"] },
+    { "id": "g3f-w25-tue-013", "question": "How do you say 'There is a table' in French?", "options": ["Il y a une table.", "Il y a un table.", "Il y a des table.", "Il y a la table."], "correctIndex": 0, "explanation": "Il y a une table. La table is feminine, so use 'une' (indefinite article) for 'a table'.", "tags": ["il-y-a"] },
+    { "id": "g3f-w25-tue-014", "question": "\"Il y a\" means:", "options": ["He goes", "There is / there are", "He has", "There was"], "correctIndex": 1, "explanation": "Il y a = there is / there are. It is used for both singular and plural. Il y a un lit (there is a bed). Il y a des chaises (there are chairs).", "tags": ["il-y-a"] },
+    { "id": "g3f-w25-tue-015", "question": "Describe your bedroom: 'In my bedroom there is a bed and a wardrobe.'", "options": ["Dans ma chambre, il y a un lit et une armoire.", "Dans ma chambre, il y a une lit et un armoire.", "Dans ma chambre, il y a des lit et des armoire.", "Dans ma chambre, il y a le lit et l'armoire."], "correctIndex": 0, "explanation": "Un lit (masc.) et une armoire (fem.). Dans ma chambre, il y a un lit et une armoire.", "tags": ["usage"] }
+  ]
+}

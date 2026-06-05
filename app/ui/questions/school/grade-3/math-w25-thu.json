@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-math-w25-thu",
+  "title": "Grade 3 Math — Thu, Jun 19",
+  "description": "Decimals — Day 4 of 5: Adding decimals (up to 2 decimal places)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["math", "grade-3", "weekly", "decimals", "addition"],
+  "questions": [
+    { "id": "g3m-w25-thu-001", "question": "When adding decimals, always line up the ___.", "options": ["largest digits first", "decimal points", "smallest digits first", "ones column on the right"], "correctIndex": 1, "explanation": "Always align the decimal points. Then add digit by digit from right to left, just like whole number addition.", "tags": ["decimals", "addition-rule"] },
+    { "id": "g3m-w25-thu-002", "question": "0.3 + 0.5 = ___.", "options": ["0.08", "0.8", "8", "0.35"], "correctIndex": 1, "explanation": "3 tenths + 5 tenths = 8 tenths = 0.8.", "tags": ["decimals", "addition"] },
+    { "id": "g3m-w25-thu-003", "question": "0.6 + 0.7 = ___.", "options": ["0.13", "1.3", "1.13", "13"], "correctIndex": 1, "explanation": "6 tenths + 7 tenths = 13 tenths = 1.3 (regroup: 10 tenths = 1 one).", "tags": ["decimals", "addition-carry"] },
+    { "id": "g3m-w25-thu-004", "question": "1.2 + 2.5 = ___.", "options": ["3.7", "3.07", "37", "1.25"], "correctIndex": 0, "explanation": "Tenths: 2+5=7. Ones: 1+2=3. Answer: 3.7.", "tags": ["decimals", "addition"] },
+    { "id": "g3m-w25-thu-005", "question": "2.34 + 1.25 = ___.", "options": ["3.59", "3.509", "359", "3.95"], "correctIndex": 0, "explanation": "Hundredths: 4+5=9. Tenths: 3+2=5. Ones: 2+1=3. Answer: 3.59.", "tags": ["decimals", "addition"] },
+    { "id": "g3m-w25-thu-006", "question": "3.7 + 0.5 = ___.", "options": ["4.2", "4.12", "3.75", "3.12"], "correctIndex": 0, "explanation": "Tenths: 7+5=12 tenths → write 2 carry 1. Ones: 3+0+1(carry)=4. Answer: 4.2.", "tags": ["decimals", "addition-carry"] },
+    { "id": "g3m-w25-thu-007", "question": "0.45 + 0.38 = ___.", "options": ["0.73", "0.83", "1.83", "0.738"], "correctIndex": 1, "explanation": "Hundredths: 5+8=13 → write 3, carry 1. Tenths: 4+3+1=8. Ones: 0. Answer: 0.83.", "tags": ["decimals", "addition-carry"] },
+    { "id": "g3m-w25-thu-008", "question": "Anita walked 1.5 km in the morning and 0.8 km in the evening. How far did she walk in all?", "options": ["1.3 km", "2.3 km", "2.13 km", "1.58 km"], "correctIndex": 1, "explanation": "1.5 + 0.8 = ? Tenths: 5+8=13 → write 3, carry 1. Ones: 1+0+1=2. Answer: 2.3 km.", "tags": ["decimals", "word-problem"] },
+    { "id": "g3m-w25-thu-009", "question": "A bag of rice weighs 2.75 kg and a bag of dal weighs 1.20 kg. Total weight = ___.", "options": ["3.95 kg", "3.059 kg", "4.05 kg", "3.90 kg"], "correctIndex": 0, "explanation": "Hundredths: 5+0=5. Tenths: 7+2=9. Ones: 2+1=3. Answer: 3.95 kg.", "tags": ["decimals", "word-problem"] },
+    { "id": "g3m-w25-thu-010", "question": "4.08 + 2.35 = ___.", "options": ["6.43", "6.34", "64.3", "6.043"], "correctIndex": 0, "explanation": "Hundredths: 8+5=13 → write 3, carry 1. Tenths: 0+3+1=4. Ones: 4+2=6. Answer: 6.43.", "tags": ["decimals", "addition-carry"] },
+    { "id": "g3m-w25-thu-011", "question": "What is 0.1 + 0.1 + 0.1?", "options": ["0.03", "3.0", "0.3", "0.001"], "correctIndex": 2, "explanation": "0.1 + 0.1 + 0.1 = 0.3. Three tenths.", "tags": ["decimals", "repeated-addition"] },
+    { "id": "g3m-w25-thu-012", "question": "Priya has ₹4.50 and Rahul has ₹3.75. Together they have ₹___.", "options": ["₹8.25", "₹7.25", "₹8.15", "₹7.35"], "correctIndex": 0, "explanation": "Paise: 50+75=125 → ₹1.25 (1 rupee carry + 25 paise). Rupees: 4+3+1=8. Total: ₹8.25.", "tags": ["decimals", "money"] },
+    { "id": "g3m-w25-thu-013", "question": "Add: 5.0 + 3.7 = ___.", "options": ["8.7", "53.7", "8.07", "57.0"], "correctIndex": 0, "explanation": "5.0 + 3.7: Tenths: 0+7=7. Ones: 5+3=8. Answer: 8.7.", "tags": ["decimals", "addition"] },
+    { "id": "g3m-w25-thu-014", "question": "Three friends ran 0.5 km, 0.75 km, and 0.25 km. What is the total distance?", "options": ["1.5 km", "1.6 km", "1.25 km", "1.75 km"], "correctIndex": 0, "explanation": "0.5 + 0.75 + 0.25 = 0.50 + 0.75 + 0.25 = 1.50 = 1.5 km.", "tags": ["decimals", "word-problem"] },
+    { "id": "g3m-w25-thu-015", "question": "2.63 + 1.74 = ___.", "options": ["4.37", "4.47", "3.37", "4.73"], "correctIndex": 0, "explanation": "Hundredths: 3+4=7. Tenths: 6+7=13 → write 3, carry 1. Ones: 2+1+1=4. Answer: 4.37.", "tags": ["decimals", "addition-carry"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w25-wed",
+  "title": "Grade 4 Science — Wed, Jun 18",
+  "description": "Skeletal System — Day 3 of 5: Joints — types and functions",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 2,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "skeletal-system", "joints"],
+  "questions": [
+    { "id": "g4s-w25-wed-001", "question": "A joint is:", "options": ["A type of bone", "The place where two or more bones meet", "A muscle", "A type of cartilage"], "correctIndex": 1, "explanation": "A joint is the point where two or more bones meet. Joints allow movement (in moveable joints) or provide strength (in fixed joints).", "tags": ["definition"] },
+    { "id": "g4s-w25-wed-002", "question": "How many main types of joints are there?", "options": ["Two (moveable and immoveable)", "Three (hinge, ball-and-socket, pivot)", "Four (hinge, ball-and-socket, pivot, gliding)", "One (all joints are the same"], "correctIndex": 0, "explanation": "Broadly: moveable joints (allow movement) and immoveable/fixed joints (no movement). Moveable joints include hinge, ball-and-socket, pivot, and gliding types.", "tags": ["types"] },
+    { "id": "g4s-w25-wed-003", "question": "A HINGE JOINT allows movement:", "options": ["In all directions like a ball", "In one direction only — like opening and closing a door", "Only rotation", "No movement at all"], "correctIndex": 1, "explanation": "A hinge joint moves in one plane (like a door hinge). Bending and straightening only. Found at the elbow and knee.", "tags": ["hinge"] },
+    { "id": "g4s-w25-wed-004", "question": "Examples of hinge joints are:", "options": ["Shoulder and hip", "Knee and elbow", "Neck and wrist", "Ankle and spine"], "correctIndex": 1, "explanation": "The knee and elbow are classic hinge joints — they bend and straighten in one direction.", "tags": ["hinge"] },
+    { "id": "g4s-w25-wed-005", "question": "A BALL-AND-SOCKET joint allows movement:", "options": ["In one direction only", "In two directions", "In all directions (forward, backward, sideways, rotation)", "No movement"], "correctIndex": 2, "explanation": "Ball-and-socket joints allow the greatest range of motion — in all directions. The ball (round end of one bone) fits into a socket (cup) of another.", "tags": ["ball-socket"] },
+    { "id": "g4s-w25-wed-006", "question": "Examples of ball-and-socket joints are:", "options": ["Knee and elbow", "Shoulder and hip", "Finger and toe joints", "Skull and jaw"], "correctIndex": 1, "explanation": "The shoulder and hip are ball-and-socket joints. You can swing your arm and leg in wide circles — that is ball-and-socket movement.", "tags": ["ball-socket"] },
+    { "id": "g4s-w25-wed-007", "question": "A PIVOT JOINT allows:", "options": ["Bending in one plane only", "Rotation — turning in a circle", "All-direction movement", "No movement"], "correctIndex": 1, "explanation": "Pivot joints allow rotation. The joint between the first and second vertebrae of the neck is a pivot joint — it lets you shake your head 'no'.", "tags": ["pivot"] },
+    { "id": "g4s-w25-wed-008", "question": "Which action uses a pivot joint?", "options": ["Bending your elbow", "Moving your hip in a circle", "Shaking your head side to side ('no')", "Kicking a ball"], "correctIndex": 2, "explanation": "Shaking your head 'no' (side to side) uses the pivot joint between the atlas (C1) and axis (C2) vertebrae in the neck.", "tags": ["pivot"] },
+    { "id": "g4s-w25-wed-009", "question": "FIXED (IMMOVEABLE) joints are joints that:", "options": ["Allow full rotation", "Allow only one direction of movement", "Allow no movement — bones are locked together", "Allow bending"], "correctIndex": 2, "explanation": "Fixed joints (synarthroses) allow no movement. They join bones firmly for protection. The skull's joints are fixed — the bones are fused.", "tags": ["fixed"] },
+    { "id": "g4s-w25-wed-010", "question": "The joints in the skull (cranium) are:", "options": ["Hinge joints", "Ball-and-socket joints", "Pivot joints", "Fixed/immoveable joints (sutures)"], "correctIndex": 3, "explanation": "The bones of the skull are joined by immoveable joints called sutures. They protect the brain by holding the skull firmly together.", "tags": ["fixed"] },
+    { "id": "g4s-w25-wed-011", "question": "Cartilage at joints acts as a:", "options": ["Muscle that moves bones", "Cushion (shock absorber) that reduces friction between bones", "Blood vessel", "Nerve"], "correctIndex": 1, "explanation": "Cartilage covers the ends of bones at joints, acting as a shock absorber and reducing friction so bones don't grind against each other.", "tags": ["cartilage"] },
+    { "id": "g4s-w25-wed-012", "question": "Ligaments are:", "options": ["Muscles that move bones", "Tendons connecting muscle to bone", "Tough, flexible bands that connect bone to bone at joints", "Blood vessels in joints"], "correctIndex": 2, "explanation": "Ligaments are tough, flexible connective tissues that hold bones together at joints. They prevent excessive movement and dislocation.", "tags": ["ligament"] },
+    { "id": "g4s-w25-wed-013", "question": "Which of these actions uses a BALL-AND-SOCKET joint?", "options": ["Bending your knee", "Rotating your shoulder to throw a cricket ball", "Nodding your head (yes)", "Bending your finger"], "correctIndex": 1, "explanation": "Throwing a cricket ball involves rotating the shoulder in wide arcs — a ball-and-socket movement.", "tags": ["apply"] },
+    { "id": "g4s-w25-wed-014", "question": "Why do elderly people sometimes have stiff or painful joints?", "options": ["Their bones grow too fast", "Cartilage wears down over time, causing friction and pain (arthritis)", "They have extra ligaments", "Their muscles become too strong"], "correctIndex": 1, "explanation": "With age, cartilage at joints can wear down, causing bones to rub together. This leads to arthritis — pain and stiffness in joints.", "tags": ["joint-health"] },
+    { "id": "g4s-w25-wed-015", "question": "Which joint type gives you the GREATEST range of movement?", "options": ["Hinge joint", "Pivot joint", "Fixed joint", "Ball-and-socket joint"], "correctIndex": 3, "explanation": "Ball-and-socket joints (shoulder, hip) provide movement in all directions — the greatest range of any joint type.", "tags": ["comparison"] }
+  ]
+}
