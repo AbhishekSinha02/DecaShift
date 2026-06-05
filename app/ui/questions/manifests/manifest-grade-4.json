@@ -81,5 +81,10 @@
   { "file": "school/grade-4/hindi-w24-tue.json",  "category": "school", "grade": 4, "subject": "hindi",       "level": 1, "weekNum": 24, "weekDay": "tue" },
   { "file": "school/grade-4/hindi-w24-wed.json",  "category": "school", "grade": 4, "subject": "hindi",       "level": 1, "weekNum": 24, "weekDay": "wed" },
   { "file": "school/grade-4/hindi-w24-thu.json",  "category": "school", "grade": 4, "subject": "hindi",       "level": 1, "weekNum": 24, "weekDay": "thu" },
-  { "file": "school/grade-4/hindi-w24-fri.json",  "category": "school", "grade": 4, "subject": "hindi",       "level": 1, "weekNum": 24, "weekDay": "fri" }
+  { "file": "school/grade-4/hindi-w24-fri.json",  "category": "school", "grade": 4, "subject": "hindi",       "level": 1, "weekNum": 24, "weekDay": "fri" },
+  { "file": "school/grade-4/french-w24-mon.json", "category": "school", "grade": 4, "subject": "french",      "level": 1, "weekNum": 24, "weekDay": "mon" },
+  { "file": "school/grade-4/french-w24-tue.json", "category": "school", "grade": 4, "subject": "french",      "level": 1, "weekNum": 24, "weekDay": "tue" },
+  { "file": "school/grade-4/french-w24-wed.json", "category": "school", "grade": 4, "subject": "french",      "level": 1, "weekNum": 24, "weekDay": "wed" },
+  { "file": "school/grade-4/french-w24-thu.json", "category": "school", "grade": 4, "subject": "french",      "level": 1, "weekNum": 24, "weekDay": "thu" },
+  { "file": "school/grade-4/french-w24-fri.json", "category": "school", "grade": 4, "subject": "french",      "level": 1, "weekNum": 24, "weekDay": "fri" }
 ]
