@@ -61,7 +61,7 @@
 
 ## Pending Queue — Content
 
-> W21–W24 complete (all subjects, grades 2–8). W25 grades 2–5 complete (C8, `12a5061`). **W25 grades 6–8 = C9 (NEXT)**. W26+ not yet started.
+> W21–W25 ALL complete (all subjects, grades 2–8). C9 done 2026-06-05 (`16e4f67`). **W26 not yet started. C10 = grades 9–12 enrichment sets (NEXT).**
 > **W23 grade 9-12 now has 5 sets per subject** (set1–set5, ~15q each = ~75q/subject/week) — no free/pro gating defined yet. Grades 2–8 use daily files (5 days × 15q).
 > Full 3-month plan: `tasks/marketing/CONTENT-GEN-3MONTH-PLAN.md`
 > Run just-in-time (~2 weeks ahead). Say **"start questions generation"** → auto-executes (loads memory/next_session_question_generation.md).
@@ -73,8 +73,8 @@
 | ~~C6~~ | ✅ **DONE 2026-06-04** (commit `da5a995`) | **W24 Hindi grades 2–8 — 35 files, 525q.** |
 | ~~C7~~ | ✅ **DONE 2026-06-04** (commit `a9bc5c4`) | **W24 French grades 2–8 — 35 files, 525q.** |
 | ~~C8~~ | ✅ **DONE 2026-06-05** (commit `12a5061`) | **W25 grades 2–5 all subjects — 80 files, 1,200q. G2 Math=Time · G2 Science=Our Food · G2 Hindi=सर्वनाम · G2 French=couleurs+vêtements · G3 Math=Decimals · G3 Science=Water · G3 Hindi=वचन · G3 French=la maison · G4 Math=Geometry · G4 Science=Bones+Muscles · G4 Hindi=कारक · G4 French=la ville · G5 Math=Data/graphs/stats · G5 Science=Respiratory system · G5 Hindi=मुहावरे+लोकोक्तियाँ · G5 French=le corps humain.** |
-| **C9** | 🔴 **P1 NEXT** | **W25 grades 6–8 all subjects — 60 files, 900q.** G6 Math=Triangles+Quadrilaterals · G6 Science=Changes Around Us · G6 Hindi=क्रिया · G6 French=La nourriture · G7 Math=Algebraic Expressions · G7 Science=Nutrition in Plants · G7 Hindi=लोकोक्तियाँ · G7 French=L'imparfait · G8 Math=Playing with Numbers · G8 Science=Coal+Petroleum · G8 Hindi=अलंकार · G8 French=Le futur simple. **Say "start questions generation" → auto-executes from memory.** |
-| C10 | 🔵 P3 | Grades 9–12 enrichment sets (set-model, not daily) — Grade 10→9→12→11 Math+Science+Physics+Chemistry |
+| ~~C9~~ | ✅ **DONE 2026-06-05** (commit `16e4f67`) | **W25 grades 6–8 all subjects — 60 files, 900q. G6: Math=Triangles+Quads · Science=Changes Around Us · Hindi=क्रिया · French=La nourriture. G7: Math=Algebraic Expressions · Science=Nutrition in Plants · Hindi=लोकोक्तियाँ · French=L'imparfait. G8: Math=Playing with Numbers · Science=Coal+Petroleum · Hindi=अलंकार · French=Le futur simple. Manifests updated.** |
+| **C10** | 🔴 **P1 NEXT** | **Grades 9–12 enrichment sets (set-model, not daily) — Grade 10→9→12→11 Math+Science+Physics+Chemistry. Say "start questions generation" → auto-executes from memory.** |
 
 ---
 
@@ -93,6 +93,7 @@ See `sessions/completed/` for full session files. Summary only here.
 
 | Date | What | Commit |
 |---|---|---|
+| 2026-06-05 | C9: W25 grades 6–8 all subjects (60 files, 900q) — Math/Science/Hindi/French grades 6/7/8; manifests updated | `16e4f67` |
 | 2026-06-05 | C8: W25 grades 2–5 all subjects (80 files, 1,200q) — Math/Science/Hindi/French; manifests updated | `12a5061` |
 | 2026-06-04 | P2-T046 full-state cross-device sync + FEAT-006 Help & Feedback + folder naming `Name_loginId_userId`; v6.1-stable; v5.0-dev→v6.0 backup | `v6.1-stable` |
 | 2026-06-03 | BUG-025/015 fixed; row polish; FEAT-001; v4.3→v4.4 | `005420f` |
