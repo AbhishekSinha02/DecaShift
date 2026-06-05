@@ -31,5 +31,9 @@
   { "file": "school/grade-9/social-science/w23-set3.json",             "category": "school", "grade": 9, "subject": "social-science", "level": 1, "weekNum": 23 },
   { "file": "school/grade-9/social-science/w23-set4.json",             "category": "school", "grade": 9, "subject": "social-science", "level": 1, "weekNum": 23 },
   { "file": "school/grade-9/social-science/w23-set5.json",             "category": "school", "grade": 9, "subject": "social-science", "level": 1, "weekNum": 23 },
-  { "file": "school/grade-9/social-science/w24-set1.json",             "category": "school", "grade": 9, "subject": "social-science", "level": 1, "weekNum": 24 }
+  { "file": "school/grade-9/social-science/w24-set1.json",             "category": "school", "grade": 9, "subject": "social-science", "level": 1, "weekNum": 24 },
+  { "file": "school/grade-9/mathematics/w25-set1.json",                "category": "school", "grade": 9, "subject": "mathematics",    "level": 1, "weekNum": 25 },
+  { "file": "school/grade-9/science/w25-set1.json",                    "category": "school", "grade": 9, "subject": "science",        "level": 1, "weekNum": 25 },
+  { "file": "school/grade-9/english/w25-set1.json",                    "category": "school", "grade": 9, "subject": "english",        "level": 1, "weekNum": 25 },
+  { "file": "school/grade-9/social-science/w25-set1.json",             "category": "school", "grade": 9, "subject": "social-science", "level": 1, "weekNum": 25 }
 ]

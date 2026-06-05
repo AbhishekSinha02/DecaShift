@@ -1,0 +1,188 @@
+{
+  "goalId": "grade9-social-science",
+  "title": "Grade 9 Social Science — Climate of India",
+  "description": "Geography Chapter 4: Indian monsoon, seasons, temperature, rainfall distribution, climate controls",
+  "category": "school",
+  "grade": 9,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social-science_9_climate_001",
+      "goalId": "grade9-social-science",
+      "question": "The word 'monsoon' is derived from the Arabic word 'mausim', which means:",
+      "options": ["Rain", "Wind", "Season", "Ocean"],
+      "correctIndex": 2,
+      "explanation": "The Arabic word 'mausim' means 'season'. The Indian monsoon is a seasonal reversal of wind direction — it blows from the sea to land in summer (south-west monsoon) and from land to sea in winter (north-east monsoon).",
+      "difficulty": "easy",
+      "tags": ["climate", "monsoon", "etymology"]
+    },
+    {
+      "id": "q_social-science_9_climate_002",
+      "goalId": "grade9-social-science",
+      "question": "The South-West Monsoon brings rainfall to India primarily because:",
+      "options": [
+        "The Himalayas cause snowmelt",
+        "The low pressure over the Thar Desert attracts moisture-laden winds from the Indian Ocean",
+        "The Bay of Bengal sends cold winds",
+        "Western Disturbances bring rain"
+      ],
+      "correctIndex": 1,
+      "explanation": "In summer, intense heating of the Indian landmass (especially the Thar Desert) creates a low pressure area. This attracts moisture-laden winds from the high-pressure zone over the Indian Ocean, resulting in the South-West Monsoon.",
+      "difficulty": "medium",
+      "tags": ["climate", "monsoon", "mechanism"]
+    },
+    {
+      "id": "q_social-science_9_climate_003",
+      "goalId": "grade9-social-science",
+      "question": "Mawsynram in Meghalaya receives the highest rainfall in the world because of:",
+      "options": [
+        "Its proximity to the Bay of Bengal",
+        "The funnel shape of the terrain that concentrates moisture-laden winds",
+        "Its location near the Himalayas",
+        "It lies in the Thar Desert region"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mawsynram (and nearby Cherrapunji) receives extreme rainfall because the terrain creates a funnel effect — the hills force moist South-West Monsoon winds to rise rapidly, causing heavy orographic (relief) rainfall.",
+      "difficulty": "medium",
+      "tags": ["climate", "rainfall", "mawsynram"]
+    },
+    {
+      "id": "q_social-science_9_climate_004",
+      "goalId": "grade9-social-science",
+      "question": "The North-East Monsoon (retreating monsoon) brings most rainfall to which coast of India?",
+      "options": ["Malabar Coast (Kerala)", "Western Ghats", "Coromandel Coast (Tamil Nadu)", "Gujarat coast"],
+      "correctIndex": 2,
+      "explanation": "The North-East Monsoon winds blow from land toward sea during October–November. They pick up moisture from the Bay of Bengal and bring heavy rainfall to the Coromandel Coast (Tamil Nadu, southern Andhra Pradesh) — that's why Chennai gets most of its rain in winter.",
+      "difficulty": "medium",
+      "tags": ["climate", "monsoon", "coromandel-coast"]
+    },
+    {
+      "id": "q_social-science_9_climate_005",
+      "goalId": "grade9-social-science",
+      "question": "Western Disturbances bring winter rainfall to:",
+      "options": ["South India", "North-West India (Punjab, Haryana, J&K)", "North-East India", "Eastern coast"],
+      "correctIndex": 1,
+      "explanation": "Western Disturbances are extra-tropical cyclones that originate over the Mediterranean Sea and travel eastward. They bring winter rains (and snowfall) to north-west India — important for Rabi crops like wheat.",
+      "difficulty": "medium",
+      "tags": ["climate", "western-disturbances", "winter-rain"]
+    },
+    {
+      "id": "q_social-science_9_climate_006",
+      "goalId": "grade9-social-science",
+      "question": "The 'October Heat' refers to:",
+      "options": [
+        "Extreme summer heat in October",
+        "Hot and humid conditions during the retreating monsoon (October–November)",
+        "Dust storms in Rajasthan",
+        "The heat island effect in cities"
+      ],
+      "correctIndex": 1,
+      "explanation": "October Heat (or the 'October sky') describes the oppressively hot and humid conditions as the South-West Monsoon retreats during October–November. The sun's rays are still strong, and humidity is high.",
+      "difficulty": "easy",
+      "tags": ["climate", "seasons", "october-heat"]
+    },
+    {
+      "id": "q_social-science_9_climate_007",
+      "goalId": "grade9-social-science",
+      "question": "India has a _______ type of climate.",
+      "options": ["Tropical monsoon", "Mediterranean", "Continental", "Tundra"],
+      "correctIndex": 0,
+      "explanation": "India has a tropical monsoon climate, characterised by distinct wet (monsoon) and dry seasons, high temperatures, and rainfall largely brought by the South-West Monsoon (June–September).",
+      "difficulty": "easy",
+      "tags": ["climate", "type-of-climate"]
+    },
+    {
+      "id": "q_social-science_9_climate_008",
+      "goalId": "grade9-social-science",
+      "question": "The coldest month in northern India is usually:",
+      "options": ["November", "December", "January", "February"],
+      "correctIndex": 2,
+      "explanation": "January is the coldest month in northern India. Cold waves from Central Asia and the Himalayas significantly lower temperatures in the Northern Plains during this month.",
+      "difficulty": "easy",
+      "tags": ["climate", "seasons", "cold-weather-season"]
+    },
+    {
+      "id": "q_social-science_9_climate_009",
+      "goalId": "grade9-social-science",
+      "question": "The 'Mango Showers' or 'Blossom Showers' are pre-monsoon showers important for which crop?",
+      "options": ["Wheat", "Mango and tea", "Rice", "Cotton"],
+      "correctIndex": 1,
+      "explanation": "Pre-monsoon showers ('Mango Showers' in Kerala/Karnataka; 'Blossom Showers' for coffee plantations) occur in April–May. They are vital for the mango crop and tea/coffee cultivation in South India.",
+      "difficulty": "medium",
+      "tags": ["climate", "pre-monsoon", "mango-showers"]
+    },
+    {
+      "id": "q_social-science_9_climate_010",
+      "goalId": "grade9-social-science",
+      "question": "'Loo' is a strong, hot, and dry wind that blows in:",
+      "options": ["Southern India in summer", "The Northern Plains in summer (May–June)", "North-East India in winter", "The Western Ghats in monsoon season"],
+      "correctIndex": 1,
+      "explanation": "'Loo' is a hot, dry, dust-laden wind that blows over the Northern Plains (Punjab to Bihar) during May–June afternoons. It can cause heat strokes and is characteristic of the hot weather season.",
+      "difficulty": "medium",
+      "tags": ["climate", "local-winds", "loo"]
+    },
+    {
+      "id": "q_social-science_9_climate_011",
+      "goalId": "grade9-social-science",
+      "question": "Which of the following factors controls the climate of India?",
+      "options": [
+        "Latitude and the Himalayas",
+        "Soil type and vegetation",
+        "Ocean currents only",
+        "Longitude"
+      ],
+      "correctIndex": 0,
+      "explanation": "Key factors controlling India's climate: (1) Latitude — most of India lies in the tropics; (2) The Himalayan barrier — blocks cold Arctic winds and traps monsoon moisture; (3) Land-sea relationship; (4) Distance from sea (continentality); (5) Altitude; (6) Ocean currents and winds.",
+      "difficulty": "medium",
+      "tags": ["climate", "controls-of-climate"]
+    },
+    {
+      "id": "q_social-science_9_climate_012",
+      "goalId": "grade9-social-science",
+      "question": "The 'burst of monsoon' describes:",
+      "options": [
+        "The end of the monsoon season",
+        "The sudden onset of monsoon with violent thunder and rain",
+        "A drought period",
+        "The peak of winter rainfall"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'burst of monsoon' refers to the sudden arrival of the South-West Monsoon (typically in Kerala around June 1) with torrential rain, thunder, and lightning — a dramatic change from the hot pre-monsoon conditions.",
+      "difficulty": "easy",
+      "tags": ["climate", "monsoon", "burst-of-monsoon"]
+    },
+    {
+      "id": "q_social-science_9_climate_013",
+      "goalId": "grade9-social-science",
+      "question": "Which region of India receives the least annual rainfall?",
+      "options": ["Kerala", "Assam", "Rajasthan (Thar Desert)", "Tamil Nadu"],
+      "correctIndex": 2,
+      "explanation": "Rajasthan and especially the Thar Desert receive the least rainfall (< 25 cm per year) because the Aravalli Mountains lie parallel to the monsoon winds rather than blocking them. Kerala receives the highest rainfall in peninsular India.",
+      "difficulty": "medium",
+      "tags": ["climate", "rainfall-distribution", "thar-desert"]
+    },
+    {
+      "id": "q_social-science_9_climate_014",
+      "goalId": "grade9-social-science",
+      "question": "During the Cold Weather Season (winter), which wind type prevails over India?",
+      "options": ["South-West Monsoon winds", "North-East Trade Winds", "Westerlies", "Polar winds"],
+      "correctIndex": 1,
+      "explanation": "In winter, North-East Trade Winds (offshore winds) blow from the high pressure over Central Asia and north India toward the sea. They are mostly dry — except over the Bay of Bengal where they pick up moisture for the Coromandel Coast.",
+      "difficulty": "medium",
+      "tags": ["climate", "seasons", "north-east-monsoon"]
+    },
+    {
+      "id": "q_social-science_9_climate_015",
+      "goalId": "grade9-social-science",
+      "question": "The 'unifying bond' of India's diverse landscape and people is often described as:",
+      "options": ["The Himalayas", "The Indian Ocean", "The monsoon", "The Deccan Plateau"],
+      "correctIndex": 2,
+      "explanation": "The monsoon is called the 'unifying bond' of India — it governs the agricultural cycle, festivals, culture, and daily life of people across the subcontinent, cutting across the immense diversity of geography and population.",
+      "difficulty": "easy",
+      "tags": ["climate", "monsoon", "unifying-bond"]
+    }
+  ]
+}

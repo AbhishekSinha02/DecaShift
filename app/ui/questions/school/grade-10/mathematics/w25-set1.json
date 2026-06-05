@@ -1,0 +1,168 @@
+{
+  "goalId": "grade10-mathematics",
+  "title": "Grade 10 Mathematics — Heights & Distances + Statistics",
+  "description": "Applications of Trigonometry (Heights and Distances) and Statistics practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_10_heights_001",
+      "goalId": "grade10-mathematics",
+      "question": "The angle of elevation of the top of a tower from a point on the ground 30 m away is 30°. The height of the tower is:",
+      "options": ["10√3 m", "30√3 m", "10 m", "15 m"],
+      "correctIndex": 0,
+      "explanation": "tan 30° = h/30 → h = 30 × tan 30° = 30 × (1/√3) = 30/√3 = 10√3 m.",
+      "difficulty": "easy",
+      "tags": ["heights-distances", "angle-of-elevation"]
+    },
+    {
+      "id": "q_mathematics_10_heights_002",
+      "goalId": "grade10-mathematics",
+      "question": "The angle of elevation of a point on a wall from the ground at a horizontal distance of 10 m is 45°. The height of that point is:",
+      "options": ["5 m", "10 m", "10√2 m", "20 m"],
+      "correctIndex": 1,
+      "explanation": "tan 45° = h/10 → h = 10 × 1 = 10 m.",
+      "difficulty": "easy",
+      "tags": ["heights-distances", "angle-of-elevation"]
+    },
+    {
+      "id": "q_mathematics_10_heights_003",
+      "goalId": "grade10-mathematics",
+      "question": "A ladder 20 m long leans against a vertical wall. If its foot is 10 m from the base of the wall, the angle made with the ground is:",
+      "options": ["30°", "45°", "60°", "90°"],
+      "correctIndex": 2,
+      "explanation": "cos θ = adjacent/hypotenuse = 10/20 = 1/2 → θ = 60°.",
+      "difficulty": "easy",
+      "tags": ["heights-distances", "ladder-problem"]
+    },
+    {
+      "id": "q_mathematics_10_heights_004",
+      "goalId": "grade10-mathematics",
+      "question": "From the top of a cliff 60 m high, the angle of depression of a boat is 30°. The horizontal distance of the boat from the base of the cliff is:",
+      "options": ["60 m", "60√3 m", "30√3 m", "20√3 m"],
+      "correctIndex": 1,
+      "explanation": "Angle of depression = 30°. tan 30° = 60/d → d = 60/tan 30° = 60 × √3 = 60√3 m.",
+      "difficulty": "medium",
+      "tags": ["heights-distances", "angle-of-depression"]
+    },
+    {
+      "id": "q_mathematics_10_heights_005",
+      "goalId": "grade10-mathematics",
+      "question": "A vertical pole of height h casts a shadow of length h√3 on the ground. The angle of elevation of the sun is:",
+      "options": ["30°", "45°", "60°", "90°"],
+      "correctIndex": 0,
+      "explanation": "tan θ = h/(h√3) = 1/√3 → θ = 30°.",
+      "difficulty": "medium",
+      "tags": ["heights-distances", "shadow-problems"]
+    },
+    {
+      "id": "q_mathematics_10_heights_006",
+      "goalId": "grade10-mathematics",
+      "question": "Two poles of heights 6 m and 11 m stand on a plane ground. If the distance between their feet is 12 m, the distance between their tops is:",
+      "options": ["10 m", "13 m", "11 m", "15 m"],
+      "correctIndex": 1,
+      "explanation": "The vertical difference in heights = 11 − 6 = 5 m. Horizontal distance = 12 m. Distance between tops = √(5² + 12²) = √(25 + 144) = √169 = 13 m.",
+      "difficulty": "medium",
+      "tags": ["heights-distances", "two-poles"]
+    },
+    {
+      "id": "q_mathematics_10_heights_007",
+      "goalId": "grade10-mathematics",
+      "question": "The angle of elevation of a cloud from a point 60 m above a lake is 30° and the angle of depression of the reflection of the cloud is 60°. The height of the cloud from the water surface is:",
+      "options": ["60 m", "120 m", "180 m", "240 m"],
+      "correctIndex": 1,
+      "explanation": "Let cloud be at height H above lake, point P is 60 m above lake. Let horizontal distance = d. tan 30° = (H−60)/d and tan 60° = (H+60)/d. Dividing: 3 = (H+60)/(H−60) → 3H−180 = H+60 → H = 120 m.",
+      "difficulty": "hard",
+      "tags": ["heights-distances", "lake-cloud"]
+    },
+    {
+      "id": "q_mathematics_10_statistics_001",
+      "goalId": "grade10-mathematics",
+      "question": "The mean of the data 4, 7, 11, 13, x is 9. The value of x is:",
+      "options": ["9", "10", "11", "12"],
+      "correctIndex": 1,
+      "explanation": "Mean = (4 + 7 + 11 + 13 + x)/5 = 9 → 35 + x = 45 → x = 10.",
+      "difficulty": "easy",
+      "tags": ["statistics", "mean"]
+    },
+    {
+      "id": "q_mathematics_10_statistics_002",
+      "goalId": "grade10-mathematics",
+      "question": "The median of the data 3, 5, 7, 9, 11, 13, 15 is:",
+      "options": ["7", "9", "11", "10"],
+      "correctIndex": 1,
+      "explanation": "There are 7 observations. Median = 4th value (in ascending order) = 9.",
+      "difficulty": "easy",
+      "tags": ["statistics", "median"]
+    },
+    {
+      "id": "q_mathematics_10_statistics_003",
+      "goalId": "grade10-mathematics",
+      "question": "In a frequency distribution, the class with the highest frequency is called:",
+      "options": ["Mean class", "Median class", "Modal class", "Range class"],
+      "correctIndex": 2,
+      "explanation": "The modal class is the class interval that has the highest frequency. The mode of grouped data lies in this class.",
+      "difficulty": "easy",
+      "tags": ["statistics", "mode", "modal-class"]
+    },
+    {
+      "id": "q_mathematics_10_statistics_004",
+      "goalId": "grade10-mathematics",
+      "question": "The sum of the deviations of all observations from their mean is always:",
+      "options": ["Maximum", "Minimum", "Zero", "One"],
+      "correctIndex": 2,
+      "explanation": "A fundamental property: the sum of deviations (x − x̄) of all observations from the arithmetic mean is always zero.",
+      "difficulty": "easy",
+      "tags": ["statistics", "mean", "deviation"]
+    },
+    {
+      "id": "q_mathematics_10_statistics_005",
+      "goalId": "grade10-mathematics",
+      "question": "For a grouped data with class intervals 10–20, 20–30, … the assumed mean (a) is taken at the midpoint of the middle class. If 5 classes start at 10 with width 10, the assumed mean is:",
+      "options": ["25", "30", "35", "40"],
+      "correctIndex": 2,
+      "explanation": "Classes: 10–20, 20–30, 30–40, 40–50, 50–60. Middle (3rd) class = 30–40. Midpoint = (30+40)/2 = 35.",
+      "difficulty": "medium",
+      "tags": ["statistics", "assumed-mean", "step-deviation"]
+    },
+    {
+      "id": "q_mathematics_10_statistics_006",
+      "goalId": "grade10-mathematics",
+      "question": "In a grouped frequency distribution, the formula for mode is: Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h. Here h represents:",
+      "options": ["Frequency of modal class", "Class size", "Lower limit of modal class", "Cumulative frequency"],
+      "correctIndex": 1,
+      "explanation": "In the mode formula, h is the class size (width of the class interval), l is the lower boundary of the modal class, and f₁, f₀, f₂ are the modal, pre-modal, and post-modal frequencies.",
+      "difficulty": "medium",
+      "tags": ["statistics", "mode", "formula"]
+    },
+    {
+      "id": "q_mathematics_10_statistics_007",
+      "goalId": "grade10-mathematics",
+      "question": "The empirical relationship between mean, median, and mode is:",
+      "options": [
+        "Mode = 3 Mean − 2 Median",
+        "Mode = 2 Median − 3 Mean",
+        "Mode = 3 Median − 2 Mean",
+        "Median = 3 Mode − 2 Mean"
+      ],
+      "correctIndex": 2,
+      "explanation": "The empirical formula: Mode = 3 Median − 2 Mean. This is approximately true for moderately skewed distributions.",
+      "difficulty": "medium",
+      "tags": ["statistics", "empirical-formula"]
+    },
+    {
+      "id": "q_mathematics_10_statistics_008",
+      "goalId": "grade10-mathematics",
+      "question": "The mean of 20 observations is 15. If one observation 9 is replaced by 19, the new mean is:",
+      "options": ["15", "15.5", "16", "14.5"],
+      "correctIndex": 1,
+      "explanation": "Original sum = 20 × 15 = 300. New sum = 300 − 9 + 19 = 310. New mean = 310/20 = 15.5.",
+      "difficulty": "hard",
+      "tags": ["statistics", "mean", "calculation"]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "goalId": "grade9-english",
+  "title": "Grade 9 English — The Snake and the Mirror + Reported Speech",
+  "description": "Beehive Chapter 7 comprehension and Grammar: Reported Speech",
+  "category": "school",
+  "grade": 9,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_9_snake-mirror_001",
+      "goalId": "grade9-english",
+      "question": "In 'The Snake and the Mirror', the narrator of the story is a:",
+      "options": ["Farmer", "Doctor", "Snake charmer", "Teacher"],
+      "correctIndex": 1,
+      "explanation": "The narrator is a young doctor who has just started his practice and rents a room. The story is told in retrospect — he recounts the terrifying experience of a snake landing on his shoulder.",
+      "difficulty": "easy",
+      "tags": ["snake-mirror", "comprehension", "narrator"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_002",
+      "goalId": "grade9-english",
+      "question": "What was the doctor doing just before the snake landed on his shoulder?",
+      "options": [
+        "Sleeping on the table",
+        "Admiring himself in the mirror",
+        "Treating a patient",
+        "Reading a book"
+      ],
+      "correctIndex": 1,
+      "explanation": "The doctor was sitting in front of the mirror, admiring his appearance and daydreaming about marrying a wealthy woman, when the snake fell from the roof and coiled on his shoulder.",
+      "difficulty": "easy",
+      "tags": ["snake-mirror", "comprehension", "plot"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_003",
+      "goalId": "grade9-english",
+      "question": "What did the doctor decide NOT to do when the snake was on his shoulder?",
+      "options": [
+        "Look in the mirror",
+        "Move or shiver",
+        "Think about the snake",
+        "Breathe slowly"
+      ],
+      "correctIndex": 1,
+      "explanation": "The doctor remained absolutely still — he decided not to move or shiver because he feared any movement might provoke the snake to bite him. He sat like a statue.",
+      "difficulty": "easy",
+      "tags": ["snake-mirror", "comprehension"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_004",
+      "goalId": "grade9-english",
+      "question": "What eventually saved the doctor from the snake?",
+      "options": [
+        "He called for help",
+        "The snake noticed its own reflection in the mirror and slid toward it",
+        "He threw the snake off his shoulder",
+        "The snake fell asleep"
+      ],
+      "correctIndex": 1,
+      "explanation": "The snake was distracted by its own reflection in the mirror. It uncoiled, slid down the doctor's body, and moved toward the mirror — effectively saving the doctor. The mirror, ironically, saved his life.",
+      "difficulty": "medium",
+      "tags": ["snake-mirror", "comprehension", "climax"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_005",
+      "goalId": "grade9-english",
+      "question": "The 'mirror' in the story symbolises:",
+      "options": [
+        "The doctor's wealth",
+        "Vanity and self-admiration",
+        "The snake's power",
+        "Good luck"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mirror symbolises vanity — the doctor was admiring himself in it before the crisis, and ironically the snake's vanity (attracted to its own reflection) saved him. The story gently mocks human self-obsession.",
+      "difficulty": "medium",
+      "tags": ["snake-mirror", "literary-devices", "symbolism"]
+    },
+    {
+      "id": "q_english_9_grammar_rs_001",
+      "goalId": "grade9-english",
+      "question": "Change to reported speech: He said, 'I am reading a book.' → He said that he ___",
+      "options": [
+        "is reading a book",
+        "was reading a book",
+        "reads a book",
+        "had read a book"
+      ],
+      "correctIndex": 1,
+      "explanation": "In reported speech, when the reporting verb is in the past ('said'), the tense of the reported clause shifts back: 'am reading' (present continuous) → 'was reading' (past continuous).",
+      "difficulty": "easy",
+      "tags": ["grammar", "reported-speech", "tense-change"]
+    },
+    {
+      "id": "q_english_9_grammar_rs_002",
+      "goalId": "grade9-english",
+      "question": "Change to reported speech: She said, 'I will go tomorrow.' → She said that she ___",
+      "options": [
+        "will go the next day",
+        "would go the next day",
+        "goes the next day",
+        "had gone the next day"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tense shift: 'will' → 'would'. Time expression shift: 'tomorrow' → 'the next day' (the following day). Both changes are required in reported speech.",
+      "difficulty": "easy",
+      "tags": ["grammar", "reported-speech", "will-would"]
+    },
+    {
+      "id": "q_english_9_grammar_rs_003",
+      "goalId": "grade9-english",
+      "question": "Change to reported speech: She asked, 'Are you coming to the party?' → She asked me ___",
+      "options": [
+        "whether I am coming to the party",
+        "if I was coming to the party",
+        "that I was coming to the party",
+        "if I came to the party"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yes/No questions in reported speech use 'if' or 'whether' and change to statement word order. Tense: 'are coming' → 'was coming'. ('That' is used for statements, not questions.)",
+      "difficulty": "medium",
+      "tags": ["grammar", "reported-speech", "yes-no-question"]
+    },
+    {
+      "id": "q_english_9_grammar_rs_004",
+      "goalId": "grade9-english",
+      "question": "Change to reported speech: He said to me, 'Please help me.' → He requested me ___",
+      "options": [
+        "that he helped me",
+        "to help him",
+        "if I help him",
+        "that please help him"
+      ],
+      "correctIndex": 1,
+      "explanation": "Imperatives (requests/commands) in reported speech use infinitive form: 'Help me' (request) → 'requested/asked me to help him'. The word 'please' is dropped; the verb shifts to infinitive.",
+      "difficulty": "medium",
+      "tags": ["grammar", "reported-speech", "imperatives"]
+    },
+    {
+      "id": "q_english_9_grammar_rs_005",
+      "goalId": "grade9-english",
+      "question": "Identify the error in the reported speech: She told that she was hungry.",
+      "options": [
+        "No error",
+        "'told' should be 'said'",
+        "'was' should be 'is'",
+        "'she' should be 'her'"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Tell' requires an object (tell someone), but 'said' does not need a direct object before 'that'. Correct: 'She said that she was hungry.' OR 'She told me that she was hungry.' 'Told that' without an object is incorrect.",
+      "difficulty": "medium",
+      "tags": ["grammar", "reported-speech", "said-vs-told"]
+    },
+    {
+      "id": "q_english_9_grammar_rs_006",
+      "goalId": "grade9-english",
+      "question": "Change to reported speech: He asked, 'Where do you live?' → He asked me ___",
+      "options": [
+        "where do I live",
+        "where I lived",
+        "where did I live",
+        "that where I lived"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wh-questions in reported speech: use the wh-word as conjunction, shift tense, and use statement order (subject + verb). 'Where do you live?' → 'where I lived' (tense shift: do → did, but in reported speech we omit the auxiliary and say 'where I lived').",
+      "difficulty": "hard",
+      "tags": ["grammar", "reported-speech", "wh-question"]
+    },
+    {
+      "id": "q_english_9_grammar_rs_007",
+      "goalId": "grade9-english",
+      "question": "Which of the following sentences uses reported speech CORRECTLY?",
+      "options": [
+        "He said he will come tomorrow.",
+        "She said that she had finished her work.",
+        "They said they are playing cricket.",
+        "She told that she is ready."
+      ],
+      "correctIndex": 1,
+      "explanation": "'She said that she had finished her work' is correct: past perfect replaces simple past after a past reporting verb, and 'told' needs an object. Options A and C don't shift tense correctly; D uses 'told' without an object.",
+      "difficulty": "hard",
+      "tags": ["grammar", "reported-speech", "error-correction"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_006",
+      "goalId": "grade9-english",
+      "question": "The story 'The Snake and the Mirror' is written in which narrative style?",
+      "options": ["Third person omniscient", "First person narrative", "Second person narrative", "Stream of consciousness"],
+      "correctIndex": 1,
+      "explanation": "The story is told in first person — the doctor himself narrates the incident to a group of people sitting in darkness during a power cut. 'I' is used throughout, giving it an intimate, confessional feel.",
+      "difficulty": "medium",
+      "tags": ["snake-mirror", "narrative-style", "literary-devices"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_007",
+      "goalId": "grade9-english",
+      "question": "The story uses humour and irony. Which of the following is an example of irony?",
+      "options": [
+        "The snake falling from the roof",
+        "The doctor admiring himself just before danger arrived",
+        "The room having no furniture",
+        "The doctor earning little money"
+      ],
+      "correctIndex": 1,
+      "explanation": "It is ironic that the doctor was daydreaming about his good looks and a rich wife at the very moment danger (the snake) arrived. The mirror that was a tool of vanity later saved his life — a double irony.",
+      "difficulty": "medium",
+      "tags": ["snake-mirror", "literary-devices", "irony"]
+    },
+    {
+      "id": "q_english_9_grammar_rs_008",
+      "goalId": "grade9-english",
+      "question": "Time expression change in reported speech: 'now' changes to:",
+      "options": ["soon", "then", "before", "here"],
+      "correctIndex": 1,
+      "explanation": "Standard time-expression shifts: 'now' → 'then'; 'today' → 'that day'; 'yesterday' → 'the previous day'; 'tomorrow' → 'the next day/the following day'; 'here' → 'there'.",
+      "difficulty": "easy",
+      "tags": ["grammar", "reported-speech", "time-expressions"]
+    },
+    {
+      "id": "q_english_9_snake-mirror_008",
+      "goalId": "grade9-english",
+      "question": "The story was written by Vaikom Muhammad Basheer. He was a famous writer in which language?",
+      "options": ["Hindi", "Telugu", "Malayalam", "Kannada"],
+      "correctIndex": 2,
+      "explanation": "Vaikom Muhammad Basheer was a celebrated Malayalam writer known for his humorous, humanistic short stories. 'The Snake and the Mirror' is a translation of his original Malayalam story.",
+      "difficulty": "easy",
+      "tags": ["snake-mirror", "author", "context"]
+    }
+  ]
+}

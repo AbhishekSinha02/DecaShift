@@ -1,0 +1,218 @@
+{
+  "goalId": "grade11-chemistry",
+  "title": "Grade 11 Chemistry — Equilibrium",
+  "description": "Chemical Equilibrium — Le Chatelier's principle, Kc, Kp, ionic equilibrium, pH (CBSE Ch. 7)",
+  "category": "school",
+  "grade": 11,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_11_equilibrium_001",
+      "goalId": "grade11-chemistry",
+      "question": "In a reversible reaction at equilibrium, the rate of the forward reaction equals the rate of the:",
+      "options": ["Catalytic reaction", "Reverse reaction", "Decomposition reaction", "Oxidation reaction"],
+      "correctIndex": 1,
+      "explanation": "Dynamic equilibrium: the forward and reverse reactions continue simultaneously at equal rates. The concentrations of reactants and products remain constant (not zero), but the reaction has not stopped.",
+      "difficulty": "easy",
+      "tags": ["equilibrium", "dynamic-equilibrium", "definition"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_002",
+      "goalId": "grade11-chemistry",
+      "question": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), the expression for Kc is:",
+      "options": [
+        "[NH₃]² / ([N₂][H₂]³)",
+        "[N₂][H₂]³ / [NH₃]²",
+        "[NH₃] / ([N₂][H₂])",
+        "[NH₃]² / ([N₂]³[H₂])"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kc = [products]^stoich / [reactants]^stoich = [NH₃]² / ([N₂][H₂]³). Always products over reactants, each raised to its stoichiometric coefficient.",
+      "difficulty": "easy",
+      "tags": ["equilibrium", "equilibrium-constant", "Kc"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_003",
+      "goalId": "grade11-chemistry",
+      "question": "Kp and Kc are related by: Kp = Kc(RT)^Δn. Here Δn is:",
+      "options": [
+        "Total moles of products",
+        "Total moles of reactants",
+        "Moles of gaseous products − moles of gaseous reactants",
+        "Total moles in the reaction"
+      ],
+      "correctIndex": 2,
+      "explanation": "Δn = (moles of gaseous products) − (moles of gaseous reactants). For N₂ + 3H₂ ⇌ 2NH₃: Δn = 2 − (1+3) = −2. Note: only gaseous species are counted; solids and liquids are excluded.",
+      "difficulty": "medium",
+      "tags": ["equilibrium", "Kp-Kc", "delta-n"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_004",
+      "goalId": "grade11-chemistry",
+      "question": "Le Chatelier's principle states that if a system at equilibrium is disturbed, it will:",
+      "options": [
+        "Shift to increase the disturbance",
+        "Shift to oppose the disturbance and re-establish equilibrium",
+        "Stop the reaction completely",
+        "Double the concentration of products"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le Chatelier's principle: a system at equilibrium responds to a stress (change in concentration, pressure, or temperature) by shifting in the direction that minimises the effect of the stress.",
+      "difficulty": "easy",
+      "tags": ["equilibrium", "le-chatelier"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_005",
+      "goalId": "grade11-chemistry",
+      "question": "For the reaction N₂ + 3H₂ ⇌ 2NH₃ + heat, increasing temperature will:",
+      "options": [
+        "Shift equilibrium towards NH₃",
+        "Shift equilibrium away from NH₃",
+        "Have no effect",
+        "Increase Kc"
+      ],
+      "correctIndex": 1,
+      "explanation": "This is an exothermic reaction. Adding heat (increasing T) shifts the equilibrium left (toward reactants, away from NH₃) to absorb the added heat. This also decreases Kc.",
+      "difficulty": "medium",
+      "tags": ["equilibrium", "le-chatelier", "temperature"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_006",
+      "goalId": "grade11-chemistry",
+      "question": "Adding an inert gas at constant volume to an equilibrium mixture:",
+      "options": [
+        "Shifts the equilibrium to the side with more moles of gas",
+        "Shifts the equilibrium to the side with fewer moles of gas",
+        "Does not affect the equilibrium",
+        "Always decreases Kp"
+      ],
+      "correctIndex": 2,
+      "explanation": "At constant volume, adding an inert gas increases total pressure but does NOT change the partial pressures of reacting species (their concentrations are unchanged). So the equilibrium is unaffected.",
+      "difficulty": "medium",
+      "tags": ["equilibrium", "le-chatelier", "inert-gas"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_007",
+      "goalId": "grade11-chemistry",
+      "question": "A Kc > 1 indicates that at equilibrium:",
+      "options": [
+        "Reactants are favoured",
+        "Products are favoured",
+        "Equal concentrations of reactants and products",
+        "The reaction is at a very early stage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kc = [products]/[reactants]. Kc > 1 means [products] > [reactants] at equilibrium → products are favoured. Kc ≫ 1 means the reaction goes essentially to completion; Kc ≪ 1 means reactants are favoured.",
+      "difficulty": "easy",
+      "tags": ["equilibrium", "Kc", "interpretation"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_008",
+      "goalId": "grade11-chemistry",
+      "question": "The reaction quotient Q is used to:",
+      "options": [
+        "Calculate the equilibrium constant at a new temperature",
+        "Predict the direction in which a reaction will proceed to reach equilibrium",
+        "Measure the rate of the forward reaction",
+        "Determine the activation energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Q has the same form as Kc but uses current (non-equilibrium) concentrations. If Q < Kc → forward reaction proceeds; Q > Kc → reverse reaction proceeds; Q = Kc → system is at equilibrium.",
+      "difficulty": "medium",
+      "tags": ["equilibrium", "reaction-quotient", "Q-vs-K"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_009",
+      "goalId": "grade11-chemistry",
+      "question": "Ionic equilibrium: The degree of ionisation of a weak acid increases when:",
+      "options": [
+        "Concentration of the acid is increased",
+        "Concentration of the acid is decreased (dilution)",
+        "Temperature is decreased",
+        "A common ion (like sodium acetate) is added"
+      ],
+      "correctIndex": 1,
+      "explanation": "On dilution, Le Chatelier's principle predicts a shift toward more ionisation to oppose the decrease in ion concentrations. So α (degree of ionisation) increases with dilution. The common ion effect (option D) suppresses ionisation.",
+      "difficulty": "medium",
+      "tags": ["equilibrium", "ionic-equilibrium", "degree-of-ionisation"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_010",
+      "goalId": "grade11-chemistry",
+      "question": "The pH of a 0.01 M strong acid HCl solution is:",
+      "options": ["1", "2", "0.01", "12"],
+      "correctIndex": 1,
+      "explanation": "HCl is fully dissociated. [H⁺] = 0.01 M = 10⁻². pH = −log[H⁺] = −log(10⁻²) = 2.",
+      "difficulty": "easy",
+      "tags": ["equilibrium", "ionic-equilibrium", "pH"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_011",
+      "goalId": "grade11-chemistry",
+      "question": "Ka for acetic acid at 25°C is 1.8 × 10⁻⁵. The pKa is approximately:",
+      "options": ["4.7", "5.7", "1.8", "14"],
+      "correctIndex": 0,
+      "explanation": "pKa = −log Ka = −log(1.8 × 10⁻⁵) ≈ −(log 1.8 + log 10⁻⁵) = −(0.255 − 5) = 4.74 ≈ 4.7.",
+      "difficulty": "medium",
+      "tags": ["equilibrium", "ionic-equilibrium", "Ka", "pKa"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_012",
+      "goalId": "grade11-chemistry",
+      "question": "A buffer solution resists change in pH when:",
+      "options": [
+        "A strong acid or base is added in large quantities",
+        "Small amounts of acid or base are added",
+        "Water is added",
+        "The temperature changes"
+      ],
+      "correctIndex": 1,
+      "explanation": "A buffer (weak acid + its conjugate base, or weak base + its conjugate acid) resists pH change when small amounts of acid or base are added, because the added H⁺ or OH⁻ is consumed by the buffer components.",
+      "difficulty": "medium",
+      "tags": ["equilibrium", "ionic-equilibrium", "buffer"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_013",
+      "goalId": "grade11-chemistry",
+      "question": "The common ion effect: adding sodium acetate (CH₃COONa) to acetic acid solution will:",
+      "options": [
+        "Increase ionisation of acetic acid",
+        "Decrease ionisation of acetic acid",
+        "Increase the Ka",
+        "Decrease the pH"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sodium acetate provides CH₃COO⁻ ions. By Le Chatelier's principle, this suppresses the ionisation of CH₃COOH (common ion effect), decreasing [H⁺] and raising the pH.",
+      "difficulty": "medium",
+      "tags": ["equilibrium", "ionic-equilibrium", "common-ion-effect"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_014",
+      "goalId": "grade11-chemistry",
+      "question": "Kw (ionic product of water) at 25°C is:",
+      "options": ["1.0 × 10⁻⁷", "1.0 × 10⁻¹⁴", "1.0 × 10⁻⁷ each for H⁺ and OH⁻", "7"],
+      "correctIndex": 1,
+      "explanation": "Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25°C. In pure water [H⁺] = [OH⁻] = 1.0 × 10⁻⁷ M, giving pH = 7. Kw increases with temperature (water ionisation is endothermic).",
+      "difficulty": "easy",
+      "tags": ["equilibrium", "ionic-equilibrium", "Kw"]
+    },
+    {
+      "id": "q_chemistry_11_equilibrium_015",
+      "goalId": "grade11-chemistry",
+      "question": "Increasing pressure on the Haber process (N₂ + 3H₂ ⇌ 2NH₃) shifts equilibrium to produce more NH₃ because:",
+      "options": [
+        "Pressure always increases yield",
+        "The forward reaction produces fewer moles of gas (2 vs 4) so it is favoured",
+        "Higher pressure increases the rate constant Kc",
+        "NH₃ is a gas and is compressed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le Chatelier's principle: increased pressure favours the side with fewer moles of gas. The forward reaction: 1+3 = 4 moles → 2 moles. So higher pressure shifts equilibrium to the right (toward NH₃). Note: Kc itself is unchanged by pressure.",
+      "difficulty": "medium",
+      "tags": ["equilibrium", "le-chatelier", "pressure", "haber-process"]
+    }
+  ]
+}

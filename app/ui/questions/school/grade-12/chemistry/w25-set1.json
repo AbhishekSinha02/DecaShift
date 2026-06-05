@@ -1,0 +1,183 @@
+{
+  "goalId": "grade12-chemistry",
+  "title": "Grade 12 Chemistry — General Principles of Isolation of Elements",
+  "description": "Metallurgy — occurrence, concentration, reduction, refining, electrochemistry of metals (CBSE Ch. 6)",
+  "category": "school",
+  "grade": 12,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_12_metallurgy_001",
+      "goalId": "grade12-chemistry",
+      "question": "The naturally occurring substance from which a metal can be profitably extracted is called:",
+      "options": ["Ore", "Mineral", "Gangue", "Flux"],
+      "correctIndex": 0,
+      "explanation": "An ore is a mineral from which a metal can be extracted economically. All ores are minerals, but not all minerals are ores (some contain too little metal to be worth extracting). Gangue is the earthy impurity in ore.",
+      "difficulty": "easy",
+      "tags": ["metallurgy", "ore-mineral", "definitions"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_002",
+      "goalId": "grade12-chemistry",
+      "question": "The process of removing gangue (earthy impurities) from the ore to increase the concentration of the metal is called:",
+      "options": ["Smelting", "Concentration (ore dressing)", "Calcination", "Refining"],
+      "correctIndex": 1,
+      "explanation": "Concentration (ore dressing) removes gangue before the ore is chemically processed. Methods include froth flotation (sulfide ores), magnetic separation, gravity separation, and leaching.",
+      "difficulty": "easy",
+      "tags": ["metallurgy", "concentration", "ore-dressing"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_003",
+      "goalId": "grade12-chemistry",
+      "question": "Froth flotation is used primarily to concentrate:",
+      "options": ["Oxide ores", "Sulfide ores", "Carbonate ores", "Halide ores"],
+      "correctIndex": 1,
+      "explanation": "Froth flotation exploits the difference in wettability. Sulfide ore particles are hydrophobic (repel water) and attach to air bubbles in the froth, while gangue (hydrophilic) sinks. It is used for copper pyrites (CuFeS₂), galena (PbS), etc.",
+      "difficulty": "easy",
+      "tags": ["metallurgy", "froth-flotation", "concentration"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_004",
+      "goalId": "grade12-chemistry",
+      "question": "Calcination involves heating the ore strongly in the absence (or limited supply) of air. It is used for:",
+      "options": ["Sulfide ores", "Carbonate and hydroxide ores", "Oxide ores", "All types of ores"],
+      "correctIndex": 1,
+      "explanation": "Calcination decomposes carbonate ores (CaCO₃ → CaO + CO₂) and hydroxide ores (removes water). Roasting (heating in excess air) is used for sulfide ores to convert them to oxides.",
+      "difficulty": "medium",
+      "tags": ["metallurgy", "calcination", "roasting"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_005",
+      "goalId": "grade12-chemistry",
+      "question": "In the thermite process, aluminium reduces iron oxide. This is possible because:",
+      "options": [
+        "Iron is less reactive than aluminium",
+        "Aluminium is more reactive than iron (has higher affinity for oxygen)",
+        "Iron has a lower melting point",
+        "The reaction absorbs heat (endothermic)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The thermite reaction: 2Al + Fe₂O₃ → Al₂O₃ + 2Fe. Al has a greater affinity for oxygen (more negative ΔG of Al₂O₃ formation) than iron. This is the basis of 'aluminothermic reduction' (Ellingham diagram).",
+      "difficulty": "medium",
+      "tags": ["metallurgy", "reduction", "thermite", "ellingham"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_006",
+      "goalId": "grade12-chemistry",
+      "question": "Which metal is obtained by electrolytic reduction of its molten chloride?",
+      "options": ["Iron", "Copper", "Sodium", "Silver"],
+      "correctIndex": 2,
+      "explanation": "Highly reactive metals (Na, K, Ca, Mg, Al) cannot be reduced by carbon or hydrogen; they require electrolysis of their molten chlorides or oxides. Sodium is obtained by Downs process (electrolysis of molten NaCl).",
+      "difficulty": "medium",
+      "tags": ["metallurgy", "electrolytic-reduction", "sodium"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_007",
+      "goalId": "grade12-chemistry",
+      "question": "In the Ellingham diagram, the line for a metal oxide that lies LOWER on the diagram represents an oxide that is:",
+      "options": [
+        "Less stable and easier to reduce",
+        "More stable and harder to reduce",
+        "More stable and easier to reduce",
+        "Less stable and harder to reduce"
+      ],
+      "correctIndex": 1,
+      "explanation": "A lower position on the Ellingham diagram means a more negative ΔG°f — the oxide is more stable (stronger metal–oxygen bond). A metal whose line lies below another can reduce the other's oxide (e.g., Al is below Fe₂O₃ at most temperatures).",
+      "difficulty": "hard",
+      "tags": ["metallurgy", "ellingham-diagram", "thermodynamics"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_008",
+      "goalId": "grade12-chemistry",
+      "question": "The Hall–Héroult process is used to extract:",
+      "options": ["Iron", "Copper", "Aluminium", "Zinc"],
+      "correctIndex": 2,
+      "explanation": "The Hall–Héroult process extracts aluminium by electrolysis of molten alumina (Al₂O₃) dissolved in cryolite (Na₃AlF₆) at ~1000°C. The carbon anodes are consumed in the process (C + O²⁻ → CO₂).",
+      "difficulty": "medium",
+      "tags": ["metallurgy", "hall-heroult", "aluminium", "electrolysis"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_009",
+      "goalId": "grade12-chemistry",
+      "question": "Zone refining is used to obtain very pure metals. The principle involved is:",
+      "options": [
+        "Impurities have higher melting points than the metal",
+        "Impurities are more soluble in the molten zone than the solid metal",
+        "Impurities sublimate at higher temperatures",
+        "The metal forms a volatile compound that is then decomposed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zone refining exploits the fact that impurities are more soluble in the melt than in the solid. A narrow molten zone is moved along the metal rod, sweeping impurities to one end. Used for ultra-pure Si and Ge for semiconductors.",
+      "difficulty": "hard",
+      "tags": ["metallurgy", "zone-refining", "purification"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_010",
+      "goalId": "grade12-chemistry",
+      "question": "Van Arkel method is used to refine:",
+      "options": ["Copper", "Nickel", "Titanium and Zirconium", "Silver"],
+      "correctIndex": 2,
+      "explanation": "Van Arkel method: metal is converted to its volatile iodide (TiI₄, ZrI₄) which is then decomposed on a hot filament to deposit pure metal. Used for Ti and Zr. (Mond process is used for Ni via Ni(CO)₄.)",
+      "difficulty": "hard",
+      "tags": ["metallurgy", "van-arkel", "refining", "titanium"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_011",
+      "goalId": "grade12-chemistry",
+      "question": "Copper is extracted from copper pyrites (CuFeS₂). The sequence of operations is:",
+      "options": [
+        "Roasting → Smelting → Bessemerisation → Electrolytic refining",
+        "Calcination → Reduction → Electrolysis → Refining",
+        "Leaching → Precipitation → Smelting → Refining",
+        "Froth flotation → Calcination → Reduction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Copper extraction: concentration (froth flotation) → roasting (CuFeS₂ → Cu₂S + FeO) → smelting (with SiO₂) → Bessemerisation (blast of air converts Cu₂S → Cu) → electrolytic refining for 99.9% pure copper.",
+      "difficulty": "hard",
+      "tags": ["metallurgy", "copper", "bessemerisation"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_012",
+      "goalId": "grade12-chemistry",
+      "question": "Leaching is used in the concentration of:",
+      "options": ["Sulfide ores", "Oxide ores of aluminium (bauxite)", "Carbonate ores", "Silicate ores"],
+      "correctIndex": 1,
+      "explanation": "Leaching uses a chemical solvent. Bayer's process leaches bauxite (Al₂O₃·2H₂O) with hot conc. NaOH: Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O. The aluminate solution is then hydrolysed to precipitate Al(OH)₃, which is calcined to Al₂O₃.",
+      "difficulty": "medium",
+      "tags": ["metallurgy", "leaching", "bauxite", "bayer-process"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_013",
+      "goalId": "grade12-chemistry",
+      "question": "In electrolytic refining of copper, the impure copper is used as:",
+      "options": ["Cathode", "Electrolyte", "Anode", "Both cathode and anode"],
+      "correctIndex": 2,
+      "explanation": "In electrolytic refining: impure metal = anode (dissolves), pure metal = cathode (deposits), metal salt solution = electrolyte. Impurities settle as 'anode mud'. For copper, the electrolyte is CuSO₄ solution.",
+      "difficulty": "easy",
+      "tags": ["metallurgy", "electrolytic-refining", "copper"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_014",
+      "goalId": "grade12-chemistry",
+      "question": "Which of the following is the ore of iron?",
+      "options": ["Bauxite", "Galena", "Haematite", "Malachite"],
+      "correctIndex": 2,
+      "explanation": "Haematite (Fe₂O₃) is a major ore of iron. Magnetite (Fe₃O₄) is another. Bauxite = Al ore; Galena (PbS) = lead ore; Malachite (Cu₂(OH)₂CO₃) = copper ore.",
+      "difficulty": "easy",
+      "tags": ["metallurgy", "ores", "iron"]
+    },
+    {
+      "id": "q_chemistry_12_metallurgy_015",
+      "goalId": "grade12-chemistry",
+      "question": "The Mond process is used to purify nickel. The volatile compound formed is:",
+      "options": ["NiCl₂", "NiF₂", "Ni(CO)₄", "NiI₄"],
+      "correctIndex": 2,
+      "explanation": "In the Mond process, impure Ni reacts with CO at ~50°C to form nickel tetracarbonyl Ni(CO)₄ (volatile). This is then decomposed at ~230°C to deposit pure Ni and release CO for reuse.",
+      "difficulty": "medium",
+      "tags": ["metallurgy", "mond-process", "nickel", "carbonyl"]
+    }
+  ]
+}

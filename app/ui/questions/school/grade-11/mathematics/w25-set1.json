@@ -1,0 +1,168 @@
+{
+  "goalId": "grade11-mathematics",
+  "title": "Grade 11 Mathematics — Conic Sections",
+  "description": "Conic Sections — circle, parabola, ellipse, hyperbola (CBSE Ch. 10)",
+  "category": "school",
+  "grade": 11,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_11_conics_001",
+      "goalId": "grade11-mathematics",
+      "question": "The standard equation of a circle with centre (h, k) and radius r is:",
+      "options": [
+        "(x − h)² + (y − k)² = r",
+        "(x − h)² + (y − k)² = r²",
+        "(x + h)² + (y + k)² = r²",
+        "x² + y² = r"
+      ],
+      "correctIndex": 1,
+      "explanation": "The standard form of a circle with centre (h, k) and radius r is (x − h)² + (y − k)² = r². For a circle centred at the origin, this simplifies to x² + y² = r².",
+      "difficulty": "easy",
+      "tags": ["conics", "circle", "standard-form"]
+    },
+    {
+      "id": "q_mathematics_11_conics_002",
+      "goalId": "grade11-mathematics",
+      "question": "The equation x² + y² − 6x + 4y − 12 = 0 represents a circle with centre:",
+      "options": ["(3, −2)", "(−3, 2)", "(6, −4)", "(−6, 4)"],
+      "correctIndex": 0,
+      "explanation": "Completing the square: (x−3)² − 9 + (y+2)² − 4 − 12 = 0 → (x−3)² + (y+2)² = 25. Centre = (3, −2), radius = 5.",
+      "difficulty": "easy",
+      "tags": ["conics", "circle", "completing-the-square"]
+    },
+    {
+      "id": "q_mathematics_11_conics_003",
+      "goalId": "grade11-mathematics",
+      "question": "The standard equation of a parabola with vertex at origin opening to the right is:",
+      "options": ["x² = 4ay", "y² = 4ax", "y² = −4ax", "x² = −4ay"],
+      "correctIndex": 1,
+      "explanation": "y² = 4ax (a > 0) is a parabola opening to the right with vertex at origin, focus at (a, 0), and directrix x = −a. y² = −4ax opens to the left; x² = 4ay opens upward.",
+      "difficulty": "easy",
+      "tags": ["conics", "parabola", "standard-form"]
+    },
+    {
+      "id": "q_mathematics_11_conics_004",
+      "goalId": "grade11-mathematics",
+      "question": "For the parabola y² = 12x, the focus is at:",
+      "options": ["(3, 0)", "(12, 0)", "(0, 3)", "(−3, 0)"],
+      "correctIndex": 0,
+      "explanation": "y² = 12x → 4a = 12 → a = 3. The focus is at (a, 0) = (3, 0). The directrix is x = −3.",
+      "difficulty": "easy",
+      "tags": ["conics", "parabola", "focus"]
+    },
+    {
+      "id": "q_mathematics_11_conics_005",
+      "goalId": "grade11-mathematics",
+      "question": "The standard equation of an ellipse with semi-major axis a (along x-axis) and semi-minor axis b is:",
+      "options": ["x²/b² + y²/a² = 1", "x²/a² + y²/b² = 1", "x²/a² − y²/b² = 1", "x² + y² = a² + b²"],
+      "correctIndex": 1,
+      "explanation": "Standard ellipse: x²/a² + y²/b² = 1 (a > b > 0). The major axis is along the x-axis; vertices at (±a, 0); co-vertices at (0, ±b); foci at (±c, 0) where c² = a² − b².",
+      "difficulty": "easy",
+      "tags": ["conics", "ellipse", "standard-form"]
+    },
+    {
+      "id": "q_mathematics_11_conics_006",
+      "goalId": "grade11-mathematics",
+      "question": "For the ellipse x²/25 + y²/9 = 1, the eccentricity e is:",
+      "options": ["3/5", "4/5", "5/4", "5/3"],
+      "correctIndex": 1,
+      "explanation": "a² = 25, b² = 9 → c² = a² − b² = 16 → c = 4. Eccentricity e = c/a = 4/5. (For an ellipse, 0 < e < 1.)",
+      "difficulty": "medium",
+      "tags": ["conics", "ellipse", "eccentricity"]
+    },
+    {
+      "id": "q_mathematics_11_conics_007",
+      "goalId": "grade11-mathematics",
+      "question": "The foci of the ellipse x²/25 + y²/9 = 1 are at:",
+      "options": ["(±3, 0)", "(±4, 0)", "(±5, 0)", "(0, ±4)"],
+      "correctIndex": 1,
+      "explanation": "From above: c = 4. Foci are at (±c, 0) = (±4, 0).",
+      "difficulty": "medium",
+      "tags": ["conics", "ellipse", "foci"]
+    },
+    {
+      "id": "q_mathematics_11_conics_008",
+      "goalId": "grade11-mathematics",
+      "question": "The standard equation of a hyperbola with transverse axis along the x-axis is:",
+      "options": ["x²/a² + y²/b² = 1", "x²/a² − y²/b² = 1", "y²/a² − x²/b² = 1", "x² − y² = a² − b²"],
+      "correctIndex": 1,
+      "explanation": "x²/a² − y²/b² = 1 (a, b > 0) is a hyperbola with transverse axis along the x-axis. Vertices at (±a, 0); foci at (±c, 0) where c² = a² + b². For c² = a² − b², that would be an ellipse.",
+      "difficulty": "medium",
+      "tags": ["conics", "hyperbola", "standard-form"]
+    },
+    {
+      "id": "q_mathematics_11_conics_009",
+      "goalId": "grade11-mathematics",
+      "question": "For a hyperbola x²/a² − y²/b² = 1, the asymptotes are:",
+      "options": ["y = ±(b/a)x", "y = ±(a/b)x", "y = ±ax", "y = ±bx"],
+      "correctIndex": 0,
+      "explanation": "The asymptotes of x²/a² − y²/b² = 1 are y = ±(b/a)x. As x → ∞, the hyperbola approaches these lines but never touches them.",
+      "difficulty": "medium",
+      "tags": ["conics", "hyperbola", "asymptotes"]
+    },
+    {
+      "id": "q_mathematics_11_conics_010",
+      "goalId": "grade11-mathematics",
+      "question": "The eccentricity of a parabola is:",
+      "options": ["0", "Between 0 and 1", "Exactly 1", "Greater than 1"],
+      "correctIndex": 2,
+      "explanation": "Eccentricity e: circle = 0, ellipse = (0,1), parabola = 1 (exactly), hyperbola > 1. The parabola is the conic section with e = 1 — every point is equidistant from the focus and directrix.",
+      "difficulty": "easy",
+      "tags": ["conics", "eccentricity", "parabola"]
+    },
+    {
+      "id": "q_mathematics_11_conics_011",
+      "goalId": "grade11-mathematics",
+      "question": "The length of the latus rectum of the parabola y² = 4ax is:",
+      "options": ["a", "2a", "4a", "8a"],
+      "correctIndex": 2,
+      "explanation": "The latus rectum is the chord through the focus perpendicular to the axis. For y² = 4ax, its length = 4a. (The endpoints are (a, 2a) and (a, −2a).)",
+      "difficulty": "medium",
+      "tags": ["conics", "parabola", "latus-rectum"]
+    },
+    {
+      "id": "q_mathematics_11_conics_012",
+      "goalId": "grade11-mathematics",
+      "question": "If the foci of an ellipse are at (±3, 0) and a vertex is at (5, 0), the equation is:",
+      "options": ["x²/25 + y²/16 = 1", "x²/9 + y²/16 = 1", "x²/25 + y²/9 = 1", "x²/16 + y²/25 = 1"],
+      "correctIndex": 0,
+      "explanation": "a = 5 (vertex), c = 3 (focus). b² = a² − c² = 25 − 9 = 16. Equation: x²/25 + y²/16 = 1.",
+      "difficulty": "medium",
+      "tags": ["conics", "ellipse", "equation-from-data"]
+    },
+    {
+      "id": "q_mathematics_11_conics_013",
+      "goalId": "grade11-mathematics",
+      "question": "The hyperbola x²/9 − y²/16 = 1 has eccentricity:",
+      "options": ["3/5", "4/5", "5/3", "5/4"],
+      "correctIndex": 2,
+      "explanation": "a² = 9, b² = 16 → c² = a² + b² = 25 → c = 5. e = c/a = 5/3. (For a hyperbola, e > 1, so 5/3 is correct.)",
+      "difficulty": "hard",
+      "tags": ["conics", "hyperbola", "eccentricity"]
+    },
+    {
+      "id": "q_mathematics_11_conics_014",
+      "goalId": "grade11-mathematics",
+      "question": "The sum of the distances from any point on an ellipse to its two foci equals:",
+      "options": ["2b", "2c", "2a", "a + b"],
+      "correctIndex": 2,
+      "explanation": "By the definition of an ellipse: for any point P on the ellipse, PF₁ + PF₂ = 2a (the length of the major axis). This is the focal property of the ellipse.",
+      "difficulty": "easy",
+      "tags": ["conics", "ellipse", "focal-property"]
+    },
+    {
+      "id": "q_mathematics_11_conics_015",
+      "goalId": "grade11-mathematics",
+      "question": "A circle has the equation x² + y² = 36. A point (6, 0) lies on the circle. The tangent at this point is:",
+      "options": ["x = 6", "y = 6", "x + y = 6", "6x + y = 36"],
+      "correctIndex": 0,
+      "explanation": "For a circle x² + y² = r², the tangent at point (x₁, y₁) is xx₁ + yy₁ = r². Here: x·6 + y·0 = 36 → 6x = 36 → x = 6.",
+      "difficulty": "hard",
+      "tags": ["conics", "circle", "tangent"]
+    }
+  ]
+}

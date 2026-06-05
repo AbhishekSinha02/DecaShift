@@ -1,0 +1,168 @@
+{
+  "goalId": "grade12-mathematics",
+  "title": "Grade 12 Mathematics — Differential Equations",
+  "description": "Differential Equations — order, degree, solutions, separable, homogeneous, linear (CBSE Ch. 9)",
+  "category": "school",
+  "grade": 12,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_12_diff-eq_001",
+      "goalId": "grade12-mathematics",
+      "question": "The order of the differential equation d²y/dx² + dy/dx + y = 0 is:",
+      "options": ["0", "1", "2", "3"],
+      "correctIndex": 2,
+      "explanation": "The order of a differential equation is the order of the highest derivative present. Here the highest derivative is d²y/dx² (second derivative), so the order is 2.",
+      "difficulty": "easy",
+      "tags": ["differential-equations", "order"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_002",
+      "goalId": "grade12-mathematics",
+      "question": "The degree of the differential equation (d²y/dx²)³ + dy/dx = x² is:",
+      "options": ["1", "2", "3", "Not defined"],
+      "correctIndex": 2,
+      "explanation": "The degree is the power (exponent) of the highest-order derivative, once the equation is written as a polynomial in derivatives. Here, the highest derivative d²y/dx² appears to the power 3, so the degree is 3.",
+      "difficulty": "easy",
+      "tags": ["differential-equations", "degree"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_003",
+      "goalId": "grade12-mathematics",
+      "question": "Which of the following is a solution of dy/dx = y?",
+      "options": ["y = eˣ", "y = x²", "y = sin x", "y = ln x"],
+      "correctIndex": 0,
+      "explanation": "For y = eˣ: dy/dx = eˣ = y. ✓ This is the equation describing exponential growth, whose solution is y = Ceˣ where C is an arbitrary constant.",
+      "difficulty": "easy",
+      "tags": ["differential-equations", "verification-of-solution"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_004",
+      "goalId": "grade12-mathematics",
+      "question": "The number of arbitrary constants in the general solution of a differential equation of order n is:",
+      "options": ["0", "1", "n", "2n"],
+      "correctIndex": 2,
+      "explanation": "The general solution of an nth-order ODE contains exactly n arbitrary constants. Each integration step introduces one constant.",
+      "difficulty": "easy",
+      "tags": ["differential-equations", "general-solution", "arbitrary-constants"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_005",
+      "goalId": "grade12-mathematics",
+      "question": "Solve: dy/dx = x². The general solution is:",
+      "options": ["y = 2x + C", "y = x³/3 + C", "y = x²/2 + C", "y = 3x³ + C"],
+      "correctIndex": 1,
+      "explanation": "Separating and integrating: dy = x² dx → y = ∫x² dx = x³/3 + C.",
+      "difficulty": "easy",
+      "tags": ["differential-equations", "variable-separable"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_006",
+      "goalId": "grade12-mathematics",
+      "question": "Solve: dy/dx = (1 + y²)/(1 + x²). This equation is of the type:",
+      "options": ["Linear first-order", "Variable separable", "Homogeneous", "Exact"],
+      "correctIndex": 1,
+      "explanation": "Rewriting: dy/(1+y²) = dx/(1+x²). Variables can be separated on both sides → variable separable type. Integrating gives tan⁻¹y = tan⁻¹x + C.",
+      "difficulty": "medium",
+      "tags": ["differential-equations", "variable-separable", "identification"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_007",
+      "goalId": "grade12-mathematics",
+      "question": "A differential equation dy/dx = f(x, y) is homogeneous if:",
+      "options": [
+        "f(x, y) = g(x) · h(y)",
+        "f(tx, ty) = t^n · f(x, y) for some n",
+        "f(x, y) = P(x)y + Q(x)",
+        "f(x, y) = constant"
+      ],
+      "correctIndex": 1,
+      "explanation": "A function f(x,y) is homogeneous of degree n if f(tx, ty) = tⁿ f(x,y). A homogeneous DE has f homogeneous of degree 0, i.e., f(tx,ty) = f(x,y). It can be solved by substituting y = vx.",
+      "difficulty": "medium",
+      "tags": ["differential-equations", "homogeneous", "definition"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_008",
+      "goalId": "grade12-mathematics",
+      "question": "The integrating factor (IF) for the linear equation dy/dx + Py = Q (where P, Q are functions of x) is:",
+      "options": ["e^∫P dx", "e^∫Q dx", "∫P dx", "P(x)"],
+      "correctIndex": 0,
+      "explanation": "For the standard linear ODE dy/dx + P(x)y = Q(x), the integrating factor is μ = e^(∫P dx). Multiplying through by μ reduces the left side to d(μy)/dx.",
+      "difficulty": "medium",
+      "tags": ["differential-equations", "linear-ODE", "integrating-factor"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_009",
+      "goalId": "grade12-mathematics",
+      "question": "The integrating factor for dy/dx + y/x = x² is:",
+      "options": ["x", "1/x", "x²", "eˣ"],
+      "correctIndex": 0,
+      "explanation": "P = 1/x. IF = e^(∫(1/x) dx) = e^(ln x) = x.",
+      "difficulty": "medium",
+      "tags": ["differential-equations", "linear-ODE", "integrating-factor", "calculation"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_010",
+      "goalId": "grade12-mathematics",
+      "question": "The general solution of dy/dx = −y/x is:",
+      "options": ["y = x + C", "xy = C", "y = Cx", "y = C/x"],
+      "correctIndex": 1,
+      "explanation": "Separating: dy/y = −dx/x → ln|y| = −ln|x| + ln|C| → ln|xy| = ln|C| → xy = C.",
+      "difficulty": "medium",
+      "tags": ["differential-equations", "variable-separable", "solution"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_011",
+      "goalId": "grade12-mathematics",
+      "question": "What is the order of the DE obtained by eliminating a and b from y = ax² + bx?",
+      "options": ["1", "2", "3", "0"],
+      "correctIndex": 1,
+      "explanation": "There are 2 arbitrary constants (a and b). Eliminating 2 constants requires 2 differentiations, giving a 2nd-order DE.",
+      "difficulty": "medium",
+      "tags": ["differential-equations", "formation", "order"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_012",
+      "goalId": "grade12-mathematics",
+      "question": "Solve the initial value problem: dy/dx = 2x, y(0) = 3. The particular solution is:",
+      "options": ["y = x² + 3", "y = 2x + 3", "y = x² − 3", "y = 2x²"],
+      "correctIndex": 0,
+      "explanation": "Integrating: y = x² + C. Applying y(0) = 3: 3 = 0 + C → C = 3. Particular solution: y = x² + 3.",
+      "difficulty": "easy",
+      "tags": ["differential-equations", "initial-value-problem", "particular-solution"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_013",
+      "goalId": "grade12-mathematics",
+      "question": "The degree of the differential equation d²y/dx² + sin(dy/dx) = 0 is:",
+      "options": ["1", "2", "Not defined", "0"],
+      "correctIndex": 2,
+      "explanation": "The degree is defined only when the DE can be written as a polynomial in its derivatives. Since sin(dy/dx) is a transcendental function of the derivative, the degree is NOT defined.",
+      "difficulty": "hard",
+      "tags": ["differential-equations", "degree", "transcendental"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_014",
+      "goalId": "grade12-mathematics",
+      "question": "The solution of dy/dx + y tan x = sec x is:",
+      "options": ["y cos x = sin x + C", "y sec x = tan x + C", "y = sin x + C cos x", "y sin x = cos x + C"],
+      "correctIndex": 0,
+      "explanation": "This is linear: P = tan x, IF = e^∫tan x dx = e^(ln|sec x|) = sec x. Multiplying: d(y·sec x)/dx = sec²x → y sec x = tan x + C → y cos x = sin x + C·cos x. Simplifying gives y cos x = sin x + C (with the C absorbed).",
+      "difficulty": "hard",
+      "tags": ["differential-equations", "linear-ODE", "trigonometric"]
+    },
+    {
+      "id": "q_mathematics_12_diff-eq_015",
+      "goalId": "grade12-mathematics",
+      "question": "A population P grows at a rate proportional to its size. This is modelled by:",
+      "options": ["dP/dt = k", "dP/dt = kP", "d²P/dt² = kP", "dP/dt = k/P"],
+      "correctIndex": 1,
+      "explanation": "Exponential growth/decay: 'rate proportional to size' means dP/dt = kP. The solution is P = P₀·eᵏᵗ (growth if k > 0, decay if k < 0).",
+      "difficulty": "medium",
+      "tags": ["differential-equations", "applications", "exponential-growth"]
+    }
+  ]
+}

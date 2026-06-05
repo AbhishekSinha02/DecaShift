@@ -1,0 +1,203 @@
+{
+  "goalId": "grade10-english",
+  "title": "Grade 10 English — The Hundred Dresses Part I + Determiners",
+  "description": "First Flight Chapter 7 comprehension and Grammar: Determiners",
+  "category": "school",
+  "grade": 10,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_10_hundred-dresses_001",
+      "goalId": "grade10-english",
+      "question": "In 'The Hundred Dresses Part I', who is the main character being teased by her classmates?",
+      "options": ["Maddie", "Peggy", "Wanda Petronski", "Cecile"],
+      "correctIndex": 2,
+      "explanation": "Wanda Petronski is the Polish girl who is teased for her unusual last name and her claim of owning a hundred dresses. The story explores themes of bullying, empathy, and class prejudice.",
+      "difficulty": "easy",
+      "tags": ["hundred-dresses", "comprehension", "character"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_002",
+      "goalId": "grade10-english",
+      "question": "Wanda Petronski claimed to have a hundred dresses. What was the reaction of her classmates?",
+      "options": [
+        "They believed her immediately",
+        "They laughed and made fun of her",
+        "They were impressed",
+        "They ignored her claim"
+      ],
+      "correctIndex": 1,
+      "explanation": "When Wanda claimed to have a hundred dresses all lined up in her closet, her classmates laughed and made fun of her — especially because she always wore the same faded blue dress to school. This became a daily game of mockery.",
+      "difficulty": "easy",
+      "tags": ["hundred-dresses", "comprehension", "plot"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_003",
+      "goalId": "grade10-english",
+      "question": "Who is Maddie in the story, and what is her internal conflict?",
+      "options": [
+        "Maddie is Wanda's best friend who stands up for her",
+        "Maddie is a bystander who feels uncomfortable with the teasing but doesn't stop it",
+        "Maddie is the main bully who teases Wanda the most",
+        "Maddie is the teacher"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maddie is Peggy's best friend. She is uncomfortable with the bullying of Wanda but stays silent, fearing she may be the next target. Her internal conflict between conscience and peer pressure is central to the story's moral theme.",
+      "difficulty": "medium",
+      "tags": ["hundred-dresses", "comprehension", "character-analysis"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_004",
+      "goalId": "grade10-english",
+      "question": "Wanda sat in the last row of the classroom next to other immigrant children. This detail suggests:",
+      "options": [
+        "She was a good student who sat at the back voluntarily",
+        "The social segregation and marginalization of immigrant children",
+        "She had a hearing problem",
+        "The teacher favoured her with a private seat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wanda's placement at the back with children of immigrant families signals the social pecking order — immigrant children were marginalised and separated from mainstream students, a subtle commentary on class and ethnic discrimination.",
+      "difficulty": "medium",
+      "tags": ["hundred-dresses", "comprehension", "theme", "social-comment"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_005",
+      "goalId": "grade10-english",
+      "question": "The central theme of 'The Hundred Dresses Part I' is:",
+      "options": [
+        "The importance of fashion",
+        "Bullying, empathy, and the harm of remaining a silent bystander",
+        "Competition in art",
+        "The value of immigration"
+      ],
+      "correctIndex": 1,
+      "explanation": "The story explores bullying and its emotional impact on victims, the failure of empathy (Maddie's silence), and the harm caused by passive bystanders. Wanda's talent (the hundred dress drawings) is revealed only after she leaves, adding tragic irony.",
+      "difficulty": "medium",
+      "tags": ["hundred-dresses", "theme", "literary-devices"]
+    },
+    {
+      "id": "q_english_10_grammar_det_001",
+      "goalId": "grade10-english",
+      "question": "Which of the following is a definite article?",
+      "options": ["A", "An", "The", "Some"],
+      "correctIndex": 2,
+      "explanation": "'The' is the definite article — it refers to a specific, known noun. 'A' and 'an' are indefinite articles (referring to any one of a kind). 'Some' is a quantifier/determiner.",
+      "difficulty": "easy",
+      "tags": ["grammar", "determiners", "articles"]
+    },
+    {
+      "id": "q_english_10_grammar_det_002",
+      "goalId": "grade10-english",
+      "question": "Choose the correct determiner: '_____ milk you gave me was sour.'",
+      "options": ["A", "An", "The", "Some"],
+      "correctIndex": 2,
+      "explanation": "'The' is correct — 'the milk you gave me' refers to a specific quantity of milk (the one that was given), making it a definite reference. 'A' cannot be used with uncountable nouns like milk.",
+      "difficulty": "easy",
+      "tags": ["grammar", "determiners", "definite-article"]
+    },
+    {
+      "id": "q_english_10_grammar_det_003",
+      "goalId": "grade10-english",
+      "question": "Demonstrative determiners point to specific nouns. Which of the following is a demonstrative determiner?",
+      "options": ["All", "This", "Many", "His"],
+      "correctIndex": 1,
+      "explanation": "'This', 'that', 'these', 'those' are demonstrative determiners. 'This/these' for nearby; 'that/those' for far. 'His' is a possessive determiner; 'many' is a quantifier.",
+      "difficulty": "easy",
+      "tags": ["grammar", "determiners", "demonstrative"]
+    },
+    {
+      "id": "q_english_10_grammar_det_004",
+      "goalId": "grade10-english",
+      "question": "Which sentence uses 'few' correctly (implying a small number, not enough)?",
+      "options": [
+        "A few students passed the exam.",
+        "Few students passed the exam.",
+        "The few students passed the exam.",
+        "Some few students passed."
+      ],
+      "correctIndex": 1,
+      "explanation": "'Few' (without 'a') implies a negative connotation — not enough; 'A few' implies a positive one — some, enough. So 'Few students passed' = not many passed (negative); 'A few students passed' = some passed (positive/sufficient).",
+      "difficulty": "medium",
+      "tags": ["grammar", "determiners", "few-a-few"]
+    },
+    {
+      "id": "q_english_10_grammar_det_005",
+      "goalId": "grade10-english",
+      "question": "Fill in the blank: 'She has ___ patience for nonsense.'",
+      "options": ["few", "little", "a few", "many"],
+      "correctIndex": 1,
+      "explanation": "'Little' is used with uncountable nouns to mean 'not much' (negative connotation). 'Patience' is uncountable. 'Few' is used with countable plural nouns. 'A little' would be more positive ('some patience').",
+      "difficulty": "medium",
+      "tags": ["grammar", "determiners", "little-a-little"]
+    },
+    {
+      "id": "q_english_10_grammar_det_006",
+      "goalId": "grade10-english",
+      "question": "Which determiner is correct? 'I don't have ___ money left.'",
+      "options": ["some", "any", "few", "little"],
+      "correctIndex": 1,
+      "explanation": "'Any' is used in negative sentences and questions with uncountable nouns. 'Some' is used in affirmative sentences and polite offers. So: 'I don't have any money' (correct). 'Few' is for countable nouns.",
+      "difficulty": "medium",
+      "tags": ["grammar", "determiners", "some-any"]
+    },
+    {
+      "id": "q_english_10_grammar_det_007",
+      "goalId": "grade10-english",
+      "question": "Identify the error: 'Every students must submit the assignment.'",
+      "options": [
+        "No error",
+        "'Every' should be followed by a singular noun — 'every student'",
+        "'Every' should be replaced with 'all'",
+        "'must' is incorrect"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Every' always takes a singular noun and singular verb: 'Every student must submit...' vs 'All students must submit...'. 'Every students' is incorrect.",
+      "difficulty": "medium",
+      "tags": ["grammar", "determiners", "every-each"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_006",
+      "goalId": "grade10-english",
+      "question": "Why did Wanda Petronski never feel offended when asked about her dresses (according to the narrative)?",
+      "options": [
+        "She was too shy to react",
+        "She was confident about her artistic talent and had drawn a hundred dresses",
+        "She did not understand the teasing",
+        "She was deaf"
+      ],
+      "correctIndex": 1,
+      "explanation": "This is revealed later in Part II — Wanda had actually drawn a hundred beautiful, unique dresses for the drawing contest (which she wins). Her claim was literally true in her imagination and artistic world. She had the last word, though silently.",
+      "difficulty": "hard",
+      "tags": ["hundred-dresses", "comprehension", "character-motivation"]
+    },
+    {
+      "id": "q_english_10_grammar_det_008",
+      "goalId": "grade10-english",
+      "question": "Which of the following sentences is grammatically correct in its use of determiners?",
+      "options": [
+        "I need a information.",
+        "Both the boys passed the exam.",
+        "Each of the books is expensive.",
+        "Both B and C"
+      ],
+      "correctIndex": 3,
+      "explanation": "'Information' is uncountable → 'a information' is wrong (should be 'some information'). 'Both the boys' (referring to two specific boys) and 'Each of the books is expensive' ('each' takes singular verb) are both correct.",
+      "difficulty": "hard",
+      "tags": ["grammar", "determiners", "error-correction"]
+    },
+    {
+      "id": "q_english_10_hundred-dresses_007",
+      "goalId": "grade10-english",
+      "question": "The author of 'The Hundred Dresses' is:",
+      "options": ["Eleanor Estes", "O. Henry", "Mark Twain", "Guy de Maupassant"],
+      "correctIndex": 0,
+      "explanation": "Eleanor Estes (1906–1988) was an American author who wrote 'The Hundred Dresses' (1944). The book, inspired by a real classmate, won the Newbery Honor. It is a classic anti-bullying story for children.",
+      "difficulty": "easy",
+      "tags": ["hundred-dresses", "author"]
+    }
+  ]
+}

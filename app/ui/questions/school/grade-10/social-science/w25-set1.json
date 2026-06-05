@@ -1,0 +1,193 @@
+{
+  "goalId": "grade10-social-science",
+  "title": "Grade 10 Social Science — Agriculture in India",
+  "description": "Geography Chapter 4: types of farming, food crops, cash crops, agricultural development",
+  "category": "school",
+  "grade": 10,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social-science_10_agriculture_001",
+      "goalId": "grade10-social-science",
+      "question": "Subsistence farming is characterised by:",
+      "options": [
+        "Large-scale commercial production",
+        "Growing crops mainly for the farmer's own consumption",
+        "Use of modern machinery",
+        "Export-oriented production"
+      ],
+      "correctIndex": 1,
+      "explanation": "In subsistence farming, crops are grown mainly for the family's own consumption, with little or no surplus for sale. It is practised on small plots with traditional tools and low-level technology.",
+      "difficulty": "easy",
+      "tags": ["agriculture", "types-of-farming", "subsistence"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_002",
+      "goalId": "grade10-social-science",
+      "question": "Shifting cultivation (also called 'Slash and Burn') is known as 'Jhumming' in:",
+      "options": ["Rajasthan", "North-East India", "Punjab", "Andhra Pradesh"],
+      "correctIndex": 1,
+      "explanation": "Shifting cultivation involves clearing forest land, cultivating for a few years until the soil loses fertility, then moving on. It is called 'Jhumming' in North-East India, 'Podu' in Andhra Pradesh, and 'Bewar'/'Dahiya' in other states.",
+      "difficulty": "medium",
+      "tags": ["agriculture", "shifting-cultivation", "jhumming"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_003",
+      "goalId": "grade10-social-science",
+      "question": "Rice is the staple food crop of India. It grows best in:",
+      "options": [
+        "Low temperature and low rainfall areas",
+        "High temperature (above 25°C) and high rainfall (above 100 cm)",
+        "Dry, arid climates",
+        "Cool highlands"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rice requires high temperature (above 25°C), high humidity, and annual rainfall of 100–200 cm. It is a Kharif crop grown in the Ganga plains, Coastal areas, Andhra Pradesh, Odisha, and West Bengal.",
+      "difficulty": "easy",
+      "tags": ["agriculture", "kharif-crops", "rice"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_004",
+      "goalId": "grade10-social-science",
+      "question": "Wheat is a Rabi crop. The ideal condition for wheat cultivation is:",
+      "options": [
+        "Hot and humid climate with heavy rain",
+        "Cool winter for growth, warm sunny weather at ripening, moderate rainfall (50–75 cm)",
+        "Tropical climate with year-round rain",
+        "Arid climate with irrigation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wheat needs cool, moist conditions during growth and bright sunshine at the time of ripening. Punjab, Haryana, and UP are the main wheat-growing states. The Green Revolution dramatically increased wheat production.",
+      "difficulty": "medium",
+      "tags": ["agriculture", "rabi-crops", "wheat"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_005",
+      "goalId": "grade10-social-science",
+      "question": "Kharif crops are sown in:",
+      "options": ["January", "June–July (onset of monsoon)", "October–November", "March"],
+      "correctIndex": 1,
+      "explanation": "Kharif crops (summer/monsoon crops) are sown at the beginning of the monsoon (June–July) and harvested in autumn (September–October). Examples: rice, maize, cotton, groundnut, sugarcane.",
+      "difficulty": "easy",
+      "tags": ["agriculture", "kharif-crops", "seasons"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_006",
+      "goalId": "grade10-social-science",
+      "question": "India is the largest producer and consumer of which beverage crop?",
+      "options": ["Coffee", "Tea", "Cocoa", "Jute"],
+      "correctIndex": 1,
+      "explanation": "India is one of the world's largest producers and consumers of tea. Tea is grown in Assam, West Bengal (Darjeeling), Tamil Nadu (Nilgiris), and Kerala. It is a plantation crop that requires abundant rainfall and hilly terrain.",
+      "difficulty": "easy",
+      "tags": ["agriculture", "plantation-crops", "tea"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_007",
+      "goalId": "grade10-social-science",
+      "question": "The 'Golden Fibre' of India is:",
+      "options": ["Cotton", "Silk", "Jute", "Wool"],
+      "correctIndex": 2,
+      "explanation": "Jute is called the 'Golden Fibre' because of its lustrous colour and high economic value. India is the largest producer of raw jute. It is a Kharif crop grown in the Ganga-Brahmaputra delta (West Bengal, Assam, Bihar).",
+      "difficulty": "easy",
+      "tags": ["agriculture", "fibre-crops", "jute"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_008",
+      "goalId": "grade10-social-science",
+      "question": "The Green Revolution in India during the 1960s–70s primarily focused on increasing production of:",
+      "options": ["Cotton and jute", "Wheat and rice (HYV seeds)", "Tea and coffee", "Sugarcane"],
+      "correctIndex": 1,
+      "explanation": "The Green Revolution introduced High Yielding Variety (HYV) seeds, chemical fertilisers, and irrigation, primarily for wheat and rice. It transformed India from a food-deficit to a food-surplus nation. M.S. Swaminathan is called the 'Father of Green Revolution in India'.",
+      "difficulty": "medium",
+      "tags": ["agriculture", "green-revolution", "HYV"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_009",
+      "goalId": "grade10-social-science",
+      "question": "India ranks first in the world in production of which of the following?",
+      "options": ["Wheat", "Milk", "Rice", "Cotton"],
+      "correctIndex": 1,
+      "explanation": "India is the world's largest producer of milk — a result of the White Revolution (Operation Flood, led by Dr. Verghese Kurien). India also ranks among the top producers of rice, wheat, and cotton, but is number one in milk.",
+      "difficulty": "medium",
+      "tags": ["agriculture", "india-production-ranking", "milk"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_010",
+      "goalId": "grade10-social-science",
+      "question": "Which of the following is a food crop?",
+      "options": ["Cotton", "Jute", "Sugarcane", "Pulses"],
+      "correctIndex": 3,
+      "explanation": "Pulses (dal — lentils, chickpeas, urad, moong) are food crops providing protein. Cotton and jute are fibre crops; sugarcane is a cash crop used for sugar and jaggery, not a direct food grain.",
+      "difficulty": "easy",
+      "tags": ["agriculture", "food-crops", "classification"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_011",
+      "goalId": "grade10-social-science",
+      "question": "Horticulture refers to:",
+      "options": [
+        "Farming of cereals only",
+        "Cultivation of fruits, vegetables, and flowers",
+        "Raising livestock",
+        "Aquaculture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Horticulture is the cultivation of fruits, vegetables, flowers, and ornamental plants. India is the second largest producer of fruits and vegetables in the world. Mango, banana, and citrus are major fruit crops.",
+      "difficulty": "easy",
+      "tags": ["agriculture", "horticulture"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_012",
+      "goalId": "grade10-social-science",
+      "question": "Zaid crops are grown in:",
+      "options": [
+        "Kharif season (June–September)",
+        "Rabi season (October–February)",
+        "Between Rabi and Kharif (March–June)",
+        "Year round"
+      ],
+      "correctIndex": 2,
+      "explanation": "Zaid crops are grown during the short season between March and June (between Rabi harvest and Kharif sowing). Examples: watermelon, muskmelon, cucumber, fodder crops. They require hot, dry conditions and irrigation.",
+      "difficulty": "medium",
+      "tags": ["agriculture", "zaid-crops", "seasons"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_013",
+      "goalId": "grade10-social-science",
+      "question": "Punjab, Haryana, and western Uttar Pradesh are called the 'granary of India' because they produce the most:",
+      "options": ["Rice and sugarcane", "Wheat and rice", "Jute and cotton", "Tea and coffee"],
+      "correctIndex": 1,
+      "explanation": "The 'granary of India' (wheat bowl) — Punjab, Haryana, and western UP — produces a large share of India's wheat and rice. The region benefited most from the Green Revolution.",
+      "difficulty": "easy",
+      "tags": ["agriculture", "granary-of-india", "wheat"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_014",
+      "goalId": "grade10-social-science",
+      "question": "The major challenge in Indian agriculture is:",
+      "options": [
+        "Too much irrigation water",
+        "Fragmented land holdings, overdependence on monsoon, and poor infrastructure",
+        "Excessive use of modern technology",
+        "Overproduction of food grains"
+      ],
+      "correctIndex": 1,
+      "explanation": "Key challenges: (1) Fragmented, small land holdings; (2) Overdependence on unreliable monsoon rainfall; (3) Limited access to credit, storage, and markets; (4) Low productivity per hectare compared to global standards.",
+      "difficulty": "medium",
+      "tags": ["agriculture", "challenges", "problems"]
+    },
+    {
+      "id": "q_social-science_10_agriculture_015",
+      "goalId": "grade10-social-science",
+      "question": "Commercial farming, where crops are grown on a large scale mainly for sale, is also called:",
+      "options": ["Subsistence farming", "Plantation farming", "Shifting cultivation", "Mixed farming"],
+      "correctIndex": 1,
+      "explanation": "Plantation farming (plantation agriculture) is a type of commercial farming where a single crop is grown on a large area using capital-intensive methods and cheap labour. Examples: tea, coffee, rubber, banana. Products are processed on site.",
+      "difficulty": "medium",
+      "tags": ["agriculture", "commercial-farming", "plantation"]
+    }
+  ]
+}

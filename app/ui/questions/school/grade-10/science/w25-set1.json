@@ -1,0 +1,168 @@
+{
+  "goalId": "grade10-science",
+  "title": "Grade 10 Science — Magnetic Effects of Current + Carbon and its Compounds",
+  "description": "Magnetic Effects of Electric Current (Ch. 13) and Carbon and its Compounds (Ch. 4) practice questions",
+  "category": "school",
+  "grade": 10,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_10_magnetic_001",
+      "goalId": "grade10-science",
+      "question": "The magnetic field lines around a straight current-carrying conductor are:",
+      "options": ["Straight lines", "Concentric circles", "Spirals", "Parallel lines"],
+      "correctIndex": 1,
+      "explanation": "A straight current-carrying conductor produces concentric circular magnetic field lines, centred on the wire. The direction is given by the right-hand thumb rule.",
+      "difficulty": "easy",
+      "tags": ["magnetic-effects", "field-lines"]
+    },
+    {
+      "id": "q_science_10_magnetic_002",
+      "goalId": "grade10-science",
+      "question": "Fleming's left-hand rule is used to find the direction of:",
+      "options": ["Magnetic field", "Induced current", "Force on a current-carrying conductor", "Voltage"],
+      "correctIndex": 2,
+      "explanation": "Fleming's left-hand rule gives the direction of force (motion) on a current-carrying conductor placed in a magnetic field. It applies to motors.",
+      "difficulty": "easy",
+      "tags": ["magnetic-effects", "flemings-rule", "motor"]
+    },
+    {
+      "id": "q_science_10_magnetic_003",
+      "goalId": "grade10-science",
+      "question": "The device that converts electrical energy into mechanical energy is:",
+      "options": ["Generator", "Transformer", "Electric motor", "Ammeter"],
+      "correctIndex": 2,
+      "explanation": "An electric motor converts electrical energy into mechanical (rotational) energy. A generator does the reverse — converts mechanical energy to electrical energy.",
+      "difficulty": "easy",
+      "tags": ["magnetic-effects", "electric-motor"]
+    },
+    {
+      "id": "q_science_10_magnetic_004",
+      "goalId": "grade10-science",
+      "question": "Electromagnetic induction is the production of electric current due to:",
+      "options": [
+        "A static magnetic field",
+        "A changing magnetic field or relative motion between a magnet and a conductor",
+        "A constant current in a wire",
+        "Static charges on a conductor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Electromagnetic induction (Faraday's law) states that an EMF is induced whenever the magnetic flux through a conductor changes — either by moving the magnet or changing the field strength.",
+      "difficulty": "easy",
+      "tags": ["magnetic-effects", "electromagnetic-induction"]
+    },
+    {
+      "id": "q_science_10_magnetic_005",
+      "goalId": "grade10-science",
+      "question": "In India, the frequency of AC household supply is:",
+      "options": ["50 Hz", "60 Hz", "100 Hz", "220 Hz"],
+      "correctIndex": 0,
+      "explanation": "In India (and most of Asia/Europe), the AC household supply frequency is 50 Hz (i.e., it completes 50 cycles per second). The USA uses 60 Hz.",
+      "difficulty": "easy",
+      "tags": ["magnetic-effects", "AC-DC", "household-supply"]
+    },
+    {
+      "id": "q_science_10_magnetic_006",
+      "goalId": "grade10-science",
+      "question": "The colour of the live wire in household wiring (as per Indian standards) is:",
+      "options": ["Green", "Blue", "Red", "Black"],
+      "correctIndex": 2,
+      "explanation": "In Indian domestic wiring: Live = Red, Neutral = Black, Earth = Green. (Note: new IEC standard uses Brown for live, but older Indian standard uses Red.)",
+      "difficulty": "medium",
+      "tags": ["magnetic-effects", "household-wiring", "safety"]
+    },
+    {
+      "id": "q_science_10_magnetic_007",
+      "goalId": "grade10-science",
+      "question": "An electric fuse works on the principle of:",
+      "options": ["Chemical effect of current", "Magnetic effect of current", "Heating effect of current", "Electroplating"],
+      "correctIndex": 2,
+      "explanation": "A fuse wire has a low melting point. When excess current flows, the heating effect (H = I²Rt) melts the fuse wire, breaking the circuit and protecting appliances.",
+      "difficulty": "medium",
+      "tags": ["magnetic-effects", "fuse", "heating-effect"]
+    },
+    {
+      "id": "q_science_10_magnetic_008",
+      "goalId": "grade10-science",
+      "question": "Which type of current is used for long-distance power transmission?",
+      "options": ["Direct current (DC)", "Alternating current (AC)", "Both equally", "Pulsed DC"],
+      "correctIndex": 1,
+      "explanation": "AC is used for long-distance transmission because transformers can step up the voltage (reducing current and thus I²R losses) and then step it back down near consumers. DC cannot be efficiently transformed.",
+      "difficulty": "medium",
+      "tags": ["magnetic-effects", "AC-DC", "power-transmission"]
+    },
+    {
+      "id": "q_science_10_carbon_001",
+      "goalId": "grade10-science",
+      "question": "Carbon forms a large number of compounds because of its property called:",
+      "options": ["Electrovalency", "Catenation", "Ionisation", "Sublimation"],
+      "correctIndex": 1,
+      "explanation": "Catenation is the ability of carbon atoms to form long chains and rings by bonding with other carbon atoms. Combined with tetravalency, it leads to the enormous diversity of carbon compounds.",
+      "difficulty": "easy",
+      "tags": ["carbon-compounds", "catenation"]
+    },
+    {
+      "id": "q_science_10_carbon_002",
+      "goalId": "grade10-science",
+      "question": "The functional group –COOH is called:",
+      "options": ["Aldehyde group", "Ketone group", "Carboxyl group", "Hydroxyl group"],
+      "correctIndex": 2,
+      "explanation": "–COOH is the carboxyl group, present in carboxylic acids (e.g., CH₃COOH = acetic acid). –OH is hydroxyl (alcohols); –CHO is aldehyde; –CO– is ketone.",
+      "difficulty": "easy",
+      "tags": ["carbon-compounds", "functional-groups"]
+    },
+    {
+      "id": "q_science_10_carbon_003",
+      "goalId": "grade10-science",
+      "question": "Ethanol reacts with sodium to produce:",
+      "options": ["Sodium ethoxide and water", "Sodium ethoxide and hydrogen gas", "Acetic acid and hydrogen", "Sodium acetate and water"],
+      "correctIndex": 1,
+      "explanation": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂↑. Ethanol reacts with sodium to release hydrogen gas and form sodium ethoxide.",
+      "difficulty": "medium",
+      "tags": ["carbon-compounds", "ethanol", "reactions"]
+    },
+    {
+      "id": "q_science_10_carbon_004",
+      "goalId": "grade10-science",
+      "question": "The reaction of an acid with an alcohol in the presence of an acid catalyst to produce an ester is called:",
+      "options": ["Saponification", "Esterification", "Hydrogenation", "Fermentation"],
+      "correctIndex": 1,
+      "explanation": "Esterification: acid + alcohol ⇌ ester + water (with H₂SO₄ catalyst). The reverse reaction (ester + base → soap + alcohol) is saponification.",
+      "difficulty": "medium",
+      "tags": ["carbon-compounds", "esterification"]
+    },
+    {
+      "id": "q_science_10_carbon_005",
+      "goalId": "grade10-science",
+      "question": "Which of the following is a saturated hydrocarbon?",
+      "options": ["Ethylene (C₂H₄)", "Acetylene (C₂H₂)", "Benzene (C₆H₆)", "Ethane (C₂H₆)"],
+      "correctIndex": 3,
+      "explanation": "Ethane (C₂H₆) has only single bonds — it is a saturated hydrocarbon (alkane). Ethylene has a C=C double bond (alkene); acetylene has a C≡C triple bond (alkyne); benzene has a delocalised ring.",
+      "difficulty": "medium",
+      "tags": ["carbon-compounds", "saturated-unsaturated"]
+    },
+    {
+      "id": "q_science_10_carbon_006",
+      "goalId": "grade10-science",
+      "question": "Soaps are effective in hard water:",
+      "options": ["Always", "Never — they form scum", "Only with hot water", "Only with cold water"],
+      "correctIndex": 1,
+      "explanation": "Hard water contains Ca²⁺ and Mg²⁺ ions. Soap (sodium/potassium stearate) reacts with these to form insoluble scum (calcium/magnesium stearate), reducing cleaning action. Detergents do not have this problem.",
+      "difficulty": "medium",
+      "tags": ["carbon-compounds", "soaps-detergents", "hard-water"]
+    },
+    {
+      "id": "q_science_10_carbon_007",
+      "goalId": "grade10-science",
+      "question": "Oxidation of ethanol with alkaline KMnO₄ gives:",
+      "options": ["Methanol", "Ethanoic acid (acetic acid)", "Ethanal", "Methanoic acid"],
+      "correctIndex": 1,
+      "explanation": "Mild oxidising agents (like acidified K₂Cr₂O₇ or alkaline KMnO₄) oxidise ethanol (C₂H₅OH) to ethanoic acid (CH₃COOH). This is used in the preparation of vinegar.",
+      "difficulty": "hard",
+      "tags": ["carbon-compounds", "oxidation", "ethanol"]
+    }
+  ]
+}

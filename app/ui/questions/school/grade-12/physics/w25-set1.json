@@ -1,0 +1,203 @@
+{
+  "goalId": "grade12-physics",
+  "title": "Grade 12 Physics — Electromagnetic Induction",
+  "description": "Electromagnetic Induction — Faraday's laws, Lenz's law, motional EMF, AC generators, inductance (CBSE Ch. 6)",
+  "category": "school",
+  "grade": 12,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_12_emi_001",
+      "goalId": "grade12-physics",
+      "question": "Faraday's law of electromagnetic induction states that the induced EMF in a coil is:",
+      "options": [
+        "Proportional to the magnetic field",
+        "Equal to the rate of change of magnetic flux",
+        "Proportional to the resistance of the coil",
+        "Equal to the current through the coil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Faraday's law: EMF = −dΦ/dt, where Φ is the magnetic flux. The magnitude of the induced EMF equals the rate of change of magnetic flux. The negative sign is Lenz's law.",
+      "difficulty": "easy",
+      "tags": ["emi", "faraday", "induced-emf"]
+    },
+    {
+      "id": "q_physics_12_emi_002",
+      "goalId": "grade12-physics",
+      "question": "Lenz's law states that the direction of induced current is such that it:",
+      "options": [
+        "Aids the change causing it",
+        "Opposes the change causing it",
+        "Is always clockwise",
+        "Is proportional to the flux"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lenz's law: the induced current always flows in a direction to oppose the cause that produces it (i.e., opposes the change in flux). This is consistent with conservation of energy.",
+      "difficulty": "easy",
+      "tags": ["emi", "lenz-law", "direction-of-current"]
+    },
+    {
+      "id": "q_physics_12_emi_003",
+      "goalId": "grade12-physics",
+      "question": "The SI unit of magnetic flux is:",
+      "options": ["Tesla", "Weber", "Henry", "Ampere"],
+      "correctIndex": 1,
+      "explanation": "Magnetic flux Φ = B·A·cosθ, measured in Weber (Wb). 1 Wb = 1 V·s = 1 T·m². Tesla (T) is the unit of magnetic field B; Henry (H) is the unit of inductance.",
+      "difficulty": "easy",
+      "tags": ["emi", "magnetic-flux", "units"]
+    },
+    {
+      "id": "q_physics_12_emi_004",
+      "goalId": "grade12-physics",
+      "question": "A coil of 500 turns has a flux change of 2 Wb in 5 seconds. The induced EMF is:",
+      "options": ["0.4 V", "200 V", "500 V", "1000 V"],
+      "correctIndex": 1,
+      "explanation": "EMF = N × ΔΦ/Δt = 500 × (2/5) = 500 × 0.4 = 200 V.",
+      "difficulty": "easy",
+      "tags": ["emi", "induced-emf", "calculation"]
+    },
+    {
+      "id": "q_physics_12_emi_005",
+      "goalId": "grade12-physics",
+      "question": "Motional EMF is produced when a conductor moves with velocity v in a magnetic field B. For a conductor of length L, the EMF is:",
+      "options": ["BLv²", "BLv", "B²Lv", "BL/v"],
+      "correctIndex": 1,
+      "explanation": "When a conductor of length L moves with velocity v perpendicular to a field B, the motional EMF = BLv. This arises from the Lorentz force (qvB) acting on free charges in the conductor.",
+      "difficulty": "easy",
+      "tags": ["emi", "motional-emf", "formula"]
+    },
+    {
+      "id": "q_physics_12_emi_006",
+      "goalId": "grade12-physics",
+      "question": "The self-inductance of a coil is defined as the ratio of:",
+      "options": [
+        "Flux to current",
+        "EMF to rate of change of current",
+        "Total flux linkage (NΦ) to current",
+        "Both A and C"
+      ],
+      "correctIndex": 3,
+      "explanation": "Self-inductance L = NΦ/I (flux linkage per unit current) OR L = −EMF/(dI/dt) (magnitude of EMF per unit rate of change of current). Both definitions give the same quantity. Unit: Henry (H).",
+      "difficulty": "medium",
+      "tags": ["emi", "self-inductance", "definition"]
+    },
+    {
+      "id": "q_physics_12_emi_007",
+      "goalId": "grade12-physics",
+      "question": "The self-inductance of a solenoid with n turns per unit length, length l, cross-section area A is:",
+      "options": ["μ₀nAl", "μ₀n²Al", "μ₀nA/l", "μ₀n²A/l"],
+      "correctIndex": 1,
+      "explanation": "L = μ₀ n² V = μ₀ n² A l, where n = N/l is turns per unit length. This assumes the solenoid is long enough to have a uniform interior field B = μ₀nI.",
+      "difficulty": "medium",
+      "tags": ["emi", "self-inductance", "solenoid", "formula"]
+    },
+    {
+      "id": "q_physics_12_emi_008",
+      "goalId": "grade12-physics",
+      "question": "The energy stored in an inductor of inductance L carrying current I is:",
+      "options": ["LI", "LI²", "½LI²", "2LI²"],
+      "correctIndex": 2,
+      "explanation": "Energy stored in an inductor = U = ½LI². This is analogous to energy stored in a capacitor (½CV²) — it is stored in the magnetic field of the inductor.",
+      "difficulty": "medium",
+      "tags": ["emi", "energy-in-inductor", "formula"]
+    },
+    {
+      "id": "q_physics_12_emi_009",
+      "goalId": "grade12-physics",
+      "question": "In an AC generator, the EMF produced is sinusoidal because:",
+      "options": [
+        "The coil resistance varies with angle",
+        "The rate of change of flux varies sinusoidally as the coil rotates",
+        "The magnetic field is non-uniform",
+        "The coil area changes during rotation"
+      ],
+      "correctIndex": 1,
+      "explanation": "As the coil rotates in a uniform field, Φ = NBAcosωt, so EMF = NBAω sinωt — a sinusoidal function. The EMF is maximum when the coil is parallel to the field (flux change is maximum).",
+      "difficulty": "medium",
+      "tags": ["emi", "ac-generator", "sinusoidal-emf"]
+    },
+    {
+      "id": "q_physics_12_emi_010",
+      "goalId": "grade12-physics",
+      "question": "Eddy currents can be reduced by:",
+      "options": [
+        "Increasing the core cross-section",
+        "Using a solid iron core",
+        "Using a laminated core",
+        "Increasing the coil resistance"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eddy currents are induced in the core material and waste energy as heat. Using a laminated core (thin insulated layers) breaks the eddy current paths, greatly reducing them. Transformers and motors use laminated cores.",
+      "difficulty": "medium",
+      "tags": ["emi", "eddy-currents", "laminated-core"]
+    },
+    {
+      "id": "q_physics_12_emi_011",
+      "goalId": "grade12-physics",
+      "question": "Mutual inductance M between two coils is defined by:",
+      "options": [
+        "EMF in coil 1 = M × (rate of change of current in coil 1)",
+        "EMF in coil 2 = M × (rate of change of current in coil 1)",
+        "Flux in coil 2 = M × current in coil 2",
+        "Total flux = M × total current"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mutual inductance M: EMF₂ = −M(dI₁/dt). The EMF induced in coil 2 equals M times the rate of change of current in coil 1. Alternatively, M = N₂Φ₂₁/I₁ (flux linkage per unit current).",
+      "difficulty": "medium",
+      "tags": ["emi", "mutual-inductance", "definition"]
+    },
+    {
+      "id": "q_physics_12_emi_012",
+      "goalId": "grade12-physics",
+      "question": "A rectangular loop moves into a region of uniform magnetic field. During entry, which statement is correct?",
+      "options": [
+        "No EMF is induced",
+        "EMF is induced only if the field is changing",
+        "EMF is induced because the flux through the loop is changing",
+        "EMF depends only on the loop's resistance"
+      ],
+      "correctIndex": 2,
+      "explanation": "As the loop enters the field, more area is enclosed within the field region, so the flux increases. By Faraday's law, a changing flux induces an EMF. Once fully inside (uniform field), the flux is constant and EMF = 0.",
+      "difficulty": "medium",
+      "tags": ["emi", "moving-loop", "flux-change"]
+    },
+    {
+      "id": "q_physics_12_emi_013",
+      "goalId": "grade12-physics",
+      "question": "If the current in a coil changes from 5 A to 2 A in 0.1 s and the induced EMF is 30 V, the self-inductance of the coil is:",
+      "options": ["0.1 H", "0.5 H", "1 H", "3 H"],
+      "correctIndex": 2,
+      "explanation": "EMF = L|ΔI/Δt| → 30 = L × |5−2|/0.1 = L × 30 → L = 1 H.",
+      "difficulty": "hard",
+      "tags": ["emi", "self-inductance", "calculation"]
+    },
+    {
+      "id": "q_physics_12_emi_014",
+      "goalId": "grade12-physics",
+      "question": "The phenomenon of electromagnetic induction is used in which of the following?",
+      "options": [
+        "Electric bulb and resistor",
+        "Transformer and electric generator",
+        "Capacitor and battery",
+        "Galvanometer and ammeter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transformers (mutual induction) and AC generators (changing flux induces EMF) are direct applications of electromagnetic induction. Induction cooktops and induction motors also use this principle.",
+      "difficulty": "easy",
+      "tags": ["emi", "applications"]
+    },
+    {
+      "id": "q_physics_12_emi_015",
+      "goalId": "grade12-physics",
+      "question": "A long solenoid has 1000 turns, length 50 cm, and radius 2 cm. Its self-inductance is (μ₀ = 4π × 10⁻⁷ H/m):",
+      "options": ["0.32 mH", "3.16 mH", "0.63 mH", "1.26 mH"],
+      "correctIndex": 1,
+      "explanation": "n = 1000/0.5 = 2000 turns/m. A = π(0.02)² = 4π×10⁻⁴ m². L = μ₀n²Al = 4π×10⁻⁷ × 4×10⁶ × 4π×10⁻⁴ × 0.5 = 4π×10⁻⁷ × 4×10⁶ × 2π×10⁻⁴ ≈ 3.16 mH.",
+      "difficulty": "hard",
+      "tags": ["emi", "self-inductance", "solenoid", "calculation"]
+    }
+  ]
+}

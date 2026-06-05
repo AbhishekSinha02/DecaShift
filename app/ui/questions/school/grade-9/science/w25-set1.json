@@ -1,0 +1,163 @@
+{
+  "goalId": "grade9-science",
+  "title": "Grade 9 Science — Tissues",
+  "description": "Tissues — Plant and Animal Tissues (CBSE Ch. 6) practice questions",
+  "category": "school",
+  "grade": 9,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_9_tissues_001",
+      "goalId": "grade9-science",
+      "question": "A group of cells having similar structure and performing a common function is called:",
+      "options": ["Organ", "Tissue", "Organ system", "Cell"],
+      "correctIndex": 1,
+      "explanation": "A tissue is a group of cells with similar structure, origin, and function. Tissues combine to form organs (e.g., heart, lungs), which combine into organ systems.",
+      "difficulty": "easy",
+      "tags": ["tissues", "definition"]
+    },
+    {
+      "id": "q_science_9_tissues_002",
+      "goalId": "grade9-science",
+      "question": "The meristematic tissue in plants is responsible for:",
+      "options": ["Photosynthesis", "Storage of food", "Growth by cell division", "Transport of water"],
+      "correctIndex": 2,
+      "explanation": "Meristematic tissue consists of actively dividing cells. It is found at the growing tips (apical), nodes (intercalary), and sides (lateral) of plants, and is responsible for plant growth.",
+      "difficulty": "easy",
+      "tags": ["tissues", "plant-tissue", "meristematic"]
+    },
+    {
+      "id": "q_science_9_tissues_003",
+      "goalId": "grade9-science",
+      "question": "Xylem tissue in plants is responsible for:",
+      "options": ["Transport of food", "Transport of water and minerals", "Cell division", "Support only"],
+      "correctIndex": 1,
+      "explanation": "Xylem is a complex permanent tissue that transports water and dissolved minerals upward from roots to leaves. Phloem transports food (sugar) from leaves to other parts.",
+      "difficulty": "easy",
+      "tags": ["tissues", "plant-tissue", "xylem"]
+    },
+    {
+      "id": "q_science_9_tissues_004",
+      "goalId": "grade9-science",
+      "question": "Chlorenchyma is a type of parenchyma that:",
+      "options": ["Has thick cell walls", "Contains chloroplasts and performs photosynthesis", "Stores food", "Provides mechanical support"],
+      "correctIndex": 1,
+      "explanation": "Chlorenchyma is parenchyma containing chloroplasts. It is found in leaves (mesophyll) and performs photosynthesis. Regular parenchyma stores food; collenchyma provides flexible support; sclerenchyma gives rigid support.",
+      "difficulty": "medium",
+      "tags": ["tissues", "plant-tissue", "parenchyma", "chlorenchyma"]
+    },
+    {
+      "id": "q_science_9_tissues_005",
+      "goalId": "grade9-science",
+      "question": "Sclerenchyma tissue has cells with:",
+      "options": ["Thin, living walls", "Thick, lignified dead walls", "Walls containing chloroplasts", "Large intercellular spaces"],
+      "correctIndex": 1,
+      "explanation": "Sclerenchyma cells are dead at maturity and have thick, lignified (wood-like) walls. They provide rigidity and mechanical strength to plant organs such as stems, seed coats, and the shell of a coconut.",
+      "difficulty": "medium",
+      "tags": ["tissues", "plant-tissue", "sclerenchyma"]
+    },
+    {
+      "id": "q_science_9_tissues_006",
+      "goalId": "grade9-science",
+      "question": "The tissue that forms the outer protective layer of a leaf is called:",
+      "options": ["Mesophyll", "Phloem", "Epidermis", "Cortex"],
+      "correctIndex": 2,
+      "explanation": "The epidermis is the outermost protective layer of plants. In leaves, it is usually one cell thick, has no chloroplasts (except guard cells), and secretes a waxy cuticle to reduce water loss.",
+      "difficulty": "easy",
+      "tags": ["tissues", "plant-tissue", "epidermis"]
+    },
+    {
+      "id": "q_science_9_tissues_007",
+      "goalId": "grade9-science",
+      "question": "The basic tissue type found in animals that covers body surfaces and lines organs is:",
+      "options": ["Connective tissue", "Epithelial tissue", "Muscular tissue", "Nervous tissue"],
+      "correctIndex": 1,
+      "explanation": "Epithelial tissue forms the lining of body surfaces, organs, and cavities (e.g., skin, gut lining, lung lining). It protects, absorbs, and secretes.",
+      "difficulty": "easy",
+      "tags": ["tissues", "animal-tissue", "epithelial"]
+    },
+    {
+      "id": "q_science_9_tissues_008",
+      "goalId": "grade9-science",
+      "question": "Cartilage is a type of:",
+      "options": ["Epithelial tissue", "Muscular tissue", "Connective tissue", "Nervous tissue"],
+      "correctIndex": 2,
+      "explanation": "Cartilage is specialised connective tissue with a matrix of chondrin. It provides flexibility and support (e.g., in the ear pinna, nose tip, between vertebrae). Bone, blood, and fat are also connective tissues.",
+      "difficulty": "medium",
+      "tags": ["tissues", "animal-tissue", "connective", "cartilage"]
+    },
+    {
+      "id": "q_science_9_tissues_009",
+      "goalId": "grade9-science",
+      "question": "Striated (voluntary) muscles are found in:",
+      "options": ["Heart", "Stomach walls", "Limbs and body wall", "Blood vessels"],
+      "correctIndex": 2,
+      "explanation": "Striated (skeletal/voluntary) muscles are attached to bones and control body movements. They show cross-striations under a microscope. Cardiac muscle (heart) is also striated but involuntary; smooth muscles line internal organs.",
+      "difficulty": "medium",
+      "tags": ["tissues", "animal-tissue", "muscular", "striated"]
+    },
+    {
+      "id": "q_science_9_tissues_010",
+      "goalId": "grade9-science",
+      "question": "The neuron is the structural and functional unit of:",
+      "options": ["Epithelial tissue", "Connective tissue", "Nervous tissue", "Muscular tissue"],
+      "correctIndex": 2,
+      "explanation": "A neuron (nerve cell) is the basic unit of nervous tissue. It consists of a cell body (cyton), dendrites (receivers), and an axon (transmitter). Neurons transmit electrical impulses.",
+      "difficulty": "easy",
+      "tags": ["tissues", "animal-tissue", "nervous", "neuron"]
+    },
+    {
+      "id": "q_science_9_tissues_011",
+      "goalId": "grade9-science",
+      "question": "Which of the following is a fluid connective tissue?",
+      "options": ["Cartilage", "Bone", "Blood", "Tendon"],
+      "correctIndex": 2,
+      "explanation": "Blood is a fluid connective tissue — it has a liquid matrix (plasma) containing red blood cells, white blood cells, and platelets. Lymph is another fluid connective tissue.",
+      "difficulty": "medium",
+      "tags": ["tissues", "animal-tissue", "connective", "blood"]
+    },
+    {
+      "id": "q_science_9_tissues_012",
+      "goalId": "grade9-science",
+      "question": "Cork (bark) cells are dead and filled with a substance called:",
+      "options": ["Lignin", "Suberin", "Cellulose", "Cutin"],
+      "correctIndex": 1,
+      "explanation": "Cork cells are dead and their walls are impregnated with suberin, a waxy substance that makes them impermeable to water and gases. Cork is the outermost layer of the bark in older stems.",
+      "difficulty": "hard",
+      "tags": ["tissues", "plant-tissue", "cork", "suberin"]
+    },
+    {
+      "id": "q_science_9_tissues_013",
+      "goalId": "grade9-science",
+      "question": "Aerenchyma is parenchyma with large air spaces. It is found in:",
+      "options": ["Desert plants (xerophytes)", "Aquatic plants (hydrophytes)", "Climbing plants", "Parasitic plants"],
+      "correctIndex": 1,
+      "explanation": "Aerenchyma has large intercellular air spaces that help aquatic plants (hydrophytes) float and enable gas exchange in submerged tissues. Examples: water lily, lotus.",
+      "difficulty": "hard",
+      "tags": ["tissues", "plant-tissue", "aerenchyma", "aquatic"]
+    },
+    {
+      "id": "q_science_9_tissues_014",
+      "goalId": "grade9-science",
+      "question": "The type of epithelium lining the respiratory tract (trachea) that sweeps out dust is:",
+      "options": ["Squamous epithelium", "Cuboidal epithelium", "Ciliated epithelium", "Columnar epithelium"],
+      "correctIndex": 2,
+      "explanation": "Ciliated columnar epithelium lines the trachea and bronchi. The cilia beat to sweep mucus and trapped dust particles upward and out of the respiratory tract, protecting the lungs.",
+      "difficulty": "hard",
+      "tags": ["tissues", "animal-tissue", "epithelial", "ciliated"]
+    },
+    {
+      "id": "q_science_9_tissues_015",
+      "goalId": "grade9-science",
+      "question": "Tendons connect muscles to bones. They are made of:",
+      "options": ["Loose connective tissue", "Dense regular connective tissue (fibrous)", "Adipose tissue", "Reticular tissue"],
+      "correctIndex": 1,
+      "explanation": "Tendons are made of dense regular connective tissue — tightly packed parallel collagen fibres that give great tensile strength. Ligaments (bone-to-bone) are similar but have some elastic fibres.",
+      "difficulty": "hard",
+      "tags": ["tissues", "animal-tissue", "connective", "tendon"]
+    }
+  ]
+}

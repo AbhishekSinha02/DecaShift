@@ -1,0 +1,173 @@
+{
+  "goalId": "grade9-mathematics",
+  "title": "Grade 9 Mathematics — Circles",
+  "description": "Circles — chords, arcs, angles subtended, cyclic quadrilaterals (CBSE Ch. 10)",
+  "category": "school",
+  "grade": 9,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_9_circles_001",
+      "goalId": "grade9-mathematics",
+      "question": "The longest chord of a circle is:",
+      "options": ["Radius", "Diameter", "Arc", "Tangent"],
+      "correctIndex": 1,
+      "explanation": "The diameter is the longest chord of a circle — it passes through the centre and its length is twice the radius.",
+      "difficulty": "easy",
+      "tags": ["circles", "chord", "diameter"]
+    },
+    {
+      "id": "q_mathematics_9_circles_002",
+      "goalId": "grade9-mathematics",
+      "question": "Equal chords of a circle subtend equal angles at the:",
+      "options": ["Circumference", "Centre", "Any point on the chord", "Tangent point"],
+      "correctIndex": 1,
+      "explanation": "Theorem: Equal chords of a circle (or congruent circles) subtend equal angles at the centre. This follows directly from congruent triangles formed by radii to the chord endpoints.",
+      "difficulty": "easy",
+      "tags": ["circles", "chord", "angle-at-centre"]
+    },
+    {
+      "id": "q_mathematics_9_circles_003",
+      "goalId": "grade9-mathematics",
+      "question": "The perpendicular from the centre of a circle to a chord:",
+      "options": [
+        "Divides the chord in ratio 1:2",
+        "Bisects the chord",
+        "Is parallel to the chord",
+        "Bisects the arc only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The perpendicular from the centre to any chord bisects it. This is a key theorem — the foot of the perpendicular is the midpoint of the chord.",
+      "difficulty": "easy",
+      "tags": ["circles", "chord", "perpendicular-bisector"]
+    },
+    {
+      "id": "q_mathematics_9_circles_004",
+      "goalId": "grade9-mathematics",
+      "question": "The angle subtended by an arc at the centre is _____ the angle subtended by it at any point on the remaining part of the circle.",
+      "options": ["Equal to", "Half of", "Double of", "One-third of"],
+      "correctIndex": 2,
+      "explanation": "Inscribed Angle Theorem: The angle subtended at the centre is double the angle subtended at any point on the remaining (major/minor) arc.",
+      "difficulty": "easy",
+      "tags": ["circles", "inscribed-angle", "central-angle"]
+    },
+    {
+      "id": "q_mathematics_9_circles_005",
+      "goalId": "grade9-mathematics",
+      "question": "Angles in the same segment of a circle are:",
+      "options": ["Supplementary", "Complementary", "Equal", "In ratio 1:2"],
+      "correctIndex": 2,
+      "explanation": "Angles inscribed in the same arc (segment) of a circle are equal. Both look at the same chord from the same side.",
+      "difficulty": "easy",
+      "tags": ["circles", "angles-same-segment"]
+    },
+    {
+      "id": "q_mathematics_9_circles_006",
+      "goalId": "grade9-mathematics",
+      "question": "The angle in a semicircle is:",
+      "options": ["45°", "60°", "90°", "120°"],
+      "correctIndex": 2,
+      "explanation": "The angle subtended by a diameter (semicircle) at the circumference is always 90° (Thales' theorem). The central angle for a diameter = 180°, so inscribed angle = 180°/2 = 90°.",
+      "difficulty": "easy",
+      "tags": ["circles", "semicircle", "angle"]
+    },
+    {
+      "id": "q_mathematics_9_circles_007",
+      "goalId": "grade9-mathematics",
+      "question": "In a cyclic quadrilateral ABCD, ∠A + ∠C =",
+      "options": ["90°", "180°", "270°", "360°"],
+      "correctIndex": 1,
+      "explanation": "In a cyclic quadrilateral (one inscribed in a circle), opposite angles are supplementary: ∠A + ∠C = 180° and ∠B + ∠D = 180°.",
+      "difficulty": "medium",
+      "tags": ["circles", "cyclic-quadrilateral", "opposite-angles"]
+    },
+    {
+      "id": "q_mathematics_9_circles_008",
+      "goalId": "grade9-mathematics",
+      "question": "In a circle, the central angle subtended by a chord AB is 80°. The inscribed angle subtended by the same chord on the major arc is:",
+      "options": ["80°", "40°", "160°", "100°"],
+      "correctIndex": 1,
+      "explanation": "The inscribed angle = half the central angle. Central angle = 80°, so inscribed angle on the major arc = 80°/2 = 40°.",
+      "difficulty": "medium",
+      "tags": ["circles", "inscribed-angle", "calculation"]
+    },
+    {
+      "id": "q_mathematics_9_circles_009",
+      "goalId": "grade9-mathematics",
+      "question": "Two circles of radii 5 cm and 3 cm intersect at two points. The distance between their centres is 4 cm. The length of the common chord is:",
+      "options": ["3 cm", "4 cm", "5 cm", "6 cm"],
+      "correctIndex": 3,
+      "explanation": "Using the intersecting chords / coordinate approach: let centres be O₁O₂ = 4 cm, r₁ = 5, r₂ = 3. The common chord perpendicularly bisects the line joining centres. Solving: x = (16 + 25 − 9)/(2 × 4) = 4 from O₁, so half-chord = √(25 − 16) = 3, chord = 6 cm.",
+      "difficulty": "hard",
+      "tags": ["circles", "common-chord", "two-circles"]
+    },
+    {
+      "id": "q_mathematics_9_circles_010",
+      "goalId": "grade9-mathematics",
+      "question": "ABCD is a cyclic quadrilateral. If ∠A = 2x and ∠C = x + 30°, then x =",
+      "options": ["30°", "40°", "50°", "60°"],
+      "correctIndex": 2,
+      "explanation": "Opposite angles of a cyclic quadrilateral sum to 180°: ∠A + ∠C = 180° → 2x + x + 30° = 180° → 3x = 150° → x = 50°.",
+      "difficulty": "medium",
+      "tags": ["circles", "cyclic-quadrilateral", "calculation"]
+    },
+    {
+      "id": "q_mathematics_9_circles_011",
+      "goalId": "grade9-mathematics",
+      "question": "A chord of a circle is at a distance of 6 cm from the centre. The radius of the circle is 10 cm. The length of the chord is:",
+      "options": ["8 cm", "12 cm", "16 cm", "14 cm"],
+      "correctIndex": 2,
+      "explanation": "Half-chord = √(r² − d²) = √(100 − 36) = √64 = 8 cm. Full chord = 2 × 8 = 16 cm.",
+      "difficulty": "medium",
+      "tags": ["circles", "chord-length", "calculation"]
+    },
+    {
+      "id": "q_mathematics_9_circles_012",
+      "goalId": "grade9-mathematics",
+      "question": "If two equal chords of a circle intersect within the circle, the segments of one chord are:",
+      "options": [
+        "Unequal",
+        "Equal to the corresponding segments of the other chord",
+        "Double the segments of the other",
+        "Half the segments of the other"
+      ],
+      "correctIndex": 1,
+      "explanation": "Theorem: If two equal chords of a circle intersect inside the circle, then the segments of one chord are equal respectively to the segments of the other chord.",
+      "difficulty": "medium",
+      "tags": ["circles", "equal-chords", "intersecting-chords"]
+    },
+    {
+      "id": "q_mathematics_9_circles_013",
+      "goalId": "grade9-mathematics",
+      "question": "In a circle with centre O, ∠AOB = 100° where A and B are on the circle. The reflex ∠AOB is:",
+      "options": ["100°", "160°", "260°", "280°"],
+      "correctIndex": 2,
+      "explanation": "Reflex ∠AOB = 360° − 100° = 260°.",
+      "difficulty": "easy",
+      "tags": ["circles", "reflex-angle", "central-angle"]
+    },
+    {
+      "id": "q_mathematics_9_circles_014",
+      "goalId": "grade9-mathematics",
+      "question": "The angle subtended by a minor arc at the centre is 140°. The angle subtended by the major arc at a point on the minor arc is:",
+      "options": ["70°", "140°", "220°", "110°"],
+      "correctIndex": 3,
+      "explanation": "The major arc subtends a central angle of 360° − 140° = 220°. By the inscribed angle theorem, the angle at a point on the minor arc (looking at the major arc) = 220°/2 = 110°.",
+      "difficulty": "hard",
+      "tags": ["circles", "arc", "inscribed-angle"]
+    },
+    {
+      "id": "q_mathematics_9_circles_015",
+      "goalId": "grade9-mathematics",
+      "question": "How many circles can be drawn through three non-collinear points?",
+      "options": ["0", "1", "2", "Infinite"],
+      "correctIndex": 1,
+      "explanation": "Through any three non-collinear points, exactly one unique circle can be drawn. (If the points were collinear, no circle could pass through all three.)",
+      "difficulty": "easy",
+      "tags": ["circles", "unique-circle", "non-collinear"]
+    }
+  ]
+}

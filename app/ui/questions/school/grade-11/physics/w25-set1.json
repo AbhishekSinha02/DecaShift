@@ -1,0 +1,178 @@
+{
+  "goalId": "grade11-physics",
+  "title": "Grade 11 Physics — Systems of Particles and Rotational Motion",
+  "description": "Rotational motion — centre of mass, torque, moment of inertia, angular momentum, rolling motion (CBSE Ch. 7)",
+  "category": "school",
+  "grade": 11,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_11_rotation_001",
+      "goalId": "grade11-physics",
+      "question": "The centre of mass of a system of two equal masses m separated by distance d is:",
+      "options": ["At mass 1", "At mass 2", "At the midpoint between them", "At one-third from mass 1"],
+      "correctIndex": 2,
+      "explanation": "For two equal masses m at positions x₁ and x₂: x_cm = (m·x₁ + m·x₂)/(2m) = (x₁ + x₂)/2 — the midpoint. The centre of mass lies at the midpoint when masses are equal.",
+      "difficulty": "easy",
+      "tags": ["rotation", "centre-of-mass"]
+    },
+    {
+      "id": "q_physics_11_rotation_002",
+      "goalId": "grade11-physics",
+      "question": "Torque (τ) is defined as:",
+      "options": ["Force × distance", "Force × perpendicular distance from axis", "Mass × angular velocity", "Moment of inertia × velocity"],
+      "correctIndex": 1,
+      "explanation": "Torque τ = r × F = rF sinθ, where r is the position vector and θ is the angle between r and F. It is the rotational analogue of force — the tendency to cause rotation. SI unit: N·m.",
+      "difficulty": "easy",
+      "tags": ["rotation", "torque", "definition"]
+    },
+    {
+      "id": "q_physics_11_rotation_003",
+      "goalId": "grade11-physics",
+      "question": "Moment of inertia depends on:",
+      "options": [
+        "Mass only",
+        "Speed of rotation only",
+        "Mass and its distribution about the axis",
+        "Shape only, not mass"
+      ],
+      "correctIndex": 2,
+      "explanation": "Moment of inertia I = Σmᵢrᵢ² depends on both the total mass and how that mass is distributed relative to the axis of rotation. A hollow cylinder has a larger I than a solid cylinder of the same mass and radius.",
+      "difficulty": "easy",
+      "tags": ["rotation", "moment-of-inertia", "definition"]
+    },
+    {
+      "id": "q_physics_11_rotation_004",
+      "goalId": "grade11-physics",
+      "question": "The moment of inertia of a uniform solid sphere of mass M and radius R about a diameter is:",
+      "options": ["MR²", "½MR²", "⅔MR²", "2/5 MR²"],
+      "correctIndex": 3,
+      "explanation": "I = (2/5)MR² for a solid sphere about a diameter. Compare: hollow sphere = (2/3)MR²; solid disk about central axis = ½MR²; thin ring = MR².",
+      "difficulty": "medium",
+      "tags": ["rotation", "moment-of-inertia", "sphere"]
+    },
+    {
+      "id": "q_physics_11_rotation_005",
+      "goalId": "grade11-physics",
+      "question": "The theorem of parallel axes states: I = I_cm + ___",
+      "options": ["Md", "Md²", "M/d²", "2Md"],
+      "correctIndex": 1,
+      "explanation": "Parallel axis theorem: I = I_cm + Md², where I_cm is the moment of inertia about the axis through the centre of mass, M is the total mass, and d is the distance between the two parallel axes.",
+      "difficulty": "medium",
+      "tags": ["rotation", "parallel-axis-theorem"]
+    },
+    {
+      "id": "q_physics_11_rotation_006",
+      "goalId": "grade11-physics",
+      "question": "Angular momentum L of a rigid body rotating with angular velocity ω is:",
+      "options": ["mω", "Iω", "Iω²", "½Iω²"],
+      "correctIndex": 1,
+      "explanation": "L = Iω, where I is the moment of inertia. This is the rotational analogue of linear momentum p = mv. SI unit: kg·m²/s.",
+      "difficulty": "easy",
+      "tags": ["rotation", "angular-momentum"]
+    },
+    {
+      "id": "q_physics_11_rotation_007",
+      "goalId": "grade11-physics",
+      "question": "A diver tucks in her arms and legs during a flip. Her angular velocity:",
+      "options": ["Decreases", "Increases", "Stays the same", "First increases then decreases"],
+      "correctIndex": 1,
+      "explanation": "By conservation of angular momentum (no external torque): L = Iω = constant. Tucking in reduces I (mass closer to axis). To keep L constant, ω must increase.",
+      "difficulty": "medium",
+      "tags": ["rotation", "angular-momentum", "conservation"]
+    },
+    {
+      "id": "q_physics_11_rotation_008",
+      "goalId": "grade11-physics",
+      "question": "The rotational kinetic energy of a body with moment of inertia I rotating at ω is:",
+      "options": ["Iω", "½Iω", "Iω²", "½Iω²"],
+      "correctIndex": 3,
+      "explanation": "Rotational KE = ½Iω². This is the rotational analogue of translational KE = ½mv². For rolling motion, total KE = ½mv² + ½Iω².",
+      "difficulty": "easy",
+      "tags": ["rotation", "rotational-KE"]
+    },
+    {
+      "id": "q_physics_11_rotation_009",
+      "goalId": "grade11-physics",
+      "question": "Newton's second law for rotation states:",
+      "options": ["τ = Iα", "τ = Iω", "F = Iα", "τ = mα"],
+      "correctIndex": 0,
+      "explanation": "τ_net = Iα, where τ is net torque, I is moment of inertia, and α is angular acceleration. This is the rotational analogue of F = ma.",
+      "difficulty": "easy",
+      "tags": ["rotation", "newtons-second-law-rotation"]
+    },
+    {
+      "id": "q_physics_11_rotation_010",
+      "goalId": "grade11-physics",
+      "question": "For a rolling object (without slipping), the relationship between linear velocity v and angular velocity ω is:",
+      "options": ["v = ω/R", "v = ωR", "v = ω²R", "v = R/ω"],
+      "correctIndex": 1,
+      "explanation": "For rolling without slipping: v = ωR, where R is the radius. The contact point has zero velocity, and the top has velocity 2v. This is the rolling constraint.",
+      "difficulty": "easy",
+      "tags": ["rotation", "rolling-motion", "rolling-constraint"]
+    },
+    {
+      "id": "q_physics_11_rotation_011",
+      "goalId": "grade11-physics",
+      "question": "A wheel of moment of inertia 2 kg·m² is rotating at 5 rad/s. The torque needed to stop it in 10 s is:",
+      "options": ["0.5 N·m", "1 N·m", "2 N·m", "10 N·m"],
+      "correctIndex": 1,
+      "explanation": "α = (ω_f − ω_i)/t = (0 − 5)/10 = −0.5 rad/s². Torque τ = Iα = 2 × 0.5 = 1 N·m (magnitude).",
+      "difficulty": "medium",
+      "tags": ["rotation", "torque", "calculation"]
+    },
+    {
+      "id": "q_physics_11_rotation_012",
+      "goalId": "grade11-physics",
+      "question": "The perpendicular axes theorem applies to:",
+      "options": ["3D bodies only", "Laminas (2D flat bodies)", "Hollow spheres", "Cylinders only"],
+      "correctIndex": 1,
+      "explanation": "Perpendicular axis theorem: for a lamina in the XY-plane, I_z = I_x + I_y. This applies only to flat (2D) bodies (laminas), not to 3D objects.",
+      "difficulty": "medium",
+      "tags": ["rotation", "perpendicular-axis-theorem", "lamina"]
+    },
+    {
+      "id": "q_physics_11_rotation_013",
+      "goalId": "grade11-physics",
+      "question": "A solid cylinder and a hollow cylinder of the same mass and radius roll down an incline without slipping from rest. Which reaches the bottom first?",
+      "options": [
+        "Hollow cylinder (less I)",
+        "Solid cylinder (less I)",
+        "Both at the same time",
+        "Depends on the incline angle"
+      ],
+      "correctIndex": 1,
+      "explanation": "The acceleration of a rolling body on an incline is a = g sinθ/(1 + I/MR²). Solid cylinder: I = ½MR² → a = (2/3)g sinθ. Hollow: I = MR² → a = ½g sinθ. Solid cylinder has greater acceleration and reaches first.",
+      "difficulty": "hard",
+      "tags": ["rotation", "rolling-motion", "incline", "comparison"]
+    },
+    {
+      "id": "q_physics_11_rotation_014",
+      "goalId": "grade11-physics",
+      "question": "The relation between torque τ and angular momentum L is:",
+      "options": ["τ = L/t", "τ = dL/dt", "L = dτ/dt", "τ = L × ω"],
+      "correctIndex": 1,
+      "explanation": "τ = dL/dt — torque is the rate of change of angular momentum. This is directly analogous to F = dp/dt (force = rate of change of linear momentum). When τ = 0, L is conserved.",
+      "difficulty": "medium",
+      "tags": ["rotation", "torque-angular-momentum"]
+    },
+    {
+      "id": "q_physics_11_rotation_015",
+      "goalId": "grade11-physics",
+      "question": "The centre of mass of the Earth-Moon system lies:",
+      "options": [
+        "At the centre of the Earth",
+        "At the centre of the Moon",
+        "At the midpoint between them",
+        "Inside the Earth, closer to its centre"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Earth is ~81 times more massive than the Moon. The centre of mass = (M_E × 0 + M_M × d)/(M_E + M_M) ≈ d/82 ≈ 4700 km from Earth's centre. Since Earth's radius ≈ 6400 km, the CM is inside the Earth.",
+      "difficulty": "hard",
+      "tags": ["rotation", "centre-of-mass", "earth-moon"]
+    }
+  ]
+}
