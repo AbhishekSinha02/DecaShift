@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-8-french-w25-mon",
+  "title": "Grade 8 French — Mon, Jun 16",
+  "description": "Le futur simple — Day 1 of 5: Formation with regular -er and -ir verbs",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-8", "weekly"],
+  "conceptId": "futur-simple",
+  "questions": [
+    {
+      "id": "g8f-w25-mon-001",
+      "question": "The futur simple is formed by taking the _____ and adding endings.",
+      "options": ["present stem (nous form minus -ons)", "infinitive (keeping it as is for -er and -ir verbs)", "past participle", "imperfect stem"],
+      "correctIndex": 1,
+      "explanation": "For regular -er and -ir verbs, the futur simple stem = the infinitive. Then add: -ai, -as, -a, -ons, -ez, -ont."
+    },
+    {
+      "id": "g8f-w25-mon-002",
+      "question": "What are the futur simple endings added to the infinitive?",
+      "options": ["-ais, -ais, -ait, -ions, -iez, -aient (imperfect endings)", "-ai, -as, -a, -ons, -ez, -ont", "-e, -es, -e, -ons, -ez, -ent (present endings)", "-é, -és, -ée, -ons, -ez, -ont"],
+      "correctIndex": 1,
+      "explanation": "Futur simple endings: -ai, -as, -a, -ons, -ez, -ont. These are the same as the present tense of avoir (except -ons/-ez)."
+    },
+    {
+      "id": "g8f-w25-mon-003",
+      "question": "Conjugate 'parler' in the futur simple for 'je'.",
+      "options": ["je parle", "je parlais", "je parlerai", "je parlé"],
+      "correctIndex": 2,
+      "explanation": "parler (infinitive) + -ai = je parlerai. The -er ending stays; add -ai for je."
+    },
+    {
+      "id": "g8f-w25-mon-004",
+      "question": "What is 'tu parleras' in English?",
+      "options": ["you were speaking", "you speak", "you will speak", "you spoke"],
+      "correctIndex": 2,
+      "explanation": "parleras = parler + -as (futur simple tu form) = 'you will speak'."
+    },
+    {
+      "id": "g8f-w25-mon-005",
+      "question": "Complete the futur simple conjugation of 'parler': il/elle _____",
+      "options": ["parle", "parlait", "parlera", "parlé"],
+      "correctIndex": 2,
+      "explanation": "parler + -a = il/elle parlera. The -a ending marks the 3rd person singular future."
+    },
+    {
+      "id": "g8f-w25-mon-006",
+      "question": "Conjugate 'parler' for 'nous' in the futur simple.",
+      "options": ["nous parlons (present)", "nous parlerons", "nous parlions (imperfect)", "nous parlerez"],
+      "correctIndex": 1,
+      "explanation": "parler + -ons = nous parlerons. Note: the -ons ending looks like present tense but with the infinitive stem, not the present stem."
+    },
+    {
+      "id": "g8f-w25-mon-007",
+      "question": "What is the 'vous' form of 'parler' in the futur simple?",
+      "options": ["vous parlez", "vous parlerez", "vous parliez", "vous parleriez"],
+      "correctIndex": 1,
+      "explanation": "parler + -ez = vous parlerez. Compare with present: vous parlez. Future adds the full infinitive + -ez."
+    },
+    {
+      "id": "g8f-w25-mon-008",
+      "question": "Complete: 'ils/elles _____' (parler, futur simple).",
+      "options": ["parlent (present)", "parlaient (imperfect)", "parleront", "parlerez"],
+      "correctIndex": 2,
+      "explanation": "parler + -ont = ils/elles parleront. The -ont ending is used for 3rd person plural future."
+    },
+    {
+      "id": "g8f-w25-mon-009",
+      "question": "Now with -ir verbs. Conjugate 'finir' for 'je' in the futur simple.",
+      "options": ["je finis", "je finissais", "je finirai", "je finirai pas"],
+      "correctIndex": 2,
+      "explanation": "finir (infinitive) + -ai = je finirai. -ir verbs keep the full infinitive as stem."
+    },
+    {
+      "id": "g8f-w25-mon-010",
+      "question": "What is 'nous finirons'?",
+      "options": ["we finished", "we were finishing", "we will finish", "we finish"],
+      "correctIndex": 2,
+      "explanation": "finirons = finir + -ons (futur simple nous form) = 'we will finish'."
+    },
+    {
+      "id": "g8f-w25-mon-011",
+      "question": "Choose the correct futur simple form: 'ils _____ (choisir)'.",
+      "options": ["choisiront", "choisissent", "choisissaient", "choisirez"],
+      "correctIndex": 0,
+      "explanation": "choisir + -ont = ils choisiront. Regular -ir verb: full infinitive + -ont."
+    },
+    {
+      "id": "g8f-w25-mon-012",
+      "question": "Translate: 'Demain, je mangerai une pizza.'",
+      "options": ["Yesterday, I ate a pizza.", "Tomorrow, I will eat a pizza.", "Tomorrow, I am eating a pizza.", "I used to eat pizza tomorrow."],
+      "correctIndex": 1,
+      "explanation": "mangerai = je + manger + -ai (futur simple). 'Demain' (tomorrow) signals future tense. 'I will eat a pizza tomorrow.'"
+    },
+    {
+      "id": "g8f-w25-mon-013",
+      "question": "Which sentence uses the futur simple correctly?",
+      "options": ["Nous avons travaillé demain.", "Elles travailleront demain.", "Vous travailliez demain.", "Je travaille demain soir. (present for near future)"],
+      "correctIndex": 1,
+      "explanation": "Elles travailleront = travailler + -ont (3rd plural futur simple). This is the correct futur simple form."
+    },
+    {
+      "id": "g8f-w25-mon-014",
+      "question": "What time expressions often go with the futur simple?",
+      "options": ["hier, avant-hier, l'année dernière (past)", "demain, la semaine prochaine, dans un mois, bientôt (future)", "maintenant, aujourd'hui, en ce moment (present)", "quand j'étais petit (imperfect)"],
+      "correctIndex": 1,
+      "explanation": "Future time markers: demain (tomorrow), la semaine prochaine (next week), dans un mois (in a month), bientôt (soon), l'année prochaine (next year)."
+    },
+    {
+      "id": "g8f-w25-mon-015",
+      "question": "Complete the full futur simple conjugation of 'habiter': je _____, tu _____, il _____, nous _____, vous _____, ils _____.",
+      "options": ["habite/habites/habite/habitons/habitez/habitent (present)", "habiterai/habiteras/habitera/habiterons/habiterez/habiteront", "habitais/habitais/habitait/habitions/habitiez/habitaient (imperfect)", "habitai/habitas/habita/habitâmes/habitâtes/habitèrent (passé simple)"],
+      "correctIndex": 1,
+      "explanation": "habiter (infinitive) + endings: -ai/-as/-a/-ons/-ez/-ont = habiterai/habiteras/habitera/habiterons/habiterez/habiteront."
+    }
+  ]
+}

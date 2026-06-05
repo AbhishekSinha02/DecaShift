@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-7-french-w25-thu",
+  "title": "Grade 7 French — Thu, Jun 19",
+  "description": "L'imparfait — Day 4 of 5: Imparfait vs passé composé",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-7", "weekly"],
+  "conceptId": "limparfait",
+  "questions": [
+    {
+      "id": "g7f-w25-thu-001",
+      "question": "When is passé composé used instead of imparfait?",
+      "options": ["For ongoing background situations", "For habitual past actions", "For completed, specific past actions", "For describing past weather or moods"],
+      "correctIndex": 2,
+      "explanation": "Passé composé is for completed, specific past actions (happened once, started and finished). Imparfait is for ongoing, habitual, or descriptive past."
+    },
+    {
+      "id": "g7f-w25-thu-002",
+      "question": "Which sentence uses PASSÉ COMPOSÉ correctly?",
+      "options": ["Il mangeait un gâteau chaque dimanche.", "Il mangeait quand je suis arrivé.", "Il a mangé un gâteau hier soir.", "Il mangeait souvent de la pizza."],
+      "correctIndex": 2,
+      "explanation": "Il a mangé un gâteau hier soir = He ate a cake last night. Specific completed action → passé composé."
+    },
+    {
+      "id": "g7f-w25-thu-003",
+      "question": "Which sentence uses IMPARFAIT correctly?",
+      "options": ["J'ai vu un film hier.", "Nous avons visité Paris l'année dernière.", "Elle lisait un livre quand le téléphone a sonné.", "Il a plu ce matin."],
+      "correctIndex": 2,
+      "explanation": "Elle lisait (she was reading — ongoing background action) while le téléphone a sonné (the phone rang — completed interrupting action). Classic imparfait + passé composé combination."
+    },
+    {
+      "id": "g7f-w25-thu-004",
+      "question": "Complete with the correct tense: 'Je ___ (dormir) quand ma mère ___ (entrer).'",
+      "options": ["dormais / est entrée", "ai dormi / entrait", "dormais / entrait", "ai dormi / est entrée"],
+      "correctIndex": 0,
+      "explanation": "Je dormais (imparfait = ongoing background) quand ma mère est entrée (passé composé = completed interrupting action). I was sleeping when my mother entered."
+    },
+    {
+      "id": "g7f-w25-thu-005",
+      "question": "Translate using the correct past tense: 'Every summer, we went to the beach.' (habitual)",
+      "options": ["Chaque été, nous sommes allés à la plage.", "Chaque été, nous allions à la plage.", "Chaque été, nous allons à la plage.", "Chaque été, nous irons à la plage."],
+      "correctIndex": 1,
+      "explanation": "Habitual repeated past action = imparfait. Nous allions = we used to go. 'Chaque été' (every summer) signals habitual action → imparfait."
+    },
+    {
+      "id": "g7f-w25-thu-006",
+      "question": "Which time expression typically signals imparfait (habitual)?",
+      "options": ["hier (yesterday)", "soudain (suddenly)", "tout à coup (all of a sudden)", "tous les jours (every day)"],
+      "correctIndex": 3,
+      "explanation": "Tous les jours (every day), souvent (often), chaque matin (every morning) — habitual signals → imparfait. Soudain/tout à coup signal completed events → passé composé."
+    },
+    {
+      "id": "g7f-w25-thu-007",
+      "question": "Which time expression typically signals passé composé?",
+      "options": ["d'habitude (usually)", "autrefois (in the past/formerly)", "hier soir (last night)", "souvent (often)"],
+      "correctIndex": 2,
+      "explanation": "Hier soir (last night) signals a specific completed moment → passé composé. D'habitude/autrefois/souvent signal habit/routine → imparfait."
+    },
+    {
+      "id": "g7f-w25-thu-008",
+      "question": "Choose the correct tense: 'Soudain, il ___ (commencer) à pleuvoir.'",
+      "options": ["commençait", "a commencé", "commence", "commencera"],
+      "correctIndex": 1,
+      "explanation": "Soudain (suddenly) signals a sudden completed event → passé composé. Il a commencé à pleuvoir = It suddenly started to rain."
+    },
+    {
+      "id": "g7f-w25-thu-009",
+      "question": "Describe the rule: 'The background/scene is ___ ; the event that happens is ___.'",
+      "options": ["passé composé ; imparfait", "imparfait ; passé composé", "both imparfait", "both passé composé"],
+      "correctIndex": 1,
+      "explanation": "Classic rule: background description (what was happening) = imparfait; the event that occurs/interrupts = passé composé."
+    },
+    {
+      "id": "g7f-w25-thu-010",
+      "question": "Translate: 'When I was a child, I had a dog.' (être + avoir — both habitual/ongoing states)",
+      "options": ["Quand j'étais enfant, j'avais un chien.", "Quand j'ai été enfant, j'ai eu un chien.", "Quand j'étais enfant, j'ai eu un chien.", "Quand j'ai été enfant, j'avais un chien."],
+      "correctIndex": 0,
+      "explanation": "Both states are continuous/habitual in the past → both use imparfait. J'étais enfant (I was a child) + j'avais un chien (I had a dog)."
+    },
+    {
+      "id": "g7f-w25-thu-011",
+      "question": "Choose the correct tense: 'Elle _____ (acheter) une robe et elle _____ (rentrer) chez elle.' (two completed sequential actions)",
+      "options": ["achetait / est rentrée", "a acheté / est rentrée", "a acheté / rentrait", "achetait / rentrait"],
+      "correctIndex": 1,
+      "explanation": "Two sequential completed actions = both passé composé. Elle a acheté une robe et elle est rentrée chez elle."
+    },
+    {
+      "id": "g7f-w25-thu-012",
+      "question": "What does 'il pleuvait et il faisait froid' describe?",
+      "options": ["Two completed past events", "Background description of past weather (imparfait)", "Future plans", "Present weather"],
+      "correctIndex": 1,
+      "explanation": "Pleuvait and faisait (both imparfait) describe the weather as a background/setting — ongoing descriptive past state."
+    },
+    {
+      "id": "g7f-w25-thu-013",
+      "question": "Fill in: 'Je ___ (lire) quand tu ___ (téléphoner).'",
+      "options": ["lisais / as téléphoné", "ai lu / as téléphoné", "lisais / téléphonais", "ai lu / téléphonais"],
+      "correctIndex": 0,
+      "explanation": "Je lisais (I was reading — ongoing imparfait) + tu as téléphoné (you called — completed interruption, passé composé)."
+    },
+    {
+      "id": "g7f-w25-thu-014",
+      "question": "Which sentence means 'I used to go to school by bus'?",
+      "options": ["Je suis allé à l'école en bus.", "J'allais à l'école en bus.", "Je vais à l'école en bus.", "J'irai à l'école en bus."],
+      "correctIndex": 1,
+      "explanation": "Habitual past action = imparfait. J'allais (I used to go) — this was a regular habit in the past."
+    },
+    {
+      "id": "g7f-w25-thu-015",
+      "question": "Translate: 'They were happy but they had no money.' (être heureux + ne pas avoir d'argent — both states)",
+      "options": ["Ils étaient heureux mais ils n'avaient pas d'argent.", "Ils ont été heureux mais ils n'ont pas eu d'argent.", "Ils étaient heureux mais ils n'ont pas eu d'argent.", "Ils ont été heureux mais ils n'avaient pas d'argent."],
+      "correctIndex": 0,
+      "explanation": "Both are ongoing past states → both imparfait. Ils étaient heureux (they were happy) mais ils n'avaient pas d'argent (they had no money)."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-6-french-w25-thu",
+  "title": "Grade 6 French — Thu, Jun 19",
+  "description": "La nourriture — Day 4 of 5: Au restaurant",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-6", "weekly"],
+  "conceptId": "la-nourriture",
+  "questions": [
+    {
+      "id": "g6f-w25-thu-001",
+      "question": "How do you say 'I would like a pizza, please' at a restaurant?",
+      "options": ["Je veux une pizza, s'il vous plaît.", "Je voudrais une pizza, s'il vous plaît.", "J'ai une pizza, s'il vous plaît.", "Donne-moi une pizza, s'il vous plaît."],
+      "correctIndex": 1,
+      "explanation": "Je voudrais (I would like) is the polite form of je veux (I want). At a restaurant, always use je voudrais to be polite."
+    },
+    {
+      "id": "g6f-w25-thu-002",
+      "question": "A waiter says 'Vous désirez?' This means:",
+      "options": ["Are you ready to pay?", "What would you like?", "Do you have a reservation?", "Is the food good?"],
+      "correctIndex": 1,
+      "explanation": "Vous désirez? = What would you like? / What do you wish? It is a common restaurant phrase used by waiters to take orders."
+    },
+    {
+      "id": "g6f-w25-thu-003",
+      "question": "How do you ask for the bill in French?",
+      "options": ["Le menu, s'il vous plaît.", "L'addition, s'il vous plaît.", "Une table, s'il vous plaît.", "La carte, s'il vous plaît."],
+      "correctIndex": 1,
+      "explanation": "L'addition = the bill/check. L'addition, s'il vous plaît = The bill, please. La carte / le menu = the menu."
+    },
+    {
+      "id": "g6f-w25-thu-004",
+      "question": "What does 'Je suis végétarien(ne)' mean?",
+      "options": ["I am a chef.", "I am a vegetarian.", "I am hungry.", "I am allergic."],
+      "correctIndex": 1,
+      "explanation": "Je suis végétarien(ne) = I am a vegetarian. Végétarien (masculine) / végétarienne (feminine)."
+    },
+    {
+      "id": "g6f-w25-thu-005",
+      "question": "A customer says 'L'entrée, s'il vous plaît.' What course are they ordering?",
+      "options": ["main course", "dessert", "starter/appetizer", "side dish"],
+      "correctIndex": 2,
+      "explanation": "L'entrée in French means the starter or appetizer (first course). Le plat principal = main course, le dessert = dessert."
+    },
+    {
+      "id": "g6f-w25-thu-006",
+      "question": "How do you say 'The food is delicious'?",
+      "options": ["La nourriture est mauvaise.", "La nourriture est délicieuse.", "La nourriture est froide.", "La nourriture est chère."],
+      "correctIndex": 1,
+      "explanation": "Délicieux/délicieuse = delicious. La nourriture est délicieuse = The food is delicious."
+    },
+    {
+      "id": "g6f-w25-thu-007",
+      "question": "How do you ask 'Do you have a table for two?'",
+      "options": ["Vous avez une table pour deux personnes?", "Vous voulez deux tables?", "Il y a deux personnes ici?", "Vous avez deux menus?"],
+      "correctIndex": 0,
+      "explanation": "Vous avez une table pour deux personnes? = Do you have a table for two people? This is a common phrase when entering a restaurant."
+    },
+    {
+      "id": "g6f-w25-thu-008",
+      "question": "What does 'le plat du jour' mean?",
+      "options": ["the daily special", "the main dish", "the dessert of the week", "the house salad"],
+      "correctIndex": 0,
+      "explanation": "Le plat du jour = the dish of the day / today's special. It is usually the restaurant's recommended daily meal."
+    },
+    {
+      "id": "g6f-w25-thu-009",
+      "question": "How do you say 'I am hungry' in French?",
+      "options": ["J'ai froid.", "J'ai soif.", "J'ai faim.", "J'ai chaud."],
+      "correctIndex": 2,
+      "explanation": "J'ai faim = I am hungry (literally 'I have hunger'). J'ai soif = I am thirsty, j'ai froid = I am cold, j'ai chaud = I am hot."
+    },
+    {
+      "id": "g6f-w25-thu-010",
+      "question": "A menu says '15 euros'. How do you say this price?",
+      "options": ["quinze euros", "cinq euros", "cinquante euros", "cent cinq euros"],
+      "correctIndex": 0,
+      "explanation": "Quinze = fifteen. 15 euros = quinze euros. (Cinq = 5, cinquante = 50, cent cinq = 105)"
+    },
+    {
+      "id": "g6f-w25-thu-011",
+      "question": "What phrase means 'Enjoy your meal!'?",
+      "options": ["À bientôt!", "Bon appétit!", "Bonne chance!", "Bonsoir!"],
+      "correctIndex": 1,
+      "explanation": "Bon appétit! is the classic French phrase said before or during a meal, meaning 'Enjoy your meal!' / 'Good appetite!'"
+    },
+    {
+      "id": "g6f-w25-thu-012",
+      "question": "How do you order 'a glass of water, please'?",
+      "options": ["Une bouteille d'eau, s'il vous plaît.", "Un verre d'eau, s'il vous plaît.", "Une tasse d'eau, s'il vous plaît.", "Un bol d'eau, s'il vous plaît."],
+      "correctIndex": 1,
+      "explanation": "Un verre = a glass. Un verre d'eau = a glass of water. Une bouteille = bottle, une tasse = cup, un bol = bowl."
+    },
+    {
+      "id": "g6f-w25-thu-013",
+      "question": "What does 'Qu'est-ce que vous recommandez?' mean?",
+      "options": ["What is the price?", "What do you recommend?", "What is today's menu?", "What time do you close?"],
+      "correctIndex": 1,
+      "explanation": "Recommander = to recommend. Qu'est-ce que vous recommandez? = What do you recommend? A useful phrase when unsure what to order."
+    },
+    {
+      "id": "g6f-w25-thu-014",
+      "question": "How do you say 'I am thirsty'?",
+      "options": ["J'ai faim.", "J'ai froid.", "J'ai soif.", "J'ai peur."],
+      "correctIndex": 2,
+      "explanation": "J'ai soif = I am thirsty (literally 'I have thirst'). J'ai faim = I am hungry."
+    },
+    {
+      "id": "g6f-w25-thu-015",
+      "question": "A customer says 'C'est trop cher.' What does this mean?",
+      "options": ["It is very delicious.", "It is too expensive.", "It is too cold.", "It is very good."],
+      "correctIndex": 1,
+      "explanation": "Trop = too (much). Cher/chère = expensive. C'est trop cher = It is too expensive."
+    }
+  ]
+}

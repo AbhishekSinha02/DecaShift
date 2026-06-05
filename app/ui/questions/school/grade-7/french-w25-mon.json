@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-7-french-w25-mon",
+  "title": "Grade 7 French — Mon, Jun 16",
+  "description": "L'imparfait — Day 1 of 5: Formation — stem and endings",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-7", "weekly"],
+  "conceptId": "limparfait",
+  "questions": [
+    {
+      "id": "g7f-w25-mon-001",
+      "question": "How is the imperfect (l'imparfait) stem found for most verbs?",
+      "options": ["Take the infinitive and remove -er/-ir/-re", "Take the 'nous' form of present tense and remove '-ons'", "Add -ais to the infinitive", "Use the past participle"],
+      "correctIndex": 1,
+      "explanation": "The imperfect stem = the nous form of present tense minus '-ons'. E.g., parler → nous parlons → parl- (stem)."
+    },
+    {
+      "id": "g7f-w25-mon-002",
+      "question": "What are the imperfect endings for je, tu, and il/elle?",
+      "options": ["-ais, -ais, -ait", "-ai, -as, -a", "-ais, -ait, -ions", "-ais, -ais, -ions"],
+      "correctIndex": 0,
+      "explanation": "The imparfait endings are: je -ais, tu -ais, il/elle -ait, nous -ions, vous -iez, ils/elles -aient."
+    },
+    {
+      "id": "g7f-w25-mon-003",
+      "question": "What is the nous form of 'parler' in the present tense?",
+      "options": ["nous parlons", "nous parlais", "nous parlent", "nous parlez"],
+      "correctIndex": 0,
+      "explanation": "Nous parlons (we speak) is the present tense nous form. Removing '-ons' gives the stem 'parl-' for the imparfait."
+    },
+    {
+      "id": "g7f-w25-mon-004",
+      "question": "Conjugate 'parler' (to speak) in l'imparfait for 'je'.",
+      "options": ["je parlais", "je parle", "je parlai", "je parlerai"],
+      "correctIndex": 0,
+      "explanation": "Stem: parl- + ending -ais → je parlais (I was speaking / I used to speak)."
+    },
+    {
+      "id": "g7f-w25-mon-005",
+      "question": "Conjugate 'finir' (to finish) in l'imparfait for 'tu'. (nous finissons → stem: finiss-)",
+      "options": ["tu finissait", "tu finissais", "tu finisais", "tu finis"],
+      "correctIndex": 1,
+      "explanation": "Stem of finir: finiss- (from nous finissons). tu finissais = you were finishing/used to finish."
+    },
+    {
+      "id": "g7f-w25-mon-006",
+      "question": "What ending is used for 'nous' in l'imparfait?",
+      "options": ["-ait", "-ions", "-iez", "-aient"],
+      "correctIndex": 1,
+      "explanation": "The imparfait ending for nous is -ions. E.g., nous parlions (we were speaking)."
+    },
+    {
+      "id": "g7f-w25-mon-007",
+      "question": "Conjugate 'manger' (to eat) in l'imparfait for 'il'. (nous mangeons → stem: mange-)",
+      "options": ["il mangait", "il mangeait", "il mangea", "il mangait"],
+      "correctIndex": 1,
+      "explanation": "The stem of manger is mange- (from nous mangeons, keeping the 'e' before the 'a' for pronunciation). il mangeait = he was eating."
+    },
+    {
+      "id": "g7f-w25-mon-008",
+      "question": "What is the imparfait ending for 'vous'?",
+      "options": ["-iez", "-ions", "-ait", "-aient"],
+      "correctIndex": 0,
+      "explanation": "The imparfait ending for vous is -iez. E.g., vous parliez (you were speaking)."
+    },
+    {
+      "id": "g7f-w25-mon-009",
+      "question": "Conjugate 'prendre' (to take) in l'imparfait for 'ils'. (nous prenons → stem: pren-)",
+      "options": ["ils prenaient", "ils prennent", "ils prenait", "ils prendaient"],
+      "correctIndex": 0,
+      "explanation": "Stem: pren- + -aient → ils prenaient (they were taking)."
+    },
+    {
+      "id": "g7f-w25-mon-010",
+      "question": "Which tense uses these endings: -ais, -ais, -ait, -ions, -iez, -aient?",
+      "options": ["Le présent", "Le passé composé", "L'imparfait", "Le futur"],
+      "correctIndex": 2,
+      "explanation": "These endings (-ais, -ais, -ait, -ions, -iez, -aient) are exclusively used for l'imparfait (the imperfect tense)."
+    },
+    {
+      "id": "g7f-w25-mon-011",
+      "question": "What is the imparfait of 'aller' (to go) for 'je'? (nous allons → stem: all-)",
+      "options": ["j'allais", "j'allait", "j'aillais", "j'allai"],
+      "correctIndex": 0,
+      "explanation": "Stem: all- + -ais → j'allais (I was going / I used to go)."
+    },
+    {
+      "id": "g7f-w25-mon-012",
+      "question": "Conjugate 'avoir' (to have) in imparfait for 'elle'. (nous avons → stem: av-)",
+      "options": ["elle avait", "elle a", "elle avaient", "elle avais"],
+      "correctIndex": 0,
+      "explanation": "Stem: av- + -ait → elle avait (she was having / she had)."
+    },
+    {
+      "id": "g7f-w25-mon-013",
+      "question": "Which verb has an IRREGULAR stem in l'imparfait?",
+      "options": ["parler (parl-)", "finir (finiss-)", "être (ét-)", "aller (all-)"],
+      "correctIndex": 2,
+      "explanation": "Être is the only verb with an irregular imparfait stem: ét- (not from nous sommes). All others follow the nous form rule."
+    },
+    {
+      "id": "g7f-w25-mon-014",
+      "question": "What is the correct imparfait form for 'nous chanter'? (chanter → nous chantons → stem: chant-)",
+      "options": ["nous chantons", "nous chantions", "nous chantaient", "nous chantais"],
+      "correctIndex": 1,
+      "explanation": "Stem: chant- + -ions → nous chantions (we were singing / we used to sing)."
+    },
+    {
+      "id": "g7f-w25-mon-015",
+      "question": "Which is the correct imparfait form of 'voir' (to see) for 'tu'? (nous voyons → stem: voy-)",
+      "options": ["tu voyais", "tu voyait", "tu voyiez", "tu vois"],
+      "correctIndex": 0,
+      "explanation": "Stem: voy- + -ais → tu voyais (you were seeing / you used to see)."
+    }
+  ]
+}

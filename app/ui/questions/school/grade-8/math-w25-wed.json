@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-8-math-w25-wed",
+  "title": "Grade 8 Math — Wed, Jun 18",
+  "description": "Playing with Numbers — Day 3 of 5: Divisibility by 6, 8, 9, 10, 11",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8m-w25-wed-001",
+      "question": "A number is divisible by 6 if it is divisible by:",
+      "options": ["2 only", "3 only", "Both 2 and 3", "Both 3 and 4"],
+      "correctIndex": 2,
+      "explanation": "Divisibility rule for 6: a number is divisible by 6 if it is divisible by BOTH 2 (even) AND 3 (digit sum divisible by 3)."
+    },
+    {
+      "id": "g8m-w25-wed-002",
+      "question": "Is 312 divisible by 6?",
+      "options": ["No, because 3+1+2 = 6 is not divisible by 6", "Yes, because it ends in 2 (divisible by 2) and 3+1+2=6 (divisible by 3)", "No, because it doesn't end in 6", "Yes, because 312 ÷ 6 is not a whole number"],
+      "correctIndex": 1,
+      "explanation": "312 ends in 2 (divisible by 2 ✓) and 3+1+2=6 (divisible by 3 ✓). So 312 is divisible by 6."
+    },
+    {
+      "id": "g8m-w25-wed-003",
+      "question": "A number is divisible by 8 if:",
+      "options": ["It ends in 8", "The sum of its digits is divisible by 8", "The last three digits form a number divisible by 8", "It is divisible by 4 and 2"],
+      "correctIndex": 2,
+      "explanation": "Divisibility rule for 8: if the number formed by the last THREE digits is divisible by 8, the whole number is divisible by 8."
+    },
+    {
+      "id": "g8m-w25-wed-004",
+      "question": "Is 4,312 divisible by 8?",
+      "options": ["Yes, because 312 ÷ 8 = 39", "No, because 312 ÷ 8 = 39 is not a whole number", "No, because it doesn't end in 8", "Yes, because 4+3+1+2 = 10"],
+      "correctIndex": 0,
+      "explanation": "Last three digits of 4312 = 312. 312 ÷ 8 = 39 exactly. So 4312 is divisible by 8."
+    },
+    {
+      "id": "g8m-w25-wed-005",
+      "question": "A number is divisible by 9 if:",
+      "options": ["It ends in 9", "The sum of its digits is divisible by 9", "It is divisible by 3 twice", "It is an odd number"],
+      "correctIndex": 1,
+      "explanation": "Divisibility rule for 9: if the sum of all digits is divisible by 9, the number is divisible by 9. Example: 729 → 7+2+9=18, 18÷9=2. ✓"
+    },
+    {
+      "id": "g8m-w25-wed-006",
+      "question": "Is 4,527 divisible by 9?",
+      "options": ["Yes, because 4+5+2+7 = 18 (18÷9=2)", "No, because it ends in 7", "Yes, because it is odd", "No, because 4+5+2+7 = 18 is not divisible by 9"],
+      "correctIndex": 0,
+      "explanation": "4+5+2+7 = 18. 18 ÷ 9 = 2. So 4527 is divisible by 9."
+    },
+    {
+      "id": "g8m-w25-wed-007",
+      "question": "A number is divisible by 10 if:",
+      "options": ["Its units digit is 0 or 5", "Its units digit is 0 only", "Its digit sum is 10", "It ends in 5"],
+      "correctIndex": 1,
+      "explanation": "Divisibility rule for 10: the number must end in 0 (units digit = 0). Only 0, not 5."
+    },
+    {
+      "id": "g8m-w25-wed-008",
+      "question": "The divisibility rule for 11 states that:",
+      "options": ["The sum of all digits must be divisible by 11", "The number formed by the last two digits must be divisible by 11", "The difference between the sum of digits in odd positions and even positions must be 0 or divisible by 11", "The number must end in 1"],
+      "correctIndex": 2,
+      "explanation": "For 11: alternately add and subtract digits. If the result is 0 or divisible by 11, the number is divisible by 11. E.g., 2178: (2+7) − (1+8) = 9−9 = 0. ✓"
+    },
+    {
+      "id": "g8m-w25-wed-009",
+      "question": "Is 2178 divisible by 11? (Digits: 2, 1, 7, 8. Odd positions from right: 8, 1. Even positions from right: 7, 2.)",
+      "options": ["No, because (8+1) − (7+2) = 9 − 9 = 0 is not divisible by 11", "Yes, because (8+1) − (7+2) = 0, which is divisible by 11", "No, because 2+1+7+8 = 18", "Yes, because it ends in 8"],
+      "correctIndex": 1,
+      "explanation": "Test: (sum of digits at odd positions) − (sum at even positions) = (8+1) − (7+2) = 9 − 9 = 0. Since the difference is 0, 2178 is divisible by 11."
+    },
+    {
+      "id": "g8m-w25-wed-010",
+      "question": "Which number is divisible by both 9 and 10?",
+      "options": ["270", "350", "243", "400"],
+      "correctIndex": 0,
+      "explanation": "270: 2+7+0=9 (divisible by 9 ✓), ends in 0 (divisible by 10 ✓). 270 is divisible by both 9 and 10."
+    },
+    {
+      "id": "g8m-w25-wed-011",
+      "question": "Is 5,148 divisible by 6?",
+      "options": ["Yes, because it ends in 8 (÷2 ✓) and 5+1+4+8=18 (÷3 ✓)", "No, because it doesn't end in 6", "Yes, because 5148 ÷ 6 = 857", "No, because it's not divisible by 9"],
+      "correctIndex": 0,
+      "explanation": "5148 ends in 8 (divisible by 2 ✓) and 5+1+4+8=18 (divisible by 3 ✓). Both conditions met → divisible by 6."
+    },
+    {
+      "id": "g8m-w25-wed-012",
+      "question": "Find the digit D such that 7D6 is divisible by 9.",
+      "options": ["D = 2", "D = 5", "D = 3", "D = 8"],
+      "correctIndex": 1,
+      "explanation": "7 + D + 6 = 13 + D must be divisible by 9. 13 + 5 = 18 and 18 ÷ 9 = 2. So D = 5."
+    },
+    {
+      "id": "g8m-w25-wed-013",
+      "question": "Is 3,795 divisible by 11? (Alternate sum: 5 − 9 + 7 − 3 = 0)",
+      "options": ["No, because 3+7+9+5 = 24 is not divisible by 11", "Yes, because 5 − 9 + 7 − 3 = 0 (divisible by 11)", "No, because it is odd", "Yes, because it ends in 5"],
+      "correctIndex": 1,
+      "explanation": "Alternate digit sum from right: 5 − 9 + 7 − 3 = 0. Since the result is 0 (divisible by 11), 3795 is divisible by 11."
+    },
+    {
+      "id": "g8m-w25-wed-014",
+      "question": "Which of the following is divisible by 8?",
+      "options": ["7134", "5312", "4315", "3217"],
+      "correctIndex": 1,
+      "explanation": "5312: last three digits = 312. 312 ÷ 8 = 39 exactly. So 5312 is divisible by 8."
+    },
+    {
+      "id": "g8m-w25-wed-015",
+      "question": "Is 90 divisible by 6, 9, and 10?",
+      "options": ["Only by 9 and 10", "Only by 6 and 10", "By all three (6, 9, and 10)", "By none of these"],
+      "correctIndex": 2,
+      "explanation": "90: ends in 0 (÷10 ✓); ends in 0 (÷2 ✓) and 9+0=9 (÷3 ✓) → ÷6 ✓; 9+0=9 (÷9 ✓). So 90 is divisible by 6, 9, and 10."
+    }
+  ]
+}

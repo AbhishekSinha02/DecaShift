@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-7-math-w25-mon",
+  "title": "Grade 7 Math — Mon, Jun 16",
+  "description": "Algebraic Expressions — Day 1 of 5: Terms, factors, coefficients; types of polynomials",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7m-w25-mon-001",
+      "question": "What is an algebraic expression?",
+      "options": ["A statement with an equals sign", "A combination of variables, constants, and operations", "A question with unknowns only", "A number multiplied by a variable"],
+      "correctIndex": 1,
+      "explanation": "An algebraic expression is a combination of variables (like x, y), constants (like 3, 7), and arithmetic operations. Example: 3x + 5y − 2."
+    },
+    {
+      "id": "g7m-w25-mon-002",
+      "question": "In the expression 5x²y, what is the coefficient?",
+      "options": ["x", "y", "5", "x²y"],
+      "correctIndex": 2,
+      "explanation": "The coefficient is the numerical factor of a term. In 5x²y, the coefficient is 5. x²y is the variable part."
+    },
+    {
+      "id": "g7m-w25-mon-003",
+      "question": "Which of the following is a monomial?",
+      "options": ["3x + 2", "4xy", "x² + y²", "a + b + c"],
+      "correctIndex": 1,
+      "explanation": "A monomial has exactly one term. 4xy is a single term (monomial). 3x + 2 has two terms (binomial), x² + y² is a binomial, a + b + c is a trinomial."
+    },
+    {
+      "id": "g7m-w25-mon-004",
+      "question": "How many terms does a binomial have?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correctIndex": 1,
+      "explanation": "A binomial has exactly two terms. Example: x + 5, 3a − 2b, x² + 4."
+    },
+    {
+      "id": "g7m-w25-mon-005",
+      "question": "Which expression is a trinomial?",
+      "options": ["7abc", "2x + 3", "x² + 3x + 2", "4x² − 9"],
+      "correctIndex": 2,
+      "explanation": "A trinomial has exactly three terms. x² + 3x + 2 has three terms: x², 3x, and 2."
+    },
+    {
+      "id": "g7m-w25-mon-006",
+      "question": "In the expression 4x³ − 7x + 9, how many terms are there?",
+      "options": ["2", "3", "4", "1"],
+      "correctIndex": 1,
+      "explanation": "The terms are: 4x³, −7x, and 9. There are 3 terms, making this a trinomial."
+    },
+    {
+      "id": "g7m-w25-mon-007",
+      "question": "What is the constant term in the expression 6x² + 3x − 8?",
+      "options": ["6", "3", "−8", "x"],
+      "correctIndex": 2,
+      "explanation": "A constant term has no variable. In 6x² + 3x − 8, the constant term is −8."
+    },
+    {
+      "id": "g7m-w25-mon-008",
+      "question": "Identify the factors in the term 3xy.",
+      "options": ["3 and xy only", "3, x, and y", "x and y only", "3 and x only"],
+      "correctIndex": 1,
+      "explanation": "The factors of the term 3xy are 3, x, and y — each is a factor that is multiplied together to give 3xy."
+    },
+    {
+      "id": "g7m-w25-mon-009",
+      "question": "Which of these is NOT a polynomial?",
+      "options": ["x² + 2x + 1", "5", "3x⁻¹ + 2", "4xy + 7"],
+      "correctIndex": 2,
+      "explanation": "A polynomial cannot have negative exponents on variables. 3x⁻¹ + 2 has x⁻¹, which makes it not a polynomial."
+    },
+    {
+      "id": "g7m-w25-mon-010",
+      "question": "In the term −9a²b, what is the variable part?",
+      "options": ["−9", "a²b", "a", "b"],
+      "correctIndex": 1,
+      "explanation": "The coefficient is −9 and the variable part is a²b. Both a² and b are variables."
+    },
+    {
+      "id": "g7m-w25-mon-011",
+      "question": "Which expression is a polynomial with 4 terms?",
+      "options": ["x + y", "x² + 2x", "x³ + x² + x + 1", "5abc"],
+      "correctIndex": 2,
+      "explanation": "x³ + x² + x + 1 has four terms: x³, x², x, and 1. A polynomial with 4 terms is sometimes called a quadrinomial."
+    },
+    {
+      "id": "g7m-w25-mon-012",
+      "question": "What is the coefficient of y in the expression 7x − y + 4?",
+      "options": ["7", "1", "−1", "4"],
+      "correctIndex": 2,
+      "explanation": "−y means −1 × y, so the coefficient of y is −1."
+    },
+    {
+      "id": "g7m-w25-mon-013",
+      "question": "Which term is a constant?",
+      "options": ["5x", "3ab", "−12", "2y²"],
+      "correctIndex": 2,
+      "explanation": "A constant is a term with no variable. −12 has no variable, so it is a constant."
+    },
+    {
+      "id": "g7m-w25-mon-014",
+      "question": "Which expression is a binomial?",
+      "options": ["5x²y", "x + y + z", "2p − 3q", "x² + 2x + 1"],
+      "correctIndex": 2,
+      "explanation": "2p − 3q has exactly two terms (2p and −3q), making it a binomial."
+    },
+    {
+      "id": "g7m-w25-mon-015",
+      "question": "What is the degree of the term 4x³y²?",
+      "options": ["3", "2", "5", "4"],
+      "correctIndex": 2,
+      "explanation": "The degree of a term is the sum of all exponents on the variables. For 4x³y²: degree = 3 + 2 = 5."
+    }
+  ]
+}

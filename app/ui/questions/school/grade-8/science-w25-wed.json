@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-8-science-w25-wed",
+  "title": "Grade 8 Science — Wed, Jun 18",
+  "description": "Coal and Petroleum — Day 3 of 5: Formation of petroleum; refining; products",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8s-w25-wed-001",
+      "question": "Petroleum is formed from:",
+      "options": ["Buried ancient land plants", "Remains of tiny marine organisms (plankton, algae) buried under sea floors", "Underground chemical reactions between rocks", "Volcanic activity"],
+      "correctIndex": 1,
+      "explanation": "Petroleum (crude oil) formed from remains of tiny marine organisms (plankton, algae) buried under sea floors over millions of years under heat and pressure."
+    },
+    {
+      "id": "g8s-w25-wed-002",
+      "question": "What does 'petroleum' literally mean?",
+      "options": ["Black gold", "Rock oil (petra = rock, oleum = oil)", "Sea fuel", "Liquid fire"],
+      "correctIndex": 1,
+      "explanation": "Petroleum comes from Latin: petra (rock) + oleum (oil) = rock oil. It is called this because it is found in rock formations underground."
+    },
+    {
+      "id": "g8s-w25-wed-003",
+      "question": "The process used to separate different components of crude petroleum is called:",
+      "options": ["Destructive distillation", "Fractional distillation", "Evaporation", "Filtration"],
+      "correctIndex": 1,
+      "explanation": "Fractional distillation separates petroleum into fractions based on different boiling points — lighter fractions rise higher in the distillation column."
+    },
+    {
+      "id": "g8s-w25-wed-004",
+      "question": "In fractional distillation, which fraction has the LOWEST boiling point and rises to the TOP of the column?",
+      "options": ["Bitumen", "Diesel", "Petrol (gasoline)", "Fuel oil"],
+      "correctIndex": 2,
+      "explanation": "Petrol (gasoline) has the lowest boiling point of the major fractions and rises to the top of the fractional distillation column."
+    },
+    {
+      "id": "g8s-w25-wed-005",
+      "question": "Which petroleum product is used as fuel for cars (petrol engines)?",
+      "options": ["Kerosene", "Diesel", "Petrol (gasoline)", "LPG"],
+      "correctIndex": 2,
+      "explanation": "Petrol (gasoline) is the primary fuel used in petrol/gasoline car engines."
+    },
+    {
+      "id": "g8s-w25-wed-006",
+      "question": "Which petroleum product is used as jet fuel?",
+      "options": ["Petrol", "Kerosene", "Diesel", "Bitumen"],
+      "correctIndex": 1,
+      "explanation": "Kerosene (aviation turbine fuel/ATF) is used as jet fuel for aircraft engines. It is also used in kerosene lamps and stoves."
+    },
+    {
+      "id": "g8s-w25-wed-007",
+      "question": "LPG stands for:",
+      "options": ["Liquid Petroleum Gas", "Liquefied Petroleum Gas", "Low Pressure Gas", "Light Petroleum Grade"],
+      "correctIndex": 1,
+      "explanation": "LPG = Liquefied Petroleum Gas. It is mainly propane and butane, liquefied under pressure, used in cooking cylinders."
+    },
+    {
+      "id": "g8s-w25-wed-008",
+      "question": "Which petroleum product is used for road surfacing (same as from coal tar)?",
+      "options": ["Paraffin wax", "Bitumen/asphalt", "Petrol", "LPG"],
+      "correctIndex": 1,
+      "explanation": "Bitumen (asphalt) is the heaviest residue of petroleum refining. It is used for surfacing roads and waterproofing."
+    },
+    {
+      "id": "g8s-w25-wed-009",
+      "question": "Paraffin wax (from petroleum) is used to make:",
+      "options": ["Candles and cosmetics", "Petrol engine fuel", "Aviation fuel", "Cooking gas"],
+      "correctIndex": 0,
+      "explanation": "Paraffin wax is a solid fraction of petroleum used in making candles, wax coatings, cosmetics, and vaseline."
+    },
+    {
+      "id": "g8s-w25-wed-010",
+      "question": "Which of the following is the heaviest fraction from petroleum refining?",
+      "options": ["Petrol", "Diesel", "Lubricating oil", "Bitumen"],
+      "correctIndex": 3,
+      "explanation": "Bitumen is the heaviest, highest-boiling fraction — it stays at the bottom of the distillation column and is a solid/semi-solid residue."
+    },
+    {
+      "id": "g8s-w25-wed-011",
+      "question": "Natural gas is mainly composed of:",
+      "options": ["Propane", "Butane", "Methane", "Ethane"],
+      "correctIndex": 2,
+      "explanation": "Natural gas consists mainly of methane (CH₄), with small amounts of ethane, propane, and butane."
+    },
+    {
+      "id": "g8s-w25-wed-012",
+      "question": "India's major petroleum-producing states include:",
+      "options": ["Rajasthan and Assam", "Kerala and Karnataka", "Bihar and Uttar Pradesh", "Himachal Pradesh and Uttarakhand"],
+      "correctIndex": 0,
+      "explanation": "Major petroleum-producing regions in India include Assam (oldest fields), Rajasthan (Barmer-Sanchor basin), and Mumbai High (offshore)."
+    },
+    {
+      "id": "g8s-w25-wed-013",
+      "question": "Fractional distillation works because different petroleum components have different:",
+      "options": ["Colours", "Densities only", "Boiling points", "Chemical formulas"],
+      "correctIndex": 2,
+      "explanation": "Different petroleum fractions (petrol, kerosene, diesel, etc.) have different boiling points. Fractional distillation separates them by heating and collecting vapours at different heights."
+    },
+    {
+      "id": "g8s-w25-wed-014",
+      "question": "Which petroleum product is used to lubricate moving parts of machines?",
+      "options": ["Petrol", "Kerosene", "Lubricating oil", "Diesel"],
+      "correctIndex": 2,
+      "explanation": "Lubricating oil (motor oil) is a petroleum fraction used to reduce friction in engines and moving machine parts."
+    },
+    {
+      "id": "g8s-w25-wed-015",
+      "question": "Petroleum is called 'liquid gold' because:",
+      "options": ["It is yellow in colour", "It is extremely valuable and fuels modern civilization", "It is found alongside gold deposits", "It turns gold-coloured when refined"],
+      "correctIndex": 1,
+      "explanation": "Petroleum is called 'liquid gold' because of its enormous economic value and its role in powering transportation, industry, and modern civilization."
+    }
+  ]
+}

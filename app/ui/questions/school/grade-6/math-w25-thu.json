@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w25-thu",
+  "title": "Grade 6 Math — Thu, Jun 19",
+  "description": "Quadrilaterals — Day 4 of 5: Properties of quadrilaterals",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-6", "weekly", "quadrilaterals", "properties"],
+  "questions": [
+    { "id": "g6m-w25-thu-001", "question": "In a parallelogram, opposite sides are ___.", "options": ["Unequal and not parallel", "Equal and parallel", "Perpendicular", "None of these"], "correctIndex": 1, "explanation": "By definition, opposite sides of a parallelogram are equal in length and parallel to each other.", "tags": ["parallelogram"] },
+    { "id": "g6m-w25-thu-002", "question": "In a rectangle, the diagonals are ___.", "options": ["Perpendicular to each other", "Unequal", "Equal in length", "Do not bisect each other"], "correctIndex": 2, "explanation": "The diagonals of a rectangle are equal in length, but they are NOT perpendicular unless it is a square.", "tags": ["rectangle", "diagonals"] },
+    { "id": "g6m-w25-thu-003", "question": "In a rhombus, the diagonals ___.", "options": ["Are equal in length", "Bisect each other at 90°", "Do not bisect each other", "Are parallel"], "correctIndex": 1, "explanation": "The diagonals of a rhombus bisect each other at right angles (90°), but they are not equal in length.", "tags": ["rhombus", "diagonals"] },
+    { "id": "g6m-w25-thu-004", "question": "In a square, the diagonals are ___.", "options": ["Unequal and not perpendicular", "Equal but not perpendicular", "Unequal but perpendicular", "Equal and perpendicular"], "correctIndex": 3, "explanation": "A square's diagonals are both equal in length AND perpendicular (90°) — combining rectangle and rhombus properties.", "tags": ["square", "diagonals"] },
+    { "id": "g6m-w25-thu-005", "question": "Consecutive (adjacent) angles in a parallelogram are ___.", "options": ["Equal", "Supplementary (sum to 180°)", "Complementary (sum to 90°)", "Always 90°"], "correctIndex": 1, "explanation": "In a parallelogram, any two consecutive angles are supplementary — they add up to 180°.", "tags": ["parallelogram", "angles"] },
+    { "id": "g6m-w25-thu-006", "question": "In which quadrilateral do diagonals bisect each other at 90° but are NOT equal?", "options": ["Rectangle", "Square", "Rhombus", "Trapezium"], "correctIndex": 2, "explanation": "In a rhombus: diagonals bisect each other at 90° but are not equal. In a square they are both 90° AND equal.", "tags": ["rhombus", "diagonals"] },
+    { "id": "g6m-w25-thu-007", "question": "How many right angles does a rectangle have?", "options": ["1", "2", "3", "4"], "correctIndex": 3, "explanation": "All four angles of a rectangle are 90°.", "tags": ["rectangle"] },
+    { "id": "g6m-w25-thu-008", "question": "Opposite angles in a parallelogram are ___.", "options": ["Supplementary", "Complementary", "Equal", "Always 90°"], "correctIndex": 2, "explanation": "Opposite angles in a parallelogram are always equal to each other.", "tags": ["parallelogram", "angles"] },
+    { "id": "g6m-w25-thu-009", "question": "The diagonal of a square divides it into two ___.", "options": ["Equilateral triangles", "Scalene triangles", "Isosceles right-angled triangles", "Obtuse triangles"], "correctIndex": 2, "explanation": "A square's diagonal creates two triangles with two equal legs (sides of the square) and a 90° angle → isosceles right-angled triangles.", "tags": ["square", "diagonals"] },
+    { "id": "g6m-w25-thu-010", "question": "In parallelogram ABCD, if ∠A = 70°, then ∠C = ___.", "options": ["110°", "70°", "180°", "90°"], "correctIndex": 1, "explanation": "Opposite angles in a parallelogram are equal. ∠A = ∠C = 70°.", "tags": ["parallelogram", "angles"] },
+    { "id": "g6m-w25-thu-011", "question": "In parallelogram ABCD, if ∠A = 70°, then ∠B = ___.", "options": ["70°", "110°", "90°", "180°"], "correctIndex": 1, "explanation": "Consecutive angles in a parallelogram are supplementary. ∠B = 180° − 70° = 110°.", "tags": ["parallelogram", "angles"] },
+    { "id": "g6m-w25-thu-012", "question": "Which property is common to BOTH a rectangle AND a rhombus?", "options": ["All angles 90°", "All sides equal", "Diagonals bisect each other", "Diagonals are equal"], "correctIndex": 2, "explanation": "Both rectangle and rhombus have diagonals that bisect each other. Rectangle has equal diagonals; rhombus has perpendicular diagonals.", "tags": ["rectangle", "rhombus", "diagonals"] },
+    { "id": "g6m-w25-thu-013", "question": "In a kite, ___.", "options": ["All sides are equal", "Both diagonals bisect each other equally", "One diagonal bisects the other at right angles", "Opposite angles are all equal"], "correctIndex": 2, "explanation": "In a kite, one diagonal (the main axis) perpendicularly bisects the other diagonal, but is not itself bisected.", "tags": ["kite", "diagonals"] },
+    { "id": "g6m-w25-thu-014", "question": "Rectangle vs Rhombus — which statement is correct?", "options": ["Rectangle has perpendicular diagonals; rhombus has equal diagonals", "Rectangle has equal diagonals; rhombus has perpendicular diagonals", "Both have equal and perpendicular diagonals", "Neither has equal nor perpendicular diagonals"], "correctIndex": 1, "explanation": "Rectangle: diagonals are equal (not perpendicular). Rhombus: diagonals are perpendicular (not equal). Square has both.", "tags": ["rectangle", "rhombus", "diagonals"] },
+    { "id": "g6m-w25-thu-015", "question": "In a trapezium, the diagonals ___.", "options": ["Are always equal", "Bisect each other equally", "Are perpendicular", "Are generally not equal and do not bisect each other equally"], "correctIndex": 3, "explanation": "In a general trapezium the diagonals are neither equal nor do they bisect each other equally (unlike a parallelogram).", "tags": ["trapezium", "diagonals"] }
+  ]
+}

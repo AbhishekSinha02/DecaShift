@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-6-french-w25-fri",
+  "title": "Grade 6 French — Fri, Jun 20",
+  "description": "La nourriture — Day 5 of 5: Week review — menu reading and food dialogue",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-6", "weekly"],
+  "conceptId": "la-nourriture",
+  "questions": [
+    {
+      "id": "g6f-w25-fri-001",
+      "question": "A menu shows: Entrée: salade verte — 4€. Plat: poulet rôti — 12€. What is the total cost?",
+      "options": ["14€", "16€", "12€", "8€"],
+      "correctIndex": 1,
+      "explanation": "4 (salade) + 12 (poulet) = 16€. Seize euros = sixteen euros."
+    },
+    {
+      "id": "g6f-w25-fri-002",
+      "question": "Which article correctly completes: 'Je mange ___ riz' (rice — masculine)?",
+      "options": ["du", "de la", "des", "de l'"],
+      "correctIndex": 0,
+      "explanation": "Le riz is masculine and starts with a consonant, so we use 'du'. Je mange du riz = I eat some rice."
+    },
+    {
+      "id": "g6f-w25-fri-003",
+      "question": "Read the dialogue: Serveur: 'Vous désirez?' Client: 'Je voudrais ___.' What is the client doing?",
+      "options": ["Asking for the bill", "Ordering food", "Asking for a table", "Complaining about the food"],
+      "correctIndex": 1,
+      "explanation": "Je voudrais + food item = ordering food. The client is responding to the waiter's 'What would you like?'"
+    },
+    {
+      "id": "g6f-w25-fri-004",
+      "question": "Which sentence means 'I prefer vegetables to meat'?",
+      "options": ["J'aime la viande plus les légumes.", "Je préfère les légumes à la viande.", "J'adore la viande et les légumes.", "Je déteste la viande comme les légumes."],
+      "correctIndex": 1,
+      "explanation": "Je préfère X à Y = I prefer X to Y. Je préfère les légumes à la viande = I prefer vegetables to meat."
+    },
+    {
+      "id": "g6f-w25-fri-005",
+      "question": "In negation, 'Je mange du pain' becomes:",
+      "options": ["Je ne mange pas du pain.", "Je ne mange pas de pain.", "Je ne mange pas le pain.", "Je ne mange pas des pains."],
+      "correctIndex": 1,
+      "explanation": "In negation, du/de la/des all become 'de'. Je ne mange pas de pain = I don't eat (any) bread."
+    },
+    {
+      "id": "g6f-w25-fri-006",
+      "question": "What does the waiter mean when he says 'Et comme dessert?'",
+      "options": ["What would you like as a starter?", "And for dessert?", "Do you want the menu?", "What drink would you like?"],
+      "correctIndex": 1,
+      "explanation": "Comme dessert = for dessert. Et comme dessert? = And for dessert? The waiter is asking about the final course."
+    },
+    {
+      "id": "g6f-w25-fri-007",
+      "question": "Which phrase correctly says 'a cup of tea, please'?",
+      "options": ["Un verre de thé, s'il vous plaît.", "Une tasse de thé, s'il vous plaît.", "Une bouteille de thé, s'il vous plaît.", "Un bol de thé, s'il vous plaît."],
+      "correctIndex": 1,
+      "explanation": "Une tasse = a cup. Une tasse de thé = a cup of tea. Un verre = glass, une bouteille = bottle."
+    },
+    {
+      "id": "g6f-w25-fri-008",
+      "question": "A student says 'J'adore les fruits mais je déteste les légumes.' What does this mean?",
+      "options": ["I like vegetables but I hate fruits.", "I love fruits but I hate vegetables.", "I eat fruits and vegetables.", "I prefer fruits to vegetables."],
+      "correctIndex": 1,
+      "explanation": "J'adore = I love, je déteste = I hate, mais = but. J'adore les fruits mais je déteste les légumes = I love fruits but I hate vegetables."
+    },
+    {
+      "id": "g6f-w25-fri-009",
+      "question": "Complete: 'Il boit ___ jus d'orange.' (jus = masculine, starts with consonant)",
+      "options": ["de la", "du", "de l'", "des"],
+      "correctIndex": 1,
+      "explanation": "Le jus is masculine and starts with a consonant, so we use 'du'. Il boit du jus d'orange = He drinks some orange juice."
+    },
+    {
+      "id": "g6f-w25-fri-010",
+      "question": "Which French food word means 'bread'?",
+      "options": ["le gâteau", "le riz", "le pain", "la tarte"],
+      "correctIndex": 2,
+      "explanation": "Le pain = bread. Le gâteau = cake, le riz = rice, la tarte = tart/pie."
+    },
+    {
+      "id": "g6f-w25-fri-011",
+      "question": "How do you politely say 'Could I have the menu?'",
+      "options": ["Je veux la carte.", "Donnez-moi la carte.", "Je voudrais la carte, s'il vous plaît.", "La carte!"],
+      "correctIndex": 2,
+      "explanation": "Je voudrais + s'il vous plaît is the polite form. Je voudrais la carte, s'il vous plaît = I would like the menu, please."
+    },
+    {
+      "id": "g6f-w25-fri-012",
+      "question": "Which sentence correctly uses the partitive with a vowel?",
+      "options": ["Je mange du huile.", "Je mange de la eau.", "Je mange de l'huile.", "Je mange des huile."],
+      "correctIndex": 2,
+      "explanation": "L'huile (oil) starts with a silent h (= vowel sound), so we use 'de l''. Je mange de l'huile = I eat some oil."
+    },
+    {
+      "id": "g6f-w25-fri-013",
+      "question": "Waiter: 'C'est tout?' Customer wants to say 'Yes, that's all.' Which is correct?",
+      "options": ["Non, merci.", "Oui, c'est tout.", "Je voudrais plus.", "L'addition, s'il vous plaît."],
+      "correctIndex": 1,
+      "explanation": "C'est tout = that's all / that's everything. Oui, c'est tout = Yes, that's all."
+    },
+    {
+      "id": "g6f-w25-fri-014",
+      "question": "Which word is the French equivalent of 'delicious'?",
+      "options": ["délicieux / délicieuse", "dégoûtant", "froid", "chaud"],
+      "correctIndex": 0,
+      "explanation": "Délicieux (masc.) / délicieuse (fem.) = delicious. Dégoûtant = disgusting, froid = cold, chaud = hot."
+    },
+    {
+      "id": "g6f-w25-fri-015",
+      "question": "A customer says 'Nous sommes quatre.' What is the waiter likely to do next?",
+      "options": ["Bring four menus", "Bring four bills", "Bring four desserts", "Close the restaurant"],
+      "correctIndex": 0,
+      "explanation": "Nous sommes quatre = We are four (people). The waiter will likely find a table for four and bring four menus."
+    }
+  ]
+}

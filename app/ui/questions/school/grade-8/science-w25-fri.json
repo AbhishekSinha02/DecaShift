@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-8-science-w25-fri",
+  "title": "Grade 8 Science — Fri, Jun 20",
+  "description": "Coal and Petroleum — Day 5 of 5: Mixed review",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8s-w25-fri-001",
+      "question": "Which correctly matches the fuel with its primary source?",
+      "options": ["Petrol → coal; coke → petroleum", "Coke → coal; petrol → petroleum", "Both petrol and coke → coal", "Coke → natural gas; petrol → coal"],
+      "correctIndex": 1,
+      "explanation": "Coke is obtained from coal (destructive distillation). Petrol is obtained from petroleum (fractional distillation)."
+    },
+    {
+      "id": "g8s-w25-fri-002",
+      "question": "Which process is used for coal → coke? Which for petroleum → petrol?",
+      "options": ["Both use fractional distillation", "Coal: destructive distillation; petroleum: fractional distillation", "Coal: fractional distillation; petroleum: destructive distillation", "Both use destructive distillation"],
+      "correctIndex": 1,
+      "explanation": "Coal uses destructive distillation (no air, heat → coke + coal tar + gas). Petroleum uses fractional distillation (boiling point separation)."
+    },
+    {
+      "id": "g8s-w25-fri-003",
+      "question": "Which of the following is found in coal tar and is used as a starting material for making many chemicals?",
+      "options": ["Methane", "Benzene", "Petrol", "Nitrogen"],
+      "correctIndex": 1,
+      "explanation": "Benzene is a key component of coal tar and is used as a raw material for making dyes, medicines, plastics, and explosives."
+    },
+    {
+      "id": "g8s-w25-fri-004",
+      "question": "The correct order of petroleum fractions from LOWEST to HIGHEST boiling point is:",
+      "options": ["Petrol → kerosene → diesel → lubricating oil → bitumen", "Bitumen → lubricating oil → diesel → kerosene → petrol", "Diesel → petrol → kerosene → lubricating oil → bitumen", "Petrol → diesel → kerosene → bitumen → lubricating oil"],
+      "correctIndex": 0,
+      "explanation": "Fractions in increasing boiling point order: Petrol (lightest, ~70°C) → Kerosene → Diesel → Lubricating oil → Bitumen (heaviest, solid/semi-solid)."
+    },
+    {
+      "id": "g8s-w25-fri-005",
+      "question": "A student says 'coal forms quickly underground in 100 years.' Is this correct?",
+      "options": ["Yes, coal forms quickly", "No, coal takes millions of years to form", "Yes, in tropical countries it forms in 100 years", "No, coal forms in 1,000 years"],
+      "correctIndex": 1,
+      "explanation": "Coal takes millions of years to form through carbonisation of buried vegetation. 100 years is far too short."
+    },
+    {
+      "id": "g8s-w25-fri-006",
+      "question": "Which product from petroleum is used to make candles and Vaseline?",
+      "options": ["Bitumen", "Paraffin wax", "Petrol", "Coal tar"],
+      "correctIndex": 1,
+      "explanation": "Paraffin wax is a solid petroleum fraction used in making candles, wax coatings, Vaseline (petroleum jelly), and cosmetics."
+    },
+    {
+      "id": "g8s-w25-fri-007",
+      "question": "Why is CNG preferred over diesel for buses and trucks in cities?",
+      "options": ["CNG is always cheaper", "CNG produces far less pollution (less SO₂, particulates) improving urban air quality", "CNG gives better mileage always", "CNG cylinders are lighter"],
+      "correctIndex": 1,
+      "explanation": "CNG is preferred in cities because it reduces air pollution significantly — less SO₂ and particulates than diesel, improving public health."
+    },
+    {
+      "id": "g8s-w25-fri-008",
+      "question": "Match correctly: PCRA → ___",
+      "options": ["Refines petroleum products", "Promotes fuel conservation in India", "Mines coal in India", "Controls LPG prices"],
+      "correctIndex": 1,
+      "explanation": "PCRA (Petroleum Conservation Research Association) is an Indian government body focused on promoting conservation and efficient use of petroleum products."
+    },
+    {
+      "id": "g8s-w25-fri-009",
+      "question": "Which fuel comes from BOTH coal AND petroleum refining?",
+      "options": ["Petrol", "Bitumen (asphalt)", "Coal gas", "Coke"],
+      "correctIndex": 1,
+      "explanation": "Bitumen is obtained both from coal tar (coal processing) and as the heaviest residue in petroleum refining. Both sources provide bitumen for road construction."
+    },
+    {
+      "id": "g8s-w25-fri-010",
+      "question": "Natural gas and petroleum are often found together. Which is found above the other?",
+      "options": ["Petroleum above natural gas", "Natural gas above petroleum", "They are always mixed", "Depth doesn't matter"],
+      "correctIndex": 1,
+      "explanation": "Natural gas (being lighter) collects above petroleum in underground reservoirs, often forming a gas cap above the liquid crude oil."
+    },
+    {
+      "id": "g8s-w25-fri-011",
+      "question": "Identify the RENEWABLE energy source from the list:",
+      "options": ["Coal", "Petroleum", "Natural gas", "Solar energy"],
+      "correctIndex": 3,
+      "explanation": "Solar energy is renewable — it comes from the sun and is not depleted by use. Coal, petroleum, and natural gas are non-renewable fossil fuels."
+    },
+    {
+      "id": "g8s-w25-fri-012",
+      "question": "Which of these uses LPG as fuel?",
+      "options": ["Jet aircraft", "Household cooking", "Coal-fired power plants", "CNG vehicles"],
+      "correctIndex": 1,
+      "explanation": "LPG (in cylinders) is the primary cooking fuel in Indian households. Jets use kerosene (ATF); power plants use coal; CNG vehicles use compressed methane."
+    },
+    {
+      "id": "g8s-w25-fri-013",
+      "question": "What happens chemically when fossil fuels burn?",
+      "options": ["They absorb CO₂ from air", "Carbon and hydrogen in fuels combine with oxygen to produce CO₂ and water", "They release nitrogen into the air", "They produce oxygen"],
+      "correctIndex": 1,
+      "explanation": "Combustion of fossil fuels: CₓHᵧ + O₂ → CO₂ + H₂O + energy. Carbon in fuels reacts with O₂ to form CO₂; hydrogen forms water."
+    },
+    {
+      "id": "g8s-w25-fri-014",
+      "question": "Which of these is a CORRECT conservation practice for petroleum products?",
+      "options": ["Leave vehicles running even when parked", "Switch off engines at long traffic signals", "Use older, inefficient vehicles", "Drive at maximum speed to save time"],
+      "correctIndex": 1,
+      "explanation": "Switching off engines at long stops saves fuel. Other conservation practices: keep tyres inflated, service vehicles regularly, carpool, use public transport."
+    },
+    {
+      "id": "g8s-w25-fri-015",
+      "question": "Which best explains why we call fossil fuels a 'stored form of solar energy'?",
+      "options": ["They glow in sunlight", "Ancient organisms captured solar energy through photosynthesis; fossilisation stored that energy in coal/petroleum", "They are heated by the sun underground", "They release solar radiation when burned"],
+      "correctIndex": 1,
+      "explanation": "Ancient plants captured solar energy via photosynthesis; animals ate those plants. When these organisms fossilised, that solar energy was stored as chemical energy in coal and petroleum."
+    }
+  ]
+}

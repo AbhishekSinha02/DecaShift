@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w25-tue",
+  "title": "Grade 6 Science — Tue, Jun 17",
+  "description": "Changes Around Us — Day 2 of 5: Reversible changes",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "changes", "reversible"],
+  "questions": [
+    { "id": "g6s-w25-tue-001", "question": "A reversible change is one that can be ___.", "options": ["Never undone", "Undone to get back the original substance", "Only reversed with heat", "Changed in colour"], "correctIndex": 1, "explanation": "A reversible change can be reversed to get back the original substance.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-002", "question": "Melting of ice is reversible because ___.", "options": ["New substances are formed", "The water can be frozen back into ice", "The change involves heat", "The ice becomes water permanently"], "correctIndex": 1, "explanation": "Melting is reversible — by cooling water below 0°C, it freezes back into ice (the original substance).", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-003", "question": "Which of these is a reversible change?", "options": ["Burning of wood", "Cooking an egg", "Stretching a rubber band", "Rusting of iron"], "correctIndex": 2, "explanation": "Stretching a rubber band is reversible — when released, it returns to its original shape.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-004", "question": "Dissolving sugar in water is reversible because ___.", "options": ["Sugar disappears permanently", "The water can be evaporated to recover the sugar", "A new substance is formed", "Sugar changes colour"], "correctIndex": 1, "explanation": "The sugar can be recovered by heating the solution and evaporating the water — the original substance is obtained.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-005", "question": "Evaporation of water is a reversible change because ___.", "options": ["Water vanishes permanently", "Water vapour can condense back into liquid water", "A new gas is formed", "It cannot be reversed"], "correctIndex": 1, "explanation": "Water evaporates into vapour, and when cooled the vapour condenses back into liquid water — reversible.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-006", "question": "Which is NOT a reversible change?", "options": ["Melting ice", "Stretching clay", "Burning paper", "Dissolving salt"], "correctIndex": 2, "explanation": "Burning paper is irreversible — it produces ash and gases. The paper cannot be restored.", "tags": ["irreversible"] },
+    { "id": "g6s-w25-tue-007", "question": "Inflating a balloon is an example of a ___ change.", "options": ["Chemical", "Irreversible", "Reversible", "Oxidation"], "correctIndex": 2, "explanation": "Inflating a balloon is reversible — you can deflate it and the balloon returns to its original state.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-008", "question": "Boiling water to produce steam is a ___ change.", "options": ["Chemical", "Irreversible", "Reversible", "None of these"], "correctIndex": 2, "explanation": "Boiling is reversible — steam (water vapour) can be cooled to condense back into liquid water.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-009", "question": "Flattening a ball of clay is ___.", "options": ["Chemical and irreversible", "Physical and reversible", "Only chemical", "Irreversible and chemical"], "correctIndex": 1, "explanation": "Flattening clay is a physical change — you can reshape the clay back into a ball. It is reversible.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-010", "question": "Which change can be reversed by cooling?", "options": ["Rusting of iron", "Burning wood", "Curdling of milk", "Melting of ice cream"], "correctIndex": 3, "explanation": "Melted ice cream can be refrozen (cooled) to recover a solid again — reversible change of state.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-011", "question": "Iron filings attracted to a magnet — is separating them reversible?", "options": ["No, it is irreversible", "Yes — the filings can be removed from the magnet", "It is a chemical change", "Cannot be determined"], "correctIndex": 1, "explanation": "Magnetic attraction is reversible — the iron filings can be removed. No permanent change occurred.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-012", "question": "What makes the dissolution of salt in water reversible?", "options": ["Salt reacts with water chemically", "No new substance is formed and salt can be recovered by evaporation", "Salt disappears", "The solution is coloured"], "correctIndex": 1, "explanation": "Salt dissolves physically without forming a new substance. Evaporating the water recovers the original salt.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-013", "question": "Freezing of water is a ___ change.", "options": ["Chemical", "Irreversible", "Reversible", "Combustion"], "correctIndex": 2, "explanation": "Freezing is a change of state (liquid → solid) that is reversible — melt the ice and you get liquid water again.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-014", "question": "A reversible change is generally a ___ change.", "options": ["Chemical", "Physical", "Biological", "Geological"], "correctIndex": 1, "explanation": "Reversible changes are generally physical — they change form or state without forming new substances.", "tags": ["reversible"] },
+    { "id": "g6s-w25-tue-015", "question": "Which of these is a reversible physical change?", "options": ["Baking bread", "Burning a candle", "Growing of a plant", "Dissolving sugar in water"], "correctIndex": 3, "explanation": "Dissolving sugar in water is reversible — evaporate the water and you recover the sugar. Baking, burning, and growing are irreversible.", "tags": ["reversible"] }
+  ]
+}

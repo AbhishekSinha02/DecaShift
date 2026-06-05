@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-8-math-w25-fri",
+  "title": "Grade 8 Math — Fri, Jun 20",
+  "description": "Playing with Numbers — Day 5 of 5: Mixed review — all divisibility rules + puzzles",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8m-w25-fri-001",
+      "question": "Which number is divisible by 2, 3, and 5?",
+      "options": ["125", "630", "245", "312"],
+      "correctIndex": 1,
+      "explanation": "630: ends in 0 (÷2 ✓, ÷5 ✓); 6+3+0=9 (÷3 ✓). 630 is divisible by 2, 3, and 5."
+    },
+    {
+      "id": "g8m-w25-fri-002",
+      "question": "Which number is divisible by 4 but NOT by 8?",
+      "options": ["328", "212", "624", "416"],
+      "correctIndex": 1,
+      "explanation": "212: last two digits 12 ÷ 4 = 3 (÷4 ✓); last three digits 212 ÷ 8 = 26.5 (NOT ÷8 ✓). So 212 is divisible by 4 but not 8."
+    },
+    {
+      "id": "g8m-w25-fri-003",
+      "question": "A number N has digit sum 27. Which of the following is true?",
+      "options": ["N is divisible by 3 only", "N is divisible by 9 only", "N is divisible by both 3 and 9", "N is divisible by neither"],
+      "correctIndex": 2,
+      "explanation": "27 is divisible by both 3 (27÷3=9 ✓) and 9 (27÷9=3 ✓). So N is divisible by both 3 and 9."
+    },
+    {
+      "id": "g8m-w25-fri-004",
+      "question": "Is 8,712 divisible by 11? (Alternate digit sum: 2 − 1 + 7 − 8 = 0)",
+      "options": ["No, because 8+7+1+2 = 18 is not divisible by 11", "Yes, because 2−1+7−8 = 0 (divisible by 11)", "No, because it doesn't end in 1", "Yes, because it ends in 2"],
+      "correctIndex": 1,
+      "explanation": "Alternate digit sum (from right): 2−1+7−8 = 0. Since 0 is divisible by 11, 8712 is divisible by 11."
+    },
+    {
+      "id": "g8m-w25-fri-005",
+      "question": "Solve the puzzle: A7 + 7A = 121. What is A?",
+      "options": ["3", "4", "5", "7"],
+      "correctIndex": 1,
+      "explanation": "A7 + 7A = (10A+7) + (70+A) = 11A + 77 = 121 → 11A = 44 → A = 4. Check: 47+74=121 ✓."
+    },
+    {
+      "id": "g8m-w25-fri-006",
+      "question": "Which divisibility rule uses the LAST THREE digits?",
+      "options": ["Divisible by 3", "Divisible by 4", "Divisible by 8", "Divisible by 9"],
+      "correctIndex": 2,
+      "explanation": "For divisibility by 8, check if the last three digits form a number divisible by 8."
+    },
+    {
+      "id": "g8m-w25-fri-007",
+      "question": "Which number is divisible by 9?",
+      "options": ["4,716", "5,831", "3,258", "7,342"],
+      "correctIndex": 2,
+      "explanation": "3258: 3+2+5+8 = 18, and 18÷9=2 ✓. So 3258 is divisible by 9."
+    },
+    {
+      "id": "g8m-w25-fri-008",
+      "question": "Is the number 50,000 divisible by 5 and by 10?",
+      "options": ["Divisible by 5 only", "Divisible by 10 only", "Divisible by both 5 and 10", "Neither"],
+      "correctIndex": 2,
+      "explanation": "50000 ends in 0 — divisible by both 5 (ends in 0 ✓) and 10 (ends in 0 ✓)."
+    },
+    {
+      "id": "g8m-w25-fri-009",
+      "question": "Find the missing digit D such that 4D,128 is divisible by 9. (4+D+1+2+8 = 15+D must be divisible by 9.)",
+      "options": ["D = 3", "D = 6", "D = 9", "D = 0"],
+      "correctIndex": 0,
+      "explanation": "15 + D must be divisible by 9. 15+3=18 (18÷9=2 ✓). So D = 3."
+    },
+    {
+      "id": "g8m-w25-fri-010",
+      "question": "A number is divisible by 6. Which pair of rules must BOTH be satisfied?",
+      "options": ["Divisible by 2 and 4", "Divisible by 2 and 3", "Divisible by 3 and 9", "Divisible by 2 and 9"],
+      "correctIndex": 1,
+      "explanation": "6 = 2 × 3. A number is divisible by 6 iff it is divisible by both 2 (even) and 3 (digit sum divisible by 3)."
+    },
+    {
+      "id": "g8m-w25-fri-011",
+      "question": "The number formed by reversing digits of 72 is 27. What is 72 − 27?",
+      "options": ["45", "54", "36", "63"],
+      "correctIndex": 0,
+      "explanation": "72 − 27 = 45. Verify with formula: 9(a−b) = 9(7−2) = 9×5 = 45 ✓."
+    },
+    {
+      "id": "g8m-w25-fri-012",
+      "question": "Which number is NOT divisible by 6?",
+      "options": ["912", "534", "712", "426"],
+      "correctIndex": 2,
+      "explanation": "712: ends in 2 (÷2 ✓); 7+1+2=10 (10÷3 is not an integer, so NOT divisible by 3). Therefore 712 is NOT divisible by 6."
+    },
+    {
+      "id": "g8m-w25-fri-013",
+      "question": "Using general form: A 2-digit number is written as 10a + b. Which expression represents 'twice the number plus the reverse'?",
+      "options": ["2(10a+b) + (10b+a) = 21a + 12b", "2(10a+b) + (10b+a) = 20a+2b+10b+a = 21a+12b", "Both A and B are the same", "20a + 20b"],
+      "correctIndex": 2,
+      "explanation": "2(10a+b) + (10b+a) = 20a+2b+10b+a = 21a+12b. Options A and B express the same thing, so C (both the same) is correct."
+    },
+    {
+      "id": "g8m-w25-fri-014",
+      "question": "A number divisible by both 4 and 9 must also be divisible by:",
+      "options": ["12", "36", "18", "6"],
+      "correctIndex": 1,
+      "explanation": "LCM(4, 9) = 36 (since 4 and 9 are coprime: 4×9=36). A number divisible by both 4 and 9 must be divisible by 36."
+    },
+    {
+      "id": "g8m-w25-fri-015",
+      "question": "Identify which of these cannot be the digit sum of a number divisible by 9:",
+      "options": ["18", "27", "36", "20"],
+      "correctIndex": 3,
+      "explanation": "For divisibility by 9, the digit sum must be divisible by 9. 18÷9=2 ✓, 27÷9=3 ✓, 36÷9=4 ✓, but 20÷9 is not a whole number. So 20 cannot be the digit sum."
+    }
+  ]
+}

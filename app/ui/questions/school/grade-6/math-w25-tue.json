@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w25-tue",
+  "title": "Grade 6 Math — Tue, Jun 17",
+  "description": "Triangles — Day 2 of 5: Types by angles and angle sum property",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-6", "weekly", "triangles", "angles"],
+  "questions": [
+    { "id": "g6m-w25-tue-001", "question": "The sum of all interior angles of any triangle is ___.", "options": ["90°", "180°", "270°", "360°"], "correctIndex": 1, "explanation": "Angle sum property: the three interior angles of every triangle always add up to 180°.", "tags": ["angle-sum"] },
+    { "id": "g6m-w25-tue-002", "question": "A triangle with all three angles less than 90° is called ___.", "options": ["Right-angled", "Obtuse", "Acute", "Reflex"], "correctIndex": 2, "explanation": "An acute triangle has all three interior angles less than 90°.", "tags": ["acute"] },
+    { "id": "g6m-w25-tue-003", "question": "A right-angled triangle has exactly ___ right angle(s).", "options": ["0", "1", "2", "3"], "correctIndex": 1, "explanation": "A right-angled triangle has exactly one 90° angle. Two right angles would already total 180°, leaving no room for the third angle.", "tags": ["right-angled"] },
+    { "id": "g6m-w25-tue-004", "question": "An obtuse triangle has ___.", "options": ["All angles equal", "One angle greater than 90°", "All angles 90°", "No acute angles"], "correctIndex": 1, "explanation": "An obtuse triangle has exactly one obtuse angle — an angle greater than 90°.", "tags": ["obtuse"] },
+    { "id": "g6m-w25-tue-005", "question": "A triangle has angles 50°, 60°, and 70°. What type is it by angles?", "options": ["Right-angled", "Obtuse", "Acute", "Isosceles"], "correctIndex": 2, "explanation": "All three angles (50°, 60°, 70°) are less than 90° → acute triangle. Check: 50+60+70 = 180° ✓", "tags": ["acute"] },
+    { "id": "g6m-w25-tue-006", "question": "A triangle has angles 30°, 60°, 90°. What type is it?", "options": ["Acute", "Obtuse", "Right-angled", "Equilateral"], "correctIndex": 2, "explanation": "One angle is exactly 90° → right-angled triangle.", "tags": ["right-angled"] },
+    { "id": "g6m-w25-tue-007", "question": "A triangle has angles 40°, 40°, and 100°. What type is it by angles?", "options": ["Acute", "Right-angled", "Obtuse", "Equilateral"], "correctIndex": 2, "explanation": "One angle (100°) is greater than 90° → obtuse triangle. Check: 40+40+100 = 180° ✓", "tags": ["obtuse"] },
+    { "id": "g6m-w25-tue-008", "question": "Two angles of a triangle are 65° and 75°. The third angle is ___.", "options": ["40°", "50°", "30°", "60°"], "correctIndex": 0, "explanation": "Third angle = 180° − 65° − 75° = 40°.", "tags": ["angle-sum"] },
+    { "id": "g6m-w25-tue-009", "question": "Can a triangle have two obtuse angles?", "options": ["Yes, always", "Yes, sometimes", "No, never", "Only in right triangles"], "correctIndex": 2, "explanation": "No. Two obtuse angles each exceed 90°, so their sum alone would exceed 180° — impossible in a triangle.", "tags": ["angle-sum"] },
+    { "id": "g6m-w25-tue-010", "question": "An equilateral triangle, by angles, is always ___.", "options": ["Right-angled", "Obtuse", "Acute", "Scalene"], "correctIndex": 2, "explanation": "An equilateral triangle has all angles = 60°. Since all are less than 90°, it is always an acute triangle.", "tags": ["acute", "equilateral"] },
+    { "id": "g6m-w25-tue-011", "question": "Two angles of a triangle are 45° and 45°. The third angle is ___.", "options": ["45°", "60°", "90°", "120°"], "correctIndex": 2, "explanation": "Third angle = 180° − 45° − 45° = 90°. This triangle is a right-angled isosceles triangle.", "tags": ["angle-sum", "right-angled"] },
+    { "id": "g6m-w25-tue-012", "question": "A triangle with angles 110°, 40°, 30° is ___.", "options": ["Acute", "Right-angled", "Obtuse", "Equilateral"], "correctIndex": 2, "explanation": "One angle (110°) exceeds 90° → obtuse triangle. Check: 110+40+30 = 180° ✓", "tags": ["obtuse"] },
+    { "id": "g6m-w25-tue-013", "question": "Which set of angles can form a valid triangle?", "options": ["90°, 95°, 5°", "60°, 60°, 60°", "100°, 100°, 50°", "70°, 70°, 50°"], "correctIndex": 1, "explanation": "60+60+60 = 180° ✓. The others: 90+95+5=190; 100+100+50=250; 70+70+50=190 — none sum to 180°.", "tags": ["angle-sum"] },
+    { "id": "g6m-w25-tue-014", "question": "A triangle with one angle of 135° is ___.", "options": ["Acute", "Right-angled", "Obtuse", "Does not exist"], "correctIndex": 2, "explanation": "One angle (135°) is greater than 90° → obtuse triangle. E.g., 135°, 25°, 20° gives 180° ✓", "tags": ["obtuse"] },
+    { "id": "g6m-w25-tue-015", "question": "Third angle of a triangle when two angles are 30° and 60° is ___.", "options": ["120°", "100°", "90°", "30°"], "correctIndex": 2, "explanation": "Third angle = 180° − 30° − 60° = 90°. This is a right-angled triangle.", "tags": ["angle-sum", "right-angled"] }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-7-science-w25-wed",
+  "title": "Grade 7 Science — Wed, Jun 18",
+  "description": "Nutrition in Plants — Day 3 of 5: Parasitic, saprotrophic, and insectivorous plants",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7s-w25-wed-001",
+      "question": "Cuscuta (dodder) is an example of which type of plant?",
+      "options": ["Autotrophic", "Saprotrophic", "Parasitic", "Insectivorous"],
+      "correctIndex": 2,
+      "explanation": "Cuscuta is a parasitic plant — it lacks chlorophyll and wraps around host plants, absorbing food and nutrients from them."
+    },
+    {
+      "id": "g7s-w25-wed-002",
+      "question": "Parasitic plants like Cuscuta use special structures called ___ to absorb food from the host.",
+      "options": ["Roots", "Haustoria", "Stomata", "Tendrils"],
+      "correctIndex": 1,
+      "explanation": "Cuscuta develops haustoria — root-like structures that penetrate the host plant's stem to absorb water and nutrients."
+    },
+    {
+      "id": "g7s-w25-wed-003",
+      "question": "Which of the following is an insectivorous plant?",
+      "options": ["Cuscuta", "Fern", "Venus flytrap", "Mushroom"],
+      "correctIndex": 2,
+      "explanation": "Venus flytrap is an insectivorous plant — it traps and digests insects to obtain nitrogen in nitrogen-poor soils."
+    },
+    {
+      "id": "g7s-w25-wed-004",
+      "question": "Why do insectivorous plants trap insects?",
+      "options": ["For energy (they cannot photosynthesize)", "To obtain nitrogen, which is scarce in their soil", "To protect themselves from predators", "For water supply"],
+      "correctIndex": 1,
+      "explanation": "Insectivorous plants can photosynthesize, but they live in nitrogen-deficient soil. They trap insects to supplement their nitrogen supply."
+    },
+    {
+      "id": "g7s-w25-wed-005",
+      "question": "Organisms that obtain nutrition by breaking down dead and decaying matter are called:",
+      "options": ["Parasites", "Predators", "Saprotrophs", "Autotrophs"],
+      "correctIndex": 2,
+      "explanation": "Saprotrophs (like fungi and some bacteria) obtain nutrition by breaking down dead and decaying organic matter, releasing nutrients back into the environment."
+    },
+    {
+      "id": "g7s-w25-wed-006",
+      "question": "Mushrooms are an example of:",
+      "options": ["Autotrophic nutrition", "Parasitic nutrition", "Saprotrophic nutrition", "Insectivorous nutrition"],
+      "correctIndex": 2,
+      "explanation": "Mushrooms are fungi — they are saprotrophs. They secrete digestive enzymes onto dead organic matter, absorb the digested nutrients."
+    },
+    {
+      "id": "g7s-w25-wed-007",
+      "question": "The pitcher plant (Nepenthes) catches insects using:",
+      "options": ["Sticky leaves", "A pitcher-shaped modified leaf with digestive fluid", "Quick-closing jaws like Venus flytrap", "Underground traps"],
+      "correctIndex": 1,
+      "explanation": "The pitcher plant has pitcher-shaped modified leaves that contain digestive fluid. Insects fall in and are digested."
+    },
+    {
+      "id": "g7s-w25-wed-008",
+      "question": "Cuscuta is yellowish-orange in colour because:",
+      "options": ["It grows in sunlight only", "It lacks chlorophyll", "It absorbs orange pigments from its host", "It produces a special dye"],
+      "correctIndex": 1,
+      "explanation": "Cuscuta lacks chlorophyll (the green pigment), which is why it appears yellowish-orange. Without chlorophyll it cannot photosynthesize."
+    },
+    {
+      "id": "g7s-w25-wed-009",
+      "question": "The relationship in parasitic nutrition is:",
+      "options": ["Both organisms benefit", "Host is harmed; parasite benefits", "Both organisms are harmed", "Host benefits; parasite is harmed"],
+      "correctIndex": 1,
+      "explanation": "Parasitic nutrition is a type of symbiosis where the parasite benefits at the expense of the host, which is harmed."
+    },
+    {
+      "id": "g7s-w25-wed-010",
+      "question": "Saprotrophic organisms are important for the ecosystem because they:",
+      "options": ["Produce oxygen", "Return nutrients from dead matter back to the soil", "Trap sunlight", "Protect plants from parasites"],
+      "correctIndex": 1,
+      "explanation": "Saprotrophs decompose dead organic matter and recycle nutrients (like nitrogen and carbon) back into the soil, making them available for plants."
+    },
+    {
+      "id": "g7s-w25-wed-011",
+      "question": "Which nutrient do insectivorous plants mainly get from insects?",
+      "options": ["Carbon", "Nitrogen", "Phosphorus", "Water"],
+      "correctIndex": 1,
+      "explanation": "Insects are rich in proteins, which provide nitrogen. Insectivorous plants trap insects mainly to supplement their nitrogen supply."
+    },
+    {
+      "id": "g7s-w25-wed-012",
+      "question": "Which of the following is NOT an insectivorous plant?",
+      "options": ["Venus flytrap", "Sundew (Drosera)", "Pitcher plant", "Cuscuta"],
+      "correctIndex": 3,
+      "explanation": "Cuscuta is a parasitic plant (not insectivorous). Venus flytrap, Sundew, and Pitcher plant are all insectivorous."
+    },
+    {
+      "id": "g7s-w25-wed-013",
+      "question": "Bread mould (Rhizopus) is an example of:",
+      "options": ["An autotrophic plant", "A saprotrophic fungus", "A parasitic organism", "An insectivorous plant"],
+      "correctIndex": 1,
+      "explanation": "Bread mould (Rhizopus) is a saprotrophic fungus that grows on dead organic matter like stale bread."
+    },
+    {
+      "id": "g7s-w25-wed-014",
+      "question": "The Sundew plant (Drosera) traps insects using:",
+      "options": ["A pitcher-shaped leaf", "Sticky tentacle-like structures with sweet secretions", "Rapid closing jaws", "Underground sticky roots"],
+      "correctIndex": 1,
+      "explanation": "Sundew plants have leaves covered in sticky, hair-like structures (tentacles) that secrete a sugary, sticky substance to trap insects."
+    },
+    {
+      "id": "g7s-w25-wed-015",
+      "question": "Which mode of nutrition do bacteria like Rhizobium follow?",
+      "options": ["Autotrophic", "Parasitic", "Saprotrophic", "Insectivorous"],
+      "correctIndex": 2,
+      "explanation": "Rhizobium and many other soil bacteria are saprotrophic — they break down organic matter in the soil to obtain nutrition."
+    }
+  ]
+}

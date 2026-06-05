@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-8-math-w25-tue",
+  "title": "Grade 8 Math — Tue, Jun 17",
+  "description": "Playing with Numbers — Day 2 of 5: Divisibility by 2, 3, 4, 5",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8m-w25-tue-001",
+      "question": "A number is divisible by 2 if:",
+      "options": ["The sum of digits is even", "Its units digit is 0, 2, 4, 6, or 8", "Its tens digit is even", "The number ends in 4 or 8"],
+      "correctIndex": 1,
+      "explanation": "A number is divisible by 2 if its units digit is 0, 2, 4, 6, or 8 (i.e., it is an even number)."
+    },
+    {
+      "id": "g8m-w25-tue-002",
+      "question": "A number is divisible by 3 if:",
+      "options": ["It ends in 3 or 6", "Its units digit is 3 or 6", "The sum of its digits is divisible by 3", "It is divisible by 9"],
+      "correctIndex": 2,
+      "explanation": "Divisibility rule for 3: if the sum of all digits is divisible by 3, the number is divisible by 3. Example: 123 → 1+2+3 = 6 (divisible by 3)."
+    },
+    {
+      "id": "g8m-w25-tue-003",
+      "question": "Is 348 divisible by 3?",
+      "options": ["No, because it ends in 8", "Yes, because 3 + 4 + 8 = 15 (divisible by 3)", "No, because 3 + 4 + 8 = 15 (not divisible)", "Yes, because it is an even number"],
+      "correctIndex": 1,
+      "explanation": "3 + 4 + 8 = 15 and 15 ÷ 3 = 5. So 348 is divisible by 3."
+    },
+    {
+      "id": "g8m-w25-tue-004",
+      "question": "A number is divisible by 4 if:",
+      "options": ["The sum of digits is divisible by 4", "Its units digit is 4 or 8", "The last TWO digits form a number divisible by 4", "It is divisible by 2 twice"],
+      "correctIndex": 2,
+      "explanation": "Divisibility rule for 4: if the number formed by the last two digits is divisible by 4, the entire number is divisible by 4. Example: 1236 → last two digits = 36, 36 ÷ 4 = 9. ✓"
+    },
+    {
+      "id": "g8m-w25-tue-005",
+      "question": "Is 1732 divisible by 4?",
+      "options": ["No, because 1 + 7 + 3 + 2 = 13", "Yes, because 32 ÷ 4 = 8", "No, because it does not end in 4 or 8", "Yes, because 1732 is even"],
+      "correctIndex": 1,
+      "explanation": "Last two digits: 32. 32 ÷ 4 = 8. So 1732 is divisible by 4."
+    },
+    {
+      "id": "g8m-w25-tue-006",
+      "question": "A number is divisible by 5 if:",
+      "options": ["The sum of its digits is 5 or 10", "It ends in 0 or 5", "It is odd", "Its tens digit is 5"],
+      "correctIndex": 1,
+      "explanation": "A number is divisible by 5 if and only if its units digit is 0 or 5."
+    },
+    {
+      "id": "g8m-w25-tue-007",
+      "question": "Which of the following is divisible by 5?",
+      "options": ["423", "7861", "5340", "1234"],
+      "correctIndex": 2,
+      "explanation": "5340 ends in 0, so it is divisible by 5. The others end in 3, 1, and 4 respectively."
+    },
+    {
+      "id": "g8m-w25-tue-008",
+      "question": "Which number is divisible by BOTH 2 and 3?",
+      "options": ["125", "246", "301", "514"],
+      "correctIndex": 1,
+      "explanation": "246: ends in 6 (divisible by 2) ✓; 2+4+6 = 12 (divisible by 3) ✓. So 246 is divisible by both 2 and 3 (hence also by 6)."
+    },
+    {
+      "id": "g8m-w25-tue-009",
+      "question": "Is 4512 divisible by 4?",
+      "options": ["No, because 4 + 5 + 1 + 2 = 12", "No, because it doesn't end in 4", "Yes, because last two digits 12 ÷ 4 = 3", "Yes, because it is even"],
+      "correctIndex": 2,
+      "explanation": "Last two digits of 4512 = 12. 12 ÷ 4 = 3. So 4512 is divisible by 4."
+    },
+    {
+      "id": "g8m-w25-tue-010",
+      "question": "The digit in the units place of a number is 7. Is it divisible by 2?",
+      "options": ["Yes, because 7 is odd", "No, because 7 is not 0, 2, 4, 6, or 8", "Yes, because divisible by 7", "Cannot determine"],
+      "correctIndex": 1,
+      "explanation": "7 is not in the set {0, 2, 4, 6, 8}, so any number ending in 7 is NOT divisible by 2."
+    },
+    {
+      "id": "g8m-w25-tue-011",
+      "question": "Find the missing digit: 5_7 is divisible by 3. (Sum of digits must be divisible by 3.)",
+      "options": ["1", "2", "3", "4"],
+      "correctIndex": 1,
+      "explanation": "5 + ? + 7 = 12 + ? must be divisible by 3. ? = 2 gives 5+2+7=14 (not divisible). ? = 1 gives 13 (no). Actually: 5 + 1 + 7 = 13 (no), 5+2+7=14 (no), 5+3+7=15 (yes!). So ? = 3."
+    },
+    {
+      "id": "g8m-w25-tue-012",
+      "question": "A number is divisible by 3 but NOT by 2. What type of number is it?",
+      "options": ["Even multiple of 3", "Odd multiple of 3", "Divisible by 6", "Multiple of 9"],
+      "correctIndex": 1,
+      "explanation": "Divisible by 3 but not by 2 → an odd number that is a multiple of 3. Examples: 3, 9, 15, 21, 27."
+    },
+    {
+      "id": "g8m-w25-tue-013",
+      "question": "Which is divisible by both 3 and 5?",
+      "options": ["305", "360", "451", "263"],
+      "correctIndex": 1,
+      "explanation": "360: 3+6+0=9 (divisible by 3 ✓), ends in 0 (divisible by 5 ✓). So 360 is divisible by both 3 and 5 (hence by 15)."
+    },
+    {
+      "id": "g8m-w25-tue-014",
+      "question": "Is 7854 divisible by 2 and by 3?",
+      "options": ["Divisible by 2 only", "Divisible by 3 only", "Divisible by both 2 and 3", "Not divisible by either"],
+      "correctIndex": 2,
+      "explanation": "7854: ends in 4 (divisible by 2 ✓); 7+8+5+4=24 (24÷3=8, divisible by 3 ✓). Divisible by both."
+    },
+    {
+      "id": "g8m-w25-tue-015",
+      "question": "Find the digit D so that 84D is divisible by 4. (Last two digits: 4D must be divisible by 4.)",
+      "options": ["D = 0", "D = 1", "D = 3", "D = 5"],
+      "correctIndex": 0,
+      "explanation": "40 ÷ 4 = 10 ✓ (D=0). 41, 43, 45 are not divisible by 4. So D = 0 makes 840, where last two digits = 40 ÷ 4 = 10. ✓"
+    }
+  ]
+}

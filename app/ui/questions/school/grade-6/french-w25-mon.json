@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-6-french-w25-mon",
+  "title": "Grade 6 French — Mon, Jun 16",
+  "description": "La nourriture — Day 1 of 5: Food vocabulary",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-6", "weekly"],
+  "conceptId": "la-nourriture",
+  "questions": [
+    {
+      "id": "g6f-w25-mon-001",
+      "question": "Which of the following is the French word for 'apple'?",
+      "options": ["la pomme", "la poire", "l'orange", "la fraise"],
+      "correctIndex": 0,
+      "explanation": "La pomme means apple in French. La poire = pear, l'orange = orange, la fraise = strawberry."
+    },
+    {
+      "id": "g6f-w25-mon-002",
+      "question": "What does 'les légumes' mean in English?",
+      "options": ["the fruits", "the vegetables", "the meats", "the drinks"],
+      "correctIndex": 1,
+      "explanation": "Les légumes means vegetables. Les fruits = fruits, les viandes = meats, les boissons = drinks."
+    },
+    {
+      "id": "g6f-w25-mon-003",
+      "question": "Which food item is 'une tomate'?",
+      "options": ["a potato", "a carrot", "a tomato", "an onion"],
+      "correctIndex": 2,
+      "explanation": "Une tomate is a tomato. Une pomme de terre = potato, une carotte = carrot, un oignon = onion."
+    },
+    {
+      "id": "g6f-w25-mon-004",
+      "question": "The French word 'le poulet' refers to which food?",
+      "options": ["fish", "beef", "chicken", "lamb"],
+      "correctIndex": 2,
+      "explanation": "Le poulet means chicken. Le poisson = fish, le bœuf = beef, l'agneau = lamb."
+    },
+    {
+      "id": "g6f-w25-mon-005",
+      "question": "What is 'une banane' in English?",
+      "options": ["a mango", "a banana", "a grape", "a lemon"],
+      "correctIndex": 1,
+      "explanation": "Une banane is a banana. Une mangue = mango, un raisin = grape, un citron = lemon."
+    },
+    {
+      "id": "g6f-w25-mon-006",
+      "question": "Which of these is a vegetable (légume) in French?",
+      "options": ["une pêche", "une carotte", "une cerise", "une fraise"],
+      "correctIndex": 1,
+      "explanation": "Une carotte (carrot) is a vegetable. Une pêche = peach, une cerise = cherry, une fraise = strawberry — these are all fruits."
+    },
+    {
+      "id": "g6f-w25-mon-007",
+      "question": "What does 'la viande' mean?",
+      "options": ["the bread", "the meat", "the fish", "the vegetable"],
+      "correctIndex": 1,
+      "explanation": "La viande means meat. Le pain = bread, le poisson = fish, le légume = vegetable."
+    },
+    {
+      "id": "g6f-w25-mon-008",
+      "question": "The French word for 'grapes' is:",
+      "options": ["les cerises", "les fraises", "les raisins", "les poires"],
+      "correctIndex": 2,
+      "explanation": "Les raisins means grapes. Les cerises = cherries, les fraises = strawberries, les poires = pears."
+    },
+    {
+      "id": "g6f-w25-mon-009",
+      "question": "Which of the following is 'le bœuf'?",
+      "options": ["pork", "beef", "lamb", "chicken"],
+      "correctIndex": 1,
+      "explanation": "Le bœuf means beef. Le porc = pork, l'agneau = lamb, le poulet = chicken."
+    },
+    {
+      "id": "g6f-w25-mon-010",
+      "question": "What is 'un oignon'?",
+      "options": ["a garlic", "a potato", "an onion", "a tomato"],
+      "correctIndex": 2,
+      "explanation": "Un oignon is an onion. L'ail = garlic, une pomme de terre = potato, une tomate = tomato."
+    },
+    {
+      "id": "g6f-w25-mon-011",
+      "question": "Which food group does 'le poisson' belong to?",
+      "options": ["les fruits", "les légumes", "les viandes/poissons", "les céréales"],
+      "correctIndex": 2,
+      "explanation": "Le poisson (fish) belongs to the viandes/poissons (meat/fish) food group."
+    },
+    {
+      "id": "g6f-w25-mon-012",
+      "question": "What does 'les fruits' mean in English?",
+      "options": ["the vegetables", "the fruits", "the grains", "the dairy"],
+      "correctIndex": 1,
+      "explanation": "Les fruits simply means 'the fruits' in English."
+    },
+    {
+      "id": "g6f-w25-mon-013",
+      "question": "The French word for 'potato' is:",
+      "options": ["la carotte", "le navet", "la pomme de terre", "l'oignon"],
+      "correctIndex": 2,
+      "explanation": "La pomme de terre (literally 'apple of the earth') means potato. La carotte = carrot, le navet = turnip, l'oignon = onion."
+    },
+    {
+      "id": "g6f-w25-mon-014",
+      "question": "Which of these is a fruit (un fruit)?",
+      "options": ["un haricot vert", "un poivron", "une mangue", "un champignon"],
+      "correctIndex": 2,
+      "explanation": "Une mangue (mango) is a fruit. Un haricot vert = green bean, un poivron = bell pepper, un champignon = mushroom — these are vegetables."
+    },
+    {
+      "id": "g6f-w25-mon-015",
+      "question": "What is 'le pain' in English?",
+      "options": ["cake", "bread", "rice", "pasta"],
+      "correctIndex": 1,
+      "explanation": "Le pain means bread. Le gâteau = cake, le riz = rice, les pâtes = pasta."
+    }
+  ]
+}

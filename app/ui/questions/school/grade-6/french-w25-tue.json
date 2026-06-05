@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-6-french-w25-tue",
+  "title": "Grade 6 French — Tue, Jun 17",
+  "description": "La nourriture — Day 2 of 5: Partitive articles",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-6", "weekly"],
+  "conceptId": "la-nourriture",
+  "questions": [
+    {
+      "id": "g6f-w25-tue-001",
+      "question": "Which partitive article is used with a masculine noun beginning with a consonant?",
+      "options": ["de la", "du", "de l'", "des"],
+      "correctIndex": 1,
+      "explanation": "'Du' is the partitive article for masculine nouns beginning with a consonant (du = de + le). Example: du pain (some bread)."
+    },
+    {
+      "id": "g6f-w25-tue-002",
+      "question": "Choose the correct partitive article: 'Je mange ___ soupe.'",
+      "options": ["du", "de l'", "de la", "des"],
+      "correctIndex": 2,
+      "explanation": "La soupe is feminine, so we use 'de la'. Je mange de la soupe = I eat some soup."
+    },
+    {
+      "id": "g6f-w25-tue-003",
+      "question": "Which sentence uses the correct partitive article?",
+      "options": ["Je bois du lait.", "Je bois de le lait.", "Je bois la lait.", "Je bois un lait."],
+      "correctIndex": 0,
+      "explanation": "Le lait (milk) is masculine, so we use 'du' (de + le). Je bois du lait = I drink some milk."
+    },
+    {
+      "id": "g6f-w25-tue-004",
+      "question": "What partitive article is used before a noun starting with a vowel?",
+      "options": ["du", "de la", "de l'", "des"],
+      "correctIndex": 2,
+      "explanation": "De l' is used before any noun (masculine or feminine) that starts with a vowel or silent h. Example: de l'eau (some water), de l'huile (some oil)."
+    },
+    {
+      "id": "g6f-w25-tue-005",
+      "question": "Fill in the blank: 'Nous mangeons ___ légumes.' (légumes is plural)",
+      "options": ["du", "de la", "de l'", "des"],
+      "correctIndex": 3,
+      "explanation": "For plural nouns we use 'des'. Nous mangeons des légumes = We eat some vegetables."
+    },
+    {
+      "id": "g6f-w25-tue-006",
+      "question": "Choose the correct sentence: 'I eat some rice.'",
+      "options": ["Je mange du riz.", "Je mange de la riz.", "Je mange des riz.", "Je mange de l'riz."],
+      "correctIndex": 0,
+      "explanation": "Le riz (rice) is masculine, so we use 'du'. Je mange du riz = I eat some rice."
+    },
+    {
+      "id": "g6f-w25-tue-007",
+      "question": "Which partitive article completes the sentence: 'Elle boit ___ eau.'?",
+      "options": ["du", "de la", "de l'", "des"],
+      "correctIndex": 2,
+      "explanation": "L'eau (water) starts with a vowel, so we use 'de l''. Elle boit de l'eau = She drinks some water."
+    },
+    {
+      "id": "g6f-w25-tue-008",
+      "question": "What does 'beaucoup de' mean in quantity expressions?",
+      "options": ["a little", "a lot of", "a piece of", "a glass of"],
+      "correctIndex": 1,
+      "explanation": "Beaucoup de means 'a lot of / much'. After quantity expressions like beaucoup de, un peu de, the partitive article is dropped."
+    },
+    {
+      "id": "g6f-w25-tue-009",
+      "question": "Which is correct: 'I drink a lot of water'?",
+      "options": ["Je bois beaucoup de l'eau.", "Je bois beaucoup d'eau.", "Je bois beaucoup des eaux.", "Je bois beaucoup du eau."],
+      "correctIndex": 1,
+      "explanation": "After 'beaucoup de', we use de/d' without any article. Beaucoup d'eau = a lot of water (d' before vowel)."
+    },
+    {
+      "id": "g6f-w25-tue-010",
+      "question": "Fill in: 'Tu manges ___ fromage.' (fromage = masculine)",
+      "options": ["de la", "des", "du", "de l'"],
+      "correctIndex": 2,
+      "explanation": "Le fromage (cheese) is masculine, so we use 'du'. Tu manges du fromage = You eat some cheese."
+    },
+    {
+      "id": "g6f-w25-tue-011",
+      "question": "Which sentence means 'I eat some apples'?",
+      "options": ["Je mange du pomme.", "Je mange de la pomme.", "Je mange des pommes.", "Je mange de l'pommes."],
+      "correctIndex": 2,
+      "explanation": "Pommes (apples) is plural, so we use 'des'. Je mange des pommes = I eat some apples."
+    },
+    {
+      "id": "g6f-w25-tue-012",
+      "question": "In negative sentences, partitive articles change to:",
+      "options": ["du / de la / de l' / des", "de / d'", "un / une / des", "le / la / les"],
+      "correctIndex": 1,
+      "explanation": "In negative sentences, all partitive articles (du, de la, de l', des) are replaced by 'de' (or 'd'' before a vowel). Example: Je ne mange pas de viande."
+    },
+    {
+      "id": "g6f-w25-tue-013",
+      "question": "Choose the correct negative sentence: 'I don't eat meat.'",
+      "options": ["Je ne mange pas du viande.", "Je ne mange pas de viande.", "Je ne mange pas la viande.", "Je ne mange pas des viandes."],
+      "correctIndex": 1,
+      "explanation": "In negatives, du/de la/des all become 'de'. Je ne mange pas de viande = I don't eat (any) meat."
+    },
+    {
+      "id": "g6f-w25-tue-014",
+      "question": "What does 'un peu de' mean?",
+      "options": ["a lot of", "a piece of", "a little of", "none of"],
+      "correctIndex": 2,
+      "explanation": "Un peu de means 'a little of'. Like beaucoup de, it is a quantity expression followed directly by the noun (no partitive article)."
+    },
+    {
+      "id": "g6f-w25-tue-015",
+      "question": "Which is correct: 'She eats some pasta'?",
+      "options": ["Elle mange du pâtes.", "Elle mange de la pâtes.", "Elle mange des pâtes.", "Elle mange de l'pâtes."],
+      "correctIndex": 2,
+      "explanation": "Les pâtes (pasta) is plural, so we use 'des'. Elle mange des pâtes = She eats some pasta."
+    }
+  ]
+}

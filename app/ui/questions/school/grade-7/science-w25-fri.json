@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-7-science-w25-fri",
+  "title": "Grade 7 Science — Fri, Jun 20",
+  "description": "Nutrition in Plants — Day 5 of 5: Mixed review",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7s-w25-fri-001",
+      "question": "Match: Rhizobium → ___",
+      "options": ["Saprotrophic bacterium that decomposes leaves", "Nitrogen-fixing bacterium in legume root nodules", "Bacterium that causes disease in plants", "Free-living soil fungus"],
+      "correctIndex": 1,
+      "explanation": "Rhizobium is a nitrogen-fixing bacterium found in the root nodules of leguminous plants. It is an example of mutualism."
+    },
+    {
+      "id": "g7s-w25-fri-002",
+      "question": "A plant placed in a completely dark room will eventually die because:",
+      "options": ["It will run out of water", "It cannot perform photosynthesis, so no food is produced", "It cannot absorb CO₂", "The roots stop growing"],
+      "correctIndex": 1,
+      "explanation": "Without light, photosynthesis stops. The plant cannot make glucose, so it starves."
+    },
+    {
+      "id": "g7s-w25-fri-003",
+      "question": "Which plant is CORRECTLY matched with its nutrition type?",
+      "options": ["Cuscuta — Autotrophic", "Mushroom — Parasitic", "Venus flytrap — Insectivorous", "Mango tree — Saprotrophic"],
+      "correctIndex": 2,
+      "explanation": "Venus flytrap is insectivorous. Cuscuta is parasitic, mushroom is saprotrophic, mango tree is autotrophic."
+    },
+    {
+      "id": "g7s-w25-fri-004",
+      "question": "What is the main raw material that enters through stomata for photosynthesis?",
+      "options": ["Oxygen", "Water", "Carbon dioxide", "Nitrogen"],
+      "correctIndex": 2,
+      "explanation": "Carbon dioxide (CO₂) enters the leaf through stomata and is used in photosynthesis."
+    },
+    {
+      "id": "g7s-w25-fri-005",
+      "question": "The iodine test on a leaf shows no colour change. This means:",
+      "options": ["Photosynthesis has occurred and starch is present", "No photosynthesis has occurred (no starch present)", "The leaf is dead", "The leaf contains glucose"],
+      "correctIndex": 1,
+      "explanation": "Iodine turns blue-black in the presence of starch. No colour change means no starch is present, indicating photosynthesis did not occur."
+    },
+    {
+      "id": "g7s-w25-fri-006",
+      "question": "Which process returns nitrogen from dead matter back to the soil?",
+      "options": ["Nitrogen fixation", "Photosynthesis", "Decomposition by saprotrophs", "Transpiration"],
+      "correctIndex": 2,
+      "explanation": "Saprotrophic bacteria and fungi decompose dead organisms, releasing nitrogen back into the soil as ammonia or nitrates."
+    },
+    {
+      "id": "g7s-w25-fri-007",
+      "question": "Which of the following plants can perform photosynthesis AND trap insects?",
+      "options": ["Cuscuta", "Mushroom", "Venus flytrap", "Rhizobium"],
+      "correctIndex": 2,
+      "explanation": "Venus flytrap is an insectivorous plant that can still photosynthesize (it has chlorophyll). It traps insects mainly for nitrogen."
+    },
+    {
+      "id": "g7s-w25-fri-008",
+      "question": "Where does starch test positive in a variegated leaf?",
+      "options": ["Only in white/yellow parts", "Only in green parts", "Equally in all parts", "Nowhere — variegated leaves don't photosynthesize"],
+      "correctIndex": 1,
+      "explanation": "Only the green parts of a variegated leaf contain chlorophyll and can photosynthesize, producing starch. White/yellow parts test negative."
+    },
+    {
+      "id": "g7s-w25-fri-009",
+      "question": "What do all modes of nutrition (autotrophic, heterotrophic, saprotrophic) have in common?",
+      "options": ["They all use sunlight", "They all result in obtaining nutrients/energy for survival", "They all involve eating other organisms", "They all use chlorophyll"],
+      "correctIndex": 1,
+      "explanation": "Despite different methods, all modes of nutrition serve the same purpose — obtaining nutrients and energy for growth and survival."
+    },
+    {
+      "id": "g7s-w25-fri-010",
+      "question": "Nitrogen enters the plant in the form of:",
+      "options": ["N₂ gas through leaves", "Nitrates through roots", "Proteins through roots", "Nitrogen atoms through stem"],
+      "correctIndex": 1,
+      "explanation": "Plants absorb nitrogen as soluble nitrate ions (NO₃⁻) through their roots from the soil."
+    },
+    {
+      "id": "g7s-w25-fri-011",
+      "question": "A student claims: 'All bacteria are harmful.' Which example disproves this?",
+      "options": ["Rhizobium (fixes nitrogen, helps plants grow)", "Cuscuta (a parasitic plant)", "Venus flytrap (traps insects)", "Mushroom (a saprotrophic fungus)"],
+      "correctIndex": 0,
+      "explanation": "Rhizobium is a beneficial bacterium that fixes nitrogen and helps leguminous plants grow. Not all bacteria are harmful."
+    },
+    {
+      "id": "g7s-w25-fri-012",
+      "question": "By-products of photosynthesis that benefit humans and animals are:",
+      "options": ["CO₂ and water", "Oxygen and glucose", "Nitrogen and oxygen", "Starch and CO₂"],
+      "correctIndex": 1,
+      "explanation": "Photosynthesis produces oxygen (which we breathe) and glucose (which feeds the food chain). Both benefit animals and humans."
+    },
+    {
+      "id": "g7s-w25-fri-013",
+      "question": "Which organism is a DECOMPOSER that plays a role in the nitrogen cycle?",
+      "options": ["Cuscuta", "Bread mould (Rhizopus)", "Venus flytrap", "Rice plant"],
+      "correctIndex": 1,
+      "explanation": "Bread mould (Rhizopus) is a saprotrophic decomposer that breaks down dead organic matter, releasing nitrogen back to the soil."
+    },
+    {
+      "id": "g7s-w25-fri-014",
+      "question": "Photosynthesis takes place during the day. What process takes place in plants both day AND night?",
+      "options": ["Transpiration only", "Nitrogen fixation", "Respiration", "Photosynthesis at a lower rate"],
+      "correctIndex": 2,
+      "explanation": "Respiration (breaking down glucose for energy) occurs in all cells day and night. Photosynthesis only occurs in light."
+    },
+    {
+      "id": "g7s-w25-fri-015",
+      "question": "Which combination correctly completes: Autotroph = ___ ; Heterotroph = ___",
+      "options": ["Mango tree ; Mushroom", "Mango tree ; Cuscuta", "Mango tree ; Lion", "All three are autotrophs"],
+      "correctIndex": 2,
+      "explanation": "Mango tree is an autotroph (makes its own food via photosynthesis). Lion is a heterotroph (eats other organisms). This is the classic example pair."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-7-science-w25-thu",
+  "title": "Grade 7 Science — Thu, Jun 19",
+  "description": "Nutrition in Plants — Day 4 of 5: Nitrogen fixation; Rhizobium; legumes",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7s-w25-thu-001",
+      "question": "Why do plants need nitrogen?",
+      "options": ["To make glucose during photosynthesis", "To make proteins, chlorophyll, and DNA", "To absorb water from soil", "To release oxygen"],
+      "correctIndex": 1,
+      "explanation": "Nitrogen is an essential component of proteins, amino acids, chlorophyll, and DNA — all critical for plant growth and function."
+    },
+    {
+      "id": "g7s-w25-thu-002",
+      "question": "Although 78% of air is nitrogen, plants cannot use it directly. This is because:",
+      "options": ["Air nitrogen is poisonous to plants", "Plants absorb nitrogen only in liquid form", "Atmospheric nitrogen (N₂) is chemically inert and cannot be absorbed directly", "Nitrogen is only found underground"],
+      "correctIndex": 2,
+      "explanation": "Atmospheric N₂ is very stable (triple bond) and chemically unreactive. Plants can only absorb nitrogen as nitrates (NO₃⁻) or ammonium (NH₄⁺) ions."
+    },
+    {
+      "id": "g7s-w25-thu-003",
+      "question": "What is nitrogen fixation?",
+      "options": ["Converting nitrates to nitrogen gas", "Converting atmospheric N₂ into usable nitrogen compounds (nitrates/ammonia)", "Plants absorbing nitrates from soil", "Nitrogen evaporating from soil"],
+      "correctIndex": 1,
+      "explanation": "Nitrogen fixation is the process of converting inert atmospheric N₂ into ammonia or nitrates that plants can absorb and use."
+    },
+    {
+      "id": "g7s-w25-thu-004",
+      "question": "Rhizobium is a bacterium that lives in the root nodules of:",
+      "options": ["Rice plants", "Leguminous plants (pulses, peas, beans)", "Wheat plants", "Mango trees"],
+      "correctIndex": 1,
+      "explanation": "Rhizobium lives in root nodules of leguminous plants (dal, peas, groundnuts, clover). It fixes atmospheric nitrogen into usable form."
+    },
+    {
+      "id": "g7s-w25-thu-005",
+      "question": "The relationship between Rhizobium and leguminous plants is:",
+      "options": ["Parasitic (Rhizobium harms the plant)", "Saprotrophic (Rhizobium feeds on dead matter)", "Mutualistic (both benefit)", "Competitive (they compete for nutrients)"],
+      "correctIndex": 2,
+      "explanation": "Rhizobium and legumes are mutualistic: the bacterium gets food/shelter from the plant; the plant gets fixed nitrogen from the bacterium."
+    },
+    {
+      "id": "g7s-w25-thu-006",
+      "question": "Root nodules are special swellings on the roots of legumes. What do they contain?",
+      "options": ["Stored starch", "Nitrogen-fixing bacteria (Rhizobium)", "Chlorophyll", "Water reserves"],
+      "correctIndex": 1,
+      "explanation": "Root nodules are home to Rhizobium bacteria. These bacteria convert atmospheric N₂ to ammonia/nitrates inside the nodules."
+    },
+    {
+      "id": "g7s-w25-thu-007",
+      "question": "Which of the following is a leguminous plant?",
+      "options": ["Rice", "Wheat", "Moong dal (green gram)", "Mango"],
+      "correctIndex": 2,
+      "explanation": "Moong dal (green gram) is a leguminous plant. Legumes include peas, beans, lentils, groundnuts, and soybean."
+    },
+    {
+      "id": "g7s-w25-thu-008",
+      "question": "After nitrogen fixation, plants absorb nitrogen in what form?",
+      "options": ["N₂ gas", "Nitrates and ammonium salts", "Proteins", "Amino acids directly"],
+      "correctIndex": 1,
+      "explanation": "After fixation, nitrogen is in the form of nitrates (NO₃⁻) or ammonium (NH₄⁺) which are soluble and can be absorbed by plant roots."
+    },
+    {
+      "id": "g7s-w25-thu-009",
+      "question": "Lightning also helps in nitrogen fixation by:",
+      "options": ["Heating the soil to activate Rhizobium", "Converting N₂ + O₂ to NO, which dissolves in rain as nitrates", "Providing energy for chlorophyll", "Breaking nitrogen into individual atoms"],
+      "correctIndex": 1,
+      "explanation": "Lightning provides energy to combine N₂ and O₂ to form nitrogen oxides (NOₓ), which dissolve in rainwater to form nitric acid, then nitrates in soil."
+    },
+    {
+      "id": "g7s-w25-thu-010",
+      "question": "Why do farmers often grow leguminous crops in rotation with other crops?",
+      "options": ["Legumes grow faster than other crops", "Legumes restore nitrogen to soil, improving fertility", "Legumes do not need water", "Legumes prevent pests"],
+      "correctIndex": 1,
+      "explanation": "Legumes fix atmospheric nitrogen through Rhizobium, enriching the soil. Crop rotation with legumes reduces the need for chemical fertilizers."
+    },
+    {
+      "id": "g7s-w25-thu-011",
+      "question": "Which mineral is essential for making plant proteins?",
+      "options": ["Calcium", "Nitrogen", "Potassium", "Phosphorus"],
+      "correctIndex": 1,
+      "explanation": "Nitrogen is the essential mineral for making proteins (amino acids contain nitrogen). Plants deficient in nitrogen show stunted growth and yellow leaves."
+    },
+    {
+      "id": "g7s-w25-thu-012",
+      "question": "Denitrification converts nitrates back into:",
+      "options": ["Ammonia", "Proteins", "Atmospheric N₂", "Glucose"],
+      "correctIndex": 2,
+      "explanation": "Denitrification (by denitrifying bacteria) converts nitrates back to N₂ gas, completing the nitrogen cycle."
+    },
+    {
+      "id": "g7s-w25-thu-013",
+      "question": "Which gas is fixed by bacteria in root nodules?",
+      "options": ["Oxygen", "Carbon dioxide", "Nitrogen (N₂)", "Hydrogen"],
+      "correctIndex": 2,
+      "explanation": "Rhizobium bacteria in root nodules fix atmospheric nitrogen (N₂) into ammonia and nitrates."
+    },
+    {
+      "id": "g7s-w25-thu-014",
+      "question": "A farmer observes that his wheat crop shows yellowing leaves and poor growth. This could be due to:",
+      "options": ["Excess water", "Nitrogen deficiency in soil", "Too much sunlight", "Excess phosphorus"],
+      "correctIndex": 1,
+      "explanation": "Nitrogen deficiency causes chlorosis (yellowing of leaves) and stunted growth because nitrogen is essential for chlorophyll and protein synthesis."
+    },
+    {
+      "id": "g7s-w25-thu-015",
+      "question": "Leguminous plants are called 'natural fertilisers' because:",
+      "options": ["They absorb water and release it for other plants", "Their roots fix atmospheric nitrogen, enriching the soil", "They produce extra oxygen", "They decompose dead organic matter"],
+      "correctIndex": 1,
+      "explanation": "Through Rhizobium in their root nodules, leguminous plants fix nitrogen, adding it to the soil as nitrates. This enriches the soil naturally, like a fertiliser."
+    }
+  ]
+}

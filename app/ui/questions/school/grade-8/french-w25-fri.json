@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-8-french-w25-fri",
+  "title": "Grade 8 French — Fri, Jun 20",
+  "description": "Le futur simple — Day 5 of 5: Week review + mixed practice",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-8", "weekly"],
+  "conceptId": "futur-simple",
+  "questions": [
+    {
+      "id": "g8f-w25-fri-001",
+      "question": "Conjugate 'finir' in the futur simple for all six persons: je/tu/il/nous/vous/ils.",
+      "options": ["finis/finis/finit/finissons/finissez/finissent (present)", "finirai/finiras/finira/finirons/finirez/finiront", "finissais/finissais/finissait/finissions/finissiez/finissaient (imperfect)", "finirais/finirais/finirait/finirions/finiriez/finiraient (conditionnel)"],
+      "correctIndex": 1,
+      "explanation": "finir (regular -ir): stem = finir + endings -ai/-as/-a/-ons/-ez/-ont = finirai/finiras/finira/finirons/finirez/finiront."
+    },
+    {
+      "id": "g8f-w25-fri-002",
+      "question": "Identify the verb and tense: 'Nous serons en vacances dans deux semaines.'",
+      "options": ["être — conditionnel présent (serions)", "être — futur simple (serons)", "être — imperfect (étions)", "avoir — futur simple (aurons)"],
+      "correctIndex": 1,
+      "explanation": "serons = ser- (être futur stem) + -ons = futur simple. 'We will be on vacation in two weeks.'"
+    },
+    {
+      "id": "g8f-w25-fri-003",
+      "question": "Fill in with the correct futur simple form: 'Qu'est-ce que tu _____ (faire) ce week-end?'",
+      "options": ["faisais", "feras", "ferais", "fait"],
+      "correctIndex": 1,
+      "explanation": "faire → fer- + -as = tu feras. 'What will you do this weekend?'"
+    },
+    {
+      "id": "g8f-w25-fri-004",
+      "question": "Translate into French using futur simple: 'They will come to the party.' (venir)",
+      "options": ["Ils viennent à la fête.", "Ils viendront à la fête.", "Ils venaient à la fête.", "Ils sont venus à la fête."],
+      "correctIndex": 1,
+      "explanation": "venir → viendr- + -ont = ils viendront. 'Ils viendront à la fête.'"
+    },
+    {
+      "id": "g8f-w25-fri-005",
+      "question": "Which sentence contains an error?",
+      "options": ["J'irai à Paris l'été prochain.", "Tu auras besoin d'un parapluie demain.", "Elle serat contente. ✗", "Nous ferons nos devoirs ce soir."],
+      "correctIndex": 2,
+      "explanation": "'serat' does not exist. être futur: ser- + -a = elle sera. The error is the extra -t; correct form is 'elle sera'."
+    },
+    {
+      "id": "g8f-w25-fri-006",
+      "question": "Identify the tense: 'Si j'étais riche, j'achèterais une grande maison.'",
+      "options": ["Both verbs are futur simple", "étais = imperfect (si clause), achèterais = conditionnel (result clause)", "Both verbs are conditionnel", "étais = futur, achèterais = imperfect"],
+      "correctIndex": 1,
+      "explanation": "Classic 'si + imperfect → conditionnel' structure. étais = imperfect; achèterais = conditionnel (would buy). This is a hypothetical."
+    },
+    {
+      "id": "g8f-w25-fri-007",
+      "question": "Complete: 'Bientôt, les élèves _____ leurs examens.' (passer = to take an exam)",
+      "options": ["passaient", "passeront", "passeraient", "ont passé"],
+      "correctIndex": 1,
+      "explanation": "'Bientôt' (soon) = future signal → futur simple. passer + -ont = ils passeront. 'Soon, the students will take their exams.'"
+    },
+    {
+      "id": "g8f-w25-fri-008",
+      "question": "For the -re verb 'entendre' (to hear), the futur simple je-form is:",
+      "options": ["j'entends (present)", "j'entendrai", "j'entenderai (wrong — keeping the -e)", "j'entendais (imperfect)"],
+      "correctIndex": 1,
+      "explanation": "entendre → drop -e → entendr- + -ai = j'entendrai. Common error: keeping the -e (*j'entenderai)."
+    },
+    {
+      "id": "g8f-w25-fri-009",
+      "question": "Choose the correct form: 'Vous _____ (avoir) les résultats la semaine prochaine.'",
+      "options": ["avez (present)", "aurez (futur — aur- + -ez)", "aviez (imperfect)", "auriez (conditionnel)"],
+      "correctIndex": 1,
+      "explanation": "'La semaine prochaine' (next week) = definite future → futur simple. aur- + -ez = vous aurez."
+    },
+    {
+      "id": "g8f-w25-fri-010",
+      "question": "Translate: 'Tomorrow, we will go to the market and we will buy vegetables.' (aller, acheter)",
+      "options": ["Demain, nous allons au marché et nous achetons des légumes.", "Demain, nous irons au marché et nous achèterons des légumes.", "Demain, nous allions au marché et nous achetions des légumes.", "Demain, nous sommes allés au marché et avons acheté."],
+      "correctIndex": 1,
+      "explanation": "aller → ir- + -ons = nous irons. acheter → achèter- + -ons = nous achèterons. Both futur simple."
+    },
+    {
+      "id": "g8f-w25-fri-011",
+      "question": "Which irregular futur stem is WRONG?",
+      "options": ["être → ser- ✓", "avoir → aur- ✓", "faire → fer- ✓", "aller → all- ✗ (should be ir-)"],
+      "correctIndex": 3,
+      "explanation": "aller → futur stem is ir- (not all-). So j'irai, tu iras, il ira, nous irons, vous irez, ils iront."
+    },
+    {
+      "id": "g8f-w25-fri-012",
+      "question": "Change to futur simple: 'Il fait beau aujourd'hui.' (It is nice weather today.)",
+      "options": ["Il faisait beau demain.", "Il fera beau demain.", "Il ferait beau demain.", "Il a fait beau demain."],
+      "correctIndex": 1,
+      "explanation": "faire → fer- + -a = il fera. 'Il fera beau demain.' = It will be nice (weather) tomorrow."
+    },
+    {
+      "id": "g8f-w25-fri-013",
+      "question": "Mixed practice: 'Dans 10 ans, je _____ médecin.' (être)",
+      "options": ["suis (present)", "serai (futur simple)", "serais (conditionnel)", "étais (imperfect)"],
+      "correctIndex": 1,
+      "explanation": "'Dans 10 ans' (in 10 years) = future → futur simple. ser- + -ai = je serai. 'In 10 years, I will be a doctor.'"
+    },
+    {
+      "id": "g8f-w25-fri-014",
+      "question": "Read this mini-paragraph and identify all futur simple verbs: 'Ce soir, je finirai mes devoirs. Ensuite, je regarderai un film. Demain, nous irons au parc.'",
+      "options": ["finirai ✓, regarderai ✓, irons ✓ — all futur simple", "finirai = futur, regarderai = conditionnel, irons = présent", "All three verbs are conditionnel", "finirai = futur, other two are imperfect"],
+      "correctIndex": 0,
+      "explanation": "finirai (finir + -ai), regarderai (regarder + -ai), irons (ir- + -ons) — all three are futur simple forms."
+    },
+    {
+      "id": "g8f-w25-fri-015",
+      "question": "Final summary: What is the one key rule that applies to ALL futur simple conjugations, regular AND irregular?",
+      "options": ["Always use the present tense stem + endings", "Always use the FUTUR STEM (infinitive for regular verbs; special stem for irregular) + endings -ai/-as/-a/-ons/-ez/-ont", "Always use the imperfect stem + future endings", "Use the past participle + avoir/être conjugated in future"],
+      "correctIndex": 1,
+      "explanation": "The universal rule: futur simple = STEM + -ai/-as/-a/-ons/-ez/-ont. For regular verbs, stem = infinitive (-er/-ir verbs) or infinitive minus -e (-re verbs). For irregular verbs (être/avoir/aller/faire/venir), use the special stem."
+    }
+  ]
+}

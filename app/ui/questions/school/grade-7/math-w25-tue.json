@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-7-math-w25-tue",
+  "title": "Grade 7 Math — Tue, Jun 17",
+  "description": "Algebraic Expressions — Day 2 of 5: Like and unlike terms; addition",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7m-w25-tue-001",
+      "question": "Which pair are LIKE terms?",
+      "options": ["3x and 3y", "5x² and 5x", "4ab and 7ab", "2x and 2x²"],
+      "correctIndex": 2,
+      "explanation": "Like terms have the same variable(s) raised to the same power(s). 4ab and 7ab both have ab, so they are like terms."
+    },
+    {
+      "id": "g7m-w25-tue-002",
+      "question": "Which pair are UNLIKE terms?",
+      "options": ["3x² and −5x²", "7ab and 2ab", "4xy and 9xy", "5x and 3y"],
+      "correctIndex": 3,
+      "explanation": "Unlike terms have different variables or different powers. 5x and 3y have different variables (x vs y), making them unlike terms."
+    },
+    {
+      "id": "g7m-w25-tue-003",
+      "question": "Add: 3x + 5x",
+      "options": ["8x²", "8x", "15x", "15x²"],
+      "correctIndex": 1,
+      "explanation": "3x + 5x = (3 + 5)x = 8x. Only the coefficients are added; the variable x stays the same."
+    },
+    {
+      "id": "g7m-w25-tue-004",
+      "question": "Simplify: 7a + 3b + 2a − b",
+      "options": ["9a + 2b", "9a − 2b", "12ab", "5a + 2b"],
+      "correctIndex": 0,
+      "explanation": "Group like terms: (7a + 2a) + (3b − b) = 9a + 2b."
+    },
+    {
+      "id": "g7m-w25-tue-005",
+      "question": "Add: (2x² + 3x − 1) + (x² − x + 4)",
+      "options": ["3x² + 2x + 3", "3x² − 2x + 3", "3x² + 4x + 3", "3x² + 2x − 3"],
+      "correctIndex": 0,
+      "explanation": "(2x² + x²) + (3x − x) + (−1 + 4) = 3x² + 2x + 3."
+    },
+    {
+      "id": "g7m-w25-tue-006",
+      "question": "Which of the following cannot be simplified further?",
+      "options": ["3x + 5x", "4y − 2y", "6a + 3b", "2p + 2p"],
+      "correctIndex": 2,
+      "explanation": "6a + 3b has unlike terms (a and b), so it cannot be combined further. The other options all have like terms."
+    },
+    {
+      "id": "g7m-w25-tue-007",
+      "question": "Simplify: 5xy + 3x − 2xy + x",
+      "options": ["3xy + 4x", "3xy + 2x", "5xy + 4x", "7xy + 4x"],
+      "correctIndex": 0,
+      "explanation": "(5xy − 2xy) + (3x + x) = 3xy + 4x."
+    },
+    {
+      "id": "g7m-w25-tue-008",
+      "question": "What is the sum of 4a²b and 3a²b?",
+      "options": ["7a²b", "7a⁴b²", "12a²b", "7ab"],
+      "correctIndex": 0,
+      "explanation": "4a²b + 3a²b = (4 + 3)a²b = 7a²b. Like terms — same variable part a²b."
+    },
+    {
+      "id": "g7m-w25-tue-009",
+      "question": "Add (3m + 2n) and (5m − 3n).",
+      "options": ["8m − n", "8m + 5n", "8m − 5n", "8m + n"],
+      "correctIndex": 0,
+      "explanation": "(3m + 5m) + (2n − 3n) = 8m + (−n) = 8m − n."
+    },
+    {
+      "id": "g7m-w25-tue-010",
+      "question": "Which terms in 4x² + 3x − 2x² + 5 are like terms?",
+      "options": ["4x² and 3x", "3x and 5", "4x² and −2x²", "3x and −2x²"],
+      "correctIndex": 2,
+      "explanation": "4x² and −2x² both have x², so they are like terms and can be combined: 4x² − 2x² = 2x²."
+    },
+    {
+      "id": "g7m-w25-tue-011",
+      "question": "Simplify 4x² + 3x − 2x² + 5.",
+      "options": ["2x² + 3x + 5", "6x² + 3x + 5", "2x² − 3x + 5", "2x² + 3x − 5"],
+      "correctIndex": 0,
+      "explanation": "(4x² − 2x²) + 3x + 5 = 2x² + 3x + 5."
+    },
+    {
+      "id": "g7m-w25-tue-012",
+      "question": "Are 6abc and 6bca like terms?",
+      "options": ["No, because the letters are in different order", "Yes, because multiplication is commutative", "No, because the coefficients differ", "Yes, but only if a = b = c"],
+      "correctIndex": 1,
+      "explanation": "abc = bca = cab (multiplication is commutative). So 6abc and 6bca are like terms — both equal 6abc."
+    },
+    {
+      "id": "g7m-w25-tue-013",
+      "question": "Add (p² + pq + q²) + (p² − pq + q²).",
+      "options": ["2p² + 2q²", "2p² + 2pq + 2q²", "2p² − 2q²", "p² + q²"],
+      "correctIndex": 0,
+      "explanation": "(p² + p²) + (pq − pq) + (q² + q²) = 2p² + 0 + 2q² = 2p² + 2q²."
+    },
+    {
+      "id": "g7m-w25-tue-014",
+      "question": "Simplify: −3a + 4b − a − 2b",
+      "options": ["−4a + 2b", "−4a − 2b", "−2a + 2b", "−4a + 6b"],
+      "correctIndex": 0,
+      "explanation": "(−3a − a) + (4b − 2b) = −4a + 2b."
+    },
+    {
+      "id": "g7m-w25-tue-015",
+      "question": "What is the sum of 2x − 3 and −2x + 5?",
+      "options": ["4x + 2", "2", "−4x + 2", "0x + 2"],
+      "correctIndex": 1,
+      "explanation": "(2x − 2x) + (−3 + 5) = 0 + 2 = 2. The x-terms cancel, leaving just 2."
+    }
+  ]
+}

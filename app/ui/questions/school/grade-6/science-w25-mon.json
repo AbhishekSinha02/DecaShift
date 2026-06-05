@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w25-mon",
+  "title": "Grade 6 Science — Mon, Jun 16",
+  "description": "Changes Around Us — Day 1 of 5: Physical vs chemical changes",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "changes", "physical-chemical"],
+  "questions": [
+    { "id": "g6s-w25-mon-001", "question": "A physical change is one in which ___.", "options": ["A new substance is formed", "The composition of the substance changes", "Only the form or appearance changes", "The change cannot be reversed"], "correctIndex": 2, "explanation": "In a physical change, only form, shape, size, or state changes. No new substance is formed.", "tags": ["physical-change"] },
+    { "id": "g6s-w25-mon-002", "question": "A chemical change always produces ___.", "options": ["A change in colour only", "One or more new substances with different properties", "Only a change in state", "A reversible change"], "correctIndex": 1, "explanation": "A chemical change produces new substances with different properties from the original substances.", "tags": ["chemical-change"] },
+    { "id": "g6s-w25-mon-003", "question": "Melting of ice is a ___.", "options": ["Chemical change", "Irreversible change", "Physical change", "Both chemical and physical"], "correctIndex": 2, "explanation": "Melting of ice is a physical change — water changes from solid to liquid state. No new substance is formed.", "tags": ["physical-change"] },
+    { "id": "g6s-w25-mon-004", "question": "Burning of paper is a ___.", "options": ["Physical change", "Reversible change", "Chemical change", "Change in state only"], "correctIndex": 2, "explanation": "Burning paper is a chemical change — it produces ash and gases (new substances) and cannot be reversed.", "tags": ["chemical-change"] },
+    { "id": "g6s-w25-mon-005", "question": "Which of these is a physical change?", "options": ["Rusting of iron", "Burning of wood", "Dissolving salt in water", "Cooking an egg"], "correctIndex": 2, "explanation": "Dissolving salt in water is a physical change — the salt can be recovered by evaporation. No new substance is formed.", "tags": ["physical-change"] },
+    { "id": "g6s-w25-mon-006", "question": "Which of these is a chemical change?", "options": ["Melting of wax", "Cutting paper", "Rusting of iron", "Dissolving sugar in water"], "correctIndex": 2, "explanation": "Rusting of iron is a chemical change — iron reacts with water and oxygen to form iron oxide (rust), a new substance.", "tags": ["chemical-change"] },
+    { "id": "g6s-w25-mon-007", "question": "In which type of change is the original substance generally NOT recoverable?", "options": ["Physical change", "Reversible change", "Chemical change", "Dissolving"], "correctIndex": 2, "explanation": "Chemical changes are generally irreversible — the original substances cannot easily be recovered.", "tags": ["chemical-change"] },
+    { "id": "g6s-w25-mon-008", "question": "Folding a piece of paper is an example of a ___.", "options": ["Chemical change", "Irreversible change", "Physical change", "None of these"], "correctIndex": 2, "explanation": "Folding only changes the shape — no new substance is formed. It is a physical change.", "tags": ["physical-change"] },
+    { "id": "g6s-w25-mon-009", "question": "Formation of curd from milk is a ___.", "options": ["Physical change", "Reversible change", "Chemical change", "Simple mixing"], "correctIndex": 2, "explanation": "Curdling of milk is a chemical change — bacteria convert lactose to lactic acid, forming curd (a new substance).", "tags": ["chemical-change"] },
+    { "id": "g6s-w25-mon-010", "question": "One sign that a chemical change has occurred is ___.", "options": ["Change in shape", "Change in size", "Formation of gas, new colour, or new smell", "Change in state only"], "correctIndex": 2, "explanation": "Chemical changes are often indicated by gas production, colour change, smell, heat/light, or formation of a precipitate.", "tags": ["chemical-change"] },
+    { "id": "g6s-w25-mon-011", "question": "Tearing paper into pieces is a ___.", "options": ["Chemical change", "Irreversible change", "Physical change", "Oxidation"], "correctIndex": 2, "explanation": "Tearing only changes the size and shape — the paper remains paper. It is a physical change.", "tags": ["physical-change"] },
+    { "id": "g6s-w25-mon-012", "question": "Cooking food is a ___.", "options": ["Physical change", "Reversible change", "Chemical change", "State change only"], "correctIndex": 2, "explanation": "Cooking involves chemical reactions that change the composition of food — new substances are formed.", "tags": ["chemical-change"] },
+    { "id": "g6s-w25-mon-013", "question": "Evaporation of water is a ___.", "options": ["Chemical change", "Irreversible change", "Physical change", "Combustion"], "correctIndex": 2, "explanation": "Evaporation is a physical change — water changes from liquid to vapour, but remains water (no new substance).", "tags": ["physical-change"] },
+    { "id": "g6s-w25-mon-014", "question": "Which property MOST clearly identifies a chemical change?", "options": ["Change in shape", "Change in temperature only", "Formation of a new substance", "Change in volume"], "correctIndex": 2, "explanation": "The hallmark of a chemical change is the formation of one or more new substances with different properties.", "tags": ["chemical-change"] },
+    { "id": "g6s-w25-mon-015", "question": "Which of the following pairs are BOTH chemical changes?", "options": ["Melting ice + boiling water", "Burning wood + rusting iron", "Dissolving salt + cutting wood", "Folding cloth + stretching rubber"], "correctIndex": 1, "explanation": "Both burning wood and rusting iron produce new substances → both are chemical changes.", "tags": ["chemical-change"] }
+  ]
+}

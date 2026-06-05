@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-7-french-w25-wed",
+  "title": "Grade 7 French — Wed, Jun 18",
+  "description": "L'imparfait — Day 3 of 5: Être (irregular) + usage — ongoing past action",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-7", "weekly"],
+  "conceptId": "limparfait",
+  "questions": [
+    {
+      "id": "g7f-w25-wed-001",
+      "question": "What is the IRREGULAR imparfait stem of 'être'?",
+      "options": ["ét-", "soi-", "est-", "êt-"],
+      "correctIndex": 0,
+      "explanation": "Être is the only verb with an irregular imparfait stem: ét-. (Not derived from nous sommes.)"
+    },
+    {
+      "id": "g7f-w25-wed-002",
+      "question": "Conjugate 'être' in imparfait for 'je'.",
+      "options": ["je suis", "j'étais", "j'était", "je serai"],
+      "correctIndex": 1,
+      "explanation": "ét- + -ais → j'étais (I was). This is the imparfait of être."
+    },
+    {
+      "id": "g7f-w25-wed-003",
+      "question": "Conjugate 'être' in imparfait for 'nous'.",
+      "options": ["nous sommes", "nous étions", "nous étiez", "nous étaient"],
+      "correctIndex": 1,
+      "explanation": "ét- + -ions → nous étions (we were)."
+    },
+    {
+      "id": "g7f-w25-wed-004",
+      "question": "Translate: 'She was happy.' (être → ét-)",
+      "options": ["Elle est heureuse.", "Elle était heureuse.", "Elle a été heureuse.", "Elle sera heureuse."],
+      "correctIndex": 1,
+      "explanation": "ét- + -ait → elle était. Elle était heureuse = She was happy (description of a past state)."
+    },
+    {
+      "id": "g7f-w25-wed-005",
+      "question": "What is the imparfait of 'être' for 'ils'?",
+      "options": ["ils étaient", "ils étais", "ils sont", "ils seront"],
+      "correctIndex": 0,
+      "explanation": "ét- + -aient → ils étaient (they were)."
+    },
+    {
+      "id": "g7f-w25-wed-006",
+      "question": "L'imparfait is used to describe:",
+      "options": ["A completed action in the past", "An ongoing state or habitual action in the past", "A future plan", "A current state"],
+      "correctIndex": 1,
+      "explanation": "L'imparfait describes: (1) ongoing/continuous states or actions in the past, and (2) habitual/repeated actions in the past ('used to')."
+    },
+    {
+      "id": "g7f-w25-wed-007",
+      "question": "Which sentence uses l'imparfait for an ONGOING action?",
+      "options": ["Il a fermé la fenêtre.", "Il fermait la fenêtre quand je suis entré.", "Il fermera la fenêtre.", "Il ferme la fenêtre."],
+      "correctIndex": 1,
+      "explanation": "Il fermait (imparfait) = he was closing — an ongoing background action. 'Il a fermé' = he closed (completed action = passé composé)."
+    },
+    {
+      "id": "g7f-w25-wed-008",
+      "question": "Translate: 'It was raining.' (pleuvoir → il pleuvait)",
+      "options": ["Il pleut.", "Il a plu.", "Il pleuvait.", "Il pleuvra."],
+      "correctIndex": 2,
+      "explanation": "Il pleuvait = it was raining (imparfait, describing weather as ongoing background in the past)."
+    },
+    {
+      "id": "g7f-w25-wed-009",
+      "question": "Which use of imparfait is shown: 'Quand j'étais jeune, j'habitais à Paris.' (When I was young, I lived in Paris.)",
+      "options": ["Completed action", "Habitual/repeated past action or ongoing state", "Planned future action", "Immediate past"],
+      "correctIndex": 1,
+      "explanation": "Both 'j'étais jeune' (I was young — ongoing state) and 'j'habitais' (I lived — habitual/ongoing past situation) use imparfait."
+    },
+    {
+      "id": "g7f-w25-wed-010",
+      "question": "Fill in with être in imparfait: 'Ils ___ très fatigués après la course.'",
+      "options": ["sont", "seront", "étaient", "étais"],
+      "correctIndex": 2,
+      "explanation": "ét- + -aient → ils étaient. Ils étaient très fatigués = They were very tired (past state)."
+    },
+    {
+      "id": "g7f-w25-wed-011",
+      "question": "What does 'vous étiez' mean?",
+      "options": ["you will be", "you are", "you were (imparfait)", "you have been"],
+      "correctIndex": 2,
+      "explanation": "Vous étiez = you were (imparfait of être for vous). ét- + -iez."
+    },
+    {
+      "id": "g7f-w25-wed-012",
+      "question": "Translate: 'The children were playing outside.' (jouer → joua- → jouaient)",
+      "options": ["Les enfants ont joué dehors.", "Les enfants jouaient dehors.", "Les enfants jouent dehors.", "Les enfants vont jouer dehors."],
+      "correctIndex": 1,
+      "explanation": "Ongoing action in the past = imparfait. Les enfants jouaient dehors = The children were playing outside."
+    },
+    {
+      "id": "g7f-w25-wed-013",
+      "question": "Which sentence correctly uses être in imparfait to describe a past state?",
+      "options": ["Il est médecin.", "Il était médecin avant sa retraite.", "Il a été médecin hier.", "Il sera médecin demain."],
+      "correctIndex": 1,
+      "explanation": "Il était médecin avant sa retraite = He was a doctor before his retirement. Imparfait for a past state/profession."
+    },
+    {
+      "id": "g7f-w25-wed-014",
+      "question": "Translate: 'Tu étais très courageux.' What does this mean?",
+      "options": ["You will be very brave.", "You are very brave.", "You were very brave.", "You have been very brave."],
+      "correctIndex": 2,
+      "explanation": "Tu étais = you were (imparfait of être). Tu étais très courageux = You were very brave."
+    },
+    {
+      "id": "g7f-w25-wed-015",
+      "question": "Give the full imparfait conjugation of être:",
+      "options": ["j'étais, tu étais, il était, nous étions, vous étiez, ils étaient", "j'étais, tu était, il était, nous étions, vous étiez, ils étaient", "j'étais, tu étais, il étais, nous étions, vous étiez, ils étaient", "j'étais, tu étais, il était, nous étions, vous étaient, ils étiez"],
+      "correctIndex": 0,
+      "explanation": "The full imparfait of être: j'étais, tu étais, il/elle était, nous étions, vous étiez, ils/elles étaient."
+    }
+  ]
+}

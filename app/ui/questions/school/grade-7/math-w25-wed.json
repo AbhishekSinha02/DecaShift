@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-7-math-w25-wed",
+  "title": "Grade 7 Math — Wed, Jun 18",
+  "description": "Algebraic Expressions — Day 3 of 5: Subtraction; change of sign rule",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7m-w25-wed-001",
+      "question": "To subtract (3x − 5) from (7x + 2), the first step is:",
+      "options": ["Add 3x − 5 to 7x + 2", "Change the sign of each term in the expression being subtracted", "Multiply both expressions", "Divide both expressions by x"],
+      "correctIndex": 1,
+      "explanation": "When subtracting an expression, change the sign of EVERY term in the expression being subtracted. (3x − 5) becomes (−3x + 5)."
+    },
+    {
+      "id": "g7m-w25-wed-002",
+      "question": "Subtract (3x − 5) from (7x + 2).",
+      "options": ["4x + 7", "4x − 3", "10x − 3", "4x − 7"],
+      "correctIndex": 0,
+      "explanation": "(7x + 2) − (3x − 5) = 7x + 2 − 3x + 5 = 4x + 7."
+    },
+    {
+      "id": "g7m-w25-wed-003",
+      "question": "What is (5a + 3b) − (2a + b)?",
+      "options": ["3a + 2b", "3a + 4b", "7a + 4b", "3a − 2b"],
+      "correctIndex": 0,
+      "explanation": "(5a + 3b) − (2a + b) = 5a + 3b − 2a − b = 3a + 2b."
+    },
+    {
+      "id": "g7m-w25-wed-004",
+      "question": "Subtract (x² − 4x + 3) from (3x² + 2x − 1).",
+      "options": ["2x² + 6x − 4", "2x² − 6x + 4", "4x² − 2x + 2", "2x² + 6x + 2"],
+      "correctIndex": 0,
+      "explanation": "(3x² + 2x − 1) − (x² − 4x + 3) = 3x² + 2x − 1 − x² + 4x − 3 = 2x² + 6x − 4."
+    },
+    {
+      "id": "g7m-w25-wed-005",
+      "question": "What is −(2p − 3q)?",
+      "options": ["2p − 3q", "−2p − 3q", "−2p + 3q", "2p + 3q"],
+      "correctIndex": 2,
+      "explanation": "Applying the negative sign flips all signs: −(2p − 3q) = −2p + 3q."
+    },
+    {
+      "id": "g7m-w25-wed-006",
+      "question": "Subtract 3xy from 8xy.",
+      "options": ["5xy", "11xy", "5x²y²", "−5xy"],
+      "correctIndex": 0,
+      "explanation": "8xy − 3xy = (8 − 3)xy = 5xy."
+    },
+    {
+      "id": "g7m-w25-wed-007",
+      "question": "What is (4m² + 3m) − (4m² − 3m)?",
+      "options": ["8m²", "6m", "0", "8m² + 6m"],
+      "correctIndex": 1,
+      "explanation": "(4m² + 3m) − (4m² − 3m) = 4m² + 3m − 4m² + 3m = 6m."
+    },
+    {
+      "id": "g7m-w25-wed-008",
+      "question": "How much should be added to 3x + 2 to get 7x − 1?",
+      "options": ["4x + 3", "4x − 3", "10x + 1", "4x + 1"],
+      "correctIndex": 1,
+      "explanation": "Required expression = (7x − 1) − (3x + 2) = 7x − 1 − 3x − 2 = 4x − 3."
+    },
+    {
+      "id": "g7m-w25-wed-009",
+      "question": "Simplify: (6a − 4b + c) − (3a + b − 2c)",
+      "options": ["3a − 5b + 3c", "3a − 3b + 3c", "3a − 5b − c", "9a − 3b + c"],
+      "correctIndex": 0,
+      "explanation": "6a − 4b + c − 3a − b + 2c = (6a − 3a) + (−4b − b) + (c + 2c) = 3a − 5b + 3c."
+    },
+    {
+      "id": "g7m-w25-wed-010",
+      "question": "What is the expression for 'take away (x + 3) from (5x − 2)'?",
+      "options": ["5x − 2 − x − 3", "5x − 2 + x + 3", "5x − 2 − x + 3", "x + 3 − 5x + 2"],
+      "correctIndex": 0,
+      "explanation": "'Take away A from B' means B − A = (5x − 2) − (x + 3) = 5x − 2 − x − 3."
+    },
+    {
+      "id": "g7m-w25-wed-011",
+      "question": "Simplify: 5x − 2 − x − 3",
+      "options": ["4x − 5", "4x + 5", "6x − 5", "4x − 1"],
+      "correctIndex": 0,
+      "explanation": "(5x − x) + (−2 − 3) = 4x − 5."
+    },
+    {
+      "id": "g7m-w25-wed-012",
+      "question": "By how much does (3x² + 5) exceed (x² + 2x − 1)?",
+      "options": ["2x² − 2x + 6", "2x² + 2x + 6", "4x² + 2x + 4", "2x² − 2x − 6"],
+      "correctIndex": 0,
+      "explanation": "(3x² + 5) − (x² + 2x − 1) = 3x² + 5 − x² − 2x + 1 = 2x² − 2x + 6."
+    },
+    {
+      "id": "g7m-w25-wed-013",
+      "question": "What is −(−a + b − c)?",
+      "options": ["a + b + c", "−a − b + c", "a − b + c", "−a + b − c"],
+      "correctIndex": 2,
+      "explanation": "−(−a + b − c) = a − b + c. Each sign is flipped: −a→+a, +b→−b, −c→+c."
+    },
+    {
+      "id": "g7m-w25-wed-014",
+      "question": "Subtract (2p² − 3pq) from (5p² + pq).",
+      "options": ["3p² + 4pq", "7p² + 4pq", "3p² − 4pq", "3p² − 2pq"],
+      "correctIndex": 0,
+      "explanation": "(5p² + pq) − (2p² − 3pq) = 5p² + pq − 2p² + 3pq = 3p² + 4pq."
+    },
+    {
+      "id": "g7m-w25-wed-015",
+      "question": "If A = 3x + 2 and B = x − 1, find A − B.",
+      "options": ["2x + 3", "4x + 1", "2x − 3", "4x + 3"],
+      "correctIndex": 0,
+      "explanation": "A − B = (3x + 2) − (x − 1) = 3x + 2 − x + 1 = 2x + 3."
+    }
+  ]
+}

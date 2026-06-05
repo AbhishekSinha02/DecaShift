@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-7-french-w25-fri",
+  "title": "Grade 7 French — Fri, Jun 20",
+  "description": "L'imparfait — Day 5 of 5: Week review and mixed practice",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-7", "weekly"],
+  "conceptId": "limparfait",
+  "questions": [
+    {
+      "id": "g7f-w25-fri-001",
+      "question": "What is the imparfait stem of 'vouloir'? (nous voulons → stem: voul-)",
+      "options": ["voul-", "veul-", "vouloir-", "voud-"],
+      "correctIndex": 0,
+      "explanation": "Vouloir → nous voulons → remove -ons → stem: voul-. Full imparfait: je voulais, tu voulais, etc."
+    },
+    {
+      "id": "g7f-w25-fri-002",
+      "question": "Conjugate 'vouloir' in imparfait for 'il'.",
+      "options": ["il voulait", "il veut", "il voulait", "il voudrait"],
+      "correctIndex": 0,
+      "explanation": "voul- + -ait → il voulait (he wanted / he was wanting)."
+    },
+    {
+      "id": "g7f-w25-fri-003",
+      "question": "Translate: 'She used to cook every Sunday.' (cuisiner → cuisin-)",
+      "options": ["Elle a cuisiné chaque dimanche.", "Elle cuisinait chaque dimanche.", "Elle cuisinier chaque dimanche.", "Elle cuisine chaque dimanche."],
+      "correctIndex": 1,
+      "explanation": "Habitual past = imparfait. cuisin- + -ait → elle cuisinait. Chaque dimanche (every Sunday) = habitual signal."
+    },
+    {
+      "id": "g7f-w25-fri-004",
+      "question": "Which is the correct imparfait sentence?",
+      "options": ["Hier, je suis allé au cinéma.", "D'habitude, j'allais au cinéma le vendredi.", "Je vais au cinéma demain.", "Je suis en train d'aller au cinéma."],
+      "correctIndex": 1,
+      "explanation": "D'habitude (usually) = habitual signal → imparfait. J'allais = I used to go (imparfait)."
+    },
+    {
+      "id": "g7f-w25-fri-005",
+      "question": "Complete with the right tense: 'Pendant que je dormais, il ___ (arriver).'",
+      "options": ["arrivait", "est arrivé", "arrivera", "arrive"],
+      "correctIndex": 1,
+      "explanation": "Pendant que je dormais (while I was sleeping — imparfait background) + il est arrivé (he arrived — completed event, passé composé)."
+    },
+    {
+      "id": "g7f-w25-fri-006",
+      "question": "What does 'je pouvais' mean?",
+      "options": ["I can (present)", "I will be able to (future)", "I was able to / I could (imparfait)", "I could have (conditional)"],
+      "correctIndex": 2,
+      "explanation": "Pouvais is the imparfait of pouvoir (to be able to). Je pouvais = I was able to / I could (past ongoing ability)."
+    },
+    {
+      "id": "g7f-w25-fri-007",
+      "question": "Translate correctly: 'We were tired because we had walked a lot.' (être + marcher — both past states/actions)",
+      "options": ["Nous étions fatigués parce que nous avons beaucoup marché.", "Nous étions fatigués parce que nous marchions beaucoup.", "Nous avons été fatigués parce que nous avions marché.", "Nous étions fatigués parce que nous marchons beaucoup."],
+      "correctIndex": 0,
+      "explanation": "Nous étions (imparfait — ongoing state: we were tired) + nous avons marché (passé composé — completed cause: we walked a lot)."
+    },
+    {
+      "id": "g7f-w25-fri-008",
+      "question": "Identify the imparfait verb in: 'Quand il était petit, il aimait les dinosaures.'",
+      "options": ["était only", "aimait only", "Both étaient and aimait", "Neither — both are passé composé"],
+      "correctIndex": 2,
+      "explanation": "Both il était (he was) and il aimait (he liked) are imparfait — both describe ongoing past states when he was small."
+    },
+    {
+      "id": "g7f-w25-fri-009",
+      "question": "Translate: 'I knew (savoir) that he was lying.' (both ongoing states)",
+      "options": ["J'ai su qu'il mentait.", "Je savais qu'il mentait.", "Je savais qu'il a menti.", "J'ai su qu'il a menti."],
+      "correctIndex": 1,
+      "explanation": "Both are ongoing mental/action states: je savais (I knew — imparfait) + il mentait (he was lying — imparfait)."
+    },
+    {
+      "id": "g7f-w25-fri-010",
+      "question": "Which sentence shows the CONTRAST between imparfait and passé composé?",
+      "options": ["J'ai mangé et j'ai bu.", "Je mangeais quand le chat est entré.", "Je mange et je bois.", "Je mangerai quand tu arriveras."],
+      "correctIndex": 1,
+      "explanation": "Je mangeais (I was eating — ongoing imparfait) quand le chat est entré (when the cat entered — passé composé). Classic background + event contrast."
+    },
+    {
+      "id": "g7f-w25-fri-011",
+      "question": "How do you say 'The sky was blue and the sun was shining'? (description of a past scene)",
+      "options": ["Le ciel était bleu et le soleil brillait.", "Le ciel a été bleu et le soleil a brillé.", "Le ciel est bleu et le soleil brille.", "Le ciel sera bleu et le soleil brillera."],
+      "correctIndex": 0,
+      "explanation": "Descriptive past scene = imparfait. Était (was) + brillait (was shining) — both imparfait to set the scene."
+    },
+    {
+      "id": "g7f-w25-fri-012",
+      "question": "What is the imparfait of 'savoir' for 'tu'? (nous savons → stem: sav-)",
+      "options": ["tu savais", "tu sait", "tu savait", "tu sauras"],
+      "correctIndex": 0,
+      "explanation": "sav- + -ais → tu savais (you knew / you used to know)."
+    },
+    {
+      "id": "g7f-w25-fri-013",
+      "question": "Which sentence is grammatically correct in imparfait?",
+      "options": ["Nous étiont très contents.", "Vous étiais fatigués.", "Ils étaient en retard.", "Tu étiez prêt."],
+      "correctIndex": 2,
+      "explanation": "Ils étaient en retard = They were late. (ét- + -aient). Option A: wrong ending (-ont), B: wrong form (-iais), D: vous form used with tu."
+    },
+    {
+      "id": "g7f-w25-fri-014",
+      "question": "Translate: 'Every morning, they were drinking coffee.' (boire → buvaient)",
+      "options": ["Tous les matins, ils ont bu du café.", "Tous les matins, ils buvaient du café.", "Tous les matins, ils boivent du café.", "Tous les matins, ils boiront du café."],
+      "correctIndex": 1,
+      "explanation": "Habitual past (tous les matins = every morning) → imparfait. Ils buvaient = they were drinking / they used to drink."
+    },
+    {
+      "id": "g7f-w25-fri-015",
+      "question": "Complete the story: 'C'était une belle journée. Le soleil ___ (briller) et les enfants ___ (jouer) dans le jardin.'",
+      "options": ["a brillé / ont joué", "brillait / jouaient", "brillera / joueront", "brille / jouent"],
+      "correctIndex": 1,
+      "explanation": "Setting a past scene with ongoing actions = imparfait. Brillait (was shining) + jouaient (were playing). Both imparfait for descriptive past scene."
+    }
+  ]
+}

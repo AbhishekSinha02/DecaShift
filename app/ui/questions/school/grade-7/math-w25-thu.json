@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-7-math-w25-thu",
+  "title": "Grade 7 Math — Thu, Jun 19",
+  "description": "Algebraic Expressions — Day 4 of 5: Multiplication of algebraic expressions",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7m-w25-thu-001",
+      "question": "Multiply: 3x × 4x",
+      "options": ["12x", "12x²", "7x", "7x²"],
+      "correctIndex": 1,
+      "explanation": "3x × 4x = (3 × 4)(x × x) = 12x². Multiply coefficients and add powers: x¹ × x¹ = x²."
+    },
+    {
+      "id": "g7m-w25-thu-002",
+      "question": "What is 5a × 3b?",
+      "options": ["8ab", "15ab", "15a²b²", "8a²b²"],
+      "correctIndex": 1,
+      "explanation": "5a × 3b = (5 × 3)(a × b) = 15ab."
+    },
+    {
+      "id": "g7m-w25-thu-003",
+      "question": "Multiply the monomials: 2x² × 3x³",
+      "options": ["6x⁵", "6x⁶", "5x⁵", "6x"],
+      "correctIndex": 0,
+      "explanation": "2x² × 3x³ = (2 × 3)(x² × x³) = 6x^(2+3) = 6x⁵."
+    },
+    {
+      "id": "g7m-w25-thu-004",
+      "question": "Expand: 2(3x + 4)",
+      "options": ["6x + 4", "6x + 8", "5x + 6", "6x − 8"],
+      "correctIndex": 1,
+      "explanation": "Distribute 2 over each term: 2 × 3x + 2 × 4 = 6x + 8."
+    },
+    {
+      "id": "g7m-w25-thu-005",
+      "question": "Expand: 3a(a − 2b)",
+      "options": ["3a² − 6ab", "3a² − 2ab", "3a² + 6ab", "a² − 6ab"],
+      "correctIndex": 0,
+      "explanation": "3a × a = 3a² and 3a × (−2b) = −6ab. So 3a(a − 2b) = 3a² − 6ab."
+    },
+    {
+      "id": "g7m-w25-thu-006",
+      "question": "What is −2x(3x − 5)?",
+      "options": ["−6x² + 10x", "−6x² − 10x", "6x² − 10x", "−6x + 10x"],
+      "correctIndex": 0,
+      "explanation": "−2x × 3x = −6x² and −2x × (−5) = +10x. So −2x(3x − 5) = −6x² + 10x."
+    },
+    {
+      "id": "g7m-w25-thu-007",
+      "question": "Expand and simplify: 2(x + 3) + 3(x − 1)",
+      "options": ["5x + 3", "5x + 9", "5x − 3", "5x + 7"],
+      "correctIndex": 0,
+      "explanation": "2x + 6 + 3x − 3 = 5x + 3."
+    },
+    {
+      "id": "g7m-w25-thu-008",
+      "question": "Using the identity (a + b)² = a² + 2ab + b², expand (x + 3)².",
+      "options": ["x² + 9", "x² + 6x + 9", "x² + 3x + 9", "x² + 6x + 6"],
+      "correctIndex": 1,
+      "explanation": "(x + 3)² = x² + 2(x)(3) + 3² = x² + 6x + 9."
+    },
+    {
+      "id": "g7m-w25-thu-009",
+      "question": "What is 4xy × (2x − 3y)?",
+      "options": ["8x²y − 12xy²", "8x²y + 12xy²", "6x²y − 7xy²", "8xy − 12xy"],
+      "correctIndex": 0,
+      "explanation": "4xy × 2x = 8x²y and 4xy × (−3y) = −12xy². Result: 8x²y − 12xy²."
+    },
+    {
+      "id": "g7m-w25-thu-010",
+      "question": "Which law governs: x² × x³ = x⁵?",
+      "options": ["Power rule", "Product rule of exponents", "Quotient rule", "Distributive law"],
+      "correctIndex": 1,
+      "explanation": "The product rule states a^m × a^n = a^(m+n). So x² × x³ = x^(2+3) = x⁵."
+    },
+    {
+      "id": "g7m-w25-thu-011",
+      "question": "Expand: (2x)(3x + y − 1)",
+      "options": ["6x² + 2xy − 2x", "6x² + 2xy + 2x", "5x² + 2xy − 2x", "6x² − 2xy − 2x"],
+      "correctIndex": 0,
+      "explanation": "2x × 3x = 6x², 2x × y = 2xy, 2x × (−1) = −2x. Result: 6x² + 2xy − 2x."
+    },
+    {
+      "id": "g7m-w25-thu-012",
+      "question": "What is (−3)² × a²?",
+      "options": ["9a²", "−9a²", "6a²", "−6a²"],
+      "correctIndex": 0,
+      "explanation": "(−3)² = 9 (negative × negative = positive). So (−3)² × a² = 9a²."
+    },
+    {
+      "id": "g7m-w25-thu-013",
+      "question": "Expand and simplify: 5(2a − 3) − 2(a + 4)",
+      "options": ["8a − 23", "8a + 23", "8a − 7", "8a + 7"],
+      "correctIndex": 0,
+      "explanation": "10a − 15 − 2a − 8 = 8a − 23."
+    },
+    {
+      "id": "g7m-w25-thu-014",
+      "question": "What is the product of (3x)(4x)(2)?",
+      "options": ["24x", "24x²", "9x²", "24x³"],
+      "correctIndex": 1,
+      "explanation": "3 × 4 × 2 = 24 and x × x = x². Product = 24x²."
+    },
+    {
+      "id": "g7m-w25-thu-015",
+      "question": "Using (a + b)² = a² + 2ab + b², what is (2x + 5)²?",
+      "options": ["4x² + 25", "4x² + 20x + 25", "4x² + 10x + 25", "4x² − 20x + 25"],
+      "correctIndex": 1,
+      "explanation": "(2x + 5)² = (2x)² + 2(2x)(5) + 5² = 4x² + 20x + 25."
+    }
+  ]
+}

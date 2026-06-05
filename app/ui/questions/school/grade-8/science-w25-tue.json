@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-8-science-w25-tue",
+  "title": "Grade 8 Science — Tue, Jun 17",
+  "description": "Coal and Petroleum — Day 2 of 5: Uses of coal — coke, coal tar, coal gas",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8s-w25-tue-001",
+      "question": "When coal is processed (destructive distillation), which three major products are obtained?",
+      "options": ["Petrol, diesel, and kerosene", "Coke, coal tar, and coal gas", "Charcoal, methane, and tar", "Carbon, hydrogen, and nitrogen"],
+      "correctIndex": 1,
+      "explanation": "Destructive distillation of coal yields three main products: Coke (solid), Coal tar (thick black liquid), and Coal gas (gaseous mixture)."
+    },
+    {
+      "id": "g8s-w25-tue-002",
+      "question": "Coke is produced from coal and is used primarily for:",
+      "options": ["Cooking fuel in homes", "Making steel (reduction of iron ore in blast furnaces)", "Generating electricity", "Making plastics"],
+      "correctIndex": 1,
+      "explanation": "Coke is a hard porous carbon fuel used in blast furnaces to smelt iron ore into iron and steel. It burns at very high temperatures."
+    },
+    {
+      "id": "g8s-w25-tue-003",
+      "question": "Coal tar is a thick, dark liquid. Which useful material obtained from coal tar is used to surface roads?",
+      "options": ["Ammonia", "Benzene", "Bitumen (asphalt)", "Naphthalene"],
+      "correctIndex": 2,
+      "explanation": "Bitumen (asphalt) is obtained from coal tar and is used to surface roads and waterproof structures."
+    },
+    {
+      "id": "g8s-w25-tue-004",
+      "question": "Coal gas is used as:",
+      "options": ["A fuel for cooking and heating (historically)", "A raw material for making plastics", "A refrigerant", "A dye for fabrics"],
+      "correctIndex": 0,
+      "explanation": "Coal gas (mixture of hydrogen, methane, and carbon monoxide) was historically used as a fuel for cooking, heating, and street lighting before natural gas became available."
+    },
+    {
+      "id": "g8s-w25-tue-005",
+      "question": "Naphthalene balls (used to repel insects) are made from:",
+      "options": ["Petroleum", "Coal tar", "Natural gas", "Charcoal"],
+      "correctIndex": 1,
+      "explanation": "Naphthalene is a product derived from coal tar. It is used to make mothballs/naphthalene balls that repel insects."
+    },
+    {
+      "id": "g8s-w25-tue-006",
+      "question": "Which of the following is NOT a product obtained from coal tar?",
+      "options": ["Synthetic dyes", "Perfumes", "Diesel fuel", "Explosives"],
+      "correctIndex": 2,
+      "explanation": "Diesel is obtained from petroleum refining, not coal tar. Coal tar products include synthetic dyes, perfumes, pesticides, explosives, and naphthalene."
+    },
+    {
+      "id": "g8s-w25-tue-007",
+      "question": "Before the discovery of synthetic dyes, what was used to dye fabrics?",
+      "options": ["Coal gas", "Petroleum products", "Natural plant dyes and minerals", "Coal tar products only"],
+      "correctIndex": 2,
+      "explanation": "Before coal tar-based synthetic dyes were discovered (mid-1800s), fabrics were dyed using natural plant-based dyes (indigo, madder) and mineral dyes."
+    },
+    {
+      "id": "g8s-w25-tue-008",
+      "question": "Coke is different from charcoal because:",
+      "options": ["Coke is made from wood; charcoal from coal", "Coke is made from coal; charcoal is made from wood", "Both are exactly the same", "Coke is a liquid; charcoal is a gas"],
+      "correctIndex": 1,
+      "explanation": "Coke is made from coal (by destructive distillation). Charcoal is made from wood (by burning in limited air). Both are forms of nearly pure carbon."
+    },
+    {
+      "id": "g8s-w25-tue-009",
+      "question": "The process of heating coal in the absence of air to produce coke is called:",
+      "options": ["Combustion", "Fractional distillation", "Destructive distillation", "Calcination"],
+      "correctIndex": 2,
+      "explanation": "Destructive distillation = heating coal in the absence of air. This produces coke, coal tar, and coal gas as products."
+    },
+    {
+      "id": "g8s-w25-tue-010",
+      "question": "Which product of coal is used in the manufacturing of synthetic fibres, medicines, dyes, and explosives?",
+      "options": ["Coke", "Coal gas", "Coal tar", "Anthracite"],
+      "correctIndex": 2,
+      "explanation": "Coal tar is a rich source of organic compounds used as raw materials for making synthetic fibres, medicines, dyes, pesticides, and explosives."
+    },
+    {
+      "id": "g8s-w25-tue-011",
+      "question": "Coal gas was first used for street lighting in:",
+      "options": ["India (Mumbai 1820)", "London (early 1800s)", "USA (1900)", "France (1750)"],
+      "correctIndex": 1,
+      "explanation": "Coal gas was first used for street lighting in London in the early 1800s, replacing oil lamps."
+    },
+    {
+      "id": "g8s-w25-tue-012",
+      "question": "Why is coke preferred over coal in blast furnaces for iron smelting?",
+      "options": ["Coke is cheaper than coal", "Coke burns at higher temperatures and produces less smoke than coal", "Coke contains iron itself", "Coke is easier to transport"],
+      "correctIndex": 1,
+      "explanation": "Coke burns more efficiently at higher temperatures with less smoke and impurities than coal, making it ideal for high-temperature smelting in blast furnaces."
+    },
+    {
+      "id": "g8s-w25-tue-013",
+      "question": "Which of the following comes from coal tar and is used as a medicine/antiseptic?",
+      "options": ["Aspirin", "Carbolic acid (phenol)", "Penicillin", "Paracetamol"],
+      "correctIndex": 1,
+      "explanation": "Carbolic acid (phenol) was one of the first antiseptics, derived from coal tar. It was used by Joseph Lister in surgery."
+    },
+    {
+      "id": "g8s-w25-tue-014",
+      "question": "What environmental problem is caused by burning large amounts of coal?",
+      "options": ["Water scarcity", "Air pollution (SO₂, CO₂, particulate matter), acid rain, and global warming", "Soil erosion only", "Noise pollution"],
+      "correctIndex": 1,
+      "explanation": "Burning coal releases SO₂ (causes acid rain), CO₂ (global warming), and particulate matter (air pollution). Coal burning is a major environmental concern."
+    },
+    {
+      "id": "g8s-w25-tue-015",
+      "question": "Which is the correct order of coal processing to get its three main products?",
+      "options": ["Coal → fractional distillation → petrol + diesel + kerosene", "Coal → destructive distillation → coke + coal tar + coal gas", "Coal → refining → anthracite + lignite + peat", "Coal → combustion → CO₂ + H₂O"],
+      "correctIndex": 1,
+      "explanation": "Coal undergoes destructive distillation (heating without air) to yield: Coke (solid carbon), Coal tar (liquid), and Coal gas (gaseous mixture)."
+    }
+  ]
+}

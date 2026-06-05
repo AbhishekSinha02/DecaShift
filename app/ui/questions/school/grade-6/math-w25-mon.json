@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w25-mon",
+  "title": "Grade 6 Math — Mon, Jun 16",
+  "description": "Triangles — Day 1 of 5: Types of triangles by sides",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-6", "weekly", "triangles", "geometry"],
+  "questions": [
+    { "id": "g6m-w25-mon-001", "question": "An equilateral triangle has ___ equal sides.", "options": ["1", "2", "3", "0"], "correctIndex": 2, "explanation": "An equilateral triangle has all three sides equal in length.", "tags": ["equilateral"] },
+    { "id": "g6m-w25-mon-002", "question": "A triangle with exactly two equal sides is called ___.", "options": ["Scalene", "Equilateral", "Isosceles", "Right-angled"], "correctIndex": 2, "explanation": "An isosceles triangle has exactly two equal sides.", "tags": ["isosceles"] },
+    { "id": "g6m-w25-mon-003", "question": "A scalene triangle has ___.", "options": ["All three sides equal", "Two sides equal", "No two sides equal", "One right angle"], "correctIndex": 2, "explanation": "A scalene triangle has all three sides of different lengths — no two sides are equal.", "tags": ["scalene"] },
+    { "id": "g6m-w25-mon-004", "question": "A triangle with sides 5 cm, 5 cm, 5 cm is ___.", "options": ["Scalene", "Isosceles", "Equilateral", "Right-angled"], "correctIndex": 2, "explanation": "All three sides are equal → equilateral triangle.", "tags": ["equilateral"] },
+    { "id": "g6m-w25-mon-005", "question": "A triangle with sides 3 cm, 3 cm, 5 cm is ___.", "options": ["Equilateral", "Scalene", "Isosceles", "Obtuse"], "correctIndex": 2, "explanation": "Two sides are equal (3 cm, 3 cm) → isosceles triangle.", "tags": ["isosceles"] },
+    { "id": "g6m-w25-mon-006", "question": "A triangle with sides 4 cm, 6 cm, 9 cm is ___.", "options": ["Equilateral", "Isosceles", "Scalene", "Right-angled"], "correctIndex": 2, "explanation": "All three sides are different (4, 6, 9) → scalene triangle.", "tags": ["scalene"] },
+    { "id": "g6m-w25-mon-007", "question": "All angles of an equilateral triangle are equal to ___.", "options": ["45°", "90°", "60°", "30°"], "correctIndex": 2, "explanation": "In an equilateral triangle all three angles are equal. Since they must sum to 180°, each angle = 60°.", "tags": ["equilateral"] },
+    { "id": "g6m-w25-mon-008", "question": "The base angles of an isosceles triangle are ___.", "options": ["Both 90°", "Unequal", "Equal", "Both 60°"], "correctIndex": 2, "explanation": "In an isosceles triangle the two angles opposite the equal sides (base angles) are always equal.", "tags": ["isosceles"] },
+    { "id": "g6m-w25-mon-009", "question": "Which statement is TRUE about a scalene triangle?", "options": ["It has at least two equal sides", "All angles are equal", "No two sides are equal", "All sides are equal"], "correctIndex": 2, "explanation": "A scalene triangle has all sides of different lengths — no two sides are equal.", "tags": ["scalene"] },
+    { "id": "g6m-w25-mon-010", "question": "How many lines of symmetry does an equilateral triangle have?", "options": ["0", "1", "2", "3"], "correctIndex": 3, "explanation": "An equilateral triangle has 3 lines of symmetry — one from each vertex to the midpoint of the opposite side.", "tags": ["equilateral", "symmetry"] },
+    { "id": "g6m-w25-mon-011", "question": "An isosceles triangle has ___ line(s) of symmetry.", "options": ["0", "1", "2", "3"], "correctIndex": 1, "explanation": "An isosceles triangle has exactly 1 line of symmetry — the perpendicular from the apex to the base.", "tags": ["isosceles", "symmetry"] },
+    { "id": "g6m-w25-mon-012", "question": "Which triangle has NO lines of symmetry?", "options": ["Equilateral", "Isosceles", "Scalene", "Right isosceles"], "correctIndex": 2, "explanation": "A scalene triangle has all sides different and no equal angles, so it has no lines of symmetry.", "tags": ["scalene", "symmetry"] },
+    { "id": "g6m-w25-mon-013", "question": "A triangle has sides 5 cm, 12 cm, 13 cm. What type is it by sides?", "options": ["Equilateral", "Isosceles", "Scalene", "Cannot be determined"], "correctIndex": 2, "explanation": "All three sides are different (5, 12, 13) → scalene triangle.", "tags": ["scalene"] },
+    { "id": "g6m-w25-mon-014", "question": "Ravi draws a triangle with sides 6 cm, 6 cm, and 8 cm. What type is it?", "options": ["Scalene", "Equilateral", "Isosceles", "Obtuse"], "correctIndex": 2, "explanation": "Two sides are equal (6 cm, 6 cm) → isosceles triangle.", "tags": ["isosceles"] },
+    { "id": "g6m-w25-mon-015", "question": "Which classification is correct for a triangle with sides 7 cm, 7 cm, 7 cm?", "options": ["Scalene only", "Isosceles only", "Equilateral (also isosceles)", "Right-angled"], "correctIndex": 2, "explanation": "All sides equal → equilateral. An equilateral triangle is also technically isosceles (it has at least two equal sides).", "tags": ["equilateral"] }
+  ]
+}

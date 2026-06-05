@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-6-french-w25-wed",
+  "title": "Grade 6 French — Wed, Jun 18",
+  "description": "La nourriture — Day 3 of 5: Preferences with J'aime / Je n'aime pas",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-6", "weekly"],
+  "conceptId": "la-nourriture",
+  "questions": [
+    {
+      "id": "g6f-w25-wed-001",
+      "question": "How do you say 'I love chocolate' in French?",
+      "options": ["J'aime le chocolat.", "J'adore le chocolat.", "Je déteste le chocolat.", "Je préfère le chocolat."],
+      "correctIndex": 1,
+      "explanation": "J'adore means 'I love' (stronger than j'aime = I like). J'adore le chocolat = I love chocolate."
+    },
+    {
+      "id": "g6f-w25-wed-002",
+      "question": "Which sentence means 'I don't like fish'?",
+      "options": ["J'aime le poisson.", "Je n'aime pas le poisson.", "J'adore le poisson.", "Je préfère le poisson."],
+      "correctIndex": 1,
+      "explanation": "Je n'aime pas means 'I don't like'. Je n'aime pas le poisson = I don't like fish."
+    },
+    {
+      "id": "g6f-w25-wed-003",
+      "question": "After 'j'aime', 'j'adore', 'je déteste', which article is used with food nouns?",
+      "options": ["Partitive (du/de la/des)", "Definite (le/la/les)", "Indefinite (un/une/des)", "No article"],
+      "correctIndex": 1,
+      "explanation": "With verbs of preference (aimer, adorer, détester, préférer), use the definite article (le/la/les). Example: J'aime le riz, Je déteste les épinards."
+    },
+    {
+      "id": "g6f-w25-wed-004",
+      "question": "How do you say 'I hate spinach' in French?",
+      "options": ["J'aime les épinards.", "J'adore les épinards.", "Je déteste les épinards.", "Je mange les épinards."],
+      "correctIndex": 2,
+      "explanation": "Je déteste means 'I hate'. Les épinards = spinach (plural). Je déteste les épinards = I hate spinach."
+    },
+    {
+      "id": "g6f-w25-wed-005",
+      "question": "Which word is the STRONGEST positive preference?",
+      "options": ["J'aime bien", "J'aime", "J'adore", "Je préfère"],
+      "correctIndex": 2,
+      "explanation": "The scale from weak to strong: Je n'aime pas → J'aime bien → J'aime → J'adore. J'adore expresses the strongest liking."
+    },
+    {
+      "id": "g6f-w25-wed-006",
+      "question": "Complete the sentence: '___ les pâtes.' (I like pasta.)",
+      "options": ["Je mange", "Je déteste", "J'aime", "Je voudrais"],
+      "correctIndex": 2,
+      "explanation": "J'aime les pâtes = I like pasta. J'aime is the correct verb for 'I like'."
+    },
+    {
+      "id": "g6f-w25-wed-007",
+      "question": "How do you say 'I prefer vegetables to meat'?",
+      "options": ["Je préfère les légumes à la viande.", "J'aime les légumes la viande.", "Je mange les légumes avant la viande.", "Je déteste la viande avec les légumes."],
+      "correctIndex": 0,
+      "explanation": "Je préfère X à Y means 'I prefer X to Y'. Je préfère les légumes à la viande = I prefer vegetables to meat."
+    },
+    {
+      "id": "g6f-w25-wed-008",
+      "question": "Which sentence is correct? (I like apples.)",
+      "options": ["J'aime des pommes.", "J'aime du pomme.", "J'aime les pommes.", "J'aime une pomme."],
+      "correctIndex": 2,
+      "explanation": "With preference verbs, use the definite article. Les pommes (apples) = plural definite. J'aime les pommes = I like apples."
+    },
+    {
+      "id": "g6f-w25-wed-009",
+      "question": "What does 'je n'aime pas du tout' mean?",
+      "options": ["I like a lot", "I don't like at all", "I like a little", "I prefer"],
+      "correctIndex": 1,
+      "explanation": "Du tout means 'at all'. Je n'aime pas du tout = I don't like at all. It is a strong negative."
+    },
+    {
+      "id": "g6f-w25-wed-010",
+      "question": "How would you ask a friend 'Do you like fruit?' in French?",
+      "options": ["Tu aimes les fruits?", "Tu manges les fruits?", "Tu détestes les fruits?", "Tu veux les fruits?"],
+      "correctIndex": 0,
+      "explanation": "Tu aimes les fruits? = Do you like fruit? Aimer + definite article is used for preferences."
+    },
+    {
+      "id": "g6f-w25-wed-011",
+      "question": "Which sentence means 'She loves pizza'?",
+      "options": ["Elle aime bien la pizza.", "Elle adore la pizza.", "Elle n'aime pas la pizza.", "Elle mange la pizza."],
+      "correctIndex": 1,
+      "explanation": "Elle adore la pizza = She loves pizza. Adorer expresses strong love/liking."
+    },
+    {
+      "id": "g6f-w25-wed-012",
+      "question": "How do you say 'I like neither meat nor fish'?",
+      "options": ["Je n'aime pas la viande et le poisson.", "Je n'aime ni la viande ni le poisson.", "Je déteste la viande et le poisson.", "Je ne veux pas la viande ni le poisson."],
+      "correctIndex": 1,
+      "explanation": "Ni… ni… means 'neither… nor…'. Je n'aime ni la viande ni le poisson = I like neither meat nor fish."
+    },
+    {
+      "id": "g6f-w25-wed-013",
+      "question": "What does 'j'aime bien' mean compared to 'j'aime'?",
+      "options": ["It is stronger than j'aime", "It is weaker than j'aime", "It means the same as j'aime", "It means I hate"],
+      "correctIndex": 1,
+      "explanation": "J'aime bien means 'I quite like / I like well enough'. It is a softer, slightly weaker form of j'aime."
+    },
+    {
+      "id": "g6f-w25-wed-014",
+      "question": "Which correctly says 'We like vegetables'?",
+      "options": ["Nous aimons du légume.", "Nous aimons les légumes.", "Nous aimons des légumes.", "Nous aimons la légume."],
+      "correctIndex": 1,
+      "explanation": "Nous aimons les légumes = We like vegetables. Use the definite plural article 'les' with preference verbs."
+    },
+    {
+      "id": "g6f-w25-wed-015",
+      "question": "Translate: 'They hate carrots.'",
+      "options": ["Ils adorent les carottes.", "Ils aiment les carottes.", "Ils détestent les carottes.", "Ils mangent les carottes."],
+      "correctIndex": 2,
+      "explanation": "Détester = to hate. Ils détestent les carottes = They hate carrots. Les carottes uses the definite article after détester."
+    }
+  ]
+}

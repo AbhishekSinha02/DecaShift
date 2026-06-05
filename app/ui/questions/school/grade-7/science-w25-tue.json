@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-7-science-w25-tue",
+  "title": "Grade 7 Science — Tue, Jun 17",
+  "description": "Nutrition in Plants — Day 2 of 5: Conditions for photosynthesis; stomata and roots",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7s-w25-tue-001",
+      "question": "Which of the following is NOT one of the four conditions required for photosynthesis?",
+      "options": ["Chlorophyll", "Sunlight", "Oxygen", "Carbon dioxide"],
+      "correctIndex": 2,
+      "explanation": "The four conditions for photosynthesis are: chlorophyll, sunlight, CO₂, and water. Oxygen is a product, not a condition."
+    },
+    {
+      "id": "g7s-w25-tue-002",
+      "question": "Through which tiny pores does CO₂ enter the leaf?",
+      "options": ["Root hairs", "Stomata", "Veins", "Lenticels"],
+      "correctIndex": 1,
+      "explanation": "Stomata (singular: stoma) are tiny pores mainly on the underside of leaves through which CO₂ enters and O₂ exits."
+    },
+    {
+      "id": "g7s-w25-tue-003",
+      "question": "What are guard cells?",
+      "options": ["Cells that store glucose", "Cells that surround and control stomata opening/closing", "Cells that produce chlorophyll", "Cells in roots that absorb water"],
+      "correctIndex": 1,
+      "explanation": "Guard cells are special bean-shaped cells that surround each stoma and control its opening and closing."
+    },
+    {
+      "id": "g7s-w25-tue-004",
+      "question": "Stomata open during the day to allow CO₂ in. They usually close at:",
+      "options": ["Midday", "Evening/night", "Morning only", "Whenever it rains"],
+      "correctIndex": 1,
+      "explanation": "Stomata generally open in the presence of light (daytime) for photosynthesis and close at night to reduce water loss."
+    },
+    {
+      "id": "g7s-w25-tue-005",
+      "question": "How do roots help in photosynthesis?",
+      "options": ["Roots absorb CO₂ from soil", "Roots absorb water from soil, which is used in photosynthesis", "Roots store glucose", "Roots absorb sunlight"],
+      "correctIndex": 1,
+      "explanation": "Roots absorb water and minerals from the soil. This water is transported to the leaves and used as a raw material in photosynthesis."
+    },
+    {
+      "id": "g7s-w25-tue-006",
+      "question": "What is the role of water in photosynthesis?",
+      "options": ["It absorbs sunlight", "It is split to release oxygen and provide hydrogen for glucose", "It dissolves CO₂", "It carries oxygen to the roots"],
+      "correctIndex": 1,
+      "explanation": "Water is split during the light reactions of photosynthesis, releasing oxygen and providing hydrogen atoms used to make glucose."
+    },
+    {
+      "id": "g7s-w25-tue-007",
+      "question": "Which part of the plant transports water from roots to leaves?",
+      "options": ["Phloem", "Xylem", "Stomata", "Cortex"],
+      "correctIndex": 1,
+      "explanation": "Xylem vessels transport water and dissolved minerals upward from roots to stems and leaves."
+    },
+    {
+      "id": "g7s-w25-tue-008",
+      "question": "A plant is kept in a dark room for 48 hours. What happens to photosynthesis?",
+      "options": ["It increases", "It stops completely (no light available)", "It continues at night using stored light", "It switches to using O₂ instead"],
+      "correctIndex": 1,
+      "explanation": "Photosynthesis requires light energy. Without light, the process stops. Plants in complete darkness cannot perform photosynthesis."
+    },
+    {
+      "id": "g7s-w25-tue-009",
+      "question": "If all stomata on a leaf are blocked, what will happen to photosynthesis?",
+      "options": ["It will increase as the leaf retains more water", "It will slow down or stop as CO₂ cannot enter", "There will be no effect", "The leaf will absorb CO₂ through roots instead"],
+      "correctIndex": 1,
+      "explanation": "If stomata are blocked, CO₂ cannot enter the leaf, so photosynthesis will slow down or stop."
+    },
+    {
+      "id": "g7s-w25-tue-010",
+      "question": "The process by which water evaporates from leaves through stomata is called:",
+      "options": ["Photosynthesis", "Transpiration", "Respiration", "Absorption"],
+      "correctIndex": 1,
+      "explanation": "Transpiration is the loss of water vapour from plant leaves (mainly through stomata). It also helps in water transport through the plant."
+    },
+    {
+      "id": "g7s-w25-tue-011",
+      "question": "Which mineral absorbed by roots is needed to make chlorophyll?",
+      "options": ["Calcium", "Phosphorus", "Magnesium", "Potassium"],
+      "correctIndex": 2,
+      "explanation": "Magnesium is a key component of chlorophyll molecules. Without adequate magnesium, leaves turn yellow (chlorosis)."
+    },
+    {
+      "id": "g7s-w25-tue-012",
+      "question": "Why do plants need nitrogen (absorbed through roots)?",
+      "options": ["To make chlorophyll", "To make proteins and DNA", "To produce glucose", "To absorb sunlight"],
+      "correctIndex": 1,
+      "explanation": "Nitrogen is essential for making proteins, enzymes, and DNA. Plants absorb nitrogen as nitrates through their roots."
+    },
+    {
+      "id": "g7s-w25-tue-013",
+      "question": "A starch test (iodine test) is used to confirm photosynthesis. Iodine turns ___ in the presence of starch.",
+      "options": ["Orange", "Blue-black", "Red", "Yellow"],
+      "correctIndex": 1,
+      "explanation": "Iodine solution turns blue-black in the presence of starch. If a leaf has been photosynthesising, the iodine test will turn blue-black."
+    },
+    {
+      "id": "g7s-w25-tue-014",
+      "question": "Which experiment proves that CO₂ is required for photosynthesis?",
+      "options": ["Keeping a plant in dark and light", "Using a variegated leaf", "Covering one half of a leaf with black paper", "Placing a plant in a CO₂-free atmosphere and checking for starch"],
+      "correctIndex": 3,
+      "explanation": "If a plant is placed in a CO₂-free atmosphere and no starch forms in the leaves, it proves CO₂ is essential for photosynthesis."
+    },
+    {
+      "id": "g7s-w25-tue-015",
+      "question": "What does variegation in leaves tell us about photosynthesis?",
+      "options": ["Photosynthesis occurs everywhere in the leaf equally", "Only green parts (with chlorophyll) perform photosynthesis", "White parts photosynthesize faster", "Variegated leaves do not transpire"],
+      "correctIndex": 1,
+      "explanation": "In variegated leaves, only the green parts (with chlorophyll) test positive for starch, proving chlorophyll is necessary for photosynthesis."
+    }
+  ]
+}

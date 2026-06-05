@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-8-french-w25-thu",
+  "title": "Grade 8 French — Thu, Jun 19",
+  "description": "Le futur simple — Day 4 of 5: Futur simple vs conditionnel présent; predictions vs hypotheticals",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-8", "weekly"],
+  "conceptId": "futur-simple",
+  "questions": [
+    {
+      "id": "g8f-w25-thu-001",
+      "question": "The conditionnel présent uses the same STEM as the futur simple but different endings. What are the conditionnel endings?",
+      "options": ["-ai, -as, -a, -ons, -ez, -ont (futur endings)", "-ais, -ais, -ait, -ions, -iez, -aient (imperfect endings)", "-e, -es, -e, -ons, -ez, -ent (present endings)", "-ai, -ais, -ait, -ons, -ez, -ont (mixed)"],
+      "correctIndex": 1,
+      "explanation": "Conditionnel présent = futur stem + imperfect endings: -ais/-ais/-ait/-ions/-iez/-aient. Same STEM as futur, different ENDINGS."
+    },
+    {
+      "id": "g8f-w25-thu-002",
+      "question": "Compare: 'je parlerai' vs 'je parlerais'. What is the difference?",
+      "options": ["No difference — both mean 'I will speak'", "parlerai = futur simple (I will speak); parlerais = conditionnel (I would speak)", "parlerai = past; parlerais = present", "parlerai = polite; parlerais = informal"],
+      "correctIndex": 1,
+      "explanation": "parlerai (futur: -ai ending) = I WILL speak. parlerais (conditionnel: -ais ending) = I WOULD speak. The extra -s marks the conditionnel."
+    },
+    {
+      "id": "g8f-w25-thu-003",
+      "question": "When do we use the futur simple?",
+      "options": ["For wishes, polite requests, and hypotheticals", "For definite future plans and predictions about what WILL happen", "For past habits", "For descriptions of the past"],
+      "correctIndex": 1,
+      "explanation": "Futur simple = what WILL happen (certain future, predictions, plans). Example: 'Il pleuvra demain.' (It will rain tomorrow.)"
+    },
+    {
+      "id": "g8f-w25-thu-004",
+      "question": "When do we use the conditionnel présent?",
+      "options": ["For certain future events", "For hypotheticals, polite requests, and what WOULD happen (if something else happened)", "For past completed actions", "For ongoing past actions"],
+      "correctIndex": 1,
+      "explanation": "Conditionnel présent = what WOULD happen. Used for hypotheticals (si + imperfect → conditionnel), polite requests, and unconfirmed news."
+    },
+    {
+      "id": "g8f-w25-thu-005",
+      "question": "Choose the correct tense: 'Demain, il _____ (pleuvoir) sûrement.' (sûrement = certainly)",
+      "options": ["pleuvrait (conditionnel)", "pleuvra (futur simple)", "pleuvait (imperfect)", "pleut (present)"],
+      "correctIndex": 1,
+      "explanation": "'Sûrement' (certainly) + demain (tomorrow) = definite prediction → futur simple. Il pleuvra = it will rain."
+    },
+    {
+      "id": "g8f-w25-thu-006",
+      "question": "Choose the correct tense: 'Si j'avais de l'argent, j'_____ un vélo.' (acheter = to buy)",
+      "options": ["achèterai (futur)", "achèterais (conditionnel)", "achetais (imperfect)", "ai acheté (passé composé)"],
+      "correctIndex": 1,
+      "explanation": "'Si + imperfect → conditionnel'. This is a hypothetical (if I had money, I WOULD buy). j'achèterais = conditionnel."
+    },
+    {
+      "id": "g8f-w25-thu-007",
+      "question": "Identify the tense: 'Nous irions au parc si le soleil brillait.'",
+      "options": ["futur simple — irions", "conditionnel présent — irions", "imparfait — irions", "passé composé — irions"],
+      "correctIndex": 1,
+      "explanation": "irions = ir- (aller stem) + -ions (conditionnel ending). 'We would go to the park if the sun shone.' Conditionnel présent."
+    },
+    {
+      "id": "g8f-w25-thu-008",
+      "question": "Identify the tense: 'Ils seront prêts à 8h.'",
+      "options": ["conditionnel — seraient", "futur simple — seront", "present — sont", "imparfait — étaient"],
+      "correctIndex": 1,
+      "explanation": "seront = ser- (être futur stem) + -ont = futur simple. 'They will be ready at 8.' Definite future statement."
+    },
+    {
+      "id": "g8f-w25-thu-009",
+      "question": "A polite request in French often uses: 'Je _____ un café, s'il vous plaît.'",
+      "options": ["voudrai (futur — I will want)", "voudrais (conditionnel — I would like)", "veux (present — I want)", "voulais (imperfect)"],
+      "correctIndex": 1,
+      "explanation": "Polite requests use the conditionnel: 'Je voudrais...' = 'I would like...' It is softer than 'je veux' (I want)."
+    },
+    {
+      "id": "g8f-w25-thu-010",
+      "question": "The newspaper headline reads: 'Selon nos sources, le président démissionnerait.' (démissionner = to resign). What tense is 'démissionnerait' and why?",
+      "options": ["Futur simple — it is certain news", "Conditionnel présent — unconfirmed information (alleged)", "Imperfect — past event", "Present — happening now"],
+      "correctIndex": 1,
+      "explanation": "'Selon nos sources' (according to our sources) = unconfirmed. French uses conditionnel to report unverified news. démissionnerait = 'is said to resign / would resign'."
+    },
+    {
+      "id": "g8f-w25-thu-011",
+      "question": "Complete: 'Si tu étudiais plus, tu _____ mieux à l'examen.' (réussir = to succeed)",
+      "options": ["réussiras (futur — will succeed)", "réussirais (conditionnel — would succeed)", "réussissais (imperfect)", "as réussi (passé composé)"],
+      "correctIndex": 1,
+      "explanation": "si + imperfect (étudiais) → conditionnel. 'If you studied more, you WOULD do better on the exam.' réussirais = conditionnel."
+    },
+    {
+      "id": "g8f-w25-thu-012",
+      "question": "Compare these two sentences. Which is FUTUR SIMPLE?",
+      "options": ["'Il ferait ses devoirs ce soir.' (conditionnel)", "'Il fera ses devoirs ce soir.' (futur simple)", "Both are futur simple.", "Neither is futur simple."],
+      "correctIndex": 1,
+      "explanation": "fera = fer- + -a (futur simple ending). ferait = fer- + -ait (conditionnel ending). 'Il fera ses devoirs ce soir' = He will do his homework tonight."
+    },
+    {
+      "id": "g8f-w25-thu-013",
+      "question": "Fill in with the correct tense of 'avoir': 'L'année prochaine, vous _____ un nouveau professeur.'",
+      "options": ["auriez (conditionnel)", "aurez (futur simple)", "avez (present)", "aviez (imperfect)"],
+      "correctIndex": 1,
+      "explanation": "'L'année prochaine' (next year) = certain future event → futur simple. aur- + -ez = vous aurez."
+    },
+    {
+      "id": "g8f-w25-thu-014",
+      "question": "Which sentence expresses a HYPOTHETICAL wish using conditionnel?",
+      "options": ["Je mangerai une pizza demain.", "J'adorerais visiter Paris un jour.", "Nous irons au cinéma samedi.", "Tu finiras tes devoirs ce soir."],
+      "correctIndex": 1,
+      "explanation": "'J'adorerais' = conditionnel of adorer. 'I would love to visit Paris one day.' — a wish/hypothetical, not a definite plan."
+    },
+    {
+      "id": "g8f-w25-thu-015",
+      "question": "Summary: futur simple endings are _____, conditionnel endings are _____.",
+      "options": ["-ais/-ais/-ait/-ions/-iez/-aient (both the same)", "-ai/-as/-a/-ons/-ez/-ont (futur) vs -ais/-ais/-ait/-ions/-iez/-aient (conditionnel)", "-e/-es/-e/-ons/-ez/-ent (both use present endings)", "-ai/-as/-a/-ons/-ez/-aient (futur uses mixed endings)"],
+      "correctIndex": 1,
+      "explanation": "Key difference: futur = -ai/-as/-a/-ons/-ez/-ont. Conditionnel = -ais/-ais/-ait/-ions/-iez/-aient. Same STEM, different ENDINGS."
+    }
+  ]
+}

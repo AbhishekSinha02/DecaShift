@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-8-math-w25-thu",
+  "title": "Grade 8 Math — Thu, Jun 19",
+  "description": "Playing with Numbers — Day 4 of 5: Letters for digits puzzles (cryptarithmetics)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8m-w25-thu-001",
+      "question": "In a 'letters for digits' puzzle, each letter represents:",
+      "options": ["Any word", "A single digit (0–9), consistently throughout the puzzle", "A two-digit number", "A prime number only"],
+      "correctIndex": 1,
+      "explanation": "In letters-for-digits puzzles, each letter represents a unique single digit (0–9). The same letter always represents the same digit throughout."
+    },
+    {
+      "id": "g8m-w25-thu-002",
+      "question": "Solve: A + A + A = BA. What are A and B? (BA is a 2-digit number: 10B + A)",
+      "options": ["A = 5, B = 1", "A = 6, B = 1", "A = 5, B = 2", "A = 4, B = 1"],
+      "correctIndex": 0,
+      "explanation": "3A = 10B + A → 2A = 10B. If B=1: 2A=10 → A=5. Check: 5+5+5=15 = BA (B=1, A=5). ✓"
+    },
+    {
+      "id": "g8m-w25-thu-003",
+      "question": "In the addition: AB + BA = 121. What is A + B?",
+      "options": ["9", "11", "10", "12"],
+      "correctIndex": 1,
+      "explanation": "(10A+B) + (10B+A) = 11(A+B) = 121. So A+B = 121 ÷ 11 = 11."
+    },
+    {
+      "id": "g8m-w25-thu-004",
+      "question": "Solve: QR − RQ = 27. What is Q − R?",
+      "options": ["2", "3", "4", "5"],
+      "correctIndex": 1,
+      "explanation": "QR − RQ = (10Q+R) − (10R+Q) = 9(Q−R) = 27. So Q−R = 3."
+    },
+    {
+      "id": "g8m-w25-thu-005",
+      "question": "A 2-digit number AB satisfies: AB + BA = 99. If A = 4, what is B?",
+      "options": ["4", "5", "9", "6"],
+      "correctIndex": 1,
+      "explanation": "11(A+B) = 99 → A+B = 9. A=4 → B=5. Check: 45+54=99 ✓."
+    },
+    {
+      "id": "g8m-w25-thu-006",
+      "question": "In a puzzle: 3A + A3 = 88. What digit is A?",
+      "options": ["5", "4", "3", "6"],
+      "correctIndex": 0,
+      "explanation": "3A = 30+A, A3 = 10A+3. Sum = 33+11A = 88 → 11A = 55 → A = 5. Check: 35+53=88 ✓."
+    },
+    {
+      "id": "g8m-w25-thu-007",
+      "question": "Solve: 1A + A1 = 77. What is A?",
+      "options": ["2", "3", "4", "6"],
+      "correctIndex": 3,
+      "explanation": "1A = 10+A, A1 = 10A+1. Sum = (10+A) + (10A+1) = 11 + 11A = 77 → 11A = 66 → A = 6. Check: 16+61=77 ✓."
+    },
+    {
+      "id": "g8m-w25-thu-008",
+      "question": "In the puzzle PQ × Q = PQQ, Q is a digit such that Q × Q ends in Q. Which digit satisfies this?",
+      "options": ["4", "5", "3", "7"],
+      "correctIndex": 1,
+      "explanation": "5 × 5 = 25 (units digit 5 ✓). Also 6 × 6 = 36 (units 6), but for PQQ pattern: 5 is the most common answer. 25×5=125=PQQ with P=1, Q=5, Q=5. ✓"
+    },
+    {
+      "id": "g8m-w25-thu-009",
+      "question": "Solve: AB × B = CAB, where B = 5. What is A if AB × 5 gives a 3-digit number ending in AB?",
+      "options": ["A = 1 (15 × 5 = 75, not 3-digit ending 15)", "A = 2 (25 × 5 = 125 = 1AB, A=2, B=5 ✓)", "A = 3 (35 × 5 = 175, not ending 35)", "A = 4 (45 × 5 = 225, not ending 45)"],
+      "correctIndex": 1,
+      "explanation": "25 × 5 = 125. Here AB=25, CAB=125. C=1, A=2, B=5. So the last two digits of 125 are 25 = AB ✓."
+    },
+    {
+      "id": "g8m-w25-thu-010",
+      "question": "A 3-digit number PQR satisfies P+Q+R = 18. If P=Q=R, what is the number?",
+      "options": ["333", "666", "999", "888"],
+      "correctIndex": 1,
+      "explanation": "P=Q=R and 3P=18 → P=6. Number = 666. Check: 6+6+6=18 ✓."
+    },
+    {
+      "id": "g8m-w25-thu-011",
+      "question": "Solve: A × 5 = BA. (BA is a 2-digit number 10B+A.) What is A?",
+      "options": ["5", "9", "4", "8"],
+      "correctIndex": 0,
+      "explanation": "5A = 10B + A → 4A = 10B. If B=2: 4A=20 → A=5. Check: 5×5=25; BA with B=2, A=5 → 25. ✓"
+    },
+    {
+      "id": "g8m-w25-thu-012",
+      "question": "The sum of any 2-digit number and its reverse is always a multiple of:",
+      "options": ["9", "11", "3", "7"],
+      "correctIndex": 1,
+      "explanation": "(10a+b) + (10b+a) = 11(a+b). The sum is always a multiple of 11."
+    },
+    {
+      "id": "g8m-w25-thu-013",
+      "question": "The difference of any 2-digit number (larger − smaller, with same digits reversed) is always a multiple of:",
+      "options": ["11", "9", "7", "3"],
+      "correctIndex": 1,
+      "explanation": "(10a+b) − (10b+a) = 9(a−b). The difference is always a multiple of 9."
+    },
+    {
+      "id": "g8m-w25-thu-014",
+      "question": "A 3-digit number ABC has digit sum 18 (A+B+C=18). Is it divisible by 9?",
+      "options": ["No, because 18 is too large", "Yes, because digit sum 18 is divisible by 9", "Only if it ends in 0 or 9", "Only if A = 9"],
+      "correctIndex": 1,
+      "explanation": "Divisibility rule for 9: if the digit sum is divisible by 9, the number is divisible by 9. 18 ÷ 9 = 2 ✓. So yes, divisible by 9."
+    },
+    {
+      "id": "g8m-w25-thu-015",
+      "question": "What makes cryptarithmetic puzzles mathematically valuable?",
+      "options": ["They are only for entertainment", "They practise place value, algebra, and logical deduction simultaneously", "They are only solvable by computers", "They require memorising all digit combinations"],
+      "correctIndex": 1,
+      "explanation": "Cryptarithmetic combines place-value understanding, algebraic reasoning, and logical deduction — valuable for building number sense and problem-solving skills."
+    }
+  ]
+}

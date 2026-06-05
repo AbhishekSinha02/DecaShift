@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-8-math-w25-mon",
+  "title": "Grade 8 Math — Mon, Jun 16",
+  "description": "Playing with Numbers — Day 1 of 5: General form of numbers; reversing digits",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8m-w25-mon-001",
+      "question": "A 2-digit number has tens digit 'a' and units digit 'b'. Its general form is:",
+      "options": ["a + b", "ab", "10a + b", "10b + a"],
+      "correctIndex": 2,
+      "explanation": "A 2-digit number with tens digit a and units digit b = 10 × a + b = 10a + b. Example: 37 = 10(3) + 7."
+    },
+    {
+      "id": "g8m-w25-mon-002",
+      "question": "A 3-digit number has hundreds digit 'a', tens digit 'b', units digit 'c'. Its general form is:",
+      "options": ["a + b + c", "abc", "100a + 10b + c", "100c + 10b + a"],
+      "correctIndex": 2,
+      "explanation": "3-digit number = 100a + 10b + c. Example: 357 = 100(3) + 10(5) + 7."
+    },
+    {
+      "id": "g8m-w25-mon-003",
+      "question": "The number 43 in general form is:",
+      "options": ["4 + 3", "10 × 3 + 4", "10 × 4 + 3", "100 × 4 + 3"],
+      "correctIndex": 2,
+      "explanation": "43 has tens digit 4 and units digit 3. General form = 10 × 4 + 3 = 40 + 3 = 43."
+    },
+    {
+      "id": "g8m-w25-mon-004",
+      "question": "If a 2-digit number is 'ab' (tens digit a, units digit b), what is the number formed by reversing its digits?",
+      "options": ["10a + b", "10b + a", "a + b", "ba"],
+      "correctIndex": 1,
+      "explanation": "Reversing ab gives ba. General form of ba = 10b + a."
+    },
+    {
+      "id": "g8m-w25-mon-005",
+      "question": "A 2-digit number is 73. If we reverse its digits we get 37. What is the sum of these two numbers?",
+      "options": ["100", "110", "108", "100"],
+      "correctIndex": 1,
+      "explanation": "73 + 37 = 110. In general, (10a + b) + (10b + a) = 11a + 11b = 11(a + b). Here, 11(7 + 3) = 11 × 10 = 110."
+    },
+    {
+      "id": "g8m-w25-mon-006",
+      "question": "A 2-digit number is 73. If we reverse its digits we get 37. What is the difference (73 − 37)?",
+      "options": ["36", "44", "9", "18"],
+      "correctIndex": 0,
+      "explanation": "73 − 37 = 36. In general, (10a + b) − (10b + a) = 9(a − b). Here 9(7 − 3) = 9 × 4 = 36."
+    },
+    {
+      "id": "g8m-w25-mon-007",
+      "question": "The difference between a 2-digit number and its reverse is always divisible by:",
+      "options": ["10", "11", "9", "3"],
+      "correctIndex": 2,
+      "explanation": "(10a + b) − (10b + a) = 9(a − b). The difference is always divisible by 9."
+    },
+    {
+      "id": "g8m-w25-mon-008",
+      "question": "The sum of a 2-digit number and its reverse is always divisible by:",
+      "options": ["9", "11", "7", "10"],
+      "correctIndex": 1,
+      "explanation": "(10a + b) + (10b + a) = 11(a + b). The sum is always divisible by 11."
+    },
+    {
+      "id": "g8m-w25-mon-009",
+      "question": "A 3-digit number 325 has its digits reversed to form 523. What is 523 − 325?",
+      "options": ["198", "298", "188", "200"],
+      "correctIndex": 0,
+      "explanation": "523 − 325 = 198. Also, 9 × (c − a) × 11 = 99(c − a). Here 99(5 − 3) = 99 × 2 = 198."
+    },
+    {
+      "id": "g8m-w25-mon-010",
+      "question": "If a number has digits 'a' and 'b' with a > b, which is larger: the original (ab) or reversed (ba)?",
+      "options": ["ba (reversed) is larger", "ab (original) is larger", "They are equal", "Cannot determine"],
+      "correctIndex": 1,
+      "explanation": "If a > b, then 10a + b > 10b + a (since 9a > 9b → 9(a − b) > 0). The original ab is larger."
+    },
+    {
+      "id": "g8m-w25-mon-011",
+      "question": "Express 97 using its general form (10a + b) and identify a and b.",
+      "options": ["a = 9, b = 7; 10(9) + 7 = 97", "a = 7, b = 9; 10(7) + 9 = 79", "a = 97, b = 0", "a = 9, b = 0"],
+      "correctIndex": 0,
+      "explanation": "97 has tens digit 9 (= a) and units digit 7 (= b). So 10(9) + 7 = 90 + 7 = 97. ✓"
+    },
+    {
+      "id": "g8m-w25-mon-012",
+      "question": "The number 462 in general form is:",
+      "options": ["4 + 6 + 2", "100(2) + 10(6) + 4", "100(4) + 10(6) + 2", "100(6) + 10(4) + 2"],
+      "correctIndex": 2,
+      "explanation": "462: hundreds = 4, tens = 6, units = 2. General form = 100(4) + 10(6) + 2 = 400 + 60 + 2 = 462. ✓"
+    },
+    {
+      "id": "g8m-w25-mon-013",
+      "question": "If the sum of two digits of a number is 9 and their difference is 3, what are the digits?",
+      "options": ["6 and 3", "7 and 2", "8 and 1", "5 and 4"],
+      "correctIndex": 0,
+      "explanation": "a + b = 9 and a − b = 3. Adding: 2a = 12 → a = 6, b = 3. Check: 6 + 3 = 9 ✓, 6 − 3 = 3 ✓."
+    },
+    {
+      "id": "g8m-w25-mon-014",
+      "question": "A number with digits a and b (10a + b) when added to the number with digits reversed (10b + a) gives 143. What is a + b?",
+      "options": ["11", "13", "10", "14"],
+      "correctIndex": 1,
+      "explanation": "Sum = 11(a + b) = 143. So a + b = 143 ÷ 11 = 13."
+    },
+    {
+      "id": "g8m-w25-mon-015",
+      "question": "Why do we write numbers in 'general form' (10a + b) in mathematics?",
+      "options": ["To make numbers look bigger", "To prove divisibility rules and number puzzles using algebra", "To convert to fractions", "To find square roots"],
+      "correctIndex": 1,
+      "explanation": "Writing numbers in general form allows us to use algebraic manipulation to prove divisibility rules and solve number puzzles."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-7-science-w25-mon",
+  "title": "Grade 7 Science — Mon, Jun 16",
+  "description": "Nutrition in Plants — Day 1 of 5: Autotrophic vs heterotrophic nutrition; photosynthesis equation",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7s-w25-mon-001",
+      "question": "Which mode of nutrition does a green plant follow?",
+      "options": ["Heterotrophic", "Autotrophic", "Saprotrophic", "Parasitic"],
+      "correctIndex": 1,
+      "explanation": "Green plants are autotrophs — they make their own food using sunlight, water, and CO₂ through photosynthesis."
+    },
+    {
+      "id": "g7s-w25-mon-002",
+      "question": "In heterotrophic nutrition, organisms:",
+      "options": ["Make their own food using sunlight", "Depend on other organisms for food", "Absorb nutrients from dead matter only", "Never eat plants"],
+      "correctIndex": 1,
+      "explanation": "Heterotrophs cannot make their own food and must obtain it from other organisms (plants or animals)."
+    },
+    {
+      "id": "g7s-w25-mon-003",
+      "question": "What is the raw material used by plants to make food?",
+      "options": ["Oxygen and water", "Carbon dioxide and water", "Carbon dioxide and oxygen", "Nitrogen and water"],
+      "correctIndex": 1,
+      "explanation": "Plants use carbon dioxide (from air) and water (from soil) as raw materials for photosynthesis."
+    },
+    {
+      "id": "g7s-w25-mon-004",
+      "question": "Which gas is released as a by-product of photosynthesis?",
+      "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+      "correctIndex": 2,
+      "explanation": "During photosynthesis, plants split water molecules and release oxygen as a by-product."
+    },
+    {
+      "id": "g7s-w25-mon-005",
+      "question": "What is the correct word equation for photosynthesis?",
+      "options": ["Carbon dioxide + Water → Glucose + Carbon dioxide", "Glucose + Oxygen → Carbon dioxide + Water + Energy", "Carbon dioxide + Water + Sunlight → Glucose + Oxygen", "Oxygen + Water → Glucose + Carbon dioxide"],
+      "correctIndex": 2,
+      "explanation": "Photosynthesis: CO₂ + H₂O + light energy → Glucose + O₂. Plants convert sunlight into chemical energy (glucose)."
+    },
+    {
+      "id": "g7s-w25-mon-006",
+      "question": "Where does photosynthesis mainly take place in a plant?",
+      "options": ["Roots", "Stem", "Leaves", "Flowers"],
+      "correctIndex": 2,
+      "explanation": "Photosynthesis mainly occurs in leaves, which contain chlorophyll. Leaves are flat and broad to absorb maximum sunlight."
+    },
+    {
+      "id": "g7s-w25-mon-007",
+      "question": "Which pigment in leaves is essential for photosynthesis?",
+      "options": ["Carotenoid", "Chlorophyll", "Melanin", "Xanthophyll"],
+      "correctIndex": 1,
+      "explanation": "Chlorophyll (the green pigment in leaves) absorbs sunlight and is essential for photosynthesis."
+    },
+    {
+      "id": "g7s-w25-mon-008",
+      "question": "Glucose produced during photosynthesis is stored in plants as:",
+      "options": ["Cellulose", "Protein", "Starch", "Fat only"],
+      "correctIndex": 2,
+      "explanation": "Glucose is converted and stored as starch in plants. Starch is the stored form of food in most plants."
+    },
+    {
+      "id": "g7s-w25-mon-009",
+      "question": "Which type of nutrition do animals like deer and lions follow?",
+      "options": ["Autotrophic", "Saprotrophic", "Heterotrophic", "Holozoic only for deer"],
+      "correctIndex": 2,
+      "explanation": "Animals are heterotrophs — they cannot make their own food and must eat plants or other animals."
+    },
+    {
+      "id": "g7s-w25-mon-010",
+      "question": "How do plants absorb water for photosynthesis?",
+      "options": ["Through leaves", "Through flowers", "Through roots", "Through bark"],
+      "correctIndex": 2,
+      "explanation": "Plants absorb water from the soil through their roots, which is then transported up to the leaves for photosynthesis."
+    },
+    {
+      "id": "g7s-w25-mon-011",
+      "question": "What energy source do plants use for photosynthesis?",
+      "options": ["Thermal energy", "Electrical energy", "Solar (sunlight) energy", "Chemical energy from soil"],
+      "correctIndex": 2,
+      "explanation": "Plants capture solar energy (sunlight) and convert it to chemical energy stored in glucose."
+    },
+    {
+      "id": "g7s-w25-mon-012",
+      "question": "Which of the following is NOT a requirement for photosynthesis?",
+      "options": ["Chlorophyll", "Oxygen", "Sunlight", "Carbon dioxide"],
+      "correctIndex": 1,
+      "explanation": "Oxygen is a product, not a requirement of photosynthesis. The requirements are chlorophyll, sunlight, CO₂, and water."
+    },
+    {
+      "id": "g7s-w25-mon-013",
+      "question": "Which part of the leaf contains chlorophyll?",
+      "options": ["Epidermis", "Stomata", "Mesophyll cells", "Veins"],
+      "correctIndex": 2,
+      "explanation": "Chlorophyll is found in the mesophyll cells (mainly palisade and spongy cells) of the leaf."
+    },
+    {
+      "id": "g7s-w25-mon-014",
+      "question": "Why are leaves usually green in colour?",
+      "options": ["They absorb all light", "They reflect green light (presence of chlorophyll)", "They absorb only blue light", "They have no colour of their own"],
+      "correctIndex": 1,
+      "explanation": "Leaves are green because chlorophyll absorbs red and blue light for photosynthesis but reflects green light, making leaves appear green."
+    },
+    {
+      "id": "g7s-w25-mon-015",
+      "question": "The food made by plants during photosynthesis is in the form of:",
+      "options": ["Protein", "Fat", "Glucose (a simple sugar)", "Vitamins"],
+      "correctIndex": 2,
+      "explanation": "Photosynthesis directly produces glucose (a simple sugar/carbohydrate), which plants use for energy or store as starch."
+    }
+  ]
+}

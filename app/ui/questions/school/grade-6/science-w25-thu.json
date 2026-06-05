@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w25-thu",
+  "title": "Grade 6 Science — Thu, Jun 19",
+  "description": "Changes Around Us — Day 4 of 5: Rusting — conditions and prevention",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "rusting", "prevention"],
+  "questions": [
+    { "id": "g6s-w25-thu-001", "question": "Rusting of iron requires ___.", "options": ["Only water", "Only oxygen", "Both water AND oxygen", "Only heat"], "correctIndex": 2, "explanation": "Iron rusts only when both water (moisture) and oxygen are present. Remove either one and rusting stops.", "tags": ["rusting"] },
+    { "id": "g6s-w25-thu-002", "question": "Rust is chemically known as ___.", "options": ["Iron carbonate", "Iron chloride", "Iron oxide (Fe₂O₃)", "Calcium oxide"], "correctIndex": 2, "explanation": "Rust is hydrated iron oxide (Fe₂O₃·xH₂O). It is reddish-brown in colour.", "tags": ["rusting"] },
+    { "id": "g6s-w25-thu-003", "question": "If iron is stored in a completely dry environment (no moisture), it will ___.", "options": ["Rust quickly", "Rust slowly", "Not rust", "Change colour"], "correctIndex": 2, "explanation": "Without water (moisture), rusting cannot occur. Dry conditions prevent rusting.", "tags": ["rusting"] },
+    { "id": "g6s-w25-thu-004", "question": "If iron is stored in air from which all oxygen has been removed, it will ___.", "options": ["Rust quickly", "Rust slowly", "Not rust", "Dissolve"], "correctIndex": 2, "explanation": "Without oxygen, the rusting reaction cannot take place. Iron does not rust in the absence of oxygen.", "tags": ["rusting"] },
+    { "id": "g6s-w25-thu-005", "question": "Painting an iron surface prevents rusting by ___.", "options": ["Adding water to the iron", "Creating a chemical reaction", "Preventing contact of iron with water and oxygen", "Heating the iron"], "correctIndex": 2, "explanation": "Paint forms a barrier that prevents water and oxygen from reaching the iron surface, stopping rusting.", "tags": ["prevention"] },
+    { "id": "g6s-w25-thu-006", "question": "Galvanizing is the process of coating iron with ___.", "options": ["Copper", "Tin", "Zinc", "Aluminium"], "correctIndex": 2, "explanation": "Galvanization involves coating iron or steel with a layer of zinc to protect it from rusting.", "tags": ["prevention", "galvanizing"] },
+    { "id": "g6s-w25-thu-007", "question": "Why does zinc protect iron from rusting (galvanization)?", "options": ["Zinc rusts instead of iron — sacrificial protection", "Zinc prevents water from forming", "Zinc makes iron stronger", "Zinc heats the iron"], "correctIndex": 0, "explanation": "Zinc corrodes (oxidizes) preferentially instead of iron — called sacrificial protection. Even if scratched, the zinc protects the iron underneath.", "tags": ["prevention", "galvanizing"] },
+    { "id": "g6s-w25-thu-008", "question": "Oiling iron tools prevents rusting by ___.", "options": ["Chemically reacting with iron", "Forming a layer that repels water and air", "Heating the tools", "Adding oxygen"], "correctIndex": 1, "explanation": "Oil forms a thin protective layer that repels water and keeps oxygen away from the iron surface.", "tags": ["prevention"] },
+    { "id": "g6s-w25-thu-009", "question": "Stainless steel does not rust because it contains ___.", "options": ["Zinc and copper", "Carbon only", "Chromium (which forms a protective oxide layer)", "No iron at all"], "correctIndex": 2, "explanation": "Stainless steel contains chromium, which forms a thin chromium oxide layer on the surface, protecting it from corrosion.", "tags": ["prevention"] },
+    { "id": "g6s-w25-thu-010", "question": "Rusting is a ___ change.", "options": ["Physical and reversible", "Chemical and irreversible", "Physical and irreversible", "Chemical and reversible"], "correctIndex": 1, "explanation": "Rusting produces iron oxide (a new substance) — it is a chemical change. The original iron cannot easily be restored — it is irreversible.", "tags": ["rusting"] },
+    { "id": "g6s-w25-thu-011", "question": "Which method is NOT used to prevent rusting?", "options": ["Painting", "Galvanizing", "Keeping iron wet", "Electroplating"], "correctIndex": 2, "explanation": "Keeping iron wet actually promotes rusting (water is one of the requirements). The other three are anti-rusting methods.", "tags": ["prevention"] },
+    { "id": "g6s-w25-thu-012", "question": "Iron pipes carrying water tend to rust faster because ___.", "options": ["They are underground", "They are in constant contact with water and dissolved oxygen", "They are made of different iron", "The water is cold"], "correctIndex": 1, "explanation": "Water pipes are constantly in contact with water (and dissolved oxygen), providing both conditions needed for rusting.", "tags": ["rusting"] },
+    { "id": "g6s-w25-thu-013", "question": "Electroplating iron with chromium prevents rusting because ___.", "options": ["Chromium is heavier", "Chromium forms a hard, corrosion-resistant coating", "Chromium is cheaper", "Chromium heats the iron"], "correctIndex": 1, "explanation": "Chromium electroplating creates a hard, shiny, corrosion-resistant layer that keeps iron away from moisture and oxygen.", "tags": ["prevention"] },
+    { "id": "g6s-w25-thu-014", "question": "Ships are prone to rust because they are ___.", "options": ["Made of stainless steel", "Constantly exposed to air and moisture (especially seawater)", "Underground", "Never painted"], "correctIndex": 1, "explanation": "Ships are exposed to moisture, oxygen, and salt water — ideal conditions for rusting.", "tags": ["rusting"] },
+    { "id": "g6s-w25-thu-015", "question": "The reddish-brown colour of rust is due to ___.", "options": ["Iron turning into copper", "Iron oxide (Fe₂O₃) — formed when iron reacts with oxygen and water", "Iron absorbing paint", "Carbon in iron"], "correctIndex": 1, "explanation": "Rust is iron oxide (Fe₂O₃·xH₂O), which has a characteristic reddish-brown colour.", "tags": ["rusting"] }
+  ]
+}

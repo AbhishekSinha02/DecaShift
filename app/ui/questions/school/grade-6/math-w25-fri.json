@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w25-fri",
+  "title": "Grade 6 Math — Fri, Jun 20",
+  "description": "Triangles & Quadrilaterals — Day 5 of 5: Mixed review",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-6", "weekly", "triangles", "quadrilaterals", "review"],
+  "questions": [
+    { "id": "g6m-w25-fri-001", "question": "A triangle with sides 4 cm, 4 cm, 4 cm is ___.", "options": ["Scalene", "Isosceles", "Equilateral", "Right-angled"], "correctIndex": 2, "explanation": "All three sides equal → equilateral triangle.", "tags": ["equilateral"] },
+    { "id": "g6m-w25-fri-002", "question": "A triangle with angles 80°, 60°, 40° is ___.", "options": ["Right-angled", "Obtuse", "Acute", "Equilateral"], "correctIndex": 2, "explanation": "All angles (80°, 60°, 40°) are less than 90° → acute triangle. Check: 80+60+40 = 180° ✓", "tags": ["acute"] },
+    { "id": "g6m-w25-fri-003", "question": "Sum of interior angles of a quadrilateral = ___.", "options": ["180°", "270°", "360°", "540°"], "correctIndex": 2, "explanation": "The interior angles of any quadrilateral sum to 360°.", "tags": ["angle-sum"] },
+    { "id": "g6m-w25-fri-004", "question": "A quadrilateral with exactly one pair of parallel sides is ___.", "options": ["Parallelogram", "Rectangle", "Rhombus", "Trapezium"], "correctIndex": 3, "explanation": "A trapezium has exactly one pair of parallel sides.", "tags": ["trapezium"] },
+    { "id": "g6m-w25-fri-005", "question": "The diagonals of a rhombus bisect each other at ___.", "options": ["60°", "45°", "90°", "120°"], "correctIndex": 2, "explanation": "The diagonals of a rhombus are perpendicular — they meet at 90°.", "tags": ["rhombus"] },
+    { "id": "g6m-w25-fri-006", "question": "Third angle of a triangle when two angles are 55° and 75° = ___.", "options": ["50°", "40°", "60°", "70°"], "correctIndex": 0, "explanation": "Third angle = 180° − 55° − 75° = 50°.", "tags": ["angle-sum"] },
+    { "id": "g6m-w25-fri-007", "question": "A triangle with one angle of 95° is ___.", "options": ["Acute", "Right-angled", "Obtuse", "Equilateral"], "correctIndex": 2, "explanation": "One angle (95°) exceeds 90° → obtuse triangle.", "tags": ["obtuse"] },
+    { "id": "g6m-w25-fri-008", "question": "In a parallelogram, opposite angles are ___.", "options": ["Supplementary", "Complementary", "Equal", "All 90°"], "correctIndex": 2, "explanation": "Opposite angles in a parallelogram are always equal.", "tags": ["parallelogram"] },
+    { "id": "g6m-w25-fri-009", "question": "A triangle with sides 3 cm, 4 cm, 5 cm — type by sides?", "options": ["Equilateral", "Isosceles", "Scalene", "Cannot be determined"], "correctIndex": 2, "explanation": "All three sides are different → scalene triangle.", "tags": ["scalene"] },
+    { "id": "g6m-w25-fri-010", "question": "All sides of a square are equal and all angles are ___.", "options": ["60°", "45°", "90°", "120°"], "correctIndex": 2, "explanation": "A square has all angles equal to 90°.", "tags": ["square"] },
+    { "id": "g6m-w25-fri-011", "question": "The base angles of an isosceles triangle are ___.", "options": ["Unequal", "Equal", "Always 90°", "Always 60°"], "correctIndex": 1, "explanation": "The angles opposite the two equal sides (base angles) of an isosceles triangle are always equal.", "tags": ["isosceles"] },
+    { "id": "g6m-w25-fri-012", "question": "The diagonals of which quadrilateral are BOTH equal in length AND perpendicular?", "options": ["Rectangle", "Rhombus", "Parallelogram", "Square"], "correctIndex": 3, "explanation": "Only a square has diagonals that are both equal AND perpendicular to each other.", "tags": ["square", "diagonals"] },
+    { "id": "g6m-w25-fri-013", "question": "A triangle with angles 60°, 60°, 60° is ___.", "options": ["Scalene", "Isosceles only", "Equilateral and acute", "Right-angled"], "correctIndex": 2, "explanation": "All angles equal (60°) and all less than 90° → equilateral and acute.", "tags": ["equilateral", "acute"] },
+    { "id": "g6m-w25-fri-014", "question": "How many equal sides does a scalene triangle have?", "options": ["3", "2", "1", "0"], "correctIndex": 3, "explanation": "A scalene triangle has NO equal sides — all three sides are of different lengths.", "tags": ["scalene"] },
+    { "id": "g6m-w25-fri-015", "question": "Consecutive angles of a parallelogram are ___.", "options": ["Equal", "Supplementary (sum 180°)", "Complementary (sum 90°)", "All 45°"], "correctIndex": 1, "explanation": "Any two adjacent angles in a parallelogram add up to 180° (supplementary).", "tags": ["parallelogram"] }
+  ]
+}

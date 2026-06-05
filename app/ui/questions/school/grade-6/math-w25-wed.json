@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-math-w25-wed",
+  "title": "Grade 6 Math — Wed, Jun 18",
+  "description": "Quadrilaterals — Day 3 of 5: Types of quadrilaterals",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["mathematics", "grade-6", "weekly", "quadrilaterals", "geometry"],
+  "questions": [
+    { "id": "g6m-w25-wed-001", "question": "How many sides does a quadrilateral have?", "options": ["3", "4", "5", "6"], "correctIndex": 1, "explanation": "A quadrilateral has exactly 4 sides. 'Quad' means four.", "tags": ["definition"] },
+    { "id": "g6m-w25-wed-002", "question": "A rectangle has ___.", "options": ["All sides equal", "All angles equal to 90°", "No parallel sides", "Unequal diagonals always"], "correctIndex": 1, "explanation": "A rectangle has all four angles equal to 90°. Opposite sides are equal and parallel.", "tags": ["rectangle"] },
+    { "id": "g6m-w25-wed-003", "question": "A square is different from a rectangle because ___.", "options": ["It has four right angles", "All its sides are equal", "It has parallel sides", "Its diagonals are equal"], "correctIndex": 1, "explanation": "A square has all sides equal AND all angles 90°. A rectangle has all angles 90° but sides need not all be equal.", "tags": ["square", "rectangle"] },
+    { "id": "g6m-w25-wed-004", "question": "A rhombus has ___.", "options": ["All angles equal to 90°", "All sides equal", "Only one pair of parallel sides", "No equal sides"], "correctIndex": 1, "explanation": "A rhombus has all four sides equal. Its angles need not be 90°.", "tags": ["rhombus"] },
+    { "id": "g6m-w25-wed-005", "question": "A parallelogram has ___.", "options": ["Only one pair of parallel sides", "Two pairs of parallel, equal opposite sides", "All sides equal", "All angles 90°"], "correctIndex": 1, "explanation": "A parallelogram has two pairs of opposite sides that are parallel and equal in length.", "tags": ["parallelogram"] },
+    { "id": "g6m-w25-wed-006", "question": "A trapezium has ___.", "options": ["Two pairs of parallel sides", "All sides equal", "Exactly one pair of parallel sides", "All angles 90°"], "correctIndex": 2, "explanation": "A trapezium has exactly one pair of parallel sides.", "tags": ["trapezium"] },
+    { "id": "g6m-w25-wed-007", "question": "In a kite, ___.", "options": ["All sides are equal", "Opposite sides are parallel", "Two pairs of adjacent sides are equal", "All angles are equal"], "correctIndex": 2, "explanation": "A kite has two pairs of adjacent (next to each other) sides that are equal in length.", "tags": ["kite"] },
+    { "id": "g6m-w25-wed-008", "question": "The sum of all interior angles of a quadrilateral is ___.", "options": ["180°", "270°", "360°", "90°"], "correctIndex": 2, "explanation": "Any quadrilateral's interior angles add up to 360°.", "tags": ["angle-sum"] },
+    { "id": "g6m-w25-wed-009", "question": "A square is a special type of ___.", "options": ["Triangle only", "Rhombus only", "Both rectangle and rhombus", "Trapezium"], "correctIndex": 2, "explanation": "A square is a special rectangle (all angles 90°) and also a special rhombus (all sides equal).", "tags": ["square"] },
+    { "id": "g6m-w25-wed-010", "question": "Which quadrilateral has all sides equal but not necessarily all angles equal to 90°?", "options": ["Rectangle", "Square", "Rhombus", "Parallelogram"], "correctIndex": 2, "explanation": "A rhombus has all sides equal, but its angles are not necessarily 90° — unless it is a square.", "tags": ["rhombus"] },
+    { "id": "g6m-w25-wed-011", "question": "Which quadrilateral is NOT a parallelogram?", "options": ["Rectangle", "Rhombus", "Square", "Trapezium"], "correctIndex": 3, "explanation": "A trapezium has only one pair of parallel sides, so it is NOT a parallelogram (which requires two pairs).", "tags": ["trapezium", "parallelogram"] },
+    { "id": "g6m-w25-wed-012", "question": "How many pairs of parallel sides does a parallelogram have?", "options": ["0", "1", "2", "4"], "correctIndex": 2, "explanation": "A parallelogram has exactly 2 pairs of parallel sides — that is its defining property.", "tags": ["parallelogram"] },
+    { "id": "g6m-w25-wed-013", "question": "Which shape has all sides equal AND all angles 90°?", "options": ["Rhombus", "Rectangle", "Parallelogram", "Square"], "correctIndex": 3, "explanation": "A square satisfies both: all sides equal (like a rhombus) and all angles 90° (like a rectangle).", "tags": ["square"] },
+    { "id": "g6m-w25-wed-014", "question": "How many diagonals does a quadrilateral have?", "options": ["1", "2", "3", "4"], "correctIndex": 1, "explanation": "A quadrilateral has exactly 2 diagonals — lines joining non-adjacent (opposite) vertices.", "tags": ["diagonals"] },
+    { "id": "g6m-w25-wed-015", "question": "Identify the quadrilateral: one pair of parallel sides; the non-parallel sides are equal in length.", "options": ["Parallelogram", "Rectangle", "Isosceles trapezium", "Kite"], "correctIndex": 2, "explanation": "An isosceles trapezium has one pair of parallel sides and the non-parallel sides (legs) are equal in length.", "tags": ["trapezium"] }
+  ]
+}

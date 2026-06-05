@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-8-french-w25-tue",
+  "title": "Grade 8 French — Tue, Jun 17",
+  "description": "Le futur simple — Day 2 of 5: -re verbs (drop final -e) + common verb practice",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-8", "weekly"],
+  "conceptId": "futur-simple",
+  "questions": [
+    {
+      "id": "g8f-w25-tue-001",
+      "question": "For -re verbs in the futur simple, you must first _____ before adding the endings.",
+      "options": ["keep the full infinitive (like -er/-ir)", "drop the final -e from the infinitive", "drop -re completely", "use the present tense stem"],
+      "correctIndex": 1,
+      "explanation": "For -re verbs: drop the final -e from the infinitive, then add the futur simple endings. Example: prendr- (from prendre), vendr- (from vendre)."
+    },
+    {
+      "id": "g8f-w25-tue-002",
+      "question": "What is the futur simple stem of 'prendre'?",
+      "options": ["prend- (present stem)", "pris- (past participle)", "prendr-", "prenar-"],
+      "correctIndex": 2,
+      "explanation": "prendre → drop the final -e → prendr-. Then add endings: je prendrai, tu prendras, il prendra..."
+    },
+    {
+      "id": "g8f-w25-tue-003",
+      "question": "Conjugate 'prendre' in the futur simple for 'je'.",
+      "options": ["je prends", "je prendrai", "je prenais", "je pris"],
+      "correctIndex": 1,
+      "explanation": "prendr- + -ai = je prendrai (I will take)."
+    },
+    {
+      "id": "g8f-w25-tue-004",
+      "question": "What is the futur simple of 'tu vendras'?",
+      "options": ["you sold", "you were selling", "you will sell", "you sell"],
+      "correctIndex": 2,
+      "explanation": "vendre → vendr- + -as = tu vendras = 'you will sell'."
+    },
+    {
+      "id": "g8f-w25-tue-005",
+      "question": "Complete: 'nous _____ (attendre, futur simple)'.",
+      "options": ["attendons (present)", "attendrons", "attendions (imperfect)", "attendrez"],
+      "correctIndex": 1,
+      "explanation": "attendre → attendr- + -ons = nous attendrons (we will wait)."
+    },
+    {
+      "id": "g8f-w25-tue-006",
+      "question": "Choose the correct futur simple: 'ils _____ (répondre)'.",
+      "options": ["répondent", "répondront", "répondaient", "répondirent"],
+      "correctIndex": 1,
+      "explanation": "répondre → répondr- + -ont = ils répondront (they will answer)."
+    },
+    {
+      "id": "g8f-w25-tue-007",
+      "question": "Identify the futur simple form: 'elle comprendra'.",
+      "options": ["she understood", "she used to understand", "she will understand", "she understands"],
+      "correctIndex": 2,
+      "explanation": "comprendre → comprendra = comprendra (3rd person singular futur simple). 'She will understand.'"
+    },
+    {
+      "id": "g8f-w25-tue-008",
+      "question": "Now mixing verb types. Which is the correct futur simple of 'je lire' (lire = to read)?",
+      "options": ["je lis", "je lirai", "je lisais", "je lu"],
+      "correctIndex": 1,
+      "explanation": "lire → drop final -e → lir- + -ai = je lirai (I will read). Lire is an -re verb."
+    },
+    {
+      "id": "g8f-w25-tue-009",
+      "question": "Complete: 'vous _____ (écrire, futur simple)' — écrire = to write.",
+      "options": ["écrivez (present)", "écrirez", "écriviez (imperfect)", "écrivîtes"],
+      "correctIndex": 1,
+      "explanation": "écrire → écrir- + -ez = vous écrirez (you will write)."
+    },
+    {
+      "id": "g8f-w25-tue-010",
+      "question": "Translate: 'Ils prendront le train demain.'",
+      "options": ["They took the train yesterday.", "They take the train every day.", "They will take the train tomorrow.", "They were taking the train."],
+      "correctIndex": 2,
+      "explanation": "prendront = ils + prendre (futur simple -ont form) = 'will take'. 'They will take the train tomorrow.'"
+    },
+    {
+      "id": "g8f-w25-tue-011",
+      "question": "Fill in: 'La semaine prochaine, nous _____ (attendre) les résultats.'",
+      "options": ["attendons", "attendrons", "attendions", "avons attendu"],
+      "correctIndex": 1,
+      "explanation": "'La semaine prochaine' (next week) signals future. attendr- + -ons = attendrons."
+    },
+    {
+      "id": "g8f-w25-tue-012",
+      "question": "Which verb type does NOT need to drop the final -e for the futur simple stem?",
+      "options": ["-re verbs (prendre, vendre)", "-er verbs (parler, manger)", "irregular verbs (être, avoir)", "-re and irregular verbs"],
+      "correctIndex": 1,
+      "explanation": "-er verbs keep the full infinitive as stem (parler → je parlerai). -re verbs drop the final -e (prendre → prendr-)."
+    },
+    {
+      "id": "g8f-w25-tue-013",
+      "question": "What is wrong with 'Je prendrerai le bus'?",
+      "options": ["Nothing — it is correct", "'prendrerai' is wrong; should be 'prendrai' (prendr- + -ai)", "Should use present tense here", "Should use imperfect here"],
+      "correctIndex": 1,
+      "explanation": "prendre → drop -e → prendr- + -ai = je prendrai. 'Prendrerai' is a common error (keeping the -e). Correct: je prendrai."
+    },
+    {
+      "id": "g8f-w25-tue-014",
+      "question": "Give the futur simple of 'elle répondra'. What infinitive does it come from?",
+      "options": ["répondre — correct, elle répondra = she will answer", "réponser — wrong verb", "répondre — but the form is wrong; should be répondera", "répondir — this -ir form is correct"],
+      "correctIndex": 0,
+      "explanation": "répondre → répondr- + -a = elle répondra (she will answer). répondre is a regular -re verb."
+    },
+    {
+      "id": "g8f-w25-tue-015",
+      "question": "Put this sentence in the futur simple: 'Je prends le bus.' (change to tomorrow)",
+      "options": ["Demain, je prenais le bus.", "Demain, je prendrai le bus.", "Demain, j'ai pris le bus.", "Demain, je prends le bus. (no change needed)"],
+      "correctIndex": 1,
+      "explanation": "prendre → prendr- + -ai = je prendrai. 'Tomorrow, I will take the bus.' = 'Demain, je prendrai le bus.'"
+    }
+  ]
+}

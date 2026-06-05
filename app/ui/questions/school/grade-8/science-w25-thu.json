@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-8-science-w25-thu",
+  "title": "Grade 8 Science — Thu, Jun 19",
+  "description": "Coal and Petroleum — Day 4 of 5: CNG vs LPG; non-renewable fuels; conservation; PCRA",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "thu",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8s-w25-thu-001",
+      "question": "CNG stands for:",
+      "options": ["Crude Natural Gas", "Compressed Natural Gas", "Commercial Natural Gas", "Converted Natural Gas"],
+      "correctIndex": 1,
+      "explanation": "CNG = Compressed Natural Gas. It is natural gas (mainly methane) stored at high pressure and used as fuel for vehicles."
+    },
+    {
+      "id": "g8s-w25-thu-002",
+      "question": "LPG is mainly composed of:",
+      "options": ["Methane", "Propane and butane", "Ethane and methane", "Hydrogen"],
+      "correctIndex": 1,
+      "explanation": "LPG (Liquefied Petroleum Gas) consists mainly of propane (C₃H₈) and butane (C₄H₁₀), liquefied under pressure for storage in cylinders."
+    },
+    {
+      "id": "g8s-w25-thu-003",
+      "question": "CNG is considered an environment-friendly fuel for vehicles because:",
+      "options": ["It is cheaper than petrol", "It burns more completely and produces fewer pollutants than petrol or diesel", "It can be stored indefinitely", "It produces no energy"],
+      "correctIndex": 1,
+      "explanation": "CNG burns cleaner than petrol or diesel, producing less CO₂, almost no SO₂, and negligible particulate matter — making it more environment-friendly."
+    },
+    {
+      "id": "g8s-w25-thu-004",
+      "question": "Which fuel is used for cooking in Indian household cylinders?",
+      "options": ["CNG", "LPG", "Natural gas directly from wells", "Coal gas"],
+      "correctIndex": 1,
+      "explanation": "LPG (Liquefied Petroleum Gas) in pressurised cylinders is the standard cooking fuel in Indian homes."
+    },
+    {
+      "id": "g8s-w25-thu-005",
+      "question": "Natural gas is found:",
+      "options": ["Only in deserts", "Above petroleum deposits (lighter, rises to the top)", "Below petroleum deposits", "Only under the sea"],
+      "correctIndex": 1,
+      "explanation": "Natural gas (being lighter than petroleum) collects above crude oil deposits. It is often found at the top of oil wells."
+    },
+    {
+      "id": "g8s-w25-thu-006",
+      "question": "Why are coal and petroleum called non-renewable resources?",
+      "options": ["They are expensive", "They take millions of years to form and cannot be replenished once used up", "They cannot be found in India", "They are only found in solid form"],
+      "correctIndex": 1,
+      "explanation": "Non-renewable resources are those that took millions of years to form. Once depleted, they cannot be replaced in any practical timeframe."
+    },
+    {
+      "id": "g8s-w25-thu-007",
+      "question": "PCRA stands for:",
+      "options": ["Petroleum Corporation of Research Authority", "Petroleum Conservation Research Association", "Petroleum Chemical Refinery Administration", "Petrol Control and Regulation Agency"],
+      "correctIndex": 1,
+      "explanation": "PCRA = Petroleum Conservation Research Association. It is an Indian government agency that promotes fuel conservation and efficient use of petroleum products."
+    },
+    {
+      "id": "g8s-w25-thu-008",
+      "question": "Which of the following is a fuel conservation tip recommended by PCRA?",
+      "options": ["Drive at maximum speed always", "Keep the vehicle engine running at red lights", "Keep tyres properly inflated and service vehicles regularly", "Use older vehicles that consume more fuel"],
+      "correctIndex": 2,
+      "explanation": "Properly inflated tyres and regular servicing improve fuel efficiency. PCRA recommends these along with switching off engines at long red lights."
+    },
+    {
+      "id": "g8s-w25-thu-009",
+      "question": "CNG vehicles emit much less of which harmful gas compared to petrol vehicles?",
+      "options": ["Carbon dioxide only", "Nitrogen", "Sulphur dioxide and particulate matter", "Oxygen"],
+      "correctIndex": 2,
+      "explanation": "CNG vehicles emit far less sulphur dioxide (SO₂) and particulate matter compared to petrol or diesel vehicles, greatly reducing smog and lung diseases."
+    },
+    {
+      "id": "g8s-w25-thu-010",
+      "question": "The gas added to LPG cylinders to detect gas leaks by smell is called:",
+      "options": ["Methane", "Butane", "Ethyl mercaptan (a sulphur compound)", "Carbon monoxide"],
+      "correctIndex": 2,
+      "explanation": "Ethyl mercaptan (ethane thiol) is added to odourless LPG to give it a distinctive unpleasant smell, helping detect leaks and prevent accidents."
+    },
+    {
+      "id": "g8s-w25-thu-011",
+      "question": "If petroleum resources run out, the most likely impact on modern life would be:",
+      "options": ["Only cooking will be affected", "Severe disruption — transport, plastics, electricity generation, and industries all depend on petroleum", "Only cars will stop working", "Nothing major — alternatives are already available"],
+      "correctIndex": 1,
+      "explanation": "Modern civilization is heavily dependent on petroleum for transport fuels, plastics, medicines, synthetic fibres, and electricity. Its depletion would cause severe disruption."
+    },
+    {
+      "id": "g8s-w25-thu-012",
+      "question": "Which renewable energy alternative can reduce dependence on fossil fuels?",
+      "options": ["Coal", "Natural gas", "Solar and wind energy", "Petroleum"],
+      "correctIndex": 2,
+      "explanation": "Solar, wind, hydroelectric, and tidal energy are renewable alternatives that can reduce dependence on finite, polluting fossil fuels."
+    },
+    {
+      "id": "g8s-w25-thu-013",
+      "question": "Which is the CORRECT comparison between CNG and LPG?",
+      "options": ["CNG is used in cooking; LPG is used in vehicles", "CNG is mainly methane (gas); LPG is mainly propane/butane (liquid under pressure)", "CNG and LPG are identical", "LPG is more environment-friendly than CNG"],
+      "correctIndex": 1,
+      "explanation": "CNG = compressed methane (vehicle fuel); LPG = liquefied propane/butane (cooking fuel). Both are cleaner than petrol/diesel but differ in composition and use."
+    },
+    {
+      "id": "g8s-w25-thu-014",
+      "question": "Natural gas is used as a fuel in:",
+      "options": ["Only cars (as CNG)", "Only homes (as LPG)", "Power plants, industries, homes, and vehicles (CNG/PNG)", "Only in Rajasthan"],
+      "correctIndex": 2,
+      "explanation": "Natural gas has versatile uses: power generation, industrial processes, cooking (PNG — Piped Natural Gas), and as CNG for vehicles."
+    },
+    {
+      "id": "g8s-w25-thu-015",
+      "question": "Why should we conserve petroleum products?",
+      "options": ["Because they are too expensive", "Because they are non-renewable, finite, and polluting — conserving them extends supplies and reduces environmental harm", "Because the government has ordered it", "Because they are only found abroad"],
+      "correctIndex": 1,
+      "explanation": "Conservation is essential because petroleum is non-renewable (will run out), polluting (CO₂, SO₂), and has many other non-fuel uses (plastics, medicines) that make it too valuable to burn wastefully."
+    }
+  ]
+}

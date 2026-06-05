@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w25-fri",
+  "title": "Grade 6 Science — Fri, Jun 20",
+  "description": "Changes Around Us — Day 5 of 5: Mixed review",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "fri",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "changes", "review"],
+  "questions": [
+    { "id": "g6s-w25-fri-001", "question": "Which is a physical change?", "options": ["Burning of candle wax", "Rusting of iron", "Cutting of cloth", "Curdling of milk"], "correctIndex": 2, "explanation": "Cutting cloth only changes shape and size — no new substance is formed. It is a physical change.", "tags": ["physical-change"] },
+    { "id": "g6s-w25-fri-002", "question": "Which is a chemical change?", "options": ["Melting of ice", "Dissolving sugar", "Burning of paper", "Folding a napkin"], "correctIndex": 2, "explanation": "Burning paper produces ash and gases — new substances. It is an irreversible chemical change.", "tags": ["chemical-change"] },
+    { "id": "g6s-w25-fri-003", "question": "Rusting requires both ___ and ___.", "options": ["Heat and light", "Water and oxygen", "Carbon dioxide and water", "Salt and oxygen"], "correctIndex": 1, "explanation": "Rusting occurs when iron is in the presence of both water (moisture) and oxygen.", "tags": ["rusting"] },
+    { "id": "g6s-w25-fri-004", "question": "Cooking an egg is ___.", "options": ["Physical and reversible", "Chemical and reversible", "Chemical and irreversible", "Physical and irreversible"], "correctIndex": 2, "explanation": "Heat causes irreversible chemical changes in egg protein. The egg cannot be 'uncooked.'", "tags": ["irreversible"] },
+    { "id": "g6s-w25-fri-005", "question": "Which is a reversible change?", "options": ["Burning of wood", "Ripening of fruit", "Melting of ice", "Baking bread"], "correctIndex": 2, "explanation": "Melting ice is reversible — water can be frozen back into ice. The others are irreversible.", "tags": ["reversible"] },
+    { "id": "g6s-w25-fri-006", "question": "Galvanizing coats iron with ___.", "options": ["Copper", "Zinc", "Aluminium", "Tin"], "correctIndex": 1, "explanation": "Galvanization involves coating iron with zinc to prevent rusting.", "tags": ["prevention"] },
+    { "id": "g6s-w25-fri-007", "question": "Formation of a new substance is the key sign of a ___ change.", "options": ["Physical", "Reversible", "Chemical", "Melting"], "correctIndex": 2, "explanation": "Chemical changes produce one or more new substances with different properties — the key identifying feature.", "tags": ["chemical-change"] },
+    { "id": "g6s-w25-fri-008", "question": "Stretching a rubber band is a ___.", "options": ["Chemical and irreversible", "Physical and irreversible", "Physical and reversible", "Chemical and reversible"], "correctIndex": 2, "explanation": "Stretching rubber is a physical change — when released, the rubber returns to its original shape. It is reversible.", "tags": ["reversible"] },
+    { "id": "g6s-w25-fri-009", "question": "Painting iron prevents rusting by ___.", "options": ["Chemically reacting with rust", "Blocking water and oxygen from reaching iron", "Adding zinc to iron", "Heating the iron surface"], "correctIndex": 1, "explanation": "Paint creates a physical barrier that prevents water and oxygen (the two requirements for rusting) from reaching iron.", "tags": ["prevention"] },
+    { "id": "g6s-w25-fri-010", "question": "Dissolving salt in water is a ___ change.", "options": ["Chemical", "Irreversible", "Physical", "Combustion"], "correctIndex": 2, "explanation": "Salt dissolves physically in water. No new substance is formed. The salt can be recovered by evaporation.", "tags": ["physical-change"] },
+    { "id": "g6s-w25-fri-011", "question": "Which change is irreversible?", "options": ["Boiling water", "Dissolving salt", "Fermenting grape juice into wine", "Melting ice"], "correctIndex": 2, "explanation": "Fermentation is a chemical change — yeast converts sugar in grape juice to alcohol. This cannot be reversed.", "tags": ["irreversible"] },
+    { "id": "g6s-w25-fri-012", "question": "Iron does NOT rust if ___.", "options": ["Exposed to moist air", "Kept in contact with seawater", "Kept in dry air without moisture", "Exposed to oxygen alone"], "correctIndex": 2, "explanation": "Without moisture (water), rusting cannot occur. Dry air provides no water for the rusting reaction.", "tags": ["rusting"] },
+    { "id": "g6s-w25-fri-013", "question": "Rusting is an example of ___.", "options": ["Physical and reversible change", "Chemical and reversible change", "Chemical and irreversible change", "Physical and irreversible change"], "correctIndex": 2, "explanation": "Rusting produces iron oxide (a new chemical substance) — chemical change. It cannot easily be reversed — irreversible.", "tags": ["rusting"] },
+    { "id": "g6s-w25-fri-014", "question": "A reversible change is generally a ___ change.", "options": ["Chemical", "Biological", "Physical", "Nuclear"], "correctIndex": 2, "explanation": "Reversible changes are generally physical — they change form or state without forming new substances.", "tags": ["reversible"] },
+    { "id": "g6s-w25-fri-015", "question": "Which of these produces light, heat, AND new substances?", "options": ["Melting of wax only", "Dissolving sugar in water", "Burning of coal", "Cutting wood"], "correctIndex": 2, "explanation": "Burning coal produces light, heat, carbon dioxide and ash — new substances — confirming it is an irreversible chemical change.", "tags": ["chemical-change"] }
+  ]
+}

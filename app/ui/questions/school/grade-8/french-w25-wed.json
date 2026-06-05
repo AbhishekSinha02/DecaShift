@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-8-french-w25-wed",
+  "title": "Grade 8 French — Wed, Jun 18",
+  "description": "Le futur simple — Day 3 of 5: Irregular stems — être, avoir, aller, faire, venir",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "wed",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-8", "weekly"],
+  "conceptId": "futur-simple",
+  "questions": [
+    {
+      "id": "g8f-w25-wed-001",
+      "question": "Some verbs have irregular futur simple stems. What is the stem for 'être' (to be)?",
+      "options": ["êtr- (infinitive minus -e)", "est- (present)", "ser-", "ét- (imperfect stem)"],
+      "correctIndex": 2,
+      "explanation": "être is completely irregular in the futur simple. Its stem is ser-. Example: je serai (I will be), tu seras, il sera..."
+    },
+    {
+      "id": "g8f-w25-wed-002",
+      "question": "What is 'je serai' in English?",
+      "options": ["I was", "I am", "I will be", "I used to be"],
+      "correctIndex": 2,
+      "explanation": "serai = ser- (être futur stem) + -ai = je serai = I will be."
+    },
+    {
+      "id": "g8f-w25-wed-003",
+      "question": "Give the full futur simple of 'être' for 'nous'.",
+      "options": ["nous sommes (present)", "nous étions (imperfect)", "nous serons", "nous soyons (subjunctive)"],
+      "correctIndex": 2,
+      "explanation": "ser- + -ons = nous serons (we will be)."
+    },
+    {
+      "id": "g8f-w25-wed-004",
+      "question": "What is the irregular futur simple stem for 'avoir' (to have)?",
+      "options": ["avr- (incorrect)", "aur-", "av- (present stem)", "eur-"],
+      "correctIndex": 1,
+      "explanation": "avoir → futur stem: aur-. Examples: j'aurai (I will have), tu auras, il aura, nous aurons, vous aurez, ils auront."
+    },
+    {
+      "id": "g8f-w25-wed-005",
+      "question": "Translate: 'Demain, il aura plus de temps.'",
+      "options": ["Yesterday, he had more time.", "Tomorrow, he will have more time.", "Today, he has more time.", "He used to have more time."],
+      "correctIndex": 1,
+      "explanation": "aura = avoir futur simple (il form): aur- + -a. 'Tomorrow, he will have more time.'"
+    },
+    {
+      "id": "g8f-w25-wed-006",
+      "question": "What is the futur simple stem for 'aller' (to go)?",
+      "options": ["all- (infinitive minus -er)", "vai- (present je vais)", "ir-", "all-er"],
+      "correctIndex": 2,
+      "explanation": "aller → futur stem: ir-. This is the same stem as the infinitive of 'aller' in some senses. j'irai (I will go), tu iras, il ira, nous irons, vous irez, ils iront."
+    },
+    {
+      "id": "g8f-w25-wed-007",
+      "question": "Complete: 'Samedi prochain, nous _____ au cinéma.' (aller)",
+      "options": ["allons (present)", "allions (imperfect)", "irons", "sommes allés (passé composé)"],
+      "correctIndex": 2,
+      "explanation": "ir- + -ons = nous irons. 'Next Saturday, we will go to the cinema.'"
+    },
+    {
+      "id": "g8f-w25-wed-008",
+      "question": "What is the futur simple stem for 'faire' (to do/make)?",
+      "options": ["fais- (present je fais)", "fait- (past participle)", "fer-", "fir-"],
+      "correctIndex": 2,
+      "explanation": "faire → futur stem: fer-. je ferai, tu feras, il fera, nous ferons, vous ferez, ils feront."
+    },
+    {
+      "id": "g8f-w25-wed-009",
+      "question": "What does 'elle fera' mean?",
+      "options": ["she did", "she was doing", "she will do / she will make", "she does"],
+      "correctIndex": 2,
+      "explanation": "fera = fer- (faire futur stem) + -a = elle fera = 'she will do' or 'she will make'."
+    },
+    {
+      "id": "g8f-w25-wed-010",
+      "question": "What is the futur simple stem for 'venir' (to come)?",
+      "options": ["ven- (present stem)", "viendr-", "venir- (keep full infinitive)", "vindr-"],
+      "correctIndex": 1,
+      "explanation": "venir → futur stem: viendr-. je viendrai, tu viendras, il viendra, nous viendrons, vous viendrez, ils viendront."
+    },
+    {
+      "id": "g8f-w25-wed-011",
+      "question": "Complete: 'Mes amis _____ à la fête.' (venir, futur simple)",
+      "options": ["viennent (present)", "venaient (imperfect)", "viendront", "sont venus (passé composé)"],
+      "correctIndex": 2,
+      "explanation": "viendr- + -ont = ils viendront. 'My friends will come to the party.'"
+    },
+    {
+      "id": "g8f-w25-wed-012",
+      "question": "Match the irregular futur stems: être → ?, avoir → ?, aller → ?, faire → ?, venir → ?",
+      "options": ["êtr- / avr- / all- / fair- / ven-", "ser- / aur- / ir- / fer- / viendr-", "est- / a- / va- / fait- / vient-", "ét- / av- / al- / fais- / vien-"],
+      "correctIndex": 1,
+      "explanation": "The five key irregular futur stems: être→ser-, avoir→aur-, aller→ir-, faire→fer-, venir→viendr-. Memorise these five."
+    },
+    {
+      "id": "g8f-w25-wed-013",
+      "question": "Translate: 'L'année prochaine, tu seras en 9e.' (tu = you, 9e = 9th grade)",
+      "options": ["Last year, you were in 9th grade.", "Next year, you will be in 9th grade.", "This year, you are in 9th grade.", "You used to be in 9th grade."],
+      "correctIndex": 1,
+      "explanation": "seras = ser- (être) + -as (tu futur simple) = 'you will be'. 'Next year, you will be in 9th grade.'"
+    },
+    {
+      "id": "g8f-w25-wed-014",
+      "question": "Which sentence has an ERROR in the futur simple?",
+      "options": ["Je serai prêt demain.", "Nous aurons beaucoup de devoirs.", "Ils alleront au marché. ✗", "Elle fera la cuisine."],
+      "correctIndex": 2,
+      "explanation": "'alleront' is WRONG. aller's futur stem is ir-, not aller-. Correct: ils iront au marché."
+    },
+    {
+      "id": "g8f-w25-wed-015",
+      "question": "Put this sentence in the futur simple: 'Je vais à l'école.' (change to next week)",
+      "options": ["La semaine prochaine, je vais à l'école.", "La semaine prochaine, j'allais à l'école.", "La semaine prochaine, j'irai à l'école.", "La semaine prochaine, je suis allé à l'école."],
+      "correctIndex": 2,
+      "explanation": "aller → ir- + -ai = j'irai. 'La semaine prochaine, j'irai à l'école.' = Next week, I will go to school."
+    }
+  ]
+}

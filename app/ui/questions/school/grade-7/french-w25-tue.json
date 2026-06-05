@@ -1,0 +1,123 @@
+{
+  "goalId": "grade-7-french-w25-tue",
+  "title": "Grade 7 French — Tue, Jun 17",
+  "description": "L'imparfait — Day 2 of 5: Regular verbs in imparfait — parler, finir, prendre",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "tue",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["french", "grade-7", "weekly"],
+  "conceptId": "limparfait",
+  "questions": [
+    {
+      "id": "g7f-w25-tue-001",
+      "question": "Complete the conjugation table for 'parler' in imparfait. What is the 'ils' form?",
+      "options": ["ils parlais", "ils parlaient", "ils parlait", "ils parlons"],
+      "correctIndex": 1,
+      "explanation": "Ils/elles form of imparfait uses -aient. parl- + -aient = ils parlaient (they were speaking)."
+    },
+    {
+      "id": "g7f-w25-tue-002",
+      "question": "Translate: 'We were studying' (étudier → stem: étudi-)",
+      "options": ["Nous étudions", "Nous étudiions", "Nous étudiait", "Nous étudiais"],
+      "correctIndex": 1,
+      "explanation": "Stem: étudi- + -ions → nous étudiions. Note the double 'i' (stem ends in 'i' + endings -ions). We were studying = nous étudiions."
+    },
+    {
+      "id": "g7f-w25-tue-003",
+      "question": "Conjugate 'finir' in imparfait for 'vous'. (stem: finiss-)",
+      "options": ["vous finissiez", "vous finissais", "vous finissaient", "vous finissait"],
+      "correctIndex": 0,
+      "explanation": "finiss- + -iez → vous finissiez (you were finishing)."
+    },
+    {
+      "id": "g7f-w25-tue-004",
+      "question": "Which sentence is in l'imparfait?",
+      "options": ["Elle a mangé une pomme.", "Elle mangeait une pomme chaque jour.", "Elle mangera une pomme demain.", "Elle mange une pomme."],
+      "correctIndex": 1,
+      "explanation": "Elle mangeait = she was eating / she used to eat (imparfait). The key is the -ait ending and the ongoing/habitual meaning."
+    },
+    {
+      "id": "g7f-w25-tue-005",
+      "question": "Translate into French (imparfait): 'You (tu) used to read every evening.'",
+      "options": ["Tu lisais chaque soir.", "Tu lis chaque soir.", "Tu as lu chaque soir.", "Tu liras chaque soir."],
+      "correctIndex": 0,
+      "explanation": "lire → nous lisons → stem: lis- → tu lisais. Chaque soir = every evening. Tu lisais chaque soir = You used to read every evening."
+    },
+    {
+      "id": "g7f-w25-tue-006",
+      "question": "Conjugate 'prendre' in imparfait for 'nous'. (nous prenons → stem: pren-)",
+      "options": ["nous prenions", "nous prenions", "nous prenaient", "nous prenais"],
+      "correctIndex": 0,
+      "explanation": "pren- + -ions → nous prenions (we were taking). Both options A and B look the same — the answer is nous prenions."
+    },
+    {
+      "id": "g7f-w25-tue-007",
+      "question": "Which verb's imparfait stem is 'buvai-'? (boire → nous buvons → stem: buv-)",
+      "options": ["boire", "avoir", "être", "voir"],
+      "correctIndex": 0,
+      "explanation": "Boire (to drink) → nous buvons → stem buv- → je buvais, tu buvais, il buvait... etc."
+    },
+    {
+      "id": "g7f-w25-tue-008",
+      "question": "Fill in: 'Quand j'étais enfant, je ___ (jouer) au football.' (habitual past)",
+      "options": ["j'ai joué", "je jouais", "je jouerai", "je joue"],
+      "correctIndex": 1,
+      "explanation": "Habitual past action = imparfait. je jouais = I used to play / I was playing (when I was a child)."
+    },
+    {
+      "id": "g7f-w25-tue-009",
+      "question": "Conjugate 'choisir' (to choose) in imparfait for 'elle'. (nous choisissons → stem: choisiss-)",
+      "options": ["elle choisissait", "elle choisit", "elle choisissais", "elle choisira"],
+      "correctIndex": 0,
+      "explanation": "choisiss- + -ait → elle choisissait (she was choosing / she used to choose)."
+    },
+    {
+      "id": "g7f-w25-tue-010",
+      "question": "What does 'ils chantaient' mean?",
+      "options": ["They will sing", "They sang (completed action)", "They were singing / they used to sing", "They are singing"],
+      "correctIndex": 2,
+      "explanation": "Ils chantaient is the imparfait 3rd plural form of chanter. It means 'they were singing' (ongoing past) or 'they used to sing' (habitual past)."
+    },
+    {
+      "id": "g7f-w25-tue-011",
+      "question": "Translate: 'He was speaking French.' (parler → parl-)",
+      "options": ["Il parlait français.", "Il a parlé français.", "Il parle français.", "Il parlera français."],
+      "correctIndex": 0,
+      "explanation": "parl- + -ait → il parlait. Il parlait français = He was speaking French (ongoing past action)."
+    },
+    {
+      "id": "g7f-w25-tue-012",
+      "question": "Conjugate 'attendre' (to wait) in imparfait for 'je'. (nous attendons → stem: attend-)",
+      "options": ["j'attendais", "j'attendait", "j'attends", "j'attendrai"],
+      "correctIndex": 0,
+      "explanation": "attend- + -ais → j'attendais (I was waiting)."
+    },
+    {
+      "id": "g7f-w25-tue-013",
+      "question": "Which of these is the CORRECT full conjugation of 'parler' in imparfait?",
+      "options": ["je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient", "je parlais, tu parlas, il parla, nous parlâmes, vous parlâtes, ils parlèrent", "je parlais, tu parlais, il parlait, nous parlions, vous parlaient, ils parliez", "je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent"],
+      "correctIndex": 0,
+      "explanation": "Option A is the correct full imparfait conjugation of parler. Option B is the passé simple (literary), C has mixed up endings, D is present tense."
+    },
+    {
+      "id": "g7f-w25-tue-014",
+      "question": "Translate: 'You (vous) were eating dinner.' (manger → mange-)",
+      "options": ["Vous mangiez le dîner.", "Vous mangeait le dîner.", "Vous mangez le dîner.", "Vous mangeâtes le dîner."],
+      "correctIndex": 0,
+      "explanation": "mange- + -iez → vous mangiez. Vous mangiez le dîner = You were eating dinner."
+    },
+    {
+      "id": "g7f-w25-tue-015",
+      "question": "Identify the mistake: 'Nous finissions nos devoirs chaque soir.'",
+      "options": ["finissions is wrong — should be finissait", "finissions is wrong — should be finissons", "There is no mistake — this is correct imparfait", "finissions is wrong — should be finissiez"],
+      "correctIndex": 2,
+      "explanation": "Nous finissions is the correct imparfait form of finir for nous: finiss- + -ions = finissions. There is no mistake."
+    }
+  ]
+}

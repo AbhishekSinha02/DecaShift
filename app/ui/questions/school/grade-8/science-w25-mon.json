@@ -1,0 +1,122 @@
+{
+  "goalId": "grade-8-science-w25-mon",
+  "title": "Grade 8 Science — Mon, Jun 16",
+  "description": "Coal and Petroleum — Day 1 of 5: Formation of coal; types of coal",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 25,
+  "weekDay": "mon",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8s-w25-mon-001",
+      "question": "Coal, petroleum, and natural gas are called 'fossil fuels' because:",
+      "options": ["They are found in fossils of animals", "They were formed from remains of ancient organisms buried millions of years ago", "They are mined like fossils", "They contain fossil bones"],
+      "correctIndex": 1,
+      "explanation": "Fossil fuels formed from remains of ancient plants and marine organisms buried under earth for millions of years under heat and pressure."
+    },
+    {
+      "id": "g8s-w25-mon-002",
+      "question": "Coal is formed from:",
+      "options": ["Marine organisms (plankton and algae)", "Ancient land vegetation (dense forests buried under swamps)", "Volcanic ash", "Underground water reactions"],
+      "correctIndex": 1,
+      "explanation": "Coal is formed from ancient land plants (dense forests) that were buried under swamps and converted over millions of years by heat and pressure — a process called carbonisation."
+    },
+    {
+      "id": "g8s-w25-mon-003",
+      "question": "The process by which slow conversion of dead vegetation into coal takes place is called:",
+      "options": ["Fossilisation", "Carbonisation", "Distillation", "Sedimentation"],
+      "correctIndex": 1,
+      "explanation": "Carbonisation is the slow process by which dead plants buried under the earth are converted to coal over millions of years due to heat and pressure."
+    },
+    {
+      "id": "g8s-w25-mon-004",
+      "question": "Which is the LOWEST grade of coal (first stage of carbonisation)?",
+      "options": ["Bituminous", "Anthracite", "Lignite", "Peat"],
+      "correctIndex": 3,
+      "explanation": "The stages of coal formation (increasing carbon content): Peat → Lignite → Bituminous → Anthracite. Peat is the youngest, lowest grade."
+    },
+    {
+      "id": "g8s-w25-mon-005",
+      "question": "Which is the HIGHEST quality coal with the most carbon content?",
+      "options": ["Peat", "Lignite", "Bituminous", "Anthracite"],
+      "correctIndex": 3,
+      "explanation": "Anthracite is the highest grade of coal — hardest, highest carbon content (over 90%), burns cleanest, and gives most heat."
+    },
+    {
+      "id": "g8s-w25-mon-006",
+      "question": "Bituminous coal is:",
+      "options": ["The hardest form of coal", "The most commonly used coal for electricity generation and steel production", "The youngest form of coal", "Found only in India"],
+      "correctIndex": 1,
+      "explanation": "Bituminous coal is the most abundant and widely used type. It is used in electricity generation and steel production (as coke)."
+    },
+    {
+      "id": "g8s-w25-mon-007",
+      "question": "How long does it take to form coal naturally?",
+      "options": ["A few years", "Hundreds of years", "Millions of years", "Thousands of years"],
+      "correctIndex": 2,
+      "explanation": "Coal takes millions of years to form from buried vegetation. This is why it is a non-renewable resource."
+    },
+    {
+      "id": "g8s-w25-mon-008",
+      "question": "Coal is called a non-renewable resource because:",
+      "options": ["It is hard to mine", "Once used, it cannot be replenished in a human lifetime", "It is found only in a few places", "It is dangerous to extract"],
+      "correctIndex": 1,
+      "explanation": "Coal forms over millions of years. Once we use up existing coal reserves, it cannot be replaced in any practical timeframe — making it non-renewable."
+    },
+    {
+      "id": "g8s-w25-mon-009",
+      "question": "Lignite is also known as:",
+      "options": ["Hard coal", "Brown coal", "Soft coal", "White coal"],
+      "correctIndex": 1,
+      "explanation": "Lignite is also called 'brown coal' — it is brownish in color, soft, with lower carbon content than bituminous coal."
+    },
+    {
+      "id": "g8s-w25-mon-010",
+      "question": "Which stage of coal formation directly precedes lignite?",
+      "options": ["Anthracite", "Bituminous", "Peat", "Charcoal"],
+      "correctIndex": 2,
+      "explanation": "The order is: Peat → Lignite → Bituminous → Anthracite. Peat directly precedes lignite in coal formation."
+    },
+    {
+      "id": "g8s-w25-mon-011",
+      "question": "Burning fossil fuels releases large amounts of which gas that contributes to global warming?",
+      "options": ["Nitrogen", "Oxygen", "Carbon dioxide (CO₂)", "Helium"],
+      "correctIndex": 2,
+      "explanation": "Burning coal, petroleum, and natural gas releases CO₂, a major greenhouse gas that traps heat and contributes to global warming."
+    },
+    {
+      "id": "g8s-w25-mon-012",
+      "question": "Which of these is a fossil fuel?",
+      "options": ["Wood", "Coal", "Cow dung", "Wind"],
+      "correctIndex": 1,
+      "explanation": "Coal is a fossil fuel (formed from ancient organisms). Wood, cow dung are biofuels; wind is a renewable energy source."
+    },
+    {
+      "id": "g8s-w25-mon-013",
+      "question": "In which type of environment were ancient forests buried to eventually form coal?",
+      "options": ["Desert regions", "Swampy / marshy areas covered with water", "Mountain ranges", "Ocean floors"],
+      "correctIndex": 1,
+      "explanation": "Ancient forests were buried in swampy areas. Water excluded oxygen, allowing slow decomposition and eventual carbonisation into coal."
+    },
+    {
+      "id": "g8s-w25-mon-014",
+      "question": "Which country has the world's largest known coal reserves?",
+      "options": ["China", "India", "Russia", "USA"],
+      "correctIndex": 3,
+      "explanation": "The United States has the world's largest known coal reserves. China, Australia, and Russia also have large reserves."
+    },
+    {
+      "id": "g8s-w25-mon-015",
+      "question": "Which gas, trapped in coal mines, is responsible for many mine explosions?",
+      "options": ["Carbon dioxide", "Hydrogen", "Methane", "Nitrogen"],
+      "correctIndex": 2,
+      "explanation": "Methane (CH₄) is trapped in coal seams and can accumulate in mine shafts, creating explosive conditions. This is known as 'firedamp' in mines."
+    }
+  ]
+}
