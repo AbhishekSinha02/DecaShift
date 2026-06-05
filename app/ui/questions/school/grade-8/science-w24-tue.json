@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-science-w24-tue",
+  "title": "Grade 8 Science — Tue, Jun 10",
+  "description": "Metals and Non-metals — Day 2 of 5: Chemical properties",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly", "metals-nonmetals"],
+  "questions": [
+    { "id": "g8s-w24-tue-001", "question": "When metals react with oxygen, they form:", "options": ["Metal hydroxides", "Metal oxides", "Metal chlorides", "Metal sulphides"], "correctIndex": 1, "explanation": "Metals burn or react with oxygen to form metal oxides (e.g., 2Mg + O₂ → 2MgO — magnesium oxide).", "tags": ["metals", "chemical-properties"] },
+    { "id": "g8s-w24-tue-002", "question": "Metal oxides are generally:", "options": ["Acidic in nature", "Basic (alkaline) in nature", "Neutral always", "Neither acidic nor basic"], "correctIndex": 1, "explanation": "Metal oxides are basic in nature. For example, CaO (lime) and MgO dissolve in water to form alkaline solutions.", "tags": ["metals", "oxides"] },
+    { "id": "g8s-w24-tue-003", "question": "Non-metal oxides are generally:", "options": ["Basic", "Neutral", "Acidic", "Noble gases"], "correctIndex": 2, "explanation": "Non-metal oxides are acidic. CO₂ dissolves in water to form carbonic acid; SO₂ forms sulphurous acid.", "tags": ["non-metals", "oxides"] },
+    { "id": "g8s-w24-tue-004", "question": "When sodium metal is placed in water, it reacts vigorously to produce:", "options": ["Sodium oxide and carbon dioxide", "Sodium hydroxide and hydrogen gas", "Sodium chloride and oxygen", "No reaction"], "correctIndex": 1, "explanation": "2Na + 2H₂O → 2NaOH + H₂↑. Sodium reacts violently with water, producing sodium hydroxide and hydrogen gas.", "tags": ["metals", "reaction-with-water"] },
+    { "id": "g8s-w24-tue-005", "question": "Which gas is released when a metal reacts with dilute acid?", "options": ["Oxygen", "Carbon dioxide", "Hydrogen", "Nitrogen"], "correctIndex": 2, "explanation": "Metals react with dilute acids to produce a metal salt and hydrogen gas. E.g., Fe + H₂SO₄ → FeSO₄ + H₂↑.", "tags": ["metals", "reaction-with-acid"] },
+    { "id": "g8s-w24-tue-006", "question": "Which metal does NOT react with dilute hydrochloric acid?", "options": ["Zinc", "Iron", "Copper", "Magnesium"], "correctIndex": 2, "explanation": "Copper is a less reactive metal and does not react with dilute HCl. Gold and silver also do not react with dilute acids.", "tags": ["metals", "reactivity"] },
+    { "id": "g8s-w24-tue-007", "question": "Iron rusts when it reacts with oxygen and ____ together.", "options": ["Carbon dioxide", "Water (moisture)", "Nitrogen", "Hydrogen"], "correctIndex": 1, "explanation": "Rusting of iron (corrosion) requires both oxygen and water (moisture). The chemical name for rust is hydrated iron(III) oxide.", "tags": ["metals", "rusting"] },
+    { "id": "g8s-w24-tue-008", "question": "Aluminium does not corrode easily even though it is a reactive metal because:", "options": ["It is coated with plastic", "It forms a thin, protective layer of aluminium oxide on its surface", "It does not react with oxygen", "Its electrons are immobile"], "correctIndex": 1, "explanation": "Aluminium reacts quickly with oxygen to form a thin, tough layer of Al₂O₃ on its surface, which prevents further corrosion.", "tags": ["metals", "aluminium"] },
+    { "id": "g8s-w24-tue-009", "question": "Non-metals generally do NOT react with water. Which non-metal is an exception that reacts violently with water?", "options": ["Sulphur", "Carbon", "Fluorine", "Iodine"], "correctIndex": 2, "explanation": "Fluorine is highly reactive and reacts vigorously with water. Most non-metals like carbon and sulphur do not react with water.", "tags": ["non-metals", "reactivity"] },
+    { "id": "g8s-w24-tue-010", "question": "The reaction of acid with a metal oxide (base) to form salt and water is called:", "options": ["Displacement", "Neutralisation", "Combustion", "Decomposition"], "correctIndex": 1, "explanation": "Neutralisation: acid + metal oxide (base) → salt + water. E.g., HCl + CaO → CaCl₂ + H₂O.", "tags": ["metals", "neutralisation"] },
+    { "id": "g8s-w24-tue-011", "question": "When magnesium ribbon burns in air, the ash produced is:", "options": ["Black", "Red", "White (magnesium oxide)", "Yellow"], "correctIndex": 2, "explanation": "Magnesium burns with a bright white flame and forms white magnesium oxide (MgO) ash.", "tags": ["metals", "magnesium"] },
+    { "id": "g8s-w24-tue-012", "question": "Which of these is an acidic non-metal oxide?", "options": ["CaO", "Na₂O", "MgO", "SO₂"], "correctIndex": 3, "explanation": "SO₂ (sulphur dioxide) is a non-metal oxide. It dissolves in water to form sulphurous acid (H₂SO₃) — an acid.", "tags": ["non-metals", "oxides"] },
+    { "id": "g8s-w24-tue-013", "question": "Gold and silver are called noble metals because they:", "options": ["Are very reactive with acids", "Are very expensive only", "Do not react with oxygen, water, or dilute acids easily", "Conduct electricity very poorly"], "correctIndex": 2, "explanation": "Gold and silver are noble (inert) metals — they resist corrosion and do not react with oxygen, water, or dilute acids.", "tags": ["metals", "noble-metals"] },
+    { "id": "g8s-w24-tue-014", "question": "Sulphur reacts with oxygen when heated to produce:", "options": ["Sulphuric acid", "Sulphur dioxide (SO₂)", "Hydrogen sulphide", "Sulphur nitrate"], "correctIndex": 1, "explanation": "S + O₂ → SO₂. Sulphur burns in oxygen to produce sulphur dioxide, a choking, acidic gas.", "tags": ["non-metals", "sulphur"] },
+    { "id": "g8s-w24-tue-015", "question": "When zinc reacts with dilute sulphuric acid, the products are:", "options": ["Zinc oxide and water", "Zinc sulphate and hydrogen gas", "Zinc chloride and oxygen", "No reaction"], "correctIndex": 1, "explanation": "Zn + H₂SO₄ → ZnSO₄ + H₂↑. Zinc displaces hydrogen from sulphuric acid to form zinc sulphate and hydrogen gas.", "tags": ["metals", "reaction-with-acid"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w24-tue",
+  "title": "Grade 3 Science — Tue, Jun 10",
+  "description": "Plant Kingdom — Day 2 of 5: Roots — types and functions",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "plants"],
+  "questions": [
+    { "id": "g3s-w24-tue-001", "question": "The two main types of roots are:", "options": ["Thin and thick roots", "Tap root and fibrous root", "Air root and water root", "Long root and short root"], "correctIndex": 1, "explanation": "Plants have either a tap root (one main thick root with smaller branches) or fibrous roots (many thin roots of equal size).", "tags": ["plants", "roots"] },
+    { "id": "g3s-w24-tue-002", "question": "A tap root has one main thick root that grows ____ and smaller roots from it.", "options": ["Sideways at the surface", "Straight down into the soil", "Above the ground", "Into water only"], "correctIndex": 1, "explanation": "A tap root grows vertically down deep into the soil. Mango, neem, and gram plants have tap roots.", "tags": ["plants", "tap-root"] },
+    { "id": "g3s-w24-tue-003", "question": "Fibrous roots are:", "options": ["One thick main root", "Many thin roots of similar size spreading from the base of the stem", "Roots that grow above the ground", "Roots found only in water"], "correctIndex": 1, "explanation": "Fibrous roots form a dense mat of many thin equal roots, like in grass, wheat, and rice.", "tags": ["plants", "fibrous-root"] },
+    { "id": "g3s-w24-tue-004", "question": "Which plant has a tap root?", "options": ["Grass", "Rice", "Carrot", "Wheat"], "correctIndex": 2, "explanation": "Carrot has a tap root that stores food and grows deep into the soil. We eat the carrot root.", "tags": ["plants", "tap-root"] },
+    { "id": "g3s-w24-tue-005", "question": "Which plant has fibrous roots?", "options": ["Mango", "Neem", "Gram", "Grass"], "correctIndex": 3, "explanation": "Grass has fibrous roots — a dense network of thin roots that spread near the surface of the soil.", "tags": ["plants", "fibrous-root"] },
+    { "id": "g3s-w24-tue-006", "question": "Roots help the plant by anchoring it to the soil. This means roots:", "options": ["Make food for the plant", "Hold the plant firm so it does not fall", "Carry water to leaves", "Attract bees"], "correctIndex": 1, "explanation": "Roots hold the plant firmly in the soil, preventing it from being uprooted by wind or rain.", "tags": ["plants", "roots"] },
+    { "id": "g3s-w24-tue-007", "question": "Roots also absorb ____ and ____ from the soil for the plant.", "options": ["Air and light", "Water and minerals", "Carbon dioxide and sugar", "Seeds and pollen"], "correctIndex": 1, "explanation": "Roots absorb water and dissolved minerals (nutrients) from the soil, which the plant needs to grow.", "tags": ["plants", "roots"] },
+    { "id": "g3s-w24-tue-008", "question": "Which of these is a root that we eat as food?", "options": ["Spinach leaf", "Radish", "Tomato", "Banana"], "correctIndex": 1, "explanation": "Radish is a tap root that we eat as a vegetable. Other edible roots include carrot, beet, and turnip.", "tags": ["plants", "roots"] },
+    { "id": "g3s-w24-tue-009", "question": "The tiny hair-like parts near the tip of a root are called:", "options": ["Leaf veins", "Root hairs", "Pollen", "Spores"], "correctIndex": 1, "explanation": "Root hairs are tiny extensions near the root tip. They greatly increase the area for absorbing water and minerals.", "tags": ["plants", "root-hairs"] },
+    { "id": "g3s-w24-tue-010", "question": "Why do fibrous roots prevent soil erosion better than tap roots?", "options": ["They grow deeper into the soil", "They spread widely and hold soil particles together near the surface", "They produce more food", "They absorb more sunlight"], "correctIndex": 1, "explanation": "Fibrous roots spread in all directions near the surface, binding soil particles and stopping rain from washing the soil away.", "tags": ["plants", "fibrous-root"] },
+    { "id": "g3s-w24-tue-011", "question": "The banyan tree grows roots from its branches that reach the ground. These are called:", "options": ["Fibrous roots", "Tap roots", "Prop roots (aerial roots)", "Root hairs"], "correctIndex": 2, "explanation": "Banyan tree branches grow prop roots (aerial roots) that reach down into the ground to support the wide branches.", "tags": ["plants", "special-roots"] },
+    { "id": "g3s-w24-tue-012", "question": "A plant that grows in desert stores water in its roots. This is an example of a ____ root.", "options": ["Tap", "Fibrous", "Storage", "Floating"], "correctIndex": 2, "explanation": "Some plants store food or water in modified (storage) roots. Examples: sweet potato, radish, carrot.", "tags": ["plants", "roots"] },
+    { "id": "g3s-w24-tue-013", "question": "Which of the following does NOT describe a function of roots?", "options": ["Absorbing water from soil", "Anchoring the plant", "Making food using sunlight", "Storing food in some plants"], "correctIndex": 2, "explanation": "Making food (photosynthesis) is done by leaves, not roots. Roots anchor, absorb water, and sometimes store food.", "tags": ["plants", "roots"] },
+    { "id": "g3s-w24-tue-014", "question": "Rice and wheat have ____ roots.", "options": ["Tap", "Fibrous", "Aerial", "Floating"], "correctIndex": 1, "explanation": "Cereals like rice and wheat have fibrous root systems — many thin roots spreading from the base of the stem.", "tags": ["plants", "fibrous-root"] },
+    { "id": "g3s-w24-tue-015", "question": "The main difference between tap root and fibrous root is:", "options": ["Tap root is green; fibrous root is brown", "Tap root has one thick main root; fibrous root has many thin equal roots", "Only tap roots absorb water", "Only fibrous roots anchor the plant"], "correctIndex": 1, "explanation": "The key difference: tap root = one dominant main root with side branches; fibrous root = many thin roots of similar size.", "tags": ["plants", "roots"] }
+  ]
+}

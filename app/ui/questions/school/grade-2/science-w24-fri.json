@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w24-fri",
+  "title": "Grade 2 Science — Fri, Jun 13",
+  "description": "Animals Around Us — Day 5 of 5: Mixed review — baby names, sounds, and uses",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "fri",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "animals"],
+  "questions": [
+    { "id": "g2s-w24-fri-001", "question": "The baby of a cow is called a:", "options": ["Cub", "Calf", "Kitten", "Foal"], "correctIndex": 1, "explanation": "A baby cow is called a calf. Baby animals have special names — learning them is fun!", "tags": ["animals", "baby-names"] },
+    { "id": "g2s-w24-fri-002", "question": "The baby of a dog is called a:", "options": ["Cub", "Foal", "Puppy", "Kid"], "correctIndex": 2, "explanation": "A baby dog is called a puppy. Puppies are born with closed eyes and open them after about two weeks.", "tags": ["animals", "baby-names"] },
+    { "id": "g2s-w24-fri-003", "question": "The baby of a lion is called a:", "options": ["Calf", "Cub", "Kid", "Joey"], "correctIndex": 1, "explanation": "A baby lion is called a cub. Bear, tiger, and wolf babies are also called cubs.", "tags": ["animals", "baby-names"] },
+    { "id": "g2s-w24-fri-004", "question": "The baby of a horse is called a:", "options": ["Colt only", "Foal", "Calf", "Puppy"], "correctIndex": 1, "explanation": "A baby horse is called a foal. A male foal is a colt and a female foal is a filly.", "tags": ["animals", "baby-names"] },
+    { "id": "g2s-w24-fri-005", "question": "The baby of a cat is called a:", "options": ["Puppy", "Cub", "Kitten", "Kid"], "correctIndex": 2, "explanation": "A baby cat is called a kitten. Kittens open their eyes at about 7–10 days after birth.", "tags": ["animals", "baby-names"] },
+    { "id": "g2s-w24-fri-006", "question": "What sound does a lion make?", "options": ["Moo", "Bark", "Roar", "Meow"], "correctIndex": 2, "explanation": "Lions roar loudly to communicate and mark their territory. A lion's roar can be heard up to 8 km away.", "tags": ["animals", "sounds"] },
+    { "id": "g2s-w24-fri-007", "question": "What sound does a cow make?", "options": ["Roar", "Moo", "Bark", "Squeak"], "correctIndex": 1, "explanation": "Cows moo (also called lowing) to communicate with their calves and other cows.", "tags": ["animals", "sounds"] },
+    { "id": "g2s-w24-fri-008", "question": "We get honey from:", "options": ["Ants", "Bees", "Butterflies", "Flies"], "correctIndex": 1, "explanation": "Honey bees collect nectar from flowers and make honey in their hives. Humans keep bee hives to harvest honey.", "tags": ["animals", "uses"] },
+    { "id": "g2s-w24-fri-009", "question": "Which animal gives us silk?", "options": ["Bee", "Cow", "Silkworm", "Spider"], "correctIndex": 2, "explanation": "The silkworm spins a cocoon of fine silk thread. Humans unwind this thread to make silk cloth.", "tags": ["animals", "uses"] },
+    { "id": "g2s-w24-fri-010", "question": "Which animal helps farmers by eating pests in fields?", "options": ["Lion", "Frog", "Elephant", "Horse"], "correctIndex": 1, "explanation": "Frogs eat insects and other pests in fields, helping farmers protect their crops naturally.", "tags": ["animals", "uses"] },
+    { "id": "g2s-w24-fri-011", "question": "The baby of a goat is called a:", "options": ["Calf", "Kid", "Cub", "Lamb"], "correctIndex": 1, "explanation": "A baby goat is called a kid. Baby sheep are called lambs.", "tags": ["animals", "baby-names"] },
+    { "id": "g2s-w24-fri-012", "question": "Which animal gives us wool for making warm clothes?", "options": ["Dog", "Hen", "Sheep", "Fish"], "correctIndex": 2, "explanation": "Sheep are sheared (their thick wool coat is cut) every year. The wool is cleaned and spun into yarn for warm clothes.", "tags": ["animals", "uses"] },
+    { "id": "g2s-w24-fri-013", "question": "A baby kangaroo that stays in its mother's pouch is called a:", "options": ["Cub", "Kitten", "Joey", "Foal"], "correctIndex": 2, "explanation": "A baby kangaroo is called a joey. It is born tiny and grows inside its mother's pouch for several months.", "tags": ["animals", "baby-names"] },
+    { "id": "g2s-w24-fri-014", "question": "Which animal is used to guide the blind?", "options": ["Cat", "Snake", "Guide dog", "Horse"], "correctIndex": 2, "explanation": "Trained guide dogs (usually Labrador Retrievers or German Shepherds) help visually impaired people navigate safely.", "tags": ["animals", "uses"] },
+    { "id": "g2s-w24-fri-015", "question": "Which two animals are both herbivores AND give humans useful products?", "options": ["Tiger and lion", "Cow and goat", "Eagle and snake", "Crocodile and deer"], "correctIndex": 1, "explanation": "Cows and goats are herbivores that eat only plants. They also give humans milk, which we drink and use to make curd, cheese, and butter.", "tags": ["animals", "mixed"] }
+  ]
+}

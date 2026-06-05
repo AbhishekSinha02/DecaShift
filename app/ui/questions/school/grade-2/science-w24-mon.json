@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w24-mon",
+  "title": "Grade 2 Science — Mon, Jun 09",
+  "description": "Animals Around Us — Day 1 of 5: Types of animals",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "animals"],
+  "questions": [
+    { "id": "g2s-w24-mon-001", "question": "Which of these is a wild animal?", "options": ["Dog", "Cow", "Lion", "Cat"], "correctIndex": 2, "explanation": "Lions live in forests and are wild animals. They are not kept as pets or on farms.", "tags": ["animals", "wild"] },
+    { "id": "g2s-w24-mon-002", "question": "Which of these is a domestic animal?", "options": ["Tiger", "Elephant", "Cow", "Bear"], "correctIndex": 2, "explanation": "Cows are domestic animals that humans keep on farms for milk and other needs.", "tags": ["animals", "domestic"] },
+    { "id": "g2s-w24-mon-003", "question": "Which of these is a pet animal?", "options": ["Lion", "Rabbit", "Crocodile", "Wolf"], "correctIndex": 1, "explanation": "Rabbits are commonly kept as pets at home because they are gentle and easy to care for.", "tags": ["animals", "pets"] },
+    { "id": "g2s-w24-mon-004", "question": "Where do wild animals mostly live?", "options": ["In our homes", "On farms", "In forests and jungles", "In schools"], "correctIndex": 2, "explanation": "Wild animals like tigers, deer, and elephants live in forests and jungles.", "tags": ["animals", "wild"] },
+    { "id": "g2s-w24-mon-005", "question": "Which animal gives us milk?", "options": ["Dog", "Cow", "Parrot", "Fish"], "correctIndex": 1, "explanation": "Cows are domestic animals kept on farms because they give us milk every day.", "tags": ["animals", "domestic"] },
+    { "id": "g2s-w24-mon-006", "question": "A parrot is kept as a ____.", "options": ["Wild animal", "Farm animal", "Pet", "Work animal"], "correctIndex": 2, "explanation": "Parrots are colourful birds that are often kept as pets at home.", "tags": ["animals", "pets"] },
+    { "id": "g2s-w24-mon-007", "question": "Which of these animals is used to carry loads?", "options": ["Parrot", "Cat", "Camel", "Rabbit"], "correctIndex": 2, "explanation": "Camels are used to carry heavy loads across deserts. They are important work animals.", "tags": ["animals", "domestic"] },
+    { "id": "g2s-w24-mon-008", "question": "Which of these is NOT a pet animal?", "options": ["Cat", "Dog", "Goldfish", "Tiger"], "correctIndex": 3, "explanation": "Tigers are wild animals that live in forests. They are not safe to keep as pets.", "tags": ["animals", "wild"] },
+    { "id": "g2s-w24-mon-009", "question": "Which animal is called the 'ship of the desert'?", "options": ["Horse", "Elephant", "Camel", "Donkey"], "correctIndex": 2, "explanation": "The camel is called the ship of the desert because it travels easily across sandy deserts.", "tags": ["animals", "domestic"] },
+    { "id": "g2s-w24-mon-010", "question": "An elephant in a jungle is a ____ animal.", "options": ["Pet", "Domestic", "Wild", "Farm"], "correctIndex": 2, "explanation": "Elephants that live in jungles and forests are wild animals.", "tags": ["animals", "wild"] },
+    { "id": "g2s-w24-mon-011", "question": "Which of these animals gives us wool?", "options": ["Goat", "Cat", "Cow", "Rabbit"], "correctIndex": 0, "explanation": "Goats (and sheep) give us wool, which is used to make warm clothes.", "tags": ["animals", "domestic"] },
+    { "id": "g2s-w24-mon-012", "question": "Which of these animals is kept at a zoo?", "options": ["Cat", "Hen", "Zebra", "Dog"], "correctIndex": 2, "explanation": "Zebras are wild animals. We can see them at a zoo, where they are looked after safely.", "tags": ["animals", "wild"] },
+    { "id": "g2s-w24-mon-013", "question": "Hens are kept on a farm to give us ____.", "options": ["Milk", "Wool", "Eggs", "Honey"], "correctIndex": 2, "explanation": "Hens are domestic birds kept on farms mainly for their eggs.", "tags": ["animals", "domestic"] },
+    { "id": "g2s-w24-mon-014", "question": "Which is a pet bird that can talk?", "options": ["Sparrow", "Eagle", "Parrot", "Crow"], "correctIndex": 2, "explanation": "Parrots are pet birds that can learn to copy words and sounds.", "tags": ["animals", "pets"] },
+    { "id": "g2s-w24-mon-015", "question": "Which of these is a wild animal found in India?", "options": ["Cow", "Hen", "Royal Bengal Tiger", "Dog"], "correctIndex": 2, "explanation": "The Royal Bengal Tiger is India's national animal and lives wild in forests.", "tags": ["animals", "wild"] }
+  ]
+}

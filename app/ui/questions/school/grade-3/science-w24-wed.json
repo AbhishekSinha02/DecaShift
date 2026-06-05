@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w24-wed",
+  "title": "Grade 3 Science — Wed, Jun 11",
+  "description": "Plant Kingdom — Day 3 of 5: Stems — types and functions",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "plants"],
+  "questions": [
+    { "id": "g3s-w24-wed-001", "question": "The main job of the stem is to:", "options": ["Make seeds", "Support the plant and carry water from roots to leaves", "Absorb sunlight directly", "Attract bees"], "correctIndex": 1, "explanation": "The stem holds the plant upright and transports water, minerals, and food between roots and leaves.", "tags": ["plants", "stem"] },
+    { "id": "g3s-w24-wed-002", "question": "A stem that is soft and green is called a ____ stem.", "options": ["Woody", "Herbaceous", "Underground", "Modified"], "correctIndex": 1, "explanation": "Herbaceous stems are soft, green, and flexible. Examples: rose, sunflower seedling, and grass.", "tags": ["plants", "stem"] },
+    { "id": "g3s-w24-wed-003", "question": "A stem that is hard, thick, and brown is called a ____ stem.", "options": ["Herbaceous", "Hollow", "Woody", "Succulent"], "correctIndex": 2, "explanation": "Woody stems are hard and strong. Trees like mango, neem, and oak have woody stems (called trunks).", "tags": ["plants", "stem"] },
+    { "id": "g3s-w24-wed-004", "question": "Which plant has an underground stem that we eat?", "options": ["Rose", "Potato", "Mango", "Neem"], "correctIndex": 1, "explanation": "Potato is a modified underground stem (tuber) that stores food. We eat the swollen underground stem.", "tags": ["plants", "modified-stem"] },
+    { "id": "g3s-w24-wed-005", "question": "The stem of a cactus is:", "options": ["Thin and weak", "Modified to store water in dry conditions", "Underground only", "Made of leaves"], "correctIndex": 1, "explanation": "The cactus has a thick, fleshy stem that stores water. Its leaves are modified into spines to reduce water loss.", "tags": ["plants", "modified-stem"] },
+    { "id": "g3s-w24-wed-006", "question": "Water absorbed by the roots travels up to the leaves through tiny tubes in the:", "options": ["Roots only", "Stem", "Flowers", "Fruit"], "correctIndex": 1, "explanation": "The stem has a network of tiny tubes (xylem vessels) that carry water and minerals from roots up to the leaves.", "tags": ["plants", "stem"] },
+    { "id": "g3s-w24-wed-007", "question": "Onion is actually a modified stem called a:", "options": ["Tuber", "Bulb", "Rhizome", "Corm"], "correctIndex": 1, "explanation": "An onion is a bulb — a modified underground stem with fleshy leaves that store food.", "tags": ["plants", "modified-stem"] },
+    { "id": "g3s-w24-wed-008", "question": "Ginger is a modified stem that grows:", "options": ["Above the ground", "In water", "Horizontally underground (rhizome)", "On tree branches"], "correctIndex": 2, "explanation": "Ginger is a rhizome — a horizontally growing underground stem. We use ginger as a spice in Indian cooking.", "tags": ["plants", "modified-stem"] },
+    { "id": "g3s-w24-wed-009", "question": "What are the points on a stem where leaves and buds grow called?", "options": ["Root tips", "Nodes", "Petals", "Spores"], "correctIndex": 1, "explanation": "Nodes are the points on the stem where leaves, buds, and branches arise. Internodes are the spaces between nodes.", "tags": ["plants", "stem"] },
+    { "id": "g3s-w24-wed-010", "question": "Which of these is an example of a climbing plant whose stem wraps around a support?", "options": ["Mango", "Cactus", "Money plant", "Wheat"], "correctIndex": 2, "explanation": "Money plant is a climber — its stem winds around supports. Cucumber and bean are also climbers.", "tags": ["plants", "stem"] },
+    { "id": "g3s-w24-wed-011", "question": "The trunk of a tree is a type of:", "options": ["Root", "Stem", "Leaf", "Flower"], "correctIndex": 1, "explanation": "The trunk of a tree is a thick woody stem. It supports the heavy branches and carries water upward.", "tags": ["plants", "stem"] },
+    { "id": "g3s-w24-wed-012", "question": "Which of the following carries food made in the leaves DOWN to the rest of the plant?", "options": ["Xylem (carries water up)", "Phloem (carries food down and around)", "Root hairs", "Spores"], "correctIndex": 1, "explanation": "Phloem tubes in the stem carry food (sugar made in leaves) to all other parts of the plant.", "tags": ["plants", "stem"] },
+    { "id": "g3s-w24-wed-013", "question": "A creeper plant spreads along the ground because its stem:", "options": ["Grows straight up without support", "Is too weak to stand, so it grows horizontally", "Has no leaves", "Is underground"], "correctIndex": 1, "explanation": "Creepers have weak stems that cannot stand upright. They spread along the ground. Examples: pumpkin, watermelon, strawberry.", "tags": ["plants", "stem"] },
+    { "id": "g3s-w24-wed-014", "question": "Sugarcane is used to make sugar because its stem stores:", "options": ["Water", "Starch only", "Sucrose (sugar)", "Protein"], "correctIndex": 2, "explanation": "Sugarcane stems store large amounts of sucrose (table sugar), which is extracted by crushing the stems.", "tags": ["plants", "modified-stem"] },
+    { "id": "g3s-w24-wed-015", "question": "Which of the following is NOT a function of the stem?", "options": ["Supporting the plant", "Carrying water from roots to leaves", "Absorbing water from soil", "Carrying food from leaves to roots"], "correctIndex": 2, "explanation": "Absorbing water from soil is done by roots, not the stem. The stem only transports what the roots absorb.", "tags": ["plants", "stem"] }
+  ]
+}

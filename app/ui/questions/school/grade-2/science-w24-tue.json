@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w24-tue",
+  "title": "Grade 2 Science — Tue, Jun 10",
+  "description": "Animals Around Us — Day 2 of 5: Body parts and movement",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "animals"],
+  "questions": [
+    { "id": "g2s-w24-tue-001", "question": "Birds use ____ to fly.", "options": ["Legs", "Fins", "Wings", "Tails"], "correctIndex": 2, "explanation": "Birds have wings that help them fly through the air.", "tags": ["animals", "body-parts"] },
+    { "id": "g2s-w24-tue-002", "question": "Fish use ____ to swim in water.", "options": ["Wings", "Fins", "Legs", "Claws"], "correctIndex": 1, "explanation": "Fish have fins that help them balance and move through water.", "tags": ["animals", "body-parts"] },
+    { "id": "g2s-w24-tue-003", "question": "A dog uses its ____ to walk and run.", "options": ["Wings", "Fins", "Legs", "Shell"], "correctIndex": 2, "explanation": "Dogs have four strong legs that help them walk, run, and jump.", "tags": ["animals", "movement"] },
+    { "id": "g2s-w24-tue-004", "question": "Which body covering keeps a bird warm and helps it fly?", "options": ["Scales", "Fur", "Feathers", "Shell"], "correctIndex": 2, "explanation": "Feathers keep birds warm and light, and their wings are covered with feathers for flying.", "tags": ["animals", "body-parts"] },
+    { "id": "g2s-w24-tue-005", "question": "Fish are covered with:", "options": ["Feathers", "Fur", "Scales", "Shell"], "correctIndex": 2, "explanation": "Fish are covered with scales that protect their bodies and help them move smoothly through water.", "tags": ["animals", "body-parts"] },
+    { "id": "g2s-w24-tue-006", "question": "A snake moves by:", "options": ["Flying", "Slithering on its belly", "Running on legs", "Hopping"], "correctIndex": 1, "explanation": "Snakes have no legs. They move by slithering — using muscles to push their body along the ground.", "tags": ["animals", "movement"] },
+    { "id": "g2s-w24-tue-007", "question": "How many legs does an insect have?", "options": ["2", "4", "6", "8"], "correctIndex": 2, "explanation": "All insects have exactly 6 legs. Examples: ant, butterfly, bee, and beetle.", "tags": ["animals", "body-parts"] },
+    { "id": "g2s-w24-tue-008", "question": "A frog can move by:", "options": ["Only swimming", "Only hopping", "Both hopping on land and swimming in water", "Only flying"], "correctIndex": 2, "explanation": "Frogs have long back legs for hopping on land and webbed feet for swimming in water.", "tags": ["animals", "movement"] },
+    { "id": "g2s-w24-tue-009", "question": "Which body part helps a monkey grip branches?", "options": ["Tail only", "Hands and feet with fingers and toes", "Wings", "Fins"], "correctIndex": 1, "explanation": "Monkeys have hands and feet with long fingers and toes that help them grip and swing on branches.", "tags": ["animals", "body-parts"] },
+    { "id": "g2s-w24-tue-010", "question": "Cats and dogs are covered with:", "options": ["Scales", "Feathers", "Fur", "Shell"], "correctIndex": 2, "explanation": "Cats, dogs, and most other mammals are covered with fur (or hair) which keeps them warm.", "tags": ["animals", "body-parts"] },
+    { "id": "g2s-w24-tue-011", "question": "Which body part does a bird use to catch food?", "options": ["Wings", "Beak", "Tail", "Claws only"], "correctIndex": 1, "explanation": "Birds use their beak to catch, pick up, and eat food. Different birds have different beak shapes for different foods.", "tags": ["animals", "body-parts"] },
+    { "id": "g2s-w24-tue-012", "question": "An earthworm moves by:", "options": ["Hopping", "Stretching and contracting its body", "Using fins", "Using legs"], "correctIndex": 1, "explanation": "Earthworms have no legs. They move by stretching the front part forward, then pulling the back part along.", "tags": ["animals", "movement"] },
+    { "id": "g2s-w24-tue-013", "question": "Which animal moves the fastest on land?", "options": ["Tortoise", "Elephant", "Cheetah", "Snail"], "correctIndex": 2, "explanation": "The cheetah is the fastest land animal. It uses its long legs and flexible spine to run at great speed.", "tags": ["animals", "movement"] },
+    { "id": "g2s-w24-tue-014", "question": "A turtle uses its ____ to swim.", "options": ["Wings", "Flippers", "Long legs", "Fins like a fish"], "correctIndex": 1, "explanation": "Sea turtles have flippers (paddle-like limbs) that help them swim through water.", "tags": ["animals", "body-parts"] },
+    { "id": "g2s-w24-tue-015", "question": "Which of these animals moves on two legs?", "options": ["Dog", "Cow", "Hen", "Elephant"], "correctIndex": 2, "explanation": "Hens (and other birds) walk on two legs. Dogs, cows, and elephants walk on four legs.", "tags": ["animals", "movement"] }
+  ]
+}

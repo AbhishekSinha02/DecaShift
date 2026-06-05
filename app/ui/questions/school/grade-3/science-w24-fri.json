@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w24-fri",
+  "title": "Grade 3 Science — Fri, Jun 13",
+  "description": "Plant Kingdom — Day 5 of 5: Mixed review — plants we eat, medicinal plants, trees/shrubs/herbs",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "fri",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "plants"],
+  "questions": [
+    { "id": "g3s-w24-fri-001", "question": "A tall plant with a hard, thick trunk and branches is called a:", "options": ["Herb", "Shrub", "Tree", "Creeper"], "correctIndex": 2, "explanation": "Trees are tall plants with one thick, hard woody trunk. Examples: mango, banyan, neem, and peepal.", "tags": ["plants", "types"] },
+    { "id": "g3s-w24-fri-002", "question": "A plant that is small and has many thin woody branches from the base is called a:", "options": ["Tree", "Herb", "Shrub", "Climber"], "correctIndex": 2, "explanation": "Shrubs have multiple thin woody stems from the base and are shorter than trees. Examples: rose, hibiscus, cotton.", "tags": ["plants", "types"] },
+    { "id": "g3s-w24-fri-003", "question": "A small, soft-stemmed plant used in cooking (like mint, coriander, or tulsi) is called a:", "options": ["Tree", "Creeper", "Shrub", "Herb"], "correctIndex": 3, "explanation": "Herbs are small plants with soft, non-woody stems. Many herbs like mint, basil, and coriander are used in Indian cooking.", "tags": ["plants", "types"] },
+    { "id": "g3s-w24-fri-004", "question": "Tulsi (Holy Basil) is a medicinal plant. It is used to:", "options": ["Only decorate homes", "Treat coughs, colds, and infections", "Make cotton fabric", "Provide oil for lamps only"], "correctIndex": 1, "explanation": "Tulsi is sacred in Hindu homes and is also a powerful medicinal herb used to treat colds, coughs, and fever.", "tags": ["plants", "medicinal"] },
+    { "id": "g3s-w24-fri-005", "question": "Neem is called the 'village pharmacy' because:", "options": ["It tastes like medicine", "Its leaves, bark, and seeds are used to treat many diseases", "It grows near pharmacies", "It produces fruit that pharmacists eat"], "correctIndex": 1, "explanation": "Neem has powerful anti-bacterial and anti-fungal properties. Its twigs, leaves, and oil are used for dental care, skin problems, and more.", "tags": ["plants", "medicinal"] },
+    { "id": "g3s-w24-fri-006", "question": "Which of these do we eat the leaf of?", "options": ["Potato", "Radish", "Spinach (palak)", "Groundnut"], "correctIndex": 2, "explanation": "Spinach (palak) is a leafy vegetable — we eat its leaves. Potato is a stem, radish is a root, groundnut is a seed.", "tags": ["plants", "parts-we-eat"] },
+    { "id": "g3s-w24-fri-007", "question": "We eat the fruit of which of these plants?", "options": ["Carrot", "Ginger", "Mango", "Spinach"], "correctIndex": 2, "explanation": "We eat the fruit of the mango tree. Carrot is a root, ginger is a stem, and spinach is a leaf.", "tags": ["plants", "parts-we-eat"] },
+    { "id": "g3s-w24-fri-008", "question": "We eat the seeds of:", "options": ["Potato", "Wheat and rice", "Radish", "Onion"], "correctIndex": 1, "explanation": "Wheat and rice grains are seeds. Seeds are rich in nutrients and are a primary food source for humans.", "tags": ["plants", "parts-we-eat"] },
+    { "id": "g3s-w24-fri-009", "question": "Aloe vera is a plant known for:", "options": ["Making strong rope", "Its gel that soothes skin burns and is used in medicines", "Making fabric", "Growing very tall"], "correctIndex": 1, "explanation": "Aloe vera gel from its thick leaves soothes sunburns and skin irritation. It is widely used in cosmetics and Ayurvedic medicine.", "tags": ["plants", "medicinal"] },
+    { "id": "g3s-w24-fri-010", "question": "Which of these is a climbing plant?", "options": ["Mango", "Pumpkin vine", "Neem", "Grass"], "correctIndex": 1, "explanation": "Pumpkin vines are climbers — they use their tendrils to climb over fences and walls. Cucumber and beans are also climbers.", "tags": ["plants", "types"] },
+    { "id": "g3s-w24-fri-011", "question": "Which type of plant is the smallest — tree, shrub, or herb?", "options": ["Tree", "Shrub", "Herb", "All the same size"], "correctIndex": 2, "explanation": "Herbs are the smallest. They have soft stems and are short-lived. Shrubs are medium-sized. Trees are the tallest.", "tags": ["plants", "types"] },
+    { "id": "g3s-w24-fri-012", "question": "The banyan tree has branches that grow down to the ground as additional roots. This makes it:", "options": ["A shrub", "Very small", "Very wide — the widest tree on Earth in some cases", "A herb"], "correctIndex": 2, "explanation": "The Great Banyan Tree in Kolkata's botanical garden is considered the widest living tree in the world, covering several acres.", "tags": ["plants", "trees"] },
+    { "id": "g3s-w24-fri-013", "question": "Which plants can survive in deserts with very little water?", "options": ["Lotus and water hyacinth", "Cactus and succulent plants", "Rice and wheat", "Mango and banana"], "correctIndex": 1, "explanation": "Cacti and succulents store water in their thick stems or leaves. Their leaves are modified as spines to reduce water loss.", "tags": ["plants", "adaptation"] },
+    { "id": "g3s-w24-fri-014", "question": "Ginger, turmeric, and garlic are all examples of:", "options": ["Fruits we eat", "Medicinal plants also used as spices in Indian cooking", "Non-flowering plants", "Flowering trees"], "correctIndex": 1, "explanation": "Ginger, turmeric, and garlic are medicinal plants used as spices and home remedies in India for centuries.", "tags": ["plants", "medicinal"] },
+    { "id": "g3s-w24-fri-015", "question": "Which part of a plant does NOT contain chlorophyll and so is usually white or brown?", "options": ["Leaves", "Young green stems", "Roots", "Unripe fruits"], "correctIndex": 2, "explanation": "Roots are underground and have no sunlight, so they do not make chlorophyll. They are typically white or light-coloured.", "tags": ["plants", "mixed"] }
+  ]
+}

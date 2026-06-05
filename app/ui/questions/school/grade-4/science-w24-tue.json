@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w24-tue",
+  "title": "Grade 4 Science — Tue, Jun 10",
+  "description": "Food & Nutrition — Day 2 of 5: Carbohydrates and fats",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "nutrition"],
+  "questions": [
+    { "id": "g4s-w24-tue-001", "question": "Carbohydrates are also called ____ foods.", "options": ["Body-building", "Energy", "Protective", "Glow"], "correctIndex": 1, "explanation": "Carbohydrates give us quick energy for daily activities. They are called 'energy foods'.", "tags": ["nutrition", "carbohydrates"] },
+    { "id": "g4s-w24-tue-002", "question": "Which test is used to check if a food contains starch?", "options": ["Flame test", "Iodine test", "Water test", "Paper test"], "correctIndex": 1, "explanation": "Iodine solution turns blue-black in the presence of starch. This is the iodine test for starch.", "tags": ["nutrition", "carbohydrates"] },
+    { "id": "g4s-w24-tue-003", "question": "Which of the following foods is rich in carbohydrates?", "options": ["Eggs", "Butter", "Roti (wheat bread)", "Chicken"], "correctIndex": 2, "explanation": "Roti (wheat bread) is rich in carbohydrates (starch). Rice, bread, potatoes, and sugar are also carbohydrate-rich.", "tags": ["nutrition", "carbohydrates"] },
+    { "id": "g4s-w24-tue-004", "question": "Sugarcane is sweet because it contains a type of carbohydrate called:", "options": ["Starch", "Fibre", "Sucrose (sugar)", "Protein"], "correctIndex": 2, "explanation": "Sucrose is the sugar found in sugarcane. It is a carbohydrate that gives a sweet taste and quick energy.", "tags": ["nutrition", "carbohydrates"] },
+    { "id": "g4s-w24-tue-005", "question": "Fats are important because they:", "options": ["Only make food tasty", "Store energy and protect organs", "Build muscles only", "Digest food quickly"], "correctIndex": 1, "explanation": "Fats store energy for later use and provide a protective cushion around body organs like kidneys.", "tags": ["nutrition", "fats"] },
+    { "id": "g4s-w24-tue-006", "question": "Which of these is a plant source of fat?", "options": ["Butter", "Ghee", "Groundnut oil", "Lard"], "correctIndex": 2, "explanation": "Groundnut (peanut) oil is a plant-based fat. Other plant fats include coconut oil, mustard oil, and sunflower oil.", "tags": ["nutrition", "fats"] },
+    { "id": "g4s-w24-tue-007", "question": "Which of these is an animal source of fat?", "options": ["Coconut oil", "Sunflower oil", "Butter", "Groundnut oil"], "correctIndex": 2, "explanation": "Butter is made from milk fat — it is an animal source of fat, along with ghee, cream, and fish oil.", "tags": ["nutrition", "fats"] },
+    { "id": "g4s-w24-tue-008", "question": "The paper test for fat: if you rub food on paper and it leaves a ____ spot, it contains fat.", "options": ["Blue stain", "Greasy / translucent", "Red stain", "No mark"], "correctIndex": 1, "explanation": "Fatty foods leave a greasy, transparent (oily) mark on paper. This is a simple test to detect fat in food.", "tags": ["nutrition", "fats"] },
+    { "id": "g4s-w24-tue-009", "question": "Eating too many carbohydrates (like sweets and junk food) can lead to:", "options": ["Strong bones", "Weight gain and tooth decay", "Better eyesight", "Stronger muscles"], "correctIndex": 1, "explanation": "Excess sugar and refined carbohydrates can cause weight gain and tooth decay if eaten too often.", "tags": ["nutrition", "carbohydrates"] },
+    { "id": "g4s-w24-tue-010", "question": "Which of the following contains both carbohydrates and fat?", "options": ["Pure water", "Plain dal", "Peanut butter", "Spinach"], "correctIndex": 2, "explanation": "Peanut butter contains starch and sugar (carbohydrates) from peanuts and also has significant fat content.", "tags": ["nutrition", "carbohydrates"] },
+    { "id": "g4s-w24-tue-011", "question": "Dietary fibre is a type of carbohydrate that:", "options": ["Gives the most energy", "Cannot be digested but helps bowel movement", "Builds muscles", "Causes tooth decay"], "correctIndex": 1, "explanation": "Fibre (roughage) is indigestible carbohydrate that helps food move through the intestines and prevents constipation.", "tags": ["nutrition", "fibre"] },
+    { "id": "g4s-w24-tue-012", "question": "Which of these foods is a good source of dietary fibre?", "options": ["White bread", "Whole wheat chapati and vegetables", "Butter", "Sugar"], "correctIndex": 1, "explanation": "Whole grains, fruits, and vegetables are rich in dietary fibre, which aids digestion.", "tags": ["nutrition", "fibre"] },
+    { "id": "g4s-w24-tue-013", "question": "Potatoes contain large amounts of:", "options": ["Protein", "Starch (carbohydrate)", "Calcium", "Vitamin C mainly"], "correctIndex": 1, "explanation": "Potatoes are mainly starch (a complex carbohydrate) and are a major energy food in Indian meals.", "tags": ["nutrition", "carbohydrates"] },
+    { "id": "g4s-w24-tue-014", "question": "Fats help the body absorb vitamins:", "options": ["B and C", "A, D, E and K", "Only Vitamin C", "None — fats block vitamins"], "correctIndex": 1, "explanation": "Vitamins A, D, E, and K are fat-soluble — they need dietary fat to be absorbed by the body.", "tags": ["nutrition", "fats"] },
+    { "id": "g4s-w24-tue-015", "question": "Which of these is the body's preferred quick fuel?", "options": ["Fats", "Proteins", "Carbohydrates", "Minerals"], "correctIndex": 2, "explanation": "Carbohydrates are broken down into glucose — the body's fastest and preferred energy source for activities.", "tags": ["nutrition", "carbohydrates"] }
+  ]
+}

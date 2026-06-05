@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w24-mon",
+  "title": "Grade 6 Science — Mon, Jun 09",
+  "description": "Separation of Substances — Day 1 of 5: Why we separate and basic methods",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "separation"],
+  "questions": [
+    { "id": "g6s-w24-mon-001", "question": "A mixture is made of:", "options": ["Two or more substances mixed together", "Only one substance in pure form", "Only liquids", "Only gases"], "correctIndex": 0, "explanation": "A mixture contains two or more substances mixed together. The substances can often be separated.", "tags": ["separation", "mixture"] },
+    { "id": "g6s-w24-mon-002", "question": "Why do we need to separate mixtures?", "options": ["To make them more colourful", "To get useful substances and remove harmful ones", "To destroy them", "To make them heavier"], "correctIndex": 1, "explanation": "We separate mixtures to get the useful part (e.g., clean water) or remove harmful substances (e.g., stones from rice).", "tags": ["separation", "why"] },
+    { "id": "g6s-w24-mon-003", "question": "Picking out stones from rice by hand is an example of:", "options": ["Filtration", "Hand-picking", "Sieving", "Evaporation"], "correctIndex": 1, "explanation": "Hand-picking is used to remove visible unwanted particles like stones or insects from food by hand.", "tags": ["separation", "hand-picking"] },
+    { "id": "g6s-w24-mon-004", "question": "Winnowing is used to separate:", "options": ["Salt from water", "Heavy grains from light husk using wind", "Tea leaves from tea", "Oil from water"], "correctIndex": 1, "explanation": "Winnowing uses wind to blow away light husk while heavier grains fall and are collected.", "tags": ["separation", "winnowing"] },
+    { "id": "g6s-w24-mon-005", "question": "A sieve has small holes. It is used to separate:", "options": ["Oil from water", "Smaller particles from larger ones", "Dissolved salt from water", "Gases from liquids"], "correctIndex": 1, "explanation": "A sieve separates particles of different sizes — smaller ones fall through the holes; larger ones stay behind.", "tags": ["separation", "sieving"] },
+    { "id": "g6s-w24-mon-006", "question": "Which method would you use to remove wheat flour from bran?", "options": ["Winnowing", "Sieving", "Filtration", "Evaporation"], "correctIndex": 1, "explanation": "Sieving is used to separate fine flour from coarser bran by passing through a fine mesh.", "tags": ["separation", "sieving"] },
+    { "id": "g6s-w24-mon-007", "question": "A mixture of sand and stones can be separated by:", "options": ["Evaporation", "Hand-picking or sieving", "Filtration only", "Magnetic separation"], "correctIndex": 1, "explanation": "Sand and stones differ in size, so sieving or hand-picking can separate them.", "tags": ["separation", "sieving"] },
+    { "id": "g6s-w24-mon-008", "question": "Air is a mixture of:", "options": ["Only oxygen and nitrogen", "Several gases including nitrogen, oxygen and others", "Only carbon dioxide", "Water vapour only"], "correctIndex": 1, "explanation": "Air is a mixture of nitrogen (~78%), oxygen (~21%), carbon dioxide, and other gases.", "tags": ["separation", "mixture"] },
+    { "id": "g6s-w24-mon-009", "question": "Which of these is a pure substance?", "options": ["Sea water", "Milk", "Distilled water", "Air"], "correctIndex": 2, "explanation": "Distilled water is pure — it has no dissolved salts or other substances mixed in.", "tags": ["separation", "pure substance"] },
+    { "id": "g6s-w24-mon-010", "question": "Farmers use winnowing in open fields because they need ____.", "options": ["Fire", "Water", "Wind", "A magnet"], "correctIndex": 2, "explanation": "Winnowing uses natural wind to blow away the lighter husk from heavier grain.", "tags": ["separation", "winnowing"] },
+    { "id": "g6s-w24-mon-011", "question": "Which of these is a mixture?", "options": ["Pure gold", "Distilled water", "Lemonade", "Oxygen gas"], "correctIndex": 2, "explanation": "Lemonade is a mixture of water, lemon juice, sugar, and salt — many substances together.", "tags": ["separation", "mixture"] },
+    { "id": "g6s-w24-mon-012", "question": "Which method removes bigger impurities visible to the eye from grain?", "options": ["Distillation", "Hand-picking", "Evaporation", "Sedimentation"], "correctIndex": 1, "explanation": "Hand-picking is the simplest method — you manually remove stones, insects, or other large impurities.", "tags": ["separation", "hand-picking"] },
+    { "id": "g6s-w24-mon-013", "question": "A flour mill uses sieves to separate fine flour. The smaller the holes of the sieve:", "options": ["The coarser the flour", "The finer the flour that passes through", "The faster the separation", "The more waste is produced"], "correctIndex": 1, "explanation": "Smaller holes in a sieve only allow finer particles through, producing finer flour.", "tags": ["separation", "sieving"] },
+    { "id": "g6s-w24-mon-014", "question": "Seawater is a mixture of water and ____.", "options": ["Oil", "Dissolved salts and minerals", "Mud only", "Sugar"], "correctIndex": 1, "explanation": "Seawater contains water and many dissolved salts and minerals, making it a mixture.", "tags": ["separation", "mixture"] },
+    { "id": "g6s-w24-mon-015", "question": "Which of these cannot be separated by hand-picking?", "options": ["Stones from rice", "Salt dissolved in water", "Insects from dal", "Pebbles from sand on a beach"], "correctIndex": 1, "explanation": "Salt dissolved in water cannot be picked by hand because it breaks into invisible ions. We need evaporation.", "tags": ["separation", "methods"] }
+  ]
+}

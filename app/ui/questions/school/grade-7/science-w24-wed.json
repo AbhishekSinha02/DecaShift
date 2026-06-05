@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-science-w24-wed",
+  "title": "Grade 7 Science — Wed, Jun 11",
+  "description": "Fibre to Fabric — Day 3 of 5: Silk — sericulture and production",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly", "fibre-to-fabric"],
+  "questions": [
+    { "id": "g7s-w24-wed-001", "question": "The rearing of silkworms to produce silk is called:", "options": ["Poultry farming", "Sericulture", "Pisciculture", "Apiculture"], "correctIndex": 1, "explanation": "Sericulture is the practice of raising silkworms (Bombyx mori) and harvesting their silk cocoons.", "tags": ["silk", "sericulture"] },
+    { "id": "g7s-w24-wed-002", "question": "Silk fibre is made from the cocoon of the:", "options": ["Honeybee", "Silkworm (larva of the silk moth)", "Cotton plant boll", "Spider"], "correctIndex": 1, "explanation": "The silkworm spins a cocoon around itself using a single continuous silk thread. The cocoon is harvested for silk.", "tags": ["silk", "cocoon"] },
+    { "id": "g7s-w24-wed-003", "question": "The silkworm feeds on:", "options": ["Neem leaves", "Mulberry leaves", "Cotton bolls", "Grass"], "correctIndex": 1, "explanation": "The Bombyx mori silkworm feeds only on mulberry leaves. Mulberry trees are specially grown for sericulture.", "tags": ["silk", "silkworm"] },
+    { "id": "g7s-w24-wed-004", "question": "The process of extracting silk thread from the cocoon is called:", "options": ["Ginning", "Shearing", "Reeling", "Spinning"], "correctIndex": 2, "explanation": "Reeling is the process of unwinding the long silk thread from the boiled cocoon onto a reel.", "tags": ["silk", "reeling"] },
+    { "id": "g7s-w24-wed-005", "question": "Why are cocoons boiled in hot water before reeling?", "options": ["To clean them only", "To kill the silkworm inside and soften the gum holding the thread", "To make the silk stronger", "To add colour to the silk"], "correctIndex": 1, "explanation": "Boiling softens the sericin gum binding the silk thread and kills the pupa inside, allowing the thread to be unwound.", "tags": ["silk", "reeling"] },
+    { "id": "g7s-w24-wed-006", "question": "The stages of the silk moth's life cycle in correct order are:", "options": ["Larva → Egg → Pupa → Adult", "Egg → Larva (silkworm) → Pupa (cocoon) → Adult moth", "Pupa → Egg → Larva → Adult", "Adult → Larva → Egg → Pupa"], "correctIndex": 1, "explanation": "The life cycle is: Egg → Larva (silkworm feeds and grows) → Pupa (spins cocoon) → Adult silk moth.", "tags": ["silk", "life-cycle"] },
+    { "id": "g7s-w24-wed-007", "question": "One silk cocoon can yield a thread of silk that is approximately:", "options": ["1 metre long", "100 metres long", "300–900 metres long", "10 km long"], "correctIndex": 2, "explanation": "A single silk cocoon contains a continuous filament of 300–900 metres of silk thread!", "tags": ["silk", "cocoon"] },
+    { "id": "g7s-w24-wed-008", "question": "Mulberry silk is the most common type of silk. Which silkworm produces it?", "options": ["Tasar silkworm", "Eri silkworm", "Muga silkworm", "Bombyx mori (mulberry silkworm)"], "correctIndex": 3, "explanation": "Bombyx mori feeds on mulberry leaves and produces the finest, most common type of silk — mulberry silk.", "tags": ["silk", "types"] },
+    { "id": "g7s-w24-wed-009", "question": "Tasar silk is produced by silkworms that feed on:", "options": ["Mulberry leaves only", "Oak and arjun tree leaves", "Cotton plants", "Banana leaves"], "correctIndex": 1, "explanation": "Tasar silkworms (Antheraea mylitta) feed on oak, arjun, and other forest trees. Tasar silk is used for upholstery.", "tags": ["silk", "types"] },
+    { "id": "g7s-w24-wed-010", "question": "Muga silk is mainly produced in which Indian state?", "options": ["Karnataka", "West Bengal", "Assam", "Tamil Nadu"], "correctIndex": 2, "explanation": "Muga silk is the golden-coloured silk unique to Assam. It has a natural golden shine and is extremely durable.", "tags": ["silk", "india"] },
+    { "id": "g7s-w24-wed-011", "question": "Silk has a natural sheen because:", "options": ["It is dyed with gold paint", "The triangular prism-like structure of silk fibre refracts light", "It is coated with oil", "It is made from glass"], "correctIndex": 1, "explanation": "Silk fibres have a triangular cross-section that acts like a prism, bending light and giving silk its characteristic lustre.", "tags": ["silk", "properties"] },
+    { "id": "g7s-w24-wed-012", "question": "Which Indian city is most famous for producing fine silk sarees?", "options": ["Jaipur", "Kanchipuram (Tamil Nadu)", "Amritsar", "Pune"], "correctIndex": 1, "explanation": "Kanchipuram in Tamil Nadu is famous for its high-quality silk sarees. Varanasi (Banaras silk) is also renowned.", "tags": ["silk", "india"] },
+    { "id": "g7s-w24-wed-013", "question": "The gum-like substance that binds silk fibres together in the cocoon is called:", "options": ["Fibroin", "Sericin", "Keratin", "Cellulose"], "correctIndex": 1, "explanation": "Sericin is the natural gum protein that holds the silk filament together in the cocoon. It is removed during processing.", "tags": ["silk", "sericin"] },
+    { "id": "g7s-w24-wed-014", "question": "Silk is a protein fibre. The main protein in silk is called:", "options": ["Keratin", "Collagen", "Fibroin", "Casein"], "correctIndex": 2, "explanation": "Fibroin is the structural protein of silk. It makes up the strong, fine filament of the silk thread.", "tags": ["silk", "properties"] },
+    { "id": "g7s-w24-wed-015", "question": "Eri silk is unique because:", "options": ["It comes from an insect that eats mulberry only", "The silkworm is not killed — the moth emerges first (open-ended cocoon)", "It is produced only in Karnataka", "It has no natural colour"], "correctIndex": 1, "explanation": "Eri silkworms spin open-ended cocoons, allowing the moth to emerge. This 'ahimsa silk' does not require killing the silkworm.", "tags": ["silk", "types"] }
+  ]
+}

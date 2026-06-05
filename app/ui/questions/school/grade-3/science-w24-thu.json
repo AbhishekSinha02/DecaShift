@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w24-thu",
+  "title": "Grade 3 Science — Thu, Jun 12",
+  "description": "Plant Kingdom — Day 4 of 5: Leaves — parts and photosynthesis",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "plants"],
+  "questions": [
+    { "id": "g3s-w24-thu-001", "question": "The flat, wide part of a leaf is called the:", "options": ["Petiole", "Blade (lamina)", "Midrib", "Node"], "correctIndex": 1, "explanation": "The blade (lamina) is the flat, broad part of the leaf that absorbs sunlight for photosynthesis.", "tags": ["plants", "leaf"] },
+    { "id": "g3s-w24-thu-002", "question": "The stalk that joins a leaf to the stem is called the:", "options": ["Blade", "Midrib", "Petiole", "Vein"], "correctIndex": 2, "explanation": "The petiole is the thin stalk that connects the leaf blade to the stem.", "tags": ["plants", "leaf"] },
+    { "id": "g3s-w24-thu-003", "question": "The thick central vein running down the middle of a leaf is the:", "options": ["Petiole", "Midrib", "Blade", "Stoma"], "correctIndex": 1, "explanation": "The midrib is the main central vein of the leaf, from which smaller veins branch out.", "tags": ["plants", "leaf"] },
+    { "id": "g3s-w24-thu-004", "question": "Veins in a leaf carry:", "options": ["Only food downwards", "Water, minerals, and food between the leaf and the rest of the plant", "Air into the leaf", "Seeds from the flower"], "correctIndex": 1, "explanation": "Leaf veins contain xylem (carries water up) and phloem (carries food away), supporting transport in the leaf.", "tags": ["plants", "leaf"] },
+    { "id": "g3s-w24-thu-005", "question": "The process by which leaves make food using sunlight is called:", "options": ["Respiration", "Transpiration", "Photosynthesis", "Germination"], "correctIndex": 2, "explanation": "Photosynthesis is the process where leaves use sunlight, water, and carbon dioxide to make food (glucose).", "tags": ["plants", "photosynthesis"] },
+    { "id": "g3s-w24-thu-006", "question": "For photosynthesis, a leaf needs sunlight, water, and ____ from the air.", "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"], "correctIndex": 1, "explanation": "Leaves take in carbon dioxide from the air through tiny pores. Along with water and sunlight, they make glucose.", "tags": ["plants", "photosynthesis"] },
+    { "id": "g3s-w24-thu-007", "question": "During photosynthesis, leaves release ____ as a by-product.", "options": ["Carbon dioxide", "Nitrogen", "Oxygen", "Hydrogen"], "correctIndex": 2, "explanation": "Photosynthesis produces glucose AND releases oxygen as a by-product. This is why plants make the air fresh.", "tags": ["plants", "photosynthesis"] },
+    { "id": "g3s-w24-thu-008", "question": "The green colour of leaves is due to a pigment called:", "options": ["Pollen", "Chlorophyll", "Sap", "Starch"], "correctIndex": 1, "explanation": "Chlorophyll is the green pigment in leaves. It absorbs sunlight (especially red and blue light) for photosynthesis.", "tags": ["plants", "chlorophyll"] },
+    { "id": "g3s-w24-thu-009", "question": "Tiny pores on the underside of leaves that allow gas exchange are called:", "options": ["Chloroplasts", "Stomata", "Nodes", "Veins"], "correctIndex": 1, "explanation": "Stomata (singular: stoma) are tiny openings, mainly on the underside of leaves, for gas exchange and water vapour release.", "tags": ["plants", "stomata"] },
+    { "id": "g3s-w24-thu-010", "question": "Why do most leaves face upward toward the sun?", "options": ["To collect rainwater only", "To catch as much sunlight as possible for photosynthesis", "To keep insects away", "To trap carbon dioxide at night"], "correctIndex": 1, "explanation": "Leaves are flat and oriented towards sunlight to maximise their surface area for capturing light energy for photosynthesis.", "tags": ["plants", "leaf"] },
+    { "id": "g3s-w24-thu-011", "question": "A cactus has no real leaves. How does it carry out photosynthesis?", "options": ["It does not need photosynthesis", "Through its thick green stem which contains chlorophyll", "Through its roots", "Through its flowers"], "correctIndex": 1, "explanation": "The cactus carries out photosynthesis in its thick, green stem which contains chlorophyll.", "tags": ["plants", "photosynthesis"] },
+    { "id": "g3s-w24-thu-012", "question": "The loss of water from leaves as water vapour is called:", "options": ["Photosynthesis", "Transpiration", "Germination", "Respiration"], "correctIndex": 1, "explanation": "Transpiration is when water evaporates through stomata in leaves, which also helps pull more water up from roots.", "tags": ["plants", "transpiration"] },
+    { "id": "g3s-w24-thu-013", "question": "A simple equation for photosynthesis is: Carbon dioxide + Water → ____ + Oxygen", "options": ["Protein", "Fat", "Glucose (food/sugar)", "Minerals"], "correctIndex": 2, "explanation": "Photosynthesis: CO₂ + H₂O (+ sunlight) → Glucose (C₆H₁₂O₆) + O₂. Leaves make glucose as food and release oxygen.", "tags": ["plants", "photosynthesis"] },
+    { "id": "g3s-w24-thu-014", "question": "Why do plants placed in a dark room for many days lose their green colour?", "options": ["They get too much water", "Without light, chlorophyll breaks down and cannot be remade", "Roots stop working in dark", "The soil becomes too dry"], "correctIndex": 1, "explanation": "Chlorophyll requires light to be maintained. Without sunlight, chlorophyll breaks down and leaves turn yellow or pale.", "tags": ["plants", "chlorophyll"] },
+    { "id": "g3s-w24-thu-015", "question": "Aquatic plants like water hyacinth have waxy leaves because:", "options": ["Wax helps photosynthesis better", "Wax repels water so the leaf surface stays clear for gas exchange and does not rot", "Wax makes leaves look green", "Wax absorbs more sunlight"], "correctIndex": 1, "explanation": "A waxy coating on aquatic plant leaves repels water, prevents rot, and keeps the surface dry for stomata to function.", "tags": ["plants", "leaf"] }
+  ]
+}

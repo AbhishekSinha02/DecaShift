@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w24-mon",
+  "title": "Grade 5 Science — Mon, Jun 09",
+  "description": "The Digestive System — Day 1 of 5: Overview and the mouth",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "digestion"],
+  "questions": [
+    { "id": "g5s-w24-mon-001", "question": "Digestion is the process of breaking food into:", "options": ["Bigger pieces", "Smaller pieces the body can absorb", "Gases only", "Bones"], "correctIndex": 1, "explanation": "Digestion breaks food into tiny molecules that can pass through the intestine walls into the blood.", "tags": ["digestion", "overview"] },
+    { "id": "g5s-w24-mon-002", "question": "Where does digestion begin?", "options": ["Stomach", "Small intestine", "Mouth", "Liver"], "correctIndex": 2, "explanation": "Digestion starts in the mouth where teeth chew food and saliva begins breaking it down.", "tags": ["digestion", "mouth"] },
+    { "id": "g5s-w24-mon-003", "question": "What do teeth do during digestion?", "options": ["Absorb nutrients", "Grind and cut food into smaller pieces", "Produce bile", "Move food to stomach directly"], "correctIndex": 1, "explanation": "Teeth cut and grind food into smaller pieces, increasing the surface area for digestion.", "tags": ["digestion", "teeth"] },
+    { "id": "g5s-w24-mon-004", "question": "Saliva in the mouth contains an enzyme that breaks down ____.", "options": ["Proteins", "Fats", "Starch", "Minerals"], "correctIndex": 2, "explanation": "Saliva contains the enzyme salivary amylase, which starts breaking down starch in the mouth.", "tags": ["digestion", "saliva"] },
+    { "id": "g5s-w24-mon-005", "question": "The tube that carries food from the mouth to the stomach is called the:", "options": ["Trachea", "Oesophagus", "Larynx", "Urethra"], "correctIndex": 1, "explanation": "The oesophagus (food pipe) is a long tube that pushes food from the mouth down to the stomach.", "tags": ["digestion", "oesophagus"] },
+    { "id": "g5s-w24-mon-006", "question": "The movement of food through the oesophagus is caused by wave-like muscle contractions called:", "options": ["Respiration", "Digestion", "Peristalsis", "Circulation"], "correctIndex": 2, "explanation": "Peristalsis is the squeezing movement of muscles in the food pipe that pushes food towards the stomach.", "tags": ["digestion", "peristalsis"] },
+    { "id": "g5s-w24-mon-007", "question": "How many types of teeth do adult humans have?", "options": ["2", "4", "5", "3"], "correctIndex": 1, "explanation": "Adults have 4 types of teeth: incisors (cutting), canines (tearing), premolars and molars (grinding).", "tags": ["digestion", "teeth"] },
+    { "id": "g5s-w24-mon-008", "question": "Which glands in the mouth produce saliva?", "options": ["Salivary glands", "Sweat glands", "Liver", "Pancreas"], "correctIndex": 0, "explanation": "Salivary glands produce saliva, which moistens food and starts the digestion of starch.", "tags": ["digestion", "saliva"] },
+    { "id": "g5s-w24-mon-009", "question": "The tongue helps in digestion by:", "options": ["Producing digestive juices", "Mixing food with saliva and pushing it to the throat", "Absorbing nutrients", "Making bile"], "correctIndex": 1, "explanation": "The tongue mixes food with saliva, helps in tasting, and pushes the chewed food (bolus) into the oesophagus.", "tags": ["digestion", "mouth"] },
+    { "id": "g5s-w24-mon-010", "question": "After chewing, the ball of food in the mouth is called a:", "options": ["Chyme", "Bolus", "Bile", "Enzyme"], "correctIndex": 1, "explanation": "The chewed and saliva-mixed lump of food is called a bolus, which is swallowed into the oesophagus.", "tags": ["digestion", "bolus"] },
+    { "id": "g5s-w24-mon-011", "question": "Which of these is NOT part of the digestive system?", "options": ["Stomach", "Small intestine", "Lungs", "Liver"], "correctIndex": 2, "explanation": "Lungs are part of the respiratory system, not the digestive system.", "tags": ["digestion", "overview"] },
+    { "id": "g5s-w24-mon-012", "question": "Digestion is needed because food molecules are:", "options": ["Too colourful to enter blood", "Too large to pass directly into the blood", "Already in liquid form", "Not made of atoms"], "correctIndex": 1, "explanation": "Food molecules are too big to enter the bloodstream directly. Digestion breaks them into smaller units.", "tags": ["digestion", "overview"] },
+    { "id": "g5s-w24-mon-013", "question": "Which organ controls the opening between the mouth and throat?", "options": ["Trachea", "Epiglottis", "Larynx", "Tongue tip"], "correctIndex": 1, "explanation": "The epiglottis is a flap that covers the windpipe when we swallow, so food goes into the oesophagus, not the lungs.", "tags": ["digestion", "mouth"] },
+    { "id": "g5s-w24-mon-014", "question": "Salivary amylase works best in the ____ of the mouth.", "options": ["Acid", "Neutral/slightly alkaline environment", "Highly acidic environment", "Cold temperature"], "correctIndex": 1, "explanation": "Salivary amylase works in the slightly alkaline saliva in the mouth. It stops working in the stomach's acid.", "tags": ["digestion", "enzyme"] },
+    { "id": "g5s-w24-mon-015", "question": "The complete path of food through the digestive system is:", "options": ["Stomach → Mouth → Intestine", "Mouth → Oesophagus → Stomach → Small Intestine → Large Intestine", "Small intestine → Mouth → Stomach", "Liver → Stomach → Mouth"], "correctIndex": 1, "explanation": "Food travels: mouth → oesophagus → stomach → small intestine → large intestine → waste out.", "tags": ["digestion", "overview"] }
+  ]
+}

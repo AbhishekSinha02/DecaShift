@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-3-science-w24-mon",
+  "title": "Grade 3 Science — Mon, Jun 09",
+  "description": "Plant Kingdom — Day 1 of 5: Flowering and non-flowering plants",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly", "plants"],
+  "questions": [
+    { "id": "g3s-w24-mon-001", "question": "A plant that produces flowers is called a ____ plant.", "options": ["Non-flowering", "Flowering", "Creeping", "Climbing"], "correctIndex": 1, "explanation": "Plants that grow flowers are called flowering plants. Examples: rose, mango, sunflower.", "tags": ["plants", "flowering"] },
+    { "id": "g3s-w24-mon-002", "question": "Which of these is a non-flowering plant?", "options": ["Rose", "Mango", "Fern", "Sunflower"], "correctIndex": 2, "explanation": "Ferns do not produce flowers or seeds. They spread using tiny particles called spores.", "tags": ["plants", "non-flowering"] },
+    { "id": "g3s-w24-mon-003", "question": "What is the main job of a flower on a plant?", "options": ["Making food", "Absorbing water", "Producing seeds", "Giving shade"], "correctIndex": 2, "explanation": "The main job of a flower is to help the plant produce seeds, which grow into new plants.", "tags": ["plants", "flower"] },
+    { "id": "g3s-w24-mon-004", "question": "Which of these is a flowering plant?", "options": ["Moss", "Mushroom", "Tulsi", "Fern"], "correctIndex": 2, "explanation": "Tulsi (holy basil) is a flowering plant widely grown in Indian homes.", "tags": ["plants", "flowering"] },
+    { "id": "g3s-w24-mon-005", "question": "Ferns and mosses spread by making tiny ____.", "options": ["Seeds", "Fruits", "Spores", "Roots"], "correctIndex": 2, "explanation": "Non-flowering plants like ferns and mosses reproduce using spores, not seeds.", "tags": ["plants", "non-flowering"] },
+    { "id": "g3s-w24-mon-006", "question": "Which of the following is a flower that is used as a garland in India?", "options": ["Cactus", "Marigold", "Fern", "Mushroom"], "correctIndex": 1, "explanation": "Marigold is a bright flowering plant widely used for garlands and decorations in India.", "tags": ["plants", "flowering"] },
+    { "id": "g3s-w24-mon-007", "question": "A mushroom is an example of a ____ plant.", "options": ["Flowering", "Tree", "Non-flowering", "Climbing"], "correctIndex": 2, "explanation": "Mushrooms are non-flowering and do not make seeds. They reproduce using spores.", "tags": ["plants", "non-flowering"] },
+    { "id": "g3s-w24-mon-008", "question": "Which part of a flowering plant attracts bees and butterflies?", "options": ["Root", "Bark", "Leaf", "Flower"], "correctIndex": 3, "explanation": "Flowers have bright colours and sweet nectar that attract bees and butterflies for pollination.", "tags": ["plants", "flower"] },
+    { "id": "g3s-w24-mon-009", "question": "The mango tree is a ____ plant.", "options": ["Non-flowering", "Flowering", "Creeper", "Aquatic only"], "correctIndex": 1, "explanation": "Mango trees produce flowers every year before the fruits form. They are flowering plants.", "tags": ["plants", "flowering"] },
+    { "id": "g3s-w24-mon-010", "question": "What grows from a seed after pollination in a flowering plant?", "options": ["Root", "Fruit", "Spore", "Bark"], "correctIndex": 1, "explanation": "After pollination, the flower develops into a fruit which contains seeds.", "tags": ["plants", "seed"] },
+    { "id": "g3s-w24-mon-011", "question": "Which of these does NOT need a flower to reproduce?", "options": ["Sunflower", "Rose", "Moss", "Mango"], "correctIndex": 2, "explanation": "Moss is a non-flowering plant that reproduces using spores, not flowers or seeds.", "tags": ["plants", "non-flowering"] },
+    { "id": "g3s-w24-mon-012", "question": "Pollen is a yellow or orange powder found in a ____.", "options": ["Root", "Leaf", "Flower", "Bark"], "correctIndex": 2, "explanation": "Pollen is produced in the flower and plays an important role in fertilisation.", "tags": ["plants", "flower"] },
+    { "id": "g3s-w24-mon-013", "question": "Coconut is a fruit of a ____ plant.", "options": ["Non-flowering", "Flowering", "Fern", "Moss"], "correctIndex": 1, "explanation": "The coconut palm is a flowering plant. It produces flowers which develop into coconuts.", "tags": ["plants", "flowering"] },
+    { "id": "g3s-w24-mon-014", "question": "Which of these can grow without soil, on tree trunks in moist places?", "options": ["Mango", "Rose", "Moss", "Tulsi"], "correctIndex": 2, "explanation": "Moss grows on damp surfaces like tree trunks, rocks, and walls without needing soil.", "tags": ["plants", "non-flowering"] },
+    { "id": "g3s-w24-mon-015", "question": "Lotus is a flowering plant that grows in ____.", "options": ["Desert sand", "Water", "Snow", "Rock"], "correctIndex": 1, "explanation": "Lotus is India's national flower and grows in ponds and lakes — it is an aquatic flowering plant.", "tags": ["plants", "flowering"] }
+  ]
+}

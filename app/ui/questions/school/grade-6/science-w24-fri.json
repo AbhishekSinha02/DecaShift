@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-6-science-w24-fri",
+  "title": "Grade 6 Science — Fri, Jun 13",
+  "description": "Separation of Substances — Day 5 of 5: Mixed review — matching methods to mixtures",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "fri",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly", "separation"],
+  "questions": [
+    { "id": "g6s-w24-fri-001", "question": "Match: To separate stone from rice, use:", "options": ["Filtration", "Hand-picking", "Evaporation", "Chromatography"], "correctIndex": 1, "explanation": "Stones can be seen and picked out by hand. Hand-picking is the simplest method for visible particles in a dry mixture.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-002", "question": "Match: To separate salt from water, use:", "options": ["Filtration", "Sieving", "Evaporation", "Magnetic separation"], "correctIndex": 2, "explanation": "Salt dissolves in water. To get salt back, heat the solution so water evaporates, leaving solid salt crystals.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-003", "question": "Match: To separate sand from water, use:", "options": ["Evaporation", "Filtration", "Magnetic separation", "Chromatography"], "correctIndex": 1, "explanation": "Sand is insoluble in water. Filtration separates it — sand remains on filter paper while water passes through.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-004", "question": "Match: To separate iron filings from sawdust, use:", "options": ["Winnowing", "Sieving", "Filtration", "Magnetic separation"], "correctIndex": 3, "explanation": "Iron filings are magnetic; sawdust is not. A magnet can easily pull iron filings away from sawdust.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-005", "question": "Match: To separate husk from grain, use:", "options": ["Filtration", "Evaporation", "Winnowing", "Distillation"], "correctIndex": 2, "explanation": "Winnowing uses wind to blow the lighter husk away while the heavier grain falls and is collected.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-006", "question": "Match: To get pure water from seawater, use:", "options": ["Filtration", "Sieving", "Evaporation (to get salt)", "Distillation (to get pure water)"], "correctIndex": 3, "explanation": "Distillation condenses water vapour into pure water, leaving all dissolved salts behind.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-007", "question": "Which of these mixtures requires two steps: sedimentation THEN filtration?", "options": ["Salt in water", "Muddy water", "Iron in sawdust", "Alcohol in water"], "correctIndex": 1, "explanation": "First let the mud settle (sedimentation), then filter the clearer water to remove remaining fine particles.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-008", "question": "Match: To identify the different dyes in a felt-tip pen ink, use:", "options": ["Filtration", "Evaporation", "Paper chromatography", "Sieving"], "correctIndex": 2, "explanation": "Paper chromatography separates the different coloured dye components in ink by how fast they travel up wet paper.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-009", "question": "A mixture of flour (fine) and rice (coarse grain) can be separated using:", "options": ["Magnetic separation", "Sieving", "Chromatography", "Evaporation"], "correctIndex": 1, "explanation": "A sieve with appropriate hole size lets fine flour through but retains the larger rice grains.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-010", "question": "Salt water and pure water both look the same. How can we confirm which is which?", "options": ["By colour testing", "By evaporating both — salt water leaves a white residue", "By filtration", "By magnetic testing"], "correctIndex": 1, "explanation": "Evaporate samples from both. The salt water leaves white salt crystals. Pure water leaves no residue.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-011", "question": "Which method cannot be used to separate a DISSOLVED substance from water?", "options": ["Evaporation", "Distillation", "Filtration", "None of these work"], "correctIndex": 2, "explanation": "Filtration only removes insoluble (undissolved) particles. A dissolved substance like salt passes right through filter paper.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-012", "question": "Water treatment plants use a combination of methods. In the correct order, they are:", "options": ["Sieving → Chromatography → Chlorination", "Sedimentation → Filtration → Chlorination (disinfection)", "Evaporation → Distillation → Sieving", "Magnetic separation → Winnowing → Boiling"], "correctIndex": 1, "explanation": "Water purification: coagulate + sediment → filter to remove particles → add chlorine to kill germs.", "tags": ["separation", "water-treatment"] },
+    { "id": "g6s-w24-fri-013", "question": "The process where vapour turns back to liquid is:", "options": ["Evaporation", "Sedimentation", "Condensation", "Chromatography"], "correctIndex": 2, "explanation": "Condensation is the reverse of evaporation — vapour cools and turns back into liquid. It is used in distillation.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-014", "question": "When would you use BOTH sieving AND evaporation together?", "options": ["When separating iron from sand", "When separating a mixture that has both large particles AND dissolved salt (e.g., salty muddy water)", "When separating two dyes only", "When finding which materials are magnetic"], "correctIndex": 1, "explanation": "Sieve out the large particles, then evaporate to get the dissolved salt. Different impurities need different methods.", "tags": ["separation", "review"] },
+    { "id": "g6s-w24-fri-015", "question": "Which of the following is used to separate two LIQUIDS that mix together (miscible) but have different boiling points?", "options": ["Filtration", "Sedimentation", "Distillation", "Chromatography only"], "correctIndex": 2, "explanation": "Distillation separates miscible liquids with different boiling points by boiling the more volatile one first and condensing it.", "tags": ["separation", "review"] }
+  ]
+}

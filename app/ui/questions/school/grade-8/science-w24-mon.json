@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-science-w24-mon",
+  "title": "Grade 8 Science — Mon, Jun 09",
+  "description": "Metals and Non-metals — Day 1 of 5: Physical properties",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly", "metals-nonmetals"],
+  "questions": [
+    { "id": "g8s-w24-mon-001", "question": "Which property describes the ability of a metal to be beaten into thin sheets?", "options": ["Ductility", "Malleability", "Conductivity", "Lustre"], "correctIndex": 1, "explanation": "Malleability is the property that allows metals to be hammered or rolled into thin sheets (e.g., gold foil, aluminium foil).", "tags": ["metals", "properties"] },
+    { "id": "g8s-w24-mon-002", "question": "The ability of a metal to be drawn into thin wires is called:", "options": ["Malleability", "Sonority", "Ductility", "Lustre"], "correctIndex": 2, "explanation": "Ductility allows metals like copper and gold to be drawn into long thin wires. Copper wires are used in electrical circuits.", "tags": ["metals", "ductility"] },
+    { "id": "g8s-w24-mon-003", "question": "Metals are generally ____ conductors of heat and electricity.", "options": ["Poor", "Good", "Moderate", "Zero"], "correctIndex": 1, "explanation": "Metals have free electrons that move easily, making them good conductors of both heat and electricity.", "tags": ["metals", "conductivity"] },
+    { "id": "g8s-w24-mon-004", "question": "The shiny appearance of a freshly cut metal surface is called:", "options": ["Ductility", "Lustre", "Malleability", "Hardness"], "correctIndex": 1, "explanation": "Lustre is the shiny appearance of metals. Gold, silver, and copper have a characteristic metallic lustre.", "tags": ["metals", "lustre"] },
+    { "id": "g8s-w24-mon-005", "question": "Which of these is a non-metal?", "options": ["Iron", "Copper", "Sulphur", "Gold"], "correctIndex": 2, "explanation": "Sulphur is a non-metal. It is a yellow solid that does not conduct electricity and lacks metallic lustre.", "tags": ["non-metals", "examples"] },
+    { "id": "g8s-w24-mon-006", "question": "Non-metals are generally ____ conductors of electricity.", "options": ["Excellent", "Good", "Poor", "The best"], "correctIndex": 2, "explanation": "Most non-metals are poor conductors (insulators) of electricity. Graphite (a form of carbon) is an exception.", "tags": ["non-metals", "conductivity"] },
+    { "id": "g8s-w24-mon-007", "question": "Which metal is the best conductor of electricity?", "options": ["Iron", "Silver", "Aluminium", "Zinc"], "correctIndex": 1, "explanation": "Silver is the best conductor of electricity among all metals, though copper is more commonly used due to cost.", "tags": ["metals", "conductivity"] },
+    { "id": "g8s-w24-mon-008", "question": "The property by which metals produce a ringing sound when struck is called:", "options": ["Lustre", "Malleability", "Sonority", "Ductility"], "correctIndex": 2, "explanation": "Sonority is the property of metals to produce a ringing sound when hit. School bells are made of metals for this reason.", "tags": ["metals", "sonority"] },
+    { "id": "g8s-w24-mon-009", "question": "Mercury is a metal that is:", "options": ["Hard and shiny solid", "Liquid at room temperature", "Black in colour", "Non-conducting"], "correctIndex": 1, "explanation": "Mercury (Hg) is the only metal that is liquid at room temperature. It is used in thermometers.", "tags": ["metals", "mercury"] },
+    { "id": "g8s-w24-mon-010", "question": "Non-metals are generally:", "options": ["Hard and shiny", "Brittle and dull (except iodine and graphite)", "Malleable and ductile", "Good conductors of heat"], "correctIndex": 1, "explanation": "Non-metals are usually brittle (break easily), non-lustrous, and poor conductors. Iodine and graphite are exceptions.", "tags": ["non-metals", "properties"] },
+    { "id": "g8s-w24-mon-011", "question": "Which of these is the only non-metal that is a liquid at room temperature?", "options": ["Sulphur", "Carbon", "Bromine", "Phosphorus"], "correctIndex": 2, "explanation": "Bromine is the only non-metal that exists as a liquid at room temperature. It is a reddish-brown liquid.", "tags": ["non-metals", "bromine"] },
+    { "id": "g8s-w24-mon-012", "question": "Aluminium is used to make cooking utensils because it:", "options": ["Is a non-conductor", "Has low density and good thermal conductivity", "Does not react with anything", "Is magnetic"], "correctIndex": 1, "explanation": "Aluminium is lightweight (low density) and conducts heat well, making it ideal for cooking utensils.", "tags": ["metals", "aluminium"] },
+    { "id": "g8s-w24-mon-013", "question": "Which form of carbon is a good conductor of electricity?", "options": ["Diamond", "Graphite", "Coal", "Charcoal"], "correctIndex": 1, "explanation": "Graphite, a form of carbon (non-metal), is a good conductor of electricity due to its layered structure with free electrons.", "tags": ["non-metals", "carbon"] },
+    { "id": "g8s-w24-mon-014", "question": "Which of the following physical properties is common to most metals?", "options": ["Brittleness", "Transparency", "High density", "Yellow colour"], "correctIndex": 2, "explanation": "Most metals have high density (they are heavy for their size), though there are exceptions like sodium and potassium.", "tags": ["metals", "properties"] },
+    { "id": "g8s-w24-mon-015", "question": "Iron is used in making bridges and buildings because it has:", "options": ["Low density and low strength", "High strength and hardness", "Good resistance to rust", "Very low melting point"], "correctIndex": 1, "explanation": "Iron is very strong and hard, making it useful for construction. However, it rusts and is often used as steel alloy.", "tags": ["metals", "iron"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w24-wed",
+  "title": "Grade 4 Science — Wed, Jun 11",
+  "description": "Food & Nutrition — Day 3 of 5: Proteins, vitamins and deficiency diseases",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "nutrition"],
+  "questions": [
+    { "id": "g4s-w24-wed-001", "question": "Proteins are also called ____ foods.", "options": ["Energy", "Body-building", "Protective", "Glow"], "correctIndex": 1, "explanation": "Proteins help in growth and repair of body tissues, so they are called body-building foods.", "tags": ["nutrition", "protein"] },
+    { "id": "g4s-w24-wed-002", "question": "Which of these is a good source of protein?", "options": ["Rice", "Sugar", "Egg", "Butter"], "correctIndex": 2, "explanation": "Eggs are rich in high-quality protein. Other good sources include pulses, fish, meat, milk, and nuts.", "tags": ["nutrition", "protein"] },
+    { "id": "g4s-w24-wed-003", "question": "Children who do not get enough protein may develop a disease called:", "options": ["Scurvy", "Rickets", "Kwashiorkor", "Anaemia"], "correctIndex": 2, "explanation": "Kwashiorkor is caused by severe protein deficiency. Children get a swollen belly, weakness, and stunted growth.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-wed-004", "question": "Vitamins are nutrients that:", "options": ["Give large amounts of energy", "Are needed in small amounts to keep the body healthy and prevent diseases", "Build muscles mainly", "Are found only in meat"], "correctIndex": 1, "explanation": "Vitamins are micronutrients needed in small but essential amounts. They prevent deficiency diseases.", "tags": ["nutrition", "vitamins"] },
+    { "id": "g4s-w24-wed-005", "question": "Lack of Vitamin C in the diet causes:", "options": ["Rickets", "Night blindness", "Scurvy", "Beri-beri"], "correctIndex": 2, "explanation": "Scurvy is caused by Vitamin C deficiency. Symptoms include bleeding gums and slow wound healing.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-wed-006", "question": "Lack of Vitamin D in the diet causes:", "options": ["Scurvy", "Night blindness", "Rickets", "Anaemia"], "correctIndex": 2, "explanation": "Rickets is caused by Vitamin D (and calcium) deficiency. Bones become soft and deformed in children.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-wed-007", "question": "Which vitamin is called the 'sunshine vitamin' because the body makes it from sunlight?", "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"], "correctIndex": 3, "explanation": "Vitamin D is produced in the skin when exposed to sunlight. It is essential for strong bones and teeth.", "tags": ["nutrition", "vitamins"] },
+    { "id": "g4s-w24-wed-008", "question": "Night blindness (not seeing well in dim light) is caused by lack of:", "options": ["Vitamin C", "Vitamin A", "Iron", "Calcium"], "correctIndex": 1, "explanation": "Vitamin A deficiency causes night blindness. Carrots, sweet potato, and green leafy vegetables are rich in Vitamin A.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-wed-009", "question": "Which vitamin helps wounds heal and keeps gums healthy?", "options": ["Vitamin D", "Vitamin K", "Vitamin C", "Vitamin B12"], "correctIndex": 2, "explanation": "Vitamin C (ascorbic acid) is essential for healing wounds and keeping gums and blood vessels healthy.", "tags": ["nutrition", "vitamins"] },
+    { "id": "g4s-w24-wed-010", "question": "Beri-beri is a disease caused by lack of:", "options": ["Vitamin A", "Vitamin B1 (thiamine)", "Vitamin C", "Vitamin D"], "correctIndex": 1, "explanation": "Beri-beri is caused by Vitamin B1 (thiamine) deficiency. It affects the nervous system and causes weakness.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-wed-011", "question": "Anaemia is caused by lack of which mineral?", "options": ["Calcium", "Iron", "Iodine", "Sodium"], "correctIndex": 1, "explanation": "Iron deficiency causes anaemia — insufficient red blood cells, leading to weakness, pale skin, and breathlessness.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-wed-012", "question": "Goitre (swelling of the neck) is caused by lack of:", "options": ["Iron", "Calcium", "Iodine", "Vitamin C"], "correctIndex": 2, "explanation": "Iodine deficiency causes goitre — swelling of the thyroid gland. Iodised salt is used to prevent this.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-wed-013", "question": "Which of these foods is rich in iron?", "options": ["Sugar", "Butter", "Green leafy vegetables and spinach", "Rice"], "correctIndex": 2, "explanation": "Spinach (palak), beans, jaggery (gur), and liver are rich in iron, which prevents anaemia.", "tags": ["nutrition", "minerals"] },
+    { "id": "g4s-w24-wed-014", "question": "Drinking milk regularly helps prevent:", "options": ["Night blindness", "Scurvy", "Rickets and weak bones", "Beri-beri"], "correctIndex": 2, "explanation": "Milk is rich in calcium and Vitamin D, which are essential for strong bones. It helps prevent rickets and osteoporosis.", "tags": ["nutrition", "vitamins"] },
+    { "id": "g4s-w24-wed-015", "question": "Which of these foods provides Vitamin C?", "options": ["Bread", "Amla (Indian gooseberry) and oranges", "Butter", "Rice"], "correctIndex": 1, "explanation": "Amla has the highest Vitamin C content of any common fruit. Oranges, lemons, and guava are also rich in Vitamin C.", "tags": ["nutrition", "vitamins"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w24-tue",
+  "title": "Grade 5 Science — Tue, Jun 10",
+  "description": "The Digestive System — Day 2 of 5: Stomach and small intestine",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "digestion"],
+  "questions": [
+    { "id": "g5s-w24-tue-001", "question": "After the oesophagus, food enters the:", "options": ["Small intestine", "Large intestine", "Stomach", "Liver"], "correctIndex": 2, "explanation": "From the oesophagus, food enters the stomach, where further digestion takes place.", "tags": ["digestion", "stomach"] },
+    { "id": "g5s-w24-tue-002", "question": "The stomach produces ____ to break down food.", "options": ["Bile", "Gastric juice (containing acid and enzymes)", "Saliva", "Blood"], "correctIndex": 1, "explanation": "The stomach produces gastric juice containing hydrochloric acid and enzymes that digest proteins and kill bacteria.", "tags": ["digestion", "stomach"] },
+    { "id": "g5s-w24-tue-003", "question": "The acid in the stomach is:", "options": ["Citric acid", "Hydrochloric acid (HCl)", "Acetic acid", "Lactic acid"], "correctIndex": 1, "explanation": "The stomach produces hydrochloric acid (HCl) which creates the acidic environment needed to digest proteins and kill germs.", "tags": ["digestion", "stomach"] },
+    { "id": "g5s-w24-tue-004", "question": "The semi-liquid food that leaves the stomach is called:", "options": ["Bolus", "Chyme", "Bile", "Saliva"], "correctIndex": 1, "explanation": "After mixing with gastric juices in the stomach, food becomes a semi-liquid paste called chyme.", "tags": ["digestion", "chyme"] },
+    { "id": "g5s-w24-tue-005", "question": "The small intestine is where most ____ takes place.", "options": ["Chewing and grinding", "Absorption of nutrients into the blood", "Waste formation", "Water removal only"], "correctIndex": 1, "explanation": "The small intestine is the main site of digestion completion and nutrient absorption into the bloodstream.", "tags": ["digestion", "small-intestine"] },
+    { "id": "g5s-w24-tue-006", "question": "The inner walls of the small intestine have tiny finger-like projections called:", "options": ["Enzymes", "Villi", "Bile ducts", "Capillaries"], "correctIndex": 1, "explanation": "Villi (singular: villus) greatly increase the surface area of the small intestine for efficient nutrient absorption.", "tags": ["digestion", "villi"] },
+    { "id": "g5s-w24-tue-007", "question": "Which organ produces bile which helps digest fats?", "options": ["Stomach", "Pancreas", "Liver", "Kidney"], "correctIndex": 2, "explanation": "The liver produces bile, a green-yellow liquid that breaks down fats into tiny droplets for easier digestion.", "tags": ["digestion", "liver"] },
+    { "id": "g5s-w24-tue-008", "question": "Bile is stored in the:", "options": ["Liver", "Gall bladder", "Pancreas", "Stomach"], "correctIndex": 1, "explanation": "Bile is produced by the liver and stored in the gall bladder until it is needed in the small intestine.", "tags": ["digestion", "bile"] },
+    { "id": "g5s-w24-tue-009", "question": "The pancreas produces digestive juices that are released into the:", "options": ["Mouth", "Stomach", "Small intestine", "Large intestine"], "correctIndex": 2, "explanation": "The pancreas releases pancreatic juice containing enzymes into the small intestine to digest carbohydrates, proteins, and fats.", "tags": ["digestion", "pancreas"] },
+    { "id": "g5s-w24-tue-010", "question": "Which enzyme breaks down proteins in the stomach?", "options": ["Amylase", "Lipase", "Pepsin", "Sucrase"], "correctIndex": 2, "explanation": "Pepsin is the main enzyme in the stomach that breaks down proteins into smaller peptide chains.", "tags": ["digestion", "enzyme"] },
+    { "id": "g5s-w24-tue-011", "question": "The small intestine is approximately ____ long in an adult.", "options": ["0.5 metres", "2 metres", "6–7 metres", "20 metres"], "correctIndex": 2, "explanation": "Despite being called 'small', the small intestine is about 6–7 metres long in adults — longer than the large intestine.", "tags": ["digestion", "small-intestine"] },
+    { "id": "g5s-w24-tue-012", "question": "Why is the small intestine called 'small' if it is actually longer?", "options": ["It is small in weight", "It is smaller in diameter (width) than the large intestine", "It is shorter than thought", "It only handles small food particles"], "correctIndex": 1, "explanation": "It is called 'small' because its diameter (about 2.5 cm) is much narrower than the large intestine (about 6 cm).", "tags": ["digestion", "small-intestine"] },
+    { "id": "g5s-w24-tue-013", "question": "Absorbed nutrients from the small intestine enter the:", "options": ["Urine directly", "Bloodstream through the villi", "Lungs for oxygen", "Liver only, not blood"], "correctIndex": 1, "explanation": "Villi contain tiny blood capillaries. Absorbed nutrients pass through villi walls into the blood and are carried to body cells.", "tags": ["digestion", "absorption"] },
+    { "id": "g5s-w24-tue-014", "question": "Which enzyme in the small intestine breaks down fats?", "options": ["Pepsin", "Amylase", "Lipase", "Bile"], "correctIndex": 2, "explanation": "Lipase (from the pancreas) breaks down fats into fatty acids and glycerol, which can then be absorbed.", "tags": ["digestion", "enzyme"] },
+    { "id": "g5s-w24-tue-015", "question": "What is the role of bile in fat digestion?", "options": ["It directly digests fats using enzymes", "It emulsifies fats — breaks large fat droplets into smaller ones for lipase to act on", "It absorbs fats into the blood", "It creates acid for fat digestion"], "correctIndex": 1, "explanation": "Bile emulsifies fats — breaking large fat globules into tiny droplets. This increases the surface area for lipase to work on.", "tags": ["digestion", "bile"] }
+  ]
+}

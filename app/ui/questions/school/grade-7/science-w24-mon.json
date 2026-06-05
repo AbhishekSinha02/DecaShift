@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-science-w24-mon",
+  "title": "Grade 7 Science — Mon, Jun 09",
+  "description": "Fibre to Fabric — Day 1 of 5: Natural fibres — cotton, silk, wool",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly", "fibre-to-fabric"],
+  "questions": [
+    { "id": "g7s-w24-mon-001", "question": "Natural fibres are obtained from:", "options": ["Petroleum products", "Plants and animals", "Plastic factories", "Chemical synthesis"], "correctIndex": 1, "explanation": "Natural fibres like cotton and jute come from plants; silk and wool come from animals.", "tags": ["fibre", "natural"] },
+    { "id": "g7s-w24-mon-002", "question": "Cotton fibre is obtained from which part of the cotton plant?", "options": ["Root", "Stem", "Seed pod (boll)", "Leaf"], "correctIndex": 2, "explanation": "Cotton fibres grow around the seeds inside the cotton boll (seed pod) of the cotton plant.", "tags": ["fibre", "cotton"] },
+    { "id": "g7s-w24-mon-003", "question": "Silk is produced by:", "options": ["Cotton plant", "Silkworm", "Sheep", "Spider plant"], "correctIndex": 1, "explanation": "Silk is obtained from the cocoon spun by the silkworm (larva of the silk moth, Bombyx mori).", "tags": ["fibre", "silk"] },
+    { "id": "g7s-w24-mon-004", "question": "Wool is obtained from the fleece of:", "options": ["Cows", "Goats and sheep", "Silkworms", "Cotton plants"], "correctIndex": 1, "explanation": "Wool comes from the thick hair (fleece) of sheep and goats. Merino and Angora are wool-producing breeds.", "tags": ["fibre", "wool"] },
+    { "id": "g7s-w24-mon-005", "question": "Jute is a natural fibre obtained from the ____ of the jute plant.", "options": ["Root", "Fruit", "Stem", "Leaf"], "correctIndex": 2, "explanation": "Jute fibre is extracted from the stem of the jute plant by a process called retting.", "tags": ["fibre", "jute"] },
+    { "id": "g7s-w24-mon-006", "question": "Which natural fibre is commonly used to make sacks and ropes in India?", "options": ["Cotton", "Silk", "Jute", "Wool"], "correctIndex": 2, "explanation": "Jute is a strong, cheap natural fibre used to make sacks, ropes, and coarse cloth. India is a major jute producer.", "tags": ["fibre", "jute"] },
+    { "id": "g7s-w24-mon-007", "question": "Which property of cotton makes it ideal for summer clothing?", "options": ["It is waterproof", "It absorbs sweat and allows air to pass through", "It traps heat", "It is shiny and smooth"], "correctIndex": 1, "explanation": "Cotton is breathable and absorbs moisture, keeping the body cool — ideal for India's hot summers.", "tags": ["fibre", "cotton"] },
+    { "id": "g7s-w24-mon-008", "question": "Wool is used mainly for winter clothing because it:", "options": ["Absorbs sweat well", "Traps air and provides insulation from cold", "Is waterproof", "Dries very fast"], "correctIndex": 1, "explanation": "Wool fibres trap air between them, creating insulation that keeps the body warm in cold weather.", "tags": ["fibre", "wool"] },
+    { "id": "g7s-w24-mon-009", "question": "Which Indian state is the largest producer of cotton?", "options": ["Kerala", "Gujarat", "Himachal Pradesh", "Assam"], "correctIndex": 1, "explanation": "Gujarat is India's largest cotton-producing state, followed by Maharashtra and Telangana.", "tags": ["fibre", "cotton"] },
+    { "id": "g7s-w24-mon-010", "question": "Silk fabric feels ____ compared to cotton.", "options": ["Rough", "Smooth and lustrous", "Thick and warm", "Dull and heavy"], "correctIndex": 1, "explanation": "Silk has a natural sheen (lustre) and smooth texture, making it feel luxurious and look bright.", "tags": ["fibre", "silk"] },
+    { "id": "g7s-w24-mon-011", "question": "Which of these is a synthetic fibre?", "options": ["Wool", "Silk", "Polyester", "Cotton"], "correctIndex": 2, "explanation": "Polyester is made from chemicals (petroleum by-products) in factories — it is a synthetic, not natural, fibre.", "tags": ["fibre", "synthetic"] },
+    { "id": "g7s-w24-mon-012", "question": "The rearing of silkworms for producing silk is called:", "options": ["Poultry farming", "Sericulture", "Pisciculture", "Apiculture"], "correctIndex": 1, "explanation": "Sericulture is the science and industry of rearing silkworms to produce raw silk.", "tags": ["fibre", "silk"] },
+    { "id": "g7s-w24-mon-013", "question": "Linen is a natural fibre obtained from:", "options": ["Coconut husk", "Flax plant", "Sheep", "Silkworm"], "correctIndex": 1, "explanation": "Linen is made from the fibres of the flax plant. It is cool to wear and dries quickly.", "tags": ["fibre", "natural"] },
+    { "id": "g7s-w24-mon-014", "question": "Which of these is a disadvantage of synthetic fibres compared to natural fibres?", "options": ["They are expensive", "They melt easily near flame and are less breathable", "They absorb too much water", "They fade in sunlight quickly"], "correctIndex": 1, "explanation": "Synthetic fibres like nylon and polyester can melt near heat and trap sweat, making them less comfortable.", "tags": ["fibre", "synthetic"] },
+    { "id": "g7s-w24-mon-015", "question": "The fibre that comes from a plant's seed pod, used to make summer clothes, is:", "options": ["Wool", "Silk", "Cotton", "Nylon"], "correctIndex": 2, "explanation": "Cotton comes from the seed pods (bolls) of the cotton plant and is widely used for comfortable summer clothing.", "tags": ["fibre", "cotton"] }
+  ]
+}

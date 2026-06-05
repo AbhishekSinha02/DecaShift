@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-science-w24-tue",
+  "title": "Grade 7 Science — Tue, Jun 10",
+  "description": "Fibre to Fabric — Day 2 of 5: Cotton — from field to fabric",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "tue",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly", "fibre-to-fabric"],
+  "questions": [
+    { "id": "g7s-w24-tue-001", "question": "Cotton is a ____ crop, planted in:", "options": ["Rabi (winter)", "Kharif (summer/monsoon)", "Spring only", "Year-round crop"], "correctIndex": 1, "explanation": "Cotton is a kharif crop sown in June–July with the monsoon and harvested in October–December.", "tags": ["cotton", "crop"] },
+    { "id": "g7s-w24-tue-002", "question": "The process of removing cotton fibres from the seeds is called:", "options": ["Ginning", "Spinning", "Weaving", "Retting"], "correctIndex": 0, "explanation": "Ginning separates the fluffy cotton fibres from the seeds. This is done by a cotton gin machine.", "tags": ["cotton", "ginning"] },
+    { "id": "g7s-w24-tue-003", "question": "After ginning, cotton fibres are twisted into long threads. This process is called:", "options": ["Weaving", "Spinning", "Ginning", "Dyeing"], "correctIndex": 1, "explanation": "Spinning twists loose cotton fibres into strong, continuous yarn (thread) that can be woven or knitted.", "tags": ["cotton", "spinning"] },
+    { "id": "g7s-w24-tue-004", "question": "A traditional Indian spinning device used to spin cotton thread is the:", "options": ["Handloom", "Charkha", "Power loom", "Reel"], "correctIndex": 1, "explanation": "The charkha (spinning wheel) was the traditional Indian device for spinning cotton. It was made famous by Mahatma Gandhi.", "tags": ["cotton", "spinning"] },
+    { "id": "g7s-w24-tue-005", "question": "The process of interlacing threads at right angles to make fabric is called:", "options": ["Spinning", "Knitting", "Weaving", "Ginning"], "correctIndex": 2, "explanation": "Weaving interlaces two sets of threads — warp (lengthwise) and weft (crosswise) — to make cloth on a loom.", "tags": ["cotton", "weaving"] },
+    { "id": "g7s-w24-tue-006", "question": "In weaving, the threads that run lengthwise are called:", "options": ["Weft threads", "Warp threads", "Fibre threads", "Yarn threads"], "correctIndex": 1, "explanation": "Warp threads are stretched lengthwise on the loom. Weft threads are woven crosswise through the warp.", "tags": ["cotton", "weaving"] },
+    { "id": "g7s-w24-tue-007", "question": "The correct order of making cotton fabric from the plant is:", "options": ["Spinning → Ginning → Weaving", "Ginning → Spinning → Weaving", "Weaving → Spinning → Ginning", "Ginning → Weaving → Spinning"], "correctIndex": 1, "explanation": "The order is: Ginning (remove seeds) → Spinning (twist into yarn) → Weaving (make fabric).", "tags": ["cotton", "process"] },
+    { "id": "g7s-w24-tue-008", "question": "Which state in India is known as the 'Manchester of India' for its cotton textile industry?", "options": ["Kolkata", "Chennai", "Ahmedabad", "Delhi"], "correctIndex": 2, "explanation": "Ahmedabad (Gujarat) is called the 'Manchester of India' due to its large cotton textile mill industry.", "tags": ["cotton", "india"] },
+    { "id": "g7s-w24-tue-009", "question": "Knitting is different from weaving because knitting uses:", "options": ["Two sets of threads interlaced at right angles", "One continuous yarn looped together", "A loom machine only", "Warp and weft threads"], "correctIndex": 1, "explanation": "Knitting uses one yarn that is looped through itself repeatedly to form a stretchy fabric (like in sweaters or socks).", "tags": ["cotton", "knitting"] },
+    { "id": "g7s-w24-tue-010", "question": "Which of the following is a property that makes cotton good for use in hospitals and bandages?", "options": ["It repels water", "It is highly absorbent and soft", "It is synthetic", "It traps heat"], "correctIndex": 1, "explanation": "Cotton is very absorbent and soft, making it ideal for medical uses like bandages and cotton swabs.", "tags": ["cotton", "properties"] },
+    { "id": "g7s-w24-tue-011", "question": "The seed after ginning is called a cotton seed. Cotton seed oil is used for:", "options": ["Making cloth", "Cooking food", "Making thread", "Dyeing fabric"], "correctIndex": 1, "explanation": "Cotton seeds are pressed to extract cottonseed oil, used in cooking and making vanaspati (hydrogenated fat).", "tags": ["cotton", "uses"] },
+    { "id": "g7s-w24-tue-012", "question": "A handloom is powered by:", "options": ["Electricity", "A human operator using hands and feet", "Steam engine", "Solar energy"], "correctIndex": 1, "explanation": "A handloom is a manually operated weaving machine where a weaver uses hands and feet to weave cloth.", "tags": ["cotton", "weaving"] },
+    { "id": "g7s-w24-tue-013", "question": "The fluffy white part of the cotton plant that we harvest is found in the:", "options": ["Root", "Leaf", "Boll (seed pod)", "Stem"], "correctIndex": 2, "explanation": "Cotton fibres grow around the seeds inside the boll. When the boll bursts open, the fluffy white fibres are visible.", "tags": ["cotton", "plant"] },
+    { "id": "g7s-w24-tue-014", "question": "Why is India one of the world's top cotton producers?", "options": ["Because India has the most factories", "Due to suitable climate, black cotton soil, and large farming area", "Because India imports cotton seeds", "Due to cold weather"], "correctIndex": 1, "explanation": "India's warm climate, black cotton soil (regur) in Maharashtra and Gujarat, and large land area make it ideal for cotton growing.", "tags": ["cotton", "india"] },
+    { "id": "g7s-w24-tue-015", "question": "A power loom differs from a handloom in that it:", "options": ["Makes coarser cloth", "Runs on electricity and is much faster", "Can only weave wool", "Produces less fabric"], "correctIndex": 1, "explanation": "Power looms are driven by electricity and can produce fabric much faster than handlooms. They are used in textile factories.", "tags": ["cotton", "weaving"] }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w24-thu",
+  "title": "Grade 2 Science — Thu, Jun 12",
+  "description": "Animals Around Us — Day 4 of 5: Animal homes",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "animals"],
+  "questions": [
+    { "id": "g2s-w24-thu-001", "question": "A bird builds a ____ to live in and keep its eggs safe.", "options": ["Den", "Burrow", "Nest", "Kennel"], "correctIndex": 2, "explanation": "Birds build nests from twigs, grass, and leaves to lay eggs and raise their young ones.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-002", "question": "A lion lives in a:", "options": ["Nest", "Den", "Stable", "Kennel"], "correctIndex": 1, "explanation": "Lions rest in a den — a sheltered spot among rocks or in a cave in the wild.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-003", "question": "A horse lives in a:", "options": ["Den", "Burrow", "Stable", "Anthill"], "correctIndex": 2, "explanation": "A stable is a building where horses are kept. It provides shelter and protection for the horse.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-004", "question": "A rabbit digs a ____ underground to live in.", "options": ["Nest", "Burrow", "Den", "Hive"], "correctIndex": 1, "explanation": "Rabbits dig burrows — tunnels underground — as their homes to stay safe from predators.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-005", "question": "Bees live together in a:", "options": ["Den", "Nest", "Hive", "Burrow"], "correctIndex": 2, "explanation": "Bees build and live in hives, which are made of wax and house thousands of bees together.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-006", "question": "A dog lives in a:", "options": ["Stable", "Burrow", "Kennel", "Hive"], "correctIndex": 2, "explanation": "A kennel is a small shelter made for a dog to sleep and stay in.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-007", "question": "Ants build their home called an:", "options": ["Hive", "Nest in trees", "Anthill (mound) underground", "Burrow in water"], "correctIndex": 2, "explanation": "Ants build anthills — mounds of soil over their underground tunnel colony.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-008", "question": "A fish lives in:", "options": ["A nest", "Water (river, lake, or sea)", "A stable", "A burrow"], "correctIndex": 1, "explanation": "Fish live in water — in rivers, lakes, ponds, and seas. They cannot survive long out of water.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-009", "question": "A cow lives in a:", "options": ["Den", "Stable", "Cowshed", "Burrow"], "correctIndex": 2, "explanation": "Cows are kept in a cowshed (or barn) where they are safe and cared for.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-010", "question": "A spider spins a ____ to catch food.", "options": ["Burrow", "Net", "Web", "Den"], "correctIndex": 2, "explanation": "Spiders spin webs from silk threads to trap insects as food. The web is both home and hunting tool.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-011", "question": "A bear lives in a:", "options": ["Stable", "Kennel", "Cave or den", "Hive"], "correctIndex": 2, "explanation": "Bears make their home in a cave or a den (a sheltered hollow in rocks or a hillside).", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-012", "question": "What is the home of an eagle called?", "options": ["Hive", "Eyrie (nest on a cliff or tall tree)", "Kennel", "Burrow"], "correctIndex": 1, "explanation": "An eagle's nest is called an eyrie. Eagles build large nests on cliff ledges or tall trees.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-013", "question": "Which of these animals does NOT build a home?", "options": ["Bird", "Bee", "Fish in open sea", "Rabbit"], "correctIndex": 2, "explanation": "Most fish in open seas do not build homes — they simply swim in the water. They may shelter in rocks or coral.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-014", "question": "Animals need homes to:", "options": ["Show off to other animals", "Stay safe from predators and bad weather", "Eat more food", "Grow taller"], "correctIndex": 1, "explanation": "Animal homes provide shelter from rain, heat, and cold, and protection from predators and danger.", "tags": ["animals", "homes"] },
+    { "id": "g2s-w24-thu-015", "question": "A snail carries its home on its back. This home is its:", "options": ["Burrow", "Shell", "Kennel", "Den"], "correctIndex": 1, "explanation": "A snail's shell is its portable home — it protects the snail's soft body and it carries it everywhere.", "tags": ["animals", "homes"] }
+  ]
+}

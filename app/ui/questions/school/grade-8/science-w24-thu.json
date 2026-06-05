@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-8-science-w24-thu",
+  "title": "Grade 8 Science — Thu, Jun 12",
+  "description": "Metals and Non-metals — Day 4 of 5: Alloys, corrosion, and rust prevention",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 2,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly", "metals-nonmetals"],
+  "questions": [
+    { "id": "g8s-w24-thu-001", "question": "An alloy is a:", "options": ["Pure metal extracted from ore", "Mixture of two or more metals (or a metal and non-metal)", "Chemical compound of metals", "Non-metal material"], "correctIndex": 1, "explanation": "An alloy is a homogeneous mixture of metals (or a metal with non-metals) to get improved properties.", "tags": ["metals", "alloys"] },
+    { "id": "g8s-w24-thu-002", "question": "Steel is an alloy of iron and:", "options": ["Copper", "Carbon", "Aluminium", "Zinc"], "correctIndex": 1, "explanation": "Steel is an alloy of iron and carbon (0.2–2.1% carbon). Carbon makes iron stronger and harder.", "tags": ["metals", "alloys"] },
+    { "id": "g8s-w24-thu-003", "question": "Stainless steel contains iron, carbon, and also ____ which prevents rusting.", "options": ["Gold", "Copper", "Chromium and nickel", "Lead"], "correctIndex": 2, "explanation": "Stainless steel contains iron, carbon, and about 10–12% chromium (and sometimes nickel). Chromium forms a protective oxide layer.", "tags": ["metals", "alloys"] },
+    { "id": "g8s-w24-thu-004", "question": "Brass is an alloy of:", "options": ["Iron and carbon", "Copper and zinc", "Copper and tin", "Aluminium and copper"], "correctIndex": 1, "explanation": "Brass = copper + zinc. It is harder than copper and used for musical instruments, taps, and decorative items.", "tags": ["metals", "alloys"] },
+    { "id": "g8s-w24-thu-005", "question": "Bronze is an alloy of:", "options": ["Copper and zinc", "Iron and carbon", "Copper and tin", "Aluminium and silicon"], "correctIndex": 2, "explanation": "Bronze = copper + tin. It was the first widely used metal alloy (Bronze Age). Used for sculptures, medals, and bearings.", "tags": ["metals", "alloys"] },
+    { "id": "g8s-w24-thu-006", "question": "Corrosion is the process by which metals are:", "options": ["Strengthened by chemical reactions with the environment", "Slowly eaten away by chemical reactions with oxygen, moisture, or acids", "Made into alloys", "Purified from ores"], "correctIndex": 1, "explanation": "Corrosion is the deterioration of metals due to chemical reactions with oxygen, water, and other substances in the environment.", "tags": ["metals", "corrosion"] },
+    { "id": "g8s-w24-thu-007", "question": "Rusting of iron is an example of corrosion. The chemical name of rust is:", "options": ["Iron(II) oxide (FeO)", "Hydrated iron(III) oxide (Fe₂O₃·xH₂O)", "Iron chloride", "Iron sulphate"], "correctIndex": 1, "explanation": "Rust is hydrated iron(III) oxide, Fe₂O₃·xH₂O. It forms when iron reacts with oxygen in the presence of moisture.", "tags": ["metals", "rusting"] },
+    { "id": "g8s-w24-thu-008", "question": "Which two things are BOTH needed for iron to rust?", "options": ["Acid and heat", "Oxygen and water (moisture)", "Salt and sunlight only", "Carbon dioxide and nitrogen"], "correctIndex": 1, "explanation": "Iron rusts only when both oxygen and water are present. Keeping iron dry or free from oxygen prevents rust.", "tags": ["metals", "rusting"] },
+    { "id": "g8s-w24-thu-009", "question": "Galvanisation is the process of coating iron with ____ to prevent rusting.", "options": ["Gold", "Zinc", "Copper", "Aluminium"], "correctIndex": 1, "explanation": "Galvanisation coats iron/steel with a layer of zinc. Zinc is more reactive, so it corrodes first (sacrificial protection).", "tags": ["metals", "rust-prevention"] },
+    { "id": "g8s-w24-thu-010", "question": "Painting iron bridges and gates prevents rust because:", "options": ["Paint makes iron more reactive", "Paint provides a barrier that prevents oxygen and water from reaching the iron", "Paint contains acid that neutralises rust", "Paint makes iron non-magnetic"], "correctIndex": 1, "explanation": "Paint acts as a physical barrier, preventing oxygen and moisture from contacting the iron surface and causing rust.", "tags": ["metals", "rust-prevention"] },
+    { "id": "g8s-w24-thu-011", "question": "Which alloy is used in aircraft and spacecraft because it is both light and strong?", "options": ["Steel", "Brass", "Duralumin (aluminium alloy)", "Bronze"], "correctIndex": 2, "explanation": "Duralumin is an aluminium alloy (Al + Cu + Mg) — very strong yet lightweight, ideal for aircraft construction.", "tags": ["metals", "alloys"] },
+    { "id": "g8s-w24-thu-012", "question": "Tins used for food cans are steel coated with ____ to prevent reaction with food.", "options": ["Gold", "Zinc", "Tin", "Lead"], "correctIndex": 2, "explanation": "Food cans are made of steel coated with a thin layer of tin (tinplate). Tin is less reactive and does not affect food.", "tags": ["metals", "rust-prevention"] },
+    { "id": "g8s-w24-thu-013", "question": "Which of these methods is NOT a rust prevention technique?", "options": ["Painting", "Galvanising", "Alloying with chromium", "Placing iron in salt water"], "correctIndex": 3, "explanation": "Salt water accelerates rusting because it increases the conductivity of moisture around iron. It is the opposite of prevention.", "tags": ["metals", "rust-prevention"] },
+    { "id": "g8s-w24-thu-014", "question": "Solder, used to join electrical wires, is an alloy of:", "options": ["Copper and zinc", "Lead and tin", "Iron and carbon", "Gold and silver"], "correctIndex": 1, "explanation": "Traditional solder is an alloy of lead and tin with a low melting point, used to join metal components in electronics.", "tags": ["metals", "alloys"] },
+    { "id": "g8s-w24-thu-015", "question": "Aluminium cans (used for cold drinks) do not rust. Why?", "options": ["Aluminium is always kept dry", "Aluminium forms a thin oxide layer that protects it from further corrosion", "Aluminium is coated in zinc like iron", "Aluminium is a non-metal"], "correctIndex": 1, "explanation": "Aluminium quickly forms Al₂O₃ (aluminium oxide) on its surface — a tough, invisible layer that prevents further corrosion.", "tags": ["metals", "aluminium"] }
+  ]
+}

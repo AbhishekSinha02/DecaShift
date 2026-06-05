@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w24-thu",
+  "title": "Grade 4 Science — Thu, Jun 12",
+  "description": "Food & Nutrition — Day 4 of 5: Minerals, water, and balanced diet",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "nutrition"],
+  "questions": [
+    { "id": "g4s-w24-thu-001", "question": "Minerals are nutrients needed by the body in:", "options": ["Very large amounts", "Small but essential amounts", "No amount — they are not needed", "Only by adults"], "correctIndex": 1, "explanation": "Minerals like calcium, iron, and iodine are needed in small amounts, but their absence causes deficiency diseases.", "tags": ["nutrition", "minerals"] },
+    { "id": "g4s-w24-thu-002", "question": "Which mineral makes our bones and teeth strong?", "options": ["Iron", "Iodine", "Calcium", "Sodium"], "correctIndex": 2, "explanation": "Calcium is essential for strong bones and teeth. Milk, curd, cheese, and green vegetables are good calcium sources.", "tags": ["nutrition", "calcium"] },
+    { "id": "g4s-w24-thu-003", "question": "Iron is needed in the body to:", "options": ["Build bones", "Make haemoglobin in blood which carries oxygen", "Regulate thyroid gland", "Keep skin smooth"], "correctIndex": 1, "explanation": "Iron is a component of haemoglobin in red blood cells, which carries oxygen from lungs to all body cells.", "tags": ["nutrition", "iron"] },
+    { "id": "g4s-w24-thu-004", "question": "Iodine is needed for the proper working of the:", "options": ["Liver", "Kidneys", "Thyroid gland", "Stomach"], "correctIndex": 2, "explanation": "Iodine is used by the thyroid gland to produce hormones that control growth and metabolism.", "tags": ["nutrition", "iodine"] },
+    { "id": "g4s-w24-thu-005", "question": "Water makes up about ____ of our body weight.", "options": ["10%", "30%", "60–70%", "90%"], "correctIndex": 2, "explanation": "About 60–70% of the human body is water. It is in blood, cells, and all body fluids.", "tags": ["nutrition", "water"] },
+    { "id": "g4s-w24-thu-006", "question": "Which of these is a function of water in the body?", "options": ["Providing energy like carbohydrates", "Dissolving and transporting nutrients in blood", "Making bones strong", "Producing insulin"], "correctIndex": 1, "explanation": "Water dissolves nutrients and carries them in the blood to all cells. It also removes waste through urine and sweat.", "tags": ["nutrition", "water"] },
+    { "id": "g4s-w24-thu-007", "question": "A balanced diet contains:", "options": ["Only protein and water", "Only carbohydrates and fat", "All five nutrients in right amounts along with water and fibre", "Only vitamins and minerals"], "correctIndex": 2, "explanation": "A balanced diet has carbohydrates, proteins, fats, vitamins, minerals, water, and fibre in right proportions.", "tags": ["nutrition", "balanced-diet"] },
+    { "id": "g4s-w24-thu-008", "question": "The food pyramid or food plate helps us understand:", "options": ["Which foods taste best", "How much of each food group we should eat daily", "Which foods are cheapest", "Which foods to avoid completely"], "correctIndex": 1, "explanation": "The food pyramid/plate shows recommended portions of different food groups for a balanced daily diet.", "tags": ["nutrition", "balanced-diet"] },
+    { "id": "g4s-w24-thu-009", "question": "Sodium (salt) in the body is needed to:", "options": ["Build muscles", "Regulate body fluids and nerve signals", "Store energy", "Produce vitamins"], "correctIndex": 1, "explanation": "Sodium regulates fluid balance, helps nerves and muscles function, and maintains blood pressure.", "tags": ["nutrition", "minerals"] },
+    { "id": "g4s-w24-thu-010", "question": "Drinking at least how many glasses of water per day is recommended?", "options": ["2 glasses", "4 glasses", "8 glasses", "20 glasses"], "correctIndex": 2, "explanation": "Health experts recommend about 8 glasses (approximately 2 litres) of water per day for an average person.", "tags": ["nutrition", "water"] },
+    { "id": "g4s-w24-thu-011", "question": "Phosphorus is a mineral that works with calcium to build:", "options": ["Blood cells", "Bones and teeth", "Digestive juices", "Skin cells only"], "correctIndex": 1, "explanation": "Phosphorus, along with calcium, forms the hard mineral structure of bones and teeth.", "tags": ["nutrition", "minerals"] },
+    { "id": "g4s-w24-thu-012", "question": "Which of these provides multiple nutrients: protein, calcium, fat, and vitamins A and B?", "options": ["Sugar", "Rice", "Milk", "Oil"], "correctIndex": 2, "explanation": "Milk is a near-complete food — it provides protein, calcium, fats, and vitamins A and B12, especially for growing children.", "tags": ["nutrition", "balanced-diet"] },
+    { "id": "g4s-w24-thu-013", "question": "Junk food like chips and cola lack:", "options": ["Carbohydrates and fat", "Vitamins, minerals, protein, and fibre", "Sugar and salt", "Colour and flavour"], "correctIndex": 1, "explanation": "Junk foods are 'empty calories' — they have carbohydrates and fat but lack essential vitamins, minerals, protein, and fibre.", "tags": ["nutrition", "balanced-diet"] },
+    { "id": "g4s-w24-thu-014", "question": "What happens if we do not drink enough water?", "options": ["We gain energy", "We get dehydrated — feeling thirsty, dizzy, and tired", "We grow taller faster", "Nothing — water is not important"], "correctIndex": 1, "explanation": "Dehydration occurs when the body loses more water than it takes in. Symptoms include thirst, headache, dizziness, and fatigue.", "tags": ["nutrition", "water"] },
+    { "id": "g4s-w24-thu-015", "question": "A meal of dal, rice, sabzi, curd, and salad is considered balanced because:", "options": ["It has only one food group", "It contains protein (dal), carbs (rice), vitamins (sabzi/salad), and calcium (curd)", "It is cheap", "It has no fat"], "correctIndex": 1, "explanation": "A typical Indian thali with dal+rice+vegetables+curd covers proteins, carbohydrates, vitamins, minerals, and calcium.", "tags": ["nutrition", "balanced-diet"] }
+  ]
+}

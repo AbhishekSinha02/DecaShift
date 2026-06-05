@@ -67,5 +67,10 @@
   { "file": "school/grade-2/math-w24-tue.json",     "category": "school", "grade": 2, "subject": "mathematics", "level": 1, "weekNum": 24, "weekDay": "tue" },
   { "file": "school/grade-2/math-w24-wed.json",     "category": "school", "grade": 2, "subject": "mathematics", "level": 1, "weekNum": 24, "weekDay": "wed" },
   { "file": "school/grade-2/math-w24-thu.json",     "category": "school", "grade": 2, "subject": "mathematics", "level": 1, "weekNum": 24, "weekDay": "thu" },
-  { "file": "school/grade-2/math-w24-fri.json",     "category": "school", "grade": 2, "subject": "mathematics", "level": 1, "weekNum": 24, "weekDay": "fri" }
+  { "file": "school/grade-2/math-w24-fri.json",     "category": "school", "grade": 2, "subject": "mathematics", "level": 1, "weekNum": 24, "weekDay": "fri" },
+  { "file": "school/grade-2/science-w24-mon.json", "category": "school", "grade": 2, "subject": "science",     "level": 1, "weekNum": 24, "weekDay": "mon" },
+  { "file": "school/grade-2/science-w24-tue.json", "category": "school", "grade": 2, "subject": "science",     "level": 1, "weekNum": 24, "weekDay": "tue" },
+  { "file": "school/grade-2/science-w24-wed.json", "category": "school", "grade": 2, "subject": "science",     "level": 1, "weekNum": 24, "weekDay": "wed" },
+  { "file": "school/grade-2/science-w24-thu.json", "category": "school", "grade": 2, "subject": "science",     "level": 1, "weekNum": 24, "weekDay": "thu" },
+  { "file": "school/grade-2/science-w24-fri.json", "category": "school", "grade": 2, "subject": "science",     "level": 1, "weekNum": 24, "weekDay": "fri" }
 ]

@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-2-science-w24-wed",
+  "title": "Grade 2 Science — Wed, Jun 11",
+  "description": "Animals Around Us — Day 3 of 5: What animals eat",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly", "animals"],
+  "questions": [
+    { "id": "g2s-w24-wed-001", "question": "Animals that eat only plants are called:", "options": ["Carnivores", "Omnivores", "Herbivores", "Insectivores"], "correctIndex": 2, "explanation": "Herbivores eat only plants. Cow, deer, rabbit, and horse are herbivores.", "tags": ["animals", "food"] },
+    { "id": "g2s-w24-wed-002", "question": "Animals that eat only other animals are called:", "options": ["Herbivores", "Carnivores", "Omnivores", "Decomposers"], "correctIndex": 1, "explanation": "Carnivores eat only meat (other animals). Lion, tiger, and eagle are carnivores.", "tags": ["animals", "food"] },
+    { "id": "g2s-w24-wed-003", "question": "Animals that eat both plants and animals are called:", "options": ["Herbivores", "Carnivores", "Omnivores", "Scavengers"], "correctIndex": 2, "explanation": "Omnivores eat both plants and animals. Humans, bears, crows, and dogs are omnivores.", "tags": ["animals", "food"] },
+    { "id": "g2s-w24-wed-004", "question": "A lion eats other animals. So the lion is a:", "options": ["Herbivore", "Carnivore", "Omnivore", "Decomposer"], "correctIndex": 1, "explanation": "Lions hunt and eat other animals (deer, zebra, etc.), making them carnivores.", "tags": ["animals", "carnivore"] },
+    { "id": "g2s-w24-wed-005", "question": "A cow eats grass. So the cow is a:", "options": ["Carnivore", "Omnivore", "Herbivore", "Scavenger"], "correctIndex": 2, "explanation": "Cows eat only grass and other plants, making them herbivores.", "tags": ["animals", "herbivore"] },
+    { "id": "g2s-w24-wed-006", "question": "Which of these animals eats both fruits and small insects?", "options": ["Tiger", "Deer", "Crow", "Giraffe"], "correctIndex": 2, "explanation": "Crows eat both plant matter (fruits, grain) and animals (insects, worms), making them omnivores.", "tags": ["animals", "omnivore"] },
+    { "id": "g2s-w24-wed-007", "question": "Humans are classified as:", "options": ["Herbivores", "Carnivores", "Omnivores", "Insects only"], "correctIndex": 2, "explanation": "Humans eat both plant foods (fruits, vegetables, grains) and animal foods (meat, eggs, fish) — so we are omnivores.", "tags": ["animals", "omnivore"] },
+    { "id": "g2s-w24-wed-008", "question": "Which of these is a herbivore?", "options": ["Tiger", "Snake", "Elephant", "Eagle"], "correctIndex": 2, "explanation": "Elephants eat only plants — grass, leaves, fruits, and bark. They are the largest herbivores on land.", "tags": ["animals", "herbivore"] },
+    { "id": "g2s-w24-wed-009", "question": "A snake eats frogs and mice. A snake is a:", "options": ["Herbivore", "Omnivore", "Carnivore", "Decomposer"], "correctIndex": 2, "explanation": "Snakes eat only other animals (frogs, mice, birds), so they are carnivores.", "tags": ["animals", "carnivore"] },
+    { "id": "g2s-w24-wed-010", "question": "A deer eats only grass and leaves. A deer is a:", "options": ["Carnivore", "Herbivore", "Omnivore", "Predator of lions"], "correctIndex": 1, "explanation": "Deer eat only plants (grass, leaves, shrubs), so they are herbivores.", "tags": ["animals", "herbivore"] },
+    { "id": "g2s-w24-wed-011", "question": "Which of these animals stores food in its cheeks?", "options": ["Elephant", "Lion", "Squirrel", "Fish"], "correctIndex": 2, "explanation": "Squirrels (and hamsters) collect and store seeds and nuts in their cheeks or burrows for later eating.", "tags": ["animals", "food"] },
+    { "id": "g2s-w24-wed-012", "question": "A bear eats both fish and berries. A bear is a:", "options": ["Herbivore", "Carnivore", "Omnivore", "Insectivore"], "correctIndex": 2, "explanation": "Bears eat fish, meat, honey, berries, and roots — both animals and plants. They are omnivores.", "tags": ["animals", "omnivore"] },
+    { "id": "g2s-w24-wed-013", "question": "Animals that only eat insects are called:", "options": ["Herbivores", "Carnivores", "Insectivores", "Omnivores"], "correctIndex": 2, "explanation": "Insectivores are animals that mainly eat insects. Examples: frog, chameleon, sparrow.", "tags": ["animals", "insectivore"] },
+    { "id": "g2s-w24-wed-014", "question": "What type of teeth do herbivores like cows have to grind plants?", "options": ["Sharp pointed teeth", "Flat, broad back teeth (molars)", "No teeth", "Two very long teeth"], "correctIndex": 1, "explanation": "Herbivores have flat, broad molars to grind tough plant material. They lack the sharp canine teeth of carnivores.", "tags": ["animals", "herbivore"] },
+    { "id": "g2s-w24-wed-015", "question": "A dog eats both meat and vegetables. A dog is an:", "options": ["Herbivore", "Carnivore", "Omnivore", "Insectivore"], "correctIndex": 2, "explanation": "Dogs evolved as omnivores and can eat both meat and plant-based foods.", "tags": ["animals", "omnivore"] }
+  ]
+}

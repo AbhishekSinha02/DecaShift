@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-5-science-w24-wed",
+  "title": "Grade 5 Science — Wed, Jun 11",
+  "description": "The Digestive System — Day 3 of 5: Large intestine, liver, and pancreas",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "wed",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly", "digestion"],
+  "questions": [
+    { "id": "g5s-w24-wed-001", "question": "After the small intestine, food waste moves into the:", "options": ["Liver", "Stomach", "Large intestine", "Oesophagus"], "correctIndex": 2, "explanation": "Unabsorbed food waste passes from the small intestine into the large intestine (colon).", "tags": ["digestion", "large-intestine"] },
+    { "id": "g5s-w24-wed-002", "question": "The main function of the large intestine is to:", "options": ["Digest proteins", "Produce bile", "Absorb water from the remaining waste", "Produce enzymes"], "correctIndex": 2, "explanation": "The large intestine absorbs most of the remaining water from digested food, forming solid waste (faeces).", "tags": ["digestion", "large-intestine"] },
+    { "id": "g5s-w24-wed-003", "question": "Solid waste from digestion is stored in the ____ before being expelled.", "options": ["Stomach", "Liver", "Rectum", "Small intestine"], "correctIndex": 2, "explanation": "The rectum is the final section of the large intestine where faeces are stored until expelled through the anus.", "tags": ["digestion", "large-intestine"] },
+    { "id": "g5s-w24-wed-004", "question": "The liver is the largest ____ in the body.", "options": ["Muscle", "Gland", "Bone", "Blood vessel"], "correctIndex": 1, "explanation": "The liver is the largest gland in the human body. It has many functions including producing bile and processing nutrients.", "tags": ["digestion", "liver"] },
+    { "id": "g5s-w24-wed-005", "question": "What colour is bile, produced by the liver?", "options": ["Red", "White", "Green-yellow", "Blue"], "correctIndex": 2, "explanation": "Bile is a green-yellow alkaline liquid produced by the liver that helps emulsify (break up) fats.", "tags": ["digestion", "bile"] },
+    { "id": "g5s-w24-wed-006", "question": "The liver also helps to:", "options": ["Pump blood around the body", "Detoxify (filter) harmful substances from the blood", "Make bones strong", "Produce insulin"], "correctIndex": 1, "explanation": "The liver filters toxins (poisons) from the blood, breaking down drugs and alcohol into harmless substances.", "tags": ["digestion", "liver"] },
+    { "id": "g5s-w24-wed-007", "question": "The pancreas is located near the:", "options": ["Heart", "Lungs", "Stomach and small intestine junction", "Brain"], "correctIndex": 2, "explanation": "The pancreas lies behind the stomach and releases its digestive juice into the beginning of the small intestine (duodenum).", "tags": ["digestion", "pancreas"] },
+    { "id": "g5s-w24-wed-008", "question": "The pancreas produces insulin, which controls:", "options": ["Blood pressure", "Blood sugar (glucose) levels", "Heartbeat", "Breathing rate"], "correctIndex": 1, "explanation": "Insulin is a hormone produced by the pancreas that allows cells to take up glucose from the blood, controlling blood sugar.", "tags": ["digestion", "pancreas"] },
+    { "id": "g5s-w24-wed-009", "question": "When the pancreas does not produce enough insulin, it causes:", "options": ["Rickets", "Diabetes", "Anaemia", "Scurvy"], "correctIndex": 1, "explanation": "Insufficient insulin causes diabetes — blood sugar stays too high, which can damage organs over time.", "tags": ["digestion", "pancreas"] },
+    { "id": "g5s-w24-wed-010", "question": "The appendix is attached to which part of the digestive system?", "options": ["Stomach", "Small intestine", "Large intestine (beginning)", "Liver"], "correctIndex": 2, "explanation": "The appendix is a small finger-like tube attached to the beginning of the large intestine. Its function is unclear in humans.", "tags": ["digestion", "large-intestine"] },
+    { "id": "g5s-w24-wed-011", "question": "The large intestine is ____ in diameter than the small intestine.", "options": ["Narrower", "Wider", "The same", "Much longer but thinner"], "correctIndex": 1, "explanation": "The large intestine has a wider diameter (~6 cm) than the small intestine (~2.5 cm), which is why it is called 'large'.", "tags": ["digestion", "large-intestine"] },
+    { "id": "g5s-w24-wed-012", "question": "Bacteria living in the large intestine help by:", "options": ["Producing digestive enzymes for protein", "Synthesising some vitamins (like Vitamin K) and breaking down fibre", "Producing bile", "Absorbing fat"], "correctIndex": 1, "explanation": "Beneficial bacteria in the large intestine help produce Vitamin K and break down dietary fibre.", "tags": ["digestion", "bacteria"] },
+    { "id": "g5s-w24-wed-013", "question": "The liver stores excess glucose as:", "options": ["Fat only", "Glycogen (animal starch)", "Protein", "Bile"], "correctIndex": 1, "explanation": "The liver converts excess glucose into glycogen and stores it. When blood sugar drops, it converts glycogen back to glucose.", "tags": ["digestion", "liver"] },
+    { "id": "g5s-w24-wed-014", "question": "Which of the following is NOT a function of the liver?", "options": ["Producing bile", "Storing glycogen", "Detoxifying blood", "Producing gastric juice"], "correctIndex": 3, "explanation": "Gastric juice is produced by the stomach, not the liver. The liver produces bile, stores glycogen, and detoxifies blood.", "tags": ["digestion", "liver"] },
+    { "id": "g5s-w24-wed-015", "question": "Pancreatic juice contains enzymes that digest:", "options": ["Only proteins", "Only carbohydrates", "Only fats", "Carbohydrates, proteins, and fats"], "correctIndex": 3, "explanation": "Pancreatic juice contains amylase (carbs), protease (proteins), and lipase (fats) — it can digest all three macronutrients.", "tags": ["digestion", "pancreas"] }
+  ]
+}

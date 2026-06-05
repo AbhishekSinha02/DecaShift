@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-7-science-w24-thu",
+  "title": "Grade 7 Science — Thu, Jun 12",
+  "description": "Fibre to Fabric — Day 4 of 5: Wool — from sheep to fabric",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "thu",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly", "fibre-to-fabric"],
+  "questions": [
+    { "id": "g7s-w24-thu-001", "question": "The process of cutting the thick fleece from a sheep is called:", "options": ["Ginning", "Retting", "Shearing", "Carding"], "correctIndex": 2, "explanation": "Shearing is the removal of a sheep's wool coat using electric clippers. It is done once or twice a year.", "tags": ["wool", "shearing"] },
+    { "id": "g7s-w24-thu-002", "question": "After shearing, the wool is washed to remove dust, grease, and dirt. This process is called:", "options": ["Carding", "Scouring", "Spinning", "Dyeing"], "correctIndex": 1, "explanation": "Scouring is the washing of raw wool with detergent and water to remove grease (lanolin), sweat, and dirt.", "tags": ["wool", "scouring"] },
+    { "id": "g7s-w24-thu-003", "question": "After scouring, wool fibres are untangled and arranged into thin parallel layers. This is:", "options": ["Spinning", "Carding", "Weaving", "Retting"], "correctIndex": 1, "explanation": "Carding combs out tangles in cleaned wool and arranges fibres parallel to each other before spinning.", "tags": ["wool", "carding"] },
+    { "id": "g7s-w24-thu-004", "question": "After carding, the fibres are twisted into yarn by:", "options": ["Weaving", "Shearing", "Spinning", "Scouring"], "correctIndex": 2, "explanation": "Carded wool is spun — twisted into continuous yarn (thread) that can be woven or knitted into fabric.", "tags": ["wool", "spinning"] },
+    { "id": "g7s-w24-thu-005", "question": "The correct order of processing wool from sheep is:", "options": ["Scouring → Shearing → Carding → Spinning", "Shearing → Scouring → Carding → Spinning → Weaving", "Spinning → Carding → Scouring → Shearing", "Carding → Shearing → Spinning → Scouring"], "correctIndex": 1, "explanation": "The correct order is: Shear (cut fleece) → Scour (wash) → Card (comb) → Spin (twist into yarn) → Weave (make fabric).", "tags": ["wool", "process"] },
+    { "id": "g7s-w24-thu-006", "question": "Wool is a protein fibre. The protein found in wool is called:", "options": ["Fibroin", "Casein", "Keratin", "Collagen"], "correctIndex": 2, "explanation": "Wool is made of keratin, the same protein found in human hair and nails. It gives wool its strength and elasticity.", "tags": ["wool", "protein"] },
+    { "id": "g7s-w24-thu-007", "question": "Which breed of sheep is famous for producing very fine, soft wool?", "options": ["Deccani sheep", "Merino sheep", "Lohi sheep", "Nali sheep"], "correctIndex": 1, "explanation": "Merino sheep, originally from Spain and now in Australia, produce the finest, softest wool used in premium garments.", "tags": ["wool", "breeds"] },
+    { "id": "g7s-w24-thu-008", "question": "Pashmina wool comes from:", "options": ["Merino sheep of Australia", "Cashmere goat of Himalayan regions (Ladakh, Kashmir)", "Cotton plant in Gujarat", "Silkworm in Karnataka"], "correctIndex": 1, "explanation": "Pashmina (cashmere) is luxurious wool from the soft undercoat of the Changthangi goat found in Ladakh and Kashmir.", "tags": ["wool", "pashmina"] },
+    { "id": "g7s-w24-thu-009", "question": "The 'sorter' in a wool factory:", "options": ["Weaves the wool into fabric", "Sorts wool by fibre quality, length, and grade", "Washes the wool", "Spins the wool"], "correctIndex": 1, "explanation": "Wool sorters grade and separate the fleece by fibre length, fineness, and quality for different textile uses.", "tags": ["wool", "process"] },
+    { "id": "g7s-w24-thu-010", "question": "Sheep wool has a natural oil called ____ which is used in creams and cosmetics.", "options": ["Casein", "Lanolin", "Keratin", "Sericin"], "correctIndex": 1, "explanation": "Lanolin is a natural waxy oil from sheep's wool. After scouring, it is recovered and used in skin creams and lotions.", "tags": ["wool", "lanolin"] },
+    { "id": "g7s-w24-thu-011", "question": "Wool feels warm because:", "options": ["It is heavier than cotton", "Crimped wool fibres trap air, creating an insulating layer", "It absorbs water quickly", "It is a synthetic material"], "correctIndex": 1, "explanation": "Wool fibres are naturally curly (crimped), trapping millions of tiny air pockets that insulate the body from cold.", "tags": ["wool", "properties"] },
+    { "id": "g7s-w24-thu-012", "question": "Which Indian state is a major producer of wool and famous for Pashmina shawls?", "options": ["Kerala", "Gujarat", "Jammu & Kashmir", "Maharashtra"], "correctIndex": 2, "explanation": "Jammu & Kashmir, particularly Ladakh and the Kashmir valley, is famous for Pashmina (cashmere) shawls.", "tags": ["wool", "india"] },
+    { "id": "g7s-w24-thu-013", "question": "Angora wool comes from:", "options": ["Angora goat (giving mohair) or Angora rabbit (giving angora fibre)", "Merino sheep only", "Silkworms in cold regions", "Cotton plants in mountains"], "correctIndex": 0, "explanation": "Angora fibre comes from the Angora rabbit — extremely soft and fluffy. Mohair comes from the Angora goat.", "tags": ["wool", "breeds"] },
+    { "id": "g7s-w24-thu-014", "question": "One reason wool garments should NOT be washed in hot water is:", "options": ["Hot water makes wool more colourful", "Hot water causes wool fibres to shrink and felt (mat together permanently)", "Wool does not need washing", "Hot water makes wool stronger"], "correctIndex": 1, "explanation": "Wool fibres have scales that lock together when agitated in hot water, causing irreversible shrinking and felting.", "tags": ["wool", "care"] },
+    { "id": "g7s-w24-thu-015", "question": "The approximate amount of wool a Merino sheep produces per year is:", "options": ["0.1 kg", "0.5 kg", "3–5 kg", "50 kg"], "correctIndex": 2, "explanation": "A Merino sheep produces about 3–5 kg of clean wool per year. Some high-quality rams can produce up to 10 kg.", "tags": ["wool", "production"] }
+  ]
+}

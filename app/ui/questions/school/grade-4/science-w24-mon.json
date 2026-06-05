@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w24-mon",
+  "title": "Grade 4 Science — Mon, Jun 09",
+  "description": "Food & Nutrition — Day 1 of 5: Introduction to nutrients",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "mon",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "nutrition"],
+  "questions": [
+    { "id": "g4s-w24-mon-001", "question": "We eat food mainly to get ____.", "options": ["Colour", "Energy and nutrients", "Sleep", "Water only"], "correctIndex": 1, "explanation": "Food provides energy for daily activities and nutrients to keep the body healthy.", "tags": ["nutrition", "food"] },
+    { "id": "g4s-w24-mon-002", "question": "How many main nutrients does our food contain?", "options": ["2", "3", "5", "10"], "correctIndex": 2, "explanation": "The five main nutrients are carbohydrates, proteins, fats, vitamins, and minerals.", "tags": ["nutrition", "nutrients"] },
+    { "id": "g4s-w24-mon-003", "question": "Which nutrient gives us the most energy for daily work?", "options": ["Minerals", "Vitamins", "Carbohydrates", "Water"], "correctIndex": 2, "explanation": "Carbohydrates are the body's main source of energy. Rice, wheat, and bread are rich in carbohydrates.", "tags": ["nutrition", "carbohydrates"] },
+    { "id": "g4s-w24-mon-004", "question": "Which nutrient helps our body grow and repair itself?", "options": ["Carbohydrates", "Protein", "Fat", "Fibre"], "correctIndex": 1, "explanation": "Proteins are called body-building foods because they help in growth and repair of body tissues.", "tags": ["nutrition", "protein"] },
+    { "id": "g4s-w24-mon-005", "question": "Which nutrient keeps our skin healthy and helps us see in dim light?", "options": ["Vitamin A", "Calcium", "Iron", "Carbohydrate"], "correctIndex": 0, "explanation": "Vitamin A keeps skin healthy and helps in seeing in low light. Carrots and milk are good sources.", "tags": ["nutrition", "vitamins"] },
+    { "id": "g4s-w24-mon-006", "question": "Minerals and vitamins are needed by our body in ____ amounts.", "options": ["Very large", "Small", "Unlimited", "Zero"], "correctIndex": 1, "explanation": "Vitamins and minerals are micronutrients — needed in small amounts, but they are essential for health.", "tags": ["nutrition", "vitamins"] },
+    { "id": "g4s-w24-mon-007", "question": "Which of these is rich in carbohydrates?", "options": ["Eggs", "Fish", "Rice", "Milk"], "correctIndex": 2, "explanation": "Rice is mainly made of starch (a carbohydrate) and is the primary energy food for millions in India.", "tags": ["nutrition", "carbohydrates"] },
+    { "id": "g4s-w24-mon-008", "question": "Eating only one type of food is harmful because:", "options": ["It tastes bad", "It misses other nutrients the body needs", "It is expensive", "It takes too long to cook"], "correctIndex": 1, "explanation": "A meal with only one food cannot provide all nutrients. We need variety for a balanced diet.", "tags": ["nutrition", "balanced diet"] },
+    { "id": "g4s-w24-mon-009", "question": "Which of these is a protein-rich food?", "options": ["Bread", "Dal (lentils)", "Sugar", "Rice"], "correctIndex": 1, "explanation": "Dal (lentils) is an excellent plant source of protein, eaten daily in most Indian homes.", "tags": ["nutrition", "protein"] },
+    { "id": "g4s-w24-mon-010", "question": "Fats in food are used by the body to:", "options": ["Store energy and keep us warm", "Make bones strong", "Digest food quickly", "Clean teeth"], "correctIndex": 0, "explanation": "Fats store energy and help maintain body temperature. They also carry certain vitamins.", "tags": ["nutrition", "fats"] },
+    { "id": "g4s-w24-mon-011", "question": "Which of the following is a fat-rich food?", "options": ["Spinach", "Butter", "Carrot", "Rice"], "correctIndex": 1, "explanation": "Butter is rich in fat. Other fat-rich foods include ghee, nuts, and oils.", "tags": ["nutrition", "fats"] },
+    { "id": "g4s-w24-mon-012", "question": "Calcium is a mineral that helps build strong ____.", "options": ["Eyes", "Blood", "Bones and teeth", "Nails only"], "correctIndex": 2, "explanation": "Calcium makes bones and teeth strong. Milk, curd, and green vegetables are good sources of calcium.", "tags": ["nutrition", "minerals"] },
+    { "id": "g4s-w24-mon-013", "question": "Which nutrient is found in fruits like oranges and lemons?", "options": ["Iron", "Vitamin C", "Calcium", "Protein"], "correctIndex": 1, "explanation": "Oranges, lemons, and amla are rich in Vitamin C, which keeps gums healthy and helps fight infections.", "tags": ["nutrition", "vitamins"] },
+    { "id": "g4s-w24-mon-014", "question": "A diet that contains all nutrients in right amounts is called a ____ diet.", "options": ["Fast", "Balanced", "Liquid", "Spicy"], "correctIndex": 1, "explanation": "A balanced diet includes all five nutrients in the right quantities to keep the body healthy.", "tags": ["nutrition", "balanced diet"] },
+    { "id": "g4s-w24-mon-015", "question": "Water is important for our body because it:", "options": ["Gives us energy only", "Helps in digestion and removing waste", "Makes food sweet", "Keeps us awake"], "correctIndex": 1, "explanation": "Water helps digest food, carry nutrients, and remove waste products from the body.", "tags": ["nutrition", "water"] }
+  ]
+}

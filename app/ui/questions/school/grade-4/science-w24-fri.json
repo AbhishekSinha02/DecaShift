@@ -1,0 +1,32 @@
+{
+  "goalId": "grade-4-science-w24-fri",
+  "title": "Grade 4 Science — Fri, Jun 13",
+  "description": "Food & Nutrition — Day 5 of 5: Mixed review — deficiency diseases, food groups, healthy habits",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 24,
+  "weekDay": "fri",
+  "weekStart": "2026-06-09",
+  "weekEnd": "2026-06-15",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly", "nutrition"],
+  "questions": [
+    { "id": "g4s-w24-fri-001", "question": "Match: Scurvy is caused by lack of ____.", "options": ["Vitamin A", "Vitamin B1", "Vitamin C", "Vitamin D"], "correctIndex": 2, "explanation": "Scurvy is caused by Vitamin C deficiency. Symptoms: bleeding gums, slow healing wounds. Sources: amla, lemon, orange.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-fri-002", "question": "Match: Night blindness is caused by lack of ____.", "options": ["Vitamin C", "Vitamin A", "Calcium", "Iron"], "correctIndex": 1, "explanation": "Night blindness (poor vision in dim light) is caused by Vitamin A deficiency. Eat carrots, eggs, and dairy.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-fri-003", "question": "Match: Rickets is caused by lack of ____.", "options": ["Iron", "Vitamin C", "Vitamin D and calcium", "Iodine"], "correctIndex": 2, "explanation": "Rickets causes soft, bent bones in children due to Vitamin D and calcium deficiency. Sunlight helps make Vitamin D.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-fri-004", "question": "Match: Anaemia is caused by lack of ____.", "options": ["Iron", "Iodine", "Vitamin A", "Calcium"], "correctIndex": 0, "explanation": "Anaemia is caused by iron deficiency. Haemoglobin (which carries oxygen) cannot be made without enough iron.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-fri-005", "question": "Match: Goitre is caused by lack of ____.", "options": ["Calcium", "Vitamin B1", "Iron", "Iodine"], "correctIndex": 3, "explanation": "Goitre is an enlarged thyroid gland caused by iodine deficiency. Using iodised salt prevents this.", "tags": ["nutrition", "deficiency"] },
+    { "id": "g4s-w24-fri-006", "question": "Pulses (dal), eggs, paneer, and chicken all belong to the ____ food group.", "options": ["Energy foods", "Protein (body-building) foods", "Protective (vitamin-rich) foods", "Fat foods"], "correctIndex": 1, "explanation": "Dal, eggs, paneer, and chicken are all rich in protein — they belong to the body-building food group.", "tags": ["nutrition", "food-groups"] },
+    { "id": "g4s-w24-fri-007", "question": "Fruits and vegetables belong mainly to the ____ food group.", "options": ["Energy foods", "Body-building foods", "Protective foods (vitamins and minerals)", "Fat foods"], "correctIndex": 2, "explanation": "Fruits and vegetables are rich in vitamins and minerals. They protect the body from diseases — protective foods.", "tags": ["nutrition", "food-groups"] },
+    { "id": "g4s-w24-fri-008", "question": "Which of these is a healthy breakfast for a growing child?", "options": ["Only biscuits", "Upma with vegetables + milk + a fruit", "Cold drink and chips", "Only white bread"], "correctIndex": 1, "explanation": "Upma with vegetables provides carbohydrates, fibre, and vitamins. Milk provides protein and calcium. Fruit adds vitamins.", "tags": ["nutrition", "balanced-diet"] },
+    { "id": "g4s-w24-fri-009", "question": "Why should we eat a variety of foods and not the same food every day?", "options": ["Because variety tastes better only", "Because different foods provide different nutrients — all are needed for health", "Because eating the same food is wasteful", "There is no reason — same food is fine"], "correctIndex": 1, "explanation": "No single food contains all nutrients. Eating a variety ensures we get carbohydrates, proteins, fats, vitamins, and minerals.", "tags": ["nutrition", "balanced-diet"] },
+    { "id": "g4s-w24-fri-010", "question": "The best way to ensure a child gets Vitamin D naturally is:", "options": ["Eating more sugar", "Going outside and playing in sunlight for 20–30 minutes", "Drinking cola", "Eating more salt"], "correctIndex": 1, "explanation": "The skin makes Vitamin D when exposed to sunlight. Outdoor play gives children their daily dose of Vitamin D for free.", "tags": ["nutrition", "vitamins"] },
+    { "id": "g4s-w24-fri-011", "question": "Eating excess fat and sugar leads to:", "options": ["Strong muscles", "Obesity (overweight) and risk of heart disease", "Better eyesight", "Stronger bones"], "correctIndex": 1, "explanation": "Excess fat and sugar in the diet can lead to obesity, tooth decay, and increased risk of diabetes and heart disease.", "tags": ["nutrition", "healthy-habits"] },
+    { "id": "g4s-w24-fri-012", "question": "Which of these is NOT a healthy habit?", "options": ["Eating fruits every day", "Drinking clean water", "Skipping breakfast to save time", "Eating vegetables at every meal"], "correctIndex": 2, "explanation": "Skipping breakfast is unhealthy. Breakfast fuels the brain and body for the day and improves concentration in school.", "tags": ["nutrition", "healthy-habits"] },
+    { "id": "g4s-w24-fri-013", "question": "Which food group does ghee (clarified butter) belong to?", "options": ["Protein foods", "Energy foods (fats)", "Protective foods", "Mineral foods"], "correctIndex": 1, "explanation": "Ghee is a fat. Fats provide energy and carry fat-soluble vitamins (A, D, E, K). Ghee is also used in Indian cooking for flavour.", "tags": ["nutrition", "food-groups"] },
+    { "id": "g4s-w24-fri-014", "question": "Iodised salt means salt that has been:", "options": ["Coloured blue for identification", "Mixed with a tiny amount of iodine to prevent goitre", "Treated with Vitamin C", "Heated to high temperature"], "correctIndex": 1, "explanation": "The Government of India mandated adding iodine to table salt to prevent iodine deficiency and goitre, especially in inland areas.", "tags": ["nutrition", "minerals"] },
+    { "id": "g4s-w24-fri-015", "question": "A child eats only rice and does not eat dal, vegetables, or fruits. Which nutrients will be MOST deficient?", "options": ["Carbohydrates and water", "Proteins, vitamins, and minerals", "Only fat", "Fibre only"], "correctIndex": 1, "explanation": "Eating only rice provides carbohydrates but misses proteins (dal), vitamins (vegetables), and minerals (fruits/vegetables).", "tags": ["nutrition", "mixed"] }
+  ]
+}
