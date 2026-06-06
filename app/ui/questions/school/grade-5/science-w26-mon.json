@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-5-science-w26-mon",
+  "title": "Grade 5 Science — Mon, Jun 23",
+  "description": "Nervous System and Sense Organs — Day 1 of 5: The brain",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5s-w26-mon-001",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "The nervous system is the body's communication network. Which organs make up the CENTRAL nervous system?",
+      "options": ["Heart and lungs", "Brain and spinal cord", "Stomach and liver", "Eyes and ears"],
+      "correctIndex": 1,
+      "explanation": "The Central Nervous System (CNS) = Brain + Spinal cord. They receive, process and send messages throughout the body. The peripheral nervous system = all the nerves outside the CNS.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "CNS", "brain-spinal-cord"]
+    },
+    {
+      "id": "g5s-w26-mon-002",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "The brain is divided into three main parts. Which part is responsible for THINKING, memory, language and voluntary movement?",
+      "options": ["Cerebellum", "Medulla oblongata", "Cerebrum", "Spinal cord"],
+      "correctIndex": 2,
+      "explanation": "The cerebrum is the largest part of the brain — responsible for thinking, reasoning, memory, language, emotions and voluntary (conscious) movements. It is divided into left and right hemispheres.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "brain", "cerebrum"]
+    },
+    {
+      "id": "g5s-w26-mon-003",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "Which part of the brain controls BALANCE and coordination of movement?",
+      "options": ["Cerebrum", "Cerebellum", "Medulla", "Thalamus"],
+      "correctIndex": 1,
+      "explanation": "The cerebellum (at the back/base of the brain) controls balance, posture and coordination. Walking in a straight line, riding a cycle — all require the cerebellum.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "brain", "cerebellum"]
+    },
+    {
+      "id": "g5s-w26-mon-004",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "The medulla oblongata controls which vital functions?",
+      "options": ["Thinking and learning", "Breathing, heartbeat and blood pressure — all involuntary (automatic) functions", "Balance and coordination", "Voluntary muscle movement"],
+      "correctIndex": 1,
+      "explanation": "The medulla oblongata (brainstem) controls involuntary, life-sustaining functions: breathing, heartbeat, blood pressure, swallowing, coughing. These continue even when you are asleep.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "brain", "medulla"]
+    },
+    {
+      "id": "g5s-w26-mon-005",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "The brain is protected by the skull (cranium). What fluid further cushions it inside?",
+      "options": ["Blood", "Water", "Cerebrospinal fluid (CSF)", "Oil"],
+      "correctIndex": 2,
+      "explanation": "Cerebrospinal fluid (CSF) surrounds and cushions the brain and spinal cord inside the skull/vertebral column. It acts as a shock absorber, protecting against impact.",
+      "difficulty": "medium",
+      "tags": ["nervous-system", "brain", "CSF", "protection"]
+    },
+    {
+      "id": "g5s-w26-mon-006",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "A student learns a new dance move. After much practice, they do it automatically without thinking. Which part of the brain is now more involved?",
+      "options": ["Medulla (involuntary)", "Cerebellum (coordinated, practised movement becomes automatic)", "None — the body moves without the brain", "Only muscles are involved"],
+      "correctIndex": 1,
+      "explanation": "Initially, learning a new movement involves the cerebrum (conscious thinking). With practice, the cerebellum takes over to make the movement smooth and automatic. This is motor learning.",
+      "difficulty": "medium",
+      "tags": ["nervous-system", "cerebellum", "motor-learning"]
+    },
+    {
+      "id": "g5s-w26-mon-007",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "The brain has two hemispheres (left and right). Generally, which side controls the left side of the body?",
+      "options": ["Left hemisphere", "Right hemisphere", "Both equally control both sides", "The spinal cord decides which side"],
+      "correctIndex": 1,
+      "explanation": "The brain is contralateral — the RIGHT hemisphere controls the LEFT side of the body, and vice versa. This is called crossed lateralisation.",
+      "difficulty": "medium",
+      "tags": ["nervous-system", "brain", "hemispheres", "contralateral"]
+    },
+    {
+      "id": "g5s-w26-mon-008",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "A person suffers a stroke (blood supply interrupted) in the left hemisphere. What might they lose?",
+      "options": ["Balance", "Heartbeat control", "Speech and right-side movement (left hemisphere controls language and right side of body)", "Vision only"],
+      "correctIndex": 2,
+      "explanation": "Left hemisphere = language/speech + controls right side of body. Left hemisphere stroke → difficulty speaking (aphasia) + right-side weakness/paralysis. Brain areas have specific functions.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "brain", "lateralisation", "stroke"]
+    },
+    {
+      "id": "g5s-w26-mon-009",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "Why is the brain so heavily protected (skull + meninges + CSF)?",
+      "options": ["To make the head heavier", "The brain is the control centre of the entire body — damage is irreversible since most brain cells cannot regenerate; maximum protection is essential", "Protection makes the brain work faster", "The skull is the same as other bones — no special protection"],
+      "correctIndex": 1,
+      "explanation": "Most brain neurons cannot regenerate (unlike skin cells). Brain damage = permanent loss of function. The triple protection (skull + membranes + fluid) reflects the brain's critical, irreplaceable role.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "brain", "protection", "neurons"]
+    },
+    {
+      "id": "g5s-w26-mon-010",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "Which part of the brain would be active when you are ASLEEP?",
+      "options": ["Only the cerebrum (to dream)", "The medulla — it keeps breathing and heartbeat going even during sleep", "No part of the brain works during sleep", "Only the cerebellum"],
+      "correctIndex": 1,
+      "explanation": "The medulla controls involuntary functions that never stop (breathing, heartbeat). During sleep, cerebrum activity reduces but the medulla (and other brainstem parts) remain fully active to keep you alive.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "medulla", "sleep"]
+    },
+    {
+      "id": "g5s-w26-mon-011",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "Brain cell is called a neuron. What is special about neurons compared to most other cells?",
+      "options": ["They are larger", "They have very long extensions (axons) to transmit electrical signals over long distances, and most cannot divide/regenerate", "They can live without oxygen", "They produce insulin"],
+      "correctIndex": 1,
+      "explanation": "Neurons have a cell body + long axon (can be over 1m long in motor neurons) + dendrites. The axon conducts electrical impulses at up to 120 m/s. Unlike skin cells, neurons rarely regenerate — damage is often permanent.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "neuron", "structure"]
+    },
+    {
+      "id": "g5s-w26-mon-012",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "A person with a damaged cerebellum would have trouble with:",
+      "options": ["Thinking and memory", "Breathing and heartbeat", "Balance, coordination and smooth movements", "Seeing and hearing"],
+      "correctIndex": 2,
+      "explanation": "Cerebellar damage → ataxia: unsteady gait, poor coordination, trembling. They can still think (cerebrum), breathe (medulla), and see (visual cortex) — but smooth, coordinated movement is impaired.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "cerebellum", "damage"]
+    },
+    {
+      "id": "g5s-w26-mon-013",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "The hypothalamus (a small area of the brain) controls hunger, thirst and body temperature. Which broad brain region contains it?",
+      "options": ["Cerebellum", "Cerebrum (specifically, the diencephalon below the cerebral hemispheres)", "Medulla", "Spinal cord"],
+      "correctIndex": 1,
+      "explanation": "The hypothalamus sits beneath the cerebral hemispheres (in the diencephalon/forebrain region). It regulates hunger, thirst, temperature, sleep cycles and links the nervous system to the hormonal system.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "hypothalamus", "homeostasis"]
+    },
+    {
+      "id": "g5s-w26-mon-014",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "Three brain parts in order of evolutionary age (oldest to newest) approximately:",
+      "options": ["Cerebrum → Cerebellum → Medulla", "Medulla (oldest, basic survival) → Cerebellum (movement) → Cerebrum (newest, thinking)", "Cerebellum → Medulla → Cerebrum", "All three evolved at the same time"],
+      "correctIndex": 1,
+      "explanation": "The brainstem/medulla is the oldest (found in reptiles, fish — basic survival). Cerebellum is older (movement coordination). Cerebrum is most recently evolved and most developed in humans — allows complex thought, language, culture.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "brain", "evolution"]
+    },
+    {
+      "id": "g5s-w26-mon-015",
+      "goalId": "grade-5-science-w26-mon",
+      "question": "Match brain part to function: Cerebrum → ___, Cerebellum → ___, Medulla → ___",
+      "options": ["Balance / Thinking / Breathing", "Thinking / Balance / Breathing + heartbeat", "Breathing / Balance / Thinking", "Thinking / Breathing / Balance"],
+      "correctIndex": 1,
+      "explanation": "Cerebrum = thinking, memory, language, voluntary actions. Cerebellum = balance, coordination. Medulla = breathing, heartbeat, blood pressure (involuntary, life-sustaining functions).",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "brain-summary", "match"]
+    }
+  ]
+}

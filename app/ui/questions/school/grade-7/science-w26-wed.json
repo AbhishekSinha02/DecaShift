@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-science-w26-wed",
+  "title": "Grade 7 Science — Wed, Jun 25",
+  "description": "Heat — Day 3 of 5: Convection — heat transfer through fluids",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7s-w26-wed-001",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Convection is heat transfer through:",
+      "options": ["Particle-to-particle collisions without particle movement", "Actual movement of heated fluid (liquid or gas) carrying thermal energy from one place to another", "Electromagnetic waves", "Chemical reactions"],
+      "correctIndex": 1,
+      "explanation": "Convection: heated fluid becomes less dense, rises; cooler fluid is denser, sinks → creates convection currents. Unlike conduction (energy moves, particles stay), in convection the PARTICLES THEMSELVES move, carrying heat.",
+      "difficulty": "easy",
+      "tags": ["convection", "definition", "fluid"]
+    },
+    {
+      "id": "g7s-w26-wed-002",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Why does hot air rise and cold air sink?",
+      "options": ["Hot air is heavier", "Hot air expands → becomes less dense → lighter → rises; cool air contracts → denser → heavier → sinks. This creates convection currents.", "Cold air is pushed upward by the Sun", "Wind causes air movement"],
+      "correctIndex": 1,
+      "explanation": "Density is the key: heated molecules move faster and spread apart → volume increases → density decreases. Less dense fluid (hot) floats above more dense fluid (cold). This is exactly like oil floating on water.",
+      "difficulty": "easy",
+      "tags": ["convection", "hot-air-rises", "density"]
+    },
+    {
+      "id": "g7s-w26-wed-003",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Convection can occur in:",
+      "options": ["Solids only", "Only liquids", "Only gases", "Liquids and gases (fluids) — NOT in solids"],
+      "correctIndex": 3,
+      "explanation": "Convection requires fluid movement. Solids have fixed particle positions — particles cannot carry heat by moving. Conduction happens in solids. Convection happens in liquids and gases. Radiation happens in all (including vacuum).",
+      "difficulty": "easy",
+      "tags": ["convection", "media", "not-solids"]
+    },
+    {
+      "id": "g7s-w26-wed-004",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "A room heater is placed at floor level. Why does the room warm up throughout — even areas far from the heater?",
+      "options": ["Radiation from the heater", "Conduction through the floor tiles", "Convection: heater warms nearby air → rises → spreads across the room → cool air descends → returns to heater → cycle continues", "The heater produces hot gas that fills the room"],
+      "correctIndex": 2,
+      "explanation": "Classic convection in a room: heater at bottom warms air → less dense air rises → spreads at top → cools → sinks at the sides → returns to the bottom → heater reheats it. This convection current distributes heat throughout the room.",
+      "difficulty": "easy",
+      "tags": ["convection", "room-heater", "everyday"]
+    },
+    {
+      "id": "g7s-w26-wed-005",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Land breeze and sea breeze are caused by:",
+      "options": ["Tidal forces from the Moon", "Convection due to unequal heating of land and sea — land heats/cools faster than sea, causing pressure differences and wind currents", "The rotation of the Earth", "Magnetic forces"],
+      "correctIndex": 1,
+      "explanation": "Sea breeze (day): Land heats faster → air over land rises → cooler sea air rushes in from the sea → sea breeze. Land breeze (night): Sea retains heat longer → air over sea rises → cooler land air moves toward sea → land breeze. Classic convection at geographic scale.",
+      "difficulty": "medium",
+      "tags": ["convection", "sea-breeze", "land-breeze"]
+    },
+    {
+      "id": "g7s-w26-wed-006",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Why are water heaters placed at the bottom of water tanks?",
+      "options": ["To avoid electrical hazards", "Heated water rises (less dense), cold water sinks to the heater — convection currents circulate and warm all the water efficiently", "Bottom placement saves space", "Water sinks when hot"],
+      "correctIndex": 1,
+      "explanation": "Convection works from the bottom: heater at bottom → water near it heats and rises → cold water from top sinks to take its place → gets heated → rises → entire tank warms by convection. Heater at top would only heat the topmost layer (hot water stays on top).",
+      "difficulty": "medium",
+      "tags": ["convection", "water-heater", "application"]
+    },
+    {
+      "id": "g7s-w26-wed-007",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Chimneys in factories are very tall. Why does height help in removing smoke?",
+      "options": ["Taller chimneys are stronger", "Tall chimneys allow a greater column of hot air → stronger convection current upward → smoke rises higher and disperses away from ground level", "Height blocks rain from entering", "Smoke is heavier than air and needs more height"],
+      "correctIndex": 1,
+      "explanation": "Taller chimney = greater temperature difference between base (hot) and top (cooler outside) = stronger convection current = smoke rises faster and higher. Also disperses pollutants at greater height (away from people). Hot gases rise due to lower density.",
+      "difficulty": "medium",
+      "tags": ["convection", "chimney", "application"]
+    },
+    {
+      "id": "g7s-w26-wed-008",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Gliders and eagles use thermals to gain height without flapping wings. Thermals are:",
+      "options": ["Horizontal ocean currents", "Rising columns of warm air — convection currents in the atmosphere created when the Sun heats the ground unevenly", "Cold air masses near mountains", "Wind from the sea"],
+      "correctIndex": 1,
+      "explanation": "Thermals: warm air rising from Sun-heated ground. Eagles and gliders circle within the thermal, gaining altitude for free using convection energy. Thermal columns can extend kilometres upward. Common over dark, heat-absorbing surfaces (ploughed fields, asphalt).",
+      "difficulty": "hard",
+      "tags": ["convection", "thermals", "glider", "eagle"]
+    },
+    {
+      "id": "g7s-w26-wed-009",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Mixing occurs in oceans due to convection. Cold, dense water near the poles:",
+      "options": ["Stays at the surface", "Sinks and moves along the ocean floor toward the equator; warm tropical surface water flows toward the poles — forming ocean conveyor belt currents", "Evaporates quickly", "Does not participate in convection"],
+      "correctIndex": 1,
+      "explanation": "Thermohaline circulation (ocean conveyor belt): cold, salty (dense) water sinks at poles → flows deep along ocean floor → rises at equator (less dense, warmer) → flows at surface back to poles. This is large-scale convection driven by temperature and salinity differences.",
+      "difficulty": "hard",
+      "tags": ["convection", "ocean", "thermohaline"]
+    },
+    {
+      "id": "g7s-w26-wed-010",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Why does ventilation work better when inlet vents are at the bottom and outlet vents at the top?",
+      "options": ["Cool air is heavier and enters from top", "Fresh (cooler) air enters from the bottom, gets warmed by body heat and appliances, becomes less dense and rises, exits from the top — convection ensures continuous flow", "Outlet vents at top are aesthetic", "Heat does not rise in rooms"],
+      "correctIndex": 1,
+      "explanation": "Convection-based ventilation: cool fresh air (dense) enters low → warms up → less dense → exits high. Continuous convection current replaces stale warm air with fresh cool air. Reverse placement breaks the natural convection flow.",
+      "difficulty": "hard",
+      "tags": ["convection", "ventilation", "design"]
+    },
+    {
+      "id": "g7s-w26-wed-011",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Why is convection not possible in solids, even though heat can pass through them?",
+      "options": ["Solids have no molecules", "Particles in solids are bound in fixed positions — they cannot move from place to place. Heat passes by conduction (vibration transfer), not by particle movement", "Solids are too dense for heat", "Solids only allow radiation"],
+      "correctIndex": 1,
+      "explanation": "Convection requires bulk fluid movement. Solid particles oscillate (vibrate) around fixed positions but cannot travel through the material. Conduction (energy passed between fixed neighbours) is the mode in solids. Liquids and gases allow particle flow → convection.",
+      "difficulty": "hard",
+      "tags": ["convection", "why-not-solids", "particle-model"]
+    },
+    {
+      "id": "g7s-w26-wed-012",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Plate tectonics (movement of Earth's crust) is driven by:",
+      "options": ["Earth's gravity only", "Convection currents in the molten mantle — hot magma rises toward the crust, spreads, cools, sinks back, creating circular convection cells that push tectonic plates", "Solar radiation", "Earth's rotation only"],
+      "correctIndex": 1,
+      "explanation": "Earth's mantle behaves like a very viscous fluid over millions of years. Radioactive heat from the core creates convection in the mantle. Rising magma pushes plates apart (mid-ocean ridges); cooling magma sinks (subduction zones). Convection at a planetary scale.",
+      "difficulty": "hard",
+      "tags": ["convection", "plate-tectonics", "mantle"]
+    },
+    {
+      "id": "g7s-w26-wed-013",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Radiators (hot water central heating) work best when placed:",
+      "options": ["High on the wall near the ceiling", "Under windows or on external walls — cold air near the window/cold wall creates a downward cold draft; radiator heats this cold air → creates strong convection current around the room", "In the centre of the room", "On an internal wall away from windows"],
+      "correctIndex": 1,
+      "explanation": "Placing a radiator under a cold window: cold air slides down the window → hits the radiator → gets heated → rises → spreads across the ceiling → cools → descends → back to window. Strong, efficient convection loop. Radiators at ceiling height cannot create this loop effectively.",
+      "difficulty": "hard",
+      "tags": ["convection", "radiator", "design"]
+    },
+    {
+      "id": "g7s-w26-wed-014",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "During a fire in a building, smoke tends to collect near the ceiling first. Why?",
+      "options": ["Smoke is always near fire", "Smoke particles are carried upward by hot convection currents from the fire; hot gases rise (less dense) and accumulate at the top before spreading and descending", "Smoke is lighter than air always", "Firefighters always find smoke above them"],
+      "correctIndex": 1,
+      "explanation": "Fire heats nearby air and combustion gases → these hot, less dense gases rise by convection → accumulate at ceiling. Firefighters and escape instructions say to crawl low — below the smoke layer where the air is cooler, cleaner, and more breathable.",
+      "difficulty": "hard",
+      "tags": ["convection", "fire", "smoke", "safety"]
+    },
+    {
+      "id": "g7s-w26-wed-015",
+      "goalId": "grade-7-science-w26-wed",
+      "question": "Compare: In conduction, the medium of heat transfer is ___, while in convection it is ___.",
+      "options": ["vacuum; solid", "solid/liquid/gas (particles stay fixed); liquid or gas (particles carry energy by moving)", "liquid; solid", "gas only; liquid only"],
+      "correctIndex": 1,
+      "explanation": "Conduction: any medium (solid best); particles vibrate in place → energy passes between neighbours. Convection: fluids only (liquid/gas); particles physically move, carrying thermal energy with them. Radiation: no medium needed (works in vacuum).",
+      "difficulty": "hard",
+      "tags": ["convection", "conduction", "comparison"]
+    }
+  ]
+}

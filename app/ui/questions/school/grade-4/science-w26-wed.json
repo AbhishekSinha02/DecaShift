@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-4-science-w26-wed",
+  "title": "Grade 4 Science — Wed, Jun 25",
+  "description": "Food and Digestion — Day 3 of 5: Small intestine, large intestine and absorption",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4s-w26-wed-001",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "After leaving the stomach, chyme passes into the:",
+      "options": ["Large intestine", "Small intestine", "Liver", "Kidney"],
+      "correctIndex": 1,
+      "explanation": "From the stomach, chyme moves into the small intestine where most digestion is completed and nutrients are absorbed into the blood.",
+      "difficulty": "easy",
+      "tags": ["digestion", "small-intestine", "sequence"]
+    },
+    {
+      "id": "g4s-w26-wed-002",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "The small intestine is called 'small' because:",
+      "options": ["It is short", "Its diameter (width) is small compared to the large intestine, though it is actually very long (about 6–7 metres)", "It does less work", "It is less important"],
+      "correctIndex": 1,
+      "explanation": "The small intestine is about 6–7 metres long in adults but only about 2.5 cm wide — 'small' refers to its narrow width. The large intestine is wider (about 6.5 cm) but much shorter (about 1.5 m).",
+      "difficulty": "easy",
+      "tags": ["digestion", "small-intestine", "size"]
+    },
+    {
+      "id": "g4s-w26-wed-003",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "What is the main job of the small intestine?",
+      "options": ["To churn food", "To absorb digested nutrients (glucose, amino acids, fatty acids) into the bloodstream", "To store waste", "To produce acid"],
+      "correctIndex": 1,
+      "explanation": "The small intestine is the main site of absorption. Digested nutrients pass through its wall into tiny blood vessels and are carried to the liver and then around the body.",
+      "difficulty": "easy",
+      "tags": ["digestion", "small-intestine", "absorption"]
+    },
+    {
+      "id": "g4s-w26-wed-004",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "The small intestine receives help from two organs to complete digestion. These are the:",
+      "options": ["Kidneys and lungs", "Liver (bile) and pancreas (pancreatic enzymes)", "Heart and brain", "Spleen and tonsils"],
+      "correctIndex": 1,
+      "explanation": "The liver produces bile (stored in the gallbladder) which emulsifies fats. The pancreas produces enzymes (amylase, lipase, protease) that complete digestion of starch, fat and protein.",
+      "difficulty": "easy",
+      "tags": ["digestion", "liver", "pancreas"]
+    },
+    {
+      "id": "g4s-w26-wed-005",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "Tiny finger-like projections called villi line the small intestine. What is their function?",
+      "options": ["To produce digestive enzymes", "To greatly increase the surface area for faster absorption of nutrients", "To churn the food like a mixer", "To make the intestine shorter"],
+      "correctIndex": 1,
+      "explanation": "Villi (singular: villus) are finger-like projections that massively increase the surface area of the small intestine. More surface area = more area to absorb nutrients = faster, more complete absorption.",
+      "difficulty": "medium",
+      "tags": ["digestion", "villi", "surface-area"]
+    },
+    {
+      "id": "g4s-w26-wed-006",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "What does the large intestine mainly do?",
+      "options": ["Digests protein", "Absorbs water from undigested food remains, forming solid waste (faeces)", "Produces bile", "Absorbs vitamins from chyme"],
+      "correctIndex": 1,
+      "explanation": "The large intestine absorbs water and some minerals from the indigestible food matter. The remaining solid material forms faeces, which are stored in the rectum and expelled through the anus.",
+      "difficulty": "medium",
+      "tags": ["digestion", "large-intestine", "water-absorption"]
+    },
+    {
+      "id": "g4s-w26-wed-007",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "What is bile and what does it do?",
+      "options": ["A stomach acid that breaks down protein", "A greenish-yellow liquid made by the liver that breaks up (emulsifies) fat globules into tiny droplets for easier digestion", "A hormone made by the pancreas", "A type of enzyme found in saliva"],
+      "correctIndex": 1,
+      "explanation": "Bile is produced by the liver, stored in the gallbladder, and released into the small intestine. It emulsifies fats — breaks large fat globules into tiny droplets — increasing surface area for lipase to work on.",
+      "difficulty": "medium",
+      "tags": ["digestion", "bile", "liver"]
+    },
+    {
+      "id": "g4s-w26-wed-008",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "After nutrients are absorbed in the small intestine, what happens to the waste that cannot be digested (like fibre)?",
+      "options": ["It is absorbed into blood anyway", "It moves to the large intestine, water is extracted, and the solid remainder is excreted as faeces", "It goes back to the stomach", "It is broken down by the liver"],
+      "correctIndex": 1,
+      "explanation": "Indigestible materials (dietary fibre, dead cells) pass to the large intestine. Water is absorbed, leaving semi-solid faeces stored in the rectum until expelled through the anus.",
+      "difficulty": "medium",
+      "tags": ["digestion", "fibre", "waste"]
+    },
+    {
+      "id": "g4s-w26-wed-009",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "Doctors sometimes say 'eat more fibre for good digestion.' Why is dietary fibre (roughage) important for the large intestine?",
+      "options": ["It is digested and provides energy", "It adds bulk to the stool, helps peristalsis move waste through the large intestine, preventing constipation", "It increases acid in the stomach", "It is absorbed as vitamins"],
+      "correctIndex": 1,
+      "explanation": "Fibre (in vegetables, fruits, whole grains) is not digested but adds bulk to stool. Bulk stimulates peristalsis in the large intestine, keeping waste moving and preventing constipation.",
+      "difficulty": "hard",
+      "tags": ["digestion", "fibre", "large-intestine"]
+    },
+    {
+      "id": "g4s-w26-wed-010",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "The appendix is a small pouch attached to the large intestine. In humans it has no clear function. What type of structure is this called?",
+      "options": ["A vital organ", "A vestigial organ — an evolutionary remnant that has lost its function in modern humans", "A new organ", "An organ that digests fat"],
+      "correctIndex": 1,
+      "explanation": "The appendix is a vestigial organ — it was useful to our ancestors (perhaps for digesting plant cellulose) but modern humans no longer need it. Evolution often leaves such remnants.",
+      "difficulty": "hard",
+      "tags": ["digestion", "appendix", "vestigial"]
+    },
+    {
+      "id": "g4s-w26-wed-011",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "Why does the small intestine need to be SO long (6–7 metres) if the stomach is the main digestive organ?",
+      "options": ["Length doesn't matter", "The small intestine is the PRIMARY absorption organ — more length = more villi = more surface area for absorbing nutrients. Without this length, most nutrients would be wasted.", "The small intestine digests nothing — it only stores food", "The stomach is the main absorption organ, not the small intestine"],
+      "correctIndex": 1,
+      "explanation": "The small intestine, not the stomach, is where most nutrients are absorbed. Its great length (lined with villi) provides enormous surface area. Absorption efficiency depends directly on this length.",
+      "difficulty": "hard",
+      "tags": ["digestion", "small-intestine", "length-function"]
+    },
+    {
+      "id": "g4s-w26-wed-012",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "A patient has their gallbladder removed. They must now eat a low-fat diet. Why?",
+      "options": ["The liver stops working without the gallbladder", "Without the gallbladder to store and release bile in concentrated bursts, fat emulsification is slower — large fatty meals cannot be digested well", "They can no longer produce digestive enzymes", "The small intestine is damaged by gallbladder removal"],
+      "correctIndex": 1,
+      "explanation": "Gallbladder stores concentrated bile and releases it when fatty food enters. Without it, bile drips slowly and cannot handle large fat loads. Fatty meals overwhelm this slow bile release, causing indigestion.",
+      "difficulty": "hard",
+      "tags": ["digestion", "gallbladder", "bile"]
+    },
+    {
+      "id": "g4s-w26-wed-013",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "Constipation (difficulty passing stools) often happens when a person does not drink enough water. Explain why.",
+      "options": ["The stomach produces less acid", "The large intestine absorbs TOO MUCH water from the stool when intake is low — making the stool hard and dry, difficult to pass", "The small intestine absorbs food faster", "Lack of water kills digestive bacteria"],
+      "correctIndex": 1,
+      "explanation": "The large intestine always absorbs water from waste. If body water is low, it extracts even more, making the stool hard and dry (constipation). Drinking enough water keeps stool soft and easy to pass.",
+      "difficulty": "hard",
+      "tags": ["digestion", "large-intestine", "constipation"]
+    },
+    {
+      "id": "g4s-w26-wed-014",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "Complete the absorption summary: Starch is digested to ___, Protein to ___, Fat to ___.",
+      "options": ["Salt, water, oil", "Glucose, amino acids, fatty acids + glycerol", "Cellulose, enzymes, bile", "Sugar, fibre, vitamins"],
+      "correctIndex": 1,
+      "explanation": "Starch → glucose (absorbed in small intestine). Protein → amino acids (small intestine). Fat → fatty acids + glycerol (small intestine, via lymph). These are the end products absorbed into the bloodstream.",
+      "difficulty": "hard",
+      "tags": ["digestion", "end-products", "absorption"]
+    },
+    {
+      "id": "g4s-w26-wed-015",
+      "goalId": "grade-4-science-w26-wed",
+      "question": "Label the organs in order: food enters → ___ (chewing) → ___ (transport) → ___ (churning/acid) → ___ (absorption) → ___ (water absorption) → anus (excretion)",
+      "options": ["Stomach → oesophagus → mouth → small intestine → large intestine", "Mouth → oesophagus → stomach → small intestine → large intestine", "Mouth → stomach → oesophagus → large intestine → small intestine", "Oesophagus → mouth → stomach → large intestine → small intestine"],
+      "correctIndex": 1,
+      "explanation": "Full digestive pathway: Mouth → Oesophagus → Stomach → Small intestine → Large intestine → Rectum → Anus. Each organ has a distinct role: mechanical/chemical digestion, transport, absorption of nutrients, water recovery.",
+      "difficulty": "hard",
+      "tags": ["digestion", "full-pathway", "sequence"]
+    }
+  ]
+}

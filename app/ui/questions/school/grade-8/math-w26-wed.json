@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-math-w26-wed",
+  "title": "Grade 8 Math — Wed, Jun 25",
+  "description": "Mensuration — Surface Area and Volume Day 3 of 5: Cone",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8m-w26-wed-001",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "Curved Surface Area (CSA) of a cone with radius r, slant height l =",
+      "options": ["πrl + πr²", "πrl", "πr²h", "πr(l + r)"],
+      "correctIndex": 1,
+      "explanation": "CSA of cone = πrl (the lateral curved surface only). TSA = CSA + base = πrl + πr² = πr(l + r). Volume = (1/3)πr²h. Note: slant height l² = h² + r² (Pythagoras).",
+      "difficulty": "easy",
+      "tags": ["cone", "CSA", "formula"]
+    },
+    {
+      "id": "g8m-w26-wed-002",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "CSA of a cone with r = 7 cm, l = 10 cm (π = 22/7) =",
+      "options": ["154 cm²", "220 cm²", "440 cm²", "594 cm²"],
+      "correctIndex": 1,
+      "explanation": "CSA = πrl = (22/7)×7×10 = 22×10 = 220 cm².",
+      "difficulty": "easy",
+      "tags": ["cone", "CSA"]
+    },
+    {
+      "id": "g8m-w26-wed-003",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "A cone: r = 7 cm, h = 24 cm. Slant height l =",
+      "options": ["17 cm", "25 cm", "31 cm", "sqrt(530) cm"],
+      "correctIndex": 1,
+      "explanation": "l² = h² + r² = 576 + 49 = 625. l = 25 cm. (Pythagoras: the slant height is the hypotenuse of a right triangle with legs h and r.)",
+      "difficulty": "easy",
+      "tags": ["cone", "slant-height", "Pythagoras"]
+    },
+    {
+      "id": "g8m-w26-wed-004",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "TSA of a cone with r = 7 cm, l = 25 cm (π = 22/7) =",
+      "options": ["550 cm²", "704 cm²", "880 cm²", "154 cm²"],
+      "correctIndex": 1,
+      "explanation": "TSA = πr(l + r) = (22/7)×7×(25+7) = 22×32 = 704 cm².",
+      "difficulty": "medium",
+      "tags": ["cone", "TSA"]
+    },
+    {
+      "id": "g8m-w26-wed-005",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "Volume of a cone with r = 7 cm, h = 12 cm (π = 22/7) =",
+      "options": ["308 cm³", "616 cm³", "924 cm³", "1,848 cm³"],
+      "correctIndex": 1,
+      "explanation": "V = (1/3)πr²h = (1/3)×(22/7)×49×12 = (1/3)×22×7×12 = (1/3)×1,848 = 616 cm³.",
+      "difficulty": "medium",
+      "tags": ["cone", "volume"]
+    },
+    {
+      "id": "g8m-w26-wed-006",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "A conical tent (r = 14 m, h = 48 m). Slant height l and CSA of canvas needed (π = 22/7):",
+      "options": ["l=50 m, CSA=2,200 m²", "l=50 m, CSA=3,080 m²", "l=50 m, CSA=4,400 m²", "l=48 m, CSA=3,080 m²"],
+      "correctIndex": 0,
+      "explanation": "l² = 48² + 14² = 2,304 + 196 = 2,500. l = 50 m. CSA = πrl = (22/7)×14×50 = 22×2×50 = 2,200 m².",
+      "difficulty": "medium",
+      "tags": ["cone", "tent", "CSA"]
+    },
+    {
+      "id": "g8m-w26-wed-007",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "Volume of cone = (1/3) × volume of a cylinder with same base and height. A cone has r = 7 cm, h = 9 cm. Volume (π = 22/7):",
+      "options": ["462 cm³", "154 cm³", "308 cm³", "616 cm³"],
+      "correctIndex": 0,
+      "explanation": "V = (1/3)πr²h = (1/3)×(22/7)×49×9 = (1/3)×22×7×9 = (1/3)×1,386 = 462 cm³.",
+      "difficulty": "medium",
+      "tags": ["cone", "volume"]
+    },
+    {
+      "id": "g8m-w26-wed-008",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "A conical ice cream cone: r = 3.5 cm, l = 12.5 cm (π = 22/7). CSA =",
+      "options": ["110 cm²", "137.5 cm²", "275 cm²", "55 cm²"],
+      "correctIndex": 1,
+      "explanation": "CSA = πrl = (22/7)×3.5×12.5 = 11×12.5 = 137.5 cm².",
+      "difficulty": "hard",
+      "tags": ["cone", "CSA", "ice-cream"]
+    },
+    {
+      "id": "g8m-w26-wed-009",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "Find radius: Volume of a cone = 1,232 cm³, h = 24 cm (π = 22/7)",
+      "options": ["7 cm", "14 cm", "21 cm", "28 cm"],
+      "correctIndex": 0,
+      "explanation": "V = (1/3)πr²h → 1,232 = (1/3)×(22/7)×r²×24 → 1,232 = (22/7)×8×r² → 1,232 = (176/7)r² → r² = 1,232×7/176 = 49 → r = 7 cm.",
+      "difficulty": "hard",
+      "tags": ["cone", "volume", "find-radius"]
+    },
+    {
+      "id": "g8m-w26-wed-010",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "A solid cone (r = 14 cm, h = 48 cm) is melted and recast as a cylinder of same radius (r = 14 cm). Height of cylinder (π = 22/7):",
+      "options": ["8 cm", "16 cm", "24 cm", "48 cm"],
+      "correctIndex": 1,
+      "explanation": "Volume cone = (1/3)πr²h = (1/3)π×196×48 = π×196×16. Volume cylinder = πr²H = π×196×H. Equating: 196×16 = 196×H → H = 16 cm.",
+      "difficulty": "hard",
+      "tags": ["cone", "cylinder", "volume-conservation", "recast"]
+    },
+    {
+      "id": "g8m-w26-wed-011",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "A cone and a cylinder have equal base radius and height. Ratio of their volumes =",
+      "options": ["1 : 1", "1 : 2", "1 : 3", "2 : 3"],
+      "correctIndex": 2,
+      "explanation": "V_cone = (1/3)πr²h. V_cylinder = πr²h. Ratio = (1/3)πr²h : πr²h = 1 : 3. A cone always has 1/3 the volume of a cylinder with the same base and height. This is a fundamental mensuration fact.",
+      "difficulty": "hard",
+      "tags": ["cone", "cylinder", "ratio", "volume"]
+    },
+    {
+      "id": "g8m-w26-wed-012",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "A heap of grain is in the shape of a cone (r = 2.1 m, h = 2.8 m). Volume (π = 22/7) =",
+      "options": ["8.46 m³", "12.936 m³", "5.544 m³", "6.16 m³"],
+      "correctIndex": 1,
+      "explanation": "V = (1/3)πr²h = (1/3)×(22/7)×4.41×2.8 = (1/3)×22/7×4.41×2.8. (22/7)×4.41=13.86/7×22=13.86; 4.41×22/7=4.41×22/7=97.02/7=13.86. 13.86×2.8=38.808; ÷3=12.936 m³.",
+      "difficulty": "hard",
+      "tags": ["cone", "volume", "grain-heap"]
+    },
+    {
+      "id": "g8m-w26-wed-013",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "If the radius of a cone is doubled (height unchanged), volume becomes:",
+      "options": ["2 times", "4 times", "8 times", "Unchanged"],
+      "correctIndex": 1,
+      "explanation": "V = (1/3)πr²h. New r = 2r. New V = (1/3)π(2r)²h = (1/3)π4r²h = 4V. Volume becomes 4 times. (Same as cylinder — volume scales as r².)",
+      "difficulty": "hard",
+      "tags": ["cone", "volume", "scaling"]
+    },
+    {
+      "id": "g8m-w26-wed-014",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "A cone-shaped funnel: r = 14 cm, l = 50 cm. TSA (π = 22/7) =",
+      "options": ["2,200 cm²", "2,508 cm²", "3,080 cm²", "2,816 cm²"],
+      "correctIndex": 3,
+      "explanation": "TSA = πr(l + r) = (22/7)×14×(50+14) = 44×64 = 2,816 cm².",
+      "difficulty": "hard",
+      "tags": ["cone", "TSA", "funnel"]
+    },
+    {
+      "id": "g8m-w26-wed-015",
+      "goalId": "grade-8-math-w26-wed",
+      "question": "Summary check: Formula for Volume of cone vs cylinder vs cuboid with same dimensions (r=7, h=14, l=b=7)?",
+      "options": ["All three volumes are equal", "Cone=718 cm³, Cylinder=2,156 cm³, Cuboid=686 cm³ — cone=(1/3)×cylinder; all differ", "Cone is always largest", "Cuboid is always largest"],
+      "correctIndex": 1,
+      "explanation": "V_cylinder = πr²h = (22/7)×49×14 = 2,156 cm³. V_cone = (1/3)×2,156 ≈ 718.67 cm³. V_cuboid = 7×7×14 = 686 cm³. So cylinder > cone > cuboid (roughly). Cone = 1/3 of cylinder with same base and height — always.",
+      "difficulty": "hard",
+      "tags": ["cone", "cylinder", "cuboid", "compare", "formula"]
+    }
+  ]
+}

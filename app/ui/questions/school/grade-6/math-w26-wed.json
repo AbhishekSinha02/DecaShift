@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-math-w26-wed",
+  "title": "Grade 6 Math — Wed, Jun 25",
+  "description": "Mensuration — Day 3 of 5: Area of parallelogram, rhombus and composite figures",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6m-w26-wed-001",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "Area of a parallelogram: base=14 cm, height=8 cm",
+      "options": ["22 cm²", "56 cm²", "112 cm²", "44 cm²"],
+      "correctIndex": 2,
+      "explanation": "Area of parallelogram = base × height = 14 × 8 = 112 cm². Note: height is the perpendicular distance between the parallel sides, NOT the slant side.",
+      "difficulty": "easy",
+      "tags": ["area", "parallelogram"]
+    },
+    {
+      "id": "g6m-w26-wed-002",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "Area of a rhombus with diagonals d₁=10 cm and d₂=8 cm",
+      "options": ["18 cm²", "40 cm²", "80 cm²", "36 cm²"],
+      "correctIndex": 1,
+      "explanation": "Area of rhombus = ½ × d₁ × d₂ = ½ × 10 × 8 = 40 cm².",
+      "difficulty": "easy",
+      "tags": ["area", "rhombus", "diagonals"]
+    },
+    {
+      "id": "g6m-w26-wed-003",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A parallelogram has area 120 cm² and base 15 cm. Height =",
+      "options": ["4 cm", "8 cm", "10 cm", "18 cm"],
+      "correctIndex": 1,
+      "explanation": "Area = base × height → 120 = 15 × h → h = 8 cm.",
+      "difficulty": "easy",
+      "tags": ["area", "parallelogram", "find-height"]
+    },
+    {
+      "id": "g6m-w26-wed-004",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A field is shaped like a rhombus with diagonals 24 m and 18 m. Area =",
+      "options": ["42 m²", "216 m²", "432 m²", "108 m²"],
+      "correctIndex": 1,
+      "explanation": "Area = ½ × 24 × 18 = ½ × 432 = 216 m².",
+      "difficulty": "medium",
+      "tags": ["area", "rhombus", "word-problem"]
+    },
+    {
+      "id": "g6m-w26-wed-005",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A composite figure = a rectangle (12×8 cm) + a triangle on top (base=12, height=5 cm). Total area =",
+      "options": ["96 cm²", "126 cm²", "186 cm²", "156 cm²"],
+      "correctIndex": 1,
+      "explanation": "Rectangle = 12×8 = 96 cm². Triangle = ½×12×5 = 30 cm². Total = 96 + 30 = 126 cm².",
+      "difficulty": "medium",
+      "tags": ["area", "composite", "rectangle-triangle"]
+    },
+    {
+      "id": "g6m-w26-wed-006",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A floor made of rhombus-shaped tiles (d₁=20 cm, d₂=16 cm). How many tiles cover 32,000 cm²?",
+      "options": ["100", "160", "200", "320"],
+      "correctIndex": 2,
+      "explanation": "Tile area = ½ × 20 × 16 = 160 cm². Number = 32,000 ÷ 160 = 200 tiles.",
+      "difficulty": "medium",
+      "tags": ["area", "rhombus", "tiling"]
+    },
+    {
+      "id": "g6m-w26-wed-007",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "The diagonals of a rhombus are in ratio 3:4. Shorter diagonal = 9 cm. Area =",
+      "options": ["54 cm²", "108 cm²", "162 cm²", "216 cm²"],
+      "correctIndex": 0,
+      "explanation": "Diagonals 3:4 → shorter = 9 → longer = 12. Area = ½ × 9 × 12 = 54 cm².",
+      "difficulty": "medium",
+      "tags": ["area", "rhombus", "ratio"]
+    },
+    {
+      "id": "g6m-w26-wed-008",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A figure consists of a square (side 10 cm) and a triangle (base 10 cm, height 8 cm). Area =",
+      "options": ["100 cm²", "140 cm²", "180 cm²", "200 cm²"],
+      "correctIndex": 1,
+      "explanation": "Square = 10² = 100 cm². Triangle = ½×10×8 = 40 cm². Total = 140 cm².",
+      "difficulty": "hard",
+      "tags": ["area", "composite", "square-triangle"]
+    },
+    {
+      "id": "g6m-w26-wed-009",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A parallelogram has the same area as a rectangle (18 cm × 12 cm). If its height is 9 cm, base =",
+      "options": ["18 cm", "24 cm", "27 cm", "36 cm"],
+      "correctIndex": 1,
+      "explanation": "Rectangle area = 18×12 = 216 cm². Parallelogram: b×h = 216 → b×9 = 216 → b = 24 cm.",
+      "difficulty": "hard",
+      "tags": ["area", "parallelogram", "equal-area"]
+    },
+    {
+      "id": "g6m-w26-wed-010",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A shaded region: large rectangle (20×15 cm) with a parallelogram (base=10, height=8 cm) cut out. Shaded area =",
+      "options": ["220 cm²", "300 cm²", "80 cm²", "240 cm²"],
+      "correctIndex": 0,
+      "explanation": "Large rectangle = 20×15 = 300 cm². Parallelogram = 10×8 = 80 cm². Shaded = 300 − 80 = 220 cm².",
+      "difficulty": "hard",
+      "tags": ["area", "composite", "shaded"]
+    },
+    {
+      "id": "g6m-w26-wed-011",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A kite (which is a special quadrilateral) has diagonals 15 cm and 10 cm. Area =",
+      "options": ["25 cm²", "75 cm²", "150 cm²", "225 cm²"],
+      "correctIndex": 1,
+      "explanation": "A kite's area = ½ × d₁ × d₂ (same formula as rhombus) = ½ × 15 × 10 = 75 cm².",
+      "difficulty": "hard",
+      "tags": ["area", "kite", "diagonals"]
+    },
+    {
+      "id": "g6m-w26-wed-012",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A window frame: outer rectangle 80 cm × 60 cm, inner rectangle 70 cm × 50 cm. Area of frame =",
+      "options": ["1,300 cm²", "1,200 cm²", "4,800 cm²", "600 cm²"],
+      "correctIndex": 0,
+      "explanation": "Outer = 80×60 = 4,800 cm². Inner = 70×50 = 3,500 cm². Frame = 4,800 − 3,500 = 1,300 cm².",
+      "difficulty": "hard",
+      "tags": ["area", "frame", "composite"]
+    },
+    {
+      "id": "g6m-w26-wed-013",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A parallelogram has base 25 cm and height 12 cm. A triangle is cut from it (base 25 cm, height 8 cm). Remaining area =",
+      "options": ["100 cm²", "200 cm²", "300 cm²", "400 cm²"],
+      "correctIndex": 1,
+      "explanation": "Parallelogram = 25×12 = 300 cm². Triangle = ½×25×8 = 100 cm². Remaining = 300 − 100 = 200 cm².",
+      "difficulty": "hard",
+      "tags": ["area", "parallelogram", "subtract"]
+    },
+    {
+      "id": "g6m-w26-wed-014",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "Why is the area of a parallelogram = base × height (not base × slant side)?",
+      "options": ["Both formulas give the same result", "The HEIGHT is the perpendicular distance between the bases — it represents the actual vertical extent; the slant side would overcount area if the shape leans", "The slant side is always longer", "Area formula only applies to rectangles"],
+      "correctIndex": 1,
+      "explanation": "A parallelogram can be rearranged into a rectangle: cut a triangle from one end and move it to the other. The resulting rectangle = base × perpendicular height. The slant side is longer than the height and gives a wrong (larger) area.",
+      "difficulty": "hard",
+      "tags": ["area", "parallelogram", "why-height"]
+    },
+    {
+      "id": "g6m-w26-wed-015",
+      "goalId": "grade-6-math-w26-wed",
+      "question": "A figure is made of two triangles sharing a base (like a kite): triangle 1 (base=12, h=5), triangle 2 (base=12, h=7). Total area =",
+      "options": ["42 cm²", "72 cm²", "84 cm²", "60 cm²"],
+      "correctIndex": 1,
+      "explanation": "Triangle 1 = ½×12×5 = 30 cm². Triangle 2 = ½×12×7 = 42 cm². Total = 72 cm².",
+      "difficulty": "hard",
+      "tags": ["area", "composite", "two-triangles"]
+    }
+  ]
+}

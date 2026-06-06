@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-french-w26-thu",
+  "title": "Grade 7 French — Thu, Jun 26",
+  "description": "Pronoms relatifs — Day 4 of 5: Mixed practice — qui, que, où, dont",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7f-w26-thu-001",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Fill in: 'L'acteur ___ joue dans ce film est célèbre.'",
+      "options": ["que", "où", "dont", "qui"],
+      "correctIndex": 3,
+      "explanation": "'L'acteur qui joue dans ce film est célèbre.' ✓ 'L'acteur' = subject of 'joue' → 'qui.' Test: 'il joue' → can replace → 'qui.'",
+      "difficulty": "easy",
+      "tags": ["qui", "fill-in", "actor"]
+    },
+    {
+      "id": "g7f-w26-thu-002",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Fill in: 'Le livre ___ tu m'as offert est magnifique.'",
+      "options": ["qui", "où", "dont", "que"],
+      "correctIndex": 3,
+      "explanation": "'Le livre que tu m'as offert est magnifique.' ✓ 'Tu m'as offert [le livre]' — book = direct object; 'tu' = subject already present → 'que.'",
+      "difficulty": "easy",
+      "tags": ["que", "fill-in", "gift"]
+    },
+    {
+      "id": "g7f-w26-thu-003",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Fill in: 'C'est la maison ___ j'ai grandi.'",
+      "options": ["qui", "que", "dont", "où"],
+      "correctIndex": 3,
+      "explanation": "'C'est la maison où j'ai grandi.' ✓ 'Grandir dans cette maison' — place → 'où.' 'Grandir' = to grow up.",
+      "difficulty": "easy",
+      "tags": ["ou-relatif", "fill-in", "house"]
+    },
+    {
+      "id": "g7f-w26-thu-004",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Fill in: 'C'est un auteur ___ j'admire le style.'",
+      "options": ["qui", "que", "où", "dont"],
+      "correctIndex": 3,
+      "explanation": "'C'est un auteur dont j'admire le style.' ✓ 'J'admire le style DE cet auteur' — possession/de → 'dont.' Structure: dont + le style (owned item) + verb.",
+      "difficulty": "medium",
+      "tags": ["dont", "possession", "author"]
+    },
+    {
+      "id": "g7f-w26-thu-005",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Spot the error: 'Je cherche le restaurant dont nous avons mangé hier.'",
+      "options": ["No error", "'dont' should be 'où' — 'manger dans ce restaurant' is a location, not a 'de' relationship. Correct: 'le restaurant où nous avons mangé hier.'", "'cherche' is wrong", "'hier' is wrong"],
+      "correctIndex": 1,
+      "explanation": "'Manger dans un restaurant' — restaurant is a PLACE → 'où.' 'Dont' would be correct if the verb used 'de': e.g., 'le restaurant dont j'ai entendu parler' (parler DE). Here, 'manger dans' → location → 'où.'",
+      "difficulty": "medium",
+      "tags": ["ou-vs-dont", "error-correction", "restaurant"]
+    },
+    {
+      "id": "g7f-w26-thu-006",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Combine: 'J'ai rencontré une femme. Cette femme est médecin.'",
+      "options": ["J'ai rencontré une femme que est médecin.", "J'ai rencontré une femme qui est médecin.", "J'ai rencontré une femme où est médecin.", "J'ai rencontré une femme dont est médecin."],
+      "correctIndex": 1,
+      "explanation": "'J'ai rencontré une femme qui est médecin.' ✓ 'La femme est médecin' — woman = subject of 'est' → 'qui.'",
+      "difficulty": "medium",
+      "tags": ["qui", "combine", "person"]
+    },
+    {
+      "id": "g7f-w26-thu-007",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Combine: 'Voilà le musée. Nous visitons ce musée.'",
+      "options": ["Voilà le musée qui nous visitons.", "Voilà le musée que nous visitons.", "Voilà le musée où nous visitons.", "Voilà le musée dont nous visitons."],
+      "correctIndex": 1,
+      "explanation": "'Voilà le musée que nous visitons.' ✓ 'Nous visitons [le musée]' — museum = direct object; 'nous' = subject present → 'que.'",
+      "difficulty": "medium",
+      "tags": ["que", "combine", "museum"]
+    },
+    {
+      "id": "g7f-w26-thu-008",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Combine: 'Je me souviens du soir. Il a plu ce soir-là.'",
+      "options": ["Je me souviens du soir qui il a plu.", "Je me souviens du soir que il a plu.", "Je me souviens du soir où il a plu.", "Je me souviens du soir dont il a plu."],
+      "correctIndex": 2,
+      "explanation": "'Je me souviens du soir où il a plu.' ✓ 'Ce soir-là' = time expression → 'où.' 'Pleuvoir' = to rain. 'Il a plu' = it rained.",
+      "difficulty": "hard",
+      "tags": ["ou-relatif", "time", "weather"]
+    },
+    {
+      "id": "g7f-w26-thu-009",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Choose the correct sentence: 'I know a student whose bag was stolen.'",
+      "options": ["Je connais un élève que le sac a été volé.", "Je connais un élève dont le sac a été volé.", "Je connais un élève où le sac a été volé.", "Je connais un élève qui le sac a été volé."],
+      "correctIndex": 1,
+      "explanation": "'Je connais un élève dont le sac a été volé.' ✓ 'Le sac DE l'élève' = whose bag → 'dont' (possession). 'A été volé' = was stolen (passive, passé composé).",
+      "difficulty": "hard",
+      "tags": ["dont", "possession", "theft"]
+    },
+    {
+      "id": "g7f-w26-thu-010",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Which sentence is CORRECT?",
+      "options": ["C'est une ville où je rêve de visiter.", "C'est une ville que je rêve de visiter.", "C'est une ville dont je rêve de visiter.", "C'est une ville qui je rêve de visiter."],
+      "correctIndex": 1,
+      "explanation": "'C'est une ville que je rêve de visiter.' ✓ 'Rêver de visiter [une ville]' — the city is the direct object of 'visiter' (I dream of visiting IT). Subject 'je' present → 'que.' Note: 'rêver de' takes 'dont' only if the city itself follows 'de': 'C'est la ville dont je rêve' (I dream of the city as an end in itself).",
+      "difficulty": "hard",
+      "tags": ["que", "fill-in", "rever-de"]
+    },
+    {
+      "id": "g7f-w26-thu-011",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Fill in with the correct pronoun: 'La période ___ j'étais enfant était heureuse.'",
+      "options": ["qui", "que", "dont", "où"],
+      "correctIndex": 3,
+      "explanation": "'La période où j'étais enfant était heureuse.' ✓ 'La période' = time expression → 'où.' 'J'étais enfant' = I was a child (during that period). 'Où' for time: the period WHEN.",
+      "difficulty": "hard",
+      "tags": ["ou-relatif", "time-period", "childhood"]
+    },
+    {
+      "id": "g7f-w26-thu-012",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Spot the error in this paragraph: 'Je lis le livre que tu m'as parlé. C'est une histoire qui se passe en Inde.'",
+      "options": ["No error", "'le livre que tu m'as parlé' is wrong — 'parler DE quelque chose' → 'dont.' Correct: 'le livre dont tu m'as parlé.' (The second sentence is correct: 'qui se passe' = history THAT takes place → subject → 'qui.')", "'se passe' is wrong", "'Inde' needs an article"],
+      "correctIndex": 1,
+      "explanation": "Sentence 1: 'parler de ce livre' → 'dont.' Error: 'que' used instead of 'dont.' Corrected: 'Je lis le livre dont tu m'as parlé.' Sentence 2: 'l'histoire se passe en Inde' (history = subject of 'se passe') → 'qui' ✓.",
+      "difficulty": "hard",
+      "tags": ["dont", "error-correction", "parler-de"]
+    },
+    {
+      "id": "g7f-w26-thu-013",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Translate: 'The country where I was born is beautiful.'",
+      "options": ["Le pays qui je suis né est beau.", "Le pays que je suis né est beau.", "Le pays où je suis né est beau.", "Le pays dont je suis né est beau."],
+      "correctIndex": 2,
+      "explanation": "'Le pays où je suis né est beau.' ✓ 'Pays' = place (country) → 'où.' 'Je suis né' = I was born (with 'être' in passé composé). Location: 'naître dans un pays' → 'où.'",
+      "difficulty": "hard",
+      "tags": ["ou-relatif", "place", "born-in"]
+    },
+    {
+      "id": "g7f-w26-thu-014",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Four sentences — identify the one with an ERROR:\n(A) 'C'est l'ami qui m'aide toujours.'\n(B) 'C'est le cadeau que j'ai reçu.'\n(C) 'C'est la ville où j'ai habité.'\n(D) 'C'est le film dont j'ai regardé.'",
+      "options": ["A", "B", "C", "D — 'regarder' takes a direct object, not 'de'; 'dont' is wrong here. Use 'que': 'le film que j'ai regardé.'"],
+      "correctIndex": 3,
+      "explanation": "D ✗: 'J'ai regardé [le film]' — film = direct object. 'Regarder' doesn't use 'de.' So 'que' is needed, not 'dont.' Correct: 'C'est le film que j'ai regardé.' A, B, C are all ✓.",
+      "difficulty": "hard",
+      "tags": ["dont-vs-que", "error-identification", "regarder"]
+    },
+    {
+      "id": "g7f-w26-thu-015",
+      "goalId": "grade-7-french-w26-thu",
+      "question": "Which verb would naturally trigger 'dont' in a relative clause?",
+      "options": ["voir (to see)", "écouter (to listen to)", "avoir besoin de (to need)", "regarder (to watch)"],
+      "correctIndex": 2,
+      "explanation": "'Avoir besoin DE' → 'dont.' Example: 'C'est l'outil dont j'ai besoin.' Verbs that use 'de' trigger 'dont': parler de, se souvenir de, avoir besoin de, avoir peur de, rêver de, s'occuper de. 'Voir, écouter, regarder' take direct objects → 'que.'",
+      "difficulty": "hard",
+      "tags": ["dont", "trigger-verbs", "de-verbs"]
+    }
+  ]
+}

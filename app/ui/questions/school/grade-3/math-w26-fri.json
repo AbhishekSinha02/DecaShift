@@ -1,0 +1,169 @@
+{
+  "goalId": "grade-3-math-w26-fri",
+  "title": "Grade 3 Math — Fri, Jun 27",
+  "description": "Fractions — Day 5 of 5: Mixed review — fractions in pictures and word problems",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3m-w26-fri-001",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "In the fraction 5/9, the numerator is ___ and denominator is ___.",
+      "options": ["9 and 5", "5 and 9", "14 and 4", "5 and 4"],
+      "correctIndex": 1,
+      "explanation": "In 5/9: top number (5) = numerator; bottom number (9) = denominator.",
+      "difficulty": "easy",
+      "tags": ["fractions", "numerator", "denominator", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-002",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "Which is the largest unit fraction: 1/2, 1/7, 1/4, 1/9?",
+      "options": ["1/7", "1/4", "1/9", "1/2"],
+      "correctIndex": 3,
+      "explanation": "For unit fractions, larger denominator = smaller fraction. So 1/2 is the largest here.",
+      "difficulty": "easy",
+      "tags": ["fractions", "unit-fractions", "comparison", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-003",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "2/5 + 2/5 = ?",
+      "options": ["4/10", "4/5", "2/5", "1"],
+      "correctIndex": 1,
+      "explanation": "Add numerators (2 + 2 = 4), keep denominator (5). Answer: 4/5.",
+      "difficulty": "easy",
+      "tags": ["fractions", "addition", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-004",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "A pie is divided into 8 equal pieces. Sam eats 3, Mary eats 2. What fraction is left?",
+      "options": ["3/8", "5/8", "2/8", "1/8"],
+      "correctIndex": 0,
+      "explanation": "Eaten = 3 + 2 = 5 pieces = 5/8. Left = 8/8 − 5/8 = 3/8.",
+      "difficulty": "easy",
+      "tags": ["fractions", "word-problem", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-005",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "Which pair are like fractions?",
+      "options": ["1/3 and 2/5", "3/8 and 5/8", "2/4 and 3/6", "1/2 and 1/4"],
+      "correctIndex": 1,
+      "explanation": "3/8 and 5/8 both have denominator 8 — they are like fractions.",
+      "difficulty": "easy",
+      "tags": ["fractions", "like-fractions", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-006",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "A ribbon is 1 metre long. Priya cuts 3/10 of it. What fraction remains?",
+      "options": ["3/10", "6/10", "7/10", "10/3"],
+      "correctIndex": 2,
+      "explanation": "Remaining = 10/10 − 3/10 = 7/10.",
+      "difficulty": "medium",
+      "tags": ["fractions", "subtraction", "word-problem", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-007",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "Arrange 3/11, 8/11, 5/11 in DECREASING order:",
+      "options": ["3/11, 5/11, 8/11", "8/11, 5/11, 3/11", "5/11, 8/11, 3/11", "8/11, 3/11, 5/11"],
+      "correctIndex": 1,
+      "explanation": "Same denominator (11). Decreasing by numerator: 8 > 5 > 3. Order: 8/11, 5/11, 3/11.",
+      "difficulty": "medium",
+      "tags": ["fractions", "ordering", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-008",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "If 1/6 of a bag = 4 candies, how many candies are in the whole bag?",
+      "options": ["4", "12", "18", "24"],
+      "correctIndex": 3,
+      "explanation": "1/6 = 4 candies. Total = 6 × 4 = 24 candies in the whole bag.",
+      "difficulty": "medium",
+      "tags": ["fractions", "unit-fraction", "inverse", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-009",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "Mohan has done 3/8 of his work and his brother has done 5/8. Together, what fraction is done?",
+      "options": ["8/16", "8/8", "1/8", "2/8"],
+      "correctIndex": 1,
+      "explanation": "3/8 + 5/8 = 8/8 = 1 whole. Together they have completed ALL the work.",
+      "difficulty": "medium",
+      "tags": ["fractions", "addition", "one-whole", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-010",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "What fraction of the week (7 days) are the 5 school days?",
+      "options": ["5/7", "2/7", "7/5", "5/2"],
+      "correctIndex": 0,
+      "explanation": "5 school days out of 7 total days = 5/7.",
+      "difficulty": "medium",
+      "tags": ["fractions", "real-life", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-011",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "A class has 24 students. 9 are absent. What fraction of students are PRESENT?",
+      "options": ["9/24", "15/24", "24/15", "9/15"],
+      "correctIndex": 1,
+      "explanation": "Present = 24 − 9 = 15 students. Fraction present = 15/24.",
+      "difficulty": "hard",
+      "tags": ["fractions", "word-problem", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-012",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "Kavita read 2/9 of a book today and 4/9 yesterday. What fraction has she NOT yet read?",
+      "options": ["6/9", "3/9", "7/9", "2/9"],
+      "correctIndex": 1,
+      "explanation": "Read = 2/9 + 4/9 = 6/9. Unread = 9/9 − 6/9 = 3/9.",
+      "difficulty": "hard",
+      "tags": ["fractions", "multi-step", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-013",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "A number line goes from 0 to 1. Fractions 1/5, 2/5, 3/5, 4/5 divide it. How many equal parts are between 0 and 1?",
+      "options": ["4", "5", "6", "10"],
+      "correctIndex": 1,
+      "explanation": "The denominator (5) tells us the number of equal parts. The number line is divided into 5 equal parts: 0, 1/5, 2/5, 3/5, 4/5, 1.",
+      "difficulty": "hard",
+      "tags": ["fractions", "number-line", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-014",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "3 friends share a pizza. One eats 3/12, another eats 5/12, the third eats 4/12. Have they eaten the whole pizza?",
+      "options": ["No — only 11/12 eaten; 1/12 left", "Yes — exactly 12/12 = 1 whole", "No — 13/12 which is more than a whole", "Yes but 1/12 is left"],
+      "correctIndex": 0,
+      "explanation": "3/12 + 5/12 + 4/12 = 12/12? No: 3 + 5 + 4 = 12. Wait: yes! 12/12 = 1. Actually they ate the whole pizza. Let me recalculate: 3+5+4 = 12. So 12/12 = 1. But option A says 11/12... Hmm, 3+5+4 = 12, so they ate the whole pizza (12/12). Option B is correct.",
+      "correctIndex": 1,
+      "explanation": "3/12 + 5/12 + 4/12: add numerators 3 + 5 + 4 = 12. So 12/12 = 1 whole. Yes, they ate the entire pizza.",
+      "difficulty": "hard",
+      "tags": ["fractions", "addition", "whole", "review"]
+    },
+    {
+      "id": "g3m-w26-fri-015",
+      "goalId": "grade-3-math-w26-fri",
+      "question": "Which fraction is between 1/2 and 1 on the number line?",
+      "options": ["1/4", "1/3", "3/4", "1/5"],
+      "correctIndex": 2,
+      "explanation": "3/4 = 0.75, which is between 1/2 (=0.5) and 1. The others — 1/4, 1/3, 1/5 — are all less than 1/2.",
+      "difficulty": "hard",
+      "tags": ["fractions", "number-line", "between", "review"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-science-w26-fri",
+  "title": "Grade 6 Science — Fri, Jun 27",
+  "description": "Light, Shadows and Reflections — Day 5 of 5: Full mixed review",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6s-w26-fri-001",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "Which of these is a LUMINOUS object?",
+      "options": ["Moon", "Mirror", "The Sun", "A white wall"],
+      "correctIndex": 2,
+      "explanation": "The Sun produces its own light → luminous. Moon, mirror, and white walls only reflect light from other sources → non-luminous.",
+      "difficulty": "easy",
+      "tags": ["luminous", "non-luminous", "identify"]
+    },
+    {
+      "id": "g6s-w26-fri-002",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "Light travels in a:",
+      "options": ["Curved path", "Zigzag path", "Straight line (rectilinear propagation)", "Circular path"],
+      "correctIndex": 2,
+      "explanation": "Rectilinear propagation of light = light travels in straight lines. This is why shadows form, why we cannot see around corners, and why pinhole cameras produce sharp images.",
+      "difficulty": "easy",
+      "tags": ["rectilinear-propagation", "straight-line"]
+    },
+    {
+      "id": "g6s-w26-fri-003",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "For a shadow to form, which THREE conditions are needed?",
+      "options": ["Light source + water + screen", "Light source + opaque object + screen (to catch the shadow)", "Lens + camera + film", "Mirror + light + eye"],
+      "correctIndex": 1,
+      "explanation": "Shadow needs: (1) A light source. (2) An opaque object that blocks the light. (3) A screen/surface to catch the shadow. Translucent objects form faint shadows; transparent objects form no shadow.",
+      "difficulty": "easy",
+      "tags": ["shadow", "conditions", "opaque"]
+    },
+    {
+      "id": "g6s-w26-fri-004",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "The law of reflection states that angle of incidence:",
+      "options": ["Is always 90°", "Equals angle of reflection", "Is always greater than angle of reflection", "Has no relation to angle of reflection"],
+      "correctIndex": 1,
+      "explanation": "Law of reflection: ∠i = ∠r. Both angles are measured from the normal (a line perpendicular to the reflecting surface). This applies to all types of reflection (specular and diffuse).",
+      "difficulty": "easy",
+      "tags": ["reflection", "law", "angle"]
+    },
+    {
+      "id": "g6s-w26-fri-005",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "A plane mirror image is:",
+      "options": ["Real, inverted, smaller", "Virtual, erect, same size, laterally inverted", "Real, erect, same size", "Virtual, inverted, larger"],
+      "correctIndex": 1,
+      "explanation": "Plane mirror image properties: Virtual (can't be caught on screen), Erect (right way up), Same size as object, Laterally inverted (left-right reversed — AMBULANCE written backwards on front of ambulance).",
+      "difficulty": "medium",
+      "tags": ["mirror", "image", "properties"]
+    },
+    {
+      "id": "g6s-w26-fri-006",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "A solar eclipse occurs when:",
+      "options": ["Earth comes between Sun and Moon", "Moon comes between Sun and Earth", "Sun comes between Earth and Moon", "Earth's shadow falls on the Moon"],
+      "correctIndex": 1,
+      "explanation": "Solar eclipse: Moon between Sun and Earth. Moon's shadow falls on Earth. Occurs at new moon. Earth's shadow falling on the Moon is a LUNAR eclipse.",
+      "difficulty": "medium",
+      "tags": ["eclipse", "solar", "definition"]
+    },
+    {
+      "id": "g6s-w26-fri-007",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "Why does the Moon appear red during a total lunar eclipse ('Blood Moon')?",
+      "options": ["The Moon catches fire", "Earth's atmosphere bends red light onto the Moon; blue light scatters away", "The Sun moves behind the Moon", "It is an optical illusion caused by humidity"],
+      "correctIndex": 1,
+      "explanation": "Earth's atmosphere acts as a lens during a lunar eclipse, bending (refracting) red wavelengths around Earth and onto the Moon. Blue light scatters. Same physics as red sunsets.",
+      "difficulty": "medium",
+      "tags": ["eclipse", "blood-moon", "refraction"]
+    },
+    {
+      "id": "g6s-w26-fri-008",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "Which material would form NO shadow when light falls on it?",
+      "options": ["Wood", "Clear glass (transparent)", "Frosted glass (translucent)", "Cardboard"],
+      "correctIndex": 1,
+      "explanation": "Transparent objects allow almost all light to pass through → no shadow. Translucent (frosted glass) forms a faint shadow. Opaque objects (wood, cardboard) form sharp, dark shadows.",
+      "difficulty": "medium",
+      "tags": ["shadow", "transparent", "opaque"]
+    },
+    {
+      "id": "g6s-w26-fri-009",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "If you move closer to a wall while standing between the wall and a light source, your shadow will:",
+      "options": ["Become smaller", "Become larger", "Stay the same size", "Disappear"],
+      "correctIndex": 0,
+      "explanation": "Moving closer to the wall means the shadow gets smaller (less spread). Moving away from the wall (closer to the light source) makes the shadow larger. Shadow size depends on distances between object, light, and screen.",
+      "difficulty": "hard",
+      "tags": ["shadow", "size", "distance"]
+    },
+    {
+      "id": "g6s-w26-fri-010",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "Why can we see our reflection in a calm lake but not in a rough lake?",
+      "options": ["Rough lakes have more light", "Calm lake surface is smooth → specular reflection (clear image); rough lake surface scatters light in many directions → diffuse reflection (no clear image)", "Rough lakes are darker", "The angle of incidence changes only in calm water"],
+      "correctIndex": 1,
+      "explanation": "Specular reflection: smooth surface, reflected rays are parallel → clear image. Diffuse reflection: rough surface, reflected rays scatter → no image formed. Same law of reflection applies at each point, but the irregular surface scatters rays in all directions.",
+      "difficulty": "hard",
+      "tags": ["reflection", "specular", "diffuse", "lake"]
+    },
+    {
+      "id": "g6s-w26-fri-011",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "A pinhole camera produces an image that is:",
+      "options": ["Upright and larger", "Inverted (upside-down) and smaller", "Upright and same size", "Inverted and colourless"],
+      "correctIndex": 1,
+      "explanation": "Pinhole camera: light from the top of an object passes through the pinhole and hits the bottom of the screen, and vice versa → inverted image. The image is also smaller (can be made larger with a larger box).",
+      "difficulty": "hard",
+      "tags": ["pinhole-camera", "image", "inverted"]
+    },
+    {
+      "id": "g6s-w26-fri-012",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "Two plane mirrors are placed at 90° to each other. How many images of an object placed between them will be formed?",
+      "options": ["1", "2", "3", "4"],
+      "correctIndex": 2,
+      "explanation": "Number of images = (360°/angle) − 1 = (360°/90°) − 1 = 4 − 1 = 3 images. At 60° → 5 images; at 45° → 7 images.",
+      "difficulty": "hard",
+      "tags": ["mirror", "multiple-images", "90-degrees"]
+    },
+    {
+      "id": "g6s-w26-fri-013",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "Which eclipse lasts longer at any given location on Earth?",
+      "options": ["Solar eclipse (up to 7 min)", "Lunar eclipse (up to 107 min)", "Both last the same duration", "It depends on the season"],
+      "correctIndex": 1,
+      "explanation": "Lunar eclipse: Earth's large shadow covers the Moon for up to ~107 minutes. Solar eclipse: Moon's tiny shadow sweeps Earth at ~1,700 km/h — totality lasts only 1–7 minutes at any location.",
+      "difficulty": "hard",
+      "tags": ["eclipse", "duration", "comparison"]
+    },
+    {
+      "id": "g6s-w26-fri-014",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "Speed of light in vacuum is approximately:",
+      "options": ["3 × 10⁵ m/s", "3 × 10⁸ m/s", "3 × 10¹⁰ m/s", "3 × 10⁶ m/s"],
+      "correctIndex": 1,
+      "explanation": "Speed of light = 3 × 10⁸ m/s (300,000 km/s). Light from the Sun takes about 8 minutes to reach Earth. Light from the Moon reaches us in about 1.3 seconds.",
+      "difficulty": "hard",
+      "tags": ["light", "speed", "value"]
+    },
+    {
+      "id": "g6s-w26-fri-015",
+      "goalId": "grade-6-science-w26-fri",
+      "question": "A periscope works because of:",
+      "options": ["Refraction of light", "Reflection of light by two mirrors placed at 45°", "Dispersion of light", "Diffuse reflection"],
+      "correctIndex": 1,
+      "explanation": "Periscope uses two plane mirrors (each at 45°) facing each other. Light reflects off the top mirror, travels down the tube, reflects off the bottom mirror to the viewer's eye — allowing vision around corners or above obstacles (e.g., in submarines).",
+      "difficulty": "hard",
+      "tags": ["reflection", "periscope", "application"]
+    }
+  ]
+}

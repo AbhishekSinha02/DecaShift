@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-2-french-w26-thu",
+  "title": "Grade 2 French — Thu, Jun 26",
+  "description": "Les animaux — Day 4 of 5: 'Quel animal est-ce?' — descriptions + question forms",
+  "subject": "french",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "les-animaux",
+  "tags": ["french", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2f-w26-thu-001",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "What does 'Quel animal est-ce?' mean?",
+      "options": ["Where is the animal?", "What animal is it?", "Do you like animals?", "Is the animal big?"],
+      "correctIndex": 1,
+      "explanation": "'Quel' = What/Which. 'animal' = animal. 'est-ce' = is it (contraction). 'Quel animal est-ce?' = 'What animal is it?'",
+      "difficulty": "easy",
+      "tags": ["french", "question", "quel"]
+    },
+    {
+      "id": "g2f-w26-thu-002",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "An animal is described: 'Il est grand et gris. Il vit en Afrique.' Which animal is it?",
+      "options": ["Le lion", "Le singe", "L'éléphant", "Le tigre"],
+      "correctIndex": 2,
+      "explanation": "Grand (big), gris (grey), vit en Afrique (lives in Africa) — this describes l'éléphant (the elephant).",
+      "difficulty": "easy",
+      "tags": ["french", "description", "animals"]
+    },
+    {
+      "id": "g2f-w26-thu-003",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "How do you ask 'What colour is the cat?' in French?",
+      "options": ["Quelle est la couleur du chat?", "Quel est le chat?", "Où est le chat?", "Est-ce que le chat est grand?"],
+      "correctIndex": 0,
+      "explanation": "'Quelle est la couleur...?' = 'What is the colour of...?' 'Du chat' = of the cat. 'Quelle est la couleur du chat?'",
+      "difficulty": "easy",
+      "tags": ["french", "question", "colour"]
+    },
+    {
+      "id": "g2f-w26-thu-004",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "Animal riddle in French: 'C'est un animal de la ferme. Il est rose et gros. Il fait « groin groin ». Quel animal est-ce?'",
+      "options": ["La vache", "Le cheval", "Le cochon", "Le mouton"],
+      "correctIndex": 2,
+      "explanation": "Pink (rose), fat (gros), says 'groin groin' (oink) → le cochon (the pig). Farm animal, pink and oinking = pig.",
+      "difficulty": "easy",
+      "tags": ["french", "riddle", "description", "animals"]
+    },
+    {
+      "id": "g2f-w26-thu-005",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "How do you say 'It is a dog' in French?",
+      "options": ["C'est un chien.", "Il est le chien.", "C'est le chien.", "Est-ce un chien?"],
+      "correctIndex": 0,
+      "explanation": "'C'est' = It is. 'Un chien' = a dog. 'C'est un chien.' is the standard way to say 'It is a dog.' in French.",
+      "difficulty": "medium",
+      "tags": ["french", "c-est", "sentence"]
+    },
+    {
+      "id": "g2f-w26-thu-006",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "Animal description: 'Il est petit, blanc et il mange des carottes.' What animal is described?",
+      "options": ["Le chien", "Le lapin", "Le chat", "L'oiseau"],
+      "correctIndex": 1,
+      "explanation": "Small (petit), white (blanc), eats carrots (mange des carottes) = le lapin (the rabbit).",
+      "difficulty": "medium",
+      "tags": ["french", "description", "riddle"]
+    },
+    {
+      "id": "g2f-w26-thu-007",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "Answer the question 'Quel animal est-ce?' with the description: big, yellow, lives in Africa, roars.",
+      "options": ["C'est un éléphant.", "C'est un lion.", "C'est un tigre.", "C'est un singe."],
+      "correctIndex": 1,
+      "explanation": "Yellow (jaune), big (grand), Africa, roars (rugit) = le lion. 'C'est un lion.'",
+      "difficulty": "medium",
+      "tags": ["french", "description", "c-est", "animals"]
+    },
+    {
+      "id": "g2f-w26-thu-008",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "How do you ask 'Is it a cat or a dog?' in French?",
+      "options": ["C'est un chat et un chien?", "Est-ce un chat ou un chien?", "Quel est le chat ou le chien?", "Le chat ou le chien est-ce?"],
+      "correctIndex": 1,
+      "explanation": "'Est-ce...?' is a question form meaning 'Is it...?'. 'Ou' = or. 'Est-ce un chat ou un chien?' = 'Is it a cat or a dog?'",
+      "difficulty": "medium",
+      "tags": ["french", "question", "est-ce", "ou"]
+    },
+    {
+      "id": "g2f-w26-thu-009",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "Describe 'l'oiseau' using three adjectives: petit, rouge, beau. Which sentence is correct?",
+      "options": ["L'oiseau est petit, rouge et beau.", "L'oiseau est petite, rouge et belle.", "Le oiseau est petit, rouge et beau.", "L'oiseau sont petits, rouges et beaux."],
+      "correctIndex": 0,
+      "explanation": "'L'oiseau' is masculine singular. Adjectives: petit (masc.), rouge (same m/f), beau (masc.). 'L'oiseau est petit, rouge et beau.'",
+      "difficulty": "hard",
+      "tags": ["french", "adjective", "description", "sentence"]
+    },
+    {
+      "id": "g2f-w26-thu-010",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "Write a complete riddle answer: 'Quel animal est-ce? Il est rayé noir et blanc. Il ressemble à un cheval.' What is it?",
+      "options": ["C'est un tigre.", "C'est un éléphant.", "C'est un zèbre.", "C'est un mouton."],
+      "correctIndex": 2,
+      "explanation": "Black and white stripes (rayé noir et blanc), looks like a horse (ressemble à un cheval) = un zèbre (a zebra). 'C'est un zèbre.'",
+      "difficulty": "hard",
+      "tags": ["french", "riddle", "c-est", "zebra"]
+    },
+    {
+      "id": "g2f-w26-thu-011",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "Which question form is grammatically correct?",
+      "options": ["Quel est l'animal-ce?", "Est-ce que c'est un lion?", "C'est quel lion est?", "Qu'est lion est-ce?"],
+      "correctIndex": 1,
+      "explanation": "'Est-ce que c'est un lion?' = 'Is it a lion?' — 'Est-ce que' is a standard yes/no question opener in French. This is grammatically correct.",
+      "difficulty": "hard",
+      "tags": ["french", "question", "est-ce-que"]
+    },
+    {
+      "id": "g2f-w26-thu-012",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "Translate: 'Is it a wild animal or a pet?'",
+      "options": ["Est-ce un animal sauvage ou un animal domestique?", "C'est un animal sauvage et un animal domestique?", "Quel est un animal sauvage ou domestique?", "Est-ce que l'animal est sauvage ou domestique?"],
+      "correctIndex": 3,
+      "explanation": "'Est-ce que l'animal est sauvage ou domestique?' = 'Is the animal wild or domestic/pet?' Using 'est-ce que' + subject + verb is a natural French question form.",
+      "difficulty": "hard",
+      "tags": ["french", "question", "vocabulary"]
+    },
+    {
+      "id": "g2f-w26-thu-013",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "Build a description: 'The tiger is a wild animal. It is big and dangerous. It lives in Asia.'",
+      "options": ["Le tigre est un animal sauvage. Il est grand et dangereux. Il vit en Asie.", "La tigre est un animal sauvage. Elle est grand et dangereux. Elle vit en Asie.", "Le tigre est un animal sauvage. Il est grande et dangereuse. Il vit en Asie.", "Le tigre est l'animal sauvage. Il est grand et dangereux. Il vit Asie."],
+      "correctIndex": 0,
+      "explanation": "'Le tigre' (masc.) → 'Il' (he/it). 'Grand et dangereux' (masc. adj.). 'Vit en Asie' (lives in Asia). All correctly masculine.",
+      "difficulty": "hard",
+      "tags": ["french", "paragraph", "description"]
+    },
+    {
+      "id": "g2f-w26-thu-014",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "Create a riddle description for 'le chien' (dog) using 3 clues:",
+      "options": ["Il est fidèle. Il aboie. Il est l'ami de l'homme.", "Elle est fidèle. Elle aboie. Elle est l'ami de l'homme.", "Il est fidèle. Il rugit. Il est l'ami de l'homme.", "Il est fidèle. Il miaule. Il est l'ami de l'homme."],
+      "correctIndex": 0,
+      "explanation": "'Le chien' is masculine → 'Il'. 'Fidèle' = faithful. 'Aboie' = barks. 'Ami de l'homme' = man's friend. Correct: 'Il est fidèle. Il aboie. Il est l'ami de l'homme.'",
+      "difficulty": "hard",
+      "tags": ["french", "riddle", "description", "chien"]
+    },
+    {
+      "id": "g2f-w26-thu-015",
+      "goalId": "grade-2-french-w26-thu",
+      "question": "Why do you use 'Il' or 'Elle' when describing animals in French?",
+      "options": ["Because all animals are male", "Because French pronouns match grammatical gender: masculine nouns → 'Il', feminine nouns → 'Elle'", "Because 'Il' can mean both he and she", "It is optional — you can use any pronoun"],
+      "correctIndex": 1,
+      "explanation": "In French, the pronoun (Il/Elle) must match the grammatical gender of the noun it replaces. 'Le chien' (masc.) → Il. 'La vache' (fem.) → Elle. This is a fundamental French grammar rule.",
+      "difficulty": "hard",
+      "tags": ["french", "pronouns", "gender", "grammar"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-french-w26-tue",
+  "title": "Grade 8 French — Tue, Jun 24",
+  "description": "Le subjonctif présent — Day 2 of 5: Regular verbs — full conjugation practice",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8f-w26-tue-001",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Step-by-step subjonctif formation for 'parler': Step 1 = ils parlent → Step 2 = stem 'parl-' → Step 3 = 'que nous ___'",
+      "options": ["parlons", "parlions", "parlerons", "parlaient"],
+      "correctIndex": 1,
+      "explanation": "que nous parlions (nous = stem + -ions). NOT 'parlons' (that's indicatif présent). The -ions/-iez are the tell-tale subjonctif endings for nous/vous. Compare: 'Nous parlons' (indicatif) vs 'que nous parlions' (subjonctif).",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "parler", "nous"]
+    },
+    {
+      "id": "g8f-w26-tue-002",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Conjugate 'choisir' in subjonctif for 'que vous ___':\nStep 1: ils choisissent → Step 2: stem = choisiss-",
+      "options": ["choisissez", "choisissiez", "choisissions", "choisissent"],
+      "correctIndex": 1,
+      "explanation": "que vous choisissiez. Step: choisiss- + -iez = choisissiez. Compare indicatif: 'vous choisissez' (note -ez). Subjonctif vous = -iez. The double 'ss' + iez is the pattern for -ir verbs with -iss- stem.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "choisir", "vous"]
+    },
+    {
+      "id": "g8f-w26-tue-003",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Complete: 'Il veut que tu ___ (attendre — ils attendent → stem: attend-)'",
+      "options": ["attends", "attendais", "attendes", "attendras"],
+      "correctIndex": 2,
+      "explanation": "'Il veut que' + subjunctive. que tu attendes (tu = attend- + -es). 'Attends' = indicatif présent (same spelling but no 'que'). Context ('veut que') signals subjunctive. 'Attendais' = imparfait. 'Attendras' = futur.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "attendre", "vouloir-que"]
+    },
+    {
+      "id": "g8f-w26-tue-004",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Full subjonctif conjugation of 'finir' (ils finissent → finiss-):\nque je ___, tu ___, il ___, nous ___, vous ___, ils ___",
+      "options": ["finis/finis/finit/finissons/finissez/finissent (indicatif)", "finisse/finisses/finisse/finissions/finissiez/finissent", "finissais/finissais/finissait/finissions/finissiez/finissaient (imparfait)", "finirais/finirais/finirait/finirions/finiriez/finiraient (conditionnel)"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif de 'finir': que je finisse, tu finisses, il/elle finisse, nous finissions, vous finissiez, ils/elles finissent. Note: je/tu/il/ils have same endings (-e/-es/-e/-ent) as regular -er verbs. The key difference from indicatif is in nous/vous: -ions/-iez instead of -ons/-ez.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "finir", "full-conjugation"]
+    },
+    {
+      "id": "g8f-w26-tue-005",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "'Il est important que vous ___ (répondre — ils répondent → répondent → stem: répond-)'",
+      "options": ["répondez", "répondiez", "répondez", "répondiez"],
+      "correctIndex": 1,
+      "explanation": "'Il est important que' → subjonctif. que vous répondiez (répond- + -iez). 'Répondez' = indicatif (imperatif). 'Répondiez' with -iez = subjonctif vous ✓. 'Il est important que' is a fixed subjonctif trigger.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "répondre", "il-est-important"]
+    },
+    {
+      "id": "g8f-w26-tue-006",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "'Je souhaite qu'il ___ (travailler).' (souhaiter que = to wish that → subjunctive)",
+      "options": ["travaille (indicatif, same as subjonctif for il)", "travaillait", "travaillera", "travaillerait"],
+      "correctIndex": 0,
+      "explanation": "que il travaille. 'Souhaiter que' → subjonctif. travailler → ils travaillent → stem: travaill- → il travaille. For je/tu/il/elle forms of -er verbs: subjonctif and indicatif présent look IDENTICAL. The trigger word (souhaite que) tells you it's subjonctif.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "travailler", "souhaiter-que"]
+    },
+    {
+      "id": "g8f-w26-tue-007",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Which sentence correctly uses the subjonctif?",
+      "options": ["Il faut que vous finissez ce soir.", "Il faut que vous finissiez ce soir.", "Il faut que vous finissiez ce soir et vous dormez tôt.", "Il faut vous finissez ce soir."],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'Il faut que vous finissiez ce soir.' (finissiez = subjonctif vous ✓). A: 'finissez' = indicatif/impératif (wrong after il faut que). C: combines well but 'vous dormez' should also be subjunctive after il faut que: 'que vous dormiez.' D: missing 'que' (required).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "identify-correct", "finir"]
+    },
+    {
+      "id": "g8f-w26-tue-008",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Error-spot: 'Bien que nous travaillons dur, nous ne réussissons pas.'",
+      "options": ["No error — 'travaillons' is correct", "'travaillons' should be 'travaillions' — 'bien que' triggers subjonctif. Correct: 'Bien que nous travaillions dur, nous ne réussissons pas.'", "'réussissons' is wrong", "'dur' is wrong"],
+      "correctIndex": 1,
+      "explanation": "'Bien que' (although) ALWAYS triggers subjonctif in the dependent clause. 'Travaillons' = indicatif → wrong. Subjonctif: que nous travaillions (travaill- + -ions). The main clause 'nous ne réussissons pas' stays in indicatif (facts). Only the 'bien que' clause needs subjonctif.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "bien-que", "error-correction"]
+    },
+    {
+      "id": "g8f-w26-tue-009",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Fill in both blanks:\n'Je veux que mes amis ___ (venir) et que tu ___ (apporter) le gâteau.'",
+      "options": ["viennent / apportes", "venez / apportes", "viennent / apportes", "venir / apporter"],
+      "correctIndex": 0,
+      "explanation": "Both after 'que' following 'vouloir que' → subjunctive. venir (irregular): ils viennent → stem vien- → ils viennent (subjonctif same as présent for ils); que mes amis viennent ✓. apporter: ils apportent → apport- + -es → que tu apportes ✓.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "venir-apporter", "two-blanks"]
+    },
+    {
+      "id": "g8f-w26-tue-010",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "'Pour que tu ___  (réussir) à l'examen, tu dois travailler.' (pour que = so that → subjunctive)",
+      "options": ["réussis", "réussisses", "réussissais", "réussiras"],
+      "correctIndex": 1,
+      "explanation": "'Pour que' (so that) → subjonctif. réussir → ils réussissent → stem réussiss- → que tu réussisses. 'Réussis' = indicatif/impératif. 'Réussissais' = imparfait. 'Réussiras' = futur. After 'pour que,' always subjonctif — it expresses a purpose/goal (uncertain outcome).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "pour-que", "réussir"]
+    },
+    {
+      "id": "g8f-w26-tue-011",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Translate: 'I am afraid that she won't come.' (avoir peur que → subjunctive; venir irregular: que elle vienne)",
+      "options": ["J'ai peur qu'elle vient.", "J'ai peur qu'elle viendra.", "J'ai peur qu'elle vienne.", "J'ai peur que elle vienne."],
+      "correctIndex": 2,
+      "explanation": "'Avoir peur que' = to be afraid that → subjonctif. 'J'ai peur qu'elle vienne.' (venir irregular subjonctif: que je vienne, tu viennes, il/elle vienne…). Note: 'que elle' → 'qu'elle' (elision). A: 'vient' = indicatif (wrong). B: 'viendra' = futur (wrong).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "avoir-peur-que", "venir"]
+    },
+    {
+      "id": "g8f-w26-tue-012",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Which pair correctly uses subjonctif vs indicatif?",
+      "options": ["Je sais qu'il vienne / Il faut qu'il vient.", "Je sais qu'il vient (indicatif) / Il faut qu'il vienne (subjonctif).", "Je pense qu'il vienne / Il dit qu'il vienne.", "Il vient (subjonctif) / Il faut qu'il vient (indicatif)."],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'Savoir que' = certainty → indicatif ('vient'). 'Il faut que' = obligation → subjonctif ('vienne'). A: reversed. C: 'penser que' in affirmative → indicatif (not subjonctif). D: completely wrong. Indicatif for facts/certainty; Subjonctif for doubt/emotion/obligation.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "vs-indicatif", "pair"]
+    },
+    {
+      "id": "g8f-w26-tue-013",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "'Avant que' (before) triggers subjunctive. Which is correct?",
+      "options": ["Avant qu'il arrive, prépare le repas.", "Avant qu'il arrivera, prépare le repas.", "Avant qu'il arrivait, prépare le repas.", "Avant qu'il est arrivé, prépare le repas."],
+      "correctIndex": 0,
+      "explanation": "'Avant que' → subjonctif. 'Avant qu'il arrive' ✓ (arrive = subjonctif of arriver — same as indicatif for il form). Note: 'avant que' + present subjonctif for a future action before which something else must happen. B: futur (wrong). C: imparfait (wrong). D: passé composé (wrong).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "avant-que", "arriver"]
+    },
+    {
+      "id": "g8f-w26-tue-014",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Full conjugation check — subjonctif of 'manger' (ils mangent → mang-):\nque je ___, que nous ___",
+      "options": ["mange / mangeons", "mange / mangions", "mangeais / mangions", "mange / mangerons"],
+      "correctIndex": 1,
+      "explanation": "manger → ils mangent → stem: mang-. que je mange (mang- + -e). que nous mangions (mang- + -ions). Note: 'mangeons' = indicatif. 'Mangions' = subjonctif (giveaway: -ions ending). Also note: verbs ending in -ger keep the 'e' before 'a/o' in indicatif (mangeons) but not in subjonctif (mangions — no extra 'e' needed).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "manger", "je-nous"]
+    },
+    {
+      "id": "g8f-w26-tue-015",
+      "goalId": "grade-8-french-w26-tue",
+      "question": "Key rule: when do you use subjonctif vs indicatif after 'que'?",
+      "options": ["Always subjonctif after 'que'", "Indicatif after 'que' for certainty/facts (savoir, dire, croire, penser in affirmative); subjonctif after 'que' for doubt/wish/emotion/obligation/concession", "Always indicatif after 'que'", "Subjonctif only with irregular verbs"],
+      "correctIndex": 1,
+      "explanation": "Decision rule: Main verb type → mood choice. CERTAINTY verbs (savoir, affirmer, dire, croire/penser + affirmative) → indicatif after 'que.' DOUBT/WISH/EMOTION/OBLIGATION → subjonctif: vouloir que, douter que, regretter que, il faut que, bien que, avant que, pour que, à condition que. This is the fundamental distinction.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "vs-indicatif", "rule"]
+    }
+  ]
+}

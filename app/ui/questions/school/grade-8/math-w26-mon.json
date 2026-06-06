@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-math-w26-mon",
+  "title": "Grade 8 Math — Mon, Jun 23",
+  "description": "Mensuration — Surface Area and Volume Day 1 of 5: Cuboid",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8m-w26-mon-001",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "A cuboid has length l, breadth b, height h. Its Lateral Surface Area (LSA) formula is:",
+      "options": ["2(lb + bh + hl)", "2h(l + b)", "lbh", "2(l + b + h)"],
+      "correctIndex": 1,
+      "explanation": "LSA of cuboid = 2h(l + b). It includes only the 4 side faces (not top and bottom). TSA = 2(lb + bh + hl) includes all 6 faces. Volume = lbh.",
+      "difficulty": "easy",
+      "tags": ["cuboid", "LSA", "formula"]
+    },
+    {
+      "id": "g8m-w26-mon-002",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "Total Surface Area (TSA) of a cuboid with l = 10 cm, b = 6 cm, h = 4 cm =",
+      "options": ["240 cm²", "248 cm²", "280 cm²", "300 cm²"],
+      "correctIndex": 1,
+      "explanation": "TSA = 2(lb + bh + hl) = 2(60 + 24 + 40) = 2 × 124 = 248 cm².",
+      "difficulty": "easy",
+      "tags": ["cuboid", "TSA"]
+    },
+    {
+      "id": "g8m-w26-mon-003",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "Volume of a cuboid with l = 8 m, b = 5 m, h = 3 m =",
+      "options": ["120 m³", "160 m³", "240 m³", "79 m³"],
+      "correctIndex": 0,
+      "explanation": "V = l × b × h = 8 × 5 × 3 = 120 m³.",
+      "difficulty": "easy",
+      "tags": ["cuboid", "volume"]
+    },
+    {
+      "id": "g8m-w26-mon-004",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "A cuboid room: l = 12 m, b = 10 m, h = 4 m. Cost of painting 4 walls at ₹15/m² =",
+      "options": ["₹1,680", "₹2,640", "₹3,200", "₹4,320"],
+      "correctIndex": 1,
+      "explanation": "LSA (4 walls) = 2h(l + b) = 2×4×(12+10) = 8×22 = 176 m². Cost = 176×15 = ₹2,640.",
+      "difficulty": "medium",
+      "tags": ["cuboid", "LSA", "cost"]
+    },
+    {
+      "id": "g8m-w26-mon-005",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "A cuboid box (l = 50 cm, b = 40 cm, h = 30 cm) is to be wrapped with paper. Area of paper needed (no overlap) =",
+      "options": ["5,800 cm²", "6,000 cm²", "9,400 cm²", "12,000 cm²"],
+      "correctIndex": 2,
+      "explanation": "TSA = 2(lb + bh + hl) = 2(2,000 + 1,200 + 1,500) = 2×4,700 = 9,400 cm².",
+      "difficulty": "medium",
+      "tags": ["cuboid", "TSA", "wrapping"]
+    },
+    {
+      "id": "g8m-w26-mon-006",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "Find height of a cuboid: Volume = 720 cm³, length = 12 cm, breadth = 10 cm.",
+      "options": ["4 cm", "6 cm", "8 cm", "10 cm"],
+      "correctIndex": 1,
+      "explanation": "V = lbh → 720 = 12×10×h → 720 = 120h → h = 6 cm.",
+      "difficulty": "medium",
+      "tags": ["cuboid", "volume", "find-height"]
+    },
+    {
+      "id": "g8m-w26-mon-007",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "A water tank (cuboid): l = 3 m, b = 2 m, h = 1.5 m. How many litres does it hold? (1 m³ = 1,000 litres)",
+      "options": ["3,000 L", "6,000 L", "9,000 L", "10,000 L"],
+      "correctIndex": 2,
+      "explanation": "V = 3×2×1.5 = 9 m³. Capacity = 9×1,000 = 9,000 litres.",
+      "difficulty": "medium",
+      "tags": ["cuboid", "volume", "capacity"]
+    },
+    {
+      "id": "g8m-w26-mon-008",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "A cube of side 5 cm: TSA =",
+      "options": ["25 cm²", "125 cm²", "150 cm²", "300 cm²"],
+      "correctIndex": 2,
+      "explanation": "A cube has 6 equal square faces. TSA = 6a² = 6×25 = 150 cm². (A cube is a special cuboid with l = b = h = a.)",
+      "difficulty": "hard",
+      "tags": ["cube", "TSA"]
+    },
+    {
+      "id": "g8m-w26-mon-009",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "A cuboidal pit (l = 4 m, b = 3 m, h = 2.5 m) is dug. How many cubic metres of earth was removed?",
+      "options": ["20 m³", "24 m³", "30 m³", "36 m³"],
+      "correctIndex": 2,
+      "explanation": "Volume of earth removed = V of pit = l×b×h = 4×3×2.5 = 30 m³.",
+      "difficulty": "hard",
+      "tags": ["cuboid", "volume", "earth-removal"]
+    },
+    {
+      "id": "g8m-w26-mon-010",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "If all dimensions of a cuboid are doubled, by what factor does the volume increase?",
+      "options": ["2 times", "4 times", "6 times", "8 times"],
+      "correctIndex": 3,
+      "explanation": "Original V = lbh. New V = (2l)(2b)(2h) = 8lbh. Volume increases 8 times. (Each linear dimension doubles → volume = 2³ = 8 times larger. This is why a scaled-up box holds much more.)",
+      "difficulty": "hard",
+      "tags": ["cuboid", "volume", "scaling"]
+    },
+    {
+      "id": "g8m-w26-mon-011",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "A rectangular room: l = 15 m, b = 12 m, h = 5 m. Volume of air in the room =",
+      "options": ["540 m³", "720 m³", "900 m³", "1,080 m³"],
+      "correctIndex": 2,
+      "explanation": "Air fills the entire cuboid. V = 15×12×5 = 900 m³. (This is used to calculate air conditioning load, ventilation requirements, etc.)",
+      "difficulty": "hard",
+      "tags": ["cuboid", "volume", "air"]
+    },
+    {
+      "id": "g8m-w26-mon-012",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "How many small cubes (side 2 cm each) can be packed in a cuboid box (l = 16 cm, b = 12 cm, h = 8 cm)?",
+      "options": ["96", "192", "48", "384"],
+      "correctIndex": 1,
+      "explanation": "Cubes along length: 16÷2=8. Along breadth: 12÷2=6. Along height: 8÷2=4. Total = 8×6×4 = 192. (OR: Box volume ÷ cube volume = 1,536 ÷ 8 = 192.)",
+      "difficulty": "hard",
+      "tags": ["cuboid", "packing", "small-cubes"]
+    },
+    {
+      "id": "g8m-w26-mon-013",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "A swimming pool (cuboid): 25 m × 10 m × 2 m. At ₹500/m³, cost to fill with water =",
+      "options": ["₹1,00,000", "₹2,00,000", "₹2,50,000", "₹5,00,000"],
+      "correctIndex": 2,
+      "explanation": "V = 25×10×2 = 500 m³. Cost = 500×500 = ₹2,50,000.",
+      "difficulty": "hard",
+      "tags": ["cuboid", "volume", "cost"]
+    },
+    {
+      "id": "g8m-w26-mon-014",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "A cuboid has TSA = 376 cm², length = 10 cm, breadth = 8 cm. Find height.",
+      "options": ["4 cm", "6 cm", "8 cm", "10 cm"],
+      "correctIndex": 1,
+      "explanation": "TSA = 2(lb + bh + hl) → 376 = 2(80 + 8h + 10h) → 188 = 80 + 18h → 108 = 18h → h = 6 cm.",
+      "difficulty": "hard",
+      "tags": ["cuboid", "TSA", "find-height"]
+    },
+    {
+      "id": "g8m-w26-mon-015",
+      "goalId": "grade-8-math-w26-mon",
+      "question": "A suitcase (cuboid: 80 cm × 50 cm × 25 cm). How many square cm of material are needed to cover all faces?",
+      "options": ["10,000 cm²", "12,500 cm²", "14,500 cm²", "16,000 cm²"],
+      "correctIndex": 2,
+      "explanation": "TSA = 2(lb + bh + hl). lb = 80×50 = 4,000; bh = 50×25 = 1,250; hl = 25×80 = 2,000. Sum = 7,250. TSA = 2×7,250 = 14,500 cm².",
+      "difficulty": "hard",
+      "tags": ["cuboid", "TSA", "suitcase"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-5-math-w26-wed",
+  "title": "Grade 5 Math — Wed, Jun 25",
+  "description": "Volume and Capacity — Day 3 of 5: Capacity, litres and millilitres",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5m-w26-wed-001",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "How many millilitres (mL) are there in 1 litre (L)?",
+      "options": ["100 mL", "500 mL", "1,000 mL", "10,000 mL"],
+      "correctIndex": 2,
+      "explanation": "1 L = 1,000 mL. This is the key conversion: litre to millilitre × 1,000; millilitre to litre ÷ 1,000.",
+      "difficulty": "easy",
+      "tags": ["capacity", "litres", "millilitres", "conversion"]
+    },
+    {
+      "id": "g5m-w26-wed-002",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "Convert: 3 L = ___ mL",
+      "options": ["300 mL", "3,000 mL", "30 mL", "300,000 mL"],
+      "correctIndex": 1,
+      "explanation": "3 L = 3 × 1,000 = 3,000 mL.",
+      "difficulty": "easy",
+      "tags": ["capacity", "conversion", "litres-to-ml"]
+    },
+    {
+      "id": "g5m-w26-wed-003",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "Convert: 2,500 mL = ___ L",
+      "options": ["25 L", "2.5 L", "250 L", "0.25 L"],
+      "correctIndex": 1,
+      "explanation": "2,500 mL ÷ 1,000 = 2.5 L (or 2 L 500 mL).",
+      "difficulty": "easy",
+      "tags": ["capacity", "conversion", "ml-to-litres"]
+    },
+    {
+      "id": "g5m-w26-wed-004",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "A bottle holds 750 mL. How many such bottles fill a 3 L container?",
+      "options": ["2", "3", "4", "6"],
+      "correctIndex": 2,
+      "explanation": "3 L = 3,000 mL. 3,000 ÷ 750 = 4 bottles.",
+      "difficulty": "easy",
+      "tags": ["capacity", "division", "word-problem"]
+    },
+    {
+      "id": "g5m-w26-wed-005",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "A jug has 1 L 250 mL of juice. Express this in mL.",
+      "options": ["125 mL", "1,025 mL", "1,250 mL", "12,500 mL"],
+      "correctIndex": 2,
+      "explanation": "1 L 250 mL = 1,000 + 250 = 1,250 mL.",
+      "difficulty": "medium",
+      "tags": ["capacity", "mixed-units", "conversion"]
+    },
+    {
+      "id": "g5m-w26-wed-006",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "Riya drank 350 mL of milk in the morning and 450 mL in the evening. Total milk consumed =",
+      "options": ["700 mL", "800 mL", "1,000 mL", "1,350 mL"],
+      "correctIndex": 1,
+      "explanation": "350 + 450 = 800 mL.",
+      "difficulty": "medium",
+      "tags": ["capacity", "addition", "word-problem"]
+    },
+    {
+      "id": "g5m-w26-wed-007",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "A tank holds 20 L. It is ¾ full. How much water is in the tank?",
+      "options": ["5 L", "10 L", "15 L", "18 L"],
+      "correctIndex": 2,
+      "explanation": "¾ of 20 = (20 ÷ 4) × 3 = 5 × 3 = 15 L.",
+      "difficulty": "medium",
+      "tags": ["capacity", "fractions", "word-problem"]
+    },
+    {
+      "id": "g5m-w26-wed-008",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "A recipe needs 1.5 L of water for every batch. For 4 batches, water needed =",
+      "options": ["4 L", "5 L", "6 L", "7.5 L"],
+      "correctIndex": 2,
+      "explanation": "1.5 × 4 = 6 L.",
+      "difficulty": "medium",
+      "tags": ["capacity", "multiplication", "word-problem"]
+    },
+    {
+      "id": "g5m-w26-wed-009",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "5 bottles each hold 600 mL. Total capacity in litres =",
+      "options": ["3 L", "3.5 L", "5 L", "6 L"],
+      "correctIndex": 0,
+      "explanation": "5 × 600 = 3,000 mL = 3 L.",
+      "difficulty": "hard",
+      "tags": ["capacity", "multiplication", "conversion"]
+    },
+    {
+      "id": "g5m-w26-wed-010",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "A barrel contains 50 L. Each day 4 L 500 mL is used. After 5 days, how much remains?",
+      "options": ["22 L 500 mL", "27 L 500 mL", "32 L 500 mL", "45 L 500 mL"],
+      "correctIndex": 1,
+      "explanation": "Per day: 4 L 500 mL = 4,500 mL. 5 days: 5 × 4,500 = 22,500 mL = 22 L 500 mL. Remaining: 50,000 − 22,500 = 27,500 mL = 27 L 500 mL.",
+      "difficulty": "hard",
+      "tags": ["capacity", "subtraction", "word-problem"]
+    },
+    {
+      "id": "g5m-w26-wed-011",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "A box (l=10 cm, b=10 cm, h=10 cm) is completely filled with water. 1 cm³ of water = 1 mL. How many litres does it hold?",
+      "options": ["0.1 L", "1 L", "10 L", "100 L"],
+      "correctIndex": 1,
+      "explanation": "V = 10×10×10 = 1,000 cm³ = 1,000 mL = 1 L. This links volume and capacity: 1 cm³ = 1 mL; 1,000 cm³ = 1 L.",
+      "difficulty": "hard",
+      "tags": ["capacity", "volume", "link", "cm3-to-ml"]
+    },
+    {
+      "id": "g5m-w26-wed-012",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "Which is the greatest capacity?",
+      "options": ["4,800 mL", "4 L 900 mL", "4.85 L", "4 L 750 mL"],
+      "correctIndex": 1,
+      "explanation": "Convert all to mL: 4,800 | 4,900 | 4,850 | 4,750. Greatest = 4,900 mL = 4 L 900 mL.",
+      "difficulty": "hard",
+      "tags": ["capacity", "comparison", "ordering"]
+    },
+    {
+      "id": "g5m-w26-wed-013",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "A water cooler dispenses 250 mL per cup. A school needs 80 cups per day. Total litres per day =",
+      "options": ["2 L", "10 L", "20 L", "200 L"],
+      "correctIndex": 2,
+      "explanation": "80 × 250 = 20,000 mL = 20 L.",
+      "difficulty": "hard",
+      "tags": ["capacity", "multiplication", "large-numbers"]
+    },
+    {
+      "id": "g5m-w26-wed-014",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "A cuboid tank: l=50 cm, b=40 cm, h=30 cm. Capacity in litres (1 L = 1,000 cm³) =",
+      "options": ["6 L", "60 L", "600 L", "6,000 L"],
+      "correctIndex": 1,
+      "explanation": "V = 50 × 40 × 30 = 60,000 cm³. 60,000 ÷ 1,000 = 60 L.",
+      "difficulty": "hard",
+      "tags": ["capacity", "volume", "tank", "conversion"]
+    },
+    {
+      "id": "g5m-w26-wed-015",
+      "goalId": "grade-5-math-w26-wed",
+      "question": "Mango juice: 2 L 400 mL. Orange juice: 1 L 750 mL. Mixed together, then split equally into 2 jugs. Each jug contains:",
+      "options": ["1 L 875 mL", "2 L 75 mL", "2 L 100 mL", "4 L 150 mL"],
+      "correctIndex": 1,
+      "explanation": "Total = 2,400 + 1,750 = 4,150 mL. Each jug = 4,150 ÷ 2 = 2,075 mL = 2 L 75 mL.",
+      "difficulty": "hard",
+      "tags": ["capacity", "multi-step", "division"]
+    }
+  ]
+}

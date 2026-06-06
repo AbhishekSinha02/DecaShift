@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-math-w26-thu",
+  "title": "Grade 8 Math — Thu, Jun 26",
+  "description": "Mensuration — Surface Area and Volume Day 4 of 5: Sphere",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8m-w26-thu-001",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "Surface area of a sphere with radius r =",
+      "options": ["πr²", "2πr²", "4πr²", "(4/3)πr³"],
+      "correctIndex": 2,
+      "explanation": "Surface area of sphere = 4πr². Volume = (4/3)πr³. Hemisphere: curved surface = 2πr², total surface = 3πr² (curved + circular base). The sphere has no edges or vertices.",
+      "difficulty": "easy",
+      "tags": ["sphere", "surface-area", "formula"]
+    },
+    {
+      "id": "g8m-w26-thu-002",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "Surface area of a sphere with r = 7 cm (π = 22/7) =",
+      "options": ["154 cm²", "308 cm²", "616 cm²", "1,232 cm²"],
+      "correctIndex": 2,
+      "explanation": "SA = 4πr² = 4×(22/7)×49 = 4×22×7 = 616 cm².",
+      "difficulty": "easy",
+      "tags": ["sphere", "surface-area"]
+    },
+    {
+      "id": "g8m-w26-thu-003",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "Volume of a sphere with r = 21 cm (π = 22/7) =",
+      "options": ["9,702 cm³", "19,404 cm³", "38,808 cm³", "4,851 cm³"],
+      "correctIndex": 2,
+      "explanation": "V = (4/3)πr³ = (4/3)×(22/7)×9,261 = (4/3)×(22/7)×9,261 = (4/3)×22×1,323 = (4/3)×29,106 = 38,808 cm³.",
+      "difficulty": "easy",
+      "tags": ["sphere", "volume"]
+    },
+    {
+      "id": "g8m-w26-thu-004",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "A hemispherical bowl (r = 7 cm). Total surface area (π = 22/7) =",
+      "options": ["154 cm²", "308 cm²", "462 cm²", "616 cm²"],
+      "correctIndex": 2,
+      "explanation": "Hemisphere TSA = 2πr² + πr² = 3πr² = 3×(22/7)×49 = 3×22×7 = 462 cm². (Curved surface + flat circular base.)",
+      "difficulty": "medium",
+      "tags": ["hemisphere", "TSA"]
+    },
+    {
+      "id": "g8m-w26-thu-005",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "A cricket ball has diameter 7 cm. Surface area (π = 22/7) =",
+      "options": ["77 cm²", "154 cm²", "308 cm²", "616 cm²"],
+      "correctIndex": 1,
+      "explanation": "r = 3.5 cm. SA = 4πr² = 4×(22/7)×12.25 = 4×(22/7)×12.25 = 4×38.5 = 154 cm².",
+      "difficulty": "medium",
+      "tags": ["sphere", "surface-area", "cricket-ball"]
+    },
+    {
+      "id": "g8m-w26-thu-006",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "Volume of a hemispherical tank (r = 21 m, π = 22/7) =",
+      "options": ["9,702 m³", "19,404 m³", "29,106 m³", "38,808 m³"],
+      "correctIndex": 1,
+      "explanation": "V = (1/2)×(4/3)πr³ = (2/3)πr³ = (2/3)×(22/7)×9,261 = (2/3)×29,106 = 19,404 m³.",
+      "difficulty": "medium",
+      "tags": ["hemisphere", "volume"]
+    },
+    {
+      "id": "g8m-w26-thu-007",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "A sphere has the same radius as a cylinder's radius, and the sphere's diameter equals the cylinder's height. Ratio of their volumes = sphere : cylinder =",
+      "options": ["1 : 2", "2 : 3", "1 : 3", "3 : 2"],
+      "correctIndex": 1,
+      "explanation": "Let r = r, h = 2r (diameter = height of cylinder). V_sphere = (4/3)πr³. V_cylinder = πr²h = πr²×2r = 2πr³. Ratio = (4/3)πr³ : 2πr³ = (4/3) : 2 = 4 : 6 = 2 : 3.",
+      "difficulty": "hard",
+      "tags": ["sphere", "cylinder", "ratio", "volume"]
+    },
+    {
+      "id": "g8m-w26-thu-008",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "A spherical ball (r = 7 cm) is melted and recast as a cylinder of r = 7 cm. Height of cylinder (π = 22/7) =",
+      "options": ["7/3 cm", "14/3 cm", "28/3 cm", "28 cm"],
+      "correctIndex": 2,
+      "explanation": "V_sphere = V_cylinder. (4/3)πr³ = πr²h. (4/3)π×343 = π×49×h. (4/3)×343 = 49h. h = (4×343)/(3×49) = 1,372/147 = 28/3 cm ≈ 9.33 cm.",
+      "difficulty": "hard",
+      "tags": ["sphere", "cylinder", "volume-conservation", "recast"]
+    },
+    {
+      "id": "g8m-w26-thu-009",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "If the radius of a sphere is doubled, surface area becomes:",
+      "options": ["2 times", "4 times", "8 times", "16 times"],
+      "correctIndex": 1,
+      "explanation": "SA = 4πr². New r = 2r. New SA = 4π(2r)² = 4π×4r² = 16πr² = 4×SA. Surface area is 4 times (scales as r²). Compare: volume scales as r³ — so doubling radius gives 8× volume but only 4× surface area.",
+      "difficulty": "hard",
+      "tags": ["sphere", "surface-area", "scaling"]
+    },
+    {
+      "id": "g8m-w26-thu-010",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "A metal sphere (r = 3 cm) is melted into 27 small spheres of equal size. Radius of each small sphere =",
+      "options": ["1 cm", "3 cm", "9 cm", "1/3 cm"],
+      "correctIndex": 0,
+      "explanation": "V_large = 27×V_small. (4/3)π×27 = 27×(4/3)π×r³. 27 = 27r³. r³ = 1. r = 1 cm. (Alternatively: (4/3)π×27 = 27×(4/3)πr³ → 27 = 27r³ → r = 1.)",
+      "difficulty": "hard",
+      "tags": ["sphere", "volume", "small-spheres"]
+    },
+    {
+      "id": "g8m-w26-thu-011",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "A spherical balloon is inflated from r = 7 cm to r = 14 cm. By what factor does the volume increase?",
+      "options": ["2 times", "4 times", "6 times", "8 times"],
+      "correctIndex": 3,
+      "explanation": "V ∝ r³. V₁ = (4/3)π×7³ = (4/3)π×343. V₂ = (4/3)π×14³ = (4/3)π×2744. Ratio = 2744/343 = 8. Volume increases 8 times. (Doubling radius → 2³ = 8 times volume. This is why a small increase in radius causes a big change in volume.)",
+      "difficulty": "hard",
+      "tags": ["sphere", "volume", "scaling"]
+    },
+    {
+      "id": "g8m-w26-thu-012",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "Find radius: Volume of sphere = 38,808 cm³ (π = 22/7)",
+      "options": ["14 cm", "21 cm", "28 cm", "35 cm"],
+      "correctIndex": 1,
+      "explanation": "(4/3)×(22/7)×r³ = 38,808 → r³ = 38,808×3×7/(4×22) = 38,808×21/88 = 814,968/88 = 9,261 → r = ∛9,261 = 21 cm. (21³ = 9,261 ✓)",
+      "difficulty": "hard",
+      "tags": ["sphere", "volume", "find-radius"]
+    },
+    {
+      "id": "g8m-w26-thu-013",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "A solid cone (r = 7 cm, h = 12 cm) and a solid sphere of r = 7 cm. Which has greater volume? (π = 22/7)",
+      "options": ["Cone (616 cm³)", "Sphere (1,437.33 cm³)", "They are equal", "Cone (1,848 cm³)"],
+      "correctIndex": 1,
+      "explanation": "Cone: V = (1/3)πr²h = (1/3)×(22/7)×49×12 = 616 cm³. Sphere: V = (4/3)πr³ = (4/3)×(22/7)×343 = (4/3)×22×49 = (4×1,078)/3 = 4,312/3 ≈ 1,437 cm³. Sphere (1,437) > Cone (616).",
+      "difficulty": "hard",
+      "tags": ["sphere", "cone", "compare", "volume"]
+    },
+    {
+      "id": "g8m-w26-thu-014",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "Cost of painting 1 spherical ball (r = 3.5 cm) at ₹2/cm² (π = 22/7) =",
+      "options": ["₹308", "₹616", "₹924", "₹1,540"],
+      "correctIndex": 0,
+      "explanation": "SA = 4πr² = 4×(22/7)×3.5² = 4×(22/7)×12.25 = (4×22×12.25)/7 = 1,078/7 = 154 cm². Cost = 154×2 = ₹308.",
+      "difficulty": "hard",
+      "tags": ["sphere", "surface-area", "cost"]
+    },
+    {
+      "id": "g8m-w26-thu-015",
+      "goalId": "grade-8-math-w26-thu",
+      "question": "Formula summary — for the same radius r:\nSurface area of sphere : Total SA of hemisphere : Curved SA of hemisphere =",
+      "options": ["4πr² : 3πr² : 2πr²", "4πr² : 2πr² : πr²", "2πr² : 3πr² : 4πr²", "All equal"],
+      "correctIndex": 0,
+      "explanation": "Sphere SA = 4πr². Hemisphere TSA = curved + base = 2πr² + πr² = 3πr². Hemisphere CSA = 2πr². Ratio: 4πr² : 3πr² : 2πr² = 4 : 3 : 2. Useful to remember: hemisphere TSA is ¾ of sphere SA; hemisphere CSA is ½ of sphere SA.",
+      "difficulty": "hard",
+      "tags": ["sphere", "hemisphere", "formula-comparison"]
+    }
+  ]
+}

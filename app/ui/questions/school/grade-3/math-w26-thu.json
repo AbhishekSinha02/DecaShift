@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-3-math-w26-thu",
+  "title": "Grade 3 Math — Thu, Jun 26",
+  "description": "Fractions — Day 4 of 5: Simple addition of like fractions",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3m-w26-thu-001",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "1/4 + 1/4 = ?",
+      "options": ["1/8", "2/4", "2/8", "1/2"],
+      "correctIndex": 1,
+      "explanation": "Adding like fractions: keep the denominator, add numerators. 1/4 + 1/4 = 2/4.",
+      "difficulty": "easy",
+      "tags": ["fractions", "addition", "like-fractions"]
+    },
+    {
+      "id": "g3m-w26-thu-002",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "2/7 + 3/7 = ?",
+      "options": ["5/14", "5/7", "6/7", "1/7"],
+      "correctIndex": 1,
+      "explanation": "Keep denominator 7, add numerators: 2 + 3 = 5. Answer: 5/7.",
+      "difficulty": "easy",
+      "tags": ["fractions", "addition"]
+    },
+    {
+      "id": "g3m-w26-thu-003",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "1/6 + 2/6 = ?",
+      "options": ["3/12", "3/6", "1/3", "2/6"],
+      "correctIndex": 1,
+      "explanation": "1/6 + 2/6 = 3/6. Keep denominator 6; add numerators 1 + 2 = 3.",
+      "difficulty": "easy",
+      "tags": ["fractions", "addition"]
+    },
+    {
+      "id": "g3m-w26-thu-004",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "Anita ate 2/8 of a watermelon and Ravi ate 3/8. How much did they eat together?",
+      "options": ["5/16", "5/8", "6/8", "1/8"],
+      "correctIndex": 1,
+      "explanation": "2/8 + 3/8 = 5/8. Keep denominator 8, add numerators 2 + 3 = 5.",
+      "difficulty": "easy",
+      "tags": ["fractions", "addition", "word-problem"]
+    },
+    {
+      "id": "g3m-w26-thu-005",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "3/9 + 4/9 = ?",
+      "options": ["7/18", "7/9", "8/9", "1/9"],
+      "correctIndex": 1,
+      "explanation": "3/9 + 4/9 = 7/9. Add numerators: 3 + 4 = 7; denominator stays 9.",
+      "difficulty": "easy",
+      "tags": ["fractions", "addition"]
+    },
+    {
+      "id": "g3m-w26-thu-006",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "What is the rule for adding like fractions?",
+      "options": ["Add both numerators and both denominators", "Keep the denominator; add only the numerators", "Multiply the numerators; keep the denominator", "Add denominators; keep numerators"],
+      "correctIndex": 1,
+      "explanation": "When adding like fractions: keep the common denominator unchanged and add only the numerators. Example: 2/5 + 3/5 = (2+3)/5 = 5/5.",
+      "difficulty": "medium",
+      "tags": ["fractions", "addition", "rule"]
+    },
+    {
+      "id": "g3m-w26-thu-007",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "1/3 + 1/3 = ? What does this equal as a simpler fraction?",
+      "options": ["1/6", "2/6", "2/3", "3/3"],
+      "correctIndex": 2,
+      "explanation": "1/3 + 1/3 = 2/3. Two one-thirds make two-thirds. No simplification needed here.",
+      "difficulty": "medium",
+      "tags": ["fractions", "addition", "simplest-form"]
+    },
+    {
+      "id": "g3m-w26-thu-008",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "Ritu completed 3/10 of her project on Monday and 4/10 on Tuesday. What fraction has she completed so far?",
+      "options": ["7/20", "7/10", "12/10", "1/10"],
+      "correctIndex": 1,
+      "explanation": "3/10 + 4/10 = 7/10. She has completed seven-tenths of her project.",
+      "difficulty": "medium",
+      "tags": ["fractions", "addition", "word-problem"]
+    },
+    {
+      "id": "g3m-w26-thu-009",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "4/12 + 5/12 = ?",
+      "options": ["9/24", "9/12", "10/12", "3/12"],
+      "correctIndex": 1,
+      "explanation": "4/12 + 5/12 = 9/12. Add numerators: 4 + 5 = 9; keep denominator 12.",
+      "difficulty": "medium",
+      "tags": ["fractions", "addition"]
+    },
+    {
+      "id": "g3m-w26-thu-010",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "What happens when the sum of like fractions equals the denominator (like 4/4)?",
+      "options": ["It becomes 0", "It equals 1 whole", "It equals 2", "It is an improper fraction we ignore"],
+      "correctIndex": 1,
+      "explanation": "When numerator = denominator, the fraction equals 1 (one whole). Example: 3/3 = 1, 4/4 = 1, 7/7 = 1.",
+      "difficulty": "medium",
+      "tags": ["fractions", "addition", "one-whole"]
+    },
+    {
+      "id": "g3m-w26-thu-011",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "A bucket was 2/9 full. Sonu poured more water to make it 6/9 full. How much water did he add?",
+      "options": ["8/9", "4/9", "3/9", "2/9"],
+      "correctIndex": 1,
+      "explanation": "He added: 6/9 − 2/9 = 4/9. (This is a subtraction problem using the addition context.)",
+      "difficulty": "hard",
+      "tags": ["fractions", "addition", "subtraction", "word-problem"]
+    },
+    {
+      "id": "g3m-w26-thu-012",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "Aman has done 2/8 of his homework. He needs to complete it fully. How much is left?",
+      "options": ["2/8", "4/8", "6/8", "8/8"],
+      "correctIndex": 2,
+      "explanation": "Total = 8/8 = 1 whole. Done = 2/8. Remaining = 8/8 − 2/8 = 6/8.",
+      "difficulty": "hard",
+      "tags": ["fractions", "subtraction", "word-problem"]
+    },
+    {
+      "id": "g3m-w26-thu-013",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "Is 2/5 + 3/5 + 2/5 possible? What is the answer?",
+      "options": ["Not possible — only two like fractions can be added", "7/5 — more than 1 whole, but possible", "7/15", "2/5"],
+      "correctIndex": 1,
+      "explanation": "You can add three or more like fractions. 2/5 + 3/5 + 2/5 = 7/5. This is more than 1 whole (improper fraction), and that's perfectly valid.",
+      "difficulty": "hard",
+      "tags": ["fractions", "addition", "three-fractions", "improper"]
+    },
+    {
+      "id": "g3m-w26-thu-014",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "Class quiz: 3 students answered 1/6, 2/6 and 2/6 of the questions correctly. What fraction of questions did all three get right?",
+      "options": ["3/6", "4/6", "5/6", "6/6"],
+      "correctIndex": 2,
+      "explanation": "1/6 + 2/6 + 2/6 = 5/6. Together they answered five-sixths of the questions correctly.",
+      "difficulty": "hard",
+      "tags": ["fractions", "addition", "multi-addends"]
+    },
+    {
+      "id": "g3m-w26-thu-015",
+      "goalId": "grade-3-math-w26-thu",
+      "question": "Why can't you add 2/3 and 3/5 using the same rule as like fractions?",
+      "options": ["Because fractions can never be added", "Because denominators are different — you need to find a common denominator first", "Because 2 > 3 in the numerator", "Because 3 and 5 are both odd numbers"],
+      "correctIndex": 1,
+      "explanation": "2/3 and 3/5 have different denominators (unlike fractions). To add them, you must first convert to a common denominator. The like-fraction rule only works when denominators are already the same.",
+      "difficulty": "hard",
+      "tags": ["fractions", "unlike-fractions", "reasoning"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-french-w26-fri",
+  "title": "Grade 7 French — Fri, Jun 27",
+  "description": "Pronoms relatifs — Day 5 of 5: Full mixed review — qui, que, où, dont",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7f-w26-fri-001",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Which pronom relatif introduces a relative clause where the noun is the SUBJECT of the clause?",
+      "options": ["que", "où", "dont", "qui"],
+      "correctIndex": 3,
+      "explanation": "'Qui' = the relative pronoun for the SUBJECT of the relative clause. Test: replace the noun with il/elle/ils/elles — if it becomes the subject of the verb, use 'qui.' Example: 'L'homme qui parle' (the man who is speaking — the man IS speaking).",
+      "difficulty": "easy",
+      "tags": ["qui", "definition", "subject"]
+    },
+    {
+      "id": "g7f-w26-fri-002",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Fill in: 'La chanson ___ tu écoutes est belle.'",
+      "options": ["qui", "où", "dont", "que"],
+      "correctIndex": 3,
+      "explanation": "'La chanson que tu écoutes est belle.' ✓ 'Tu écoutes [la chanson]' — song = direct object. 'Tu' = subject already present in clause → 'que.' Also note: 'que' → 'qu'' before vowel (but here 'tu' starts with consonant — wait — 'que tu' stays as 'que').",
+      "difficulty": "easy",
+      "tags": ["que", "fill-in", "song"]
+    },
+    {
+      "id": "g7f-w26-fri-003",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Fill in: 'L'école ___ j'ai étudié a été rénovée.'",
+      "options": ["qui", "que", "dont", "où"],
+      "correctIndex": 3,
+      "explanation": "'L'école où j'ai étudié a été rénovée.' ✓ School = place. 'Étudier à l'école' → place → 'où.' 'A été rénovée' = has been renovated (passive). 'Où' for places AND time periods.",
+      "difficulty": "easy",
+      "tags": ["ou-relatif", "fill-in", "school"]
+    },
+    {
+      "id": "g7f-w26-fri-004",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Fill in: 'Le professeur ___ nous avons peur est strict.'",
+      "options": ["qui", "que", "où", "dont"],
+      "correctIndex": 3,
+      "explanation": "'Le professeur dont nous avons peur est strict.' ✓ 'Avoir peur DE quelqu'un' — 'peur de ce professeur' → DE relationship → 'dont.' Structure: dont + [rest of clause]. Key: 'avoir peur de' → 'dont.'",
+      "difficulty": "medium",
+      "tags": ["dont", "avoir-peur-de", "fill-in"]
+    },
+    {
+      "id": "g7f-w26-fri-005",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Choose the CORRECT sentence:",
+      "options": ["C'est le film qui j'ai vu hier.", "C'est le film que j'ai vu hier.", "C'est le film où j'ai vu hier.", "C'est le film dont j'ai vu hier."],
+      "correctIndex": 1,
+      "explanation": "'C'est le film que j'ai vu hier.' ✓ 'J'ai vu [le film]' — film = direct object; 'j'' = subject present → 'que' (→ 'qu'' before vowel: 'que j' → but 'que j'ai' is standard). A is wrong (qui cannot start a clause that already has a subject 'j'). C/D wrong mode.",
+      "difficulty": "medium",
+      "tags": ["que", "film", "correct-sentence"]
+    },
+    {
+      "id": "g7f-w26-fri-006",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Combine: 'Je connais une fille. Cette fille parle trois langues.'",
+      "options": ["Je connais une fille que parle trois langues.", "Je connais une fille qui parle trois langues.", "Je connais une fille où parle trois langues.", "Je connais une fille dont parle trois langues."],
+      "correctIndex": 1,
+      "explanation": "'Je connais une fille qui parle trois langues.' ✓ 'La fille parle trois langues' — girl = subject of 'parle' → 'qui.' 'Que' would be wrong here because 'que' cannot be the subject of the verb in the relative clause.",
+      "difficulty": "medium",
+      "tags": ["qui", "combine", "person"]
+    },
+    {
+      "id": "g7f-w26-fri-007",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Spot the error: 'C'est la semaine que nous partons en vacances.'",
+      "options": ["No error", "'que' should be 'où' — 'semaine' is a time expression. 'Partir cette semaine' = departure during that WEEK (time). Use 'où': 'la semaine où nous partons en vacances.'", "'partons' is wrong", "'vacances' needs an article"],
+      "correctIndex": 1,
+      "explanation": "'Semaine' = time period. 'Partir CETTE semaine' → time → 'où.' Rule: 'où' for both PLACE and TIME. Error: 'que' used where 'où' is needed. Correct: 'C'est la semaine où nous partons en vacances.'",
+      "difficulty": "medium",
+      "tags": ["ou-relatif", "time", "error-correction"]
+    },
+    {
+      "id": "g7f-w26-fri-008",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Which sentence uses 'dont' CORRECTLY?",
+      "options": ["Le livre dont j'ai lu est ennuyeux.", "C'est l'ami dont je t'ai parlé.", "La ville dont j'habite est grande.", "Le film dont j'ai regardé était bien."],
+      "correctIndex": 1,
+      "explanation": "'C'est l'ami dont je t'ai parlé.' ✓ 'Parler DE quelqu'un' → 'dont.' A: 'lire un livre' = direct object → 'que' (J'ai lu le livre). C: 'habiter dans une ville' = place → 'où.' D: 'regarder un film' = direct object → 'que.' Only B has a 'de'-verb: parler de.",
+      "difficulty": "hard",
+      "tags": ["dont", "correct-usage", "identify"]
+    },
+    {
+      "id": "g7f-w26-fri-009",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Four sentences — identify the correct one:\n(A) 'C'est l'examen dont je me prépare.'\n(B) 'C'est l'examen que je prépare.'\n(C) 'C'est l'examen où je prépare.'\n(D) 'C'est l'examen qui je prépare.'",
+      "options": ["A", "B — 'préparer un examen' = direct object → 'que'", "C", "D"],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'Je prépare [l'examen]' — direct object. Subject 'je' present → 'que.' A: 'se préparer à' not 'de' → 'dont' wrong. C: examen not a place/time → 'où' wrong. D: 'qui' cannot follow a subject 'je' as relative pronoun. For 'se préparer À' → you'd use 'auquel' (more advanced).",
+      "difficulty": "hard",
+      "tags": ["que", "identify-correct", "exam"]
+    },
+    {
+      "id": "g7f-w26-fri-010",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Translate: 'The day when I passed my exam, I was very happy.'",
+      "options": ["Le jour qui j'ai réussi mon examen, j'étais très content.", "Le jour que j'ai réussi mon examen, j'étais très content.", "Le jour dont j'ai réussi mon examen, j'étais très content.", "Le jour où j'ai réussi mon examen, j'étais très content."],
+      "correctIndex": 3,
+      "explanation": "'Le jour où j'ai réussi mon examen, j'étais très content.' ✓ 'Jour' = time → 'où.' 'Réussir un examen' = to pass an exam. 'J'étais' = I was (imparfait). 'Où' for both place AND time: 'le moment où,' 'l'année où,' 'le jour où.'",
+      "difficulty": "hard",
+      "tags": ["ou-relatif", "time", "translate"]
+    },
+    {
+      "id": "g7f-w26-fri-011",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Fill in (all four pronouns in a paragraph):\n'J'ai un ami ___ (1) s'appelle Ravi. C'est lui ___ (2) j'admire le plus. Il habite dans une ville ___ (3) il fait très chaud. Il a un chien ___ (4) j'ai peur.'",
+      "options": ["1=que, 2=qui, 3=dont, 4=où", "1=qui, 2=que, 3=où, 4=dont", "1=où, 2=dont, 3=qui, 4=que", "1=dont, 2=où, 3=que, 4=qui"],
+      "correctIndex": 1,
+      "explanation": "1: 'L'ami s'appelle' — subject of s'appelle → 'qui.' 2: 'J'admire le plus [lui]' — direct object, 'j'' present → 'que.' 3: 'Dans cette ville, il fait chaud' — place → 'où.' 4: 'Avoir peur DE ce chien' — de relationship → 'dont.' All four pronouns, each in its correct role.",
+      "difficulty": "hard",
+      "tags": ["all-four-pronouns", "fill-in", "paragraph"]
+    },
+    {
+      "id": "g7f-w26-fri-012",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "When does 'que' become 'qu'' ?",
+      "options": ["Before a consonant", "Before a vowel or silent 'h' — to avoid two vowel sounds colliding (elision)", "Always", "Never — 'que' never changes"],
+      "correctIndex": 1,
+      "explanation": "Elision: 'que' → 'qu'' before vowel/silent h. Examples: 'Le livre qu'il lit' (qu' + il). 'Le film qu'elle regarde' (qu' + elle). 'Le héros qu'on admire' (qu' + on). But: 'Le livre que tu lis' — 'tu' starts with consonant → no elision → 'que.' 'Qui' NEVER elides (qui ≠ qu').",
+      "difficulty": "hard",
+      "tags": ["que", "elision", "qu-apostrophe"]
+    },
+    {
+      "id": "g7f-w26-fri-013",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Identify the error: 'C'est le médecin dont nous avons consulté hier.'",
+      "options": ["No error", "'dont' should be 'que' — 'consulter un médecin' = direct object (no 'de'). Correct: 'le médecin que nous avons consulté.'", "'avons consulté' is wrong", "'hier' should be 'aujourd'hui'"],
+      "correctIndex": 1,
+      "explanation": "Error: 'Consulter quelqu'un' = direct object (no 'de'). Therefore 'que' is needed, not 'dont.' Correct: 'C'est le médecin que nous avons consulté hier.' Contrast: 'le médecin dont on a entendu parler' — here 'parler de' → 'dont' ✓.",
+      "difficulty": "hard",
+      "tags": ["dont-vs-que", "error-correction", "consulter"]
+    },
+    {
+      "id": "g7f-w26-fri-014",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Summary rule: 'dont' is used when the relative clause contains a verb that normally takes:",
+      "options": ["A direct object", "A subject", "'de' + noun (parler de, avoir besoin de, avoir peur de, se souvenir de, rêver de…)", "A place"],
+      "correctIndex": 2,
+      "explanation": "'Dont' replaces 'de + noun.' Test: Can you say '[verb] DE [antecedent]'? If YES → dont. Examples: parler de → dont. avoir peur de → dont. se souvenir de → dont. 'Voir, regarder, lire, aimer' = direct objects (no de) → que. 'Habiter dans, aller à' = place/time → où.",
+      "difficulty": "hard",
+      "tags": ["dont", "rule", "de-verbs"]
+    },
+    {
+      "id": "g7f-w26-fri-015",
+      "goalId": "grade-7-french-w26-fri",
+      "question": "Complete the four-pronoun chart:\nQUI = subject | QUE = ___ | OÙ = ___ | DONT = ___",
+      "options": ["QUE=possession, OÙ=time only, DONT=direct object", "QUE=direct object, OÙ=place/time, DONT=replaces 'de+noun' (possession, de-verbs)", "QUE=place, OÙ=possession, DONT=subject", "QUE=time, OÙ=direct object, DONT=subject"],
+      "correctIndex": 1,
+      "explanation": "Full chart: QUI = subject of relative clause (il/elle test). QUE = direct object of relative clause (subject already present; elides to qu' before vowel). OÙ = place OR time (in which, where, when). DONT = replaces 'de + noun' — possession (whose = dont + le/la/les), de-verbs (parler de, avoir besoin de, avoir peur de, se souvenir de, rêver de).",
+      "difficulty": "hard",
+      "tags": ["all-four-pronouns", "summary-chart"]
+    }
+  ]
+}

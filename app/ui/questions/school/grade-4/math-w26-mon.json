@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-4-math-w26-mon",
+  "title": "Grade 4 Math — Mon, Jun 23",
+  "description": "Data Handling — Day 1 of 5: Tally marks and introduction to pictographs",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4m-w26-mon-001",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "Tally marks are written in groups of 5. The 5th tally mark is drawn as:",
+      "options": ["A vertical line like the others", "A diagonal line crossing the previous 4 marks", "A horizontal line", "A circle"],
+      "correctIndex": 1,
+      "explanation": "Tally marks go in bundles of 5: four vertical lines, then the 5th is a diagonal line crossing through them (||||). This makes counting in 5s quick and easy.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "tally-marks", "convention"]
+    },
+    {
+      "id": "g4m-w26-mon-002",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "A student counted votes and has: |||| |||| ||| How many votes is this?",
+      "options": ["11", "12", "13", "14"],
+      "correctIndex": 2,
+      "explanation": "|||| (5) + |||| (5) + ||| (3) = 5 + 5 + 3 = 13 votes.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "tally-marks", "counting"]
+    },
+    {
+      "id": "g4m-w26-mon-003",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "Write 18 as tally marks. Which groups would you use?",
+      "options": ["|||| |||| |||| |||", "|||| |||| |||| ||||", "|||| |||| ||| ||", "|||| |||| |||| | |"],
+      "correctIndex": 0,
+      "explanation": "18 = 5 + 5 + 5 + 3 → three complete groups of 5 (||||) and one group of 3 (|||). |||| |||| |||| |||",
+      "difficulty": "easy",
+      "tags": ["data-handling", "tally-marks", "representation"]
+    },
+    {
+      "id": "g4m-w26-mon-004",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "A pictograph uses pictures or symbols to represent data. Each symbol stands for:",
+      "options": ["Exactly 1 item", "A fixed number of items (shown by the key)", "Any number the reader chooses", "100 items always"],
+      "correctIndex": 1,
+      "explanation": "In a pictograph, each symbol represents a fixed number given by the KEY (or legend). For example, one smiley face = 5 students.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "key"]
+    },
+    {
+      "id": "g4m-w26-mon-005",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "A class survey found 20 students like cricket, 12 like football, 8 like badminton. How many students were surveyed in total?",
+      "options": ["32", "38", "40", "42"],
+      "correctIndex": 2,
+      "explanation": "Total = 20 + 12 + 8 = 40 students.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "totals", "survey"]
+    },
+    {
+      "id": "g4m-w26-mon-006",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "In a pictograph, key says: ☺ = 4 students. A row shows 3☺ and ½☺. How many students does this row represent?",
+      "options": ["12", "14", "3.5", "16"],
+      "correctIndex": 1,
+      "explanation": "3 full symbols = 3 × 4 = 12. Half symbol = 4 ÷ 2 = 2. Total = 12 + 2 = 14 students.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "half-symbol"]
+    },
+    {
+      "id": "g4m-w26-mon-007",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "A tally table shows: Apples: |||| |||| , Oranges: |||| ||| , Bananas: |||| |||| ||. What fruit is most popular?",
+      "options": ["Apples", "Oranges", "Bananas", "They are equal"],
+      "correctIndex": 2,
+      "explanation": "Apples = 5 + 5 = 10. Oranges = 5 + 3 = 8. Bananas = 5 + 5 + 2 = 12. Bananas (12) are most popular.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "tally-marks", "comparison"]
+    },
+    {
+      "id": "g4m-w26-mon-008",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "Why do we group tally marks in fives rather than tens or twos?",
+      "options": ["It looks prettier", "Groups of 5 allow rapid visual counting — our eyes quickly recognise bundles of 5", "Because we have 5 fingers", "No reason — it is just a tradition"],
+      "correctIndex": 1,
+      "explanation": "Tally marks in groups of 5 let you count by 5s very quickly. It combines visual chunking (the crossed bundle is instantly recognizable) with easy arithmetic. The finger-counting parallel is related but the mathematical reason is efficient grouping.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "tally-marks", "reasoning"]
+    },
+    {
+      "id": "g4m-w26-mon-009",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "A pictograph shows favourite colours. Key: ★ = 5 children. Red: ★★★, Blue: ★★★★, Green: ★★. How many more children prefer Blue than Green?",
+      "options": ["5", "10", "15", "20"],
+      "correctIndex": 1,
+      "explanation": "Blue = 4 × 5 = 20. Green = 2 × 5 = 10. Difference = 20 − 10 = 10 more children prefer Blue.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "difference"]
+    },
+    {
+      "id": "g4m-w26-mon-010",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "Data was collected about pets owned by 30 students. Tally shows Dogs: 14, Cats: 9, Fish: 7. Which is correct about displaying this?",
+      "options": ["We can only use a table", "We can use a tally table, pictograph or bar graph — different displays suit different purposes", "Only pictographs are correct for this data", "Bar graphs are not suitable"],
+      "correctIndex": 1,
+      "explanation": "Data can be displayed in multiple ways: tally table, pictograph, bar graph. Each has advantages — the best choice depends on what you want to emphasise or compare.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "multiple-displays", "reasoning"]
+    },
+    {
+      "id": "g4m-w26-mon-011",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "A survey asked 50 students about their favourite subject. If Math: 20, Science: 15, English: 10, Hindi: 5, what fraction of students chose Math?",
+      "options": ["1/5", "2/5", "1/4", "1/2"],
+      "correctIndex": 1,
+      "explanation": "Fraction who chose Math = 20/50 = 2/5.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "fractions", "survey"]
+    },
+    {
+      "id": "g4m-w26-mon-012",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "In a pictograph, key says 1 apple picture = 10 apples. Monday shows 3½ pictures. How many apples were sold on Monday?",
+      "options": ["30", "35", "3.5", "40"],
+      "correctIndex": 1,
+      "explanation": "3 full apples = 3 × 10 = 30. Half apple = 10 ÷ 2 = 5. Total = 30 + 5 = 35 apples.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "half-symbol"]
+    },
+    {
+      "id": "g4m-w26-mon-013",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "A class of 40 students was asked about travel to school. Bus: 16, Walk: 12, Car: 8, Cycle: 4. What is the ratio of Bus : Walk?",
+      "options": ["2:3", "4:3", "3:2", "1:2"],
+      "correctIndex": 1,
+      "explanation": "Bus : Walk = 16 : 12 = 4 : 3 (dividing both by 4).",
+      "difficulty": "hard",
+      "tags": ["data-handling", "ratio", "survey"]
+    },
+    {
+      "id": "g4m-w26-mon-014",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "If 24 students are shown by tally marks, what is the minimum number of tally bundles of 5 needed, and how many extra marks remain?",
+      "options": ["4 bundles, 4 extra", "5 bundles, 0 extra", "4 bundles, 4 extra — so: 4 full groups of 5 = 20, plus 4 individual marks", "3 bundles, 9 extra"],
+      "correctIndex": 2,
+      "explanation": "24 ÷ 5 = 4 remainder 4. So: 4 full groups of 5 (|||| × 4 = 20) + 4 individual marks (||||) = 24 total.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "tally-marks", "division"]
+    },
+    {
+      "id": "g4m-w26-mon-015",
+      "goalId": "grade-4-math-w26-mon",
+      "question": "Data collection FIRST STEP: A teacher wants to find the most popular sport. What should she do before making a tally chart?",
+      "options": ["Draw a bar graph immediately", "Decide on the categories (list of sports) to be tracked, then collect the data by asking each student", "Make up the data", "Use a pictograph before collecting data"],
+      "correctIndex": 1,
+      "explanation": "Data handling starts with (1) deciding categories, (2) collecting data (survey/observation), (3) recording (tally), (4) representing (table/pictograph/bar graph), (5) interpreting. You cannot tally before defining categories.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "data-collection", "process"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-french-w26-mon",
+  "title": "Grade 8 French — Mon, Jun 23",
+  "description": "Le subjonctif présent — Day 1 of 5: Introduction — what it is and when to use it",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8f-w26-mon-001",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "The subjonctif (subjunctive) is a French verb mood used to express:",
+      "options": ["Facts and certainties", "Doubt, emotion, obligation, necessity, wish — subjective or uncertain situations (triggered by certain verbs/expressions + 'que')", "Simple past events", "Questions"],
+      "correctIndex": 1,
+      "explanation": "French has moods (modes): indicatif (facts), subjonctif (doubt/emotion/wish), conditionnel (hypotheticals), impératif (commands). Subjonctif = the 'feeling/uncertainty' mood. Key trigger: a subjunctive main clause + 'que' + subjunctive in the dependent clause.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "definition", "mood"]
+    },
+    {
+      "id": "g8f-w26-mon-002",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "To form the present subjunctive (regular verbs), take the ils/elles form of the indicatif présent, drop -ent, then add endings. Endings are: je=___, tu=___, il/elle=___, nous=___, vous=___, ils/elles=___",
+      "options": ["-e, -es, -e, -ons, -ez, -ent (same as regular -er present)", "-e, -es, -e, -ions, -iez, -ent (the 'nous/vous' take -ions/-iez)", "-is, -is, -it, -issons, -issez, -issent", "-ais, -ais, -ait, -ions, -iez, -aient"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif présent endings: je=-e, tu=-es, il/elle=-e, nous=-ions, vous=-iez, ils/elles=-ent. Key: je/tu/il share same endings as indicatif. Crucial difference: nous/vous take -ions/-iez (NOT -ons/-ez). Stem: ils/elles form of présent minus -ent.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "formation", "endings"]
+    },
+    {
+      "id": "g8f-w26-mon-003",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "Conjugate 'parler' in subjonctif présent for 'que tu ___':",
+      "options": ["parles (indicatif same)", "parlons", "parliez", "parlent"],
+      "correctIndex": 0,
+      "explanation": "parler → ils parlent → stem: parl- → que tu parles. The je/tu/il forms of subjonctif look identical to the indicatif présent for -er verbs — that's why context (the trigger word + que) is crucial to identify the subjunctive.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "parler", "conjugation"]
+    },
+    {
+      "id": "g8f-w26-mon-004",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "'Il faut que' triggers the subjunctive. 'Il faut que nous ___' (partir — ils partent → stem: part-)",
+      "options": ["partons", "partez", "portions", "partions"],
+      "correctIndex": 3,
+      "explanation": "'Il faut que nous' + subjunctive: nous form = stem + -ions. partir: ils partent → stem: part- → nous partions. Note: 'partions' looks like imparfait — context ('que') tells you it's subjonctif. 'Il faut que' = it is necessary that.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "il-faut-que", "nous-form"]
+    },
+    {
+      "id": "g8f-w26-mon-005",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "Which expression is a common trigger for the subjunctive?",
+      "options": ["parce que (because)", "quand (when, + indicatif futur)", "il faut que (it is necessary that)", "si (if, + indicatif)"],
+      "correctIndex": 2,
+      "explanation": "'Il faut que' ALWAYS triggers subjunctive: 'Il faut que tu sois là.' Key triggers: vouloir que, souhaiter que, douter que, il est important que, bien que, pour que, avant que. 'Parce que' and 'si' do NOT trigger subjunctive — they use indicatif.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "triggers", "il-faut-que"]
+    },
+    {
+      "id": "g8f-w26-mon-006",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "Why do we use subjunctive after 'vouloir que' (to want that)?",
+      "options": ["Because 'vouloir' is irregular", "Because wanting/wishing expresses a desire, not a fact — subjunctive expresses what is wished/desired rather than what is certain to happen", "Because 'que' always triggers subjunctive", "Because it's about the future"],
+      "correctIndex": 1,
+      "explanation": "Subjunctive = mood of subjectivity. 'Je veux que tu viennes' (I want you to come) — whether you come or not is uncertain; it's my wish. Compare: 'Je sais que tu viens' (I know you are coming — fact) → indicatif. The wish/emotion/uncertainty → subjonctif.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "vouloir-que", "why"]
+    },
+    {
+      "id": "g8f-w26-mon-007",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "Conjugate 'finir' in subjonctif présent for 'que vous ___':",
+      "options": ["finissez", "finissons", "finissiez", "finissent"],
+      "correctIndex": 2,
+      "explanation": "finir → ils finissent → stem: finiss- → que vous finissiez (vous = stem + -iez). Compare indicatif présent: 'vous finissez.' Subjonctif vous = -iez not -ez. The -iez ending is the giveaway for subjonctif vous-form.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "finir", "vous-form"]
+    },
+    {
+      "id": "g8f-w26-mon-008",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "Which sentence correctly uses the subjunctive?",
+      "options": ["Je suis sûr qu'il vient demain.", "Il est important qu'il vienne demain.", "Je sais qu'il viendra.", "Il dit qu'il vient."],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'Il est important que' → subjunctive → 'vienne' (venir: ils viennent → stem vien- → que il vienne). A: 'être sûr que' = certainty → indicatif ('vient'). C: 'savoir que' = knowing → indicatif. D: 'dire que' = stating → indicatif. Certainty = indicatif; importance/doubt/emotion = subjonctif.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "identify-correct", "venir"]
+    },
+    {
+      "id": "g8f-w26-mon-009",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "Être has an IRREGULAR subjunctive: je ___, tu ___, il ___, nous ___, vous ___, ils ___",
+      "options": ["suis, es, est, sommes, êtes, sont (indicatif forms)", "sois, sois, soit, soyons, soyez, soient", "aie, aies, ait, ayons, ayez, aient", "serai, seras, sera, serons, serez, seront"],
+      "correctIndex": 1,
+      "explanation": "Être (subjonctif): que je sois, tu sois, il soit, nous soyons, vous soyez, ils soient. Completely irregular — cannot derive from 'ils sont.' Avoir (subjonctif): aie, aies, ait, ayons, ayez, aient (also irregular). These two MUST be memorised.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "être", "irregular"]
+    },
+    {
+      "id": "g8f-w26-mon-010",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "Complete: 'Il faut que tu ___ (être) patient.'",
+      "options": ["es", "étais", "sois", "sera"],
+      "correctIndex": 2,
+      "explanation": "'Il faut que tu sois patient.' ✓ 'Il faut que' → subjunctive → être (subjonctif) → tu sois. 'Es' = indicatif présent. 'Étais' = imparfait. 'Sera' = futur simple. Subjunctive of être: sois (je/tu), soit (il), soyons (nous), soyez (vous), soient (ils).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "être", "il-faut-que"]
+    },
+    {
+      "id": "g8f-w26-mon-011",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "The subjunctive is used after 'bien que' (although). Which is correct?",
+      "options": ["Bien qu'il est fatigué, il travaille.", "Bien qu'il soit fatigué, il travaille.", "Bien qu'il sera fatigué, il travaille.", "Bien qu'il était fatigué, il travaille."],
+      "correctIndex": 1,
+      "explanation": "'Bien que' = although → ALWAYS triggers subjunctive. ✓ 'Bien qu'il soit fatigué, il travaille.' (soit = subjonctif of être). A uses indicatif (est) — wrong. 'Bien que' expresses a concession — something that is true despite another fact being true. The contradiction element creates doubt → subjonctif.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "bien-que", "être"]
+    },
+    {
+      "id": "g8f-w26-mon-012",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "Which verb does NOT trigger the subjunctive?",
+      "options": ["vouloir que (to want that)", "souhaiter que (to wish that)", "savoir que (to know that)", "douter que (to doubt that)"],
+      "correctIndex": 2,
+      "explanation": "'Savoir que' = knowing = CERTAINTY → indicatif. 'Je sais qu'il vient' ✓. Subjunctive triggers = doubt/wish/emotion/obligation: vouloir que, souhaiter que, douter que, craindre que, il faut que, bien que, pour que, avant que. When you KNOW something, use indicatif.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "trigger-vs-non-trigger", "savoir"]
+    },
+    {
+      "id": "g8f-w26-mon-013",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "Avoir also has an irregular subjunctive. 'Il faut qu'elle ___ (avoir) du courage.'",
+      "options": ["a", "avait", "aura", "ait"],
+      "correctIndex": 3,
+      "explanation": "'Il faut qu'elle ait du courage.' ✓ avoir (subjonctif): que j'aie, tu aies, il/elle ait, nous ayons, vous ayez, ils aient. 'A' = indicatif. 'Avait' = imparfait. 'Aura' = futur. 'Ait' = subjonctif (correct). Avoir subjonctif must be memorised — completely irregular.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "avoir", "irregular"]
+    },
+    {
+      "id": "g8f-w26-mon-014",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "When two clauses share the SAME subject, we use infinitif instead of subjunctive. Which is correct?",
+      "options": ["Je veux que je vienne. (wrong — same subject)", "Je veux venir. (correct — same subject → infinitif)", "Je veux que je viens.", "Je veux que venir."],
+      "correctIndex": 1,
+      "explanation": "Same subject rule: 'Je veux venir' ✓ (je=je, same subject → infinitif). Different subjects: 'Je veux qu'il vienne' ✓ (je≠il, different → subjonctif). 'Je veux que je vienne' is grammatically possible but unnatural — always use infinitif when subjects match.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "same-subject-infinitif", "rule"]
+    },
+    {
+      "id": "g8f-w26-mon-015",
+      "goalId": "grade-8-french-w26-mon",
+      "question": "Summary: The subjunctive is formed from ___ of the present indicatif, uses endings ___, and is triggered by expressions of ___.",
+      "options": ["je form; -ais/-ais/-ait/-ions/-iez/-aient; facts", "ils/elles form (minus -ent); -e/-es/-e/-ions/-iez/-ent; doubt, wish, emotion, obligation (after 'que')", "infinitif; -er/-ir/-re; certainty", "nous form; -ons/-ez; questions"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif présent: (1) Stem = ils/elles indicatif présent − ent. (2) Endings: -e, -es, -e, -ions, -iez, -ent. (3) Triggered by: doubt (douter que), wish (vouloir que), emotion (regretter que), obligation (il faut que), concession (bien que), purpose (pour que), before (avant que). Irregular: être (sois…) + avoir (aie…).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "summary", "formation"]
+    }
+  ]
+}

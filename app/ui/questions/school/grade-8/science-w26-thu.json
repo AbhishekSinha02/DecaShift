@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-science-w26-thu",
+  "title": "Grade 8 Science — Thu, Jun 26",
+  "description": "Force and Pressure — Day 4 of 5: Atmospheric pressure, fluids, buoyancy",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8s-w26-thu-001",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "Buoyancy (upthrust) is:",
+      "options": ["The weight of an object in air", "The upward force exerted by a fluid on any object submerged in it — opposing gravity, it makes objects feel lighter", "The downward force of a fluid", "The friction between fluid and object"],
+      "correctIndex": 1,
+      "explanation": "Buoyancy = upward push from fluid on submerged object. Why: fluid pressure increases with depth → pressure on bottom face > top face → net upward force. This force = weight of fluid displaced (Archimedes' Principle). Ships float, swimmers float — all due to buoyancy.",
+      "difficulty": "easy",
+      "tags": ["buoyancy", "definition", "upthrust"]
+    },
+    {
+      "id": "g8s-w26-thu-002",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "Archimedes' Principle states:",
+      "options": ["Pressure = Force/Area", "An object in a fluid experiences upthrust equal to the weight of the fluid displaced by the object", "Fluids exert pressure in all directions", "Every action has an equal and opposite reaction"],
+      "correctIndex": 1,
+      "explanation": "Archimedes' Principle: Upthrust (buoyant force) = Weight of fluid displaced. If you submerge a 1,000 cm³ object in water, it displaces 1,000 cm³ of water → upthrust = weight of 1,000 cm³ of water (= 1 kg × 10 = 10 N). This explains floating, sinking, submarines.",
+      "difficulty": "easy",
+      "tags": ["buoyancy", "Archimedes", "principle"]
+    },
+    {
+      "id": "g8s-w26-thu-003",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "An object floats when:",
+      "options": ["Its weight > buoyant force (sinks)", "Its weight = buoyant force — the object displaces exactly its own weight in fluid", "Its weight < buoyant force — object rides high on surface", "Its density equals 1 g/cm³"],
+      "correctIndex": 1,
+      "explanation": "Float condition: Weight = Buoyant force. This happens when the object's average density ≤ fluid density. A hollow steel ship floats because its average density (steel + air inside) < water density. Objects sink when weight > buoyancy (density > fluid density).",
+      "difficulty": "easy",
+      "tags": ["buoyancy", "floating", "condition"]
+    },
+    {
+      "id": "g8s-w26-thu-004",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "Why does an iron needle sink in water but an iron ship floats?",
+      "options": ["The ship is made of lighter iron", "The ship's hollow structure means its average density (iron + air) < water density — it displaces more water; needle is solid iron with density > water", "Ships have special coating", "Size alone determines floating"],
+      "correctIndex": 1,
+      "explanation": "Iron density (7,900 kg/m³) > water (1,000 kg/m³) → solid iron sinks. But a ship is hollow — its total volume includes lots of air → average density < water density → floats. The ship displaces a weight of water equal to its total weight. Density of material ≠ average density of object.",
+      "difficulty": "medium",
+      "tags": ["buoyancy", "ship", "needle", "density"]
+    },
+    {
+      "id": "g8s-w26-thu-005",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "Dead Sea (salt water, density ~1,240 kg/m³) is famous because people float very easily. Why?",
+      "options": ["The Dead Sea is very shallow", "Higher density of salt water → greater buoyant force for same volume displaced → body floats effortlessly without swimming", "The Dead Sea has special minerals that create magic", "Wind pushes people up in the Dead Sea"],
+      "correctIndex": 1,
+      "explanation": "Buoyancy = weight of fluid displaced = volume × fluid density × g. Saltwater denser than freshwater → more upthrust for same submerged volume → body floats higher and more easily. The Dead Sea is so salty (~10× normal sea salinity) that the upthrust exceeds body weight easily — you can't sink.",
+      "difficulty": "medium",
+      "tags": ["buoyancy", "salt-water", "Dead-Sea"]
+    },
+    {
+      "id": "g8s-w26-thu-006",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "A submarine submerges by:",
+      "options": ["Adding more engine power", "Filling ballast tanks with water to increase average density > seawater — upthrust < weight → submarine sinks; pumps water out to rise", "Reducing speed to sink", "Using propellers to go down"],
+      "correctIndex": 1,
+      "explanation": "Submarine: ballast tanks. Surface: tanks full of air → average density < water → floats. Submerge: flood tanks with water → average density > water → sinks. Rise: pump water out → average density < water → rises. This is pure buoyancy control — no engine power needed to change depth.",
+      "difficulty": "medium",
+      "tags": ["buoyancy", "submarine", "application"]
+    },
+    {
+      "id": "g8s-w26-thu-007",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "A block of wood in water: weight = 20 N, buoyant force = 20 N. What happens?",
+      "options": ["Sinks completely", "Floats completely submerged at surface", "Floats with part above water surface (weight = buoyant force when partially submerged)", "Shoots up above water"],
+      "correctIndex": 2,
+      "explanation": "Weight = Buoyant force = 20 N → floating. For a wood block (density < water), equilibrium is reached when only part is submerged (displacing just enough water to equal its weight). If wood density = 0.6 g/cm³ → 60% submerged, 40% above water.",
+      "difficulty": "hard",
+      "tags": ["buoyancy", "floating", "equilibrium"]
+    },
+    {
+      "id": "g8s-w26-thu-008",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "Hot air balloons float in air because:",
+      "options": ["Hot air is lighter than air", "Heating the air inside the balloon makes it expand → density of hot air inside < density of cool outside air → buoyancy of surrounding cooler air lifts the balloon", "The balloon material repels gravity", "Strong fans push the balloon up"],
+      "correctIndex": 1,
+      "explanation": "Buoyancy applies to gases too! Hot air expands → same volume but fewer molecules → lower density than surrounding cool air. The balloon displaces cool air; upthrust (weight of displaced cool air) > weight of (balloon + hot air) → net upward force → balloon rises. Same principle as convection currents.",
+      "difficulty": "hard",
+      "tags": ["buoyancy", "hot-air-balloon", "gas"]
+    },
+    {
+      "id": "g8s-w26-thu-009",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "Atmospheric pressure decreases with altitude because:",
+      "options": ["The sky is colder at higher altitudes", "At higher altitude, there is less air above → less air weight pressing down → less pressure", "Gravity decreases linearly with altitude", "Higher altitude has more clouds blocking pressure"],
+      "correctIndex": 1,
+      "explanation": "Atmospheric pressure = weight of air column above. At sea level: full column of atmosphere above. At 5 km: only the air above 5 km presses → less pressure. At Mt. Everest (8.8 km): pressure ≈ 1/3 of sea level. Less O₂ available per breath → mountaineers need supplemental oxygen.",
+      "difficulty": "hard",
+      "tags": ["pressure", "atmospheric", "altitude"]
+    },
+    {
+      "id": "g8s-w26-thu-010",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "Pascal's Law: Pressure applied to an enclosed fluid is transmitted equally to all parts. Which device uses this?",
+      "options": ["Thermometer", "Hydraulic brake — foot presses brake pedal (small piston/area); pressure transmitted through brake fluid equally; large piston at brake pad applies greater force to disc", "Barometer", "Ammeter"],
+      "correctIndex": 1,
+      "explanation": "Hydraulic brake: F₁/A₁ = F₂/A₂ (pressure transmitted unchanged). Small foot force on small piston creates same pressure in fluid → large piston at wheel has large area → applies much larger force on brake pad → car stops. Pascal's Law is the basis of all hydraulic systems.",
+      "difficulty": "hard",
+      "tags": ["pressure", "Pascal", "hydraulic", "brakes"]
+    },
+    {
+      "id": "g8s-w26-thu-011",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "Upthrust on an object is GREATEST when:",
+      "options": ["The object has the greatest weight", "The object displaces the greatest volume of fluid — upthrust = ρ×V×g (density of fluid × volume displaced × g)", "The object is lightest", "The fluid temperature is highest"],
+      "correctIndex": 1,
+      "explanation": "Upthrust = ρ_fluid × V_displaced × g. Two factors: (1) denser fluid → more upthrust (salt water > fresh water for same volume). (2) Greater volume submerged → more upthrust. Object weight determines sink/float but not the upthrust directly. Greater volume displaced = greater upthrust.",
+      "difficulty": "hard",
+      "tags": ["buoyancy", "upthrust", "factors"]
+    },
+    {
+      "id": "g8s-w26-thu-012",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "Why does an egg sink in fresh water but float in highly salted water?",
+      "options": ["Salt changes the egg", "Salt water has higher density → greater buoyant force for same volume. Egg density (≈1.03 g/cm³) > fresh water (1 g/cm³) → sinks. Salt water density can exceed 1.03 → upthrust > egg weight → floats", "Fresh water is colder", "Salt reacts with egg shell"],
+      "correctIndex": 1,
+      "explanation": "Egg density ≈ 1.03 g/cm³. Fresh water density = 1.00 g/cm³ < egg → sinks. Salt water: add enough salt → density > 1.03 → upthrust > egg weight → floats. This is a simple density demonstration — add salt until egg floats. Classic experiment in school labs.",
+      "difficulty": "hard",
+      "tags": ["buoyancy", "density", "egg-experiment"]
+    },
+    {
+      "id": "g8s-w26-thu-013",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "When you lift a heavy stone in water, it feels lighter than in air. The apparent weight loss =",
+      "options": ["The friction of water on the stone", "The weight of water displaced by the stone (= upthrust / buoyant force) — Archimedes demonstrated this by measuring the overflow", "The temperature difference between water and air", "The chemical reaction between stone and water"],
+      "correctIndex": 1,
+      "explanation": "Apparent weight in water = actual weight − upthrust. Upthrust = weight of water displaced. Archimedes proved this: overflow water collected when object submerged; weight of overflow = buoyant force experienced. The stone 'loses' weight equal to the displaced water's weight.",
+      "difficulty": "hard",
+      "tags": ["buoyancy", "apparent-weight", "Archimedes"]
+    },
+    {
+      "id": "g8s-w26-thu-014",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "Why do fish have swim bladders?",
+      "options": ["To breathe oxygen", "Swim bladder filled with gas lets fish change its volume → average density changes → fish can hover at different depths without constantly swimming", "To digest food", "To communicate with other fish"],
+      "correctIndex": 1,
+      "explanation": "Swim bladder = internal gas sac in fish. By absorbing or releasing gas, fish changes total volume (and thus average density) to match water density at desired depth → neutral buoyancy → hovers effortlessly. Submarines use the same principle with ballast tanks. Natural application of Archimedes' principle.",
+      "difficulty": "hard",
+      "tags": ["buoyancy", "fish", "swim-bladder", "nature"]
+    },
+    {
+      "id": "g8s-w26-thu-015",
+      "goalId": "grade-8-science-w26-thu",
+      "question": "A ship moves from a river (fresh water) to the sea (salt water). What happens to the ship's waterline?",
+      "options": ["Ship sinks deeper in the sea", "Ship rises higher in the sea — saltwater is denser, so less volume needs to be displaced to generate the same upthrust equal to the ship's weight", "Nothing changes", "Ship sinks in salt water"],
+      "correctIndex": 1,
+      "explanation": "Upthrust = ρ×V×g must equal ship's weight. Salt water: higher ρ → less V needed to displace for same upthrust → ship displaces less volume → rises higher. Plimsoll line on ships marks maximum safe loading level for different water types (fresh water / salt water / tropical salt water).",
+      "difficulty": "hard",
+      "tags": ["buoyancy", "ship", "density", "Plimsoll"]
+    }
+  ]
+}

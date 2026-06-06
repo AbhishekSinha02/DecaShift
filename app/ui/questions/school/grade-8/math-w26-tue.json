@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-math-w26-tue",
+  "title": "Grade 8 Math — Tue, Jun 24",
+  "description": "Mensuration — Surface Area and Volume Day 2 of 5: Cylinder",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8m-w26-tue-001",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "Curved Surface Area (CSA) of a cylinder with radius r and height h =",
+      "options": ["πr²h", "2πr²", "2πrh", "2πr(r + h)"],
+      "correctIndex": 2,
+      "explanation": "CSA of cylinder = 2πrh. This is the lateral surface (the curved part only, like the label on a can). TSA = CSA + 2 circular bases = 2πrh + 2πr² = 2πr(h + r). Volume = πr²h.",
+      "difficulty": "easy",
+      "tags": ["cylinder", "CSA", "formula"]
+    },
+    {
+      "id": "g8m-w26-tue-002",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "TSA of a cylinder with r = 7 cm, h = 10 cm (π = 22/7) =",
+      "options": ["440 cm²", "748 cm²", "880 cm²", "154 cm²"],
+      "correctIndex": 1,
+      "explanation": "TSA = 2πr(h + r) = 2×(22/7)×7×(10+7) = 44×17 = 748 cm².",
+      "difficulty": "easy",
+      "tags": ["cylinder", "TSA"]
+    },
+    {
+      "id": "g8m-w26-tue-003",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "Volume of a cylinder with r = 7 cm, h = 20 cm (π = 22/7) =",
+      "options": ["440 cm³", "3,080 cm³", "1,540 cm³", "880 cm³"],
+      "correctIndex": 1,
+      "explanation": "V = πr²h = (22/7)×49×20 = 22×7×20 = 3,080 cm³.",
+      "difficulty": "easy",
+      "tags": ["cylinder", "volume"]
+    },
+    {
+      "id": "g8m-w26-tue-004",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "A cylindrical pillar (r = 35 cm, h = 5 m = 500 cm). CSA (π = 22/7) =",
+      "options": ["1,100 cm²", "11,000 cm²", "110,000 cm²", "55,000 cm²"],
+      "correctIndex": 2,
+      "explanation": "CSA = 2πrh = 2×(22/7)×35×500 = 2×22×5×500 = 110,000 cm².",
+      "difficulty": "medium",
+      "tags": ["cylinder", "CSA", "pillar"]
+    },
+    {
+      "id": "g8m-w26-tue-005",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "A cylindrical tin can (r = 14 cm, h = 21 cm). Cost of tin sheet at ₹5/cm² for TSA (π = 22/7) =",
+      "options": ["₹6,160", "₹15,400", "₹7,700", "₹14,080"],
+      "correctIndex": 1,
+      "explanation": "TSA = 2πr(h + r) = 2×(22/7)×14×(21+14) = 2×44×35 = 3,080 cm². Cost = 3,080×5 = ₹15,400.",
+      "difficulty": "medium",
+      "tags": ["cylinder", "TSA", "cost"]
+    },
+    {
+      "id": "g8m-w26-tue-006",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "Find height: Volume of cylinder = 3,080 cm³, r = 14 cm (π = 22/7)",
+      "options": ["2.5 cm", "5 cm", "7 cm", "10 cm"],
+      "correctIndex": 1,
+      "explanation": "V = πr²h → 3,080 = (22/7)×196×h → 3,080 = 616h → h = 5 cm.",
+      "difficulty": "medium",
+      "tags": ["cylinder", "volume", "find-height"]
+    },
+    {
+      "id": "g8m-w26-tue-007",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "A cylindrical water tank (r = 1 m, h = 1.4 m) is to be painted on the outside (CSA only, π = 22/7). Area painted =",
+      "options": ["8.8 m²", "4.4 m²", "17.6 m²", "44 m²"],
+      "correctIndex": 0,
+      "explanation": "CSA = 2πrh = 2×(22/7)×1×1.4 = 2×(22/7)×1.4 = 2×4.4 = 8.8 m².",
+      "difficulty": "medium",
+      "tags": ["cylinder", "CSA", "paint"]
+    },
+    {
+      "id": "g8m-w26-tue-008",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "A hollow cylinder (open at both ends): outer r = 14 cm, inner r = 7 cm, h = 10 cm. Volume of material used (π = 22/7) =",
+      "options": ["1,540 cm³", "3,080 cm³", "4,620 cm³", "6,160 cm³"],
+      "correctIndex": 2,
+      "explanation": "Volume of material = π(R²−r²)h = (22/7)×(196−49)×10 = (22/7)×147×10 = 22×21×10 = 4,620 cm³.",
+      "difficulty": "hard",
+      "tags": ["cylinder", "hollow", "volume"]
+    },
+    {
+      "id": "g8m-w26-tue-009",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "If the radius of a cylinder is doubled (height unchanged), volume becomes:",
+      "options": ["2 times", "4 times", "8 times", "Unchanged"],
+      "correctIndex": 1,
+      "explanation": "V = πr²h. New radius = 2r. New V = π(2r)²h = 4πr²h = 4V. Volume becomes 4 times. (Area scales as r², so doubling radius quadruples volume when height is constant.)",
+      "difficulty": "hard",
+      "tags": ["cylinder", "volume", "scaling"]
+    },
+    {
+      "id": "g8m-w26-tue-010",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "A cylindrical roller (r = 3.5 cm, h = 10 cm) is rolled 100 times across a surface. Total area covered (π = 22/7) =",
+      "options": ["2,200 cm²", "11,000 cm²", "22,000 cm²", "44,000 cm²"],
+      "correctIndex": 2,
+      "explanation": "CSA = 2πrh = 2×(22/7)×3.5×10 = 2×11×10 = 220 cm² per revolution. Total = 220×100 = 22,000 cm².",
+      "difficulty": "hard",
+      "tags": ["cylinder", "CSA", "roller"]
+    },
+    {
+      "id": "g8m-w26-tue-011",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "A cylindrical pipe (r = 7 cm, length = 2 m = 200 cm). Volume of water it can hold (π = 22/7) =",
+      "options": ["3,080 cm³", "9,240 cm³", "30,800 cm³", "61,600 cm³"],
+      "correctIndex": 2,
+      "explanation": "V = πr²h = (22/7)×49×200 = 22×7×200 = 30,800 cm³.",
+      "difficulty": "hard",
+      "tags": ["cylinder", "volume", "pipe"]
+    },
+    {
+      "id": "g8m-w26-tue-012",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "A cylindrical well (r = 7 m, depth = 20 m). Volume of earth dug (π = 22/7) =",
+      "options": ["2,200 m³", "3,080 m³", "3,696 m³", "6,160 m³"],
+      "correctIndex": 1,
+      "explanation": "V = πr²h = (22/7)×49×20 = 22×7×20 = 3,080 m³.",
+      "difficulty": "hard",
+      "tags": ["cylinder", "volume", "well"]
+    },
+    {
+      "id": "g8m-w26-tue-013",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "A metal rod (cylinder) of r = 1 cm, length = 100 cm is melted and recast as a cylinder of r = 2 cm. New length =",
+      "options": ["25 cm", "50 cm", "100 cm", "400 cm"],
+      "correctIndex": 0,
+      "explanation": "Volume conserved when melted and recast. π×1²×100 = π×2²×h → 100 = 4h → h = 25 cm. (Doubling radius and keeping volume same → height ÷ 4.)",
+      "difficulty": "hard",
+      "tags": ["cylinder", "volume-conservation", "recast"]
+    },
+    {
+      "id": "g8m-w26-tue-014",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "A cylindrical tank (r = 14 m, h = 10 m) is 80% full of water. Volume of water (π = 22/7) =",
+      "options": ["4,928 m³", "6,160 m³", "7,700 m³", "8,624 m³"],
+      "correctIndex": 0,
+      "explanation": "Full volume = πr²h = (22/7)×196×10 = 6,160 m³. 80% of 6,160 = 0.8×6,160 = 4,928 m³.",
+      "difficulty": "hard",
+      "tags": ["cylinder", "volume", "partial"]
+    },
+    {
+      "id": "g8m-w26-tue-015",
+      "goalId": "grade-8-math-w26-tue",
+      "question": "Compare a cylinder (r = 7, h = 14) and a cuboid (7 × 14 × 14). Which has greater volume? (π = 22/7)",
+      "options": ["Cuboid > Cylinder", "Cylinder > Cuboid", "They are equal", "Cannot compare"],
+      "correctIndex": 1,
+      "explanation": "Cylinder: V = πr²h = (22/7)×49×14 = 22×7×14 = 2,156 cm³. Cuboid: V = 7×14×14 = 1,372 cm³. Cylinder (2,156) > Cuboid (1,372). For the same height and similar base dimensions, a cylinder generally has greater volume than a rectangular box.",
+      "difficulty": "hard",
+      "tags": ["cylinder", "cuboid", "compare", "volume"]
+    }
+  ]
+}

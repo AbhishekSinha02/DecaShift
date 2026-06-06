@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-science-w26-wed",
+  "title": "Grade 8 Science — Wed, Jun 25",
+  "description": "Force and Pressure — Day 3 of 5: Friction — types, advantages, disadvantages",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8s-w26-wed-001",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Friction is a force that:",
+      "options": ["Pulls objects toward Earth", "Opposes the relative motion between two surfaces in contact", "Pushes objects apart", "Creates motion in stationary objects"],
+      "correctIndex": 1,
+      "explanation": "Friction = contact force that opposes relative motion (or tendency to move) between surfaces. It always acts opposite to the direction of motion or attempted motion. Without friction, we couldn't walk, drive, or grip objects.",
+      "difficulty": "easy",
+      "tags": ["friction", "definition"]
+    },
+    {
+      "id": "g8s-w26-wed-002",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Static friction acts when:",
+      "options": ["An object is sliding on a surface", "An object is in the air", "An object is at rest and a force is applied but the object hasn't started moving yet — static friction prevents motion", "An object is rolling"],
+      "correctIndex": 2,
+      "explanation": "Static friction: friction before motion begins. The applied force must overcome maximum static friction to start motion. Static friction adjusts itself up to its maximum value (increases with applied force). Once motion begins, kinetic friction takes over (usually less than maximum static friction).",
+      "difficulty": "easy",
+      "tags": ["friction", "static", "definition"]
+    },
+    {
+      "id": "g8s-w26-wed-003",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Which type of friction is least? (from largest to smallest: static > kinetic > rolling)",
+      "options": ["Static friction", "Sliding friction (kinetic)", "Rolling friction", "All are equal"],
+      "correctIndex": 2,
+      "explanation": "Rolling < Sliding (kinetic) < Static. Rolling friction is smallest — that's why wheels were invented. A wheel rolls instead of sliding → much less friction → easier to move heavy loads. Ball bearings in machines use rolling friction to reduce energy loss.",
+      "difficulty": "easy",
+      "tags": ["friction", "types", "order"]
+    },
+    {
+      "id": "g8s-w26-wed-004",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Friction depends on the NATURE of surfaces and the NORMAL FORCE (weight/pressing force). Which change REDUCES friction?",
+      "options": ["Increasing weight on object", "Making surfaces rougher", "Polishing surfaces smooth / lubricating with oil", "Pressing surfaces harder together"],
+      "correctIndex": 2,
+      "explanation": "Friction ∝ normal force × surface roughness (coefficient of friction). To reduce friction: (1) lubrication (oil, grease) — fills microscopic gaps, (2) polishing (smooth surfaces), (3) ball bearings (rolling replaces sliding), (4) streamlining (reduces air friction). Increasing weight INCREASES friction.",
+      "difficulty": "medium",
+      "tags": ["friction", "factors", "reduce"]
+    },
+    {
+      "id": "g8s-w26-wed-005",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Which of these is an ADVANTAGE of friction?",
+      "options": ["Makes moving machinery harder", "Causes heat loss in engines", "Allows us to walk — feet grip ground, brake pads stop cars, nails hold wood", "Wears out machine parts"],
+      "correctIndex": 2,
+      "explanation": "Advantages of friction: walking (feet grip ground), driving (tyres grip road), brakes stopping vehicles, writing (pen on paper), nails holding structures, matches igniting. Without friction: we'd slip on floors, cars couldn't brake, nails would fall out. Friction is essential for life.",
+      "difficulty": "medium",
+      "tags": ["friction", "advantages", "everyday"]
+    },
+    {
+      "id": "g8s-w26-wed-006",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Fluid friction (drag) acts on objects moving through liquids or gases. Streamlining reduces fluid friction by:",
+      "options": ["Making the object heavier", "Giving the object a smooth, tapered shape that allows fluid to flow around it with minimum disruption", "Making the object spin", "Increasing speed"],
+      "correctIndex": 1,
+      "explanation": "Streamlining: narrow front and tapered back (like a fish or airplane wing). Fluid diverts smoothly → minimal turbulence → less drag. Applications: fish (streamlined body), airplanes, cars (aerodynamic), bullets, submarines. Sports cars are low and tapered to reduce air resistance.",
+      "difficulty": "medium",
+      "tags": ["friction", "fluid", "streamlining"]
+    },
+    {
+      "id": "g8s-w26-wed-007",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Why do gymnasts apply chalk (magnesium carbonate) to their hands before handling bars?",
+      "options": ["To make hands slippery", "Chalk absorbs sweat and INCREASES friction between palms and bar — prevents slipping", "Chalk cools the hands", "To make hands look white"],
+      "correctIndex": 1,
+      "explanation": "Sweat reduces friction (lubricant). Chalk absorbs sweat → restores roughness → increases friction. This prevents gymnasts' hands from slipping on bars (which would be dangerous). Same reason wrestlers use rosin, cricket players use grip tapes. Increasing friction is sometimes crucial for safety.",
+      "difficulty": "hard",
+      "tags": ["friction", "chalk", "increase-friction"]
+    },
+    {
+      "id": "g8s-w26-wed-008",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "A sliding book slows down and stops. Where does the kinetic energy go?",
+      "options": ["It disappears completely", "Friction converts kinetic energy into heat — you can feel warmth if you rub your hands together", "It turns into potential energy", "It goes into the surface atoms as light"],
+      "correctIndex": 1,
+      "explanation": "Friction converts kinetic energy → heat. Evidence: rubbing hands together warms them; fire by friction (ancient method); brakes heating up. Energy is NOT lost — it transforms. This is why brake discs get hot when a car stops suddenly. Friction is a major source of energy 'waste' in machines.",
+      "difficulty": "hard",
+      "tags": ["friction", "energy-conversion", "heat"]
+    },
+    {
+      "id": "g8s-w26-wed-009",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Friction is a 'necessary evil'. It is 'necessary' because:",
+      "options": ["It makes engines inefficient", "It enables walking, braking, gripping — life without friction would be unlivable", "It wears away materials", "It causes noise"],
+      "correctIndex": 1,
+      "explanation": "Necessary (essential): walking, braking, writing, climbing, gripping tools, matches. Evil (harmful): wears machinery parts, generates waste heat in engines, reduces efficiency, causes wear on tyres. Both aspects are true — hence the phrase 'necessary evil.' The correct response acknowledges both, but its necessity for basic life activities is primary.",
+      "difficulty": "hard",
+      "tags": ["friction", "necessary-evil"]
+    },
+    {
+      "id": "g8s-w26-wed-010",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Ball bearings in machine axles work because:",
+      "options": ["They increase static friction", "They replace sliding friction with rolling friction — rolling friction is much smaller → machine runs more smoothly and efficiently", "They increase the normal force", "They prevent heat production entirely"],
+      "correctIndex": 1,
+      "explanation": "Ball bearings: small metal balls placed between rotating shaft and housing. Instead of shaft sliding against housing (high kinetic friction), the balls roll (low rolling friction). Less energy wasted → more efficient machines. Used in fans, wheels, motors, bicycles, industrial machinery.",
+      "difficulty": "hard",
+      "tags": ["friction", "ball-bearings", "rolling"]
+    },
+    {
+      "id": "g8s-w26-wed-011",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Lubricants (oil, grease) reduce friction by:",
+      "options": ["Hardening the surfaces", "Forming a thin film between surfaces — surfaces no longer touch directly; fluid friction replaces solid friction (fluid friction is much smaller)", "Increasing the weight of machine parts", "Cooling the surfaces"],
+      "correctIndex": 1,
+      "explanation": "Lubrication: oil/grease creates a thin fluid layer between surfaces. Surfaces glide on fluid, not against each other. Fluid (viscous) friction replaces solid surface friction → much less energy loss. Applied in: car engines, bicycle chains, door hinges, industrial machines. Without lubrication, machines seize up (surfaces weld together from heat).",
+      "difficulty": "hard",
+      "tags": ["friction", "lubrication", "reduce"]
+    },
+    {
+      "id": "g8s-w26-wed-012",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Why do vehicles skid on icy roads?",
+      "options": ["Ice is very heavy", "Ice is very smooth — very low friction between tyre and ice → braking force insufficient → tyres cannot grip → vehicle slides uncontrolled", "Ice changes tyre pressure", "Cold reduces engine power"],
+      "correctIndex": 1,
+      "explanation": "Ice: extremely smooth surface → very low friction coefficient. Tyre needs friction to grip and brake. On ice: friction too low to provide braking force → vehicle cannot slow down → skid. Solutions: snow chains (increase contact area and grip), sand on roads (increase roughness), winter tyres (softer rubber, deeper treads).",
+      "difficulty": "hard",
+      "tags": ["friction", "ice", "skidding"]
+    },
+    {
+      "id": "g8s-w26-wed-013",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Brake pads in vehicles work on the principle of:",
+      "options": ["Magnetic force opposing motion", "Increasing friction — pads press against rotating disc/drum; high friction converts kinetic energy of the vehicle to heat, slowing it down", "Air pressure stopping the wheel", "Gravity pulling the vehicle back"],
+      "correctIndex": 1,
+      "explanation": "Disc brakes: pads clamp onto rotating disc. High friction (μ × normal force of clamping) → decelerates wheel → vehicle stops. The disc/pad heat up from kinetic energy → thermal energy. Ventilated discs dissipate heat faster. Emergency braking on dry road: all KE converts to heat in seconds.",
+      "difficulty": "hard",
+      "tags": ["friction", "brakes", "application"]
+    },
+    {
+      "id": "g8s-w26-wed-014",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Why does the soles of shoes wear out faster than the upper part?",
+      "options": ["Soles are made of cheaper material", "Soles are in constant contact with the ground — kinetic friction between sole and ground gradually wears away the material over time", "Rain damages soles more", "Soles are thinner"],
+      "correctIndex": 1,
+      "explanation": "Friction wears away materials in contact. Sole-to-ground friction: constant relative motion (walking) → gradual material removal. Same principle: eraser erases by friction, river stones become smooth, teeth wear down, tyres wear out. Friction's harmful aspect: wear and tear.",
+      "difficulty": "hard",
+      "tags": ["friction", "wear", "everyday"]
+    },
+    {
+      "id": "g8s-w26-wed-015",
+      "goalId": "grade-8-science-w26-wed",
+      "question": "Correct order of friction (highest to lowest) for the same surfaces and normal force:",
+      "options": ["Rolling < Sliding < Static", "Static < Sliding < Rolling", "Static > Sliding > Rolling", "All equal"],
+      "correctIndex": 2,
+      "explanation": "Static > Kinetic (sliding) > Rolling (highest to lowest). Static is highest — you need the most force to START moving. Once moving, kinetic friction (sliding) takes over — slightly less. Rolling friction is smallest. This is why it's harder to START pushing a heavy box than to keep it sliding, and wheels need much less force than sliding.",
+      "difficulty": "hard",
+      "tags": ["friction", "order", "static-kinetic-rolling"]
+    }
+  ]
+}

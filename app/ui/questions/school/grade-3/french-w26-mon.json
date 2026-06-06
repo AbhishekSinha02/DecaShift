@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-3-french-w26-mon",
+  "title": "Grade 3 French — Mon, Jun 23",
+  "description": "À l'école — Day 1 of 5: Classroom objects (les objets de la classe)",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "a-l-ecole",
+  "tags": ["french", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3f-w26-mon-001",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "What is 'a pencil' in French?",
+      "options": ["un crayon", "un stylo", "un livre", "une règle"],
+      "correctIndex": 0,
+      "explanation": "'Un crayon' = a pencil. 'Un stylo' = a pen. 'Un livre' = a book. 'Une règle' = a ruler.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "classroom-objects", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-mon-002",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "What does 'un cahier' mean?",
+      "options": ["a pencil case", "an exercise book / notebook", "a bag", "a rubber"],
+      "correctIndex": 1,
+      "explanation": "'Un cahier' = an exercise book or notebook. French students use 'un cahier' for their written work.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "classroom-objects", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-mon-003",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "How do you say 'a rubber/eraser' in French?",
+      "options": ["une gomme", "une colle", "un taille-crayon", "un feutre"],
+      "correctIndex": 0,
+      "explanation": "'Une gomme' = an eraser/rubber. 'Une colle' = glue. 'Un taille-crayon' = a pencil sharpener. 'Un feutre' = a felt-tip pen.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "classroom-objects", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-mon-004",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "What is 'un sac à dos'?",
+      "options": ["a pencil case", "a desk", "a school bag / backpack", "a chair"],
+      "correctIndex": 2,
+      "explanation": "'Un sac à dos' = a backpack/school bag. 'À dos' literally means 'on the back.'",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "classroom-objects", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-mon-005",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "Choose the correct French word for 'a ruler':",
+      "options": ["un compas", "une règle", "un rapporteur", "une trousse"],
+      "correctIndex": 1,
+      "explanation": "'Une règle' = a ruler. 'Un compas' = a compass (for drawing circles). 'Un rapporteur' = a protractor. 'Une trousse' = a pencil case.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "classroom-objects", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-mon-006",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "Fill in the blank: 'Je range mes crayons dans ___.' (I put my pencils in ___)",
+      "options": ["un livre", "une trousse", "un cahier", "une règle"],
+      "correctIndex": 1,
+      "explanation": "'Une trousse' = a pencil case. 'Je range mes crayons dans une trousse.' = I put my pencils in a pencil case.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "pencil-case", "sentence"]
+    },
+    {
+      "id": "g3f-w26-mon-007",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "'Un tableau' in a French classroom refers to:",
+      "options": ["a desk", "a blackboard / whiteboard", "a window", "a cupboard"],
+      "correctIndex": 1,
+      "explanation": "'Un tableau' = a blackboard or whiteboard. 'Le professeur écrit au tableau' = The teacher writes on the board.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "classroom-objects", "tableau"]
+    },
+    {
+      "id": "g3f-w26-mon-008",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "What is the gender (masculine/feminine) of 'règle', 'trousse' and 'cahier'?",
+      "options": ["all masculine", "règle=fem, trousse=fem, cahier=masc", "all feminine", "règle=masc, trousse=fem, cahier=fem"],
+      "correctIndex": 1,
+      "explanation": "'Une règle' (f), 'une trousse' (f), 'un cahier' (m). French nouns have grammatical gender — the article (un/une) shows it.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "gender", "articles"]
+    },
+    {
+      "id": "g3f-w26-mon-009",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "Translate: 'I have a book and a pen.'",
+      "options": ["J'ai un livre et un crayon.", "J'ai un livre et un stylo.", "J'ai une règle et un stylo.", "J'ai un cahier et une gomme."],
+      "correctIndex": 1,
+      "explanation": "'J'ai un livre et un stylo.' = I have a book and a pen. (livre = book, stylo = pen/biro).",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "translation", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-mon-010",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "Which of these is NOT a classroom object?",
+      "options": ["un cahier", "un stylo", "un chien", "une gomme"],
+      "correctIndex": 2,
+      "explanation": "'Un chien' = a dog — not a classroom object! 'Un cahier' = notebook, 'un stylo' = pen, 'une gomme' = eraser.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "odd-one-out"]
+    },
+    {
+      "id": "g3f-w26-mon-011",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "'Des crayons de couleur' means:",
+      "options": ["colour pencils / crayons", "black pencils", "pens", "chalks"],
+      "correctIndex": 0,
+      "explanation": "'Des crayons de couleur' = colour pencils / crayons. 'De couleur' means 'of colour.'",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "colour-pencils", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-mon-012",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "How do you ask 'Do you have a rubber?' in French?",
+      "options": ["Tu as une règle ?", "Tu as une gomme ?", "Tu as un crayon ?", "Tu as un stylo ?"],
+      "correctIndex": 1,
+      "explanation": "'Tu as une gomme ?' = Do you have a rubber/eraser? ('Tu as' = you have; 'une gomme' = a rubber).",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "question-form", "gomme"]
+    },
+    {
+      "id": "g3f-w26-mon-013",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "In French, 'les fournitures scolaires' means:",
+      "options": ["school rules", "school subjects", "school supplies / stationery", "school uniform"],
+      "correctIndex": 2,
+      "explanation": "'Les fournitures scolaires' = school supplies / stationery — the collective term for all classroom objects (pencils, rubbers, books, etc.).",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "school-supplies", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-mon-014",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "Make the sentence plural: 'J'ai un stylo.' → ___",
+      "options": ["J'ai des stylos.", "J'ai un stylos.", "J'ai les stylo.", "J'ai une stylos."],
+      "correctIndex": 0,
+      "explanation": "Plural: 'J'ai des stylos.' (un → des in plural). 'Des' = some/the (plural indefinite article).",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "plural", "articles"]
+    },
+    {
+      "id": "g3f-w26-mon-015",
+      "goalId": "grade-3-french-w26-mon",
+      "question": "Describe what is in your pencil case using French. Best answer:",
+      "options": ["Dans ma trousse, il y a un crayon, une gomme et un taille-crayon.", "Ma trousse a crayon et gomme.", "J'ai la trousse avec un stylo.", "Une trousse il y a des crayons."],
+      "correctIndex": 0,
+      "explanation": "'Dans ma trousse, il y a un crayon, une gomme et un taille-crayon.' = In my pencil case, there is a pencil, a rubber and a pencil sharpener. This uses 'il y a' (there is/there are) correctly.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "il-y-a", "description"]
+    }
+  ]
+}

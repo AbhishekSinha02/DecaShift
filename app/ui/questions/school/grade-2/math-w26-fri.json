@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-2-math-w26-fri",
+  "title": "Grade 2 Math — Fri, Jun 27",
+  "description": "Money — Day 5 of 5: Mixed review — money word problems",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2m-w26-fri-001",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "Which coin is worth the MOST?",
+      "options": ["₹1 coin", "₹2 coin", "₹5 coin", "₹10 coin"],
+      "correctIndex": 3,
+      "explanation": "Among coins, ₹10 > ₹5 > ₹2 > ₹1. The ₹10 coin has the highest value.",
+      "difficulty": "easy",
+      "tags": ["money", "coins", "comparison"]
+    },
+    {
+      "id": "g2m-w26-fri-002",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "₹50 + ₹50 = ?",
+      "options": ["₹50", "₹80", "₹100", "₹150"],
+      "correctIndex": 2,
+      "explanation": "₹50 + ₹50 = ₹100. Two fifty-rupee notes make one hundred rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "addition"]
+    },
+    {
+      "id": "g2m-w26-fri-003",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "You have ₹10 and buy a toy for ₹7. How much is left?",
+      "options": ["₹1", "₹2", "₹3", "₹4"],
+      "correctIndex": 2,
+      "explanation": "₹10 − ₹7 = ₹3. You have three rupees left.",
+      "difficulty": "easy",
+      "tags": ["money", "subtraction", "shopping"]
+    },
+    {
+      "id": "g2m-w26-fri-004",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "5 coins of ₹2 each = ?",
+      "options": ["₹5", "₹8", "₹10", "₹15"],
+      "correctIndex": 2,
+      "explanation": "5 × ₹2 = ₹10. Five two-rupee coins equal ten rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "coins", "multiplication"]
+    },
+    {
+      "id": "g2m-w26-fri-005",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "A ₹100 note is worth how many ₹50 notes?",
+      "options": ["1", "2", "3", "4"],
+      "correctIndex": 1,
+      "explanation": "₹100 ÷ ₹50 = 2. One hundred rupees equals two fifty-rupee notes.",
+      "difficulty": "easy",
+      "tags": ["money", "notes", "equivalence"]
+    },
+    {
+      "id": "g2m-w26-fri-006",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "Asha has ₹20. She gives her friend ₹8. How much does Asha have left?",
+      "options": ["₹8", "₹10", "₹12", "₹14"],
+      "correctIndex": 2,
+      "explanation": "₹20 − ₹8 = ₹12. Asha has twelve rupees left.",
+      "difficulty": "easy",
+      "tags": ["money", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-fri-007",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "A juice costs ₹15. You give ₹20. What change do you get?",
+      "options": ["₹3", "₹4", "₹5", "₹6"],
+      "correctIndex": 2,
+      "explanation": "₹20 − ₹15 = ₹5. You get five rupees as change.",
+      "difficulty": "medium",
+      "tags": ["money", "change"]
+    },
+    {
+      "id": "g2m-w26-fri-008",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "Ravi has 3 notes of ₹10 and 2 coins of ₹5. How much money does he have in all?",
+      "options": ["₹30", "₹35", "₹40", "₹45"],
+      "correctIndex": 2,
+      "explanation": "3 × ₹10 = ₹30. 2 × ₹5 = ₹10. Total = ₹30 + ₹10 = ₹40.",
+      "difficulty": "medium",
+      "tags": ["money", "mixed", "addition"]
+    },
+    {
+      "id": "g2m-w26-fri-009",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "A shop sells pencils at ₹3 each. How much do 4 pencils cost?",
+      "options": ["₹9", "₹10", "₹12", "₹15"],
+      "correctIndex": 2,
+      "explanation": "4 × ₹3 = ₹12. Four pencils at three rupees each cost twelve rupees.",
+      "difficulty": "medium",
+      "tags": ["money", "multiplication", "shopping"]
+    },
+    {
+      "id": "g2m-w26-fri-010",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "Sonu has ₹50. He spends ₹22 on a book and ₹8 on a pen. How much is left?",
+      "options": ["₹15", "₹18", "₹20", "₹22"],
+      "correctIndex": 2,
+      "explanation": "Total spent = ₹22 + ₹8 = ₹30. Left = ₹50 − ₹30 = ₹20.",
+      "difficulty": "medium",
+      "tags": ["money", "subtraction", "multi-step"]
+    },
+    {
+      "id": "g2m-w26-fri-011",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "Which amount is GREATER — 2 notes of ₹20 or 5 coins of ₹10?",
+      "options": ["2 notes of ₹20 (= ₹40)", "5 coins of ₹10 (= ₹50)", "Both are equal", "Cannot compare"],
+      "correctIndex": 1,
+      "explanation": "2 × ₹20 = ₹40. 5 × ₹10 = ₹50. So five ₹10 coins (₹50) is more than two ₹20 notes (₹40).",
+      "difficulty": "medium",
+      "tags": ["money", "comparison"]
+    },
+    {
+      "id": "g2m-w26-fri-012",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "A girl paid ₹100 for a dress and got ₹30 back. What was the price of the dress?",
+      "options": ["₹60", "₹65", "₹70", "₹75"],
+      "correctIndex": 2,
+      "explanation": "Price = ₹100 − ₹30 = ₹70. The dress cost seventy rupees.",
+      "difficulty": "medium",
+      "tags": ["money", "change", "reverse"]
+    },
+    {
+      "id": "g2m-w26-fri-013",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "Meenu saves ₹10 every day for a week (7 days). How much has she saved?",
+      "options": ["₹50", "₹60", "₹70", "₹80"],
+      "correctIndex": 2,
+      "explanation": "7 × ₹10 = ₹70. Saving ₹10 each day for 7 days gives ₹70 in total.",
+      "difficulty": "hard",
+      "tags": ["money", "multiplication", "savings"]
+    },
+    {
+      "id": "g2m-w26-fri-014",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "Arjun has ₹75. He buys a toy for ₹48 and gives ₹10 to his sister. How much does he have left?",
+      "options": ["₹13", "₹15", "₹17", "₹20"],
+      "correctIndex": 2,
+      "explanation": "Total spent = ₹48 + ₹10 = ₹58. Left = ₹75 − ₹58 = ₹17.",
+      "difficulty": "hard",
+      "tags": ["money", "multi-step", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-fri-015",
+      "goalId": "grade-2-math-w26-fri",
+      "question": "A shop has: mango ₹15, papaya ₹20, guava ₹12. You want to buy all three but have only ₹45. Do you have enough?",
+      "options": ["No — total is ₹47, ₹2 short", "Yes — total is ₹45 exactly", "Yes — total is ₹42, ₹3 extra", "No — total is ₹50, ₹5 short"],
+      "correctIndex": 0,
+      "explanation": "Total = ₹15 + ₹20 + ₹12 = ₹47. You have ₹45 so you are ₹2 short.",
+      "difficulty": "hard",
+      "tags": ["money", "addition", "comparison"]
+    }
+  ]
+}

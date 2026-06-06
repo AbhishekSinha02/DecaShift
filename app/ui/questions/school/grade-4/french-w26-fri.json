@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-4-french-w26-fri",
+  "title": "Grade 4 French — Fri, Jun 27",
+  "description": "Le temps et les saisons — Day 5 of 5: Mixed review — weather, seasons and months",
+  "subject": "french",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "le-temps",
+  "tags": ["french", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4f-w26-fri-001",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "How do you say 'What is the weather like?' in French?",
+      "options": ["Comment est le temps?", "Quel temps fait-il?", "Il fait quel temps?", "Le temps, c'est quoi?"],
+      "correctIndex": 1,
+      "explanation": "'Quel temps fait-il?' — the standard weather question. Review from Day 1.",
+      "difficulty": "easy",
+      "tags": ["le-temps", "review", "question"]
+    },
+    {
+      "id": "g4f-w26-fri-002",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "What is 'l'hiver'?",
+      "options": ["Spring", "Summer", "Autumn", "Winter"],
+      "correctIndex": 3,
+      "explanation": "'L'hiver' = winter. The four seasons: le printemps (spring), l'été (summer), l'automne (autumn), l'hiver (winter).",
+      "difficulty": "easy",
+      "tags": ["saisons", "review", "vocabulary"]
+    },
+    {
+      "id": "g4f-w26-fri-003",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Which month is 'juillet'?",
+      "options": ["January", "June", "July", "August"],
+      "correctIndex": 2,
+      "explanation": "'Juillet' = July (7th month). juin=June, juillet=July, août=August — the three summer months.",
+      "difficulty": "easy",
+      "tags": ["mois", "review", "juillet"]
+    },
+    {
+      "id": "g4f-w26-fri-004",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Translate: 'In winter it snows and it is very cold.'",
+      "options": ["En hiver il neige et il fait très froid.", "Au hiver il fait du neige et il est froid.", "En hiver il fait beau et chaud.", "L'hiver il est froid beaucoup."],
+      "correctIndex": 0,
+      "explanation": "'En hiver il neige et il fait très froid.' ✓ 'En hiver' (in winter), 'il neige' (it snows — impersonal verb), 'il fait très froid' (it is very cold).",
+      "difficulty": "easy",
+      "tags": ["saisons", "review", "hiver"]
+    },
+    {
+      "id": "g4f-w26-fri-005",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Which season uses 'au' instead of 'en'?",
+      "options": ["l'été", "l'automne", "l'hiver", "le printemps"],
+      "correctIndex": 3,
+      "explanation": "'Au printemps' (not 'en printemps'). All others use 'en': en été, en automne, en hiver. Printemps is the exception.",
+      "difficulty": "medium",
+      "tags": ["saisons", "review", "au-printemps"]
+    },
+    {
+      "id": "g4f-w26-fri-006",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Which months make up 'l'automne' in France?",
+      "options": ["mars, avril, mai", "juin, juillet, août", "septembre, octobre, novembre", "décembre, janvier, février"],
+      "correctIndex": 2,
+      "explanation": "Autumn (l'automne) = septembre, octobre, novembre. Leaves fall, harvest, days shorten.",
+      "difficulty": "medium",
+      "tags": ["saisons", "review", "mois-automne"]
+    },
+    {
+      "id": "g4f-w26-fri-007",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "A: 'Quel temps fait-il en été?' Best answer:",
+      "options": ["En été, il neige beaucoup.", "En été, il fait chaud et il y a du soleil.", "En été, il fait très froid.", "En été, les feuilles tombent."],
+      "correctIndex": 1,
+      "explanation": "'En été, il fait chaud et il y a du soleil.' = In summer, it is hot and sunny. Classic summer weather description.",
+      "difficulty": "medium",
+      "tags": ["saisons", "review", "ete"]
+    },
+    {
+      "id": "g4f-w26-fri-008",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Spot the two errors: 'En Été, il fait chaud. Au Automne, les feuilles tombent.'",
+      "options": ["No errors", "'Été' and 'Automne' should not be capitalised (months AND seasons are lowercase in French); also 'au automne' should be 'en automne'", "Only the first sentence is wrong", "Only capitalisation is wrong"],
+      "correctIndex": 1,
+      "explanation": "Two errors: (1) Seasons are NOT capitalised in French: été, automne (not Été, Automne). (2) Autumn uses 'en automne', not 'au automne' — 'au' is only for le printemps.",
+      "difficulty": "hard",
+      "tags": ["saisons", "review", "error-detection"]
+    },
+    {
+      "id": "g4f-w26-fri-009",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Complete the weather description for spring: 'Au printemps, il fait ___ et les ___ fleurissent.'",
+      "options": ["froid / arbres", "doux / fleurs", "chaud / neiges", "mauvais / feuilles tombent"],
+      "correctIndex": 1,
+      "explanation": "'Au printemps, il fait doux et les fleurs fleurissent.' = In spring, the weather is mild and flowers bloom. 'Doux' = mild/gentle. 'Fleurir' = to bloom.",
+      "difficulty": "hard",
+      "tags": ["saisons", "review", "printemps"]
+    },
+    {
+      "id": "g4f-w26-fri-010",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Month quiz: 'Je suis le sixième mois de l'année.' (I am the 6th month of the year.) Which month is speaking?",
+      "options": ["mai", "juin", "juillet", "août"],
+      "correctIndex": 1,
+      "explanation": "6th month = juin (June). Jan=1, Fév=2, Mar=3, Avr=4, Mai=5, Juin=6.",
+      "difficulty": "hard",
+      "tags": ["mois", "review", "ordinal"]
+    },
+    {
+      "id": "g4f-w26-fri-011",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Describe Indian summer to a French friend. Best answer:",
+      "options": ["En Inde en été, il fait très froid et il neige.", "En Inde en été, il fait très chaud — parfois 45 degrés — et c'est la saison des pluies en juillet-août.", "En Inde, il n'y a pas d'été.", "En Inde, l'été est comme l'hiver en France."],
+      "correctIndex": 1,
+      "explanation": "'En Inde en été, il fait très chaud — parfois 45 degrés — et c'est la saison des pluies en juillet-août.' Accurate description of Indian summer + monsoon, using French weather vocabulary.",
+      "difficulty": "hard",
+      "tags": ["saisons", "review", "india", "production"]
+    },
+    {
+      "id": "g4f-w26-fri-012",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Consolidation — All three topics. Complete: 'Quel temps fait-il en ___?' (winter) → 'En ___, il neige et il fait froid.' + The winter months are: ___, ___, ___.",
+      "options": ["printemps / au printemps / mars-avril-mai", "hiver / en hiver / décembre-janvier-février", "été / en été / juin-juillet-août", "automne / en automne / sept-oct-nov"],
+      "correctIndex": 1,
+      "explanation": "Q: Quel temps fait-il en hiver? A: En hiver, il neige et il fait froid. Winter months = décembre, janvier, février. All three components (question, answer, months) are correct.",
+      "difficulty": "hard",
+      "tags": ["le-temps", "saisons", "mois", "consolidation"]
+    },
+    {
+      "id": "g4f-w26-fri-013",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Write a sentence using: l'automne + un mois + weather expression.",
+      "options": ["En octobre, en automne, il pleut souvent et les feuilles tombent.", "Au automne en octobre il est froid.", "L'automne faire froid en octobre.", "Octobre, il pleut."],
+      "correctIndex": 0,
+      "explanation": "'En octobre, en automne, il pleut souvent et les feuilles tombent.' — uses month (octobre), season (automne), two weather/nature expressions (il pleut, les feuilles tombent). Grammatically correct.",
+      "difficulty": "hard",
+      "tags": ["saisons", "mois", "weather", "production"]
+    },
+    {
+      "id": "g4f-w26-fri-014",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Summary question: In France, 'les grandes vacances' happen in which two months?",
+      "options": ["janvier et février", "mars et avril", "juillet et août", "octobre et novembre"],
+      "correctIndex": 2,
+      "explanation": "'Les grandes vacances' = the long summer school holiday in France = juillet (July) and août (August). These are the core summer months.",
+      "difficulty": "hard",
+      "tags": ["mois", "review", "culture", "vacances"]
+    },
+    {
+      "id": "g4f-w26-fri-015",
+      "goalId": "grade-4-french-w26-fri",
+      "question": "Final review: Match all four seasons to their weather and preposition. Best complete answer:",
+      "options": ["au printemps=il fait doux; en été=il fait chaud; en automne=les feuilles tombent; en hiver=il neige", "en printemps=il fait doux; au été=il fait chaud; au automne=les feuilles tombent; au hiver=il neige", "au printemps=il neige; en été=il fait froid; en automne=il fait chaud; en hiver=il fait beau", "au printemps=il fait froid; en été=il neige; en automne=il fait chaud; en hiver=il fait doux"],
+      "correctIndex": 0,
+      "explanation": "Option A is fully correct: au printemps (not en), en été, en automne, en hiver — correct prepositions. Weather descriptions are accurate for each season in France.",
+      "difficulty": "hard",
+      "tags": ["le-temps", "saisons", "review", "full-summary"]
+    }
+  ]
+}

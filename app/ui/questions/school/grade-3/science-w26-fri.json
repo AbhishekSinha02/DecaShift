@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-3-science-w26-fri",
+  "title": "Grade 3 Science — Fri, Jun 27",
+  "description": "Plants Around Us — Day 5 of 5: Mixed review",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3s-w26-fri-001",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "Which part of a plant makes food using sunlight?",
+      "options": ["Root", "Stem", "Leaf", "Flower"],
+      "correctIndex": 2,
+      "explanation": "Leaves make food through photosynthesis using sunlight, water and carbon dioxide.",
+      "difficulty": "easy",
+      "tags": ["plants", "leaf", "photosynthesis", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-002",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "A carrot plant has one thick main root that stores food. This is a:",
+      "options": ["Fibrous root", "Taproot", "Prop root", "Aerial root"],
+      "correctIndex": 1,
+      "explanation": "Carrot has a taproot — the edible part IS the thick taproot that stores nutrients.",
+      "difficulty": "easy",
+      "tags": ["plants", "taproot", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-003",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "Which dispersal method does a dandelion seed use?",
+      "options": ["Water", "Animal (eaten)", "Wind", "Explosive"],
+      "correctIndex": 2,
+      "explanation": "Dandelion seeds have fluffy, hair-like structures (pappus) that allow the wind to carry them far away — wind dispersal.",
+      "difficulty": "easy",
+      "tags": ["plants", "seed-dispersal", "wind", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-004",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "Rice has many thin roots spreading from the base. This is a ___ root.",
+      "options": ["Taproot", "Fibrous", "Aerial", "Prop"],
+      "correctIndex": 1,
+      "explanation": "Rice has fibrous roots — a mass of thin, similar-sized roots spreading from the stem base.",
+      "difficulty": "easy",
+      "tags": ["plants", "fibrous-root", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-005",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "Leaves have two types of venation. The net-like pattern is called:",
+      "options": ["Parallel venation", "Reticulate venation", "Simple venation", "Linear venation"],
+      "correctIndex": 1,
+      "explanation": "Reticulate (net-like) venation has veins branching in a net pattern. Most trees and flowering plants (mango, rose) show reticulate venation.",
+      "difficulty": "easy",
+      "tags": ["plants", "venation", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-006",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "Identify the correct match:",
+      "options": ["Taproot → grass", "Fibrous root → mango", "Woody stem → banyan tree", "Herbaceous stem → banyan tree"],
+      "correctIndex": 2,
+      "explanation": "Banyan tree has a woody stem — hard and durable. Grass and wheat have fibrous roots; mango has a taproot; herbaceous stems are soft (sunflower, tomato).",
+      "difficulty": "medium",
+      "tags": ["plants", "matching", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-007",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "A pod of touch-me-not (Mimosa) bursts open and scatters its seeds. This is:",
+      "options": ["Wind dispersal", "Water dispersal", "Animal dispersal", "Explosive dispersal"],
+      "correctIndex": 3,
+      "explanation": "Touch-me-not (Mimosa) and peas use explosive dispersal — the dried pod bursts and flings seeds outward.",
+      "difficulty": "medium",
+      "tags": ["plants", "seed-dispersal", "explosive", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-008",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "Which of the following is a function of ROOTS?",
+      "options": ["Make food", "Release oxygen", "Absorb water and minerals from soil", "Attract pollinators"],
+      "correctIndex": 2,
+      "explanation": "Roots absorb water and dissolved minerals from the soil and anchor the plant. Making food is done by leaves; attracting pollinators is done by flowers.",
+      "difficulty": "medium",
+      "tags": ["plants", "roots", "function", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-009",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "Why are mango fruits bright yellow and sweet when ripe?",
+      "options": ["To protect the seeds from heat", "To attract animals so they eat the fruit and disperse the seeds", "To store more water", "Yellow colour means the seed is dead"],
+      "correctIndex": 1,
+      "explanation": "Bright colour and sweetness attract fruit-eating animals (birds, monkeys). They eat the fruit and deposit the seed elsewhere — animal seed dispersal.",
+      "difficulty": "medium",
+      "tags": ["plants", "seed-dispersal", "adaptation", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-010",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "Which grass-related plant has parallel venation?",
+      "options": ["Mango", "Wheat", "Peepal", "Rose"],
+      "correctIndex": 1,
+      "explanation": "Wheat is a monocot grass plant with parallel venation. Mango, peepal and rose are dicots with reticulate venation.",
+      "difficulty": "medium",
+      "tags": ["plants", "parallel-venation", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-011",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "What does a stem do for a plant? (Choose the MOST COMPLETE answer)",
+      "options": ["Only supports leaves", "Transports water and minerals from roots to leaves, and food from leaves to all parts; supports the plant structure", "Absorbs sunlight", "Absorbs water from the soil"],
+      "correctIndex": 1,
+      "explanation": "The stem's main jobs: (1) structural support, (2) transport of water/minerals upward (via xylem), (3) transport of food downward (via phloem).",
+      "difficulty": "hard",
+      "tags": ["plants", "stem", "function", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-012",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "A student says 'seeds need sunlight to germinate'. Is this correct?",
+      "options": ["Yes, sunlight is the most important factor", "No — seeds need water, warmth and oxygen for germination; sunlight is needed only AFTER sprouting", "Yes, but only big seeds need sunlight", "Partly correct — some seeds need light, most don't need anything"],
+      "correctIndex": 1,
+      "explanation": "Germination does NOT require sunlight. Seeds germinate underground (no light). They need water (activates enzymes), warmth (provides energy), and oxygen (for respiration). Sunlight is needed only after the seedling emerges.",
+      "difficulty": "hard",
+      "tags": ["plants", "germination", "misconception", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-013",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "Compare fibrous and taproot systems: which helps the plant survive drought better and why?",
+      "options": ["Fibrous — it covers more soil area", "Taproot — it reaches deeper water sources that remain available even when topsoil dries up", "Both are equally drought-resistant", "Neither helps in drought"],
+      "correctIndex": 1,
+      "explanation": "Taproot grows deep, reaching underground water even when the surface soil is dry — giving drought resistance. Fibrous roots are shallow and would dry out sooner in a drought.",
+      "difficulty": "hard",
+      "tags": ["plants", "taproot", "drought", "analysis", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-014",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "A plant community is disturbed — all plants with fibrous roots are removed. What might happen to the soil?",
+      "options": ["Nothing changes", "Topsoil loses its binding — increased erosion by wind and water, loss of fertile topsoil", "Soil becomes more fertile", "Other plants grow faster"],
+      "correctIndex": 1,
+      "explanation": "Fibrous root mats bind topsoil. Remove fibrous-rooted plants (grasses) and the topsoil has nothing holding it together — wind and rain carry it away (erosion), degrading the land.",
+      "difficulty": "hard",
+      "tags": ["plants", "fibrous-root", "ecology", "review"]
+    },
+    {
+      "id": "g3s-w26-fri-015",
+      "goalId": "grade-3-science-w26-fri",
+      "question": "Describe the full journey of a mango seed from the fruit to growing into a new plant.",
+      "options": ["Seed falls, lands in water, floats away, germinates", "Mango ripens and falls → animal eats fruit → seed deposited in droppings → seeds germinate with water and warmth → seedling grows into a new mango tree", "Wind carries the seed → seed lands far away → grows", "Seed is planted by a farmer → waters it → grows with sunlight"],
+      "correctIndex": 1,
+      "explanation": "Mango uses animal dispersal: ripe fruit attracts animals → animal eats fruit → seed passes through digestive system → deposited with droppings in a new location → with water and warmth, the seed germinates → new mango tree grows.",
+      "difficulty": "hard",
+      "tags": ["plants", "seed-dispersal", "mango", "lifecycle", "review"]
+    }
+  ]
+}

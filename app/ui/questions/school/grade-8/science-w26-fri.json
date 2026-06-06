@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-science-w26-fri",
+  "title": "Grade 8 Science — Fri, Jun 27",
+  "description": "Force and Pressure — Day 5 of 5: Full mixed review",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8s-w26-fri-001",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Force is a push or pull. Its SI unit is:",
+      "options": ["Joule", "Pascal", "Newton", "Watt"],
+      "correctIndex": 2,
+      "explanation": "Force SI unit = Newton (N). 1 N = force to accelerate 1 kg by 1 m/s². Pressure SI unit = Pascal (Pa). Energy/work = Joule (J). Power = Watt (W). Named after Isaac Newton.",
+      "difficulty": "easy",
+      "tags": ["force", "SI-unit", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-002",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Pressure formula is P = F/A. A force of 60 N acts on 3 m². Pressure =",
+      "options": ["180 Pa", "20 Pa", "63 Pa", "57 Pa"],
+      "correctIndex": 1,
+      "explanation": "P = F/A = 60/3 = 20 Pa.",
+      "difficulty": "easy",
+      "tags": ["pressure", "calculation", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-003",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Which type of friction is least: static, kinetic, or rolling?",
+      "options": ["Static (highest)", "Kinetic (middle)", "Rolling (least)", "All equal"],
+      "correctIndex": 2,
+      "explanation": "Order (highest to lowest): static > kinetic (sliding) > rolling. Rolling friction is the smallest — that's why wheels were invented. Ball bearings in machines use rolling friction to replace sliding friction, reducing energy waste.",
+      "difficulty": "easy",
+      "tags": ["friction", "order", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-004",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Archimedes' principle: upthrust = weight of fluid ___.",
+      "options": ["Surrounding the object", "Displaced by the object", "In the entire tank", "Above the object"],
+      "correctIndex": 1,
+      "explanation": "Archimedes: upthrust = weight of fluid displaced by the object. Not the surrounding fluid — only the fluid whose volume equals the submerged part of the object. If you submerge 500 cm³ of an object in water: upthrust = weight of 500 cm³ of water = 5 N.",
+      "difficulty": "easy",
+      "tags": ["buoyancy", "Archimedes", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-005",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "A magnet attracting a nail is an example of which type of force?",
+      "options": ["Contact force", "Friction", "Muscular force", "Non-contact force (magnetic)"],
+      "correctIndex": 3,
+      "explanation": "Magnetic force = non-contact force. No physical contact needed between magnet and nail. Other non-contact forces: gravity, electrostatic. Contact forces: friction, normal, tension, muscular, applied force.",
+      "difficulty": "medium",
+      "tags": ["force", "non-contact", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-006",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "A knife cuts better when sharp because:",
+      "options": ["Sharp knife has more mass", "P = F/A — smaller edge area → greater pressure for same force → penetrates material", "Blunt knife has more friction", "Sharp knife is lighter"],
+      "correctIndex": 1,
+      "explanation": "P = F/A. Sharp edge: very small area → huge pressure → cuts easily. Same force, less area = more pressure. Needles, drawing pins, blades all use this principle. Blunt knife: same force, larger area → less pressure → harder to cut.",
+      "difficulty": "medium",
+      "tags": ["pressure", "sharp-knife", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-007",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Lubrication reduces friction by:",
+      "options": ["Hardening surfaces", "Creating a fluid film between surfaces — surfaces glide on fluid (much less than solid-surface friction)", "Increasing weight", "Cooling surfaces"],
+      "correctIndex": 1,
+      "explanation": "Lubricants (oil, grease): thin fluid layer between surfaces → surfaces don't touch directly → fluid friction replaces solid friction (fluid friction << solid friction). Applied to: engine oil, bicycle chain grease, door hinge oil, machine bearings.",
+      "difficulty": "medium",
+      "tags": ["friction", "lubrication", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-008",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "A ship floats in the ocean. The buoyant force on the ship equals:",
+      "options": ["Volume of sea water in the ocean", "Weight of the ship", "Weight of sea water displaced by the ship (equal to ship's weight for floating)", "Pressure at the bottom of the ship"],
+      "correctIndex": 2,
+      "explanation": "Floating condition: buoyant force = weight of ship. Buoyant force = weight of displaced sea water. So: weight of displaced sea water = weight of ship. The ship displaces just enough sea water (equal weight) to stay afloat. Archimedes' principle in practice.",
+      "difficulty": "hard",
+      "tags": ["buoyancy", "ship", "floating", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-009",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Why are mountaineers advised to carry supplemental oxygen above 5,000 m?",
+      "options": ["Air becomes toxic at high altitude", "Atmospheric pressure decreases with altitude → fewer oxygen molecules per breath → breathing becomes difficult", "Temperature makes oxygen disappear", "Oxygen is used to make fire at high altitude"],
+      "correctIndex": 1,
+      "explanation": "Atmospheric pressure decreases with altitude (less air above). Lower pressure → lower oxygen partial pressure → fewer O₂ molecules in each breath → blood carries less oxygen → hypoxia. At Everest (~8,849 m), atmospheric pressure is ~1/3 of sea-level pressure. Supplemental O₂ compensates.",
+      "difficulty": "hard",
+      "tags": ["pressure", "atmospheric", "altitude", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-010",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Net force on a book resting on a table =",
+      "options": ["Weight of the book (downward)", "Normal force (upward)", "Zero — weight (down) and normal force (up) are equal and opposite → balanced forces", "Friction force (horizontal)"],
+      "correctIndex": 2,
+      "explanation": "Book at rest on table: Weight W = mg acts downward. Normal force N = mg acts upward. Net force = W−N = 0. Balanced forces → no acceleration → remains at rest (Newton's 1st law). Friction is zero because the book is not moving or attempting to move horizontally.",
+      "difficulty": "hard",
+      "tags": ["force", "balanced", "net-force", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-011",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Hydraulic press (Pascal's Law): small piston area = 5 cm², large piston area = 500 cm². Force applied on small piston = 100 N. Force on large piston =",
+      "options": ["100 N (same)", "1,000 N", "10,000 N", "200 N"],
+      "correctIndex": 2,
+      "explanation": "Pascal's Law: P₁ = P₂ → F₁/A₁ = F₂/A₂ → F₂ = F₁×A₂/A₁ = 100×500/5 = 100×100 = 10,000 N. This is mechanical advantage of 100×. The hydraulic press multiplies force by area ratio. Used in car jacks, presses, brakes.",
+      "difficulty": "hard",
+      "tags": ["pressure", "Pascal", "hydraulic", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-012",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "An iceberg floats with ~90% submerged. This means:",
+      "options": ["Ice is 90% as dense as water", "Ice density ≈ 0.9 g/cm³, water = 1.0 g/cm³; fraction submerged = ice density/water density = 0.9 → 90% below water", "Most of iceberg is hollow", "Salt water pushes ice down more"],
+      "correctIndex": 1,
+      "explanation": "Fraction submerged = density of object/density of fluid. Ice density ≈ 0.917 g/cm³, water = 1.0 → 91.7% submerged. This is why icebergs are dangerous — most mass is hidden below the waterline. The Titanic struck an iceberg's underwater portion. Direct application of buoyancy and density.",
+      "difficulty": "hard",
+      "tags": ["buoyancy", "iceberg", "density", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-013",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Friction converts kinetic energy to heat. Evidence of this in everyday life:",
+      "options": ["A ball rolling without stopping", "Hands rubbing together become warm; fire made by rubbing sticks; brake discs heating when car stops; tyres warming during driving", "A magnet attracting a nail", "Atmospheric pressure decreasing with altitude"],
+      "correctIndex": 1,
+      "explanation": "Friction → heat: (1) Rub hands together → warm. (2) Rubbing sticks → fire (ancient method). (3) Car brakes → disc and pad heat up (sometimes glow red in emergency braking). (4) Tyre friction with road → tyres warm (hot on long drives). Energy is conserved — kinetic → thermal.",
+      "difficulty": "hard",
+      "tags": ["friction", "energy-conversion", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-014",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Three devices and their forces — match each device to the type of force it uses:\n(A) Hydraulic brake (B) Electromagnet crane (C) Suction cup",
+      "options": ["A=friction, B=gravity, C=buoyancy", "A=fluid pressure (Pascal), B=electromagnetic (non-contact), C=atmospheric pressure", "A=normal force, B=friction, C=magnetic contact", "A=buoyancy, B=electrical, C=gravity"],
+      "correctIndex": 1,
+      "explanation": "A: Hydraulic brake = fluid pressure transmitted by Pascal's Law. B: Electromagnet crane = electromagnetic force (non-contact — magnets attract iron without touching). C: Suction cup = atmospheric pressure — when you press, air is expelled; atmospheric pressure outside holds cup against surface. B ✓.",
+      "difficulty": "hard",
+      "tags": ["force", "pressure", "match", "review"]
+    },
+    {
+      "id": "g8s-w26-fri-015",
+      "goalId": "grade-8-science-w26-fri",
+      "question": "Summary: P = F/A. Both P = F/A and Archimedes' principle depend on the concept of ___; friction depends on ___; buoyancy in a balloon depends on ___.",
+      "options": ["Area / normal force / atmospheric pressure", "Force per area / surface roughness and normal force / density difference between balloon gas and surrounding air", "Volume / speed / temperature", "Mass / gravity / altitude"],
+      "correctIndex": 1,
+      "explanation": "P = F/A: pressure = force per unit area. Friction: depends on normal force (weight pressing down) and surface roughness (coefficient of friction). Hot air balloon buoyancy: hot air inside less dense than outside cool air → upthrust > weight → rises. Three pillars of this week: force, pressure (F/A), friction (surface), buoyancy (density/Archimedes).",
+      "difficulty": "hard",
+      "tags": ["pressure", "friction", "buoyancy", "summary"]
+    }
+  ]
+}

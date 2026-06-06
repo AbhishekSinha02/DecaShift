@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-french-w26-wed",
+  "title": "Grade 8 French — Wed, Jun 25",
+  "description": "Le subjonctif présent — Day 3 of 5: Irregular verbs — aller, pouvoir, savoir, vouloir, faire",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8f-w26-wed-001",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "Five key irregular subjunctive verbs must be memorised. 'Aller' (to go): que j'___, tu ___, il ___, nous ___, vous ___, ils ___",
+      "options": ["vais/vas/va/allons/allez/vont (indicatif présent)", "aille/ailles/aille/allions/alliez/aillent", "allais/allais/allait/allions/alliez/allaient (imparfait)", "irai/iras/ira/irons/irez/iront (futur)"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif d'aller: que j'aille, tu ailles, il/elle aille, nous allions, vous alliez, ils/elles aillent. Completely different from indicatif présent (je vais, etc.). Note: nous allions / vous alliez look like imparfait — context (trigger + 'que') distinguishes them.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "aller", "irregular"]
+    },
+    {
+      "id": "g8f-w26-wed-002",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "Complete: 'Il faut que tu ___ (aller) chez le médecin.'",
+      "options": ["vas", "iras", "ailles", "allais"],
+      "correctIndex": 2,
+      "explanation": "'Il faut que' → subjonctif. aller (subjonctif tu) = ailles. 'Vas' = indicatif présent. 'Iras' = futur simple. 'Allais' = imparfait. Subjonctif aller: j'aille, tu ailles, il aille, nous allions, vous alliez, ils aillent.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "aller", "il-faut-que"]
+    },
+    {
+      "id": "g8f-w26-wed-003",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "'Pouvoir' (to be able to) subjonctif: que je/tu/il = ___, que nous = ___, vous = ___, ils = ___",
+      "options": ["peux/peux/peut/pouvons/pouvez/peuvent (indicatif)", "puisse/puisses/puisse/puissions/puissiez/puissent", "pouvais/pouvais/pouvait/pouvions/pouviez/pouvaient", "pourrai/pourras/pourra/pourrons/pourrez/pourront"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif de pouvoir: que je puisse, tu puisses, il puisse, nous puissions, vous puissiez, ils puissent. The 'puiss-' stem is completely irregular. Example: 'Il faut que tu puisses y aller' (You must be able to go).",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "pouvoir", "irregular"]
+    },
+    {
+      "id": "g8f-w26-wed-004",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "Complete: 'Je veux que vous ___ (pouvoir) venir demain.'",
+      "options": ["pouvez", "pourrez", "puissiez", "pouviez"],
+      "correctIndex": 2,
+      "explanation": "'Je veux que' → subjonctif. pouvoir (subjonctif vous) = puissiez (puiss- + -iez). 'Pouvez' = indicatif. 'Pourrez' = futur. 'Pouviez' = imparfait. 'Puissiez' ✓.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "pouvoir", "vouloir-que"]
+    },
+    {
+      "id": "g8f-w26-wed-005",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "'Savoir' (to know) subjonctif: que je ___, nous ___",
+      "options": ["sais / savons (indicatif)", "sache / sachions", "savais / savions (imparfait)", "saurai / saurons (futur)"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif de savoir: que je sache, tu saches, il sache, nous sachions, vous sachiez, ils sachent. Example: 'Il est important que tu saches la vérité.' (sache → irregular stem 'sach-')",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "savoir", "irregular"]
+    },
+    {
+      "id": "g8f-w26-wed-006",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "'Vouloir' (to want) subjonctif: que tu ___, vous ___",
+      "options": ["veux / voulez (indicatif)", "veuilles / vouliez", "voulais / vouliez (mixed)", "voudrais / voudriez (conditionnel)"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif de vouloir: que je veuille, tu veuilles, il veuille, nous voulions, vous vouliez, ils veuillent. Note: nous/vous use 'voul-' stem (-ions/-iez); je/tu/il/ils use 'veuill-' stem. Example: 'Bien qu'il veuille venir, il ne peut pas.'",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "vouloir", "irregular"]
+    },
+    {
+      "id": "g8f-w26-wed-007",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "'Faire' (to do/make) subjonctif: que je/tu/il ___, que nous ___",
+      "options": ["fais/fais/fait/faisons (indicatif)", "fasse/fasses/fasse/fassions", "faisais/faisais/faisait/faisions", "ferai/feras/fera/ferons"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif de faire: que je fasse, tu fasses, il fasse, nous fassions, vous fassiez, ils fassent. Stem = 'fass-' (irregular). Example: 'Il faut que vous fassiez vos devoirs.' (fassiez = subjonctif vous ✓)",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "faire", "irregular"]
+    },
+    {
+      "id": "g8f-w26-wed-008",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "Complete: 'Je souhaite que nous ___ (faire) un voyage ensemble.'",
+      "options": ["faisons", "ferons", "fassions", "faisions"],
+      "correctIndex": 2,
+      "explanation": "'Je souhaite que' → subjonctif. faire (subjonctif nous) = fassions (fass- + -ions). 'Faisons' = indicatif. 'Ferons' = futur. 'Faisions' = imparfait. 'Fassions' ✓.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "faire", "nous"]
+    },
+    {
+      "id": "g8f-w26-wed-009",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "Which sentence is CORRECT?",
+      "options": ["Il faut qu'il aille à l'école.", "Il faut qu'il va à l'école.", "Il faut qu'il ira à l'école.", "Il faut qu'il allait à l'école."],
+      "correctIndex": 0,
+      "explanation": "A ✓: 'Il faut qu'il aille' — aller subjonctif il/elle = aille. B: 'va' = indicatif (wrong). C: 'ira' = futur (wrong). D: 'allait' = imparfait (wrong). After 'il faut que,' always use subjonctif.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "aller", "il-faut-que", "identify"]
+    },
+    {
+      "id": "g8f-w26-wed-010",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "Error-spot: 'Je veux que tu puisses venir, mais je sais que tu peux décider.'",
+      "options": ["'puisses' is wrong (should be 'peux')", "No error — 'puisses' (vouloir que → subjonctif) and 'peux' (savoir que → indicatif) are both correct", "'peux' is wrong (should be 'puisses')", "'veux' is wrong"],
+      "correctIndex": 1,
+      "explanation": "No error. 'Je veux que tu puisses' ✓ — vouloir que → subjonctif → pouvoir: tu puisses. 'Je sais que tu peux' ✓ — savoir que = certainty → indicatif → pouvoir: tu peux. Both are correct in their respective clauses. This is the core distinction.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "vs-indicatif", "error-check"]
+    },
+    {
+      "id": "g8f-w26-wed-011",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "'Bien qu'il ___ (vouloir) rester, il doit partir.'",
+      "options": ["veut", "voulait", "veuille", "voudrait"],
+      "correctIndex": 2,
+      "explanation": "'Bien que' → subjonctif. vouloir (subjonctif il) = veuille. 'Veut' = indicatif. 'Voulait' = imparfait. 'Voudrait' = conditionnel. 'Veuille' ✓ — from the irregular 'veuill-' stem (je/tu/il/ils forms).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "vouloir", "bien-que"]
+    },
+    {
+      "id": "g8f-w26-wed-012",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "Complete the mini-dialogue:\n'— Il faut que vous ___ (savoir) parler français.\n— Oui, et il faut aussi que nous ___ (pouvoir) l'écrire.'",
+      "options": ["savez / pouvez (indicatif)", "sachiez / puissions", "saurez / pourrons (futur)", "saviez / pouvions (imparfait)"],
+      "correctIndex": 1,
+      "explanation": "Both after 'il faut que' → subjonctif. savoir (vous) = sachiez (sach- + -iez). pouvoir (nous) = puissions (puiss- + -ions). B ✓: sachiez / puissions.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "savoir-pouvoir", "dialogue"]
+    },
+    {
+      "id": "g8f-w26-wed-013",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "Irregular subjonctif stems table — fill in missing stem:\nêtre → soi- | avoir → ai- | aller → ___- | pouvoir → puiss- | faire → fass- | savoir → sach- | vouloir → veuill- (je/il) / voul- (nous/vous)",
+      "options": ["all- (regular)", "aill-", "voy-", "al-"],
+      "correctIndex": 1,
+      "explanation": "aller → subjonctif stem = aill- (for je/tu/il/ils: aille, ailles, aille, aillent). nous/vous use all- stem: allions, alliez. Like vouloir (veuill-/voul-), aller has a dual stem — 'aill-' for singular/ils, 'all-' for nous/vous.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "aller", "stem-table"]
+    },
+    {
+      "id": "g8f-w26-wed-014",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "Translate: 'It is important that you (plural) go and that you know what to do.'",
+      "options": ["Il est important que vous allez et que vous savez quoi faire.", "Il est important que vous alliez et que vous sachiez quoi faire.", "Il est important que vous irez et que vous saurez quoi faire.", "Il est important que vous alliez et que vous saurez quoi faire."],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'Il est important que' → subjonctif. aller (vous subjonctif) = alliez. savoir (vous subjonctif) = sachiez. Both verbs after the same trigger → both in subjonctif. 'Quoi faire' = what to do (infinitif after interrogative quoi ✓).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "aller-savoir", "translate"]
+    },
+    {
+      "id": "g8f-w26-wed-015",
+      "goalId": "grade-8-french-w26-wed",
+      "question": "Which pair of irregular subjonctif forms is CORRECT?",
+      "options": ["aller: nous allons / vouloir: nous voulons", "aller: nous allions / vouloir: nous voulions", "aller: nous aillions / vouloir: nous veuillions", "aller: nous allons / vouloir: nous veuillons"],
+      "correctIndex": 1,
+      "explanation": "B ✓: aller nous = allions (all- + -ions). vouloir nous = voulions (voul- + -ions). Both use the 'nous/vous' stem (not the je/il irregular stem). aller: nous/vous use 'all-' (not 'aill-'). vouloir: nous/vous use 'voul-' (not 'veuill-'). This dual-stem pattern is the same for both verbs.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "aller-vouloir", "nous-form"]
+    }
+  ]
+}

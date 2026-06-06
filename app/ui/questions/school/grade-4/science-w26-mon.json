@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-4-science-w26-mon",
+  "title": "Grade 4 Science — Mon, Jun 23",
+  "description": "Food and Digestion — Day 1 of 5: Mouth, teeth and chewing",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4s-w26-mon-001",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "Digestion begins in the:",
+      "options": ["Stomach", "Small intestine", "Mouth", "Liver"],
+      "correctIndex": 2,
+      "explanation": "Digestion begins in the mouth. Teeth chew (mechanical digestion) and saliva starts breaking down starch (chemical digestion).",
+      "difficulty": "easy",
+      "tags": ["digestion", "mouth", "start"]
+    },
+    {
+      "id": "g4s-w26-mon-002",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "We have two sets of teeth in our lifetime. The first set is called:",
+      "options": ["Permanent teeth", "Wisdom teeth", "Milk teeth / baby teeth", "Molars"],
+      "correctIndex": 2,
+      "explanation": "The first set (20 teeth) are called milk teeth or baby teeth (deciduous teeth). They fall out and are replaced by 32 permanent teeth.",
+      "difficulty": "easy",
+      "tags": ["digestion", "teeth", "milk-teeth"]
+    },
+    {
+      "id": "g4s-w26-mon-003",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "Which type of teeth is used for cutting and biting food?",
+      "options": ["Molars", "Premolars", "Canines", "Incisors"],
+      "correctIndex": 3,
+      "explanation": "Incisors (the four front teeth top and bottom) are sharp and flat — used for cutting and biting food.",
+      "difficulty": "easy",
+      "tags": ["digestion", "teeth", "incisors"]
+    },
+    {
+      "id": "g4s-w26-mon-004",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "What is the function of saliva?",
+      "options": ["To cool food", "To moisten food and begin digesting starch with an enzyme called amylase", "To kill germs only", "To chew food"],
+      "correctIndex": 1,
+      "explanation": "Saliva moistens food (making it easier to swallow) and contains the enzyme amylase which begins breaking down starch (carbohydrate) into simpler sugars.",
+      "difficulty": "easy",
+      "tags": ["digestion", "saliva", "amylase"]
+    },
+    {
+      "id": "g4s-w26-mon-005",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "Canine teeth are sharp and pointed. They are used for:",
+      "options": ["Grinding food", "Cutting bread", "Tearing food (like meat)", "Chewing rice"],
+      "correctIndex": 2,
+      "explanation": "Canines (the pointed teeth next to incisors) are used for tearing tough foods like meat. Humans have 4 canines.",
+      "difficulty": "easy",
+      "tags": ["digestion", "teeth", "canines"]
+    },
+    {
+      "id": "g4s-w26-mon-006",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "Molars are the large, flat teeth at the back. What do they do?",
+      "options": ["Cut food", "Tear meat", "Grind and crush food into small pieces", "Taste food"],
+      "correctIndex": 2,
+      "explanation": "Molars (and premolars) are large, flat teeth used for grinding and crushing food into small pieces before swallowing. Humans have 12 molars.",
+      "difficulty": "medium",
+      "tags": ["digestion", "teeth", "molars"]
+    },
+    {
+      "id": "g4s-w26-mon-007",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "The chewed, moist ball of food ready to be swallowed is called:",
+      "options": ["Chyme", "Bolus", "Enzyme", "Villi"],
+      "correctIndex": 1,
+      "explanation": "The chewed food mixed with saliva and formed into a ball is called a bolus. The tongue shapes the bolus and pushes it to the throat for swallowing.",
+      "difficulty": "medium",
+      "tags": ["digestion", "bolus", "swallowing"]
+    },
+    {
+      "id": "g4s-w26-mon-008",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "How does chewing help digestion?",
+      "options": ["It only makes food taste better", "It breaks food into smaller pieces, increasing surface area for enzymes to act on", "Chewing is not important — the stomach does all the work", "It removes bacteria from food"],
+      "correctIndex": 1,
+      "explanation": "Chewing (mechanical digestion) breaks food into smaller pieces, greatly increasing surface area. More surface area = more contact between food and digestive enzymes = faster and more complete digestion.",
+      "difficulty": "medium",
+      "tags": ["digestion", "chewing", "surface-area"]
+    },
+    {
+      "id": "g4s-w26-mon-009",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "A cow has large, flat molars and almost no canines. What can you infer about its diet?",
+      "options": ["It eats meat primarily", "It eats plants (herbivore) — large molars for grinding grass; no need for canines to tear meat", "It eats both meat and plants", "Teeth shape has no connection to diet"],
+      "correctIndex": 1,
+      "explanation": "Herbivores (plant-eaters) have large molars for grinding plant material and reduced or absent canines. Carnivores (meat-eaters) have large canines for tearing.",
+      "difficulty": "hard",
+      "tags": ["digestion", "teeth", "herbivore-adaptation"]
+    },
+    {
+      "id": "g4s-w26-mon-010",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "A child does not brush her teeth and eats sweets every day. What will likely happen to her teeth?",
+      "options": ["Her teeth will become stronger", "Bacteria will break down sugar to form acid, attacking tooth enamel — leading to tooth decay (cavities)", "Nothing will happen", "Her teeth will become more white"],
+      "correctIndex": 1,
+      "explanation": "Bacteria in the mouth break down sugar into acid. Acid dissolves tooth enamel, causing tooth decay (dental caries/cavities). Regular brushing removes food particles and bacteria.",
+      "difficulty": "hard",
+      "tags": ["digestion", "dental-hygiene", "tooth-decay"]
+    },
+    {
+      "id": "g4s-w26-mon-011",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "Why do we have 4 different types of teeth (incisors, canines, premolars, molars)?",
+      "options": ["For decoration", "Different teeth are specialised for different jobs — cutting, tearing, and grinding — making digestion more efficient", "We do not actually need all four types", "All teeth do the same job"],
+      "correctIndex": 1,
+      "explanation": "Each tooth type is shaped for a specific function: incisors (cut), canines (tear), premolars/molars (grind). This specialisation allows us to process a wide variety of foods efficiently.",
+      "difficulty": "hard",
+      "tags": ["digestion", "teeth", "specialisation"]
+    },
+    {
+      "id": "g4s-w26-mon-012",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "Saliva contains amylase. What type of food does amylase start breaking down?",
+      "options": ["Proteins", "Fats", "Starch (carbohydrates)", "Vitamins"],
+      "correctIndex": 2,
+      "explanation": "Salivary amylase begins the chemical digestion of starch (a carbohydrate), converting it to maltose (a simpler sugar). Protein and fat digestion begin later in the stomach and small intestine.",
+      "difficulty": "hard",
+      "tags": ["digestion", "amylase", "starch"]
+    },
+    {
+      "id": "g4s-w26-mon-013",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "An adult has 32 permanent teeth. How many of each type: incisors, canines, premolars, molars?",
+      "options": ["4 incisors, 4 canines, 4 premolars, 20 molars", "8 incisors, 4 canines, 8 premolars, 12 molars", "4 incisors, 2 canines, 8 premolars, 18 molars", "6 incisors, 6 canines, 6 premolars, 14 molars"],
+      "correctIndex": 1,
+      "explanation": "Adult human teeth: 8 incisors (4 upper, 4 lower), 4 canines (2 upper, 2 lower), 8 premolars (4 upper, 4 lower), 12 molars (6 upper, 6 lower — including 4 wisdom teeth) = 32 total.",
+      "difficulty": "hard",
+      "tags": ["digestion", "teeth", "count"]
+    },
+    {
+      "id": "g4s-w26-mon-014",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "What is enamel and why is it important?",
+      "options": ["Enamel is the soft inner pulp of the tooth", "Enamel is the hard outer covering of the tooth — the hardest substance in the human body; it protects the tooth from damage", "Enamel is a digestive enzyme", "Enamel is the root of the tooth"],
+      "correctIndex": 1,
+      "explanation": "Enamel is the white, hard outer layer of the tooth crown. It is the hardest substance in the human body. It protects the softer dentine underneath. Acid from bacteria erodes enamel — hence tooth decay.",
+      "difficulty": "hard",
+      "tags": ["digestion", "teeth", "enamel"]
+    },
+    {
+      "id": "g4s-w26-mon-015",
+      "goalId": "grade-4-science-w26-mon",
+      "question": "Digestion of which nutrient begins in the mouth? Why doesn't protein digestion begin there?",
+      "options": ["Protein begins in the mouth; starch begins in the stomach", "Starch begins in the mouth (via amylase); protein digestion requires pepsin which is only present in the stomach", "Fat begins in the mouth", "No digestion begins in the mouth"],
+      "correctIndex": 1,
+      "explanation": "Starch digestion begins in the mouth (salivary amylase). Protein digestion requires the enzyme pepsin which only works in the acidic environment of the stomach. Mouth does not produce pepsin.",
+      "difficulty": "hard",
+      "tags": ["digestion", "starch-vs-protein", "enzyme-specificity"]
+    }
+  ]
+}

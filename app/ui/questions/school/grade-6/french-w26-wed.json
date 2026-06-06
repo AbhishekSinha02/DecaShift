@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-french-w26-wed",
+  "title": "Grade 6 French — Wed, Jun 25",
+  "description": "Comparatif et Superlatif — Day 3 of 5: Comparatif de quantité et comparatif des adverbes",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6f-w26-wed-001",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "The comparative of quantity uses 'de' instead of an adjective. What are the three forms?",
+      "options": ["plus que / aussi que / moins que", "plus de + noun + que / autant de + noun + que / moins de + noun + que", "beaucoup / assez / peu", "très / assez / trop"],
+      "correctIndex": 1,
+      "explanation": "Quantity comparison: plus de...que (more...than), autant de...que (as much/many as), moins de...que (less/fewer...than). Example: 'J'ai plus de livres que toi' (I have more books than you).",
+      "difficulty": "easy",
+      "tags": ["comparatif", "quantity", "plus-de"]
+    },
+    {
+      "id": "g6f-w26-wed-002",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Translate: 'She has more friends than me.'",
+      "options": ["Elle a plus amis que moi.", "Elle a plus de amis que moi.", "Elle a plus d'amis que moi.", "Elle est plus amie que moi."],
+      "correctIndex": 2,
+      "explanation": "'Elle a plus d'amis que moi.' ✓ 'Plus de' + noun. Before a vowel: 'de' → 'd'' (elision): 'plus de amis' → 'plus d'amis.' Not 'plus amis' (missing 'de').",
+      "difficulty": "easy",
+      "tags": ["comparatif", "quantity", "elision"]
+    },
+    {
+      "id": "g6f-w26-wed-003",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Translate: 'He eats as much food as his brother.'",
+      "options": ["Il mange plus de nourriture que son frère.", "Il mange autant de nourriture que son frère.", "Il mange moins de nourriture que son frère.", "Il mange autant nourriture son frère."],
+      "correctIndex": 1,
+      "explanation": "'Il mange autant de nourriture que son frère.' ✓ 'Autant de...que' = as much...as. 'Nourriture' = food. 'Son frère' = his brother.",
+      "difficulty": "easy",
+      "tags": ["comparatif", "quantity", "autant-de"]
+    },
+    {
+      "id": "g6f-w26-wed-004",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Compare adverbs: 'Thomas runs faster than Luc.' How do you say this?",
+      "options": ["Thomas court plus vite que Luc.", "Thomas est plus vite que Luc.", "Thomas court très vite que Luc.", "Thomas plus vite court que Luc."],
+      "correctIndex": 0,
+      "explanation": "'Thomas court plus vite que Luc.' ✓ Adverb comparison: verb + plus/aussi/moins + adverb + que. 'Court' = runs (from 'courir'). 'Vite' = fast. No adjective agreement needed for adverbs.",
+      "difficulty": "medium",
+      "tags": ["comparatif", "adverbs", "vite"]
+    },
+    {
+      "id": "g6f-w26-wed-005",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "The irregular comparative of 'bien' (well/adverb) is:",
+      "options": ["plus bien", "mieux", "le mieux", "aussi bien"],
+      "correctIndex": 1,
+      "explanation": "'Bien' (adverb) → comparative = 'mieux' (better). NOT 'plus bien.' 'Il chante mieux que moi.' = He sings better than me. Superlative = 'le mieux' (the best — adverb).",
+      "difficulty": "medium",
+      "tags": ["comparatif", "irregular", "bien-mieux"]
+    },
+    {
+      "id": "g6f-w26-wed-006",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Translate: 'I work less than you.'",
+      "options": ["Je travaille aussi que toi.", "Je travaille moins que toi.", "Je travaille plus que toi.", "Je moins travaille que toi."],
+      "correctIndex": 1,
+      "explanation": "'Je travaille moins que toi.' ✓ Adverb comparison with 'moins...que' (less...than). 'Travaille' = work (verb). No adjective involved.",
+      "difficulty": "medium",
+      "tags": ["comparatif", "adverbs", "moins-que"]
+    },
+    {
+      "id": "g6f-w26-wed-007",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "What is the difference between 'plus grand que' (adjective) and 'plus de + noun + que'?",
+      "options": ["They are the same", "'Plus grand que' compares qualities (adjective: Il est plus grand); 'plus de livres que' compares quantities (noun: He has more books)", "'Plus de' is only for food", "Both require adjective agreement"],
+      "correctIndex": 1,
+      "explanation": "Adjective comparison: quality (big, tall, fast). Quantity comparison: amount of something (livres, argent, temps). 'Il est plus grand.' vs 'Il a plus de livres.' — different structures for different types of comparison.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "adjective-vs-quantity"]
+    },
+    {
+      "id": "g6f-w26-wed-008",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Spot the error: 'Elle a autant de amis que son frère.'",
+      "options": ["No error", "'autant de amis' should be 'autant d'amis' — 'de' elides before a vowel: de + amis → d'amis", "'autant' should be 'aussi'", "'son frère' should be 'sa sœur'"],
+      "correctIndex": 1,
+      "explanation": "Elision rule: 'de' + vowel/h-muet → 'd''. So 'autant de amis' → 'autant d'amis.' This is a standard French contraction rule. Correct: 'Elle a autant d'amis que son frère.'",
+      "difficulty": "hard",
+      "tags": ["comparatif", "quantity", "elision-error"]
+    },
+    {
+      "id": "g6f-w26-wed-009",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Translate: 'She speaks French better than her teacher.'",
+      "options": ["Elle parle le français plus bien que son professeur.", "Elle parle mieux le français que son professeur.", "Elle parle le français bien que son professeur.", "Elle est mieux le français que son professeur."],
+      "correctIndex": 1,
+      "explanation": "'Elle parle mieux le français que son professeur.' ✓ 'Bien' → 'mieux' (adverb comparative, irregular). 'Parle' = speaks. 'Son professeur' = her teacher.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "mieux", "adverb"]
+    },
+    {
+      "id": "g6f-w26-wed-010",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Comparing verb actions: 'Marc reads more than Paul.' — which structure?",
+      "options": ["Marc est plus liseur que Paul.", "Marc lit plus que Paul.", "Marc a plus de lecture que Paul.", "Marc lit plus livres que Paul."],
+      "correctIndex": 1,
+      "explanation": "'Marc lit plus que Paul.' = Marc reads more than Paul. Simple verb comparison: verb + plus/aussi/moins + que. No noun, no adjective needed.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "verb-comparison"]
+    },
+    {
+      "id": "g6f-w26-wed-011",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "'J'ai moins de temps que toi.' — What type of comparison is this?",
+      "options": ["Comparatif d'adjectifs", "Comparatif de quantité — compares the quantity of 'temps' (time)", "Comparatif d'adverbes", "Superlatif"],
+      "correctIndex": 1,
+      "explanation": "'Moins de temps que toi' = less time than you. 'Temps' (time) is a noun → this is a quantity comparison ('moins de' + noun + 'que'). Compare with adjective: 'Je suis moins grand que toi.'",
+      "difficulty": "hard",
+      "tags": ["comparatif", "quantity", "identify"]
+    },
+    {
+      "id": "g6f-w26-wed-012",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Why can't you say 'Il chante plus bien que moi'?",
+      "options": ["'Chante' is wrong", "Because 'bien' is irregular — its comparative form is 'mieux' (not 'plus bien'). Saying 'plus bien' doubles the comparison concept unnecessarily — French uses the dedicated irregular form", "'Plus' cannot precede adverbs", "There is no error"],
+      "correctIndex": 1,
+      "explanation": "Like 'bon → meilleur' for adjectives, 'bien → mieux' for adverbs. The irregular form already contains the comparison meaning. 'Plus bien' is a common learner error. Correct: 'Il chante mieux que moi.'",
+      "difficulty": "hard",
+      "tags": ["comparatif", "bien-mieux", "why-irregular"]
+    },
+    {
+      "id": "g6f-w26-wed-013",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Make a comparison of quantity: 'France has more cities than Senegal.'",
+      "options": ["La France est plus grande que le Sénégal.", "La France a plus de villes que le Sénégal.", "La France a autant de villes que le Sénégal.", "La France est plus villes que le Sénégal."],
+      "correctIndex": 1,
+      "explanation": "'La France a plus de villes que le Sénégal.' ✓ Quantity comparison: 'plus de' + noun (villes) + 'que.' Not adjective comparison (which would describe the country's quality, not the number of cities).",
+      "difficulty": "hard",
+      "tags": ["comparatif", "quantity", "geography"]
+    },
+    {
+      "id": "g6f-w26-wed-014",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Compare adverbs using 'rapidement' (quickly): 'The train goes as quickly as the plane for short distances.'",
+      "options": ["Le train va plus rapidement que l'avion.", "Le train va aussi rapidement que l'avion pour les courtes distances.", "Le train va moins rapidement que l'avion.", "Le train rapidement l'avion."],
+      "correctIndex": 1,
+      "explanation": "'Le train va aussi rapidement que l'avion pour les courtes distances.' ✓ 'Aussi...que' = as...as (equality). 'Rapidement' is a long adverb (ends in -ment). 'Va' = goes (from 'aller').",
+      "difficulty": "hard",
+      "tags": ["comparatif", "adverbs", "aussi-que"]
+    },
+    {
+      "id": "g6f-w26-wed-015",
+      "goalId": "grade-6-french-w26-wed",
+      "question": "Rewrite using the superlative of quantity: '___ de tous mes amis, c'est Luc qui lit ___.' (Luc reads the most of all friends)",
+      "options": ["Parmi tous mes amis, c'est Luc qui lit le plus.", "Parmi tous mes amis, c'est Luc qui est le plus lisant.", "Parmi tous mes amis, Luc lit plus que.", "Parmi tous mes amis, c'est Luc qui est le meilleur lecteur."],
+      "correctIndex": 0,
+      "explanation": "'Parmi tous mes amis, c'est Luc qui lit le plus.' ✓ 'C'est...qui' = emphatic structure (It's Luc who). 'Lit le plus' = reads the most (superlative of verb quantity). 'Parmi' = among.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "superlative-verb", "parmi"]
+    }
+  ]
+}

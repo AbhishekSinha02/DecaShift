@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-math-w26-fri",
+  "title": "Grade 6 Math — Fri, Jun 27",
+  "description": "Mensuration — Day 5 of 5: Full mixed review — perimeter, area, composite figures",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6m-w26-fri-001",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "Perimeter of a rectangle with length 18 cm and breadth 11 cm =",
+      "options": ["29 cm", "58 cm", "198 cm", "36 cm"],
+      "correctIndex": 1,
+      "explanation": "P = 2(l + b) = 2(18 + 11) = 2 × 29 = 58 cm.",
+      "difficulty": "easy",
+      "tags": ["perimeter", "rectangle"]
+    },
+    {
+      "id": "g6m-w26-fri-002",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "Area of a square with side 13 cm =",
+      "options": ["26 cm²", "52 cm²", "169 cm²", "196 cm²"],
+      "correctIndex": 2,
+      "explanation": "Area = side² = 13² = 169 cm².",
+      "difficulty": "easy",
+      "tags": ["area", "square"]
+    },
+    {
+      "id": "g6m-w26-fri-003",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "A triangle has base 14 cm and height 9 cm. Area =",
+      "options": ["63 cm²", "126 cm²", "23 cm²", "46 cm²"],
+      "correctIndex": 0,
+      "explanation": "Area = ½ × base × height = ½ × 14 × 9 = 63 cm².",
+      "difficulty": "easy",
+      "tags": ["area", "triangle"]
+    },
+    {
+      "id": "g6m-w26-fri-004",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "Area of a parallelogram with base 15 m and height 8 m =",
+      "options": ["23 m²", "60 m²", "120 m²", "240 m²"],
+      "correctIndex": 2,
+      "explanation": "Area of parallelogram = base × height = 15 × 8 = 120 m². (Not ½ × base × height — that's the triangle.)",
+      "difficulty": "easy",
+      "tags": ["area", "parallelogram"]
+    },
+    {
+      "id": "g6m-w26-fri-005",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "Perimeter of an equilateral triangle with side 17 cm =",
+      "options": ["34 cm", "51 cm", "68 cm", "289 cm"],
+      "correctIndex": 1,
+      "explanation": "Equilateral triangle: all 3 sides equal. P = 3 × 17 = 51 cm.",
+      "difficulty": "easy",
+      "tags": ["perimeter", "triangle", "equilateral"]
+    },
+    {
+      "id": "g6m-w26-fri-006",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "A rhombus has diagonals of 16 cm and 12 cm. Area =",
+      "options": ["28 cm²", "96 cm²", "192 cm²", "144 cm²"],
+      "correctIndex": 1,
+      "explanation": "Area of rhombus = ½ × d₁ × d₂ = ½ × 16 × 12 = 96 cm².",
+      "difficulty": "medium",
+      "tags": ["area", "rhombus", "diagonals"]
+    },
+    {
+      "id": "g6m-w26-fri-007",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "An L-shaped figure: a 10×8 m rectangle with a 4×3 m piece removed from one corner. Area =",
+      "options": ["68 m²", "74 m²", "80 m²", "92 m²"],
+      "correctIndex": 0,
+      "explanation": "Full rectangle = 10×8 = 80 m². Removed piece = 4×3 = 12 m². L-shape area = 80 − 12 = 68 m².",
+      "difficulty": "medium",
+      "tags": ["area", "L-shape", "composite"]
+    },
+    {
+      "id": "g6m-w26-fri-008",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "A square field has area 625 m². Cost of fencing at ₹15 per metre =",
+      "options": ["₹750", "₹1,200", "₹1,500", "₹9,375"],
+      "correctIndex": 2,
+      "explanation": "Area = s² = 625 → s = 25 m. Perimeter = 4 × 25 = 100 m. Cost = 100 × 15 = ₹1,500.",
+      "difficulty": "medium",
+      "tags": ["perimeter", "square", "cost", "find-side"]
+    },
+    {
+      "id": "g6m-w26-fri-009",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "A rectangular swimming pool is 40 m × 25 m. A path 2 m wide runs inside the pool's edge for safety. Area of the swimming zone =",
+      "options": ["756 m²", "864 m²", "1,000 m²", "400 m²"],
+      "correctIndex": 0,
+      "explanation": "Inner swimming zone: (40−4) × (25−4) = 36 × 21 = 756 m². (Subtract 2 m path from each side: 2×2=4 from each dimension.)",
+      "difficulty": "hard",
+      "tags": ["area", "inner-rectangle", "path-inside"]
+    },
+    {
+      "id": "g6m-w26-fri-010",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "A rectangular plot (30 m × 20 m) has a path 2.5 m wide running around the OUTSIDE. Area of path only =",
+      "options": ["262.5 m²", "275 m²", "285 m²", "600 m²"],
+      "correctIndex": 1,
+      "explanation": "Outer dimensions: (30+5) × (20+5) = 35 × 25 = 875 m². Inner plot = 30×20 = 600 m². Path = 875 − 600 = 275 m².",
+      "difficulty": "hard",
+      "tags": ["area", "border-path", "outside"]
+    },
+    {
+      "id": "g6m-w26-fri-011",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "A rectangular field 120 m × 90 m. A farmer walks along the diagonal (use: diagonal² = l² + b²). Which is closest to the diagonal length?",
+      "options": ["150 m", "175 m", "180 m", "210 m"],
+      "correctIndex": 0,
+      "explanation": "Diagonal² = 120² + 90² = 14,400 + 8,100 = 22,500. Diagonal = √22,500 = 150 m. (Pythagorean triple: 90-120-150 = 3-4-5 scaled by 30.)",
+      "difficulty": "hard",
+      "tags": ["mensuration", "diagonal", "pythagoras"]
+    },
+    {
+      "id": "g6m-w26-fri-012",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "A playground has a rectangular section (50 m × 30 m) and a triangular section attached to one end (base 30 m, height 20 m). Total area =",
+      "options": ["1,500 m²", "1,700 m²", "1,800 m²", "2,100 m²"],
+      "correctIndex": 2,
+      "explanation": "Rectangle = 50×30 = 1,500 m². Triangle = ½×30×20 = 300 m². Total = 1,500 + 300 = 1,800 m².",
+      "difficulty": "hard",
+      "tags": ["area", "composite", "rectangle-triangle"]
+    },
+    {
+      "id": "g6m-w26-fri-013",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "Rectangle A: 36 m × 25 m. Rectangle B: 45 m × 20 m. Which has greater perimeter?",
+      "options": ["A has greater perimeter (122 m)", "B has greater perimeter (130 m)", "Both have equal perimeters (122 m)", "Both have equal perimeters (130 m)"],
+      "correctIndex": 1,
+      "explanation": "P(A) = 2(36+25) = 2×61 = 122 m. P(B) = 2(45+20) = 2×65 = 130 m. B has the greater perimeter (130 m > 122 m). Note: area(A) = 36×25 = 900 m² = area(B) = 45×20 = 900 m² — same area but different perimeters!",
+      "difficulty": "hard",
+      "tags": ["perimeter", "comparison", "same-area"]
+    },
+    {
+      "id": "g6m-w26-fri-014",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "A kite has diagonals 24 cm and 10 cm. Area =",
+      "options": ["34 cm²", "120 cm²", "240 cm²", "480 cm²"],
+      "correctIndex": 1,
+      "explanation": "Area of kite = ½ × d₁ × d₂ = ½ × 24 × 10 = 120 cm². (Same formula as rhombus.)",
+      "difficulty": "hard",
+      "tags": ["area", "kite", "diagonals"]
+    },
+    {
+      "id": "g6m-w26-fri-015",
+      "goalId": "grade-6-math-w26-fri",
+      "question": "A 10 m × 8 m hall floor needs tiles of 50 cm × 40 cm. How many tiles are needed?",
+      "options": ["200", "300", "400", "500"],
+      "correctIndex": 2,
+      "explanation": "Convert: hall = 1,000 cm × 800 cm. Tile = 50×40 = 2,000 cm². Hall area = 1,000×800 = 800,000 cm². Tiles = 800,000 ÷ 2,000 = 400.",
+      "difficulty": "hard",
+      "tags": ["area", "tiling", "unit-conversion"]
+    }
+  ]
+}

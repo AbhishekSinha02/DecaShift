@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-4-french-w26-wed",
+  "title": "Grade 4 French — Wed, Jun 25",
+  "description": "Le temps et les saisons — Day 3 of 5: Les quatre saisons (The four seasons)",
+  "subject": "french",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "le-temps",
+  "tags": ["french", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4f-w26-wed-001",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "How do you say 'the four seasons' in French?",
+      "options": ["les quatre temps", "les quatre saisons", "les quatre mois", "les quatre années"],
+      "correctIndex": 1,
+      "explanation": "'Les quatre saisons' = the four seasons. 'Saison' (feminine, plural: saisons). 'Quatre' = four.",
+      "difficulty": "easy",
+      "tags": ["saisons", "vocabulary"]
+    },
+    {
+      "id": "g4f-w26-wed-002",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "Which season comes after 'l'été' (summer) in France?",
+      "options": ["le printemps (spring)", "l'hiver (winter)", "l'automne (autumn)", "la pluie (rain)"],
+      "correctIndex": 2,
+      "explanation": "The sequence: le printemps (spring) → l'été (summer) → l'automne (autumn) → l'hiver (winter). After summer comes autumn.",
+      "difficulty": "easy",
+      "tags": ["saisons", "sequence"]
+    },
+    {
+      "id": "g4f-w26-wed-003",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "How do you say 'In summer, the weather is hot' in French?",
+      "options": ["Au printemps, il fait chaud.", "En été, il fait chaud.", "En hiver, il fait chaud.", "En automne, il fait chaud."],
+      "correctIndex": 1,
+      "explanation": "'En été, il fait chaud.' ✓ 'Été' = summer. Use 'en' with all seasons EXCEPT 'printemps' which uses 'au' (au printemps).",
+      "difficulty": "easy",
+      "tags": ["saisons", "weather", "en-ete"]
+    },
+    {
+      "id": "g4f-w26-wed-004",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "'Au printemps' means:",
+      "options": ["In autumn", "In winter", "In spring", "In summer"],
+      "correctIndex": 2,
+      "explanation": "'Au printemps' = in spring. Printemps uses 'au' (not 'en') because it is a masculine noun. The others use 'en': en été, en automne, en hiver.",
+      "difficulty": "easy",
+      "tags": ["saisons", "au-printemps"]
+    },
+    {
+      "id": "g4f-w26-wed-005",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "In France, which season is known for colourful leaves and harvest?",
+      "options": ["le printemps", "l'été", "l'automne", "l'hiver"],
+      "correctIndex": 2,
+      "explanation": "'L'automne' (autumn/fall) — leaves turn red, orange and gold; harvest time. In French, 'les feuilles tombent' (the leaves fall) is a classic autumn description.",
+      "difficulty": "medium",
+      "tags": ["saisons", "automne", "culture"]
+    },
+    {
+      "id": "g4f-w26-wed-006",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "Complete: 'En hiver, ___ et ___ souvent.'",
+      "options": ["il fait chaud et il pleut", "il fait froid et il neige", "il fait beau et il y a du soleil", "il fait frais et il y a des fleurs"],
+      "correctIndex": 1,
+      "explanation": "'En hiver, il fait froid et il neige souvent.' = In winter, it is cold and it often snows. 'Souvent' = often. Classic winter weather description.",
+      "difficulty": "medium",
+      "tags": ["saisons", "hiver", "weather"]
+    },
+    {
+      "id": "g4f-w26-wed-007",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "Which is correct for 'Spring has flowers and mild weather'?",
+      "options": ["Au printemps, il y a des fleurs et il fait doux.", "En printemps, il y a des fleurs.", "Au printemps, il fait froid.", "Printemps est beau."],
+      "correctIndex": 0,
+      "explanation": "'Au printemps, il y a des fleurs et il fait doux.' ✓ 'Des fleurs' = flowers. 'Il fait doux' = the weather is mild/pleasant. Note 'au' (not 'en') with printemps.",
+      "difficulty": "medium",
+      "tags": ["saisons", "printemps", "il-fait-doux"]
+    },
+    {
+      "id": "g4f-w26-wed-008",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "Match the season with its French description. 'Les enfants jouent à la plage et vont en vacances.'",
+      "options": ["l'hiver", "le printemps", "l'été", "l'automne"],
+      "correctIndex": 2,
+      "explanation": "'Les enfants jouent à la plage' (children play on the beach) 'et vont en vacances' (and go on holiday) — this is classic summer (l'été) activity in France.",
+      "difficulty": "medium",
+      "tags": ["saisons", "ete", "activities"]
+    },
+    {
+      "id": "g4f-w26-wed-009",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "Spot the grammar error: 'En hiver, il fait du neige et il fait froid.'",
+      "options": ["'En hiver' is wrong", "'il fait du neige' — should be 'il neige' (neiger is an impersonal verb, not 'faire + du neige')", "'il fait froid' is wrong", "There is no error"],
+      "correctIndex": 1,
+      "explanation": "'Il fait du neige' is incorrect. Snow uses the verb 'neiger': 'il neige.' (Never 'il fait du neige'.) Correct sentence: 'En hiver, il neige et il fait froid.'",
+      "difficulty": "hard",
+      "tags": ["saisons", "error-detection", "il-neige"]
+    },
+    {
+      "id": "g4f-w26-wed-010",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "France has 4 seasons. In India, we often describe a different seasonal pattern. How would you say 'In India, there is a rainy season' in French?",
+      "options": ["En Inde, il y a une saison des pluies.", "En Inde, le printemps est long.", "En Inde, il neige beaucoup.", "L'Inde n'a pas de saisons."],
+      "correctIndex": 0,
+      "explanation": "'En Inde, il y a une saison des pluies.' = In India, there is a rainy season. 'Une saison des pluies' = a rainy season (monsoon). 'En Inde' = in India.",
+      "difficulty": "hard",
+      "tags": ["saisons", "india", "saison-des-pluies"]
+    },
+    {
+      "id": "g4f-w26-wed-011",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "Why does French use 'au printemps' but 'en été / en automne / en hiver'?",
+      "options": ["It is a random exception", "'Printemps' is masculine, so 'en' + le = 'au' (contraction). The other seasons are also masculine but 'au' is used only with printemps by convention in some analyses; in practice: au printemps is the fixed form and en is used for the rest.", "Printemps is feminine", "This rule does not exist"],
+      "correctIndex": 1,
+      "explanation": "The rule is simply: 'au printemps' (fixed expression) and 'en été/en automne/en hiver'. Students must memorise this usage. The preposition difference is a fixed grammatical feature of French seasonal expressions.",
+      "difficulty": "hard",
+      "tags": ["saisons", "grammar", "au-vs-en"]
+    },
+    {
+      "id": "g4f-w26-wed-012",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "Seasonal description: 'Les arbres perdent leurs feuilles et les jours raccourcissent.' Which season?",
+      "options": ["l'été", "l'hiver", "l'automne", "le printemps"],
+      "correctIndex": 2,
+      "explanation": "'Les arbres perdent leurs feuilles' (trees lose their leaves) and 'les jours raccourcissent' (the days get shorter) — both are characteristic of 'l'automne' (autumn).",
+      "difficulty": "hard",
+      "tags": ["saisons", "automne", "reading"]
+    },
+    {
+      "id": "g4f-w26-wed-013",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "Write a full description of spring in French: best choice?",
+      "options": ["Au printemps il neige.", "Au printemps, il fait doux, les fleurs poussent et les oiseaux chantent.", "Au printemps, il fait très froid.", "Au printemps, il y a du brouillard partout."],
+      "correctIndex": 1,
+      "explanation": "'Au printemps, il fait doux (mild), les fleurs poussent (flowers grow) et les oiseaux chantent (birds sing).' This is accurate, rich and grammatically correct.",
+      "difficulty": "hard",
+      "tags": ["saisons", "printemps", "description"]
+    },
+    {
+      "id": "g4f-w26-wed-014",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "Order the seasons starting from the coldest to the hottest: ___, ___, ___, ___",
+      "options": ["l'été, l'automne, le printemps, l'hiver", "l'hiver, le printemps, l'automne, l'été", "l'hiver, le printemps, l'été, l'automne", "le printemps, l'hiver, l'automne, l'été"],
+      "correctIndex": 2,
+      "explanation": "Coldest → hottest: l'hiver (winter, coldest) → le printemps (spring, mild) → l'été (summer, hottest) → l'automne (autumn, cooling). Note: l'automne is placed last as it cools down from summer.",
+      "difficulty": "hard",
+      "tags": ["saisons", "ordering", "temperature"]
+    },
+    {
+      "id": "g4f-w26-wed-015",
+      "goalId": "grade-4-french-w26-wed",
+      "question": "Complete all four season descriptions: 'Au printemps ___, en été ___, en automne ___, en hiver ___.'",
+      "options": ["il neige / il fait froid / il fait beau / il fait chaud", "il fait doux / il fait chaud / les feuilles tombent / il neige", "il pleut / il fait beau / il fait froid / il fait doux", "il fait chaud / il neige / il fait doux / les fleurs poussent"],
+      "correctIndex": 1,
+      "explanation": "Au printemps il fait doux ✓. En été il fait chaud ✓. En automne les feuilles tombent ✓. En hiver il neige ✓. Each description is the most typical/characteristic for that season in France.",
+      "difficulty": "hard",
+      "tags": ["saisons", "all-four", "summary"]
+    }
+  ]
+}

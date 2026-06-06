@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-french-w26-mon",
+  "title": "Grade 7 French — Mon, Jun 23",
+  "description": "Pronoms relatifs — Day 1 of 5: 'qui' (subject relative pronoun)",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7f-w26-mon-001",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "What is a relative pronoun ('pronom relatif') used for?",
+      "options": ["To ask a question", "To link two clauses, replacing a noun and giving more information about it — creating a relative clause", "To compare two things", "To express time"],
+      "correctIndex": 1,
+      "explanation": "Relative pronoun: joins two sentences into one. Example: 'J'ai un chat. Le chat est blanc.' → 'J'ai un chat qui est blanc.' (I have a cat that is white.) 'Qui' replaces 'le chat' (subject of the second clause).",
+      "difficulty": "easy",
+      "tags": ["pronom-relatif", "definition", "qui"]
+    },
+    {
+      "id": "g7f-w26-mon-002",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "'Qui' is used when the relative pronoun is the ___ of the relative clause.",
+      "options": ["Direct object", "Subject — 'qui' replaces a noun that is doing the action in the clause", "Indirect object", "Location"],
+      "correctIndex": 1,
+      "explanation": "'Qui' = subject relative pronoun. In 'J'ai un ami qui parle français', 'qui' is the subject of 'parle' (he speaks). 'Qui' can refer to people OR things. Never elides: 'qui' stays 'qui' even before a vowel.",
+      "difficulty": "easy",
+      "tags": ["qui", "subject", "function"]
+    },
+    {
+      "id": "g7f-w26-mon-003",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "Join: 'C'est un livre. Le livre est intéressant.' using 'qui'.",
+      "options": ["C'est un livre que est intéressant.", "C'est un livre qui est intéressant.", "C'est un livre dont est intéressant.", "C'est un livre où est intéressant."],
+      "correctIndex": 1,
+      "explanation": "'C'est un livre qui est intéressant.' ✓ 'Qui' replaces 'le livre' as the subject of 'est intéressant.' Test: 'qui' = the book IS interesting (book = subject of 'est').",
+      "difficulty": "easy",
+      "tags": ["qui", "join-sentences", "thing"]
+    },
+    {
+      "id": "g7f-w26-mon-004",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "Fill in: 'Je connais une fille ___ chante très bien.'",
+      "options": ["que", "qui", "où", "dont"],
+      "correctIndex": 1,
+      "explanation": "'Je connais une fille qui chante très bien.' ✓ 'Qui' because 'fille' is the subject of 'chante' (she sings). Test: Can you put 'elle' where the blank is? 'Elle chante très bien' → yes → use 'qui.'",
+      "difficulty": "easy",
+      "tags": ["qui", "fill-in", "person"]
+    },
+    {
+      "id": "g7f-w26-mon-005",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "The verb in a 'qui' clause agrees with:",
+      "options": ["Always the masculine singular", "The noun that 'qui' replaces — the antecedent", "The subject of the main clause only", "Always the plural"],
+      "correctIndex": 1,
+      "explanation": "'Qui' agrees with its antecedent. Example: 'Ce sont les élèves qui sont intelligents.' (plural, masculine) vs 'C'est la fille qui est intelligente.' (singular, feminine). The verb conjugates for the replaced noun.",
+      "difficulty": "medium",
+      "tags": ["qui", "agreement", "antecedent"]
+    },
+    {
+      "id": "g7f-w26-mon-006",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "Translate: 'I have a dog that barks a lot.'",
+      "options": ["J'ai un chien que aboie beaucoup.", "J'ai un chien qui aboie beaucoup.", "J'ai un chien dont aboie beaucoup.", "J'ai un chien aboie beaucoup."],
+      "correctIndex": 1,
+      "explanation": "'J'ai un chien qui aboie beaucoup.' ✓ 'Chien' = subject of 'aboie' → use 'qui.' 'Que' would be for object. 'Aboyer' = to bark. No elision with 'qui.'",
+      "difficulty": "medium",
+      "tags": ["qui", "translate", "animal"]
+    },
+    {
+      "id": "g7f-w26-mon-007",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "Join: 'Voici l'homme. L'homme a trouvé mon sac.'",
+      "options": ["Voici l'homme que a trouvé mon sac.", "Voici l'homme qui a trouvé mon sac.", "Voici l'homme où a trouvé mon sac.", "Voici l'homme dont a trouvé mon sac."],
+      "correctIndex": 1,
+      "explanation": "'Voici l'homme qui a trouvé mon sac.' ✓ 'L'homme' is the subject of 'a trouvé' → 'qui.' Notice: 'qui' doesn't elide before 'a' (unlike 'que' which becomes 'qu' before a vowel).",
+      "difficulty": "medium",
+      "tags": ["qui", "join", "person", "passé-composé"]
+    },
+    {
+      "id": "g7f-w26-mon-008",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "Spot the error: 'C'est le professeur qu'explique bien.'",
+      "options": ["No error", "'qu'' should be 'qui' — 'qui' never elides. 'Que' (not 'qui') elides to 'qu'' before a vowel. Correct: 'C'est le professeur qui explique bien.'", "'explique' is wrong", "'professeur' needs an article"],
+      "correctIndex": 1,
+      "explanation": "'Qui' NEVER elides — it stays 'qui' even before a vowel: 'qui est,' 'qui aime,' 'qui a.' Only 'que' elides to 'qu'' before a vowel/h-muet. Correct: 'le professeur qui explique bien.'",
+      "difficulty": "hard",
+      "tags": ["qui", "no-elision", "error-correction"]
+    },
+    {
+      "id": "g7f-w26-mon-009",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "'Qui' can replace a noun referring to:",
+      "options": ["Only people", "Only animals", "Both people AND things/animals — 'qui' is not restricted to animate beings", "Only abstract nouns"],
+      "correctIndex": 2,
+      "explanation": "'Qui' replaces any noun that is the subject of the relative clause — people, animals, or things. 'J'ai un chat qui dort.' (thing/animal) ✓. 'J'ai une amie qui danse.' (person) ✓.",
+      "difficulty": "hard",
+      "tags": ["qui", "animate-inanimate", "usage"]
+    },
+    {
+      "id": "g7f-w26-mon-010",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "Combine into one sentence: 'Il y a un bus. Ce bus va à l'aéroport.'",
+      "options": ["Il y a un bus qui va à l'aéroport.", "Il y a un bus que va à l'aéroport.", "Il y a un bus où va à l'aéroport.", "Il y a un bus dont va à l'aéroport."],
+      "correctIndex": 0,
+      "explanation": "'Il y a un bus qui va à l'aéroport.' ✓ 'Bus' = subject of 'va' → 'qui.' 'Aéroport' = airport. The relative clause adds information about the bus.",
+      "difficulty": "hard",
+      "tags": ["qui", "combine", "transportation"]
+    },
+    {
+      "id": "g7f-w26-mon-011",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "Which TWO relative pronouns can you learn this week? What are their roles?",
+      "options": ["qui and que — both replace subjects", "qui (subject) and que (direct object) — key distinction: qui = the noun DOES the action; que = the noun RECEIVES the action", "qui and où — both replace people", "qui and dont — both replace subjects"],
+      "correctIndex": 1,
+      "explanation": "'Qui' = subject (does the action). 'Que' = direct object (receives the action). This is the most important distinction. 'L'homme qui mange.' (man = subject of eat) vs 'Le repas que je mange.' (meal = object of eat).",
+      "difficulty": "hard",
+      "tags": ["pronom-relatif", "qui-vs-que", "preview"]
+    },
+    {
+      "id": "g7f-w26-mon-012",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "In 'C'est une ville qui est très belle.' — what does 'qui' refer to?",
+      "options": ["'C'est' (this)", "'ville' (city) — 'qui' replaces 'ville,' which is the subject of 'est très belle'", "'belle' (beautiful)", "'une' (a)"],
+      "correctIndex": 1,
+      "explanation": "The antecedent of 'qui' is 'une ville.' In the relative clause 'qui est très belle,' 'qui' = the city = subject of 'est.' The adjective 'belle' is feminine to agree with 'ville.'",
+      "difficulty": "hard",
+      "tags": ["qui", "antecedent", "identify"]
+    },
+    {
+      "id": "g7f-w26-mon-013",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "Translate: 'She is the student who won the prize.'",
+      "options": ["C'est l'élève que a gagné le prix.", "C'est l'élève qui a gagné le prix.", "C'est l'élève où a gagné le prix.", "C'est l'élève dont a gagné le prix."],
+      "correctIndex": 1,
+      "explanation": "'C'est l'élève qui a gagné le prix.' ✓ 'L'élève' = subject of 'a gagné' → 'qui.' Passé composé: 'a gagné' (has won). 'Le prix' = the prize.",
+      "difficulty": "hard",
+      "tags": ["qui", "translate", "passé-composé"]
+    },
+    {
+      "id": "g7f-w26-mon-014",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "The relative clause in 'J'ai vu le film qui était très long.' tells us:",
+      "options": ["Where the film was seen", "What the film was like — it adds descriptive information about 'le film' (that it was very long)", "When the film was seen", "Who the film was about"],
+      "correctIndex": 1,
+      "explanation": "'Qui était très long' = relative clause that describes 'le film.' It answers: what kind of film? A very long one. This is the key function of relative clauses: to add information (define or describe) the noun.",
+      "difficulty": "hard",
+      "tags": ["qui", "relative-clause-function"]
+    },
+    {
+      "id": "g7f-w26-mon-015",
+      "goalId": "grade-7-french-w26-mon",
+      "question": "In 'Les enfants qui jouent dans le jardin sont mes cousins.' — 'qui' refers to 'les enfants' which is:",
+      "options": ["Singular", "Plural — so the verb 'jouent' is conjugated in the plural (3rd person plural)", "Feminine singular", "Masculine singular"],
+      "correctIndex": 1,
+      "explanation": "'Les enfants' = masculine plural. 'Qui' replaces 'les enfants' → verb 'jouent' = 3rd person plural (they play). 'Sont mes cousins' = are my cousins (main clause). The relative clause 'qui jouent...' identifies which children.",
+      "difficulty": "hard",
+      "tags": ["qui", "plural-agreement", "verb-conjugation"]
+    }
+  ]
+}

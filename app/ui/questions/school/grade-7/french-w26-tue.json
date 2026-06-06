@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-french-w26-tue",
+  "title": "Grade 7 French — Tue, Jun 24",
+  "description": "Pronoms relatifs — Day 2 of 5: 'que' (direct object relative pronoun)",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7f-w26-tue-001",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "'Que' is used when the relative pronoun is the ___ of the relative clause.",
+      "options": ["Subject", "Direct object — the noun receives the action; the clause has its own subject already", "Indirect object", "Location"],
+      "correctIndex": 1,
+      "explanation": "'Que' = direct object relative pronoun. In 'Le livre que je lis est intéressant', 'que' replaces 'le livre' which is the object of 'lis' (I read IT — the book is what is being read). The clause 'je lis' already has its own subject 'je.'",
+      "difficulty": "easy",
+      "tags": ["que", "direct-object", "function"]
+    },
+    {
+      "id": "g7f-w26-tue-002",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "Join: 'J'ai vu un film. Ce film était excellent.' using 'que'.",
+      "options": ["J'ai vu un film qui était excellent.", "J'ai vu un film que était excellent.", "J'ai vu un film qu'était excellent.", "J'ai vu un film dont était excellent."],
+      "correctIndex": 0,
+      "explanation": "'J'ai vu un film qui était excellent.' ✓ 'Film' = subject of 'était excellent' (the film WAS excellent) → use 'qui.' No separate subject in the relative clause → 'qui.' This tests the 'qui' vs 'que' distinction — 'que' requires its own subject already present.",
+      "difficulty": "easy",
+      "tags": ["que-vs-qui", "distinction", "film"]
+    },
+    {
+      "id": "g7f-w26-tue-003",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "Join: 'J'ai acheté un livre. Je lis ce livre.' using 'que'.",
+      "options": ["J'ai acheté un livre qui je lis.", "J'ai acheté un livre que je lis.", "J'ai acheté un livre qu'est intéressant.", "J'ai acheté un livre où je lis."],
+      "correctIndex": 1,
+      "explanation": "'J'ai acheté un livre que je lis.' ✓ 'Je lis [ce livre]' — 'livre' is the object of 'lis' (I read IT). Subject 'je' is already present → use 'que.' Test: can you replace blank with 'il/elle'? No → 'que.'",
+      "difficulty": "easy",
+      "tags": ["que", "join", "book"]
+    },
+    {
+      "id": "g7f-w26-tue-004",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "'Que' elides to 'qu'' before a vowel or h-muet. Which is correct?",
+      "options": ["Le garçon que elle connaît.", "Le garçon qu'elle connaît.", "Le garçon qui elle connaît.", "Le garçon dont elle connaît."],
+      "correctIndex": 1,
+      "explanation": "'Le garçon qu'elle connaît.' ✓ 'Que' + 'elle' (vowel) → 'qu'elle.' Unlike 'qui' (never elides), 'que' elides before a vowel: 'que il' → 'qu'il', 'que elle' → 'qu'elle', 'que on' → 'qu'on.'",
+      "difficulty": "medium",
+      "tags": ["que", "elision", "apostrophe"]
+    },
+    {
+      "id": "g7f-w26-tue-005",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "Translate: 'The cake that I made is delicious.'",
+      "options": ["Le gâteau qui j'ai fait est délicieux.", "Le gâteau que j'ai fait est délicieux.", "Le gâteau qu'est délicieux.", "Le gâteau qui est délicieux."],
+      "correctIndex": 1,
+      "explanation": "'Le gâteau que j'ai fait est délicieux.' ✓ 'J'ai fait le gâteau' — gâteau is the object of 'ai fait' → 'que.' Also: 'que' + 'j'' = already elides. The clause has subject 'je' (j') → confirms 'que.'",
+      "difficulty": "medium",
+      "tags": ["que", "translate", "food"]
+    },
+    {
+      "id": "g7f-w26-tue-006",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "Choose 'qui' or 'que': 'La voiture ___ tu conduis est neuve.'",
+      "options": ["qui", "que", "qu'", "dont"],
+      "correctIndex": 1,
+      "explanation": "'La voiture que tu conduis est neuve.' ✓ 'Tu conduis [la voiture]' — voiture is the OBJECT of 'conduis' (you drive IT). 'Tu' is the subject already present → use 'que.' Note: 'que' doesn't elide before 'tu.'",
+      "difficulty": "medium",
+      "tags": ["que", "fill-in", "car"]
+    },
+    {
+      "id": "g7f-w26-tue-007",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "In 'C'est le professeur que j'admire le plus.' — why is 'que' used and not 'qui'?",
+      "options": ["Because 'professeur' is masculine", "Because 'j'admire le professeur' — the professor is the object of 'admire'; the clause has its own subject 'je' → 'que'", "Because 'que' always follows 'professeur'", "Because 'le plus' requires 'que'"],
+      "correctIndex": 1,
+      "explanation": "'J'admire [le professeur]' = I admire HIM. The professor is the direct object. The clause 'que j'admire' has subject 'j(e).' Object → 'que.' Compare: 'le professeur qui enseigne' (professor teaches — subject → 'qui').",
+      "difficulty": "hard",
+      "tags": ["que", "why", "object-identification"]
+    },
+    {
+      "id": "g7f-w26-tue-008",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "Spot the error: 'C'est le chien qui je nourris tous les jours.'",
+      "options": ["No error", "'qui' should be 'que' — 'je nourris [le chien]' — the dog is the OBJECT of 'nourris' (I feed IT); clause has subject 'je' → use 'que.' Correct: 'C'est le chien que je nourris.'", "'nourris' is wrong", "'tous les jours' is redundant"],
+      "correctIndex": 1,
+      "explanation": "'Nourrir' = to feed. 'Je nourris le chien' = I feed the dog. Dog = direct object → 'que.' The error is using 'qui' for a direct object. Corrected: 'C'est le chien que je nourris tous les jours.'",
+      "difficulty": "hard",
+      "tags": ["que", "error-correction", "animal"]
+    },
+    {
+      "id": "g7f-w26-tue-009",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "Agreement of past participle with 'que': In passé composé, past participle agrees with the noun replaced by 'que' when using 'avoir.' 'La robe que j'ai ___' (acheter — to buy, robe = feminine)",
+      "options": ["achetée ✓", "acheté ✓", "Both are acceptable", "Neither is used in modern French"],
+      "correctIndex": 0,
+      "explanation": "'La robe que j'ai achetée.' ✓ With 'avoir' verbs: past participle agrees with the PRECEDING direct object. 'Robe' (feminine, singular) precedes 'ai achetée' → 'achetée' (feminine, -e added). This is an advanced rule that applies with 'que.'",
+      "difficulty": "hard",
+      "tags": ["que", "past-participle-agreement", "advanced"]
+    },
+    {
+      "id": "g7f-w26-tue-010",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "Choose 'qui' or 'que': 'La chanson ___ j'écoute est magnifique.'",
+      "options": ["qui", "que", "où", "dont"],
+      "correctIndex": 1,
+      "explanation": "'La chanson que j'écoute est magnifique.' ✓ 'J'écoute [la chanson]' = I listen to the song. Song = object of 'écoute.' Subject 'je' already present → 'que.' 'Écouter' = to listen to (takes direct object in French).",
+      "difficulty": "hard",
+      "tags": ["que", "fill-in", "music"]
+    },
+    {
+      "id": "g7f-w26-tue-011",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "QUICK TEST — 'qui' or 'que'? 'L'enfant ___ pleure est fatigué.'",
+      "options": ["que", "qui", "qu'", "dont"],
+      "correctIndex": 1,
+      "explanation": "'L'enfant qui pleure est fatigué.' ✓ 'L'enfant pleure' — child is the SUBJECT of 'pleure' (cries). No other subject in the clause → 'qui.' Test: 'il pleure' → can replace blank with 'il/elle' → yes → 'qui.'",
+      "difficulty": "hard",
+      "tags": ["qui-vs-que", "quick-test", "child"]
+    },
+    {
+      "id": "g7f-w26-tue-012",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "QUICK TEST — 'qui' or 'que'? 'Le repas ___ nous mangeons est délicieux.'",
+      "options": ["qui", "que", "où", "dont"],
+      "correctIndex": 1,
+      "explanation": "'Le repas que nous mangeons est délicieux.' ✓ 'Nous mangeons [le repas]' — meal is the OBJECT of 'mangeons.' Subject 'nous' present → 'que.' Test: 'it is eaten by us' — meal receives the action → 'que.'",
+      "difficulty": "hard",
+      "tags": ["qui-vs-que", "quick-test", "food"]
+    },
+    {
+      "id": "g7f-w26-tue-013",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "Combine: 'Je connais un médecin. Ce médecin soigne bien ses patients.'",
+      "options": ["Je connais un médecin que soigne bien ses patients.", "Je connais un médecin qui soigne bien ses patients.", "Je connais un médecin qu'soigne bien ses patients.", "Je connais un médecin où soigne bien ses patients."],
+      "correctIndex": 1,
+      "explanation": "'Je connais un médecin qui soigne bien ses patients.' ✓ 'Le médecin soigne' — doctor = subject of 'soigne' → 'qui.' No other subject in 'soigne bien ses patients.' → confirms 'qui.'",
+      "difficulty": "hard",
+      "tags": ["qui-vs-que", "combine", "doctor"]
+    },
+    {
+      "id": "g7f-w26-tue-014",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "Combine: 'Voilà la maison. Nous avons peint cette maison.' ('peindre' = to paint)",
+      "options": ["Voilà la maison qui nous avons peint.", "Voilà la maison que nous avons peinte.", "Voilà la maison qu'on peint.", "Voilà la maison qui est peinte."],
+      "correctIndex": 1,
+      "explanation": "'Voilà la maison que nous avons peinte.' ✓ 'Nous avons peint [la maison]' — house is the direct object. Subject 'nous' present → 'que.' Past participle 'peint' + feminine 'maison' → 'peinte' (agreement with preceding direct object).",
+      "difficulty": "hard",
+      "tags": ["que", "past-participle-agreement", "house"]
+    },
+    {
+      "id": "g7f-w26-tue-015",
+      "goalId": "grade-7-french-w26-tue",
+      "question": "Summary: The key test to choose between 'qui' and 'que':",
+      "options": ["Use 'qui' for people, 'que' for things", "Ask: does the relative clause have its OWN subject? If YES → 'que' (object pronoun). If NO → 'qui' (the pronoun IS the subject).", "Use 'qui' in formal French, 'que' in informal", "Check if the noun is masculine or feminine"],
+      "correctIndex": 1,
+      "explanation": "THE TEST: (1) Find the relative clause. (2) Look for a subject. If there's already a subject (je, tu, il, nous, etc.) → 'que.' If no subject → 'qui' (it IS the subject). This works every time.",
+      "difficulty": "hard",
+      "tags": ["qui-vs-que", "summary-test", "key-rule"]
+    }
+  ]
+}

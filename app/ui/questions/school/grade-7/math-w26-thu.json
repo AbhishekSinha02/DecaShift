@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-math-w26-thu",
+  "title": "Grade 7 Math — Thu, Jun 26",
+  "description": "Perimeter and Area — Circles Day 4 of 5: Advanced word problems",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7m-w26-thu-001",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A circular clock face has diameter 21 cm. Perimeter of the clock (π = 22/7) =",
+      "options": ["33 cm", "66 cm", "132 cm", "346.5 cm"],
+      "correctIndex": 1,
+      "explanation": "Radius = 10.5 cm. C = 2πr = 2×(22/7)×10.5 = 2×33 = 66 cm.",
+      "difficulty": "easy",
+      "tags": ["circle", "circumference", "word-problem"]
+    },
+    {
+      "id": "g7m-w26-thu-002",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A circular table has area 616 cm². Cost of a lace border at ₹5 per cm (π = 22/7) =",
+      "options": ["₹220", "₹440", "₹880", "₹1,100"],
+      "correctIndex": 1,
+      "explanation": "A = πr² → 616 = (22/7)r² → r² = 196 → r = 14 cm. C = 2πr = 2×(22/7)×14 = 88 cm. Lace cost = 88×5 = ₹440.",
+      "difficulty": "medium",
+      "tags": ["circle", "mixed", "cost"]
+    },
+    {
+      "id": "g7m-w26-thu-003",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A car tyre has outer radius 35 cm. How many times does it rotate in 1.1 km? (π = 22/7; 1.1 km = 110,000 cm)",
+      "options": ["250 times", "500 times", "750 times", "1,000 times"],
+      "correctIndex": 1,
+      "explanation": "Circumference = 2πr = 2×(22/7)×35 = 220 cm. Rotations = 110,000 ÷ 220 = 500.",
+      "difficulty": "medium",
+      "tags": ["circle", "circumference", "rotations", "tyre"]
+    },
+    {
+      "id": "g7m-w26-thu-004",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A garden has a rectangular lawn (20 m × 14 m) with a circular flower bed (radius 7 m) in the centre. Area of lawn not covered by flower bed (π = 22/7) =",
+      "options": ["154 m²", "126 m²", "280 m²", "434 m²"],
+      "correctIndex": 1,
+      "explanation": "Rectangular lawn = 20×14 = 280 m². Circular bed = πr² = (22/7)×49 = 154 m². Remaining = 280−154 = 126 m².",
+      "difficulty": "medium",
+      "tags": ["circle", "composite", "subtract"]
+    },
+    {
+      "id": "g7m-w26-thu-005",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A circular swimming pool of radius 14 m has a path 7 m wide around it. Area of path only (π = 22/7) =",
+      "options": ["462 m²", "616 m²", "770 m²", "1,078 m²"],
+      "correctIndex": 2,
+      "explanation": "Outer radius = 14+7 = 21 m. Path = π(R²−r²) = (22/7)(441−196) = (22/7)×245 = 22×35 = 770 m².",
+      "difficulty": "hard",
+      "tags": ["circle", "ring", "pool"]
+    },
+    {
+      "id": "g7m-w26-thu-006",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A ring-shaped washer has outer diameter 14 cm and inner diameter 7 cm. Area (π = 22/7) =",
+      "options": ["38.5 cm²", "77 cm²", "115.5 cm²", "154 cm²"],
+      "correctIndex": 2,
+      "explanation": "Outer r = 7 cm; Inner r = 3.5 cm. Ring = π(7²−3.5²) = (22/7)(49−12.25) = (22/7)×36.75 = 22×5.25 = 115.5 cm².",
+      "difficulty": "hard",
+      "tags": ["circle", "ring", "washer"]
+    },
+    {
+      "id": "g7m-w26-thu-007",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "The minute hand of a clock is 7 cm long. In 1 hour, it traces a circle. Area swept by the minute hand (π = 22/7) =",
+      "options": ["44 cm²", "88 cm²", "154 cm²", "308 cm²"],
+      "correctIndex": 2,
+      "explanation": "The minute hand (radius 7 cm) sweeps a full circle in 1 hour. Area = πr² = (22/7)×49 = 154 cm².",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "clock"]
+    },
+    {
+      "id": "g7m-w26-thu-008",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A rectangular sheet 22 cm × 14 cm is cut to make the largest possible circle. Radius of circle and waste material area (π = 22/7) =",
+      "options": ["r=7 cm, waste=154 cm²", "r=7 cm, waste=308 cm²", "r=11 cm, waste=154 cm²", "r=14 cm, waste=0 cm²"],
+      "correctIndex": 0,
+      "explanation": "Largest circle: diameter ≤ shorter side = 14 cm → r = 7 cm. Circle area = (22/7)×49 = 154 cm². Rectangle = 22×14 = 308 cm². Waste = 308−154 = 154 cm².",
+      "difficulty": "hard",
+      "tags": ["circle", "composite", "waste"]
+    },
+    {
+      "id": "g7m-w26-thu-009",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "Two equal circles (radius 7 cm each) are placed side by side inside a rectangle that fits them exactly. Rectangle area =",
+      "options": ["196 cm²", "308 cm²", "392 cm²", "784 cm²"],
+      "correctIndex": 2,
+      "explanation": "Each diameter = 14 cm. Two circles side by side: rectangle = (14+14) × 14 = 28 × 14 = 392 cm².",
+      "difficulty": "hard",
+      "tags": ["circle", "packing", "rectangle"]
+    },
+    {
+      "id": "g7m-w26-thu-010",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A spoke wheel has 8 spokes, each 14 cm long (= radius). Circumference of the wheel (π = 22/7) =",
+      "options": ["44 cm", "88 cm", "176 cm", "352 cm"],
+      "correctIndex": 1,
+      "explanation": "Radius = 14 cm (length of one spoke). C = 2πr = 2×(22/7)×14 = 88 cm.",
+      "difficulty": "hard",
+      "tags": ["circle", "circumference", "wheel"]
+    },
+    {
+      "id": "g7m-w26-thu-011",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A circular garden of radius 14 m has a path 7 m wide around it. Area of path only (π = 22/7) =",
+      "options": ["462 m²", "616 m²", "770 m²", "1,386 m²"],
+      "correctIndex": 2,
+      "explanation": "Outer r = 14+7 = 21 m. Path = π(R²−r²) = (22/7)(441−196) = (22/7)×245 = 22×35 = 770 m².",
+      "difficulty": "hard",
+      "tags": ["circle", "ring", "path"]
+    },
+    {
+      "id": "g7m-w26-thu-012",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A race track consists of two straight sections of 100 m and two semicircular ends with diameter 56 m. Total track length (π = 22/7) =",
+      "options": ["376 m", "400 m", "376.57 m", "256 m"],
+      "correctIndex": 0,
+      "explanation": "Two straight sections = 2×100 = 200 m. Two semicircular ends = one full circle with diameter 56 m (r=28). C = 2πr = 2×(22/7)×28 = 176 m. Total = 200+176 = 376 m.",
+      "difficulty": "hard",
+      "tags": ["circle", "track", "semicircle"]
+    },
+    {
+      "id": "g7m-w26-thu-013",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "The hour hand of a clock is 3.5 cm. Distance traveled in 12 hours (π = 22/7) =",
+      "options": ["11 cm", "22 cm", "44 cm", "88 cm"],
+      "correctIndex": 1,
+      "explanation": "Hour hand sweeps one full circle in 12 hours. C = 2πr = 2×(22/7)×3.5 = 2×11 = 22 cm.",
+      "difficulty": "hard",
+      "tags": ["circle", "circumference", "clock"]
+    },
+    {
+      "id": "g7m-w26-thu-014",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "Area of a circle is 4 times another circle's area. Ratio of their radii =",
+      "options": ["4 : 1", "2 : 1", "16 : 1", "√2 : 1"],
+      "correctIndex": 1,
+      "explanation": "If A₁ = 4A₂, then πr₁² = 4πr₂² → r₁²/r₂² = 4 → r₁/r₂ = 2. Ratio of radii = 2 : 1. (Area scales as r² → if area is multiplied by k, radius is multiplied by √k.)",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "ratio-of-radii"]
+    },
+    {
+      "id": "g7m-w26-thu-015",
+      "goalId": "grade-7-math-w26-thu",
+      "question": "A circular fish pond (r = 21 m) is redesigned with the same area as a square. Side of the square (π = 22/7) ≈",
+      "options": ["21 m", "31.4 m", "37.2 m", "44 m"],
+      "correctIndex": 2,
+      "explanation": "Circle area = (22/7)×441 = 1,386 m². Square side = √1,386 ≈ 37.2 m. (√1,386 ≈ √1,444 = 38, slight less → ≈37.2.)",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "equal-area-square"]
+    }
+  ]
+}

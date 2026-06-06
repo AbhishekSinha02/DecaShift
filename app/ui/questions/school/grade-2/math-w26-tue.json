@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-2-math-w26-tue",
+  "title": "Grade 2 Math — Tue, Jun 24",
+  "description": "Money — Day 2 of 5: Adding amounts (simple addition of money, no decimals)",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2m-w26-tue-001",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "Raj has ₹5 and gets ₹3 more. How much does he have now?",
+      "options": ["₹7", "₹8", "₹9", "₹10"],
+      "correctIndex": 1,
+      "explanation": "₹5 + ₹3 = ₹8. Five rupees plus three rupees equals eight rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "addition"]
+    },
+    {
+      "id": "g2m-w26-tue-002",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "A pencil costs ₹2 and an eraser costs ₹3. What is the total cost?",
+      "options": ["₹4", "₹5", "₹6", "₹7"],
+      "correctIndex": 1,
+      "explanation": "₹2 + ₹3 = ₹5. The pencil and eraser together cost five rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "addition", "shopping"]
+    },
+    {
+      "id": "g2m-w26-tue-003",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "Nita has ₹10 and her mother gives her ₹10 more. How much does she have?",
+      "options": ["₹10", "₹15", "₹20", "₹25"],
+      "correctIndex": 2,
+      "explanation": "₹10 + ₹10 = ₹20. Ten rupees plus ten rupees equals twenty rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "addition"]
+    },
+    {
+      "id": "g2m-w26-tue-004",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "A lollipop costs ₹4 and a toffee costs ₹2. What is the total cost?",
+      "options": ["₹5", "₹6", "₹7", "₹8"],
+      "correctIndex": 1,
+      "explanation": "₹4 + ₹2 = ₹6. The lollipop and toffee together cost six rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "addition", "shopping"]
+    },
+    {
+      "id": "g2m-w26-tue-005",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "Ramu saves ₹5 on Monday and ₹5 on Tuesday. How much has he saved in all?",
+      "options": ["₹5", "₹8", "₹10", "₹15"],
+      "correctIndex": 2,
+      "explanation": "₹5 + ₹5 = ₹10. Five rupees saved each day for two days equals ten rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "addition", "savings"]
+    },
+    {
+      "id": "g2m-w26-tue-006",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "A notebook costs ₹15 and a pen costs ₹5. What is the total cost?",
+      "options": ["₹15", "₹18", "₹20", "₹25"],
+      "correctIndex": 2,
+      "explanation": "₹15 + ₹5 = ₹20. The notebook and pen together cost twenty rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "addition", "shopping"]
+    },
+    {
+      "id": "g2m-w26-tue-007",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "Sita buys a mango for ₹8 and a banana for ₹3. How much does she spend in all?",
+      "options": ["₹9", "₹10", "₹11", "₹12"],
+      "correctIndex": 2,
+      "explanation": "₹8 + ₹3 = ₹11. Sita spends eleven rupees in total.",
+      "difficulty": "medium",
+      "tags": ["money", "addition", "shopping"]
+    },
+    {
+      "id": "g2m-w26-tue-008",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "Aryan has ₹20 and earns ₹15 by helping at home. How much does he have now?",
+      "options": ["₹25", "₹30", "₹35", "₹40"],
+      "correctIndex": 2,
+      "explanation": "₹20 + ₹15 = ₹35. Twenty rupees plus fifteen rupees equals thirty-five rupees.",
+      "difficulty": "medium",
+      "tags": ["money", "addition"]
+    },
+    {
+      "id": "g2m-w26-tue-009",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "A ruler costs ₹12 and a sharpener costs ₹8. What is the total cost?",
+      "options": ["₹18", "₹19", "₹20", "₹22"],
+      "correctIndex": 2,
+      "explanation": "₹12 + ₹8 = ₹20. The ruler and sharpener together cost twenty rupees.",
+      "difficulty": "medium",
+      "tags": ["money", "addition", "shopping"]
+    },
+    {
+      "id": "g2m-w26-tue-010",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "Pooja has ₹25 and buys a hair clip for ₹10. How much money is left?",
+      "options": ["₹10", "₹12", "₹15", "₹20"],
+      "correctIndex": 2,
+      "explanation": "₹25 − ₹10 = ₹15. After buying the hair clip, Pooja has fifteen rupees left.",
+      "difficulty": "medium",
+      "tags": ["money", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-tue-011",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "Three children each have ₹10. How much do they have altogether?",
+      "options": ["₹10", "₹20", "₹30", "₹40"],
+      "correctIndex": 2,
+      "explanation": "₹10 + ₹10 + ₹10 = ₹30. Three children with ₹10 each have thirty rupees in all.",
+      "difficulty": "medium",
+      "tags": ["money", "addition", "multiplication"]
+    },
+    {
+      "id": "g2m-w26-tue-012",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "Ravi buys a ball for ₹18 and a bat for ₹32. What is the total cost?",
+      "options": ["₹40", "₹48", "₹50", "₹52"],
+      "correctIndex": 2,
+      "explanation": "₹18 + ₹32 = ₹50. The ball and bat together cost fifty rupees.",
+      "difficulty": "medium",
+      "tags": ["money", "addition", "shopping"]
+    },
+    {
+      "id": "g2m-w26-tue-013",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "Neha has ₹50. She buys a book for ₹35. How much money is left?",
+      "options": ["₹10", "₹15", "₹20", "₹25"],
+      "correctIndex": 1,
+      "explanation": "₹50 − ₹35 = ₹15. After buying the book, Neha has fifteen rupees left.",
+      "difficulty": "hard",
+      "tags": ["money", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-tue-014",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "A toy costs ₹45 and a puzzle costs ₹30. How much do both items cost together?",
+      "options": ["₹65", "₹70", "₹75", "₹80"],
+      "correctIndex": 2,
+      "explanation": "₹45 + ₹30 = ₹75. The toy and puzzle together cost seventy-five rupees.",
+      "difficulty": "hard",
+      "tags": ["money", "addition", "shopping"]
+    },
+    {
+      "id": "g2m-w26-tue-015",
+      "goalId": "grade-2-math-w26-tue",
+      "question": "Deepa has a ₹100 note. She buys items for ₹65. How much change does she get back?",
+      "options": ["₹25", "₹30", "₹35", "₹40"],
+      "correctIndex": 2,
+      "explanation": "₹100 − ₹65 = ₹35. Deepa gets back thirty-five rupees as change.",
+      "difficulty": "hard",
+      "tags": ["money", "subtraction", "change"]
+    }
+  ]
+}

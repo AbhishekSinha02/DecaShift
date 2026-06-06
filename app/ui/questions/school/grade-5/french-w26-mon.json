@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-5-french-w26-mon",
+  "title": "Grade 5 French — Mon, Jun 23",
+  "description": "Les métiers — Day 1 of 5: Common professions vocabulary",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "les-metiers",
+  "tags": ["french", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5f-w26-mon-001",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "What does 'un médecin' mean?",
+      "options": ["a teacher", "a doctor", "an engineer", "a policeman"],
+      "correctIndex": 1,
+      "explanation": "'Un médecin' = a doctor. 'Il est médecin.' = He is a doctor. Note: professions often drop the article after être: 'Il est médecin' (not 'Il est un médecin' in formal usage).",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "medecin", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-mon-002",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "What is 'un professeur'?",
+      "options": ["a professor / teacher", "a firefighter", "a lawyer", "a farmer"],
+      "correctIndex": 0,
+      "explanation": "'Un professeur' = a professor/teacher. Can also be shortened to 'un prof' (informal). 'Elle est professeur de mathématiques.'",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "professeur", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-mon-003",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "What does 'un cuisinier' do?",
+      "options": ["drives cars", "cooks food — is a cook or chef", "builds houses", "writes books"],
+      "correctIndex": 1,
+      "explanation": "'Un cuisinier' = a cook (male). From 'cuisine' (kitchen/cooking). 'Il est cuisinier dans un restaurant.' = He is a cook in a restaurant.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "cuisinier", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-mon-004",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "What is 'un ingénieur'?",
+      "options": ["an engineer", "a musician", "a police officer", "a pilot"],
+      "correctIndex": 0,
+      "explanation": "'Un ingénieur' = an engineer. Note the accent: 'ingénieur' (é). 'Elle est ingénieure en informatique.' = She is a software engineer.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "ingenieur", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-mon-005",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "What does 'un policier' mean?",
+      "options": ["a doctor", "a police officer", "a soldier", "a fireman"],
+      "correctIndex": 1,
+      "explanation": "'Un policier' = a police officer. From 'police.' 'Le policier arrête le voleur.' = The police officer arrests the thief.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "policier", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-mon-006",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "What is 'un acteur'?",
+      "options": ["a writer", "an actor", "a director", "a musician"],
+      "correctIndex": 1,
+      "explanation": "'Un acteur' = an actor (male). From Latin 'actor.' 'Il est acteur de cinéma.' = He is a film actor.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "acteur", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-mon-007",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "Translate: 'He is a singer.'",
+      "options": ["Il est danseur.", "Il est chanteur.", "Il est musicien.", "Il est acteur."],
+      "correctIndex": 1,
+      "explanation": "'Il est chanteur.' = He is a singer. 'Chanteur' = singer (male). From 'chanter' (to sing).",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "chanteur", "translation"]
+    },
+    {
+      "id": "g5f-w26-mon-008",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "What does 'un agriculteur' do?",
+      "options": ["cooks in a restaurant", "farms the land — is a farmer", "teaches in a school", "treats animals"],
+      "correctIndex": 1,
+      "explanation": "'Un agriculteur' = a farmer. From 'agriculture.' 'L'agriculteur cultive la terre.' = The farmer cultivates the land. 'Agriculture' = farming.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "agriculteur", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-mon-009",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "What is 'un pompier'?",
+      "options": ["a firefighter", "a plumber", "a builder", "a pilot"],
+      "correctIndex": 0,
+      "explanation": "'Un pompier' = a firefighter. 'Les pompiers éteignent le feu.' = The firefighters put out the fire.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "pompier", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-mon-010",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "What profession describes someone who flies airplanes?",
+      "options": ["un architecte", "un journaliste", "un pilote", "un chauffeur"],
+      "correctIndex": 2,
+      "explanation": "'Un pilote' = a pilot. 'Il est pilote de ligne.' = He is an airline pilot. 'Pilote' is also used for race car drivers ('pilote de formule 1').",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "pilote", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-mon-011",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "In French, professions after 'être' often drop the article. Which is CORRECT?",
+      "options": ["Il est un médecin.", "Il est médecin.", "Both are acceptable in all contexts.", "Il a médecin."],
+      "correctIndex": 2,
+      "explanation": "Both are used: 'Il est médecin' (formal/literary, no article — classic French rule) and 'Il est un médecin' (more colloquial, especially when adding an adjective: 'Il est un bon médecin'). Both are grammatically acceptable.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "article-drop", "grammar"]
+    },
+    {
+      "id": "g5f-w26-mon-012",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "What does 'un architecte' do?",
+      "options": ["treats patients", "designs buildings and structures", "teaches students", "writes for newspapers"],
+      "correctIndex": 1,
+      "explanation": "'Un architecte' = an architect — designs buildings, plans structures. 'L'architecte dessine les plans.' = The architect draws the plans.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "architecte", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-mon-013",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "'Je veux devenir médecin.' means:",
+      "options": ["I am a doctor.", "I want to become a doctor.", "I was a doctor.", "I don't want to be a doctor."],
+      "correctIndex": 1,
+      "explanation": "'Je veux devenir médecin.' = I want to become a doctor. 'Veux' = want (from 'vouloir'). 'Devenir' = to become.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "vouloir", "devenir"]
+    },
+    {
+      "id": "g5f-w26-mon-014",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "Match profession to description: 'Il soigne les animaux malades.'",
+      "options": ["un dentiste", "un vétérinaire", "un médecin", "un pharmacien"],
+      "correctIndex": 1,
+      "explanation": "'Il soigne les animaux malades.' = He treats sick animals. 'Un vétérinaire' = a vet. 'Soigner' = to treat/care for.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "veterinaire", "match"]
+    },
+    {
+      "id": "g5f-w26-mon-015",
+      "goalId": "grade-5-french-w26-mon",
+      "question": "Why do many French profession names end in '-eur' (chanteur, acteur, ingénieur)?",
+      "options": ["Random endings", "The '-eur' suffix comes from Latin '-or/-ator' and indicates a person who performs an action (chanter→chanteur: one who sings; agir→acteur: one who acts)", "Only male professions end in -eur", "It is an informal suffix only"],
+      "correctIndex": 1,
+      "explanation": "The '-eur' suffix marks 'agent' — one who does something. Latin origin: '-or/-ator.' English equivalents: '-or/-er' (actor, singer, engineer). This suffix helps recognise new profession words even without knowing them.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "eur-suffix", "etymology"]
+    }
+  ]
+}

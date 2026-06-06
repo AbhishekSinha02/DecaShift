@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-french-w26-thu",
+  "title": "Grade 8 French — Thu, Jun 26",
+  "description": "Le subjonctif présent — Day 4 of 5: Triggers — conjunctions and verbs",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8f-w26-thu-001",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "'Pour que' (so that/in order that) triggers subjunctive. Which is correct?",
+      "options": ["Il parle lentement pour que nous comprenons.", "Il parle lentement pour que nous comprenions.", "Il parle lentement pour que nous comprendre.", "Il parle lentement pour que nous comprendrons."],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'pour que nous comprenions.' comprendre → ils comprennent → stem: comprenn- → nous comprenions. Wait — let me re-derive: comprendre: ils comprennent → strip -ent = comprenn-; + -ions = comprenions (one n). Better: stem = comprenn- + -ions = comprennions. A: 'comprenons' = indicatif. D: 'comprendrons' = futur. C: infinitif (wrong). Pour que + subjonctif always.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "pour-que", "comprendre"]
+    },
+    {
+      "id": "g8f-w26-thu-002",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "'Avant que' (before) — which sentence is correct?",
+      "options": ["Avant qu'il parte, dis-lui au revoir.", "Avant qu'il part, dis-lui au revoir.", "Avant qu'il partira, dis-lui au revoir.", "Avant qu'il est parti, dis-lui au revoir."],
+      "correctIndex": 0,
+      "explanation": "A ✓: 'Avant qu'il parte' — partir (subjonctif il) = parte. ils partent → part- + -e = parte. 'Avant que' → always subjonctif. B: 'part' = indicatif. C: 'partira' = futur. D: 'est parti' = passé composé. The key: avant que = before (action hasn't happened yet → uncertainty → subjonctif).",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "avant-que", "partir"]
+    },
+    {
+      "id": "g8f-w26-thu-003",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "'À moins que' (unless) triggers subjunctive. Which is correct?",
+      "options": ["Il viendra à moins qu'il est malade.", "Il viendra à moins qu'il sera malade.", "Il viendra à moins qu'il soit malade.", "Il viendra à moins qu'il était malade."],
+      "correctIndex": 2,
+      "explanation": "C ✓: 'à moins qu'il soit malade.' être (subjonctif il) = soit. 'À moins que' = unless → subjonctif. The 'unless' expresses a condition that may or may not apply → uncertainty → subjonctif. A: 'est' = indicatif. B: 'sera' = futur. D: 'était' = imparfait.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "a-moins-que", "être"]
+    },
+    {
+      "id": "g8f-w26-thu-004",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "Which conjunction does NOT trigger the subjunctive?",
+      "options": ["bien que (although)", "pour que (so that)", "parce que (because)", "avant que (before)"],
+      "correctIndex": 2,
+      "explanation": "'Parce que' (because) = stating a reason → FACT → indicatif. 'Il ne vient pas parce qu'il est malade' ✓ — the reason is a fact. Subjunctive conjunctions: bien que, pour que, avant que, à moins que, afin que, quoique, pourvu que, de peur que. 'Parce que' stands out as a non-trigger.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "parce-que", "non-trigger"]
+    },
+    {
+      "id": "g8f-w26-thu-005",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "'Regretter que' (to regret that) triggers subjunctive. Complete: 'Je regrette qu'il ne ___ (pouvoir) pas venir.'",
+      "options": ["peut", "pourra", "pouvait", "puisse"],
+      "correctIndex": 3,
+      "explanation": "'Regretter que' → emotion → subjonctif. pouvoir (subjonctif il) = puisse. 'Peut' = indicatif. 'Pourra' = futur. 'Pouvait' = imparfait. 'Puisse' ✓. Emotion verbs that trigger subjunctive: regretter que, être heureux que, être triste que, avoir peur que, être surpris que.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "regretter-que", "pouvoir"]
+    },
+    {
+      "id": "g8f-w26-thu-006",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "Complete: 'Je suis content que tu ___ (venir) à ma fête.' (être content que = emotion → subjonctif)",
+      "options": ["viens", "viendras", "viennes", "venais"],
+      "correctIndex": 2,
+      "explanation": "'Être content que' → emotion → subjonctif. venir (subjonctif tu) = viennes. ils viennent → stem vien- → tu viennes. 'Viens' = indicatif. 'Viendras' = futur. 'Venais' = imparfait. 'Viennes' ✓.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "etre-content-que", "venir"]
+    },
+    {
+      "id": "g8f-w26-thu-007",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "'Douter que' (to doubt that) triggers subjunctive. Which is correct?",
+      "options": ["Je doute qu'il dit la vérité.", "Je doute qu'il dise la vérité.", "Je doute qu'il dira la vérité.", "Je doute qu'il disait la vérité."],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'Je doute qu'il dise la vérité.' dire → ils disent → stem dis- → il dise. 'Douter que' = doubt → subjonctif. A: 'dit' = indicatif. C: 'dira' = futur. D: 'disait' = imparfait. 'Dise' ✓ (subjonctif of dire).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "douter-que", "dire"]
+    },
+    {
+      "id": "g8f-w26-thu-008",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "Complete both blanks:\n'Je suis ravi que vous ___ (être) là, et il faut que vous ___ (rester).'",
+      "options": ["êtes / restez (indicatif)", "soyez / restiez", "étiez / restiez (imparfait)", "serez / resterez (futur)"],
+      "correctIndex": 1,
+      "explanation": "Both triggered by subjonctif expressions. être (vous subjonctif) = soyez. rester → ils restent → stem rest- → vous restiez. B ✓: soyez / restiez. 'Être ravi que' = emotion. 'Il faut que' = obligation. Both → subjonctif.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "être-ravi", "il-faut-que"]
+    },
+    {
+      "id": "g8f-w26-thu-009",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "Which pair uses subjonctif and indicatif correctly?",
+      "options": ["Je pense qu'il vienne / Je doute qu'il vient.", "Je pense qu'il vient (indicatif) / Je doute qu'il vienne (subjonctif).", "Je pense qu'il vient / Je crois qu'il vienne.", "Je doute qu'il vient / Je pense qu'il vienne."],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'Penser que' (affirmative) = belief/thought → indicatif ('vient'). 'Douter que' = doubt → subjonctif ('vienne'). A: reversed. C: 'croire que' affirmative → indicatif (same as penser), so 'vienne' wrong. D: reversed. Key: think/believe/know → indicatif. Doubt/wish/fear → subjonctif.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "penser-vs-douter", "pair"]
+    },
+    {
+      "id": "g8f-w26-thu-010",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "'Pourvu que' (provided that) triggers subjunctive. Translate: 'Provided that you work, you will succeed.'",
+      "options": ["Pourvu que tu travailles, tu réussiras.", "Pourvu que tu travailles, tu réussirais.", "Pourvu que tu travailles, tu réussisse.", "Pourvu que tu travailleras, tu réussiras."],
+      "correctIndex": 0,
+      "explanation": "A ✓: 'Pourvu que tu travailles, tu réussiras.' Pourvu que → subjonctif in dependent clause (travailles ✓ — subjonctif). Main clause: futur simple (réussiras ✓ — fact about future consequence). Note: 'réussiras' not 'réussisses' — main clause stays in indicatif/futur.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "pourvu-que", "travailler"]
+    },
+    {
+      "id": "g8f-w26-thu-011",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "Error-spot paragraph: 'Bien qu'il est fatigué, il travaille pour que les autres comprennent. Je suis surpris qu'il peut continuer.'",
+      "options": ["No errors", "Two errors: 'est' → 'soit' (bien que → subjonctif); 'peut' → 'puisse' (être surpris que → subjonctif). 'comprennent' is correct (pour que → subjonctif).", "'comprennent' is wrong — should be 'comprennons'", "'il travaille' is wrong"],
+      "correctIndex": 1,
+      "explanation": "Error 1: 'Bien qu'il est' → 'Bien qu'il soit' (être subjonctif il = soit). Error 2: 'qu'il peut' → 'qu'il puisse' (être surpris que = emotion → subjonctif). Correct: 'pour que les autres comprennent' ✓ (pour que → subjonctif; comprendre ils form drop -ent = comprenn- + -ent = comprennent — which for ils-form IS the subjonctif).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "error-detection", "paragraph"]
+    },
+    {
+      "id": "g8f-w26-thu-012",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "Category check: Which of these verbs triggers subjunctive after 'que'?",
+      "options": ["dire (to say)", "savoir (to know)", "être sûr (to be sure)", "craindre (to fear)"],
+      "correctIndex": 3,
+      "explanation": "'Craindre que' (to fear that) → emotion/fear → subjonctif ✓. 'Dire que' = stating → indicatif. 'Savoir que' = knowing = certainty → indicatif. 'Être sûr que' = certainty → indicatif. Emotion/doubt/wish/obligation triggers: craindre, regretter, vouloir, souhaiter, douter, il faut… Certainty: savoir, dire, penser (affirm.), croire (affirm.), être sûr.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "craindre-que", "trigger"]
+    },
+    {
+      "id": "g8f-w26-thu-013",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "Complete: 'De peur que tu n'___ (oublier) les règles, je te les rappelle.'",
+      "options": ["oublies", "oublieras", "oublieras", "oubliais"],
+      "correctIndex": 0,
+      "explanation": "'De peur que' (for fear that) → subjonctif. oublier → ils oublient → oubli- → tu oublies. Note: 'de peur que' often takes a pleonastic 'ne' ('de peur que tu n'oublies'). The 'ne' here is NOT negation — it's a stylistic/expletive 'ne' used with certain expressions.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "de-peur-que", "oublier"]
+    },
+    {
+      "id": "g8f-w26-thu-014",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "Full list check: Which conjunction from this list does NOT require subjunctive?\n(A) bien que (B) quand (C) pour que (D) à moins que",
+      "options": ["A", "B — 'quand' + futur simple (not subjunctive) for future actions", "C", "D"],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'Quand' (when) + futur simple in French (NOT subjonctif): 'Quand il viendra, nous mangerons.' A: bien que → subjonctif ✓. C: pour que → subjonctif ✓. D: à moins que → subjonctif ✓. 'Quand' is a common mistake — English uses present for future, French uses futur; neither uses subjonctif.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "quand-non-trigger", "identify"]
+    },
+    {
+      "id": "g8f-w26-thu-015",
+      "goalId": "grade-8-french-w26-thu",
+      "question": "Subjonctif trigger categories — complete: Emotion: regretter que, ___ / Obligation: il faut que, ___ / Purpose: pour que, ___ / Concession: bien que, ___",
+      "options": ["Emotion=savoir que; Obligation=dire que; Purpose=parce que; Concession=quand", "Emotion=être heureux que; Obligation=il est nécessaire que; Purpose=afin que; Concession=quoique", "All four categories use indicatif", "Emotion=penser que; Obligation=croire que; Purpose=parce que; Concession=si"],
+      "correctIndex": 1,
+      "explanation": "B ✓ — Complete trigger categories: EMOTION: être heureux que, regretter que, être surpris que, craindre que, avoir peur que. OBLIGATION: il faut que, il est nécessaire que, il est important que. PURPOSE: pour que, afin que. CONCESSION: bien que, quoique, à moins que, pourvu que. All → subjonctif.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "trigger-categories", "summary"]
+    }
+  ]
+}

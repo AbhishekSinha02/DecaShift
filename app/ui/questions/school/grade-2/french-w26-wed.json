@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-2-french-w26-wed",
+  "title": "Grade 2 French — Wed, Jun 25",
+  "description": "Les animaux — Day 3 of 5: Pets",
+  "subject": "french",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "les-animaux",
+  "tags": ["french", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2f-w26-wed-001",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "How do you say 'the dog' in French?",
+      "options": ["le chat", "le lapin", "le chien", "le poisson"],
+      "correctIndex": 2,
+      "explanation": "'Le chien' means 'the dog'. It is masculine (le).",
+      "difficulty": "easy",
+      "tags": ["french", "pets", "vocabulary"]
+    },
+    {
+      "id": "g2f-w26-wed-002",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "What does 'le chat' mean?",
+      "options": ["The dog", "The cat", "The rabbit", "The fish"],
+      "correctIndex": 1,
+      "explanation": "'Le chat' means 'the cat'. It is masculine (le).",
+      "difficulty": "easy",
+      "tags": ["french", "pets", "vocabulary"]
+    },
+    {
+      "id": "g2f-w26-wed-003",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "How do you say 'the rabbit' in French?",
+      "options": ["le poisson", "l'oiseau", "le lapin", "le chien"],
+      "correctIndex": 2,
+      "explanation": "'Le lapin' means 'the rabbit'. It is masculine (le).",
+      "difficulty": "easy",
+      "tags": ["french", "pets", "vocabulary"]
+    },
+    {
+      "id": "g2f-w26-wed-004",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "What does 'le poisson' mean?",
+      "options": ["The bird", "The rabbit", "The fish", "The dog"],
+      "correctIndex": 2,
+      "explanation": "'Le poisson' means 'the fish'. It is masculine (le).",
+      "difficulty": "easy",
+      "tags": ["french", "pets", "vocabulary"]
+    },
+    {
+      "id": "g2f-w26-wed-005",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "What does 'l'oiseau' mean?",
+      "options": ["The cat", "The fish", "The rabbit", "The bird"],
+      "correctIndex": 3,
+      "explanation": "'L'oiseau' means 'the bird'. The article 'le' becomes 'l'' before the vowel 'o' (élision).",
+      "difficulty": "easy",
+      "tags": ["french", "pets", "vocabulary", "elision"]
+    },
+    {
+      "id": "g2f-w26-wed-006",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "How many pets in this list use the 'l'' form: le chien, le chat, le lapin, le poisson, l'oiseau?",
+      "options": ["None", "One", "Two", "Three"],
+      "correctIndex": 1,
+      "explanation": "Only 'l'oiseau' uses 'l'' because 'oiseau' starts with a vowel. The other four all start with consonants so they use 'le'.",
+      "difficulty": "medium",
+      "tags": ["french", "elision", "count"]
+    },
+    {
+      "id": "g2f-w26-wed-007",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "Translate: 'I have a dog and a cat.'",
+      "options": ["J'ai un chien et un chat.", "J'ai le chien et le chat.", "J'ai une chien et une chat.", "J'ai un chien et une chat."],
+      "correctIndex": 0,
+      "explanation": "'J'ai' = I have. 'Un chien' (a dog, masc.) + 'un chat' (a cat, masc.). Both are masculine so use 'un'. 'J'ai un chien et un chat.'",
+      "difficulty": "medium",
+      "tags": ["french", "sentence", "un-une"]
+    },
+    {
+      "id": "g2f-w26-wed-008",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "What does 'J'ai un lapin blanc.' mean?",
+      "options": ["I want a white rabbit", "I have a white rabbit", "My rabbit is big", "I like white rabbits"],
+      "correctIndex": 1,
+      "explanation": "'J'ai' = I have. 'Un lapin' = a rabbit. 'Blanc' = white (masc. adj.). 'J'ai un lapin blanc.' = 'I have a white rabbit.'",
+      "difficulty": "medium",
+      "tags": ["french", "sentence", "adjective"]
+    },
+    {
+      "id": "g2f-w26-wed-009",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "How do you say 'I do not have a fish'?",
+      "options": ["Je n'ai pas de poisson.", "Je n'ai pas un poisson.", "Je n'aime pas le poisson.", "Je ai pas de poisson."],
+      "correctIndex": 0,
+      "explanation": "In French, after a negative verb ('n'...pas'), 'un/une/des' changes to 'de'. 'Je n'ai pas de poisson.' = 'I do not have a fish.'",
+      "difficulty": "medium",
+      "tags": ["french", "negation", "de-after-negative"]
+    },
+    {
+      "id": "g2f-w26-wed-010",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "Which sentence correctly says 'the bird is small'?",
+      "options": ["L'oiseau est petit.", "Le oiseau est petit.", "L'oiseau est petite.", "L'oiseau sont petit."],
+      "correctIndex": 0,
+      "explanation": "'L'oiseau' (masc.) + 'est' (singular verb) + 'petit' (masc. adj.). 'L'oiseau est petit.' is correct.",
+      "difficulty": "medium",
+      "tags": ["french", "adjective", "sentence"]
+    },
+    {
+      "id": "g2f-w26-wed-011",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "Describe your pet: 'My cat is black and small.'",
+      "options": ["Mon chat est noir et petit.", "Ma chat est noir et petit.", "Mon chat est noire et petite.", "Mon chat sont noir et petit."],
+      "correctIndex": 0,
+      "explanation": "'Mon chat' (masc.) + 'est' (sing. verb) + 'noir' (masc. adj.) + 'et petit' (masc. adj.). 'Mon chat est noir et petit.'",
+      "difficulty": "hard",
+      "tags": ["french", "possessive", "adjective", "sentence"]
+    },
+    {
+      "id": "g2f-w26-wed-012",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "What is the plural of 'un chien'?",
+      "options": ["les chien", "des chiens", "les chiens", "un chiens"],
+      "correctIndex": 2,
+      "explanation": "Singular: 'un chien'. Plural: 'des chiens' (some dogs) or 'les chiens' (the dogs). 'Les chiens' uses the definite plural article.",
+      "difficulty": "hard",
+      "tags": ["french", "plural", "grammar"]
+    },
+    {
+      "id": "g2f-w26-wed-013",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "Translate: 'Do you have a pet?' → 'Tu as un animal domestique?'",
+      "options": ["'Tu' means I; 'as' means have", "'Tu' means you; 'as' means have; 'un animal domestique' means a pet/domestic animal", "'Tu as' means I like", "'Animal domestique' means wild animal"],
+      "correctIndex": 1,
+      "explanation": "'Tu' = you (informal). 'As' = have (2nd person singular of avoir). 'Un animal domestique' = a domestic/pet animal. 'Tu as un animal domestique?' = 'Do you have a pet?'",
+      "difficulty": "hard",
+      "tags": ["french", "question", "vocabulary"]
+    },
+    {
+      "id": "g2f-w26-wed-014",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "Write a sentence about a pet using 'J'ai' and a colour adjective: 'I have a yellow bird.'",
+      "options": ["J'ai un oiseau jaune.", "J'ai une oiseau jaune.", "J'ai un oiseau jaunes.", "J'ai le oiseau jaune."],
+      "correctIndex": 0,
+      "explanation": "'J'ai' = I have. 'Un oiseau' (masc., but note 'l'oiseau' uses 'l'' with definite article, but 'un' stays 'un'). 'Jaune' = yellow. 'J'ai un oiseau jaune.'",
+      "difficulty": "hard",
+      "tags": ["french", "sentence", "colour", "adjective"]
+    },
+    {
+      "id": "g2f-w26-wed-015",
+      "goalId": "grade-2-french-w26-wed",
+      "question": "Compare pets in French: 'The dog is big, but the cat is small.' Which is correct?",
+      "options": ["Le chien est grand, mais le chat est petit.", "La chien est grand, mais la chat est petit.", "Le chien est grande, mais le chat est petite.", "Le chien sont grands, mais le chat est petit."],
+      "correctIndex": 0,
+      "explanation": "Both 'chien' and 'chat' are masculine (le). Adjectives match: 'grand' and 'petit' (masc. sing.). 'Mais' = but. 'Le chien est grand, mais le chat est petit.'",
+      "difficulty": "hard",
+      "tags": ["french", "comparison", "sentence", "mais"]
+    }
+  ]
+}

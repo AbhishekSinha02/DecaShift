@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-science-w26-mon",
+  "title": "Grade 7 Science — Mon, Jun 23",
+  "description": "Heat — Day 1 of 5: Temperature, thermometers, heat vs temperature",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7s-w26-mon-001",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "What is the difference between heat and temperature?",
+      "options": ["They are the same thing", "Heat is a form of energy (measured in Joules); temperature is the measure of hotness or coldness of an object (measured in °C or K)", "Temperature is energy; heat is a scale", "Heat is measured in °C; temperature in Joules"],
+      "correctIndex": 1,
+      "explanation": "Heat = thermal energy transferred from a hotter to a cooler object (unit: Joule). Temperature = degree of hotness or coldness (unit: °C or Kelvin). A large body can have more heat than a small body even at the same temperature.",
+      "difficulty": "easy",
+      "tags": ["heat", "temperature", "definition"]
+    },
+    {
+      "id": "g7s-w26-mon-002",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "The instrument used to measure temperature is:",
+      "options": ["Barometer", "Thermometer", "Hygrometer", "Voltmeter"],
+      "correctIndex": 1,
+      "explanation": "Thermometer measures temperature. Barometer = air pressure. Hygrometer = humidity. Voltmeter = electric potential difference.",
+      "difficulty": "easy",
+      "tags": ["thermometer", "instrument"]
+    },
+    {
+      "id": "g7s-w26-mon-003",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "Normal human body temperature is approximately:",
+      "options": ["25°C", "37°C", "42°C", "100°C"],
+      "correctIndex": 1,
+      "explanation": "Normal human body temperature ≈ 37°C (98.6°F). Clinical (doctor's) thermometers are designed to read in the range 35°C to 42°C. Above 40°C indicates high fever.",
+      "difficulty": "easy",
+      "tags": ["temperature", "body-temperature"]
+    },
+    {
+      "id": "g7s-w26-mon-004",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "A clinical thermometer has a kink (constriction) near the bulb. Why?",
+      "options": ["To make it look good", "To prevent mercury from falling back into the bulb after reading — the kink breaks the mercury thread so the temperature reading is retained", "To make it easier to hold", "To increase its range"],
+      "correctIndex": 1,
+      "explanation": "The kink/constriction prevents mercury from flowing back when you remove the thermometer from the body — the reading is preserved. Laboratory thermometers have no kink (mercury falls back), suitable for continuous reading.",
+      "difficulty": "easy",
+      "tags": ["thermometer", "clinical", "kink"]
+    },
+    {
+      "id": "g7s-w26-mon-005",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "Heat always flows from:",
+      "options": ["Colder object to hotter object", "Hotter object to colder object, until both reach the same temperature", "Both directions simultaneously", "Neither direction — heat doesn't flow"],
+      "correctIndex": 1,
+      "explanation": "Heat flows spontaneously from HOT → COLD until thermal equilibrium (both at same temperature). This is the Second Law of Thermodynamics in simple terms. Cold doesn't flow; only heat (energy) flows.",
+      "difficulty": "medium",
+      "tags": ["heat", "flow", "direction"]
+    },
+    {
+      "id": "g7s-w26-mon-006",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "Which thermometer would a doctor use to check a patient's body temperature?",
+      "options": ["Laboratory thermometer (range: −10°C to 110°C)", "Clinical thermometer (range: 35°C to 42°C, with kink)", "Maximum-minimum thermometer", "Digital outdoor thermometer"],
+      "correctIndex": 1,
+      "explanation": "Clinical thermometer: range 35–42°C (covers the human body temperature range), has a kink to hold the reading, sterile, safe mercury or digital. Laboratory thermometer has a wider range and no kink.",
+      "difficulty": "medium",
+      "tags": ["thermometer", "clinical", "doctor"]
+    },
+    {
+      "id": "g7s-w26-mon-007",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "Why should you not shake a clinical thermometer without checking it is pointing downward first?",
+      "options": ["The bulb might fall off", "Mercury might accidentally enter your mouth if the thermometer is used orally", "The mercury would boil", "The kink would break"],
+      "correctIndex": 1,
+      "explanation": "Mercury is toxic. Before use, the mercury must be shaken back below 35°C. Hold it firmly at the opposite end to the bulb, shake downward. Accidental mercury ingestion or spillage is a health hazard.",
+      "difficulty": "medium",
+      "tags": ["thermometer", "safety", "mercury"]
+    },
+    {
+      "id": "g7s-w26-mon-008",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "The Celsius scale is defined so that: 0°C = ___ and 100°C = ___",
+      "options": ["Boiling point of water, Freezing point of water", "Freezing point of pure water at sea level (ice point), Boiling point of pure water at sea level (steam point)", "Body temperature, Room temperature", "Melting point of ice in salt, Boiling point of salt water"],
+      "correctIndex": 1,
+      "explanation": "Celsius scale fixed points: 0°C = freezing/melting point of pure water at 1 atm pressure. 100°C = boiling point of pure water at 1 atm pressure. 100 equal divisions between these points.",
+      "difficulty": "hard",
+      "tags": ["temperature", "celsius", "scale-definition"]
+    },
+    {
+      "id": "g7s-w26-mon-009",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "Two cups of tea: one at 80°C with 500 mL, one at 80°C with 200 mL. Which has more HEAT?",
+      "options": ["200 mL cup (hotter)", "500 mL cup (more thermal energy even at same temperature)", "Both have equal heat", "Cannot determine"],
+      "correctIndex": 1,
+      "explanation": "Same temperature (80°C) but different amounts of matter. The 500 mL cup contains more molecules vibrating at the same speed → more total thermal energy (heat). Temperature measures average kinetic energy per particle; heat is the total thermal energy.",
+      "difficulty": "hard",
+      "tags": ["heat", "temperature", "distinction", "mass"]
+    },
+    {
+      "id": "g7s-w26-mon-010",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "A maximum-minimum thermometer is used to:",
+      "options": ["Measure only the current temperature", "Record both the highest and lowest temperatures reached over a time period — useful in weather stations", "Measure only body temperature", "Measure very high industrial temperatures"],
+      "correctIndex": 1,
+      "explanation": "Maximum-minimum thermometer (Six's thermometer) uses two liquid columns to record the highest temperature (max) and lowest temperature (min) reached since it was last reset. Used in greenhouses, weather monitoring.",
+      "difficulty": "hard",
+      "tags": ["thermometer", "maximum-minimum", "weather"]
+    },
+    {
+      "id": "g7s-w26-mon-011",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "Convert 37°C to Kelvin: (K = °C + 273)",
+      "options": ["236 K", "273 K", "310 K", "373 K"],
+      "correctIndex": 2,
+      "explanation": "K = °C + 273 = 37 + 273 = 310 K. Absolute zero (0 K) = −273°C — theoretically the coldest possible temperature. Water boils at 373 K (100°C).",
+      "difficulty": "hard",
+      "tags": ["temperature", "kelvin", "conversion"]
+    },
+    {
+      "id": "g7s-w26-mon-012",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "Why is mercury used in thermometers? (Choose the BEST answer)",
+      "options": ["It is cheapest", "It expands uniformly with temperature, doesn't wet glass, is opaque and easily visible, and has a wide liquid range (−39°C to 357°C)", "It is the only liquid metal", "It is non-toxic"],
+      "correctIndex": 1,
+      "explanation": "Mercury is ideal because: (1) Uniform expansion. (2) Doesn't stick to glass (non-wetting). (3) Shiny silver colour, easy to read. (4) Wide liquid range. Disadvantage: toxic — modern thermometers increasingly use coloured alcohol or digital sensors.",
+      "difficulty": "hard",
+      "tags": ["thermometer", "mercury", "properties"]
+    },
+    {
+      "id": "g7s-w26-mon-013",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "If you hold ice in your hand, your hand feels cold because:",
+      "options": ["Cold flows from the ice to your hand", "Heat flows FROM your hand TO the ice — your hand loses energy, which is detected as a cold sensation", "The ice generates cold", "Your nerves produce a cold feeling"],
+      "correctIndex": 1,
+      "explanation": "Cold is NOT a form of energy that flows. Heat always flows from hot (hand at 37°C) to cold (ice at 0°C). Your hand loses heat to the ice → nerves detect the temperature drop as cold. The sensation of cold = absence of heat.",
+      "difficulty": "hard",
+      "tags": ["heat", "flow", "cold-sensation"]
+    },
+    {
+      "id": "g7s-w26-mon-014",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "A laboratory thermometer and a clinical thermometer — key structural difference:",
+      "options": ["Clinical is longer", "Laboratory thermometer has no kink (mercury falls back — for continuous reading); clinical has a kink (mercury held at peak reading)", "Laboratory is made of plastic", "Clinical has a wider range"],
+      "correctIndex": 1,
+      "explanation": "Lab thermometer: no kink, mercury returns after removal from heat source, range −10 to 110°C. Clinical: kink retains peak reading, range 35–42°C. The kink is the clinical thermometer's essential design feature.",
+      "difficulty": "hard",
+      "tags": ["thermometer", "lab-vs-clinical", "design"]
+    },
+    {
+      "id": "g7s-w26-mon-015",
+      "goalId": "grade-7-science-w26-mon",
+      "question": "Thermal equilibrium means:",
+      "options": ["One object is hotter than the other", "Two objects in contact reach the same temperature and heat transfer stops", "Heat is produced equally by both objects", "Temperature is the same as heat"],
+      "correctIndex": 1,
+      "explanation": "Thermal equilibrium: when two objects in thermal contact reach the same temperature — net heat flow stops. This is the Zeroth Law of Thermodynamics: if A is in equilibrium with B, and B with C, then A is in equilibrium with C.",
+      "difficulty": "hard",
+      "tags": ["heat", "thermal-equilibrium", "definition"]
+    }
+  ]
+}

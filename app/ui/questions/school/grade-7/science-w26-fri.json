@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-science-w26-fri",
+  "title": "Grade 7 Science — Fri, Jun 27",
+  "description": "Heat — Day 5 of 5: Full mixed review — conduction, convection, radiation",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7s-w26-fri-001",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "What is the difference between heat and temperature?",
+      "options": ["They are the same", "Heat is total thermal energy (joules); temperature is average kinetic energy of particles (°C or K) — a large cold lake has more heat than a tiny boiling water drop", "Temperature is energy; heat is the measurement", "Heat is measured in degrees; temperature in joules"],
+      "correctIndex": 1,
+      "explanation": "Temperature = average KE per particle. Heat = total thermal energy. A large cold body has more total energy than a tiny hot body. That's why a swimming pool at 20°C has far more heat than a burning match at 800°C.",
+      "difficulty": "easy",
+      "tags": ["heat", "temperature", "definition"]
+    },
+    {
+      "id": "g7s-w26-fri-002",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "Which mode of heat transfer requires direct contact between particles?",
+      "options": ["Convection", "Radiation", "Conduction", "All three require contact"],
+      "correctIndex": 2,
+      "explanation": "Conduction: heat transfers particle-to-particle by collision (direct contact). Particles vibrate more but don't move. Convection: fluid particles move (no rigid contact needed). Radiation: no particles needed at all — waves travel through vacuum.",
+      "difficulty": "easy",
+      "tags": ["conduction", "modes", "compare"]
+    },
+    {
+      "id": "g7s-w26-fri-003",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "In convection, why does hot liquid or gas rise?",
+      "options": ["Heat makes it heavier", "Hot fluid expands → becomes less dense → lighter → rises; cool dense fluid sinks → creates convection current", "Hot fluid is attracted to the ceiling", "It rises because it is hotter, not because of density"],
+      "correctIndex": 1,
+      "explanation": "Convection: hot → expands → lower density → rises. Cool → contracts → higher density → sinks. This creates a circular convection current. This explains sea breezes, room heating (heater at floor level), and boiling of water.",
+      "difficulty": "easy",
+      "tags": ["convection", "density", "current"]
+    },
+    {
+      "id": "g7s-w26-fri-004",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "A metal spoon placed in hot tea becomes hot quickly. The wooden handle of a pan stays cool. Which mode explains each?",
+      "options": ["Radiation for both", "Convection for both", "Conduction (spoon = good conductor; wood = poor conductor/insulator)", "Spoon = convection, wood = radiation"],
+      "correctIndex": 2,
+      "explanation": "Metal spoon: conduction (electrons and vibrating particles transfer heat along metal rapidly). Wood: poor conductor — particles don't transfer energy efficiently. Both are conduction, just very different conductivities. Metals have free electrons that aid heat conduction.",
+      "difficulty": "medium",
+      "tags": ["conduction", "metal", "wood", "compare"]
+    },
+    {
+      "id": "g7s-w26-fri-005",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "Why is a hot water bag placed at the BOTTOM of a tank rather than at the top?",
+      "options": ["Bottom is safer from leaks", "Hot water at the bottom heats → rises; cooler water sinks to replace it, setting up convection → entire tank is heated evenly", "Heat sinks downward from a heater at the top", "Cold water rises and hot water sinks"],
+      "correctIndex": 1,
+      "explanation": "Heater at bottom: hot water rises (less dense), cold water sinks (more dense). This sets up convection currents that heat the entire tank uniformly. Heater at top: hot water stays at top (already less dense); no current forms; only the top heats.",
+      "difficulty": "medium",
+      "tags": ["convection", "heater", "current"]
+    },
+    {
+      "id": "g7s-w26-fri-006",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "We feel warm near a fireplace even if the air between us and the fire is cool. Which mode of heat transfer explains this?",
+      "options": ["Conduction through the air", "Convection currents bringing warm air", "Radiation: infrared waves travel directly from fire to skin without heating the air in between", "Both conduction and convection equally"],
+      "correctIndex": 2,
+      "explanation": "Radiation: electromagnetic (infrared) waves travel from the fire in all directions and are absorbed directly by our skin. Air is not heated by this process — that's why we feel warm even in cold air near a fire. Conduction through air is negligible; convection rises upward.",
+      "difficulty": "medium",
+      "tags": ["radiation", "fire", "everyday"]
+    },
+    {
+      "id": "g7s-w26-fri-007",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "Wool sweaters keep us warm NOT because they produce heat, but because:",
+      "options": ["Wool generates heat when worn", "Wool traps air — air is a poor conductor — the trapped air prevents body heat from escaping by conduction", "Wool reflects all radiation back", "Wool absorbs sunlight and converts it to heat"],
+      "correctIndex": 1,
+      "explanation": "Wool (and fur, down) trap air in their fibres. Trapped air = excellent insulator (poor conductor, no convection). Your body generates heat; wool + trapped air form an insulating layer preventing heat loss. This is conduction prevention, not heat generation.",
+      "difficulty": "hard",
+      "tags": ["conduction", "insulation", "wool"]
+    },
+    {
+      "id": "g7s-w26-fri-008",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "A thermos flask minimises heat transfer in all three modes. Match: (1) Vacuum (2) Silvered walls (3) Glass material — to the mode each blocks.",
+      "options": ["1=Radiation, 2=Conduction, 3=Convection", "1=Conduction+Convection, 2=Radiation, 3=provides structure", "1=Convection, 2=Conduction, 3=Radiation", "1=Radiation, 2=Convection, 3=Conduction"],
+      "correctIndex": 1,
+      "explanation": "Vacuum: no particles → blocks conduction (particle contact) and convection (no fluid flow). Silvered walls: reflects radiation back (shiny = poor absorber/emitter). Glass: poor conductor itself, but mainly provides mechanical structure. Together = near-perfect insulation.",
+      "difficulty": "hard",
+      "tags": ["thermos", "all-three-modes", "match"]
+    },
+    {
+      "id": "g7s-w26-fri-009",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "In which mode of heat transfer do particles physically move from one place to another?",
+      "options": ["Conduction only", "Radiation only", "Convection only — fluid particles carry energy as they move; in conduction, particles only vibrate in place; in radiation, no particles move at all", "Both conduction and convection"],
+      "correctIndex": 2,
+      "explanation": "Key distinction: Conduction = energy transfers but particles stay in place (vibrations pass on). Convection = particles move (bulk fluid flow). Radiation = no particle movement, pure wave energy. Convection cannot occur in solids because particles are fixed.",
+      "difficulty": "hard",
+      "tags": ["convection", "distinguish", "particle-movement"]
+    },
+    {
+      "id": "g7s-w26-fri-010",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "Land breeze blows from land to sea at night. Why?",
+      "options": ["Sea is cooler at night", "At night, land cools faster than sea (sea retains heat). Air over warm sea rises; cooler air from land rushes in to fill the gap — this is a convection current (land breeze)", "Wind changes direction with the moon", "Gravity pulls air toward sea at night"],
+      "correctIndex": 1,
+      "explanation": "Night: land cools fast; sea stays warm (high specific heat). Warm sea air rises → low pressure over sea. Cooler land air flows toward sea = land breeze. Day: land heats faster; warm land air rises; sea breeze blows from sea to land. Classic convection driven by temperature differential.",
+      "difficulty": "hard",
+      "tags": ["convection", "land-breeze", "sea-breeze"]
+    },
+    {
+      "id": "g7s-w26-fri-011",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "Why are cooking utensils made of metals with wooden or bakelite handles?",
+      "options": ["Only aesthetic reasons", "Metals conduct heat efficiently to food (good conductors); wood/bakelite are insulators (poor conductors) — handle stays cool and safe to hold", "Bakelite is a better conductor than metal", "Handles are made of rubber for electrical safety"],
+      "correctIndex": 1,
+      "explanation": "Metal body: conducts heat from stove to food quickly. Wood/bakelite handle: poor conductors (insulators) — heat doesn't travel easily from metal body to handle → you can hold it without burning your hand. Thermal conductivity of metals >> wood >> air.",
+      "difficulty": "hard",
+      "tags": ["conduction", "utensils", "everyday"]
+    },
+    {
+      "id": "g7s-w26-fri-012",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "Why should a room heater be placed on the floor, not on the ceiling?",
+      "options": ["Electricity regulations", "Hot air rises → if heater is on the floor, rising warm air sets up convection currents that heat the entire room; heater on ceiling would heat only the top (hot air stays up)", "Heaters look better on the floor", "Radiation from floor heaters is stronger"],
+      "correctIndex": 1,
+      "explanation": "Convection: hot air rises, cool air sinks. Floor-level heater → hot air rises → circulates whole room. Ceiling heater → already-warm air stays at top; no circulation below. That's why factories use floor heating, and why 'hot air rises, feet are cold' in tall rooms with ceiling heaters.",
+      "difficulty": "hard",
+      "tags": ["convection", "heater-placement", "room"]
+    },
+    {
+      "id": "g7s-w26-fri-013",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "The Sun heats the Earth from 150 million km away. This is possible ONLY because of:",
+      "options": ["Conduction — Earth is connected to Sun by rocks", "Convection — hot gas flows from Sun", "Radiation — infrared and visible light waves cross the vacuum of space", "Gravity transfers energy"],
+      "correctIndex": 2,
+      "explanation": "The 150 million km between Sun and Earth is mostly vacuum. Conduction and convection both need matter. Only radiation (electromagnetic waves) can cross a vacuum. Solar radiation heats Earth's surface; Earth re-radiates infrared (trapped by greenhouse gases = global warming).",
+      "difficulty": "hard",
+      "tags": ["radiation", "sun-earth", "vacuum"]
+    },
+    {
+      "id": "g7s-w26-fri-014",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "A doctor uses an infrared thermometer (no-touch) to check body temperature. A chimney is made tall to improve draft. A tile floor feels colder than a carpet at the same temperature. Match each to: radiation, convection, conduction.",
+      "options": ["IR thermometer = conduction; chimney = radiation; tile = convection", "IR thermometer = radiation; chimney = convection; tile = conduction", "IR thermometer = convection; chimney = conduction; tile = radiation", "All three use conduction only"],
+      "correctIndex": 1,
+      "explanation": "IR thermometer = detects body's infrared radiation (radiation). Chimney height = tall chimney creates stronger convection draft (hot smoke rises, pulls fresh air in at bottom). Tile vs carpet = tile conducts heat from your foot faster than carpet (carpet traps air = insulator) — conduction.",
+      "difficulty": "hard",
+      "tags": ["all-three-modes", "match", "everyday"]
+    },
+    {
+      "id": "g7s-w26-fri-015",
+      "goalId": "grade-7-science-w26-fri",
+      "question": "A farmer covers plants with polythene at night to protect from frost. On a cloudy night the same protection isn't needed. Which mode of heat transfer explains BOTH facts?",
+      "options": ["Conduction", "Convection", "Radiation — plants lose heat as infrared radiation to the sky; polythene reflects it back; clouds also reflect/absorb ground radiation and re-emit some back, so ground stays warmer on cloudy nights", "Conduction and convection equally"],
+      "correctIndex": 2,
+      "explanation": "Both involve radiation: (1) Clear night: plants radiate infrared to cold sky → lose heat → frost risk → polythene reflects IR back. (2) Cloudy night: clouds absorb and re-radiate some IR back to earth → less heat loss → warmer. Polythene mimics what clouds do. Explains frost on clear nights.",
+      "difficulty": "hard",
+      "tags": ["radiation", "frost-protection", "clouds", "compare"]
+    }
+  ]
+}

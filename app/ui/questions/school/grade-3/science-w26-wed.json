@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-3-science-w26-wed",
+  "title": "Grade 3 Science — Wed, Jun 25",
+  "description": "Plants Around Us — Day 3 of 5: Leaves — shape, venation, functions",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3s-w26-wed-001",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "The thin lines visible on a leaf are called:",
+      "options": ["Petals", "Veins", "Roots", "Spores"],
+      "correctIndex": 1,
+      "explanation": "The lines on a leaf are called veins. They carry water and minerals to all parts of the leaf and carry food away.",
+      "difficulty": "easy",
+      "tags": ["plants", "leaf", "veins"]
+    },
+    {
+      "id": "g3s-w26-wed-002",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "In parallel venation, the veins are:",
+      "options": ["Like a net pattern", "Running parallel (side by side) along the leaf", "In a circle", "Branching from one main vein"],
+      "correctIndex": 1,
+      "explanation": "Parallel venation means veins run side by side (parallel) from base to tip. Grasses, banana, rice and maize have parallel venation.",
+      "difficulty": "easy",
+      "tags": ["plants", "leaf", "parallel-venation"]
+    },
+    {
+      "id": "g3s-w26-wed-003",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "Reticulate venation looks like:",
+      "options": ["Straight parallel lines", "A net or web pattern with branching veins", "Circles inside circles", "No veins at all"],
+      "correctIndex": 1,
+      "explanation": "Reticulate (net-like) venation has veins branching from a main central vein creating a net/web pattern. Most flowering plants — mango, rose, tulsi — have reticulate venation.",
+      "difficulty": "easy",
+      "tags": ["plants", "leaf", "reticulate-venation"]
+    },
+    {
+      "id": "g3s-w26-wed-004",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "Which plant shows PARALLEL venation?",
+      "options": ["Mango", "Peepal", "Rose", "Maize (corn)"],
+      "correctIndex": 3,
+      "explanation": "Maize (corn) has parallel venation — veins run side by side. Mango, peepal and rose all show reticulate venation.",
+      "difficulty": "easy",
+      "tags": ["plants", "parallel-venation", "examples"]
+    },
+    {
+      "id": "g3s-w26-wed-005",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "What is the main function of leaves?",
+      "options": ["Absorb water from soil", "Make food through photosynthesis", "Support the plant", "Attract insects for pollination"],
+      "correctIndex": 1,
+      "explanation": "The primary function of leaves is photosynthesis — making food using sunlight, water and carbon dioxide. Leaves are green because they contain chlorophyll.",
+      "difficulty": "easy",
+      "tags": ["plants", "leaf", "photosynthesis"]
+    },
+    {
+      "id": "g3s-w26-wed-006",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "Transpiration is the process where leaves:",
+      "options": ["Absorb sunlight", "Release excess water as water vapour through tiny pores", "Make seeds", "Change colour in autumn"],
+      "correctIndex": 1,
+      "explanation": "Transpiration is the loss of water vapour from leaves through tiny pores called stomata. It cools the plant and helps in the movement of water up the stem.",
+      "difficulty": "medium",
+      "tags": ["plants", "leaf", "transpiration"]
+    },
+    {
+      "id": "g3s-w26-wed-007",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "A banana leaf has veins running from base to tip in straight lines. What type of venation is this?",
+      "options": ["Reticulate", "Net-like", "Parallel", "Branching"],
+      "correctIndex": 2,
+      "explanation": "Banana leaves have parallel venation — veins run side by side from the leaf base to the tip.",
+      "difficulty": "medium",
+      "tags": ["plants", "venation", "banana"]
+    },
+    {
+      "id": "g3s-w26-wed-008",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "Why are leaves flat and broad (in most plants)?",
+      "options": ["For decoration", "To maximize surface area for catching sunlight and absorbing CO₂", "To store water", "To block rain"],
+      "correctIndex": 1,
+      "explanation": "Flat, broad leaves maximize the surface area exposed to sunlight and air, making photosynthesis more efficient. More surface = more light captured.",
+      "difficulty": "medium",
+      "tags": ["plants", "leaf-shape", "adaptation"]
+    },
+    {
+      "id": "g3s-w26-wed-009",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "A tulsi leaf has veins forming a net-like pattern. Which venation type is this?",
+      "options": ["Parallel", "Circular", "Reticulate", "Simple"],
+      "correctIndex": 2,
+      "explanation": "Tulsi has reticulate venation — a net-like branching pattern of veins, typical of most dicot flowering plants.",
+      "difficulty": "medium",
+      "tags": ["plants", "venation", "tulsi"]
+    },
+    {
+      "id": "g3s-w26-wed-010",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "Which statement about leaf functions is FALSE?",
+      "options": ["Leaves make food through photosynthesis", "Leaves release water through transpiration", "Leaves absorb water from the soil", "Leaves take in CO₂ for photosynthesis"],
+      "correctIndex": 2,
+      "explanation": "Leaves do NOT absorb water from soil — that is the job of roots. Leaves absorb CO₂ from air, make food through photosynthesis and release water vapour through transpiration.",
+      "difficulty": "medium",
+      "tags": ["plants", "leaf", "false-statement"]
+    },
+    {
+      "id": "g3s-w26-wed-011",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "Cactus has leaves modified into spines. Why?",
+      "options": ["For photosynthesis", "To reduce water loss in dry desert conditions; the green stem does photosynthesis instead", "To attract animals", "Spines absorb water from the air"],
+      "correctIndex": 1,
+      "explanation": "In the desert, reducing water loss is crucial. Cactus leaves have become spines (minimal surface area = minimal transpiration). The green stem takes over photosynthesis.",
+      "difficulty": "hard",
+      "tags": ["plants", "leaf", "cactus", "adaptation"]
+    },
+    {
+      "id": "g3s-w26-wed-012",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "How does venation pattern relate to a plant's group?",
+      "options": ["It is random with no pattern", "Parallel venation → monocot plants (like grasses); reticulate venation → dicot plants (like mango)", "Reticulate → grasses; parallel → trees", "Both types occur randomly in all plants"],
+      "correctIndex": 1,
+      "explanation": "In plant classification: monocots (rice, wheat, maize) have parallel venation; dicots (mango, rose, tulsi) have reticulate venation. Venation type is a diagnostic feature.",
+      "difficulty": "hard",
+      "tags": ["plants", "venation", "monocot-dicot"]
+    },
+    {
+      "id": "g3s-w26-wed-013",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "If you cover a leaf with black paper (blocking all light), what happens to that leaf?",
+      "options": ["It makes food faster in the dark", "It cannot photosynthesize and will eventually yellow and die", "Nothing changes", "It absorbs CO₂ faster"],
+      "correctIndex": 1,
+      "explanation": "Photosynthesis requires light. Block light → no photosynthesis → no food for that leaf → it turns yellow (loses chlorophyll) and eventually dies.",
+      "difficulty": "hard",
+      "tags": ["plants", "leaf", "photosynthesis", "experiment"]
+    },
+    {
+      "id": "g3s-w26-wed-014",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "Leaves release oxygen as a by-product of photosynthesis. Why is this important for animals and humans?",
+      "options": ["Oxygen makes leaves green", "All living things need oxygen for respiration (breathing); without plants releasing oxygen, animals could not survive", "Oxygen is used only by plants", "It is not important"],
+      "correctIndex": 1,
+      "explanation": "All animals (including humans) need oxygen to breathe and release energy. Plants produce oxygen as a by-product of photosynthesis, making life on Earth possible.",
+      "difficulty": "hard",
+      "tags": ["plants", "photosynthesis", "oxygen", "ecology"]
+    },
+    {
+      "id": "g3s-w26-wed-015",
+      "goalId": "grade-3-science-w26-wed",
+      "question": "Leaves have tiny pores called stomata (mostly on the underside). Why on the UNDERSIDE?",
+      "options": ["For aesthetic reasons", "The upper surface gets direct sunlight which would dry out stomata; the underside stays cooler", "Stomata need soil contact", "It is the same on both sides in all plants"],
+      "correctIndex": 1,
+      "explanation": "Stomata on the underside face away from direct sunlight. This reduces the drying-out effect (too much water loss) while still allowing gas exchange. It is an adaptation to conserve water.",
+      "difficulty": "hard",
+      "tags": ["plants", "stomata", "adaptation"]
+    }
+  ]
+}

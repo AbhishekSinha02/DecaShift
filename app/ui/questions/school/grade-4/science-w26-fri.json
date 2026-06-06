@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-4-science-w26-fri",
+  "title": "Grade 4 Science — Fri, Jun 27",
+  "description": "Food and Digestion — Day 5 of 5: Mixed review",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4s-w26-fri-001",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "Digestion begins in which organ?",
+      "options": ["Stomach", "Oesophagus", "Mouth", "Small intestine"],
+      "correctIndex": 2,
+      "explanation": "Digestion begins in the mouth — both mechanical (chewing) and chemical (salivary amylase breaks down starch).",
+      "difficulty": "easy",
+      "tags": ["digestion", "review", "mouth"]
+    },
+    {
+      "id": "g4s-w26-fri-002",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "Which enzyme in saliva begins starch digestion?",
+      "options": ["Pepsin", "Lipase", "Amylase", "Bile"],
+      "correctIndex": 2,
+      "explanation": "Salivary amylase begins breaking down starch (carbohydrate) into simpler sugars in the mouth.",
+      "difficulty": "easy",
+      "tags": ["digestion", "review", "amylase"]
+    },
+    {
+      "id": "g4s-w26-fri-003",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "The food pipe connecting mouth to stomach is called:",
+      "options": ["Trachea", "Oesophagus", "Larynx", "Bile duct"],
+      "correctIndex": 1,
+      "explanation": "The oesophagus (food pipe) transports the bolus from the mouth to the stomach using peristalsis.",
+      "difficulty": "easy",
+      "tags": ["digestion", "review", "oesophagus"]
+    },
+    {
+      "id": "g4s-w26-fri-004",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "Which nutrient does protein-rich food provide? Give an Indian food example.",
+      "options": ["Energy — rice", "Growth and repair — dal (lentils)", "Heat — ghee", "Immunity — oil"],
+      "correctIndex": 1,
+      "explanation": "Proteins provide growth and repair. Dal (lentils) is an excellent plant-based protein source commonly eaten in Indian meals.",
+      "difficulty": "easy",
+      "tags": ["digestion", "review", "protein"]
+    },
+    {
+      "id": "g4s-w26-fri-005",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "The main job of the small intestine is:",
+      "options": ["To produce acid", "To absorb digested nutrients into the blood", "To churn food", "To store waste"],
+      "correctIndex": 1,
+      "explanation": "The small intestine is the primary absorption site — nutrients pass through its villi-lined wall into the bloodstream.",
+      "difficulty": "medium",
+      "tags": ["digestion", "review", "small-intestine"]
+    },
+    {
+      "id": "g4s-w26-fri-006",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "Teeth: which type GRINDS food?",
+      "options": ["Incisors", "Canines", "Molars and premolars", "All teeth grind equally"],
+      "correctIndex": 2,
+      "explanation": "Molars (and premolars) are large, flat teeth designed for grinding and crushing food. Incisors cut; canines tear.",
+      "difficulty": "medium",
+      "tags": ["digestion", "review", "molars"]
+    },
+    {
+      "id": "g4s-w26-fri-007",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "Bile is produced by the ___ and stored in the ___.",
+      "options": ["Pancreas and kidney", "Liver and gallbladder", "Stomach and oesophagus", "Small intestine and spleen"],
+      "correctIndex": 1,
+      "explanation": "Bile is made by the liver, stored in the gallbladder, and released into the small intestine to emulsify (break up) fats.",
+      "difficulty": "medium",
+      "tags": ["digestion", "review", "bile"]
+    },
+    {
+      "id": "g4s-w26-fri-008",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "A balanced diet must include all of these EXCEPT:",
+      "options": ["Carbohydrates", "Proteins", "Vitamins and minerals", "Pesticides"],
+      "correctIndex": 3,
+      "explanation": "A balanced diet includes carbohydrates, proteins, fats, vitamins, minerals, water and fibre. Pesticides are chemical contaminants — NOT a nutrient.",
+      "difficulty": "medium",
+      "tags": ["digestion", "review", "balanced-diet"]
+    },
+    {
+      "id": "g4s-w26-fri-009",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "Sequence: What is the correct order of the digestive path?",
+      "options": ["Mouth → Stomach → Oesophagus → Small intestine → Large intestine", "Mouth → Oesophagus → Stomach → Small intestine → Large intestine", "Stomach → Mouth → Oesophagus → Large intestine → Small intestine", "Oesophagus → Mouth → Stomach → Small intestine → Large intestine"],
+      "correctIndex": 1,
+      "explanation": "Correct path: Mouth → Oesophagus → Stomach → Small intestine (absorption) → Large intestine (water) → Anus. This is the standard digestive route.",
+      "difficulty": "hard",
+      "tags": ["digestion", "review", "sequence"]
+    },
+    {
+      "id": "g4s-w26-fri-010",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "What is the semi-liquid formed in the stomach called? And what is the ball of food formed in the mouth called?",
+      "options": ["Both are called bolus", "Stomach = chyme; mouth = bolus", "Both are called chyme", "Stomach = bolus; mouth = chyme"],
+      "correctIndex": 1,
+      "explanation": "Mouth: chewed food + saliva = BOLUS. Stomach: bolus + gastric juice (churned) = CHYME. Two different terms for two different stages.",
+      "difficulty": "hard",
+      "tags": ["digestion", "review", "bolus-chyme"]
+    },
+    {
+      "id": "g4s-w26-fri-011",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "Why is Vitamin D important and how is it made?",
+      "options": ["Builds muscles; found in dal", "Helps absorb calcium for strong bones; made by skin in sunlight", "Carries oxygen; found in spinach", "Digests fat; made in the liver"],
+      "correctIndex": 1,
+      "explanation": "Vitamin D helps absorb calcium → strong bones and teeth. Uniquely, it is synthesised in skin exposed to sunlight. Deficiency causes rickets in children.",
+      "difficulty": "hard",
+      "tags": ["digestion", "review", "vitamin-D"]
+    },
+    {
+      "id": "g4s-w26-fri-012",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "Why does the small intestine have villi?",
+      "options": ["To produce enzymes", "To greatly increase surface area for faster absorption of nutrients", "To move food by peristalsis", "To store bile"],
+      "correctIndex": 1,
+      "explanation": "Villi = tiny finger-like projections that multiply the surface area of the small intestine enormously. More surface area = faster, more complete absorption of digested nutrients.",
+      "difficulty": "hard",
+      "tags": ["digestion", "review", "villi"]
+    },
+    {
+      "id": "g4s-w26-fri-013",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "A child eats a mango, some roti and a glass of milk. Which part of the meal gives PROTEIN?",
+      "options": ["Mango (gives vitamin C)", "Roti (gives carbohydrates)", "Milk (gives protein and calcium)", "All three give equal protein"],
+      "correctIndex": 2,
+      "explanation": "Milk = rich in protein (casein and whey) + calcium. Roti = carbohydrate. Mango = vitamins (A, C), carbohydrate, fibre. For protein, milk is the correct answer.",
+      "difficulty": "hard",
+      "tags": ["digestion", "review", "food-nutrients"]
+    },
+    {
+      "id": "g4s-w26-fri-014",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "Iron deficiency causes anaemia. Which food should an anaemic child eat more of?",
+      "options": ["White rice and white bread", "Spinach, pomegranate, dates and lentils", "Sugar and sweets", "Butter and ghee"],
+      "correctIndex": 1,
+      "explanation": "Iron-rich foods: spinach (palak), pomegranate, dates (khajoor), lentils (dal), jaggery (gur). These are common Indian iron sources — important for anaemia prevention.",
+      "difficulty": "hard",
+      "tags": ["digestion", "review", "iron-deficiency"]
+    },
+    {
+      "id": "g4s-w26-fri-015",
+      "goalId": "grade-4-science-w26-fri",
+      "question": "Complete the nutrient match: Carbohydrates=___ · Proteins=___ · Calcium=___ · Vitamin C=___ · Iron=___",
+      "options": ["Energy · Growth · Strong bones · Immunity · Oxygen transport", "Immunity · Energy · Growth · Oxygen · Bones", "Growth · Energy · Immunity · Bones · Oxygen", "Oxygen · Growth · Energy · Immunity · Bones"],
+      "correctIndex": 0,
+      "explanation": "Carbohydrates = energy. Proteins = growth/repair. Calcium = strong bones/teeth. Vitamin C = immunity/prevents scurvy. Iron = haemoglobin in red blood cells (oxygen transport).",
+      "difficulty": "hard",
+      "tags": ["digestion", "review", "nutrient-functions"]
+    }
+  ]
+}

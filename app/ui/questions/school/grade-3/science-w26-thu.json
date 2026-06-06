@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-3-science-w26-thu",
+  "title": "Grade 3 Science — Thu, Jun 26",
+  "description": "Plants Around Us — Day 4 of 5: Flowers, fruits, seeds and seed dispersal",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3s-w26-thu-001",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "What develops from a flower after pollination?",
+      "options": ["A new leaf", "A root", "A fruit", "A stem"],
+      "correctIndex": 2,
+      "explanation": "After pollination (transfer of pollen), the flower gets fertilized and the ovary develops into a fruit containing seeds.",
+      "difficulty": "easy",
+      "tags": ["plants", "flower", "fruit", "pollination"]
+    },
+    {
+      "id": "g3s-w26-thu-002",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Seeds can be dispersed by wind. Which feature helps a seed travel by wind?",
+      "options": ["Heavy and round shape", "Light weight with wing-like or hair-like structures", "Hard shell", "Bright colour"],
+      "correctIndex": 1,
+      "explanation": "Wind-dispersed seeds are light and have wing-like (maple) or fluffy/hair-like structures (dandelion, cotton) that allow the wind to carry them far away.",
+      "difficulty": "easy",
+      "tags": ["plants", "seed-dispersal", "wind"]
+    },
+    {
+      "id": "g3s-w26-thu-003",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Which animal helps in seed dispersal?",
+      "options": ["Earthworm", "Squirrel", "Fish", "Earthworm"],
+      "correctIndex": 1,
+      "explanation": "Squirrels bury nuts (seeds) for winter storage and forget some — those seeds germinate. Birds eat fruits and deposit seeds through droppings. Animals are important seed dispersers.",
+      "difficulty": "easy",
+      "tags": ["plants", "seed-dispersal", "animals"]
+    },
+    {
+      "id": "g3s-w26-thu-004",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Coconut seeds float on water and travel to distant shores. This is an example of seed dispersal by:",
+      "options": ["Wind", "Animals", "Water", "Explosion"],
+      "correctIndex": 2,
+      "explanation": "Coconuts are dispersed by water — they float and can travel across oceans to germinate on distant beaches.",
+      "difficulty": "easy",
+      "tags": ["plants", "seed-dispersal", "water"]
+    },
+    {
+      "id": "g3s-w26-thu-005",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Some pods (like peas) burst open when dry, scattering seeds. This is called:",
+      "options": ["Water dispersal", "Wind dispersal", "Animal dispersal", "Explosive dispersal"],
+      "correctIndex": 3,
+      "explanation": "Explosive dispersal (self-dispersal) happens when dried seed pods burst open with force, throwing seeds out. Examples: peas, touch-me-not (Mimosa), balsam.",
+      "difficulty": "medium",
+      "tags": ["plants", "seed-dispersal", "explosive"]
+    },
+    {
+      "id": "g3s-w26-thu-006",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Why do plants need to disperse their seeds?",
+      "options": ["So seeds look pretty when scattered", "To reduce competition for sunlight, water and nutrients between parent plant and offspring", "Because seeds cannot grow near the parent", "To feed animals"],
+      "correctIndex": 1,
+      "explanation": "If all seeds fell right under the parent plant, they would compete with each other and the parent for resources. Dispersal spreads seeds to new locations where they have space and resources to grow.",
+      "difficulty": "medium",
+      "tags": ["plants", "seed-dispersal", "reason"]
+    },
+    {
+      "id": "g3s-w26-thu-007",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Which part of a fruit contains the seed?",
+      "options": ["Outer skin only", "The flesh only", "Inside — the seed is protected by the fruit flesh and skin", "Separate from the fruit"],
+      "correctIndex": 2,
+      "explanation": "Seeds are inside the fruit, protected by the flesh (mesocarp) and outer skin (exocarp). The fruit's job is to protect the seed and attract animals to eat and disperse it.",
+      "difficulty": "medium",
+      "tags": ["plants", "fruit", "seed", "structure"]
+    },
+    {
+      "id": "g3s-w26-thu-008",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Xanthium (a weed) has hooked seeds that stick to fur and clothing. Which type of dispersal is this?",
+      "options": ["Wind", "Water", "Animal (external attachment)", "Explosive"],
+      "correctIndex": 2,
+      "explanation": "Seeds with hooks, burrs or sticky surfaces attach to animal fur or clothing and are carried to new locations. This is animal dispersal (external — not eaten, but stuck on the outside).",
+      "difficulty": "medium",
+      "tags": ["plants", "seed-dispersal", "animal-external"]
+    },
+    {
+      "id": "g3s-w26-thu-009",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "What does a seed need to germinate (start growing)?",
+      "options": ["Only sunlight", "Water, warmth and oxygen (air)", "Only soil", "Wind"],
+      "correctIndex": 1,
+      "explanation": "For germination, seeds need: water (to activate enzymes), warmth (temperature for metabolic activity) and oxygen (for respiration). Sunlight is NOT needed for germination — only for the seedling after it sprouts.",
+      "difficulty": "hard",
+      "tags": ["plants", "seed-germination", "conditions"]
+    },
+    {
+      "id": "g3s-w26-thu-010",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "A mango seed is large and heavy. It falls straight down under the tree. What limits its dispersal?",
+      "options": ["Its bright colour", "Its large size and weight — it cannot be carried by wind or float easily", "Its sweet taste", "It has no seed coat"],
+      "correctIndex": 1,
+      "explanation": "Large, heavy seeds like mango cannot be carried by wind. They rely on animals (fruit-eating animals carry the whole fruit) or just fall close to the parent tree.",
+      "difficulty": "hard",
+      "tags": ["plants", "seed-dispersal", "mango", "limitation"]
+    },
+    {
+      "id": "g3s-w26-thu-011",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Match dispersal method to seed feature: 1-wind, 2-water, 3-animal (eaten)",
+      "options": ["1-hooks, 2-air sacs/float, 3-wings", "1-wings/fluffy hairs, 2-waterproof/air spaces to float, 3-fleshy edible fruit with hard seed inside", "1-bright colour, 2-fluffy hairs, 3-hooks", "1-float, 2-wings, 3-explode"],
+      "correctIndex": 1,
+      "explanation": "Wind dispersal: wings or fluffy hairs (dandelion, maple). Water dispersal: waterproof coat and air spaces to float (coconut, lotus). Animal (eaten): fleshy fruit with indigestible hard seed (mango, cherry).",
+      "difficulty": "hard",
+      "tags": ["plants", "seed-dispersal", "matching"]
+    },
+    {
+      "id": "g3s-w26-thu-012",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Why are fruits usually brightly coloured and sweet?",
+      "options": ["To look pretty in gardens", "To attract animals to eat them and disperse the seeds inside", "Bright colour means more vitamins", "They are not always sweet"],
+      "correctIndex": 1,
+      "explanation": "Bright colours and sweet taste attract fruit-eating animals. The animal eats the fruit, the seed passes through the digestive system unharmed and is deposited far away — an effective dispersal strategy.",
+      "difficulty": "hard",
+      "tags": ["plants", "fruit", "colour", "dispersal-strategy"]
+    },
+    {
+      "id": "g3s-w26-thu-013",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "What would happen to plant species if all seeds landed directly under the parent plant and none dispersed?",
+      "options": ["Plants would grow faster", "Intense competition for resources would reduce survival; the species would struggle to spread and colonise new areas", "Nothing would change", "Seeds would grow better near parents"],
+      "correctIndex": 1,
+      "explanation": "Without dispersal, all seedlings crowd under the parent, compete for light/water/nutrients, and most would die. The species could not spread to new habitats. Dispersal is essential for species survival and spread.",
+      "difficulty": "hard",
+      "tags": ["plants", "seed-dispersal", "ecology", "reasoning"]
+    },
+    {
+      "id": "g3s-w26-thu-014",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Seeds like those of the Himalayan maple have wings and spin like helicopter blades as they fall. Why is this useful?",
+      "options": ["They spin for fun", "Spinning slows descent and allows wind to carry them sideways — increasing dispersal distance", "Spinning breaks the seed coat", "It helps the seed absorb water"],
+      "correctIndex": 1,
+      "explanation": "The spinning (autorotation) slows the seed's descent. While it spins and falls slowly, even a gentle wind can carry it sideways — sometimes hundreds of metres from the parent tree.",
+      "difficulty": "hard",
+      "tags": ["plants", "seed-dispersal", "wind", "adaptation"]
+    },
+    {
+      "id": "g3s-w26-thu-015",
+      "goalId": "grade-3-science-w26-thu",
+      "question": "Compare: A tree that produces 1 large seed vs a dandelion that produces hundreds of tiny seeds. What are the trade-offs?",
+      "options": ["Large seed trees always win", "Large seed = more nutrients stored, higher survival rate per seed but fewer seeds; tiny seeds = hundreds produced for wider dispersal but each has lower individual chance of survival", "Tiny seeds always win", "There is no difference"],
+      "correctIndex": 1,
+      "explanation": "Large seeds (coconut) pack more food for the seedling → higher survival per seed, but fewer produced. Tiny seeds (dandelion) are produced in hundreds and dispersed widely → lower survival per seed, but sheer numbers increase overall success.",
+      "difficulty": "hard",
+      "tags": ["plants", "seed-strategy", "comparison"]
+    }
+  ]
+}

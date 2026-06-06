@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-french-w26-thu",
+  "title": "Grade 6 French — Thu, Jun 26",
+  "description": "Comparatif et Superlatif — Day 4 of 5: Mixed practice — all three structures",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6f-w26-thu-001",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "Choose the correct sentence: 'My sister is taller than me.'",
+      "options": ["Ma sœur est plus grande de moi.", "Ma sœur est plus grande que moi.", "Ma sœur a plus grande que moi.", "Ma sœur est la plus grande."],
+      "correctIndex": 1,
+      "explanation": "'Ma sœur est plus grande que moi.' ✓ Adjective comparative: 'plus + adj + que.' 'Grande' agrees with 'sœur' (feminine). 'De' would be wrong — use 'que' for comparatives.",
+      "difficulty": "easy",
+      "tags": ["comparatif", "adjective", "mixed"]
+    },
+    {
+      "id": "g6f-w26-thu-002",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "Choose the correct sentence: 'Priya has more books than Riya.'",
+      "options": ["Priya est plus livre que Riya.", "Priya a plus de livres que Riya.", "Priya a plus livres que Riya.", "Priya lit plus livres que Riya."],
+      "correctIndex": 1,
+      "explanation": "'Priya a plus de livres que Riya.' ✓ Quantity comparative: 'plus de + noun + que.' 'Livres' = books. Don't confuse with adjective comparative — here we count objects.",
+      "difficulty": "easy",
+      "tags": ["comparatif", "quantity", "mixed"]
+    },
+    {
+      "id": "g6f-w26-thu-003",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "'Ananya runs faster than me.' — Choose the correct form.",
+      "options": ["Ananya est plus rapide que moi.", "Ananya court plus vite que moi.", "Ananya a plus vite que moi.", "Ananya plus vite que moi."],
+      "correctIndex": 1,
+      "explanation": "'Ananya court plus vite que moi.' ✓ Adverb comparative: verb + 'plus vite' + 'que.' Note: 'plus rapide' would compare an adjective ('she is faster'), not how she runs. 'Court' = runs.",
+      "difficulty": "easy",
+      "tags": ["comparatif", "adverb", "mixed"]
+    },
+    {
+      "id": "g6f-w26-thu-004",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "Which sentence uses the SUPERLATIVE correctly?",
+      "options": ["Riva est plus intelligente de la classe.", "Riva est la plus intelligente de la classe.", "Riva est le plus intelligente de la classe.", "Riva est la plus intelligente que la classe."],
+      "correctIndex": 1,
+      "explanation": "'Riva est la plus intelligente de la classe.' ✓ Superlative: 'la plus + adj + de.' 'La' (feminine, agrees with Riva). 'De la classe' = in the class. NOT 'que' (that's comparative), NOT 'le' (Riva is feminine).",
+      "difficulty": "medium",
+      "tags": ["superlatif", "adjective", "identify"]
+    },
+    {
+      "id": "g6f-w26-thu-005",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "Identify the type: 'Il a autant d'argent que son ami.'",
+      "options": ["Comparatif d'adjectifs (equality)", "Comparatif de quantité (equality) — 'autant de + noun + que'", "Comparatif d'adverbes", "Superlatif"],
+      "correctIndex": 1,
+      "explanation": "'Autant de + argent (noun) + que' = quantity comparison (equality: as much money as). The noun 'argent' reveals this is a quantity comparison, not adjective or adverb.",
+      "difficulty": "medium",
+      "tags": ["comparatif", "quantity", "identify-type"]
+    },
+    {
+      "id": "g6f-w26-thu-006",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "'Bon' → comparative = ?, superlative (masc.) = ?",
+      "options": ["plus bon / le plus bon", "meilleur / le meilleur", "mieux / le mieux", "plus bon / le meilleur"],
+      "correctIndex": 1,
+      "explanation": "'Bon' (adjective, good) → comparative: 'meilleur' (NOT 'plus bon'), superlative: 'le meilleur.' Compare with 'bien' (adverb) → comparative: 'mieux', superlative: 'le mieux.' Don't mix adjective and adverb forms.",
+      "difficulty": "medium",
+      "tags": ["irregular", "bon-meilleur", "superlative"]
+    },
+    {
+      "id": "g6f-w26-thu-007",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "Spot the error: 'Ce film est le plus meilleur de tous.'",
+      "options": ["No error", "'Le plus meilleur' is wrong — 'meilleur' already means 'better' (comparative); superlative is simply 'le meilleur' (not 'le plus meilleur')", "'De tous' should be 'que tous'", "'Film' needs an article"],
+      "correctIndex": 1,
+      "explanation": "'Ce film est le meilleur de tous.' ✓ 'Meilleur' already contains the comparison. Adding 'le plus' is double-marking. Common learner error. Similarly, never say 'le plus pire' — just 'le pire.'",
+      "difficulty": "hard",
+      "tags": ["irregular", "error-correction", "meilleur"]
+    },
+    {
+      "id": "g6f-w26-thu-008",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "'She sings better than her sister.' — Which is correct?",
+      "options": ["Elle chante plus bien que sa sœur.", "Elle chante mieux que sa sœur.", "Elle est mieux chanteuse que sa sœur.", "Elle chante bien que sa sœur."],
+      "correctIndex": 1,
+      "explanation": "'Elle chante mieux que sa sœur.' ✓ 'Bien' (adverb) → comparative 'mieux.' 'Plus bien' is a learner error. 'Chante' = sings (verb — so use adverb comparison, not adjective).",
+      "difficulty": "hard",
+      "tags": ["comparatif", "bien-mieux", "adverb"]
+    },
+    {
+      "id": "g6f-w26-thu-009",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "Fill in: 'Inde a ___ de population ___ France.' (India has more population than France)",
+      "options": ["plus…que", "plus de…que", "le plus de…de", "autant de…que"],
+      "correctIndex": 1,
+      "explanation": "'Inde a plus de population que France.' ✓ 'Population' is a noun → use 'plus de...que' (quantity comparative). 'Plus…que' alone is for adjective/adverb comparisons, not quantity.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "quantity", "fill-in"]
+    },
+    {
+      "id": "g6f-w26-thu-010",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "'C'est le livre le moins intéressant de la bibliothèque.' — What type of comparison?",
+      "options": ["Comparatif d'infériorité", "Superlatif d'infériorité — 'le moins + adj + de' = the least interesting", "Comparatif de quantité", "Comparatif d'adverbes"],
+      "correctIndex": 1,
+      "explanation": "'Le moins intéressant de la bibliothèque' = superlative of inferiority (the least interesting in the library). 'De la bibliothèque' = the group. Compare: 'moins intéressant que' = comparative; 'le moins intéressant de' = superlative.",
+      "difficulty": "hard",
+      "tags": ["superlatif", "inferiority", "identify"]
+    },
+    {
+      "id": "g6f-w26-thu-011",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "Match: 'Elle travaille ___ que lui.' to make an equality comparison of how she works.",
+      "options": ["aussi bien", "le mieux", "meilleure", "autant bien"],
+      "correctIndex": 0,
+      "explanation": "'Elle travaille aussi bien que lui.' ✓ Adverb equality comparison: 'aussi + adverb + que.' 'Bien' = well (adverb). 'Aussi bien que' = as well as. 'Le mieux' would be superlative. 'Autant bien' is not a valid structure.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "adverb", "equality", "aussi-bien"]
+    },
+    {
+      "id": "g6f-w26-thu-012",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "Which sentence correctly uses the superlative with a PLURAL noun group?",
+      "options": ["Ce sont les filles la plus sportive de l'école.", "Ce sont les filles les plus sportives de l'école.", "Ce sont les filles plus sportives de l'école.", "Ce sont les filles le plus sportives de l'école."],
+      "correctIndex": 1,
+      "explanation": "'Ce sont les filles les plus sportives de l'école.' ✓ 'Les' (plural feminine article) + 'plus' + 'sportives' (plural feminine adjective). ALL three elements agree with 'filles' (feminine plural).",
+      "difficulty": "hard",
+      "tags": ["superlatif", "agreement", "plural"]
+    },
+    {
+      "id": "g6f-w26-thu-013",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "'Ramesh a moins de patience que son frère.' — The underlined word in 'moins de patience' is a:",
+      "options": ["Adjectif", "Nom (noun) — 'patience' is a noun → quantity comparison", "Adverbe", "Verbe"],
+      "correctIndex": 1,
+      "explanation": "'Patience' is a noun (abstract noun). So this is 'moins de + noun + que' = quantity comparison. The structure confirms it's quantity, not quality (adjective) comparison.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "quantity", "noun-identification"]
+    },
+    {
+      "id": "g6f-w26-thu-014",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "Choose the correctly formed sentence about 'bad/worst':",
+      "options": ["C'est le plus mauvais élève de la classe. / C'est le pire élève de la classe. — both are acceptable", "C'est le mauvaisement élève.", "C'est le plus pire élève.", "C'est pire que mauvais."],
+      "correctIndex": 0,
+      "explanation": "'Le plus mauvais' (regular superlative) AND 'le pire' (irregular superlative of 'mauvais') are BOTH acceptable for 'the worst.' 'Le plus pire' is wrong (double-marking). 'Pire' already means the worst.",
+      "difficulty": "hard",
+      "tags": ["superlatif", "mauvais-pire", "irregular"]
+    },
+    {
+      "id": "g6f-w26-thu-015",
+      "goalId": "grade-6-french-w26-thu",
+      "question": "Three sentences — identify which is WRONG:\n(A) 'Il est plus grand que moi.'\n(B) 'Elle a plus de livres que lui.'\n(C) 'Tu cours plus rapide que moi.'",
+      "options": ["A is wrong", "B is wrong", "C is wrong — 'rapide' is an adjective; for the adverb, use 'rapidement' or 'vite': 'Tu cours plus vite que moi.'", "None is wrong"],
+      "correctIndex": 2,
+      "explanation": "A ✓ (adjective comparative). B ✓ (quantity comparative). C ✗ — 'rapide' is an adjective (fast), not an adverb. After a verb, use 'vite' or 'rapidement': 'Tu cours plus vite que moi.' 'Il est plus rapide' ✓ (adjective) but 'il court plus rapide' ✗.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "error-correction", "adjective-vs-adverb"]
+    }
+  ]
+}

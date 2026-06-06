@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-5-science-w26-tue",
+  "title": "Grade 5 Science — Tue, Jun 24",
+  "description": "Nervous System and Sense Organs — Day 2 of 5: Spinal cord and reflex arc",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5s-w26-tue-001",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "The spinal cord runs from the brain down through the backbone (vertebral column). What are its two main functions?",
+      "options": ["Digestion and breathing", "Relaying nerve impulses between brain and body, and controlling reflex actions", "Pumping blood and storing minerals", "Controlling thinking and memory"],
+      "correctIndex": 1,
+      "explanation": "Spinal cord: (1) Relay highway — carries messages up to the brain (sensory) and down from the brain (motor). (2) Reflex centre — processes simple reflex actions WITHOUT waiting for the brain.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "spinal-cord", "functions"]
+    },
+    {
+      "id": "g5s-w26-tue-002",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "What is a reflex action?",
+      "options": ["A voluntary, thoughtful response", "A rapid, automatic response to a stimulus that does not require conscious thought — processed in the spinal cord", "Any movement of the body", "A response that takes several seconds"],
+      "correctIndex": 1,
+      "explanation": "Reflex actions are automatic, fast responses to stimuli. They bypass the brain for speed — the spinal cord processes them. Example: snatching your hand from a hot plate.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "reflex", "definition"]
+    },
+    {
+      "id": "g5s-w26-tue-003",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "Order of a reflex arc: Stimulus → ___ → ___ → ___ → Response",
+      "options": ["Effector → Nerve → Brain → Receptor", "Receptor → Sensory nerve → Spinal cord → Motor nerve → Effector (muscle/gland)", "Brain → Spinal cord → Nerve → Muscle", "Muscle → Sensory nerve → Brain → Motor nerve"],
+      "correctIndex": 1,
+      "explanation": "Reflex arc: Stimulus → Receptor (sense organ) → Sensory nerve (to spinal cord) → Relay neuron in spinal cord → Motor nerve (to effector) → Response (muscle contracts/gland secretes).",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "reflex-arc", "sequence"]
+    },
+    {
+      "id": "g5s-w26-tue-004",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "When you accidentally touch a very hot cup, you withdraw your hand BEFORE feeling the pain. Why?",
+      "options": ["The brain works very fast", "The withdrawal reflex is processed in the spinal cord — the muscle response happens before the pain signal reaches the brain (brain feels pain later)", "You imagined the pain", "The skin has no pain receptors"],
+      "correctIndex": 1,
+      "explanation": "The spinal cord processes the withdrawal reflex locally, causing the hand to pull back immediately. The pain signal travels to the brain separately and is felt a fraction of a second later.",
+      "difficulty": "medium",
+      "tags": ["nervous-system", "reflex", "hot-cup"]
+    },
+    {
+      "id": "g5s-w26-tue-005",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "The spinal cord is protected by which structure?",
+      "options": ["The rib cage", "The vertebral column (backbone/spine) — 33 vertebrae form a bony canal through which the spinal cord runs", "The skull", "The sternum"],
+      "correctIndex": 1,
+      "explanation": "The spinal cord runs inside the vertebral column (33 stacked vertebrae). This bony tube provides mechanical protection. Additionally, meninges and cerebrospinal fluid cushion the spinal cord.",
+      "difficulty": "medium",
+      "tags": ["nervous-system", "spinal-cord", "protection"]
+    },
+    {
+      "id": "g5s-w26-tue-006",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "What is the receptor in the knee-jerk reflex?",
+      "options": ["The skin of the knee", "Stretch receptors in the patellar tendon (below the kneecap)", "The brain", "The eye"],
+      "correctIndex": 1,
+      "explanation": "Knee-jerk reflex: Tap below kneecap → stretch receptor in patellar tendon activated → sensory nerve to spinal cord → motor nerve back to thigh muscle → leg kicks out. This is used by doctors to test nervous system function.",
+      "difficulty": "medium",
+      "tags": ["nervous-system", "knee-jerk", "reflex"]
+    },
+    {
+      "id": "g5s-w26-tue-007",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "Why are reflex actions processed in the spinal cord rather than the brain?",
+      "options": ["The brain is too tired", "Speed — in a reflex, time is critical (avoiding injury). Processing in the spinal cord is faster than sending the signal all the way to the brain and back", "The brain cannot process pain", "The spinal cord is bigger than the brain"],
+      "correctIndex": 1,
+      "explanation": "Brain-processed responses take longer (signal must travel to brain, be processed, and travel back). Spinal cord reflexes cut this path — the signal never goes to the brain, saving milliseconds that can prevent serious injury.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "reflex", "speed-advantage"]
+    },
+    {
+      "id": "g5s-w26-tue-008",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "Classify: Blinking when something approaches your eye. Voluntary or reflex?",
+      "options": ["Voluntary — you choose to blink", "Reflex — automatic, fast, protective blink without conscious control", "Not related to the nervous system", "Partially voluntary, partially reflex"],
+      "correctIndex": 1,
+      "explanation": "The blink reflex is automatic — triggered by approaching objects/air/particles. It protects the eye before conscious thought can act. (You CAN consciously blink, but the protective blink is a reflex.)",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "blink-reflex", "classification"]
+    },
+    {
+      "id": "g5s-w26-tue-009",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "A person has a spinal cord injury at the neck (C3 level). What would happen to breathing?",
+      "options": ["No effect — breathing is controlled by the brain alone", "Breathing may be affected or stop — the phrenic nerve controlling the diaphragm exits from C3-C5; injury here can paralyse breathing muscles", "Only arm movement is affected", "Only leg movement is affected"],
+      "correctIndex": 1,
+      "explanation": "The phrenic nerve (from C3–C5 in the neck) controls the diaphragm — the main breathing muscle. High cervical spinal injury can paralyse the diaphragm, requiring a ventilator to breathe.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "spinal-injury", "breathing"]
+    },
+    {
+      "id": "g5s-w26-tue-010",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "Sensory neurons carry signals ___ and motor neurons carry signals ___.",
+      "options": ["Down from brain / Up to brain", "Up to the brain (afferent) / Down from brain to effectors (efferent)", "Sideways / Diagonally", "Both carry signals the same way"],
+      "correctIndex": 1,
+      "explanation": "Sensory (afferent) neurons carry impulses FROM receptors TOWARD the spinal cord/brain. Motor (efferent) neurons carry impulses FROM brain/spinal cord TOWARD muscles or glands (effectors).",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "sensory-motor", "direction"]
+    },
+    {
+      "id": "g5s-w26-tue-011",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "What is a 'relay neuron' (also called interneuron)?",
+      "options": ["A neuron in the eye", "A connecting neuron in the spinal cord that links sensory and motor neurons in a reflex arc", "A neuron that produces hormones", "The longest neuron in the body"],
+      "correctIndex": 1,
+      "explanation": "Relay/interneurons are in the spinal cord (and brain). They connect sensory neurons (bringing signals in) to motor neurons (sending signals out). In a reflex arc: sensory → relay → motor.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "relay-neuron", "interneuron"]
+    },
+    {
+      "id": "g5s-w26-tue-012",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "Practice makes actions faster. A trained driver reacts to a hazard more quickly than a learner. What happens in the nervous system with practice?",
+      "options": ["New bones grow", "Nerve pathways become more efficient (myelination, synaptic strengthening) — responses become faster and more automatic", "The spinal cord grows longer", "The brain shrinks"],
+      "correctIndex": 1,
+      "explanation": "Repeated practice strengthens synaptic connections and improves myelin sheath on axons (faster conduction). Skilled responses require less conscious effort — 'muscle memory' reflects neural pathway optimisation.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "practice", "neural-efficiency"]
+    },
+    {
+      "id": "g5s-w26-tue-013",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "What is the effector in a reflex arc?",
+      "options": ["The sense organ that detects stimulus", "The sensory nerve", "The muscle or gland that carries out the response", "The spinal cord itself"],
+      "correctIndex": 2,
+      "explanation": "The effector is the structure that RESPONDS: a muscle (contracts to produce movement) or a gland (secretes a chemical). Example: in the hand-withdrawal reflex, the effector is the arm muscles.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "effector", "reflex-arc"]
+    },
+    {
+      "id": "g5s-w26-tue-014",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "Why is the spinal cord called the 'second brain'?",
+      "options": ["It thinks independently", "It can process and respond to stimuli (reflexes) independently of the brain, coordinate some movements, and process sensory data — giving it partial autonomous function", "It is located in a second skull", "It controls all voluntary actions"],
+      "correctIndex": 1,
+      "explanation": "The spinal cord autonomously handles reflexes, coordinates some locomotion patterns, and processes sensory input — without involving the brain. This semi-independence earns it the informal 'second brain' description.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "spinal-cord", "autonomy"]
+    },
+    {
+      "id": "g5s-w26-tue-015",
+      "goalId": "grade-5-science-w26-tue",
+      "question": "Complete the reflex arc: Touching a thorn → Receptor: ___ → Nerve: ___ → Spinal cord → Motor nerve → Effector: ___",
+      "options": ["Eye → Optic nerve → Arm muscle", "Skin pain receptor → Sensory nerve → Arm muscle (withdraws hand)", "Ear → Auditory nerve → Leg muscle", "Nose → Olfactory nerve → Hand muscle"],
+      "correctIndex": 1,
+      "explanation": "Thorn prick: skin pain receptor (receptor) → sensory nerve (to spinal cord) → relay neuron in spinal cord → motor nerve → arm/hand muscles (effector = withdraws hand). Classic withdrawal reflex.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "reflex-arc", "complete"]
+    }
+  ]
+}

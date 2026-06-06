@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-3-french-w26-tue",
+  "title": "Grade 3 French — Tue, Jun 24",
+  "description": "À l'école — Day 2 of 5: School places (les endroits de l'école)",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "a-l-ecole",
+  "tags": ["french", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3f-w26-tue-001",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "What is 'la salle de classe' in English?",
+      "options": ["the staffroom", "the classroom", "the library", "the playground"],
+      "correctIndex": 1,
+      "explanation": "'La salle de classe' = the classroom. 'Salle' = room/hall; 'de classe' = of class.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "school-places", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-tue-002",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "Where do you go to borrow books in French school? 'La ___'",
+      "options": ["cantine", "bibliothèque", "cour", "gymnase"],
+      "correctIndex": 1,
+      "explanation": "'La bibliothèque' = the library. 'La cantine' = the canteen/cafeteria. 'La cour' = the playground/courtyard. 'Le gymnase' = the gym.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "library", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-tue-003",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "What is 'la cour de récréation'?",
+      "options": ["the library", "the canteen", "the playground", "the corridor"],
+      "correctIndex": 2,
+      "explanation": "'La cour de récréation' = the playground (recreation yard). Often just called 'la cour.'",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "playground", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-tue-004",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "Where do you eat lunch at school in France? 'Je mange à ___'",
+      "options": ["la bibliothèque", "la salle de classe", "la cantine", "la cour"],
+      "correctIndex": 2,
+      "explanation": "'La cantine' = the school canteen/cafeteria. 'Je mange à la cantine.' = I eat at the canteen.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "canteen", "sentence"]
+    },
+    {
+      "id": "g3f-w26-tue-005",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "What is 'le couloir'?",
+      "options": ["the colour", "the playground", "the corridor/hallway", "the cupboard"],
+      "correctIndex": 2,
+      "explanation": "'Le couloir' = the corridor or hallway (the passage between classrooms).",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "corridor", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-tue-006",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "Fill in: 'Pendant la récréation, je joue dans ___ .' (During break, I play in the ___)",
+      "options": ["la bibliothèque", "la cantine", "la cour", "la salle de classe"],
+      "correctIndex": 2,
+      "explanation": "'Je joue dans la cour.' = I play in the playground/yard. 'La cour' (or 'la cour de récréation') is where students play during break.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "playground", "sentence"]
+    },
+    {
+      "id": "g3f-w26-tue-007",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "Where does the school principal (le directeur/la directrice) usually work?",
+      "options": ["dans la salle de classe", "dans le bureau du directeur", "dans la cantine", "dans la cour"],
+      "correctIndex": 1,
+      "explanation": "'Le bureau du directeur' = the principal's office. 'Bureau' = office/desk.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "principal-office", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-tue-008",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "Match place to activity: 'Je lis des livres → ___ '",
+      "options": ["la cantine", "la cour", "la bibliothèque", "le gymnase"],
+      "correctIndex": 2,
+      "explanation": "'Je lis des livres' = I read books → 'la bibliothèque' (the library). Reading happens in the library.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "matching", "activity"]
+    },
+    {
+      "id": "g3f-w26-tue-009",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "What is 'le gymnase'?",
+      "options": ["the garden", "the gym / sports hall", "the classroom", "the staffroom"],
+      "correctIndex": 1,
+      "explanation": "'Le gymnase' = the gym or sports hall where PE (l'éducation physique) lessons take place.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "gym", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-tue-010",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "Translate: 'I go to the library to read.'",
+      "options": ["Je vais à la cantine pour manger.", "Je vais à la bibliothèque pour lire.", "Je vais au gymnase pour lire.", "Je vais dans la cour pour lire."],
+      "correctIndex": 1,
+      "explanation": "'Je vais à la bibliothèque pour lire.' = I go to the library to read. 'Pour + infinitive' = in order to (do something).",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "translation", "pour-infinitive"]
+    },
+    {
+      "id": "g3f-w26-tue-011",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "What is 'la salle de sport'?",
+      "options": ["the art room", "the sports room / PE hall", "the music room", "the science lab"],
+      "correctIndex": 1,
+      "explanation": "'La salle de sport' = the sports hall / PE room. Similar to 'le gymnase.'",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "sports-room", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-tue-012",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "How do you say 'I am in the classroom' in French?",
+      "options": ["Je suis dans la bibliothèque.", "Je suis dans la salle de classe.", "Je suis dans la cantine.", "Je suis dans la cour."],
+      "correctIndex": 1,
+      "explanation": "'Je suis dans la salle de classe.' = I am in the classroom. 'Je suis' = I am; 'dans' = in.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "sentence-structure", "location"]
+    },
+    {
+      "id": "g3f-w26-tue-013",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "Describe your school route: 'Je quitte ___ et je vais dans ___.' (I leave the classroom and go to the canteen.)",
+      "options": ["la cantine, la salle de classe", "la salle de classe, la cantine", "la cour, la bibliothèque", "le couloir, la cour"],
+      "correctIndex": 1,
+      "explanation": "'Je quitte la salle de classe et je vais dans la cantine.' = I leave the classroom and go to the canteen.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "route", "sequence"]
+    },
+    {
+      "id": "g3f-w26-tue-014",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "What is the French word for 'staffroom' (where teachers take breaks)?",
+      "options": ["la salle des professeurs", "la salle de classe", "le bureau des élèves", "la salle de sport"],
+      "correctIndex": 0,
+      "explanation": "'La salle des professeurs' = the staffroom (literally: the teachers' room). 'Des professeurs' = of the teachers.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "staffroom", "vocabulary"]
+    },
+    {
+      "id": "g3f-w26-tue-015",
+      "goalId": "grade-3-french-w26-tue",
+      "question": "Write a sentence saying where you go after each activity. Best answer:",
+      "options": ["Je vais à l'école.", "Après les cours, je vais dans la cour pour jouer. Ensuite, je vais à la cantine pour manger.", "Je joue et je mange.", "La cour est grande."],
+      "correctIndex": 1,
+      "explanation": "'Après les cours, je vais dans la cour pour jouer. Ensuite, je vais à la cantine pour manger.' uses 'après' (after), 'pour + infinitive' (to/in order to) and 'ensuite' (then/next) — good connectors.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "extended-sentence", "connectors"]
+    }
+  ]
+}

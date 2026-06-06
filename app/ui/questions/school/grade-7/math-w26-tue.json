@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-math-w26-tue",
+  "title": "Grade 7 Math — Tue, Jun 24",
+  "description": "Perimeter and Area — Circles Day 2 of 5: Area of a circle",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7m-w26-tue-001",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "Area of a circle with radius r =",
+      "options": ["2πr", "πr²", "πr", "2πr²"],
+      "correctIndex": 1,
+      "explanation": "Area = πr². Remember: Circumference = 2πr (multiply radius by 2π); Area = πr² (square the radius, then multiply by π).",
+      "difficulty": "easy",
+      "tags": ["circle", "area", "formula"]
+    },
+    {
+      "id": "g7m-w26-tue-002",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "Area of a circle with radius 7 cm (π = 22/7) =",
+      "options": ["44 cm²", "154 cm²", "308 cm²", "22 cm²"],
+      "correctIndex": 1,
+      "explanation": "A = πr² = (22/7) × 7 × 7 = (22/7) × 49 = 22 × 7 = 154 cm².",
+      "difficulty": "easy",
+      "tags": ["circle", "area", "calculate"]
+    },
+    {
+      "id": "g7m-w26-tue-003",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "Area of a circle with diameter 14 cm (π = 22/7) =",
+      "options": ["44 cm²", "88 cm²", "154 cm²", "616 cm²"],
+      "correctIndex": 2,
+      "explanation": "Diameter = 14 → radius = 7 cm. A = πr² = (22/7) × 49 = 154 cm².",
+      "difficulty": "easy",
+      "tags": ["circle", "area", "diameter-given"]
+    },
+    {
+      "id": "g7m-w26-tue-004",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "Area of a semicircle with radius 14 cm (π = 22/7) =",
+      "options": ["154 cm²", "308 cm²", "616 cm²", "44 cm²"],
+      "correctIndex": 1,
+      "explanation": "Semicircle area = ½ × πr² = ½ × (22/7) × 14 × 14 = ½ × (22/7) × 196 = ½ × 616 = 308 cm².",
+      "difficulty": "easy",
+      "tags": ["circle", "semicircle", "area"]
+    },
+    {
+      "id": "g7m-w26-tue-005",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "A circular garden has radius 21 m. Its area (π = 22/7) =",
+      "options": ["132 m²", "441 m²", "1,386 m²", "2,772 m²"],
+      "correctIndex": 2,
+      "explanation": "A = πr² = (22/7) × 21 × 21 = (22/7) × 441 = 22 × 63 = 1,386 m².",
+      "difficulty": "medium",
+      "tags": ["circle", "area", "garden"]
+    },
+    {
+      "id": "g7m-w26-tue-006",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "Area of a circle with circumference 44 cm (π = 22/7) — find radius first:",
+      "options": ["44 cm²", "154 cm²", "308 cm²", "616 cm²"],
+      "correctIndex": 1,
+      "explanation": "C = 2πr = 44 → r = 44/(2×22/7) = 44 × 7/44 = 7 cm. A = πr² = (22/7) × 49 = 154 cm².",
+      "difficulty": "medium",
+      "tags": ["circle", "area", "circumference-given"]
+    },
+    {
+      "id": "g7m-w26-tue-007",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "A circular pond has area 616 m². Its radius (π = 22/7) =",
+      "options": ["7 m", "14 m", "28 m", "44 m"],
+      "correctIndex": 1,
+      "explanation": "A = πr² → 616 = (22/7)r² → r² = 616 × 7/22 = 4,312/22 = 196 → r = 14 m.",
+      "difficulty": "medium",
+      "tags": ["circle", "area", "find-radius"]
+    },
+    {
+      "id": "g7m-w26-tue-008",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "Cost of painting a circular floor of radius 7 m at ₹15 per m² (π = 22/7) =",
+      "options": ["₹660", "₹2,310", "₹4,620", "₹1,155"],
+      "correctIndex": 1,
+      "explanation": "A = πr² = (22/7) × 49 = 154 m². Cost = 154 × 15 = ₹2,310.",
+      "difficulty": "medium",
+      "tags": ["circle", "area", "cost"]
+    },
+    {
+      "id": "g7m-w26-tue-009",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "A square has the same area as a circle with radius 7 cm. Side of the square (π = 22/7) ≈",
+      "options": ["7 cm", "11.07 cm", "12.41 cm", "14 cm"],
+      "correctIndex": 2,
+      "explanation": "Circle area = (22/7)×49 = 154 cm². Square side = √154 ≈ 12.41 cm. (√154 = √(4×38.5) = 2√38.5 ≈ 12.41.)",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "compare-square"]
+    },
+    {
+      "id": "g7m-w26-tue-010",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "A circular ring has outer radius 14 cm and inner radius 7 cm. Area of the ring (π = 22/7) =",
+      "options": ["154 cm²", "308 cm²", "462 cm²", "616 cm²"],
+      "correctIndex": 2,
+      "explanation": "Ring area = π(R² − r²) = (22/7)(14² − 7²) = (22/7)(196 − 49) = (22/7) × 147 = 22 × 21 = 462 cm².",
+      "difficulty": "hard",
+      "tags": ["circle", "ring", "area"]
+    },
+    {
+      "id": "g7m-w26-tue-011",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "A circular path 7 m wide surrounds a circular garden of radius 14 m. Area of the path only (π = 22/7) =",
+      "options": ["154 m²", "462 m²", "770 m²", "1,386 m²"],
+      "correctIndex": 2,
+      "explanation": "Outer radius = 14 + 7 = 21 m. Path area = π(R² − r²) = (22/7)(21² − 14²) = (22/7)(441 − 196) = (22/7) × 245 = 22 × 35 = 770 m².",
+      "difficulty": "hard",
+      "tags": ["circle", "ring", "path"]
+    },
+    {
+      "id": "g7m-w26-tue-012",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "If the radius of a circle is tripled, its area becomes:",
+      "options": ["3 times", "6 times", "9 times", "12 times"],
+      "correctIndex": 2,
+      "explanation": "Original area = πr². New radius = 3r. New area = π(3r)² = 9πr² = 9 × original area. Area scales as the square of the radius. Compare: circumference only triples when radius triples.",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "scaling"]
+    },
+    {
+      "id": "g7m-w26-tue-013",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "A circular plate has radius 14 cm. A square hole of side 7 cm is cut from its centre. Remaining area (π = 22/7) =",
+      "options": ["49 cm²", "567 cm²", "616 cm²", "665 cm²"],
+      "correctIndex": 1,
+      "explanation": "Circle area = π×14² = (22/7)×196 = 616 cm². Square = 7×7 = 49 cm². Remaining = 616 − 49 = 567 cm².",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "composite", "subtract"]
+    },
+    {
+      "id": "g7m-w26-tue-014",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "A football field has two semicircular ends, each with diameter 70 m, and a rectangular middle section 100 m × 70 m. Total area (π = 22/7) =",
+      "options": ["3,850 m²", "7,000 m²", "10,850 m²", "14,700 m²"],
+      "correctIndex": 2,
+      "explanation": "Two semicircles = one full circle with radius 35 m. Circle area = π×35² = (22/7)×1,225 = 22×175 = 3,850 m². Rectangle = 100×70 = 7,000 m². Total = 3,850 + 7,000 = 10,850 m².",
+      "difficulty": "hard",
+      "tags": ["circle", "composite", "semicircle", "rectangle"]
+    },
+    {
+      "id": "g7m-w26-tue-015",
+      "goalId": "grade-7-math-w26-tue",
+      "question": "Compare: Circle with radius 7 cm vs Square with side 14 cm. Which has greater area?",
+      "options": ["Circle (154 cm²)", "Square (196 cm²)", "Both equal", "Cannot determine"],
+      "correctIndex": 1,
+      "explanation": "Circle: π×7² = 154 cm². Square: 14×14 = 196 cm². The square has greater area (196 > 154). Note: the square's side equals the circle's diameter.",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "compare-square"]
+    }
+  ]
+}

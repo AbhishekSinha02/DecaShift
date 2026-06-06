@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-2-math-w26-wed",
+  "title": "Grade 2 Math — Wed, Jun 25",
+  "description": "Money — Day 3 of 5: Subtracting amounts — giving change problems",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2m-w26-wed-001",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "Rohan has ₹10 and spends ₹4. How much is left?",
+      "options": ["₹4", "₹5", "₹6", "₹7"],
+      "correctIndex": 2,
+      "explanation": "₹10 − ₹4 = ₹6. Rohan has six rupees left after spending four rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-wed-002",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "A shopkeeper has ₹20. He gives ₹5 as change. How much is left?",
+      "options": ["₹10", "₹12", "₹15", "₹20"],
+      "correctIndex": 2,
+      "explanation": "₹20 − ₹5 = ₹15. After giving five rupees as change, fifteen rupees remain.",
+      "difficulty": "easy",
+      "tags": ["money", "subtraction", "change"]
+    },
+    {
+      "id": "g2m-w26-wed-003",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "Rani had ₹8 and spent ₹3 on a toffee. How much does she have left?",
+      "options": ["₹3", "₹4", "₹5", "₹6"],
+      "correctIndex": 2,
+      "explanation": "₹8 − ₹3 = ₹5. Rani has five rupees left after buying the toffee.",
+      "difficulty": "easy",
+      "tags": ["money", "subtraction", "shopping"]
+    },
+    {
+      "id": "g2m-w26-wed-004",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "A balloon costs ₹5. You give the shopkeeper ₹10. What change do you get?",
+      "options": ["₹3", "₹4", "₹5", "₹6"],
+      "correctIndex": 2,
+      "explanation": "₹10 − ₹5 = ₹5. If you pay ₹10 for a ₹5 balloon, you get ₹5 back as change.",
+      "difficulty": "easy",
+      "tags": ["money", "change", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-wed-005",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "Mohan has ₹15. He spends ₹10 on a book. How much is left?",
+      "options": ["₹3", "₹4", "₹5", "₹6"],
+      "correctIndex": 2,
+      "explanation": "₹15 − ₹10 = ₹5. Mohan has five rupees left after buying the book.",
+      "difficulty": "easy",
+      "tags": ["money", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-wed-006",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "A pen costs ₹7. You give ₹10. How much change will you receive?",
+      "options": ["₹2", "₹3", "₹4", "₹5"],
+      "correctIndex": 1,
+      "explanation": "₹10 − ₹7 = ₹3. You will receive three rupees as change.",
+      "difficulty": "easy",
+      "tags": ["money", "change", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-wed-007",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "Priya has ₹25 and buys a toy for ₹18. How much money is left?",
+      "options": ["₹5", "₹6", "₹7", "₹8"],
+      "correctIndex": 2,
+      "explanation": "₹25 − ₹18 = ₹7. Priya has seven rupees left after buying the toy.",
+      "difficulty": "medium",
+      "tags": ["money", "subtraction", "shopping"]
+    },
+    {
+      "id": "g2m-w26-wed-008",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "A fruit-seller has ₹50. He gives ₹22 as change to a customer. How much is left?",
+      "options": ["₹22", "₹26", "₹28", "₹30"],
+      "correctIndex": 2,
+      "explanation": "₹50 − ₹22 = ₹28. The fruit-seller has twenty-eight rupees left.",
+      "difficulty": "medium",
+      "tags": ["money", "subtraction", "change"]
+    },
+    {
+      "id": "g2m-w26-wed-009",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "Suresh had ₹40. He spent ₹16 on snacks. How much does he have now?",
+      "options": ["₹20", "₹22", "₹24", "₹26"],
+      "correctIndex": 2,
+      "explanation": "₹40 − ₹16 = ₹24. Suresh has twenty-four rupees remaining.",
+      "difficulty": "medium",
+      "tags": ["money", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-wed-010",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "A sticker pack costs ₹12. You give a ₹20 note. What is the correct change?",
+      "options": ["₹6", "₹7", "₹8", "₹9"],
+      "correctIndex": 2,
+      "explanation": "₹20 − ₹12 = ₹8. You should receive eight rupees as change.",
+      "difficulty": "medium",
+      "tags": ["money", "change", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-wed-011",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "Kavya has ₹30. She buys a notebook for ₹14 and a pencil for ₹3. How much is left?",
+      "options": ["₹11", "₹13", "₹15", "₹17"],
+      "correctIndex": 1,
+      "explanation": "Total spent = ₹14 + ₹3 = ₹17. Money left = ₹30 − ₹17 = ₹13.",
+      "difficulty": "medium",
+      "tags": ["money", "subtraction", "multi-step"]
+    },
+    {
+      "id": "g2m-w26-wed-012",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "Amit paid ₹50 for something. He got ₹15 as change. What was the cost of the item?",
+      "options": ["₹25", "₹30", "₹35", "₹40"],
+      "correctIndex": 2,
+      "explanation": "Cost = ₹50 − ₹15 = ₹35. The item cost thirty-five rupees.",
+      "difficulty": "medium",
+      "tags": ["money", "change", "reverse"]
+    },
+    {
+      "id": "g2m-w26-wed-013",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "A shopkeeper had ₹100. He gave change of ₹35 to one customer and ₹25 to another. How much is left?",
+      "options": ["₹30", "₹40", "₹50", "₹60"],
+      "correctIndex": 1,
+      "explanation": "Total change = ₹35 + ₹25 = ₹60. Money left = ₹100 − ₹60 = ₹40.",
+      "difficulty": "hard",
+      "tags": ["money", "subtraction", "multi-step"]
+    },
+    {
+      "id": "g2m-w26-wed-014",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "Geeta has ₹80. She buys a dress for ₹55. How much change should she receive if she pays with a ₹100 note?",
+      "options": ["₹25", "₹35", "₹45", "₹55"],
+      "correctIndex": 2,
+      "explanation": "She pays ₹100 for an item costing ₹55. Change = ₹100 − ₹55 = ₹45.",
+      "difficulty": "hard",
+      "tags": ["money", "change", "subtraction"]
+    },
+    {
+      "id": "g2m-w26-wed-015",
+      "goalId": "grade-2-math-w26-wed",
+      "question": "A toy car costs ₹48. Raj has ₹60. After buying the toy car, does he have enough left to buy a pencil for ₹8?",
+      "options": ["No, he has only ₹10 left which is not enough", "Yes, he has ₹12 left", "No, he has only ₹4 left", "Yes, he has exactly ₹8 left"],
+      "correctIndex": 1,
+      "explanation": "Money after buying car = ₹60 − ₹48 = ₹12. Since ₹12 > ₹8, yes he can buy the pencil.",
+      "difficulty": "hard",
+      "tags": ["money", "subtraction", "comparison"]
+    }
+  ]
+}

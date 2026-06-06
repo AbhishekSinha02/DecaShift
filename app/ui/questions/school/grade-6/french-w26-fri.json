@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-french-w26-fri",
+  "title": "Grade 6 French — Fri, Jun 27",
+  "description": "Comparatif et Superlatif — Day 5 of 5: Full mixed review + error correction",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6f-w26-fri-001",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Three comparison types: adjective / quantity / adverb. Which matches 'Elle est plus intelligente que lui.'?",
+      "options": ["Comparatif de quantité", "Comparatif d'adjectifs (superiority)", "Comparatif d'adverbes", "Superlatif"],
+      "correctIndex": 1,
+      "explanation": "'Plus intelligente que lui' — 'intelligente' is an adjective describing a quality → comparatif d'adjectifs. Structure: plus + adjective (agreeing with subject) + que.",
+      "difficulty": "easy",
+      "tags": ["comparatif", "identify-type", "adjective"]
+    },
+    {
+      "id": "g6f-w26-fri-002",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Which matches 'Il a moins de temps que toi.'?",
+      "options": ["Comparatif d'adjectifs", "Superlatif d'infériorité", "Comparatif de quantité (inferiority) — 'moins de + noun + que'", "Comparatif d'adverbes"],
+      "correctIndex": 2,
+      "explanation": "'Moins de temps que toi' — 'temps' (time) is a noun → quantity comparison (inferiority). Structure: moins de + noun + que.",
+      "difficulty": "easy",
+      "tags": ["comparatif", "identify-type", "quantity"]
+    },
+    {
+      "id": "g6f-w26-fri-003",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Which matches 'C'est le meilleur restaurant de la ville.'?",
+      "options": ["Comparatif de supériorité (bon)", "Superlatif de supériorité — 'le meilleur + de' = the best in the city", "Comparatif d'adverbes", "Comparatif de quantité"],
+      "correctIndex": 1,
+      "explanation": "'Le meilleur de la ville' = superlative of 'bon' (irregular). 'De la ville' introduces the group. 'Le meilleur' = the best (masculine singular).",
+      "difficulty": "easy",
+      "tags": ["superlatif", "bon-meilleur", "identify"]
+    },
+    {
+      "id": "g6f-w26-fri-004",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Fill in: 'Riya chante ___ que moi.' (Riya sings as well as me.)",
+      "options": ["mieux", "aussi bien", "le mieux", "autant bien"],
+      "correctIndex": 1,
+      "explanation": "'Riya chante aussi bien que moi.' ✓ Equality comparison of adverb 'bien': 'aussi bien que.' 'Mieux' = better (superiority). 'Le mieux' = best (superlative). 'Autant bien' is not a valid form.",
+      "difficulty": "medium",
+      "tags": ["comparatif", "adverb", "equality", "bien"]
+    },
+    {
+      "id": "g6f-w26-fri-005",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Spot the error: 'Les filles sont les plus sportif de l'école.'",
+      "options": ["No error", "'sportif' should agree with 'les filles' (feminine plural): 'sportives.' Correct: 'les filles sont les plus sportives de l'école.'", "'les plus' is wrong — use 'plus'", "'de l'école' should be 'que l'école'"],
+      "correctIndex": 1,
+      "explanation": "Superlative adjective agreement: 'les filles' = feminine plural → 'sportif' → 'sportives.' Also: article 'les' agrees (plural). Full correction: 'Les filles sont les plus sportives de l'école.'",
+      "difficulty": "medium",
+      "tags": ["superlatif", "agreement", "error-correction"]
+    },
+    {
+      "id": "g6f-w26-fri-006",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Translate: 'She has fewer friends than her brother.' (fewer = fewer items)",
+      "options": ["Elle est moins amie que son frère.", "Elle a moins d'amis que son frère.", "Elle a aussi d'amis que son frère.", "Elle moins amis que son frère."],
+      "correctIndex": 1,
+      "explanation": "'Elle a moins d'amis que son frère.' ✓ Quantity comparison (inferiority): 'moins de + noun + que.' Elision: 'moins de amis' → 'moins d'amis.' 'Est moins amie' would compare a quality, not a number.",
+      "difficulty": "medium",
+      "tags": ["comparatif", "quantity", "inferiority"]
+    },
+    {
+      "id": "g6f-w26-fri-007",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "What is the superlative of 'mauvais' (bad)?",
+      "options": ["le plus mauvais only", "le pire only", "le plus mauvais OR le pire — both are accepted", "le plus pire"],
+      "correctIndex": 2,
+      "explanation": "Both 'le plus mauvais' (regular) and 'le pire' (irregular) are accepted superlatives of 'mauvais.' 'Le plus pire' is WRONG — 'pire' already contains the superlative sense. Never double-mark.",
+      "difficulty": "medium",
+      "tags": ["superlatif", "mauvais-pire", "irregular"]
+    },
+    {
+      "id": "g6f-w26-fri-008",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Translate: 'Aarav is the tallest boy in the class.'",
+      "options": ["Aarav est plus grand que la classe.", "Aarav est le plus grand garçon de la classe.", "Aarav est le grand garçon de la classe.", "Aarav est le plus grand garçon que la classe."],
+      "correctIndex": 1,
+      "explanation": "'Aarav est le plus grand garçon de la classe.' ✓ Superlative: le + plus + adjective (grand, masculine singular) + de + group (la classe). 'Que' would signal comparative, not superlative.",
+      "difficulty": "hard",
+      "tags": ["superlatif", "adjective", "translate"]
+    },
+    {
+      "id": "g6f-w26-fri-009",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Spot the error: 'Il a autant de patience que tu.'",
+      "options": ["No error", "'tu' should be 'toi' — use stressed pronoun (pronom tonique) after 'que': moi, toi, lui, elle, nous, vous, eux, elles", "'autant de patience' needs 'd'' before patience", "'a' is wrong"],
+      "correctIndex": 1,
+      "explanation": "After 'que' in comparisons, use stressed pronouns: moi (me), toi (you), lui (him), elle (her), nous (us), vous (you formal/pl), eux (them masc), elles (them fem). Correct: 'Il a autant de patience que toi.'",
+      "difficulty": "hard",
+      "tags": ["comparatif", "stressed-pronoun", "error-correction"]
+    },
+    {
+      "id": "g6f-w26-fri-010",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Two sentences — which uses 'meilleur' correctly?\n(A) 'Ce gâteau est meilleur que celui-là.'\n(B) 'Elle est le meilleur de la classe.' (for a female student)",
+      "options": ["Both A and B are correct", "A is correct; B is wrong — 'la meilleure' needed (feminine): 'Elle est la meilleure de la classe.'", "B is correct; A should use 'plus bon'", "Both are wrong"],
+      "correctIndex": 1,
+      "explanation": "A ✓: 'meilleur' comparative for 'bon' — correct. B ✗: 'Elle' is feminine → 'la meilleure de la classe.' 'Le meilleur' = masculine. Agreement of superlative with the subject is required.",
+      "difficulty": "hard",
+      "tags": ["superlatif", "meilleure", "agreement", "error"]
+    },
+    {
+      "id": "g6f-w26-fri-011",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "'Il travaille plus que lui.' — What type of comparison is this?",
+      "options": ["Comparatif d'adjectifs", "Comparatif de quantité", "Comparatif de verbes (verb comparison — how much action) — 'verb + plus que'", "Superlatif"],
+      "correctIndex": 2,
+      "explanation": "'Il travaille plus que lui' = He works more than him. This is a verb quantity comparison: verb + plus/aussi/moins + que. No noun or adjective involved — we compare the amount of action performed.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "verb-comparison", "identify"]
+    },
+    {
+      "id": "g6f-w26-fri-012",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Reorder to make a correct superlative sentence: [la / de / est / Priya / la / élève / classe / meilleure]",
+      "options": ["Priya est la meilleure élève de la classe.", "Priya la meilleure est élève de classe.", "La Priya est meilleure de la classe élève.", "Priya est meilleure élève la de la classe."],
+      "correctIndex": 0,
+      "explanation": "'Priya est la meilleure élève de la classe.' ✓ Structure: Subject + être + article (la) + meilleure + noun + de + group. 'Meilleure' is feminine to agree with 'élève' (feminine noun).",
+      "difficulty": "hard",
+      "tags": ["superlatif", "word-order", "meilleure"]
+    },
+    {
+      "id": "g6f-w26-fri-013",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Complete correctly: 'L'Inde a ___ habitants ___ la France.'  (India has more inhabitants than France)",
+      "options": ["plus…que", "plus de…que", "le plus de…de", "plus habitants…que"],
+      "correctIndex": 1,
+      "explanation": "'L'Inde a plus d'habitants que la France.' ✓ Quantity: 'plus de + noun + que.' Elision: 'de habitants' → 'd'habitants.' Don't omit 'de' — 'plus habitants que' is wrong.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "quantity", "elision"]
+    },
+    {
+      "id": "g6f-w26-fri-014",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Choose the sentence with NO grammatical error:",
+      "options": ["Il est le plus meilleur de tous.", "Elle parle mieux le français que son frère.", "Ce sont les étudiants le plus intelligents.", "Il court plus rapide que toi."],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'mieux' (irregular adverb comparative of 'bien') — correct. A ✗: 'le plus meilleur' double-marks. C ✗: 'les plus intelligents' (plural → 'les'). D ✗: 'rapide' is adjective; use 'vite': 'il court plus vite que toi.'",
+      "difficulty": "hard",
+      "tags": ["comparatif", "error-correction", "identify-correct"]
+    },
+    {
+      "id": "g6f-w26-fri-015",
+      "goalId": "grade-6-french-w26-fri",
+      "question": "Which correctly expresses 'Delhi has the most traffic of all Indian cities'?",
+      "options": ["Delhi a plus de circulation que les villes indiennes.", "Delhi a le plus de circulation de toutes les villes indiennes.", "Delhi est la plus de circulation de l'Inde.", "Delhi a autant de circulation que les villes indiennes."],
+      "correctIndex": 1,
+      "explanation": "'Delhi a le plus de circulation de toutes les villes indiennes.' ✓ Superlative of quantity: 'le plus de + noun + de + group.' 'Circulation' = traffic. 'De toutes les villes indiennes' = of all Indian cities (the group).",
+      "difficulty": "hard",
+      "tags": ["superlatif", "quantity", "translate"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-science-w26-tue",
+  "title": "Grade 7 Science — Tue, Jun 24",
+  "description": "Heat — Day 2 of 5: Conduction — heat transfer through solids",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7s-w26-tue-001",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "Conduction is heat transfer through:",
+      "options": ["Movement of heated fluid (liquids and gases)", "Direct contact — kinetic energy passes between neighbouring particles without the particles moving", "Electromagnetic waves through empty space", "Chemical reactions"],
+      "correctIndex": 1,
+      "explanation": "Conduction: heat transfers through particle-to-particle collision. Faster vibrating particles (hot) bump into slower ones (cool), transferring energy. Particles stay in their positions — only energy moves. Common in solids.",
+      "difficulty": "easy",
+      "tags": ["conduction", "definition", "particle"]
+    },
+    {
+      "id": "g7s-w26-tue-002",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "Which material is the best conductor of heat?",
+      "options": ["Wood", "Plastic", "Copper (metal)", "Glass"],
+      "correctIndex": 2,
+      "explanation": "Metals are the best conductors — they have free electrons that carry thermal energy rapidly. Copper > aluminium > iron > glass/plastic/wood. Non-metals are generally poor conductors (insulators).",
+      "difficulty": "easy",
+      "tags": ["conduction", "conductor", "metal"]
+    },
+    {
+      "id": "g7s-w26-tue-003",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "Why does a metal spoon feel colder to touch than a wooden spoon in the same room?",
+      "options": ["The metal spoon is actually colder", "Metal conducts heat away from your hand faster than wood, making your hand feel colder — but both spoons are at the same room temperature", "Wood produces heat", "Metal is lighter"],
+      "correctIndex": 1,
+      "explanation": "Both spoons are at room temperature (same temperature). Metal conducts heat rapidly FROM your warm hand INTO the spoon → your hand cools quickly → feels 'cold.' Wood conducts poorly → hand stays warmer. Temperature ≠ how hot or cold something feels to touch (thermal conductivity matters).",
+      "difficulty": "easy",
+      "tags": ["conduction", "conductor-insulator", "everyday"]
+    },
+    {
+      "id": "g7s-w26-tue-004",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "A poor conductor (insulator) of heat — which is the best example?",
+      "options": ["Iron", "Aluminium", "Air / wool / wood", "Silver"],
+      "correctIndex": 2,
+      "explanation": "Air, wool, and wood are poor heat conductors (insulators). Air has widely spaced molecules → poor conduction. Wool traps air → insulates. Used in winter clothing, coolers, building insulation.",
+      "difficulty": "easy",
+      "tags": ["conduction", "insulator", "examples"]
+    },
+    {
+      "id": "g7s-w26-tue-005",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "Davy's safety lamp works because:",
+      "options": ["Glass does not conduct electricity", "A metal gauze (fine wire mesh) conducts heat so efficiently that it cools the flame below the ignition temperature of mine gases — fire cannot pass through the gauze", "The flame is sealed inside the lamp", "Carbon dioxide is pumped in"],
+      "correctIndex": 1,
+      "explanation": "Davy lamp: metal gauze conducts heat from the flame outward. Outside gases never reach ignition temperature → cannot catch fire through the gauze. Used in coal mines where flammable gases exist. Demonstrates conduction as a safety device.",
+      "difficulty": "medium",
+      "tags": ["conduction", "davy-lamp", "application"]
+    },
+    {
+      "id": "g7s-w26-tue-006",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "Why are cooking pots made of metal but have handles of wood or plastic?",
+      "options": ["Metal is cheaper for the pot part", "Metal conducts heat to cook food efficiently; wood/plastic handles are poor conductors so the handle stays cool enough to hold safely", "Wood is decorative", "Metal handles would be too heavy"],
+      "correctIndex": 1,
+      "explanation": "Metal pot: excellent conductor → efficient cooking. Wood/plastic handle: insulator → doesn't conduct heat to your hand → safe to hold. Design uses different materials' thermal properties intentionally.",
+      "difficulty": "medium",
+      "tags": ["conduction", "conductor-insulator", "application"]
+    },
+    {
+      "id": "g7s-w26-tue-007",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "In Searle's bar experiment to compare thermal conductivity, equal amounts of wax are placed at equal distances along two metal rods heated from one end. The wax melts faster on the rod that:",
+      "options": ["Is longer", "Conducts heat better (higher thermal conductivity)", "Is thicker", "Is painted black"],
+      "correctIndex": 1,
+      "explanation": "Searle's bar experiment: rods of different materials, same dimensions. Wax melts faster along the rod with higher thermal conductivity — heat travels down it faster. This demonstrates differences in conductivity between metals.",
+      "difficulty": "medium",
+      "tags": ["conduction", "experiment", "searle"]
+    },
+    {
+      "id": "g7s-w26-tue-008",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "Why do we wrap food in aluminium foil to keep it warm?",
+      "options": ["Aluminium conducts heat in, keeping food warm", "The foil acts as a partial barrier — it reflects radiant heat back (not pure conduction); also the air gap between foil layers is an insulator", "Aluminium is soft and easy to wrap", "Foil prevents chemical reactions"],
+      "correctIndex": 1,
+      "explanation": "Aluminium foil works two ways: (1) Reflects radiated heat back (aluminium is shiny, poor emitter). (2) Traps a thin air layer (poor conductor). It slows heat loss by both radiation and conduction/convection mechanisms.",
+      "difficulty": "hard",
+      "tags": ["conduction", "insulation", "aluminium-foil"]
+    },
+    {
+      "id": "g7s-w26-tue-009",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "Why is conduction very slow in liquids and gases compared to solids?",
+      "options": ["Liquids and gases are lighter", "Particles in liquids and gases are much more widely spaced and move around → fewer direct collisions per unit time → slower energy transfer by conduction", "Liquids conduct electricity instead", "Temperature differences are smaller"],
+      "correctIndex": 1,
+      "explanation": "In solids: particles are densely packed and vibrate in fixed positions → frequent energy transfer between neighbours. In liquids/gases: particles are farther apart, move randomly → fewer collisions → much slower conduction. That's why liquids/gases transfer heat mainly by convection instead.",
+      "difficulty": "hard",
+      "tags": ["conduction", "states-of-matter", "particle-spacing"]
+    },
+    {
+      "id": "g7s-w26-tue-010",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "Railway tracks have gaps (expansion joints) at intervals. Why?",
+      "options": ["To save metal", "Because metals expand when heated — gaps prevent buckling of tracks in summer when rails expand due to heat conduction from the Sun and friction", "Decorative pattern", "To make trains slower at joints"],
+      "correctIndex": 1,
+      "explanation": "Thermal expansion: metals expand when hot. Without gaps, expanding rails would buckle and derail trains. Expansion joints allow room to expand. Related to conduction: track surface absorbs and conducts solar heat along its length.",
+      "difficulty": "hard",
+      "tags": ["conduction", "thermal-expansion", "railway"]
+    },
+    {
+      "id": "g7s-w26-tue-011",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "If you hold one end of a metal rod in a flame, the other end gradually gets hot. This is because:",
+      "options": ["Radiation travels through the rod", "Convection carries hot air along the rod", "Conduction: heat energy is transferred from particle to particle along the rod from the hot end to the cool end", "The rod is melting"],
+      "correctIndex": 2,
+      "explanation": "Conduction through the solid metal rod: hot end particles vibrate faster → collide with neighbours → energy passes along → far end eventually heats up. You should never hold a metal rod directly in a flame due to this rapid conduction.",
+      "difficulty": "hard",
+      "tags": ["conduction", "rod", "mechanism"]
+    },
+    {
+      "id": "g7s-w26-tue-012",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "Woollen clothes keep us warm in winter. Why — even though wool is a poor conductor?",
+      "options": ["Wool produces heat chemically", "Wool traps air between its fibres — air is a very poor conductor, so heat from your body is not conducted away quickly → you stay warm", "Wool absorbs sunlight", "Wool blocks wind only"],
+      "correctIndex": 1,
+      "explanation": "Wool's real insulating property: it traps air. Air is a terrible conductor (molecules far apart). The trapped air forms an insulating layer that slows heat loss from the body. The wool fibres themselves also conduct poorly.",
+      "difficulty": "hard",
+      "tags": ["conduction", "insulator", "wool", "air"]
+    },
+    {
+      "id": "g7s-w26-tue-013",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "On a cold night, a tile floor feels colder than a carpeted floor at the same temperature. Why?",
+      "options": ["Tile is darker", "Tile is a better conductor — it conducts heat away from your feet faster than carpet (which is a good insulator, like trapped air in fibres)", "Carpet is heated by electricity", "Tile is usually in a colder part of the house"],
+      "correctIndex": 1,
+      "explanation": "Tile and carpet at identical temperature. Tile conducts heat rapidly from your feet → feels cold. Carpet (and the air it traps) conducts poorly → feet stay warm. Another everyday example of perceived temperature vs. actual temperature.",
+      "difficulty": "hard",
+      "tags": ["conduction", "conductor-insulator", "tile-carpet"]
+    },
+    {
+      "id": "g7s-w26-tue-014",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "The handle of a pressure cooker is made of bakelite/plastic. Identify the property being used:",
+      "options": ["High thermal conductivity of bakelite", "Low thermal conductivity (insulating property) of bakelite — prevents heat from conducting to the handle so it stays cool to touch during cooking", "Bakelite's electrical conductivity", "Bakelite is cheaper than metal"],
+      "correctIndex": 1,
+      "explanation": "Bakelite is a thermosetting plastic — excellent thermal insulator. Its low thermal conductivity ensures the handle remains cool even when the cooker is very hot. Safety design based on conduction principles.",
+      "difficulty": "hard",
+      "tags": ["conduction", "insulator", "bakelite", "application"]
+    },
+    {
+      "id": "g7s-w26-tue-015",
+      "goalId": "grade-7-science-w26-tue",
+      "question": "Rank these from BEST to POOREST heat conductor: Iron, Wood, Silver, Air",
+      "options": ["Iron > Silver > Wood > Air", "Silver > Iron > Wood > Air", "Wood > Iron > Air > Silver", "Air > Wood > Iron > Silver"],
+      "correctIndex": 1,
+      "explanation": "Thermal conductivity ranking: Silver (best) > Copper > Aluminium > Iron > Glass > Wood > Air (poorest). Silver is the best conductor of both heat and electricity. Air is one of the poorest conductors — why it's used as insulation.",
+      "difficulty": "hard",
+      "tags": ["conduction", "ranking", "conductivity"]
+    }
+  ]
+}

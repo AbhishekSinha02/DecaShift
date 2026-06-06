@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-french-w26-wed",
+  "title": "Grade 7 French — Wed, Jun 25",
+  "description": "Pronoms relatifs — Day 3 of 5: 'où' (place/time) and 'dont' (of which/whose)",
+  "subject": "french",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7f-w26-wed-001",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "'Où' as a relative pronoun is used to replace:",
+      "options": ["The direct object of a clause", "A place or time expression (where or when)", "A noun following 'de'", "The subject of a clause"],
+      "correctIndex": 1,
+      "explanation": "'Où' = where/when in relative clauses. It replaces a place: 'C'est la ville où je suis né.' (the city WHERE I was born) or time: 'Le jour où il est parti.' (the day WHEN he left).",
+      "difficulty": "easy",
+      "tags": ["ou-relatif", "place", "time", "definition"]
+    },
+    {
+      "id": "g7f-w26-wed-002",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Join: 'Voilà le restaurant. Nous mangeons dans ce restaurant.' using 'où'.",
+      "options": ["Voilà le restaurant que nous mangeons.", "Voilà le restaurant où nous mangeons.", "Voilà le restaurant qui nous mangeons.", "Voilà le restaurant dont nous mangeons."],
+      "correctIndex": 1,
+      "explanation": "'Voilà le restaurant où nous mangeons.' ✓ 'Dans ce restaurant' = place expression → 'où' replaces it. 'Où' replaces 'dans ce restaurant' (not just 'restaurant' — it replaces the whole prepositional phrase of place).",
+      "difficulty": "easy",
+      "tags": ["ou-relatif", "place", "join"]
+    },
+    {
+      "id": "g7f-w26-wed-003",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Join: 'Je me souviens du jour. Il est parti ce jour-là.' using 'où'.",
+      "options": ["Je me souviens du jour qui il est parti.", "Je me souviens du jour où il est parti.", "Je me souviens du jour que il est parti.", "Je me souviens du jour dont il est parti."],
+      "correctIndex": 1,
+      "explanation": "'Je me souviens du jour où il est parti.' ✓ 'Ce jour-là' = time expression → 'où' replaces it. 'Où' can refer to time: 'l'époque où,' 'le moment où,' 'le jour où,' 'l'année où.'",
+      "difficulty": "easy",
+      "tags": ["ou-relatif", "time", "join"]
+    },
+    {
+      "id": "g7f-w26-wed-004",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "'Dont' is used when the relative pronoun replaces a noun that follows 'de.' Which sentence uses 'dont' correctly?",
+      "options": ["Le livre dont je parle est excellent.", "Le livre où je parle est excellent.", "Le livre que je parle est excellent.", "Le livre qui est excellent."],
+      "correctIndex": 0,
+      "explanation": "'Le livre dont je parle est excellent.' ✓ 'Parler DE quelque chose' → 'dont' replaces 'de ce livre.' 'Dont' = 'de + qui/lequel.' Key trigger: the verb in the relative clause uses 'de' (parler de, avoir besoin de, rêver de, avoir peur de...).",
+      "difficulty": "medium",
+      "tags": ["dont", "definition", "parler-de"]
+    },
+    {
+      "id": "g7f-w26-wed-005",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Join: 'C'est le professeur. J'ai besoin de l'aide de ce professeur.' using 'dont'.",
+      "options": ["C'est le professeur que j'ai besoin.", "C'est le professeur dont j'ai besoin.", "C'est le professeur où j'ai besoin.", "C'est le professeur qui j'ai besoin."],
+      "correctIndex": 1,
+      "explanation": "'C'est le professeur dont j'ai besoin.' ✓ 'Avoir besoin DE' → 'dont.' 'J'ai besoin de l'aide de ce professeur' → 'dont' replaces 'de ce professeur.' Key verbs + DE: avoir besoin de, parler de, se souvenir de, rêver de, avoir peur de.",
+      "difficulty": "medium",
+      "tags": ["dont", "avoir-besoin-de", "join"]
+    },
+    {
+      "id": "g7f-w26-wed-006",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "'Dont' can also express possession (whose). Which correctly means 'the student whose grades are good'?",
+      "options": ["L'élève que les notes sont bonnes.", "L'élève dont les notes sont bonnes.", "L'élève qui les notes sont bonnes.", "L'élève où les notes sont bonnes."],
+      "correctIndex": 1,
+      "explanation": "'L'élève dont les notes sont bonnes.' ✓ 'Dont' = whose (possession). 'Les notes DE l'élève' = the student's grades. 'Dont' replaces 'de l'élève' in the possession structure. Compare: 'whose' in English.",
+      "difficulty": "medium",
+      "tags": ["dont", "possession", "whose"]
+    },
+    {
+      "id": "g7f-w26-wed-007",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Identify the correct relative pronoun: 'C'est le film ___ tout le monde parle.'",
+      "options": ["qui", "que", "où", "dont"],
+      "correctIndex": 3,
+      "explanation": "'C'est le film dont tout le monde parle.' ✓ 'Parler DE quelque chose' → 'dont.' 'Tout le monde parle DE ce film' → 'dont' replaces 'de ce film.' Test: does the verb need 'de'? 'parler de' → yes → 'dont.'",
+      "difficulty": "hard",
+      "tags": ["dont", "fill-in", "parler-de"]
+    },
+    {
+      "id": "g7f-w26-wed-008",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Choose the correct pronoun: 'Le village ___ je viens est petit.'",
+      "options": ["qui", "que", "où", "dont"],
+      "correctIndex": 3,
+      "explanation": "'Le village dont je viens est petit.' ✓ 'Venir DE quelque part' → normally 'dont' for origin. 'Je viens de ce village' → 'dont' replaces 'de ce village.' Note: 'venir de' with a place can also use 'où' — but 'dont' is more standard for origin.",
+      "difficulty": "hard",
+      "tags": ["dont", "venir-de", "origin"]
+    },
+    {
+      "id": "g7f-w26-wed-009",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Spot the error: 'C'est la ville que j'habite.'",
+      "options": ["No error", "'que' should be 'où' — 'habiter' expresses location. 'J'habite dans cette ville' → replace location expression with 'où.' Correct: 'C'est la ville où j'habite.'", "'habite' is wrong", "'ville' should be 'endroit'"],
+      "correctIndex": 1,
+      "explanation": "'Habiter' = to live (in a place). The city is a PLACE → use 'où.' 'Que' is the direct object pronoun — but 'ville' is not the object of 'habite' here; it's the location. Correct: 'C'est la ville où j'habite.'",
+      "difficulty": "hard",
+      "tags": ["ou-relatif", "error-correction", "habiter"]
+    },
+    {
+      "id": "g7f-w26-wed-010",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Four pronouns recap — match 'C'est l'homme ___ travaille ici.' to the correct pronoun:",
+      "options": ["que", "où", "dont", "qui"],
+      "correctIndex": 3,
+      "explanation": "'C'est l'homme qui travaille ici.' ✓ 'L'homme' = subject of 'travaille' → 'qui.' Test: no other subject in 'travaille ici' → 'qui' is the subject.",
+      "difficulty": "hard",
+      "tags": ["qui-que-ou-dont", "quick-test", "who"]
+    },
+    {
+      "id": "g7f-w26-wed-011",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Match: 'C'est le cadeau ___ je t'ai acheté.' — correct pronoun:",
+      "options": ["qui", "que", "où", "dont"],
+      "correctIndex": 1,
+      "explanation": "'C'est le cadeau que je t'ai acheté.' ✓ 'J'ai acheté [le cadeau]' — cadeau = direct object; subject 'je' present → 'que.' Past participle: 'acheté' should agree with the preceding feminine/plural object — but 'cadeau' is masculine singular so no change.",
+      "difficulty": "hard",
+      "tags": ["qui-que-ou-dont", "que", "gift"]
+    },
+    {
+      "id": "g7f-w26-wed-012",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Match: 'C'est l'année ___ j'ai passé mon examen.' — correct pronoun:",
+      "options": ["qui", "que", "où", "dont"],
+      "correctIndex": 2,
+      "explanation": "'C'est l'année où j'ai passé mon examen.' ✓ 'L'année' = time expression → 'où.' 'Où' for time: l'année où, le jour où, le moment où, l'époque où, la semaine où.",
+      "difficulty": "hard",
+      "tags": ["ou-relatif", "time", "year"]
+    },
+    {
+      "id": "g7f-w26-wed-013",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Match: 'J'ai un ami ___ le père est médecin.' — correct pronoun:",
+      "options": ["qui", "que", "où", "dont"],
+      "correctIndex": 3,
+      "explanation": "'J'ai un ami dont le père est médecin.' ✓ 'Le père DE mon ami' = possession. 'Dont' = whose. Structure: subject + 'dont' + [owned item] + verb. 'Dont le père' = 'whose father.' The owned item comes immediately after 'dont.'",
+      "difficulty": "hard",
+      "tags": ["dont", "possession", "whose-father"]
+    },
+    {
+      "id": "g7f-w26-wed-014",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Translate: 'That is the school where I studied for 10 years.'",
+      "options": ["C'est l'école qui j'ai étudié dix ans.", "C'est l'école que j'ai étudiée.", "C'est l'école où j'ai étudié pendant dix ans.", "C'est l'école dont j'ai étudié."],
+      "correctIndex": 2,
+      "explanation": "'C'est l'école où j'ai étudié pendant dix ans.' ✓ 'École' = place → 'où.' 'Pendant dix ans' = for 10 years. 'Étudié' = studied. No agreement needed ('à l'école' not a direct object).",
+      "difficulty": "hard",
+      "tags": ["ou-relatif", "translate", "school"]
+    },
+    {
+      "id": "g7f-w26-wed-015",
+      "goalId": "grade-7-french-w26-wed",
+      "question": "Summary: Match each relative pronoun to its function:\nqui = ?, que = ?, où = ?, dont = ?",
+      "options": ["qui=object, que=subject, où=time/place, dont=possession", "qui=subject, que=object, où=time/place, dont=replaces 'de + noun' (of which/whose)", "qui=place, que=time, où=subject, dont=object", "All are interchangeable"],
+      "correctIndex": 1,
+      "explanation": "Complete summary: QUI = subject (the noun DOES the action). QUE = direct object (the noun RECEIVES the action; clause has its own subject). OÙ = place or time expression. DONT = replaces 'de + noun' (possession, or verbs taking 'de': parler de, avoir besoin de, rêver de, etc.).",
+      "difficulty": "hard",
+      "tags": ["pronom-relatif", "summary", "all-four"]
+    }
+  ]
+}

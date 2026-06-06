@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-french-w26-mon",
+  "title": "Grade 6 French — Mon, Jun 23",
+  "description": "Comparatif et Superlatif — Day 1 of 5: Le comparatif des adjectifs",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6f-w26-mon-001",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "What are the three types of comparison in French?",
+      "options": ["Grand, petit, moyen", "Plus (more) / aussi (as) / moins (less) + adjective + que (than/as)", "Comparatif, superlatif, négatif", "Bon, meilleur, le meilleur"],
+      "correctIndex": 1,
+      "explanation": "French comparatives: (1) Plus...que = more...than (superiority). (2) Aussi...que = as...as (equality). (3) Moins...que = less...than (inferiority).",
+      "difficulty": "easy",
+      "tags": ["comparatif", "three-types"]
+    },
+    {
+      "id": "g6f-w26-mon-002",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "How do you say 'Paul is taller than Marc' in French?",
+      "options": ["Paul est grand que Marc.", "Paul est plus grand que Marc.", "Paul est très grand que Marc.", "Paul est grand plus que Marc."],
+      "correctIndex": 1,
+      "explanation": "'Paul est plus grand que Marc.' ✓ Structure: subject + être + plus + adjective + que + compared noun. 'Grand(e)' = tall.",
+      "difficulty": "easy",
+      "tags": ["comparatif", "plus-que", "superiority"]
+    },
+    {
+      "id": "g6f-w26-mon-003",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "Translate: 'Sophie is as intelligent as Léa.'",
+      "options": ["Sophie est plus intelligente que Léa.", "Sophie est aussi intelligente que Léa.", "Sophie est moins intelligente que Léa.", "Sophie intelligente que Léa."],
+      "correctIndex": 1,
+      "explanation": "'Sophie est aussi intelligente que Léa.' ✓ 'Aussi...que' = as...as (equality). 'Intelligente' agrees with Sophie (feminine).",
+      "difficulty": "easy",
+      "tags": ["comparatif", "aussi-que", "equality"]
+    },
+    {
+      "id": "g6f-w26-mon-004",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "How do you say 'This book is less interesting than that film'?",
+      "options": ["Ce livre est plus intéressant que ce film.", "Ce livre est aussi intéressant que ce film.", "Ce livre est moins intéressant que ce film.", "Ce livre intéressant moins ce film."],
+      "correctIndex": 2,
+      "explanation": "'Ce livre est moins intéressant que ce film.' ✓ 'Moins...que' = less...than (inferiority). 'Intéressant' agrees with livre (masculine).",
+      "difficulty": "easy",
+      "tags": ["comparatif", "moins-que", "inferiority"]
+    },
+    {
+      "id": "g6f-w26-mon-005",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "Adjective agreement in comparatives: 'Marie est plus ___ (petit) que son frère.'",
+      "options": ["petit", "petite", "petits", "petites"],
+      "correctIndex": 1,
+      "explanation": "'Marie est plus petite que son frère.' Marie is feminine → 'petite' (f.sg.). In comparatives, the adjective still agrees with the SUBJECT in gender and number.",
+      "difficulty": "medium",
+      "tags": ["comparatif", "adjective-agreement", "feminine"]
+    },
+    {
+      "id": "g6f-w26-mon-006",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "Translate: 'My cat is fatter than your cat.'",
+      "options": ["Mon chat est aussi gros que ton chat.", "Mon chat est moins gros que ton chat.", "Mon chat est plus gros que ton chat.", "Mon chat gros plus ton chat."],
+      "correctIndex": 2,
+      "explanation": "'Mon chat est plus gros que ton chat.' ✓ 'Gros' (fat, masculine). 'Plus...que' for superiority. 'Mon chat' = my cat; 'ton chat' = your cat.",
+      "difficulty": "medium",
+      "tags": ["comparatif", "plus-que", "gros"]
+    },
+    {
+      "id": "g6f-w26-mon-007",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "'Bon' (good) has an IRREGULAR comparative. What is it?",
+      "options": ["plus bon", "meilleur(e)", "le bon", "bien"],
+      "correctIndex": 1,
+      "explanation": "'Bon' → comparative = 'meilleur(e)' (NOT 'plus bon' — this is wrong). 'Ce gâteau est meilleur que celui-là.' = This cake is better than that one. Agree: meilleur (m), meilleure (f), meilleurs (mp), meilleures (fp).",
+      "difficulty": "hard",
+      "tags": ["comparatif", "irregular", "bon-meilleur"]
+    },
+    {
+      "id": "g6f-w26-mon-008",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "Complete: 'Cette robe est ___ cette veste.' (This dress is more elegant than this jacket.)",
+      "options": ["plus élégante que", "aussi élégante comme", "moins élégante que", "élégante plus"],
+      "correctIndex": 0,
+      "explanation": "'Cette robe est plus élégante que cette veste.' ✓ 'Plus...que' for superiority. 'Élégante' agrees with 'robe' (f). 'Que' not 'comme' (common learner error).",
+      "difficulty": "hard",
+      "tags": ["comparatif", "plus-que", "fill-in"]
+    },
+    {
+      "id": "g6f-w26-mon-009",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "Spot the error: 'Thomas est plus intelligente que Pierre.'",
+      "options": ["'plus' should be 'aussi'", "'intelligente' should be 'intelligent' — Thomas is masculine, so the adjective must be masculine", "No error", "'que' should be 'comme'"],
+      "correctIndex": 1,
+      "explanation": "Thomas = masculine → adjective must be masculine: 'intelligent' (not 'intelligente'). Correct: 'Thomas est plus intelligent que Pierre.'",
+      "difficulty": "hard",
+      "tags": ["comparatif", "adjective-agreement", "error"]
+    },
+    {
+      "id": "g6f-w26-mon-010",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "'Mauvais' (bad) has an irregular comparative form:",
+      "options": ["plus mauvais (correct — this is actually acceptable)", "pire (irregular, meaning 'worse')", "moins bon", "Both A and B are correct forms"],
+      "correctIndex": 3,
+      "explanation": "'Mauvais' has two comparative forms: 'pire' (irregular, strictly 'worse') and 'plus mauvais' (regular, acceptable in most contexts). Both are used. 'Pire' is preferred in formal French.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "irregular", "mauvais-pire"]
+    },
+    {
+      "id": "g6f-w26-mon-011",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "Translate: 'The weather today is as cold as yesterday.'",
+      "options": ["Il fait plus froid aujourd'hui qu'hier.", "Il fait aussi froid aujourd'hui qu'hier.", "Il fait moins froid aujourd'hui qu'hier.", "Il fait froid comme hier."],
+      "correctIndex": 1,
+      "explanation": "'Il fait aussi froid aujourd'hui qu'hier.' ✓ 'Aussi...que' = as...as (equality). 'Il fait froid' = it is cold (weather expression). 'Aujourd'hui' = today; 'hier' = yesterday.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "aussi-que", "weather"]
+    },
+    {
+      "id": "g6f-w26-mon-012",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "How do 'que' and 'comme' differ in comparisons?",
+      "options": ["They are identical in meaning", "'Que' is used after plus/aussi/moins + adjective in comparisons; 'comme' is used in manner clauses ('il chante comme un oiseau')", "'Comme' = superiority; 'que' = equality", "'Que' is informal; 'comme' is formal"],
+      "correctIndex": 1,
+      "explanation": "Comparatives use 'que': 'plus grand que toi' (taller than you). 'Comme' = like/as in manner: 'il court comme un cheval' (he runs like a horse). Common learner error: 'plus grand comme toi' — should be 'que'.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "que-vs-comme"]
+    },
+    {
+      "id": "g6f-w26-mon-013",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "Make a sentence comparing two cities: Paris (grand) vs Lyon.",
+      "options": ["Paris est aussi grande que Lyon.", "Paris est plus grande que Lyon.", "Paris est moins grande que Lyon.", "Both A and B are possible depending on context"],
+      "correctIndex": 1,
+      "explanation": "'Paris est plus grande que Lyon.' ✓ Paris is larger than Lyon (factually correct). 'Grande' agrees with 'Paris' (treated as feminine in French — la ville de Paris).",
+      "difficulty": "hard",
+      "tags": ["comparatif", "cities", "application"]
+    },
+    {
+      "id": "g6f-w26-mon-014",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "Why is 'plus bon' considered incorrect in French?",
+      "options": ["'Bon' is an adjective and adjectives cannot be compared", "Because 'bon' has an irregular comparative form: 'meilleur' — using 'plus bon' duplicates the comparison idea; French uses the suppletive form 'meilleur'", "'Bon' only appears in the superlative", "It is acceptable in all modern French"],
+      "correctIndex": 1,
+      "explanation": "'Bon → meilleur' is suppletive (like English good → better, not 'more good'). The same happens in French: 'Ce film est meilleur' = This film is better. 'Ce film est plus bon' = incorrect.",
+      "difficulty": "hard",
+      "tags": ["comparatif", "bon-meilleur", "why-irregular"]
+    },
+    {
+      "id": "g6f-w26-mon-015",
+      "goalId": "grade-6-french-w26-mon",
+      "question": "Write a sentence: 'The French exam is harder than the math exam.'",
+      "options": ["L'examen de français est plus difficile que l'examen de maths.", "L'examen de français est aussi difficile que l'examen de maths.", "L'examen de français difficile plus l'examen de maths.", "L'examen de français est moins difficile que l'examen de maths."],
+      "correctIndex": 0,
+      "explanation": "'L'examen de français est plus difficile que l'examen de maths.' ✓ 'Plus...que' for superiority. 'Difficile' stays the same (ends in -e, invariable for gender).",
+      "difficulty": "hard",
+      "tags": ["comparatif", "sentence-production", "difficile"]
+    }
+  ]
+}

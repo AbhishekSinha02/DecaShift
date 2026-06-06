@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-french-w26-fri",
+  "title": "Grade 8 French — Fri, Jun 27",
+  "description": "Le subjonctif présent — Day 5 of 5: Full mixed review",
+  "subject": "french",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8f-w26-fri-001",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Formation rule: subjonctif présent stem comes from:",
+      "options": ["The infinitive", "The je form of présent indicatif", "The ils/elles form of présent indicatif (strip -ent)", "The nous form of imparfait"],
+      "correctIndex": 2,
+      "explanation": "Subjonctif stem: ils/elles présent indicatif − ent = stem. Then add endings -e, -es, -e, -ions, -iez, -ent. Exception: être (soi-/soy-), avoir (ai-/ay-), aller (aill-/all-), vouloir (veuill-/voul-), pouvoir (puiss-), savoir (sach-), faire (fass-). For all other verbs: ils form works perfectly.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "formation", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-002",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Complete: 'Il faut que tu ___ (être) à l'heure.'",
+      "options": ["es", "étais", "sois", "sera"],
+      "correctIndex": 2,
+      "explanation": "'Il faut que' → subjonctif. être (subjonctif tu) = sois. Être: je sois, tu sois, il soit, nous soyons, vous soyez, ils soient. 'Es' = indicatif. 'Étais' = imparfait. 'Sera' = futur. Être subjonctif must be memorised.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "être", "il-faut-que", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-003",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Complete: 'Je veux que vous ___ (aller) voir ce film.'",
+      "options": ["allez", "irez", "alliez", "aillent"],
+      "correctIndex": 2,
+      "explanation": "'Je veux que' → subjonctif. aller (subjonctif vous) = alliez (all- + -iez). 'Allez' = indicatif/impératif. 'Irez' = futur. 'Aillent' = subjonctif ils (not vous). 'Alliez' ✓.",
+      "difficulty": "easy",
+      "tags": ["subjonctif", "aller", "vouloir-que", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-004",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Which conjunction does NOT trigger the subjunctive?",
+      "options": ["bien que", "pour que", "avant que", "parce que"],
+      "correctIndex": 3,
+      "explanation": "'Parce que' (because) → indicatif (stating a fact/reason). Subjunctive conjunctions: bien que, pour que, avant que, à moins que, pourvu que, afin que, quoique, de peur que. 'Parce que' gives a factual reason → indicatif.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "non-trigger", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-005",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Complete: 'Bien que nous ___ (être) fatigués, nous continuons.'",
+      "options": ["sommes", "étions", "soyons", "serons"],
+      "correctIndex": 2,
+      "explanation": "'Bien que' → subjonctif. être (subjonctif nous) = soyons. 'Sommes' = indicatif. 'Étions' = imparfait. 'Serons' = futur. 'Soyons' ✓.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "bien-que", "être", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-006",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Complete: 'Je regrette qu'il ne ___ (pouvoir) pas venir.'",
+      "options": ["peut", "pouvait", "puisse", "pourra"],
+      "correctIndex": 2,
+      "explanation": "'Regretter que' = emotion → subjonctif. pouvoir (subjonctif il) = puisse. 'Peut' = indicatif. 'Pouvait' = imparfait. 'Pourra' = futur. Emotion verbs → subjonctif: regretter que, être heureux que, être surpris que, craindre que.",
+      "difficulty": "medium",
+      "tags": ["subjonctif", "regretter-que", "pouvoir", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-007",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Error-spot: 'Il est important que vous savez parler français.'",
+      "options": ["No error", "'savez' should be 'sachiez' — 'il est important que' triggers subjunctive. Correct: 'il est important que vous sachiez parler français.'", "'parler' is wrong", "'important' is wrong"],
+      "correctIndex": 1,
+      "explanation": "'Il est important que' → subjonctif. savoir (subjonctif vous) = sachiez (irregular stem 'sach-' + -iez). 'Savez' = indicatif (wrong). Correct: 'que vous sachiez.'",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "savoir", "error-correction", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-008",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Fill in with the correct mood (subjonctif or indicatif):\n'Je sais qu'il ___ (venir) demain.' vs 'Je doute qu'il ___ (venir) demain.'",
+      "options": ["vient / vient (both indicatif)", "vient (indicatif) / vienne (subjonctif)", "vienne / vienne (both subjonctif)", "viendra / vienne"],
+      "correctIndex": 1,
+      "explanation": "'Je sais que' = certainty → indicatif → 'il vient.' 'Je doute que' = doubt → subjonctif → 'il vienne.' Same verb (venir), different trigger = different mood. This pair perfectly illustrates the core rule.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "vs-indicatif", "venir", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-009",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Translate: 'I am happy that you (plural) are here and that you can stay.'",
+      "options": ["Je suis heureux que vous êtes ici et que vous pouvez rester.", "Je suis heureux que vous soyez ici et que vous puissiez rester.", "Je suis heureux que vous étiez ici et que vous pouviez rester.", "Je suis heureux que vous serez ici et que vous pourrez rester."],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'Être heureux que' = emotion → subjonctif for both clauses. être (vous subjonctif) = soyez ✓. pouvoir (vous subjonctif) = puissiez ✓. 'Soyez' and 'puissiez' — both irregular subjunctive forms.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "être-heureux", "être-pouvoir", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-010",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Complete the paragraph:\n'Avant qu'il ___ (partir), il faut qu'il ___ (finir) son travail. Bien qu'il ___ (être) pressé, il doit le faire.'",
+      "options": ["part / finit / est (all indicatif)", "parte / finisse / soit (all subjonctif)", "partira / finira / sera (all futur)", "partait / finissait / était (all imparfait)"],
+      "correctIndex": 1,
+      "explanation": "All three → subjonctif. (1) 'Avant qu'il parte' — partir: ils partent → part- + -e = parte. (2) 'il faut qu'il finisse' — finir: ils finissent → finiss- + -e = finisse. (3) 'Bien qu'il soit' — être subjonctif il = soit. Three triggers: avant que, il faut que, bien que.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "paragraph", "three-triggers", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-011",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Irregular forms quiz — match verb to subjonctif ils form:\n(A) faire → (B) pouvoir → (C) savoir → (D) vouloir →",
+      "options": ["fassent / puissent / sachent / veuillent", "faisent / pouvaient / savent / veulent", "feront / pourront / sauront / voudront", "fassent / peuvent / savent / veulent"],
+      "correctIndex": 0,
+      "explanation": "A ✓: faire → fassent (fass- + -ent). pouvoir → puissent (puiss- + -ent). savoir → sachent (sach- + -ent). vouloir → veuillent (veuill- + -ent). All are irregular stems. For ils form: stem + -ent (same ending as regular verbs for ils subjonctif).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "irregular-forms", "match", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-012",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Same-subject rule: which is WRONG?",
+      "options": ["Je veux venir. (same subject → infinitif ✓)", "Je veux que tu viennes. (different subject → subjonctif ✓)", "Je veux que je vienne. (technically possible but unnatural — better: Je veux venir.)", "Je veux que nous allions. (different plural → subjonctif ✓)"],
+      "correctIndex": 2,
+      "explanation": "C is 'wrong' in practice (though grammatically possible): 'Je veux que je vienne' — same subject (je=je) → use infinitif: 'Je veux venir.' In French, when both clauses share a subject, infinitif replaces subjunctive. A ✓, B ✓, D ✓ all correct.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "same-subject", "infinitif", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-013",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Which sentence correctly contrasts indicatif and subjonctif?",
+      "options": ["Il dit qu'il vienne / Il veut qu'il vient.", "Il dit qu'il vient (indicatif) / Il veut qu'il vienne (subjonctif).", "Il pense qu'il vienne / Il sait qu'il vienne.", "Il faut qu'il vient / Il croit qu'il vienne."],
+      "correctIndex": 1,
+      "explanation": "B ✓: 'dire que' = stating fact → indicatif ('vient'). 'Vouloir que' = wish → subjonctif ('vienne'). A: reversed. C: 'penser/savoir que' (affirmative) = indicatif ('vient') not subjonctif. D: 'il faut que' → subjonctif ('vienne'); 'croire que' affirmative → indicatif ('vient').",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "vs-indicatif", "contrast", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-014",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "Full irregular subjonctif table — which row is completely correct?\n(Être / Avoir / Aller / Pouvoir / Faire — je form)",
+      "options": ["suis / ai / vais / peux / fais (indicatif présent)", "sois / aie / aille / puisse / fasse", "étais / avais / allais / pouvais / faisais (imparfait)", "serai / aurai / irai / pourrai / ferai (futur)"],
+      "correctIndex": 1,
+      "explanation": "B ✓ — Subjonctif je forms: être→sois, avoir→aie, aller→aille, pouvoir→puisse, faire→fasse. A = indicatif présent. C = imparfait. D = futur simple. These five irregular verbs MUST be memorised — they're among the most common verbs in French.",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "irregular-table", "review"]
+    },
+    {
+      "id": "g8f-w26-fri-015",
+      "goalId": "grade-8-french-w26-fri",
+      "question": "The ultimate rule: Choose subjonctif when the main verb/expression signals ___, and indicatif when it signals ___.",
+      "options": ["facts/certainty / doubt, wish, emotion", "doubt/wish/emotion/obligation (after que) / facts/certainty (savoir que, dire que, croire que affirmative, être sûr que)", "future actions / past actions", "subject is plural / subject is singular"],
+      "correctIndex": 1,
+      "explanation": "B ✓ — The complete rule: SUBJONCTIF triggers (after que): doubt (douter, ne pas croire), wish (vouloir, souhaiter, désirer), emotion (regretter, être heureux, craindre), obligation (il faut, il est nécessaire), concession (bien que, quoique), purpose (pour que, afin que), before (avant que). INDICATIF: after certainty/knowledge verbs (savoir, dire, croire+affirm., penser+affirm., être sûr+affirm.).",
+      "difficulty": "hard",
+      "tags": ["subjonctif", "ultimate-rule", "summary", "review"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-math-w26-fri",
+  "title": "Grade 7 Math — Fri, Jun 27",
+  "description": "Perimeter and Area — Circles Day 5 of 5: Full mixed review",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7m-w26-fri-001",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "Circumference of a circle with radius 21 cm (π = 22/7) =",
+      "options": ["66 cm", "132 cm", "264 cm", "1,386 cm"],
+      "correctIndex": 1,
+      "explanation": "C = 2πr = 2×(22/7)×21 = 2×66 = 132 cm.",
+      "difficulty": "easy",
+      "tags": ["circle", "circumference"]
+    },
+    {
+      "id": "g7m-w26-fri-002",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "Area of a circle with diameter 28 cm (π = 22/7) =",
+      "options": ["88 cm²", "154 cm²", "616 cm²", "2,464 cm²"],
+      "correctIndex": 2,
+      "explanation": "r = 14 cm. A = πr² = (22/7)×196 = 616 cm².",
+      "difficulty": "easy",
+      "tags": ["circle", "area"]
+    },
+    {
+      "id": "g7m-w26-fri-003",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "A circular track (radius 70 m). A cyclist completes 3 rounds. Distance (π = 22/7) =",
+      "options": ["220 m", "660 m", "1,320 m", "4,620 m"],
+      "correctIndex": 2,
+      "explanation": "Circumference = 2πr = 2×(22/7)×70 = 440 m. 3 rounds = 1,320 m.",
+      "difficulty": "easy",
+      "tags": ["circle", "circumference", "track"]
+    },
+    {
+      "id": "g7m-w26-fri-004",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "A semicircle with radius 14 cm. Perimeter (straight edge + curved, π = 22/7) =",
+      "options": ["44 cm", "72 cm", "88 cm", "116 cm"],
+      "correctIndex": 1,
+      "explanation": "Curved part = ½ × 2πr = πr = (22/7)×14 = 44 cm. Straight = diameter = 28 cm. Total = 44+28 = 72 cm.",
+      "difficulty": "medium",
+      "tags": ["circle", "semicircle", "perimeter"]
+    },
+    {
+      "id": "g7m-w26-fri-005",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "Find radius: Area of a circle = 154 cm² (π = 22/7)",
+      "options": ["7 cm", "14 cm", "22 cm", "49 cm"],
+      "correctIndex": 0,
+      "explanation": "πr² = 154 → (22/7)r² = 154 → r² = 154×7/22 = 49 → r = 7 cm.",
+      "difficulty": "medium",
+      "tags": ["circle", "area", "find-radius"]
+    },
+    {
+      "id": "g7m-w26-fri-006",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "A square of side 14 cm has a circle inscribed in it (touching all 4 sides). Area of the shaded region outside the circle (π = 22/7) =",
+      "options": ["42 cm²", "154 cm²", "196 cm²", "350 cm²"],
+      "correctIndex": 0,
+      "explanation": "Inscribed circle radius = 14/2 = 7 cm. Circle area = (22/7)×49 = 154 cm². Square = 196 cm². Shaded = 196−154 = 42 cm².",
+      "difficulty": "medium",
+      "tags": ["circle", "inscribed", "shaded"]
+    },
+    {
+      "id": "g7m-w26-fri-007",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "A wheel of diameter 42 cm travels 1,980 cm. How many rotations? (π = 22/7)",
+      "options": ["10", "15", "20", "30"],
+      "correctIndex": 1,
+      "explanation": "Circumference = πd = (22/7)×42 = 132 cm. Rotations = 1,980 ÷ 132 = 15.",
+      "difficulty": "medium",
+      "tags": ["circle", "circumference", "rotations"]
+    },
+    {
+      "id": "g7m-w26-fri-008",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "Two concentric circles (same centre): outer r = 14 cm, inner r = 7 cm. Area of the ring (π = 22/7) =",
+      "options": ["154 cm²", "308 cm²", "462 cm²", "616 cm²"],
+      "correctIndex": 2,
+      "explanation": "Ring = π(R²−r²) = (22/7)(196−49) = (22/7)×147 = 22×21 = 462 cm².",
+      "difficulty": "hard",
+      "tags": ["circle", "ring", "concentric"]
+    },
+    {
+      "id": "g7m-w26-fri-009",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "A circular lawn (r = 21 m). Fencing ₹8/m + mowing ₹3/m². Total cost (π = 22/7) =",
+      "options": ["₹5,214", "₹5,106", "₹5,000", "₹4,950"],
+      "correctIndex": 0,
+      "explanation": "C = 2×(22/7)×21 = 132 m. Fencing = 132×8 = ₹1,056. A = (22/7)×441 = 1,386 m². Mowing = 1,386×3 = ₹4,158. Total = 1,056+4,158 = ₹5,214.",
+      "difficulty": "hard",
+      "tags": ["circle", "mixed", "cost"]
+    },
+    {
+      "id": "g7m-w26-fri-010",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "A wire 66 cm is bent into a circle. Area of the circle (π = 22/7) =",
+      "options": ["154 cm²", "308 cm²", "346.5 cm²", "693 cm²"],
+      "correctIndex": 2,
+      "explanation": "C = 66 → 2πr = 66 → r = 66×7/44 = 10.5 cm. A = πr² = (22/7)×110.25 = (22×110.25)/7 = 2,425.5/7 = 346.5 cm².",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "wire"]
+    },
+    {
+      "id": "g7m-w26-fri-011",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "The ratio of areas of two circles is 25 : 16. Ratio of their circumferences =",
+      "options": ["25 : 16", "5 : 4", "625 : 256", "√5 : 4"],
+      "correctIndex": 1,
+      "explanation": "A₁/A₂ = 25/16 = (r₁/r₂)² → r₁/r₂ = 5/4. Circumference ratio = 2πr₁ : 2πr₂ = r₁ : r₂ = 5 : 4. (Circumferences and radii scale in the same ratio.)",
+      "difficulty": "hard",
+      "tags": ["circle", "ratio", "area-circumference"]
+    },
+    {
+      "id": "g7m-w26-fri-012",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "A rectangular park 110 m × 30 m has a circular fountain (r = 14 m) in the centre. Area of park NOT covered by fountain (π = 22/7) =",
+      "options": ["616 m²", "2,684 m²", "3,300 m²", "3,916 m²"],
+      "correctIndex": 1,
+      "explanation": "Park = 110×30 = 3,300 m². Fountain = (22/7)×196 = 616 m². Remaining = 3,300−616 = 2,684 m².",
+      "difficulty": "hard",
+      "tags": ["circle", "composite", "subtract"]
+    },
+    {
+      "id": "g7m-w26-fri-013",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "A circle and a square have the same circumference/perimeter (44 cm). Which has greater area? (π = 22/7)",
+      "options": ["Square (121 cm²)", "Circle (154 cm²)", "Both equal", "Cannot determine"],
+      "correctIndex": 1,
+      "explanation": "Circle: C=44 → r=7 cm. A = (22/7)×49 = 154 cm². Square: P=44 → s=11 cm. A = 121 cm². Circle (154) > Square (121). For same perimeter, circle has maximum area.",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "same-perimeter", "compare"]
+    },
+    {
+      "id": "g7m-w26-fri-014",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "A circular clock face has area 154 cm². Length of the minute hand (= radius, π = 22/7) =",
+      "options": ["7 cm", "11 cm", "14 cm", "22 cm"],
+      "correctIndex": 0,
+      "explanation": "πr² = 154 → (22/7)r² = 154 → r² = 49 → r = 7 cm.",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "find-radius"]
+    },
+    {
+      "id": "g7m-w26-fri-015",
+      "goalId": "grade-7-math-w26-fri",
+      "question": "If the radius is halved, by what factor does the area change?",
+      "options": ["Halved (÷ 2)", "Quartered (÷ 4)", "Reduced to 1/8", "Doubled"],
+      "correctIndex": 1,
+      "explanation": "A = πr². New r = r/2. New area = π(r/2)² = πr²/4 = original area ÷ 4. Area is quartered when radius is halved (area scales as r²).",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "scaling"]
+    }
+  ]
+}

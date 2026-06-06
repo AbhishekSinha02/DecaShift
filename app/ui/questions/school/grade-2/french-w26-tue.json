@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-2-french-w26-tue",
+  "title": "Grade 2 French — Tue, Jun 24",
+  "description": "Les animaux — Day 2 of 5: Wild animals",
+  "subject": "french",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "les-animaux",
+  "tags": ["french", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2f-w26-tue-001",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "How do you say 'the lion' in French?",
+      "options": ["le tigre", "l'éléphant", "le lion", "le singe"],
+      "correctIndex": 2,
+      "explanation": "'Le lion' means 'the lion'. It is masculine (le).",
+      "difficulty": "easy",
+      "tags": ["french", "animals", "wild", "vocabulary"]
+    },
+    {
+      "id": "g2f-w26-tue-002",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "What does 'l'éléphant' mean?",
+      "options": ["The tiger", "The elephant", "The monkey", "The snake"],
+      "correctIndex": 1,
+      "explanation": "'L'éléphant' means 'the elephant'. The article 'le' contracts to 'l'' before a vowel sound.",
+      "difficulty": "easy",
+      "tags": ["french", "animals", "wild", "elision"]
+    },
+    {
+      "id": "g2f-w26-tue-003",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "What is 'le singe' in English?",
+      "options": ["The tiger", "The snake", "The monkey", "The elephant"],
+      "correctIndex": 2,
+      "explanation": "'Le singe' means 'the monkey'. It is masculine (le).",
+      "difficulty": "easy",
+      "tags": ["french", "animals", "wild", "vocabulary"]
+    },
+    {
+      "id": "g2f-w26-tue-004",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "How do you say 'the tiger' in French?",
+      "options": ["le lion", "le tigre", "le singe", "le serpent"],
+      "correctIndex": 1,
+      "explanation": "'Le tigre' means 'the tiger'. Note the 'e' at the end — it's pronounced 'lee-gr'.",
+      "difficulty": "easy",
+      "tags": ["french", "animals", "wild", "vocabulary"]
+    },
+    {
+      "id": "g2f-w26-tue-005",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "What does 'le serpent' mean?",
+      "options": ["The elephant", "The tiger", "The monkey", "The snake"],
+      "correctIndex": 3,
+      "explanation": "'Le serpent' means 'the snake'. It is masculine (le).",
+      "difficulty": "easy",
+      "tags": ["french", "animals", "wild", "vocabulary"]
+    },
+    {
+      "id": "g2f-w26-tue-006",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "Why does 'l'éléphant' use 'l'' instead of 'le'?",
+      "options": ["It is a different kind of animal", "In French, 'le' and 'la' become 'l'' before a vowel to avoid two vowel sounds together", "Elephants are special in French", "It is a mistake"],
+      "correctIndex": 1,
+      "explanation": "This is called 'élision'. In French, 'le' and 'la' shorten to 'l'' before a word starting with a vowel or silent 'h' to make speech flow more smoothly.",
+      "difficulty": "medium",
+      "tags": ["french", "grammar", "elision"]
+    },
+    {
+      "id": "g2f-w26-tue-007",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "Choose the correct French for: 'The lion and the tiger are big.'",
+      "options": ["Le lion et le tigre sont grands.", "La lion et la tigre sont grands.", "Le lion et le tigre est grands.", "Le lion et le tigre sont grand."],
+      "correctIndex": 0,
+      "explanation": "Both 'le lion' and 'le tigre' are masculine. 'Sont' is used for plural subjects. 'Grands' is the masculine plural adjective. 'Le lion et le tigre sont grands.'",
+      "difficulty": "medium",
+      "tags": ["french", "sentence", "plural", "adjective"]
+    },
+    {
+      "id": "g2f-w26-tue-008",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "What does 'J'aime les singes' mean?",
+      "options": ["I like the monkey", "I like monkeys", "I do not like monkeys", "Monkeys like me"],
+      "correctIndex": 1,
+      "explanation": "'J'aime' = I like. 'Les singes' = monkeys (plural of le singe). So 'J'aime les singes' = 'I like monkeys'.",
+      "difficulty": "medium",
+      "tags": ["french", "sentence", "plural", "j-aime"]
+    },
+    {
+      "id": "g2f-w26-tue-009",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "How do you say 'I do not like snakes' in French?",
+      "options": ["J'aime les serpents.", "Je n'aime pas les serpents.", "Je n'aime pas le serpent.", "Les serpents aiment moi."],
+      "correctIndex": 1,
+      "explanation": "'Je n'aime pas' = I do not like. 'Les serpents' = snakes (plural). 'Je n'aime pas les serpents.' For a general statement, use the plural.",
+      "difficulty": "medium",
+      "tags": ["french", "negation", "sentence"]
+    },
+    {
+      "id": "g2f-w26-tue-010",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "Match the wild animals to their French names: 1-Elephant, 2-Monkey, 3-Tiger with A-le singe, B-le tigre, C-l'éléphant",
+      "options": ["1-A, 2-B, 3-C", "1-C, 2-A, 3-B", "1-B, 2-C, 3-A", "1-C, 2-B, 3-A"],
+      "correctIndex": 1,
+      "explanation": "Elephant = l'éléphant (1-C). Monkey = le singe (2-A). Tiger = le tigre (3-B). So: 1-C, 2-A, 3-B.",
+      "difficulty": "medium",
+      "tags": ["french", "animals", "matching"]
+    },
+    {
+      "id": "g2f-w26-tue-011",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "A student says 'J'aime la lion.' What is wrong?",
+      "options": ["'J'aime' is wrong", "'La' should be 'le' because 'lion' is masculine", "'lion' should be 'lions'", "Nothing is wrong"],
+      "correctIndex": 1,
+      "explanation": "'Le lion' is masculine, so 'la' is wrong. Correct: 'J'aime le lion.'",
+      "difficulty": "hard",
+      "tags": ["french", "error-correction", "gender"]
+    },
+    {
+      "id": "g2f-w26-tue-012",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "Write a sentence in French: 'The monkey and the elephant are in the jungle.'",
+      "options": ["Le singe et l'éléphant sont dans la jungle.", "La singe et le éléphant sont dans la jungle.", "Le singe et l'éléphant est dans la jungle.", "Le singe ou l'éléphant sont dans la jungle."],
+      "correctIndex": 0,
+      "explanation": "'Le singe' (masc.) + 'l'éléphant' (masc., elision) + 'sont' (plural verb) + 'dans la jungle'. Correct: 'Le singe et l'éléphant sont dans la jungle.'",
+      "difficulty": "hard",
+      "tags": ["french", "sentence", "translation"]
+    },
+    {
+      "id": "g2f-w26-tue-013",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "How do you make 'le tigre' plural?",
+      "options": ["les tigre", "le tigres", "les tigres", "la tigres"],
+      "correctIndex": 2,
+      "explanation": "For plurals in French, 'le/la' → 'les' and add -s to noun: 'les tigres'. Most French nouns add -s in plural (but the -s is usually silent in speech).",
+      "difficulty": "hard",
+      "tags": ["french", "plural", "grammar"]
+    },
+    {
+      "id": "g2f-w26-tue-014",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "Describe a wild animal in French using 2 adjectives: 'The snake is long and dangerous.'",
+      "options": ["Le serpent est long et dangereux.", "La serpent est long et dangereuse.", "Le serpent est longe et dangereux.", "Le serpent sont longs et dangereux."],
+      "correctIndex": 0,
+      "explanation": "'Le serpent' (masc. singular) + 'est' (singular verb) + 'long' (masc. adj.) + 'et dangereux' (masc. adj.). Correct: 'Le serpent est long et dangereux.'",
+      "difficulty": "hard",
+      "tags": ["french", "adjective", "sentence"]
+    },
+    {
+      "id": "g2f-w26-tue-015",
+      "goalId": "grade-2-french-w26-tue",
+      "question": "Both farm and wild animals are now learnt. How do you say 'I like the cow and the lion'?",
+      "options": ["J'aime la vache et le lion.", "J'aime le vache et la lion.", "J'aime la vache et la lion.", "J'aime le vache et le lion."],
+      "correctIndex": 0,
+      "explanation": "'La vache' (feminine) + 'le lion' (masculine). 'J'aime la vache et le lion.' Each noun keeps its correct gender article.",
+      "difficulty": "hard",
+      "tags": ["french", "sentence", "mixed-gender"]
+    }
+  ]
+}

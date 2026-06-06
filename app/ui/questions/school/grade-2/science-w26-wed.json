@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-2-science-w26-wed",
+  "title": "Grade 2 Science — Wed, Jun 25",
+  "description": "Animals and Their Young Ones — Day 3 of 5: How animals care for young",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2s-w26-wed-001",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "How does a mother cat feed her kittens?",
+      "options": ["Brings fish from the sea", "Feeds them milk from her body", "Gives them grass", "Feeds them insects"],
+      "correctIndex": 1,
+      "explanation": "Mother cats (and all mammals) feed their babies milk produced in their bodies. This is one feature of mammals.",
+      "difficulty": "easy",
+      "tags": ["animals", "parental-care", "mammals"]
+    },
+    {
+      "id": "g2s-w26-wed-002",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "A hen sits on her eggs. Why does she do this?",
+      "options": ["To keep the eggs cool", "To keep the eggs warm so they hatch", "To eat the eggs", "To hide the eggs from other animals"],
+      "correctIndex": 1,
+      "explanation": "A hen sits on her eggs to keep them warm. The warmth helps the chick develop inside the egg until it is ready to hatch.",
+      "difficulty": "easy",
+      "tags": ["animals", "parental-care", "birds"]
+    },
+    {
+      "id": "g2s-w26-wed-003",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "Which of the following is an example of parental care?",
+      "options": ["A cat eating a rat", "A dog sleeping in the sun", "A mother cow licking her calf", "A hen eating grains"],
+      "correctIndex": 2,
+      "explanation": "A mother cow licking her calf is parental care — cleaning and bonding with the young one. The other actions do not involve caring for young ones.",
+      "difficulty": "easy",
+      "tags": ["animals", "parental-care"]
+    },
+    {
+      "id": "g2s-w26-wed-004",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "How does a father penguin protect the egg in winter?",
+      "options": ["He builds a nest", "He buries the egg underground", "He balances the egg on his feet and covers it with belly fat", "He puts it in a tree"],
+      "correctIndex": 2,
+      "explanation": "Emperor penguin fathers keep the egg warm by balancing it on their feet and covering it with a warm flap of skin in very cold weather.",
+      "difficulty": "easy",
+      "tags": ["animals", "parental-care", "penguin"]
+    },
+    {
+      "id": "g2s-w26-wed-005",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "Which animal does NOT usually care for its young after laying eggs?",
+      "options": ["Hen", "Dog", "Turtle", "Cat"],
+      "correctIndex": 2,
+      "explanation": "Turtles lay eggs in sand and leave. The eggs hatch on their own and the babies make their way to the sea without parental help.",
+      "difficulty": "easy",
+      "tags": ["animals", "parental-care", "turtle"]
+    },
+    {
+      "id": "g2s-w26-wed-006",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "Puppies are born blind and need their mother for food and warmth. This shows that newborn animals:",
+      "options": ["Are fully independent from birth", "Depend on their parents for survival", "Are stronger than adult animals", "Do not need food"],
+      "correctIndex": 1,
+      "explanation": "Newborn animals like puppies are helpless at first and depend on their parents for food, warmth and protection. This is why parental care is important.",
+      "difficulty": "medium",
+      "tags": ["animals", "parental-care", "dependence"]
+    },
+    {
+      "id": "g2s-w26-wed-007",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "Which action shows a parent PROTECTING its young?",
+      "options": ["A buffalo charging at a lion to save her calf", "A dog eating bones", "A crow flying in the sky", "A fish swimming in the river"],
+      "correctIndex": 0,
+      "explanation": "A buffalo charging at a lion to protect her calf is parental protection. Parents of many species defend their young from predators.",
+      "difficulty": "medium",
+      "tags": ["animals", "parental-care", "protection"]
+    },
+    {
+      "id": "g2s-w26-wed-008",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "A mother bird brings worms to her chicks in the nest. This is an example of:",
+      "options": ["Hunting for food", "Teaching the chicks to fly", "Feeding and caring for young", "Building a new nest"],
+      "correctIndex": 2,
+      "explanation": "When a mother bird brings food to her chicks, she is caring for her young — providing them with nutrition until they can feed themselves.",
+      "difficulty": "medium",
+      "tags": ["animals", "parental-care", "feeding"]
+    },
+    {
+      "id": "g2s-w26-wed-009",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "Elephants live in groups called herds. All adult females in the herd help care for the calves. What kind of care is this?",
+      "options": ["Individual care by mother only", "Group care by the whole community", "No care at all", "Care only by the father"],
+      "correctIndex": 1,
+      "explanation": "In elephant herds, all adult females (aunts, grandmothers, older sisters) help protect and raise the calves. This is called cooperative or group care.",
+      "difficulty": "medium",
+      "tags": ["animals", "parental-care", "elephants", "group"]
+    },
+    {
+      "id": "g2s-w26-wed-010",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "Why do mammals feed their babies milk?",
+      "options": ["Milk is cheap and easy to find", "Milk provides the nutrients and energy baby mammals need to grow", "All animals feed milk to their young", "Babies cannot drink water"],
+      "correctIndex": 1,
+      "explanation": "Milk contains proteins, fats and other nutrients perfectly suited to the baby mammal's needs. It provides energy and helps the baby grow and develop immunity.",
+      "difficulty": "medium",
+      "tags": ["animals", "mammals", "milk", "nutrition"]
+    },
+    {
+      "id": "g2s-w26-wed-011",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "A mother cat teaches her kittens to hunt. Why is this important?",
+      "options": ["Just for fun", "So the kittens can survive on their own when they grow up", "Because the mother cat is tired of hunting", "So they can teach other cats"],
+      "correctIndex": 1,
+      "explanation": "Teaching young animals to hunt (or find food) is essential for survival. Once the kittens grow up, they must be able to feed themselves.",
+      "difficulty": "medium",
+      "tags": ["animals", "parental-care", "teaching", "survival"]
+    },
+    {
+      "id": "g2s-w26-wed-012",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "Compare: A hen sits on eggs for 21 days. A dog's puppies can hear after 2–3 weeks. Which shows longer parental investment before young are independent?",
+      "options": ["Hen, because 21 days of incubation comes first", "Dog, because puppies need many months of care", "Both need exactly the same time", "Neither invests in parental care"],
+      "correctIndex": 1,
+      "explanation": "While a hen incubates eggs for 21 days, chicks become independent quickly. Dog puppies need weeks of feeding, warmth and teaching — making the dog's overall parental investment longer.",
+      "difficulty": "hard",
+      "tags": ["animals", "parental-care", "comparison"]
+    },
+    {
+      "id": "g2s-w26-wed-013",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "Why do animals that lay many eggs (like fish) often provide LESS care per egg compared to animals like elephants?",
+      "options": ["Fish are lazy", "Laying many eggs means more will survive even without care; elephants have few young so each calf receives more attention", "Elephants lay eggs too", "Fish do not have young ones"],
+      "correctIndex": 1,
+      "explanation": "Fish may lay thousands of eggs; even if most are eaten, some survive. Elephants have very few calves (one at a time), so each calf is precious and receives years of intensive care.",
+      "difficulty": "hard",
+      "tags": ["animals", "parental-care", "strategy", "comparison"]
+    },
+    {
+      "id": "g2s-w26-wed-014",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "A baby deer can walk within hours of birth. A human baby cannot walk for about a year. What does this tell us?",
+      "options": ["Deer are more intelligent than humans", "Different animals develop at different rates; deer need to escape predators quickly", "Human babies are defective", "Deer do not need parental care"],
+      "correctIndex": 1,
+      "explanation": "Deer live in open areas with predators, so they must be mobile quickly. Human babies take longer to develop but their brains grow in complexity over years.",
+      "difficulty": "hard",
+      "tags": ["animals", "development", "comparison", "adaptation"]
+    },
+    {
+      "id": "g2s-w26-wed-015",
+      "goalId": "grade-2-science-w26-wed",
+      "question": "Parental care in animals is most important for which reason?",
+      "options": ["To make animals look beautiful", "To help young ones survive until they can take care of themselves", "To keep parents busy", "To teach young animals to fight each other"],
+      "correctIndex": 1,
+      "explanation": "Parental care ensures that young animals — which are often vulnerable and helpless at birth — survive, grow and develop the skills needed for independence.",
+      "difficulty": "hard",
+      "tags": ["animals", "parental-care", "importance", "reasoning"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-2-science-w26-thu",
+  "title": "Grade 2 Science — Thu, Jun 26",
+  "description": "Animals and Their Young Ones — Day 4 of 5: Animals in groups vs alone; animal sounds",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2s-w26-thu-001",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "Which animal lives in a group called a 'herd'?",
+      "options": ["Tiger", "Eagle", "Cow", "Snake"],
+      "correctIndex": 2,
+      "explanation": "Cows, elephants, deer and many plant-eating animals live in groups called herds. Tigers, eagles and snakes usually live alone.",
+      "difficulty": "easy",
+      "tags": ["animals", "groups", "herd"]
+    },
+    {
+      "id": "g2s-w26-thu-002",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "What sound does a dog make?",
+      "options": ["Moo", "Bark", "Roar", "Bleat"],
+      "correctIndex": 1,
+      "explanation": "Dogs bark. Cows moo, lions roar and sheep bleat.",
+      "difficulty": "easy",
+      "tags": ["animals", "sounds"]
+    },
+    {
+      "id": "g2s-w26-thu-003",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "A group of fish swimming together is called a:",
+      "options": ["Pack", "School", "Pride", "Flock"],
+      "correctIndex": 1,
+      "explanation": "A group of fish is called a school. A group of wolves is a pack, lions a pride and birds a flock.",
+      "difficulty": "easy",
+      "tags": ["animals", "groups", "fish"]
+    },
+    {
+      "id": "g2s-w26-thu-004",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "What sound does a cat make?",
+      "options": ["Bark", "Moo", "Meow", "Roar"],
+      "correctIndex": 2,
+      "explanation": "Cats meow. Dogs bark, cows moo and lions roar.",
+      "difficulty": "easy",
+      "tags": ["animals", "sounds", "cat"]
+    },
+    {
+      "id": "g2s-w26-thu-005",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "Which animal usually lives ALONE (not in a group)?",
+      "options": ["Ants", "Bees", "Tiger", "Penguins"],
+      "correctIndex": 2,
+      "explanation": "Tigers are solitary animals — they live and hunt alone. Ants and bees live in large colonies; penguins live in large groups.",
+      "difficulty": "easy",
+      "tags": ["animals", "solitary", "tiger"]
+    },
+    {
+      "id": "g2s-w26-thu-006",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "What is a group of ants called?",
+      "options": ["Herd", "Pack", "Colony", "Pride"],
+      "correctIndex": 2,
+      "explanation": "A group of ants is called a colony. Ant colonies can have millions of members working together.",
+      "difficulty": "easy",
+      "tags": ["animals", "groups", "ants", "colony"]
+    },
+    {
+      "id": "g2s-w26-thu-007",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "Match: 'A group of birds flying together' is called a ___.",
+      "options": ["Pack", "Flock", "Herd", "Colony"],
+      "correctIndex": 1,
+      "explanation": "A group of birds is called a flock. When birds migrate, they fly in flocks for safety.",
+      "difficulty": "medium",
+      "tags": ["animals", "groups", "birds", "flock"]
+    },
+    {
+      "id": "g2s-w26-thu-008",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "Lions live in groups called 'prides'. The female lions (lionesses) do most of the hunting. This shows that:",
+      "options": ["Lions are lazy", "Animals in groups sometimes share responsibilities", "Male lions are weak", "Female lions are always alone"],
+      "correctIndex": 1,
+      "explanation": "In a lion pride, lionesses cooperate to hunt while the male lion protects the group. This shows animals in groups can divide roles and responsibilities.",
+      "difficulty": "medium",
+      "tags": ["animals", "groups", "lions", "cooperation"]
+    },
+    {
+      "id": "g2s-w26-thu-009",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "What sound does a frog make?",
+      "options": ["Bark", "Croak", "Hiss", "Chirp"],
+      "correctIndex": 1,
+      "explanation": "Frogs croak. Dogs bark, snakes hiss and birds chirp.",
+      "difficulty": "medium",
+      "tags": ["animals", "sounds", "frog"]
+    },
+    {
+      "id": "g2s-w26-thu-010",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "Why do some animals live in groups?",
+      "options": ["They are afraid of being alone", "For safety, hunting together and caring for young ones", "Because they have no choice", "To make more noise"],
+      "correctIndex": 1,
+      "explanation": "Animals live in groups for many benefits: safety in numbers (harder to be attacked), cooperation in hunting and helping care for young ones.",
+      "difficulty": "medium",
+      "tags": ["animals", "groups", "advantages"]
+    },
+    {
+      "id": "g2s-w26-thu-011",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "Which of these correctly matches animal and its sound?",
+      "options": ["Cow — bark", "Horse — moo", "Snake — hiss", "Dog — bleat"],
+      "correctIndex": 2,
+      "explanation": "Snakes hiss. Cows moo, horses neigh and dogs bark. 'Dog-bleat' and 'Cow-bark' are wrong.",
+      "difficulty": "medium",
+      "tags": ["animals", "sounds", "matching"]
+    },
+    {
+      "id": "g2s-w26-thu-012",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "Wolves hunt in 'packs'. Why is this an advantage?",
+      "options": ["Wolves enjoy company", "They can hunt prey much larger than themselves by working together", "Pack hunting is slower", "They hunt to teach humans"],
+      "correctIndex": 1,
+      "explanation": "A single wolf cannot easily hunt a large deer, but a pack can surround and exhaust the prey. Group hunting allows wolves to catch prey they could not catch alone.",
+      "difficulty": "hard",
+      "tags": ["animals", "groups", "wolves", "cooperation"]
+    },
+    {
+      "id": "g2s-w26-thu-013",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "Bees live in colonies with a queen, workers and drones. Each has a different job. What does this tell us?",
+      "options": ["Bees are confused about their roles", "Bee colonies have a complex social structure with division of labour", "All bees do the same work", "Bees do not cooperate"],
+      "correctIndex": 1,
+      "explanation": "Bee colonies show division of labour — the queen lays eggs, workers collect food and protect the hive, and drones mate with the queen. This organised system makes the colony highly efficient.",
+      "difficulty": "hard",
+      "tags": ["animals", "groups", "bees", "division-of-labour"]
+    },
+    {
+      "id": "g2s-w26-thu-014",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "Animal sounds serve as communication. A mother hen clucks in a special way when danger is near. What does this show?",
+      "options": ["Hens cluck randomly", "Animal sounds can warn others of danger — a form of communication", "Clucking scares predators away directly", "Only human language communicates danger"],
+      "correctIndex": 1,
+      "explanation": "Mother hens have different clucks for different situations — a warning call brings chicks to hide. This shows that animal sounds are a form of communication, not just random noise.",
+      "difficulty": "hard",
+      "tags": ["animals", "sounds", "communication", "hen"]
+    },
+    {
+      "id": "g2s-w26-thu-015",
+      "goalId": "grade-2-science-w26-thu",
+      "question": "Migratory birds travel in flocks of thousands. Arrange these benefits of group migration in order of importance (most to least):",
+      "options": ["Safety + navigation help + energy saving (flying in V-formation)", "Energy saving only", "Navigation only", "It gives them no benefit"],
+      "correctIndex": 0,
+      "explanation": "Flying in flocks offers multiple benefits: safety (harder for predators), navigation (experienced birds lead), and energy saving (V-formation reduces wind resistance). All three benefits matter.",
+      "difficulty": "hard",
+      "tags": ["animals", "groups", "migration", "birds"]
+    }
+  ]
+}

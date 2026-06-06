@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-science-w26-tue",
+  "title": "Grade 8 Science — Tue, Jun 24",
+  "description": "Force and Pressure — Day 2 of 5: Pressure — definition, formula, factors",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8s-w26-tue-001",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "Pressure is defined as:",
+      "options": ["Force × Area", "Force ÷ Area (P = F/A) — the force applied per unit area", "Mass × Velocity", "Weight × Height"],
+      "correctIndex": 1,
+      "explanation": "Pressure = Force ÷ Area = F/A. SI unit = Pascal (Pa) = N/m². Pressure tells us HOW CONCENTRATED the force is. Same force over a smaller area = greater pressure. Greater area = less pressure.",
+      "difficulty": "easy",
+      "tags": ["pressure", "definition", "formula"]
+    },
+    {
+      "id": "g8s-w26-tue-002",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "A force of 100 N acts on an area of 5 m². Pressure =",
+      "options": ["500 Pa", "20 Pa", "105 Pa", "95 Pa"],
+      "correctIndex": 1,
+      "explanation": "P = F/A = 100 ÷ 5 = 20 Pa (pascals). SI unit of pressure = Pascal (Pa) = Newton per square metre (N/m²). Named after Blaise Pascal.",
+      "difficulty": "easy",
+      "tags": ["pressure", "calculation"]
+    },
+    {
+      "id": "g8s-w26-tue-003",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "Why does a sharp knife cut better than a blunt knife (same force applied)?",
+      "options": ["Sharp knife has more mass", "Sharp knife has a smaller edge area → same force over less area → greater pressure → cuts more easily", "Blunt knife has less friction", "Sharp knife is lighter"],
+      "correctIndex": 1,
+      "explanation": "P = F/A. Sharp edge: very small contact area → huge pressure at tip → penetrates material easily. Blunt edge: larger contact area → same force spread over more area → less pressure → harder to cut. This is why needles, blades, and pins have sharp points.",
+      "difficulty": "easy",
+      "tags": ["pressure", "sharp-vs-blunt", "everyday"]
+    },
+    {
+      "id": "g8s-w26-tue-004",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "A brick weighing 200 N can be placed on two different faces: Face A (0.05 m²) and Face B (0.2 m²). Which produces greater pressure and why?",
+      "options": ["Face B (larger area = more pressure)", "Face A (smaller area → P = 200/0.05 = 4,000 Pa vs Face B: 200/0.2 = 1,000 Pa)", "Both equal — same weight", "Cannot determine"],
+      "correctIndex": 1,
+      "explanation": "Same force (weight = 200 N). Face A: P = 200/0.05 = 4,000 Pa. Face B: P = 200/0.2 = 1,000 Pa. Smaller area → greater pressure. This is why buildings have wide foundations — spread the weight over large area → less pressure on soil → no sinking.",
+      "difficulty": "medium",
+      "tags": ["pressure", "area-effect", "calculation"]
+    },
+    {
+      "id": "g8s-w26-tue-005",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "Why are wide, flat foundations used for heavy buildings?",
+      "options": ["To save materials", "Larger foundation area → less pressure on soil (P = F/A, larger A → smaller P) → prevents the building from sinking", "Flat foundations look better", "Wide foundations conduct electricity away"],
+      "correctIndex": 1,
+      "explanation": "Building weight → downward force. Wide foundation spreads that force over large area → P = F/A, large A → small P on soil. Soil can support this without compressing. Narrow foundation → concentrated force → high pressure → soil collapses/building sinks. Same principle as snowshoes.",
+      "difficulty": "medium",
+      "tags": ["pressure", "foundation", "application"]
+    },
+    {
+      "id": "g8s-w26-tue-006",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "Pressure in fluids (liquids and gases) acts in:",
+      "options": ["Only downward direction", "Only upward direction", "All directions — fluid pressure acts equally in all directions at the same depth", "Only horizontal direction"],
+      "correctIndex": 2,
+      "explanation": "Pascal's principle: fluid pressure at any point acts equally in ALL directions — up, down, sideways. This is why a hole in a submarine leaks equally powerfully whether on top, bottom, or side at the same depth. Unlike solid pressure, fluid pressure is non-directional.",
+      "difficulty": "medium",
+      "tags": ["pressure", "fluids", "Pascal"]
+    },
+    {
+      "id": "g8s-w26-tue-007",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "Liquid pressure at depth h is given by P = hρg. This means pressure depends on:",
+      "options": ["Volume of liquid only", "Shape of container", "Depth of liquid (h), density (ρ), and gravity (g) — not volume or container shape", "Temperature of liquid"],
+      "correctIndex": 2,
+      "explanation": "P = hρg. Pressure increases with depth (h ↑ → P ↑), with density (denser liquid → more pressure), and with gravity. The volume or shape of the container does NOT matter — only the depth to the point of interest. That's why submarines crush at great ocean depths.",
+      "difficulty": "hard",
+      "tags": ["pressure", "liquid", "depth"]
+    },
+    {
+      "id": "g8s-w26-tue-008",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "Atmospheric pressure exists because:",
+      "options": ["The Earth generates electricity", "The weight of air above any point — the atmosphere is ~100 km thick; all that air's weight creates pressure on everything at Earth's surface", "Sunlight pushes air down", "Gravity has no effect on air"],
+      "correctIndex": 1,
+      "explanation": "Atmosphere = layer of air above Earth (~100 km). All this air has mass → weight → exerts downward pressure. At sea level: ~101,325 Pa = 1 atmosphere (atm). Decreases with altitude (less air above). Mountains: lower pressure → harder to breathe. Measured with a barometer.",
+      "difficulty": "hard",
+      "tags": ["pressure", "atmospheric", "definition"]
+    },
+    {
+      "id": "g8s-w26-tue-009",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "A diver goes deeper underwater. What happens to the water pressure on them?",
+      "options": ["Pressure decreases", "Pressure stays same", "Pressure increases — P = hρg, as depth h increases, pressure increases proportionally", "Pressure depends only on body size"],
+      "correctIndex": 2,
+      "explanation": "P = hρg. As depth (h) increases → pressure increases linearly. At 10 m depth in sea water ≈ 2 atm (1 atm water + 1 atm atmosphere). Every 10 m adds ~1 atm. Deep sea creatures are adapted to survive enormous pressures (thousands of atm at trenches).",
+      "difficulty": "hard",
+      "tags": ["pressure", "liquid", "depth-effect"]
+    },
+    {
+      "id": "g8s-w26-tue-010",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "Camels have broad, flat feet. This is an adaptation because:",
+      "options": ["Broad feet are stronger", "Broad feet spread the camel's weight over larger area → less pressure on sand → camel doesn't sink (P = F/A, large A → small P)", "Broad feet give more speed", "Camels' feet are flat for walking on water"],
+      "correctIndex": 1,
+      "explanation": "P = F/A. Camel's large weight distributed over broad, flat foot pads → less pressure per unit area on sand. Sand can support this → camel walks without sinking. Compare to a person in stilettos on sand — high pressure → sinks. This is a natural application of pressure principles.",
+      "difficulty": "hard",
+      "tags": ["pressure", "camel", "natural-adaptation"]
+    },
+    {
+      "id": "g8s-w26-tue-011",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "Why do army tanks have broad caterpillar tracks?",
+      "options": ["Tracks look impressive", "Large track area → the tank's great weight is spread over large area → less pressure on ground → tank doesn't sink in mud or soft terrain", "Tracks are stronger than wheels", "Tracks help the tank float"],
+      "correctIndex": 1,
+      "explanation": "Tank: very heavy. Broad caterpillar tracks: very large contact area with ground. P = F/A → small P despite large F. Tank can traverse soft mud without sinking. Also why tractors, bulldozers, and snowcats have wide tracks.",
+      "difficulty": "hard",
+      "tags": ["pressure", "caterpillar-tracks", "application"]
+    },
+    {
+      "id": "g8s-w26-tue-012",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "A hydraulic jack uses Pascal's principle. A small force on a small piston creates large force on a large piston because:",
+      "options": ["Pressure multiplies in fluids", "Pressure is transmitted equally through the fluid (Pascal's principle) — same pressure on large area = large force", "The fluid adds extra force", "Gravity helps in hydraulic systems"],
+      "correctIndex": 1,
+      "explanation": "Pascal's principle: pressure applied to enclosed fluid transmits unchanged to all parts. F₁/A₁ = F₂/A₂. If A₂ >> A₁, then F₂ >> F₁. This is mechanical advantage. Applications: hydraulic brakes in cars, hydraulic jacks, hydraulic presses, dentist's chairs.",
+      "difficulty": "hard",
+      "tags": ["pressure", "pascal-principle", "hydraulic"]
+    },
+    {
+      "id": "g8s-w26-tue-013",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "SI unit of pressure is Pascal (Pa). 1 Pa = 1 N/m². Atmospheric pressure at sea level ≈",
+      "options": ["1 Pa", "100 Pa", "1,000 Pa", "101,325 Pa (≈ 1 atm)"],
+      "correctIndex": 3,
+      "explanation": "Standard atmospheric pressure = 101,325 Pa ≈ 1 atm. This equals the weight of a 10 m column of water per unit area. Blood pressure is measured in mmHg. Pressure of a gentle breeze ≈ 1–10 Pa. Atmospheric pressure is enormous — we don't feel it because it acts equally in all directions.",
+      "difficulty": "hard",
+      "tags": ["pressure", "SI-unit", "atmospheric"]
+    },
+    {
+      "id": "g8s-w26-tue-014",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "A student pushes a drawing pin into a board. Which end (sharp or flat) exerts greater pressure on the board?",
+      "options": ["Flat end (palm side) — larger force", "Sharp end (needle tip) — extremely small area → enormous pressure despite modest finger force", "Both equal — same force acts throughout", "Depends on the material of the board"],
+      "correctIndex": 1,
+      "explanation": "Same force passes through the pin (Newton's 3rd law — force through solid body is transmitted). Sharp tip: area ≈ 0.0001 cm² → pressure = F/0.0001 = huge. Flat head: area ≈ 1 cm² → much less pressure. The concentration at the sharp point (small area) → penetrates the board. Flat side you push stays comfortable.",
+      "difficulty": "hard",
+      "tags": ["pressure", "drawing-pin", "area-concentration"]
+    },
+    {
+      "id": "g8s-w26-tue-015",
+      "goalId": "grade-8-science-w26-tue",
+      "question": "Which correctly summarises the relationship between pressure, force, and area?",
+      "options": ["P = F × A (more area = more pressure)", "P = F / A (more area = less pressure; less area = more pressure)", "P = A / F (more force = less pressure)", "P = F + A"],
+      "correctIndex": 1,
+      "explanation": "P = F/A. Key relationships: (1) Same force, smaller area → greater pressure. (2) Same force, larger area → less pressure. (3) Greater force, same area → greater pressure. Applications: knives (sharp = small A), snowshoes (large A for snow), needles, buildings (wide foundation = large A).",
+      "difficulty": "hard",
+      "tags": ["pressure", "formula", "summary"]
+    }
+  ]
+}

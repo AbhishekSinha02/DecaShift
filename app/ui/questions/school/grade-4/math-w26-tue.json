@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-4-math-w26-tue",
+  "title": "Grade 4 Math — Tue, Jun 24",
+  "description": "Data Handling — Day 2 of 5: Reading and interpreting pictographs",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4m-w26-tue-001",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "In a pictograph, what is the KEY (or legend) used for?",
+      "options": ["To draw the title", "To tell how many items each symbol represents", "To colour the symbols", "To list the categories"],
+      "correctIndex": 1,
+      "explanation": "The KEY (legend) tells the reader what each symbol stands for. Example: ★ = 5 students. Without the key, you cannot read the pictograph.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "key"]
+    },
+    {
+      "id": "g4m-w26-tue-002",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "Pictograph: Favourite fruit. Key: 🍎 = 2 students. Mango: 🍎🍎🍎, Apple: 🍎🍎, Banana: 🍎🍎🍎🍎. How many students chose Banana?",
+      "options": ["4", "6", "8", "10"],
+      "correctIndex": 2,
+      "explanation": "Banana has 4 symbols. Each symbol = 2 students. 4 × 2 = 8 students chose Banana.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "read"]
+    },
+    {
+      "id": "g4m-w26-tue-003",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "Pictograph: Books read in a week. Key: 📚 = 5 books. Ravi: 📚📚, Priya: 📚📚📚. How many more books did Priya read than Ravi?",
+      "options": ["5", "10", "15", "3"],
+      "correctIndex": 0,
+      "explanation": "Ravi = 2 × 5 = 10 books. Priya = 3 × 5 = 15 books. Difference = 15 − 10 = 5 more books.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "difference"]
+    },
+    {
+      "id": "g4m-w26-tue-004",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "A pictograph uses scale 1 symbol = 10. A row shows 3 full symbols and 1 half symbol. What is the total?",
+      "options": ["30", "35", "25", "40"],
+      "correctIndex": 1,
+      "explanation": "3 full symbols = 3 × 10 = 30. Half symbol = 10 ÷ 2 = 5. Total = 30 + 5 = 35.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "half-symbol"]
+    },
+    {
+      "id": "g4m-w26-tue-005",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "Pictograph shows pets in 4 houses. Key: 🐾 = 4 pets. House A: 🐾🐾🐾, House B: 🐾🐾🐾🐾🐾. What is the total pets for both houses?",
+      "options": ["28", "32", "36", "24"],
+      "correctIndex": 1,
+      "explanation": "House A = 3 × 4 = 12. House B = 5 × 4 = 20. Total = 12 + 20 = 32 pets.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "addition"]
+    },
+    {
+      "id": "g4m-w26-tue-006",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "Pictograph: Trees planted by classes. Key: 🌳 = 5 trees. Class 4A: 🌳🌳🌳🌳, Class 4B: 🌳🌳🌳, Class 4C: 🌳🌳🌳🌳🌳. Which class planted the fewest trees?",
+      "options": ["Class 4A", "Class 4B", "Class 4C", "All planted the same"],
+      "correctIndex": 1,
+      "explanation": "4A = 4 × 5 = 20, 4B = 3 × 5 = 15, 4C = 5 × 5 = 25. Class 4B (15 trees) planted the fewest.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "least"]
+    },
+    {
+      "id": "g4m-w26-tue-007",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "Pictograph: Students who bring lunch. Key: 👦 = 3 students. Mon: 👦👦👦👦, Tue: 👦👦👦, Wed: 👦👦👦👦👦, Thu: 👦👦, Fri: 👦👦👦👦. How many students brought lunch on Wednesday?",
+      "options": ["12", "15", "10", "18"],
+      "correctIndex": 1,
+      "explanation": "Wednesday has 5 symbols. Each = 3 students. 5 × 3 = 15 students.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "read"]
+    },
+    {
+      "id": "g4m-w26-tue-008",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "Using the same pictograph (key = 3 students), what is the total for the whole week (Mon–Fri)?",
+      "options": ["54", "51", "57", "60"],
+      "correctIndex": 1,
+      "explanation": "Mon=4, Tue=3, Wed=5, Thu=2, Fri=4 symbols = 18 total symbols. 18 × 3 = 54... Wait: 4+3+5+2+4 = 18 symbols × 3 = 54. Answer: 54.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "total"]
+    },
+    {
+      "id": "g4m-w26-tue-009",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "A pictograph has scale 1 🌟 = 10. Ananya has 45 stickers to show. How many symbols does she need?",
+      "options": ["4", "4½", "5", "40"],
+      "correctIndex": 1,
+      "explanation": "45 ÷ 10 = 4.5 symbols = 4 full stars and 1 half star. In pictographs, we use half symbols for such values.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "draw"]
+    },
+    {
+      "id": "g4m-w26-tue-010",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "Why is a scale of 1 symbol = 1 item often impractical for large data sets?",
+      "options": ["It gives wrong answers", "It would require drawing hundreds of symbols, making the chart cluttered and hard to read", "Symbols must equal 5 or 10", "Pictographs cannot be made for large data"],
+      "correctIndex": 1,
+      "explanation": "If 500 students chose a sport and each symbol = 1 student, you'd draw 500 symbols — cluttered and useless. A scale (1 symbol = 10, 20, 50) keeps the pictograph clean and readable.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "scale-choice"]
+    },
+    {
+      "id": "g4m-w26-tue-011",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "Pictograph: Cars sold per month. Key: 🚗 = 20 cars. Jan: 🚗🚗🚗🚗½, Feb: 🚗🚗🚗, Mar: 🚗🚗🚗🚗🚗. Total cars sold in Jan + Feb =",
+      "options": ["90", "110", "130", "150"],
+      "correctIndex": 3,
+      "explanation": "Jan = 4½ symbols × 20 = 90 cars. Feb = 3 × 20 = 60 cars. 90 + 60 = 150 cars.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "calculation"]
+    },
+    {
+      "id": "g4m-w26-tue-012",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "A pictograph shows: Red=30, Blue=50, Green=20, Yellow=25. If you choose scale 1🎨=5, how many symbols will the Blue row need?",
+      "options": ["5", "10", "15", "25"],
+      "correctIndex": 1,
+      "explanation": "Blue = 50. Scale = 5 per symbol. 50 ÷ 5 = 10 symbols for the Blue row.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "scale"]
+    },
+    {
+      "id": "g4m-w26-tue-013",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "Two students read the same pictograph. Anita says 'Mango got 30 votes.' Raj says 'Mango got 15 votes.' The key says 🍋 = 5. Mango shows 6 symbols. Who is correct?",
+      "options": ["Anita (6 × 5 = 30)", "Raj (incorrect)", "Neither", "Both are correct"],
+      "correctIndex": 0,
+      "explanation": "6 symbols × 5 per symbol = 30 votes. Anita is correct. Raj may have multiplied incorrectly (perhaps divided instead of multiplied).",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "error-correction"]
+    },
+    {
+      "id": "g4m-w26-tue-014",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "Pictograph — Trees planted by 5 children: Ali=15, Boa=10, Cena=25, Diya=20, Eva=5. If scale = 5 trees per 🌱, which child's row has exactly 3 symbols?",
+      "options": ["Ali", "Boa", "Cena", "Eva"],
+      "correctIndex": 0,
+      "explanation": "Ali = 15 ÷ 5 = 3 symbols. Boa=2, Cena=5, Diya=4, Eva=1. Ali's row has exactly 3 symbols.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "draw"]
+    },
+    {
+      "id": "g4m-w26-tue-015",
+      "goalId": "grade-4-math-w26-tue",
+      "question": "A class collected 60 votes on favourite season: Summer=20, Monsoon=25, Winter=15. If the pictograph scale is 1☁ = 5 votes, what is the total number of symbols in the entire pictograph?",
+      "options": ["10", "12", "14", "60"],
+      "correctIndex": 1,
+      "explanation": "Summer = 20÷5 = 4 symbols. Monsoon = 25÷5 = 5 symbols. Winter = 15÷5 = 3 symbols. Total = 4+5+3 = 12 symbols.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "total-symbols"]
+    }
+  ]
+}

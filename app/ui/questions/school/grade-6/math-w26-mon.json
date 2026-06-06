@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-math-w26-mon",
+  "title": "Grade 6 Math — Mon, Jun 23",
+  "description": "Mensuration — Day 1 of 5: Perimeter of triangles, quadrilaterals and polygons",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6m-w26-mon-001",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "Perimeter of a shape is:",
+      "options": ["The area enclosed", "The total length of the boundary — sum of all sides", "The height of the shape", "The number of sides × 2"],
+      "correctIndex": 1,
+      "explanation": "Perimeter = total boundary length. Unit: cm, m, etc. For a polygon, add all side lengths.",
+      "difficulty": "easy",
+      "tags": ["mensuration", "perimeter", "definition"]
+    },
+    {
+      "id": "g6m-w26-mon-002",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "Perimeter of a rectangle: l=12 cm, b=7 cm",
+      "options": ["19 cm", "38 cm", "84 cm", "26 cm"],
+      "correctIndex": 1,
+      "explanation": "P = 2(l + b) = 2(12 + 7) = 2 × 19 = 38 cm.",
+      "difficulty": "easy",
+      "tags": ["mensuration", "rectangle", "perimeter"]
+    },
+    {
+      "id": "g6m-w26-mon-003",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "Perimeter of an equilateral triangle with side 9 cm =",
+      "options": ["9 cm", "18 cm", "27 cm", "36 cm"],
+      "correctIndex": 2,
+      "explanation": "Equilateral triangle: all 3 sides equal. P = 3 × 9 = 27 cm.",
+      "difficulty": "easy",
+      "tags": ["mensuration", "triangle", "equilateral"]
+    },
+    {
+      "id": "g6m-w26-mon-004",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "A square has perimeter 64 cm. Length of each side =",
+      "options": ["8 cm", "16 cm", "32 cm", "4 cm"],
+      "correctIndex": 1,
+      "explanation": "Square: P = 4s → 64 = 4s → s = 16 cm.",
+      "difficulty": "easy",
+      "tags": ["mensuration", "square", "find-side"]
+    },
+    {
+      "id": "g6m-w26-mon-005",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "Perimeter of a triangle with sides 8.5 cm, 6.2 cm, 7.3 cm =",
+      "options": ["20 cm", "22 cm", "21 cm", "14.7 cm"],
+      "correctIndex": 1,
+      "explanation": "P = 8.5 + 6.2 + 7.3 = 22 cm.",
+      "difficulty": "medium",
+      "tags": ["mensuration", "triangle", "decimals"]
+    },
+    {
+      "id": "g6m-w26-mon-006",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "A rectangular park is 120 m long and 80 m wide. Cost of fencing at ₹15 per metre =",
+      "options": ["₹3,000", "₹6,000", "₹12,000", "₹14,400"],
+      "correctIndex": 1,
+      "explanation": "P = 2(120 + 80) = 2 × 200 = 400 m. Cost = 400 × 15 = ₹6,000.",
+      "difficulty": "medium",
+      "tags": ["mensuration", "perimeter", "cost", "word-problem"]
+    },
+    {
+      "id": "g6m-w26-mon-007",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "A regular hexagon has each side = 5 cm. Perimeter =",
+      "options": ["20 cm", "25 cm", "30 cm", "36 cm"],
+      "correctIndex": 2,
+      "explanation": "Regular hexagon: 6 equal sides. P = 6 × 5 = 30 cm.",
+      "difficulty": "medium",
+      "tags": ["mensuration", "hexagon", "regular-polygon"]
+    },
+    {
+      "id": "g6m-w26-mon-008",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "Perimeter of a quadrilateral with sides 6, 8, 5, 9 (cm) =",
+      "options": ["24 cm", "28 cm", "30 cm", "32 cm"],
+      "correctIndex": 1,
+      "explanation": "P = 6 + 8 + 5 + 9 = 28 cm.",
+      "difficulty": "medium",
+      "tags": ["mensuration", "quadrilateral"]
+    },
+    {
+      "id": "g6m-w26-mon-009",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "A rectangular field: perimeter = 150 m, length = 45 m. Breadth =",
+      "options": ["25 m", "30 m", "60 m", "105 m"],
+      "correctIndex": 1,
+      "explanation": "P = 2(l + b) → 150 = 2(45 + b) → 75 = 45 + b → b = 30 m.",
+      "difficulty": "hard",
+      "tags": ["mensuration", "rectangle", "find-breadth"]
+    },
+    {
+      "id": "g6m-w26-mon-010",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "A square garden and a rectangular garden have the same perimeter (40 m). Rectangle: l=12 m. Rectangle breadth =",
+      "options": ["4 m", "8 m", "10 m", "28 m"],
+      "correctIndex": 1,
+      "explanation": "Square perimeter = 40 m. Rectangle: 2(12 + b) = 40 → 12 + b = 20 → b = 8 m.",
+      "difficulty": "hard",
+      "tags": ["mensuration", "same-perimeter", "reasoning"]
+    },
+    {
+      "id": "g6m-w26-mon-011",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "An L-shaped path (made of two rectangles): outer = 10×6 m, a 4×3 m rectangle cut from top-right corner. Perimeter of the L-shape =",
+      "options": ["28 m", "32 m", "36 m", "40 m"],
+      "correctIndex": 1,
+      "explanation": "Tracing the boundary: 10 + 6 + 4 + 3 + (10−4) + (6−3) = 10 + 6 + 4 + 3 + 6 + 3 = 32 m. (The cut creates two extra edges that replace two shorter ones.)",
+      "difficulty": "hard",
+      "tags": ["mensuration", "L-shape", "complex-perimeter"]
+    },
+    {
+      "id": "g6m-w26-mon-012",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "A wire of length 132 cm is bent to form a regular polygon with each side 12 cm. How many sides does the polygon have?",
+      "options": ["8", "10", "11", "12"],
+      "correctIndex": 2,
+      "explanation": "Number of sides = Total perimeter ÷ side length = 132 ÷ 12 = 11 sides.",
+      "difficulty": "hard",
+      "tags": ["mensuration", "regular-polygon", "find-sides"]
+    },
+    {
+      "id": "g6m-w26-mon-013",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "A rectangle's length is 3 times its breadth. Perimeter = 96 cm. Length =",
+      "options": ["12 cm", "24 cm", "36 cm", "48 cm"],
+      "correctIndex": 2,
+      "explanation": "Let breadth = b, length = 3b. P = 2(3b + b) = 2(4b) = 8b = 96 → b = 12. Length = 3 × 12 = 36 cm.",
+      "difficulty": "hard",
+      "tags": ["mensuration", "rectangle", "algebra"]
+    },
+    {
+      "id": "g6m-w26-mon-014",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "The perimeter of an isosceles triangle is 36 cm. Two equal sides = 13 cm each. Base =",
+      "options": ["5 cm", "8 cm", "10 cm", "13 cm"],
+      "correctIndex": 2,
+      "explanation": "P = 13 + 13 + base = 36 → base = 36 − 26 = 10 cm.",
+      "difficulty": "hard",
+      "tags": ["mensuration", "isosceles", "find-base"]
+    },
+    {
+      "id": "g6m-w26-mon-015",
+      "goalId": "grade-6-math-w26-mon",
+      "question": "Raj runs along the boundary of a rectangular park (80 m × 60 m). He runs 5 full rounds. Total distance covered =",
+      "options": ["700 m", "1,400 m", "2,800 m", "3,500 m"],
+      "correctIndex": 1,
+      "explanation": "Perimeter = 2(80 + 60) = 280 m. 5 rounds = 5 × 280 = 1,400 m.",
+      "difficulty": "hard",
+      "tags": ["mensuration", "perimeter", "running", "word-problem"]
+    }
+  ]
+}

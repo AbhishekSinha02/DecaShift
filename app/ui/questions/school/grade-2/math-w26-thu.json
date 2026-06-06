@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-2-math-w26-thu",
+  "title": "Grade 2 Math — Thu, Jun 26",
+  "description": "Money — Day 4 of 5: Shopping problems — total cost and change",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2m-w26-thu-001",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "A biscuit costs ₹5 and a juice costs ₹10. What is the total cost?",
+      "options": ["₹10", "₹12", "₹15", "₹20"],
+      "correctIndex": 2,
+      "explanation": "₹5 + ₹10 = ₹15. The biscuit and juice together cost fifteen rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "shopping", "addition"]
+    },
+    {
+      "id": "g2m-w26-thu-002",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "Anu buys a candy for ₹2 and a chocolate for ₹8. How much did she spend?",
+      "options": ["₹8", "₹9", "₹10", "₹12"],
+      "correctIndex": 2,
+      "explanation": "₹2 + ₹8 = ₹10. Anu spent ten rupees in total.",
+      "difficulty": "easy",
+      "tags": ["money", "shopping", "addition"]
+    },
+    {
+      "id": "g2m-w26-thu-003",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "Vikas has ₹20. He buys an apple for ₹6. How much change does he get?",
+      "options": ["₹12", "₹13", "₹14", "₹15"],
+      "correctIndex": 2,
+      "explanation": "₹20 − ₹6 = ₹14. Vikas gets fourteen rupees as change.",
+      "difficulty": "easy",
+      "tags": ["money", "shopping", "change"]
+    },
+    {
+      "id": "g2m-w26-thu-004",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "A ruler costs ₹5 and a notebook costs ₹10. You give ₹20. How much change do you get?",
+      "options": ["₹3", "₹4", "₹5", "₹6"],
+      "correctIndex": 2,
+      "explanation": "Total cost = ₹5 + ₹10 = ₹15. Change = ₹20 − ₹15 = ₹5.",
+      "difficulty": "easy",
+      "tags": ["money", "shopping", "change"]
+    },
+    {
+      "id": "g2m-w26-thu-005",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "A shopkeeper has items: pen ₹3, pencil ₹2. What is the total if you buy both?",
+      "options": ["₹3", "₹4", "₹5", "₹6"],
+      "correctIndex": 2,
+      "explanation": "₹3 + ₹2 = ₹5. A pen and pencil together cost five rupees.",
+      "difficulty": "easy",
+      "tags": ["money", "shopping", "addition"]
+    },
+    {
+      "id": "g2m-w26-thu-006",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "Mala buys 2 ice creams at ₹10 each. How much does she pay in all?",
+      "options": ["₹10", "₹15", "₹20", "₹25"],
+      "correctIndex": 2,
+      "explanation": "2 × ₹10 = ₹20. Two ice creams at ten rupees each cost twenty rupees total.",
+      "difficulty": "easy",
+      "tags": ["money", "shopping", "multiplication"]
+    },
+    {
+      "id": "g2m-w26-thu-007",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "Sam buys a ball for ₹25 and gives the shopkeeper ₹50. How much change does he get?",
+      "options": ["₹20", "₹23", "₹25", "₹30"],
+      "correctIndex": 2,
+      "explanation": "₹50 − ₹25 = ₹25. Sam gets twenty-five rupees as change.",
+      "difficulty": "medium",
+      "tags": ["money", "shopping", "change"]
+    },
+    {
+      "id": "g2m-w26-thu-008",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "A mango costs ₹12 and a banana costs ₹4. Rita buys both. She gives ₹20. What is her change?",
+      "options": ["₹2", "₹3", "₹4", "₹5"],
+      "correctIndex": 2,
+      "explanation": "Total cost = ₹12 + ₹4 = ₹16. Change = ₹20 − ₹16 = ₹4.",
+      "difficulty": "medium",
+      "tags": ["money", "shopping", "change"]
+    },
+    {
+      "id": "g2m-w26-thu-009",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "3 bangles cost ₹5 each. How much do all 3 bangles cost?",
+      "options": ["₹10", "₹12", "₹15", "₹20"],
+      "correctIndex": 2,
+      "explanation": "3 × ₹5 = ₹15. Three bangles at five rupees each cost fifteen rupees.",
+      "difficulty": "medium",
+      "tags": ["money", "shopping", "multiplication"]
+    },
+    {
+      "id": "g2m-w26-thu-010",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "Gaurav has ₹45. He buys a toy for ₹32. Can he also buy a book for ₹10?",
+      "options": ["No, he only has ₹3 left", "Yes, he has ₹13 left", "No, he has no money left", "Yes, he has exactly ₹10 left"],
+      "correctIndex": 1,
+      "explanation": "After the toy: ₹45 − ₹32 = ₹13. Since ₹13 > ₹10, yes he can buy the book.",
+      "difficulty": "medium",
+      "tags": ["money", "shopping", "comparison"]
+    },
+    {
+      "id": "g2m-w26-thu-011",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "In a shop: eraser ₹3, sharpener ₹5, pencil ₹4. What is the total for all three items?",
+      "options": ["₹10", "₹11", "₹12", "₹13"],
+      "correctIndex": 2,
+      "explanation": "₹3 + ₹5 + ₹4 = ₹12. All three items together cost twelve rupees.",
+      "difficulty": "medium",
+      "tags": ["money", "shopping", "addition"]
+    },
+    {
+      "id": "g2m-w26-thu-012",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "A shopkeeper charges ₹8 for bread and ₹12 for butter. A customer gives ₹25. What change is returned?",
+      "options": ["₹3", "₹4", "₹5", "₹6"],
+      "correctIndex": 2,
+      "explanation": "Total = ₹8 + ₹12 = ₹20. Change = ₹25 − ₹20 = ₹5.",
+      "difficulty": "medium",
+      "tags": ["money", "shopping", "change"]
+    },
+    {
+      "id": "g2m-w26-thu-013",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "Seema buys 4 candies at ₹3 each. She pays with a ₹20 note. How much change does she get?",
+      "options": ["₹5", "₹6", "₹7", "₹8"],
+      "correctIndex": 3,
+      "explanation": "4 × ₹3 = ₹12. Change = ₹20 − ₹12 = ₹8. Seema gets eight rupees back.",
+      "difficulty": "hard",
+      "tags": ["money", "shopping", "change", "multiplication"]
+    },
+    {
+      "id": "g2m-w26-thu-014",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "Raj wants to buy: pencil ₹4, eraser ₹3 and ruler ₹8. He has ₹20. Does he have enough money and how much will be left?",
+      "options": ["Not enough money", "Enough; ₹3 left", "Enough; ₹5 left", "Enough; ₹7 left"],
+      "correctIndex": 2,
+      "explanation": "Total = ₹4 + ₹3 + ₹8 = ₹15. He has ₹20, so he has enough. Change = ₹20 − ₹15 = ₹5.",
+      "difficulty": "hard",
+      "tags": ["money", "shopping", "multi-step"]
+    },
+    {
+      "id": "g2m-w26-thu-015",
+      "goalId": "grade-2-math-w26-thu",
+      "question": "A fruit shop sells: apple ₹15, orange ₹10, banana ₹5. Neha buys one of each and pays ₹50. What is her change?",
+      "options": ["₹15", "₹18", "₹20", "₹25"],
+      "correctIndex": 2,
+      "explanation": "Total = ₹15 + ₹10 + ₹5 = ₹30. Change = ₹50 − ₹30 = ₹20.",
+      "difficulty": "hard",
+      "tags": ["money", "shopping", "change"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-math-w26-fri",
+  "title": "Grade 8 Math — Fri, Jun 27",
+  "description": "Mensuration — Surface Area and Volume Day 5 of 5: Full mixed review",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8m-w26-fri-001",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "TSA of a cuboid with l = 5 cm, b = 4 cm, h = 3 cm =",
+      "options": ["47 cm²", "94 cm²", "60 cm²", "120 cm²"],
+      "correctIndex": 1,
+      "explanation": "TSA = 2(lb + bh + hl) = 2(20 + 12 + 15) = 2×47 = 94 cm².",
+      "difficulty": "easy",
+      "tags": ["cuboid", "TSA", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-002",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "CSA of a cylinder with r = 7 cm, h = 10 cm (π = 22/7) =",
+      "options": ["220 cm²", "440 cm²", "880 cm²", "154 cm²"],
+      "correctIndex": 1,
+      "explanation": "CSA = 2πrh = 2×(22/7)×7×10 = 2×22×10 = 440 cm².",
+      "difficulty": "easy",
+      "tags": ["cylinder", "CSA", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-003",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "Volume of a cone with r = 7 cm, h = 9 cm (π = 22/7) =",
+      "options": ["154 cm³", "462 cm³", "616 cm³", "924 cm³"],
+      "correctIndex": 1,
+      "explanation": "V = (1/3)πr²h = (1/3)×(22/7)×49×9 = (1/3)×22×7×9 = (1/3)×1,386 = 462 cm³.",
+      "difficulty": "easy",
+      "tags": ["cone", "volume", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-004",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "Surface area of a sphere with r = 7 cm (π = 22/7) =",
+      "options": ["154 cm²", "308 cm²", "616 cm²", "1,232 cm²"],
+      "correctIndex": 2,
+      "explanation": "SA = 4πr² = 4×(22/7)×49 = 4×22×7 = 616 cm².",
+      "difficulty": "easy",
+      "tags": ["sphere", "surface-area", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-005",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "A cone (r = 7 cm, h = 24 cm) has slant height =",
+      "options": ["17 cm", "25 cm", "31 cm", "35 cm"],
+      "correctIndex": 1,
+      "explanation": "l² = h² + r² = 576 + 49 = 625. l = 25 cm.",
+      "difficulty": "medium",
+      "tags": ["cone", "slant-height", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-006",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "A cylindrical tank (r = 14 m, h = 10 m). Volume of water it holds (π = 22/7) =",
+      "options": ["3,080 m³", "4,400 m³", "6,160 m³", "12,320 m³"],
+      "correctIndex": 2,
+      "explanation": "V = πr²h = (22/7)×196×10 = 22×28×10 = 6,160 m³.",
+      "difficulty": "medium",
+      "tags": ["cylinder", "volume", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-007",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "TSA of a hemisphere with r = 21 cm (π = 22/7) =",
+      "options": ["1,386 cm²", "2,772 cm²", "4,158 cm²", "5,544 cm²"],
+      "correctIndex": 2,
+      "explanation": "Hemisphere TSA = 3πr² = 3×(22/7)×441 = 3×22×63 = 4,158 cm².",
+      "difficulty": "medium",
+      "tags": ["hemisphere", "TSA", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-008",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "A solid sphere (r = 7 cm) is melted and recast as a cone of r = 7 cm. Height of cone (π = 22/7) =",
+      "options": ["7 cm", "14 cm", "21 cm", "28 cm"],
+      "correctIndex": 3,
+      "explanation": "V_sphere = V_cone. (4/3)πr³ = (1/3)πr²h. (4/3)×343 = (1/3)×49×h. 4×343 = 49h → h = 4×343/49 = 4×7 = 28 cm.",
+      "difficulty": "hard",
+      "tags": ["sphere", "cone", "volume-conservation", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-009",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "A cuboid box (80 cm × 50 cm × 40 cm) is completely filled with spherical balls (r = 5 cm each). How many balls fit? (approx — use V_box ÷ V_ball)",
+      "options": ["120", "190", "306", "480"],
+      "correctIndex": 2,
+      "explanation": "V_box = 80×50×40 = 1,60,000 cm³. V_ball = (4/3)π×125 ≈ (4/3)×3.14×125 ≈ 523.6 cm³. Balls ≈ 1,60,000 ÷ 523.6 ≈ 306. (Using π = 22/7: V = (4/3)×(22/7)×125 = 523.8 cm³ → 306.)",
+      "difficulty": "hard",
+      "tags": ["sphere", "cuboid", "packing"]
+    },
+    {
+      "id": "g8m-w26-fri-010",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "A conical tent (r = 21 m, l = 35 m). CSA of canvas needed and cost at ₹50/m² (π = 22/7) =",
+      "options": ["CSA=1,386 m²; cost=₹69,300", "CSA=2,310 m²; cost=₹1,15,500", "CSA=1,386 m²; cost=₹1,15,500", "CSA=4,400 m²; cost=₹2,20,000"],
+      "correctIndex": 1,
+      "explanation": "CSA = πrl = (22/7)×21×35 = 22×3×35 = 2,310 m². Cost = 2,310×50 = ₹1,15,500.",
+      "difficulty": "hard",
+      "tags": ["cone", "CSA", "cost", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-011",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "Ratio comparison: Volumes of a cone, cylinder, and sphere all with the same radius r and height h (for sphere, h = 2r). Ratio = cone : cylinder : sphere =",
+      "options": ["1 : 3 : 2", "1 : 3 : 4", "2 : 6 : 4", "All equal"],
+      "correctIndex": 0,
+      "explanation": "Same r, h=2r. Cone: (1/3)πr²(2r) = (2/3)πr³. Cylinder: πr²(2r) = 2πr³. Sphere: (4/3)πr³. Ratio = (2/3) : 2 : (4/3) = 2 : 6 : 4 = 1 : 3 : 2. Classic result: cone : cylinder : sphere (same r, same height for cone/cylinder, diameter=height) = 1:3:2.",
+      "difficulty": "hard",
+      "tags": ["cone", "cylinder", "sphere", "ratio", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-012",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "A cylindrical pipe (outer r = 14 cm, inner r = 7 cm, length = 50 cm). Volume of metal used (π = 22/7) =",
+      "options": ["7,700 cm³", "23,100 cm³", "30,800 cm³", "15,400 cm³"],
+      "correctIndex": 1,
+      "explanation": "V = π(R²−r²)h = (22/7)×(196−49)×50 = (22/7)×147×50 = 22×21×50 = 23,100 cm³.",
+      "difficulty": "hard",
+      "tags": ["cylinder", "hollow", "volume", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-013",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "A toy is made of a hemisphere (r = 7 cm) topped by a cone (r = 7 cm, h = 24 cm, l = 25 cm). Total surface area (π = 22/7) =",
+      "options": ["704 cm²", "858 cm²", "1,012 cm²", "1,320 cm²"],
+      "correctIndex": 1,
+      "explanation": "Hemisphere curved SA = 2πr² = 2×(22/7)×49 = 308 cm². Cone CSA = πrl = (22/7)×7×25 = 550 cm². Total SA = 308+550 = 858 cm². (The flat circular base of the cone = flat of hemisphere — they cancel/are joined; only curved surfaces visible.)",
+      "difficulty": "hard",
+      "tags": ["composite", "hemisphere", "cone", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-014",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "A cuboidal room (l=10m, b=8m, h=4m). How many times must a cylindrical paint roller (r=14cm=0.14m, h=50cm=0.5m) be rolled to paint all 4 walls? (CSA of roller = 2πrh, π=22/7)",
+      "options": ["About 100 times", "About 335 times", "About 500 times", "About 1,000 times"],
+      "correctIndex": 1,
+      "explanation": "4 walls area = 2h(l+b) = 2×4×18 = 144 m². Roller CSA = 2×(22/7)×0.14×0.5 = 2×0.44×0.5 = 0.44 m²/roll. Rolls needed = 144 ÷ 0.44 ≈ 327 → closest option ≈ 335 (with rounding).",
+      "difficulty": "hard",
+      "tags": ["cylinder", "cuboid", "combined", "review"]
+    },
+    {
+      "id": "g8m-w26-fri-015",
+      "goalId": "grade-8-math-w26-fri",
+      "question": "Formula quick-fire: Match each with the correct formula:\nCone volume / Sphere SA / Cylinder CSA / Cuboid TSA",
+      "options": ["(1/3)πr²h / 4πr² / 2πrh / 2(lb+bh+hl)", "πr²h / 2πr² / 2πrl / (l+b+h)", "(4/3)πr³ / 4πr² / 2πrh / 2(lb+bh+hl)", "(1/3)πr³ / 4πr² / 2πrh / 2lbh"],
+      "correctIndex": 0,
+      "explanation": "A ✓: Cone V=(1/3)πr²h ✓; Sphere SA=4πr² ✓; Cylinder CSA=2πrh ✓; Cuboid TSA=2(lb+bh+hl) ✓. B: Cylinder CSA should be 2πrh not 2πrl (l=slant for cone). C: (4/3)πr³ is sphere volume not cone. D: cuboid TSA is 2(lb+bh+hl) not 2lbh.",
+      "difficulty": "hard",
+      "tags": ["formula-summary", "cone", "sphere", "cylinder", "cuboid"]
+    }
+  ]
+}

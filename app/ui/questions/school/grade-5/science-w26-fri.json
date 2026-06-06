@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-5-science-w26-fri",
+  "title": "Grade 5 Science — Fri, Jun 27",
+  "description": "Nervous System and Sense Organs — Day 5 of 5: Mixed review",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5s-w26-fri-001",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "The central nervous system (CNS) consists of:",
+      "options": ["Only the brain", "Brain and spinal cord", "All nerves in the body", "Sensory organs only"],
+      "correctIndex": 1,
+      "explanation": "CNS = Brain + Spinal cord. The peripheral nervous system (PNS) includes all other nerves throughout the body. The CNS processes information; the PNS carries signals to/from the CNS.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "CNS", "review"]
+    },
+    {
+      "id": "g5s-w26-fri-002",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "Which part of the brain controls balance and coordination?",
+      "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Spinal cord"],
+      "correctIndex": 1,
+      "explanation": "Cerebellum = balance, coordination, fine motor control. Cerebrum = thinking, memory, voluntary actions. Medulla = breathing, heartbeat, involuntary functions.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "cerebellum", "review"]
+    },
+    {
+      "id": "g5s-w26-fri-003",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "The correct order of the reflex arc is:",
+      "options": ["Brain → spinal cord → muscle", "Stimulus → receptor → sensory nerve → spinal cord → motor nerve → effector → response", "Effector → spinal cord → receptor", "Brain → sensory nerve → muscle → response"],
+      "correctIndex": 1,
+      "explanation": "Reflex arc: Stimulus → Receptor → Sensory nerve (afferent) → Relay neuron in spinal cord → Motor nerve (efferent) → Effector (muscle/gland) → Response. Brain is NOT in this path.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "reflex-arc", "review"]
+    },
+    {
+      "id": "g5s-w26-fri-004",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "Classify: Sneezing when dust enters the nose. Voluntary or involuntary?",
+      "options": ["Voluntary — you choose to sneeze", "Involuntary reflex — automatic protective response that cannot be fully controlled", "Neither", "Only voluntary"],
+      "correctIndex": 1,
+      "explanation": "Sneezing is a protective reflex — you can't easily stop it once started. It expels irritants from the nasal passage automatically. Other involuntary reflexes: coughing, yawning, vomiting.",
+      "difficulty": "medium",
+      "tags": ["nervous-system", "reflex", "classify"]
+    },
+    {
+      "id": "g5s-w26-fri-005",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "The five sense organs and what they detect:",
+      "options": ["Eye=sound, Ear=light, Nose=taste, Tongue=smell, Skin=pressure", "Eye=light, Ear=sound, Nose=smell, Tongue=taste, Skin=touch/temperature/pain", "Eye=smell, Ear=taste, Nose=sound, Tongue=light, Skin=pressure", "All sense organs detect light"],
+      "correctIndex": 1,
+      "explanation": "Eye→light (vision), Ear→sound (hearing), Nose→chemical molecules (smell/olfaction), Tongue→chemicals in food (taste/gustation), Skin→mechanical stimuli (touch, pressure, vibration, pain, temperature).",
+      "difficulty": "medium",
+      "tags": ["sense-organs", "five-senses", "review"]
+    },
+    {
+      "id": "g5s-w26-fri-006",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "The largest part of the brain responsible for thinking is:",
+      "options": ["Cerebellum", "Medulla oblongata", "Cerebrum", "Spinal cord"],
+      "correctIndex": 2,
+      "explanation": "The cerebrum is the largest part (~85% of brain mass). It controls voluntary actions, language, reasoning, memory, learning, emotions, and processing sensory information.",
+      "difficulty": "medium",
+      "tags": ["nervous-system", "cerebrum", "review"]
+    },
+    {
+      "id": "g5s-w26-fri-007",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "Why do reflexes bypass the brain?",
+      "options": ["The brain is unaware of pain", "Speed — reflex responses via the spinal cord are faster than brain-processed responses, reducing injury time", "The brain is too small", "Only reflexes involve muscles"],
+      "correctIndex": 1,
+      "explanation": "Reflex arcs through the spinal cord are anatomically shorter than the brain loop. Milliseconds count when pulling away from a burning surface. Brain processing of pain occurs afterward, as a separate slower pathway.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "reflex", "speed"]
+    },
+    {
+      "id": "g5s-w26-fri-008",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "The cochlea is to hearing as the retina is to:",
+      "options": ["Smell", "Touch", "Sight — both are the actual transduction organs where stimuli are converted to nerve signals", "Balance"],
+      "correctIndex": 2,
+      "explanation": "Cochlea: converts sound vibrations → nerve signals (for hearing). Retina: converts light → nerve signals (for vision). Both are the 'converter' organ within their respective sense system.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "analogy", "cochlea-retina"]
+    },
+    {
+      "id": "g5s-w26-fri-009",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "Which vitamin deficiency causes night blindness?",
+      "options": ["Vitamin C", "Vitamin D", "Vitamin A — essential for rhodopsin production in rod cells", "Vitamin B12"],
+      "correctIndex": 2,
+      "explanation": "Vitamin A → retinal → rhodopsin (rod cell pigment, works in dim light). Deficiency = can't see in dim light = night blindness. Sources: carrots, sweet potatoes, leafy greens, eggs, liver.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "eye", "vitamin-a"]
+    },
+    {
+      "id": "g5s-w26-fri-010",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "The medulla oblongata controls breathing and heartbeat. These are:",
+      "options": ["Voluntary actions", "Involuntary actions — you don't consciously control them", "Reflex actions only", "Learned behaviours"],
+      "correctIndex": 1,
+      "explanation": "Breathing and heartbeat are involuntary — the medulla regulates them automatically without conscious effort, 24/7 including during sleep.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "medulla", "involuntary"]
+    },
+    {
+      "id": "g5s-w26-fri-011",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "Match: 'malleus, incus, stapes' belong to which sense organ?",
+      "options": ["Eye", "Ear — the three ossicle bones in the middle ear", "Nose", "Skin"],
+      "correctIndex": 1,
+      "explanation": "Malleus (hammer), incus (anvil), stapes (stirrup) = the three ossicles in the middle ear. They amplify vibrations from the eardrum to the cochlea. The stapes is the smallest bone in the human body.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "ear", "ossicles", "review"]
+    },
+    {
+      "id": "g5s-w26-fri-012",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "Identify: Iris, pupil, cornea, retina, lens — which is NOT in the correct function list?",
+      "options": ["Cornea = transparent protective layer", "Iris = controls pupil size (coloured ring)", "Pupil = actual receptor that detects light", "Lens = focuses light onto the retina"],
+      "correctIndex": 2,
+      "explanation": "The pupil is the OPENING (black circle) — not a receptor. It's a hole through which light enters. The retina contains the actual receptors (rods and cones). The iris (surrounding the pupil) controls its size.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "eye-parts", "identify-error"]
+    },
+    {
+      "id": "g5s-w26-fri-013",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "A friend says: 'Tasting and smelling are completely separate senses.' Is this correct?",
+      "options": ["Yes — they use different organs and are completely independent", "No — flavour is a combination of taste AND smell; blocking smell reduces taste perception significantly (about 80% of flavour comes from smell)", "Yes — only sick people mix them up", "Yes — they are processed by the same brain region"],
+      "correctIndex": 1,
+      "explanation": "Smell and taste work together to create 'flavour.' When you have a cold (blocked nose), food tastes bland because olfactory input is cut off. This shows the senses are interconnected, not fully separate.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "smell-taste", "integration"]
+    },
+    {
+      "id": "g5s-w26-fri-014",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "Why does touching a hot iron with your finger cause you to pull back BEFORE you feel the pain?",
+      "options": ["Pain doesn't exist", "The withdrawal reflex arc goes through the spinal cord (fast, local). The pain signal travels separately to the brain (slower). You withdraw, then feel pain a split-second later.", "The finger has no nerves", "Brain processes pain before movement"],
+      "correctIndex": 1,
+      "explanation": "Two separate pathways: (1) Fast reflex arc → spinal cord → motor nerve → muscle contraction (withdrawal). (2) Slower sensory pathway → spinal cord → brain → pain perception. The reflex is faster, so withdrawal happens first.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "reflex", "pain-pathway"]
+    },
+    {
+      "id": "g5s-w26-fri-015",
+      "goalId": "grade-5-science-w26-fri",
+      "question": "Complete the sentence: 'The brain is protected by the ___, the spinal cord by the ___.'",
+      "options": ["Vertebral column / skull", "Skull / vertebral column", "Ribs / skull", "Spinal cord / brain"],
+      "correctIndex": 1,
+      "explanation": "Brain = protected by the skull (cranium). Spinal cord = protected by the vertebral column (33 vertebrae forming a bony canal). Both are also cushioned by cerebrospinal fluid (CSF) and meninges.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "protection", "review"]
+    }
+  ]
+}

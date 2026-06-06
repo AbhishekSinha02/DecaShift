@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-science-w26-mon",
+  "title": "Grade 6 Science — Mon, Jun 23",
+  "description": "Light, Shadows and Reflections — Day 1 of 5: Sources of light; transparent, translucent and opaque objects",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6s-w26-mon-001",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "A luminous object is one that:",
+      "options": ["Reflects light from another source", "Produces its own light (e.g., sun, lamp, candle, firefly)", "Is white in colour", "Is very hot"],
+      "correctIndex": 1,
+      "explanation": "Luminous objects are self-luminous — they generate their own light. Sun (nuclear fusion), flame (combustion), firefly (bioluminescence), glowworm, LED. Non-luminous objects only reflect light.",
+      "difficulty": "easy",
+      "tags": ["light", "luminous", "sources"]
+    },
+    {
+      "id": "g6s-w26-mon-002",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "The moon is NOT a luminous object because:",
+      "options": ["It is too small", "It only reflects sunlight — it does not produce light of its own", "It is made of rock", "It is too far away"],
+      "correctIndex": 1,
+      "explanation": "The moon is non-luminous — it reflects sunlight. That's why it appears different shapes (phases) as different portions of its sunlit face are visible from Earth.",
+      "difficulty": "easy",
+      "tags": ["light", "moon", "non-luminous"]
+    },
+    {
+      "id": "g6s-w26-mon-003",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "A transparent object is one through which:",
+      "options": ["No light passes", "Some light passes but objects appear blurry", "Light passes through clearly and objects can be seen distinctly through it", "Light is absorbed completely"],
+      "correctIndex": 2,
+      "explanation": "Transparent: light passes through and objects are seen clearly (glass, water, clear plastic). Translucent: light passes partially but objects appear blurry (frosted glass, wax paper, butter paper). Opaque: no light passes (wood, brick, metal).",
+      "difficulty": "easy",
+      "tags": ["light", "transparent", "classification"]
+    },
+    {
+      "id": "g6s-w26-mon-004",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "Which of these is TRANSLUCENT?",
+      "options": ["Clear glass", "Wood", "Butter paper (wax paper)", "Iron"],
+      "correctIndex": 2,
+      "explanation": "Butter paper/wax paper is translucent — light passes through but you cannot see clearly through it. Clear glass = transparent. Wood and iron = opaque.",
+      "difficulty": "easy",
+      "tags": ["light", "translucent", "butter-paper"]
+    },
+    {
+      "id": "g6s-w26-mon-005",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "Classify: A window pane of clear glass",
+      "options": ["Opaque", "Translucent", "Transparent", "Luminous"],
+      "correctIndex": 2,
+      "explanation": "Clear glass is transparent — light passes through and objects on the other side are seen clearly. In contrast, frosted glass (used in bathroom windows) is translucent.",
+      "difficulty": "medium",
+      "tags": ["light", "transparent", "glass"]
+    },
+    {
+      "id": "g6s-w26-mon-006",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "Which material allows NO light to pass through?",
+      "options": ["Water", "Frosted glass", "Thin cloth", "A thick wooden board"],
+      "correctIndex": 3,
+      "explanation": "A thick wooden board is opaque — it blocks all light. Water and thin cloth allow some light through. Frosted glass is translucent (partial).",
+      "difficulty": "medium",
+      "tags": ["light", "opaque", "classify"]
+    },
+    {
+      "id": "g6s-w26-mon-007",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "Why can you read a newspaper held behind clear glass but NOT behind tracing paper?",
+      "options": ["Tracing paper is thicker", "Clear glass is transparent (image passes clearly); tracing paper is translucent (scatters light, blurs image)", "Clear glass is luminous", "Newspaper print is too small for paper"],
+      "correctIndex": 1,
+      "explanation": "Transparent materials let light pass without scattering — the image is preserved. Translucent materials scatter light — details are blurred. Tracing/butter paper scatters light, making print unreadable.",
+      "difficulty": "medium",
+      "tags": ["light", "transparent-vs-translucent", "practical"]
+    },
+    {
+      "id": "g6s-w26-mon-008",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "Natural sources of light include:",
+      "options": ["Only the sun", "Sun, stars, lightning, firefly, glowworm (all generate light naturally)", "Tubelight, bulb, LED only", "Moon and planets"],
+      "correctIndex": 1,
+      "explanation": "Natural luminous sources: sun, stars, lightning (electrical discharge), bioluminescent organisms (firefly, glowworm, anglerfish, some deep-sea creatures). Moon and planets are NOT luminous — they reflect sunlight.",
+      "difficulty": "hard",
+      "tags": ["light", "natural-sources"]
+    },
+    {
+      "id": "g6s-w26-mon-009",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "Smoke in a dark room makes light rays visible. This is because smoke particles:",
+      "options": ["Produce light themselves", "Are luminous", "Scatter light in all directions, making individual light rays visible", "Absorb light making it brighter"],
+      "correctIndex": 2,
+      "explanation": "Smoke particles scatter light via the Tyndall effect. Normally invisible beams of light are revealed when particles scatter light toward your eye. This also explains why the sky is blue (air molecules scatter blue light more).",
+      "difficulty": "hard",
+      "tags": ["light", "scattering", "tyndall"]
+    },
+    {
+      "id": "g6s-w26-mon-010",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "A stained glass window in a church allows coloured light in but you can't see through it clearly. This makes it:",
+      "options": ["Transparent", "Opaque", "Translucent", "Luminous"],
+      "correctIndex": 2,
+      "explanation": "Stained glass is translucent — it allows coloured light to pass through but the image is not clear (cannot see through it distinctly). The colour is because certain wavelengths of light are absorbed and others transmitted.",
+      "difficulty": "hard",
+      "tags": ["light", "translucent", "stained-glass"]
+    },
+    {
+      "id": "g6s-w26-mon-011",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "Which is the PRIMARY source of almost all energy on Earth?",
+      "options": ["The moon", "The sun — solar energy drives weather, photosynthesis, fossil fuels (ancient solar energy), wind, water cycle", "Geothermal heat only", "Ocean tides"],
+      "correctIndex": 1,
+      "explanation": "The sun is Earth's primary energy source. Photosynthesis (food chains), weather (evaporation-driven), wind (solar heating of air), fossil fuels (ancient plant/animal matter = stored solar energy) — all trace back to the sun.",
+      "difficulty": "hard",
+      "tags": ["light", "sun", "energy-source"]
+    },
+    {
+      "id": "g6s-w26-mon-012",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "The speed of light in air/vacuum is approximately:",
+      "options": ["300 km/s", "3,000 km/s", "3,00,000 km/s (3 × 10⁸ m/s)", "30 km/s"],
+      "correctIndex": 2,
+      "explanation": "Speed of light in vacuum = 3 × 10⁸ m/s = 3,00,000 km/s. Light takes ~8 minutes to reach Earth from the sun (distance ~150 million km). Nothing travels faster.",
+      "difficulty": "hard",
+      "tags": ["light", "speed-of-light"]
+    },
+    {
+      "id": "g6s-w26-mon-013",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "Why are windows made of transparent glass rather than opaque material?",
+      "options": ["Glass is cheaper than wood", "Transparent glass allows natural light into buildings while providing weather protection — reducing electricity usage and connecting occupants to the outside", "Glass is warmer", "Opaque materials don't exist"],
+      "correctIndex": 1,
+      "explanation": "Transparent glass serves dual purpose: admits natural light (daylight) and provides a physical barrier against weather. This reduces daytime electricity use for lighting and has psychological benefits (connection to outdoors).",
+      "difficulty": "hard",
+      "tags": ["light", "transparent", "design-reason"]
+    },
+    {
+      "id": "g6s-w26-mon-014",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "A piece of polished metal (mirror) would be classified as:",
+      "options": ["Transparent", "Translucent", "Opaque — no light passes through; it reflects all light (high reflectance)", "Luminous"],
+      "correctIndex": 2,
+      "explanation": "Metals are opaque — light cannot pass through them. A polished metal surface (mirror) reflects almost all incident light. This is different from transparent/translucent objects which allow light to pass through.",
+      "difficulty": "hard",
+      "tags": ["light", "opaque", "metal-mirror"]
+    },
+    {
+      "id": "g6s-w26-mon-015",
+      "goalId": "grade-6-science-w26-mon",
+      "question": "Why do some deep-sea fish glow in complete darkness?",
+      "options": ["They have mirrors inside", "They produce light through bioluminescence — chemical reactions involving luciferin and oxygen in specialised cells (photophores)", "Light from the surface reaches them", "Their scales reflect bottom-ocean light"],
+      "correctIndex": 1,
+      "explanation": "Bioluminescence = biological light production. Deep-sea fish (anglerfish, lanternfish, flashlight fish) use luciferin-luciferase reactions in photophore organs. Functions: luring prey, communication, camouflage. A remarkable example of a natural luminous object.",
+      "difficulty": "hard",
+      "tags": ["light", "bioluminescence", "deep-sea"]
+    }
+  ]
+}

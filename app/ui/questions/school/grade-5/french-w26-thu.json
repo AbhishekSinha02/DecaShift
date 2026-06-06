@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-5-french-w26-thu",
+  "title": "Grade 5 French — Thu, Jun 26",
+  "description": "Les métiers — Day 4 of 5: Talking about professions — Qu'est-ce que tu fais dans la vie?",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "les-metiers",
+  "tags": ["french", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5f-w26-thu-001",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "How do you ask 'What do you do for work?' in French?",
+      "options": ["Où travailles-tu?", "Qu'est-ce que tu fais dans la vie?", "Quel âge as-tu?", "Comment t'appelles-tu?"],
+      "correctIndex": 1,
+      "explanation": "'Qu'est-ce que tu fais dans la vie?' = What do you do in life (for work)? Literally: 'What is it that you do in life?' Other forms: 'Tu fais quoi dans la vie?' (informal) / 'Que faites-vous dans la vie?' (formal/vous).",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "question", "dans-la-vie"]
+    },
+    {
+      "id": "g5f-w26-thu-002",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "How does a doctor answer the question 'Qu'est-ce que vous faites dans la vie?'",
+      "options": ["Je suis un médecin.", "Je suis médecin.", "J'ai médecin.", "Je fais médecin."],
+      "correctIndex": 1,
+      "explanation": "'Je suis médecin.' = I am a doctor. After 'être' (to be), professions drop the article in French: 'Je suis médecin' (not 'Je suis un médecin' in standard French).",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "je-suis", "no-article"]
+    },
+    {
+      "id": "g5f-w26-thu-003",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Translate: 'My father is a pilot.'",
+      "options": ["Mon père est un pilote.", "Mon père est pilote.", "Mon père a pilote.", "Mon père fait pilote."],
+      "correctIndex": 1,
+      "explanation": "'Mon père est pilote.' ✓ No article: 'est pilote' (not 'est un pilote'). 'Mon père' = my father. Professions after être = no article in standard French.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "family", "father-profession"]
+    },
+    {
+      "id": "g5f-w26-thu-004",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Complete the dialogue: 'Qu'est-ce que ta mère fait dans la vie?' — '___ est infirmière.'",
+      "options": ["Tu", "Il", "Elle", "Nous"],
+      "correctIndex": 2,
+      "explanation": "'Elle est infirmière.' The subject pronoun for 'ma mère' (my mother, feminine) is 'elle' (she).",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "dialogue", "elle"]
+    },
+    {
+      "id": "g5f-w26-thu-005",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Why do French speakers say 'Je suis médecin' rather than 'Je suis UN médecin'?",
+      "options": ["'Un médecin' is wrong grammar", "When describing profession after être, French traditionally omits the indefinite article (un/une) to describe an inherent quality or role — adding un/une makes it 'one doctor' (quantifying, not describing)", "The article is never needed in French", "Only foreigners use un/une"],
+      "correctIndex": 1,
+      "explanation": "'Je suis médecin' = I am [a] doctor (identity). 'Je suis un bon médecin' = I am a good doctor (here un is needed because there's an adjective). Without adjective → no article. This is a key French grammar rule.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "article-drop", "grammar-rule"]
+    },
+    {
+      "id": "g5f-w26-thu-006",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "How do you ask a classmate what their parents do for work?",
+      "options": ["Qu'est-ce que tes parents mangent?", "Qu'est-ce que tes parents font dans la vie?", "Où habitent tes parents?", "Combien tes parents ont d'enfants?"],
+      "correctIndex": 1,
+      "explanation": "'Qu'est-ce que tes parents font dans la vie?' = What do your parents do for work? 'Font' = they do (from 'faire'). 'Tes parents' = your parents (plural).",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "question", "parents"]
+    },
+    {
+      "id": "g5f-w26-thu-007",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Translate: 'She wants to become a doctor when she grows up.'",
+      "options": ["Elle veut devenir médecin quand elle sera grande.", "Elle est médecin quand elle est grande.", "Elle veux médecin quand elle grandir.", "Elle veut être grande médecin."],
+      "correctIndex": 0,
+      "explanation": "'Elle veut devenir médecin quand elle sera grande.' ✓ 'Veut devenir' = wants to become. 'Quand elle sera grande' = when she grows up (future tense). 'Médecin' no article.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "vouloir", "future", "devenir"]
+    },
+    {
+      "id": "g5f-w26-thu-008",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Describe the profession using French: someone who puts out fires.",
+      "options": ["Je suis policier.", "Je suis pompier.", "Je suis pilote.", "Je suis vétérinaire."],
+      "correctIndex": 1,
+      "explanation": "'Je suis pompier.' A firefighter puts out fires ('éteindre le feu'). 'Un pompier' = firefighter.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "describe-profession", "pompier"]
+    },
+    {
+      "id": "g5f-w26-thu-009",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Complete: 'Mon frère est ___. Il soigne les gens à l'hôpital.'",
+      "options": ["cuisinier", "médecin", "pilote", "agriculteur"],
+      "correctIndex": 1,
+      "explanation": "'Il soigne les gens à l'hôpital.' = He treats people at the hospital. 'Un médecin' (doctor) works at the hospital and treats people ('soigner' = to treat/care for).",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "fill-in", "medecin"]
+    },
+    {
+      "id": "g5f-w26-thu-010",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Interview dialogue: 'Bonjour! Qu'est-ce que vous faites dans la vie?' — 'Je suis architecte. Je dessine des maisons et des immeubles.' What is the person's job?",
+      "options": ["A builder (constructeur)", "An architect — designs houses and buildings", "A teacher", "An engineer"],
+      "correctIndex": 1,
+      "explanation": "'Je dessine des maisons et des immeubles.' = I design houses and buildings. An architect ('architecte') designs structures. 'Dessiner' = to draw/design. 'Des immeubles' = apartment buildings.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "dialogue", "architecte"]
+    },
+    {
+      "id": "g5f-w26-thu-011",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Formal vs informal: Which question is the formal (vous) form to ask about someone's profession?",
+      "options": ["Tu fais quoi?", "Que faites-vous dans la vie?", "Tu bosses où?", "C'est quoi ton métier?"],
+      "correctIndex": 1,
+      "explanation": "'Que faites-vous dans la vie?' is the formal/vous form (used with adults, strangers, in professional settings). The others are informal/slang ('bosser' = informal verb for work; 'métier' is correct but 'c'est quoi' is very casual).",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "formal-informal", "vous"]
+    },
+    {
+      "id": "g5f-w26-thu-012",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Spot the grammatical error: 'Mon père est un chanteur professionnel.'",
+      "options": ["'chanteur' is wrong", "'un' should not be there — 'Mon père est chanteur professionnel' is the classic rule", "No error — 'un' is fine here because there is an adjective (professionnel)", "'professionnel' is misspelled"],
+      "correctIndex": 2,
+      "explanation": "When an adjective follows the profession, 'un/une' IS used: 'Mon père est un chanteur professionnel.' = My father is a professional singer. Without adjective: 'Mon père est chanteur.' Both forms are acceptable, but with an adjective, the article appears.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "article", "adjective-rule"]
+    },
+    {
+      "id": "g5f-w26-thu-013",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Make a sentence: 'My sister is a vet. She treats sick animals.'",
+      "options": ["Ma sœur est vétérinaire. Elle soigne les animaux malades.", "Mon frère est vétérinaire. Il soigne les animaux malades.", "Ma sœur est un vétérinaire. Elle soigne les animaux bons.", "Ma sœur a vétérinaire. Elle est les animaux malades."],
+      "correctIndex": 0,
+      "explanation": "'Ma sœur est vétérinaire. Elle soigne les animaux malades.' ✓ Ma sœur (f) → Elle. 'Vétérinaire' no article. 'Soigner' = treat. 'Les animaux malades' = sick animals.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "sentence-production", "veterinaire"]
+    },
+    {
+      "id": "g5f-w26-thu-014",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "What does 'Je voudrais devenir pilote.' mean?",
+      "options": ["I am a pilot.", "I would like to become a pilot.", "I was a pilot.", "I don't want to be a pilot."],
+      "correctIndex": 1,
+      "explanation": "'Je voudrais devenir pilote.' = I would like to become a pilot. 'Voudrais' = would like (conditional of vouloir). 'Devenir' = to become. More polite than 'je veux devenir' (I want to become).",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "voudrais", "devenir"]
+    },
+    {
+      "id": "g5f-w26-thu-015",
+      "goalId": "grade-5-french-w26-thu",
+      "question": "Extended dialogue: A asks 'Qu'est-ce que tu veux faire plus tard?' B answers 'Je voudrais être ___ parce que j'aime aider les gens.' Best fill-in:",
+      "options": ["agriculteur", "médecin ou infirmier(ère)", "pilote", "architecte"],
+      "correctIndex": 1,
+      "explanation": "'...parce que j'aime aider les gens.' = because I like to help people. 'Médecin ou infirmier(ère)' (doctor or nurse) = professions focused on helping people ('aider les gens'). The reason matches the profession.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "dialogue", "reasoning", "aider"]
+    }
+  ]
+}

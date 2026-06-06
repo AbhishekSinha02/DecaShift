@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-4-math-w26-fri",
+  "title": "Grade 4 Math — Fri, Jun 27",
+  "description": "Data Handling — Day 5 of 5: Mixed review — tally, pictograph and bar graph",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4m-w26-fri-001",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "Tally marks: |||| |||| |||| = how many?",
+      "options": ["12", "13", "14", "15"],
+      "correctIndex": 3,
+      "explanation": "Three complete groups of 5 = 5+5+5 = 15.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "tally-marks", "review"]
+    },
+    {
+      "id": "g4m-w26-fri-002",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "A pictograph has key: 🌸 = 3 flowers. A row shows 4🌸 and ½🌸. How many flowers?",
+      "options": ["12", "13.5", "14", "15"],
+      "correctIndex": 1,
+      "explanation": "4 × 3 = 12. Half symbol = 3 ÷ 2 = 1.5. Total = 12 + 1.5 = 13.5 flowers.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "review"]
+    },
+    {
+      "id": "g4m-w26-fri-003",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "Bar graph: y-axis 0, 5, 10, 15, 20. A bar reaches the 15 mark. The value is:",
+      "options": ["5", "10", "15", "20"],
+      "correctIndex": 2,
+      "explanation": "The bar reaches the '15' mark on the y-axis. Value = 15.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "bar-graph", "review"]
+    },
+    {
+      "id": "g4m-w26-fri-004",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "Which of these is a CORRECT statement about data handling?",
+      "options": ["A bar graph and a pictograph always show different data", "Both pictographs and bar graphs represent the same data but in different visual formats — bar graphs give more precise readings", "Tally marks are more accurate than bar graphs", "You cannot convert tally marks to a bar graph"],
+      "correctIndex": 1,
+      "explanation": "The SAME data can be displayed as a tally chart, pictograph or bar graph. Each format has advantages. Bar graphs allow more precise readings. Pictographs are more visual and engaging.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "review", "comparison"]
+    },
+    {
+      "id": "g4m-w26-fri-005",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "Survey result: Dogs: 12, Cats: 8, Birds: 4. Total number of pets recorded:",
+      "options": ["20", "24", "28", "12"],
+      "correctIndex": 1,
+      "explanation": "12 + 8 + 4 = 24 pets total.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "total", "review"]
+    },
+    {
+      "id": "g4m-w26-fri-006",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "Pictograph: Votes for colour. Red: 🔴🔴🔴, Blue: 🔴🔴🔴🔴🔴, Green: 🔴🔴. Key = 4 votes per symbol. How many votes did Blue get?",
+      "options": ["5", "15", "20", "25"],
+      "correctIndex": 2,
+      "explanation": "Blue = 5 symbols × 4 votes = 20 votes.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "review"]
+    },
+    {
+      "id": "g4m-w26-fri-007",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "Data: A=20, B=35, C=15, D=30. If you make a bar graph with scale 5, how many marks are on the y-axis (including 0)?",
+      "options": ["5", "6", "7", "8"],
+      "correctIndex": 3,
+      "explanation": "Max value = 35. Scale = 5. Gridlines: 0, 5, 10, 15, 20, 25, 30, 35 = 8 marks (including 0).",
+      "difficulty": "medium",
+      "tags": ["data-handling", "bar-graph", "review"]
+    },
+    {
+      "id": "g4m-w26-fri-008",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "A student is given data: cricket fans=50, football fans=30, badminton fans=20. Which BEST scale would she use for a pictograph?",
+      "options": ["1 symbol = 1", "1 symbol = 10", "1 symbol = 100", "1 symbol = 7"],
+      "correctIndex": 1,
+      "explanation": "Scale=10: cricket=5, football=3, badminton=2 symbols. Clean, whole numbers. Scale=1 = 100 symbols total (too many). Scale=100 = fractions. Scale=10 is ideal.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "scale-choice"]
+    },
+    {
+      "id": "g4m-w26-fri-009",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "Data table: Months | Books sold. Jan=40, Feb=30, Mar=50, Apr=20. Which month had the LEAST sales?",
+      "options": ["January", "February", "March", "April"],
+      "correctIndex": 3,
+      "explanation": "April = 20 (the smallest value). April had the least books sold.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "table", "minimum"]
+    },
+    {
+      "id": "g4m-w26-fri-010",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "Bar graph analysis: Runs scored by 4 batsmen. A=60, B=40, C=75, D=25. What fraction of the total did batsman C score?",
+      "options": ["1/4", "1/3", "3/8", "1/2"],
+      "correctIndex": 2,
+      "explanation": "A=60, B=40, C=75, D=25. Total = 200. C scored 75 runs. Fraction = 75/200 = 3/8 of total runs.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "bar-graph", "fraction"]
+    },
+    {
+      "id": "g4m-w26-fri-011",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "A class makes a frequency table of birthdays per month. January has 3 birthdays, June has 5, December has 2. Which question can the table answer?",
+      "options": ["Which student was born first?", "In which month were the most students born?", "What are all students' names?", "In which year were students born?"],
+      "correctIndex": 1,
+      "explanation": "A frequency table answers 'how many' per category. 'Which month had most birthdays?' = June (5). It cannot give individual names, birth order or years — only category counts.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "frequency-table", "analysis"]
+    },
+    {
+      "id": "g4m-w26-fri-012",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "Pictograph vs Bar graph: 'I need to show exact values like 37, 43, 29, 51.' Which is BETTER for this data?",
+      "options": ["Pictograph (uses symbols)", "Bar graph (height on a numerical scale shows exact values)", "Both are equally good", "Neither can show these values"],
+      "correctIndex": 1,
+      "explanation": "Bar graphs show exact values on a numbered y-axis — a bar can reach any height precisely. Pictographs struggle with numbers that aren't multiples of the key (37 = 3.7 symbols on a scale of 10 — awkward).",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph-vs-bargraph", "exact-values"]
+    },
+    {
+      "id": "g4m-w26-fri-013",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "The data says: Class 4A scored an average of 75 marks. Class 4B scored 70. Class 4C scored 80. Which class had the HIGHEST average? How much higher than the lowest?",
+      "options": ["4A by 5 marks", "4B by 10 marks", "4C; 10 marks higher than 4B (the lowest)", "4C; 5 marks higher than 4A"],
+      "correctIndex": 2,
+      "explanation": "Highest = Class 4C (80). Lowest = Class 4B (70). 80 − 70 = 10 marks higher.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "bar-graph", "comparison"]
+    },
+    {
+      "id": "g4m-w26-fri-014",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "Data: Weather type in June. Sunny: |||| |||| ||||, Cloudy: |||| ||||, Rainy: |||| ||. How many MORE sunny days than rainy days?",
+      "options": ["7", "8", "9", "10"],
+      "correctIndex": 1,
+      "explanation": "Sunny = 15 (3 groups of 5). Rainy = 7 (5+2). 15 − 7 = 8 more sunny days.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "tally-marks", "difference"]
+    },
+    {
+      "id": "g4m-w26-fri-015",
+      "goalId": "grade-4-math-w26-fri",
+      "question": "True or False: 'A graph is only useful when it is big and colourful.' Explain.",
+      "options": ["True — colour and size make data clearer", "False — a graph's usefulness comes from accurate data, a clear scale, proper labels and a title. A small, simple, well-labelled graph beats a large, colourful but misleading one.", "True — only coloured graphs are accepted in exams", "False — graphs are never useful"],
+      "correctIndex": 1,
+      "explanation": "A graph's value = accuracy + clarity of labels + correct scale + informative title. Colour and size can help but are not the measure of quality. A misleading graph with beautiful colours is harmful.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "graph-quality", "reasoning"]
+    }
+  ]
+}

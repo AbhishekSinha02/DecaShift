@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-3-science-w26-mon",
+  "title": "Grade 3 Science — Mon, Jun 23",
+  "description": "Plants Around Us — Day 1 of 5: Parts of a plant and their functions",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3s-w26-mon-001",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "Which part of a plant absorbs water and minerals from the soil?",
+      "options": ["Leaf", "Stem", "Root", "Flower"],
+      "correctIndex": 2,
+      "explanation": "Roots absorb water and minerals from the soil. They also anchor the plant firmly in the ground.",
+      "difficulty": "easy",
+      "tags": ["plants", "roots", "functions"]
+    },
+    {
+      "id": "g3s-w26-mon-002",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "What is the main function of the stem?",
+      "options": ["Make food for the plant", "Absorb water from soil", "Transport water from roots to leaves", "Attract insects"],
+      "correctIndex": 2,
+      "explanation": "The stem supports the plant and transports water and minerals from the roots to the leaves, and food from the leaves to other parts.",
+      "difficulty": "easy",
+      "tags": ["plants", "stem", "functions"]
+    },
+    {
+      "id": "g3s-w26-mon-003",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "Which part of a plant makes food using sunlight, water and carbon dioxide?",
+      "options": ["Root", "Stem", "Flower", "Leaf"],
+      "correctIndex": 3,
+      "explanation": "Leaves make food through photosynthesis — using sunlight, water and carbon dioxide to produce glucose and oxygen.",
+      "difficulty": "easy",
+      "tags": ["plants", "leaf", "photosynthesis"]
+    },
+    {
+      "id": "g3s-w26-mon-004",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "What is the role of the flower in a plant?",
+      "options": ["Absorb water", "Make food", "Help in reproduction (produces seeds)", "Support the plant"],
+      "correctIndex": 2,
+      "explanation": "Flowers are the reproductive organs of plants. They produce seeds which can grow into new plants.",
+      "difficulty": "easy",
+      "tags": ["plants", "flower", "reproduction"]
+    },
+    {
+      "id": "g3s-w26-mon-005",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "What does a fruit contain?",
+      "options": ["Water", "Seeds", "Sunlight", "Minerals"],
+      "correctIndex": 1,
+      "explanation": "A fruit develops from the flower and contains seeds. The fruit protects the seeds and helps in their dispersal.",
+      "difficulty": "easy",
+      "tags": ["plants", "fruit", "seeds"]
+    },
+    {
+      "id": "g3s-w26-mon-006",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "A seed grows into a new plant. What comes first after a seed sprouts?",
+      "options": ["Flower", "Fruit", "Root", "Leaf"],
+      "correctIndex": 2,
+      "explanation": "When a seed germinates (sprouts), the first thing to emerge is the root (called the radicle), which anchors the seedling and absorbs water.",
+      "difficulty": "easy",
+      "tags": ["plants", "seed-germination", "root"]
+    },
+    {
+      "id": "g3s-w26-mon-007",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "How many main parts does a plant have?",
+      "options": ["3 — root, stem, flower", "4 — root, stem, leaf, flower", "6 — root, stem, leaf, flower, fruit, seed", "2 — root and stem"],
+      "correctIndex": 2,
+      "explanation": "A plant has 6 main parts: root, stem, leaf, flower, fruit and seed — each with a specific function.",
+      "difficulty": "medium",
+      "tags": ["plants", "parts", "all"]
+    },
+    {
+      "id": "g3s-w26-mon-008",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "Which plant part can ALSO make food in addition to leaves (in some plants)?",
+      "options": ["Root", "Green stem", "Flower", "Seed"],
+      "correctIndex": 1,
+      "explanation": "Green stems (like in cactus) can also perform photosynthesis because they contain chlorophyll. In most plants, leaves are the primary food-making organ.",
+      "difficulty": "medium",
+      "tags": ["plants", "stem", "photosynthesis", "cactus"]
+    },
+    {
+      "id": "g3s-w26-mon-009",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "Mango tree: match part to function — fruit stores seeds; leaves make food; roots absorb water. Which statement is WRONG?",
+      "options": ["Fruit stores seeds", "Leaves make food", "Roots absorb water", "Roots make food through photosynthesis"],
+      "correctIndex": 3,
+      "explanation": "Roots do NOT perform photosynthesis — they are underground without light. Roots absorb water and minerals; photosynthesis happens in leaves.",
+      "difficulty": "medium",
+      "tags": ["plants", "functions", "false-statement"]
+    },
+    {
+      "id": "g3s-w26-mon-010",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "Why do plants need roots to be anchored in soil?",
+      "options": ["To absorb sunlight", "So they don't fall over and can efficiently absorb water from soil", "To produce seeds", "To attract insects"],
+      "correctIndex": 1,
+      "explanation": "Roots anchor the plant firmly so it doesn't topple in wind or rain, and position the root tips deep in soil for efficient water and mineral absorption.",
+      "difficulty": "medium",
+      "tags": ["plants", "roots", "anchoring"]
+    },
+    {
+      "id": "g3s-w26-mon-011",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "If you cut all the leaves off a healthy plant, what would most likely happen?",
+      "options": ["The plant would grow faster", "The plant would eventually die because it cannot make food", "Nothing would change", "The roots would make food instead"],
+      "correctIndex": 1,
+      "explanation": "Leaves are the food-making factory of a plant. Without leaves, photosynthesis stops, the plant can't produce food for energy and growth, and it would weaken and die.",
+      "difficulty": "hard",
+      "tags": ["plants", "leaves", "reasoning"]
+    },
+    {
+      "id": "g3s-w26-mon-012",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "Why do plants produce flowers before fruits and seeds?",
+      "options": ["Flowers are more beautiful than fruits", "Flowers contain the reproductive organs; pollination of flowers leads to the development of fruits and seeds", "Fruits cannot exist without leaves", "Flowers provide food for the plant"],
+      "correctIndex": 1,
+      "explanation": "Flowers contain male and female reproductive parts. Pollination (transfer of pollen) leads to fertilization, which causes the flower to develop into a fruit containing seeds.",
+      "difficulty": "hard",
+      "tags": ["plants", "flower", "reproduction", "sequence"]
+    },
+    {
+      "id": "g3s-w26-mon-013",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "Sugarcane stores food in its stem, not in a fruit. What does this tell us?",
+      "options": ["Sugarcane has no fruit", "Different plants can store nutrients in different parts — the stem is the food-storage organ in sugarcane", "The stem always stores food in all plants", "Sugarcane is not a real plant"],
+      "correctIndex": 1,
+      "explanation": "While most plants store food in fruits or seeds, sugarcane stores it in the stem. Potatoes store food in roots. This shows plant parts can serve multiple or different functions across species.",
+      "difficulty": "hard",
+      "tags": ["plants", "food-storage", "stem", "variation"]
+    },
+    {
+      "id": "g3s-w26-mon-014",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "Why is the leaf called the 'food factory' of a plant?",
+      "options": ["Because leaves are eaten as food by animals", "Because leaves contain chlorophyll and perform photosynthesis — converting sunlight + water + CO₂ into glucose", "Because leaves store the most water", "Because all nutrients are found in leaves"],
+      "correctIndex": 1,
+      "explanation": "Leaves contain chlorophyll (green pigment) that captures sunlight. Using this energy, they convert water and carbon dioxide into glucose (sugar) — the plant's food. This is photosynthesis.",
+      "difficulty": "hard",
+      "tags": ["plants", "leaf", "photosynthesis", "chlorophyll"]
+    },
+    {
+      "id": "g3s-w26-mon-015",
+      "goalId": "grade-3-science-w26-mon",
+      "question": "Each part of a plant is interdependent. Explain this using roots, stem and leaves:",
+      "options": ["They are completely independent of each other", "Roots absorb water → stem transports it → leaves use it for photosynthesis → food is sent back through stem → all parts benefit", "Only the roots do all the work", "Only leaves matter; roots and stems are extras"],
+      "correctIndex": 1,
+      "explanation": "All plant parts work together: roots absorb water and minerals → stem transports them up → leaves make food → stem carries food to all parts. Remove one, and the system breaks.",
+      "difficulty": "hard",
+      "tags": ["plants", "interdependence", "systems"]
+    }
+  ]
+}

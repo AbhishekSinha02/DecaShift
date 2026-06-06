@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-3-french-w26-fri",
+  "title": "Grade 3 French — Fri, Jun 27",
+  "description": "À l'école — Day 5 of 5: Mixed review (vocabulary + places + verbs)",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "a-l-ecole",
+  "tags": ["french", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3f-w26-fri-001",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "What is 'une gomme'?",
+      "options": ["a pen", "a ruler", "an eraser", "a notebook"],
+      "correctIndex": 2,
+      "explanation": "'Une gomme' = an eraser/rubber. A key classroom object this week.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "review", "classroom-objects"]
+    },
+    {
+      "id": "g3f-w26-fri-002",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "Where do you play during break? 'Je joue dans ___.'",
+      "options": ["la bibliothèque", "la cantine", "la cour", "la salle de classe"],
+      "correctIndex": 2,
+      "explanation": "'La cour' (de récréation) = the playground. 'Je joue dans la cour.' ✓",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "review", "school-places"]
+    },
+    {
+      "id": "g3f-w26-fri-003",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "What does 'lire' mean?",
+      "options": ["to write", "to draw", "to read", "to listen"],
+      "correctIndex": 2,
+      "explanation": "'Lire' = to read. 'Je lis un livre dans la bibliothèque.'",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "review", "verbs"]
+    },
+    {
+      "id": "g3f-w26-fri-004",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "Fill in: 'Je ___ dans mon cahier.' (I write in my notebook.)",
+      "options": ["lis", "dessine", "écris", "écoute"],
+      "correctIndex": 2,
+      "explanation": "'J'écris dans mon cahier.' = I write in my notebook. ('Écrire' = to write.)",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "review", "ecrire"]
+    },
+    {
+      "id": "g3f-w26-fri-005",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "Identify the CORRECT sentence:",
+      "options": ["Je mange à la bibliothèque.", "Je lis à la cantine.", "Je mange à la cantine.", "Je travailles dans la cour."],
+      "correctIndex": 2,
+      "explanation": "'Je mange à la cantine.' ✓ = I eat at the canteen. 'La cantine' is where you eat; the library is for reading; 'je travailles' is wrong (should be 'je travaille').",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "review", "correct-sentence"]
+    },
+    {
+      "id": "g3f-w26-fri-006",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "The correct form of 'parler' for 'nous' is:",
+      "options": ["nous parlons", "nous parlez", "nous parlent", "nous parle"],
+      "correctIndex": 0,
+      "explanation": "'Nous parlons' ✓ — nous form of –er verbs takes –ons ending.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "review", "conjugation"]
+    },
+    {
+      "id": "g3f-w26-fri-007",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "Translate: 'He reads and she writes.'",
+      "options": ["Il lit et elle écrit.", "Il lire et elle écrire.", "Il lis et elle écris.", "Il lisons et elle écrivons."],
+      "correctIndex": 0,
+      "explanation": "'Il lit' (lire, irregular, il → lit) and 'elle écrit' (écrire, irregular, elle → écrit). 'Il lit et elle écrit.' ✓",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "review", "translation"]
+    },
+    {
+      "id": "g3f-w26-fri-008",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "What is 'une trousse'?",
+      "options": ["a notebook", "a pencil case", "a bag", "a textbook"],
+      "correctIndex": 1,
+      "explanation": "'Une trousse' = a pencil case. You keep your crayons and gomme inside.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "review", "classroom-objects"]
+    },
+    {
+      "id": "g3f-w26-fri-009",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "Complete the sentence correctly: 'Vous ___ très bien en classe.' (You all work very well in class.)",
+      "options": ["travaillez", "travaillons", "travaille", "travaillent"],
+      "correctIndex": 0,
+      "explanation": "'Vous travaillez très bien en classe.' ✓ — vous form ends in –ez.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "review", "vous-form"]
+    },
+    {
+      "id": "g3f-w26-fri-010",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "Match the school place to what happens there: 'On emprunte des livres → ___'",
+      "options": ["la cantine", "la cour", "la bibliothèque", "le gymnase"],
+      "correctIndex": 2,
+      "explanation": "'On emprunte des livres' = One borrows books → 'la bibliothèque' (the library). 'Emprunter' = to borrow.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "review", "matching"]
+    },
+    {
+      "id": "g3f-w26-fri-011",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "Write a full sentence: 'The students listen and the teacher speaks.'",
+      "options": ["Les élèves écoute et le professeur parle.", "Les élèves écoutent et le professeur parle.", "Les élèves écoutons et le professeur parlons.", "Les élèves écoutez et le professeur parlez."],
+      "correctIndex": 1,
+      "explanation": "'Les élèves écoutent' (ils/elles form, –ent) 'et le professeur parle' (il form, –e). ✓ 'Les élèves écoutent et le professeur parle.'",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "review", "ils-form"]
+    },
+    {
+      "id": "g3f-w26-fri-012",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "What is 'Il y a un tableau dans la salle de classe.' in English?",
+      "options": ["There is a table in the classroom.", "There is a blackboard in the classroom.", "There is a student in the classroom.", "There is a book in the classroom."],
+      "correctIndex": 1,
+      "explanation": "'Il y a' = there is/there are. 'Un tableau' = a blackboard/whiteboard. 'Dans la salle de classe' = in the classroom. 'There is a blackboard in the classroom.' ✓",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "review", "il-y-a", "tableau"]
+    },
+    {
+      "id": "g3f-w26-fri-013",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "Describe your school day in 3 sentences using different verbs and places. Best answer:",
+      "options": ["Je vais à l'école.", "Le matin, j'écoute le professeur dans la salle de classe. Le midi, je mange à la cantine. L'après-midi, nous travaillons dans la bibliothèque.", "Je travaille et je mange.", "La salle de classe est grande."],
+      "correctIndex": 1,
+      "explanation": "The best answer uses 3 different verbs (écouter, manger, travailler), 3 different places (salle de classe, cantine, bibliothèque) and time expressions (le matin, le midi, l'après-midi).",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "review", "extended-writing"]
+    },
+    {
+      "id": "g3f-w26-fri-014",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "Spot the error: 'Nous dessinons au tableau et vous écoutez le professeur. Ils parlent et je écoute.'",
+      "options": ["'dessinons' is wrong", "'écoutez' is wrong", "'je écoute' — should be 'j'écoute' (elision: je + écouter → j'écoute)", "'parlent' is wrong"],
+      "correctIndex": 2,
+      "explanation": "When 'je' comes before a vowel, elision happens: 'je écoute' → 'j'écoute'. This is a spelling/pronunciation rule (elision). The other verbs are all correct.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "review", "elision", "error-detection"]
+    },
+    {
+      "id": "g3f-w26-fri-015",
+      "goalId": "grade-3-french-w26-fri",
+      "question": "Consolidation: Complete all blanks. 'Je ___ (listen) le professeur. Tu ___ (speak) anglais. Nous ___ (work) bien. Ils ___ (draw).'",
+      "options": ["écoute, parles, travaillons, dessinent", "écoutons, parle, travaillez, dessinons", "écoute, parlons, travailles, dessinent", "écoutez, parles, travaillons, dessinons"],
+      "correctIndex": 0,
+      "explanation": "je écoute ✓, tu parles ✓, nous travaillons ✓, ils dessinent ✓ — four different conjugation forms in one question.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "review", "all-forms", "consolidation"]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-5-french-w26-fri",
+  "title": "Grade 5 French — Fri, Jun 27",
+  "description": "Les métiers — Day 5 of 5: Mixed review",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "les-metiers",
+  "tags": ["french", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5f-w26-fri-001",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "What does 'Qu'est-ce que tu fais dans la vie?' mean?",
+      "options": ["What is your name?", "What do you do for work/in life?", "Where do you live?", "How old are you?"],
+      "correctIndex": 1,
+      "explanation": "'Qu'est-ce que tu fais dans la vie?' = What do you do for work (in life)? The standard question for asking about someone's profession in casual conversation.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "question", "review"]
+    },
+    {
+      "id": "g5f-w26-fri-002",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Feminine of 'un acteur' =",
+      "options": ["une acteuse", "une actrice", "une acteure", "une acteur"],
+      "correctIndex": 1,
+      "explanation": "'Un acteur' → 'une actrice'. Irregular: -teur → -trice (acteur/actrice, directeur/directrice, agriculteur/agricultrice).",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "feminine", "actrice", "review"]
+    },
+    {
+      "id": "g5f-w26-fri-003",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Where does a vet work? — 'Un vétérinaire travaille ___.'",
+      "options": ["à l'école", "dans une caserne", "dans une clinique vétérinaire ou dans une ferme", "dans un avion"],
+      "correctIndex": 2,
+      "explanation": "'Un vétérinaire travaille dans une clinique vétérinaire ou dans une ferme.' = A vet works in a vet clinic or on a farm.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "où-travaille", "veterinaire", "review"]
+    },
+    {
+      "id": "g5f-w26-fri-004",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Translate: 'My mother is a nurse.'",
+      "options": ["Ma mère est une infirmière.", "Ma mère est infirmière.", "Mon père est infirmière.", "Ma mère a infirmière."],
+      "correctIndex": 1,
+      "explanation": "'Ma mère est infirmière.' ✓ No article after être with professions (classic rule). 'Infirmière' = female nurse. 'Ma mère' = my mother.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "translation", "infirmiere"]
+    },
+    {
+      "id": "g5f-w26-fri-005",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Feminine of 'un chanteur' =",
+      "options": ["une chantrice", "une chanteuse", "une chanteure", "une chantée"],
+      "correctIndex": 1,
+      "explanation": "'Un chanteur' → 'une chanteuse'. Pattern: -eur → -euse (chanteur/chanteuse, danseur/danseuse, vendeur/vendeuse).",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "feminine", "chanteuse", "review"]
+    },
+    {
+      "id": "g5f-w26-fri-006",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "A doctor works — 'Un médecin travaille ___ hôpital.'",
+      "options": ["dans le", "à l'", "sur l'", "avec l'"],
+      "correctIndex": 1,
+      "explanation": "'Un médecin travaille à l'hôpital.' Institutions use 'à': à l'hôpital, à l'école, à l'église. 'À l'' before a vowel.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "où-travaille", "à-l-hopital"]
+    },
+    {
+      "id": "g5f-w26-fri-007",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Which sentence is correct?",
+      "options": ["Elle est une chanteuse professionnel.", "Elle est une chanteuse professionnelle.", "Elle est chanteuse professionnel.", "Elle est une chanteuses professionnelle."],
+      "correctIndex": 1,
+      "explanation": "'Elle est une chanteuse professionnelle.' ✓ With adjective → article appears (une). Adjective must agree: chanteuse (f) → professionnelle (f). 'Chanteuses' (plural) is wrong here.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "adjective-agreement", "article"]
+    },
+    {
+      "id": "g5f-w26-fri-008",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Feminine of 'un agriculteur' =",
+      "options": ["une agriculteuse", "une agricultrice", "une agriculteure", "une agriculture"],
+      "correctIndex": 1,
+      "explanation": "'Un agriculteur' → 'une agricultrice'. Pattern: -teur → -trice.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "feminine", "agricultrice", "review"]
+    },
+    {
+      "id": "g5f-w26-fri-009",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Complete: 'Mon oncle est ___. Il dessine des bâtiments.'",
+      "options": ["médecin", "architecte", "agriculteur", "pompier"],
+      "correctIndex": 1,
+      "explanation": "'Il dessine des bâtiments.' = He designs buildings. An architect ('architecte') designs buildings. 'Dessiner' = to draw/design. 'Des bâtiments' = buildings.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "contextual", "architecte"]
+    },
+    {
+      "id": "g5f-w26-fri-010",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Formal question to ask about someone's profession:",
+      "options": ["T'as quel métier?", "Que faites-vous dans la vie?", "Tu fais quoi?", "Tu bosses où?"],
+      "correctIndex": 1,
+      "explanation": "'Que faites-vous dans la vie?' is formal (vous). The others are informal/colloquial ('t'as', 'tu fais quoi', 'bosses').",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "formal", "vous"]
+    },
+    {
+      "id": "g5f-w26-fri-011",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "'Je voudrais devenir ___' — Which answer says 'I would like to become a firefighter'?",
+      "options": ["Je voudrais devenir médecin.", "Je voudrais devenir pompier.", "Je voudrais devenir pilote.", "Je voudrais devenir vétérinaire."],
+      "correctIndex": 1,
+      "explanation": "'Je voudrais devenir pompier.' = I would like to become a firefighter. 'Pompier' = firefighter. 'Voudrais devenir' = would like to become.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "voudrais", "pompier"]
+    },
+    {
+      "id": "g5f-w26-fri-012",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "The profession 'architecte' is special because:",
+      "options": ["It has no plural", "It is invariable — same form for male and female: un architecte / une architecte (only the article changes)", "The feminine is 'architectrice'", "Only males can be architects"],
+      "correctIndex": 1,
+      "explanation": "'Architecte' is invariable — the word doesn't change, only the article: un architecte (male) / une architecte (female). Other invariable professions: médecin, professeur (traditionally), juge.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "invariable", "architecte"]
+    },
+    {
+      "id": "g5f-w26-fri-013",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Read and identify: 'Bonjour. Je m'appelle Sophie. Je suis infirmière. Je travaille à l'hôpital. J'aime aider les malades.' — Sophie's profession and workplace:",
+      "options": ["Teacher at school", "Nurse at the hospital", "Doctor at the clinic", "Cook in a restaurant"],
+      "correctIndex": 1,
+      "explanation": "'Je suis infirmière' = I am a nurse. 'Je travaille à l'hôpital' = I work at the hospital. 'J'aime aider les malades' = I like helping the sick. All clues point to: nurse at the hospital.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "reading-comprehension"]
+    },
+    {
+      "id": "g5f-w26-fri-014",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Spot ALL errors: 'Mon père est un ingénieur excellent. Ma mère est médecine. Ma sœur veut devenir une acteur.'",
+      "options": ["No errors", "Error 1: 'médecine' should be 'médecin'; Error 2: 'une acteur' should be 'actrice' (feminine)", "Error 1 only: 'un ingénieur excellent' should be 'ingénieur excellent'", "Error: 'Mon père est un ingénieur' should be 'Mon père est ingénieur'"],
+      "correctIndex": 1,
+      "explanation": "Error 1: 'médecine' = medicine (the subject studied), not the profession. Correct: 'Ma mère est médecin.' Error 2: Ma sœur = feminine → 'actrice' not 'acteur'. Note: 'un ingénieur excellent' is acceptable (adjective → article appears).",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "error-correction", "review"]
+    },
+    {
+      "id": "g5f-w26-fri-015",
+      "goalId": "grade-5-french-w26-fri",
+      "question": "Write a complete sentence: 'My brother is a singer. He works on a stage.'",
+      "options": ["Mon frère est un chanteur. Il travaille sur une scène.", "Mon frère est chanteur. Il travaille sur une scène.", "Ma sœur est chanteuse. Elle travaille dans une scène.", "Mon frère est chanteur. Il travaille à une scène."],
+      "correctIndex": 1,
+      "explanation": "'Mon frère est chanteur. Il travaille sur une scène.' ✓ No article (no adjective). 'Sur une scène' = on a stage ('sur' for surfaces/platforms). Option A also acceptable in spoken French (with adjective rule). B is the classic formal form.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "sentence-production", "chanteur"]
+    }
+  ]
+}

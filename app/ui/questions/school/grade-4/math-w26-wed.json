@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-4-math-w26-wed",
+  "title": "Grade 4 Math — Wed, Jun 25",
+  "description": "Data Handling — Day 3 of 5: Drawing a pictograph from data",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4m-w26-wed-001",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "When drawing a pictograph, what must you decide FIRST?",
+      "options": ["What colour to use", "The title of the graph, the categories to represent, and the scale (key)", "How many symbols to draw", "Where to place the graph on the page"],
+      "correctIndex": 1,
+      "explanation": "Before drawing: (1) Give the pictograph a title. (2) List the categories (rows). (3) Choose a suitable scale (key). Then you can draw the symbols. Planning first prevents errors.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "planning"]
+    },
+    {
+      "id": "g4m-w26-wed-002",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "Data: Fruits sold. Apples=20, Bananas=15, Oranges=10. If scale is 1🍎=5, how many symbols does the Apple row need?",
+      "options": ["4", "20", "5", "10"],
+      "correctIndex": 0,
+      "explanation": "Apples = 20. Scale = 5 per symbol. 20 ÷ 5 = 4 symbols for the Apple row.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "symbols-needed"]
+    },
+    {
+      "id": "g4m-w26-wed-003",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "Using the same fruit data (scale=5), how many symbols does the Banana row need?",
+      "options": ["2", "3", "15", "5"],
+      "correctIndex": 1,
+      "explanation": "Bananas = 15. 15 ÷ 5 = 3 symbols for the Banana row.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "symbols-needed"]
+    },
+    {
+      "id": "g4m-w26-wed-004",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "In a pictograph, how do you represent 25 items when scale is 1 symbol = 10?",
+      "options": ["Draw 2 symbols", "Draw 2½ symbols (2 full + 1 half)", "Draw 3 symbols", "You cannot represent 25 if scale is 10"],
+      "correctIndex": 1,
+      "explanation": "25 ÷ 10 = 2.5. Draw 2 full symbols and 1 half symbol. Half symbols represent half the scale value (10 ÷ 2 = 5).",
+      "difficulty": "easy",
+      "tags": ["data-handling", "pictograph", "half-symbol"]
+    },
+    {
+      "id": "g4m-w26-wed-005",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "A class survey: Favourite subject. Math=30, Science=25, English=20, Hindi=15. Which scale makes the pictograph EASIEST to draw?",
+      "options": ["1 symbol = 1 student", "1 symbol = 100 students", "1 symbol = 5 students", "1 symbol = 3 students"],
+      "correctIndex": 2,
+      "explanation": "Scale = 5: Math=6 symbols, Science=5, English=4, Hindi=3. Clean whole numbers or simple halves. Scale=1 needs too many symbols; scale=100 would give fractions; scale=3 gives awkward numbers.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "scale-choice"]
+    },
+    {
+      "id": "g4m-w26-wed-006",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "After drawing a pictograph, what MUST you include so readers can understand it?",
+      "options": ["Only the title", "Title, key (scale), and labels for each row", "Just the symbols", "Your name only"],
+      "correctIndex": 1,
+      "explanation": "A complete pictograph needs: (1) Title — what the graph is about. (2) Key — what each symbol represents. (3) Row labels — names of each category. Without these, the reader cannot interpret the data.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "components"]
+    },
+    {
+      "id": "g4m-w26-wed-007",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "Data: Cars parked in a lot. Mon=15, Tue=20, Wed=35, Thu=10, Fri=25. Scale = 5 cars per 🚗. Wednesday needs how many symbols?",
+      "options": ["5", "7", "6", "8"],
+      "correctIndex": 1,
+      "explanation": "Wednesday = 35 cars. 35 ÷ 5 = 7 symbols.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph", "calculation"]
+    },
+    {
+      "id": "g4m-w26-wed-008",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "When would you choose a LARGER scale (e.g., 1 symbol = 50) rather than a small scale?",
+      "options": ["When data values are very small (under 10)", "When data values are large (hundreds or thousands), so the pictograph stays compact and readable", "Large scale is always better", "Scale doesn't matter for pictographs"],
+      "correctIndex": 1,
+      "explanation": "Large scale = fewer symbols = compact graph. Use large scale when data values are big. Small scale is fine for small data values (under 50). Choose a scale that gives 2–8 symbols per row.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "scale-selection"]
+    },
+    {
+      "id": "g4m-w26-wed-009",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "Data: Trees in four areas. Park A=40, Park B=25, Park C=60, Park D=35. If key=10 per 🌳, how many HALF symbols appear in the whole pictograph?",
+      "options": ["0", "2", "3", "4"],
+      "correctIndex": 1,
+      "explanation": "A=40÷10=4 (whole), B=25÷10=2.5 (1 half), C=60÷10=6 (whole), D=35÷10=3.5 (1 half). Park B and Park D each need 1 half symbol. Total = 2 half symbols.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "half-symbols-count"]
+    },
+    {
+      "id": "g4m-w26-wed-010",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "A student drew a pictograph with title 'Favourite Colour' but forgot the key. What is the MAIN problem?",
+      "options": ["It looks bad without the key", "Without the key, readers cannot determine the actual number each symbol represents — the graph is unreadable", "The title should be removed too", "Only the teacher needs to know the key"],
+      "correctIndex": 1,
+      "explanation": "The key is the DECODE tool. Without it, you can compare (this row has more symbols than that row) but you cannot find actual values. A pictograph without a key is incomplete and misleading.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "key-importance"]
+    },
+    {
+      "id": "g4m-w26-wed-011",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "What is a 'frequency table'? How is it related to a pictograph?",
+      "options": ["A frequency table is the pictograph itself", "A frequency table records how many times each category occurs (counts/tallies) — a pictograph then represents this table visually", "A frequency table is only used in science", "Both are the same thing with different names"],
+      "correctIndex": 1,
+      "explanation": "A frequency table lists categories and their counts (from tally marks). A pictograph converts this table into a visual display using symbols. Data flow: Raw data → Frequency table → Pictograph.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "frequency-table", "relationship"]
+    },
+    {
+      "id": "g4m-w26-wed-012",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "A class collected data: 24 students came by bus, 18 by walk, 6 by car. They chose scale 1🚌=6. How many total symbols in the pictograph?",
+      "options": ["8", "10", "11", "48"],
+      "correctIndex": 0,
+      "explanation": "Bus = 24÷6 = 4 symbols. Walk = 18÷6 = 3 symbols. Car = 6÷6 = 1 symbol. Total = 4+3+1 = 8 symbols.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "total-symbols"]
+    },
+    {
+      "id": "g4m-w26-wed-013",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "Pictograph quality check: A student's pictograph has symbols of different sizes for different rows. What is wrong?",
+      "options": ["Nothing is wrong", "Symbols must be the SAME size throughout — different sizes make the graph visually misleading (one row looks larger than it is)", "Only the colour should be same, not the size", "Pictographs allow different sizes"],
+      "correctIndex": 1,
+      "explanation": "Consistency is key. All symbols must be identical in size. If one row's symbols are bigger, that row looks more even when it has fewer items — this distorts the visual comparison.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "accuracy"]
+    },
+    {
+      "id": "g4m-w26-wed-014",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "A shop sold: Jan=50 items, Feb=30 items, Mar=45 items. A student says 'I'll use scale=10'. How many symbols in the March row?",
+      "options": ["4", "4½", "5", "45"],
+      "correctIndex": 1,
+      "explanation": "March = 45. Scale=10. 45 ÷ 10 = 4.5 → 4 full symbols + 1 half symbol = 4½ symbols total in the March row.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "draw"]
+    },
+    {
+      "id": "g4m-w26-wed-015",
+      "goalId": "grade-4-math-w26-wed",
+      "question": "Kritika has: Dogs=12, Cats=8, Birds=4, Fish=16. She wants to draw a pictograph. What is the BEST scale to choose?",
+      "options": ["1 symbol = 1 animal", "1 symbol = 4 animals", "1 symbol = 50 animals", "Any scale is equally good"],
+      "correctIndex": 1,
+      "explanation": "Scale=4: Dogs=3, Cats=2, Birds=1, Fish=4 symbols — clean whole numbers, no halves needed, compact. Scale=1 = 40 symbols total (cluttered). Scale=50 = fractions (ugly). Scale=4 is ideal here.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "pictograph", "best-scale"]
+    }
+  ]
+}

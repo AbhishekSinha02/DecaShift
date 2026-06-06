@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-3-french-w26-thu",
+  "title": "Grade 3 French — Thu, Jun 26",
+  "description": "À l'école — Day 4 of 5: Full sentences with –er verbs (je/tu/il/elle/nous/vous)",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "a-l-ecole",
+  "tags": ["french", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3f-w26-thu-001",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Which is the correct form of 'parler' for 'je'?",
+      "options": ["je parles", "je parle", "je parlons", "je parlez"],
+      "correctIndex": 1,
+      "explanation": "–er verb rule: je → remove –er, add –e. Parler → je parle. (No 's' unlike English 'speaks'.)",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "er-verbs", "je-form"]
+    },
+    {
+      "id": "g3f-w26-thu-002",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Complete: 'Tu ___ très bien le français.' (You speak French very well.)",
+      "options": ["parle", "parles", "parlons", "parlez"],
+      "correctIndex": 1,
+      "explanation": "–er verb, tu form → add –es. 'Tu parles très bien le français.' Note the –s ending for tu.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "er-verbs", "tu-form"]
+    },
+    {
+      "id": "g3f-w26-thu-003",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Which sentence is correct?",
+      "options": ["Il écoute le professeur.", "Il écoutons le professeur.", "Il écoutez le professeur.", "Il écoutes le professeur."],
+      "correctIndex": 0,
+      "explanation": "Il/elle → –e ending for –er verbs. 'Il écoute le professeur.' ✓ (il form = same as je form for –er verbs).",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "er-verbs", "il-form"]
+    },
+    {
+      "id": "g3f-w26-thu-004",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Nous + –er verb: 'We study at school.' → 'Nous ___ à l'école.'",
+      "options": ["étudions", "étudiez", "étudient", "étudies"],
+      "correctIndex": 0,
+      "explanation": "Nous form of –er verbs → –ons ending. 'Nous étudions à l'école.' Note: étudier is a –er verb.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "er-verbs", "nous-form"]
+    },
+    {
+      "id": "g3f-w26-thu-005",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Choose the correct sentence for 'You (plural) draw on the board.'",
+      "options": ["Vous dessine au tableau.", "Vous dessinez au tableau.", "Vous dessinons au tableau.", "Vous dessines au tableau."],
+      "correctIndex": 1,
+      "explanation": "Vous form of –er verbs → –ez ending. 'Vous dessinez au tableau.' ✓",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "er-verbs", "vous-form"]
+    },
+    {
+      "id": "g3f-w26-thu-006",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Ils + écouter → ?",
+      "options": ["ils écoute", "ils écoutons", "ils écoutent", "ils écoutez"],
+      "correctIndex": 2,
+      "explanation": "Ils/elles form of –er verbs → –ent ending (silent). 'Ils écoutent.' Note: –ent is NOT pronounced.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "er-verbs", "ils-form"]
+    },
+    {
+      "id": "g3f-w26-thu-007",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Translate: 'She draws and he reads.'",
+      "options": ["Elle dessine et il lit.", "Elle dessines et il lire.", "Elle dessinons et il lis.", "Elle dessinent et il lisent."],
+      "correctIndex": 0,
+      "explanation": "'Elle dessine' (elle form, –er verb) and 'il lit' (lire is irregular, il lit). 'Elle dessine et il lit.' ✓",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "translation", "mixed-verbs"]
+    },
+    {
+      "id": "g3f-w26-thu-008",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Write the full conjugation of 'travailler' for je, tu, il:",
+      "options": ["je travail, tu travailles, il travaille", "je travaille, tu travailles, il travaille", "je travailles, tu travaille, il travaillons", "je travaillons, tu travaillez, il travaille"],
+      "correctIndex": 1,
+      "explanation": "–er verb travailler: je travaille (–e), tu travailles (–es), il travaille (–e). The stem is 'travaill-'.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "conjugation", "travailler"]
+    },
+    {
+      "id": "g3f-w26-thu-009",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Which sentence uses WRONG verb agreement?",
+      "options": ["Je parle avec ma copine.", "Nous dessinons au tableau.", "Il écoutes le professeur.", "Vous étudiez beaucoup."],
+      "correctIndex": 2,
+      "explanation": "'Il écoutes' is WRONG — il/elle takes –e, not –es. Correct: 'Il écoute le professeur.' The –s ending belongs to tu, not il.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "error-detection", "conjugation"]
+    },
+    {
+      "id": "g3f-w26-thu-010",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Translate: 'We listen and you speak.'",
+      "options": ["Nous écoutons et vous parlez.", "Nous écoutez et vous parlons.", "Nous écoutent et vous parle.", "Nous écoute et vous parles."],
+      "correctIndex": 0,
+      "explanation": "'Nous écoutons' (nous form, –ons) and 'vous parlez' (vous form, –ez). 'Nous écoutons et vous parlez.' ✓",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "translation", "nous-vous"]
+    },
+    {
+      "id": "g3f-w26-thu-011",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Why are the je and il/elle forms identical for –er verbs?",
+      "options": ["They are not identical", "Both take the –e ending; they sound the same, but differ from the tu (–es) and nous (–ons) forms", "French grammar is random", "Both always take –ons"],
+      "correctIndex": 1,
+      "explanation": "For –er verbs: je → –e, il/elle → –e. Both endings sound the same when spoken. Only the written form differs (with/without subject pronoun). This is a pattern worth memorizing.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "conjugation-pattern", "grammar"]
+    },
+    {
+      "id": "g3f-w26-thu-012",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Complete the dialogue: 'Tu parles anglais ?' — 'Oui, je ___ anglais et français!'",
+      "options": ["parles", "parlons", "parle", "parlent"],
+      "correctIndex": 2,
+      "explanation": "'Je parle' (je form, –er verb ending –e). 'Oui, je parle anglais et français!' ✓",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "dialogue", "je-form"]
+    },
+    {
+      "id": "g3f-w26-thu-013",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Write 3 sentences about your class using different subjects (je/nous/ils):",
+      "options": ["Je parle, je parle, je parle.", "Je parle français. Nous étudions les mathématiques. Ils écoutent le professeur.", "Nous parlons. Nous écoutons. Nous dessinons.", "Je mange. Nous jouons. Ils dorment."],
+      "correctIndex": 1,
+      "explanation": "Using three different subjects and verbs shows mastery: 'Je parle français.' (je + parler) / 'Nous étudions les mathématiques.' (nous + étudier) / 'Ils écoutent le professeur.' (ils + écouter) ✓",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "extended-writing", "variety"]
+    },
+    {
+      "id": "g3f-w26-thu-014",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "Give the full present tense of 'écouter' (all 6 forms):",
+      "options": ["j'écoute, tu écoutes, il écoute, nous écoutons, vous écoutez, ils écoutent", "j'écoute, tu écoute, il écoutons, nous écoutez, vous écoutent, ils écoutons", "j'écoutons, tu écoutons, il écoutez, nous écoutes, vous écoute, ils écoutent", "j'écoutes, tu écoute, il écoutes, nous écoutons, vous écoutez, ils écoutent"],
+      "correctIndex": 0,
+      "explanation": "Full –er verb pattern: –e / –es / –e / –ons / –ez / –ent. 'j'écoute, tu écoutes, il écoute, nous écoutons, vous écoutez, ils écoutent' ✓",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "full-conjugation", "ecouter"]
+    },
+    {
+      "id": "g3f-w26-thu-015",
+      "goalId": "grade-3-french-w26-thu",
+      "question": "In spoken French, how many of the 6 forms of 'parler' actually SOUND different?",
+      "options": ["All 6 sound different", "3 sound the same (je/tu/il/elle/ils/elles all sound like 'parl'), and only nous/vous are different — so 3 distinct sounds", "Only 1 sound", "4 sound different"],
+      "correctIndex": 1,
+      "explanation": "Speaking: parle/parles/parle/parlent all sound like 'parl' (silent endings). Only 'parlons' and 'parlez' have audible endings. So only 3 distinct sounds in speech. Writing has 6 distinct forms.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "pronunciation", "oral-french"]
+    }
+  ]
+}

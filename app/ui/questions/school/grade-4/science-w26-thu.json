@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-4-science-w26-thu",
+  "title": "Grade 4 Science — Thu, Jun 26",
+  "description": "Food and Digestion — Day 4 of 5: Balanced diet and nutrients",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4s-w26-thu-001",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "A balanced diet contains all nutrients in the right amounts. Which group below lists the FIVE main nutrients?",
+      "options": ["Spices, oil, sugar, salt, water", "Carbohydrates, proteins, fats, vitamins, minerals", "Rice, wheat, vegetables, fruits, dal", "Calories, fibre, enzymes, acid, oxygen"],
+      "correctIndex": 1,
+      "explanation": "The five major nutrient groups: Carbohydrates (energy), Proteins (growth/repair), Fats (energy/insulation), Vitamins (disease prevention), Minerals (body functions). Plus water and fibre — often counted as essential dietary components.",
+      "difficulty": "easy",
+      "tags": ["balanced-diet", "nutrients", "five-types"]
+    },
+    {
+      "id": "g4s-w26-thu-002",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Carbohydrates are the body's main source of:",
+      "options": ["Growth", "Energy", "Immunity", "Bone strength"],
+      "correctIndex": 1,
+      "explanation": "Carbohydrates (starch, sugar) are broken down to glucose — the body's primary fuel. Rice, roti, bread, potatoes are rich carbohydrate sources.",
+      "difficulty": "easy",
+      "tags": ["balanced-diet", "carbohydrates", "energy"]
+    },
+    {
+      "id": "g4s-w26-thu-003",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Proteins are needed for:",
+      "options": ["Only energy production", "Growth, repair of body tissues and building muscles", "Keeping body warm", "Carrying oxygen in blood"],
+      "correctIndex": 1,
+      "explanation": "Proteins are the body's 'building blocks' — used for growth (making new cells), repair of damaged tissues, and building enzymes, hormones and antibodies. Sources: dal, eggs, meat, fish, milk, cheese.",
+      "difficulty": "easy",
+      "tags": ["balanced-diet", "proteins", "growth-repair"]
+    },
+    {
+      "id": "g4s-w26-thu-004",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Which food is the RICHEST source of protein?",
+      "options": ["White rice", "Potato chips", "Lentils (dal) and eggs", "Sugar"],
+      "correctIndex": 2,
+      "explanation": "Dal (lentils) and eggs are excellent protein sources. Animal proteins (eggs, meat, fish) are 'complete' proteins (contain all essential amino acids). Lentils are a rich plant-based source — important for vegetarian diets.",
+      "difficulty": "easy",
+      "tags": ["balanced-diet", "protein-sources"]
+    },
+    {
+      "id": "g4s-w26-thu-005",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Vitamins are needed in small amounts but are essential. Vitamin C deficiency causes:",
+      "options": ["Rickets", "Night blindness", "Scurvy (bleeding gums, weak immunity)", "Anaemia"],
+      "correctIndex": 2,
+      "explanation": "Vitamin C deficiency → scurvy (bleeding gums, slow wound healing, poor immunity). Found in citrus fruits (oranges, lemons), amla (Indian gooseberry). Indian context: amla is one of the richest sources of vitamin C.",
+      "difficulty": "medium",
+      "tags": ["balanced-diet", "vitamins", "vitamin-C"]
+    },
+    {
+      "id": "g4s-w26-thu-006",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Calcium is a mineral needed for:",
+      "options": ["Energy production", "Strong bones and teeth", "Carrying oxygen", "Digesting fat"],
+      "correctIndex": 1,
+      "explanation": "Calcium builds and maintains strong bones and teeth. Deficiency → weak bones (osteoporosis in adults, rickets in children). Sources: milk, cheese, paneer, yogurt, ragi, sesame seeds.",
+      "difficulty": "medium",
+      "tags": ["balanced-diet", "minerals", "calcium"]
+    },
+    {
+      "id": "g4s-w26-thu-007",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Fats provide energy and help absorb certain vitamins (A, D, E, K). Which statement is TRUE about fats?",
+      "options": ["Fats are completely unnecessary", "A small amount of fat is essential for health — fat-soluble vitamins cannot be absorbed without fat; excess fat is stored for energy", "Only animals need fat", "Fat and carbohydrates are the same nutrient"],
+      "correctIndex": 1,
+      "explanation": "Fats ARE necessary — they carry fat-soluble vitamins (A, D, E, K), provide concentrated energy (9 kcal/g vs 4 for carbs), insulate the body, protect organs. EXCESS fat leads to obesity; too little also harms health.",
+      "difficulty": "medium",
+      "tags": ["balanced-diet", "fats", "function"]
+    },
+    {
+      "id": "g4s-w26-thu-008",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Iron is a mineral found in spinach, dates, meat and beans. What does iron do in the body?",
+      "options": ["Builds bones", "Is a component of haemoglobin in red blood cells — carries oxygen throughout the body", "Helps digest carbohydrates", "Forms vitamin D"],
+      "correctIndex": 1,
+      "explanation": "Iron is essential for haemoglobin (the protein in red blood cells that carries oxygen). Iron deficiency → anaemia (fatigue, pale skin, weakness). Spinach, pomegranate, dates are iron-rich Indian foods.",
+      "difficulty": "medium",
+      "tags": ["balanced-diet", "minerals", "iron"]
+    },
+    {
+      "id": "g4s-w26-thu-009",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "A child eats only rice and bread every day and avoids vegetables, dal and fruits. What is MOST likely to happen?",
+      "options": ["The child will be very healthy", "The child will get enough energy but suffer nutrient deficiencies (vitamins, minerals, protein) — leading to poor growth, weak immunity and possible deficiency diseases", "The child will grow very tall", "The child will have too many vitamins"],
+      "correctIndex": 1,
+      "explanation": "Rice and bread provide carbohydrates (energy) but lack protein, vitamins and minerals. Without these, the child faces: slow growth (protein deficiency), weak bones (calcium), anaemia (iron), poor immunity (vitamins). This is malnutrition.",
+      "difficulty": "hard",
+      "tags": ["balanced-diet", "deficiency", "consequence"]
+    },
+    {
+      "id": "g4s-w26-thu-010",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Vitamin D is sometimes called the 'sunshine vitamin.' Why?",
+      "options": ["It makes skin look sunny and yellow", "The skin produces Vitamin D when exposed to sunlight — making outdoor activity essential for bone health", "It is found only in summer fruits", "Vitamin D powers the sun"],
+      "correctIndex": 1,
+      "explanation": "Sunlight triggers the skin to synthesise Vitamin D. Vitamin D helps absorb calcium → builds strong bones. Deficiency → rickets in children (soft, bowed legs). In India, deficiency is surprisingly common despite abundant sunshine.",
+      "difficulty": "hard",
+      "tags": ["balanced-diet", "vitamins", "vitamin-D"]
+    },
+    {
+      "id": "g4s-w26-thu-011",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "What is the difference between MACRONUTRIENTS and MICRONUTRIENTS?",
+      "options": ["No difference — same thing", "Macronutrients (carbohydrates, proteins, fats) are needed in large amounts for energy and structure; micronutrients (vitamins, minerals) are needed in tiny amounts but are equally essential for body functions", "Macronutrients are only for adults", "Micronutrients provide most of the body's energy"],
+      "correctIndex": 1,
+      "explanation": "Macro = large: carbs, proteins, fats — body needs grams per day for energy and building. Micro = tiny: vitamins (milligrams/micrograms), minerals (milligrams) — tiny amounts but critical for chemical reactions and processes.",
+      "difficulty": "hard",
+      "tags": ["balanced-diet", "macro-micro", "classification"]
+    },
+    {
+      "id": "g4s-w26-thu-012",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Roughage (dietary fibre) is found in vegetables, fruits and whole grains. It is NOT digested. Why is it still essential?",
+      "options": ["It provides energy", "It adds bulk to food, stimulates peristalsis (gut movements), prevents constipation, and feeds beneficial gut bacteria", "It is absorbed as vitamins", "It is not important"],
+      "correctIndex": 1,
+      "explanation": "Fibre passes through undigested but is vital: (1) prevents constipation by adding bulk, (2) feeds good gut bacteria (prebiotics), (3) slows sugar absorption (good for blood sugar control). Essential for a healthy digestive system.",
+      "difficulty": "hard",
+      "tags": ["balanced-diet", "fibre", "roughage"]
+    },
+    {
+      "id": "g4s-w26-thu-013",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "A traditional Indian thali (meal) often has: roti/rice + dal + sabzi + curd + salad. Why is this meal considered balanced?",
+      "options": ["It is not balanced at all", "Roti/rice = carbohydrates; dal = protein; sabzi = vitamins/minerals; curd = protein+calcium; salad = fibre — together they cover all five nutrient groups", "Only because it is traditional", "It has too much protein"],
+      "correctIndex": 1,
+      "explanation": "A well-planned Indian thali is nutritionally balanced: grain (carbs+fibre) + legume (protein) + cooked vegetable (vitamins+minerals) + dairy (protein+calcium+fat) + raw salad (fibre+vitamins) = all five nutrient categories covered.",
+      "difficulty": "hard",
+      "tags": ["balanced-diet", "thali", "indian-context"]
+    },
+    {
+      "id": "g4s-w26-thu-014",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Why do growing children need MORE protein per kilogram of body weight than adults?",
+      "options": ["Children are smaller so they need more", "Children are actively building NEW tissues (muscle, organ growth) whereas adults mainly need protein for maintenance and repair", "Protein is free for children", "Children digest protein faster"],
+      "correctIndex": 1,
+      "explanation": "Growing children use protein to build new muscle, bones, enzymes and organs — not just to maintain existing ones. This high rate of tissue formation demands more protein relative to body weight than maintenance needs of adults.",
+      "difficulty": "hard",
+      "tags": ["balanced-diet", "protein", "growth"]
+    },
+    {
+      "id": "g4s-w26-thu-015",
+      "goalId": "grade-4-science-w26-thu",
+      "question": "Iodine is a mineral needed for thyroid gland function. What food source is iodine commonly added to in India?",
+      "options": ["Sugar", "Salt (iodised salt)", "Rice", "Cooking oil"],
+      "correctIndex": 1,
+      "explanation": "Iodised salt has iodine added to prevent goitre (enlarged thyroid) — a public health measure. Iodine deficiency is common in hilly/inland areas without access to seafood. Using iodised salt is a simple, effective solution.",
+      "difficulty": "hard",
+      "tags": ["balanced-diet", "minerals", "iodine"]
+    }
+  ]
+}

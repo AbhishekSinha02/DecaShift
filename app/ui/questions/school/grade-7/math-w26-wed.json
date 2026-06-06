@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-math-w26-wed",
+  "title": "Grade 7 Math — Wed, Jun 25",
+  "description": "Perimeter and Area — Circles Day 3 of 5: Mixed circumference + area problems",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7m-w26-wed-001",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A circular track has radius 35 m. A runner does 5 rounds. Distance run (π = 22/7) =",
+      "options": ["110 m", "550 m", "1,100 m", "3,850 m"],
+      "correctIndex": 2,
+      "explanation": "Circumference = 2πr = 2×(22/7)×35 = 220 m per round. 5 rounds = 5×220 = 1,100 m.",
+      "difficulty": "easy",
+      "tags": ["circle", "circumference", "track"]
+    },
+    {
+      "id": "g7m-w26-wed-002",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A circular garden with radius 7 m. Fencing cost ₹10/m; mowing cost ₹5/m². Total cost (π = 22/7) =",
+      "options": ["₹1,000", "₹1,210", "₹1,320", "₹1,540"],
+      "correctIndex": 1,
+      "explanation": "Circumference = 2×(22/7)×7 = 44 m → fencing = 44×10 = ₹440. Area = (22/7)×49 = 154 m² → mowing = 154×5 = ₹770. Total = ₹440 + ₹770 = ₹1,210.",
+      "difficulty": "easy",
+      "tags": ["circle", "mixed", "cost"]
+    },
+    {
+      "id": "g7m-w26-wed-003",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A wheel of radius 1.4 m makes 100 rotations. Distance covered (π = 22/7) =",
+      "options": ["44 m", "88 m", "440 m", "880 m"],
+      "correctIndex": 3,
+      "explanation": "Circumference = 2πr = 2×(22/7)×1.4 = 8.8 m per rotation. 100 rotations = 100×8.8 = 880 m.",
+      "difficulty": "easy",
+      "tags": ["circle", "circumference", "wheel"]
+    },
+    {
+      "id": "g7m-w26-wed-004",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "The area of a circle is 1,386 m². Its circumference (π = 22/7) =",
+      "options": ["66 m", "132 m", "198 m", "264 m"],
+      "correctIndex": 1,
+      "explanation": "A = πr² → 1,386 = (22/7)r² → r² = 1,386×7/22 = 9,702/22 = 441 → r = 21 m. C = 2πr = 2×(22/7)×21 = 132 m.",
+      "difficulty": "medium",
+      "tags": ["circle", "area-given", "find-circumference"]
+    },
+    {
+      "id": "g7m-w26-wed-005",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A circular disk has circumference 88 cm. Its area (π = 22/7) =",
+      "options": ["154 cm²", "308 cm²", "616 cm²", "1,232 cm²"],
+      "correctIndex": 2,
+      "explanation": "C = 2πr → 88 = 2×(22/7)×r → r = 88×7/44 = 14 cm. A = πr² = (22/7)×196 = 616 cm².",
+      "difficulty": "medium",
+      "tags": ["circle", "circumference-given", "find-area"]
+    },
+    {
+      "id": "g7m-w26-wed-006",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A semicircular region has diameter 28 cm. Its area (π = 22/7) =",
+      "options": ["154 cm²", "308 cm²", "616 cm²", "1,232 cm²"],
+      "correctIndex": 1,
+      "explanation": "Radius = 14 cm. Semicircle area = ½πr² = ½×(22/7)×196 = ½×616 = 308 cm².",
+      "difficulty": "medium",
+      "tags": ["circle", "semicircle", "area"]
+    },
+    {
+      "id": "g7m-w26-wed-007",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "Two circles: Circle A (radius 7 cm) and Circle B (radius 14 cm). Ratio of their areas A : B =",
+      "options": ["1 : 2", "1 : 4", "2 : 1", "1 : 3"],
+      "correctIndex": 1,
+      "explanation": "A(A) = π×49; A(B) = π×196. Ratio = 49 : 196 = 1 : 4. Area ratio = (ratio of radii)² = (7/14)² = (1/2)² = 1/4.",
+      "difficulty": "medium",
+      "tags": ["circle", "area", "ratio"]
+    },
+    {
+      "id": "g7m-w26-wed-008",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A square park (side 28 m) has a circular fountain (radius 7 m) in the centre. Area of the park NOT covered by the fountain (π = 22/7) =",
+      "options": ["154 m²", "630 m²", "784 m²", "938 m²"],
+      "correctIndex": 1,
+      "explanation": "Square area = 28² = 784 m². Circular fountain = π×7² = (22/7)×49 = 154 m². Remaining = 784−154 = 630 m².",
+      "difficulty": "hard",
+      "tags": ["circle", "composite", "subtract"]
+    },
+    {
+      "id": "g7m-w26-wed-009",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A cow is tied to a post with a rope of 7 m. The maximum area of grass the cow can graze (π = 22/7) =",
+      "options": ["22 m²", "44 m²", "154 m²", "308 m²"],
+      "correctIndex": 2,
+      "explanation": "The cow can graze in a circle of radius 7 m. Area = πr² = (22/7)×49 = 154 m².",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "word-problem", "grazing"]
+    },
+    {
+      "id": "g7m-w26-wed-010",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A circular pond of diameter 14 m is surrounded by a path 7 m wide. Area of path only (π = 22/7) =",
+      "options": ["462 m²", "770 m²", "1,078 m²", "1,386 m²"],
+      "correctIndex": 0,
+      "explanation": "Inner radius = 7 m. Outer radius = 7+7 = 14 m. Path = π(R²−r²) = (22/7)(196−49) = (22/7)×147 = 22×21 = 462 m².",
+      "difficulty": "hard",
+      "tags": ["circle", "ring", "path"]
+    },
+    {
+      "id": "g7m-w26-wed-011",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "Area of a circular ring: outer radius 21 m, inner radius 14 m (π = 22/7) =",
+      "options": ["154 m²", "462 m²", "770 m²", "1,078 m²"],
+      "correctIndex": 2,
+      "explanation": "Ring area = π(R²−r²) = (22/7)(441−196) = (22/7)×245 = 22×35 = 770 m².",
+      "difficulty": "hard",
+      "tags": ["circle", "ring", "area"]
+    },
+    {
+      "id": "g7m-w26-wed-012",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A wire 176 cm long is bent first into a circle, then straightened and bent into a square. Which has the greater area?",
+      "options": ["Circle (radius 28 cm, area ≈ 2,464 cm²)", "Square (side 44 cm, area = 1,936 cm²)", "Both equal", "Cannot determine"],
+      "correctIndex": 0,
+      "explanation": "Circle: C=176 → r=176/(2π)=176×7/44=28 cm. Area=π×28²=(22/7)×784=2,464 cm². Square: side=176/4=44 cm. Area=44²=1,936 cm². Circle > Square. (For same perimeter, circle always has greatest area.)",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "compare", "same-perimeter"]
+    },
+    {
+      "id": "g7m-w26-wed-013",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A circle has area 2,464 cm². Its radius (π = 22/7) =",
+      "options": ["14 cm", "21 cm", "28 cm", "42 cm"],
+      "correctIndex": 2,
+      "explanation": "πr² = 2,464 → (22/7)r² = 2,464 → r² = 2,464×7/22 = 17,248/22 = 784 → r = 28 cm.",
+      "difficulty": "hard",
+      "tags": ["circle", "area", "find-radius"]
+    },
+    {
+      "id": "g7m-w26-wed-014",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "A circular playing ground of radius 21 m. Cost of laying grass at ₹4 per m² and fencing at ₹6 per m (π = 22/7) =",
+      "options": ["₹6,336", "₹6,288", "₹6,300", "₹5,544"],
+      "correctIndex": 0,
+      "explanation": "Area = (22/7)×441 = 1,386 m². Grass cost = 1,386×4 = ₹5,544. Circumference = 2×(22/7)×21 = 132 m. Fencing cost = 132×6 = ₹792. Total = ₹5,544 + ₹792 = ₹6,336.",
+      "difficulty": "hard",
+      "tags": ["circle", "mixed", "cost", "word-problem"]
+    },
+    {
+      "id": "g7m-w26-wed-015",
+      "goalId": "grade-7-math-w26-wed",
+      "question": "The ratio of circumference to diameter of any circle is:",
+      "options": ["2", "π (pi) ≈ 22/7 ≈ 3.14159…", "2π", "π²"],
+      "correctIndex": 1,
+      "explanation": "C/d = π for any circle (this is the definition of π). C = πd = 2πr. π is an irrational number ≈ 3.14159... We use 22/7 as a close approximation. This ratio is constant for ALL circles.",
+      "difficulty": "hard",
+      "tags": ["circle", "pi", "definition"]
+    }
+  ]
+}

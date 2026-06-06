@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-3-french-w26-wed",
+  "title": "Grade 3 French — Wed, Jun 25",
+  "description": "À l'école — Day 3 of 5: School actions (les actions à l'école — –er verbs)",
+  "subject": "french",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "a-l-ecole",
+  "tags": ["french", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3f-w26-wed-001",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "What does 'écrire' mean?",
+      "options": ["to read", "to write", "to listen", "to draw"],
+      "correctIndex": 1,
+      "explanation": "'Écrire' = to write. A very common school action.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "verbs", "ecrire"]
+    },
+    {
+      "id": "g3f-w26-wed-002",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "What does 'lire' mean?",
+      "options": ["to write", "to read", "to listen", "to speak"],
+      "correctIndex": 1,
+      "explanation": "'Lire' = to read. 'Je lis un livre.' = I am reading a book.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "verbs", "lire"]
+    },
+    {
+      "id": "g3f-w26-wed-003",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "What does 'écouter' mean?",
+      "options": ["to write", "to draw", "to listen", "to ask"],
+      "correctIndex": 2,
+      "explanation": "'Écouter' = to listen. 'J'écoute le professeur.' = I listen to the teacher.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "verbs", "ecouter"]
+    },
+    {
+      "id": "g3f-w26-wed-004",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "What does 'parler' mean?",
+      "options": ["to listen", "to play", "to speak/talk", "to eat"],
+      "correctIndex": 2,
+      "explanation": "'Parler' = to speak/talk. 'Je parle français.' = I speak French.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "verbs", "parler"]
+    },
+    {
+      "id": "g3f-w26-wed-005",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "What does 'dessiner' mean?",
+      "options": ["to design clothes", "to draw", "to decide", "to describe"],
+      "correctIndex": 1,
+      "explanation": "'Dessiner' = to draw. 'Je dessine un arbre.' = I draw a tree.",
+      "difficulty": "easy",
+      "tags": ["a-l-ecole", "verbs", "dessiner"]
+    },
+    {
+      "id": "g3f-w26-wed-006",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "Complete: 'En classe, j'___ le professeur attentivement.' (In class, I listen to the teacher carefully.)",
+      "options": ["lis", "écris", "écoute", "dessine"],
+      "correctIndex": 2,
+      "explanation": "'J'écoute le professeur attentivement.' = I listen to the teacher carefully. 'Écouter' = to listen.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "ecouter", "fill-in"]
+    },
+    {
+      "id": "g3f-w26-wed-007",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "What does 'travailler' mean?",
+      "options": ["to travel", "to work/study", "to play", "to talk"],
+      "correctIndex": 1,
+      "explanation": "'Travailler' = to work/study. 'Je travaille dur.' = I work hard.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "verbs", "travailler"]
+    },
+    {
+      "id": "g3f-w26-wed-008",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "Translate: 'She reads a book in the library.'",
+      "options": ["Elle lit un livre dans la bibliothèque.", "Elle écrit un livre dans la bibliothèque.", "Elle écoute un livre dans la bibliothèque.", "Elle mange un livre dans la bibliothèque."],
+      "correctIndex": 0,
+      "explanation": "'Elle lit un livre dans la bibliothèque.' = She reads a book in the library. 'Lire' → il/elle lit.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "translation", "lire"]
+    },
+    {
+      "id": "g3f-w26-wed-009",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "Match: 'poser une question' means:",
+      "options": ["to answer a question", "to ask a question", "to write a question", "to ignore a question"],
+      "correctIndex": 1,
+      "explanation": "'Poser une question' = to ask a question. 'Répondre à une question' = to answer a question.",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "poser-question", "classroom"]
+    },
+    {
+      "id": "g3f-w26-wed-010",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "What does 'lever la main' mean in a classroom context?",
+      "options": ["to wash your hands", "to raise your hand", "to wave goodbye", "to clap"],
+      "correctIndex": 1,
+      "explanation": "'Lever la main' = to raise your hand (to answer a question or get the teacher's attention).",
+      "difficulty": "medium",
+      "tags": ["a-l-ecole", "classroom-action", "lever-la-main"]
+    },
+    {
+      "id": "g3f-w26-wed-011",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "Translate: 'We write in our notebooks.'",
+      "options": ["Nous lisons dans nos cahiers.", "Nous écrivons dans nos cahiers.", "Nous dessinons dans nos cahiers.", "Nous travaillons avec nos cahiers."],
+      "correctIndex": 1,
+      "explanation": "'Nous écrivons dans nos cahiers.' = We write in our notebooks. 'Écrire' → nous écrivons.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "translation", "ecrire", "plural"]
+    },
+    {
+      "id": "g3f-w26-wed-012",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "What is the difference between 'écouter' and 'entendre'?",
+      "options": ["They are the same", "'Écouter' = to actively listen (intentional); 'entendre' = to hear (passively receiving sound)", "'Entendre' = to listen in class; 'écouter' = to hear music", "Both mean to speak"],
+      "correctIndex": 1,
+      "explanation": "'Écouter' = to listen actively (you choose to pay attention). 'Entendre' = to hear (you passively receive the sound). 'J'écoute de la musique' (I listen to music) vs 'J'entends du bruit' (I hear noise).",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "ecouter-vs-entendre"]
+    },
+    {
+      "id": "g3f-w26-wed-013",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "Translate: 'He speaks French and draws well.'",
+      "options": ["Il parle français et dessine bien.", "Il lit français et écrit bien.", "Il écoute français et dessine bien.", "Il parle français et lit bien."],
+      "correctIndex": 0,
+      "explanation": "'Il parle français et dessine bien.' = He speaks French and draws well. Both verbs are in the il form: parle (parler), dessine (dessiner).",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "translation", "multiple-verbs"]
+    },
+    {
+      "id": "g3f-w26-wed-014",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "Describe a school day using 4 different action verbs. Best answer:",
+      "options": ["Je mange, je mange, je mange, je mange.", "Le matin, j'écoute le professeur. J'écris dans mon cahier. Je lis un livre. Je dessine un arbre.", "Je vais à l'école et je reviens.", "J'ai un sac et des crayons."],
+      "correctIndex": 1,
+      "explanation": "The best answer uses 4 different verbs (écouter, écrire, lire, dessiner) in complete sentences describing a school day. Variety shows vocabulary range.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "extended-writing", "verbs"]
+    },
+    {
+      "id": "g3f-w26-wed-015",
+      "goalId": "grade-3-french-w26-wed",
+      "question": "Why is 'lever la main' an important classroom rule in France?",
+      "options": ["It is a fun exercise", "It shows respect, lets the teacher manage turns and prevents everyone from speaking at once", "Teachers in France make it compulsory by law", "It helps students learn new words"],
+      "correctIndex": 1,
+      "explanation": "'Lever la main' is a social convention to show you want to speak. It maintains classroom order, shows respect for the teacher and ensures everyone gets a fair turn.",
+      "difficulty": "hard",
+      "tags": ["a-l-ecole", "classroom-culture", "reasoning"]
+    }
+  ]
+}

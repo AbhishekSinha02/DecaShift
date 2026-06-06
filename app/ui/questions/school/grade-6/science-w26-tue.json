@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-science-w26-tue",
+  "title": "Grade 6 Science — Tue, Jun 24",
+  "description": "Light, Shadows and Reflections — Day 2 of 5: Rectilinear propagation of light; shadow formation",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6s-w26-tue-001",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "Light travels in:",
+      "options": ["Curved paths", "Straight lines (rectilinear propagation)", "Circular paths", "Zigzag paths"],
+      "correctIndex": 1,
+      "explanation": "Light travels in straight lines — this is the principle of rectilinear propagation. Evidence: shadows have sharp edges, light cannot go around corners, beams of light are straight.",
+      "difficulty": "easy",
+      "tags": ["light", "rectilinear-propagation"]
+    },
+    {
+      "id": "g6s-w26-tue-002",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "A shadow is formed when:",
+      "options": ["Two transparent objects overlap", "An opaque object blocks light, creating a dark region behind it where light cannot reach", "A luminous object is nearby", "A translucent object reflects all light"],
+      "correctIndex": 1,
+      "explanation": "Shadow formation requires: (1) a source of light, (2) an opaque object, (3) a screen. The opaque object blocks light rays, creating a region of darkness (shadow) on the screen.",
+      "difficulty": "easy",
+      "tags": ["light", "shadow", "formation"]
+    },
+    {
+      "id": "g6s-w26-tue-003",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "What proves that light travels in straight lines?",
+      "options": ["Light can be heated", "You cannot see around a corner — light from one side cannot reach the other side of a wall (a simple proof)", "Light has colour", "Light needs air to travel"],
+      "correctIndex": 1,
+      "explanation": "You cannot see around corners because light travels in straight lines and cannot bend around objects. This simple observation proves rectilinear propagation.",
+      "difficulty": "easy",
+      "tags": ["light", "rectilinear", "proof"]
+    },
+    {
+      "id": "g6s-w26-tue-004",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "If you move the light source closer to an opaque object (keeping the screen fixed), the shadow:",
+      "options": ["Gets smaller", "Gets bigger (larger shadow)", "Stays the same", "Disappears"],
+      "correctIndex": 1,
+      "explanation": "Moving the light source closer to the object → shadow gets BIGGER (because more light rays are blocked at greater angles). Moving the source farther away → shadow gets smaller.",
+      "difficulty": "medium",
+      "tags": ["light", "shadow-size", "light-source-distance"]
+    },
+    {
+      "id": "g6s-w26-tue-005",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "If you move the screen farther from the object (light source fixed), the shadow:",
+      "options": ["Gets smaller", "Gets bigger", "Stays the same", "Depends on material"],
+      "correctIndex": 1,
+      "explanation": "Moving the screen farther from the object → shadow gets BIGGER (the shadow spreads out as it projects further). Moving screen closer → shadow gets smaller.",
+      "difficulty": "medium",
+      "tags": ["light", "shadow-size", "screen-distance"]
+    },
+    {
+      "id": "g6s-w26-tue-006",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "A pinhole camera forms an image that is:",
+      "options": ["Upright and smaller", "Inverted (upside down) and smaller — due to rectilinear propagation of light through a tiny hole", "Enlarged and right-side up", "Blurry due to no lens"],
+      "correctIndex": 1,
+      "explanation": "Pinhole camera: light from the top of an object enters through the hole and hits the BOTTOM of the screen; light from the bottom hits the TOP. This crossing creates an inverted image. The smaller the hole, the sharper (but dimmer) the image.",
+      "difficulty": "medium",
+      "tags": ["light", "pinhole-camera", "inverted"]
+    },
+    {
+      "id": "g6s-w26-tue-007",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "Why can't you form a shadow with a transparent object like clear glass?",
+      "options": ["Glass is too thin", "Light passes through transparent objects unblocked, so no dark region forms behind them", "Glass produces its own light", "Shadows only form at night"],
+      "correctIndex": 1,
+      "explanation": "Shadow requires an opaque object to BLOCK light. Transparent glass lets all light through → no shadow (or a very faint one). Translucent objects form faint, blurry shadows.",
+      "difficulty": "medium",
+      "tags": ["light", "shadow", "transparent-no-shadow"]
+    },
+    {
+      "id": "g6s-w26-tue-008",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "At noon on a sunny day, shadows are shortest. Why?",
+      "options": ["The sun is farther away at noon", "The sun is nearly overhead — light rays are nearly vertical, so the shadow is almost directly below the object (short)", "The sun is weaker at noon", "Temperature affects shadow length"],
+      "correctIndex": 1,
+      "explanation": "Shadow length depends on the angle of the light source. At noon, the sun is highest → rays are nearly vertical → shadow falls nearly directly below → shortest shadow. In morning/evening, the sun is low → long shadows.",
+      "difficulty": "hard",
+      "tags": ["light", "shadow", "noon", "angle"]
+    },
+    {
+      "id": "g6s-w26-tue-009",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "A sundial uses shadows to tell time. This is possible because:",
+      "options": ["Shadows are coloured", "The sun's position changes predictably throughout the day, causing shadow direction and length to change in a regular pattern", "The shadow has a clock inside", "Light is hotter at certain times"],
+      "correctIndex": 1,
+      "explanation": "The sun moves from east to west across the sky at a predictable rate (360° in 24 hours = 15°/hour). The gnomon (pointer) casts a shadow that moves with the sun's position — this regular pattern makes time measurement possible.",
+      "difficulty": "hard",
+      "tags": ["light", "sundial", "shadow-direction"]
+    },
+    {
+      "id": "g6s-w26-tue-010",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "The region of complete shadow behind an opaque object is called:",
+      "options": ["Penumbra", "Umbra — the region where ALL light from the source is blocked", "Eclipse", "Silhouette"],
+      "correctIndex": 1,
+      "explanation": "Umbra = total shadow (complete darkness). Penumbra = partial shadow (surrounds the umbra) where only SOME light is blocked. For a point source, only umbra exists. For an extended source, both umbra and penumbra form.",
+      "difficulty": "hard",
+      "tags": ["light", "shadow", "umbra-penumbra"]
+    },
+    {
+      "id": "g6s-w26-tue-011",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "How does a pinhole camera prove light travels in straight lines?",
+      "options": ["By bending light", "The inverted image can ONLY form if light rays from each point of the object travel in straight lines through the small hole and hit the screen — if light bent, the image would be confused", "By using a lens", "By reflecting light"],
+      "correctIndex": 1,
+      "explanation": "In a pinhole camera, only straight-line rays through the hole contribute to the image. Top of object → ray goes straight through hole → hits bottom of screen. Bottom → hits top. This precise inversion is only possible with straight-line travel.",
+      "difficulty": "hard",
+      "tags": ["light", "pinhole-camera", "proof"]
+    },
+    {
+      "id": "g6s-w26-tue-012",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "Shadow puppetry works best with which type of light source?",
+      "options": ["Large diffuse source", "A small (point) light source — gives sharp, well-defined shadows; large diffuse sources create blurry shadows with penumbra regions", "Coloured light", "No light source needed"],
+      "correctIndex": 1,
+      "explanation": "A point (small) light source produces sharp umbra shadows with no penumbra — ideal for shadow puppetry. A large extended source creates a blurry shadow (penumbra) around the sharp core. This is why a single torch or candle gives better puppet shadows than ambient room light.",
+      "difficulty": "hard",
+      "tags": ["light", "shadow", "point-source", "puppetry"]
+    },
+    {
+      "id": "g6s-w26-tue-013",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "A tree casts a shadow of 8 m when the angle of sunlight is such that a 1 m stick casts a 2 m shadow. Height of tree =",
+      "options": ["2 m", "4 m", "8 m", "16 m"],
+      "correctIndex": 1,
+      "explanation": "Shadow ratio = 2:1 (shadow/height). Tree shadow = 8 m → height = 8 ÷ 2 = 4 m. (Similar triangles: same sun angle means same shadow-to-height ratio.)",
+      "difficulty": "hard",
+      "tags": ["light", "shadow", "similar-triangles", "height"]
+    },
+    {
+      "id": "g6s-w26-tue-014",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "Why do shadows appear on the OPPOSITE side of the light source?",
+      "options": ["Shadows follow the light", "Light travels in straight lines — the opaque object blocks light on one side, creating a shadow region directly behind it (opposite the source)", "Shadows reflect the object", "Gravity pulls shadows down"],
+      "correctIndex": 1,
+      "explanation": "Light travels FROM the source in straight lines. When blocked by an opaque object, it cannot reach the region directly behind the object on the far side (opposite the source). That region = shadow.",
+      "difficulty": "hard",
+      "tags": ["light", "shadow", "direction"]
+    },
+    {
+      "id": "g6s-w26-tue-015",
+      "goalId": "grade-6-science-w26-tue",
+      "question": "The shadow formed by a translucent object compared to an opaque object is:",
+      "options": ["Same darkness", "Darker", "Lighter and less distinct — translucent objects allow some light through, so the shadow is fainter", "No shadow at all"],
+      "correctIndex": 2,
+      "explanation": "Translucent objects (frosted glass, thin cloth) transmit some light → partial shadow (lighter). Opaque objects block all light → full dark shadow. Transparent objects: no shadow.",
+      "difficulty": "hard",
+      "tags": ["light", "shadow", "translucent-vs-opaque"]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-4-french-w26-tue",
+  "title": "Grade 4 French — Tue, Jun 24",
+  "description": "Le temps et les saisons — Day 2 of 5: Quel temps fait-il? (Asking and answering about weather)",
+  "subject": "french",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "le-temps",
+  "tags": ["french", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4f-w26-tue-001",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "How do you ask 'What is the weather like?' in French?",
+      "options": ["Comment est le temps?", "Quel temps fait-il?", "Il fait quel temps?", "C'est quoi le temps?"],
+      "correctIndex": 1,
+      "explanation": "'Quel temps fait-il?' is the standard question. Literally: 'What weather does it make?' 'Quel' = what (before a noun), 'temps' = weather, 'fait-il' = inversion (does it make).",
+      "difficulty": "easy",
+      "tags": ["le-temps", "quel-temps-fait-il", "question"]
+    },
+    {
+      "id": "g4f-w26-tue-002",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "Someone asks 'Quel temps fait-il?' and it is sunny. Which is the BEST response?",
+      "options": ["Il fait froid.", "Il neige.", "Il fait beau et il y a du soleil.", "Il pleut beaucoup."],
+      "correctIndex": 2,
+      "explanation": "'Il fait beau et il y a du soleil.' = The weather is nice and it is sunny. This directly and accurately answers the question for a sunny day.",
+      "difficulty": "easy",
+      "tags": ["le-temps", "response", "sunny"]
+    },
+    {
+      "id": "g4f-w26-tue-003",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "Complete the dialogue: A: 'Quel temps fait-il aujourd'hui?' B: '___, il fait très froid.'",
+      "options": ["Bonjour", "Aujourd'hui", "Non", "Oui"],
+      "correctIndex": 1,
+      "explanation": "'Aujourd'hui, il fait très froid.' = Today it is very cold. 'Aujourd'hui' (today) naturally follows the question about the weather today.",
+      "difficulty": "easy",
+      "tags": ["le-temps", "dialogue", "response"]
+    },
+    {
+      "id": "g4f-w26-tue-004",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "How do you say 'How is the weather in Paris?' in French?",
+      "options": ["Quel temps fait-il à Paris?", "Comment temps Paris?", "Il fait quoi Paris?", "Paris temps fait?"],
+      "correctIndex": 0,
+      "explanation": "'Quel temps fait-il à Paris?' ✓ Adding 'à Paris' (in Paris) specifies the location. 'À' = in/at (with cities).",
+      "difficulty": "easy",
+      "tags": ["le-temps", "question", "location"]
+    },
+    {
+      "id": "g4f-w26-tue-005",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "Translate: 'It is very cold and it is snowing.'",
+      "options": ["Il fait très froid et il neige.", "Il fait froid très et il neige.", "Il est très froid et il neige.", "Il fait très chaud et il pleut."],
+      "correctIndex": 0,
+      "explanation": "'Il fait très froid et il neige.' ✓ 'Très' (very) comes after 'fait', not between 'fait' and 'froid'. Word order: il fait + très + adjective.",
+      "difficulty": "medium",
+      "tags": ["le-temps", "translation", "tres"]
+    },
+    {
+      "id": "g4f-w26-tue-006",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "A: 'Quel temps fait-il à Mumbai en juillet?' B: 'Il fait ___.' (monsoon season — it rains heavily)",
+      "options": ["beau", "froid", "chaud et il pleut beaucoup", "du vent seulement"],
+      "correctIndex": 2,
+      "explanation": "Mumbai in July = monsoon. 'Il fait chaud et il pleut beaucoup.' = It is hot and it rains a lot. This reflects real Indian weather knowledge.",
+      "difficulty": "medium",
+      "tags": ["le-temps", "india", "monsoon"]
+    },
+    {
+      "id": "g4f-w26-tue-007",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "Spot the error: 'Quel temps fait-il? Il est neige et il fait froid.'",
+      "options": ["'Quel temps fait-il' is wrong", "'Il est neige' should be 'il neige' — 'neiger' does not use 'être' or 'avoir'; it is an impersonal verb", "'il fait froid' is wrong", "There is no error"],
+      "correctIndex": 1,
+      "explanation": "'Il est neige' is wrong. The correct form is simply 'il neige.' 'Neiger' is an impersonal verb: always 'il neige', never 'il est neige' or 'il y a neige.'",
+      "difficulty": "medium",
+      "tags": ["le-temps", "error-detection", "neiger"]
+    },
+    {
+      "id": "g4f-w26-tue-008",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "Build a full question-and-answer pair: weather in Delhi in December. Best pair:",
+      "options": ["Quel temps? → Il chaud.", "Quel temps fait-il à Delhi en décembre? → Il fait froid et il y a du brouillard.", "Le temps? → Oui il fait.", "Comment fait-il? → Froid."],
+      "correctIndex": 1,
+      "explanation": "'Quel temps fait-il à Delhi en décembre? → Il fait froid et il y a du brouillard.' Perfect — correct question structure, accurate answer (Delhi winters are cold and foggy), uses 'il y a du brouillard' (fog).",
+      "difficulty": "medium",
+      "tags": ["le-temps", "full-exchange", "delhi"]
+    },
+    {
+      "id": "g4f-w26-tue-009",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "How would you say 'What is the weather like in your town?'",
+      "options": ["Quel temps fait-il dans ta ville?", "Comment temps ta ville?", "Quel fait temps il ta ville?", "Ta ville quel temps?"],
+      "correctIndex": 0,
+      "explanation": "'Quel temps fait-il dans ta ville?' ✓ 'Dans ta ville' = in your town. The question structure remains 'quel temps fait-il' with the location added at the end.",
+      "difficulty": "hard",
+      "tags": ["le-temps", "question", "location"]
+    },
+    {
+      "id": "g4f-w26-tue-010",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "A friend in France asks about your city's weather. Respond in French: 'In Lucknow in June, it is very hot and sometimes it rains.'",
+      "options": ["À Lucknow en juin, il fait très froid.", "À Lucknow en juin, il fait très chaud et parfois il pleut.", "À Lucknow en juin, il neige beaucoup.", "À Lucknow, il fait beau et frais."],
+      "correctIndex": 1,
+      "explanation": "'À Lucknow en juin, il fait très chaud et parfois il pleut.' ✓ 'Parfois' = sometimes. 'En juin' = in June. Accurately describes Lucknow's June weather.",
+      "difficulty": "hard",
+      "tags": ["le-temps", "production", "lucknow"]
+    },
+    {
+      "id": "g4f-w26-tue-011",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "Which response is the MOST complete and natural answer to 'Quel temps fait-il?'",
+      "options": ["Oui.", "Beau.", "Il fait beau, il y a du soleil et il fait chaud.", "Temps."],
+      "correctIndex": 2,
+      "explanation": "'Il fait beau, il y a du soleil et il fait chaud.' — This is a full, natural response using three weather expressions. 'Beau' or 'Oui' alone are incomplete in formal or classroom French.",
+      "difficulty": "hard",
+      "tags": ["le-temps", "full-response", "natural"]
+    },
+    {
+      "id": "g4f-w26-tue-012",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "Compare asking about weather vs temperature in French. Which sentence asks specifically about TEMPERATURE?",
+      "options": ["Quel temps fait-il?", "Quelle est la température aujourd'hui?", "Il pleut?", "Qu'est-ce que le temps?"],
+      "correctIndex": 1,
+      "explanation": "'Quelle est la température aujourd'hui?' = What is the temperature today? This asks for a number (e.g., 'Il fait 35 degrés.'). 'Quel temps fait-il?' asks about the general weather condition.",
+      "difficulty": "hard",
+      "tags": ["le-temps", "temperature", "distinction"]
+    },
+    {
+      "id": "g4f-w26-tue-013",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "Mini weather report: 'Au nord, il neige et il fait -5 degrés. Au sud, il fait beau et 25 degrés.' Which statement is TRUE?",
+      "options": ["The north is warmer than the south", "The south is colder", "The north is snowy and freezing; the south is pleasant and warm — they are very different", "Both regions have the same weather"],
+      "correctIndex": 2,
+      "explanation": "North: il neige (snowing) and -5°C (freezing). South: il fait beau (nice), 25°C (warm). Classic contrast between northern (alpine/cold) and southern (Mediterranean/warm) France.",
+      "difficulty": "hard",
+      "tags": ["le-temps", "reading", "comparison"]
+    },
+    {
+      "id": "g4f-w26-tue-014",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "Weather interview role-play. Question: 'Quel temps fait-il en ce moment?' Answer: 'En ce moment, il fait du vent et il y a des nuages.' What does the answer mean?",
+      "options": ["Right now it is hot and sunny", "Right now it is windy and cloudy", "Right now it is raining and cold", "Right now it is snowing"],
+      "correctIndex": 1,
+      "explanation": "'En ce moment' = right now. 'Il fait du vent' = it is windy. 'Il y a des nuages' = there are clouds. So: right now it is windy and cloudy.",
+      "difficulty": "hard",
+      "tags": ["le-temps", "nuages", "en-ce-moment"]
+    },
+    {
+      "id": "g4f-w26-tue-015",
+      "goalId": "grade-4-french-w26-tue",
+      "question": "Summarise: What is the essential grammar pattern for ANSWERING 'Quel temps fait-il?'",
+      "options": ["Je suis + adjective", "Il fait + adjective / Il + verb (pleut/neige) / Il y a + noun", "Nous avons + noun", "C'est + adjective"],
+      "correctIndex": 1,
+      "explanation": "Three patterns for weather answers: (1) Il fait + adj: il fait chaud/froid/beau. (2) Impersonal verbs: il pleut, il neige, il tonne. (3) Il y a + noun: il y a du vent/du soleil/du brouillard/des nuages.",
+      "difficulty": "hard",
+      "tags": ["le-temps", "grammar-pattern", "summary"]
+    }
+  ]
+}

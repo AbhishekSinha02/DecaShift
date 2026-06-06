@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-5-science-w26-thu",
+  "title": "Grade 5 Science — Thu, Jun 26",
+  "description": "Nervous System and Sense Organs — Day 4 of 5: Eye and ear in detail; care of sense organs",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5s-w26-thu-001",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "The coloured part of the eye that controls how much light enters is called the:",
+      "options": ["Pupil", "Iris", "Lens", "Cornea"],
+      "correctIndex": 1,
+      "explanation": "The iris is the coloured ring (brown, blue, green, hazel). It has muscles that change the size of the pupil (the black opening in the centre), controlling how much light enters the eye.",
+      "difficulty": "easy",
+      "tags": ["sense-organs", "eye", "iris"]
+    },
+    {
+      "id": "g5s-w26-thu-002",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "What does the lens of the eye do?",
+      "options": ["Produces tears", "Focuses light onto the retina by changing its shape (accommodation)", "Detects colour", "Produces the black pupil"],
+      "correctIndex": 1,
+      "explanation": "The flexible lens focuses light onto the retina. For near objects, the ciliary muscles contract and the lens becomes fat (thicker). For distant objects, the lens becomes thin. This is called accommodation.",
+      "difficulty": "easy",
+      "tags": ["sense-organs", "eye", "lens"]
+    },
+    {
+      "id": "g5s-w26-thu-003",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "The transparent protective outer layer at the front of the eye is the:",
+      "options": ["Retina", "Iris", "Cornea", "Sclera"],
+      "correctIndex": 2,
+      "explanation": "The cornea is the clear, dome-shaped surface at the front of the eye. It protects the eye and also helps focus light (provides about 65–75% of the eye's focusing power).",
+      "difficulty": "easy",
+      "tags": ["sense-organs", "eye", "cornea"]
+    },
+    {
+      "id": "g5s-w26-thu-004",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "The three tiny bones in the middle ear that amplify sound vibrations are called:",
+      "options": ["Rods, cones, and fovea", "Malleus, incus, and stapes (also called hammer, anvil, and stirrup)", "Cochlea, semicircular canals, and vestibule", "Eardrum, pinna, and auditory canal"],
+      "correctIndex": 1,
+      "explanation": "Middle ear: malleus (hammer) → incus (anvil) → stapes (stirrup). These three ossicles (tiny bones) amplify and transmit vibrations from the eardrum to the cochlea. The stapes is the smallest bone in the human body.",
+      "difficulty": "medium",
+      "tags": ["sense-organs", "ear", "ossicles"]
+    },
+    {
+      "id": "g5s-w26-thu-005",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "Why should you NOT put sharp objects in your ears?",
+      "options": ["It is just a rule with no reason", "Sharp objects can rupture the eardrum, damage the tiny ossicle bones, or injure the delicate inner ear — causing permanent hearing loss or pain", "Only loud sounds damage ears", "The ear canal is too narrow"],
+      "correctIndex": 1,
+      "explanation": "The eardrum is a delicate membrane. Sharp objects can puncture it, causing pain, infection, or permanent hearing loss. Clean ears gently with a cloth on the outer ear — never insert objects inside the canal.",
+      "difficulty": "medium",
+      "tags": ["sense-organs", "ear", "care"]
+    },
+    {
+      "id": "g5s-w26-thu-006",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "How does the ear convert sound vibrations into nerve signals?",
+      "options": ["The eardrum directly produces electrical signals", "Vibrations travel to the cochlea, where fluid waves move tiny hair cells that generate electrical nerve signals sent to the brain via the auditory nerve", "The brain produces sounds independently", "The semicircular canals process all sound"],
+      "correctIndex": 1,
+      "explanation": "Cochlea = snail-shaped fluid-filled organ. Sound vibrations → fluid waves → hair cells bend → electrical signals → auditory nerve → brain's auditory cortex. Hair cells cannot regenerate — loud music can destroy them permanently.",
+      "difficulty": "medium",
+      "tags": ["sense-organs", "ear", "cochlea"]
+    },
+    {
+      "id": "g5s-w26-thu-007",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "What causes short-sightedness (myopia)?",
+      "options": ["The cornea produces too many tears", "The eyeball is too long (or cornea too curved) — light focuses in front of the retina instead of on it; distant objects appear blurry", "The optic nerve is damaged", "The iris doesn't respond to light"],
+      "correctIndex": 1,
+      "explanation": "Myopia = short-sightedness. Long eyeball → light focuses before the retina → blurry distance vision. Corrected with concave (diverging) lenses. Prevalence is rising due to increased screen time and reduced outdoor activity.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "eye", "myopia"]
+    },
+    {
+      "id": "g5s-w26-thu-008",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "Why do we 'see stars' when we press our eyes gently?",
+      "options": ["The brain invents images when bored", "Pressure stimulates the retinal cells (photoreceptors) mechanically — the brain interprets any signal from the retina as light, so it creates the 'starlight' sensation", "The optic nerve disconnects", "Blood rushes to the eyes"],
+      "correctIndex": 1,
+      "explanation": "The brain cannot tell the difference between light signals and pressure-induced signals from the retina. Any stimulus to retinal cells is interpreted as visual input. This is called a 'phosphene' — light perception without actual light.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "eye", "phosphene"]
+    },
+    {
+      "id": "g5s-w26-thu-009",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "The white outer layer of the eyeball is called the:",
+      "options": ["Cornea", "Retina", "Sclera", "Choroid"],
+      "correctIndex": 2,
+      "explanation": "The sclera is the tough, white protective coat of the eye. The cornea is the transparent front part of the sclera. The 'whites of your eyes' you can see are the sclera.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "eye", "sclera"]
+    },
+    {
+      "id": "g5s-w26-thu-010",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "Good care of eyes includes all EXCEPT:",
+      "options": ["Reading in good light", "Wearing sunglasses in bright sun", "Rubbing eyes vigorously when they itch", "Getting regular eye check-ups"],
+      "correctIndex": 2,
+      "explanation": "Rubbing eyes vigorously is harmful — it can cause micro-abrasions on the cornea, introduce infection, and worsen conditions like keratoconus. If eyes itch, blink rapidly or use eye drops. Never rub.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "eye", "care"]
+    },
+    {
+      "id": "g5s-w26-thu-011",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "Vitamin A deficiency leads to which eye condition?",
+      "options": ["Myopia", "Night blindness (inability to see in dim light) — and in severe cases, permanent blindness", "Colour blindness", "Short-sightedness"],
+      "correctIndex": 1,
+      "explanation": "Vitamin A is essential for producing rhodopsin — the pigment in rod cells (which work in dim light). Without Vitamin A, rod cells can't function → night blindness. Sources: carrots, leafy greens, eggs, milk.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "eye", "vitamin-a", "night-blindness"]
+    },
+    {
+      "id": "g5s-w26-thu-012",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "The eardrum is another name for:",
+      "options": ["The cochlea", "The tympanic membrane — a thin membrane stretched across the ear canal that vibrates when sound waves hit it", "The pinna", "The auditory nerve"],
+      "correctIndex": 1,
+      "explanation": "Eardrum = tympanic membrane. It separates the outer ear from the middle ear. Sound waves hit it → it vibrates → vibrations pass to the ossicles (malleus, incus, stapes).",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "ear", "eardrum"]
+    },
+    {
+      "id": "g5s-w26-thu-013",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "Why are children who use earphones at high volume at risk of hearing loss?",
+      "options": ["Earphones look bad", "Loud sound creates excessive vibrations that destroy cochlear hair cells — which cannot regenerate, leading to permanent hearing loss", "Earphones block all sound", "Volume affects vision, not hearing"],
+      "correctIndex": 1,
+      "explanation": "Cochlear hair cells die when exposed to sounds above 85 dB for extended periods. Earphone-induced hearing loss (NIHL) is permanent. The WHO recommends max 60% volume for max 60 minutes per day.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "ear", "hearing-loss", "earphones"]
+    },
+    {
+      "id": "g5s-w26-thu-014",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "Rods and cones are both types of photoreceptors in the retina. What is the difference?",
+      "options": ["Rods detect colour; cones detect dim light", "Rods work in dim/dark conditions (black-white, low detail); cones work in bright light (colour, fine detail)", "Both do exactly the same job", "Rods are in the brain; cones are in the eye"],
+      "correctIndex": 1,
+      "explanation": "Rods: sensitive to dim light, detect motion/shape/black-white — used for night vision. Cones: need bright light, detect colour and fine detail — three types (red, green, blue). Colour blindness = cone deficiency.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "eye", "rods-cones"]
+    },
+    {
+      "id": "g5s-w26-thu-015",
+      "goalId": "grade-5-science-w26-thu",
+      "question": "The optic nerve carries visual signals from the eye to which part of the brain?",
+      "options": ["Medulla oblongata", "Cerebellum", "Visual cortex (part of the cerebrum, at the back of the brain — occipital lobe)", "Spinal cord"],
+      "correctIndex": 2,
+      "explanation": "The optic nerve (cranial nerve II) carries signals from retinal ganglion cells to the visual cortex in the occipital lobe at the back of the cerebrum. Here, signals are interpreted as images. Damage to this area causes blindness even with healthy eyes.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "eye", "optic-nerve", "visual-cortex"]
+    }
+  ]
+}

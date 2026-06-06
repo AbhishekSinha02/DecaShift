@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-2-science-w26-fri",
+  "title": "Grade 2 Science — Fri, Jun 27",
+  "description": "Animals and Their Young Ones — Day 5 of 5: Mixed review",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2s-w26-fri-001",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "Which animal is oviparous (lays eggs)?",
+      "options": ["Dog", "Cow", "Parrot", "Horse"],
+      "correctIndex": 2,
+      "explanation": "Parrots are birds — they lay eggs (oviparous). Dogs, cows and horses are viviparous (give birth to live young).",
+      "difficulty": "easy",
+      "tags": ["animals", "oviparous", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-002",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "What is a baby goat called?",
+      "options": ["Calf", "Foal", "Kid", "Lamb"],
+      "correctIndex": 2,
+      "explanation": "A baby goat is called a kid. Calves are baby cows, foals are baby horses and lambs are baby sheep.",
+      "difficulty": "easy",
+      "tags": ["animals", "baby-names", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-003",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "A mother dog feeds her puppies milk. This shows that dogs are:",
+      "options": ["Oviparous", "Reptiles", "Mammals", "Birds"],
+      "correctIndex": 2,
+      "explanation": "Feeding young with milk is a feature of mammals. Dogs are mammals — they give birth to live young and feed them milk.",
+      "difficulty": "easy",
+      "tags": ["animals", "mammals", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-004",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "Which sound does a lion make?",
+      "options": ["Bark", "Roar", "Bleat", "Moo"],
+      "correctIndex": 1,
+      "explanation": "Lions roar. Dogs bark, sheep bleat and cows moo.",
+      "difficulty": "easy",
+      "tags": ["animals", "sounds", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-005",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "A group of bees is called a:",
+      "options": ["Herd", "Flock", "Colony", "Pack"],
+      "correctIndex": 2,
+      "explanation": "A group of bees is called a colony. They live in hives and have a very organized social structure.",
+      "difficulty": "easy",
+      "tags": ["animals", "groups", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-006",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "Tiger cubs stay with their mother for about 2 years. What does this tell us about parental care in tigers?",
+      "options": ["Tigers do not care for their young", "Tiger mothers provide long-term care to teach cubs survival skills", "Fathers raise the cubs", "Cubs are born fully grown"],
+      "correctIndex": 1,
+      "explanation": "Tiger mothers spend 2+ years teaching cubs to hunt and survive. This is intensive parental care — not just feeding, but teaching life skills.",
+      "difficulty": "medium",
+      "tags": ["animals", "parental-care", "tiger", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-007",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "A hen is oviparous. After her eggs hatch, she gathers the chicks under her wings. This shows:",
+      "options": ["Oviparous animals never care for young", "Even oviparous animals can show parental care after birth/hatching", "The chicks are cold-blooded", "Hens are mammals"],
+      "correctIndex": 1,
+      "explanation": "Oviparous animals can still show parental care after eggs hatch. A hen keeping chicks warm is an example of post-hatching parental care.",
+      "difficulty": "medium",
+      "tags": ["animals", "oviparous", "parental-care", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-008",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "Match correctly: Cow → ___, Dog → ___, Hen → ___",
+      "options": ["Calf, Puppy, Chick", "Calf, Kitten, Chick", "Foal, Puppy, Duckling", "Lamb, Puppy, Chick"],
+      "correctIndex": 0,
+      "explanation": "Cow → Calf. Dog → Puppy. Hen → Chick. These are the correct baby names for each animal.",
+      "difficulty": "medium",
+      "tags": ["animals", "baby-names", "matching", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-009",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "Which statement is FALSE?",
+      "options": ["A baby cat is called a kitten", "Butterflies lay eggs", "All animals live in groups", "Elephants give birth to live young"],
+      "correctIndex": 2,
+      "explanation": "Not all animals live in groups. Tigers, leopards and many other animals are solitary. The other three statements are all true.",
+      "difficulty": "medium",
+      "tags": ["animals", "groups", "false-statement", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-010",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "Animals in a herd (like zebras) alert each other when a predator is near by making sounds. What kind of behaviour is this?",
+      "options": ["Sleeping behaviour", "Communication within a group for safety", "Hunting behaviour", "Feeding behaviour"],
+      "correctIndex": 1,
+      "explanation": "When one zebra sees a lion and makes a warning sound, others run. This is group communication for safety — one of the key advantages of living in herds.",
+      "difficulty": "medium",
+      "tags": ["animals", "groups", "communication", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-011",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "Which correctly lists one oviparous and one viviparous animal?",
+      "options": ["Frog (oviparous) and Dog (viviparous)", "Cow (oviparous) and Fish (viviparous)", "Cat (oviparous) and Eagle (viviparous)", "Whale (oviparous) and Snake (viviparous)"],
+      "correctIndex": 0,
+      "explanation": "Frogs lay eggs (oviparous). Dogs give birth to puppies (viviparous). The other pairs have the classifications swapped or wrong.",
+      "difficulty": "medium",
+      "tags": ["animals", "classification", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-012",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "A tadpole breathes through gills like a fish. An adult frog breathes through lungs and skin. What does this major change tell us?",
+      "options": ["They are different species", "The same animal can have completely different body structures at different life stages (metamorphosis)", "Adult frogs cannot breathe", "Tadpoles become fish"],
+      "correctIndex": 1,
+      "explanation": "Metamorphosis means a complete change in body form. A tadpole and adult frog look and breathe differently yet are the same species at different life stages.",
+      "difficulty": "hard",
+      "tags": ["animals", "metamorphosis", "frog", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-013",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "Ants are oviparous. A queen ant lays thousands of eggs. Worker ants then care for the eggs and larvae. This shows:",
+      "options": ["Oviparous insects have no parental care", "Parental care can be provided by non-parent community members", "Worker ants are lazy", "Oviparous animals always look after their own eggs"],
+      "correctIndex": 1,
+      "explanation": "Worker ants (who are not parents) care for the queen's eggs. This shows that parental care can come from the wider community, not just parents.",
+      "difficulty": "hard",
+      "tags": ["animals", "oviparous", "parental-care", "ants", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-014",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "Why do some animals (like turtles) lay hundreds of eggs while others (like elephants) have only one baby at a time?",
+      "options": ["Turtles are stronger than elephants", "Animals that give no parental care lay many eggs so some survive; animals with intensive care need fewer young", "It depends on what they eat", "It is random"],
+      "correctIndex": 1,
+      "explanation": "Turtles lay many eggs and abandon them — most won't survive, but some will. Elephants invest years of care in each calf, so even one calf has a very high chance of survival.",
+      "difficulty": "hard",
+      "tags": ["animals", "reproduction", "strategy", "review"]
+    },
+    {
+      "id": "g2s-w26-fri-015",
+      "goalId": "grade-2-science-w26-fri",
+      "question": "Compare: 'Animals that live alone' vs 'Animals that live in groups'. Which is ALWAYS true?",
+      "options": ["Solitary animals are always predators; group animals are always prey", "Living in a group always means more safety", "Each survival strategy (solitary or group) has advantages depending on the animal's environment and food habits", "Group animals are always bigger"],
+      "correctIndex": 2,
+      "explanation": "Neither strategy is universally better. Solitary animals like tigers are apex predators who don't need a pack. Social animals like wolves need cooperation. Each strategy suits different environments and food habits.",
+      "difficulty": "hard",
+      "tags": ["animals", "groups", "solitary", "comparison", "review"]
+    }
+  ]
+}

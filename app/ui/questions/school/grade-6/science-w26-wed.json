@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-science-w26-wed",
+  "title": "Grade 6 Science — Wed, Jun 25",
+  "description": "Light, Shadows and Reflections — Day 3 of 5: Reflection of light — laws, plane mirrors, images",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6s-w26-wed-001",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "Reflection of light means:",
+      "options": ["Light being absorbed by a surface", "Light bouncing back from a surface and changing direction", "Light bending as it enters a new medium", "Light splitting into colours"],
+      "correctIndex": 1,
+      "explanation": "Reflection: when light hits a surface and bounces back. All objects reflect some light — that's how we see them. A smooth surface (mirror) reflects light in an ordered way (specular reflection); rough surfaces scatter it (diffuse reflection).",
+      "difficulty": "easy",
+      "tags": ["reflection", "definition"]
+    },
+    {
+      "id": "g6s-w26-wed-002",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "The first law of reflection states:",
+      "options": ["The reflected ray bends toward the normal", "The angle of incidence equals the angle of reflection (∠i = ∠r)", "Light travels faster after reflection", "Reflected light is always vertical"],
+      "correctIndex": 1,
+      "explanation": "First law: ∠i = ∠r (angle of incidence = angle of reflection). Both angles are measured from the normal (perpendicular to mirror surface at the point of incidence). Second law: incident ray, normal, and reflected ray are all in the same plane.",
+      "difficulty": "easy",
+      "tags": ["reflection", "laws", "angle"]
+    },
+    {
+      "id": "g6s-w26-wed-003",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "What is the 'normal' in the context of reflection?",
+      "options": ["A regular ray of light", "A perpendicular line drawn at the point of incidence on the reflecting surface", "The incident ray", "The mirror's surface"],
+      "correctIndex": 1,
+      "explanation": "The normal is an imaginary perpendicular line (90° to the mirror surface) at the exact point where the incident ray hits. Angles of incidence and reflection are always measured from this normal, NOT from the mirror surface.",
+      "difficulty": "easy",
+      "tags": ["reflection", "normal", "definition"]
+    },
+    {
+      "id": "g6s-w26-wed-004",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "If the angle of incidence is 35°, the angle of reflection is:",
+      "options": ["55°", "35°", "70°", "145°"],
+      "correctIndex": 1,
+      "explanation": "∠i = ∠r = 35°. The first law of reflection: angle of incidence equals angle of reflection.",
+      "difficulty": "medium",
+      "tags": ["reflection", "angle-calculation"]
+    },
+    {
+      "id": "g6s-w26-wed-005",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "A plane mirror forms an image that is:",
+      "options": ["Inverted and enlarged", "Virtual, erect (upright), and same size as the object — located as far behind the mirror as the object is in front", "Real and inverted", "Smaller and inverted"],
+      "correctIndex": 1,
+      "explanation": "Plane mirror image properties: (1) Virtual (cannot be formed on screen). (2) Erect (right-side up). (3) Same size as object. (4) Laterally inverted (left-right reversed). (5) Image distance = object distance (behind mirror).",
+      "difficulty": "medium",
+      "tags": ["reflection", "plane-mirror", "image-properties"]
+    },
+    {
+      "id": "g6s-w26-wed-006",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "Lateral inversion in a plane mirror means:",
+      "options": ["Top and bottom are reversed", "Left and right are reversed — your right hand appears as the left hand in the mirror", "The image is upside down", "The image is magnified"],
+      "correctIndex": 1,
+      "explanation": "Lateral inversion: left-right reversal. When you raise your right hand, your mirror image appears to raise its LEFT hand. This is why text appears reversed in a mirror (AMBULANCE is written reversed on the front of the vehicle so it reads correctly in rear-view mirrors).",
+      "difficulty": "medium",
+      "tags": ["reflection", "lateral-inversion"]
+    },
+    {
+      "id": "g6s-w26-wed-007",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "An object is placed 15 cm in front of a plane mirror. The image is:",
+      "options": ["15 cm in front of the mirror", "15 cm behind the mirror", "30 cm behind the mirror", "7.5 cm behind the mirror"],
+      "correctIndex": 1,
+      "explanation": "Plane mirror: image distance = object distance = 15 cm. Image is 15 cm BEHIND the mirror (virtual). The image is not on a screen — it appears to be behind the mirror.",
+      "difficulty": "hard",
+      "tags": ["reflection", "image-distance", "plane-mirror"]
+    },
+    {
+      "id": "g6s-w26-wed-008",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "What is specular (regular) reflection?",
+      "options": ["Reflection from a rough surface in all directions", "Reflection from a smooth surface where parallel rays remain parallel after reflection — produces a clear, sharp image (mirror, calm water)", "Absorption of all light by black surfaces", "Scattering of coloured light"],
+      "correctIndex": 1,
+      "explanation": "Specular reflection: smooth surface → parallel incident rays reflect as parallel reflected rays → clear image. Diffuse reflection: rough surface → parallel rays scatter in many directions → no clear image (matte surfaces, paper, walls).",
+      "difficulty": "hard",
+      "tags": ["reflection", "specular", "diffuse"]
+    },
+    {
+      "id": "g6s-w26-wed-009",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "Two plane mirrors are placed at 90° to each other. How many images of an object placed between them will be seen?",
+      "options": ["1", "2", "3", "4"],
+      "correctIndex": 2,
+      "explanation": "Number of images = (360°/angle) − 1 = (360/90) − 1 = 4 − 1 = 3 images. This formula applies when 360/angle is an even integer.",
+      "difficulty": "hard",
+      "tags": ["reflection", "two-mirrors", "images"]
+    },
+    {
+      "id": "g6s-w26-wed-010",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "Why is the word 'AMBULANCE' written in reverse on ambulance vehicles?",
+      "options": ["To confuse people", "Because of lateral inversion — when the driver in front looks in the rear-view mirror, the laterally inverted text becomes readable: 'AMBULANCE'", "It looks attractive", "It's an old tradition"],
+      "correctIndex": 1,
+      "explanation": "Rear-view mirrors laterally invert text. Writing AMBULANCE reversed on the vehicle front means rear-view mirror inversion restores it to readable form, alerting drivers to let the ambulance pass.",
+      "difficulty": "hard",
+      "tags": ["reflection", "lateral-inversion", "ambulance"]
+    },
+    {
+      "id": "g6s-w26-wed-011",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "Why can we see the reflection of trees and mountains in a still lake?",
+      "options": ["Trees produce underwater light", "The calm water surface acts as a plane mirror (specular reflection) — it reflects the light from the tree/mountain upward to your eye", "The water is transparent", "Lakes are luminous at certain times"],
+      "correctIndex": 1,
+      "explanation": "Still water = smooth surface → specular reflection → mirror-like image. A rough/wavy lake surface → diffuse reflection → no clear reflection. This is why reflections in water are clearer on windless days.",
+      "difficulty": "hard",
+      "tags": ["reflection", "water", "still-lake"]
+    },
+    {
+      "id": "g6s-w26-wed-012",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "A ray of light hits a mirror at an angle of 50° to the mirror surface (not the normal). Angle of reflection =",
+      "options": ["50°", "40°", "90°", "100°"],
+      "correctIndex": 1,
+      "explanation": "Angle to mirror surface = 50°. Angle to NORMAL = 90° − 50° = 40°. So angle of incidence = 40° → angle of reflection = 40°. Remember: angles are measured from the normal, not the mirror.",
+      "difficulty": "hard",
+      "tags": ["reflection", "angle-from-surface", "calculation"]
+    },
+    {
+      "id": "g6s-w26-wed-013",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "Why is the image in a plane mirror called 'virtual'?",
+      "options": ["It exists in virtual reality", "It cannot be formed on a screen — it appears to be behind the mirror where no light actually reaches; it's formed by the backward extension of reflected rays", "It is smaller than the object", "It is produced by a lens"],
+      "correctIndex": 1,
+      "explanation": "Virtual image: reflected rays diverge; they appear to come FROM a point behind the mirror. If you place a screen behind the mirror, nothing appears there. In contrast, a REAL image is formed where rays actually converge (like a projector image on a screen).",
+      "difficulty": "hard",
+      "tags": ["reflection", "virtual-image", "definition"]
+    },
+    {
+      "id": "g6s-w26-wed-014",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "Periscopes use two plane mirrors. What is their purpose?",
+      "options": ["To magnify objects", "To see objects above or around an obstacle by reflecting light twice through a tube — used in submarines to see above water", "To measure light intensity", "To reflect coloured light"],
+      "correctIndex": 1,
+      "explanation": "Periscope: two plane mirrors at 45° angles. Light enters at top, reflects 90°, travels down the tube, reflects 90° again, exits to the observer's eye. Used in submarines, trenches, and over crowds. Demonstrates practical application of the laws of reflection.",
+      "difficulty": "hard",
+      "tags": ["reflection", "periscope", "application"]
+    },
+    {
+      "id": "g6s-w26-wed-015",
+      "goalId": "grade-6-science-w26-wed",
+      "question": "If a plane mirror is tilted by 10°, by how much does the reflected ray rotate?",
+      "options": ["10°", "20°", "5°", "It doesn't change"],
+      "correctIndex": 1,
+      "explanation": "When a mirror rotates by θ, the reflected ray rotates by 2θ. So 10° tilt → 20° rotation of reflected ray. This is why galvanometers (measuring small currents) use mirrors on the coil — a small rotation gives a large pointer deflection.",
+      "difficulty": "hard",
+      "tags": ["reflection", "mirror-rotation", "2theta"]
+    }
+  ]
+}

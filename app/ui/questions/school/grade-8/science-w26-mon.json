@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-8-science-w26-mon",
+  "title": "Grade 8 Science — Mon, Jun 23",
+  "description": "Force and Pressure — Day 1 of 5: Force — types, effects, contact vs non-contact",
+  "subject": "science",
+  "category": "school",
+  "grade": 8,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-8", "weekly"],
+  "questions": [
+    {
+      "id": "g8s-w26-mon-001",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "Force is defined as:",
+      "options": ["Energy stored in an object", "A push or pull on an object — can change its speed, direction, shape, or state of rest/motion", "The weight of an object", "The momentum of a moving object"],
+      "correctIndex": 1,
+      "explanation": "Force = a push or pull. Effects: (1) set a stationary object in motion, (2) stop a moving object, (3) change speed, (4) change direction, (5) change shape. SI unit = Newton (N). Force is a vector — it has both magnitude and direction.",
+      "difficulty": "easy",
+      "tags": ["force", "definition"]
+    },
+    {
+      "id": "g8s-w26-mon-002",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "Contact forces require physical contact between objects. Which of these is a CONTACT force?",
+      "options": ["Magnetic force", "Gravitational force", "Electrostatic force", "Friction"],
+      "correctIndex": 3,
+      "explanation": "Contact forces require touching: friction, normal reaction, tension, applied force, muscular force. Non-contact (action at a distance): gravity, magnetic force, electrostatic force. Friction is the classic contact force — two surfaces must touch for friction to act.",
+      "difficulty": "easy",
+      "tags": ["force", "contact", "friction"]
+    },
+    {
+      "id": "g8s-w26-mon-003",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "A magnet attracting an iron nail without touching it is an example of:",
+      "options": ["Contact force", "Muscular force", "Non-contact force (magnetic force)", "Friction"],
+      "correctIndex": 2,
+      "explanation": "Non-contact force: acts without physical contact, across a distance. Examples: gravity (Earth pulls Moon without touching), magnetic force (magnet attracts iron), electrostatic force (charged comb attracts paper). The iron nail is attracted through air — no contact needed.",
+      "difficulty": "easy",
+      "tags": ["force", "non-contact", "magnetic"]
+    },
+    {
+      "id": "g8s-w26-mon-004",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "When two forces act on an object in the SAME direction, the net force is:",
+      "options": ["Their difference", "Their product", "Their sum (resultant = F₁ + F₂)", "Zero"],
+      "correctIndex": 2,
+      "explanation": "Forces in same direction: net force = F₁ + F₂ (add). Forces in opposite directions: net force = |F₁ − F₂| (subtract). If equal and opposite: net force = 0 (object stays still or moves at constant speed — balanced forces). This is Newton's first law in action.",
+      "difficulty": "medium",
+      "tags": ["force", "net-force", "direction"]
+    },
+    {
+      "id": "g8s-w26-mon-005",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "Two children push a box from opposite sides with forces 30 N and 20 N. The net force and direction =",
+      "options": ["50 N (toward 30 N side)", "10 N (toward 30 N side)", "10 N (toward 20 N side)", "0 N (balanced)"],
+      "correctIndex": 1,
+      "explanation": "Opposite directions: net force = 30−20 = 10 N. Direction = toward the greater force (30 N side). The box moves toward the child pushing with 30 N. If both pushed with 30 N: net = 0, box wouldn't move.",
+      "difficulty": "medium",
+      "tags": ["force", "net-force", "opposite"]
+    },
+    {
+      "id": "g8s-w26-mon-006",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "Gravity is a non-contact force. What keeps the Moon in orbit around Earth?",
+      "options": ["A physical rope or cable", "Gravitational force — Earth pulls the Moon without contact, providing centripetal force for circular orbit", "The Moon's own engine", "Atmospheric pressure"],
+      "correctIndex": 1,
+      "explanation": "Gravity acts across 3.84 lakh km of space between Earth and Moon. This gravitational pull provides the centripetal force that keeps the Moon in orbit. No contact, no physical link — pure non-contact force. Newton observed this connection between falling apple and orbiting Moon.",
+      "difficulty": "medium",
+      "tags": ["force", "gravity", "non-contact", "orbit"]
+    },
+    {
+      "id": "g8s-w26-mon-007",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "Muscular force is a type of:",
+      "options": ["Non-contact force", "Magnetic force", "Contact force — muscles must be attached to or in contact with an object to exert force", "Gravitational force"],
+      "correctIndex": 2,
+      "explanation": "Muscular force = force exerted by muscles. Always requires contact: your hand touching a ball, your foot kicking a door. Animals use muscular force for all voluntary movement. Even when animals lift heavy loads — muscles contract and pull bones (levers) in contact with the load.",
+      "difficulty": "hard",
+      "tags": ["force", "muscular", "contact"]
+    },
+    {
+      "id": "g8s-w26-mon-008",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "A force can change the SHAPE of an object. Which example demonstrates this?",
+      "options": ["Kicking a football to make it move", "Squeezing a rubber ball — it flattens", "Gravity pulling a stone downward", "A magnet rotating a compass needle"],
+      "correctIndex": 1,
+      "explanation": "Effects of force: (1) motion, (2) stop motion, (3) change direction, (4) change shape. Squeezing a rubber ball changes its shape (deformation). Kicking = motion change. Gravity = direction of motion change. Compass = rotation/direction. Only squeezing changes shape.",
+      "difficulty": "hard",
+      "tags": ["force", "shape-change", "effect"]
+    },
+    {
+      "id": "g8s-w26-mon-009",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "Electrostatic force is a non-contact force. When a plastic comb rubbed on hair attracts small bits of paper, this is because:",
+      "options": ["Magnetic force from the comb", "The comb gains electric charge through friction; the charged comb exerts electrostatic force on neutral paper at a distance", "The paper has iron in it", "Gravity becomes stronger near the comb"],
+      "correctIndex": 1,
+      "explanation": "Rubbing = friction between comb and hair → comb gains static electric charge (becomes charged). Charged comb exerts electrostatic force on uncharged paper (induces opposite charges) → paper is attracted. Non-contact: comb doesn't touch paper initially. This is electrostatics (static electricity).",
+      "difficulty": "hard",
+      "tags": ["force", "electrostatic", "non-contact"]
+    },
+    {
+      "id": "g8s-w26-mon-010",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "Forces are BALANCED when:",
+      "options": ["Net force > 0 in one direction", "The object is always at rest", "Net force = 0 — equal forces act in opposite directions; object remains at rest OR moves at constant speed", "The object accelerates"],
+      "correctIndex": 2,
+      "explanation": "Balanced forces: net force = 0. Result: no change in motion state (stays still or stays at constant velocity). Unbalanced forces: net force ≠ 0 → object accelerates (speeds up, slows down, or changes direction). A book on a table: weight down, normal force up — balanced → book stays still.",
+      "difficulty": "hard",
+      "tags": ["force", "balanced", "unbalanced"]
+    },
+    {
+      "id": "g8s-w26-mon-011",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "The SI unit of force is:",
+      "options": ["Joule", "Watt", "Newton", "Pascal"],
+      "correctIndex": 2,
+      "explanation": "Force SI unit = Newton (N), named after Isaac Newton. 1 N = force needed to accelerate 1 kg mass by 1 m/s². Derived unit: 1 N = 1 kg⋅m/s². Common forces: gravitational force on 1 kg ≈ 10 N (g ≈ 10 m/s²).",
+      "difficulty": "hard",
+      "tags": ["force", "SI-unit", "Newton"]
+    },
+    {
+      "id": "g8s-w26-mon-012",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "A ball rolling on the ground eventually stops. The force responsible for this is:",
+      "options": ["Gravity acting downward", "Friction between ball and ground — a contact force opposing motion", "Magnetic force from the Earth", "Air pressure from above"],
+      "correctIndex": 1,
+      "explanation": "Rolling friction (a type of friction) between ball and ground opposes the ball's motion and gradually slows it to a stop. Gravity acts perpendicular to motion (downward), so it doesn't stop the ball. Without friction (e.g., in space), the ball would roll forever (Newton's 1st law).",
+      "difficulty": "hard",
+      "tags": ["force", "friction", "contact", "everyday"]
+    },
+    {
+      "id": "g8s-w26-mon-013",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "Two tug-of-war teams pull a rope: Team A pulls with 500 N, Team B with 500 N in opposite direction. What happens?",
+      "options": ["Team A wins (first to pull)", "Rope moves toward Team A", "Net force = 0 — forces are balanced — rope does not move (draw)", "The rope breaks"],
+      "correctIndex": 2,
+      "explanation": "Equal and opposite forces = balanced = zero net force = no acceleration = no movement. This is Newton's 1st law: balanced forces → no change in state. In reality, tug-of-war is won when one team applies more force, making forces unbalanced.",
+      "difficulty": "hard",
+      "tags": ["force", "balanced", "tug-of-war"]
+    },
+    {
+      "id": "g8s-w26-mon-014",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "Can a force change the direction of motion without changing speed?",
+      "options": ["No — force always changes speed", "Yes — for example, a satellite in circular orbit: gravity changes direction continuously but speed stays constant (in ideal circular orbit)", "Only friction can change direction", "Only magnetic forces can change direction"],
+      "correctIndex": 1,
+      "explanation": "Force can change direction without changing speed. Circular motion example: Earth's gravity provides centripetal force on a satellite — constantly changing direction toward Earth's centre, but for a circular orbit, speed remains constant. Roller coaster turns: force changes direction not speed.",
+      "difficulty": "hard",
+      "tags": ["force", "direction-change", "circular-motion"]
+    },
+    {
+      "id": "g8s-w26-mon-015",
+      "goalId": "grade-8-science-w26-mon",
+      "question": "Which pair correctly classifies the forces?",
+      "options": ["Friction = non-contact; Gravity = contact", "Magnetic force = contact; Electrostatic = non-contact", "Friction = contact; Gravitational force = non-contact", "Normal force = non-contact; Tension = contact"],
+      "correctIndex": 2,
+      "explanation": "Correct: Friction (surfaces must touch) = contact. Gravity (acts across any distance, no contact needed) = non-contact. Common confusion: normal force and tension are also contact forces. Magnetic, electrostatic, gravitational are non-contact (action at a distance).",
+      "difficulty": "hard",
+      "tags": ["force", "classification", "contact-noncontact"]
+    }
+  ]
+}

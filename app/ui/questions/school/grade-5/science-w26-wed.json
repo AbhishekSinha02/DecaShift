@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-5-science-w26-wed",
+  "title": "Grade 5 Science — Wed, Jun 25",
+  "description": "Nervous System and Sense Organs — Day 3 of 5: Voluntary vs involuntary actions; the five senses",
+  "subject": "science",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5s-w26-wed-001",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "What is a voluntary action?",
+      "options": ["An action that happens automatically without thinking", "An action performed under conscious control — you choose to do it (e.g., writing, walking, speaking)", "Any action involving muscles", "An action controlled by the spinal cord only"],
+      "correctIndex": 1,
+      "explanation": "Voluntary actions are controlled by the cerebrum (thinking brain). You consciously decide and control them: writing, eating deliberately, speaking, raising your hand.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "voluntary", "definition"]
+    },
+    {
+      "id": "g5s-w26-wed-002",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "What is an involuntary action?",
+      "options": ["An action you choose to do slowly", "An action that happens automatically, without conscious control — your brain/spinal cord controls it (heartbeat, digestion, breathing)", "Only reflex actions", "Actions performed during sleep"],
+      "correctIndex": 1,
+      "explanation": "Involuntary actions are automatic, ongoing: heartbeat, breathing (at rest), digestion, blinking (protective reflex). Controlled by medulla oblongata and autonomic nervous system — no conscious effort needed.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "involuntary", "definition"]
+    },
+    {
+      "id": "g5s-w26-wed-003",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "Classify: Writing your name on a paper.",
+      "options": ["Involuntary — happens automatically", "Voluntary — consciously controlled by the cerebrum", "Reflex — processed in the spinal cord", "Autonomic — controlled by the heart"],
+      "correctIndex": 1,
+      "explanation": "Writing is voluntary: you consciously think, plan the letters, and control hand muscles. The cerebrum is in control.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "voluntary", "classify"]
+    },
+    {
+      "id": "g5s-w26-wed-004",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "Classify: Your heart beating 70 times per minute.",
+      "options": ["Voluntary", "Involuntary — the heart beats automatically, controlled by the medulla oblongata without conscious control", "Reflex only", "Cannot be classified"],
+      "correctIndex": 1,
+      "explanation": "Heartbeat is involuntary — you don't choose each beat. The medulla oblongata and autonomic nervous system regulate it automatically, even when you are asleep.",
+      "difficulty": "easy",
+      "tags": ["nervous-system", "involuntary", "heartbeat"]
+    },
+    {
+      "id": "g5s-w26-wed-005",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "The sense organ for sight is the eye. Light enters through the pupil and is focused by the lens onto the ___.",
+      "options": ["Cornea", "Iris", "Retina — where light-sensitive cells (rods and cones) convert light to nerve signals", "Optic disc"],
+      "correctIndex": 2,
+      "explanation": "The retina lines the back of the eye. It contains rods (dim light/black-white) and cones (colour/detail). The optic nerve carries signals from the retina to the brain for processing.",
+      "difficulty": "medium",
+      "tags": ["sense-organs", "eye", "retina"]
+    },
+    {
+      "id": "g5s-w26-wed-006",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "What part of the ear vibrates when sound waves enter?",
+      "options": ["The cochlea", "The eardrum (tympanic membrane) — it vibrates in response to sound waves", "The semicircular canals", "The outer ear (pinna)"],
+      "correctIndex": 1,
+      "explanation": "Sound waves → ear canal → eardrum vibrates → tiny bones (malleus, incus, stapes) amplify vibrations → cochlea (converts to nerve signals) → auditory nerve → brain.",
+      "difficulty": "medium",
+      "tags": ["sense-organs", "ear", "eardrum"]
+    },
+    {
+      "id": "g5s-w26-wed-007",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "The tongue detects taste through taste buds. The four basic tastes are:",
+      "options": ["Bitter, Sour, Salty, Sweet (basic four — umami is a 5th taste now recognised)", "Hot, Cold, Spicy, Bland", "Soft, Hard, Smooth, Rough", "Loud, Quiet, Sharp, Dull"],
+      "correctIndex": 0,
+      "explanation": "The four classically taught basic tastes: sweet, sour, salty, bitter. Modern science adds umami (savoury). Taste buds on the tongue detect dissolved chemicals in food.",
+      "difficulty": "medium",
+      "tags": ["sense-organs", "tongue", "taste"]
+    },
+    {
+      "id": "g5s-w26-wed-008",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "The nose detects smell. How does this work?",
+      "options": ["Tiny hairs in the nose filter air", "Chemical molecules in the air dissolve in the moist lining of the nose and stimulate olfactory (smell) receptors, which send signals to the brain", "The nose detects heat only", "Light sensors in the nose respond to particles"],
+      "correctIndex": 1,
+      "explanation": "Olfactory receptors in the nasal lining detect airborne chemicals. The olfactory nerve sends these signals directly to the brain. Humans can detect thousands of different smells.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "nose", "olfactory"]
+    },
+    {
+      "id": "g5s-w26-wed-009",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "Breathing while sleeping: Is this voluntary or involuntary?",
+      "options": ["Voluntary — you control every breath consciously", "Involuntary — the medulla oblongata automatically controls breathing rate; you can temporarily override it voluntarily but cannot stop it permanently", "Neither — lungs work independently", "Only voluntary when awake"],
+      "correctIndex": 1,
+      "explanation": "Breathing at rest is involuntary (medulla), allowing you to sleep. You can voluntarily hold your breath or breathe faster/slower, but the medulla will override you if CO₂ levels get too high.",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "breathing", "involuntary-voluntary"]
+    },
+    {
+      "id": "g5s-w26-wed-010",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "The skin is the organ of touch. What does skin detect?",
+      "options": ["Only temperature", "Touch, pressure, pain, temperature, and vibration — through specialised receptors in the skin", "Sound waves only", "Light and darkness"],
+      "correctIndex": 1,
+      "explanation": "Skin has multiple receptor types: Meissner's corpuscles (light touch), Pacinian corpuscles (pressure/vibration), thermoreceptors (temperature), nociceptors (pain). This is the sense of touch.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "skin", "touch"]
+    },
+    {
+      "id": "g5s-w26-wed-011",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "Why can't you smell food when you have a blocked nose?",
+      "options": ["The tongue stops working", "Blocked nose prevents airborne molecules reaching the olfactory receptors — smell + taste together create 'flavour'; without smell, food tastes bland", "Food has no smell when cooked", "The brain shuts down taste when ill"],
+      "correctIndex": 1,
+      "explanation": "Approximately 80% of what we call 'taste' is actually smell. With a blocked nose, olfactory receptors can't detect the chemical molecules, so food seems tasteless — only basic tastes (sweet/salty/sour/bitter) remain.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "smell-taste", "connection"]
+    },
+    {
+      "id": "g5s-w26-wed-012",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "Why do we have two eyes, two ears, and two nostrils (but one mouth, one tongue)?",
+      "options": ["Random design", "Paired organs give directional information (stereo) — two eyes judge depth/distance, two ears locate sound direction, two nostrils help identify smell direction; the single tongue's location in the mouth already samples the whole meal", "To make the face symmetrical only", "Backup in case one is damaged"],
+      "correctIndex": 1,
+      "explanation": "Paired sense organs provide binocular/binaural/stereoscopic advantages: depth perception (eyes), sound localisation (ears), flow-sensing (nostrils). Single tongue/mouth covers all food surfaces without needing duplication.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "paired-organs", "reasoning"]
+    },
+    {
+      "id": "g5s-w26-wed-013",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "Classify each: (A) Digestion (B) Jumping (C) Blinking to protect eye (D) Reading a book",
+      "options": ["All voluntary", "A=involuntary, B=voluntary, C=reflex, D=voluntary", "A=reflex, B=involuntary, C=voluntary, D=involuntary", "All involuntary"],
+      "correctIndex": 1,
+      "explanation": "Digestion = involuntary (happens automatically). Jumping = voluntary (you decide). Protective blinking = reflex (automatic, spinal-mediated). Reading = voluntary (conscious, controlled by cerebrum).",
+      "difficulty": "hard",
+      "tags": ["nervous-system", "classify-all-three", "review"]
+    },
+    {
+      "id": "g5s-w26-wed-014",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "The pupil of the eye gets smaller in bright light and larger in dim light. Is this voluntary or involuntary?",
+      "options": ["Voluntary — you control it", "Involuntary — the iris muscle automatically adjusts the pupil size to control the amount of light entering (reflex arc via the autonomic nervous system)", "Partly voluntary, partly reflex", "The pupil doesn't change size"],
+      "correctIndex": 1,
+      "explanation": "The pupillary light reflex is involuntary. Bright light → iris sphincter contracts → pupil shrinks (less light in). Dim light → iris dilator contracts → pupil widens (more light in). You cannot voluntarily control it.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "pupil", "involuntary-reflex"]
+    },
+    {
+      "id": "g5s-w26-wed-015",
+      "goalId": "grade-5-science-w26-wed",
+      "question": "Which part of the ear is responsible for balance, not hearing?",
+      "options": ["Cochlea", "Eardrum", "Semicircular canals — they detect rotational movement and help maintain balance", "Outer ear (pinna)"],
+      "correctIndex": 2,
+      "explanation": "The cochlea processes sound (hearing). The three semicircular canals (in the inner ear) detect rotational movement in 3 planes and send balance information to the cerebellum. That's why ear infections can cause dizziness.",
+      "difficulty": "hard",
+      "tags": ["sense-organs", "ear", "balance", "semicircular-canals"]
+    }
+  ]
+}

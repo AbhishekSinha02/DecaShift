@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-math-w26-tue",
+  "title": "Grade 6 Math — Tue, Jun 24",
+  "description": "Mensuration — Day 2 of 5: Area of rectangles, squares and triangles",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6m-w26-tue-001",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "Area of a rectangle: l=15 cm, b=8 cm",
+      "options": ["23 cm²", "46 cm²", "90 cm²", "120 cm²"],
+      "correctIndex": 3,
+      "explanation": "Area = l × b = 15 × 8 = 120 cm².",
+      "difficulty": "easy",
+      "tags": ["area", "rectangle"]
+    },
+    {
+      "id": "g6m-w26-tue-002",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "Area of a square with side 12 cm =",
+      "options": ["24 cm²", "48 cm²", "144 cm²", "12 cm²"],
+      "correctIndex": 2,
+      "explanation": "Area = side² = 12 × 12 = 144 cm².",
+      "difficulty": "easy",
+      "tags": ["area", "square"]
+    },
+    {
+      "id": "g6m-w26-tue-003",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "Area of a triangle: base=10 cm, height=6 cm",
+      "options": ["16 cm²", "30 cm²", "60 cm²", "15 cm²"],
+      "correctIndex": 1,
+      "explanation": "Area = ½ × base × height = ½ × 10 × 6 = 30 cm².",
+      "difficulty": "easy",
+      "tags": ["area", "triangle"]
+    },
+    {
+      "id": "g6m-w26-tue-004",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "Area of a rectangle is 96 cm². Length = 12 cm. Breadth =",
+      "options": ["4 cm", "6 cm", "8 cm", "84 cm"],
+      "correctIndex": 2,
+      "explanation": "A = l × b → 96 = 12 × b → b = 96 ÷ 12 = 8 cm.",
+      "difficulty": "easy",
+      "tags": ["area", "rectangle", "find-breadth"]
+    },
+    {
+      "id": "g6m-w26-tue-005",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "A triangular park: base = 24 m, height = 15 m. Area =",
+      "options": ["180 m²", "360 m²", "39 m²", "240 m²"],
+      "correctIndex": 0,
+      "explanation": "Area = ½ × 24 × 15 = ½ × 360 = 180 m².",
+      "difficulty": "medium",
+      "tags": ["area", "triangle", "word-problem"]
+    },
+    {
+      "id": "g6m-w26-tue-006",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "A rectangular floor (9 m × 6 m) is tiled with square tiles of side 50 cm. Number of tiles =",
+      "options": ["108", "216", "144", "324"],
+      "correctIndex": 1,
+      "explanation": "Floor area = 9×6 = 54 m² = 54 × 10,000 = 5,40,000 cm². Tile area = 50×50 = 2,500 cm². Tiles = 5,40,000 ÷ 2,500 = 216 tiles.",
+      "difficulty": "medium",
+      "tags": ["area", "tiling", "conversion"]
+    },
+    {
+      "id": "g6m-w26-tue-007",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "Area of a right-angled triangle: legs = 8 cm and 6 cm",
+      "options": ["14 cm²", "24 cm²", "48 cm²", "10 cm²"],
+      "correctIndex": 1,
+      "explanation": "In a right triangle, the two legs are base and height. Area = ½ × 8 × 6 = 24 cm².",
+      "difficulty": "medium",
+      "tags": ["area", "right-triangle"]
+    },
+    {
+      "id": "g6m-w26-tue-008",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "Cost of painting a wall (10 m × 4 m) at ₹18 per m² =",
+      "options": ["₹180", "₹360", "₹540", "₹720"],
+      "correctIndex": 3,
+      "explanation": "Area = 10 × 4 = 40 m². Cost = 40 × 18 = ₹720.",
+      "difficulty": "medium",
+      "tags": ["area", "rectangle", "cost"]
+    },
+    {
+      "id": "g6m-w26-tue-009",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "A square's area = 196 cm². Side length =",
+      "options": ["12 cm", "14 cm", "16 cm", "49 cm"],
+      "correctIndex": 1,
+      "explanation": "Area = side² → 196 = side² → side = √196 = 14 cm.",
+      "difficulty": "hard",
+      "tags": ["area", "square", "square-root"]
+    },
+    {
+      "id": "g6m-w26-tue-010",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "A rectangle has area = 1,200 cm² and perimeter = 140 cm. Find its dimensions.",
+      "options": ["l=40, b=30", "l=60, b=20", "l=50, b=24", "l=48, b=25"],
+      "correctIndex": 1,
+      "explanation": "Perimeter = 2(l+b) = 140 → l+b = 70. Area = l×b = 1,200. So l and b are roots of x²−70x+1,200=0 → (x−60)(x−20)=0 → l=60, b=20.",
+      "difficulty": "hard",
+      "tags": ["area", "rectangle", "systems-of-equations"]
+    },
+    {
+      "id": "g6m-w26-tue-011",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "An L-shaped figure (10×8 cm with a 4×3 cm rectangle removed from top-right). Area =",
+      "options": ["50 cm²", "68 cm²", "80 cm²", "92 cm²"],
+      "correctIndex": 1,
+      "explanation": "Full rectangle = 10×8 = 80 cm². Removed piece = 4×3 = 12 cm². L-shape area = 80 − 12 = 68 cm².",
+      "difficulty": "hard",
+      "tags": ["area", "L-shape", "composite"]
+    },
+    {
+      "id": "g6m-w26-tue-012",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "A triangle has area 150 cm² and base 20 cm. Height =",
+      "options": ["7.5 cm", "10 cm", "15 cm", "30 cm"],
+      "correctIndex": 2,
+      "explanation": "150 = ½ × 20 × h → 150 = 10h → h = 15 cm.",
+      "difficulty": "hard",
+      "tags": ["area", "triangle", "find-height"]
+    },
+    {
+      "id": "g6m-w26-tue-013",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "A rectangular piece of cardboard is 20 cm × 15 cm. A square of side 3 cm is cut from each corner. Area remaining =",
+      "options": ["264 cm²", "300 cm²", "228 cm²", "264 cm²"],
+      "correctIndex": 0,
+      "explanation": "Original area = 20×15 = 300 cm². Four squares cut = 4 × (3×3) = 4×9 = 36 cm². Remaining = 300 − 36 = 264 cm².",
+      "difficulty": "hard",
+      "tags": ["area", "rectangle", "cut-corners"]
+    },
+    {
+      "id": "g6m-w26-tue-014",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "Which has larger area: a square with side 10 cm, or a rectangle 13 cm × 8 cm?",
+      "options": ["Square (100 cm²)", "Rectangle (104 cm²)", "Both equal", "Cannot determine"],
+      "correctIndex": 1,
+      "explanation": "Square = 10² = 100 cm². Rectangle = 13 × 8 = 104 cm². Rectangle is larger by 4 cm².",
+      "difficulty": "hard",
+      "tags": ["area", "comparison"]
+    },
+    {
+      "id": "g6m-w26-tue-015",
+      "goalId": "grade-6-math-w26-tue",
+      "question": "A path of width 2 m runs around the inside of a rectangular park (30 m × 20 m). Area of the path =",
+      "options": ["100 m²", "184 m²", "200 m²", "416 m²"],
+      "correctIndex": 1,
+      "explanation": "Outer area = 30×20 = 600 m². Inner area (excluding path) = (30−4)×(20−4) = 26×16 = 416 m². Path area = 600 − 416 = 184 m².",
+      "difficulty": "hard",
+      "tags": ["area", "border", "path"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-2-science-w26-mon",
+  "title": "Grade 2 Science — Mon, Jun 23",
+  "description": "Animals and Their Young Ones — Day 1 of 5: Viviparous vs Oviparous animals",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2s-w26-mon-001",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "Which animal gives birth to live young ones (does NOT lay eggs)?",
+      "options": ["Hen", "Frog", "Dog", "Lizard"],
+      "correctIndex": 2,
+      "explanation": "Dogs give birth to live young ones (puppies). Hens, frogs and lizards lay eggs.",
+      "difficulty": "easy",
+      "tags": ["animals", "viviparous", "reproduction"]
+    },
+    {
+      "id": "g2s-w26-mon-002",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "Which animal lays eggs?",
+      "options": ["Cow", "Goat", "Hen", "Cat"],
+      "correctIndex": 2,
+      "explanation": "Hens lay eggs. Cows, goats and cats give birth to live young ones.",
+      "difficulty": "easy",
+      "tags": ["animals", "oviparous", "reproduction"]
+    },
+    {
+      "id": "g2s-w26-mon-003",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "Animals that give birth to live young ones are called:",
+      "options": ["Oviparous", "Viviparous", "Herbivores", "Omnivores"],
+      "correctIndex": 1,
+      "explanation": "Viviparous animals give birth to live young ones. The word comes from 'vivus' (alive) and 'parere' (to give birth).",
+      "difficulty": "easy",
+      "tags": ["animals", "viviparous", "vocabulary"]
+    },
+    {
+      "id": "g2s-w26-mon-004",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "Animals that lay eggs are called:",
+      "options": ["Viviparous", "Carnivores", "Oviparous", "Mammals"],
+      "correctIndex": 2,
+      "explanation": "Oviparous animals lay eggs. Birds, fish, reptiles and most insects are oviparous.",
+      "difficulty": "easy",
+      "tags": ["animals", "oviparous", "vocabulary"]
+    },
+    {
+      "id": "g2s-w26-mon-005",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "A butterfly is an example of which type of animal?",
+      "options": ["Viviparous", "Oviparous", "Mammal", "None of these"],
+      "correctIndex": 1,
+      "explanation": "Butterflies lay eggs — they are oviparous. The eggs hatch into caterpillars which then become butterflies.",
+      "difficulty": "easy",
+      "tags": ["animals", "oviparous", "insects"]
+    },
+    {
+      "id": "g2s-w26-mon-006",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "Which of the following is a viviparous animal?",
+      "options": ["Crocodile", "Parrot", "Whale", "Turtle"],
+      "correctIndex": 2,
+      "explanation": "Whales are viviparous — they give birth to live young ones in the ocean. Crocodiles, parrots and turtles lay eggs.",
+      "difficulty": "easy",
+      "tags": ["animals", "viviparous", "mammals"]
+    },
+    {
+      "id": "g2s-w26-mon-007",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "A duck lays eggs. A rabbit gives birth to babies. Which statement is TRUE?",
+      "options": ["Both are oviparous", "Duck is viviparous; rabbit is oviparous", "Duck is oviparous; rabbit is viviparous", "Both are viviparous"],
+      "correctIndex": 2,
+      "explanation": "A duck lays eggs so it is oviparous. A rabbit gives birth to live young ones so it is viviparous.",
+      "difficulty": "medium",
+      "tags": ["animals", "classification", "reproduction"]
+    },
+    {
+      "id": "g2s-w26-mon-008",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "Which of these is the ODD ONE OUT (does not belong to the same group)?",
+      "options": ["Dog", "Cat", "Eagle", "Cow"],
+      "correctIndex": 2,
+      "explanation": "Dogs, cats and cows are viviparous (give birth to live young ones). Eagles lay eggs, so they are oviparous — the odd one out.",
+      "difficulty": "medium",
+      "tags": ["animals", "classification", "odd-one-out"]
+    },
+    {
+      "id": "g2s-w26-mon-009",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "Fish are oviparous. What does this mean?",
+      "options": ["They live in water", "They lay eggs", "They give birth to live young ones", "They are very small"],
+      "correctIndex": 1,
+      "explanation": "Oviparous means egg-laying. Most fish are oviparous and lay eggs in water.",
+      "difficulty": "medium",
+      "tags": ["animals", "oviparous", "fish"]
+    },
+    {
+      "id": "g2s-w26-mon-010",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "Snakes lay eggs. Which group do they belong to?",
+      "options": ["Viviparous", "Oviparous", "Mammals", "Birds"],
+      "correctIndex": 1,
+      "explanation": "Since snakes lay eggs, they are oviparous. Most reptiles like snakes, lizards and crocodiles are oviparous.",
+      "difficulty": "medium",
+      "tags": ["animals", "oviparous", "reptiles"]
+    },
+    {
+      "id": "g2s-w26-mon-011",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "Which pair shows one oviparous and one viviparous animal?",
+      "options": ["Hen and duck", "Dog and cat", "Hen and dog", "Fish and frog"],
+      "correctIndex": 2,
+      "explanation": "Hen is oviparous (lays eggs). Dog is viviparous (gives birth to puppies). So 'Hen and dog' is the correct pair.",
+      "difficulty": "medium",
+      "tags": ["animals", "classification", "pairs"]
+    },
+    {
+      "id": "g2s-w26-mon-012",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "All mammals are viviparous. Which of these is NOT a mammal?",
+      "options": ["Elephant", "Bat", "Lizard", "Deer"],
+      "correctIndex": 2,
+      "explanation": "Lizards are reptiles, not mammals. They are oviparous (lay eggs). Elephants, bats and deer are mammals and viviparous.",
+      "difficulty": "medium",
+      "tags": ["animals", "mammals", "classification"]
+    },
+    {
+      "id": "g2s-w26-mon-013",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "A platypus is a mammal that lays eggs. What makes it special?",
+      "options": ["It is the only flying mammal", "It is a mammal that is also oviparous", "It gives birth like all other mammals", "It lives only in India"],
+      "correctIndex": 1,
+      "explanation": "The platypus is unique — it is a mammal (has fur, feeds young with milk) but also lays eggs, making it oviparous. It is one of very few egg-laying mammals.",
+      "difficulty": "hard",
+      "tags": ["animals", "platypus", "special-cases"]
+    },
+    {
+      "id": "g2s-w26-mon-014",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "A child is making two groups: Group A = viviparous, Group B = oviparous. Where does a shark go?",
+      "options": ["Group A only", "Group B only", "Both groups (some sharks do both)", "Neither group"],
+      "correctIndex": 2,
+      "explanation": "Interestingly, some sharks lay eggs (oviparous) and some give birth to live young (viviparous). This is a fascinating exception in nature.",
+      "difficulty": "hard",
+      "tags": ["animals", "sharks", "exceptions"]
+    },
+    {
+      "id": "g2s-w26-mon-015",
+      "goalId": "grade-2-science-w26-mon",
+      "question": "Why is it useful for scientists to classify animals as viviparous or oviparous?",
+      "options": ["To count how many animals exist", "To understand how different animals reproduce and care for offspring", "To find out what animals eat", "To measure how big animals grow"],
+      "correctIndex": 1,
+      "explanation": "Classifying animals helps scientists study their reproductive methods. Viviparous animals carry young inside; oviparous animals protect eggs outside. This affects how they care for offspring.",
+      "difficulty": "hard",
+      "tags": ["animals", "classification", "science-reasoning"]
+    }
+  ]
+}

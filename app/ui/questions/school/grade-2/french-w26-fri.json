@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-2-french-w26-fri",
+  "title": "Grade 2 French — Fri, Jun 27",
+  "description": "Les animaux — Day 5 of 5: Mixed review + 'J'aime/Je n'aime pas'",
+  "subject": "french",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "fri",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "les-animaux",
+  "tags": ["french", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2f-w26-fri-001",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "How do you say 'I like dogs' in French?",
+      "options": ["Je n'aime pas les chiens.", "J'aime les chiens.", "J'aime le chien.", "J'aime des chiens."],
+      "correctIndex": 1,
+      "explanation": "When expressing general likes in French, use 'les' (definite plural article): 'J'aime les chiens.' = 'I like dogs (in general).'",
+      "difficulty": "easy",
+      "tags": ["french", "j-aime", "vocabulary", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-002",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "What is 'la vache' in English?",
+      "options": ["The horse", "The cow", "The sheep", "The pig"],
+      "correctIndex": 1,
+      "explanation": "'La vache' = the cow. One of the five key farm animals learnt this week.",
+      "difficulty": "easy",
+      "tags": ["french", "animals", "farm", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-003",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "What is 'le lapin' in English?",
+      "options": ["The dog", "The cat", "The rabbit", "The bird"],
+      "correctIndex": 2,
+      "explanation": "'Le lapin' = the rabbit. A common pet animal in French.",
+      "difficulty": "easy",
+      "tags": ["french", "animals", "pets", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-004",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "How do you say 'I do not like snakes' in French?",
+      "options": ["J'aime les serpents.", "Je n'aime pas les serpents.", "Je n'aime pas des serpents.", "J'aime pas les serpents."],
+      "correctIndex": 1,
+      "explanation": "'Je n'aime pas' = I do not like. 'Les serpents' = snakes (plural). 'Je n'aime pas les serpents.'",
+      "difficulty": "easy",
+      "tags": ["french", "negation", "j-aime-pas", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-005",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "Which of these is a wild animal in French?",
+      "options": ["le chien", "la vache", "le cochon", "le lion"],
+      "correctIndex": 3,
+      "explanation": "'Le lion' is a wild animal. 'Le chien' (dog) and 'la vache' (cow) are farm/pet animals; 'le cochon' (pig) is a farm animal.",
+      "difficulty": "easy",
+      "tags": ["french", "wild-animals", "classification", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-006",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "Translate: 'I like monkeys but I do not like snakes.'",
+      "options": ["J'aime les singes mais je n'aime pas les serpents.", "J'aime les singes et je n'aime pas les serpents.", "J'aime les singe mais je n'aime pas les serpent.", "Je n'aime pas les singes mais j'aime les serpents."],
+      "correctIndex": 0,
+      "explanation": "'J'aime les singes' (monkeys) + 'mais' (but) + 'je n'aime pas les serpents' (I don't like snakes). 'J'aime les singes mais je n'aime pas les serpents.'",
+      "difficulty": "medium",
+      "tags": ["french", "sentence", "mais", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-007",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "Which sentence correctly uses 'l'' (élision)?",
+      "options": ["Le éléphant est grand.", "L'oiseau est petit.", "La oiseau est petit.", "L'chien est grand."],
+      "correctIndex": 1,
+      "explanation": "'L'oiseau' — 'oiseau' starts with a vowel so 'le' → 'l''. 'L'oiseau est petit.' is correct. 'L'chien' is wrong because 'chien' starts with a consonant.",
+      "difficulty": "medium",
+      "tags": ["french", "elision", "grammar", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-008",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "Write the answer to this riddle: 'Il est rayé. Il vit dans la jungle. Il mange de la viande. Quel animal est-ce?'",
+      "options": ["C'est un éléphant.", "C'est un mouton.", "C'est un tigre.", "C'est un lapin."],
+      "correctIndex": 2,
+      "explanation": "Striped (rayé), lives in jungle (vit dans la jungle), eats meat (mange de la viande) = le tigre (tiger). 'C'est un tigre.'",
+      "difficulty": "medium",
+      "tags": ["french", "riddle", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-009",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "How do you say 'I have two cats and one dog' in French?",
+      "options": ["J'ai deux chats et un chien.", "J'ai deux chat et une chien.", "J'ai deux les chats et un chien.", "J'ai deux chats et un chiens."],
+      "correctIndex": 0,
+      "explanation": "'Deux chats' (two cats, no article with numbers) + 'et' + 'un chien' (a dog). 'J'ai deux chats et un chien.'",
+      "difficulty": "medium",
+      "tags": ["french", "numbers", "sentence", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-010",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "Categorize: Which list has ONLY pets?",
+      "options": ["le chien, le chat, le lion", "le lapin, le poisson, l'oiseau", "la vache, le lapin, le chat", "le tigre, le chien, le chat"],
+      "correctIndex": 1,
+      "explanation": "Le lapin (rabbit), le poisson (fish), l'oiseau (bird) — all common pets. The other lists include wild animals (lion, tiger) or farm animals (la vache).",
+      "difficulty": "medium",
+      "tags": ["french", "pets", "classification", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-011",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "Write a short paragraph: 'I have a pet. It is a rabbit. I like it very much.'",
+      "options": ["J'ai un animal domestique. C'est un lapin. Je l'aime beaucoup.", "J'ai une animal domestique. C'est une lapin. Je l'aime beaucoup.", "J'ai un animal domestique. C'est le lapin. J'aime beaucoup.", "J'ai un animal. C'est un lapin. Je l'aime très."],
+      "correctIndex": 0,
+      "explanation": "'Un animal domestique' (masc.). 'C'est un lapin.' 'Je l'aime beaucoup' = I like it very much ('l'' = it, referring to le lapin).",
+      "difficulty": "hard",
+      "tags": ["french", "paragraph", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-012",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "Express preference: 'I prefer cats to dogs.' in French.",
+      "options": ["Je préfère les chats aux chiens.", "Je préfère les chats et les chiens.", "J'aime les chats mais pas les chiens.", "Je préfère le chat au chien."],
+      "correctIndex": 0,
+      "explanation": "'Je préfère' = I prefer. 'Les chats' (cats, plural). 'Aux chiens' = to/over dogs ('aux' = à + les). 'Je préfère les chats aux chiens.'",
+      "difficulty": "hard",
+      "tags": ["french", "preference", "je-prefere"]
+    },
+    {
+      "id": "g2f-w26-fri-013",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "This week you learned farm, wild and pet animals. Categorize correctly: 'un cheval, un serpent, un poisson'",
+      "options": ["Farm, wild, pet", "Wild, wild, wild", "Pet, farm, wild", "Farm, farm, pet"],
+      "correctIndex": 0,
+      "explanation": "'Un cheval' (horse) = farm animal. 'Un serpent' (snake) = wild animal. 'Un poisson' (fish) = pet (in an aquarium). So: farm, wild, pet.",
+      "difficulty": "hard",
+      "tags": ["french", "classification", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-014",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "Complete the dialogue: A: 'Est-ce que tu aimes les animaux?' B: '___'",
+      "options": ["Oui, j'aime beaucoup les animaux, surtout les chats!", "Oui, j'aime les animaux beaucoup très.", "Non, je n'aime pas pas les animaux.", "Je les animaux n'aime pas."],
+      "correctIndex": 0,
+      "explanation": "'Oui, j'aime beaucoup les animaux, surtout les chats!' = 'Yes, I like animals very much, especially cats!' This is grammatically correct and natural French.",
+      "difficulty": "hard",
+      "tags": ["french", "dialogue", "review"]
+    },
+    {
+      "id": "g2f-w26-fri-015",
+      "goalId": "grade-2-french-w26-fri",
+      "question": "Why is learning animal vocabulary useful in French?",
+      "options": ["Only for talking about zoos", "Animals appear in daily conversations, stories, descriptions and nature topics — core vocabulary for any French speaker", "Only scientists need animal words", "It helps only in writing, not speaking"],
+      "correctIndex": 1,
+      "explanation": "Animal vocabulary is fundamental French — used in stories, comparisons ('courageux comme un lion'), daily life (pets), and nature topics. It also practices gender, articles, adjectives and sentence structures.",
+      "difficulty": "hard",
+      "tags": ["french", "vocabulary", "importance", "review"]
+    }
+  ]
+}

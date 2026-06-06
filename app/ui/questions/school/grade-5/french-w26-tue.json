@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-5-french-w26-tue",
+  "title": "Grade 5 French — Tue, Jun 24",
+  "description": "Les métiers — Day 2 of 5: Feminine forms of professions",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "les-metiers",
+  "tags": ["french", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5f-w26-tue-001",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "What is the feminine form of 'un acteur' (an actor)?",
+      "options": ["une acteure", "une acteuse", "une actrice", "une acteur"],
+      "correctIndex": 2,
+      "explanation": "'Un acteur' (m) → 'une actrice' (f). This is an irregular feminine — not simply adding 'e'. Compare: directeur→directrice, instituteur→institutrice.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "feminine", "actrice"]
+    },
+    {
+      "id": "g5f-w26-tue-002",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "What is the feminine form of 'un chanteur' (a singer)?",
+      "options": ["une chanteuse", "une chantrice", "une chanteure", "une chantée"],
+      "correctIndex": 0,
+      "explanation": "'Un chanteur' → 'une chanteuse'. The -eur suffix changes to -euse for the feminine in many professions: danseur→danseuse, vendeur→vendeuse.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "feminine", "chanteuse"]
+    },
+    {
+      "id": "g5f-w26-tue-003",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "'Un professeur' in French is unusual because:",
+      "options": ["It has no feminine form", "The word itself stays 'professeur' for both genders in traditional use — though 'une professeure' is increasingly used in modern French", "The feminine is 'une professeuse'", "All professions are the same for male and female"],
+      "correctIndex": 1,
+      "explanation": "Traditionally 'professeur' was invariable (same for male/female). Modern French increasingly uses 'une professeure' or 'une prof' (informal). Language evolves!",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "feminine", "professeur"]
+    },
+    {
+      "id": "g5f-w26-tue-004",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "What is the feminine form of 'un médecin' (a doctor)?",
+      "options": ["une médecine", "une médecine", "une médecin (increasingly: une médecine or simply une médecin)", "une doctoresse"],
+      "correctIndex": 2,
+      "explanation": "'Médecin' was traditionally invariable. Modern usage: 'une médecin' (most common) or 'une femme médecin'. 'Doctoresse' exists but is old-fashioned. In practice: 'Elle est médecin.'",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "feminine", "medecin"]
+    },
+    {
+      "id": "g5f-w26-tue-005",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "What is the feminine of 'un cuisinier'?",
+      "options": ["une cuisinière", "une cuisinieuse", "une cuisinière", "une cuisinère"],
+      "correctIndex": 0,
+      "explanation": "'Un cuisinier' → 'une cuisinière'. The -ier suffix becomes -ière in the feminine: boulanger→boulangère, épicier→épicière.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "feminine", "cuisiniere"]
+    },
+    {
+      "id": "g5f-w26-tue-006",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "Translate: 'She is an engineer.'",
+      "options": ["Elle est un ingénieur.", "Elle est ingénieure.", "Il est ingénieure.", "Elle a ingénieure."],
+      "correctIndex": 1,
+      "explanation": "'Elle est ingénieure.' ✓ Modern French adds -e for feminine: ingénieur→ingénieure. No article needed after être in professions.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "feminine", "ingenieure"]
+    },
+    {
+      "id": "g5f-w26-tue-007",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "What is the feminine of 'un danseur' (a dancer)?",
+      "options": ["une dansrice", "une danseuse", "une dansère", "une dansée"],
+      "correctIndex": 1,
+      "explanation": "'Un danseur' → 'une danseuse'. Pattern: -eur → -euse (chanteur/chanteuse, danseur/danseuse, vendeur/vendeuse).",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "feminine", "danseuse"]
+    },
+    {
+      "id": "g5f-w26-tue-008",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "Identify the correct feminine: 'She is an actress.'",
+      "options": ["Elle est un actrice.", "Elle est actrice.", "Elle est acteuse.", "Elle actrice est."],
+      "correctIndex": 1,
+      "explanation": "'Elle est actrice.' ✓ Profession after être = no article. Actrice is the feminine of acteur.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "feminine", "actrice"]
+    },
+    {
+      "id": "g5f-w26-tue-009",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "What is the general rule for professions ending in '-eur'?",
+      "options": ["Change -eur to -ière", "Change -eur to -euse (most common: chanteur→chanteuse)", "Change -eur to -rice (all)", "No change needed for feminine"],
+      "correctIndex": 1,
+      "explanation": "Most -eur professions → -euse: chanteur/chanteuse, danseur/danseuse, vendeur/vendeuse. Exception: -teur often → -trice: acteur/actrice, directeur/directrice.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "feminine", "eur-euse-rule"]
+    },
+    {
+      "id": "g5f-w26-tue-010",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "What is the feminine of 'un agriculteur' (a farmer)?",
+      "options": ["une agricultrice", "une agricultureuse", "une agriculteure", "une agriculteuse"],
+      "correctIndex": 0,
+      "explanation": "'Un agriculteur' → 'une agricultrice'. Pattern -teur → -trice: directeur/directrice, instituteur/institutrice, agriculteur/agricultrice.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "feminine", "agricultrice"]
+    },
+    {
+      "id": "g5f-w26-tue-011",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "Some professions are the same for both genders. Which from this list is invariable?",
+      "options": ["chanteur/chanteuse", "policier/policière", "architecte (same for both: un/une architecte)", "acteur/actrice"],
+      "correctIndex": 2,
+      "explanation": "'Architecte' is invariable — 'un architecte' (male) and 'une architecte' (female). Same form, different article. Other invariable: médecin, professeur (traditionally), juge, ministre.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "feminine", "invariable"]
+    },
+    {
+      "id": "g5f-w26-tue-012",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "In French, why does the language have evolving feminine forms for professions?",
+      "options": ["To make the language harder", "As more women entered all professions, French evolved to reflect reality — using feminine forms acknowledges that women hold these roles", "Only for artistic professions", "It was always the rule — nothing changed"],
+      "correctIndex": 1,
+      "explanation": "Historically, many professions were male-dominated and had no feminine forms. As women entered all fields, French (like all living languages) adapted. Official bodies now recommend feminine forms: auteure, professeure, ingénieure.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "feminine", "language-evolution"]
+    },
+    {
+      "id": "g5f-w26-tue-013",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "Spot the error: 'Ma mère est une chanteuse professionnel.'",
+      "options": ["'chanteuse' is wrong", "'une' should not be there", "'professionnel' should be 'professionnelle' — adjectives must agree with the noun (chanteuse is feminine → professionnelle)", "No error"],
+      "correctIndex": 2,
+      "explanation": "'Chanteuse' is feminine → adjective must also be feminine: 'professionnelle' (not 'professionnel'). Correct: 'Ma mère est une chanteuse professionnelle.'",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "feminine", "adjective-agreement"]
+    },
+    {
+      "id": "g5f-w26-tue-014",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "What is the feminine of 'un directeur'?",
+      "options": ["une directeuse", "une directrice", "une directoresse", "une directeure"],
+      "correctIndex": 1,
+      "explanation": "'Un directeur' → 'une directrice'. Pattern: -teur → -trice. Common in professions: directeur/directrice, instructeur/instructrice, réalisateur/réalisatrice.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "feminine", "directrice"]
+    },
+    {
+      "id": "g5f-w26-tue-015",
+      "goalId": "grade-5-french-w26-tue",
+      "question": "Write a sentence: 'My sister is a firefighter.' in French.",
+      "options": ["Ma sœur est un pompier.", "Mon frère est une pompière.", "Ma sœur est pompière.", "Ma sœur a pompière."],
+      "correctIndex": 2,
+      "explanation": "'Ma sœur est pompière.' ✓ 'Pompier' → 'pompière' (feminine: adds -ière). Profession after être = no article. 'Ma sœur' = my sister.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "feminine", "sentence-production"]
+    }
+  ]
+}

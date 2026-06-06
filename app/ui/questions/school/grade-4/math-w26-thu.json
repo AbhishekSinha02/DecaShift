@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-4-math-w26-thu",
+  "title": "Grade 4 Math — Thu, Jun 26",
+  "description": "Data Handling — Day 4 of 5: Introduction to bar graphs",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4m-w26-thu-001",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "A bar graph uses bars (rectangles) to show data. The height of each bar represents:",
+      "options": ["The colour of the category", "The value or frequency of that category", "The width of the page", "The year the data was collected"],
+      "correctIndex": 1,
+      "explanation": "In a bar graph, taller bar = higher value. The height (or length) of each bar directly represents the numerical value of that category.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "bar-graph", "basics"]
+    },
+    {
+      "id": "g4m-w26-thu-002",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "In a bar graph, the horizontal line at the bottom is called the:",
+      "options": ["y-axis (vertical axis)", "x-axis (horizontal axis)", "Scale", "Legend"],
+      "correctIndex": 1,
+      "explanation": "The x-axis is the horizontal line at the bottom. It usually shows the categories (e.g., names of fruits, days of the week). The y-axis is the vertical line on the left showing values.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "bar-graph", "x-axis"]
+    },
+    {
+      "id": "g4m-w26-thu-003",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "Bar graph: Fruits sold. Mango bar reaches 30, Apple bar reaches 20, Banana bar reaches 25. Which fruit sold the most?",
+      "options": ["Apple", "Banana", "Mango", "All equal"],
+      "correctIndex": 2,
+      "explanation": "Mango bar = 30 (tallest). Apple = 20. Banana = 25. Mango sold the most.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "bar-graph", "read"]
+    },
+    {
+      "id": "g4m-w26-thu-004",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "The y-axis of a bar graph has numbers: 0, 5, 10, 15, 20. A bar reaches between 10 and 15, closer to 15. The value is approximately:",
+      "options": ["10", "12", "14", "20"],
+      "correctIndex": 2,
+      "explanation": "Between 10 and 15, closer to 15 = approximately 14. Reading bar graphs involves estimating values that fall between marked lines.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "bar-graph", "reading-values"]
+    },
+    {
+      "id": "g4m-w26-thu-005",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "Bar graph scale: y-axis goes 0, 10, 20, 30, 40, 50. A bar reaches the 30 mark. What is the value?",
+      "options": ["3", "30", "300", "13"],
+      "correctIndex": 1,
+      "explanation": "The bar reaches the 30 mark on the y-axis, so the value is 30. Reading the y-axis directly gives the bar's value.",
+      "difficulty": "easy",
+      "tags": ["data-handling", "bar-graph", "scale"]
+    },
+    {
+      "id": "g4m-w26-thu-006",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "Bar graph — Students absent per day: Mon=5, Tue=8, Wed=3, Thu=10, Fri=6. On which day were the MOST students absent?",
+      "options": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "correctIndex": 2,
+      "explanation": "Thursday = 10 students absent (the tallest bar). This is the maximum value in the data set.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "bar-graph", "maximum"]
+    },
+    {
+      "id": "g4m-w26-thu-007",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "Using the same absence data (Mon=5, Tue=8, Wed=3, Thu=10, Fri=6), what is the TOTAL absences for the week?",
+      "options": ["30", "32", "28", "35"],
+      "correctIndex": 1,
+      "explanation": "Total = 5+8+3+10+6 = 32 students absent for the week.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "bar-graph", "total"]
+    },
+    {
+      "id": "g4m-w26-thu-008",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "What is the difference between a PICTOGRAPH and a BAR GRAPH?",
+      "options": ["No difference — they are the same", "Pictograph uses symbols to represent data; bar graph uses rectangular bars whose height/length represents the value — bar graphs allow more precise readings", "Bar graphs only work for small numbers", "Pictographs are more accurate"],
+      "correctIndex": 1,
+      "explanation": "Pictograph: symbols (approximate, good for simple data). Bar graph: bars with a scale (precise values, easier to read exact numbers, better for larger data sets). Bar graphs are the step up from pictographs.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "pictograph-vs-bargraph"]
+    },
+    {
+      "id": "g4m-w26-thu-009",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "Bar graph: Trees in 4 parks. Park A=40, B=60, C=20, D=50. How many more trees in Park B than Park C?",
+      "options": ["20", "40", "60", "80"],
+      "correctIndex": 1,
+      "explanation": "Park B = 60. Park C = 20. Difference = 60 − 20 = 40 more trees in Park B.",
+      "difficulty": "medium",
+      "tags": ["data-handling", "bar-graph", "difference"]
+    },
+    {
+      "id": "g4m-w26-thu-010",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "What is the purpose of the TITLE on a bar graph?",
+      "options": ["To decorate the graph", "To tell the reader what the graph is about — without a title, the reader has no context for the data", "To show the scale", "To label the x-axis"],
+      "correctIndex": 1,
+      "explanation": "The title explains WHAT the graph shows. Example: 'Favourite Sports of Class 4 Students.' Without a title, the reader sees bars but has no idea what they represent.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "bar-graph", "title-importance"]
+    },
+    {
+      "id": "g4m-w26-thu-011",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "Bar graph y-axis: 0, 5, 10, 15, 20, 25. Data: Class A=15, B=20, C=10, D=25, E=5. Class E's bar reaches which gridline?",
+      "options": ["0", "5", "10", "15"],
+      "correctIndex": 1,
+      "explanation": "Class E = 5. The y-axis has a gridline at 5. Class E's bar reaches exactly the '5' mark.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "bar-graph", "reading"]
+    },
+    {
+      "id": "g4m-w26-thu-012",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "A student draws bars of different WIDTHS in a bar graph. What problem does this cause?",
+      "options": ["No problem — widths don't matter", "Different widths make wider bars look larger, misleading the reader into thinking higher-value categories even when heights are equal", "Only height matters, but width affects printing", "Bars must be round not rectangular"],
+      "correctIndex": 1,
+      "explanation": "In a bar graph, all bars must have equal width. Unequal widths distort area — a wider bar of the same height looks visually 'more' than it is. Consistent width ensures only height conveys value.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "bar-graph", "design-rule"]
+    },
+    {
+      "id": "g4m-w26-thu-013",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "Data: Students' favourite season. Summer=45, Monsoon=30, Winter=25. Y-axis scale = 5. How many gridlines (including 0) are needed to fit all bars?",
+      "options": ["5", "8", "10", "45"],
+      "correctIndex": 2,
+      "explanation": "Maximum value = 45. Scale = 5 per gridline. Gridlines: 0, 5, 10, 15, 20, 25, 30, 35, 40, 45 = 10 gridlines (including 0).",
+      "difficulty": "hard",
+      "tags": ["data-handling", "bar-graph", "gridlines"]
+    },
+    {
+      "id": "g4m-w26-thu-014",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "Bar graph shows: Books read this month. Jan=20, Feb=25, Mar=30, Apr=15. Average books per month =",
+      "options": ["20", "22.5", "25", "30"],
+      "correctIndex": 1,
+      "explanation": "Total = 20+25+30+15 = 90. Average = 90 ÷ 4 = 22.5 books per month.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "bar-graph", "average"]
+    },
+    {
+      "id": "g4m-w26-thu-015",
+      "goalId": "grade-4-math-w26-thu",
+      "question": "When would a BAR GRAPH be more useful than a PICTOGRAPH?",
+      "options": ["For young children with no number skills", "When data values are large, need precise reading, or when there are many categories — bar graphs show exact values more clearly on a numbered scale", "Pictographs are always better", "Bar graphs only work for schools"],
+      "correctIndex": 1,
+      "explanation": "Bar graphs excel with large values, many categories, and the need for precision. Pictographs work well for simple data or when visual engagement matters (e.g., young learners). Bar graphs are more powerful for analysis.",
+      "difficulty": "hard",
+      "tags": ["data-handling", "bar-graph", "when-to-use"]
+    }
+  ]
+}

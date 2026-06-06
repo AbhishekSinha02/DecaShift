@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-french-w26-tue",
+  "title": "Grade 6 French — Tue, Jun 24",
+  "description": "Comparatif et Superlatif — Day 2 of 5: Le superlatif des adjectifs",
+  "subject": "french",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["french", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6f-w26-tue-001",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "The superlative in French expresses:",
+      "options": ["Equality between two things", "The highest or lowest degree — 'the most' or 'the least' within a group", "A general comparison", "A preference"],
+      "correctIndex": 1,
+      "explanation": "Superlative = extreme degree within a group. Two types: superlative of superiority (le/la/les plus + adj) and inferiority (le/la/les moins + adj). Example: 'le plus grand' = the tallest.",
+      "difficulty": "easy",
+      "tags": ["superlatif", "definition"]
+    },
+    {
+      "id": "g6f-w26-tue-002",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "How do you say 'He is the tallest in the class'?",
+      "options": ["Il est plus grand de la classe.", "Il est le plus grand de la classe.", "Il est le grand de la classe.", "Il est très grand de la classe."],
+      "correctIndex": 1,
+      "explanation": "'Il est le plus grand de la classe.' ✓ Structure: article (le/la/les) + plus + adjective. 'De' (not 'dans'!) introduces the group: 'de la classe' = in the class.",
+      "difficulty": "easy",
+      "tags": ["superlatif", "superiority", "structure"]
+    },
+    {
+      "id": "g6f-w26-tue-003",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "How do you say 'She is the least expensive' (dress)?",
+      "options": ["Elle est le moins chère.", "Elle est la moins chère.", "Elle est la plus chère.", "Elle est moins chère."],
+      "correctIndex": 1,
+      "explanation": "'Elle est la moins chère.' ✓ Feminine subject (robe) → 'la' (not 'le'). 'Moins' = least (inferiority superlative). 'Chère' agrees with the implied feminine noun.",
+      "difficulty": "easy",
+      "tags": ["superlatif", "inferiority", "feminine"]
+    },
+    {
+      "id": "g6f-w26-tue-004",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "The superlative of 'bon' (good) is:",
+      "options": ["le plus bon", "le meilleur", "le plus bien", "le mieux"],
+      "correctIndex": 1,
+      "explanation": "'Bon' → superlative = 'le meilleur' (m) / 'la meilleure' (f). NOT 'le plus bon.' Just as English: good → the best (not 'the most good').",
+      "difficulty": "medium",
+      "tags": ["superlatif", "irregular", "bon-meilleur"]
+    },
+    {
+      "id": "g6f-w26-tue-005",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "Which preposition introduces the group in a superlative construction?",
+      "options": ["à", "dans", "de", "en"],
+      "correctIndex": 2,
+      "explanation": "'De' introduces the group after a superlative: 'le plus grand DE la classe' (the tallest in the class), 'la moins chère DU magasin' (the least expensive in the store). NOT 'dans.'",
+      "difficulty": "medium",
+      "tags": ["superlatif", "de-vs-dans", "preposition"]
+    },
+    {
+      "id": "g6f-w26-tue-006",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "Translate: 'This is the most interesting film of the year.'",
+      "options": ["C'est le plus intéressant film de l'année.", "C'est le film le plus intéressant de l'année.", "C'est le film plus intéressant de l'année.", "C'est film le plus intéressant l'année."],
+      "correctIndex": 1,
+      "explanation": "'C'est le film le plus intéressant de l'année.' ✓ When adjective follows a noun, the superlative article + adjective follow the noun: 'le film [le plus intéressant]'. Some adjectives (grand, petit, bon) can precede the noun.",
+      "difficulty": "medium",
+      "tags": ["superlatif", "adjective-position", "film"]
+    },
+    {
+      "id": "g6f-w26-tue-007",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "Adjective agreement in superlative: 'Les filles sont ___ (intelligent) de la classe.'",
+      "options": ["le plus intelligent", "la plus intelligente", "les plus intelligentes", "les plus intelligent"],
+      "correctIndex": 2,
+      "explanation": "'Les filles sont les plus intelligentes de la classe.' Filles = feminine plural → article 'les' + 'intelligentes' (feminine plural). The superlative article and adjective agree with the subject.",
+      "difficulty": "hard",
+      "tags": ["superlatif", "agreement", "plural"]
+    },
+    {
+      "id": "g6f-w26-tue-008",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "Spot the error: 'C'est la maison le plus grand du quartier.'",
+      "options": ["'grand' should be 'grande' — the article 'la' tells us 'maison' is feminine, so adjective must be feminine: 'la plus grande'", "No error", "'le' should be 'les'", "'du' should be 'de la'"],
+      "correctIndex": 0,
+      "explanation": "'Maison' is feminine → 'la plus grande' (not 'le plus grand'). Correct: 'C'est la maison la plus grande du quartier.' (quartier = neighbourhood, masculine → 'du' = de + le is correct).",
+      "difficulty": "hard",
+      "tags": ["superlatif", "adjective-agreement", "error"]
+    },
+    {
+      "id": "g6f-w26-tue-009",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "Compare: comparatif vs superlatif — which is which?",
+      "options": ["'Marc est plus grand que Paul' = superlatif; 'Marc est le plus grand' = comparatif", "'Marc est plus grand que Paul' = comparatif; 'Marc est le plus grand de la classe' = superlatif", "Both are superlatives", "Both are comparatives"],
+      "correctIndex": 1,
+      "explanation": "Comparatif = comparison between two: 'plus grand QUE Paul.' Superlatif = extremity within a group: 'LE plus grand DE la classe.' Key difference: comparatif uses 'que'; superlatif uses definite article + 'de.'",
+      "difficulty": "hard",
+      "tags": ["superlatif", "comparatif-vs-superlatif"]
+    },
+    {
+      "id": "g6f-w26-tue-010",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "How to say 'Mount Everest is the highest mountain in the world'?",
+      "options": ["Le mont Everest est plus haut que le monde.", "Le mont Everest est la plus haute montagne du monde.", "Le mont Everest est le plus haut du monde.", "Le mont Everest est très haut dans le monde."],
+      "correctIndex": 2,
+      "explanation": "'Le mont Everest est le plus haut du monde.' ✓ ('Du monde' = de + le monde = in the world.) Option B is also correct but less natural. 'Haut' = high/tall (masculine → 'le plus haut').",
+      "difficulty": "hard",
+      "tags": ["superlatif", "geography", "haut"]
+    },
+    {
+      "id": "g6f-w26-tue-011",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "The superlative of 'mauvais' (bad) is:",
+      "options": ["le plus mauvais (acceptable)", "le pire (irregular, preferred formal form)", "le moins bon", "Both A and B are correct"],
+      "correctIndex": 3,
+      "explanation": "'Mauvais' → superlative: 'le pire' (irregular, formal) or 'le plus mauvais' (regular, acceptable). Similar to English 'worst' vs 'most bad' — 'worst' preferred, 'most bad' understood. Both exist in French.",
+      "difficulty": "hard",
+      "tags": ["superlatif", "irregular", "mauvais-pire"]
+    },
+    {
+      "id": "g6f-w26-tue-012",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "Translate: 'She is the best student in the school.'",
+      "options": ["Elle est le meilleur étudiant de l'école.", "Elle est la meilleure étudiante de l'école.", "Elle est plus bonne étudiante de l'école.", "Elle est très bonne étudiante de l'école."],
+      "correctIndex": 1,
+      "explanation": "'Elle est la meilleure étudiante de l'école.' ✓ 'Bon → meilleure' (feminine). 'Elle' = feminine → 'la meilleure étudiante.' 'De l'école' = in the school.",
+      "difficulty": "hard",
+      "tags": ["superlatif", "bon-meilleur", "feminine"]
+    },
+    {
+      "id": "g6f-w26-tue-013",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "When does the superlative article come BEFORE the noun vs AFTER?",
+      "options": ["Always before the noun", "Always after the noun", "AVANT-noun adjectives (grand, petit, bon, mauvais, jeune, vieux, beau) keep their position before the noun; others follow: 'le plus beau jardin' BUT 'le jardin le plus fleuri'", "No rule — it's random"],
+      "correctIndex": 2,
+      "explanation": "BAGS adjectives (Beauty/Age/Goodness/Size) precede the noun normally and in superlatives: 'le plus beau garçon.' Others follow: 'la fille la plus intelligente.' This reflects normal adjective position rules.",
+      "difficulty": "hard",
+      "tags": ["superlatif", "adjective-position", "BAGS"]
+    },
+    {
+      "id": "g6f-w26-tue-014",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "What's the difference between 'le mieux' and 'le meilleur'?",
+      "options": ["They are identical", "'Le mieux' is the superlative of 'bien' (the adverb — modifies a verb); 'le meilleur' is the superlative of 'bon' (the adjective — modifies a noun)", "'Le mieux' = the worst", "Only 'le meilleur' exists"],
+      "correctIndex": 1,
+      "explanation": "'Il chante le mieux' = He sings best (adverb 'bien'). 'C'est le meilleur chanteur' = He is the best singer (adjective 'bon'). Parallel to English: 'he sings best' vs 'he is the best singer.'",
+      "difficulty": "hard",
+      "tags": ["superlatif", "mieux-vs-meilleur", "adverb-vs-adjective"]
+    },
+    {
+      "id": "g6f-w26-tue-015",
+      "goalId": "grade-6-french-w26-tue",
+      "question": "Create a sentence using the superlative: Paris / beau / ville / France",
+      "options": ["Paris est la plus belle ville de France.", "Paris est le plus beau ville de France.", "Paris est la beau ville de France.", "Paris est plus belle de toutes les villes."],
+      "correctIndex": 0,
+      "explanation": "'Paris est la plus belle ville de France.' ✓ 'Ville' = feminine → 'la plus belle.' 'Belle' = feminine of 'beau.' 'De France' = in France. 'Beau/belle' is an BAGS adjective, but here it follows 'ville' in the superlative structure with a noun.",
+      "difficulty": "hard",
+      "tags": ["superlatif", "sentence-production", "beau-belle"]
+    }
+  ]
+}

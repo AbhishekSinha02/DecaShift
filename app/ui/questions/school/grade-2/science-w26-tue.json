@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-2-science-w26-tue",
+  "title": "Grade 2 Science — Tue, Jun 24",
+  "description": "Animals and Their Young Ones — Day 2 of 5: Baby animal names",
+  "subject": "science",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2s-w26-tue-001",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "What is a baby dog called?",
+      "options": ["Cub", "Kitten", "Puppy", "Calf"],
+      "correctIndex": 2,
+      "explanation": "A baby dog is called a puppy. When puppies grow up, they become dogs.",
+      "difficulty": "easy",
+      "tags": ["animals", "baby-names"]
+    },
+    {
+      "id": "g2s-w26-tue-002",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "What is a baby cat called?",
+      "options": ["Pup", "Kitten", "Cub", "Foal"],
+      "correctIndex": 1,
+      "explanation": "A baby cat is called a kitten. Kittens grow into adult cats.",
+      "difficulty": "easy",
+      "tags": ["animals", "baby-names"]
+    },
+    {
+      "id": "g2s-w26-tue-003",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "What is a baby cow called?",
+      "options": ["Lamb", "Foal", "Calf", "Cub"],
+      "correctIndex": 2,
+      "explanation": "A baby cow is called a calf. A male calf grows into a bull and a female calf grows into a cow.",
+      "difficulty": "easy",
+      "tags": ["animals", "baby-names", "farm"]
+    },
+    {
+      "id": "g2s-w26-tue-004",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "What is a baby sheep called?",
+      "options": ["Lamb", "Kid", "Calf", "Foal"],
+      "correctIndex": 0,
+      "explanation": "A baby sheep is called a lamb. Lambs bleat and grow up to be sheep.",
+      "difficulty": "easy",
+      "tags": ["animals", "baby-names", "farm"]
+    },
+    {
+      "id": "g2s-w26-tue-005",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "What is a baby horse called?",
+      "options": ["Cub", "Pup", "Lamb", "Foal"],
+      "correctIndex": 3,
+      "explanation": "A baby horse is called a foal. A foal can walk within hours of being born.",
+      "difficulty": "easy",
+      "tags": ["animals", "baby-names"]
+    },
+    {
+      "id": "g2s-w26-tue-006",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "What is a baby hen (chicken) called?",
+      "options": ["Duckling", "Chick", "Cub", "Kitten"],
+      "correctIndex": 1,
+      "explanation": "A baby chicken is called a chick. Chicks hatch from eggs and grow into hens or roosters.",
+      "difficulty": "easy",
+      "tags": ["animals", "baby-names", "birds"]
+    },
+    {
+      "id": "g2s-w26-tue-007",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "Match: Baby bear is called a ___.",
+      "options": ["Cub", "Pup", "Kitten", "Foal"],
+      "correctIndex": 0,
+      "explanation": "A baby bear is called a cub. Tiger and lion babies are also called cubs.",
+      "difficulty": "medium",
+      "tags": ["animals", "baby-names", "wild"]
+    },
+    {
+      "id": "g2s-w26-tue-008",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "Which baby animal name is WRONG? Goat → Kid",
+      "options": ["It is correct — a baby goat is a kid", "It is wrong — a baby goat is a calf", "It is wrong — a baby goat is a foal", "It is wrong — a baby goat is a lamb"],
+      "correctIndex": 0,
+      "explanation": "A baby goat IS called a kid. So 'Goat → Kid' is correct.",
+      "difficulty": "medium",
+      "tags": ["animals", "baby-names", "farm"]
+    },
+    {
+      "id": "g2s-w26-tue-009",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "Which animals share the SAME baby name 'cub'?",
+      "options": ["Dog and cat", "Bear and lion", "Horse and cow", "Hen and duck"],
+      "correctIndex": 1,
+      "explanation": "Both bear babies and lion babies are called cubs. Tiger babies are also called cubs.",
+      "difficulty": "medium",
+      "tags": ["animals", "baby-names", "wild"]
+    },
+    {
+      "id": "g2s-w26-tue-010",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "A baby duck is called a duckling. What is a baby swan called?",
+      "options": ["Cygnet", "Chick", "Pup", "Calf"],
+      "correctIndex": 0,
+      "explanation": "A baby swan is called a cygnet. The word comes from the Latin 'cygnus' meaning swan.",
+      "difficulty": "medium",
+      "tags": ["animals", "baby-names", "birds"]
+    },
+    {
+      "id": "g2s-w26-tue-011",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "Arrange the correct pairs: 1-Dog, 2-Lion, 3-Cow — with — A-Calf, B-Cub, C-Puppy",
+      "options": ["1-A, 2-B, 3-C", "1-C, 2-B, 3-A", "1-B, 2-C, 3-A", "1-C, 2-A, 3-B"],
+      "correctIndex": 1,
+      "explanation": "Dog → Puppy (1-C). Lion → Cub (2-B). Cow → Calf (3-A). So 1-C, 2-B, 3-A is correct.",
+      "difficulty": "medium",
+      "tags": ["animals", "baby-names", "matching"]
+    },
+    {
+      "id": "g2s-w26-tue-012",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "A baby frog is called a tadpole. What is special about a tadpole?",
+      "options": ["It looks exactly like an adult frog", "It lives in water and has a tail, unlike the adult frog", "It can fly", "It lives in trees"],
+      "correctIndex": 1,
+      "explanation": "A tadpole lives in water, has a tail and no legs. It gradually grows legs and loses its tail to become a frog — this change is called metamorphosis.",
+      "difficulty": "medium",
+      "tags": ["animals", "baby-names", "metamorphosis", "frog"]
+    },
+    {
+      "id": "g2s-w26-tue-013",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "Why do baby animals often look different from their parents?",
+      "options": ["They belong to a different species", "They are still growing and developing into their adult form", "They eat different food", "They live in different places"],
+      "correctIndex": 1,
+      "explanation": "Baby animals look different because they are still developing. As they grow, they gradually take on the features of adult animals.",
+      "difficulty": "hard",
+      "tags": ["animals", "growth", "development"]
+    },
+    {
+      "id": "g2s-w26-tue-014",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "A baby kangaroo is called a joey. It lives in its mother's pouch. Why is this important?",
+      "options": ["The pouch keeps the joey warm in deserts only", "The joey is born very tiny and underdeveloped; the pouch protects it while it continues to grow", "The pouch gives the joey extra food", "The pouch helps the joey learn to jump"],
+      "correctIndex": 1,
+      "explanation": "Joeys are born very small and underdeveloped. The mother's pouch keeps the joey safe and warm while it grows to be big enough to survive outside.",
+      "difficulty": "hard",
+      "tags": ["animals", "kangaroo", "baby-names", "marsupials"]
+    },
+    {
+      "id": "g2s-w26-tue-015",
+      "goalId": "grade-2-science-w26-tue",
+      "question": "Which statement about baby animals is TRUE?",
+      "options": ["All baby animals look exactly like smaller versions of adults", "Baby animals of some species (like frogs and butterflies) look completely different from adults", "Baby animals never need help from parents", "Baby land animals and baby water animals have the same baby names"],
+      "correctIndex": 1,
+      "explanation": "Some baby animals look very different from adults — tadpoles vs frogs, caterpillars vs butterflies. These undergo metamorphosis. Others look like smaller versions of adults.",
+      "difficulty": "hard",
+      "tags": ["animals", "baby-names", "metamorphosis", "reasoning"]
+    }
+  ]
+}

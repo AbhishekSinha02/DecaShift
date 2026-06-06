@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-3-science-w26-tue",
+  "title": "Grade 3 Science — Tue, Jun 24",
+  "description": "Plants Around Us — Day 2 of 5: Types of roots and stems",
+  "subject": "science",
+  "category": "school",
+  "grade": 3,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-3", "weekly"],
+  "questions": [
+    {
+      "id": "g3s-w26-tue-001",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "Which type of root has one main thick root with smaller roots branching from it?",
+      "options": ["Fibrous root", "Taproot", "Aerial root", "Prop root"],
+      "correctIndex": 1,
+      "explanation": "Taproot systems have one large primary root going straight down, with smaller secondary roots. Example: carrot, radish, mango tree.",
+      "difficulty": "easy",
+      "tags": ["plants", "roots", "taproot"]
+    },
+    {
+      "id": "g3s-w26-tue-002",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "A grass plant has many thin roots spreading out from the stem base. This is called:",
+      "options": ["Taproot", "Adventitious root", "Fibrous root", "Main root"],
+      "correctIndex": 2,
+      "explanation": "Fibrous roots are a mass of thin, similar-sized roots spreading from the base of the stem. Grass, wheat and rice have fibrous roots.",
+      "difficulty": "easy",
+      "tags": ["plants", "roots", "fibrous"]
+    },
+    {
+      "id": "g3s-w26-tue-003",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "Which of these plants has a TAPROOT?",
+      "options": ["Grass", "Wheat", "Carrot", "Rice"],
+      "correctIndex": 2,
+      "explanation": "Carrot has a taproot — the carrot itself IS the thick taproot which stores food. Grass, wheat and rice have fibrous roots.",
+      "difficulty": "easy",
+      "tags": ["plants", "taproot", "examples"]
+    },
+    {
+      "id": "g3s-w26-tue-004",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "A tree trunk that is hard and does not bend easily has a ___ stem.",
+      "options": ["Herbaceous", "Woody", "Creeping", "Climbing"],
+      "correctIndex": 1,
+      "explanation": "Woody stems are hard, thick and do not bend easily. Trees like mango, banyan and oak have woody stems.",
+      "difficulty": "easy",
+      "tags": ["plants", "stem", "woody"]
+    },
+    {
+      "id": "g3s-w26-tue-005",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "A sunflower stem is soft, green and bends easily. It is a ___ stem.",
+      "options": ["Woody", "Herbaceous", "Climbing", "Underground"],
+      "correctIndex": 1,
+      "explanation": "Herbaceous stems are soft, green and flexible. Sunflower, wheat and grass have herbaceous stems.",
+      "difficulty": "easy",
+      "tags": ["plants", "stem", "herbaceous"]
+    },
+    {
+      "id": "g3s-w26-tue-006",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "Which plant has fibrous roots?",
+      "options": ["Carrot", "Radish", "Mango", "Rice"],
+      "correctIndex": 3,
+      "explanation": "Rice has fibrous roots — many thin roots spreading out. Carrot and radish have taproots. Mango has a taproot system.",
+      "difficulty": "medium",
+      "tags": ["plants", "fibrous", "examples"]
+    },
+    {
+      "id": "g3s-w26-tue-007",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "Why do taproots go deeper into the soil than fibrous roots?",
+      "options": ["They are thinner", "They have one main thick root that grows straight down to reach deep water", "They don't go deep — fibrous roots go deeper", "Taproots grow upward"],
+      "correctIndex": 1,
+      "explanation": "The single thick taproot grows straight down, reaching deep water sources. Fibrous roots spread sideways just below the soil surface.",
+      "difficulty": "medium",
+      "tags": ["plants", "taproot", "vs-fibrous"]
+    },
+    {
+      "id": "g3s-w26-tue-008",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "Which type of root system is better for PREVENTING SOIL EROSION? Why?",
+      "options": ["Taproot — because it goes deep", "Fibrous roots — because they spread wide and hold more soil particles", "Both are equal", "Neither prevents erosion"],
+      "correctIndex": 1,
+      "explanation": "Fibrous roots spread sideways like a mesh, binding many soil particles and preventing them from washing away. That's why grass is often planted to stabilize slopes.",
+      "difficulty": "medium",
+      "tags": ["plants", "fibrous", "soil-erosion"]
+    },
+    {
+      "id": "g3s-w26-tue-009",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "A banyan tree has thick, hard bark and grows for hundreds of years. What type of stem does it have?",
+      "options": ["Herbaceous", "Creeping", "Woody", "Soft"],
+      "correctIndex": 2,
+      "explanation": "Banyan tree has a woody stem — hard, thick and long-lived. Trees can grow for hundreds of years because of their strong woody stems.",
+      "difficulty": "medium",
+      "tags": ["plants", "woody-stem", "banyan"]
+    },
+    {
+      "id": "g3s-w26-tue-010",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "A tomato plant falls over easily and needs support. What type of stem does it have?",
+      "options": ["Woody", "Thick", "Herbaceous (soft)", "Underground"],
+      "correctIndex": 2,
+      "explanation": "Tomato has a herbaceous stem — soft and unable to support itself upright against gravity. It needs staking (support sticks) in gardens.",
+      "difficulty": "medium",
+      "tags": ["plants", "herbaceous", "tomato"]
+    },
+    {
+      "id": "g3s-w26-tue-011",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "The radish we eat is actually the root of the plant. What type of root system does radish have?",
+      "options": ["Fibrous root", "Taproot (stored food in thick main root)", "Aerial root", "Prop root"],
+      "correctIndex": 1,
+      "explanation": "Radish has a taproot system. The thick taproot stores food (starch), making it edible. This is an example of a taproot modified for food storage.",
+      "difficulty": "hard",
+      "tags": ["plants", "taproot", "food-storage", "radish"]
+    },
+    {
+      "id": "g3s-w26-tue-012",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "Cactus has a thick, green stem and no leaves. What functions does the cactus stem serve?",
+      "options": ["Only support and transport", "Stores water and performs photosynthesis (in place of leaves)", "Absorbs water from air", "Provides shade"],
+      "correctIndex": 1,
+      "explanation": "Cactus stem stores water (adaptating to dry desert conditions) and is green, so it performs photosynthesis instead of leaves, which have been modified into spines.",
+      "difficulty": "hard",
+      "tags": ["plants", "cactus", "stem", "adaptation"]
+    },
+    {
+      "id": "g3s-w26-tue-013",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "Compare: taproot vs fibrous root in terms of soil penetration and soil-holding capacity.",
+      "options": ["Taproot = deep; fibrous = better at holding soil", "Fibrous = deep; taproot = better at holding soil", "Both penetrate deeply and hold equally", "Taproot holds better; fibrous goes deeper"],
+      "correctIndex": 0,
+      "explanation": "Taproot: one main root goes deep (reaches deep water). Fibrous roots: spread wide and shallow, creating a mat that holds topsoil better (prevents erosion).",
+      "difficulty": "hard",
+      "tags": ["plants", "root-comparison", "analysis"]
+    },
+    {
+      "id": "g3s-w26-tue-014",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "Why do trees have woody stems while herbs have herbaceous stems?",
+      "options": ["Trees are older, so their stems hardened over time", "Woody stems provide structural support for large, heavy trees; small plants don't need this and can be soft", "It is a random difference", "Herbs have no stems"],
+      "correctIndex": 1,
+      "explanation": "Trees grow tall and heavy — they need the structural strength of woody stems to support their weight and survive decades. Small herbs don't need such strength and can grow and complete their lifecycle in one season.",
+      "difficulty": "hard",
+      "tags": ["plants", "woody-vs-herbaceous", "reasoning"]
+    },
+    {
+      "id": "g3s-w26-tue-015",
+      "goalId": "grade-3-science-w26-tue",
+      "question": "Potatoes are underground stems (not roots). What is the main difference between a stem and a root underground?",
+      "options": ["There is no difference", "Underground stems have nodes (where buds grow); roots have no nodes or buds", "Roots are always harder than stems", "Stems absorb water; roots don't"],
+      "correctIndex": 1,
+      "explanation": "Potato is a modified stem (tuber) — it has nodes (eyes) that can sprout buds and grow new plants. True roots (like carrot, radish) have no nodes or buds and cannot directly sprout new plants.",
+      "difficulty": "hard",
+      "tags": ["plants", "stem-vs-root", "potato"]
+    }
+  ]
+}

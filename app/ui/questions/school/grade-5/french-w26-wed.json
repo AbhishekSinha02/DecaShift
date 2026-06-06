@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-5-french-w26-wed",
+  "title": "Grade 5 French — Wed, Jun 25",
+  "description": "Les métiers — Day 3 of 5: Où travaillent-ils? (Where do they work?)",
+  "subject": "french",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "wed",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "les-metiers",
+  "tags": ["french", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5f-w26-wed-001",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Où travaille un médecin? (Where does a doctor work?)",
+      "options": ["à l'école", "à l'hôpital ou dans une clinique", "dans une cuisine", "dans une ferme"],
+      "correctIndex": 1,
+      "explanation": "Un médecin travaille à l'hôpital (at the hospital) ou dans une clinique (in a clinic). 'À l'hôpital' — note the contraction: à + le → au, but à + l' stays as 'à l'.'",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "où-travaille", "medecin"]
+    },
+    {
+      "id": "g5f-w26-wed-002",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Où travaille un professeur?",
+      "options": ["dans un restaurant", "à l'école ou à l'université", "dans une ferme", "dans un théâtre"],
+      "correctIndex": 1,
+      "explanation": "Un professeur travaille à l'école (primary/secondary school) ou à l'université (university). 'À l'école' = at school. Note: no article after 'à l'' before a vowel.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "où-travaille", "professeur"]
+    },
+    {
+      "id": "g5f-w26-wed-003",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Où travaille un cuisinier?",
+      "options": ["dans un hôpital", "dans une école", "dans un restaurant ou une cuisine", "dans une ferme"],
+      "correctIndex": 2,
+      "explanation": "Un cuisinier travaille dans un restaurant (in a restaurant) ou dans une cuisine (in a kitchen). 'Dans un/une' = in a.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "où-travaille", "cuisinier"]
+    },
+    {
+      "id": "g5f-w26-wed-004",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Où travaille un agriculteur?",
+      "options": ["dans un bureau", "dans une ferme ou dans les champs", "dans une école", "dans un magasin"],
+      "correctIndex": 1,
+      "explanation": "Un agriculteur travaille dans une ferme (on a farm) ou dans les champs (in the fields). 'Une ferme' = a farm; 'les champs' = the fields.",
+      "difficulty": "easy",
+      "tags": ["les-metiers", "où-travaille", "agriculteur"]
+    },
+    {
+      "id": "g5f-w26-wed-005",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Où travaille un pompier?",
+      "options": ["dans un restaurant", "dans une caserne de pompiers (fire station)", "dans une ferme", "dans un hôpital uniquement"],
+      "correctIndex": 1,
+      "explanation": "Un pompier travaille dans une caserne de pompiers (fire station) mais intervient partout en cas d'urgence. 'Une caserne' = a barracks/station.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "où-travaille", "pompier"]
+    },
+    {
+      "id": "g5f-w26-wed-006",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Complete: 'Un pilote travaille ___ un avion.'",
+      "options": ["dans", "à", "sur", "avec"],
+      "correctIndex": 0,
+      "explanation": "'Un pilote travaille dans un avion.' = A pilot works in a plane. Also acceptable: 'dans un cockpit' or 'à l'aéroport.' 'Dans' = inside/in.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "où-travaille", "pilote", "preposition"]
+    },
+    {
+      "id": "g5f-w26-wed-007",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Où travaille un vétérinaire?",
+      "options": ["dans un hôpital pour humains", "dans une clinique vétérinaire ou dans une ferme", "dans un théâtre", "dans un restaurant"],
+      "correctIndex": 1,
+      "explanation": "Un vétérinaire travaille dans une clinique vétérinaire (vet clinic) ou visite des fermes (farms). 'Vétérinaire' = vet, who treats animals.",
+      "difficulty": "medium",
+      "tags": ["les-metiers", "où-travaille", "veterinaire"]
+    },
+    {
+      "id": "g5f-w26-wed-008",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Match the profession to the workplace: 'Il travaille dans un tribunal (court of law).'",
+      "options": ["un médecin", "un avocat (lawyer)", "un cuisinier", "un pilote"],
+      "correctIndex": 1,
+      "explanation": "'Un tribunal' = court of law. An 'avocat' (lawyer) works in a 'tribunal.' Note: 'avocat' also means avocado in French — same word, different meaning!",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "où-travaille", "avocat", "tribunal"]
+    },
+    {
+      "id": "g5f-w26-wed-009",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Why do we use 'dans un/une' for some workplaces and 'à' for others in French?",
+      "options": ["Random choice", "'Dans' (inside) = enclosed spaces (restaurant, bureau, cuisine); 'à' = institutions or destinations where you GO (à l'école, à l'hôpital, à la ferme)", "Use 'dans' for people and 'à' for things", "They mean exactly the same thing"],
+      "correctIndex": 1,
+      "explanation": "'Dans un restaurant' (inside the restaurant space). 'À l'école' (at/to the school institution). This distinction exists in French — institutions use 'à' while physical places/rooms use 'dans.' Both are standard.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "prepositions", "dans-vs-a"]
+    },
+    {
+      "id": "g5f-w26-wed-010",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Translate: 'The nurse works in the hospital.'",
+      "options": ["L'infirmière travaille dans l'école.", "L'infirmière travaille à l'hôpital.", "L'infirmière travaille dans le marché.", "Le médecin travaille à la ferme."],
+      "correctIndex": 1,
+      "explanation": "'L'infirmière travaille à l'hôpital.' ✓ 'L'infirmière' = the nurse (female). 'À l'hôpital' = at/in the hospital.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "translation", "infirmiere"]
+    },
+    {
+      "id": "g5f-w26-wed-011",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Où travaille un architecte?",
+      "options": ["dans une cuisine", "dans un bureau ou sur un chantier (construction site)", "dans un tribunal", "dans un avion"],
+      "correctIndex": 1,
+      "explanation": "Un architecte travaille dans un bureau (office) pour dessiner les plans, et sur un chantier (construction site) pour superviser la construction.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "où-travaille", "architecte"]
+    },
+    {
+      "id": "g5f-w26-wed-012",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Correct the error: 'Un professeur travaille dans l'école.'",
+      "options": ["No error — 'dans l'école' is correct", "Should be 'à l'école' (institutions use 'à', not 'dans' in standard French)", "Should be 'sur l'école'", "Should be 'avec l'école'"],
+      "correctIndex": 1,
+      "explanation": "With institutions (école, hôpital, église), French uses 'à': à l'école, à l'hôpital. 'Dans l'école' exists colloquially but 'à l'école' is the standard and expected form in class.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "preposition", "correction"]
+    },
+    {
+      "id": "g5f-w26-wed-013",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "What is a 'bureau' in the context of work?",
+      "options": ["A kitchen", "An office (a workplace where desk work is done)", "A classroom", "A hospital room"],
+      "correctIndex": 1,
+      "explanation": "'Un bureau' = an office (workplace) or a desk. Many professions — ingénieur, architecte, journaliste, comptable (accountant) — work 'dans un bureau.' From Old French 'bure' (coarse cloth covering a desk).",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "bureau", "vocabulary"]
+    },
+    {
+      "id": "g5f-w26-wed-014",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Complete the dialogue: 'Où travaille ta mère?' — 'Elle travaille ___ hôpital. Elle est infirmière.'",
+      "options": ["dans le", "à l'", "sur le", "avec l'"],
+      "correctIndex": 1,
+      "explanation": "'Elle travaille à l'hôpital.' ✓ 'À + l'hôpital.' Hospital = institution → use 'à.' 'À l'' before a vowel.",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "dialogue", "à-l-hopital"]
+    },
+    {
+      "id": "g5f-w26-wed-015",
+      "goalId": "grade-5-french-w26-wed",
+      "question": "Make a sentence: profession = chanteur; workplace = sur une scène (on a stage).",
+      "options": ["Un chanteur travaille dans une scène.", "Un chanteur travaille sur une scène.", "Un chanteur travaille à une scène.", "Un chanteur travaille avec une scène."],
+      "correctIndex": 1,
+      "explanation": "'Un chanteur travaille sur une scène.' ✓ 'Sur' = on (a surface/platform). 'Sur une scène' = on a stage. Compare: sur une table (on a table), sur un chantier (on a construction site).",
+      "difficulty": "hard",
+      "tags": ["les-metiers", "sentence-production", "sur"]
+    }
+  ]
+}

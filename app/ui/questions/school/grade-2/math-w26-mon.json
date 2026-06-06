@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-2-math-w26-mon",
+  "title": "Grade 2 Math — Mon, Jun 23",
+  "description": "Money — Day 1 of 5: Recognising coins and notes",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 2,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-2", "weekly"],
+  "questions": [
+    {
+      "id": "g2m-w26-mon-001",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Which coin has the value of ₹5?",
+      "options": ["The smallest coin", "A coin bigger than ₹2 coin", "A coin smaller than ₹1 coin", "A note"],
+      "correctIndex": 1,
+      "explanation": "The ₹5 coin is bigger than the ₹2 coin. Coins come in ₹1, ₹2, ₹5 and ₹10 denominations.",
+      "difficulty": "easy",
+      "tags": ["money", "coins"]
+    },
+    {
+      "id": "g2m-w26-mon-002",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "How many ₹1 coins make ₹5?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 2,
+      "explanation": "5 coins of ₹1 each make a total of ₹5. 1 + 1 + 1 + 1 + 1 = 5.",
+      "difficulty": "easy",
+      "tags": ["money", "coins", "counting"]
+    },
+    {
+      "id": "g2m-w26-mon-003",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Which of these is a NOTE (not a coin)?",
+      "options": ["₹1", "₹2", "₹5", "₹10"],
+      "correctIndex": 3,
+      "explanation": "₹10 can be both a coin and a note. ₹1, ₹2 and ₹5 are coins. ₹10, ₹20, ₹50, ₹100 are notes.",
+      "difficulty": "easy",
+      "tags": ["money", "notes"]
+    },
+    {
+      "id": "g2m-w26-mon-004",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Riya has two ₹2 coins. How much money does she have?",
+      "options": ["₹2", "₹3", "₹4", "₹5"],
+      "correctIndex": 2,
+      "explanation": "Two ₹2 coins = ₹2 + ₹2 = ₹4.",
+      "difficulty": "easy",
+      "tags": ["money", "coins", "addition"]
+    },
+    {
+      "id": "g2m-w26-mon-005",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "What is the value of a ₹50 note?",
+      "options": ["₹5", "₹15", "₹50", "₹500"],
+      "correctIndex": 2,
+      "explanation": "A ₹50 note has the value of fifty rupees, written as ₹50.",
+      "difficulty": "easy",
+      "tags": ["money", "notes"]
+    },
+    {
+      "id": "g2m-w26-mon-006",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Which note has the LARGEST value among these?",
+      "options": ["₹10 note", "₹20 note", "₹50 note", "₹100 note"],
+      "correctIndex": 3,
+      "explanation": "₹100 is the largest value here. 100 > 50 > 20 > 10.",
+      "difficulty": "easy",
+      "tags": ["money", "notes", "comparison"]
+    },
+    {
+      "id": "g2m-w26-mon-007",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Arjun has one ₹10 coin. How many ₹2 coins equal the same amount?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 2,
+      "explanation": "5 coins of ₹2 = ₹2 × 5 = ₹10. So 5 coins of ₹2 equal one ₹10 coin.",
+      "difficulty": "medium",
+      "tags": ["money", "coins", "equivalence"]
+    },
+    {
+      "id": "g2m-w26-mon-008",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Priya has a ₹10 note and a ₹5 coin. How much money does she have in all?",
+      "options": ["₹10", "₹12", "₹15", "₹50"],
+      "correctIndex": 2,
+      "explanation": "₹10 + ₹5 = ₹15. She has fifteen rupees in total.",
+      "difficulty": "medium",
+      "tags": ["money", "addition"]
+    },
+    {
+      "id": "g2m-w26-mon-009",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Which combination equals ₹10?",
+      "options": ["Two ₹2 coins and one ₹5 coin (= ₹9)", "Three ₹2 coins (= ₹6)", "Two ₹5 coins (= ₹10)", "Four ₹2 coins (= ₹8)"],
+      "correctIndex": 2,
+      "explanation": "Two ₹5 coins = ₹5 + ₹5 = ₹10. The other options: two ₹2 + one ₹5 = ₹9; three ₹2 = ₹6; four ₹2 = ₹8.",
+      "difficulty": "medium",
+      "tags": ["money", "coins", "combination"]
+    },
+    {
+      "id": "g2m-w26-mon-010",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "How many ₹10 notes make one ₹100 note?",
+      "options": ["5", "10", "20", "100"],
+      "correctIndex": 1,
+      "explanation": "10 notes of ₹10 = ₹10 × 10 = ₹100. So ten ₹10 notes equal one ₹100 note.",
+      "difficulty": "medium",
+      "tags": ["money", "notes", "multiplication"]
+    },
+    {
+      "id": "g2m-w26-mon-011",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Sonu has three ₹5 coins and one ₹2 coin. How much money does he have?",
+      "options": ["₹13", "₹15", "₹17", "₹20"],
+      "correctIndex": 2,
+      "explanation": "Three ₹5 coins = ₹5 × 3 = ₹15. Plus ₹2 coin = ₹15 + ₹2 = ₹17.",
+      "difficulty": "medium",
+      "tags": ["money", "coins", "addition"]
+    },
+    {
+      "id": "g2m-w26-mon-012",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Which of the following has the SMALLEST value?",
+      "options": ["₹20 note", "₹10 coin", "₹2 coin", "₹5 coin"],
+      "correctIndex": 2,
+      "explanation": "₹2 < ₹5 < ₹10 < ₹20. The ₹2 coin has the smallest value among these options.",
+      "difficulty": "medium",
+      "tags": ["money", "comparison"]
+    },
+    {
+      "id": "g2m-w26-mon-013",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Meena has two ₹50 notes. How much money does she have?",
+      "options": ["₹50", "₹55", "₹100", "₹150"],
+      "correctIndex": 2,
+      "explanation": "Two ₹50 notes = ₹50 + ₹50 = ₹100. Two fifty-rupee notes make one hundred rupees.",
+      "difficulty": "hard",
+      "tags": ["money", "notes", "addition"]
+    },
+    {
+      "id": "g2m-w26-mon-014",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Rahul wants to make ₹20 using only ₹5 coins. How many coins does he need?",
+      "options": ["2", "3", "4", "5"],
+      "correctIndex": 2,
+      "explanation": "₹5 × 4 = ₹20. Rahul needs 4 coins of ₹5 to make twenty rupees.",
+      "difficulty": "hard",
+      "tags": ["money", "coins", "division"]
+    },
+    {
+      "id": "g2m-w26-mon-015",
+      "goalId": "grade-2-math-w26-mon",
+      "question": "Tina has a ₹100 note, a ₹20 note and a ₹10 note. How much does she have in all?",
+      "options": ["₹110", "₹120", "₹130", "₹200"],
+      "correctIndex": 2,
+      "explanation": "₹100 + ₹20 + ₹10 = ₹130. One hundred plus twenty plus ten equals one hundred and thirty.",
+      "difficulty": "hard",
+      "tags": ["money", "notes", "addition"]
+    }
+  ]
+}

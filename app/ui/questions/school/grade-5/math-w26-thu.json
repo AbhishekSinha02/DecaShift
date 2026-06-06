@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-5-math-w26-thu",
+  "title": "Grade 5 Math — Thu, Jun 26",
+  "description": "Volume and Capacity — Day 4 of 5: Mixed word problems — volume and capacity together",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5m-w26-thu-001",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A fish tank (l=40 cm, b=20 cm, h=25 cm) is filled with water. Using 1 cm³ = 1 mL, capacity in litres =",
+      "options": ["2 L", "20 L", "200 L", "2,000 L"],
+      "correctIndex": 1,
+      "explanation": "V = 40×20×25 = 20,000 cm³ = 20,000 mL = 20 L.",
+      "difficulty": "easy",
+      "tags": ["volume", "capacity", "link", "tank"]
+    },
+    {
+      "id": "g5m-w26-thu-002",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A rectangular carton is 30 cm × 20 cm × 10 cm. How many 1-litre cartons of milk can fill it exactly?",
+      "options": ["3", "4", "6", "60"],
+      "correctIndex": 2,
+      "explanation": "V = 30×20×10 = 6,000 cm³ = 6,000 mL = 6 L. So exactly 6 one-litre cartons.",
+      "difficulty": "easy",
+      "tags": ["volume", "capacity", "carton"]
+    },
+    {
+      "id": "g5m-w26-thu-003",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "Volume of water in a pond is 500 m³. 1 m³ = 1,000 L. How many litres is that?",
+      "options": ["500 L", "5,000 L", "50,000 L", "500,000 L"],
+      "correctIndex": 3,
+      "explanation": "500 m³ × 1,000 = 500,000 L. Large volumes (ponds, pools, reservoirs) are measured in m³; 1 m³ = 1,000 L.",
+      "difficulty": "easy",
+      "tags": ["volume", "capacity", "m3-to-litres"]
+    },
+    {
+      "id": "g5m-w26-thu-004",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A cube with side 5 cm is filled with juice. Capacity in mL =",
+      "options": ["15 mL", "25 mL", "125 mL", "150 mL"],
+      "correctIndex": 2,
+      "explanation": "Cube V = 5³ = 125 cm³ = 125 mL. (1 cm³ = 1 mL)",
+      "difficulty": "medium",
+      "tags": ["volume", "cube", "capacity"]
+    },
+    {
+      "id": "g5m-w26-thu-005",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A bottle holds 1.5 L. It is ⅔ full of orange juice. How many mL of juice is in the bottle?",
+      "options": ["500 mL", "750 mL", "1,000 mL", "1,500 mL"],
+      "correctIndex": 2,
+      "explanation": "⅔ of 1.5 L = ⅔ × 1,500 mL = 1,000 mL.",
+      "difficulty": "medium",
+      "tags": ["capacity", "fractions", "word-problem"]
+    },
+    {
+      "id": "g5m-w26-thu-006",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A cuboid box (l=6 cm, b=5 cm, h=4 cm) is filled with sand. Another box (l=5 cm, b=6 cm, h=4 cm) is also filled. Which has more sand?",
+      "options": ["First box", "Second box", "Both have equal volume (120 cm³ each)", "Cannot tell without measuring"],
+      "correctIndex": 2,
+      "explanation": "Box 1: 6×5×4=120 cm³. Box 2: 5×6×4=120 cm³. Same dimensions, different order — multiplication is commutative. Equal volumes.",
+      "difficulty": "medium",
+      "tags": ["volume", "commutative", "comparison"]
+    },
+    {
+      "id": "g5m-w26-thu-007",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A bucket holds 12 L. A mug holds 250 mL. How many mugs fill the bucket?",
+      "options": ["12", "24", "48", "120"],
+      "correctIndex": 2,
+      "explanation": "12 L = 12,000 mL. 12,000 ÷ 250 = 48 mugs.",
+      "difficulty": "medium",
+      "tags": ["capacity", "division", "conversion"]
+    },
+    {
+      "id": "g5m-w26-thu-008",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A swimming pool (50m × 20m × 2m) uses a pipe to fill it. The pipe delivers 500 L per minute. Time to fill the pool =",
+      "options": ["40 min", "400 min", "4,000 min", "400 hours"],
+      "correctIndex": 2,
+      "explanation": "Pool volume = 50×20×2 = 2,000 m³ = 2,000,000 L. Time = 2,000,000 ÷ 500 = 4,000 min.",
+      "difficulty": "hard",
+      "tags": ["volume", "capacity", "rate", "time"]
+    },
+    {
+      "id": "g5m-w26-thu-009",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "Priya has a rectangular container (l=8 cm, b=5 cm). She pours 200 mL of water and it fills exactly. Height of the container =",
+      "options": ["4 cm", "5 cm", "8 cm", "25 cm"],
+      "correctIndex": 1,
+      "explanation": "200 mL = 200 cm³. V = l×b×h → 200 = 8×5×h → 200 = 40h → h = 5 cm.",
+      "difficulty": "hard",
+      "tags": ["volume", "capacity", "find-height"]
+    },
+    {
+      "id": "g5m-w26-thu-010",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "Raj's water tank is a cuboid: 1 m × 0.5 m × 0.4 m. In litres (1 m³ = 1,000 L), capacity =",
+      "options": ["0.2 L", "20 L", "200 L", "2,000 L"],
+      "correctIndex": 2,
+      "explanation": "V = 1 × 0.5 × 0.4 = 0.2 m³. 0.2 × 1,000 = 200 L.",
+      "difficulty": "hard",
+      "tags": ["volume", "capacity", "decimals"]
+    },
+    {
+      "id": "g5m-w26-thu-011",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "Two containers: A has volume 3 L 200 mL; B has volume 2,900 mL. Total capacity =",
+      "options": ["5,100 mL", "5,900 mL", "6,100 mL", "6,200 mL"],
+      "correctIndex": 2,
+      "explanation": "A = 3,200 mL. B = 2,900 mL. Total = 3,200 + 2,900 = 6,100 mL.",
+      "difficulty": "hard",
+      "tags": ["capacity", "addition", "mixed-units"]
+    },
+    {
+      "id": "g5m-w26-thu-012",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A cuboid's length is triple its width, and height equals width. Width = 3 cm. Volume =",
+      "options": ["27 cm³", "63 cm³", "81 cm³", "243 cm³"],
+      "correctIndex": 2,
+      "explanation": "Width=3, Length=3×3=9, Height=3. V=9×3×3=81 cm³.",
+      "difficulty": "hard",
+      "tags": ["volume", "algebra", "word-problem"]
+    },
+    {
+      "id": "g5m-w26-thu-013",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A box of juice (18 cm × 6 cm × 4 cm) costs ₹30. Another box (12 cm × 8 cm × 4 cm) costs ₹25. Which is the better deal (more juice per rupee)?",
+      "options": ["First box", "Second box", "Both equal", "Cannot compare"],
+      "correctIndex": 1,
+      "explanation": "Box 1: V=432 cm³, cost ₹30 → 14.4 cm³/₹. Box 2: V=384 cm³, cost ₹25 → 15.36 cm³/₹. Box 2 gives more juice per rupee — better deal.",
+      "difficulty": "hard",
+      "tags": ["volume", "value-for-money", "reasoning"]
+    },
+    {
+      "id": "g5m-w26-thu-014",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A cylindrical drum has capacity 500 L. If it is ⅖ full, how many more litres are needed to fill it?",
+      "options": ["200 L", "300 L", "350 L", "400 L"],
+      "correctIndex": 1,
+      "explanation": "⅖ × 500 = 200 L already in drum. Remaining = 500 − 200 = 300 L needed.",
+      "difficulty": "hard",
+      "tags": ["capacity", "fractions", "remaining"]
+    },
+    {
+      "id": "g5m-w26-thu-015",
+      "goalId": "grade-5-math-w26-thu",
+      "question": "A rectangular room floor is 5 m × 4 m. To pour a 10 cm (0.1 m) thick layer of concrete, volume of concrete needed =",
+      "options": ["0.2 m³", "2 m³", "20 m³", "200 m³"],
+      "correctIndex": 1,
+      "explanation": "V = 5 × 4 × 0.1 = 2 m³ of concrete.",
+      "difficulty": "hard",
+      "tags": ["volume", "real-life", "construction"]
+    }
+  ]
+}

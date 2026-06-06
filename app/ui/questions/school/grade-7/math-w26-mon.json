@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-math-w26-mon",
+  "title": "Grade 7 Math — Mon, Jun 23",
+  "description": "Perimeter and Area — Circles Day 1 of 5: Parts of a circle + circumference",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7m-w26-mon-001",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "The distance from the centre of a circle to any point on its boundary is called the:",
+      "options": ["Diameter", "Chord", "Radius", "Arc"],
+      "correctIndex": 2,
+      "explanation": "Radius = distance from centre to boundary. Diameter = 2 × radius (passes through centre). Chord = line joining any two points on the boundary (doesn't need to pass through centre).",
+      "difficulty": "easy",
+      "tags": ["circle", "radius", "definition"]
+    },
+    {
+      "id": "g7m-w26-mon-002",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "A circle has diameter 14 cm. Its radius =",
+      "options": ["14 cm", "28 cm", "7 cm", "22 cm"],
+      "correctIndex": 2,
+      "explanation": "Radius = Diameter ÷ 2 = 14 ÷ 2 = 7 cm.",
+      "difficulty": "easy",
+      "tags": ["circle", "radius", "diameter"]
+    },
+    {
+      "id": "g7m-w26-mon-003",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "The circumference of a circle with radius 7 cm (π = 22/7) =",
+      "options": ["22 cm", "44 cm", "154 cm", "88 cm"],
+      "correctIndex": 1,
+      "explanation": "C = 2πr = 2 × (22/7) × 7 = 2 × 22 = 44 cm.",
+      "difficulty": "easy",
+      "tags": ["circle", "circumference", "formula"]
+    },
+    {
+      "id": "g7m-w26-mon-004",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "The longest chord of a circle is its:",
+      "options": ["Radius", "Arc", "Diameter", "Circumference"],
+      "correctIndex": 2,
+      "explanation": "The diameter is the longest chord — it passes through the centre. All other chords are shorter. Circumference is the perimeter (not a chord).",
+      "difficulty": "easy",
+      "tags": ["circle", "diameter", "chord"]
+    },
+    {
+      "id": "g7m-w26-mon-005",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "Circumference of a circle with diameter 21 cm (π = 22/7) =",
+      "options": ["44 cm", "66 cm", "132 cm", "33 cm"],
+      "correctIndex": 1,
+      "explanation": "C = πd = (22/7) × 21 = 22 × 3 = 66 cm. (Or: radius = 10.5 cm, C = 2 × 22/7 × 10.5 = 66 cm.)",
+      "difficulty": "easy",
+      "tags": ["circle", "circumference", "diameter-given"]
+    },
+    {
+      "id": "g7m-w26-mon-006",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "A circular park has circumference 132 m. Its radius (π = 22/7) =",
+      "options": ["14 m", "21 m", "42 m", "66 m"],
+      "correctIndex": 1,
+      "explanation": "C = 2πr → 132 = 2 × (22/7) × r → 132 = 44r/7 → r = 132 × 7/44 = 924/44 = 21 m.",
+      "difficulty": "medium",
+      "tags": ["circle", "circumference", "find-radius"]
+    },
+    {
+      "id": "g7m-w26-mon-007",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "A semicircle has diameter 14 cm. Its perimeter (straight edge + curved edge, π = 22/7) =",
+      "options": ["22 cm", "36 cm", "44 cm", "58 cm"],
+      "correctIndex": 1,
+      "explanation": "Curved part = half circumference = ½ × πd = ½ × 22/7 × 14 = 22 cm. Straight edge (diameter) = 14 cm. Total perimeter = 22 + 14 = 36 cm.",
+      "difficulty": "medium",
+      "tags": ["circle", "semicircle", "perimeter"]
+    },
+    {
+      "id": "g7m-w26-mon-008",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "A wheel has radius 35 cm. How far does it travel in one full rotation (π = 22/7)?",
+      "options": ["110 cm", "220 cm", "440 cm", "770 cm"],
+      "correctIndex": 1,
+      "explanation": "One full rotation = circumference = 2πr = 2 × (22/7) × 35 = 2 × 110 = 220 cm.",
+      "difficulty": "medium",
+      "tags": ["circle", "circumference", "wheel-rotation"]
+    },
+    {
+      "id": "g7m-w26-mon-009",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "A circular track has radius 63 m. Cost of fencing around it at ₹12 per metre (π = 22/7) =",
+      "options": ["₹2,376", "₹4,752", "₹9,504", "₹1,188"],
+      "correctIndex": 1,
+      "explanation": "C = 2πr = 2 × (22/7) × 63 = 2 × 198 = 396 m. Cost = 396 × 12 = ₹4,752.",
+      "difficulty": "hard",
+      "tags": ["circle", "circumference", "cost"]
+    },
+    {
+      "id": "g7m-w26-mon-010",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "A bicycle wheel has diameter 70 cm. How many rotations does it make to travel 110 m? (π = 22/7; 110 m = 11,000 cm)",
+      "options": ["25 rotations", "50 rotations", "75 rotations", "100 rotations"],
+      "correctIndex": 1,
+      "explanation": "Circumference = πd = (22/7) × 70 = 220 cm. Rotations = Total distance ÷ Circumference = 11,000 ÷ 220 = 50.",
+      "difficulty": "hard",
+      "tags": ["circle", "circumference", "rotations"]
+    },
+    {
+      "id": "g7m-w26-mon-011",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "Which has a greater circumference: Circle A (radius 7 cm) or Circle B (diameter 15 cm)? (π = 22/7)",
+      "options": ["Circle A (44 cm)", "Circle B (≈47.1 cm)", "Both are equal", "Cannot be determined"],
+      "correctIndex": 1,
+      "explanation": "C(A) = 2×(22/7)×7 = 44 cm. C(B) = π×15 = (22/7)×15 ≈ 47.1 cm. Circle B has the greater circumference.",
+      "difficulty": "hard",
+      "tags": ["circle", "circumference", "compare"]
+    },
+    {
+      "id": "g7m-w26-mon-012",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "The circumference of a circle equals the perimeter of a square with side 11 cm. Radius of the circle (π = 22/7) =",
+      "options": ["3.5 cm", "7 cm", "14 cm", "22 cm"],
+      "correctIndex": 1,
+      "explanation": "Perimeter of square = 4 × 11 = 44 cm. Circumference = 44 → 2πr = 44 → 2 × (22/7) × r = 44 → r = 44 × 7/44 = 7 cm.",
+      "difficulty": "hard",
+      "tags": ["circle", "circumference", "find-radius", "word-problem"]
+    },
+    {
+      "id": "g7m-w26-mon-013",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "Arc vs Circumference: The arc PQ is half the circumference of a circle with radius 10 cm. Arc length PQ (π = 22/7) =",
+      "options": ["22 cm", "31.4 cm", "44 cm", "62.8 cm"],
+      "correctIndex": 1,
+      "explanation": "Full circumference = 2πr = 2 × (22/7) × 10 = 440/7 ≈ 62.9 cm. Half arc = 62.9/2 ≈ 31.4 cm. (Using π = 22/7: 440/14 = 220/7 ≈ 31.4 cm.)",
+      "difficulty": "hard",
+      "tags": ["circle", "arc", "semicircle"]
+    },
+    {
+      "id": "g7m-w26-mon-014",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "If the radius of a circle is doubled, its circumference:",
+      "options": ["Stays the same", "Doubles (multiplied by 2)", "Quadruples (multiplied by 4)", "Is multiplied by √2"],
+      "correctIndex": 1,
+      "explanation": "C = 2πr. If r → 2r, then C → 2π(2r) = 4πr = 2 × (2πr). Circumference doubles when radius doubles. (Compare: area quadruples when radius doubles.)",
+      "difficulty": "hard",
+      "tags": ["circle", "circumference", "scaling"]
+    },
+    {
+      "id": "g7m-w26-mon-015",
+      "goalId": "grade-7-math-w26-mon",
+      "question": "A wire of length 88 cm is bent into a circle. Radius of the circle (π = 22/7) =",
+      "options": ["7 cm", "14 cm", "28 cm", "44 cm"],
+      "correctIndex": 1,
+      "explanation": "Wire length = circumference = 88 cm. 2πr = 88 → 2 × (22/7) × r = 88 → (44/7) × r = 88 → r = 88 × 7/44 = 14 cm.",
+      "difficulty": "hard",
+      "tags": ["circle", "circumference", "find-radius", "wire"]
+    }
+  ]
+}

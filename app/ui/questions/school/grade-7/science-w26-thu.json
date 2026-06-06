@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-7-science-w26-thu",
+  "title": "Grade 7 Science — Thu, Jun 26",
+  "description": "Heat — Day 4 of 5: Radiation — heat transfer by electromagnetic waves",
+  "subject": "science",
+  "category": "school",
+  "grade": 7,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-7", "weekly"],
+  "questions": [
+    {
+      "id": "g7s-w26-thu-001",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "Radiation (heat) is heat transfer through:",
+      "options": ["Direct contact between solid particles", "Movement of heated fluid", "Electromagnetic waves — no medium required; works even in vacuum", "Chemical energy"],
+      "correctIndex": 2,
+      "explanation": "Radiation: energy transmitted as electromagnetic (infrared) waves. No medium needed — the Sun heats Earth through the vacuum of space. All objects above absolute zero radiate heat. Unlike conduction/convection, radiation doesn't need matter.",
+      "difficulty": "easy",
+      "tags": ["radiation", "definition", "electromagnetic"]
+    },
+    {
+      "id": "g7s-w26-thu-002",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "The best absorber and emitter of radiant heat is:",
+      "options": ["A shiny silver surface", "A dull black surface", "A polished white surface", "A transparent glass surface"],
+      "correctIndex": 1,
+      "explanation": "Dull black surfaces: best absorber (absorbs ~97% of incident radiation) AND best emitter. Shiny/polished/white surfaces: poor absorbers and poor emitters — they reflect most radiation. This is why radiators used to be painted black.",
+      "difficulty": "easy",
+      "tags": ["radiation", "absorber", "emitter", "black"]
+    },
+    {
+      "id": "g7s-w26-thu-003",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "Why do we feel warm when we stand near a fire, even if we are not touching it?",
+      "options": ["Conduction from the hot air", "Convection currents carry heat to us", "Radiation: the fire emits infrared waves that travel directly through air and are absorbed by our skin", "The fire warms the ground which then warms us"],
+      "correctIndex": 2,
+      "explanation": "Radiation travels as infrared waves — no medium needed. Fire emits strong infrared radiation in all directions. Even without touching the fire or requiring hot air, the radiation heats your skin directly (instantaneously at the speed of light).",
+      "difficulty": "easy",
+      "tags": ["radiation", "fire", "everyday"]
+    },
+    {
+      "id": "g7s-w26-thu-004",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "Why is a thermos flask (vacuum flask) designed with a double wall and silvered interior?",
+      "options": ["To make it attractive", "Vacuum between walls blocks conduction and convection; silvered surface reflects radiation — minimising all three modes of heat transfer to keep liquids hot or cold longer", "Silver keeps bacteria away", "To increase capacity"],
+      "correctIndex": 1,
+      "explanation": "Thermos flask design: (1) Vacuum gap = no conduction/convection. (2) Silvered (shiny) walls = poor emitter/absorber of radiation. Together, all three heat transfer modes are minimised. This is why drinks stay hot or cold for hours.",
+      "difficulty": "medium",
+      "tags": ["radiation", "thermos", "all-three-modes"]
+    },
+    {
+      "id": "g7s-w26-thu-005",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "White or light-coloured clothes are preferred in summer because:",
+      "options": ["White is a fashion trend in summer", "White surfaces are poor absorbers of radiation — they reflect most solar radiation, keeping the body cooler; dark colours absorb more heat", "White clothes are thinner", "White is cooler because of the material"],
+      "correctIndex": 1,
+      "explanation": "In summer: white/light = reflect solar radiation → body stays cooler. In winter: dark clothes absorb more radiation → body stays warmer. This is not about fabric thickness — it's about radiation absorption/reflection properties.",
+      "difficulty": "medium",
+      "tags": ["radiation", "clothing", "white-dark"]
+    },
+    {
+      "id": "g7s-w26-thu-006",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "The greenhouse effect works because:",
+      "options": ["Greenhouses are painted black", "Glass allows shortwave solar radiation in but traps outgoing longwave (infrared) radiation — warming the interior", "Plants inside produce heat", "Greenhouses have no ventilation"],
+      "correctIndex": 1,
+      "explanation": "Greenhouse glass: transmits visible/UV light (shortwave) → plants and soil absorb and convert to infrared (heat, longwave). Glass blocks outgoing infrared → heat is trapped → temperature rises. Earth's atmosphere acts similarly (CO₂ = greenhouse gas).",
+      "difficulty": "medium",
+      "tags": ["radiation", "greenhouse-effect", "glass"]
+    },
+    {
+      "id": "g7s-w26-thu-007",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "On a cold winter night, a farmer covers plants with newspaper/polythene sheets. This works because:",
+      "options": ["Newspaper makes the plants warmer by conduction", "The cover acts as a radiation shield — it traps the infrared radiation emitted by the soil/plants and reflects it back, preventing heat loss to the cold night sky", "Newspaper is a source of heat", "Polythene conducts heat into the plants"],
+      "correctIndex": 1,
+      "explanation": "Plants and soil emit infrared radiation at night. A cover reflects this radiation back → reduces heat loss. Without the cover, the infrared escapes to the cold sky → plants freeze. On clear nights, radiation loss is greater (no clouds to reflect back).",
+      "difficulty": "hard",
+      "tags": ["radiation", "frost-protection", "agriculture"]
+    },
+    {
+      "id": "g7s-w26-thu-008",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "Stefan-Boltzmann's Law states: The rate of heat radiated by a body depends on its:",
+      "options": ["Mass only", "Temperature to the fourth power (T⁴) and surface area — hotter bodies radiate vastly more energy", "Colour only", "Density"],
+      "correctIndex": 1,
+      "explanation": "Stefan-Boltzmann: P = εσAT⁴. Power radiated ∝ T⁴ (absolute temperature to the 4th power). Small temperature increase = huge increase in radiation. The Sun (5,778 K) radiates enormously more than Earth (288 K) per unit area.",
+      "difficulty": "hard",
+      "tags": ["radiation", "stefan-boltzmann", "law"]
+    },
+    {
+      "id": "g7s-w26-thu-009",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "Solar cookers use radiation by:",
+      "options": ["Burning fuel to heat food", "Concentrating sunlight with reflectors onto a dark cooking vessel — radiation from the Sun is focused to achieve cooking temperatures", "Using electricity from solar panels", "Using convection from hot air in the box"],
+      "correctIndex": 1,
+      "explanation": "Solar cooker: parabolic mirror concentrates solar radiation → dark (good absorber) pot absorbs it → heats food. No fuel, no electricity, no pollution. Glass top traps heat (mini greenhouse effect). Works best in direct sunlight; ineffective on cloudy days.",
+      "difficulty": "hard",
+      "tags": ["radiation", "solar-cooker", "application"]
+    },
+    {
+      "id": "g7s-w26-thu-010",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "Why do buildings in hot climates often have white-painted roofs?",
+      "options": ["Aesthetic preference", "White roofs are poor absorbers/good reflectors of solar radiation → less heat absorbed → building stays cooler → lower energy bills for air conditioning", "White is durable in heat", "Local regulation"],
+      "correctIndex": 1,
+      "explanation": "White roof = high albedo (reflectivity). Absorbs very little solar radiation. Interior stays cooler. Studies show white roofs can reduce cooling costs by 10-20% in hot climates. Urban heat island effect is also reduced. Pure radiation principle.",
+      "difficulty": "hard",
+      "tags": ["radiation", "white-roof", "architecture"]
+    },
+    {
+      "id": "g7s-w26-thu-011",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "Infrared thermometers (no-touch thermometers) measure temperature by:",
+      "options": ["Touching the skin to measure conduction", "Detecting infrared radiation emitted by the body — all objects above 0 K emit infrared; temperature is calculated from radiation intensity", "Using sound waves", "Measuring blood flow"],
+      "correctIndex": 1,
+      "explanation": "Infrared thermometers: detect radiation (infrared) emitted by the skin or forehead. More radiation = higher temperature (Stefan-Boltzmann). Safe, fast, contact-free. Widely used during COVID-19 screening. Demonstrates that all warm bodies emit radiation.",
+      "difficulty": "hard",
+      "tags": ["radiation", "infrared-thermometer", "application"]
+    },
+    {
+      "id": "g7s-w26-thu-012",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "Why is radiation the only mode of heat transfer that works in space (vacuum)?",
+      "options": ["Space is very hot", "Radiation uses electromagnetic waves that don't need a medium — conduction and convection need matter (particles) to transfer energy; space has no matter", "Astronauts carry heaters", "Gravity stops convection in space"],
+      "correctIndex": 1,
+      "explanation": "Conduction: needs particle-to-particle contact (no particles in vacuum). Convection: needs fluid flow (no fluid). Radiation: electromagnetic waves travel through vacuum at the speed of light (3×10⁸ m/s). The Sun heats Earth across 150 million km of vacuum purely by radiation.",
+      "difficulty": "hard",
+      "tags": ["radiation", "vacuum", "space"]
+    },
+    {
+      "id": "g7s-w26-thu-013",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "On a clear night the ground cools faster than on a cloudy night. Why?",
+      "options": ["Wind is stronger on clear nights", "On clear nights, ground radiates infrared heat to the sky unobstructed; clouds act as a radiation shield, absorbing and re-emitting infrared back to Earth — keeping it warmer", "Clear nights are longer", "Clouds produce heat"],
+      "correctIndex": 1,
+      "explanation": "Night cooling: ground emits infrared radiation. On clear night, this radiates to outer space → rapid cooling → frost risk. Clouds reflect/absorb and re-radiate some back → slower cooling. Farmers prefer cloudy nights during frost season for this reason.",
+      "difficulty": "hard",
+      "tags": ["radiation", "night-cooling", "clouds"]
+    },
+    {
+      "id": "g7s-w26-thu-014",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "A Dewar flask (lab version of thermos) has: vacuum between walls + silvered walls + glass. Each feature stops which heat transfer?",
+      "options": ["All three features stop conduction", "Vacuum → stops conduction and convection; silvered walls → stops radiation (reflects it); glass walls → provides mechanical strength (insulator too)", "Vacuum → stops radiation; silver → stops conduction", "Glass → stops all three"],
+      "correctIndex": 1,
+      "explanation": "Perfect insulation = blocking all three: (1) Vacuum = no conduction/convection (no medium). (2) Silvered/shiny walls = reflect radiation (poor emitter/absorber). Together: maximum insulation. Used in labs for liquid nitrogen, liquid oxygen storage.",
+      "difficulty": "hard",
+      "tags": ["radiation", "dewar-flask", "all-three"]
+    },
+    {
+      "id": "g7s-w26-thu-015",
+      "goalId": "grade-7-science-w26-thu",
+      "question": "The Earth's ozone layer is important because it:",
+      "options": ["Blocks all solar radiation", "Absorbs most of the Sun's harmful ultraviolet (UV) radiation, preventing it from reaching Earth's surface — UV damages DNA and causes skin cancer", "Reflects infrared back to Earth", "Creates oxygen for breathing"],
+      "correctIndex": 1,
+      "explanation": "Ozone (O₃) in the stratosphere absorbs UV-B and UV-C radiation. UV radiation is high-energy and damages living cells. Without ozone, UV radiation would cause mass extinctions. CFCs destroy ozone → ozone holes → more UV reaching Earth. Unrelated to visible light/IR.",
+      "difficulty": "hard",
+      "tags": ["radiation", "ozone-layer", "UV"]
+    }
+  ]
+}

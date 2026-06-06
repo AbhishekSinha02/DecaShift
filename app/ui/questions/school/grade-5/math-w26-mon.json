@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-5-math-w26-mon",
+  "title": "Grade 5 Math — Mon, Jun 23",
+  "description": "Volume and Capacity — Day 1 of 5: What is volume? Unit cubes and counting",
+  "subject": "mathematics",
+  "category": "school",
+  "grade": 5,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "mon",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["mathematics", "grade-5", "weekly"],
+  "questions": [
+    {
+      "id": "g5m-w26-mon-001",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "Volume is the amount of space a 3D object occupies. What unit is commonly used for volume?",
+      "options": ["cm (centimetres)", "cm² (square centimetres)", "cm³ (cubic centimetres)", "kg (kilograms)"],
+      "correctIndex": 2,
+      "explanation": "Volume is measured in cubic units — cm³ (cubic centimetres) for small objects, m³ (cubic metres) for large ones. 'Cubic' refers to 3 dimensions: length × breadth × height.",
+      "difficulty": "easy",
+      "tags": ["volume", "units", "cm3"]
+    },
+    {
+      "id": "g5m-w26-mon-002",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "A unit cube has all sides equal to 1 cm. Its volume is:",
+      "options": ["1 cm", "1 cm²", "1 cm³", "6 cm²"],
+      "correctIndex": 2,
+      "explanation": "Volume of a unit cube = 1 × 1 × 1 = 1 cm³. It occupies exactly 1 cubic centimetre of space.",
+      "difficulty": "easy",
+      "tags": ["volume", "unit-cube"]
+    },
+    {
+      "id": "g5m-w26-mon-003",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "A shape is made of unit cubes arranged in a single layer: 3 cubes wide and 2 cubes long. How many unit cubes are there?",
+      "options": ["5", "6", "9", "10"],
+      "correctIndex": 1,
+      "explanation": "3 × 2 = 6 unit cubes. Total volume = 6 cm³.",
+      "difficulty": "easy",
+      "tags": ["volume", "counting-cubes", "single-layer"]
+    },
+    {
+      "id": "g5m-w26-mon-004",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "The same 3×2 base arrangement is stacked 4 layers high. Total unit cubes =",
+      "options": ["12", "20", "24", "36"],
+      "correctIndex": 2,
+      "explanation": "3 × 2 × 4 = 24 unit cubes. Volume = 24 cm³.",
+      "difficulty": "easy",
+      "tags": ["volume", "counting-cubes", "layers"]
+    },
+    {
+      "id": "g5m-w26-mon-005",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "A solid shape is made by stacking unit cubes: first layer has 8 cubes, second layer has 8 cubes. Total volume =",
+      "options": ["8 cm³", "16 cm³", "4 cm³", "64 cm³"],
+      "correctIndex": 1,
+      "explanation": "Each layer = 8 unit cubes. 2 layers = 8 × 2 = 16 unit cubes = 16 cm³.",
+      "difficulty": "easy",
+      "tags": ["volume", "counting-cubes"]
+    },
+    {
+      "id": "g5m-w26-mon-006",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "Why do we measure volume in CUBIC units (cm³) rather than square units (cm²)?",
+      "options": ["No special reason", "Volume requires 3 dimensions (length × breadth × height). Multiplying 3 lengths gives cubic units. Square units (cm²) only describe area (2 dimensions).", "Cubic units are smaller", "Square units cannot be used in maths"],
+      "correctIndex": 1,
+      "explanation": "Area = 2 dimensions → cm². Volume = 3 dimensions → cm³. When we multiply 3 measurements each in cm, we get cm × cm × cm = cm³.",
+      "difficulty": "medium",
+      "tags": ["volume", "cubic-units", "reasoning"]
+    },
+    {
+      "id": "g5m-w26-mon-007",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "A cuboid is built using unit cubes: 5 cubes long, 3 cubes wide, 2 cubes high. Volume =",
+      "options": ["10 cm³", "15 cm³", "30 cm³", "60 cm³"],
+      "correctIndex": 2,
+      "explanation": "5 × 3 × 2 = 30 unit cubes. Volume = 30 cm³.",
+      "difficulty": "medium",
+      "tags": ["volume", "cuboid", "counting"]
+    },
+    {
+      "id": "g5m-w26-mon-008",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "The volume of 1 m³ in terms of cm³ is:",
+      "options": ["100 cm³", "1,000 cm³", "10,000 cm³", "1,000,000 cm³"],
+      "correctIndex": 3,
+      "explanation": "1 m = 100 cm. Volume conversion: 1 m³ = 100 × 100 × 100 = 1,000,000 cm³ (one million cubic centimetres).",
+      "difficulty": "medium",
+      "tags": ["volume", "unit-conversion", "m3-to-cm3"]
+    },
+    {
+      "id": "g5m-w26-mon-009",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "A shape has two parts: Part A = 12 unit cubes, Part B = 8 unit cubes. Total volume =",
+      "options": ["4 cm³", "12 cm³", "20 cm³", "96 cm³"],
+      "correctIndex": 2,
+      "explanation": "Total = 12 + 8 = 20 unit cubes = 20 cm³. For composite (L-shaped, etc.) solids, break into parts and add volumes.",
+      "difficulty": "medium",
+      "tags": ["volume", "composite-shape"]
+    },
+    {
+      "id": "g5m-w26-mon-010",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "A student counts cubes and gets 36 for a cuboid. If the cuboid is 4 cm long and 3 cm wide, how many layers high is it?",
+      "options": ["2", "3", "4", "9"],
+      "correctIndex": 1,
+      "explanation": "Base = 4 × 3 = 12 cubes per layer. Layers = 36 ÷ 12 = 3 layers. Height = 3 cm.",
+      "difficulty": "hard",
+      "tags": ["volume", "reverse-calculation"]
+    },
+    {
+      "id": "g5m-w26-mon-011",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "An L-shaped solid is made of unit cubes. The longer arm has 20 cubes, the shorter arm has 12 cubes, but 4 cubes overlap in the corner. Actual total =",
+      "options": ["32", "28", "36", "16"],
+      "correctIndex": 1,
+      "explanation": "When shapes overlap, subtract the overlap. 20 + 12 − 4 = 28 unit cubes total.",
+      "difficulty": "hard",
+      "tags": ["volume", "composite", "overlap"]
+    },
+    {
+      "id": "g5m-w26-mon-012",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "Two cuboids: Box P = 4×3×2 = 24 cm³. Box Q = 6×2×2 = 24 cm³. A student says 'they are the same.' Is this correct?",
+      "options": ["No — P is bigger", "Yes — same volume means they are identical", "Yes — same volume but DIFFERENT shapes. Two objects can have equal volumes but completely different dimensions.", "No — Q is bigger"],
+      "correctIndex": 2,
+      "explanation": "Volume = 24 cm³ for both. BUT shapes are different (P is shorter/wider, Q is longer/thinner). Equal volume does NOT mean identical shape. This is a key concept.",
+      "difficulty": "hard",
+      "tags": ["volume", "same-volume-different-shape"]
+    },
+    {
+      "id": "g5m-w26-mon-013",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "Convert: 5 m³ = ___ cm³",
+      "options": ["500 cm³", "5,000 cm³", "500,000 cm³", "5,000,000 cm³"],
+      "correctIndex": 3,
+      "explanation": "1 m³ = 1,000,000 cm³. So 5 m³ = 5 × 1,000,000 = 5,000,000 cm³.",
+      "difficulty": "hard",
+      "tags": ["volume", "unit-conversion"]
+    },
+    {
+      "id": "g5m-w26-mon-014",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "A cube has all sides equal. If each side = 3 cm, volume =",
+      "options": ["9 cm³", "18 cm³", "27 cm³", "81 cm³"],
+      "correctIndex": 2,
+      "explanation": "Volume of cube = side³ = 3 × 3 × 3 = 27 cm³.",
+      "difficulty": "hard",
+      "tags": ["volume", "cube", "formula"]
+    },
+    {
+      "id": "g5m-w26-mon-015",
+      "goalId": "grade-5-math-w26-mon",
+      "question": "Ravi has a box that holds exactly 60 unit cubes. Priya has a box that holds 5 layers of 12 cubes each. Whose box is bigger?",
+      "options": ["Ravi's box (60 cm³)", "Priya's box (60 cm³)", "They are the same size — both hold 60 unit cubes = 60 cm³", "Cannot be compared"],
+      "correctIndex": 2,
+      "explanation": "Ravi = 60 cubes = 60 cm³. Priya = 5 × 12 = 60 cubes = 60 cm³. Both boxes have the same volume (60 cm³) even if their shapes may differ.",
+      "difficulty": "hard",
+      "tags": ["volume", "comparison"]
+    }
+  ]
+}

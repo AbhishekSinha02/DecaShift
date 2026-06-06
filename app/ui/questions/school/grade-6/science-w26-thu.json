@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-6-science-w26-thu",
+  "title": "Grade 6 Science — Thu, Jun 26",
+  "description": "Light, Shadows and Reflections — Day 4 of 5: Solar and lunar eclipses",
+  "subject": "science",
+  "category": "school",
+  "grade": 6,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-6", "weekly"],
+  "questions": [
+    {
+      "id": "g6s-w26-thu-001",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "A solar eclipse occurs when:",
+      "options": ["Earth comes between the Sun and Moon", "The Moon comes between Earth and the Sun, blocking sunlight from reaching part of Earth", "The Sun comes between Earth and Moon", "The Moon stops shining"],
+      "correctIndex": 1,
+      "explanation": "Solar eclipse: Moon → between → Sun and Earth. The Moon's shadow falls on Earth. Occurs at NEW MOON (when Moon is on the Sun's side of Earth). Not every new moon causes an eclipse because the Moon's orbit is tilted ~5° relative to Earth's.",
+      "difficulty": "easy",
+      "tags": ["eclipse", "solar", "definition"]
+    },
+    {
+      "id": "g6s-w26-thu-002",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "A lunar eclipse occurs when:",
+      "options": ["The Moon comes between Earth and the Sun", "Earth comes between the Sun and the Moon — Earth's shadow falls on the Moon", "The Sun is covered by clouds", "The Moon moves to the far side of Earth"],
+      "correctIndex": 1,
+      "explanation": "Lunar eclipse: Earth → between → Sun and Moon. Earth casts its shadow on the Moon. Occurs at FULL MOON. The Moon appears reddish-brown during a total lunar eclipse ('Blood Moon') due to Earth's atmosphere bending red light onto the Moon.",
+      "difficulty": "easy",
+      "tags": ["eclipse", "lunar", "definition"]
+    },
+    {
+      "id": "g6s-w26-thu-003",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "Order: Sun – Moon – Earth. This arrangement describes:",
+      "options": ["Lunar eclipse", "Solar eclipse — Moon is between Sun and Earth", "No eclipse — wrong order", "Tidal effects"],
+      "correctIndex": 1,
+      "explanation": "Sun–Moon–Earth = solar eclipse (Moon blocks sunlight reaching Earth). Sun–Earth–Moon = lunar eclipse (Earth's shadow on Moon).",
+      "difficulty": "easy",
+      "tags": ["eclipse", "alignment", "solar"]
+    },
+    {
+      "id": "g6s-w26-thu-004",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "During a TOTAL solar eclipse, people in the umbra region see:",
+      "options": ["Partial darkness", "Total darkness — all direct sunlight is blocked by the Moon; stars are visible during the day", "The Moon glowing", "Brighter than usual sunlight"],
+      "correctIndex": 1,
+      "explanation": "In the Moon's umbra (total shadow), the Moon completely covers the Sun's disc. Total darkness for a few minutes. The Sun's corona (outer atmosphere) becomes visible. Very rare at any specific location.",
+      "difficulty": "medium",
+      "tags": ["eclipse", "solar", "umbra"]
+    },
+    {
+      "id": "g6s-w26-thu-005",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "In a partial solar eclipse, people in the penumbra see:",
+      "options": ["Total darkness", "Only part of the Sun is covered by the Moon — partial darkening", "No effect", "The Moon glowing red"],
+      "correctIndex": 1,
+      "explanation": "Penumbra region = partial shadow. Here, the Moon covers only PART of the Sun → partial solar eclipse. The sky dims somewhat but total darkness doesn't occur.",
+      "difficulty": "medium",
+      "tags": ["eclipse", "partial", "penumbra"]
+    },
+    {
+      "id": "g6s-w26-thu-006",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "Why does the Moon appear reddish ('Blood Moon') during a total lunar eclipse?",
+      "options": ["The Moon catches fire", "Earth's atmosphere bends (refracts) red wavelengths of sunlight around the edge of Earth, projecting them onto the Moon — blue light is scattered away", "The Moon becomes very hot", "It's an optical illusion"],
+      "correctIndex": 1,
+      "explanation": "During a total lunar eclipse, Earth's atmosphere acts as a lens, bending red light (longer wavelength, less scattered) onto the Moon. Blue light (shorter wavelength) scatters away. This is the same reason sunsets are red.",
+      "difficulty": "medium",
+      "tags": ["eclipse", "lunar", "blood-moon"]
+    },
+    {
+      "id": "g6s-w26-thu-007",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "Why don't solar eclipses happen every new moon?",
+      "options": ["The Moon is too small", "The Moon's orbital plane is tilted about 5° from Earth's orbital plane — most new moons the Moon passes above or below the Sun's disc, not directly in front", "The Sun is too far away", "Solar eclipses happen every new moon"],
+      "correctIndex": 1,
+      "explanation": "If the Moon's orbit were exactly in Earth's orbital plane, we'd have solar and lunar eclipses every month. The 5° tilt means the Moon usually passes slightly above or below — eclipses occur only when the Moon is near the intersection of the two orbital planes.",
+      "difficulty": "hard",
+      "tags": ["eclipse", "why-not-every-month", "orbital-tilt"]
+    },
+    {
+      "id": "g6s-w26-thu-008",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "Why should you NEVER look at a solar eclipse with naked eyes?",
+      "options": ["It is bad luck", "The Sun's UV and infrared radiation can permanently damage the retina (solar retinopathy) even when the Sun appears dim — the Moon blocks visible light but UV still passes", "The Moon blocks all harmful radiation", "It is just a superstition"],
+      "correctIndex": 1,
+      "explanation": "Solar retinopathy: intense UV/IR from the Sun burns retinal cells permanently. During a partial eclipse, the dimmed Sun tricks you into looking without squinting, but harmful radiation continues. Use certified eclipse glasses (ISO 12312-2) or a pinhole projector.",
+      "difficulty": "hard",
+      "tags": ["eclipse", "safety", "solar-retinopathy"]
+    },
+    {
+      "id": "g6s-w26-thu-009",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "A total solar eclipse lasts only a few minutes at any location. Why?",
+      "options": ["The Moon moves slowly", "The Moon's umbra is very small (radius ~100 km) — the shadow sweeps across Earth's surface at ~1,700 km/h, so any location is in the umbra for only 1–7 minutes", "The Sun is very fast", "Clouds block the eclipse quickly"],
+      "correctIndex": 1,
+      "explanation": "The Moon's umbra is a narrow cone (~100–170 km diameter at Earth's surface). As Earth rotates and the Moon orbits, this shadow sweeps a path across Earth (the 'path of totality') at high speed — only 1–7 minutes of totality per location.",
+      "difficulty": "hard",
+      "tags": ["eclipse", "duration", "umbra-size"]
+    },
+    {
+      "id": "g6s-w26-thu-010",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "An annular solar eclipse occurs when:",
+      "options": ["The Moon is very close to Earth", "The Moon is at its farthest point from Earth (apogee) — appears smaller than the Sun — doesn't completely cover the Sun, leaving a 'ring of fire' visible", "Earth is at its farthest from the Sun", "The Sun is smaller than usual"],
+      "correctIndex": 1,
+      "explanation": "Moon's distance from Earth varies (elliptical orbit). At apogee (farthest), Moon appears ~14% smaller → can't cover the entire Sun → 'ring of fire' (annular) eclipse. At perigee (closest), Moon appears larger → total eclipse possible.",
+      "difficulty": "hard",
+      "tags": ["eclipse", "annular", "apogee"]
+    },
+    {
+      "id": "g6s-w26-thu-011",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "During a TOTAL lunar eclipse, can you still see the Moon?",
+      "options": ["No — the Moon disappears completely", "Yes — it turns reddish-brown ('Blood Moon'), visible with naked eye because Earth's atmosphere bends red light onto the Moon", "Yes — it glows white", "No — only a professional telescope can see it"],
+      "correctIndex": 1,
+      "explanation": "During a total lunar eclipse, the Moon enters Earth's umbra but doesn't disappear — it turns reddish. Atmospheric refraction of red light illuminates it faintly. This is visible to the naked eye worldwide (wherever the Moon is above the horizon).",
+      "difficulty": "hard",
+      "tags": ["eclipse", "lunar", "visibility"]
+    },
+    {
+      "id": "g6s-w26-thu-012",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "Solar vs lunar eclipse: which can be seen by more people at once?",
+      "options": ["Solar eclipse", "Lunar eclipse — Earth's shadow is larger than the Moon; when Earth's shadow covers the Moon, it's visible from the entire night-side of Earth simultaneously", "Both are seen by the same number", "Depends on the year"],
+      "correctIndex": 1,
+      "explanation": "A solar eclipse's umbra covers only ~100–170 km of Earth's surface — only a narrow strip of people see totality. A lunar eclipse is visible from the entire night-side of Earth (half the planet) simultaneously. Lunar eclipses are much more commonly observed by individuals.",
+      "difficulty": "hard",
+      "tags": ["eclipse", "solar-vs-lunar", "visibility-area"]
+    },
+    {
+      "id": "g6s-w26-thu-013",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "The 'path of totality' refers to:",
+      "options": ["The full orbit of the Moon", "The narrow band on Earth's surface along which the Moon's umbra sweeps during a total solar eclipse — people within this path see a total eclipse", "The Moon's shadow on the Sun", "Earth's orbit around the Sun"],
+      "correctIndex": 1,
+      "explanation": "Path of totality: the track of the Moon's umbra across Earth's surface during a total solar eclipse. Typically ~100–170 km wide and thousands of km long. Only within this path is a TOTAL eclipse visible — outside it, only a partial eclipse.",
+      "difficulty": "hard",
+      "tags": ["eclipse", "path-of-totality"]
+    },
+    {
+      "id": "g6s-w26-thu-014",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "Why is a total lunar eclipse visible for longer than a total solar eclipse?",
+      "options": ["The Moon moves faster during lunar eclipses", "Earth's shadow (umbra) is much larger than the Moon — the Moon takes 1–2 hours to cross it; the Moon's shadow on Earth is only ~100 km wide and crosses quickly (~1,700 km/h)", "The Sun is farther away", "Gravity slows the Moon during lunar eclipses"],
+      "correctIndex": 1,
+      "explanation": "Earth's umbra at Moon's distance is about 3× larger than the Moon. Total lunar eclipse can last up to 107 minutes. Total solar eclipse lasts only 1–7 minutes because Moon's umbra is tiny on Earth's surface.",
+      "difficulty": "hard",
+      "tags": ["eclipse", "duration-comparison"]
+    },
+    {
+      "id": "g6s-w26-thu-015",
+      "goalId": "grade-6-science-w26-thu",
+      "question": "Ancient people feared eclipses. With our scientific knowledge, we can predict eclipses centuries in advance because:",
+      "options": ["Eclipses are rare and random", "The orbits of Earth and Moon follow precise, mathematical paths (gravitational mechanics) — allowing astronomers to calculate all future eclipse positions and timings with great accuracy", "We use computers to guess", "Eclipses follow a 7-year cycle always"],
+      "correctIndex": 1,
+      "explanation": "Newton's laws of gravitation and orbital mechanics allow precise calculations. The Saros cycle (18 years, 11 days) repeats eclipse patterns. NASA predicts eclipses millennia in advance. Ancient fear came from lack of this understanding.",
+      "difficulty": "hard",
+      "tags": ["eclipse", "prediction", "science"]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "goalId": "grade-4-science-w26-tue",
+  "title": "Grade 4 Science — Tue, Jun 24",
+  "description": "Food and Digestion — Day 2 of 5: Oesophagus, stomach and gastric digestion",
+  "subject": "science",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "tue",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "tags": ["science", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4s-w26-tue-001",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "After food is swallowed, it travels down a muscular tube to the stomach. This tube is called the:",
+      "options": ["Trachea", "Oesophagus (food pipe)", "Large intestine", "Bile duct"],
+      "correctIndex": 1,
+      "explanation": "The oesophagus (food pipe) is a muscular tube connecting the throat to the stomach. It pushes food down using wave-like muscle contractions called peristalsis.",
+      "difficulty": "easy",
+      "tags": ["digestion", "oesophagus", "food-pipe"]
+    },
+    {
+      "id": "g4s-w26-tue-002",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "The stomach stores food and mixes it with digestive juices. Roughly how long does food stay in the stomach?",
+      "options": ["30 seconds", "About 2–4 hours", "About 24 hours", "About 10 minutes"],
+      "correctIndex": 1,
+      "explanation": "Food stays in the stomach for about 2–4 hours while it is mixed and broken down. The stomach churns food and mixes it with gastric juice.",
+      "difficulty": "easy",
+      "tags": ["digestion", "stomach", "time"]
+    },
+    {
+      "id": "g4s-w26-tue-003",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "Gastric juice is produced by the stomach. What does it contain?",
+      "options": ["Only water", "Hydrochloric acid and the enzyme pepsin", "Only sugar", "Oxygen and nitrogen"],
+      "correctIndex": 1,
+      "explanation": "Gastric juice contains hydrochloric acid (HCl) which kills germs and creates an acidic environment, and pepsin — an enzyme that begins protein digestion.",
+      "difficulty": "easy",
+      "tags": ["digestion", "gastric-juice", "pepsin"]
+    },
+    {
+      "id": "g4s-w26-tue-004",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "The semi-liquid mixture of food and gastric juices in the stomach is called:",
+      "options": ["Bolus", "Chyme", "Bile", "Enzyme"],
+      "correctIndex": 1,
+      "explanation": "Once food is churned with gastric juice in the stomach, it becomes a semi-liquid called chyme. This is passed into the small intestine.",
+      "difficulty": "easy",
+      "tags": ["digestion", "chyme", "stomach"]
+    },
+    {
+      "id": "g4s-w26-tue-005",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "Peristalsis is the movement that pushes food through the digestive system. It is caused by:",
+      "options": ["Gravity only", "Wave-like muscular contractions of the digestive tube walls", "The heart pumping", "Breathing"],
+      "correctIndex": 1,
+      "explanation": "Peristalsis = wave-like contractions of smooth muscles in the oesophagus, stomach and intestines. It pushes food along the digestive tract regardless of gravity (you can eat upside down!).",
+      "difficulty": "easy",
+      "tags": ["digestion", "peristalsis", "movement"]
+    },
+    {
+      "id": "g4s-w26-tue-006",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "The stomach has a thick lining to protect itself from acid. What would happen if the lining were damaged?",
+      "options": ["Food would digest faster", "The stomach acid would digest the stomach wall, causing a stomach ulcer", "The stomach would produce more acid", "Nothing would happen"],
+      "correctIndex": 1,
+      "explanation": "If the protective mucus lining breaks down, stomach acid attacks the stomach wall, causing painful ulcers. The stomach must protect itself from its own acid.",
+      "difficulty": "medium",
+      "tags": ["digestion", "stomach-lining", "ulcer"]
+    },
+    {
+      "id": "g4s-w26-tue-007",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "Hydrochloric acid in the stomach serves which TWO purposes?",
+      "options": ["Makes food sweet and colourful", "Kills harmful bacteria in food and creates an acidic environment for pepsin to work", "Absorbs vitamins and builds bones", "Speeds up chewing and swallowing"],
+      "correctIndex": 1,
+      "explanation": "HCl in stomach: (1) kills germs/bacteria that entered with food (protection), (2) creates the low pH environment that pepsin needs to digest protein. Dual role: defence + digestion.",
+      "difficulty": "medium",
+      "tags": ["digestion", "HCl", "stomach-acid"]
+    },
+    {
+      "id": "g4s-w26-tue-008",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "How does the stomach churn food?",
+      "options": ["It uses teeth at its entrance", "Muscular walls of the stomach contract and relax repeatedly, mixing food with gastric juice", "It blows air into the food", "The liver churns food for the stomach"],
+      "correctIndex": 1,
+      "explanation": "The stomach has three layers of muscle that contract in different directions. This vigorous churning mixes food with gastric juice thoroughly, producing chyme.",
+      "difficulty": "medium",
+      "tags": ["digestion", "stomach-muscles", "churning"]
+    },
+    {
+      "id": "g4s-w26-tue-009",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "Why does the oesophagus NOT begin digesting food as it passes through?",
+      "options": ["It is too short", "The oesophagus does not produce digestive enzymes — its job is only transport (pushing food to the stomach)", "It digests food slowly", "It contains a lot of acid"],
+      "correctIndex": 1,
+      "explanation": "The oesophagus is a transport tube only. It has no digestive enzymes and produces no acid. Digestion begins in the mouth (starch) and continues in the stomach (protein).",
+      "difficulty": "medium",
+      "tags": ["digestion", "oesophagus", "transport-only"]
+    },
+    {
+      "id": "g4s-w26-tue-010",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "A child drinks a glass of milk. Where does protein digestion of the milk begin?",
+      "options": ["Mouth (saliva)", "Stomach (pepsin)", "Oesophagus", "Large intestine"],
+      "correctIndex": 1,
+      "explanation": "Milk contains protein. Protein digestion begins in the stomach using pepsin (activated by HCl). The mouth only digests starch (via amylase). The oesophagus does no digestion.",
+      "difficulty": "hard",
+      "tags": ["digestion", "protein", "stomach"]
+    },
+    {
+      "id": "g4s-w26-tue-011",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "Antacids (like ENO or Digene) are used when someone has acidity/heartburn. How do they work?",
+      "options": ["They add more acid to the stomach", "They are bases/alkalis that neutralise excess stomach acid, relieving discomfort", "They stop the stomach from churning", "They remove food from the stomach"],
+      "correctIndex": 1,
+      "explanation": "Antacids are mild alkalis (e.g., magnesium hydroxide, calcium carbonate). They neutralise excess HCl in the stomach: acid + alkali → salt + water. This relieves acidity and heartburn.",
+      "difficulty": "hard",
+      "tags": ["digestion", "antacid", "neutralisation"]
+    },
+    {
+      "id": "g4s-w26-tue-012",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "Vomiting (reverse peristalsis) is the body's way of expelling harmful substances. What does this tell us about the digestive system?",
+      "options": ["It is a design flaw", "The digestive system has defensive mechanisms — it can reverse direction to protect the body from poisons", "Vomiting is only caused by overeating", "The oesophagus cannot be used in reverse"],
+      "correctIndex": 1,
+      "explanation": "Vomiting is reverse peristalsis — the stomach forces contents back up through the oesophagus and out. This is a protective mechanism to expel toxins, poisons or spoiled food before they are absorbed.",
+      "difficulty": "hard",
+      "tags": ["digestion", "vomiting", "protection"]
+    },
+    {
+      "id": "g4s-w26-tue-013",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "The pyloric sphincter is a ring of muscle at the stomach exit. What does it do?",
+      "options": ["It chews food", "It controls the rate at which chyme passes from the stomach into the small intestine", "It produces acid", "It absorbs water"],
+      "correctIndex": 1,
+      "explanation": "The pyloric sphincter opens and closes to regulate how much chyme enters the small intestine at a time. This controlled release ensures the small intestine is not overwhelmed.",
+      "difficulty": "hard",
+      "tags": ["digestion", "pyloric-sphincter", "control"]
+    },
+    {
+      "id": "g4s-w26-tue-014",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "Compare: Why does the stomach need thick muscular walls while the oesophagus needs thinner walls?",
+      "options": ["No difference in wall thickness", "Stomach needs thick walls for churning and protection from acid; oesophagus only needs to propel food by peristalsis — less force needed", "Oesophagus needs thicker walls since it carries food further", "Both need identical walls"],
+      "correctIndex": 1,
+      "explanation": "Stomach: 3-layer muscles for vigorous churning + thick mucus lining for acid protection. Oesophagus: simpler 2-layer muscles sufficient for peristaltic transport. Structure matches function.",
+      "difficulty": "hard",
+      "tags": ["digestion", "structure-function", "comparison"]
+    },
+    {
+      "id": "g4s-w26-tue-015",
+      "goalId": "grade-4-science-w26-tue",
+      "question": "Sequence the digestive journey of a roti from the moment it enters the mouth: Mouth → ___ → ___ → ___",
+      "options": ["Mouth → Large intestine → Oesophagus → Stomach", "Mouth → Oesophagus → Stomach → Small intestine", "Mouth → Stomach → Oesophagus → Small intestine", "Mouth → Liver → Stomach → Oesophagus"],
+      "correctIndex": 1,
+      "explanation": "Correct sequence: Mouth (chewing, amylase) → Oesophagus (transport) → Stomach (churning, pepsin, HCl) → Small intestine (absorption). This is the standard digestive pathway.",
+      "difficulty": "hard",
+      "tags": ["digestion", "sequence", "pathway"]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "goalId": "grade-4-french-w26-thu",
+  "title": "Grade 4 French — Thu, Jun 26",
+  "description": "Le temps et les saisons — Day 4 of 5: Les mois de l'année (Months of the year)",
+  "subject": "french",
+  "category": "school",
+  "grade": 4,
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": "thu",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "status": "active",
+  "conceptId": "le-temps",
+  "tags": ["french", "grade-4", "weekly"],
+  "questions": [
+    {
+      "id": "g4f-w26-thu-001",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "What is 'janvier'?",
+      "options": ["February", "March", "January", "June"],
+      "correctIndex": 2,
+      "explanation": "'Janvier' = January. The months in French are NOT capitalised (unlike English). Tip: janvier sounds like the 'Jan' in English.",
+      "difficulty": "easy",
+      "tags": ["mois", "janvier", "vocabulary"]
+    },
+    {
+      "id": "g4f-w26-thu-002",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "Which month comes after 'mars' (March)?",
+      "options": ["Février", "Avril", "Janvier", "Mai"],
+      "correctIndex": 1,
+      "explanation": "Sequence: janvier → février → mars → avril → mai → juin → juillet → août → septembre → octobre → novembre → décembre. After mars = avril (April).",
+      "difficulty": "easy",
+      "tags": ["mois", "sequence", "avril"]
+    },
+    {
+      "id": "g4f-w26-thu-003",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "How do you say 'My birthday is in July' in French?",
+      "options": ["Mon anniversaire est en juillet.", "Mon anniversaire est au juillet.", "Mon anniversaire est juillet.", "Juillet est mon anniversaire."],
+      "correctIndex": 0,
+      "explanation": "'Mon anniversaire est en juillet.' ✓ Use 'en' + month to say 'in [month]'. 'En juillet' = in July. 'Anniversaire' = birthday.",
+      "difficulty": "easy",
+      "tags": ["mois", "en-juillet", "anniversary"]
+    },
+    {
+      "id": "g4f-w26-thu-004",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "What is 'décembre'?",
+      "options": ["September", "October", "November", "December"],
+      "correctIndex": 3,
+      "explanation": "'Décembre' = December (the 12th and last month). Trick: 'déc-' comes from Latin 'decem' = ten (originally the 10th month in the old Roman calendar).",
+      "difficulty": "easy",
+      "tags": ["mois", "decembre", "vocabulary"]
+    },
+    {
+      "id": "g4f-w26-thu-005",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "In France, 'juillet' (July) and 'août' (August) are famous for:",
+      "options": ["Snow and skiing", "School exams", "The summer holidays (les grandes vacances)", "Harvest season"],
+      "correctIndex": 2,
+      "explanation": "'Les grandes vacances' (the big holidays) = July–August in France. Schools close for 2 months. 'Juillet' and 'août' are the core summer holiday months.",
+      "difficulty": "medium",
+      "tags": ["mois", "culture", "vacances"]
+    },
+    {
+      "id": "g4f-w26-thu-006",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "Which season does 'mars, avril, mai' belong to?",
+      "options": ["l'été", "l'automne", "l'hiver", "le printemps"],
+      "correctIndex": 3,
+      "explanation": "Mars (March), avril (April), mai (May) = spring months in France (le printemps). Spring runs roughly from late March to late June in the Northern Hemisphere.",
+      "difficulty": "medium",
+      "tags": ["mois", "saisons", "printemps"]
+    },
+    {
+      "id": "g4f-w26-thu-007",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "Which group of months corresponds to 'l'automne' (autumn) in France?",
+      "options": ["juin, juillet, août", "mars, avril, mai", "septembre, octobre, novembre", "décembre, janvier, février"],
+      "correctIndex": 2,
+      "explanation": "Autumn (l'automne) = September, October, November (septembre, octobre, novembre). Leaves fall, weather cools, harvest time.",
+      "difficulty": "medium",
+      "tags": ["mois", "saisons", "automne"]
+    },
+    {
+      "id": "g4f-w26-thu-008",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "Translate: 'In December and January it is very cold in France.'",
+      "options": ["En décembre et en janvier, il fait très froid en France.", "Au décembre et au janvier, il fait froid.", "En juin et en juillet, il fait très froid en France.", "Il fait froid France décembre janvier."],
+      "correctIndex": 0,
+      "explanation": "'En décembre et en janvier, il fait très froid en France.' ✓ 'En' + month, 'en France' = in France, 'il fait très froid' = it is very cold.",
+      "difficulty": "medium",
+      "tags": ["mois", "translation", "weather"]
+    },
+    {
+      "id": "g4f-w26-thu-009",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "What is the 8th month of the year in French?",
+      "options": ["juillet", "août", "septembre", "juin"],
+      "correctIndex": 1,
+      "explanation": "8th month = août (August). Note: 'août' is pronounced approximately 'oo' or 'oot' in French — the 'a' is often silent in spoken French.",
+      "difficulty": "hard",
+      "tags": ["mois", "aout", "ordinal"]
+    },
+    {
+      "id": "g4f-w26-thu-010",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "A French school calendar says: 'Rentrée scolaire: premier septembre.' What does 'rentrée scolaire' mean?",
+      "options": ["Summer holiday", "Back-to-school day (the first day of the new school year)", "End of year exam", "Parent-teacher meeting"],
+      "correctIndex": 1,
+      "explanation": "'La rentrée scolaire' = back-to-school. In France, school year starts on 1 September (premier septembre). It is a culturally significant day — new supplies, new class.",
+      "difficulty": "hard",
+      "tags": ["mois", "rentree", "culture"]
+    },
+    {
+      "id": "g4f-w26-thu-011",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "How many months have exactly 30 days in French? Name them.",
+      "options": ["3 months: avril, juin, septembre", "4 months: avril, juin, septembre, novembre", "5 months", "6 months"],
+      "correctIndex": 1,
+      "explanation": "4 months with 30 days: avril (April), juin (June), septembre (September), novembre (November). Remember the knuckle rule or the rhyme: '30 days hath September, April, June and November.'",
+      "difficulty": "hard",
+      "tags": ["mois", "days-in-month", "thirty-days"]
+    },
+    {
+      "id": "g4f-w26-thu-012",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "'Quel est ton mois d'anniversaire?' means:",
+      "options": ["What is your favourite month?", "What month is your birthday?", "When is your summer holiday?", "What month do you go to school?"],
+      "correctIndex": 1,
+      "explanation": "'Quel est ton mois d'anniversaire?' = What month is your birthday? 'Ton mois' = your month. 'D'anniversaire' = of birthday.",
+      "difficulty": "hard",
+      "tags": ["mois", "question", "anniversary"]
+    },
+    {
+      "id": "g4f-w26-thu-013",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "Match the season to its months in France: l'été =",
+      "options": ["décembre, janvier, février", "mars, avril, mai", "juin, juillet, août", "septembre, octobre, novembre"],
+      "correctIndex": 2,
+      "explanation": "L'été (summer) = juin, juillet, août (June, July, August) in France. These are the hottest months when 'les grandes vacances' take place.",
+      "difficulty": "hard",
+      "tags": ["mois", "saisons", "ete"]
+    },
+    {
+      "id": "g4f-w26-thu-014",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "Spot the error: 'Mon anniversaire est en Juillet. Il fait chaud en Juillet en France.'",
+      "options": ["'Mon anniversaire' is wrong", "'Juillet' should not be capitalised — months in French are NOT capitalised (unlike English)", "'Il fait chaud' is wrong", "There is no error"],
+      "correctIndex": 1,
+      "explanation": "In French, months are NOT capitalised: janvier, février, mars… juillet (not Juillet). This is a common mistake for English speakers who always capitalise months.",
+      "difficulty": "hard",
+      "tags": ["mois", "capitalisation", "error-detection"]
+    },
+    {
+      "id": "g4f-w26-thu-015",
+      "goalId": "grade-4-french-w26-thu",
+      "question": "Complete: 'En France, l'hiver dure de ___ à ___.' (Winter months in France)",
+      "options": ["juin à août", "mars à mai", "décembre à février", "septembre à novembre"],
+      "correctIndex": 2,
+      "explanation": "L'hiver (winter) in France = décembre, janvier, février (December to February) — the cold months when snow is possible in many regions.",
+      "difficulty": "hard",
+      "tags": ["mois", "saisons", "hiver"]
+    }
+  ]
+}
