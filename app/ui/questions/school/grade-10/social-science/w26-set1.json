@@ -1,0 +1,228 @@
+{
+  "goalId": "grade10-social-science",
+  "title": "Grade 10 Social Science — Minerals and Industries",
+  "description": "Types of minerals, mineral distribution in India, iron-steel, textile industries, industrial pollution (CBSE Geography Ch. 5–6)",
+  "category": "school",
+  "grade": 10,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social_10_minerals_001",
+      "goalId": "grade10-social-science",
+      "question": "Minerals are defined as:",
+      "options": [
+        "Man-made substances with specific industrial uses",
+        "Naturally occurring inorganic substances with a definite chemical composition and physical properties",
+        "Organic compounds found only in living organisms",
+        "Rocks that contain metals only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Minerals are naturally occurring inorganic substances with a definite chemical composition and crystalline structure. They are extracted from the earth through mining. Examples: iron ore, bauxite, mica, coal, petroleum.",
+      "difficulty": "easy",
+      "tags": ["minerals", "definition"]
+    },
+    {
+      "id": "q_social_10_minerals_002",
+      "goalId": "grade10-social-science",
+      "question": "Ferrous minerals are those that:",
+      "options": [
+        "Contain no metallic content",
+        "Are found only near the coast",
+        "Contain silver and gold",
+        "Contain iron — e.g., iron ore, manganese, nickel, cobalt"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ferrous minerals contain iron (Latin: 'ferrum' = iron). Examples: iron ore (haematite, magnetite), manganese, nickel. India has vast reserves of ferrous minerals, mostly in Odisha, Jharkhand, Karnataka, and Goa.",
+      "difficulty": "easy",
+      "tags": ["minerals", "ferrous", "types"]
+    },
+    {
+      "id": "q_social_10_minerals_003",
+      "goalId": "grade10-social-science",
+      "question": "Bauxite is the ore of which metal?",
+      "options": ["Iron", "Copper", "Aluminium", "Gold"],
+      "correctIndex": 2,
+      "explanation": "Bauxite is the principal ore of aluminium. Aluminium, extracted from bauxite, is a lightweight, corrosion-resistant metal used in aircraft, packaging, and electrical industries. India's major bauxite deposits are in Odisha, Jharkhand, and Gujarat.",
+      "difficulty": "easy",
+      "tags": ["minerals", "bauxite", "aluminium"]
+    },
+    {
+      "id": "q_social_10_minerals_004",
+      "goalId": "grade10-social-science",
+      "question": "Mica, an important mineral for the electrical industry, is found in large quantities in:",
+      "options": [
+        "Rajasthan, Punjab, and Haryana",
+        "Jharkhand, Andhra Pradesh, and Rajasthan",
+        "Kerala, Karnataka, and Tamil Nadu",
+        "Odisha, West Bengal, and Bihar"
+      ],
+      "correctIndex": 1,
+      "explanation": "India is one of the world's largest producers of mica. The major mica-producing states are Jharkhand (Koderma belt), Andhra Pradesh (Nellore belt), and Rajasthan (Bhilwara). Mica is used as an insulator in electrical equipment.",
+      "difficulty": "medium",
+      "tags": ["minerals", "mica", "distribution"]
+    },
+    {
+      "id": "q_social_10_minerals_005",
+      "goalId": "grade10-social-science",
+      "question": "The largest coalfield in India is located in:",
+      "options": ["Singareni, Telangana", "Damodar Valley (Jharkhand and West Bengal)", "Wardha, Maharashtra", "Talcher, Odisha"],
+      "correctIndex": 1,
+      "explanation": "The Damodar Valley (spanning Jharkhand and West Bengal) is India's largest and most important coalfield. It includes the Jharia, Raniganj, and Bokaro coalfields. India is the third-largest coal producer in the world.",
+      "difficulty": "medium",
+      "tags": ["minerals", "coal", "Damodar-valley"]
+    },
+    {
+      "id": "q_social_10_minerals_006",
+      "goalId": "grade10-social-science",
+      "question": "India's largest offshore oil field, Mumbai High (Bombay High), is located in:",
+      "options": [
+        "The Bay of Bengal off Chennai",
+        "The Arabian Sea, about 160 km off the Mumbai coast",
+        "Near Digboi, Assam",
+        "Off the coast of Gujarat near Kandla"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mumbai High (Bombay High) is India's largest offshore oilfield, located in the Arabian Sea about 160 km northwest of Mumbai. It was discovered in 1974 and is operated by ONGC. It accounts for a significant share of India's crude oil production.",
+      "difficulty": "medium",
+      "tags": ["minerals", "petroleum", "Mumbai-High"]
+    },
+    {
+      "id": "q_social_10_minerals_007",
+      "goalId": "grade10-social-science",
+      "question": "Iron and steel is called the 'base metal' or 'key industry' because:",
+      "options": [
+        "It is the heaviest industry in terms of raw material weight",
+        "Almost all other industries depend on it for machinery, tools, and structures",
+        "It was the first industry to be set up in India",
+        "It is located near all major cities"
+      ],
+      "correctIndex": 1,
+      "explanation": "Iron and steel is the foundation of industrial economy — virtually every other industry (automobiles, construction, shipbuilding, machinery) uses steel. Without a steel industry, industrialisation is impossible. Hence it is called the 'backbone of modern industry.'",
+      "difficulty": "easy",
+      "tags": ["industries", "iron-steel", "key-industry"]
+    },
+    {
+      "id": "q_social_10_minerals_008",
+      "goalId": "grade10-social-science",
+      "question": "India's first integrated iron and steel plant was set up at Jamshedpur (Jharkhand) in 1907 by:",
+      "options": [
+        "The British East India Company",
+        "Birla Corporation",
+        "Jawaharlal Nehru",
+        "Jamsetji Nusserwanji Tata (TISCO — Tata Iron and Steel Company)"
+      ],
+      "correctIndex": 3,
+      "explanation": "TISCO (Tata Iron and Steel Company) was established at Jamshedpur in 1907 by Jamsetji Nusserwanji Tata — India's first integrated iron and steel plant. Jamshedpur is ideally located near iron ore, coal, and water resources.",
+      "difficulty": "medium",
+      "tags": ["industries", "iron-steel", "TISCO", "Jamshedpur"]
+    },
+    {
+      "id": "q_social_10_minerals_009",
+      "goalId": "grade10-social-science",
+      "question": "The cotton textile industry holds a special place in India's industrial history because it is:",
+      "options": [
+        "India's largest export industry by value",
+        "The oldest large-scale industry in India",
+        "The only industry that employs only women",
+        "The most heavily taxed industry in India"
+      ],
+      "correctIndex": 1,
+      "explanation": "The cotton textile industry is India's oldest large-scale industry. The first modern cotton textile mill was set up in Mumbai (Bombay) in 1854. It has a long historical association with India's economy and the freedom movement (Khadi).",
+      "difficulty": "medium",
+      "tags": ["industries", "cotton-textile", "oldest"]
+    },
+    {
+      "id": "q_social_10_minerals_010",
+      "goalId": "grade10-social-science",
+      "question": "Mumbai is historically called the 'Manchester of India' because of its:",
+      "options": [
+        "Jute textile industry",
+        "Software and IT industry",
+        "Cotton textile industry",
+        "Iron and steel industry"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mumbai (formerly Bombay) was the centre of India's cotton textile industry and was dubbed the 'Manchester of India' after Manchester, UK — the global centre of cotton textiles. Mumbai's humid climate, port, and cotton supply from the Deccan made it ideal.",
+      "difficulty": "medium",
+      "tags": ["industries", "cotton-textile", "Mumbai", "Manchester-of-India"]
+    },
+    {
+      "id": "q_social_10_minerals_011",
+      "goalId": "grade10-social-science",
+      "question": "Industries cause several types of pollution. Which of the following is an example of THERMAL pollution?",
+      "options": [
+        "Black smoke from factory chimneys",
+        "Chemical effluents discharged into rivers",
+        "Hot water discharged from thermal power plants into rivers — raising water temperature",
+        "Loud machinery noise near residential areas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thermal pollution occurs when industries discharge hot water (from cooling systems in thermal/nuclear power plants) into water bodies. This raises the water temperature, reduces dissolved oxygen, and harms aquatic life.",
+      "difficulty": "medium",
+      "tags": ["industries", "industrial-pollution", "thermal-pollution"]
+    },
+    {
+      "id": "q_social_10_minerals_012",
+      "goalId": "grade10-social-science",
+      "question": "Agglomeration economies refer to benefits that arise when:",
+      "options": [
+        "One large industry buys smaller competitors",
+        "Industries cluster together in one area and share infrastructure, services, and labour",
+        "Government merges multiple industries into public sector units",
+        "Industries relocate to rural areas for cheap land"
+      ],
+      "correctIndex": 1,
+      "explanation": "Agglomeration economies arise when industries locate near each other. Shared infrastructure (roads, power, communication), common labour pools, linked suppliers and buyers, and shared services reduce costs for all firms in the cluster.",
+      "difficulty": "hard",
+      "tags": ["industries", "agglomeration-economies", "industrial-location"]
+    },
+    {
+      "id": "q_social_10_minerals_013",
+      "goalId": "grade10-social-science",
+      "question": "Mineral conservation is important because minerals are:",
+      "options": [
+        "Renewable and replenish naturally within 100 years",
+        "Non-renewable and formed over millions of years — once used they cannot be replaced quickly",
+        "Equally distributed across all countries",
+        "Only found near the surface and easily accessible to all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Minerals are non-renewable resources — formed over millions of years through geological processes. Once a mineral deposit is exhausted, it cannot be replaced within human timescales. Sustainable use, recycling, and reducing waste are essential.",
+      "difficulty": "medium",
+      "tags": ["minerals", "conservation", "non-renewable"]
+    },
+    {
+      "id": "q_social_10_minerals_014",
+      "goalId": "grade10-social-science",
+      "question": "India's iron ore is mainly found in a belt covering:",
+      "options": [
+        "Rajasthan, Gujarat, and Maharashtra",
+        "Punjab, Haryana, and Uttar Pradesh",
+        "Odisha, Jharkhand, Karnataka, and Goa",
+        "Tamil Nadu, Kerala, and Andhra Pradesh"
+      ],
+      "correctIndex": 2,
+      "explanation": "India has huge iron ore reserves concentrated in Odisha (Mayurbhanj, Keonjhar), Jharkhand (Singhbhum), Karnataka (Bellary-Hospet, Kudremukh), and Goa. India is among the top global iron ore producers and exporters.",
+      "difficulty": "medium",
+      "tags": ["minerals", "iron-ore", "distribution"]
+    },
+    {
+      "id": "q_social_10_minerals_015",
+      "goalId": "grade10-social-science",
+      "question": "Which of the following is a measure to reduce industrial water pollution?",
+      "options": [
+        "Increasing the height of factory chimneys",
+        "Using more underground water instead of river water",
+        "Treating industrial effluents in effluent treatment plants before discharge",
+        "Relocating all factories to the coast"
+      ],
+      "correctIndex": 2,
+      "explanation": "Industrial effluent treatment plants (ETPs) are used to chemically and biologically treat factory wastewater before it is released into rivers. Other measures include recycling water, using less toxic chemicals, and strict regulation of discharge.",
+      "difficulty": "medium",
+      "tags": ["industries", "water-pollution", "conservation"]
+    }
+  ]
+}

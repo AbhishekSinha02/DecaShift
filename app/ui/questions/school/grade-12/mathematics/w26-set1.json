@@ -1,0 +1,193 @@
+{
+  "goalId": "grade12-mathematics",
+  "title": "Grade 12 Mathematics — Vector Algebra",
+  "description": "Vectors — position vectors, dot product, cross product, unit vectors, projections, applications (CBSE Ch. 10)",
+  "category": "school",
+  "grade": 12,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_12_vectors_001",
+      "goalId": "grade12-mathematics",
+      "question": "A vector quantity is one that has:",
+      "options": [
+        "Only magnitude, no direction — like speed or temperature",
+        "Only direction, no magnitude — like a unit vector",
+        "Both magnitude and direction",
+        "Neither magnitude nor direction — like a pure number"
+      ],
+      "correctIndex": 2,
+      "explanation": "A vector has both magnitude (size) and direction. Examples: displacement, velocity, force, acceleration. A scalar has only magnitude — temperature, mass, speed. The distinction is fundamental in physics and mathematics.",
+      "difficulty": "easy",
+      "tags": ["vectors", "definition", "scalar-vs-vector"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_002",
+      "goalId": "grade12-mathematics",
+      "question": "The magnitude of a vector a = 3î + 4ĵ is:",
+      "options": ["3", "4", "5", "7"],
+      "correctIndex": 2,
+      "explanation": "|a| = √(3² + 4²) = √(9 + 16) = √25 = 5. The magnitude is the Euclidean length — the square root of the sum of squares of all components.",
+      "difficulty": "easy",
+      "tags": ["vectors", "magnitude", "calculation"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_003",
+      "goalId": "grade12-mathematics",
+      "question": "A unit vector in the direction of a = 2î + 2ĵ − k̂ is:",
+      "options": [
+        "a/|a| = (2î + 2ĵ − k̂)/3",
+        "a/|a| = (2î + 2ĵ − k̂)/9",
+        "a × |a|",
+        "a + |a|"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unit vector â = a/|a|. |a| = √(4 + 4 + 1) = √9 = 3. So â = (2î + 2ĵ − k̂)/3. A unit vector has magnitude 1 and points in the same direction as the original vector.",
+      "difficulty": "medium",
+      "tags": ["vectors", "unit-vector", "calculation"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_004",
+      "goalId": "grade12-mathematics",
+      "question": "The dot product (scalar product) of two vectors a and b is defined as:",
+      "options": [
+        "a · b = |a| × |b| (product of magnitudes only)",
+        "a · b = |a||b| cos θ, where θ is the angle between them",
+        "a · b = |a||b| sin θ",
+        "a · b = |a − b|"
+      ],
+      "correctIndex": 1,
+      "explanation": "The dot (scalar) product: a · b = |a||b|cos θ, where θ (0 ≤ θ ≤ π) is the angle between the vectors. The result is a scalar. If a = (a₁,a₂,a₃) and b = (b₁,b₂,b₃), then a · b = a₁b₁ + a₂b₂ + a₃b₃.",
+      "difficulty": "easy",
+      "tags": ["vectors", "dot-product", "definition"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_005",
+      "goalId": "grade12-mathematics",
+      "question": "The dot product of î · ĵ (unit vectors along x and y axes) equals:",
+      "options": ["1", "−1", "0", "√2"],
+      "correctIndex": 2,
+      "explanation": "î · ĵ = |î||ĵ|cos 90° = (1)(1)(0) = 0. The x and y axes are perpendicular, so their unit vectors have dot product 0. Similarly, î · k̂ = ĵ · k̂ = 0. Only î · î = ĵ · ĵ = k̂ · k̂ = 1.",
+      "difficulty": "easy",
+      "tags": ["vectors", "dot-product", "unit-vectors", "standard-results"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_006",
+      "goalId": "grade12-mathematics",
+      "question": "The dot product a · b = 0 implies that vectors a and b are:",
+      "options": [
+        "Parallel (pointing in the same direction)",
+        "Anti-parallel (pointing in opposite directions)",
+        "Perpendicular (orthogonal) to each other",
+        "Equal in magnitude"
+      ],
+      "correctIndex": 2,
+      "explanation": "a · b = |a||b|cos θ = 0. Since |a| ≠ 0 and |b| ≠ 0, we need cos θ = 0, which means θ = 90°. So the vectors are perpendicular (orthogonal). This is a very useful test for perpendicularity.",
+      "difficulty": "medium",
+      "tags": ["vectors", "dot-product", "perpendicular"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_007",
+      "goalId": "grade12-mathematics",
+      "question": "Find a · b where a = î + 2ĵ + 3k̂ and b = 4î + 5ĵ + 6k̂.",
+      "options": ["15", "28", "32", "45"],
+      "correctIndex": 2,
+      "explanation": "a · b = (1)(4) + (2)(5) + (3)(6) = 4 + 10 + 18 = 32. The component form of dot product: a · b = a₁b₁ + a₂b₂ + a₃b₃.",
+      "difficulty": "medium",
+      "tags": ["vectors", "dot-product", "calculation"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_008",
+      "goalId": "grade12-mathematics",
+      "question": "The cross product (vector product) |a × b| equals:",
+      "options": [
+        "|a||b| cos θ",
+        "|a|² + |b|²",
+        "|a||b| sin θ",
+        "|a| − |b|"
+      ],
+      "correctIndex": 2,
+      "explanation": "|a × b| = |a||b|sin θ, where θ is the angle between a and b. The result is a vector perpendicular to both a and b (right-hand rule). It gives the area of the parallelogram formed by a and b.",
+      "difficulty": "easy",
+      "tags": ["vectors", "cross-product", "definition"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_009",
+      "goalId": "grade12-mathematics",
+      "question": "The cross product î × ĵ equals:",
+      "options": ["0", "−k̂", "1", "k̂"],
+      "correctIndex": 3,
+      "explanation": "î × ĵ = k̂ (right-hand rule). The cyclic order is: î × ĵ = k̂, ĵ × k̂ = î, k̂ × î = ĵ. Anti-cyclic: ĵ × î = −k̂, k̂ × ĵ = −î, î × k̂ = −ĵ. Also, any vector crossed with itself = 0 (î × î = 0).",
+      "difficulty": "easy",
+      "tags": ["vectors", "cross-product", "standard-results"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_010",
+      "goalId": "grade12-mathematics",
+      "question": "If a × b = 0⃗ (zero vector) and neither a nor b is zero, then a and b are:",
+      "options": [
+        "Perpendicular to each other",
+        "Equal in magnitude",
+        "Parallel (or anti-parallel) — θ = 0° or 180°",
+        "Perpendicular to the xy-plane"
+      ],
+      "correctIndex": 2,
+      "explanation": "|a × b| = |a||b|sin θ = 0. Since |a| ≠ 0 and |b| ≠ 0, sin θ = 0, so θ = 0° or 180° — the vectors are parallel or anti-parallel. This is a useful test for parallel vectors.",
+      "difficulty": "medium",
+      "tags": ["vectors", "cross-product", "parallel-vectors"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_011",
+      "goalId": "grade12-mathematics",
+      "question": "The area of the parallelogram formed by vectors a and b as adjacent sides is:",
+      "options": ["a · b", "|a × b|", "|a + b|", "a · b / |a||b|"],
+      "correctIndex": 1,
+      "explanation": "Area of parallelogram = |a × b| = |a||b|sin θ. Since sin θ gives the 'perpendicular component,' this equals base × height. For a triangle with sides a and b: Area = ½|a × b|.",
+      "difficulty": "medium",
+      "tags": ["vectors", "cross-product", "area-parallelogram"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_012",
+      "goalId": "grade12-mathematics",
+      "question": "The projection of vector a onto vector b is given by:",
+      "options": ["(a · b) / |a|", "(a · b) / |b|", "|a × b| / |b|", "a · b"],
+      "correctIndex": 1,
+      "explanation": "Projection of a onto b = (a · b)/|b|. This gives the scalar length of the shadow of a along the direction of b. The vector projection (component along b) is [(a · b)/|b|²] × b.",
+      "difficulty": "medium",
+      "tags": ["vectors", "projection", "scalar-projection"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_013",
+      "goalId": "grade12-mathematics",
+      "question": "The angle θ between vectors a = î + ĵ and b = î − ĵ is:",
+      "options": ["0°", "45°", "90°", "135°"],
+      "correctIndex": 2,
+      "explanation": "a · b = (1)(1) + (1)(−1) = 0. Since a · b = 0, cos θ = 0, so θ = 90°. Alternatively: |a| = √2, |b| = √2. cos θ = 0/(√2 × √2) = 0/2 = 0 → θ = 90°.",
+      "difficulty": "medium",
+      "tags": ["vectors", "angle-between-vectors", "calculation"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_014",
+      "goalId": "grade12-mathematics",
+      "question": "The position vector of a point P(3, −2, 5) with respect to the origin O is:",
+      "options": ["3î − 2ĵ + 5k̂", "−3î + 2ĵ − 5k̂", "3î + 2ĵ + 5k̂", "√38"],
+      "correctIndex": 0,
+      "explanation": "The position vector of P(x, y, z) is OP = xî + yĵ + zk̂. For P(3, −2, 5): OP = 3î − 2ĵ + 5k̂. Its magnitude = √(9 + 4 + 25) = √38.",
+      "difficulty": "easy",
+      "tags": ["vectors", "position-vector"]
+    },
+    {
+      "id": "q_mathematics_12_vectors_015",
+      "goalId": "grade12-mathematics",
+      "question": "If a = 2î + λĵ + k̂ and b = î − 2ĵ + 3k̂ are perpendicular, the value of λ is:",
+      "options": ["1", "−1", "5/2", "−5/2"],
+      "correctIndex": 2,
+      "explanation": "For perpendicular vectors, a · b = 0. a · b = (2)(1) + (λ)(−2) + (1)(3) = 2 − 2λ + 3 = 5 − 2λ = 0. So 2λ = 5, λ = 5/2.",
+      "difficulty": "hard",
+      "tags": ["vectors", "perpendicularity", "find-lambda"]
+    }
+  ]
+}

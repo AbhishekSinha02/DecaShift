@@ -1,0 +1,218 @@
+{
+  "goalId": "grade12-physics",
+  "title": "Grade 12 Physics — Alternating Current",
+  "description": "AC circuits — Vrms, Irms, phasors, LCR circuits, resonance, power factor, transformers (CBSE Ch. 7)",
+  "category": "school",
+  "grade": 12,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_12_ac_001",
+      "goalId": "grade12-physics",
+      "question": "Alternating current (AC) differs from direct current (DC) in that AC:",
+      "options": [
+        "Flows only in one direction",
+        "Has constant magnitude and direction",
+        "Periodically reverses direction and changes magnitude sinusoidally",
+        "Can only flow through capacitors"
+      ],
+      "correctIndex": 2,
+      "explanation": "AC periodically reverses direction (unlike DC which flows in one constant direction). Household electricity (50 Hz in India) changes direction 100 times per second. AC can be stepped up/down using transformers — making long-distance transmission efficient.",
+      "difficulty": "easy",
+      "tags": ["AC", "definition", "AC-vs-DC"]
+    },
+    {
+      "id": "q_physics_12_ac_002",
+      "goalId": "grade12-physics",
+      "question": "The RMS (root mean square) voltage Vrms is related to the peak voltage V₀ by:",
+      "options": ["Vrms = V₀/2", "Vrms = V₀/√2", "Vrms = √2 × V₀", "Vrms = V₀"],
+      "correctIndex": 1,
+      "explanation": "Vrms = V₀/√2 ≈ 0.707 V₀. For a sinusoidal AC: Vrms is the equivalent DC voltage that produces the same power dissipation. India's household supply is 230 V RMS, meaning peak voltage ≈ 325 V.",
+      "difficulty": "easy",
+      "tags": ["AC", "Vrms", "peak-voltage"]
+    },
+    {
+      "id": "q_physics_12_ac_003",
+      "goalId": "grade12-physics",
+      "question": "In a purely resistive AC circuit, the phase relationship between voltage V and current I is:",
+      "options": [
+        "Current leads voltage by 90°",
+        "Current lags voltage by 90°",
+        "Voltage and current are in phase (φ = 0)",
+        "Current leads voltage by 45°"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a pure resistor, V = IR (Ohm's law applies instantaneously). Both V and I follow the same sinusoidal pattern — they are perfectly in phase. Power = VrmsIrms (maximum, since cos φ = cos 0° = 1).",
+      "difficulty": "easy",
+      "tags": ["AC", "resistive-circuit", "phase"]
+    },
+    {
+      "id": "q_physics_12_ac_004",
+      "goalId": "grade12-physics",
+      "question": "In a purely inductive AC circuit, the current:",
+      "options": [
+        "Leads the voltage by 90°",
+        "Is in phase with the voltage",
+        "Lags the voltage by 90°",
+        "Leads the voltage by 45°"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a pure inductor, V = L dI/dt. The induced EMF opposes the change in current, causing current to lag the voltage by 90° (π/2 radians). Mnemonic: In an inductor, 'ELI' — E (voltage) leads I (current).",
+      "difficulty": "medium",
+      "tags": ["AC", "inductive-circuit", "phase-lag"]
+    },
+    {
+      "id": "q_physics_12_ac_005",
+      "goalId": "grade12-physics",
+      "question": "In a purely capacitive AC circuit, the current:",
+      "options": [
+        "Lags the voltage by 90°",
+        "Is in phase with the voltage",
+        "Lags the voltage by 45°",
+        "Leads the voltage by 90°"
+      ],
+      "correctIndex": 3,
+      "explanation": "In a pure capacitor, current flows as the capacitor charges/discharges. I = C dV/dt — current reaches its peak before voltage does. Current leads voltage by 90°. Mnemonic: 'ICE' — I (current) before E (voltage) in a Capacitor.",
+      "difficulty": "medium",
+      "tags": ["AC", "capacitive-circuit", "phase-lead"]
+    },
+    {
+      "id": "q_physics_12_ac_006",
+      "goalId": "grade12-physics",
+      "question": "Inductive reactance XL (the opposition offered by an inductor to AC) is given by:",
+      "options": ["XL = L/ω", "XL = 1/ωL", "XL = ωL = 2πfL", "XL = L²ω"],
+      "correctIndex": 2,
+      "explanation": "XL = ωL = 2πfL (unit: ohms, Ω). Inductive reactance increases with frequency — at very high frequencies, an inductor blocks AC completely. At f = 0 (DC), XL = 0 (inductor is just a wire for DC).",
+      "difficulty": "easy",
+      "tags": ["AC", "inductive-reactance", "formula"]
+    },
+    {
+      "id": "q_physics_12_ac_007",
+      "goalId": "grade12-physics",
+      "question": "Capacitive reactance XC (the opposition offered by a capacitor to AC) is given by:",
+      "options": ["XC = ωC", "XC = 2πfC", "XC = 1/(ωC) = 1/(2πfC)", "XC = C/ω"],
+      "correctIndex": 2,
+      "explanation": "XC = 1/ωC = 1/(2πfC) (unit: ohms, Ω). Capacitive reactance decreases with increasing frequency — at very high frequencies, a capacitor passes AC easily. At f = 0 (DC), XC = ∞ (capacitor blocks DC completely).",
+      "difficulty": "easy",
+      "tags": ["AC", "capacitive-reactance", "formula"]
+    },
+    {
+      "id": "q_physics_12_ac_008",
+      "goalId": "grade12-physics",
+      "question": "In a series LCR circuit, resonance occurs when:",
+      "options": [
+        "XL > XC",
+        "XL = R",
+        "XL = XC (inductive reactance equals capacitive reactance)",
+        "R = 0"
+      ],
+      "correctIndex": 2,
+      "explanation": "At resonance, XL = XC. The net reactance is zero, impedance Z = R (minimum), and current amplitude is maximum (I = V/R). The circuit behaves as a pure resistor at the resonant frequency.",
+      "difficulty": "medium",
+      "tags": ["AC", "LCR-circuit", "resonance"]
+    },
+    {
+      "id": "q_physics_12_ac_009",
+      "goalId": "grade12-physics",
+      "question": "The resonant frequency f₀ of a series LCR circuit is:",
+      "options": [
+        "f₀ = 2π√(LC)",
+        "f₀ = 1/(2π√(LC))",
+        "f₀ = √(LC)/(2π)",
+        "f₀ = 2π/(√LC)"
+      ],
+      "correctIndex": 1,
+      "explanation": "At resonance: XL = XC → ωL = 1/ωC → ω² = 1/LC → ω₀ = 1/√(LC) → f₀ = ω₀/(2π) = 1/(2π√LC). This is the natural frequency of the LC circuit — at this frequency, energy oscillates between the inductor and capacitor.",
+      "difficulty": "medium",
+      "tags": ["AC", "resonant-frequency", "formula"]
+    },
+    {
+      "id": "q_physics_12_ac_010",
+      "goalId": "grade12-physics",
+      "question": "The power factor of an AC circuit is defined as cos φ, where φ is the phase angle. For a purely resistive circuit:",
+      "options": [
+        "Power factor = 0 (wattless current)",
+        "Power factor = 0.5",
+        "Power factor = 1/√2",
+        "Power factor = 1 (maximum power dissipation)"
+      ],
+      "correctIndex": 3,
+      "explanation": "In a purely resistive circuit, φ = 0°, so power factor = cos 0° = 1. This means all the electrical energy supplied is consumed as heat — maximum efficiency. For purely reactive circuits (inductor or capacitor), power factor = 0.",
+      "difficulty": "easy",
+      "tags": ["AC", "power-factor", "resistive"]
+    },
+    {
+      "id": "q_physics_12_ac_011",
+      "goalId": "grade12-physics",
+      "question": "The average power consumed in an AC circuit is:",
+      "options": ["P = V₀I₀", "P = VrmsIrms", "P = VrmsIrms cos φ", "P = VrmsIrms / cos φ"],
+      "correctIndex": 2,
+      "explanation": "P = VrmsIrms cos φ. The cos φ factor (power factor) accounts for the phase difference between V and I. For purely reactive circuits (φ = 90°), cos φ = 0 and P = 0 — no net power is consumed (wattless current).",
+      "difficulty": "medium",
+      "tags": ["AC", "average-power", "formula"]
+    },
+    {
+      "id": "q_physics_12_ac_012",
+      "goalId": "grade12-physics",
+      "question": "Wattless current refers to the current component in an AC circuit that:",
+      "options": [
+        "Flows only in resistors",
+        "Consumes maximum power",
+        "Is 90° out of phase with voltage — in a purely reactive circuit, no net energy is consumed",
+        "Only flows at resonance"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a purely reactive circuit (pure L or pure C), current and voltage are 90° out of phase. Power = VrmsIrms cos 90° = 0. Energy is alternately stored and returned — no net dissipation. This reactive current is called 'wattless current.'",
+      "difficulty": "medium",
+      "tags": ["AC", "wattless-current", "reactive-circuit"]
+    },
+    {
+      "id": "q_physics_12_ac_013",
+      "goalId": "grade12-physics",
+      "question": "In a step-up transformer, compared to the primary coil:",
+      "options": [
+        "The secondary has fewer turns and higher voltage",
+        "The secondary has more turns, higher voltage, and lower current",
+        "The secondary has more turns, lower voltage, and higher current",
+        "Both coils have the same number of turns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Step-up transformer: Ns > Np → Vs > Vp (voltage increases). By energy conservation (assuming 100% efficiency): VpIp = VsIs → Is = Ip × Vp/Vs < Ip (current decreases). Step-up increases voltage, decreases current — used for long-distance power transmission.",
+      "difficulty": "medium",
+      "tags": ["AC", "transformer", "step-up"]
+    },
+    {
+      "id": "q_physics_12_ac_014",
+      "goalId": "grade12-physics",
+      "question": "Transformers work on AC but NOT DC because:",
+      "options": [
+        "DC has too high a frequency for transformers to handle",
+        "DC cannot flow through copper wires",
+        "Transformers work on electromagnetic induction — a changing flux is needed; DC produces constant flux (no EMF induced)",
+        "DC always exceeds the voltage rating of transformers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Faraday's law: EMF = −N dΦ/dt. With AC, the magnetic flux changes continuously — inducing EMF in the secondary. With DC, flux is constant (dΦ/dt = 0), so no EMF is induced. Transformers need changing flux — hence AC only.",
+      "difficulty": "medium",
+      "tags": ["AC", "transformer", "why-AC-not-DC"]
+    },
+    {
+      "id": "q_physics_12_ac_015",
+      "goalId": "grade12-physics",
+      "question": "The Q-factor (quality factor) of a series LCR circuit measures:",
+      "options": [
+        "The ratio of resistance to impedance",
+        "The number of oscillations before energy runs out",
+        "The sharpness of resonance — a high Q means narrow bandwidth and selective tuning",
+        "The efficiency of power transmission"
+      ],
+      "correctIndex": 2,
+      "explanation": "Q = (1/R)√(L/C) = ω₀L/R = 1/(ω₀CR). A high Q means the circuit responds sharply to frequencies near resonance (narrow bandwidth) — useful in radio tuning. A low Q means broader but flatter resonance. Q also equals the ratio of energy stored to energy lost per cycle.",
+      "difficulty": "hard",
+      "tags": ["AC", "Q-factor", "resonance", "bandwidth"]
+    }
+  ]
+}

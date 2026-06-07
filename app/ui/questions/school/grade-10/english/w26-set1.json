@@ -1,0 +1,223 @@
+{
+  "goalId": "grade10-english",
+  "title": "Grade 10 English — Mijbil the Otter + Poem: Amanda",
+  "description": "First Flight Ch. 7: Mijbil the Otter by Gavin Maxwell + Poem: Amanda by Robin Klein",
+  "category": "school",
+  "grade": 10,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_10_mijbil_001",
+      "goalId": "grade10-english",
+      "question": "Who wrote the prose 'Mijbil the Otter' in the First Flight textbook?",
+      "options": ["Ruskin Bond", "Gavin Maxwell", "Gerald Durrell", "R.K. Narayan"],
+      "correctIndex": 1,
+      "explanation": "Gavin Maxwell (1914–1969) was a Scottish author and naturalist. 'Mijbil the Otter' is an excerpt from his autobiography 'A Ring of Bright Water' (1960), describing his extraordinary relationship with an otter.",
+      "difficulty": "easy",
+      "tags": ["Mijbil", "author", "Gavin-Maxwell"]
+    },
+    {
+      "id": "q_english_10_mijbil_002",
+      "goalId": "grade10-english",
+      "question": "Where did Gavin Maxwell acquire Mijbil the otter?",
+      "options": ["Basra, Iraq", "London, England", "Cairo, Egypt", "Mumbai, India"],
+      "correctIndex": 0,
+      "explanation": "Maxwell got Mijbil in Basra (southern Iraq), where a friend brought two otters. One otter disappeared; the other — Mijbil — became Maxwell's devoted companion.",
+      "difficulty": "easy",
+      "tags": ["Mijbil", "Basra", "Iraq", "plot"]
+    },
+    {
+      "id": "q_english_10_mijbil_003",
+      "goalId": "grade10-english",
+      "question": "To which previously unknown sub-species did Mijbil belong?",
+      "options": [
+        "Lutra lutra — the common European otter",
+        "Aonyx capensis — the African clawless otter",
+        "Enhydra lutris — the sea otter",
+        "Lutrogale perspicillata maxwell — a new sub-species named after Maxwell"
+      ],
+      "correctIndex": 3,
+      "explanation": "Scientists at the Natural History Museum in London identified Mijbil as a new sub-species of the smooth-coated otter (Lutrogale perspicillata). It was named Lutrogale perspicillata maxwell in honour of Gavin Maxwell.",
+      "difficulty": "medium",
+      "tags": ["Mijbil", "species", "sub-species", "Maxwell"]
+    },
+    {
+      "id": "q_english_10_mijbil_004",
+      "goalId": "grade10-english",
+      "question": "What did Mijbil do when Maxwell first filled the bathtub with water?",
+      "options": [
+        "He was frightened and hid under the bed",
+        "He sat on the edge and watched cautiously for days",
+        "He jumped in immediately and splashed ecstatically, diving and rolling in the water",
+        "He tried to drink all the water"
+      ],
+      "correctIndex": 2,
+      "explanation": "Otters are naturally at home in water. When Maxwell filled the bathtub, Mijbil went wild with joy — splashing, rolling, and diving. He later learned to turn on the tap himself to fill the bath when he wanted to play.",
+      "difficulty": "easy",
+      "tags": ["Mijbil", "bathtub", "water", "behaviour"]
+    },
+    {
+      "id": "q_english_10_mijbil_005",
+      "goalId": "grade10-english",
+      "question": "What game did Mijbil invent with a ping-pong ball on the suitcase lid?",
+      "options": [
+        "He would nudge it into a goal",
+        "He used his nose to bounce it against the wall",
+        "He would roll it up the sloping lid and watch it roll back, catching it at the bottom",
+        "He balanced it on his head"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mijbil invented a game using the sloping lid of Maxwell's suitcase: he would push a ping-pong ball up the slope, watch it roll back, and catch it at the bottom — then repeat this endlessly. This shows the otter's intelligence and playfulness.",
+      "difficulty": "hard",
+      "tags": ["Mijbil", "game", "ping-pong", "intelligence"]
+    },
+    {
+      "id": "q_english_10_mijbil_006",
+      "goalId": "grade10-english",
+      "question": "When Maxwell travelled with Mijbil from Basra to London by plane, what happened?",
+      "options": [
+        "Mijbil slept peacefully throughout the flight",
+        "Mijbil stayed calmly in his box in the luggage hold",
+        "Mijbil escaped from his box in the aircraft cabin and caused panic among passengers",
+        "Mijbil was refused boarding by the airline"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mijbil was put in a box in the aircraft hold. Maxwell managed to get him into the cabin. Mijbil chewed through the box, escaped, and ran wildly through the plane, causing panic — until a calm air hostess helped retrieve him.",
+      "difficulty": "medium",
+      "tags": ["Mijbil", "aircraft", "escape", "London"]
+    },
+    {
+      "id": "q_english_10_mijbil_007",
+      "goalId": "grade10-english",
+      "question": "When Mijbil walked through the streets of London, how did passers-by react?",
+      "options": [
+        "They all correctly identified him as an otter",
+        "They were indifferent and ignored him completely",
+        "They guessed he was various animals — a baby seal, a hippo, a squirrel, a walrus",
+        "They were frightened and ran away"
+      ],
+      "correctIndex": 2,
+      "explanation": "Londoners had never seen an otter being walked on a lead. Maxwell was amused by the creative guesses: 'Is that a baby seal?' 'What is that — a hippo?' 'Is it a walrus?' The humorous episode reveals how unfamiliar exotic animals are in cities.",
+      "difficulty": "medium",
+      "tags": ["Mijbil", "London-streets", "reactions", "humour"]
+    },
+    {
+      "id": "q_english_10_mijbil_008",
+      "goalId": "grade10-english",
+      "question": "The poem 'Amanda' in First Flight was written by:",
+      "options": ["Kamala Das", "Sarojini Naidu", "Robin Klein", "Mary Oliver"],
+      "correctIndex": 2,
+      "explanation": "The poem 'Amanda' was written by Robin Klein, an Australian author and poet. It describes a child named Amanda being constantly corrected by an adult, while Amanda daydreams of freedom.",
+      "difficulty": "easy",
+      "tags": ["Amanda", "author", "Robin-Klein"]
+    },
+    {
+      "id": "q_english_10_mijbil_009",
+      "goalId": "grade10-english",
+      "question": "In the poem 'Amanda', the speaker instructs Amanda to do all of the following EXCEPT:",
+      "options": [
+        "Not to bite her nails",
+        "Not to hunch her shoulders",
+        "Not to eat chocolate",
+        "Not to read books during meals"
+      ],
+      "correctIndex": 3,
+      "explanation": "The speaker nags Amanda about: biting nails, hunching shoulders, eating chocolate, dragging her feet, finishing homework — but never mentions reading during meals. The constant instructions represent over-controlling adult behaviour.",
+      "difficulty": "medium",
+      "tags": ["Amanda", "poem", "instructions"]
+    },
+    {
+      "id": "q_english_10_mijbil_010",
+      "goalId": "grade10-english",
+      "question": "In 'Amanda', the child imagines herself as a mermaid living in the sea. This daydream shows Amanda's desire for:",
+      "options": [
+        "Adventure and travel across oceans",
+        "Freedom, peace, and escape from constant instructions",
+        "Becoming a marine biologist",
+        "Swimming lessons"
+      ],
+      "correctIndex": 1,
+      "explanation": "Amanda imagines being a mermaid — 'roaming free and wild' in the sea. This dream of total freedom and solitude contrasts sharply with her reality of constant correction. Each daydream (mermaid, orphan, Rapunzel) represents her craving for peace.",
+      "difficulty": "easy",
+      "tags": ["Amanda", "poem", "mermaid", "freedom"]
+    },
+    {
+      "id": "q_english_10_mijbil_011",
+      "goalId": "grade10-english",
+      "question": "In 'Amanda', when Amanda imagines herself as Rapunzel, what is different about her version of the story?",
+      "options": [
+        "She wants a prince to rescue her",
+        "She would rather stay in the tower and never let anyone in — she wants the solitude",
+        "She wants to escape by climbing down her own hair",
+        "She wants to live in the forest instead of a tower"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Amanda's version of Rapunzel, she would NOT let down her hair or call for rescue. She wants to stay locked in the tower — completely alone and at peace, with no one to nag her. It is the solitude (not captivity) that appeals to her.",
+      "difficulty": "medium",
+      "tags": ["Amanda", "poem", "Rapunzel", "daydream"]
+    },
+    {
+      "id": "q_english_10_mijbil_012",
+      "goalId": "grade10-english",
+      "question": "The bracketed instructions in 'Amanda' (e.g., '(Don't bite your nails, Amanda!)') are written in parentheses to show:",
+      "options": [
+        "They are stage directions in a drama",
+        "They are Amanda's own thoughts",
+        "They are the nagging adult's interruptions breaking into Amanda's dreamworld",
+        "They are footnotes explaining difficult words"
+      ],
+      "correctIndex": 2,
+      "explanation": "The parenthetical instructions contrast with Amanda's daydreams — they are the adult's nagging voice that keeps pulling Amanda back to harsh reality from her fantasy world. The format visually separates the two voices: dreamer (Amanda) and nagger (adult).",
+      "difficulty": "medium",
+      "tags": ["Amanda", "poem", "structure", "parentheses"]
+    },
+    {
+      "id": "q_english_10_mijbil_013",
+      "goalId": "grade10-english",
+      "question": "The central theme of the poem 'Amanda' is:",
+      "options": [
+        "The importance of good manners and discipline in children",
+        "The conflict between a child's desire for freedom and the constraints imposed by adults",
+        "The hardships of growing up without parents",
+        "The magical world of fairy tales and fantasy"
+      ],
+      "correctIndex": 1,
+      "explanation": "The poem explores the tension between childhood freedom and adult control. Amanda is continuously corrected and restricted, while she retreats into fantasies of freedom. The poem critiques excessive nagging — while not dismissing discipline entirely.",
+      "difficulty": "medium",
+      "tags": ["Amanda", "poem", "central-theme"]
+    },
+    {
+      "id": "q_english_10_mijbil_014",
+      "goalId": "grade10-english",
+      "question": "At the end of 'Amanda', the speaker says 'Don't sulk, Amanda!' and worries that people will think she is being made unhappy. This reveals that the speaker:",
+      "options": [
+        "Is indifferent to Amanda's feelings",
+        "Is concerned about Amanda's health",
+        "Is more worried about appearances than about Amanda's actual emotional state",
+        "Is unaware that Amanda is unhappy"
+      ],
+      "correctIndex": 2,
+      "explanation": "The irony of the ending is powerful: the speaker worries that people will think Amanda is being nagged into unhappiness — but the speaker is, in fact, doing exactly that. The priority is social reputation, not Amanda's wellbeing.",
+      "difficulty": "hard",
+      "tags": ["Amanda", "poem", "irony", "ending"]
+    },
+    {
+      "id": "q_english_10_mijbil_015",
+      "goalId": "grade10-english",
+      "question": "A common theme connecting 'Mijbil the Otter' and the poem 'Amanda' is:",
+      "options": [
+        "The joys of pet ownership and responsibility",
+        "The value of education and learning",
+        "The longing for freedom from restrictions and the beauty of natural, unconfined life",
+        "The importance of following rules"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mijbil the otter is happiest when free — in water, roaming the streets, inventing games. Amanda longs for freedom from constant correction. Both texts celebrate the joy of natural, unconfined living and implicitly question the need for excessive control.",
+      "difficulty": "hard",
+      "tags": ["Mijbil", "Amanda", "common-theme", "freedom"]
+    }
+  ]
+}

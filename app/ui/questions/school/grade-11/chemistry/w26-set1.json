@@ -1,0 +1,198 @@
+{
+  "goalId": "grade11-chemistry",
+  "title": "Grade 11 Chemistry — Redox Reactions",
+  "description": "Oxidation, reduction, oxidation states, oxidising/reducing agents, balancing redox reactions (CBSE Ch. 8)",
+  "category": "school",
+  "grade": 11,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_11_redox_001",
+      "goalId": "grade11-chemistry",
+      "question": "In terms of electron transfer, oxidation is defined as:",
+      "options": [
+        "Gain of electrons by a species",
+        "Loss of electrons by a species",
+        "Gain of protons by a species",
+        "Formation of a covalent bond"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oxidation = loss of electrons (OIL — Oxidation Is Loss). When a species loses electrons, its oxidation number increases. Example: Fe → Fe³⁺ + 3e⁻ (iron is oxidised, losing 3 electrons).",
+      "difficulty": "easy",
+      "tags": ["redox", "oxidation", "electron-transfer"]
+    },
+    {
+      "id": "q_chemistry_11_redox_002",
+      "goalId": "grade11-chemistry",
+      "question": "Reduction in terms of electron transfer means:",
+      "options": [
+        "Loss of electrons by a species",
+        "Loss of oxygen from a compound",
+        "Gain of electrons by a species",
+        "Increase in oxidation number"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reduction = gain of electrons (RIG — Reduction Is Gain). The species gains electrons, and its oxidation number decreases. Example: Cu²⁺ + 2e⁻ → Cu (copper ion is reduced to copper metal).",
+      "difficulty": "easy",
+      "tags": ["redox", "reduction", "electron-transfer"]
+    },
+    {
+      "id": "q_chemistry_11_redox_003",
+      "goalId": "grade11-chemistry",
+      "question": "An oxidising agent in a redox reaction:",
+      "options": [
+        "Loses electrons and gets oxidised",
+        "Gains electrons and gets reduced",
+        "Does not change its oxidation state",
+        "Gains protons and becomes acidic"
+      ],
+      "correctIndex": 1,
+      "explanation": "An oxidising agent causes oxidation in another species by accepting electrons from it. In doing so, the oxidising agent itself gains electrons and gets reduced. Example: KMnO₄ (permanganate) is a strong oxidising agent.",
+      "difficulty": "easy",
+      "tags": ["redox", "oxidising-agent", "roles"]
+    },
+    {
+      "id": "q_chemistry_11_redox_004",
+      "goalId": "grade11-chemistry",
+      "question": "A reducing agent in a redox reaction:",
+      "options": [
+        "Gains electrons and gets reduced",
+        "Donates electrons to another species and gets oxidised",
+        "Gains oxygen and gets reduced",
+        "Does not participate in electron transfer"
+      ],
+      "correctIndex": 1,
+      "explanation": "A reducing agent causes reduction in another species by donating electrons to it. The reducing agent itself loses electrons and gets oxidised. Examples: H₂, C (carbon), Mg, Na are strong reducing agents.",
+      "difficulty": "easy",
+      "tags": ["redox", "reducing-agent", "roles"]
+    },
+    {
+      "id": "q_chemistry_11_redox_005",
+      "goalId": "grade11-chemistry",
+      "question": "In the reaction 2Mg + O₂ → 2MgO, magnesium is:",
+      "options": ["Reduced", "Acts as the oxidising agent", "Neither oxidised nor reduced", "Oxidised — it loses electrons to form Mg²⁺"],
+      "correctIndex": 3,
+      "explanation": "Mg → Mg²⁺ + 2e⁻. Magnesium loses 2 electrons (oxidation number goes from 0 to +2), so it is oxidised. Oxygen gains electrons (0 → −2), so it is reduced. Mg is the reducing agent; O₂ is the oxidising agent.",
+      "difficulty": "easy",
+      "tags": ["redox", "Mg-combustion", "identification"]
+    },
+    {
+      "id": "q_chemistry_11_redox_006",
+      "goalId": "grade11-chemistry",
+      "question": "The oxidation state of oxygen in most compounds is:",
+      "options": ["+2", "−2", "0", "+1"],
+      "correctIndex": 1,
+      "explanation": "Oxygen has oxidation state −2 in most compounds (oxides, hydroxides, etc.). Exceptions: in peroxides (H₂O₂, Na₂O₂) it is −1; in OF₂ it is +2 (because fluorine is more electronegative).",
+      "difficulty": "easy",
+      "tags": ["redox", "oxidation-state", "oxygen"]
+    },
+    {
+      "id": "q_chemistry_11_redox_007",
+      "goalId": "grade11-chemistry",
+      "question": "The oxidation state of iron (Fe) in Fe₂O₃ is:",
+      "options": ["+2", "+3", "+4", "−3"],
+      "correctIndex": 1,
+      "explanation": "In Fe₂O₃, oxygen is −2. Let Fe be x: 2x + 3(−2) = 0 → 2x = +6 → x = +3. Iron is +3 in Fe₂O₃ (iron(III) oxide, or ferric oxide — the familiar rust).",
+      "difficulty": "medium",
+      "tags": ["redox", "oxidation-state", "Fe2O3"]
+    },
+    {
+      "id": "q_chemistry_11_redox_008",
+      "goalId": "grade11-chemistry",
+      "question": "The oxidation state of Mn in KMnO₄ (potassium permanganate) is:",
+      "options": ["+4", "+5", "+6", "+7"],
+      "correctIndex": 3,
+      "explanation": "In KMnO₄: K = +1, O = −2. Let Mn = x: (+1) + x + 4(−2) = 0 → x − 7 = 0 → x = +7. Mn is in its highest common oxidation state of +7 in permanganate — making it a very strong oxidising agent.",
+      "difficulty": "medium",
+      "tags": ["redox", "oxidation-state", "KMnO4", "Mn"]
+    },
+    {
+      "id": "q_chemistry_11_redox_009",
+      "goalId": "grade11-chemistry",
+      "question": "The oxidation state of sulphur (S) in H₂SO₄ (sulphuric acid) is:",
+      "options": ["+4", "+5", "+6", "+8"],
+      "correctIndex": 2,
+      "explanation": "In H₂SO₄: H = +1 (×2), O = −2 (×4). Let S = x: 2(+1) + x + 4(−2) = 0 → 2 + x − 8 = 0 → x = +6. Sulphur is +6 in concentrated sulphuric acid — making it a strong oxidising agent in concentrated form.",
+      "difficulty": "medium",
+      "tags": ["redox", "oxidation-state", "H2SO4", "S"]
+    },
+    {
+      "id": "q_chemistry_11_redox_010",
+      "goalId": "grade11-chemistry",
+      "question": "The oxidation state of chromium (Cr) in K₂Cr₂O₇ (potassium dichromate) is:",
+      "options": ["+3", "+4", "+6", "+7"],
+      "correctIndex": 2,
+      "explanation": "In K₂Cr₂O₇: K = +1 (×2), O = −2 (×7). Let Cr = x: 2(+1) + 2x + 7(−2) = 0 → 2 + 2x − 14 = 0 → 2x = 12 → x = +6. Cr is +6 in dichromate — also a strong oxidising agent like permanganate.",
+      "difficulty": "hard",
+      "tags": ["redox", "oxidation-state", "K2Cr2O7", "Cr"]
+    },
+    {
+      "id": "q_chemistry_11_redox_011",
+      "goalId": "grade11-chemistry",
+      "question": "The oxidation state of Cl in HClO₄ (perchloric acid) is:",
+      "options": ["+1", "+3", "+5", "+7"],
+      "correctIndex": 3,
+      "explanation": "In HClO₄: H = +1, O = −2 (×4). Let Cl = x: (+1) + x + 4(−2) = 0 → x = +7. Chlorine reaches its maximum oxidation state of +7 in perchloric acid (HClO₄ > HClO₃ > HClO₂ > HClO, increasing Cl oxidation state).",
+      "difficulty": "medium",
+      "tags": ["redox", "oxidation-state", "HClO4", "Cl"]
+    },
+    {
+      "id": "q_chemistry_11_redox_012",
+      "goalId": "grade11-chemistry",
+      "question": "A disproportionation reaction is one where:",
+      "options": [
+        "Two different elements are simultaneously oxidised and reduced",
+        "The same element is simultaneously oxidised and reduced in the same reaction",
+        "An element neither gains nor loses electrons",
+        "Oxidation occurs in the absence of oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "In disproportionation, the same element in an intermediate oxidation state is simultaneously oxidised (to a higher state) and reduced (to a lower state). Example: 2H₂O₂ → 2H₂O + O₂ — oxygen in H₂O₂ (−1) goes to −2 (in H₂O) and 0 (in O₂).",
+      "difficulty": "medium",
+      "tags": ["redox", "disproportionation"]
+    },
+    {
+      "id": "q_chemistry_11_redox_013",
+      "goalId": "grade11-chemistry",
+      "question": "In any redox reaction, the number of electrons lost by the reducing agent must equal:",
+      "options": [
+        "The number of atoms in the oxidising agent",
+        "The number of electrons gained by the oxidising agent",
+        "The change in pH of the solution",
+        "The total number of ions formed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Electron conservation is fundamental: electrons lost = electrons gained. This is the basis of all methods for balancing redox reactions (oxidation number method and half-reaction method). No electrons are created or destroyed.",
+      "difficulty": "easy",
+      "tags": ["redox", "electron-conservation", "balancing"]
+    },
+    {
+      "id": "q_chemistry_11_redox_014",
+      "goalId": "grade11-chemistry",
+      "question": "When balancing a redox reaction in acidic medium using the half-reaction method, which species are added to balance oxygen atoms?",
+      "options": ["OH⁻ ions", "H₂O molecules", "O₂ molecules", "H⁺ ions only"],
+      "correctIndex": 1,
+      "explanation": "In acidic medium: add H₂O to balance O atoms, then add H⁺ to balance H atoms, then balance charge with electrons. In basic medium: add OH⁻ to balance O, then H₂O to balance H.",
+      "difficulty": "medium",
+      "tags": ["redox", "half-reaction-method", "acidic-medium"]
+    },
+    {
+      "id": "q_chemistry_11_redox_015",
+      "goalId": "grade11-chemistry",
+      "question": "The change in oxidation number of nitrogen in: HNO₃ → NO₂ (during reduction of concentrated nitric acid by copper) is:",
+      "options": [
+        "+5 to +4 (decrease of 1) — nitrogen is reduced",
+        "+3 to +4 (increase of 1) — nitrogen is oxidised",
+        "0 to +4 — nitrogen is oxidised",
+        "+5 to +2 — nitrogen is reduced by 3"
+      ],
+      "correctIndex": 0,
+      "explanation": "In HNO₃: N is +5. In NO₂: N is +4. Oxidation state decreases from +5 to +4 (change of −1). This is a reduction by 1 unit. Concentrated HNO₃ is reduced to NO₂ while Cu is oxidised to Cu²⁺.",
+      "difficulty": "hard",
+      "tags": ["redox", "HNO3", "nitrogen-oxidation-state", "copper"]
+    }
+  ]
+}

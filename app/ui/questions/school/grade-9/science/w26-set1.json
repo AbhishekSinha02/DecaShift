@@ -1,0 +1,223 @@
+{
+  "goalId": "grade9-science",
+  "title": "Grade 9 Science — Diversity in Living Organisms",
+  "description": "Classification of living organisms — Five Kingdoms, hierarchy, plant/animal groups (CBSE Ch. 7)",
+  "category": "school",
+  "grade": 9,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_9_diversity_001",
+      "goalId": "grade9-science",
+      "question": "The basis of classification of living organisms includes:",
+      "options": [
+        "Only body colour and habitat",
+        "Cell structure, mode of nutrition, body organisation, and phylogenetic relationships",
+        "Only the presence or absence of a nucleus",
+        "Only the number of legs and body segments"
+      ],
+      "correctIndex": 1,
+      "explanation": "Classification is based on multiple criteria: cell structure (prokaryote/eukaryote), mode of nutrition (autotrophic/heterotrophic), body organisation, and evolutionary relationships (phylogeny).",
+      "difficulty": "easy",
+      "tags": ["diversity", "classification-basis"]
+    },
+    {
+      "id": "q_science_9_diversity_002",
+      "goalId": "grade9-science",
+      "question": "The Five Kingdom classification of living organisms was proposed by:",
+      "options": ["Carl Linnaeus", "Charles Darwin", "R.H. Whittaker", "Ernst Haeckel"],
+      "correctIndex": 2,
+      "explanation": "R.H. Whittaker (1969) proposed the Five Kingdom classification: Monera, Protista, Fungi, Plantae, and Animalia. Carl Linnaeus proposed the two-kingdom classification (Plants and Animals).",
+      "difficulty": "easy",
+      "tags": ["diversity", "five-kingdoms", "Whittaker"]
+    },
+    {
+      "id": "q_science_9_diversity_003",
+      "goalId": "grade9-science",
+      "question": "Kingdom Monera includes organisms that are:",
+      "options": [
+        "Unicellular eukaryotes with a defined nucleus",
+        "Multicellular organisms with cell walls",
+        "Prokaryotes — no nuclear membrane, no membrane-bound organelles",
+        "Organisms that perform photosynthesis only"
+      ],
+      "correctIndex": 2,
+      "explanation": "Monera (bacteria, blue-green algae/cyanobacteria) are prokaryotes — their genetic material is not enclosed within a nuclear membrane, and they lack membrane-bound organelles.",
+      "difficulty": "easy",
+      "tags": ["diversity", "Monera", "prokaryotes"]
+    },
+    {
+      "id": "q_science_9_diversity_004",
+      "goalId": "grade9-science",
+      "question": "Amoeba and Paramecium belong to Kingdom:",
+      "options": ["Monera", "Fungi", "Plantae", "Protista"],
+      "correctIndex": 3,
+      "explanation": "Kingdom Protista includes unicellular eukaryotes (cells have a defined nucleus). Amoeba (pseudopod locomotion) and Paramecium (cilia locomotion) are classic examples of Protista.",
+      "difficulty": "easy",
+      "tags": ["diversity", "Protista", "unicellular-eukaryotes"]
+    },
+    {
+      "id": "q_science_9_diversity_005",
+      "goalId": "grade9-science",
+      "question": "Which feature distinguishes Fungi from Plants?",
+      "options": [
+        "Fungi are unicellular; plants are multicellular",
+        "Fungi are eukaryotes; plants are prokaryotes",
+        "Fungi have chitin cell walls and are heterotrophic; plants have cellulose cell walls and are autotrophic",
+        "Fungi live in water; plants live on land"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fungi have cell walls made of chitin and obtain nutrition by decomposing dead organic matter (saprophytic/heterotrophic). Plants have cellulose cell walls and manufacture food through photosynthesis (autotrophic).",
+      "difficulty": "easy",
+      "tags": ["diversity", "Fungi", "Plantae", "differences"]
+    },
+    {
+      "id": "q_science_9_diversity_006",
+      "goalId": "grade9-science",
+      "question": "Binomial nomenclature — the system of giving each organism a two-part scientific name — was introduced by:",
+      "options": ["Charles Darwin", "Carl Linnaeus", "R.H. Whittaker", "Gregor Mendel"],
+      "correctIndex": 1,
+      "explanation": "Carl Linnaeus introduced binomial nomenclature in Systema Naturae (1758). Each organism gets a genus name + species name (e.g., Homo sapiens). Names are in Latin/Greek and written in italics.",
+      "difficulty": "easy",
+      "tags": ["diversity", "binomial-nomenclature", "Linnaeus"]
+    },
+    {
+      "id": "q_science_9_diversity_007",
+      "goalId": "grade9-science",
+      "question": "The correct hierarchy of classification from broadest to most specific is:",
+      "options": [
+        "Kingdom → Phylum → Class → Order → Family → Genus → Species",
+        "Species → Genus → Family → Order → Class → Phylum → Kingdom",
+        "Kingdom → Class → Phylum → Family → Order → Genus → Species",
+        "Phylum → Kingdom → Class → Family → Order → Genus → Species"
+      ],
+      "correctIndex": 0,
+      "explanation": "The taxonomic hierarchy from broadest to most specific: Kingdom → Phylum → Class → Order → Family → Genus → Species. A helpful mnemonic: 'King Philip Came Over For Great Soup.'",
+      "difficulty": "medium",
+      "tags": ["diversity", "hierarchy", "classification"]
+    },
+    {
+      "id": "q_science_9_diversity_008",
+      "goalId": "grade9-science",
+      "question": "Thallophyta (Division of Plantae) includes:",
+      "options": [
+        "Mosses and liverworts",
+        "Ferns and horsetails",
+        "Algae — simple plants with no true roots, stems, or leaves",
+        "Gymnosperms like pine and Cycas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thallophyta are the simplest plants — algae (Spirogyra, Ulva, Fucus). Their body is a thallus (not differentiated into roots, stems, leaves). They are mostly aquatic.",
+      "difficulty": "easy",
+      "tags": ["diversity", "Thallophyta", "algae"]
+    },
+    {
+      "id": "q_science_9_diversity_009",
+      "goalId": "grade9-science",
+      "question": "Bryophyta are called the 'amphibians of the plant kingdom' because:",
+      "options": [
+        "They can live on both land and in water",
+        "They have both roots and leaves",
+        "They reproduce only in water but live on land",
+        "They have both autotrophic and heterotrophic nutrition"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bryophytes (mosses, liverworts — e.g., Funaria, Marchantia) need water for reproduction (flagellated sperm must swim to reach eggs) but live on land. This dual dependency earns them the title 'amphibians of the plant kingdom.'",
+      "difficulty": "medium",
+      "tags": ["diversity", "Bryophyta", "amphibians-plant"]
+    },
+    {
+      "id": "q_science_9_diversity_010",
+      "goalId": "grade9-science",
+      "question": "Pteridophyta are significant in plant evolution because they are:",
+      "options": [
+        "The first land plants with no vascular tissue",
+        "The first plants with seeds",
+        "The first plants with vascular tissue (xylem and phloem) but no seeds",
+        "The first flowering plants"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pteridophytes (ferns, Selaginella, horsetails) were the first plants to develop vascular tissue (xylem for water/minerals, phloem for food) — enabling taller body structures. However, they still reproduce via spores, not seeds.",
+      "difficulty": "medium",
+      "tags": ["diversity", "Pteridophyta", "vascular-tissue"]
+    },
+    {
+      "id": "q_science_9_diversity_011",
+      "goalId": "grade9-science",
+      "question": "Gymnosperms (e.g., pine, Cycas, deodar) are characterised by:",
+      "options": [
+        "Seeds enclosed inside a fruit",
+        "No seeds — reproduction only by spores",
+        "Naked seeds — not enclosed in a fruit (ovary wall absent)",
+        "Seeds enclosed in a hard shell but no leaves"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Gymno' = naked, 'sperma' = seed. Gymnosperms bear naked seeds on the surface of cone scales, with no fruit wall (ovary) surrounding them. Examples: Pinus (pine), Cycas, Cedrus (deodar).",
+      "difficulty": "easy",
+      "tags": ["diversity", "Gymnosperms", "naked-seeds"]
+    },
+    {
+      "id": "q_science_9_diversity_012",
+      "goalId": "grade9-science",
+      "question": "Porifera (e.g., sponges) are the simplest animals because:",
+      "options": [
+        "They are unicellular",
+        "They have a porous body with no true tissues or organs",
+        "They can photosynthesise",
+        "They have a hard exoskeleton"
+      ],
+      "correctIndex": 1,
+      "explanation": "Porifera (sponges) have bodies full of pores (osculum, ostia) through which water circulates. They lack true tissues, organs, or organ systems — making them the simplest multicellular animals.",
+      "difficulty": "easy",
+      "tags": ["diversity", "Porifera", "simplest-animals"]
+    },
+    {
+      "id": "q_science_9_diversity_013",
+      "goalId": "grade9-science",
+      "question": "Amphibians (e.g., frog, salamander, toad) are characterised by:",
+      "options": [
+        "Warm-blooded, four-chambered heart, lay eggs on land",
+        "Cold-blooded, can live on land and in water, lay eggs in water",
+        "Cold-blooded, only aquatic, breathe through gills throughout life",
+        "Warm-blooded, bear live young ones, nurse with milk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Amphibians are cold-blooded (ectothermic) vertebrates that can live on land and in water. They breathe through gills as larvae and lungs/skin as adults. They lay eggs in water (no amniotic egg).",
+      "difficulty": "easy",
+      "tags": ["diversity", "Amphibia", "vertebrates"]
+    },
+    {
+      "id": "q_science_9_diversity_014",
+      "goalId": "grade9-science",
+      "question": "What distinguishes mammals from all other vertebrates?",
+      "options": [
+        "They are warm-blooded",
+        "They have a four-chambered heart",
+        "They have hair/fur on their body and nurse young ones with milk from mammary glands",
+        "They breathe through lungs"
+      ],
+      "correctIndex": 2,
+      "explanation": "The defining characteristics of mammals are: (1) presence of hair/fur, and (2) mammary glands for suckling young ones. They are also warm-blooded and most give birth to live young, but the defining traits are hair and milk production.",
+      "difficulty": "easy",
+      "tags": ["diversity", "Mammalia", "vertebrates"]
+    },
+    {
+      "id": "q_science_9_diversity_015",
+      "goalId": "grade9-science",
+      "question": "Angiosperms differ from Gymnosperms in that Angiosperms have:",
+      "options": [
+        "Vascular tissue (xylem and phloem)",
+        "Seeds enclosed within a fruit (ovary wall develops into fruit)",
+        "Naked seeds with no protective covering",
+        "No flowers — they reproduce by spores"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Angio' = enclosed, 'sperma' = seed. In Angiosperms (flowering plants), seeds are enclosed within a fruit formed from the ovary wall after fertilisation. They are the most evolved and diverse plant group.",
+      "difficulty": "medium",
+      "tags": ["diversity", "Angiosperms", "Gymnosperms", "comparison"]
+    }
+  ]
+}

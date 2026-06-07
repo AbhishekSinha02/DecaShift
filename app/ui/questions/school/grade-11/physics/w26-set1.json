@@ -1,0 +1,203 @@
+{
+  "goalId": "grade11-physics",
+  "title": "Grade 11 Physics — Gravitation",
+  "description": "Newton's law of gravitation, g, Kepler's laws, orbital velocity, escape velocity, satellites (CBSE Ch. 8)",
+  "category": "school",
+  "grade": 11,
+  "subject": "physics",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_physics_11_gravitation_001",
+      "goalId": "grade11-physics",
+      "question": "Newton's Universal Law of Gravitation states that the gravitational force between two bodies is:",
+      "options": [
+        "Directly proportional to the sum of their masses and inversely proportional to the distance between them",
+        "Directly proportional to the product of their masses and inversely proportional to the square of the distance between them",
+        "Directly proportional to the product of their masses and directly proportional to the distance",
+        "Inversely proportional to the product of masses and inversely proportional to the square of distance"
+      ],
+      "correctIndex": 1,
+      "explanation": "F = Gm₁m₂/r². The force is proportional to the product of masses (m₁ × m₂) and inversely proportional to the square of the distance (r²) between their centres. G is the Universal Gravitational Constant.",
+      "difficulty": "easy",
+      "tags": ["gravitation", "Newton's-law", "formula"]
+    },
+    {
+      "id": "q_physics_11_gravitation_002",
+      "goalId": "grade11-physics",
+      "question": "The value of the Universal Gravitational Constant G is approximately:",
+      "options": [
+        "9.8 N m² kg⁻²",
+        "6.67 × 10⁻¹¹ N m² kg⁻²",
+        "6.67 × 10¹¹ N m² kg⁻²",
+        "3 × 10⁸ m s⁻¹"
+      ],
+      "correctIndex": 1,
+      "explanation": "G = 6.67 × 10⁻¹¹ N m² kg⁻². G is an extremely small constant — gravity is actually the weakest of the four fundamental forces. The value was first measured experimentally by Henry Cavendish in 1798.",
+      "difficulty": "easy",
+      "tags": ["gravitation", "G-constant", "value"]
+    },
+    {
+      "id": "q_physics_11_gravitation_003",
+      "goalId": "grade11-physics",
+      "question": "The acceleration due to gravity at Earth's surface (g) is related to Earth's mass M and radius R by:",
+      "options": ["g = GMR", "g = GM/R²", "g = GR²/M", "g = G/MR²"],
+      "correctIndex": 1,
+      "explanation": "For a mass m at Earth's surface: Weight = mg = GMm/R². Dividing both sides by m: g = GM/R². This shows g depends on Earth's mass and radius, not on the falling object's mass.",
+      "difficulty": "easy",
+      "tags": ["gravitation", "g-formula", "derivation"]
+    },
+    {
+      "id": "q_physics_11_gravitation_004",
+      "goalId": "grade11-physics",
+      "question": "How does g (acceleration due to gravity) vary as you go above Earth's surface to height h?",
+      "options": [
+        "g increases because you get closer to the Moon's gravity",
+        "g remains constant up to 100 km altitude",
+        "g decreases because r (distance from centre) increases — g ∝ 1/r²",
+        "g first increases then decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "g = GM/(R + h)². As h increases, (R + h) increases, so g decreases. At height h << R: g_h ≈ g(1 − 2h/R). Beyond Earth's atmosphere, g continues to decrease following the inverse-square law.",
+      "difficulty": "easy",
+      "tags": ["gravitation", "g-variation", "altitude"]
+    },
+    {
+      "id": "q_physics_11_gravitation_005",
+      "goalId": "grade11-physics",
+      "question": "The acceleration due to gravity at Earth's centre is:",
+      "options": ["9.8 m/s²", "4.9 m/s²", "Infinite", "Zero"],
+      "correctIndex": 3,
+      "explanation": "At Earth's centre, the gravitational pull from all surrounding mass cancels out equally in all directions. Also, g at depth d = g(1 − d/R). At the centre, d = R, so g = 0. There is no net gravitational force at Earth's centre.",
+      "difficulty": "medium",
+      "tags": ["gravitation", "g-at-centre", "depth"]
+    },
+    {
+      "id": "q_physics_11_gravitation_006",
+      "goalId": "grade11-physics",
+      "question": "A person weighs 60 N on Earth. Their approximate weight on the Moon would be:",
+      "options": ["60 N", "10 N", "120 N", "6 N"],
+      "correctIndex": 1,
+      "explanation": "g_Moon ≈ g_Earth/6. Weight on Moon = 60/6 = 10 N. This is because the Moon has smaller mass and radius than Earth. Astronauts feel much lighter on the Moon — they can jump much higher!",
+      "difficulty": "easy",
+      "tags": ["gravitation", "weight-on-Moon", "g-comparison"]
+    },
+    {
+      "id": "q_physics_11_gravitation_007",
+      "goalId": "grade11-physics",
+      "question": "Escape velocity is the minimum speed needed to:",
+      "options": [
+        "Put a satellite into circular orbit",
+        "Reach the Moon from Earth",
+        "Escape a body's gravitational field without further propulsion",
+        "Travel at the speed of light"
+      ],
+      "correctIndex": 2,
+      "explanation": "Escape velocity (v_e) is the minimum launch speed needed to escape a body's gravitational field completely without any further thrust. For Earth: v_e = √(2GM/R) = √(2gR) ≈ 11.2 km/s.",
+      "difficulty": "medium",
+      "tags": ["gravitation", "escape-velocity", "definition"]
+    },
+    {
+      "id": "q_physics_11_gravitation_008",
+      "goalId": "grade11-physics",
+      "question": "The orbital speed of a satellite in circular orbit at radius r from Earth's centre is:",
+      "options": ["v₀ = √(GMr)", "v₀ = √(GM/r)", "v₀ = GM/r²", "v₀ = √(2GM/r)"],
+      "correctIndex": 1,
+      "explanation": "For circular orbit, gravitational force provides centripetal force: GMm/r² = mv²/r → v² = GM/r → v = √(GM/r). Note: escape velocity = √(2GM/r) = √2 × orbital velocity.",
+      "difficulty": "medium",
+      "tags": ["gravitation", "orbital-velocity", "formula"]
+    },
+    {
+      "id": "q_physics_11_gravitation_009",
+      "goalId": "grade11-physics",
+      "question": "Kepler's First Law of Planetary Motion states that:",
+      "options": [
+        "Planets move in circular orbits around the Sun",
+        "All planets move with the same speed",
+        "Planets move in elliptical orbits with the Sun at one of the two foci",
+        "The time period of all planets is the same"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kepler's 1st Law (Law of Orbits): Each planet moves in an elliptical orbit with the Sun at one focus. This was a major discovery — earlier astronomers assumed circular orbits. The point closest to the Sun is the perihelion; farthest is the aphelion.",
+      "difficulty": "easy",
+      "tags": ["gravitation", "Kepler", "first-law"]
+    },
+    {
+      "id": "q_physics_11_gravitation_010",
+      "goalId": "grade11-physics",
+      "question": "Kepler's Second Law (Law of Areas) states that a planet sweeps equal areas in equal times. This implies that:",
+      "options": [
+        "Planets move fastest when farthest from the Sun",
+        "Planets always move at constant speed",
+        "Planets move faster when closer to the Sun and slower when farther away",
+        "The orbit must be circular"
+      ],
+      "correctIndex": 2,
+      "explanation": "Equal areas in equal time (angular momentum conservation). When a planet is nearer the Sun (perihelion), it moves faster to sweep the same area as when it is at aphelion. This is a consequence of the conservation of angular momentum.",
+      "difficulty": "medium",
+      "tags": ["gravitation", "Kepler", "second-law", "angular-momentum"]
+    },
+    {
+      "id": "q_physics_11_gravitation_011",
+      "goalId": "grade11-physics",
+      "question": "Kepler's Third Law states T² ∝ a³, where T is the orbital period and a is the semi-major axis. This means:",
+      "options": [
+        "Planets farther from the Sun have shorter orbital periods",
+        "The square of the orbital period is proportional to the cube of the semi-major axis",
+        "All planets have the same orbital period",
+        "The orbit size and period are unrelated"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kepler's 3rd Law (Law of Periods): T²/a³ = constant (same for all planets orbiting the Sun). Planets farther from the Sun (larger a) take longer to complete one orbit — Earth takes 1 year, Jupiter takes ≈ 12 years.",
+      "difficulty": "medium",
+      "tags": ["gravitation", "Kepler", "third-law"]
+    },
+    {
+      "id": "q_physics_11_gravitation_012",
+      "goalId": "grade11-physics",
+      "question": "A geostationary satellite has a time period of approximately:",
+      "options": ["90 minutes", "12 hours", "24 hours", "7 days"],
+      "correctIndex": 2,
+      "explanation": "A geostationary satellite orbits the Earth with a period of 24 hours (= Earth's rotation period). It stays above a fixed point on the equator — essential for communication satellites, weather satellites, and TV broadcasting.",
+      "difficulty": "medium",
+      "tags": ["gravitation", "geostationary-satellite", "time-period"]
+    },
+    {
+      "id": "q_physics_11_gravitation_013",
+      "goalId": "grade11-physics",
+      "question": "The gravitational potential energy (U) of a mass m at distance r from a body of mass M is:",
+      "options": ["U = GMm/r", "U = −GMm/r", "U = GMm/r²", "U = −GMmr"],
+      "correctIndex": 1,
+      "explanation": "U = −GMm/r. The negative sign indicates that the gravitational force is attractive — energy must be supplied to separate the masses. U = 0 at r = ∞ (reference), and becomes more negative as r decreases.",
+      "difficulty": "medium",
+      "tags": ["gravitation", "gravitational-potential-energy", "formula"]
+    },
+    {
+      "id": "q_physics_11_gravitation_014",
+      "goalId": "grade11-physics",
+      "question": "If the radius of the Earth were doubled with its mass unchanged, the acceleration due to gravity at the surface would:",
+      "options": [
+        "Double",
+        "Remain the same",
+        "Become one-fourth",
+        "Become half"
+      ],
+      "correctIndex": 2,
+      "explanation": "g = GM/R². If R doubles, g becomes GM/(2R)² = GM/4R² = g/4. So g reduces to one-fourth of its original value. This shows why gravity on large planets is very strong despite their greater radius — mass grows even faster.",
+      "difficulty": "hard",
+      "tags": ["gravitation", "g-formula", "radius-change"]
+    },
+    {
+      "id": "q_physics_11_gravitation_015",
+      "goalId": "grade11-physics",
+      "question": "The escape velocity from Earth (≈ 11.2 km/s) is related to orbital velocity (≈ 7.9 km/s at the surface) by the factor:",
+      "options": ["π", "2", "√2", "√3"],
+      "correctIndex": 2,
+      "explanation": "v_escape = √(2GM/R) = √2 × √(GM/R) = √2 × v_orbital. So escape velocity = √2 × orbital velocity ≈ 1.41 × 7.9 km/s ≈ 11.2 km/s. Escape velocity is always √2 times the circular orbital velocity at that radius.",
+      "difficulty": "hard",
+      "tags": ["gravitation", "escape-velocity", "orbital-velocity", "ratio"]
+    }
+  ]
+}

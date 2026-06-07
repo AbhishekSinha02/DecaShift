@@ -1,0 +1,218 @@
+{
+  "goalId": "grade10-science",
+  "title": "Grade 10 Science — Periodic Classification of Elements",
+  "description": "Döbereiner, Newlands, Mendeleev, Modern Periodic Law, trends in properties (CBSE Ch. 5)",
+  "category": "school",
+  "grade": 10,
+  "subject": "science",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_science_10_periodic_001",
+      "goalId": "grade10-science",
+      "question": "Döbereiner's Law of Triads states that when elements are arranged in increasing order of atomic mass, the atomic mass of the middle element of a triad is approximately:",
+      "options": [
+        "Equal to the highest atomic mass in the triad",
+        "Twice the lowest atomic mass",
+        "The arithmetic mean of the atomic masses of the first and third elements",
+        "Half of the sum of the first and third elements"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Döbereiner's triads (1817), the middle element's atomic mass ≈ average of the first and third. Example: Li (7), Na (23), K (39) → (7 + 39)/2 = 23 = Na's mass. Options C and D say the same thing; C is the standard phrasing.",
+      "difficulty": "easy",
+      "tags": ["periodic-table", "Dobereiner", "triads"]
+    },
+    {
+      "id": "q_science_10_periodic_002",
+      "goalId": "grade10-science",
+      "question": "Newlands' Law of Octaves (1866) stated that every _____ element has similar properties to the first, when elements are arranged in increasing order of atomic mass.",
+      "options": ["Fourth", "Sixth", "Eighth", "Tenth"],
+      "correctIndex": 2,
+      "explanation": "Newlands observed that properties repeated every 8th element — like musical octaves. For example, Li and Na, Be and Mg have similar properties with 7 elements between them. This pattern failed for heavier elements beyond calcium.",
+      "difficulty": "easy",
+      "tags": ["periodic-table", "Newlands", "octaves"]
+    },
+    {
+      "id": "q_science_10_periodic_003",
+      "goalId": "grade10-science",
+      "question": "Mendeleev arranged elements in his periodic table in order of increasing:",
+      "options": ["Atomic number", "Electronegativity", "Atomic mass", "Number of electrons"],
+      "correctIndex": 2,
+      "explanation": "Mendeleev's periodic table (1869) arranged elements in increasing order of atomic mass. This was a key achievement — he also left gaps for undiscovered elements and predicted their properties accurately.",
+      "difficulty": "easy",
+      "tags": ["periodic-table", "Mendeleev", "atomic-mass"]
+    },
+    {
+      "id": "q_science_10_periodic_004",
+      "goalId": "grade10-science",
+      "question": "The Modern Periodic Law states that the properties of elements are a periodic function of their:",
+      "options": ["Atomic mass", "Atomic number", "Number of neutrons", "Electronegativity"],
+      "correctIndex": 1,
+      "explanation": "Henry Moseley (1913) established that the fundamental property of an element is its atomic number (number of protons), not its mass. The Modern Periodic Law: properties repeat periodically with increasing atomic number.",
+      "difficulty": "easy",
+      "tags": ["periodic-table", "modern-periodic-law", "atomic-number"]
+    },
+    {
+      "id": "q_science_10_periodic_005",
+      "goalId": "grade10-science",
+      "question": "Period 1 of the Modern Periodic Table contains only:",
+      "options": ["3 elements: H, He, Li", "2 elements: H and He", "1 element: H only", "4 elements: H, He, Li, Be"],
+      "correctIndex": 1,
+      "explanation": "Period 1 contains only 2 elements: Hydrogen (H, Z=1) and Helium (He, Z=2). Their outermost shell (n=1) can hold a maximum of 2 electrons, so the period ends at He.",
+      "difficulty": "easy",
+      "tags": ["periodic-table", "period-1", "elements"]
+    },
+    {
+      "id": "q_science_10_periodic_006",
+      "goalId": "grade10-science",
+      "question": "Group 1 elements (Li, Na, K, Rb, Cs, Fr) are called alkali metals because:",
+      "options": [
+        "They react with water to form alkaline (basic) hydroxide solutions",
+        "They are found in alkaline soils",
+        "They have a pH of exactly 14",
+        "They react with acids to form salts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Group 1 metals react vigorously with water to form metal hydroxides (e.g., 2Na + 2H₂O → 2NaOH + H₂). The hydroxide solutions are strongly alkaline — hence the name 'alkali metals.'",
+      "difficulty": "easy",
+      "tags": ["periodic-table", "Group-1", "alkali-metals"]
+    },
+    {
+      "id": "q_science_10_periodic_007",
+      "goalId": "grade10-science",
+      "question": "Group 17 elements (F, Cl, Br, I, At) are called halogens because they:",
+      "options": [
+        "Are all gases at room temperature",
+        "Are all coloured compounds",
+        "Form salts when they react with metals (Greek: 'halo' = salt, 'gen' = produce)",
+        "Have 7 electrons in total"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Halogens' comes from Greek 'halos' (salt) + 'genes' (producer). Halogens react with metals to form salts (e.g., NaCl, KBr). They are the most reactive non-metals and need only 1 more electron to complete their outer shell.",
+      "difficulty": "easy",
+      "tags": ["periodic-table", "Group-17", "halogens"]
+    },
+    {
+      "id": "q_science_10_periodic_008",
+      "goalId": "grade10-science",
+      "question": "Atomic size (atomic radius) shows which trend as we move DOWN a group in the periodic table?",
+      "options": [
+        "Decreases — more protons pull electrons closer",
+        "Remains constant — same number of valence electrons",
+        "Increases — each period adds a new electron shell farther from the nucleus",
+        "First increases then decreases"
+      ],
+      "correctIndex": 2,
+      "explanation": "Atomic radius increases DOWN a group because each successive element has one more electron shell. More shells = greater distance from nucleus = larger atom. Example: Li < Na < K < Rb < Cs.",
+      "difficulty": "medium",
+      "tags": ["periodic-table", "atomic-size", "group-trend"]
+    },
+    {
+      "id": "q_science_10_periodic_009",
+      "goalId": "grade10-science",
+      "question": "As we move LEFT to RIGHT across a period, metallic character:",
+      "options": [
+        "Increases — more electrons make metals more reactive",
+        "Decreases — elements become less like metals and more like non-metals",
+        "Stays the same within a period",
+        "First decreases then increases"
+      ],
+      "correctIndex": 1,
+      "explanation": "Moving across a period (left to right), metallic character decreases. Metals (left side) lose electrons easily. Moving right, the nuclear charge increases, making it harder to lose electrons — elements become non-metals and eventually noble gases.",
+      "difficulty": "medium",
+      "tags": ["periodic-table", "metallic-character", "period-trend"]
+    },
+    {
+      "id": "q_science_10_periodic_010",
+      "goalId": "grade10-science",
+      "question": "Electronegativity shows which trend as we move LEFT to RIGHT across a period?",
+      "options": [
+        "Increases — nuclear charge increases, pulling bonding electrons more strongly",
+        "Decreases — more electrons repel bonding pairs",
+        "No clear trend",
+        "First increases then decreases sharply at noble gases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electronegativity increases across a period (left to right). As nuclear charge increases and atomic size decreases, the nucleus attracts shared electrons in a bond more strongly. Fluorine is the most electronegative element.",
+      "difficulty": "medium",
+      "tags": ["periodic-table", "electronegativity", "period-trend"]
+    },
+    {
+      "id": "q_science_10_periodic_011",
+      "goalId": "grade10-science",
+      "question": "Valence electrons are the electrons present in the:",
+      "options": [
+        "First electron shell (closest to nucleus)",
+        "Nucleus of the atom",
+        "Outermost electron shell of an atom",
+        "Second shell only"
+      ],
+      "correctIndex": 2,
+      "explanation": "Valence electrons are those in the outermost (valence) shell. They determine chemical behaviour — reactivity, bonding type, and valency. Example: Na has 1 valence electron (Group 1); Cl has 7 (Group 17).",
+      "difficulty": "easy",
+      "tags": ["periodic-table", "valence-electrons"]
+    },
+    {
+      "id": "q_science_10_periodic_012",
+      "goalId": "grade10-science",
+      "question": "An element X has atomic number 12. In the Modern Periodic Table, X belongs to:",
+      "options": [
+        "Period 2, Group 1 (alkali metals)",
+        "Period 3, Group 2 (alkaline earth metals)",
+        "Period 2, Group 2 (alkaline earth metals)",
+        "Period 3, Group 1 (alkali metals)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Z = 12: electron configuration = 2, 8, 2. It has 3 shells (Period 3) and 2 valence electrons (Group 2 — alkaline earth metals). This is Magnesium (Mg).",
+      "difficulty": "medium",
+      "tags": ["periodic-table", "period-group", "electron-configuration"]
+    },
+    {
+      "id": "q_science_10_periodic_013",
+      "goalId": "grade10-science",
+      "question": "Group 18 elements (He, Ne, Ar, Kr, Xe, Rn) are called noble gases because they:",
+      "options": [
+        "Are the most reactive elements in the table",
+        "Have completely filled outer electron shells and are chemically unreactive",
+        "Are found in noble metals like gold and silver",
+        "Have the lowest atomic masses in their periods"
+      ],
+      "correctIndex": 1,
+      "explanation": "Noble gases have completely filled valence shells (He: 2 electrons; others: 8 electrons). This makes them very stable and chemically inert — they rarely form compounds. 'Noble' implies they do not easily react.",
+      "difficulty": "easy",
+      "tags": ["periodic-table", "Group-18", "noble-gases"]
+    },
+    {
+      "id": "q_science_10_periodic_014",
+      "goalId": "grade10-science",
+      "question": "One important achievement of Mendeleev's periodic table was that he:",
+      "options": [
+        "Arranged elements by atomic number, correcting errors in Newlands' table",
+        "Left gaps for undiscovered elements and predicted their properties accurately",
+        "Discovered 15 new elements by leaving blank spaces",
+        "Proved that all elements are made of the same fundamental particle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mendeleev left deliberate gaps for elements yet to be discovered (e.g., Eka-aluminium = Gallium, Eka-silicon = Germanium) and predicted their properties. When these elements were later found, they matched his predictions closely — validating his table.",
+      "difficulty": "medium",
+      "tags": ["periodic-table", "Mendeleev", "achievements", "gaps"]
+    },
+    {
+      "id": "q_science_10_periodic_015",
+      "goalId": "grade10-science",
+      "question": "Period 2 of the Modern Periodic Table contains 8 elements. Which correctly lists all 8?",
+      "options": [
+        "H, He, Li, Be, B, C, N, O",
+        "Li, Be, B, C, N, O, F, Ne",
+        "Na, Mg, Al, Si, P, S, Cl, Ar",
+        "He, Li, Be, B, C, N, O, F"
+      ],
+      "correctIndex": 1,
+      "explanation": "Period 2 elements (Z = 3 to 10): Li (3), Be (4), B (5), C (6), N (7), O (8), F (9), Ne (10). Period 2 starts at Li (2nd shell begins filling after He) and ends at Ne (2nd shell full with 8 electrons).",
+      "difficulty": "medium",
+      "tags": ["periodic-table", "period-2", "elements-list"]
+    }
+  ]
+}

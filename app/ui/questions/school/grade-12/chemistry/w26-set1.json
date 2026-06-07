@@ -1,0 +1,218 @@
+{
+  "goalId": "grade12-chemistry",
+  "title": "Grade 12 Chemistry — p-Block Elements",
+  "description": "Group 15–18 elements — nitrogen family, oxygen family, halogens, noble gases (CBSE Ch. 7)",
+  "category": "school",
+  "grade": 12,
+  "subject": "chemistry",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_chemistry_12_pblock_001",
+      "goalId": "grade12-chemistry",
+      "question": "Group 15 elements (Nitrogen family) in order are:",
+      "options": [
+        "N, O, F, Cl, Br",
+        "N, P, As, Sb, Bi",
+        "P, S, Cl, Ar, K",
+        "N, Si, Ge, Sn, Pb"
+      ],
+      "correctIndex": 1,
+      "explanation": "Group 15 (VA): N (Nitrogen), P (Phosphorus), As (Arsenic), Sb (Antimony), Bi (Bismuth). Their general valence configuration is ns²np³, giving them 5 valence electrons and common oxidation states of +3, +5, and −3.",
+      "difficulty": "easy",
+      "tags": ["p-block", "Group-15", "nitrogen-family"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_002",
+      "goalId": "grade12-chemistry",
+      "question": "The general electronic configuration of Group 15 elements is:",
+      "options": ["ns²np²", "ns²np³", "ns²np⁴", "ns¹np³"],
+      "correctIndex": 1,
+      "explanation": "Group 15 (VA) elements have ns²np³ valence configuration — 2 electrons in the s-subshell and 3 electrons in the p-subshell. The half-filled p³ configuration (one electron per orbital) gives them extra stability.",
+      "difficulty": "easy",
+      "tags": ["p-block", "Group-15", "electron-configuration"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_003",
+      "goalId": "grade12-chemistry",
+      "question": "Group 16 elements are called Chalcogens. They are:",
+      "options": [
+        "F, Cl, Br, I, At",
+        "He, Ne, Ar, Kr, Xe",
+        "O, S, Se, Te, Po",
+        "N, P, As, Sb, Bi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Group 16 (VIA) — Chalcogens: O (Oxygen), S (Sulphur), Se (Selenium), Te (Tellurium), Po (Polonium). 'Chalcogen' comes from Greek 'chalcos' (ore/copper) + 'gen' (producer). Many metal ores are oxides or sulphides.",
+      "difficulty": "easy",
+      "tags": ["p-block", "Group-16", "chalcogens"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_004",
+      "goalId": "grade12-chemistry",
+      "question": "Water (H₂O) is a liquid at room temperature while H₂S is a gas. This is because:",
+      "options": [
+        "Oxygen has a higher atomic mass than sulphur",
+        "H₂O has a much higher boiling point due to strong intermolecular hydrogen bonding",
+        "H₂S has stronger covalent bonds than H₂O",
+        "H₂O molecules are larger and heavier"
+      ],
+      "correctIndex": 1,
+      "explanation": "H₂O forms extensive intermolecular hydrogen bonds (O–H···O) due to the high electronegativity and small size of oxygen. This dramatically raises the boiling point (100°C vs −60°C for H₂S). H₂S cannot form significant hydrogen bonds (S is larger, less electronegative).",
+      "difficulty": "easy",
+      "tags": ["p-block", "H2O", "hydrogen-bonding", "H2S"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_005",
+      "goalId": "grade12-chemistry",
+      "question": "NH₃ (ammonia) has a pyramidal geometry because:",
+      "options": [
+        "N has no lone pairs — all electrons form bonds",
+        "N has one lone pair of electrons that occupy one of the four sp³ hybrid orbitals, creating a pyramidal shape",
+        "N has two lone pairs pushing the bonds into a square planar arrangement",
+        "NH₃ is a linear molecule with bond angle 180°"
+      ],
+      "correctIndex": 1,
+      "explanation": "N in NH₃ is sp³ hybridised with 3 bond pairs and 1 lone pair. The lone pair repels bonding pairs more strongly, compressing the H–N–H bond angle to 107° (less than 109.5°). The shape is trigonal pyramidal (VSEPR theory).",
+      "difficulty": "medium",
+      "tags": ["p-block", "NH3", "geometry", "VSEPR"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_006",
+      "goalId": "grade12-chemistry",
+      "question": "PCl₅ (phosphorus pentachloride) has which molecular geometry?",
+      "options": [
+        "Square pyramidal",
+        "Octahedral",
+        "Trigonal bipyramidal",
+        "Tetrahedral"
+      ],
+      "correctIndex": 2,
+      "explanation": "PCl₅ has 5 bond pairs and no lone pairs. P uses d-orbitals (unlike N which cannot) to accommodate 5 bonds — sp³d hybridisation. The geometry is trigonal bipyramidal with 3 equatorial Cl at 120° and 2 axial Cl at 90°.",
+      "difficulty": "medium",
+      "tags": ["p-block", "PCl5", "geometry", "trigonal-bipyramidal"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_007",
+      "goalId": "grade12-chemistry",
+      "question": "Group 17 elements are called Halogens. Which of the following is the most electronegative element?",
+      "options": ["Cl", "Br", "I", "F"],
+      "correctIndex": 3,
+      "explanation": "Fluorine (F) is the most electronegative element in the periodic table (Pauling scale: 4.0). It has the smallest atomic radius in Group 17, and its electrons are closest to the nucleus — creating the strongest pull on bonding electrons.",
+      "difficulty": "easy",
+      "tags": ["p-block", "Group-17", "fluorine", "electronegativity"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_008",
+      "goalId": "grade12-chemistry",
+      "question": "Fluorine cannot form oxyacids unlike other halogens (Cl, Br, I). The reason is:",
+      "options": [
+        "Fluorine reacts violently with oxygen, preventing oxyacid formation",
+        "Fluorine is more electronegative than oxygen, so it cannot donate electrons to oxygen",
+        "Fluorine has no d-orbitals in its valence shell (2nd period) and cannot expand its octet beyond 8 electrons",
+        "Fluorine is a gas and cannot form acidic compounds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fluorine is in the 2nd period — its valence shell (n=2) has no d-orbitals. It cannot expand its octet, limiting it to a maximum covalency of 1. Heavier halogens (Cl, Br, I) use empty d-orbitals to form multiple bonds with O, creating oxyacids (HClO, HClO₂, HClO₃, HClO₄).",
+      "difficulty": "medium",
+      "tags": ["p-block", "fluorine", "no-d-orbitals", "oxyacids"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_009",
+      "goalId": "grade12-chemistry",
+      "question": "Group 18 elements (He, Ne, Ar, Kr, Xe, Rn) are called noble gases because they are generally:",
+      "options": [
+        "The most reactive elements — they react with almost everything",
+        "Found only in noble metal ores",
+        "Chemically inert — they have completely filled valence shells (stable octet/duplet)",
+        "The heaviest elements in their respective periods"
+      ],
+      "correctIndex": 2,
+      "explanation": "Noble gases have fully filled valence shells (He: 1s², others: ns²np⁶). This gives them maximum stability — no tendency to gain, lose, or share electrons. They exist as monoatomic gases and rarely form compounds.",
+      "difficulty": "easy",
+      "tags": ["p-block", "Group-18", "noble-gases", "inert"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_010",
+      "goalId": "grade12-chemistry",
+      "question": "Which of the following compounds of Xenon (Xe) is NOT known to exist?",
+      "options": ["XeF₂", "XeF₄", "XeF₆", "XeF₈"],
+      "correctIndex": 3,
+      "explanation": "Xenon forms XeF₂, XeF₄, and XeF₆ (and some oxide compounds). XeF₈ does not exist — Xe can accommodate at most 6 bonds using its 5d orbitals and available electrons. XeF₆ is already the highest known xenon fluoride.",
+      "difficulty": "medium",
+      "tags": ["p-block", "xenon", "compounds", "XeF"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_011",
+      "goalId": "grade12-chemistry",
+      "question": "The geometry of XeF₄ is square planar because it has:",
+      "options": [
+        "4 bond pairs and no lone pairs",
+        "4 bond pairs and 1 lone pair",
+        "4 bond pairs and 2 lone pairs in opposite axial positions",
+        "4 bond pairs and 4 lone pairs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Xe in XeF₄ has 4 bond pairs + 2 lone pairs = 6 electron pairs (sp³d² hybridisation). The 2 lone pairs occupy the axial positions (180° apart), and the 4 F atoms are in the equatorial plane — giving square planar geometry.",
+      "difficulty": "hard",
+      "tags": ["p-block", "XeF4", "geometry", "square-planar"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_012",
+      "goalId": "grade12-chemistry",
+      "question": "Interhalogen compounds are formed when:",
+      "options": [
+        "A halogen reacts with a noble gas",
+        "Two halogen elements combine with each other (e.g., ClF, BrF₃, IF₇)",
+        "A halogen reacts with oxygen to form an oxyhalide",
+        "A halogen dissolves in water"
+      ],
+      "correctIndex": 1,
+      "explanation": "Interhalogens are compounds formed between two different halogen elements (e.g., ClF, ClF₃, BrF₃, BrF₅, IF₅, IF₇). The heavier/larger halogen is the central atom. They are generally more reactive than their parent halogens.",
+      "difficulty": "medium",
+      "tags": ["p-block", "interhalogen", "Group-17"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_013",
+      "goalId": "grade12-chemistry",
+      "question": "The most stable allotrope of sulphur at room temperature is:",
+      "options": ["Monoclinic sulphur", "Rhombic sulphur (α-sulphur)", "Plastic sulphur", "Colloidal sulphur"],
+      "correctIndex": 1,
+      "explanation": "Rhombic sulphur (α-sulphur) is the most stable allotrope at room temperature (up to 95.6°C — the transition point). Above 95.6°C, monoclinic sulphur (β-sulphur) becomes stable. Both forms consist of S₈ puckered ring molecules.",
+      "difficulty": "medium",
+      "tags": ["p-block", "sulphur", "allotropes", "rhombic"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_014",
+      "goalId": "grade12-chemistry",
+      "question": "The bond angle in H₂S is about 92°, which is less than the bond angle in H₂O (≈104.5°). This is because:",
+      "options": [
+        "S is more electronegative than O, pulling bonds closer together",
+        "H₂S has more lone pairs than H₂O",
+        "S is larger than O — the S–H bonding orbitals are farther apart, and lone pair repulsion is less effective at compressing the bond angle",
+        "H₂O has only one lone pair while H₂S has two"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both H₂O and H₂S have 2 bond pairs + 2 lone pairs. In H₂O, O uses sp³ hybrid orbitals (strong lone pair–bond pair repulsion → 104.5°). In H₂S, S is larger — bonding uses mostly p-orbitals (90° natural angle). Weaker lone-pair compression gives ≈92°.",
+      "difficulty": "hard",
+      "tags": ["p-block", "H2S", "H2O", "bond-angle-comparison"]
+    },
+    {
+      "id": "q_chemistry_12_pblock_015",
+      "goalId": "grade12-chemistry",
+      "question": "The maximum covalency shown by nitrogen (N) is 4. Which statement explains why N cannot show a covalency of 5 like phosphorus?",
+      "options": [
+        "Nitrogen has only 5 electrons and cannot share more than 4",
+        "Nitrogen has no d-orbitals in its valence shell (n = 2), so it cannot expand its octet beyond 8 electrons",
+        "Nitrogen is too electronegative to form more than 4 bonds",
+        "Nitrogen's atomic mass is too small to accommodate 5 bonds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nitrogen is in the 2nd period — its valence shell (n=2) has only s and p subshells (no d-orbitals). Maximum 4 pairs = 8 electrons fill the valence shell. Phosphorus (3rd period, has 3d orbitals) can accommodate up to 5 or 6 bonds using these empty d-orbitals.",
+      "difficulty": "medium",
+      "tags": ["p-block", "nitrogen", "covalency", "no-d-orbitals"]
+    }
+  ]
+}

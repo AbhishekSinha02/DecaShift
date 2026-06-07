@@ -1,0 +1,203 @@
+{
+  "goalId": "grade9-social-science",
+  "title": "Grade 9 Social Science — Natural Vegetation and Wildlife",
+  "description": "Types of natural vegetation, flora and fauna, biosphere reserves, wildlife conservation (CBSE Geography Ch. 5)",
+  "category": "school",
+  "grade": 9,
+  "subject": "social-science",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_social_9_vegetation_001",
+      "goalId": "grade9-social-science",
+      "question": "India has a rich variety of natural vegetation. The main types of natural vegetation found in India include:",
+      "options": [
+        "Tropical Evergreen, Tropical Deciduous, Thorny Bushes, Montane, and Mangrove forests",
+        "Only tropical and temperate forests",
+        "Deciduous, Mediterranean, and Tundra vegetation",
+        "Rainforests and grasslands only"
+      ],
+      "correctIndex": 0,
+      "explanation": "India's natural vegetation is classified into five main types: (1) Tropical Evergreen, (2) Tropical Deciduous (monsoon), (3) Thorny Bushes/Scrub, (4) Montane, and (5) Mangrove forests — each linked to a specific climate zone.",
+      "difficulty": "easy",
+      "tags": ["natural-vegetation", "types", "India"]
+    },
+    {
+      "id": "q_social_9_vegetation_002",
+      "goalId": "grade9-social-science",
+      "question": "Tropical Evergreen Forests in India are found in areas that receive more than:",
+      "options": ["50 cm of rainfall", "100 cm of rainfall", "150 cm of rainfall", "200 cm of rainfall"],
+      "correctIndex": 3,
+      "explanation": "Tropical Evergreen Forests need heavy and well-distributed rainfall — more than 200 cm per year with no pronounced dry season. They are found in the Western Ghats, Andaman & Nicobar Islands, and the north-eastern states.",
+      "difficulty": "easy",
+      "tags": ["natural-vegetation", "tropical-evergreen", "rainfall"]
+    },
+    {
+      "id": "q_social_9_vegetation_003",
+      "goalId": "grade9-social-science",
+      "question": "Tropical Deciduous Forests are also called monsoon forests because:",
+      "options": [
+        "They grow only during the monsoon season",
+        "They receive rainfall only during monsoons and trees shed leaves in the dry season",
+        "They are found only near rivers fed by monsoon rain",
+        "The trees in them are active only during monsoons"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tropical deciduous/monsoon forests receive rainfall during the monsoon (100–200 cm). In the dry season, trees shed their leaves to reduce water loss (deciduous). This seasonal rhythm gives them the name 'monsoon forests.'",
+      "difficulty": "easy",
+      "tags": ["natural-vegetation", "tropical-deciduous", "monsoon"]
+    },
+    {
+      "id": "q_social_9_vegetation_004",
+      "goalId": "grade9-social-science",
+      "question": "Tropical Deciduous Forests are the most widespread forests in India. Which trees are their most commercially important species?",
+      "options": ["Mahogany and rosewood", "Ebony and bamboo", "Teak and sal", "Pine and cedar"],
+      "correctIndex": 2,
+      "explanation": "Teak (Madhya Pradesh, Maharashtra, UP) and Sal (eastern India) are the most important commercial trees of tropical deciduous forests. Teak is prized for furniture and shipbuilding; sal for timber and railway sleepers.",
+      "difficulty": "easy",
+      "tags": ["natural-vegetation", "tropical-deciduous", "teak-sal"]
+    },
+    {
+      "id": "q_social_9_vegetation_005",
+      "goalId": "grade9-social-science",
+      "question": "Thorny Bushes and Scrub vegetation is found in areas with:",
+      "options": [
+        "Rainfall above 200 cm — coastal zones",
+        "Moderate rainfall of 100–150 cm — Deccan Plateau",
+        "Very low rainfall below 75 cm — arid and semi-arid regions",
+        "Extremely cold temperatures — high altitudes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thorny Bushes/Scrub vegetation is adapted to very dry conditions (rainfall < 75 cm) in arid and semi-arid areas — Rajasthan, Gujarat, Madhya Pradesh, Uttar Pradesh. Plants have thorns, thick bark, and deep or wide root systems to conserve water.",
+      "difficulty": "medium",
+      "tags": ["natural-vegetation", "thorny-scrub", "arid"]
+    },
+    {
+      "id": "q_social_9_vegetation_006",
+      "goalId": "grade9-social-science",
+      "question": "Mangrove forests are found in:",
+      "options": [
+        "High-altitude Himalayan zones",
+        "Hot deserts of Rajasthan",
+        "Tidal and coastal areas — river deltas and mudflats along the sea coast",
+        "Dry Deccan Plateau"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mangrove forests grow in tidal coastal areas where rivers meet the sea — deltas, estuaries, and mudflats. They are salt-tolerant and have special root systems (prop roots, pneumatophores). The Sundarbans (West Bengal) is the world's largest mangrove forest.",
+      "difficulty": "easy",
+      "tags": ["natural-vegetation", "mangroves", "coastal"]
+    },
+    {
+      "id": "q_social_9_vegetation_007",
+      "goalId": "grade9-social-science",
+      "question": "The Sundarbans mangrove forest is located in:",
+      "options": [
+        "Odisha, along the Mahanadi delta",
+        "West Bengal, at the Ganga-Brahmaputra delta",
+        "Kerala, along the Malabar Coast",
+        "Andhra Pradesh, near Visakhapatnam"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sundarbans is the world's largest mangrove forest, located in the Ganga-Brahmaputra delta in West Bengal (and Bangladesh). It is home to the Royal Bengal Tiger and is a UNESCO World Heritage Site.",
+      "difficulty": "medium",
+      "tags": ["natural-vegetation", "Sundarbans", "mangroves"]
+    },
+    {
+      "id": "q_social_9_vegetation_008",
+      "goalId": "grade9-social-science",
+      "question": "The National Animal of India is:",
+      "options": ["Indian Elephant", "One-horned Rhinoceros", "Royal Bengal Tiger", "Snow Leopard"],
+      "correctIndex": 2,
+      "explanation": "The Royal Bengal Tiger (Panthera tigris tigris) is the National Animal of India. Project Tiger was launched in 1973 to protect tigers from extinction. India has the largest tiger population in the world.",
+      "difficulty": "easy",
+      "tags": ["wildlife", "national-animal", "tiger"]
+    },
+    {
+      "id": "q_social_9_vegetation_009",
+      "goalId": "grade9-social-science",
+      "question": "Project Tiger was launched in India in:",
+      "options": ["1965", "1970", "1973", "1980"],
+      "correctIndex": 2,
+      "explanation": "Project Tiger was launched in 1973 by the Government of India to protect the endangered Bengal Tiger. It began with 9 tiger reserves and now covers over 50 reserves across India.",
+      "difficulty": "medium",
+      "tags": ["wildlife", "Project-Tiger", "conservation"]
+    },
+    {
+      "id": "q_social_9_vegetation_010",
+      "goalId": "grade9-social-science",
+      "question": "The Asiatic Lion is found only in:",
+      "options": ["Jim Corbett National Park, Uttarakhand", "Kaziranga National Park, Assam", "Gir Forest, Gujarat", "Ranthambore, Rajasthan"],
+      "correctIndex": 2,
+      "explanation": "The Gir National Park in Gujarat is the only place in the world where the Asiatic Lion (Panthera leo persica) lives in the wild. Its population has grown significantly due to conservation efforts.",
+      "difficulty": "medium",
+      "tags": ["wildlife", "Asiatic-Lion", "Gir-forest"]
+    },
+    {
+      "id": "q_social_9_vegetation_011",
+      "goalId": "grade9-social-science",
+      "question": "The One-horned Indian Rhinoceros is mainly found in:",
+      "options": ["Sundarbans, West Bengal", "Kaziranga National Park, Assam", "Periyar, Kerala", "Bharatpur, Rajasthan"],
+      "correctIndex": 1,
+      "explanation": "Kaziranga National Park in Assam is home to two-thirds of the world's population of the Great Indian One-Horned Rhinoceros (Rhinoceros unicornis). It is a UNESCO World Heritage Site.",
+      "difficulty": "easy",
+      "tags": ["wildlife", "rhinoceros", "Kaziranga"]
+    },
+    {
+      "id": "q_social_9_vegetation_012",
+      "goalId": "grade9-social-science",
+      "question": "Biosphere Reserves in India are areas that protect:",
+      "options": [
+        "Only endangered animal species",
+        "Only rare plant species",
+        "The entire ecosystem — both living organisms and the physical environment they inhabit",
+        "Only forest areas above 1,000 metres altitude"
+      ],
+      "correctIndex": 2,
+      "explanation": "Biosphere Reserves protect entire ecosystems — not just individual species. They aim to conserve biodiversity, promote research, and allow sustainable use by local communities. India has 18 Biosphere Reserves; Nilgiri was the first (1986).",
+      "difficulty": "medium",
+      "tags": ["wildlife", "biosphere-reserves", "conservation"]
+    },
+    {
+      "id": "q_social_9_vegetation_013",
+      "goalId": "grade9-social-science",
+      "question": "Montane forests in India are found at different altitudinal zones. Which trees are typical at altitudes between 1,000–2,000 m?",
+      "options": ["Alpine meadows and mosses", "Pine, deodar, and silver fir (coniferous)", "Oak and chestnut (temperate broadleaf)", "Mangroves and tidal plants"],
+      "correctIndex": 2,
+      "explanation": "Between 1,000–2,000 m in the Himalayas, temperate montane forests have broadleaf trees like oak and chestnut. Above 2,000–3,000 m, coniferous trees (pine, deodar, silver fir, spruce) dominate. Above 3,000 m, alpine vegetation appears.",
+      "difficulty": "hard",
+      "tags": ["natural-vegetation", "montane", "altitude-zones"]
+    },
+    {
+      "id": "q_social_9_vegetation_014",
+      "goalId": "grade9-social-science",
+      "question": "Rapid deforestation in India is mainly caused by:",
+      "options": [
+        "Natural disasters like floods and earthquakes",
+        "Expanding agriculture, urbanisation, mining, and industrial activities",
+        "Migration of animals eating tree bark",
+        "Changes in the monsoon pattern"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deforestation is driven by human activities: clearing forests for agriculture, urban expansion, road construction, mining, and industries. This destroys habitats, reduces biodiversity, and contributes to soil erosion and climate change.",
+      "difficulty": "medium",
+      "tags": ["natural-vegetation", "deforestation", "causes"]
+    },
+    {
+      "id": "q_social_9_vegetation_015",
+      "goalId": "grade9-social-science",
+      "question": "The Nilgiri Biosphere Reserve (covering parts of Tamil Nadu, Karnataka, and Kerala) is significant because it was:",
+      "options": [
+        "The last biosphere reserve established in India",
+        "India's first Biosphere Reserve (designated in 1986)",
+        "The largest national park in India by area",
+        "The first site to be declared a UNESCO World Heritage Site in India"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Nilgiri Biosphere Reserve was designated in 1986 as India's first Biosphere Reserve under UNESCO's Man and Biosphere Programme. It covers the Western Ghats and is one of the most biodiverse areas in the world.",
+      "difficulty": "medium",
+      "tags": ["wildlife", "Nilgiri", "first-biosphere-reserve"]
+    }
+  ]
+}

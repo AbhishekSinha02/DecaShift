@@ -1,0 +1,218 @@
+{
+  "goalId": "grade9-english",
+  "title": "Grade 9 English — Wind (Poem) + A House Is Not a Home",
+  "description": "Beehive Ch. 9 Poem: Wind by Subramania Bharati + Moments Ch. 8: A House Is Not a Home by Zan Gaudioso",
+  "category": "school",
+  "grade": 9,
+  "subject": "english",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_english_9_wind_001",
+      "goalId": "grade9-english",
+      "question": "The poem 'Wind' in Beehive (Ch. 9) was written by:",
+      "options": ["Rabindranath Tagore", "R.K. Narayan", "Subramania Bharati", "Sarojini Naidu"],
+      "correctIndex": 2,
+      "explanation": "The poem 'Wind' was written by Subramania Bharati (Tamil poet and freedom fighter) and was originally composed in Tamil. It was later translated into English.",
+      "difficulty": "easy",
+      "tags": ["Wind", "poem", "author"]
+    },
+    {
+      "id": "q_english_9_wind_002",
+      "goalId": "grade9-english",
+      "question": "The poem 'Wind' opens with the line 'Wind, come softly.' This shows the poet is initially:",
+      "options": [
+        "Requesting the wind to be gentle and not cause destruction",
+        "Celebrating the wind's strength and fury",
+        "Asking the wind to bring rain",
+        "Warning people to run from the wind"
+      ],
+      "correctIndex": 0,
+      "explanation": "The opening 'Wind, come softly' is a gentle plea — the poet asks the wind not to be violent and not to break the shutters, scatter the papers, throw down books, or tear the pages. It shows a wish for gentleness.",
+      "difficulty": "easy",
+      "tags": ["Wind", "poem", "opening-line"]
+    },
+    {
+      "id": "q_english_9_wind_003",
+      "goalId": "grade9-english",
+      "question": "In the poem 'Wind', what does the wind symbolise?",
+      "options": [
+        "Rain and storms of the monsoon season",
+        "Adversity, challenges, and hardships in life",
+        "The joy and freedom of the outdoors",
+        "The gentle breeze of friendship"
+      ],
+      "correctIndex": 1,
+      "explanation": "The wind is an extended metaphor for adversity and challenges in life. Just as the wind destroys weak objects (crumbling houses, weak fires, weak hearts), life's difficulties destroy weak people. The poem urges us to build inner strength.",
+      "difficulty": "medium",
+      "tags": ["Wind", "poem", "symbolism"]
+    },
+    {
+      "id": "q_english_9_wind_004",
+      "goalId": "grade9-english",
+      "question": "According to the poem 'Wind', what happens to weak people and things when the wind blows?",
+      "options": [
+        "They grow stronger through adversity",
+        "They are sheltered by the wind",
+        "They are destroyed — crumbled, torn, and broken",
+        "They float away to safety"
+      ],
+      "correctIndex": 2,
+      "explanation": "The wind destroys weak things: crumbling houses, weak fires that are put out, crumbling hearts (weak people who give up). Only those who are strong — strong bodies, strong hearts — can withstand and even become friends with the wind.",
+      "difficulty": "easy",
+      "tags": ["Wind", "poem", "message", "weak-vs-strong"]
+    },
+    {
+      "id": "q_english_9_wind_005",
+      "goalId": "grade9-english",
+      "question": "The central message of the poem 'Wind' is:",
+      "options": [
+        "Nature is unpredictable and should be feared",
+        "Build inner strength and a firm will to face life's challenges",
+        "Stay indoors when the wind blows to stay safe",
+        "The wind is a friend only to farmers and sailors"
+      ],
+      "correctIndex": 1,
+      "explanation": "The poet's message is that we must build strong bodies and strong hearts. Adversity (symbolised by the wind) only destroys the weak and becomes the friend of the strong. The poem is a call to build inner resilience.",
+      "difficulty": "medium",
+      "tags": ["Wind", "poem", "central-message"]
+    },
+    {
+      "id": "q_english_9_wind_006",
+      "goalId": "grade9-english",
+      "question": "The phrase 'crumbling hearts' in the poem 'Wind' refers to:",
+      "options": [
+        "People who lack courage, willpower, and inner strength",
+        "People whose houses have been destroyed by storms",
+        "Broken romantic relationships",
+        "Old people who are physically weak"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Crumbling hearts' are people who do not have the inner strength to face difficulties. Just as a crumbling house cannot withstand the wind, a weak heart cannot withstand life's adversities.",
+      "difficulty": "medium",
+      "tags": ["Wind", "poem", "crumbling-hearts"]
+    },
+    {
+      "id": "q_english_9_wind_007",
+      "goalId": "grade9-english",
+      "question": "The literary device used in 'Wind' where the wind is given human-like qualities (e.g., 'be friends with us', 'do not break') is called:",
+      "options": ["Simile", "Personification", "Metaphor", "Alliteration"],
+      "correctIndex": 1,
+      "explanation": "Personification is the attribution of human characteristics to a non-human entity. In 'Wind', the wind is addressed directly as 'you', told to come softly, not to break things, and invited to be friends — all human-like traits and actions.",
+      "difficulty": "medium",
+      "tags": ["Wind", "poem", "personification", "literary-device"]
+    },
+    {
+      "id": "q_english_9_wind_008",
+      "goalId": "grade9-english",
+      "question": "The story 'A House Is Not a Home' (Moments Ch. 8) was written by:",
+      "options": ["O. Henry", "Zan Gaudioso", "R.K. Narayan", "Ruskin Bond"],
+      "correctIndex": 1,
+      "explanation": "A House Is Not a Home is written by Zan Gaudioso, an American author. It is a personal narrative (written in first person) based on the author's own childhood experience.",
+      "difficulty": "easy",
+      "tags": ["house-not-home", "author"]
+    },
+    {
+      "id": "q_english_9_wind_009",
+      "goalId": "grade9-english",
+      "question": "In 'A House Is Not a Home', the narrator's house is destroyed by:",
+      "options": ["A flood", "An earthquake", "A fire", "A tornado"],
+      "correctIndex": 2,
+      "explanation": "The narrator's house catches fire and burns down. Everything is lost — the house, belongings, and most importantly, the narrator's cat goes missing during the chaos of the fire.",
+      "difficulty": "easy",
+      "tags": ["house-not-home", "fire", "plot"]
+    },
+    {
+      "id": "q_english_9_wind_010",
+      "goalId": "grade9-english",
+      "question": "After the fire, what additional loss makes the narrator feel completely devastated?",
+      "options": [
+        "He lost all his school books",
+        "His best friend moved to another city",
+        "His cat went missing and could not be found",
+        "His parents were injured in the fire"
+      ],
+      "correctIndex": 2,
+      "explanation": "Beyond the physical loss of the house and belongings, the narrator's beloved cat goes missing during the fire. The loss of the cat — a symbol of home and belonging — deepens his sense of grief and isolation.",
+      "difficulty": "easy",
+      "tags": ["house-not-home", "cat", "plot"]
+    },
+    {
+      "id": "q_english_9_wind_011",
+      "goalId": "grade9-english",
+      "question": "At the new school in 'A House Is Not a Home', the narrator initially feels:",
+      "options": [
+        "Happy and excited to meet new friends",
+        "Isolated, lost, and unable to fit in",
+        "Confident because he had good grades",
+        "Bored because the school was too easy"
+      ],
+      "correctIndex": 1,
+      "explanation": "After moving to a new school, the narrator feels completely isolated. He has lost his home, his cat, his friends, and his familiar environment — making it hard to connect with anyone at the new school.",
+      "difficulty": "medium",
+      "tags": ["house-not-home", "isolation", "new-school"]
+    },
+    {
+      "id": "q_english_9_wind_012",
+      "goalId": "grade9-english",
+      "question": "What event helps the narrator finally connect with his new classmates?",
+      "options": [
+        "He wins a school sports competition",
+        "He gives a speech about his experience",
+        "His classmates help search for and find his lost cat",
+        "His old friends visit him at school"
+      ],
+      "correctIndex": 2,
+      "explanation": "The narrator's classmates help look for his missing cat. When the cat is brought back to him, he breaks down and cries — and the act of kindness from his classmates breaks the ice, helping him integrate into the new school.",
+      "difficulty": "medium",
+      "tags": ["house-not-home", "cat-return", "integration"]
+    },
+    {
+      "id": "q_english_9_wind_013",
+      "goalId": "grade9-english",
+      "question": "The title 'A House Is Not a Home' means:",
+      "options": [
+        "A house is inferior to a flat or apartment",
+        "A physical building is just a structure; a home is created by relationships, memories, and belonging",
+        "It is better to rent a house than to own one",
+        "A house with no furniture is not a real home"
+      ],
+      "correctIndex": 1,
+      "explanation": "The title captures the story's central theme — a house is just a building (bricks and walls), while a home is where relationships, memories, love, and a sense of belonging exist. The narrator only feels truly 'at home' once he reconnects with people.",
+      "difficulty": "medium",
+      "tags": ["house-not-home", "theme", "title-meaning"]
+    },
+    {
+      "id": "q_english_9_wind_014",
+      "goalId": "grade9-english",
+      "question": "Both 'Wind' (poem) and 'A House Is Not a Home' (story) share a common theme of:",
+      "options": [
+        "The destructive power of nature",
+        "Overcoming adversity and finding strength through difficult times",
+        "The importance of owning a large house",
+        "The beauty of friendship and love"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both texts deal with adversity: 'Wind' uses the wind as a metaphor for challenges and urges building inner strength; 'A House Is Not a Home' shows a boy going through loss and grief, and ultimately finding resilience and new connections.",
+      "difficulty": "hard",
+      "tags": ["Wind", "house-not-home", "common-theme"]
+    },
+    {
+      "id": "q_english_9_wind_015",
+      "goalId": "grade9-english",
+      "question": "In the poem 'Wind', the line 'Make your body strong' is a direct instruction to:",
+      "options": [
+        "Farmers who must work hard in the wind",
+        "The wind itself, asking it to calm down",
+        "The reader — urging self-development to withstand adversity",
+        "Soldiers preparing for battle"
+      ],
+      "correctIndex": 2,
+      "explanation": "The poet shifts from addressing the wind to addressing the reader directly. 'Make your body strong. Make your nerves firm' is an instruction to build physical and mental strength — so that, like a strong fire, we become friends with the wind (adversity) rather than being destroyed by it.",
+      "difficulty": "medium",
+      "tags": ["Wind", "poem", "direct-address", "moral"]
+    }
+  ]
+}

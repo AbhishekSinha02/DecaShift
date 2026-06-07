@@ -1,0 +1,168 @@
+{
+  "goalId": "grade10-mathematics",
+  "title": "Grade 10 Mathematics — Probability",
+  "description": "Probability — theoretical, cards, dice, bags of balls, complementary events (CBSE Ch. 15)",
+  "category": "school",
+  "grade": 10,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_10_probability_001",
+      "goalId": "grade10-mathematics",
+      "question": "The theoretical probability of an event E is defined as:",
+      "options": [
+        "P(E) = Total outcomes / Favourable outcomes",
+        "P(E) = Total outcomes − Favourable outcomes",
+        "P(E) = Number of favourable outcomes / Total number of equally likely outcomes",
+        "P(E) = Favourable outcomes × Total outcomes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Theoretical (classical) probability: P(E) = Number of outcomes favourable to E / Total number of equally likely outcomes. This assumes all outcomes are equally likely.",
+      "difficulty": "easy",
+      "tags": ["probability", "definition", "formula"]
+    },
+    {
+      "id": "q_mathematics_10_probability_002",
+      "goalId": "grade10-mathematics",
+      "question": "The probability of any event E always satisfies:",
+      "options": ["P(E) ≥ 1", "0 ≤ P(E) ≤ 1", "P(E) < 0", "P(E) > 1"],
+      "correctIndex": 1,
+      "explanation": "Probability is always between 0 and 1 (inclusive). P(E) = 0 means the event is impossible; P(E) = 1 means the event is certain (sure event).",
+      "difficulty": "easy",
+      "tags": ["probability", "range"]
+    },
+    {
+      "id": "q_mathematics_10_probability_003",
+      "goalId": "grade10-mathematics",
+      "question": "A fair coin is tossed once. The probability of getting a tail is:",
+      "options": ["0", "1", "1/2", "1/4"],
+      "correctIndex": 2,
+      "explanation": "A fair coin has 2 equally likely outcomes: Head (H) and Tail (T). Favourable outcomes for tail = 1. P(Tail) = 1/2.",
+      "difficulty": "easy",
+      "tags": ["probability", "coin", "basic"]
+    },
+    {
+      "id": "q_mathematics_10_probability_004",
+      "goalId": "grade10-mathematics",
+      "question": "A fair die (numbered 1 to 6) is rolled once. The probability of getting an even number is:",
+      "options": ["1/6", "1/2", "1/3", "2/3"],
+      "correctIndex": 1,
+      "explanation": "Even numbers on a die: {2, 4, 6} → 3 favourable outcomes. Total outcomes = 6. P(even) = 3/6 = 1/2.",
+      "difficulty": "easy",
+      "tags": ["probability", "die", "even-numbers"]
+    },
+    {
+      "id": "q_mathematics_10_probability_005",
+      "goalId": "grade10-mathematics",
+      "question": "A fair die is rolled. The probability of getting a prime number is:",
+      "options": ["1/2", "1/3", "2/3", "1/6"],
+      "correctIndex": 0,
+      "explanation": "Prime numbers on a die: {2, 3, 5} → 3 favourable outcomes. Total outcomes = 6. P(prime) = 3/6 = 1/2.",
+      "difficulty": "easy",
+      "tags": ["probability", "die", "prime-numbers"]
+    },
+    {
+      "id": "q_mathematics_10_probability_006",
+      "goalId": "grade10-mathematics",
+      "question": "From a well-shuffled deck of 52 cards, one card is drawn at random. The probability that it is a king is:",
+      "options": ["4/52 = 1/13", "1/52", "4/13", "1/4"],
+      "correctIndex": 0,
+      "explanation": "There are 4 kings in a deck of 52 cards (one per suit). P(king) = 4/52 = 1/13.",
+      "difficulty": "easy",
+      "tags": ["probability", "cards", "king"]
+    },
+    {
+      "id": "q_mathematics_10_probability_007",
+      "goalId": "grade10-mathematics",
+      "question": "From a deck of 52 cards, one card is drawn. The probability that it is a face card (Jack, Queen, or King) is:",
+      "options": ["3/52", "12/52 = 3/13", "4/52 = 1/13", "1/4"],
+      "correctIndex": 1,
+      "explanation": "Face cards are Jack, Queen, and King — 3 per suit × 4 suits = 12 face cards. P(face card) = 12/52 = 3/13.",
+      "difficulty": "medium",
+      "tags": ["probability", "cards", "face-cards"]
+    },
+    {
+      "id": "q_mathematics_10_probability_008",
+      "goalId": "grade10-mathematics",
+      "question": "A bag contains 3 red balls, 5 blue balls, and 2 white balls. A ball is drawn at random. The probability of drawing a red ball is:",
+      "options": ["3/5", "3/8", "1/3", "3/10"],
+      "correctIndex": 3,
+      "explanation": "Total balls = 3 + 5 + 2 = 10. Favourable (red) = 3. P(red) = 3/10.",
+      "difficulty": "easy",
+      "tags": ["probability", "balls", "bag"]
+    },
+    {
+      "id": "q_mathematics_10_probability_009",
+      "goalId": "grade10-mathematics",
+      "question": "If P(E) = 3/7, then P(E̅) — the probability of E NOT occurring — is:",
+      "options": ["3/7", "4/7", "7/3", "1/7"],
+      "correctIndex": 1,
+      "explanation": "P(E̅) = 1 − P(E) = 1 − 3/7 = 4/7. The sum of probabilities of an event and its complement always equals 1.",
+      "difficulty": "easy",
+      "tags": ["probability", "complementary-event"]
+    },
+    {
+      "id": "q_mathematics_10_probability_010",
+      "goalId": "grade10-mathematics",
+      "question": "Two fair coins are tossed simultaneously. The probability of getting exactly two heads is:",
+      "options": ["1/2", "1/3", "1/4", "3/4"],
+      "correctIndex": 2,
+      "explanation": "Sample space for two coins: {HH, HT, TH, TT} — 4 equally likely outcomes. Favourable (HH) = 1. P(HH) = 1/4.",
+      "difficulty": "medium",
+      "tags": ["probability", "two-coins", "HH"]
+    },
+    {
+      "id": "q_mathematics_10_probability_011",
+      "goalId": "grade10-mathematics",
+      "question": "A bag contains 4 red, 6 blue, and 2 white balls. The probability of drawing a ball that is NOT red is:",
+      "options": ["4/12", "2/3", "1/3", "1/6"],
+      "correctIndex": 1,
+      "explanation": "Total balls = 4 + 6 + 2 = 12. Not red = 6 + 2 = 8. P(not red) = 8/12 = 2/3. Alternatively, P(not red) = 1 − P(red) = 1 − 4/12 = 8/12 = 2/3.",
+      "difficulty": "medium",
+      "tags": ["probability", "balls", "bag", "complementary"]
+    },
+    {
+      "id": "q_mathematics_10_probability_012",
+      "goalId": "grade10-mathematics",
+      "question": "From a deck of 52 cards, one card is drawn. The probability of getting a card that is neither a heart nor a king is:",
+      "options": ["9/13", "36/52", "9/26", "36/52 = 9/13"],
+      "correctIndex": 0,
+      "explanation": "Hearts = 13; Kings = 4 (but King of Hearts already counted). Cards that are a heart OR a king = 13 + 4 − 1 = 16. Cards that are neither = 52 − 16 = 36. P = 36/52 = 9/13.",
+      "difficulty": "hard",
+      "tags": ["probability", "cards", "compound-event"]
+    },
+    {
+      "id": "q_mathematics_10_probability_013",
+      "goalId": "grade10-mathematics",
+      "question": "The probability of an impossible event is:",
+      "options": ["1", "0.5", "0", "Undefined"],
+      "correctIndex": 2,
+      "explanation": "An impossible event has no favourable outcomes. P(impossible) = 0/Total outcomes = 0. For example, getting a 7 on a standard die is impossible — P = 0.",
+      "difficulty": "easy",
+      "tags": ["probability", "impossible-event"]
+    },
+    {
+      "id": "q_mathematics_10_probability_014",
+      "goalId": "grade10-mathematics",
+      "question": "Two dice are thrown simultaneously. The probability that the sum of the numbers shown is 7 is:",
+      "options": ["1/6", "7/36", "5/36", "1/9"],
+      "correctIndex": 0,
+      "explanation": "Pairs summing to 7: {(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)} = 6 pairs. Total outcomes = 6 × 6 = 36. P(sum = 7) = 6/36 = 1/6.",
+      "difficulty": "hard",
+      "tags": ["probability", "two-dice", "sum"]
+    },
+    {
+      "id": "q_mathematics_10_probability_015",
+      "goalId": "grade10-mathematics",
+      "question": "From a deck of 52 cards, a card is drawn at random. The probability that it is a spade is:",
+      "options": ["1/13", "1/2", "1/4", "1/52"],
+      "correctIndex": 2,
+      "explanation": "There are 13 spades in a deck of 52 cards. P(spade) = 13/52 = 1/4. A deck has 4 suits (spades, hearts, diamonds, clubs) with 13 cards each.",
+      "difficulty": "easy",
+      "tags": ["probability", "cards", "spades"]
+    }
+  ]
+}

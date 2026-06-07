@@ -1,0 +1,198 @@
+{
+  "goalId": "grade9-mathematics",
+  "title": "Grade 9 Mathematics — Constructions",
+  "description": "Geometric Constructions — bisectors, angles, triangles (CBSE Ch. 11)",
+  "category": "school",
+  "grade": 9,
+  "subject": "mathematics",
+  "level": 1,
+  "weekNum": 26,
+  "weekDay": null,
+  "questions": [
+    {
+      "id": "q_mathematics_9_constructions_001",
+      "goalId": "grade9-mathematics",
+      "question": "Which instrument is used along with an unmarked ruler to perform geometric constructions?",
+      "options": ["Protractor", "Set square", "Compass", "Divider"],
+      "correctIndex": 2,
+      "explanation": "A compass is used with an unmarked straightedge for all standard geometric constructions — drawing arcs, circles, and transferring lengths precisely without measurement markings.",
+      "difficulty": "easy",
+      "tags": ["constructions", "instruments"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_002",
+      "goalId": "grade9-mathematics",
+      "question": "The perpendicular bisector of a line segment AB passes through:",
+      "options": ["Point A only", "Point B only", "The midpoint of AB", "Either end of AB"],
+      "correctIndex": 2,
+      "explanation": "The perpendicular bisector of AB is a line that is perpendicular to AB and passes through its midpoint, dividing AB into two equal halves.",
+      "difficulty": "easy",
+      "tags": ["constructions", "perpendicular-bisector"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_003",
+      "goalId": "grade9-mathematics",
+      "question": "An angle of 60° is constructed by drawing two arcs of the same radius. What does this construction create?",
+      "options": [
+        "An equilateral triangle configuration where each angle is 60°",
+        "A right angle bisected into two 30° angles",
+        "A 120° angle trisected into three 40° angles",
+        "A 90° angle complemented to 30°"
+      ],
+      "correctIndex": 0,
+      "explanation": "When you draw an arc from the vertex and then from the point on the baseline with the same radius, you get a rhombus where three sides are equal — forming an equilateral triangle where each angle is 60°.",
+      "difficulty": "easy",
+      "tags": ["constructions", "60-degree"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_004",
+      "goalId": "grade9-mathematics",
+      "question": "To construct a 90° angle, one standard method is to:",
+      "options": [
+        "Bisect a 60° angle to get 30° then add 60°",
+        "Draw arcs to mark 60° and 120°, then bisect the arc between them",
+        "Trisect a straight angle (180°)",
+        "Bisect a 45° angle and add it to 45°"
+      ],
+      "correctIndex": 1,
+      "explanation": "Construct a 60° angle, then from the same point construct another 60° arc to mark the 120° position. The bisector of the arc between 60° and 120° gives 90°.",
+      "difficulty": "medium",
+      "tags": ["constructions", "90-degree"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_005",
+      "goalId": "grade9-mathematics",
+      "question": "An angle bisector divides an angle into:",
+      "options": ["Two equal angles", "Two complementary angles", "Two supplementary angles", "Two right angles"],
+      "correctIndex": 0,
+      "explanation": "An angle bisector is a ray that divides a given angle into two equal (congruent) angles. If the original angle is 80°, the bisector creates two 40° angles.",
+      "difficulty": "easy",
+      "tags": ["constructions", "angle-bisector"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_006",
+      "goalId": "grade9-mathematics",
+      "question": "A triangle with all three sides known (AB = 5 cm, BC = 7 cm, CA = 6 cm) is constructed using the:",
+      "options": ["ASA condition", "SAS condition", "AAS condition", "SSS condition"],
+      "correctIndex": 3,
+      "explanation": "When all three sides are given, we use the SSS (Side-Side-Side) congruence condition to construct the triangle. Draw the base, then intersect arcs for the other two sides.",
+      "difficulty": "easy",
+      "tags": ["constructions", "triangle", "SSS"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_007",
+      "goalId": "grade9-mathematics",
+      "question": "To construct a triangle using ASA (Angle-Side-Angle), what information is required?",
+      "options": [
+        "Any two angles and any side",
+        "Two angles and the side included between them",
+        "Two angles and the side opposite the larger angle",
+        "Three angles and one side"
+      ],
+      "correctIndex": 1,
+      "explanation": "ASA requires two angles and the side included between them (the side connecting both angles). Without the included side being specified, the triangle is not uniquely determined.",
+      "difficulty": "easy",
+      "tags": ["constructions", "triangle", "ASA"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_008",
+      "goalId": "grade9-mathematics",
+      "question": "An angle of 30° is constructed by:",
+      "options": ["Trisecting 90°", "Bisecting a 60° angle", "Halving a 45° angle", "Adding 15° to a 15° angle"],
+      "correctIndex": 1,
+      "explanation": "First construct a 60° angle (equilateral triangle method), then bisect it. Each half is 30°. Bisecting 60° is far simpler than trisecting 90°.",
+      "difficulty": "easy",
+      "tags": ["constructions", "30-degree"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_009",
+      "goalId": "grade9-mathematics",
+      "question": "An angle of 45° is constructed by:",
+      "options": [
+        "Bisecting a 30° angle and adding 30°",
+        "Trisecting a 135° angle",
+        "Constructing a 90° angle and then bisecting it",
+        "Adding a 15° angle to a 30° angle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Construct a 90° angle first, then bisect it. The bisector creates two 45° angles. This is the standard CBSE method for constructing 45°.",
+      "difficulty": "medium",
+      "tags": ["constructions", "45-degree"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_010",
+      "goalId": "grade9-mathematics",
+      "question": "A triangle can be constructed when:",
+      "options": [
+        "The sum of any two sides is greater than the third side",
+        "All three angles are equal",
+        "Two sides are equal",
+        "The hypotenuse is the longest side"
+      ],
+      "correctIndex": 0,
+      "explanation": "The triangle inequality states that for a valid triangle, the sum of any two sides must be strictly greater than the third side. If this condition fails, the sides cannot form a closed triangle.",
+      "difficulty": "medium",
+      "tags": ["constructions", "triangle-inequality"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_011",
+      "goalId": "grade9-mathematics",
+      "question": "The RHS (Right Angle-Hypotenuse-Side) condition for constructing a triangle requires:",
+      "options": [
+        "Two right angles and one side",
+        "A right angle, any side, and any angle",
+        "A right angle, the hypotenuse, and any other angle",
+        "A right angle, the hypotenuse, and one other side"
+      ],
+      "correctIndex": 3,
+      "explanation": "RHS requires a right angle, the hypotenuse (longest side opposite the right angle), and one other side. These three pieces of information uniquely determine the right-angled triangle.",
+      "difficulty": "medium",
+      "tags": ["constructions", "triangle", "RHS"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_012",
+      "goalId": "grade9-mathematics",
+      "question": "An angle of 75° is constructed as:",
+      "options": [
+        "Bisecting a 150° angle",
+        "Adding 45° and 30°",
+        "60° + bisector of the 30° arc between 60° and 90°",
+        "Subtracting 15° from 90°"
+      ],
+      "correctIndex": 2,
+      "explanation": "Construct 60° and 90°. The arc between them spans 30°. Bisect this arc to get 15°. Adding 60° + 15° = 75°. This is achieved by bisecting the arc between the 60° and 90° marks.",
+      "difficulty": "hard",
+      "tags": ["constructions", "75-degree"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_013",
+      "goalId": "grade9-mathematics",
+      "question": "How many arcs are drawn on each side of an angle when bisecting it using a compass?",
+      "options": ["1", "2", "3", "4"],
+      "correctIndex": 1,
+      "explanation": "When bisecting an angle: (1) draw an arc centred at the vertex cutting both arms at two points, then (2) draw equal arcs from each of those two points. The intersection of these two arcs gives the bisector direction. So two arcs are drawn from points on the arms.",
+      "difficulty": "medium",
+      "tags": ["constructions", "angle-bisector", "steps"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_014",
+      "goalId": "grade9-mathematics",
+      "question": "To construct an equilateral triangle with side 5 cm, which condition is used?",
+      "options": ["SSS, since all three sides are equal and known", "SAS, using the included angle of 60°", "Both SSS and SAS work equally well", "AAS, since all angles are 60°"],
+      "correctIndex": 2,
+      "explanation": "An equilateral triangle (side = 5 cm) can be constructed using SSS (draw 5 cm base, then arcs of radius 5 cm from both ends) or SAS (draw 5 cm base, mark 60° at one end, draw 5 cm along that ray). Both methods work — the answer acknowledges both.",
+      "difficulty": "medium",
+      "tags": ["constructions", "equilateral-triangle"]
+    },
+    {
+      "id": "q_mathematics_9_constructions_015",
+      "goalId": "grade9-mathematics",
+      "question": "In a triangle, if ∠B = 60°, AB = 6 cm, and BC = 5 cm, which construction condition is used?",
+      "options": ["SSS", "ASA", "SAS", "AAS"],
+      "correctIndex": 2,
+      "explanation": "We are given two sides (AB and BC) and the angle between them (∠B = 60°) — this is the SAS (Side-Angle-Side) condition. Draw BC = 5 cm, construct 60° at B, mark AB = 6 cm along the ray.",
+      "difficulty": "easy",
+      "tags": ["constructions", "triangle", "SAS"]
+    }
+  ]
+}

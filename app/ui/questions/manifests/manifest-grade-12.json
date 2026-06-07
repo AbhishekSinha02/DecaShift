@@ -26,5 +26,8 @@
   { "file": "school/grade-12/chemistry/w24-set1.json",          "category": "school", "grade": 12, "subject": "chemistry",        "level": 1, "weekNum": 24 },
   { "file": "school/grade-12/mathematics/w25-set1.json",        "category": "school", "grade": 12, "subject": "mathematics",      "level": 1, "weekNum": 25 },
   { "file": "school/grade-12/physics/w25-set1.json",            "category": "school", "grade": 12, "subject": "physics",          "level": 1, "weekNum": 25 },
-  { "file": "school/grade-12/chemistry/w25-set1.json",          "category": "school", "grade": 12, "subject": "chemistry",        "level": 1, "weekNum": 25 }
+  { "file": "school/grade-12/chemistry/w25-set1.json",          "category": "school", "grade": 12, "subject": "chemistry",        "level": 1, "weekNum": 25 },
+  { "file": "school/grade-12/mathematics/w26-set1.json",       "category": "school", "grade": 12, "subject": "mathematics",      "level": 1, "weekNum": 26 },
+  { "file": "school/grade-12/physics/w26-set1.json",           "category": "school", "grade": 12, "subject": "physics",          "level": 1, "weekNum": 26 },
+  { "file": "school/grade-12/chemistry/w26-set1.json",         "category": "school", "grade": 12, "subject": "chemistry",        "level": 1, "weekNum": 26 }
 ]
